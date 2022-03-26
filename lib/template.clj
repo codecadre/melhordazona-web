@@ -1,6 +1,6 @@
 #!/usr/bin/env /usr/local/bin/bb
 
-(ns cgi.template)
+(ns lib.template)
 
 (defn header [{:keys [title subtitle] :as content}]
   [:head

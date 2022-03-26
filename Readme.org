@@ -2,9 +2,19 @@
 
 
 - [X] load 2014 data with addresses on the cgi/clj script
-  - [X] how to require namespaces
-  - [ ] private github account
-  - [ ] get a working name
+
+  - [X] get a working name
+
+- [ ] Multilanguage support PT/EN
+
+
+** Technical/setup stuff
+
+- [X] how to require namespaces
+- [X] private github account
+- [X] cider repl with babashka setup
+- [X] slurp pdf
+
+- [ ]
 
 - [ ] shadow-clj build for frontend
-- [ ] Multilanguage support PT/EN
