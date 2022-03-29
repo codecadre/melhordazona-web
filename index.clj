@@ -1,13 +1,9 @@
 #!/usr/bin/env /usr/local/bin/bb
 
 (ns index
-  (:require [babashka.classpath :as cp]
-            [hiccup2.core :refer [html]]))
-
-(cp/add-classpath "lib:.")
-
-(require '[lib.template :as tmp])
-
+  (:require [bb-passrates.backend.templates.template :as tmp]
+            [hiccup2.core :refer [html]]
+            [cheshire.core :as json]))
 
 (def content
   {:title "Avaliações Abertas - Open Pass Rates"
@@ -15,8 +11,6 @@
    (str
     "Avaliações Abertas: Taxas de aprovação de condução. Dados do IMT."
     "- Open Pass Rates: Driving school pass rates in Portugal. - Government data.")})
-
-(require '[cheshire.core :as json])
 
 (def d (-> "./data/imtt-2014-all-plus-address-data.json"
            slurp

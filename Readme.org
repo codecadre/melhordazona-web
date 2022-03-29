@@ -39,4 +39,11 @@ Docs: https://nominatim.org/release-docs/latest/api/Search/
 
 ** logs
 
-docker exec -it clj_cgi_web_1 cat /var/log/apache2/error.log
+docker exec -it clj_cgi_web_1 tail -f -n 20 /var/log/apache2/error.log
+
+** babashka nrepl
+
+
+local$ bb nrepl
+
+then cider connect

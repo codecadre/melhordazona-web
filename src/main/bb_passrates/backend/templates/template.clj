@@ -1,6 +1,6 @@
 #!/usr/bin/env /usr/local/bin/bb
 
-(ns lib.template)
+(ns bb-passrates.backend.templates.template)
 
 (defn header [{:keys [title subtitle] :as content}]
   [:head

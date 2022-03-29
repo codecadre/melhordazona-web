@@ -1,6 +1,7 @@
 (ns user
-  (:require [babashka.classpath :as cp]))
+  ;;requiring classpath is not necessary if the path is configured in bb.edn
+  #_(:require [babashka.classpath :as cp]))
 
-(cp/add-classpath "lib:.")
+#_(cp/add-classpath "src/main/")
 
-(require '[lib.template :as tmp])
+(require '[bb-passrates.backend.templates.template :as tmp])
