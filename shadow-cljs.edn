@@ -1,0 +1,33 @@
+;; shadow-cljs configuration
+{:dependencies
+ [
+  [org.clojure/tools.reader "1.3.2"]
+  [tick "0.4.31-alpha"]
+  #_[thheller/shadow-cljsjs "0.0.16"]]
+
+ :nrepl
+ {:port 8202
+  :init-ns bb-passrates.shadow-repl}
+
+ :source-paths
+ ["src"
+  "dev"]
+
+ :builds
+ {:main
+  {:target :browser
+   :open-file-command
+   ["emacsclient" "-n" ["+%s:%s" :line :column] :file]
+   :output-dir "target/shadow-builds/public/main/js"
+   :asset-path "/main/js"
+   :modules {:main {:init-fn bb-passrates.frontend.index/init}}
+   :dev {:compiler-options  {:cross-chunk-method-motion false
+                             :source-map true
+                             :rewrite-polyfills true
+                             :ouput-feature-set :es3
+                             :pseudo-names true
+                             :pretty-print  true}}
+   :release {:compiler-options  {:optimizations :advanced
+                                 :rewrite-polyfills true
+                                 :ouput-feature-set :es3
+                                 :cross-chunk-method-motion false}}}}}

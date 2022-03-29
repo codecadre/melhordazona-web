@@ -15,6 +15,28 @@
 - [X] cider repl with babashka setup
 - [X] slurp pdf
 
-- [ ]
-
 - [ ] shadow-clj build for frontend
+- [ ] Workspaces build
+- [ ] Address search box
+  - https://www.geoapify.com/pricing
+  - https://leafletjs.com/SlavaUkraini/examples.html
+
+* Nominatim
+
+https://github.com/mediagis/nominatim-docker/tree/master/4.0
+
+docker run -it --rm \
+  -e PBF_URL=https://download.geofabrik.de/europe/portugal-latest.osm.pbf \
+  -e REPLICATION_URL=https://download.geofabrik.de/europe/portugal-updates/ \
+  -p 8080:8080 \
+  --name nominatim \
+  mediagis/nominatim:4.0
+
+http://localhost:8080/search.php?q=rua%20vale%20formoso
+Docs: https://nominatim.org/release-docs/latest/api/Search/
+
+* Util
+
+** logs
+
+docker exec -it clj_cgi_web_1 cat /var/log/apache2/error.log

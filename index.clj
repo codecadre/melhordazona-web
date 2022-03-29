@@ -25,7 +25,9 @@
 (def page
   [:html (tmp/header content)
    [:div
-    [:h1 "You have " (count d) " schools"]]])
+    [:h1 "You have " (count d) " schools"]
+    [:h2 "Components:"]
+    [:a {:href "/searchbox.clj"} "searchbox" ]]])
 
 (println "Content-type:text/html\r\n")
 (println (str (html page)))
