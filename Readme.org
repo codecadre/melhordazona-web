@@ -13,10 +13,13 @@
 
 
 ** /location autocomple
+
+   places list gets loaded in the frontend and is used for autocomplete. No need to fetch the server
+
 - [X] edn file with names
 - [X] list of places
 - [X] lib that gets sugestions main/query-place-list
-- [ ] /place-match endpoint
+- [X] place-match functionality  in frontend
 - [ ] frontend page
 
 ** Technical/setup stuff
