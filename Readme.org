@@ -14,10 +14,9 @@
 
 ** /location autocomple
 - [X] edn file with names
-
-- [ ] /names endpoint
-- [ ] edn list of places
-- [ ] lib that gets sugestions
+- [X] list of places
+- [X] lib that gets sugestions main/query-place-list
+- [ ] /place-match endpoint
 - [ ] frontend page
 
 ** Technical/setup stuff
@@ -60,7 +59,7 @@ local$ bb nrepl
 then cider connect
 
 * API
-
+A
 ** Names endpoint
 
 json endpoint that returns name sugestions and lat/long and others.

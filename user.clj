@@ -42,15 +42,15 @@
     (vec (flatten [(map #(hash-map
                            :k (keyword "municipality" (name (string->keyword %)))
                            :name %
-                           :search-items (clean-strings %)) municipalities)
+                           :search-field (apply str (interpose " " (clean-strings %)))) municipalities)
                    (map #(hash-map
                            :k (keyword "city" (name (string->keyword %)))
                            :name %
-                           :search-items (clean-strings %)) cities)
+                           :search-field (apply str (interpose " " (clean-strings %)))) cities)
                    (map #(hash-map
                            :k (keyword "district" (name (string->keyword %)))
                            :name %
-                           :search-items (clean-strings %)) districts)]))))
+                           :search-field (apply str (interpose " " (clean-strings %)))) districts)]))))
 
 (names-list)
 

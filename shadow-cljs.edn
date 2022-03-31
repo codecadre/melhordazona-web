@@ -10,7 +10,7 @@
   :init-ns bb-passrates.shadow-repl}
 
  :source-paths
- ["src"
+ ["src/main"
   "dev"]
 
  :builds
