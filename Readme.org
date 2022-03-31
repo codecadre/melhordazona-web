@@ -2,11 +2,23 @@
 
 
 - [X] load 2014 data with addresses on the cgi/clj script
-
-  - [X] get a working name
-
+- [X] get a working name
+- [ ] Access if nominatim is valid and host it
 - [ ] Multilanguage support PT/EN
+- [ ] Massage municipality of schools
 
+** json parse
+   parse a json file into the directory structure
+- [ ] create bb task that parses the json and spits schools
+
+
+** /location autocomple
+- [ ] edn file with names
+
+- [ ] /names endpoint
+- [ ] edn list of places
+- [ ] lib that gets sugestions
+- [ ] frontend page
 
 ** Technical/setup stuff
 
@@ -15,7 +27,7 @@
 - [X] cider repl with babashka setup
 - [X] slurp pdf
 
-- [ ] shadow-clj build for frontend
+- [X] shadow-clj build for frontend
 - [ ] Workspaces build
 - [ ] Address search box
   - https://www.geoapify.com/pricing
@@ -25,7 +37,7 @@
 
 https://github.com/mediagis/nominatim-docker/tree/master/4.0
 
-docker run -it --rm \
+docker run -it --rm -d \
   -e PBF_URL=https://download.geofabrik.de/europe/portugal-latest.osm.pbf \
   -e REPLICATION_URL=https://download.geofabrik.de/europe/portugal-updates/ \
   -p 8080:8080 \
@@ -43,7 +55,14 @@ docker exec -it clj_cgi_web_1 tail -f -n 20 /var/log/apache2/error.log
 
 ** babashka nrepl
 
-
 local$ bb nrepl
 
 then cider connect
+
+* API
+
+** Names endpoint
+
+json endpoint that returns name sugestions and lat/long and others.
+
+/names?q=rua+vale+formoso+lisboa
