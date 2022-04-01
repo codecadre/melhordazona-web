@@ -18,8 +18,14 @@
 
 (def page
   [:html (tmp/header content)
-   [:div
-    [:p "Pesquisa por cidade/distrito/municipio"]
+   [:body
+    [:div {:class "wrapper"}
+     [:div {:class "search-input"}
+      [:input {:type "text" :placeholder "Pesquisa por cidade/distrito/municipio"}]
+      [:div {:class "autocomplete-box"}
+       [:li "Alfandega da Fé"]
+       [:li "Peso da Régua"]
+       [:li "Proença a Nova"]]]]
     ]])
 
 (println "Content-type:text/html\r\n")

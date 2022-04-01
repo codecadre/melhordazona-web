@@ -7,6 +7,11 @@
 - [ ] Multilanguage support PT/EN
 - [ ] Massage municipality of schools
 
+** css pipeline
+ - [X] basic less pipeline
+ - [ ] file watcher
+ - [ ] babashka file watcher
+
 ** json parse
    parse a json file into the directory structure
 - [ ] create bb task that parses the json and spits schools
@@ -68,3 +73,7 @@ A
 json endpoint that returns name sugestions and lat/long and others.
 
 /names?q=rua+vale+formoso+lisboa
+
+** less
+
+lessc .src/less/main.less target/main.css
