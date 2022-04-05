@@ -6,20 +6,15 @@
 - +Access if nominatim is valid and host it+
 - [ ] Multilanguage support PT/EN
   - [ ] basic solution
-- [ ] Massage municipality of schools
 
-** css pipeline
- - [X] basic less pipeline
- - [X] file watcher
- - +babashka file watcher+
-
-** json parse
+** Data parsing
    parse a json file into the directory structure
 
 - [ ] create bb task that parses the json and spits schools
 - [ ] places list needs a display tag for municipio/district/etc
+- [ ] Massage municipality of schools
 
-** /location autocomple
+** places autocomplete
 
    places list gets loaded in the frontend and is used for autocomplete. No need to fetch the server
 
@@ -45,6 +40,11 @@
 - +Address search box+
   - https://www.geoapify.com/pricing
   - https://leafletjs.com/SlavaUkraini/examples.html
+
+- [X] css pipeline
+  - [X] basic less pipeline
+  - [X] file watcher
+  - +babashka file watcher+
 
 * Nominatim
 
