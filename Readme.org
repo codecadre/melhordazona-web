@@ -18,7 +18,7 @@
 #+END:
 
 
-- [ ]  Data parsing
+- [-]  Data parsing
    parse a json file into the directory structure
 
   - [X] load 2014 data with addresses on the cgi/clj script
@@ -26,7 +26,7 @@
   - [ ] places list needs a display tag for municipio/district/etc
   - [ ] Massage municipality of schools
 
-- [ ]  places autocomplete
+- [-]  places autocomplete
 
    places list gets loaded in the frontend and is used for autocomplete. No need to fetch the server
 
@@ -37,7 +37,7 @@
   - [-] frontend page
     - [X] basic autocomplete flow
     - [ ] icons/styling
-    - [ ] generate links from k
+    - [X] generate links from k
 #+BEGIN: clocktable :scope subtree :maxlevel 2
 #+CAPTION: Clock summary at [2022-04-05 Tue 11:54]
 | Headline     | Time   |
