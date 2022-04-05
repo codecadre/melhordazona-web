@@ -1,49 +1,49 @@
 * Roadmap
 
-** DONE get a working name
+- [X] get a working name
 
-** Multilanguage support PT/EN
+- [ ]  Multilanguage support PT/EN
   - [ ] basic solution
 
-** Data parsing
+- [ ]  Data parsing
    parse a json file into the directory structure
 
-- [X] load 2014 data with addresses on the cgi/clj script
-- [ ] create bb task that parses the json and spits schools
-- [ ] places list needs a display tag for municipio/district/etc
-- [ ] Massage municipality of schools
+  - [X] load 2014 data with addresses on the cgi/clj script
+  - [ ] create bb task that parses the json and spits schools
+  - [ ] places list needs a display tag for municipio/district/etc
+  - [ ] Massage municipality of schools
 
-** places autocomplete
+- [ ]  places autocomplete
 
    places list gets loaded in the frontend and is used for autocomplete. No need to fetch the server
 
-- [X] edn file with names
-- [X] list of places
-- [X] lib that gets sugestions main/query-place-list
-- [X] place-match functionality  in frontend
-- [-] frontend page
-  - [X] basic autocomplete flow
-  - [ ] icons/styling
-  - [ ] generate links from k
+  - [X] edn file with names
+  - [X] list of places
+  - [X] lib that gets sugestions main/query-place-list
+  - [X] place-match functionality  in frontend
+  - [-] frontend page
+    - [X] basic autocomplete flow
+    - [ ] icons/styling
+    - [ ] generate links from k
 
-** Technical/setup stuff
+- [ ]  Technical/setup stuff
 
-- [X] how to require namespaces
-- [X] private github account
-- [X] cider repl with babashka setup
-- [X] slurp pdf
+  - [X] how to require namespaces
+  - [X] private github account
+  - [X] cider repl with babashka setup
+  - [X] slurp pdf
 
-- [X] shadow-clj build for frontend
-- [X] Workspaces build
-- [X] browser hot reload
-- +Address search box+
+  - [X] shadow-clj build for frontend
+  - [X] Workspaces build
+  - [X] browser hot reload
+  - +Address search box+
   - https://www.geoapify.com/pricing
   - https://leafletjs.com/SlavaUkraini/examples.html
 
-- [X] css pipeline
-  - [X] basic less pipeline
-  - [X] file watcher
-  - +babashka file watcher+
+  - [X] css pipeline
+    - [X] basic less pipeline
+    - [X] file watcher
+    - +babashka file watcher+
 
 ** +Access if nominatim is valid and host it+
 
