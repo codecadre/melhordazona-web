@@ -6,11 +6,18 @@
 
 (def lang :pt)
 
+(def seo
+  {"district" "distritos"
+   "municipality" "municipios"
+   "city" "cidades"})
+
 (defn dom-build-li [{:keys [name k search-field] :as suggestion}]
   (let [li (.createElement js/document "li")
-        a (.createElement js/document "a")]
-    (.setAttribute a "href" k)
-    (set! (.-innerText a) name)
+        a (.createElement js/document "a")
+        type (-> k namespace)
+        label (get-in copy-list [(keyword "autocomplete" type) lang])]
+    (.setAttribute a "href" (str "/" (get seo type) "/" (clojure.core/name k)))
+    (set! (.-innerText a) (str name " (" label ")"))
     (.appendChild li a)
     (.-outerHTML li)))
 
@@ -45,5 +52,3 @@
 (defn init []
   (let [input (.querySelector js/document ".search-wrapper .search-input input" )]
     (set! (.-onkeyup input) on-key-fn)))
-
-(-> copy-list :autocomplete/district lang)
