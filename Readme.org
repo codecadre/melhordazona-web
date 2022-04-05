@@ -1,9 +1,21 @@
 * Roadmap
+  :LOGBOOK:
+  CLOCK: [2022-04-05 Tue 10:47]--[2022-04-05 Tue 10:51] =>  0:04
+  :END:
 
 - [X] get a working name
 
 - [ ]  Multilanguage support PT/EN
   - [ ] basic solution
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2022-04-05 Tue 10:52]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:04* |
+|--------------+--------|
+| Roadmap      | 0:04   |
+#+END:
+
 
 - [ ]  Data parsing
    parse a json file into the directory structure
@@ -26,6 +38,13 @@
     - [ ] icons/styling
     - [ ] generate links from k
 
+
+- [ ] main page
+
+- [ ] listing page
+
+- [ ] school page ?
+
 - [ ]  Technical/setup stuff
 
   - [X] how to require namespaces
@@ -45,7 +64,7 @@
     - [X] file watcher
     - +babashka file watcher+
 
-** +Access if nominatim is valid and host it+
+- +Access if nominatim is valid and host it+
 
 
 * Nominatim

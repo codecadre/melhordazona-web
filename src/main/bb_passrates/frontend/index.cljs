@@ -1,8 +1,10 @@
 (ns bb-passrates.frontend.index
   (:require [bb-passrates.shared.places :refer [places]]
             [bb-passrates.shared.main :refer [query-place-list]]
+            [bb-passrates.shared.copy :refer [copy-list]]
             [clojure.string :as clj-str]))
 
+(def lang :pt)
 
 (defn dom-build-li [{:keys [name k search-field] :as suggestion}]
   (let [li (.createElement js/document "li")
@@ -43,3 +45,5 @@
 (defn init []
   (let [input (.querySelector js/document ".search-wrapper .search-input input" )]
     (set! (.-onkeyup input) on-key-fn)))
+
+(-> copy-list :autocomplete/district lang)
