@@ -21,12 +21,22 @@
     "Avaliações Abertas: Taxas de aprovação de condução. Dados do IMT."
     "- Open Pass Rates: Driving school pass rates in Portugal. - Government data.")})
 
+(first list)
+
+(defn hiccup-school [{:keys [name address contacts]}]
+  [:div.school
+   [:div.name [:h4 name]]
+   [:div.address (:raw address)]])
+
 (def page
   [:html
    (tmp/header
     content
     [:body
-     [:p (str list)]])])
+
+     [:div.row
+      [:div ]
+      [:div.list (map hiccup-school list)]]])])
 
 (println "Content-type:text/html\r\n")
 (println (str (html page)))
