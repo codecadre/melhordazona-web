@@ -1,9 +1,6 @@
 ;; shadow-cljs configuration
 {:dependencies
- [
-  [org.clojure/tools.reader "1.3.2"]
-  [tick "0.4.31-alpha"]
-  #_[thheller/shadow-cljsjs "0.0.16"]]
+ [#_[tick "0.4.31-alpha"]]
 
  :nrepl
  {:port 8202
@@ -16,7 +13,7 @@
  :builds
  {:main
   {:target :browser
-   :open-file-command
+   #_#_:open-file-command
    ["emacsclient" "-n" ["+%s:%s" :line :column] :file]
    :output-dir "target/shadow-builds/public/main/js"
    :asset-path "/main/js"

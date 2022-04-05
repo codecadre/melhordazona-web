@@ -3,19 +3,21 @@
 
 - [X] load 2014 data with addresses on the cgi/clj script
 - [X] get a working name
-- [ ] Access if nominatim is valid and host it
+- +Access if nominatim is valid and host it+
 - [ ] Multilanguage support PT/EN
+  - [ ] basic solution
 - [ ] Massage municipality of schools
 
 ** css pipeline
  - [X] basic less pipeline
- - [ ] file watcher
- - [ ] babashka file watcher
+ - [X] file watcher
+ - +babashka file watcher+
 
 ** json parse
    parse a json file into the directory structure
-- [ ] create bb task that parses the json and spits schools
 
+- [ ] create bb task that parses the json and spits schools
+- [ ] places list needs a display tag for municipio/district/etc
 
 ** /location autocomple
 
@@ -25,7 +27,10 @@
 - [X] list of places
 - [X] lib that gets sugestions main/query-place-list
 - [X] place-match functionality  in frontend
-- [ ] frontend page
+- [-] frontend page
+  - [X] basic autocomplete flow
+  - [ ] icons/styling
+  - [ ] generate links from k
 
 ** Technical/setup stuff
 
@@ -35,8 +40,9 @@
 - [X] slurp pdf
 
 - [X] shadow-clj build for frontend
-- [ ] Workspaces build
-- [ ] Address search box
+- [X] Workspaces build
+- [X] browser hot reload
+- +Address search box+
   - https://www.geoapify.com/pricing
   - https://leafletjs.com/SlavaUkraini/examples.html
 
@@ -67,7 +73,7 @@ local$ bb nrepl
 then cider connect
 
 * API
-A
+
 ** Names endpoint
 
 json endpoint that returns name sugestions and lat/long and others.
@@ -77,3 +83,9 @@ json endpoint that returns name sugestions and lat/long and others.
 ** less
 
 lessc .src/less/main.less target/main.css
+
+or
+
+npx less-watch-compiler src/less/ target/css/
+
+** hot reload by live.js

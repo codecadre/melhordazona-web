@@ -25,7 +25,7 @@
    (shadow/watch build-id {:verbose true})
    (shadow/nrepl-select build-id)))
 
-(server/start!)
+#_(server/start!)
 
 (comment
   (watch-main)

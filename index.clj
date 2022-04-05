@@ -17,16 +17,17 @@
            (json/parse-string true)))
 
 (def page
-  [:html (tmp/header content)
-   [:body
-    [:div {:class "wrapper"}
-     [:div {:class "search-input"}
-      [:input {:type "text" :placeholder "Pesquisa por cidade/distrito/municipio"}]
-      [:div {:class "autocomplete-box"}
-       [:li "Alfandega da Fé"]
-       [:li "Peso da Régua"]
-       [:li "Proença a Nova"]]]]
-    ]])
+  [:html
+   (tmp/header
+    content
+    [:body
+     [:form
+      [:div.row
+       [:div.six.columns
+        [:div.search-wrapper
+         [:div.search-input
+          [:input.u-full-width {:type "text" :placeholder "Pesquisa por cidade/distrito/municipio"}]
+          [:div.autocomplete-box]]]]]]])])
 
 (println "Content-type:text/html\r\n")
 (println (str (html page)))
