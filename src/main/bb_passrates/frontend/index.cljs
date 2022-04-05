@@ -1,15 +1,10 @@
 (ns bb-passrates.frontend.index
   (:require [bb-passrates.shared.places :refer [places]]
-            [bb-passrates.shared.main :refer [query-place-list]]
+            [bb-passrates.shared.main :refer [query-place-list seo lang]]
             [bb-passrates.shared.copy :refer [copy-list]]
             [clojure.string :as clj-str]))
 
-(def lang :pt)
 
-(def seo
-  {"district" "distritos"
-   "municipality" "municipios"
-   "city" "cidades"})
 
 (defn dom-build-li [{:keys [name k search-field] :as suggestion}]
   (let [li (.createElement js/document "li")

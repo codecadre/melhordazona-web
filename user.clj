@@ -7,6 +7,7 @@
            slurp
            (json/parse-string true)))
 
+
 (defn get-places-fn
   [k] (set (remove empty? (map #(-> % :address k) d))))
 
@@ -87,44 +88,30 @@
     :district})
 
 
-(require '[bb-passrates.backend.places :refer [places]])
+(comment
+  (require '[babashka.pods :as pods])
+  (pods/load-pod 'org.babashka/fswatcher "0.0.2")
 
-(defn match-places
-  "given a string, finds matches in places list"
-  [s]
-  (let [s (string->keyword s)]
-    s))
+  (require '[pod.babashka.fswatcher :as fw])
 
-(name (match-places "Lisbo"))
+  (require '[babashka.process :refer [process check]])
 
-(time (filter #(clj-str/includes? (name %) "lis") places))
-(time (+ 1 1))
+  #_(def watcher (fw/watch "less" (fn [event]
+                                    (let [{:keys [err out]} (-> (process '[sh -c "lessc less/main.less css/main.css"]))
+                                          err (slurp err)
+                                          out (slurp out)]
+                                      (when (not (empty? err)) (prn (slurp err)))
+                                      (when (not (empty? out)) (prn (slurp out)))))))
+  #_(fw/unwatch watcher)
 
-(re-matches #"Lis" "Lisboa")
+  (-> (process ["lessc less/main.less css/main.css"] {:out :string}) check :out str/split-lines first)
 
-(re-matches #)
+  (-> (process '[echo $PWD] {:out :string}) check :out slurp)
 
-(require '[clojure.core.match :as m])
+  (-> (process '[sh -c "echo $PWD"]) check :out slurp))
 
-(clj-str/includes? :hello :h)
 
-(require '[babashka.pods :as pods])
-(pods/load-pod 'org.babashka/fswatcher "0.0.2")
 
-(require '[pod.babashka.fswatcher :as fw])
-
-(require '[babashka.process :refer [process check]])
-
-#_(def watcher (fw/watch "less" (fn [event]
-                                (let [{:keys [err out]} (-> (process '[sh -c "lessc less/main.less css/main.css"]))
-                                      err (slurp err)
-                                      out (slurp out)]
-                                  (when (not (empty? err)) (prn (slurp err)))
-                                  (when (not (empty? out)) (prn (slurp out)))))))
-(fw/unwatch watcher)
-
-(-> (process ["lessc less/main.less css/main.css"] {:out :string}) check :out str/split-lines first)
-
-(-> (process '[echo $PWD] {:out :string}) check :out slurp)
-
-(-> (process '[sh -c "echo $PWD"]) check :out slurp)
+((def d (-> "./data/city-lisbon.edn"
+           slurp
+           (json/parse-string true))))

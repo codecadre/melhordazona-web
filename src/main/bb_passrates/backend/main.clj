@@ -5,7 +5,7 @@
             [clojure.string :as clj-str]
             [babashka.curl :as curl]
             [cheshire.core :as json]
-            [bb-passrates.backend.places :refer [places]]))
+            [bb-passrates.shared.places :refer [places]]))
 
 (defn nominatim-url []
   (-> "config.edn" slurp edn/read-string :nominatim))

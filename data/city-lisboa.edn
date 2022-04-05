@@ -1,0 +1,84 @@
+[{:name "Tamariz",
+  :number "693",
+  :address
+  {:streetName "Rua Biarritz",
+   :raw "Rua Biarritz, nº 4A, 2765-200 Estoril",
+   :city "Estoril",
+   :municipality "Estoril",
+   :longitude -9.395334,
+   :zipcode "2765-200",
+   :streetNumber "4",
+   :googlePlaceId "ChIJ7-tykBEIGg0Rqn4Hfw14iIw",
+   :noEntriesAtGMaps false,
+   :latitude 38.7037395,
+   :formattedAddress "Rua Biarritz, nº 4A, 2765-200 Estoril",
+   :duplicatedAtGMaps false,
+   :district "Lisboa"},
+  :contacts
+  {:phone 214661804,
+   :mobile [912227444 917916688],
+   :fax 229740230,
+   :website "",
+   :facebook
+   "https://www.facebook.com/Escola-de-Condu%C3%A7%C3%A3o-Tamariz-191841094193451",
+   :email "ectamariz@gmail.com"},
+  :rating
+  {:theory
+   {:totalExams "", :totalApproval "", :bExams "", :bApproval ""},
+   :practice
+   {:totalExams "", :totalApproval "", :bExams "", :bApproval ""}}}
+ {:name "X-PTO",
+  :number "1288",
+  :address
+  {:streetName "",
+   :observations "",
+   :raw "Av. Magalhães Coutinho Nº17 - Loja 1 2675-654 Odivelas",
+   :city "Odivelas",
+   :municipality "",
+   :longitude -9.194462,
+   :zipcode "",
+   :streetNumber "",
+   :latitude 38.791222,
+   :formattedAddress
+   "Av. Magalhães Coutinho Nº17 - Loja 1 2675-654 Odivelas",
+   :district "Lisboa"},
+  :contacts
+  {:phone 219328796,
+   :mobile [961303993 935842499 916372020],
+   :fax nil,
+   :website "http://x-pto.com",
+   :facebook "https://www.facebook.com/ecxpto",
+   :email "geral@x-pto.com"},
+  :rating
+  {:theory
+   {:totalExams "", :totalApproval "", :bExams "", :bApproval ""},
+   :practice
+   {:totalExams "", :totalApproval "", :bExams "", :bApproval ""}}}
+ {:name "Baptista & Gomes",
+  :number "1282",
+  :address
+  {:streetName "",
+   :observations "",
+   :raw "Rua Natalia Correia lt 44 - Loja B, 2635-475 Rio de Mouro",
+   :city "Rio de Mouro",
+   :municipality "",
+   :longitude -9.318716,
+   :zipcode "",
+   :streetNumber "",
+   :latitude 38.765892,
+   :formattedAddress
+   "Rua Natalia Correia lt 44 - Loja B, 2635-475 Rio de Mouro",
+   :district "Lisboa"},
+  :contacts
+  {:phone 211933952,
+   :mobile [918836493],
+   :fax nil,
+   :website "http://www.ecbatistagomes.com",
+   :facebook
+   "https://www.facebook.com/Escola-de-Condu%C3%A7%C3%A3o-Batista-Gomes-197570323593454",
+   :email "ec.batistagomes@gmail.com"},
+  :rating
+  {:theory
+   {:totalExams "", :totalApproval "", :bExams "", :bApproval ""},
+   :practice
+   {:totalExams "", :totalApproval "", :bExams "", :bApproval ""}}}]
