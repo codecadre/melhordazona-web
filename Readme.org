@@ -1,15 +1,14 @@
 * Roadmap
 
+** DONE get a working name
 
-- [X] load 2014 data with addresses on the cgi/clj script
-- [X] get a working name
-- +Access if nominatim is valid and host it+
-- [ ] Multilanguage support PT/EN
+** Multilanguage support PT/EN
   - [ ] basic solution
 
 ** Data parsing
    parse a json file into the directory structure
 
+- [X] load 2014 data with addresses on the cgi/clj script
 - [ ] create bb task that parses the json and spits schools
 - [ ] places list needs a display tag for municipio/district/etc
 - [ ] Massage municipality of schools
@@ -45,6 +44,9 @@
   - [X] basic less pipeline
   - [X] file watcher
   - +babashka file watcher+
+
+** +Access if nominatim is valid and host it+
+
 
 * Nominatim
 
