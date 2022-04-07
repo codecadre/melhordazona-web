@@ -8,7 +8,8 @@
    [:meta {:content "width=device-width, initial-scale=1, maximum-scale=1" :name "viewport"}]
    [:meta {:name "description" :content subtitle}]
    [:link {:href "/target/css/main.css", :rel "stylesheet"}]
-   [:script {:src "https://livejs.com/live.js"}]
+   [:link {:rel "stylesheet" :href "/node_modules/leaflet/dist/leaflet.css" :crossorigin ""}]
+   #_[:script {:src "https://livejs.com/live.js"}]
    [:title title]
    body
    [:script {:src "/target/shadow-builds/public/main/js/main.js"}]

@@ -2,7 +2,8 @@
   (:require [bb-passrates.shared.places :refer [places]]
             [bb-passrates.shared.main :refer [query-place-list seo lang]]
             [bb-passrates.shared.copy :refer [copy-list]]
-            [clojure.string :as clj-str]))
+            [clojure.string :as clj-str]
+            ["leaflet" :as LEAFLET]))
 
 
 
@@ -44,6 +45,15 @@
       (dom-hide-search-wrapper))))
 
 
+(defn set-map []
+  (let [map (.setView (.map js/L "map") (.latLng  js/L 38.7166700 -9.13333) 13)]
+    (.addTo (.tileLayer js/L "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                         {:attribution "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"})
+            map)
+
+))
+
 (defn init []
   (let [input (.querySelector js/document ".search-wrapper .search-input input" )]
+    (set-map)
     (set! (.-onkeyup input) on-key-fn)))

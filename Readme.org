@@ -1,6 +1,6 @@
 * Roadmap
 
-** get a working name
+** DONE get a working name
 
 ** Multilanguage support PT/EN
 *** DONE basic solution
@@ -9,9 +9,9 @@
    parse a json file into the directory structure
 
 ** DONE load 2014 data with addresses on the cgi/clj script
-** TODO create bb task that parses the json and spits schools
-** TODO places list needs a display tag for municipio/district/etc
-** TODO Massage municipality of schools
+*** TODO create bb task that parses the json and spits schools
+*** TODO places list needs a display tag for municipio/district/etc
+*** TODO Massage municipality of schools
 
 ** places autocomplete
 
@@ -30,13 +30,20 @@
 
 ** main page
 
+   Style around the autocomplete search box
+
 ** TODO listing page
 *** DONE load listing data
     :LOGBOOK:
     CLOCK: [2022-04-05 Tue 15:59]--[2022-04-05 Tue 16:35] =>  0:36
     :END:
 
-*** TODO Display basic map
+*** DONE Bundle leaflet
+    :LOGBOOK:
+    CLOCK: [2022-04-07 Thu 16:50]--[2022-04-07 Thu 17:51] =>  1:01
+    :END:
+
+*** DONE Display basic map
 *** DONE display listing with addresses
     :LOGBOOK:
     CLOCK: [2022-04-05 Tue 16:46]--[2022-04-05 Tue 17:07] =>  0:21
@@ -46,6 +53,7 @@
 ** school page ?
 
 ** Technical/setup stuff
+*** TODO Bunde css into less files
 
   - [X] how to require namespaces
   - [X] private github account

@@ -33,7 +33,8 @@
    (tmp/header
     content
     [:body
-
+     [:div.map-wrapper
+      [:div#map]]
      [:div.row
       [:div ]
       [:div.list (map hiccup-school list)]]])])
