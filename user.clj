@@ -110,8 +110,10 @@
 
   (-> (process '[sh -c "echo $PWD"]) check :out slurp))
 
-
-
-((def d (-> "./data/city-lisbon.edn"
+(def d (-> "./data/city-lisboa.edn"
            slurp
-           (json/parse-string true))))
+           edn/read-string))
+
+
+
+(take 30 (->> d (filter #(= "Lisboa" (-> % :address :city ))) ))

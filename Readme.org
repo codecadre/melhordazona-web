@@ -2,37 +2,10 @@
 
 ** DONE get a working name
 
-** Multilanguage support PT/EN
+** DONE Multilanguage support PT/EN
 *** DONE basic solution
 
-** Data parsing
-   parse a json file into the directory structure
-
-** DONE load 2014 data with addresses on the cgi/clj script
-*** TODO create bb task that parses the json and spits schools
-*** TODO places list needs a display tag for municipio/district/etc
-*** TODO Massage municipality of schools
-
-** places autocomplete
-
-   places list gets loaded in the frontend and is used for autocomplete. No need to fetch the server
-
-*** DONE edn file with names
-*** DONE list of places
-*** DONE lib that gets sugestions main/query-place-list
-*** DONE place-match functionality  in frontend
-*** TODO frontend page
-**** DONE basic autocomplete flow
-**** TODO icons/styling
-**** DONE generate links from k
-
-** routing
-
-** main page
-
-   Style around the autocomplete search box
-
-** TODO listing page
+** TODO listing page (1/2 day)
 *** DONE load listing data
     :LOGBOOK:
     CLOCK: [2022-04-05 Tue 15:59]--[2022-04-05 Tue 16:35] =>  0:36
@@ -48,10 +21,48 @@
     :LOGBOOK:
     CLOCK: [2022-04-05 Tue 16:46]--[2022-04-05 Tue 17:07] =>  0:21
     :END:
-*** TODO display ratings
+*** DONE Display markers and centre the map 1:20
+    :LOGBOOK:
+    CLOCK: [2022-04-07 Thu 21:32]--[2022-04-07 Thu 22:33] =>  1:01
+    :END:
+*** DONE load 30 school and check permliminary performance
+    :LOGBOOK:
+    CLOCK: [2022-04-07 Thu 20:53]--[2022-04-07 Thu 21:08] =>  0:15
+    :END:
 
-** school page ?
+*** TODO Finish markup 2-3 hours
+** TODO load 2014 data with addresses on the cgi/clj script
+*** TODO create bb task that parses the json and spits schools
+*** TODO places list needs a display tag for municipio/district/etc
+*** TODO Massage municipality of schools
+** TODO places autocomplete (1h)
 
+   places list gets loaded in the frontend and is used for autocomplete. No need to fetch the server
+*** TODO styling
+*** DONE edn file with names
+*** DONE list of places
+*** DONE lib that gets sugestions main/query-place-list
+*** DONE place-match functionality  in frontend
+** TODO routing (2 hours)
+** TODO page generator (1 week)
+   Generate a page from a Markdown to hiccup
+*** TODO Build generator (1-w)
+*** TODO Privacy policy, DPA (1-3 day at least...)
+*** TODO about
+*** TODO FAQ
+
+
+*** DONE basic autocomplete flow
+*** TODO icons/styling
+*** DONE generate links from k
+** TODO frontend page (1h)
+*** TODO Language selector (20 min)
+*** TODO bottom section (30 min)** TODO Data parsing (1h)
+   parse a json file into the directory structure
+** TODO Hosting (3 hours)
+** TODO display ratings (1 - 2 days)
+*** TODO parse and import PDFs
+*** TODO style listing page
 ** Technical/setup stuff
 *** TODO Bunde css into less files
 
