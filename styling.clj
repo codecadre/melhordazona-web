@@ -48,25 +48,39 @@
      {:d
       "M17.48,35.21c-.85,2-3,2.83-6.18,2.83-4.67,0-6.68-1.7-6.68-5.4s2-5.34,6.68-5.34c3.35,0,5.48.86,6.26,3L21.9,28.6c-1.36-3.41-4.82-5.18-10.6-5.18C3.39,23.42,0,26.68,0,32.64s3.39,9.28,11.3,9.28c5.69,0,9.12-1.74,10.53-5.06Z"}]]]])
 
-
-
 (def page
   [:html
    (tmp/header
     content
     [:body
-     [:h1 "This is a header."]
-     [:button#background-color "Purple background"]
-     [:p (str "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
-              "sed do eiusmod tempor incididunt ut labore et dolore magna"
-              "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
-              "ullamco laboris nisi ut aliquip ex ea commodo consequat."
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse"
-              "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
-              "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
-              "anim id est laborum.")]
-     svg-code-cadre
-     [:img {:src "/public/img/code-cadre-logo.png"}]]
+     [:header
+      [:div {:class "container"}
+       [:h2.title
+        [:strong
+         [:a {:href "/"} "Passa à Primeira"]]]
+       [:h5 "O teu guia (não) oficial para as taxas de aprovação do IMT"]
+       [:div {:class "col-12 col-sm-4 col-md-5"}
+        [:div.about
+         [:p
+          [:i "Personal website."
+           [:br]"Past projects, blogging."]]]]
+       [:div {:class "col-12 col-sm-4"}
+        [:div {:class "social-links"}
+         [:div [:a {:href "/acerca/"} [:strong "Acerca"]]]
+         [:div [:a {:href "/pesquisa/"} [:strong "Pesquisa"]]]]]]]
+     [:main
+      [:h1 "This is a header."]
+      [:button#background-color "Purple background"]
+      [:p (str "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+               "sed do eiusmod tempor incididunt ut labore et dolore magna"
+               "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+               "ullamco laboris nisi ut aliquip ex ea commodo consequat."
+               "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+               "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+               "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
+               "anim id est laborum.")]
+      svg-code-cadre
+      [:img {:src "/public/img/code-cadre-logo.png"}]]]
     )])
 
 (println "Content-type:text/html\r\n")
