@@ -2,10 +2,9 @@
   (:require [bb-passrates.shared.places :refer [places]]
             [bb-passrates.shared.main :refer [query-place-list seo lang]]
             [bb-passrates.shared.copy :refer [copy-list]]
+            [bb-passrates.frontend.background-color-click-handler :as background-color-btn]
             [clojure.string :as clj-str]
             ["leaflet" :as LEAFLET]))
-
-
 
 (defn dom-build-li [{:keys [name k search-field] :as suggestion}]
   (let [li (.createElement js/document "li")
@@ -61,6 +60,7 @@
                       (.addTo (.marker js/L (.latLng  js/L lat long)) map)))))))
 
 (defn init []
+  (background-color-btn/mount)
   (let [input (.querySelector js/document ".search-wrapper .search-input input" )]
     (set-map)
     (set! (.-onkeyup input) on-key-fn)))

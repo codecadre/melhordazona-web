@@ -9,7 +9,7 @@
    [:meta {:name "description" :content subtitle}]
    [:link {:href "/target/css/main.css", :rel "stylesheet"}]
    [:link {:rel "stylesheet" :href "/node_modules/leaflet/dist/leaflet.css" :crossorigin ""}]
-   #_[:script {:src "https://livejs.com/live.js"}]
+   [:script {:src "https://livejs.com/live.js"}]
    [:title title]
    body
    [:script {:src "/target/shadow-builds/public/main/js/main.js"}]

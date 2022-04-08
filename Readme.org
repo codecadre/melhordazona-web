@@ -1,10 +1,23 @@
 * Roadmap
 
+** TODO Markup basics
+   :LOGBOOK:
+   CLOCK: [2022-04-08 Fri 10:09]--[2022-04-08 Fri 11:01] =>  0:52
+   :END:
+   - [ ] generic style page
+
+   - [ ] footer
+   - [ ] header
+   - [ ] listing
+   - [ ] index
+   - [X] buttons
+   - [ ] switches?
+   - [ ] graphs and visualizations (for ratings)
 ** DONE get a working name
 
-** DONE Multilanguage support PT/EN
+** TODO Multilanguage support PT/EN
 *** DONE basic solution
-
+*** TODO language flag
 ** TODO listing page (1/2 day)
 *** DONE load listing data
     :LOGBOOK:
@@ -30,8 +43,7 @@
     CLOCK: [2022-04-07 Thu 20:53]--[2022-04-07 Thu 21:08] =>  0:15
     :END:
 
-*** TODO Finish markup 2-3 hours
-** TODO load 2014 data with addresses on the cgi/clj script
+** TODO load 2014 data with addresses on the cgi/clj script (30 min)
 *** TODO create bb task that parses the json and spits schools
 *** TODO places list needs a display tag for municipio/district/etc
 *** TODO Massage municipality of schools
@@ -43,10 +55,10 @@
 *** DONE list of places
 *** DONE lib that gets sugestions main/query-place-list
 *** DONE place-match functionality  in frontend
-** TODO routing (2 hours)
-** TODO page generator (1 week)
+** TODO routing (30)
+** TODO page generator and pages (3 days)
    Generate a page from a Markdown to hiccup
-*** TODO Build generator (1-w)
+*** TODO Build generator (1 day)
 *** TODO Privacy policy, DPA (1-3 day at least...)
 *** TODO about
 *** TODO FAQ
@@ -59,8 +71,8 @@
 *** TODO Language selector (20 min)
 *** TODO bottom section (30 min)** TODO Data parsing (1h)
    parse a json file into the directory structure
-** TODO Hosting (3 hours)
-** TODO display ratings (1 - 2 days)
+** TODO Hosting (1 day)
+** TODO display ratings (3 days)
 *** TODO parse and import PDFs
 *** TODO style listing page
 ** Technical/setup stuff
