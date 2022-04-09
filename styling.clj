@@ -54,21 +54,20 @@
     content
     [:body
      [:header
-      [:div {:class "container"}
-       [:h2.title
-        [:strong
-         [:a {:href "/"} "Passa à Primeira"]]]
-       [:h5 "O teu guia (não) oficial para as taxas de aprovação do IMT"]
-       [:div {:class "col-12 col-sm-4 col-md-5"}
-        [:div.about
-         [:p
-          [:i "Personal website."
-           [:br]"Past projects, blogging."]]]]
-       [:div {:class "col-12 col-sm-4"}
-        [:div {:class "social-links"}
-         [:div [:a {:href "/acerca/"} [:strong "Acerca"]]]
-         [:div [:a {:href "/pesquisa/"} [:strong "Pesquisa"]]]]]]]
-     [:main
+      [:div.container
+       [:div.row
+        [:div.column.one-half
+         [:h2.title
+          [:strong
+           [:a {:href "/"} "Passa à Primeira"]]]
+         [:h5 "O teu guia (não) oficial para as taxas de aprovação do IMT"]]
+        [:div.column.one-half
+         [:div.menu
+          [:div.menu-item [:a {:href "/pesquisa/"} [:strong "Pesquisa"]]]
+          [:div.menu-item [:a {:href "/acerca/"} [:strong "Acerca"]]]
+          [:div.menu-item [:a {:href "/faq"} [:strong "FAQ"]]]
+          [:div.menu-item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]]]]]]
+     #_[:main
       [:h1 "This is a header."]
       [:button#background-color "Purple background"]
       [:p (str "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"

@@ -1,24 +1,45 @@
-header {
-  margin-bottom: 30px;
-  padding: 30px 0;
+@import "skeleton.less";
 
-  .title {
-    line-height: 40px;
-    margin-bottom: 0;
-    margin-top: -10px;
+header {
+    margin-bottom: 30px;
+    padding: 30px 0;
 
     a {
-        text-decoration: none;
-        color: #222;
+        color: @font-color;
+        &:hover {
+            color: @border-color;
+        }
     }
-  }
 
-  .about {
-    margin-top: -5px;
+    .title {
+        line-height: 40px;
+        margin-bottom: 0;
+        margin-top: -10px;
 
-    @media (max-width: $m-min) {
-      margin-top: 10px;
-      text-align: left;
+        a {
+            text-decoration: none;
+        }
     }
-  }
+
+    .menu {
+        text-align: right;
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+        .menu-item {
+            margin-right: 2.0rem;
+        }
+
+    }
+
+    // .about {
+    //   margin-top: -5px;
+
+    //   @media (max-width: $m-min) {
+    //     margin-top: 10px;
+    //     text-align: left;
+    //   }
+    // }
 }
