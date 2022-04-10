@@ -63,6 +63,7 @@
          [:h5 "O teu guia (não) oficial para as taxas de aprovação do IMT"]]
         [:div.column.one-half
          [:div.menu
+          [:div.lang [:span "["] [:span#en "EN"] [:span "/"] [:span#pt.selected "PT"] [:span "]"]]
           [:div.menu-item [:a {:href "/pesquisa/"} [:strong "Pesquisa"]]]
           [:div.menu-item [:a {:href "/acerca/"} [:strong "Acerca"]]]
           [:div.menu-item [:a {:href "/faq"} [:strong "FAQ"]]]
