@@ -67,19 +67,53 @@
           [:div.menu-item [:a {:href "/acerca/"} [:strong "Acerca"]]]
           [:div.menu-item [:a {:href "/faq"} [:strong "FAQ"]]]
           [:div.menu-item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]]]]]]
-     #_[:main
-      [:h1 "This is a header."]
-      [:button#background-color "Purple background"]
-      [:p (str "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
-               "sed do eiusmod tempor incididunt ut labore et dolore magna"
-               "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
-               "ullamco laboris nisi ut aliquip ex ea commodo consequat."
-               "Duis aute irure dolor in reprehenderit in voluptate velit esse"
-               "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
-               "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
-               "anim id est laborum.")]
-      svg-code-cadre
-      [:img {:src "/public/img/code-cadre-logo.png"}]]]
+     [:main
+      [:div.container
+       [:h1 "H1: This is a header."]
+       [:button#background-color "Purple background"]
+       [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+                "sed do eiusmod tempor incididunt ut labore et dolore magna"
+                "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+                "ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+                "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+                "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
+                "anim id est laborum.")]
+       [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+                "sed do eiusmod tempor incididunt ut labore et dolore magna"
+                "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+                "ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+                "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+                "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
+                "anim id est laborum.")]
+       [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+                "sed do eiusmod tempor incididunt ut labore et dolore magna"
+                "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+                "ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+                "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+                "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
+                "anim id est laborum.")]
+       [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+                "sed do eiusmod tempor incididunt ut labore et dolore magna"
+                "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+                "ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+                "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+                "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
+                "anim id est laborum.")]
+       #_svg-code-cadre
+       [:div [:img {:src "/public/img/code-cadre-logo.png"}]
+        [:p ":img"]]
+       [:a {:href "/"} "a: some link"]]]
+     [:footer
+      [:div.container
+       [:div.items
+        [:div.item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]
+        [:div.item [:a {:href "/termos/"} [:strong "Termos e serviços"]]]
+        [:div.item [:a {:href "/faq"} [:strong "FAQ"]]]
+        [:div.item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]]]]]
     )])
 
 (println "Content-type:text/html\r\n")
