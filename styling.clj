@@ -52,70 +52,46 @@
   [:html
    (tmp/header
     content
-    [:body
-     [:header
-      [:div.container
-       [:div.row
-        [:div.column.one-half
-         [:h2.title
-          [:strong
-           [:a {:href "/"} "Passa à Primeira"]]]
-         [:h5 "O teu guia (não) oficial para as taxas de aprovação do IMT"]]
-        [:div.column.one-half
-         [:div.menu
-          [:div.lang [:span "["] [:span#en "EN"] [:span "/"] [:span#pt.selected "PT"] [:span "]"]]
-          [:div.menu-item [:a {:href "/pesquisa/"} [:strong "Pesquisa"]]]
-          [:div.menu-item [:a {:href "/acerca/"} [:strong "Acerca"]]]
-          [:div.menu-item [:a {:href "/faq"} [:strong "FAQ"]]]
-          [:div.menu-item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]]]]]]
-     [:main
-      [:div.container
-       [:h1 "H1: This is a header."]
-       [:button#background-color "Purple background"]
-       [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
-                "sed do eiusmod tempor incididunt ut labore et dolore magna"
-                "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
-                "ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse"
-                "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
-                "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
-                "anim id est laborum.")]
-       [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
-                "sed do eiusmod tempor incididunt ut labore et dolore magna"
-                "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
-                "ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse"
-                "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
-                "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
-                "anim id est laborum.")]
-       [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
-                "sed do eiusmod tempor incididunt ut labore et dolore magna"
-                "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
-                "ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse"
-                "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
-                "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
-                "anim id est laborum.")]
-       [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
-                "sed do eiusmod tempor incididunt ut labore et dolore magna"
-                "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
-                "ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse"
-                "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
-                "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
-                "anim id est laborum.")]
-       #_svg-code-cadre
-       [:div [:img {:src "/public/img/code-cadre-logo.png"}]
-        [:p ":img"]]
-       [:a {:href "/"} "a: some link"]]]
-     [:footer
-      [:div.container
-       [:div.items
-        [:div.item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]
-        [:div.item [:a {:href "/termos/"} [:strong "Termos e serviços"]]]
-        [:div.item [:a {:href "/faq"} [:strong "FAQ"]]]
-        [:div.item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]]]]]
-    )])
+    [:main
+     [:div.container
+      [:h1 "H1: This is a header."]
+      [:button#background-color "Purple background"]
+      [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+               "sed do eiusmod tempor incididunt ut labore et dolore magna"
+               "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+               "ullamco laboris nisi ut aliquip ex ea commodo consequat."
+               "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+               "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+               "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
+               "anim id est laborum.")]
+      [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+               "sed do eiusmod tempor incididunt ut labore et dolore magna"
+               "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+               "ullamco laboris nisi ut aliquip ex ea commodo consequat."
+               "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+               "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+               "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
+               "anim id est laborum.")]
+      [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+               "sed do eiusmod tempor incididunt ut labore et dolore magna"
+               "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+               "ullamco laboris nisi ut aliquip ex ea commodo consequat."
+               "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+               "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+               "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
+               "anim id est laborum.")]
+      [:p (str "p: Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+               "sed do eiusmod tempor incididunt ut labore et dolore magna"
+               "aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+               "ullamco laboris nisi ut aliquip ex ea commodo consequat."
+               "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+               "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+               "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
+               "anim id est laborum.")]
+      #_svg-code-cadre
+      [:div [:img {:src "/public/img/code-cadre-logo.png"}]
+       [:p ":img"]]
+      [:a {:href "/"} "a: some link"]]])])
 
 (println "Content-type:text/html\r\n")
 (println (str (html page)))
