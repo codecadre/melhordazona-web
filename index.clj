@@ -28,7 +28,7 @@
 (def page
   [:html
    (tmp/header
-    (merge content {:url URL->map})
+    (merge content {:url (URL->map (System/getenv "QUERY_STRING"))})
     [:main
      [:div.container
       [:form

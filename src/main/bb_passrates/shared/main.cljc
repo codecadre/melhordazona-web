@@ -30,14 +30,13 @@
 (def url->canonical
   (map-invert seo))
 
-(def URL->map
-  (let [query-string (System/getenv "QUERY_STRING")]
-    (when (not (empty? query-string))
-      (->> (clj-str/split query-string #"&")
-           (filter #(clj-str/includes? % "="))
-           (map #(clj-str/split % #"="))
-           (reduce (fn [acc [k v]]
-                     (assoc acc (keyword "url" k) v)) {})))))
+(defn URL->map [query-string]
+  (when (not (empty? query-string))
+    (->> (clj-str/split query-string #"&")
+         (filter #(clj-str/includes? % "="))
+         (map #(clj-str/split % #"="))
+         (reduce (fn [acc [k v]]
+                   (assoc acc (keyword "url" k) v)) {}))))
 
 (defn build-href
   "builds href taking into account a variable number of query strings"

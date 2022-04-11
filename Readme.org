@@ -50,8 +50,7 @@
    - [ ] +graphs and visualizations (for ratings)+
      not doing now
 ** DONE get a working name
-
-** TODO Multilanguage support PT/EN
+** DONE Multilanguage support PT/EN
 *** DONE basic solution
 *** DONE language flag toggle
     :LOGBOOK:
@@ -59,8 +58,8 @@
     CLOCK: [2022-04-11 Mon 15:35]--[2022-04-11 Mon 16:04] =>  0:29
     CLOCK: [2022-04-11 Mon 12:19]--[2022-04-11 Mon 13:35] =>  1:16
     :END:
-
-** TODO listing page (1/2 day)
+I think these two tasks cover the language requirements. Now it's just a matter of adding content in multilanguage
+** DONE listing page
 *** DONE load listing data
     :LOGBOOK:
     CLOCK: [2022-04-05 Tue 15:59]--[2022-04-05 Tue 16:35] =>  0:36
@@ -86,18 +85,32 @@
     :END:
 
 ** TODO load 2014 data with addresses on the cgi/clj script (30 min)
+   :LOGBOOK:
+   CLOCK: [2022-04-11 Mon 21:32]
+   :END:
 *** TODO create bb task that parses the json and spits schools
 *** TODO places list needs a display tag for municipio/district/etc
-*** TODO Massage municipality of schools
-** TODO places autocomplete (1h)
+*** TODO Massage municipality of schools?
+** DONE places autocomplete (1h)
 
    places list gets loaded in the frontend and is used for autocomplete. No need to fetch the server
-*** TODO styling
+*** DONE styling
 *** DONE edn file with names
 *** DONE list of places
 *** DONE lib that gets sugestions main/query-place-list
 *** DONE place-match functionality  in frontend
 ** TODO routing (30)
+*** DONE basic autocomplete flow
+*** DONE icons/styling
+*** DONE generate links from k
+** DONE frontend page (1h)
+*** DONE Language selector (20 min)
+*** DONE bottom section (30 min)** TODO Data parsing (1h)
+   parse a json file into the directory structure
+** TODO Hosting (1 day)
+** TODO display ratings (3 days)
+*** TODO parse and import PDFs
+*** TODO style listing page
 ** TODO page generator and pages (3 days)
    Generate a page from a Markdown to hiccup
 *** TODO Build generator (1 day)
@@ -106,17 +119,6 @@
 *** TODO FAQ
 
 
-*** DONE basic autocomplete flow
-*** TODO icons/styling
-*** DONE generate links from k
-** TODO frontend page (1h)
-*** TODO Language selector (20 min)
-*** TODO bottom section (30 min)** TODO Data parsing (1h)
-   parse a json file into the directory structure
-** TODO Hosting (1 day)
-** TODO display ratings (3 days)
-*** TODO parse and import PDFs
-*** TODO style listing page
 ** Technical/setup stuff
 *** TODO Bunde css into less files
 
