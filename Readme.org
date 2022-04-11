@@ -1,6 +1,28 @@
 * Roadmap
 
-** TODO Markup basics
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2022-04-11 Mon 18:33]
+| Headline                        | Time    |      |
+|---------------------------------+---------+------|
+| *Total time*                    | *12:09* |      |
+|---------------------------------+---------+------|
+| Roadmap                         | 12:09   |      |
+| \_  Markup basics 6:15          |         | 6:14 |
+| \_  Multilanguage support PT/EN |         | 2:41 |
+| \_  listing page (1/2 day)      |         | 3:14 |
+#+END:
+
+
+** DONE Markup basics 6:15
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2022-04-11 Mon 18:33]
+| Headline               | Time   |      |
+|------------------------+--------+------|
+| *Total time*           | *6:14* |      |
+|------------------------+--------+------|
+| \_  Markup basics 6:15 |        | 6:14 |
+#+END:
+
    :LOGBOOK:
    CLOCK: [2022-04-11 Mon 12:11]--[2022-04-11 Mon 12:14] =>  0:03
    CLOCK: [2022-04-11 Mon 12:06]--[2022-04-11 Mon 12:10] =>  0:04
@@ -25,12 +47,19 @@
 
    - [X] lang switches?
 
-   - [ ] graphs and visualizations (for ratings)
+   - [ ] +graphs and visualizations (for ratings)+
+     not doing now
 ** DONE get a working name
 
 ** TODO Multilanguage support PT/EN
 *** DONE basic solution
-*** TODO language flag
+*** DONE language flag toggle
+    :LOGBOOK:
+    CLOCK: [2022-04-11 Mon 16:36]--[2022-04-11 Mon 17:32] =>  0:56
+    CLOCK: [2022-04-11 Mon 15:35]--[2022-04-11 Mon 16:04] =>  0:29
+    CLOCK: [2022-04-11 Mon 12:19]--[2022-04-11 Mon 13:35] =>  1:16
+    :END:
+
 ** TODO listing page (1/2 day)
 *** DONE load listing data
     :LOGBOOK:

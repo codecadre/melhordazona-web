@@ -56,4 +56,5 @@
 
 (defn autocomplete-cmp []
   (let [input (.querySelector js/document ".search-wrapper .search-input input" )]
-    (set! (.-onkeyup input) on-key-fn)))
+    (when input
+      (set! (.-onkeyup input) on-key-fn))))

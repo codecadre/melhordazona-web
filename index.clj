@@ -3,7 +3,9 @@
 (ns index
   (:require [bb-passrates.backend.templates.template :as tmp]
             [hiccup2.core :refer [html]]
-            [cheshire.core :as json]))
+            [cheshire.core :as json]
+            [clojure.string :as clj-str]
+            [bb-passrates.shared.main :refer [URL->map]]))
 
 (def content
   {:title "Avaliações Abertas - Open Pass Rates"
@@ -26,7 +28,7 @@
 (def page
   [:html
    (tmp/header
-    content
+    (merge content {:url URL->map})
     [:main
      [:div.container
       [:form
