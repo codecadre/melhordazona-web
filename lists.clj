@@ -42,11 +42,10 @@
     [:html
      (tmp/header
       content
-      [:body
-       [:div.map-wrapper
-        [:div#map {:lat lat :long long}]]
-       [:div.row
-        [:div ]
+      [:main
+       [:div.container
+        [:div.map-wrapper
+         [:div#map {:lat lat :long long}]]
         [:div.list (map hiccup-school list)]]])]))
 
 (println "Content-type:text/html\r\n")
