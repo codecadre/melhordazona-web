@@ -84,9 +84,10 @@ I think these two tasks cover the language requirements. Now it's just a matter 
     CLOCK: [2022-04-07 Thu 20:53]--[2022-04-07 Thu 21:08] =>  0:15
     :END:
 
-** TODO load 2014 data with addresses on the cgi/clj script (30 min)
+** DONE load 2014 data with addresses on the cgi/clj script (28 min)
    :LOGBOOK:
-   CLOCK: [2022-04-11 Mon 21:32]
+   CLOCK: [2022-04-11 Mon 21:59]--[2022-04-11 Mon 22:02] =>  0:03
+   CLOCK: [2022-04-11 Mon 21:32]--[2022-04-11 Mon 21:57] =>  0:25
    :END:
 *** TODO create bb task that parses the json and spits schools
 *** TODO places list needs a display tag for municipio/district/etc
