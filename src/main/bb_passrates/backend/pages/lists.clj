@@ -6,7 +6,7 @@
             [hiccup2.core :refer [html]]
             [clojure.edn :as edn]))
 
-#_(System/getenv "REQUEST_URI")
+(System/getenv "REQUEST_URI")
 
 (def type "cidades")
 
@@ -40,6 +40,7 @@
                        [0 0])
                (map #(/ % n))))]
     [:html
+     [:p (System/getenv "REQUEST_URI")]
      (tmp/header
       content
       [:main

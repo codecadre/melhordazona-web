@@ -101,6 +101,11 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 *** DONE lib that gets sugestions main/query-place-list
 *** DONE place-match functionality  in frontend
 ** TODO routing (30)
+   :LOGBOOK:
+   CLOCK: [2022-04-12 Tue 17:13]--[2022-04-12 Tue 18:14] =>  1:01
+   CLOCK: [2022-04-12 Tue 10:20]--[2022-04-12 Tue 12:11] =>  1:51
+   :END:
+
 *** DONE basic autocomplete flow
 *** DONE icons/styling
 *** DONE generate links from k
@@ -109,6 +114,7 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 *** DONE bottom section (30 min)** TODO Data parsing (1h)
    parse a json file into the directory structure
 ** TODO Hosting (1 day)
+** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 ** TODO display ratings (3 days)
 *** TODO parse and import PDFs
 *** TODO style listing page

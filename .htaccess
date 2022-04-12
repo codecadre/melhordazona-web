@@ -1,1 +1,36 @@
+AddHandler cgi-script .clj
 DirectoryIndex index.clj
+RewriteEngine On
+
+# send everything to /index.clj minus files and directories
+RewriteBase /
+#RewriteRule ^index\.clj$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# ensures canonical paths are used
+RewriteCond %{REQUEST_URI} /(.+)$
+RewriteRule ^ /index.clj [L]
+
+#RewriteCond %{REQUEST_URI} /(.+)$
+#RewriteRule ^(.+)$ %{SERVER_PROTOCOL}://%{HTTP_HOST}/$1/ [R=301,L]
+
+# based on
+# https://www.danielmorell.com/guides/htaccess-seo/redirects/https-www-and-trailing-slash
+
+# Remove trailing slash from non-filepath urls
+#RewriteCond %{REQUEST_URI} /(.+)/$
+#RewriteCond %{REQUEST_FILENAME} !-d
+#<If "%{HTTP_HOST} == 'locahost'">
+#RewriteRule ^ %{SERVER_PROTOCOL}://%{HTTP_HOST}/%1 [R=301,L]
+#</If>
+
+# Include trailing slash on directory
+#RewriteCond %{REQUEST_URI} /(.+)/$
+#RewriteCond %{REQUEST_FILENAME} -d
+#<If "%{HTTP_HOST} == 'locahost'">
+#RewriteRule ^(.+)$ %{SERVER_PROTOCOL}://%{HTTP_HOST}/$1/ [R=301,L]
+#</If>
+    # Force HTTPS and WWW
+    #RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
+    #RewriteCond %{https} off
+    #RewriteRule ^(.*)$ http://localhost/$1 [R=301,L]

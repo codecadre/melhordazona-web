@@ -27,6 +27,7 @@
 
 (def page
   [:html
+   [:p (System/getenv "REQUEST_URI")]
    (tmp/header
     (merge content {:url (URL->map (System/getenv "QUERY_STRING"))})
     [:main
