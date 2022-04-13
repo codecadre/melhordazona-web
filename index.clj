@@ -20,9 +20,9 @@
             :url/home (home/page url-map)
             "some page"))
 
+(println "Content-type:text/html\r\n")
+(println (str (html page)))
 
-#_(println "Content-type:text/html\r\n")
-#_(println (str (html page)))
-
-(println "Status: 404 Not Found\nContent-type: text/html\n")
-(println (str (html (not-found/page))))
+(comment
+  (println "Status: 404 Not Found\nContent-type: text/html\n")
+  (println (str (html (not-found/page)))))
