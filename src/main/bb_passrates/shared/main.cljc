@@ -30,13 +30,7 @@
 (def url->canonical
   (map-invert seo))
 
-(defn URL->map [query-string]
-  (when (not (empty? query-string))
-    (->> (clj-str/split query-string #"&")
-         (filter #(clj-str/includes? % "="))
-         (map #(clj-str/split % #"="))
-         (reduce (fn [acc [k v]]
-                   (assoc acc (keyword "url" k) v)) {}))))
+
 
 (defn build-href
   "builds href taking into account a variable number of query strings"
@@ -65,3 +59,46 @@
   (= "/"
      (build-href "/" {:url/lang nil
                       :url/foo nil})))
+
+(defn url->params [s]
+  (let [word-list (->> (clj-str/split s #"/")
+                       (remove empty?)
+                       (remove #(clj-str/includes? % "?")))
+        word-set (set word-list)]
+    (cond
+      (empty? word-set) {:url/home true}
+      (contains? word-set "cidades") {:url/city (nth word-list 1)}
+      (contains? word-set "distritos") {:url/district (nth word-list 1)}
+      (contains? word-set "municipios") {:url/municipality (nth word-list 1)}
+      (contains? word-set "escolas") {:url/school (nth word-list 1)}
+      :else {:url/page (first word-list)})))
+
+(defn query-string->map [query-string]
+  (when (not (empty? query-string))
+      (->> (clj-str/split query-string #"&")
+           (filter #(clj-str/includes? % "="))
+           (map #(clj-str/split % #"="))
+           (reduce (fn [acc [k v]]
+                     (assoc acc (keyword "url" k) v)) {}))))
+
+(defn url->map [url query-string]
+  (merge (query-string->map query-string) (url->params url )))
+
+(comment
+  (= {:url/lang "pt", :url/city "porto"}
+     (url->map "/cidades/porto/?lang=pt" "lang=pt"))
+
+  (= {:url/lang "pt", :url/district "porto"}
+     (url->map "/distritos/porto/?lang=pt" "lang=pt"))
+
+  (= {:url/foo "bar" :url/lang "pt", :url/city "porto"}
+     (url->map "/cidades/porto/?lang=pt&foo=bar" "lang=pt&foo=bar"))
+
+  (= {:url/city "porto"}
+     (url->map "/cidades/porto/" ""))
+
+  (= {:url/page "foo"}
+     (url->map "/foo" ""))
+
+  (= {:url/home true}
+     (url->map "/" "")))
