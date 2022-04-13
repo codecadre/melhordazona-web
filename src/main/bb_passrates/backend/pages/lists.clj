@@ -1,18 +1,17 @@
 #!/usr/bin/env /usr/local/bin/bb
 
-(ns lists
+(ns bb-passrates.backend.pages.lists
   (:require [bb-passrates.shared.main :refer [lang url->canonical]]
             [bb-passrates.backend.templates.template :as tmp]
             [hiccup2.core :refer [html]]
             [clojure.edn :as edn]))
 
-(System/getenv "REQUEST_URI")
-
-(def type "cidades")
-
-(def place "lisboa")
-
-(def list (-> (str "./data/" (get url->canonical type) "-" place ".edn")  slurp edn/read-string))
+(defn school-list [{:keys [url/type] :as url-map}]
+  (let [place (condp = type
+                :city (:url/city url-map)
+                :district (:url/district url-map)
+                :municipality (:url/municipality url-map))]
+    (-> (str "./clean-data/" (name type) "-" place ".edn")  slurp edn/read-string)))
 
 (def content
   {:title "Avaliações Abertas - Open Pass Rates"
@@ -28,26 +27,22 @@
    [:div.address (:raw address)]
    [:div.coordinates [:p "coordinates: " {:lat (:latitude address) :long (:longitude address)}]]])
 
-(def page
-  (let [[lat long]
-        (let [n (count list)]
-          (->> list
-               (reduce (fn [acc {:keys [address]}]
-                         (let [{:keys [latitude longitude]} address]
-                           (-> acc
-                               (update-in [0] + latitude)
-                               (update-in [1] + longitude))))
-                       [0 0])
-               (map #(/ % n))))]
+(defn page [url-map]
+  (let [place-list (school-list url-map)
+        [lat long] (let [n (count place-list)]
+                     (->> place-list
+                          (reduce (fn [acc {:keys [address]}]
+                                    (let [{:keys [latitude longitude]} address]
+                                      (-> acc
+                                          (update-in [0] + latitude)
+                                          (update-in [1] + longitude))))
+                                  [0 0])
+                          (map #(/ % n))))]
     [:html
-     [:p (System/getenv "REQUEST_URI")]
      (tmp/header
-      content
+      (merge content url-map)
       [:main
        [:div.container
         [:div.map-wrapper
          [:div#map {:lat lat :long long}]]
-        [:div.list (map hiccup-school list)]]])]))
-
-(println "Content-type:text/html\r\n")
-(println (str (html page)))
+        [:div.list (map hiccup-school place-list)]]])]))

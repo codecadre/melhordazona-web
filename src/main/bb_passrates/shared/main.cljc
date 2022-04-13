@@ -67,11 +67,16 @@
         word-set (set word-list)]
     (cond
       (empty? word-set) {:url/home true}
-      (contains? word-set "cidades") {:url/city (nth word-list 1)}
-      (contains? word-set "distritos") {:url/district (nth word-list 1)}
-      (contains? word-set "municipios") {:url/municipality (nth word-list 1)}
-      (contains? word-set "escolas") {:url/school (nth word-list 1)}
-      :else {:url/page (first word-list)})))
+      (contains? word-set "cidades") {:url/city (nth word-list 1)
+                                      :url/type :city}
+      (contains? word-set "distritos") {:url/district (nth word-list 1)
+                                        :url/type :district}
+      (contains? word-set "municipios") {:url/municipality (nth word-list 1)
+                                         :url/type :municipality}
+      (contains? word-set "escolas") {:url/school (nth word-list 1)
+                                      :url/type :school}
+      :else {:url/page (first word-list)
+             :url/type :page})))
 
 (defn query-string->map [query-string]
   (when (not (empty? query-string))
