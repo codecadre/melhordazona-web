@@ -123,8 +123,12 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 ** TODO Hosting (1 day)
 ** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 ** TODO display ratings (3 days)
-*** TODO first pass of server side rendering
-
+*** TODO first pass of server side rendering 2 half days
+    :LOGBOOK:
+    CLOCK: [2022-04-14 Thu 10:40]--[2022-04-14 Thu 11:42] =>  1:02
+    :END:
+*** TODO Scale svg
+    https://css-tricks.com/scale-svg/
 
 *** TODO parse and import PDFs
 *** TODO style listing page
