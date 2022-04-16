@@ -1,0 +1,12 @@
+.list {
+  position: relative;
+  max-width: 80%;
+}
+.school {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  background-color: #fff;
+}
+#map {
+  height: 500px;
+}
