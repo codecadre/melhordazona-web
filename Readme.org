@@ -131,9 +131,13 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 *** TODO about
 *** TODO FAQ
 ** Productionize
-   - shadow builds and proper css setup
+   - [X] shadow builds and proper css setup
+   - [X] css build
+   - [X] leaflet css
+   - [ ] leaflet js
    :LOGBOOK:
-   CLOCK: [2022-04-18 Mon 10:47]
+   CLOCK: [2022-04-18 Mon 15:19]
+   CLOCK: [2022-04-18 Mon 10:47]--[2022-04-18 Mon 12:00] =>  1:13
    :END:
 
 
@@ -191,14 +195,6 @@ local$ bb nrepl
 
 then cider connect
 
-* API
-
-** Names endpoint
-
-json endpoint that returns name sugestions and lat/long and others.
-
-/names?q=rua+vale+formoso+lisboa
-
 ** less
 
 lessc .src/less/main.less target/main.css
@@ -208,3 +204,14 @@ or
 npx less-watch-compiler --less-args math=always src/less/ public/css/
 
 ** hot reload by live.js
+
+** leaflet
+
+npm i
+cp  node_modules/leaflet/dist/leaflet.css public/vendor/leaflet
+
+
+** host requirements
+
+- bb
+beside apache2, etc, that come preinstaled with the server

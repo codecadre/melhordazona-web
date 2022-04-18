@@ -2,9 +2,11 @@
   (:require [clojure.string :as clj-str]
             [bb-passrates.shared.main :refer [build-href]]))
 
-(def env (System/getenv "ENV"))
+#_(def env (System/getenv "ENV"))
 
-(def local-dev? (= env "DEV_LOCAL"))
+(def env "prod")
+
+(def local-dev?  (= env "DEV_LOCAL"))
 
 (def footer
   [:footer
@@ -42,8 +44,8 @@
    [:meta {:charset "UTF-8"}]
    [:meta {:content "width=device-width, initial-scale=1, maximum-scale=1" :name "viewport"}]
    [:meta {:name "description" :content subtitle}]
-   [:link {:href "/target/css/main.css", :rel "stylesheet"}]
-   [:link {:rel "stylesheet" :href "/node_modules/leaflet/dist/leaflet.css" :crossorigin ""}]
+   [:link {:href "/public/css/main.css", :rel "stylesheet"}]
+   [:link {:rel "stylesheet" :href "/public/vendor/leaflet/leaflet.css" :crossorigin ""}]
    (when local-dev? [:script {:src "https://livejs.com/live.js"}])
    [:title title]
    [:body

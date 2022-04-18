@@ -1,6 +1,8 @@
 ;; shadow-cljs configuration
 {:dependencies
- [#_[tick "0.4.31-alpha"]]
+ [#_[tick "0.4.31-alpha"]
+  [binaryage/oops "0.7.2"]
+  ]
 
  :nrepl
  {:port 8202

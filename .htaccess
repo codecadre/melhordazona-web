@@ -2,6 +2,8 @@ AddHandler cgi-script .clj
 DirectoryIndex index.clj
 RewriteEngine On
 
+PassEnv ENV
+
 # send everything to /index.clj minus files and directories
 RewriteBase /
 #RewriteRule ^index\.clj$ - [L]
