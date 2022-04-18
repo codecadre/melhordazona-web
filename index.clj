@@ -1,4 +1,4 @@
-#!/usr/bin/env /usr/local/bin/bb
+#!/usr/bin/env /usr/home/codecan/bin/bb
 
 (ns index
   (:require [bb-passrates.backend.pages.home :as home]

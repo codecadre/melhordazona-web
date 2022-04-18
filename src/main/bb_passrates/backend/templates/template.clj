@@ -1,8 +1,10 @@
-#!/usr/bin/env /usr/local/bin/bb
-
 (ns bb-passrates.backend.templates.template
   (:require [clojure.string :as clj-str]
             [bb-passrates.shared.main :refer [build-href]]))
+
+(def env (System/getenv "ENV"))
+
+(def local-dev? (= env "DEV_LOCAL"))
 
 (def footer
   [:footer
@@ -42,12 +44,15 @@
    [:meta {:name "description" :content subtitle}]
    [:link {:href "/target/css/main.css", :rel "stylesheet"}]
    [:link {:rel "stylesheet" :href "/node_modules/leaflet/dist/leaflet.css" :crossorigin ""}]
-   [:script {:src "https://livejs.com/live.js"}]
+   (when local-dev? [:script {:src "https://livejs.com/live.js"}])
    [:title title]
    [:body
     (header-c url)
     main
     footer]
-   [:script {:src "/target/shadow-builds/public/main/js/main.js"}]
+   (if local-dev?
+     [:script {:src "/target/shadow-builds/public/main/js/main.js"}]
+     [:script {:src "/public/js/main.js"}])
+
    #_[:script {:src "https://plausible.io/js/plausible.js"
              :async "defer" :data-domain "flaviosousa.co"}]])

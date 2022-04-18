@@ -16,15 +16,6 @@
 
 
 ** DONE Markup basics 6:15
-#+BEGIN: clocktable :scope subtree :maxlevel 2
-#+CAPTION: Clock summary at [2022-04-11 Mon 18:33]
-| Headline               | Time   |      |
-|------------------------+--------+------|
-| *Total time*           | *6:14* |      |
-|------------------------+--------+------|
-| \_  Markup basics 6:15 |        | 6:14 |
-#+END:
-
    :LOGBOOK:
    CLOCK: [2022-04-11 Mon 12:11]--[2022-04-11 Mon 12:14] =>  0:03
    CLOCK: [2022-04-11 Mon 12:06]--[2022-04-11 Mon 12:10] =>  0:04
@@ -103,15 +94,13 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 *** DONE lib that gets sugestions main/query-place-list
 *** DONE place-match functionality  in frontend
 ** TODO routing (30)
-   :PROPERTIES:
-   :ORDERED:  t
-   :END:
    :LOGBOOK:
-   CLOCK: [2022-04-13 Wed 12:16]--[2022-04-13 Wed 13:24] =>  1:08
+   CLOCK: [2022-04-13 Wed 12:16]--[2022-04-18 Mon 10:47] => 118:31
    CLOCK: [2022-04-13 Wed 10:09]--[2022-04-13 Wed 11:12] =>  1:03
    CLOCK: [2022-04-12 Tue 17:13]--[2022-04-12 Tue 18:14] =>  1:01
    CLOCK: [2022-04-12 Tue 10:20]--[2022-04-12 Tue 12:11] =>  1:51
    :END:
+
 *** DONE 404
 *** DONE basic autocomplete flow
 *** DONE icons/styling
@@ -120,10 +109,13 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 *** DONE Language selector (20 min)
 *** DONE bottom section (30 min)** TODO Data parsing (1h)
    parse a json file into the directory structure
-** TODO Hosting (1 day)
+** DONE Hosting
+   1 day for setting up and what not
+   1 day to make it happen
+
 ** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 ** TODO display ratings (3 days)
-*** TODO first pass of server side rendering 2 half days
+*** DONE first pass of server side rendering 2 half days
     :LOGBOOK:
     CLOCK: [2022-04-14 Thu 10:40]--[2022-04-14 Thu 11:42] =>  1:02
     :END:
@@ -138,6 +130,11 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 *** TODO Privacy policy, DPA (1-3 day at least...)
 *** TODO about
 *** TODO FAQ
+** Productionize
+   - shadow builds and proper css setup
+   :LOGBOOK:
+   CLOCK: [2022-04-18 Mon 10:47]
+   :END:
 
 
 ** Technical/setup stuff
@@ -178,6 +175,11 @@ http://localhost:8080/search.php?q=rua%20vale%20formoso
 Docs: https://nominatim.org/release-docs/latest/api/Search/
 
 * Util
+
+** Apache start
+
+cd ~/src/clj-cgi-example/docker
+docker-compose up web
 
 ** logs
 

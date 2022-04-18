@@ -15,16 +15,19 @@
   {:target :browser
    #_#_:open-file-command
    ["emacsclient" "-n" ["+%s:%s" :line :column] :file]
-   :output-dir "target/shadow-builds/public/main/js"
-   :asset-path "/main/js"
    :modules {:main {:init-fn bb-passrates.frontend.index/init}}
-   :dev {:compiler-options  {:cross-chunk-method-motion false
+   :dev {:output-dir "target/shadow-builds/public/main/js"
+         :asset-path "/main/js"
+
+         :compiler-options  {:cross-chunk-method-motion false
                              :source-map true
                              :rewrite-polyfills true
                              :ouput-feature-set :es3
                              :pseudo-names true
                              :pretty-print  true}}
-   :release {:compiler-options  {:optimizations :advanced
+   :release {:output-dir "public/js"
+             :asset-path "js"
+             :compiler-options  {:optimizations :advanced
                                  :rewrite-polyfills true
                                  :ouput-feature-set :es3
                                  :cross-chunk-method-motion false}}}}}
