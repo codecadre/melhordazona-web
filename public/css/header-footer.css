@@ -598,7 +598,8 @@ header .menu {
   flex-wrap: wrap;
   justify-content: flex-end;
 }
-header .menu .menu-item {
+header .menu .menu-item,
+header .menu .lang {
   margin-right: 2rem;
 }
 footer {

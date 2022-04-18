@@ -205,6 +205,6 @@ lessc .src/less/main.less target/main.css
 
 or
 
-npx less-watch-compiler src/less/ target/css/
+npx less-watch-compiler --less-args math=always src/less/ public/css/
 
 ** hot reload by live.js

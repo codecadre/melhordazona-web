@@ -1,0 +1,30 @@
+.list {
+  position: relative;
+  max-width: 80%;
+}
+.school {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  background-color: #fff;
+}
+#map {
+  height: 500px;
+}
+.bar {
+  fill: #d81c3f;
+}
+.bar:hover {
+  fill: darkgray;
+}
+.axis {
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.x.axis path {
+  display: none;
+}
