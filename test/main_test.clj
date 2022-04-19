@@ -1,5 +1,5 @@
 (ns main-test
-  (:require [bb-passrates.shared.main :as sut :refer [url->map build-href]]
+  (:require [bb-passrates.shared.main :as sut :refer [url->req-map build-href]]
             [clojure.test :as t :refer [deftest is]]))
 
 (deftest build-href-test
@@ -15,22 +15,22 @@
          (build-href "/" {:url/lang nil
                           :url/foo nil}))))
 
-(t/deftest url->map-test
+(t/deftest url->req-map-test
 
-  (is (= {:url/lang "pt", :url/place "porto" :url/type :city}
-         (url->map "/cidades/porto/?lang=pt" "lang=pt")))
+  (is (= {:url/lang "pt", :uri "/cidades/porto/" :request-method :get}
+         (url->req-map "/cidades/porto/?lang=pt" "GET" "lang=pt")))
 
-  (is (= {:url/lang "pt", :url/place "porto"  :url/type :district}
-         (url->map "/distritos/porto/?lang=pt" "lang=pt")))
+  (is (= {:url/lang "pt", :uri "/distritos/porto/" :request-method :post}
+         (url->req-map "/distritos/porto/?lang=pt" "POST" "lang=pt")))
 
-  (is (= {:url/foo "bar" :url/lang "pt", :url/place "porto"  :url/type :city}
-         (url->map "/cidades/porto/?lang=pt&foo=bar" "lang=pt&foo=bar")))
+  (is (= {:url/foo "bar" :url/lang "pt" :uri "/cidades/porto/" :request-method :get}
+         (url->req-map "/cidades/porto/?lang=pt&foo=bar" "GET" "lang=pt&foo=bar")))
 
-  (is (= {:url/place "porto"  :url/type :city}
-         (url->map "/cidades/porto/" "")))
+  (is (= {:uri "/cidades/porto/" :request-method :get}
+         (url->req-map "/cidades/porto/" "GET" "")))
 
-  (is (= {:url/page "foo"  :url/type :page}
-         (url->map "/foo" "")))
+  (is (= {:uri"/foo" :request-method :get}
+         (url->req-map "/foo" "GET" "")))
 
-  (is (= {:url/type :home}
-         (url->map "/" ""))))
+  (is (= {:request-method :get :uri "/"}
+         (url->req-map "/" "GET" ""))))

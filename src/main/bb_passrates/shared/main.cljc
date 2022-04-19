@@ -46,25 +46,6 @@
       :else (apply str (into qs (list "?" path))))))
 
 
-(defn url->params [s]
-  (let [word-list (->> (clj-str/split s #"/")
-                       (remove empty?)
-                       (remove #(clj-str/includes? % "?")))
-        word-set (set word-list)]
-    (cond
-      (empty? word-set) {:url/type :home}
-      (contains? word-set "cidades") {:url/resource (nth word-list 1)
-                                      :url/type :city}
-      (contains? word-set "distritos") {:url/resource (nth word-list 1)
-                                        :url/type :district}
-      (contains? word-set "municipios") {:url/resource (nth word-list 1)
-                                         :url/type :municipality}
-      (contains? word-set "escolas") {:url/resource (nth word-list 1)
-                                      :url/type :school}
-      ;; need to add an option for each page
-      :else {:url/resource (first word-list)
-             :url/type :page})))
-
 (defn query-string->map [query-string]
   (when (not (empty? query-string))
       (->> (clj-str/split query-string #"&")
