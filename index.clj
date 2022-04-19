@@ -31,6 +31,20 @@
       {:page (lists/page req schools)
        :header html-header})))
 
+(defn municipio-handler [req]
+  (let [schools (lists/school-list "municipality" (:municipality req))]
+    (if (empty? schools)
+      resp-404
+      {:page (lists/page req schools)
+       :header html-header})))
+
+(defn district-handler [req]
+  (let [schools (lists/school-list "district" (:district req))]
+    (if (empty? schools)
+      resp-404
+      {:page (lists/page req schools)
+       :header html-header})))
+
 (defn echo-handler [req]
   {:page [:html
           [:h1 "echo!"]
@@ -47,6 +61,9 @@
            [:get ["echo" id]] (echo-handler (assoc req :id id))
            [:get []] (home-handler req)
            [:get ["cidades" city]] (cities-handler (assoc req :city city))
+           [:get ["municipios" municipio]] (municipio-handler (assoc req :municipality municipio))
+           ;;district has data issues
+           #_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
            :else {:page (not-found/page)
                   :header header-404})))
 

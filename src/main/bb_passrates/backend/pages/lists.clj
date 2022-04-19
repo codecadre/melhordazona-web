@@ -74,19 +74,19 @@
 
 (defn page [url-map place-list]
   (let [[lat long] (let [n (count place-list)]
-                     (->> place-list
-                          (reduce (fn [acc {:keys [address]}]
-                                    (let [{:keys [latitude longitude]} address]
-                                      (-> acc
-                                          (update-in [0] + latitude)
-                                          (update-in [1] + longitude))))
-                                  [0 0])
-                          (map #(/ % n))))]
-    [:html
-     (tmp/header
-      (merge content url-map)
-      [:main
-       [:div.container
-        [:div.map-wrapper
-         [:div#map {:lat lat :long long}]]
-        [:div.list (map hiccup-school place-list)]]])]))
+                       (->> place-list
+                            (reduce (fn [acc {:keys [address]}]
+                                      (let [{:keys [latitude longitude]} address]
+                                        (-> acc
+                                            (update-in [0] + latitude)
+                                            (update-in [1] + longitude))))
+                                    [0 0])
+                            (map #(/ % n))))]
+      [:html
+       (tmp/header
+        (merge content url-map)
+        [:main
+         [:div.container
+          [:div.map-wrapper
+           [:div#map {:lat lat :long long}]]
+          [:div.list (map hiccup-school place-list)]]])]))
