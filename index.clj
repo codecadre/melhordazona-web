@@ -63,7 +63,7 @@
            [:get ["cidades" city]] (cities-handler (assoc req :city city))
            [:get ["municipios" municipio]] (municipio-handler (assoc req :municipality municipio))
            ;;district has data issues
-           #_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
+           #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
            :else {:page (not-found/page)
                   :header header-404})))
 
