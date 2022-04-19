@@ -1,6 +1,7 @@
 (ns bb-passrates.shared.main
   (:require [clojure.string :as clj-str]
-            [clojure.set :refer [map-invert]]))
+            [clojure.set :refer [map-invert]]
+            [clojure.edn :as edn]))
 
 (defn clean-q
   "Allow:
@@ -30,8 +31,6 @@
 (def url->canonical
   (map-invert seo))
 
-
-
 (defn build-href
   "builds href taking into account a variable number of query strings"
   [path {:keys [url/lang url/foo]}]
@@ -46,19 +45,6 @@
       (> (count qs) 1) (apply str (into (interpose "&" qs) (list "?" path)))
       :else (apply str (into qs (list "?" path))))))
 
-(comment
-  ;;tests
-  (= "/path?foo=bar"
-     (build-href "/path" {:url/lang nil
-                      :url/foo "bar"}))
-
-  (= "/?lang=pt&foo=bar"
-     (build-href "/" {:url/lang "pt"
-                      :url/foo "bar"}))
-
-  (= "/"
-     (build-href "/" {:url/lang nil
-                      :url/foo nil})))
 
 (defn url->params [s]
   (let [word-list (->> (clj-str/split s #"/")
@@ -66,16 +52,17 @@
                        (remove #(clj-str/includes? % "?")))
         word-set (set word-list)]
     (cond
-      (empty? word-set) {:url/home true}
-      (contains? word-set "cidades") {:url/city (nth word-list 1)
+      (empty? word-set) {:url/type :home}
+      (contains? word-set "cidades") {:url/resource (nth word-list 1)
                                       :url/type :city}
-      (contains? word-set "distritos") {:url/district (nth word-list 1)
+      (contains? word-set "distritos") {:url/resource (nth word-list 1)
                                         :url/type :district}
-      (contains? word-set "municipios") {:url/municipality (nth word-list 1)
+      (contains? word-set "municipios") {:url/resource (nth word-list 1)
                                          :url/type :municipality}
-      (contains? word-set "escolas") {:url/school (nth word-list 1)
+      (contains? word-set "escolas") {:url/resource (nth word-list 1)
                                       :url/type :school}
-      :else {:url/page (first word-list)
+      ;; need to add an option for each page
+      :else {:url/resource (first word-list)
              :url/type :page})))
 
 (defn query-string->map [query-string]
@@ -86,24 +73,13 @@
            (reduce (fn [acc [k v]]
                      (assoc acc (keyword "url" k) v)) {}))))
 
-(defn url->map [url query-string]
-  (merge (query-string->map query-string) (url->params url )))
+(defn url->req-map
+  "parses query params and build a request map"
+  [uri req-method query-string]
+  (let [uri (-> uri (clj-str/split #"\?") first)
+        req-method (keyword (clj-str/lower-case req-method))]
+    (merge {:uri uri :request-method req-method}
+           (query-string->map query-string))))
 
-(comment
-  (= {:url/lang "pt", :url/city "porto"}
-     (url->map "/cidades/porto/?lang=pt" "lang=pt"))
-
-  (= {:url/lang "pt", :url/district "porto"}
-     (url->map "/distritos/porto/?lang=pt" "lang=pt"))
-
-  (= {:url/foo "bar" :url/lang "pt", :url/city "porto"}
-     (url->map "/cidades/porto/?lang=pt&foo=bar" "lang=pt&foo=bar"))
-
-  (= {:url/city "porto"}
-     (url->map "/cidades/porto/" ""))
-
-  (= {:url/page "foo"}
-     (url->map "/foo" ""))
-
-  (= {:url/home true}
-     (url->map "/" "")))
+(defn get-place-list [type place]
+  (-> (str "./clean-data/" (name type) "-" place ".edn")  slurp edn/read-string))

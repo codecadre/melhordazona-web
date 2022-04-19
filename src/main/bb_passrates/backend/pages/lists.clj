@@ -1,20 +1,17 @@
 #!/usr/bin/env /usr/local/bin/bb
 
 (ns bb-passrates.backend.pages.lists
-  (:require [bb-passrates.shared.main :refer [lang url->canonical]]
+  (:require [bb-passrates.shared.main :refer [get-place-list lang url->canonical]]
             [bb-passrates.backend.templates.template :as tmp]
-            [hiccup2.core :refer [html]]
             [clojure.edn :as edn]))
 
 ;;graph width
 (def W 960)
 
-(defn school-list [{:keys [url/type] :as url-map}]
-  (let [place (condp = type
-                :city (:url/city url-map)
-                :district (:url/district url-map)
-                :municipality (:url/municipality url-map))]
-    (-> (str "./clean-data/" (name type) "-" place ".edn")  slurp edn/read-string)))
+(defn school-list [type city]
+  (try
+    (get-place-list type city)
+    (catch Exception e (list))))
 
 (def content
   {:title "Avaliações Abertas - Open Pass Rates"
@@ -75,9 +72,8 @@
 
       [:rect {:class "bar", :x "10", :width "31", :y "160.66367501180912", :height "289.3363249881909"}] " "]" "]]])
 
-(defn page [url-map]
-  (let [place-list (school-list url-map)
-        [lat long] (let [n (count place-list)]
+(defn page [url-map place-list]
+  (let [[lat long] (let [n (count place-list)]
                      (->> place-list
                           (reduce (fn [acc {:keys [address]}]
                                     (let [{:keys [latitude longitude]} address]
