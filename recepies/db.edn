@@ -15582,18 +15582,9 @@
      :r/k "siiimpleavis-00269",
      :r/total-passed 34.9986,
      :r/t-done 20.0}],
-   :imt-profile
-   {:address "Bairro da Estrada do Clube Náutico nº 12 7480-107 AVIS",
-    :name "Alentejana",
-    :distrito "Portalegre",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alentejana078.aspx",
-    :concelho "Avis",
-    :nec 269,
-    :cp7 "7480-107",
-    :id #uuid "84086d09-dfc3-38a2-a445-54fad7b26885",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Avis"}}]
+   :imt-profile nil,
+   :obs "license 269 is 'Alentejana' in imt.pt",
+   :overwrite/notes nil}]
  ["vitoria-00272"
   {:nec 272,
    :rates
@@ -16837,18 +16828,9 @@
      :r/k "siiimplemarinhais-00302",
      :r/total-passed 211.0103,
      :r/t-done 145.0}],
-   :imt-profile
-   {:address "Estrada Nacional nº 367 2125-120 SALVATERRA MAGOS",
-    :name "Salvaterra de Magos",
-    :distrito "Santarém",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SalvaterradeMagos909.aspx",
-    :concelho "Salvaterra de Magos",
-    :nec 302,
-    :cp7 "2125-120",
-    :id #uuid "1deb1f2e-60cb-3961-97ee-051f6cdeda89",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Salvaterra%20Magos"}}]
+   :imt-profile nil,
+   :obs "license 302 is 'Salvaterra de Magos' in imt.pt",
+   :overwrite/notes nil}]
  ["vasco-da-gama-00305"
   {:nec 305,
    :rates
@@ -18410,19 +18392,9 @@
      :r/k "o-farol-00333",
      :r/total-passed 273.0048,
      :r/t-done 187.0}],
-   :imt-profile
-   {:address
-    "Av. José Estevão, n.º 610/612, 6830-556 GAFANHA DA NAZARÉ",
-    :name "Estrela de Almeida",
-    :distrito "Aveiro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladeAlmeida424.aspx",
-    :concelho "Ílhavo",
-    :nec 333,
-    :cp7 "6830-556",
-    :id #uuid "f4547e37-e2f9-378c-9b4b-12ab77019e79",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"}}]
+   :imt-profile nil,
+   :obs "license 333 is 'Estrela de Almeida' in imt.pt",
+   :overwrite/notes nil}]
  ["mirandense-00334"
   {:nec 334,
    :rates
@@ -18907,19 +18879,9 @@
      :r/k "nelmar-00338",
      :r/total-passed 74.9978,
      :r/t-done 65.0}],
-   :imt-profile
-   {:address
-    "Rua Dr. Luís Olaio, nº 15 - 1º 5340-262 MACEDO DE CAVALEIROS",
-    :name "Automóvel de Macedo",
-    :distrito "Bragança",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomoveldeMacedo198.aspx",
-    :concelho "Macedo de Cavaleiros",
-    :nec 338,
-    :cp7 "5340-262",
-    :id #uuid "c5905827-834f-3976-9652-5655bb3389c2",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Macedo%20Cavaleiros"}}]
+   :imt-profile nil,
+   :obs "license 338 is 'Automóvel de Macedo' in imt.pt",
+   :overwrite/notes nil}]
  ["mortaguense-00339"
   {:nec 339,
    :rates
@@ -19970,19 +19932,9 @@
      :r/k "cinochaves-00353",
      :r/total-passed 114.9968,
      :r/t-done 82.0}],
-   :imt-profile
-   {:address
-    "Rua Nadir Afonso, Nº 8, Santa Maria Maior,5400-416 CHAVES",
-    :name "Valpacense",
-    :distrito "Vila Real",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Valpacense1036.aspx",
-    :concelho "Chaves",
-    :nec 353,
-    :cp7 "5400-416",
-    :id #uuid "d0bcdf18-bd57-3d87-9a32-bc480816d863",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}]
+   :imt-profile nil,
+   :obs "license 353 is 'Valpacense in imt.pt",
+   :overwrite/notes nil}]
  ["auto-ansiao-00354"
   {:nec 354,
    :rates
@@ -21361,19 +21313,9 @@
      :r/k "alverca-00375",
      :r/total-passed 759.0447,
      :r/t-done 563.0}],
-   :imt-profile
-   {:address
-    "Avª Infante D. Pedro, Nº 106 - C.C.Scala,Loja 30 2615-150 ALVERCA DO RIBATEJO",
-    :name "Infante D. Pedro",
-    :distrito "Lisboa",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfanteDPedro525.aspx",
-    :concelho "Vila Franca de Xira",
-    :nec 375,
-    :cp7 "2615-150",
-    :id #uuid "e7c5dbc6-199e-3489-9f98-1edf60b0cdde",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+   :imt-profile nil,
+   :obs "license 375 is 'Infante D. Pedro' in imt.pt",
+   :overwrite/notes nil}]
  ["rainha-santa-00376"
   {:nec 376,
    :rates
@@ -21632,18 +21574,9 @@
      :r/k "nova-mafra-00378",
      :r/total-passed 417.007,
      :r/t-done 305.0}],
-   :imt-profile
-   {:address "Rua Sacadura Cabral, 34 2600-230 VILA FRANCA DE XIRA",
-    :name "Instrucoop",
-    :distrito "Lisboa",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Instrucoop560.aspx",
-    :concelho "Vila Franca de Xira",
-    :nec 378,
-    :cp7 "2600-230",
-    :id #uuid "98554559-0208-36af-8642-0f228f5e7f15",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+   :imt-profile nil,
+   :obs "license 378 is 'Instrucoop' in imt.pt",
+   :overwrite/notes nil}]
  ["leiriense-00380"
   {:nec 380,
    :rates
@@ -27248,18 +27181,9 @@
      :r/k "circular-de-braga-00443",
      :r/total-passed 47.0008,
      :r/t-done 33.0}],
-   :imt-profile
-   {:address "Rua Nova de Santa Cruz N.º334",
-    :name "Pampicar",
-    :distrito "Braga",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaCombadense919.aspx",
-    :concelho "Braga",
-    :nec 443,
-    :cp7 nil,
-    :id #uuid "73b75a5e-f5fa-352c-b540-a5d657da9017",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+   :imt-profile nil,
+   :obs "license 443 is 'Pampicar' in imt.pt",
+   :overwrite/notes nil}]
  ["a-conquistadora-00444"
   {:nec 444,
    :rates
