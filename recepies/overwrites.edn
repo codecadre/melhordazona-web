@@ -1,21 +1,23 @@
 {"royal-01417" {:address-id #uuid "85b9c656-e409-38cc-a8fa-9d1a39713ae0"
-                  :overwrite/reason "missing nec in imt.pt"
-                  :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"]}
-   "campanha-00297" {:address-id #uuid "7f7d57ec-c53d-3011-b080-285687e47e98"
-                     :overwrite/obs "missing nec in imt.pt"
-                     :overwrite/notes ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"]}
-   "autoflor-00652" {:address-id #uuid "42020dad-2dd1-3624-a1eb-43c7ae455cd3"
-                     :overwrite/obs "nec is 1007 in imt.pt"
-                     :overwrite/notes ["https://goo.gl/maps/SqzySt7WvJsw6VYp8"]}
-   "medieval-01319" {:address-id #uuid "7e57acad-4b71-3006-a0bb-dc2c8d594ac0"
-                     :overwrite/obs "nec is 1318 in imt.pt"}
-   "mogadourense-00494" {:address-id #uuid "0f7182e1-9ade-3a01-95c8-f5e495a01bc4"
-                         :overwrite/obs "nec is 1201 in imt.pt"}
-   "douro-sul-00830" {:address-id #uuid "3b79a161-8af9-3b64-83c3-66aec5238418"
-                      :overwrite/obs "duplicate nec in passrates"}
-   "sind-xxxxx" {:address-id nil
-                 :overwrite/obs "not really a school"}
-   "a-desportiva-boavista-00007" {:address-id nil
-                                  :overwrite/obs "not really a school"}
-   "celas-00626" {:address-id nil
-                  :overwrite/obs "problably the same as siiimpletunas-00626"}}
+                :overwrite/reason "missing nec in imt.pt"
+                :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"]}
+ "campanha-00297" {:address-id #uuid "7f7d57ec-c53d-3011-b080-285687e47e98"
+                   :overwrite/obs "missing nec in imt.pt"
+                   :overwrite/notes ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"]}
+ "autoflor-00652" {:address-id #uuid "42020dad-2dd1-3624-a1eb-43c7ae455cd3"
+                   :overwrite/obs "nec is 1007 in imt.pt"
+                   :overwrite/notes ["https://goo.gl/maps/SqzySt7WvJsw6VYp8"]}
+ "medieval-01319" {:address-id #uuid "7e57acad-4b71-3006-a0bb-dc2c8d594ac0"
+                   :overwrite/obs "nec is 1318 in imt.pt"}
+ "mogadourense-00494" {:address-id #uuid "0f7182e1-9ade-3a01-95c8-f5e495a01bc4"
+                       :overwrite/obs "nec is 1201 in imt.pt"}
+ "douro-sul-00830" {:address-id #uuid "3b79a161-8af9-3b64-83c3-66aec5238418"
+                    :overwrite/obs "duplicate nec in passrates"}
+ "sind-xxxxx" {:address-id nil
+               :overwrite/obs "not really a school"}
+ "a-desportiva-boavista-00007" {:address-id nil
+                                :overwrite/obs "not really a school"}
+ "celas-00626" {:address-id nil
+                :overwrite/obs "problably the same as siiimpletunas-00626"}
+ "nova-mira-01349" {:address-id nil
+                    :overwrite/obs "prob. same as nova-de-tomar-01349. data until 2018"}}

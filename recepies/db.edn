@@ -106772,18 +106772,9 @@
      :r/k "nova-mira-01349",
      :r/total-passed 85.9985,
      :r/t-done 139.0}],
-   :imt-profile
-   {:address "Av. General Norton de Matos, n.º 30-32 r/c Esq. Tomar",
-    :name "Nova de Tomar",
-    :distrito "Santarém",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeTomar.aspx",
-    :concelho "Tomar",
-    :nec 1349,
-    :cp7 nil,
-    :id #uuid "b780e95a-4c4a-3cb6-89c0-287311e007ac",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"}}]
+   :imt-profile nil,
+   :obs "prob. same as nova-de-tomar-01349. data until 2018",
+   :overwrite/notes nil}]
  ["carristur-01350"
   {:nec 1350,
    :rates
