@@ -4,12 +4,12 @@
             [clojure.edn :as edn]
             [clojure.pprint :as pprint]))
 
-(def addresses
+(def imt-profiles
   (-> "imt-school-addresses-submodule/parsed-data/db.edn"
       slurp
       edn/read-string));;TODO add name to keyword
 
-(def nec->addresses
+(def nec->imt-profiles
   "uses first, drops the rest. relies on there being a manual overwrite if data
   doesn't look good"
   (->> addresses
@@ -18,7 +18,16 @@
               [k (first v)]))
        (into {})))
 
-(filter #(= 1417 (:nec %)) addresses)
+(def id->imt-profiles
+  (->> addresses
+       (group-by :id)
+       (map (fn [[k v]]
+              [k (first v)]))
+       (into {})))
+
+(filter #(= 1007 (:nec %)) imt-profiles)
+(filter #(= 1001 (:nec %)) db)
+
 (def pass-rates
   (->> (->
         "imt-pass-rates-submodule/parsed-data/db.json"
@@ -34,9 +43,8 @@
        (into {})))
 
 (def db
-  (map (fn [[k {:keys [nec] :as d}]]
-         [k (assoc d :imt-profile (get nec->addresses nec))]) pass-rates))
-
+  (mapv (fn [[k {:keys [nec] :as d}]]
+         [k (assoc d :imt-profile (get nec->imt-profiles nec))]) pass-rates))
 
 
 (defn simple-db [db]
@@ -47,40 +55,62 @@
           :pr/k k}
          ) db))
 
-(count (remove (fn [[k {:keys [imt-profile]}]]
-           (when imt-profile true)) db))
 
-
-(def no-imt-profile
+(defn no-imt-profile [db]
   (remove (fn [[k {:keys [imt-profile]}]]
             (when imt-profile true)) db))
-;;92
+;;(count (no-imt-profile db));;92
 
-(def print-no-imt-profile
-  (->> no-imt-profile
-       (map (fn [[k {:keys [rates]}]]
-              (into {:k k } (map #(hash-map (keyword (:r/level-0 %)) true) rates))))
-       (sort #(compare (-> %2 :s count) (-> %1 :s count)))))
-
-(spit "./recepies/no-imt-profile.txt"
-      (with-out-str
-        (pprint/print-table [:k :2015 :2016 :2017 :2018 :2019 :2020] print-no-imt-profile)))
+(defn print-missing-imt-profile [db]
+  (let [f "./recepies/no-imt-profile.txt"
+        d (->> (no-imt-profile db)
+               (map (fn [[k {:keys [rates obs]}]]
+                      (into {:k k} (map #(hash-map (keyword (:r/level-0 %)) true) rates))))
+               (sort #(compare (-> %2 :2020) (-> %1 :2020))))]
+    (spit f
+          (with-out-str
+            (pprint/print-table [:k :2015 :2016 :2017 :2018 :2019 :2020] d)))))
 
 (spit "./recepies/simple-db.txt"
       (with-out-str
         (pprint/print-table (simple-db db))))
 
 
+(def overwrites
+  "k->imt-profile id"
+  {"royal-01417" {:address-id #uuid "85b9c656-e409-38cc-a8fa-9d1a39713ae0"
+                  :overwrite/reason "missing nec in imt.pt"
+                  :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"]}
+   "campanha-00297" {:address-id #uuid "7f7d57ec-c53d-3011-b080-285687e47e98"
+                     :overwrite/obs "missing nec in imt.pt"
+                     :overwrite/notes ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"]}
+   "autoflor-00652" {:address-id #uuid "42020dad-2dd1-3624-a1eb-43c7ae455cd3"
+                     :overwrite/obs "nec is 1007 in imt.pt"
+                     :overwrite/notes ["https://goo.gl/maps/SqzySt7WvJsw6VYp8"]}
+   "medieval-01319" {:address-id #uuid "7e57acad-4b71-3006-a0bb-dc2c8d594ac0"
+                     :overwrite/obs "nec is 1318 in imt.pt"}
+   "mogadourense-00494" {:address-id #uuid "0f7182e1-9ade-3a01-95c8-f5e495a01bc4"
+                         :overwrite/obs "nec is 1201 in imt.pt"}
+   "douro-sul-00830" {:address-id #uuid "3b79a161-8af9-3b64-83c3-66aec5238418"
+                      :overwrite/obs "duplicate nec in passrates"}})
 
-(->> pass-rates
-     (map (fn [[k v]]
-            (let [s (set (map :r/nec v))]
-              {:k k
-               :necs (apply str (interpose ", " s))
-               :nec-count (count s)})))
-     #_(filter #(> (:nec-count %) 1)))
+(def db-massaged
+  (reduce (fn [db [k {:keys [address-id overwrite/obs overwrite/notes]}]]
+            (let [[idx item]
+                  (->> db
+                       (map-indexed vector)
+                       (filter #(= (-> % last first) k))
+                       first)]
+              (-> db
+                  (assoc-in [idx 1 :imt-profile] (get id->imt-profiles address-id))
+                  (assoc-in [idx 1 :obs] obs)
+                  (assoc-in [idx 1 :overwrite/notes] notes)))) db overwrites))
 
-(def pass-rates-by-nec
+(print-missing-imt-profile db-massaged)
+
+(filter (fn [[k m]] (= k "douro-sul-00830")) db-massaged )
+
+(def nec->pass-rates
   (->> (->
         "imt-pass-rates-submodule/parsed-data/db.json"
         slurp
@@ -88,9 +118,10 @@
         :r/data)
        (group-by :r/nec)))
 
+;;TODO change file name - duplite ks in pass-rates
 (spit "./recepies/rates-by-nec.txt"
       (with-out-str
-        (pprint/print-table (->> pass-rates-by-nec
+        (pprint/print-table (->> nec->pass-rates
                                  (map (fn [[k v]]
                                         (let [s (set (map :r/k v))]
                                           {:nec k
@@ -100,23 +131,7 @@
                                  (filter #(> (:k-count %) 1))
                                  (map #(select-keys % [:nec :ks]))))))
 
-(every? true? (map (fn k [[k v]]
-                     (apply = (map :k v)))  (take-last 100 (take 900 pass-rates))))
-
-(nth (take-last 10 (take 100 pass-rates)) 1)
-
-
-(def pass-rates-nec (set (map :n_ec pass-rates)))
-
-(def addresses-nec
-  (set (map
-    :nec-raw
-    (-> "imt-school-addresses-submodule/parsed-data/db.edn"
-        slurp
-        edn/read-string))))
-
-
-(defn full-outer-join
+#_(defn full-outer-join
   "merge two collections on key. Equivalent to SQL full outer join.
   assumes keys are unique"
   [k A B]
@@ -137,20 +152,18 @@
 (def addresses-not-nil
   (remove #(nil? (:nec %)) addresses))
 
-(def db
+#_(def db
   (into (vec addresses-nil) (full-outer-join :nec pass-rates (-> addresses-not-nil set vec))))
 
-(def db-print
+(defn db-print [db]
   (->> db
-       (map #(dissoc % :concelho-href :school-href))
+       (map (fn [[k {:keys [rates imt-profile nec obs]}]]
+              {:pr/k k :nec nec :imt/name (-> imt-profile :name) :imt/nec (-> imt-profile :nec) :obs obs}))
        (sort #(compare (:nec %1) (:nec %2)))))
 
 
-(def ks-print
-  #{:nec :k :title-clean}
-  #_(set (flatten (map keys db-print))))
 
-(spit "./recepies/db.txt" (with-out-str (pprint/print-table ks-print db-print)))
+(spit "./recepies/simple-db.txt" (with-out-str (pprint/print-table (db-print db-massaged))))
 
 (comment
   (def A [{:k 1 :foo "bar"}
