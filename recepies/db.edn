@@ -82601,18 +82601,10 @@
      :r/k "prestige-01079",
      :r/total-passed 63.0013,
      :r/t-done 30.0}],
-   :imt-profile
-   {:address "Rua Julio Dinis n.º 380, r/c , 4050-318 Porto",
-    :name "Mota Galiza",
-    :distrito "Porto",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MotaGaliza.aspx",
-    :concelho "Porto",
-    :nec 1079,
-    :cp7 "4050-318",
-    :id #uuid "58c80e89-6aa3-333a-b697-d39d3a1f8312",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+   :imt-profile nil,
+   :obs
+   "Dup mota-galiza-01079. Data stops @ 2018. Another Prestige w/1314",
+   :overwrite/notes nil}]
  ["marvila-01080"
   {:nec 1080,
    :rates

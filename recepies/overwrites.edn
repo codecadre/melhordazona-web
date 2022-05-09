@@ -29,4 +29,6 @@
              :overwrite/obs "Most recent from duplicate pair but name differs a lot from imp.pt."}
  "auto-stop-00760" {:address-id nil
                     :overwrite/obs "Duplicate pair of ip4-00760. Data stops @ 2019"}
+ "prestige-01079" {:address-id nil
+                    :overwrite/obs "Dup mota-galiza-01079. Data stops @ 2018. Another Prestige w/1314"}
  }
