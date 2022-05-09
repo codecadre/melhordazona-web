@@ -68060,19 +68060,9 @@
      :r/k "armando-machado-da-cruz-00900",
      :r/total-passed 156.9976,
      :r/t-done 107.0}],
-   :imt-profile
-   {:address
-    "Edf. Avenida - Fracção D - Av. dos Bombeiros Voluntários, 172, R/C Post Esq. - 3460-572 Tondela",
-    :name "Escola de Condução Grand Tour",
-    :distrito "Viseu",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Escola%20de%20Condu%c3%a7%c3%a3o%20Grand%20Tour.aspx",
-    :concelho "Tondela",
-    :nec 900,
-    :cp7 "3460-572",
-    :id #uuid "9929dc34-7d82-34ea-944d-a97bce27d9df",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"}}]
+   :imt-profile nil,
+   :obs "Dup grand-tour-00900. Data stops @ 2019.",
+   :overwrite/notes nil}]
  ["grand-tour-00900"
   {:nec 900,
    :rates
