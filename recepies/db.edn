@@ -2282,18 +2282,9 @@
      :r/k "alkantara-00027",
      :r/total-passed 123.9931,
      :r/t-done 44.0}],
-   :imt-profile
-   {:address "Largo do Calvário, 16 – R/C Dtº 1300-114 LISBOA",
-    :name "Vencedora Alcanterense",
-    :distrito "Lisboa",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VencedoraAlcanterense1042.aspx",
-    :concelho "Lisboa",
-    :nec 27,
-    :cp7 "1300-114",
-    :id #uuid "75ac46fd-1378-38ba-afab-1c2279f30f62",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+   :imt-profile nil,
+   :obs "license 27 is Vencedora Alcanterense in imt.pt",
+   :overwrite/notes nil}]
  ["de-benfica-00028"
   {:nec 28,
    :rates
@@ -6867,18 +6858,9 @@
      :r/k "entre-linhas-00092",
      :r/total-passed 129.0004,
      :r/t-done 101.0}],
-   :imt-profile
-   {:address "Campo de Viriato, 26 3510-122 VISEU",
-    :name "Automobilismo da Beira",
-    :distrito "Viseu",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomobilismodaBeira181.aspx",
-    :concelho "Viseu",
-    :nec 92,
-    :cp7 "3510-122",
-    :id #uuid "abcb656f-a6c5-3b8d-ae7d-6cf49ec4d1e9",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+   :imt-profile nil,
+   :obs "license 92 is 'Automobilismo da Beira' in imt.pt",
+   :overwrite/notes nil}]
  ["tome-00093"
   {:nec 93,
    :rates
