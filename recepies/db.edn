@@ -2285,7 +2285,7 @@
    :imt-profile nil,
    :obs "license 27 is Vencedora Alcanterense in imt.pt",
    :overwrite/notes nil}]
- ["de-benfica-00028"
+ ["benfica-00028"
   {:nec 28,
    :rates
    [{:r/nec 28,
@@ -2299,7 +2299,7 @@
      :r/total-done 153,
      :r/d-rate 0.5694,
      :r/t-scheduled 87.0,
-     :r/k "de-benfica-00028",
+     :r/k "benfica-00028",
      :r/total-passed 90.9981,
      :r/t-done 81.0}
     {:r/nec 28,
@@ -2313,7 +2313,7 @@
      :r/total-done 75,
      :r/d-rate 0.5,
      :r/t-scheduled 30.0,
-     :r/k "de-benfica-00028",
+     :r/k "benfica-00028",
      :r/total-passed 42.9999,
      :r/t-done 27.0}
     {:r/nec 28,
@@ -2327,7 +2327,7 @@
      :r/total-done 277,
      :r/d-rate 0.6636,
      :r/t-scheduled 179.0,
-     :r/k "de-benfica-00028",
+     :r/k "benfica-00028",
      :r/total-passed 180.9949,
      :r/t-done 167.0}
     {:r/nec 28,
@@ -2341,7 +2341,7 @@
      :r/total-done 393,
      :r/d-rate 0.5313,
      :r/t-scheduled 242.0,
-     :r/k "de-benfica-00028",
+     :r/k "benfica-00028",
      :r/total-passed 234.0115,
      :r/t-done 233.0}
     {:r/nec 28,
@@ -2355,7 +2355,7 @@
      :r/total-done 430,
      :r/d-rate 0.5021,
      :r/t-scheduled 196.0,
-     :r/k "de-benfica-00028",
+     :r/k "benfica-00028",
      :r/total-passed 236.0055,
      :r/t-done 187.0}
     {:r/nec 28,
@@ -2369,7 +2369,7 @@
      :r/total-done 346,
      :r/d-rate 0.503,
      :r/t-scheduled 195.0,
-     :r/k "de-benfica-00028",
+     :r/k "benfica-00028",
      :r/total-passed 198.0061,
      :r/t-done 179.0}],
    :imt-profile
@@ -10280,7 +10280,7 @@
     :id #uuid "7e77806d-d704-36ec-913d-e1f4a173640d",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}]
- ["de-alges-00149"
+ ["alges-00149"
   {:nec 149,
    :rates
    [{:r/nec 149,
@@ -10294,7 +10294,7 @@
      :r/total-done 360,
      :r/d-rate 0.7941,
      :r/t-scheduled 198.0,
-     :r/k "de-alges-00149",
+     :r/k "alges-00149",
      :r/total-passed 280.005,
      :r/t-done 190.0}
     {:r/nec 149,
@@ -10308,7 +10308,7 @@
      :r/total-done 360,
      :r/d-rate 0.7473,
      :r/t-scheduled 185.0,
-     :r/k "de-alges-00149",
+     :r/k "alges-00149",
      :r/total-passed 265.0052,
      :r/t-done 178.0}
     {:r/nec 149,
@@ -10322,7 +10322,7 @@
      :r/total-done 291,
      :r/d-rate 0.7042,
      :r/t-scheduled 151.0,
-     :r/k "de-alges-00149",
+     :r/k "alges-00149",
      :r/total-passed 203.9984,
      :r/t-done 149.0}
     {:r/nec 149,
@@ -10336,7 +10336,7 @@
      :r/total-done 347,
      :r/d-rate 0.716,
      :r/t-scheduled 191.0,
-     :r/k "de-alges-00149",
+     :r/k "alges-00149",
      :r/total-passed 240.9965,
      :r/t-done 185.0}
     {:r/nec 149,
@@ -10350,7 +10350,7 @@
      :r/total-done 326,
      :r/d-rate 0.72,
      :r/t-scheduled 178.0,
-     :r/k "de-alges-00149",
+     :r/k "alges-00149",
      :r/total-passed 227.9968,
      :r/t-done 176.0}
     {:r/nec 149,
@@ -10364,7 +10364,7 @@
      :r/total-done 318,
      :r/d-rate 0.5583,
      :r/t-scheduled 167.0,
-     :r/k "de-alges-00149",
+     :r/k "alges-00149",
      :r/total-passed 209.9964,
      :r/t-done 155.0}],
    :imt-profile
@@ -12596,7 +12596,7 @@
     :id #uuid "fa74d896-ba86-3fe1-bd45-98ec51735fee",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"}}]
- ["de-santarem-00201"
+ ["santarem-00201"
   {:nec 201,
    :rates
    [{:r/nec 201,
@@ -12610,7 +12610,7 @@
      :r/total-done 419,
      :r/d-rate 0.7557,
      :r/t-scheduled 199.0,
-     :r/k "de-santarem-00201",
+     :r/k "santarem-00201",
      :r/total-passed 307.0155,
      :r/t-done 198.0}
     {:r/nec 201,
@@ -12624,7 +12624,7 @@
      :r/total-done 325,
      :r/d-rate 0.7978,
      :r/t-scheduled 150.0,
-     :r/k "de-santarem-00201",
+     :r/k "santarem-00201",
      :r/total-passed 251.0089,
      :r/t-done 147.0}
     {:r/nec 201,
@@ -12638,7 +12638,7 @@
      :r/total-done 372,
      :r/d-rate 0.8118,
      :r/t-scheduled 189.0,
-     :r/k "de-santarem-00201",
+     :r/k "santarem-00201",
      :r/total-passed 293.9916,
      :r/t-done 186.0}
     {:r/nec 201,
@@ -12652,7 +12652,7 @@
      :r/total-done 304,
      :r/d-rate 0.8471,
      :r/t-scheduled 138.0,
-     :r/k "de-santarem-00201",
+     :r/k "santarem-00201",
      :r/total-passed 252.011,
      :r/t-done 134.0}
     {:r/nec 201,
@@ -12666,7 +12666,7 @@
      :r/total-done 357,
      :r/d-rate 0.7897,
      :r/t-scheduled 166.0,
-     :r/k "de-santarem-00201",
+     :r/k "santarem-00201",
      :r/total-passed 272.9967,
      :r/t-done 162.0}
     {:r/nec 201,
@@ -12680,7 +12680,7 @@
      :r/total-done 320,
      :r/d-rate 0.8485,
      :r/t-scheduled 165.0,
-     :r/k "de-santarem-00201",
+     :r/k "santarem-00201",
      :r/total-passed 252.0055,
      :r/t-done 155.0}],
    :imt-profile
@@ -13044,7 +13044,7 @@
      :r/total-passed 22.0004,
      :r/t-done 2.0}],
    :imt-profile nil}]
- ["de-queluz-00210"
+ ["queluz-00210"
   {:nec 210,
    :rates
    [{:r/nec 210,
@@ -13058,7 +13058,7 @@
      :r/total-done 358,
      :r/d-rate 0.697,
      :r/t-scheduled 194.0,
-     :r/k "de-queluz-00210",
+     :r/k "queluz-00210",
      :r/total-passed 235.9967,
      :r/t-done 193.0}
     {:r/nec 210,
@@ -13072,7 +13072,7 @@
      :r/total-done 308,
      :r/d-rate 0.6923,
      :r/t-scheduled 181.0,
-     :r/k "de-queluz-00210",
+     :r/k "queluz-00210",
      :r/total-passed 201.9966,
      :r/t-done 178.0}
     {:r/nec 210,
@@ -13086,7 +13086,7 @@
      :r/total-done 349,
      :r/d-rate 0.7219,
      :r/t-scheduled 203.0,
-     :r/k "de-queluz-00210",
+     :r/k "queluz-00210",
      :r/total-passed 241.0135,
      :r/t-done 198.0}
     {:r/nec 210,
@@ -13100,7 +13100,7 @@
      :r/total-done 338,
      :r/d-rate 0.7006,
      :r/t-scheduled 186.0,
-     :r/k "de-queluz-00210",
+     :r/k "queluz-00210",
      :r/total-passed 237.0019,
      :r/t-done 181.0}
     {:r/nec 210,
@@ -13114,7 +13114,7 @@
      :r/total-done 360,
      :r/d-rate 0.7135,
      :r/t-scheduled 196.0,
-     :r/k "de-queluz-00210",
+     :r/k "queluz-00210",
      :r/total-passed 246.0114,
      :r/t-done 189.0}
     {:r/nec 210,
@@ -13128,7 +13128,7 @@
      :r/total-done 490,
      :r/d-rate 0.6209,
      :r/t-scheduled 299.0,
-     :r/k "de-queluz-00210",
+     :r/k "queluz-00210",
      :r/total-passed 294.0017,
      :r/t-done 279.0}],
    :imt-profile
@@ -14141,7 +14141,7 @@
     :id #uuid "40e489b0-b991-325f-a8d9-0da587b72605",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"}}]
- ["da-amadora-00237"
+ ["amadora-00237"
   {:nec 237,
    :rates
    [{:r/nec 237,
@@ -14155,7 +14155,7 @@
      :r/total-done 408,
      :r/d-rate 0.5707,
      :r/t-scheduled 222.0,
-     :r/k "da-amadora-00237",
+     :r/k "amadora-00237",
      :r/total-passed 239.0084,
      :r/t-done 217.0}
     {:r/nec 237,
@@ -14169,7 +14169,7 @@
      :r/total-done 378,
      :r/d-rate 0.6158,
      :r/t-scheduled 192.0,
-     :r/k "da-amadora-00237",
+     :r/k "amadora-00237",
      :r/total-passed 232.998,
      :r/t-done 188.0}
     {:r/nec 237,
@@ -14183,7 +14183,7 @@
      :r/total-done 438,
      :r/d-rate 0.5333,
      :r/t-scheduled 237.0,
-     :r/k "da-amadora-00237",
+     :r/k "amadora-00237",
      :r/total-passed 258.9846,
      :r/t-done 228.0}
     {:r/nec 237,
@@ -14197,7 +14197,7 @@
      :r/total-done 433,
      :r/d-rate 0.5487,
      :r/t-scheduled 246.0,
-     :r/k "da-amadora-00237",
+     :r/k "amadora-00237",
      :r/total-passed 267.0039,
      :r/t-done 238.0}
     {:r/nec 237,
@@ -14211,7 +14211,7 @@
      :r/total-done 476,
      :r/d-rate 0.4751,
      :r/t-scheduled 221.0,
-     :r/k "da-amadora-00237",
+     :r/k "amadora-00237",
      :r/total-passed 266.0086,
      :r/t-done 215.0}
     {:r/nec 237,
@@ -14225,7 +14225,7 @@
      :r/total-done 446,
      :r/d-rate 0.5339,
      :r/t-scheduled 243.0,
-     :r/k "da-amadora-00237",
+     :r/k "amadora-00237",
      :r/total-passed 243.0019,
      :r/t-done 225.0}],
    :imt-profile
@@ -14240,7 +14240,7 @@
     :id #uuid "18ae75d2-7291-3375-8aa1-061a9e9e982c",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}]
- ["de-alvaiazere-00239"
+ ["alvaiazere-00239"
   {:nec 239,
    :rates
    [{:r/nec 239,
@@ -14254,7 +14254,7 @@
      :r/total-done 196,
      :r/d-rate 0.8087,
      :r/t-scheduled 82.0,
-     :r/k "de-alvaiazere-00239",
+     :r/k "alvaiazere-00239",
      :r/total-passed 152.0009,
      :r/t-done 81.0}
     {:r/nec 239,
@@ -14268,7 +14268,7 @@
      :r/total-done 221,
      :r/d-rate 0.7627,
      :r/t-scheduled 104.0,
-     :r/k "de-alvaiazere-00239",
+     :r/k "alvaiazere-00239",
      :r/total-passed 168.0005,
      :r/t-done 103.0}
     {:r/nec 239,
@@ -14282,7 +14282,7 @@
      :r/total-done 222,
      :r/d-rate 0.8017,
      :r/t-scheduled 108.0,
-     :r/k "de-alvaiazere-00239",
+     :r/k "alvaiazere-00239",
      :r/total-passed 158.0097,
      :r/t-done 101.0}
     {:r/nec 239,
@@ -14296,7 +14296,7 @@
      :r/total-done 235,
      :r/d-rate 0.7398,
      :r/t-scheduled 116.0,
-     :r/k "de-alvaiazere-00239",
+     :r/k "alvaiazere-00239",
      :r/total-passed 166.9986,
      :r/t-done 112.0}
     {:r/nec 239,
@@ -14310,7 +14310,7 @@
      :r/total-done 253,
      :r/d-rate 0.7619,
      :r/t-scheduled 110.0,
-     :r/k "de-alvaiazere-00239",
+     :r/k "alvaiazere-00239",
      :r/total-passed 194.0009,
      :r/t-done 106.0}
     {:r/nec 239,
@@ -14324,7 +14324,7 @@
      :r/total-done 197,
      :r/d-rate 0.7653,
      :r/t-scheduled 106.0,
-     :r/k "de-alvaiazere-00239",
+     :r/k "alvaiazere-00239",
      :r/total-passed 133.0035,
      :r/t-done 99.0}],
    :imt-profile
@@ -14484,7 +14484,7 @@
      :r/total-passed 96.0029,
      :r/t-done 55.0}],
    :imt-profile nil}]
- ["da-mealhada-00243"
+ ["mealhada-00243"
   {:nec 243,
    :rates
    [{:r/nec 243,
@@ -14498,7 +14498,7 @@
      :r/total-done 312,
      :r/d-rate 0.6527,
      :r/t-scheduled 147.0,
-     :r/k "da-mealhada-00243",
+     :r/k "mealhada-00243",
      :r/total-passed 225.0009,
      :r/t-done 145.0}
     {:r/nec 243,
@@ -14512,7 +14512,7 @@
      :r/total-done 291,
      :r/d-rate 0.6576,
      :r/t-scheduled 107.0,
-     :r/k "da-mealhada-00243",
+     :r/k "mealhada-00243",
      :r/total-passed 214.9979,
      :r/t-done 107.0}
     {:r/nec 243,
@@ -14526,7 +14526,7 @@
      :r/total-done 265,
      :r/d-rate 0.7015,
      :r/t-scheduled 135.0,
-     :r/k "da-mealhada-00243",
+     :r/k "mealhada-00243",
      :r/total-passed 203.0061,
      :r/t-done 131.0}
     {:r/nec 243,
@@ -14540,7 +14540,7 @@
      :r/total-done 421,
      :r/d-rate 0.6378,
      :r/t-scheduled 171.0,
-     :r/k "da-mealhada-00243",
+     :r/k "mealhada-00243",
      :r/total-passed 290.0067,
      :r/t-done 167.0}
     {:r/nec 243,
@@ -14554,7 +14554,7 @@
      :r/total-done 418,
      :r/d-rate 0.6341,
      :r/t-scheduled 177.0,
-     :r/k "da-mealhada-00243",
+     :r/k "mealhada-00243",
      :r/total-passed 278.9858,
      :r/t-done 172.0}
     {:r/nec 243,
@@ -14568,7 +14568,7 @@
      :r/total-done 354,
      :r/d-rate 0.7273,
      :r/t-scheduled 175.0,
-     :r/k "da-mealhada-00243",
+     :r/k "mealhada-00243",
      :r/total-passed 260.0026,
      :r/t-done 167.0}],
    :imt-profile
@@ -16290,7 +16290,7 @@
     :id #uuid "430c148a-e451-3934-bdd7-9b657bdff2d6",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Sabugal"}}]
- ["de-sousel-00296"
+ ["sousel-00296"
   {:nec 296,
    :rates
    [{:r/nec 296,
@@ -16304,7 +16304,7 @@
      :r/total-done 117,
      :r/d-rate 0.9868,
      :r/t-scheduled 42.0,
-     :r/k "de-sousel-00296",
+     :r/k "sousel-00296",
      :r/total-passed 100.9949,
      :r/t-done 41.0}
     {:r/nec 296,
@@ -16318,7 +16318,7 @@
      :r/total-done 184,
      :r/d-rate 0.9706,
      :r/t-scheduled 48.0,
-     :r/k "de-sousel-00296",
+     :r/k "sousel-00296",
      :r/total-passed 165.0016,
      :r/t-done 48.0}
     {:r/nec 296,
@@ -16332,7 +16332,7 @@
      :r/total-done 161,
      :r/d-rate 0.9826,
      :r/t-scheduled 47.0,
-     :r/k "de-sousel-00296",
+     :r/k "sousel-00296",
      :r/total-passed 141.9974,
      :r/t-done 46.0}
     {:r/nec 296,
@@ -16346,7 +16346,7 @@
      :r/total-done 152,
      :r/d-rate 0.9921,
      :r/t-scheduled 28.0,
-     :r/k "de-sousel-00296",
+     :r/k "sousel-00296",
      :r/total-passed 141.005,
      :r/t-done 26.0}
     {:r/nec 296,
@@ -16360,7 +16360,7 @@
      :r/total-done 206,
      :r/d-rate 0.9571,
      :r/t-scheduled 67.0,
-     :r/k "de-sousel-00296",
+     :r/k "sousel-00296",
      :r/total-passed 177.9962,
      :r/t-done 66.0}
     {:r/nec 296,
@@ -16374,7 +16374,7 @@
      :r/total-done 127,
      :r/d-rate 0.9891,
      :r/t-scheduled 36.0,
-     :r/k "de-sousel-00296",
+     :r/k "sousel-00296",
      :r/total-passed 117.9962,
      :r/t-done 35.0}],
    :imt-profile
@@ -16651,7 +16651,7 @@
      :r/total-passed 353.988,
      :r/t-done 195.0}],
    :imt-profile nil}]
- ["de-redondo-00301"
+ ["redondo-00301"
   {:nec 301,
    :rates
    [{:r/nec 301,
@@ -16665,7 +16665,7 @@
      :r/total-done 141,
      :r/d-rate 0.6812,
      :r/t-scheduled 72.0,
-     :r/k "de-redondo-00301",
+     :r/k "redondo-00301",
      :r/total-passed 99.0012,
      :r/t-done 72.0}
     {:r/nec 301,
@@ -16679,7 +16679,7 @@
      :r/total-done 143,
      :r/d-rate 0.7468,
      :r/t-scheduled 64.0,
-     :r/k "de-redondo-00301",
+     :r/k "redondo-00301",
      :r/total-passed 111.9956,
      :r/t-done 64.0}
     {:r/nec 301,
@@ -16693,7 +16693,7 @@
      :r/total-done 110,
      :r/d-rate 0.8333,
      :r/t-scheduled 59.0,
-     :r/k "de-redondo-00301",
+     :r/k "redondo-00301",
      :r/total-passed 86.9982,
      :r/t-done 56.0}
     {:r/nec 301,
@@ -16707,7 +16707,7 @@
      :r/total-done 99,
      :r/d-rate 0.7451,
      :r/t-scheduled 51.0,
-     :r/k "de-redondo-00301",
+     :r/k "redondo-00301",
      :r/total-passed 74.0001,
      :r/t-done 48.0}
     {:r/nec 301,
@@ -16721,7 +16721,7 @@
      :r/total-done 87,
      :r/d-rate 0.7556,
      :r/t-scheduled 44.0,
-     :r/k "de-redondo-00301",
+     :r/k "redondo-00301",
      :r/total-passed 63.003,
      :r/t-done 42.0}
     {:r/nec 301,
@@ -16735,7 +16735,7 @@
      :r/total-done 82,
      :r/d-rate 0.7778,
      :r/t-scheduled 61.0,
-     :r/k "de-redondo-00301",
+     :r/k "redondo-00301",
      :r/total-passed 61.0021,
      :r/t-done 55.0}],
    :imt-profile
@@ -19211,7 +19211,7 @@
     :id #uuid "0580b6c6-074e-35ad-bb68-06dd9634ff73",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Oliveira%20de%20Frades"}}]
- ["da-figueirinha-fhr-00342"
+ ["figueirinha-fhr-00342"
   {:nec 342,
    :rates
    [{:r/nec 342,
@@ -19225,7 +19225,7 @@
      :r/total-done 400,
      :r/d-rate 0.6269,
      :r/t-scheduled 209.0,
-     :r/k "da-figueirinha-fhr-00342",
+     :r/k "figueirinha-fhr-00342",
      :r/total-passed 260.0135,
      :r/t-done 199.0}
     {:r/nec 342,
@@ -19239,7 +19239,7 @@
      :r/total-done 351,
      :r/d-rate 0.55,
      :r/t-scheduled 203.0,
-     :r/k "da-figueirinha-fhr-00342",
+     :r/k "figueirinha-fhr-00342",
      :r/total-passed 197.0037,
      :r/t-done 191.0}
     {:r/nec 342,
@@ -19253,7 +19253,7 @@
      :r/total-done 393,
      :r/d-rate 0.5079,
      :r/t-scheduled 213.0,
-     :r/k "da-figueirinha-fhr-00342",
+     :r/k "figueirinha-fhr-00342",
      :r/total-passed 198.9927,
      :r/t-done 204.0}
     {:r/nec 342,
@@ -19267,7 +19267,7 @@
      :r/total-done 360,
      :r/d-rate 0.5257,
      :r/t-scheduled 197.0,
-     :r/k "da-figueirinha-fhr-00342",
+     :r/k "figueirinha-fhr-00342",
      :r/total-passed 190.991,
      :r/t-done 185.0}
     {:r/nec 342,
@@ -19281,7 +19281,7 @@
      :r/total-done 339,
      :r/d-rate 0.5238,
      :r/t-scheduled 185.0,
-     :r/k "da-figueirinha-fhr-00342",
+     :r/k "figueirinha-fhr-00342",
      :r/total-passed 192.9924,
      :r/t-done 171.0}
     {:r/nec 342,
@@ -19295,7 +19295,7 @@
      :r/total-done 276,
      :r/d-rate 0.4667,
      :r/t-scheduled 184.0,
-     :r/k "da-figueirinha-fhr-00342",
+     :r/k "figueirinha-fhr-00342",
      :r/total-passed 156.9984,
      :r/t-done 156.0}],
    :imt-profile
@@ -20479,7 +20479,7 @@
     :id #uuid "092fd767-d6d1-3bbe-ab82-418ca21bce85",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"}}]
- ["de-nelas-00367"
+ ["nelas-00367"
   {:nec 367,
    :rates
    [{:r/nec 367,
@@ -20493,7 +20493,7 @@
      :r/total-done 213,
      :r/d-rate 0.7708,
      :r/t-scheduled 125.0,
-     :r/k "de-nelas-00367",
+     :r/k "nelas-00367",
      :r/total-passed 171.0015,
      :r/t-done 117.0}
     {:r/nec 367,
@@ -20507,7 +20507,7 @@
      :r/total-done 294,
      :r/d-rate 0.8058,
      :r/t-scheduled 169.0,
-     :r/k "de-nelas-00367",
+     :r/k "nelas-00367",
      :r/total-passed 214.0117,
      :r/t-done 155.0}
     {:r/nec 367,
@@ -20521,7 +20521,7 @@
      :r/total-done 290,
      :r/d-rate 0.7829,
      :r/t-scheduled 168.0,
-     :r/k "de-nelas-00367",
+     :r/k "nelas-00367",
      :r/total-passed 206.9965,
      :r/t-done 161.0}
     {:r/nec 367,
@@ -20535,7 +20535,7 @@
      :r/total-done 346,
      :r/d-rate 0.7778,
      :r/t-scheduled 184.0,
-     :r/k "de-nelas-00367",
+     :r/k "nelas-00367",
      :r/total-passed 248.0036,
      :r/t-done 166.0}
     {:r/nec 367,
@@ -20549,7 +20549,7 @@
      :r/total-done 377,
      :r/d-rate 0.7731,
      :r/t-scheduled 175.0,
-     :r/k "de-nelas-00367",
+     :r/k "nelas-00367",
      :r/total-passed 268.9831,
      :r/t-done 161.0}
     {:r/nec 367,
@@ -20563,7 +20563,7 @@
      :r/total-done 273,
      :r/d-rate 0.6831,
      :r/t-scheduled 148.0,
-     :r/k "de-nelas-00367",
+     :r/k "nelas-00367",
      :r/total-passed 171.9977,
      :r/t-done 131.0}],
    :imt-profile
@@ -22331,7 +22331,7 @@
     :id #uuid "bea02562-51b6-3780-a2a4-d588df182ab4",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
- ["da-penha-00388"
+ ["penha-00388"
   {:nec 388,
    :rates
    [{:r/nec 388,
@@ -22345,7 +22345,7 @@
      :r/total-done 1072,
      :r/d-rate 0.5697,
      :r/t-scheduled 510.0,
-     :r/k "da-penha-00388",
+     :r/k "penha-00388",
      :r/total-passed 674.9903,
      :r/t-done 491.0}
     {:r/nec 388,
@@ -22359,7 +22359,7 @@
      :r/total-done 845,
      :r/d-rate 0.6066,
      :r/t-scheduled 375.0,
-     :r/k "da-penha-00388",
+     :r/k "penha-00388",
      :r/total-passed 551.0042,
      :r/t-done 329.0}
     {:r/nec 388,
@@ -22373,7 +22373,7 @@
      :r/total-done 855,
      :r/d-rate 0.6355,
      :r/t-scheduled 440.0,
-     :r/k "da-penha-00388",
+     :r/k "penha-00388",
      :r/total-passed 555.0096,
      :r/t-done 427.0}
     {:r/nec 388,
@@ -22387,7 +22387,7 @@
      :r/total-done 932,
      :r/d-rate 0.5948,
      :r/t-scheduled 403.0,
-     :r/k "da-penha-00388",
+     :r/k "penha-00388",
      :r/total-passed 597.9605,
      :r/t-done 389.0}
     {:r/nec 388,
@@ -22401,7 +22401,7 @@
      :r/total-done 960,
      :r/d-rate 0.5917,
      :r/t-scheduled 495.0,
-     :r/k "da-penha-00388",
+     :r/k "penha-00388",
      :r/total-passed 612.0,
      :r/t-done 480.0}
     {:r/nec 388,
@@ -22415,7 +22415,7 @@
      :r/total-done 622,
      :r/d-rate 0.4796,
      :r/t-scheduled 314.0,
-     :r/k "da-penha-00388",
+     :r/k "penha-00388",
      :r/total-passed 344.0036,
      :r/t-done 303.0}],
    :imt-profile
@@ -25171,7 +25171,7 @@
     :id #uuid "c0a62e89-0e70-3164-8091-f514c83d622f",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Coruche"}}]
- ["da-maia-00420"
+ ["maia-00420"
   {:nec 420,
    :rates
    [{:r/nec 420,
@@ -25185,7 +25185,7 @@
      :r/total-done 391,
      :r/d-rate 0.7196,
      :r/t-scheduled 178.0,
-     :r/k "da-maia-00420",
+     :r/k "maia-00420",
      :r/total-passed 294.9926,
      :r/t-done 177.0}
     {:r/nec 420,
@@ -25199,7 +25199,7 @@
      :r/total-done 411,
      :r/d-rate 0.6274,
      :r/t-scheduled 204.0,
-     :r/k "da-maia-00420",
+     :r/k "maia-00420",
      :r/total-passed 297.9997,
      :r/t-done 199.0}
     {:r/nec 420,
@@ -25213,7 +25213,7 @@
      :r/total-done 734,
      :r/d-rate 0.6488,
      :r/t-scheduled 416.0,
-     :r/k "da-maia-00420",
+     :r/k "maia-00420",
      :r/total-passed 526.009,
      :r/t-done 398.0}
     {:r/nec 420,
@@ -25227,7 +25227,7 @@
      :r/total-done 1015,
      :r/d-rate 0.6536,
      :r/t-scheduled 524.0,
-     :r/k "da-maia-00420",
+     :r/k "maia-00420",
      :r/total-passed 698.9864,
      :r/t-done 504.0}
     {:r/nec 420,
@@ -25241,7 +25241,7 @@
      :r/total-done 873,
      :r/d-rate 0.5842,
      :r/t-scheduled 338.0,
-     :r/k "da-maia-00420",
+     :r/k "maia-00420",
      :r/total-passed 573.9678,
      :r/t-done 327.0}
     {:r/nec 420,
@@ -25255,7 +25255,7 @@
      :r/total-done 805,
      :r/d-rate 0.6023,
      :r/t-scheduled 406.0,
-     :r/k "da-maia-00420",
+     :r/k "maia-00420",
      :r/total-passed 537.01,
      :r/t-done 365.0}],
    :imt-profile
@@ -26977,7 +26977,7 @@
     :id #uuid "ad1c101b-192e-3f0f-9162-a512b049d9ee",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}]
- ["de-pombal-00441"
+ ["pombal-00441"
   {:nec 441,
    :rates
    [{:r/nec 441,
@@ -26991,7 +26991,7 @@
      :r/total-done 369,
      :r/d-rate 0.7512,
      :r/t-scheduled 178.0,
-     :r/k "de-pombal-00441",
+     :r/k "pombal-00441",
      :r/total-passed 279.9984,
      :r/t-done 168.0}
     {:r/nec 441,
@@ -27005,7 +27005,7 @@
      :r/total-done 419,
      :r/d-rate 0.8624,
      :r/t-scheduled 206.0,
-     :r/k "de-pombal-00441",
+     :r/k "pombal-00441",
      :r/total-passed 347.9992,
      :r/t-done 201.0}
     {:r/nec 441,
@@ -27019,7 +27019,7 @@
      :r/total-done 429,
      :r/d-rate 0.8292,
      :r/t-scheduled 193.0,
-     :r/k "de-pombal-00441",
+     :r/k "pombal-00441",
      :r/total-passed 341.0037,
      :r/t-done 189.0}
     {:r/nec 441,
@@ -27033,7 +27033,7 @@
      :r/total-done 372,
      :r/d-rate 0.8085,
      :r/t-scheduled 191.0,
-     :r/k "de-pombal-00441",
+     :r/k "pombal-00441",
      :r/total-passed 281.0004,
      :r/t-done 184.0}
     {:r/nec 441,
@@ -27047,7 +27047,7 @@
      :r/total-done 323,
      :r/d-rate 0.805,
      :r/t-scheduled 189.0,
-     :r/k "de-pombal-00441",
+     :r/k "pombal-00441",
      :r/total-passed 246.9934,
      :r/t-done 164.0}
     {:r/nec 441,
@@ -27061,7 +27061,7 @@
      :r/total-done 268,
      :r/d-rate 0.8912,
      :r/t-scheduled 146.0,
-     :r/k "de-pombal-00441",
+     :r/k "pombal-00441",
      :r/total-passed 227.0078,
      :r/t-done 121.0}],
    :imt-profile
@@ -30004,7 +30004,7 @@
     :id #uuid "44f8c6a1-548d-3923-93b7-c47cd93182a5",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Figueir%C3%B3%20dos%20Vinhos"}}]
- ["de-baiao-00474"
+ ["baiao-00474"
   {:nec 474,
    :rates
    [{:r/nec 474,
@@ -30018,7 +30018,7 @@
      :r/total-done 441,
      :r/d-rate 0.6529,
      :r/t-scheduled 203.0,
-     :r/k "de-baiao-00474",
+     :r/k "baiao-00474",
      :r/total-passed 289.9985,
      :r/t-done 199.0}
     {:r/nec 474,
@@ -30032,7 +30032,7 @@
      :r/total-done 337,
      :r/d-rate 0.7174,
      :r/t-scheduled 160.0,
-     :r/k "de-baiao-00474",
+     :r/k "baiao-00474",
      :r/total-passed 242.0086,
      :r/t-done 153.0}
     {:r/nec 474,
@@ -30046,7 +30046,7 @@
      :r/total-done 324,
      :r/d-rate 0.6815,
      :r/t-scheduled 168.0,
-     :r/k "de-baiao-00474",
+     :r/k "baiao-00474",
      :r/total-passed 228.989,
      :r/t-done 167.0}
     {:r/nec 474,
@@ -30060,7 +30060,7 @@
      :r/total-done 368,
      :r/d-rate 0.699,
      :r/t-scheduled 173.0,
-     :r/k "de-baiao-00474",
+     :r/k "baiao-00474",
      :r/total-passed 254.996,
      :r/t-done 172.0}
     {:r/nec 474,
@@ -30074,7 +30074,7 @@
      :r/total-done 362,
      :r/d-rate 0.7193,
      :r/t-scheduled 192.0,
-     :r/k "de-baiao-00474",
+     :r/k "baiao-00474",
      :r/total-passed 234.0095,
      :r/t-done 191.0}
     {:r/nec 474,
@@ -30088,7 +30088,7 @@
      :r/total-done 292,
      :r/d-rate 0.7075,
      :r/t-scheduled 151.0,
-     :r/k "de-baiao-00474",
+     :r/k "baiao-00474",
      :r/total-passed 212.999,
      :r/t-done 145.0}],
    :imt-profile
@@ -30400,7 +30400,7 @@
     :id #uuid "19e99ac7-aab8-3008-b595-20656668b8e1",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Vila%20do%20Bispo"}}]
- ["de-palmela-00478"
+ ["palmela-00478"
   {:nec 478,
    :rates
    [{:r/nec 478,
@@ -30414,7 +30414,7 @@
      :r/total-done 368,
      :r/d-rate 0.6831,
      :r/t-scheduled 196.0,
-     :r/k "de-palmela-00478",
+     :r/k "palmela-00478",
      :r/total-passed 248.0138,
      :r/t-done 185.0}
     {:r/nec 478,
@@ -30428,7 +30428,7 @@
      :r/total-done 389,
      :r/d-rate 0.6605,
      :r/t-scheduled 175.0,
-     :r/k "de-palmela-00478",
+     :r/k "palmela-00478",
      :r/total-passed 261.0061,
      :r/t-done 174.0}
     {:r/nec 478,
@@ -30442,7 +30442,7 @@
      :r/total-done 468,
      :r/d-rate 0.7758,
      :r/t-scheduled 268.0,
-     :r/k "de-palmela-00478",
+     :r/k "palmela-00478",
      :r/total-passed 323.9969,
      :r/t-done 245.0}
     {:r/nec 478,
@@ -30456,7 +30456,7 @@
      :r/total-done 449,
      :r/d-rate 0.6711,
      :r/t-scheduled 227.0,
-     :r/k "de-palmela-00478",
+     :r/k "palmela-00478",
      :r/total-passed 306.0091,
      :r/t-done 221.0}
     {:r/nec 478,
@@ -30470,7 +30470,7 @@
      :r/total-done 449,
      :r/d-rate 0.6415,
      :r/t-scheduled 247.0,
-     :r/k "de-palmela-00478",
+     :r/k "palmela-00478",
      :r/total-passed 296.9921,
      :r/t-done 237.0}
     {:r/nec 478,
@@ -30484,7 +30484,7 @@
      :r/total-done 407,
      :r/d-rate 0.641,
      :r/t-scheduled 185.0,
-     :r/k "de-palmela-00478",
+     :r/k "palmela-00478",
      :r/total-passed 264.001,
      :r/t-done 173.0}],
    :imt-profile
@@ -31691,7 +31691,7 @@
     :id #uuid "9fe69aed-282b-34af-b905-1a113d6445a0",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Figueir%C3%B3%20dos%20Vinhos"}}]
- ["de-lindaavelha-00492"
+ ["lindaavelha-00492"
   {:nec 492,
    :rates
    [{:r/nec 492,
@@ -31705,7 +31705,7 @@
      :r/total-done 376,
      :r/d-rate 0.7209,
      :r/t-scheduled 207.0,
-     :r/k "de-lindaavelha-00492",
+     :r/k "lindaavelha-00492",
      :r/total-passed 263.0004,
      :r/t-done 204.0}
     {:r/nec 492,
@@ -31719,7 +31719,7 @@
      :r/total-done 346,
      :r/d-rate 0.7515,
      :r/t-scheduled 179.0,
-     :r/k "de-lindaavelha-00492",
+     :r/k "lindaavelha-00492",
      :r/total-passed 250.0008,
      :r/t-done 177.0}
     {:r/nec 492,
@@ -31733,7 +31733,7 @@
      :r/total-done 449,
      :r/d-rate 0.6957,
      :r/t-scheduled 225.0,
-     :r/k "de-lindaavelha-00492",
+     :r/k "lindaavelha-00492",
      :r/total-passed 316.0047,
      :r/t-done 219.0}
     {:r/nec 492,
@@ -31747,7 +31747,7 @@
      :r/total-done 486,
      :r/d-rate 0.7582,
      :r/t-scheduled 248.0,
-     :r/k "de-lindaavelha-00492",
+     :r/k "lindaavelha-00492",
      :r/total-passed 370.0098,
      :r/t-done 242.0}
     {:r/nec 492,
@@ -31761,7 +31761,7 @@
      :r/total-done 533,
      :r/d-rate 0.7481,
      :r/t-scheduled 278.0,
-     :r/k "de-lindaavelha-00492",
+     :r/k "lindaavelha-00492",
      :r/total-passed 408.9943,
      :r/t-done 263.0}
     {:r/nec 492,
@@ -31775,7 +31775,7 @@
      :r/total-done 524,
      :r/d-rate 0.6667,
      :r/t-scheduled 280.0,
-     :r/k "de-lindaavelha-00492",
+     :r/k "lindaavelha-00492",
      :r/total-passed 379.0172,
      :r/t-done 263.0}],
    :imt-profile
@@ -33613,7 +33613,7 @@
     :id #uuid "e4562507-5e42-3015-9bf8-46f91cdc038a",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Vila%20Nova%20Cerveira"}}]
- ["da-urbe-00513"
+ ["urbe-00513"
   {:nec 513,
    :rates
    [{:r/nec 513,
@@ -33627,7 +33627,7 @@
      :r/total-done 141,
      :r/d-rate 0.803,
      :r/t-scheduled 76.0,
-     :r/k "da-urbe-00513",
+     :r/k "urbe-00513",
      :r/total-passed 115.0005,
      :r/t-done 75.0}
     {:r/nec 513,
@@ -33641,7 +33641,7 @@
      :r/total-done 163,
      :r/d-rate 0.8734,
      :r/t-scheduled 87.0,
-     :r/k "da-urbe-00513",
+     :r/k "urbe-00513",
      :r/total-passed 128.0002,
      :r/t-done 84.0}
     {:r/nec 513,
@@ -33655,7 +33655,7 @@
      :r/total-done 226,
      :r/d-rate 0.9,
      :r/t-scheduled 128.0,
-     :r/k "da-urbe-00513",
+     :r/k "urbe-00513",
      :r/total-passed 177.003,
      :r/t-done 126.0}
     {:r/nec 513,
@@ -33669,7 +33669,7 @@
      :r/total-done 224,
      :r/d-rate 0.92,
      :r/t-scheduled 130.0,
-     :r/k "da-urbe-00513",
+     :r/k "urbe-00513",
      :r/total-passed 183.0036,
      :r/t-done 124.0}
     {:r/nec 513,
@@ -33683,7 +33683,7 @@
      :r/total-done 221,
      :r/d-rate 0.8482,
      :r/t-scheduled 112.0,
-     :r/k "da-urbe-00513",
+     :r/k "urbe-00513",
      :r/total-passed 178.9938,
      :r/t-done 109.0}
     {:r/nec 513,
@@ -33697,7 +33697,7 @@
      :r/total-done 226,
      :r/d-rate 0.7321,
      :r/t-scheduled 125.0,
-     :r/k "da-urbe-00513",
+     :r/k "urbe-00513",
      :r/total-passed 169.9918,
      :r/t-done 114.0}],
    :imt-profile
@@ -36585,7 +36585,7 @@
     :id #uuid "ef678ad5-ec72-389a-ba40-7db3ed5b0f84",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
- ["da-lourinha-00543"
+ ["lourinha-00543"
   {:nec 543,
    :rates
    [{:r/nec 543,
@@ -36599,7 +36599,7 @@
      :r/total-done 295,
      :r/d-rate 0.7613,
      :r/t-scheduled 142.0,
-     :r/k "da-lourinha-00543",
+     :r/k "lourinha-00543",
      :r/total-passed 227.0055,
      :r/t-done 140.0}
     {:r/nec 543,
@@ -36613,7 +36613,7 @@
      :r/total-done 342,
      :r/d-rate 0.7419,
      :r/t-scheduled 160.0,
-     :r/k "da-lourinha-00543",
+     :r/k "lourinha-00543",
      :r/total-passed 258.987,
      :r/t-done 156.0}
     {:r/nec 543,
@@ -36627,7 +36627,7 @@
      :r/total-done 329,
      :r/d-rate 0.8011,
      :r/t-scheduled 146.0,
-     :r/k "da-lourinha-00543",
+     :r/k "lourinha-00543",
      :r/total-passed 263.0042,
      :r/t-done 143.0}
     {:r/nec 543,
@@ -36641,7 +36641,7 @@
      :r/total-done 318,
      :r/d-rate 0.8232,
      :r/t-scheduled 141.0,
-     :r/k "da-lourinha-00543",
+     :r/k "lourinha-00543",
      :r/total-passed 264.9971,
      :r/t-done 137.0}
     {:r/nec 543,
@@ -36655,7 +36655,7 @@
      :r/total-done 347,
      :r/d-rate 0.798,
      :r/t-scheduled 151.0,
-     :r/k "da-lourinha-00543",
+     :r/k "lourinha-00543",
      :r/total-passed 275.9971,
      :r/t-done 149.0}
     {:r/nec 543,
@@ -36669,7 +36669,7 @@
      :r/total-done 353,
      :r/d-rate 0.8246,
      :r/t-scheduled 185.0,
-     :r/k "da-lourinha-00543",
+     :r/k "lourinha-00543",
      :r/total-passed 286.006,
      :r/t-done 182.0}],
    :imt-profile
@@ -38675,7 +38675,7 @@
     :id #uuid "a2931300-7251-3fca-b981-3a2905362480",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"}}]
- ["de-tarouca-00565"
+ ["tarouca-00565"
   {:nec 565,
    :rates
    [{:r/nec 565,
@@ -38689,7 +38689,7 @@
      :r/total-done 284,
      :r/d-rate 0.8252,
      :r/t-scheduled 145.0,
-     :r/k "de-tarouca-00565",
+     :r/k "tarouca-00565",
      :r/total-passed 235.0054,
      :r/t-done 141.0}
     {:r/nec 565,
@@ -38703,7 +38703,7 @@
      :r/total-done 277,
      :r/d-rate 0.8828,
      :r/t-scheduled 154.0,
-     :r/k "de-tarouca-00565",
+     :r/k "tarouca-00565",
      :r/total-passed 221.9919,
      :r/t-done 149.0}
     {:r/nec 565,
@@ -38717,7 +38717,7 @@
      :r/total-done 299,
      :r/d-rate 0.8844,
      :r/t-scheduled 154.0,
-     :r/k "de-tarouca-00565",
+     :r/k "tarouca-00565",
      :r/total-passed 244.0068,
      :r/t-done 152.0}
     {:r/nec 565,
@@ -38731,7 +38731,7 @@
      :r/total-done 265,
      :r/d-rate 0.9091,
      :r/t-scheduled 160.0,
-     :r/k "de-tarouca-00565",
+     :r/k "tarouca-00565",
      :r/total-passed 206.9975,
      :r/t-done 155.0}
     {:r/nec 565,
@@ -38745,7 +38745,7 @@
      :r/total-done 310,
      :r/d-rate 0.9091,
      :r/t-scheduled 179.0,
-     :r/k "de-tarouca-00565",
+     :r/k "tarouca-00565",
      :r/total-passed 244.9975,
      :r/t-done 167.0}
     {:r/nec 565,
@@ -38759,7 +38759,7 @@
      :r/total-done 242,
      :r/d-rate 0.8818,
      :r/t-scheduled 157.0,
-     :r/k "de-tarouca-00565",
+     :r/k "tarouca-00565",
      :r/total-passed 203.9972,
      :r/t-done 132.0}],
    :imt-profile
@@ -44112,7 +44112,7 @@
     :id #uuid "7e587d06-78ce-3047-b758-cdc5879a0605",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Salvaterra%20Magos"}}]
- ["de-cavaleira-00630"
+ ["cavaleira-00630"
   {:nec 630,
    :rates
    [{:r/nec 630,
@@ -44126,7 +44126,7 @@
      :r/total-done 71,
      :r/d-rate 0.8378,
      :r/t-scheduled 39.0,
-     :r/k "de-cavaleira-00630",
+     :r/k "cavaleira-00630",
      :r/total-passed 51.997,
      :r/t-done 34.0}
     {:r/nec 630,
@@ -44140,7 +44140,7 @@
      :r/total-done 71,
      :r/d-rate 0.6471,
      :r/t-scheduled 39.0,
-     :r/k "de-cavaleira-00630",
+     :r/k "cavaleira-00630",
      :r/total-passed 47.0023,
      :r/t-done 37.0}
     {:r/nec 630,
@@ -44154,7 +44154,7 @@
      :r/total-done 126,
      :r/d-rate 0.6364,
      :r/t-scheduled 61.0,
-     :r/k "de-cavaleira-00630",
+     :r/k "cavaleira-00630",
      :r/total-passed 87.0024,
      :r/t-done 60.0}
     {:r/nec 630,
@@ -44168,7 +44168,7 @@
      :r/total-done 191,
      :r/d-rate 0.7674,
      :r/t-scheduled 112.0,
-     :r/k "de-cavaleira-00630",
+     :r/k "cavaleira-00630",
      :r/total-passed 149.9964,
      :r/t-done 105.0}
     {:r/nec 630,
@@ -44182,7 +44182,7 @@
      :r/total-done 84,
      :r/d-rate 0.7903,
      :r/t-scheduled 25.0,
-     :r/k "de-cavaleira-00630",
+     :r/k "cavaleira-00630",
      :r/total-passed 66.999,
      :r/t-done 22.0}],
    :imt-profile
@@ -49531,7 +49531,7 @@
     :id #uuid "5db98ec4-2907-39d8-9a10-ad1f12c7c6db",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
- ["da-maceira-00694"
+ ["maceira-00694"
   {:nec 694,
    :rates
    [{:r/nec 694,
@@ -49545,7 +49545,7 @@
      :r/total-done 532,
      :r/d-rate 0.7655,
      :r/t-scheduled 245.0,
-     :r/k "da-maceira-00694",
+     :r/k "maceira-00694",
      :r/total-passed 371.9866,
      :r/t-done 242.0}
     {:r/nec 694,
@@ -49559,7 +49559,7 @@
      :r/total-done 479,
      :r/d-rate 0.7563,
      :r/t-scheduled 244.0,
-     :r/k "da-maceira-00694",
+     :r/k "maceira-00694",
      :r/total-passed 339.9993,
      :r/t-done 241.0}
     {:r/nec 694,
@@ -49573,7 +49573,7 @@
      :r/total-done 396,
      :r/d-rate 0.8347,
      :r/t-scheduled 162.0,
-     :r/k "da-maceira-00694",
+     :r/k "maceira-00694",
      :r/total-passed 311.9972,
      :r/t-done 160.0}
     {:r/nec 694,
@@ -49587,7 +49587,7 @@
      :r/total-done 376,
      :r/d-rate 0.8086,
      :r/t-scheduled 169.0,
-     :r/k "da-maceira-00694",
+     :r/k "maceira-00694",
      :r/total-passed 288.0016,
      :r/t-done 167.0}
     {:r/nec 694,
@@ -49601,7 +49601,7 @@
      :r/total-done 339,
      :r/d-rate 0.8011,
      :r/t-scheduled 156.0,
-     :r/k "da-maceira-00694",
+     :r/k "maceira-00694",
      :r/total-passed 261.0006,
      :r/t-done 153.0}
     {:r/nec 694,
@@ -49615,7 +49615,7 @@
      :r/total-done 344,
      :r/d-rate 0.7903,
      :r/t-scheduled 164.0,
-     :r/k "da-maceira-00694",
+     :r/k "maceira-00694",
      :r/total-passed 283.9976,
      :r/t-done 158.0}],
    :imt-profile
@@ -49929,7 +49929,7 @@
     :id #uuid "e9667e60-5580-3af1-b983-f7bcfb5eb333",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
- ["da-longra-00698"
+ ["longra-00698"
   {:nec 698,
    :rates
    [{:r/nec 698,
@@ -49943,7 +49943,7 @@
      :r/total-done 573,
      :r/d-rate 0.6909,
      :r/t-scheduled 257.0,
-     :r/k "da-longra-00698",
+     :r/k "longra-00698",
      :r/total-passed 414.0105,
      :r/t-done 256.0}
     {:r/nec 698,
@@ -49957,7 +49957,7 @@
      :r/total-done 495,
      :r/d-rate 0.6655,
      :r/t-scheduled 217.0,
-     :r/k "da-longra-00698",
+     :r/k "longra-00698",
      :r/total-passed 347.9977,
      :r/t-done 214.0}
     {:r/nec 698,
@@ -49971,7 +49971,7 @@
      :r/total-done 452,
      :r/d-rate 0.7529,
      :r/t-scheduled 192.0,
-     :r/k "da-longra-00698",
+     :r/k "longra-00698",
      :r/total-passed 353.0116,
      :r/t-done 189.0}
     {:r/nec 698,
@@ -49985,7 +49985,7 @@
      :r/total-done 458,
      :r/d-rate 0.7037,
      :r/t-scheduled 218.0,
-     :r/k "da-longra-00698",
+     :r/k "longra-00698",
      :r/total-passed 333.9906,
      :r/t-done 215.0}
     {:r/nec 698,
@@ -49999,7 +49999,7 @@
      :r/total-done 423,
      :r/d-rate 0.7792,
      :r/t-scheduled 189.0,
-     :r/k "da-longra-00698",
+     :r/k "longra-00698",
      :r/total-passed 323.0136,
      :r/t-done 183.0}
     {:r/nec 698,
@@ -50013,7 +50013,7 @@
      :r/total-done 360,
      :r/d-rate 0.8667,
      :r/t-scheduled 208.0,
-     :r/k "da-longra-00698",
+     :r/k "longra-00698",
      :r/total-passed 292.9995,
      :r/t-done 195.0}],
    :imt-profile
@@ -51417,7 +51417,7 @@
     :id #uuid "9f0f96c2-96ad-3b10-b289-6b147c298f66",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"}}]
- ["da-tocha-00714"
+ ["tocha-00714"
   {:nec 714,
    :rates
    [{:r/nec 714,
@@ -51431,7 +51431,7 @@
      :r/total-done 137,
      :r/d-rate 0.675,
      :r/t-scheduled 58.0,
-     :r/k "da-tocha-00714",
+     :r/k "tocha-00714",
      :r/total-passed 88.0005,
      :r/t-done 57.0}
     {:r/nec 714,
@@ -51445,7 +51445,7 @@
      :r/total-done 124,
      :r/d-rate 0.7027,
      :r/t-scheduled 56.0,
-     :r/k "da-tocha-00714",
+     :r/k "tocha-00714",
      :r/total-passed 82.9998,
      :r/t-done 50.0}
     {:r/nec 714,
@@ -51459,7 +51459,7 @@
      :r/total-done 151,
      :r/d-rate 0.6023,
      :r/t-scheduled 63.0,
-     :r/k "da-tocha-00714",
+     :r/k "tocha-00714",
      :r/total-passed 97.0016,
      :r/t-done 63.0}
     {:r/nec 714,
@@ -51473,7 +51473,7 @@
      :r/total-done 123,
      :r/d-rate 0.7273,
      :r/t-scheduled 46.0,
-     :r/k "da-tocha-00714",
+     :r/k "tocha-00714",
      :r/total-passed 97.0019,
      :r/t-done 46.0}
     {:r/nec 714,
@@ -51487,7 +51487,7 @@
      :r/total-done 115,
      :r/d-rate 0.7077,
      :r/t-scheduled 50.0,
-     :r/k "da-tocha-00714",
+     :r/k "tocha-00714",
      :r/total-passed 85.0005,
      :r/t-done 50.0}
     {:r/nec 714,
@@ -51501,7 +51501,7 @@
      :r/total-done 123,
      :r/d-rate 0.5946,
      :r/t-scheduled 52.0,
-     :r/k "da-tocha-00714",
+     :r/k "tocha-00714",
      :r/total-passed 73.9982,
      :r/t-done 49.0}],
    :imt-profile
@@ -52400,7 +52400,7 @@
     :id #uuid "ef328f62-3dd8-3fbc-8511-f1ef93ff7a92",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
- ["de-cernache-do-bonjardim-00725"
+ ["cernache-do-bonjardim-00725"
   {:nec 725,
    :rates
    [{:r/nec 725,
@@ -52414,7 +52414,7 @@
      :r/total-done 255,
      :r/d-rate 0.7143,
      :r/t-scheduled 105.0,
-     :r/k "de-cernache-do-bonjardim-00725",
+     :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 194.0039,
      :r/t-done 101.0}
     {:r/nec 725,
@@ -52428,7 +52428,7 @@
      :r/total-done 313,
      :r/d-rate 0.7543,
      :r/t-scheduled 144.0,
-     :r/k "de-cernache-do-bonjardim-00725",
+     :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 246.0043,
      :r/t-done 138.0}
     {:r/nec 725,
@@ -52442,7 +52442,7 @@
      :r/total-done 283,
      :r/d-rate 0.7661,
      :r/t-scheduled 116.0,
-     :r/k "de-cernache-do-bonjardim-00725",
+     :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 226.0015,
      :r/t-done 112.0}
     {:r/nec 725,
@@ -52456,7 +52456,7 @@
      :r/total-done 255,
      :r/d-rate 0.7793,
      :r/t-scheduled 119.0,
-     :r/k "de-cernache-do-bonjardim-00725",
+     :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 200.9985,
      :r/t-done 110.0}
     {:r/nec 725,
@@ -52470,7 +52470,7 @@
      :r/total-done 298,
      :r/d-rate 0.8683,
      :r/t-scheduled 135.0,
-     :r/k "de-cernache-do-bonjardim-00725",
+     :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 244.0028,
      :r/t-done 131.0}
     {:r/nec 725,
@@ -52484,7 +52484,7 @@
      :r/total-done 265,
      :r/d-rate 0.7848,
      :r/t-scheduled 122.0,
-     :r/k "de-cernache-do-bonjardim-00725",
+     :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 206.9983,
      :r/t-done 107.0}],
    :imt-profile
@@ -54008,7 +54008,7 @@
     :id #uuid "1c7e0104-91e1-3470-bfcb-f0ee8b4693b2",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"}}]
- ["de-lobao-00744"
+ ["lobao-00744"
   {:nec 744,
    :rates
    [{:r/nec 744,
@@ -54022,7 +54022,7 @@
      :r/total-done 196,
      :r/d-rate 0.6667,
      :r/t-scheduled 110.0,
-     :r/k "de-lobao-00744",
+     :r/k "lobao-00744",
      :r/total-passed 134.0016,
      :r/t-done 106.0}
     {:r/nec 744,
@@ -54036,7 +54036,7 @@
      :r/total-done 157,
      :r/d-rate 0.6705,
      :r/t-scheduled 71.0,
-     :r/k "de-lobao-00744",
+     :r/k "lobao-00744",
      :r/total-passed 116.0049,
      :r/t-done 69.0}
     {:r/nec 744,
@@ -54050,7 +54050,7 @@
      :r/total-done 160,
      :r/d-rate 0.7738,
      :r/t-scheduled 81.0,
-     :r/k "de-lobao-00744",
+     :r/k "lobao-00744",
      :r/total-passed 123.998,
      :r/t-done 76.0}
     {:r/nec 744,
@@ -54064,7 +54064,7 @@
      :r/total-done 149,
      :r/d-rate 0.7949,
      :r/t-scheduled 71.0,
-     :r/k "de-lobao-00744",
+     :r/k "lobao-00744",
      :r/total-passed 115.0037,
      :r/t-done 71.0}
     {:r/nec 744,
@@ -54078,7 +54078,7 @@
      :r/total-done 143,
      :r/d-rate 0.6197,
      :r/t-scheduled 73.0,
-     :r/k "de-lobao-00744",
+     :r/k "lobao-00744",
      :r/total-passed 80.9995,
      :r/t-done 72.0}
     {:r/nec 744,
@@ -54092,7 +54092,7 @@
      :r/total-done 135,
      :r/d-rate 0.6571,
      :r/t-scheduled 72.0,
-     :r/k "de-lobao-00744",
+     :r/k "lobao-00744",
      :r/total-passed 90.9965,
      :r/t-done 65.0}],
    :imt-profile
@@ -56159,7 +56159,7 @@
      :r/total-passed 16.0004,
      :r/t-done 11.0}],
    :imt-profile nil}]
- ["de-alfragide-00770"
+ ["alfragide-00770"
   {:nec 770,
    :rates
    [{:r/nec 770,
@@ -56173,7 +56173,7 @@
      :r/total-done 281,
      :r/d-rate 0.7594,
      :r/t-scheduled 155.0,
-     :r/k "de-alfragide-00770",
+     :r/k "alfragide-00770",
      :r/total-passed 199.0058,
      :r/t-done 148.0}
     {:r/nec 770,
@@ -56187,7 +56187,7 @@
      :r/total-done 268,
      :r/d-rate 0.7823,
      :r/t-scheduled 146.0,
-     :r/k "de-alfragide-00770",
+     :r/k "alfragide-00770",
      :r/total-passed 187.0052,
      :r/t-done 144.0}
     {:r/nec 770,
@@ -56201,7 +56201,7 @@
      :r/total-done 330,
      :r/d-rate 0.7484,
      :r/t-scheduled 173.0,
-     :r/k "de-alfragide-00770",
+     :r/k "alfragide-00770",
      :r/total-passed 254.0001,
      :r/t-done 171.0}
     {:r/nec 770,
@@ -56215,7 +56215,7 @@
      :r/total-done 379,
      :r/d-rate 0.7943,
      :r/t-scheduled 205.0,
-     :r/k "de-alfragide-00770",
+     :r/k "alfragide-00770",
      :r/total-passed 280.0073,
      :r/t-done 204.0}
     {:r/nec 770,
@@ -56229,7 +56229,7 @@
      :r/total-done 387,
      :r/d-rate 0.7238,
      :r/t-scheduled 208.0,
-     :r/k "de-alfragide-00770",
+     :r/k "alfragide-00770",
      :r/total-passed 280.0076,
      :r/t-done 206.0}
     {:r/nec 770,
@@ -56243,7 +56243,7 @@
      :r/total-done 355,
      :r/d-rate 0.7898,
      :r/t-scheduled 191.0,
-     :r/k "de-alfragide-00770",
+     :r/k "alfragide-00770",
      :r/total-passed 265.0029,
      :r/t-done 179.0}],
    :imt-profile
@@ -57244,7 +57244,7 @@
     :id #uuid "bc79baca-b5b8-3d78-b68a-036d02562856",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}]
- ["da-guia-00782"
+ ["guia-00782"
   {:nec 782,
    :rates
    [{:r/nec 782,
@@ -57258,7 +57258,7 @@
      :r/total-done 272,
      :r/d-rate 0.7559,
      :r/t-scheduled 146.0,
-     :r/k "da-guia-00782",
+     :r/k "guia-00782",
      :r/total-passed 193.0043,
      :r/t-done 145.0}
     {:r/nec 782,
@@ -57272,7 +57272,7 @@
      :r/total-done 347,
      :r/d-rate 0.8177,
      :r/t-scheduled 166.0,
-     :r/k "da-guia-00782",
+     :r/k "guia-00782",
      :r/total-passed 269.9971,
      :r/t-done 166.0}
     {:r/nec 782,
@@ -57286,7 +57286,7 @@
      :r/total-done 303,
      :r/d-rate 0.7857,
      :r/t-scheduled 154.0,
-     :r/k "da-guia-00782",
+     :r/k "guia-00782",
      :r/total-passed 224.0015,
      :r/t-done 149.0}
     {:r/nec 782,
@@ -57300,7 +57300,7 @@
      :r/total-done 268,
      :r/d-rate 0.8099,
      :r/t-scheduled 127.0,
-     :r/k "da-guia-00782",
+     :r/k "guia-00782",
      :r/total-passed 192.9998,
      :r/t-done 126.0}
     {:r/nec 782,
@@ -57314,7 +57314,7 @@
      :r/total-done 293,
      :r/d-rate 0.7971,
      :r/t-scheduled 171.0,
-     :r/k "da-guia-00782",
+     :r/k "guia-00782",
      :r/total-passed 214.0048,
      :r/t-done 155.0}
     {:r/nec 782,
@@ -57328,7 +57328,7 @@
      :r/total-done 253,
      :r/d-rate 0.813,
      :r/t-scheduled 131.0,
-     :r/k "da-guia-00782",
+     :r/k "guia-00782",
      :r/total-passed 184.993,
      :r/t-done 130.0}],
    :imt-profile
@@ -61479,7 +61479,7 @@
     :id #uuid "f62830a0-0f78-3291-badc-9de34a2be3dd",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
- ["da-vila-de-adoscunhados-00828"
+ ["vila-de-adoscunhados-00828"
   {:nec 828,
    :rates
    [{:r/nec 828,
@@ -61493,7 +61493,7 @@
      :r/total-done 256,
      :r/d-rate 0.6714,
      :r/t-scheduled 120.0,
-     :r/k "da-vila-de-adoscunhados-00828",
+     :r/k "vila-de-adoscunhados-00828",
      :r/total-passed 186.9932,
      :r/t-done 116.0}
     {:r/nec 828,
@@ -61507,7 +61507,7 @@
      :r/total-done 213,
      :r/d-rate 0.8095,
      :r/t-scheduled 87.0,
-     :r/k "da-vila-de-adoscunhados-00828",
+     :r/k "vila-de-adoscunhados-00828",
      :r/total-passed 174.9987,
      :r/t-done 87.0}
     {:r/nec 828,
@@ -61521,7 +61521,7 @@
      :r/total-done 265,
      :r/d-rate 0.8841,
      :r/t-scheduled 128.0,
-     :r/k "da-vila-de-adoscunhados-00828",
+     :r/k "vila-de-adoscunhados-00828",
      :r/total-passed 223.0089,
      :r/t-done 127.0}
     {:r/nec 828,
@@ -61535,7 +61535,7 @@
      :r/total-done 246,
      :r/d-rate 0.8467,
      :r/t-scheduled 109.0,
-     :r/k "da-vila-de-adoscunhados-00828",
+     :r/k "vila-de-adoscunhados-00828",
      :r/total-passed 203.0017,
      :r/t-done 109.0}
     {:r/nec 828,
@@ -61549,7 +61549,7 @@
      :r/total-done 251,
      :r/d-rate 0.7985,
      :r/t-scheduled 118.0,
-     :r/k "da-vila-de-adoscunhados-00828",
+     :r/k "vila-de-adoscunhados-00828",
      :r/total-passed 204.9982,
      :r/t-done 117.0}
     {:r/nec 828,
@@ -61563,7 +61563,7 @@
      :r/total-done 209,
      :r/d-rate 0.8174,
      :r/t-scheduled 106.0,
-     :r/k "da-vila-de-adoscunhados-00828",
+     :r/k "vila-de-adoscunhados-00828",
      :r/total-passed 172.9986,
      :r/t-done 94.0}],
    :imt-profile
@@ -62589,7 +62589,7 @@
     :id #uuid "d123f6fe-c9f3-3ad9-bc25-7af61beb91c6",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
- ["de-avintes-00840"
+ ["avintes-00840"
   {:nec 840,
    :rates
    [{:r/nec 840,
@@ -62603,7 +62603,7 @@
      :r/total-done 336,
      :r/d-rate 0.7018,
      :r/t-scheduled 167.0,
-     :r/k "de-avintes-00840",
+     :r/k "avintes-00840",
      :r/total-passed 248.0148,
      :r/t-done 165.0}
     {:r/nec 840,
@@ -62617,7 +62617,7 @@
      :r/total-done 358,
      :r/d-rate 0.7053,
      :r/t-scheduled 172.0,
-     :r/k "de-avintes-00840",
+     :r/k "avintes-00840",
      :r/total-passed 255.0006,
      :r/t-done 168.0}
     {:r/nec 840,
@@ -62631,7 +62631,7 @@
      :r/total-done 403,
      :r/d-rate 0.5733,
      :r/t-scheduled 179.0,
-     :r/k "de-avintes-00840",
+     :r/k "avintes-00840",
      :r/total-passed 250.9937,
      :r/t-done 178.0}
     {:r/nec 840,
@@ -62645,7 +62645,7 @@
      :r/total-done 396,
      :r/d-rate 0.6157,
      :r/t-scheduled 183.0,
-     :r/k "de-avintes-00840",
+     :r/k "avintes-00840",
      :r/total-passed 262.9872,
      :r/t-done 180.0}
     {:r/nec 840,
@@ -62659,7 +62659,7 @@
      :r/total-done 389,
      :r/d-rate 0.5794,
      :r/t-scheduled 177.0,
-     :r/k "de-avintes-00840",
+     :r/k "avintes-00840",
      :r/total-passed 251.9866,
      :r/t-done 175.0}
     {:r/nec 840,
@@ -62673,7 +62673,7 @@
      :r/total-done 304,
      :r/d-rate 0.5455,
      :r/t-scheduled 130.0,
-     :r/k "de-avintes-00840",
+     :r/k "avintes-00840",
      :r/total-passed 194.0048,
      :r/t-done 128.0}],
    :imt-profile
@@ -64463,7 +64463,7 @@
     :id #uuid "7c39b34c-f706-3636-831c-a5ae401ecce6",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}]
- ["da-quinta-da-piedade-00861"
+ ["quinta-da-piedade-00861"
   {:nec 861,
    :rates
    [{:r/nec 861,
@@ -64477,7 +64477,7 @@
      :r/total-done 427,
      :r/d-rate 0.6866,
      :r/t-scheduled 215.0,
-     :r/k "da-quinta-da-piedade-00861",
+     :r/k "quinta-da-piedade-00861",
      :r/total-passed 316.9922,
      :r/t-done 210.0}
     {:r/nec 861,
@@ -64491,7 +64491,7 @@
      :r/total-done 427,
      :r/d-rate 0.7696,
      :r/t-scheduled 200.0,
-     :r/k "da-quinta-da-piedade-00861",
+     :r/k "quinta-da-piedade-00861",
      :r/total-passed 339.0011,
      :r/t-done 197.0}
     {:r/nec 861,
@@ -64505,7 +64505,7 @@
      :r/total-done 458,
      :r/d-rate 0.7289,
      :r/t-scheduled 235.0,
-     :r/k "da-quinta-da-piedade-00861",
+     :r/k "quinta-da-piedade-00861",
      :r/total-passed 350.0064,
      :r/t-done 233.0}
     {:r/nec 861,
@@ -64519,7 +64519,7 @@
      :r/total-done 495,
      :r/d-rate 0.7874,
      :r/t-scheduled 242.0,
-     :r/k "da-quinta-da-piedade-00861",
+     :r/k "quinta-da-piedade-00861",
      :r/total-passed 402.0058,
      :r/t-done 241.0}
     {:r/nec 861,
@@ -64533,7 +64533,7 @@
      :r/total-done 506,
      :r/d-rate 0.781,
      :r/t-scheduled 238.0,
-     :r/k "da-quinta-da-piedade-00861",
+     :r/k "quinta-da-piedade-00861",
      :r/total-passed 395.998,
      :r/t-done 232.0}
     {:r/nec 861,
@@ -64547,7 +64547,7 @@
      :r/total-done 532,
      :r/d-rate 0.7491,
      :r/t-scheduled 269.0,
-     :r/k "da-quinta-da-piedade-00861",
+     :r/k "quinta-da-piedade-00861",
      :r/total-passed 412.9881,
      :r/t-done 249.0}],
    :imt-profile
@@ -77035,7 +77035,7 @@
     :id #uuid "791866c8-badf-37c6-b81b-97a3a2ce6401",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
- ["de-tires-01020"
+ ["tires-01020"
   {:nec 1020,
    :rates
    [{:r/nec 1020,
@@ -77049,7 +77049,7 @@
      :r/total-done 353,
      :r/d-rate 0.7255,
      :r/t-scheduled 210.0,
-     :r/k "de-tires-01020",
+     :r/k "tires-01020",
      :r/total-passed 233.0015,
      :r/t-done 200.0}
     {:r/nec 1020,
@@ -77063,7 +77063,7 @@
      :r/total-done 353,
      :r/d-rate 0.75,
      :r/t-scheduled 176.0,
-     :r/k "de-tires-01020",
+     :r/k "tires-01020",
      :r/total-passed 250.9965,
      :r/t-done 173.0}
     {:r/nec 1020,
@@ -77077,7 +77077,7 @@
      :r/total-done 399,
      :r/d-rate 0.6995,
      :r/t-scheduled 197.0,
-     :r/k "de-tires-01020",
+     :r/k "tires-01020",
      :r/total-passed 273.0049,
      :r/t-done 196.0}
     {:r/nec 1020,
@@ -77091,7 +77091,7 @@
      :r/total-done 388,
      :r/d-rate 0.6114,
      :r/t-scheduled 197.0,
-     :r/k "de-tires-01020",
+     :r/k "tires-01020",
      :r/total-passed 252.0042,
      :r/t-done 195.0}
     {:r/nec 1020,
@@ -77105,7 +77105,7 @@
      :r/total-done 475,
      :r/d-rate 0.7384,
      :r/t-scheduled 247.0,
-     :r/k "de-tires-01020",
+     :r/k "tires-01020",
      :r/total-passed 344.0046,
      :r/t-done 238.0}
     {:r/nec 1020,
@@ -77119,7 +77119,7 @@
      :r/total-done 362,
      :r/d-rate 0.7119,
      :r/t-scheduled 201.0,
-     :r/k "de-tires-01020",
+     :r/k "tires-01020",
      :r/total-passed 261.0008,
      :r/t-done 185.0}],
    :imt-profile
@@ -78613,7 +78613,7 @@
     :id #uuid "3fe81eb9-caba-388f-ad88-c5da4ec9882e",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"}}]
- ["de-teixoso-01036"
+ ["teixoso-01036"
   {:nec 1036,
    :rates
    [{:r/nec 1036,
@@ -78627,7 +78627,7 @@
      :r/total-done 206,
      :r/d-rate 0.7087,
      :r/t-scheduled 103.0,
-     :r/k "de-teixoso-01036",
+     :r/k "teixoso-01036",
      :r/total-passed 162.9975,
      :r/t-done 103.0}
     {:r/nec 1036,
@@ -78641,7 +78641,7 @@
      :r/total-done 215,
      :r/d-rate 0.7021,
      :r/t-scheduled 75.0,
-     :r/k "de-teixoso-01036",
+     :r/k "teixoso-01036",
      :r/total-passed 162.9987,
      :r/t-done 74.0}
     {:r/nec 1036,
@@ -78655,7 +78655,7 @@
      :r/total-done 169,
      :r/d-rate 0.6809,
      :r/t-scheduled 75.0,
-     :r/k "de-teixoso-01036",
+     :r/k "teixoso-01036",
      :r/total-passed 127.0046,
      :r/t-done 75.0}
     {:r/nec 1036,
@@ -78669,7 +78669,7 @@
      :r/total-done 207,
      :r/d-rate 0.622,
      :r/t-scheduled 85.0,
-     :r/k "de-teixoso-01036",
+     :r/k "teixoso-01036",
      :r/total-passed 147.994,
      :r/t-done 80.0}
     {:r/nec 1036,
@@ -78683,7 +78683,7 @@
      :r/total-done 174,
      :r/d-rate 0.7283,
      :r/t-scheduled 83.0,
-     :r/k "de-teixoso-01036",
+     :r/k "teixoso-01036",
      :r/total-passed 135.0062,
      :r/t-done 82.0}
     {:r/nec 1036,
@@ -78697,7 +78697,7 @@
      :r/total-done 168,
      :r/d-rate 0.505,
      :r/t-scheduled 67.0,
-     :r/k "de-teixoso-01036",
+     :r/k "teixoso-01036",
      :r/total-passed 109.0069,
      :r/t-done 67.0}],
    :imt-profile
@@ -82090,7 +82090,7 @@
     :id #uuid "8c577d0e-750d-3c08-ae29-dc42fa5b4a91",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
- ["de-repeses-01075"
+ ["repeses-01075"
   {:nec 1075,
    :rates
    [{:r/nec 1075,
@@ -82104,7 +82104,7 @@
      :r/total-done 109,
      :r/d-rate 0.5846,
      :r/t-scheduled 44.0,
-     :r/k "de-repeses-01075",
+     :r/k "repeses-01075",
      :r/total-passed 66.0006,
      :r/t-done 44.0}
     {:r/nec 1075,
@@ -82118,7 +82118,7 @@
      :r/total-done 13,
      :r/d-rate 0.5,
      :r/t-scheduled 7.0,
-     :r/k "de-repeses-01075",
+     :r/k "repeses-01075",
      :r/total-passed 5.0,
      :r/t-done 5.0}],
    :imt-profile
@@ -84030,7 +84030,7 @@
     :id #uuid "05a3a564-2c22-3c53-a951-5ecd223e883f",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
- ["de-canidelo-01098"
+ ["canidelo-01098"
   {:nec 1098,
    :rates
    [{:r/nec 1098,
@@ -84044,7 +84044,7 @@
      :r/total-done 330,
      :r/d-rate 0.6707,
      :r/t-scheduled 167.0,
-     :r/k "de-canidelo-01098",
+     :r/k "canidelo-01098",
      :r/total-passed 221.005,
      :r/t-done 163.0}
     {:r/nec 1098,
@@ -84058,7 +84058,7 @@
      :r/total-done 331,
      :r/d-rate 0.7059,
      :r/t-scheduled 169.0,
-     :r/k "de-canidelo-01098",
+     :r/k "canidelo-01098",
      :r/total-passed 220.0001,
      :r/t-done 161.0}
     {:r/nec 1098,
@@ -84072,7 +84072,7 @@
      :r/total-done 371,
      :r/d-rate 0.6909,
      :r/t-scheduled 216.0,
-     :r/k "de-canidelo-01098",
+     :r/k "canidelo-01098",
      :r/total-passed 261.0001,
      :r/t-done 206.0}
     {:r/nec 1098,
@@ -84086,7 +84086,7 @@
      :r/total-done 358,
      :r/d-rate 0.6263,
      :r/t-scheduled 171.0,
-     :r/k "de-canidelo-01098",
+     :r/k "canidelo-01098",
      :r/total-passed 238.0074,
      :r/t-done 160.0}
     {:r/nec 1098,
@@ -84100,7 +84100,7 @@
      :r/total-done 331,
      :r/d-rate 0.6096,
      :r/t-scheduled 153.0,
-     :r/k "de-canidelo-01098",
+     :r/k "canidelo-01098",
      :r/total-passed 212.0016,
      :r/t-done 144.0}
     {:r/nec 1098,
@@ -84114,7 +84114,7 @@
      :r/total-done 197,
      :r/d-rate 0.64,
      :r/t-scheduled 109.0,
-     :r/k "de-canidelo-01098",
+     :r/k "canidelo-01098",
      :r/total-passed 135.004,
      :r/t-done 97.0}],
    :imt-profile
@@ -90262,7 +90262,7 @@
     :id #uuid "862c9470-ac5a-3cd3-b411-ec4317c6ec1f",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
- ["de-livracao-01167"
+ ["livracao-01167"
   {:nec 1167,
    :rates
    [{:r/nec 1167,
@@ -90276,7 +90276,7 @@
      :r/total-done 189,
      :r/d-rate 0.5268,
      :r/t-scheduled 77.0,
-     :r/k "de-livracao-01167",
+     :r/k "livracao-01167",
      :r/total-passed 116.998,
      :r/t-done 77.0}
     {:r/nec 1167,
@@ -90290,7 +90290,7 @@
      :r/total-done 168,
      :r/d-rate 0.5657,
      :r/t-scheduled 69.0,
-     :r/k "de-livracao-01167",
+     :r/k "livracao-01167",
      :r/total-passed 111.0042,
      :r/t-done 69.0}
     {:r/nec 1167,
@@ -90304,7 +90304,7 @@
      :r/total-done 167,
      :r/d-rate 0.567,
      :r/t-scheduled 70.0,
-     :r/k "de-livracao-01167",
+     :r/k "livracao-01167",
      :r/total-passed 107.996,
      :r/t-done 70.0}
     {:r/nec 1167,
@@ -90318,7 +90318,7 @@
      :r/total-done 169,
      :r/d-rate 0.5631,
      :r/t-scheduled 67.0,
-     :r/k "de-livracao-01167",
+     :r/k "livracao-01167",
      :r/total-passed 100.9983,
      :r/t-done 66.0}
     {:r/nec 1167,
@@ -90332,7 +90332,7 @@
      :r/total-done 122,
      :r/d-rate 0.5658,
      :r/t-scheduled 46.0,
-     :r/k "de-livracao-01167",
+     :r/k "livracao-01167",
      :r/total-passed 76.9994,
      :r/t-done 46.0}
     {:r/nec 1167,
@@ -90346,7 +90346,7 @@
      :r/total-done 90,
      :r/d-rate 0.5833,
      :r/t-scheduled 42.0,
-     :r/k "de-livracao-01167",
+     :r/k "livracao-01167",
      :r/total-passed 53.9964,
      :r/t-done 42.0}],
    :imt-profile
@@ -101101,7 +101101,7 @@
     :id #uuid "54e4629c-6a72-390d-8b97-967e5a1d61b8",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}]
- ["da-charneca-01285"
+ ["charneca-01285"
   {:nec 1285,
    :rates
    [{:r/nec 1285,
@@ -101115,7 +101115,7 @@
      :r/total-done 742,
      :r/d-rate 0.7154,
      :r/t-scheduled 371.0,
-     :r/k "da-charneca-01285",
+     :r/k "charneca-01285",
      :r/total-passed 560.9828,
      :r/t-done 359.0}
     {:r/nec 1285,
@@ -101129,7 +101129,7 @@
      :r/total-done 859,
      :r/d-rate 0.7118,
      :r/t-scheduled 430.0,
-     :r/k "da-charneca-01285",
+     :r/k "charneca-01285",
      :r/total-passed 618.005,
      :r/t-done 408.0}
     {:r/nec 1285,
@@ -101143,7 +101143,7 @@
      :r/total-done 941,
      :r/d-rate 0.687,
      :r/t-scheduled 454.0,
-     :r/k "da-charneca-01285",
+     :r/k "charneca-01285",
      :r/total-passed 680.9771,
      :r/t-done 433.0}
     {:r/nec 1285,
@@ -101157,7 +101157,7 @@
      :r/total-done 943,
      :r/d-rate 0.7414,
      :r/t-scheduled 461.0,
-     :r/k "da-charneca-01285",
+     :r/k "charneca-01285",
      :r/total-passed 711.0122,
      :r/t-done 448.0}
     {:r/nec 1285,
@@ -101171,7 +101171,7 @@
      :r/total-done 1072,
      :r/d-rate 0.773,
      :r/t-scheduled 562.0,
-     :r/k "da-charneca-01285",
+     :r/k "charneca-01285",
      :r/total-passed 806.018,
      :r/t-done 539.0}
     {:r/nec 1285,
@@ -101185,7 +101185,7 @@
      :r/total-done 1198,
      :r/d-rate 0.7262,
      :r/t-scheduled 733.0,
-     :r/k "da-charneca-01285",
+     :r/k "charneca-01285",
      :r/total-passed 900.9958,
      :r/t-done 683.0}],
    :imt-profile
@@ -103704,7 +103704,7 @@
     :id #uuid "7d89233a-a6ee-336e-bbc9-bcd8a4d443b7",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
- ["de-barrosas-01316"
+ ["barrosas-01316"
   {:nec 1316,
    :rates
    [{:r/nec 1316,
@@ -103718,7 +103718,7 @@
      :r/total-done 125,
      :r/d-rate 0.4737,
      :r/t-scheduled 49.0,
-     :r/k "de-barrosas-01316",
+     :r/k "barrosas-01316",
      :r/total-passed 73.0011,
      :r/t-done 49.0}
     {:r/nec 1316,
@@ -103732,7 +103732,7 @@
      :r/total-done 137,
      :r/d-rate 0.4868,
      :r/t-scheduled 61.0,
-     :r/k "de-barrosas-01316",
+     :r/k "barrosas-01316",
      :r/total-passed 81.9965,
      :r/t-done 61.0}
     {:r/nec 1316,
@@ -103746,7 +103746,7 @@
      :r/total-done 118,
      :r/d-rate 0.557,
      :r/t-scheduled 39.0,
-     :r/k "de-barrosas-01316",
+     :r/k "barrosas-01316",
      :r/total-passed 77.0048,
      :r/t-done 39.0}
     {:r/nec 1316,
@@ -103760,7 +103760,7 @@
      :r/total-done 43,
      :r/d-rate 0.6364,
      :r/t-scheduled 21.0,
-     :r/k "de-barrosas-01316",
+     :r/k "barrosas-01316",
      :r/total-passed 28.0015,
      :r/t-done 21.0}
     {:r/nec 1316,
@@ -103774,7 +103774,7 @@
      :r/total-done 19,
      :r/d-rate 0.3333,
      :r/t-scheduled 16.0,
-     :r/k "de-barrosas-01316",
+     :r/k "barrosas-01316",
      :r/total-passed 11.9999,
      :r/t-done 16.0}
     {:r/nec 1316,
@@ -103788,7 +103788,7 @@
      :r/total-done 145,
      :r/d-rate 0.4634,
      :r/t-scheduled 66.0,
-     :r/k "de-barrosas-01316",
+     :r/k "barrosas-01316",
      :r/total-passed 78.9992,
      :r/t-done 63.0}],
    :imt-profile
@@ -106485,7 +106485,7 @@
     :id #uuid "71be6390-9780-3e13-9d83-a8253fe5adf5",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Aguiar%20da%20Beira"}}]
- ["de-bustos-01348"
+ ["bustos-01348"
   {:nec 1348,
    :rates
    [{:r/nec 1348,
@@ -106499,7 +106499,7 @@
      :r/total-done 158,
      :r/d-rate 0.6176,
      :r/t-scheduled 92.0,
-     :r/k "de-bustos-01348",
+     :r/k "bustos-01348",
      :r/total-passed 96.9958,
      :r/t-done 90.0}
     {:r/nec 1348,
@@ -106513,7 +106513,7 @@
      :r/total-done 346,
      :r/d-rate 0.6275,
      :r/t-scheduled 197.0,
-     :r/k "de-bustos-01348",
+     :r/k "bustos-01348",
      :r/total-passed 198.008,
      :r/t-done 193.0}
     {:r/nec 1348,
@@ -106527,7 +106527,7 @@
      :r/total-done 229,
      :r/d-rate 0.5767,
      :r/t-scheduled 67.0,
-     :r/k "de-bustos-01348",
+     :r/k "bustos-01348",
      :r/total-passed 137.0011,
      :r/t-done 66.0}
     {:r/nec 1348,
@@ -106541,7 +106541,7 @@
      :r/total-done 313,
      :r/d-rate 0.7152,
      :r/t-scheduled 172.0,
-     :r/k "de-bustos-01348",
+     :r/k "bustos-01348",
      :r/total-passed 210.9948,
      :r/t-done 162.0}
     {:r/nec 1348,
@@ -106555,7 +106555,7 @@
      :r/total-done 279,
      :r/d-rate 0.6615,
      :r/t-scheduled 158.0,
-     :r/k "de-bustos-01348",
+     :r/k "bustos-01348",
      :r/total-passed 194.9885,
      :r/t-done 149.0}],
    :imt-profile
@@ -106832,7 +106832,7 @@
     :id #uuid "fdb01b30-9e7b-358c-90f1-7e17304c2057",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}]
- ["de-ramalde-01352"
+ ["ramalde-01352"
   {:nec 1352,
    :rates
    [{:r/nec 1352,
@@ -106846,7 +106846,7 @@
      :r/total-done 33,
      :r/d-rate 0.8333,
      :r/t-scheduled 21.0,
-     :r/k "de-ramalde-01352",
+     :r/k "ramalde-01352",
      :r/total-passed 25.9995,
      :r/t-done 21.0}
     {:r/nec 1352,
@@ -106860,7 +106860,7 @@
      :r/total-done 186,
      :r/d-rate 0.7791,
      :r/t-scheduled 103.0,
-     :r/k "de-ramalde-01352",
+     :r/k "ramalde-01352",
      :r/total-passed 140.0026,
      :r/t-done 100.0}
     {:r/nec 1352,
@@ -106874,7 +106874,7 @@
      :r/total-done 269,
      :r/d-rate 0.729,
      :r/t-scheduled 177.0,
-     :r/k "de-ramalde-01352",
+     :r/k "ramalde-01352",
      :r/total-passed 197.0082,
      :r/t-done 162.0}
     {:r/nec 1352,
@@ -106888,7 +106888,7 @@
      :r/total-done 328,
      :r/d-rate 0.6421,
      :r/t-scheduled 148.0,
-     :r/k "de-ramalde-01352",
+     :r/k "ramalde-01352",
      :r/total-passed 238.9954,
      :r/t-done 138.0}
     {:r/nec 1352,
@@ -106902,7 +106902,7 @@
      :r/total-done 200,
      :r/d-rate 0.6119,
      :r/t-scheduled 75.0,
-     :r/k "de-ramalde-01352",
+     :r/k "ramalde-01352",
      :r/total-passed 125.9968,
      :r/t-done 66.0}],
    :imt-profile
@@ -107675,7 +107675,7 @@
     :id #uuid "f761d6b2-e665-39c3-8d14-870eadfc3d0b",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"}}]
- ["de-ilhavo-01362"
+ ["ilhavo-01362"
   {:nec 1362,
    :rates
    [{:r/nec 1362,
@@ -107689,7 +107689,7 @@
      :r/total-done 16,
      :r/d-rate 0.5,
      :r/t-scheduled 12.0,
-     :r/k "de-ilhavo-01362",
+     :r/k "ilhavo-01362",
      :r/total-passed 14.0,
      :r/t-done 12.0}
     {:r/nec 1362,
@@ -107703,7 +107703,7 @@
      :r/total-done 173,
      :r/d-rate 0.6857,
      :r/t-scheduled 106.0,
-     :r/k "de-ilhavo-01362",
+     :r/k "ilhavo-01362",
      :r/total-passed 113.0023,
      :r/t-done 103.0}
     {:r/nec 1362,
@@ -107717,7 +107717,7 @@
      :r/total-done 209,
      :r/d-rate 0.5773,
      :r/t-scheduled 116.0,
-     :r/k "de-ilhavo-01362",
+     :r/k "ilhavo-01362",
      :r/total-passed 125.9981,
      :r/t-done 112.0}
     {:r/nec 1362,
@@ -107731,7 +107731,7 @@
      :r/total-done 194,
      :r/d-rate 0.5849,
      :r/t-scheduled 89.0,
-     :r/k "de-ilhavo-01362",
+     :r/k "ilhavo-01362",
      :r/total-passed 123.9954,
      :r/t-done 88.0}
     {:r/nec 1362,
@@ -107745,7 +107745,7 @@
      :r/total-done 188,
      :r/d-rate 0.5301,
      :r/t-scheduled 116.0,
-     :r/k "de-ilhavo-01362",
+     :r/k "ilhavo-01362",
      :r/total-passed 103.9953,
      :r/t-done 105.0}],
    :imt-profile
@@ -107930,7 +107930,7 @@
     :id #uuid "6a1abda7-fd26-3e70-a03e-7ca95543f91a",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
- ["da-costa-01365"
+ ["costa-01365"
   {:nec 1365,
    :rates
    [{:r/nec 1365,
@@ -107944,7 +107944,7 @@
      :r/total-done 19,
      :r/d-rate 0.0,
      :r/t-scheduled 18.0,
-     :r/k "da-costa-01365",
+     :r/k "costa-01365",
      :r/total-passed 14.9994,
      :r/t-done 18.0}
     {:r/nec 1365,
@@ -107958,7 +107958,7 @@
      :r/total-done 239,
      :r/d-rate 0.5909,
      :r/t-scheduled 109.0,
-     :r/k "da-costa-01365",
+     :r/k "costa-01365",
      :r/total-passed 174.9943,
      :r/t-done 107.0}
     {:r/nec 1365,
@@ -107972,7 +107972,7 @@
      :r/total-done 340,
      :r/d-rate 0.5502,
      :r/t-scheduled 137.0,
-     :r/k "da-costa-01365",
+     :r/k "costa-01365",
      :r/total-passed 230.9923,
      :r/t-done 131.0}
     {:r/nec 1365,
@@ -107986,7 +107986,7 @@
      :r/total-done 358,
      :r/d-rate 0.6161,
      :r/t-scheduled 156.0,
-     :r/k "da-costa-01365",
+     :r/k "costa-01365",
      :r/total-passed 264.0023,
      :r/t-done 147.0}
     {:r/nec 1365,
@@ -108000,7 +108000,7 @@
      :r/total-done 384,
      :r/d-rate 0.5962,
      :r/t-scheduled 186.0,
-     :r/k "da-costa-01365",
+     :r/k "costa-01365",
      :r/total-passed 274.9911,
      :r/t-done 171.0}],
    :imt-profile
