@@ -543,9 +543,7 @@
      :r/k "a-desportiva-boavista-00007",
      :r/total-passed 19.0005,
      :r/t-done 5.0}],
-   :imt-profile nil,
-   :obs "not really a school",
-   :overwrite/notes nil}]
+   :imt-profile nil}]
  ["vitoria-00008"
   {:nec 8,
    :rates
@@ -919,18 +917,9 @@
      :r/k "rodaqui-00011",
      :r/total-passed 209.9979,
      :r/t-done 133.0}],
-   :imt-profile
-   {:address "Rua de S. Miguel, Nº 10 7050-205 MONTEMOR O NOVO",
-    :name "Montemorense",
-    :distrito "Évora",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Montemorense674.aspx",
-    :concelho "Montemor-o-Novo",
-    :nec 11,
-    :cp7 "7050-205",
-    :id #uuid "72700f2b-ef54-3046-8fb9-b86adeb24752",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Montemor%20o%20Novo"}}]
+   :imt-profile nil,
+   :obs "license 11 is Montemorense in imt.pt",
+   :overwrite/notes nil}]
  ["bastos-00012"
   {:nec 12,
    :rates

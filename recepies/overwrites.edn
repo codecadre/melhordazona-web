@@ -15,8 +15,6 @@
                     :overwrite/obs "duplicate nec in passrates"}
  "sind-xxxxx" {:address-id nil
                :overwrite/obs "not really a school"}
- "a-desportiva-boavista-00007" {:address-id nil
-                                :overwrite/obs "not really a school"}
  "celas-00626" {:address-id nil
                 :overwrite/obs "problably the same as siiimpletunas-00626"}
  "nova-mira-01349" {:address-id nil
@@ -37,4 +35,6 @@
                           :overwrite/obs "Dup tyrsense-00746. Data stops @ 2019."}
  "armando-machado-da-cruz-00900" {:address-id nil
                                   :overwrite/obs "Dup grand-tour-00900. Data stops @ 2019."}
+ "rodaqui-00011" {:address-id nil
+                  :overwrite/obs "license 11 is Montemorense in imt.pt"}
  }
