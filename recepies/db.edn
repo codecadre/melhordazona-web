@@ -9148,19 +9148,9 @@
      :r/k "devesa-00123",
      :r/total-passed 222.004,
      :r/t-done 127.0}],
-   :imt-profile
-   {:address
-    "Rua Silvério Ferreira de Macedo, n.º 136, Lojas 1 / 2 / 3 4760-053 Vila Nova de Famalicão",
-    :name "Famalicense",
-    :distrito "Braga",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Famalicense443.aspx",
-    :concelho "Vila Nova de Famalicão",
-    :nec 123,
-    :cp7 "4760-053",
-    :id #uuid "070ed1a4-373f-33d5-b67b-7418784d94c9",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+   :imt-profile nil,
+   :obs "license 123 is 'Famalicense' in imt.pt",
+   :overwrite/notes nil}]
  ["auto-caldense-00126"
   {:nec 126,
    :rates
