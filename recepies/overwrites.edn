@@ -27,4 +27,6 @@
                           :overwrite/obs "prob. same as auto-dinamica-do-ave-00587. data until 2018"}
  "vr-00447" {:address-id nil
              :overwrite/obs "Most recent from duplicate pair but name differs a lot from imp.pt."}
+ "auto-stop-00760" {:address-id nil
+                    :overwrite/obs "Duplicate pair of ip4-00760. Data stops @ 2019"}
  }

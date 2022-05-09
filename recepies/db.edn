@@ -55454,19 +55454,9 @@
      :r/k "auto-stop-00760",
      :r/total-passed 74.997,
      :r/t-done 42.0}],
-   :imt-profile
-   {:address
-    "Avª Cidade de Orense, lote 3, loja 41 5000-674 VILA REAL (S. DINIS)",
-    :name "IP4",
-    :distrito "Vila Real",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EC-Condu%c3%a7%c3%a3o-IP4.aspx",
-    :concelho "Vila Real",
-    :nec 760,
-    :cp7 "5000-674",
-    :id #uuid "c01b2431-9092-3c31-be8c-5f76e1be8336",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+   :imt-profile nil,
+   :obs "Duplicate pair of ip4-00760. Data stops @ 2019",
+   :overwrite/notes nil}]
  ["a-nortenha-00761"
   {:nec 761,
    :rates
