@@ -54248,18 +54248,9 @@
      :r/k "dinamica-do-vez-00746",
      :r/total-passed 167.9965,
      :r/t-done 114.0}],
-   :imt-profile
-   {:address "Rua Jornal de Santo Tirso n.º 1",
-    :name "Tyrsense",
-    :distrito "Porto",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tyrsense.aspx",
-    :concelho "Santo Tirso",
-    :nec 746,
-    :cp7 nil,
-    :id #uuid "86ae1097-0079-367e-bd01-9b0eaa6eb31f",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+   :imt-profile nil,
+   :obs "Dup tyrsense-00746. Data stops @ 2019.",
+   :overwrite/notes nil}]
  ["alto-das-cerejas-00747"
   {:nec 747,
    :rates
