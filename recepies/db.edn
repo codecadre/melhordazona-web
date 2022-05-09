@@ -103674,19 +103674,9 @@
      :r/k "malhoa-01314",
      :r/total-passed 84.002,
      :r/t-done 56.0}],
-   :imt-profile
-   {:address
-    "Rua Aveiro 1-B, Mamodeiro 3810-732 NOSSA SENHORA DE FÁTIMA",
-    :name "Prestige",
-    :distrito "Aveiro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prestige.aspx",
-    :concelho "Aveiro",
-    :nec 1314,
-    :cp7 "3810-732",
-    :id #uuid "351af02c-cc4f-3980-8f70-da518e9b8dbb",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"}}]
+   :imt-profile nil,
+   :obs "prob. same as nova-mira-01349. data until 2018",
+   :overwrite/notes nil}]
  ["prestige-01314"
   {:nec 1314,
    :rates
