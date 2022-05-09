@@ -22,4 +22,9 @@
  "nova-mira-01349" {:address-id nil
                     :overwrite/obs "prob. same as nova-de-tomar-01349. data until 2018"}
  "malhoa-01314" {:address-id nil
-                 :overwrite/obs "prob. same as nova-mira-01349. data until 2018"}}
+                 :overwrite/obs "prob. same as nova-mira-01349. data until 2018"}
+ "nascente-do-ave-00587" {:address-id nil
+                          :overwrite/obs "prob. same as auto-dinamica-do-ave-00587. data until 2018"}
+ "vr-00447" {:address-id nil
+             :overwrite/obs "Most recent from duplicate pair but name differs a lot from imp.pt."}
+ }

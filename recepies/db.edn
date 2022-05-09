@@ -27714,18 +27714,10 @@
      :r/k "vr-00447",
      :r/total-passed 130.9942,
      :r/t-done 103.0}],
-   :imt-profile
-   {:address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
-    :name "Infante de Sagres - Vila Real de Stº António",
-    :distrito "Faro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresVilaRealdeStAntonio544.aspx",
-    :concelho "Vila Real de Santo António",
-    :nec 447,
-    :cp7 "8900",
-    :id #uuid "076f5935-fa1e-3139-91ca-dbc4ad80dfbd",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"}}]
+   :imt-profile nil,
+   :obs
+   "Most recent from duplicate pair but name differs a lot from imp.pt.",
+   :overwrite/notes nil}]
  ["chamusca-00448"
   {:nec 448,
    :rates
@@ -40470,19 +40462,9 @@
      :r/k "nascente-do-ave-00587",
      :r/total-passed 143.002,
      :r/t-done 112.0}],
-   :imt-profile
-   {:address
-    "Rua Padre José Carlos Alves Vieira, Nº 232-1º 4850-537 VIEIRA DO MINHO",
-    :name "Auto Dinâmica do Ave",
-    :distrito "Braga",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Auto%20Din%c3%a2mica%20do%20Ave.aspx",
-    :concelho "Vieira do Minho",
-    :nec 587,
-    :cp7 "4850-537",
-    :id #uuid "88a55330-30ec-32d7-8d84-b601c03eb5cb",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"}}]
+   :imt-profile nil,
+   :obs "prob. same as auto-dinamica-do-ave-00587. data until 2018",
+   :overwrite/notes nil}]
  ["auto-dinamica-do-ave-00587"
   {:nec 587,
    :rates
