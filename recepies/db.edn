@@ -45619,19 +45619,9 @@
      :r/k "auto-mira-00651",
      :r/total-passed 73.9988,
      :r/t-done 44.0}],
-   :imt-profile
-   {:address
-    "Edificio Buonas Bistas, Bloco 2, Loja de Trás, 5210-003 MIRANDA do DOURO",
-    :name "Miranda do Douro",
-    :distrito "Bragança",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MirandadoDouro652.aspx",
-    :concelho "Miranda do Douro",
-    :nec 651,
-    :cp7 "5210-003",
-    :id #uuid "43ca12fc-3fab-3fbb-b40e-6d2d9ab9aa34",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Miranda%20Douro"}}]
+   :imt-profile nil,
+   :obs "license 651 is 'Miranda do Douro' in imt.pt",
+   :overwrite/notes nil}]
  ["autoflor-00652"
   {:nec 652,
    :rates
