@@ -1,7 +1,7 @@
 ** Apache start
 
 cd ~/src/clj-cgi-example/docker
-docker-compose up web
+ENV=DEV_LOCAL docker-compose up web
 
 ** logs
 
@@ -9,7 +9,7 @@ docker exec -it clj_cgi_web_1 tail -f -n 20 /var/log/apache2/error.log
 
 ** babashka nrepl
 
-local$ bb nrepl
+bb nrepl
 
 then cider connect
 
@@ -21,7 +21,15 @@ or
 
 npx less-watch-compiler --less-args math=always src/less/ public/css/
 
-** hot reload by live.js
+
+** shadow build
+
+./node_modules/.bin/shadow-cljs release main
+./node_modules/.bin/shadow-cljs watch main
+
+** hot reload
+
+- by live.js
 
 ** leaflet
 
