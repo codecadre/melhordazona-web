@@ -68959,19 +68959,9 @@
      :r/k "fonseca-00914",
      :r/total-passed 145.0015,
      :r/t-done 109.0}],
-   :imt-profile
-   {:address
-    "Estrada da Bela Vista 179 –Quinta Nova 2820-171 CHARNECA DA CAPARICA",
-    :name "Aliada",
-    :distrito "Setúbal",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aliada.aspx",
-    :concelho "Almada",
-    :nec 914,
-    :cp7 "2820-171",
-    :id #uuid "5536876a-727a-3511-a5b6-c7a4153fcd72",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+   :imt-profile nil,
+   :obs "license 914 is 'Aliada' in imt.pt",
+   :overwrite/notes nil}]
  ["nova-moita-00915"
   {:nec 915,
    :rates
@@ -75990,18 +75980,9 @@
      :r/k "dom-pedro-01008",
      :r/total-passed 119.997,
      :r/t-done 81.0}],
-   :imt-profile
-   {:address "Avª José Estevão, 361-A 3830-555 GAFANHA da NAZARÉ",
-    :name "Prina",
-    :distrito "Aveiro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prina.aspx",
-    :concelho "Ílhavo",
-    :nec 1008,
-    :cp7 "3830-555",
-    :id #uuid "933caaaa-0b0e-3645-9f63-7529508a4faf",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"}}]
+   :imt-profile nil,
+   :obs "license 1008 is 'Prina' in imt.pt",
+   :overwrite/notes nil}]
  ["do-algoz-01009"
   {:nec 1009,
    :rates
@@ -77302,19 +77283,9 @@
      :r/k "go-driving-01024",
      :r/total-passed 240.0018,
      :r/t-done 144.0}],
-   :imt-profile
-   {:address
-    "Rua Dr. Francisco Pissara de Matos-Lote 7 r/c 6300-693 GUARDA",
-    :name "Egitaniense",
-    :distrito "Guarda",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Egitaniense403.aspx",
-    :concelho "Guarda",
-    :nec 1024,
-    :cp7 "6300-693",
-    :id #uuid "2c1b97d6-74ce-381d-a2bd-9a97c79e9fb3",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"}}]
+   :imt-profile nil,
+   :obs "license 1024 is 'Egitaniense' in imt.pt",
+   :overwrite/notes nil}]
  ["romana-01025"
   {:nec 1025,
    :rates
@@ -79139,18 +79110,9 @@
      :r/k "s-jorge-01043",
      :r/total-passed 114.9941,
      :r/t-done 83.0}],
-   :imt-profile
-   {:address "RUA ABEL RIBEIRO, FRACÇÃO G ",
-    :name "Dominante",
-    :distrito "Porto",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaoDominante.aspx",
-    :concelho "Baião",
-    :nec 1043,
-    :cp7 nil,
-    :id #uuid "822982a7-9290-3af9-bae5-eb9ba1b2afae",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"}}]
+   :imt-profile nil,
+   :obs "license 1043 is 'Dominante' in imt.pt",
+   :overwrite/notes nil}]
  ["espinho-01045"
   {:nec 1045,
    :rates
@@ -80331,19 +80293,9 @@
      :r/k "d-chama-01057",
      :r/total-passed 108.0006,
      :r/t-done 72.0}],
-   :imt-profile
-   {:address
-    "Avª Varandas do Tua, Lote 7/8 - 1º -Loja 1 5370-212 MIRANDELA",
-    :name "Auto Mira",
-    :distrito "Bragança",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoMira166.aspx",
-    :concelho "Mirandela",
-    :nec 1057,
-    :cp7 "5370-212",
-    :id #uuid "4ab9cfe7-f0d8-3a3c-afec-cf0a033c65a0",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"}}]
+   :imt-profile nil,
+   :obs "license 1057 is 'Auto Mira' in imt.pt",
+   :overwrite/notes nil}]
  ["s-verissimo-01058"
   {:nec 1058,
    :rates
@@ -80431,18 +80383,9 @@
      :r/k "s-verissimo-01058",
      :r/total-passed 135.9977,
      :r/t-done 84.0}],
-   :imt-profile
-   {:address "Av. das Barreiras, Nº 49 4750-732 TAMEL",
-    :name "Volante de Negreiros",
-    :distrito "Braga",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolantedeNegreiros1083.aspx",
-    :concelho "Barcelos",
-    :nec 1058,
-    :cp7 "4750-732",
-    :id #uuid "20e71a5a-4ba9-3948-a333-d7f00b00e10f",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+   :imt-profile nil,
+   :obs "license 1058 is 'Volante de Negreiros' in imt.pt",
+   :overwrite/notes nil}]
  ["meiriformacao-01059"
   {:nec 1059,
    :rates
@@ -81870,19 +81813,9 @@
      :r/k "auto-dao-01075",
      :r/total-passed 89.9989,
      :r/t-done 80.0}],
-   :imt-profile
-   {:address
-    "Rua Stº António nº 55 A-Bairro de Stª Eulália 3500-693 REPESES",
-    :name "De Repeses",
-    :distrito "Viseu",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeRepeses.aspx",
-    :concelho "Viseu",
-    :nec 1075,
-    :cp7 "3500-693",
-    :id #uuid "8c577d0e-750d-3c08-ae29-dc42fa5b4a91",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+   :imt-profile nil,
+   :obs "license 1075 is 'De Repeses' in imt.pt",
+   :overwrite/notes nil}]
  ["repeses-01075"
   {:nec 1075,
    :rates
@@ -82518,19 +82451,9 @@
      :r/k "boliqueime-01081",
      :r/total-passed 52.0011,
      :r/t-done 45.0}],
-   :imt-profile
-   {:address
-    "Estrada Nacional 125, Fonte de Boliqueime, Nº 66, 8100-069 BOLIQUEIME",
-    :name "Linha de Sintra",
-    :distrito "Faro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GuedesVieriaSintra.aspx",
-    :concelho "Loulé",
-    :nec 1081,
-    :cp7 "8100-069",
-    :id #uuid "6e3c4d0f-3263-34f5-b57c-f6cc10e5b93d",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}]
+   :imt-profile nil,
+   :obs "license 1081 is 'Linha de Sintra' in imt.pt",
+   :overwrite/notes nil}]
  ["estrela-de-albergaria-dos-doze-01082"
   {:nec 1082,
    :rates
@@ -84580,19 +84503,9 @@
      :r/k "seguranca-maxima-premium-01105",
      :r/total-passed 144.998,
      :r/t-done 138.0}],
-   :imt-profile
-   {:address
-    "Alameda das Linhas de Torres, Nº 122, Loja A 1769-020 LISBOA",
-    :name "Alameda",
-    :distrito "Lisboa",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alameda067.aspx",
-    :concelho "Lisboa",
-    :nec 1105,
-    :cp7 "1769-020",
-    :id #uuid "8abbae34-67af-327d-8a79-b20552a53caa",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+   :imt-profile nil,
+   :obs "license 1105 is 'Alameda' in imt.pt",
+   :overwrite/notes nil}]
  ["estadio-01106"
   {:nec 1106,
    :rates
@@ -84978,18 +84891,9 @@
      :r/k "palhaca-01110",
      :r/total-passed 40.9972,
      :r/t-done 57.0}],
-   :imt-profile
-   {:address "Rua do Areeiro nº 14 3770-352 PALHAÇA",
-    :name "Bairrada",
-    :distrito "Aveiro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bairrada215.aspx",
-    :concelho "Oliveira do Bairro",
-    :nec 1110,
-    :cp7 "3770-352",
-    :id #uuid "1c3d1ab3-21d5-3d33-905b-24892d709d06",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"}}]
+   :imt-profile nil,
+   :obs "license 1110 is 'Bairrada' in imt.pt",
+   :overwrite/notes nil}]
  ["via-arrabida-01111"
   {:nec 1111,
    :rates
@@ -89644,18 +89548,9 @@
      :r/k "do-juncal-01162",
      :r/total-passed 1.0,
      :r/t-done 1.0}],
-   :imt-profile
-   {:address "Rua da Escola, N.º 15, R/C - Juncal, 2480-356 JUNCAL",
-    :name "Da Serra",
-    :distrito "Leiria",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaSerra360.aspx",
-    :concelho "Porto de Mós",
-    :nec 1162,
-    :cp7 "2480-356",
-    :id #uuid "ec9a9bb0-5857-3a95-ae1d-98b2e5984edc",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"}}]
+   :imt-profile nil,
+   :obs "license 1162 is 'Da Serra' in imt.pt",
+   :overwrite/notes nil}]
  ["riachense-01163"
   {:nec 1163,
    :rates
@@ -90539,19 +90434,9 @@
      :r/k "macao-01171",
      :r/total-passed 63.0004,
      :r/t-done 56.0}],
-   :imt-profile
-   {:address
-    "Av. D. João I, Nº 616 R/C -Vale de Rãs 2200-233 ABRANTES",
-    :name "Abranjovem",
-    :distrito "Santarém",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Abranjovem049.aspx",
-    :concelho "Abrantes",
-    :nec 1171,
-    :cp7 "2200-233",
-    :id #uuid "047043a3-7c4b-3ead-9521-88d928bab27d",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"}}]
+   :imt-profile nil,
+   :obs "license 1171 is 'Abranjovem' in imt.pt",
+   :overwrite/notes nil}]
  ["dois-volantes-01172"
   {:nec 1172,
    :rates
@@ -91207,19 +91092,9 @@
      :r/k "o-motorista-01179",
      :r/total-passed 56.9986,
      :r/t-done 22.0}],
-   :imt-profile
-   {:address
-    "Bairro da Igreja, Lote 3 R/C Dtº 5445-101 CARRAZEDO MONTENEGRO",
-    :name "Montenegrense",
-    :distrito "Vila Real",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Montenegrense675.aspx",
-    :concelho "Valpaços",
-    :nec 1179,
-    :cp7 "5445-101",
-    :id #uuid "72bd25d1-1334-3e94-b947-fce85ba12bb2",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Valpa%C3%A7os"}}]
+   :imt-profile nil,
+   :obs "license 1179 is 'Montenegrense' in imt.pt",
+   :overwrite/notes nil}]
  ["vila-de-oeiras-01180"
   {:nec 1180,
    :rates
@@ -92002,18 +91877,9 @@
      :r/k "chelas-01187",
      :r/total-passed 872.0195,
      :r/t-done 640.0}],
-   :imt-profile
-   {:address "Rua José D' Esaguy, n.º 8, 1750-091 LISBOA",
-    :name "Babilónia",
-    :distrito "Lisboa",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Babilonia209.aspx",
-    :concelho "Lisboa",
-    :nec 1187,
-    :cp7 "1750-091",
-    :id #uuid "3ff4549f-c286-365e-a249-ca2fd202107e",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+   :imt-profile nil,
+   :obs "license 1187 is 'Babilónia' in imt.pt",
+   :overwrite/notes nil}]
  ["tondeluir-01188"
   {:nec 1188,
    :rates
@@ -93395,18 +93261,9 @@
      :r/k "moncorvense-01201",
      :r/total-passed 89.0058,
      :r/t-done 57.0}],
-   :imt-profile
-   {:address "Avª do Sabor 5200-289 MOGADOURO",
-    :name "Mogadourense",
-    :distrito "Bragança",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mogadourense662.aspx",
-    :concelho "Mogadouro",
-    :nec 1201,
-    :cp7 "5200-289",
-    :id #uuid "0f7182e1-9ade-3a01-95c8-f5e495a01bc4",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mogadouro"}}]
+   :imt-profile nil,
+   :obs "license 1201 is 'Mogadourense' in imt.pt",
+   :overwrite/notes nil}]
  ["andrade-de-azeitao-01202"
   {:nec 1202,
    :rates
@@ -96033,18 +95890,9 @@
      :r/k "a-nova-de-mozelos-01232",
      :r/total-passed 174.9968,
      :r/t-done 122.0}],
-   :imt-profile
-   {:address "Rua do Gesto, n.º 75, 4535-201 MOZELOS",
-    :name "Irmãos Couto",
-    :distrito "Aveiro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IrmaosCouto.aspx",
-    :concelho "Santa Maria da Feira",
-    :nec 1232,
-    :cp7 "4535-201",
-    :id #uuid "8a4454f1-59bb-3f28-a558-8698a7b2935b",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}]
+   :imt-profile nil,
+   :obs "license 1232 is 'Irmãos Couto' in imt.pt",
+   :overwrite/notes nil}]
  ["granja-parque-01233"
   {:nec 1233,
    :rates
@@ -98448,19 +98296,9 @@
      :r/k "espiral-01258",
      :r/total-passed 37.0005,
      :r/t-done 23.0}],
-   :imt-profile
-   {:address
-    "Av. Eng.º Bonneville de Franco, n.º 4ª e 4B – Paço D’Arcos",
-    :name "Nova Malveira",
-    :distrito "Lisboa",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaMalveira.aspx",
-    :concelho "Oeiras",
-    :nec 1258,
-    :cp7 nil,
-    :id #uuid "f080e994-4946-3e31-b402-07873fd78f04",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}]
+   :imt-profile nil,
+   :obs "license 1258 is 'Nova Malveira' in imt.pt",
+   :overwrite/notes nil}]
  ["topdrive-01259"
   {:nec 1259,
    :rates
@@ -99453,18 +99291,9 @@
      :r/k "centro-sul-01269",
      :r/total-passed 479.0378,
      :r/t-done 402.0}],
-   :imt-profile
-   {:address "Largo Filinto Elísio, n.º 13 B, 2805-141 ALMADA",
-    :name "Cova da Piedade",
-    :distrito "Setúbal",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CovadaPiedade.aspx",
-    :concelho "Almada",
-    :nec 1269,
-    :cp7 "2805-141",
-    :id #uuid "835cdc15-6c0a-3a64-a89b-8db74a1c67af",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+   :imt-profile nil,
+   :obs "license 1269 is 'Cova da Piedade' in imt.pt",
+   :overwrite/notes nil}]
  ["via-vanda-01270"
   {:nec 1270,
    :rates
@@ -101528,19 +101357,9 @@
      :r/k "oitava-01291",
      :r/total-passed 207.0008,
      :r/t-done 159.0}],
-   :imt-profile
-   {:address
-    "Avenida Dr. Renato Araújo, 2038, 3700-241 São João da Madeira",
-    :name "Nova Caparica",
-    :distrito "Aveiro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaCaparica.aspx",
-    :concelho "São João da Madeira",
-    :nec 1291,
-    :cp7 "3700-241",
-    :id #uuid "47d900fe-a9ee-3d64-be56-d005abc65376",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=S.%20Jo%C3%A3o%20da%20Madeira"}}]
+   :imt-profile nil,
+   :obs "license 1291 is 'Nova Caparica' in imt.pt",
+   :overwrite/notes nil}]
  ["gama-barros-01292"
   {:nec 1292,
    :rates
@@ -102399,18 +102218,9 @@
      :r/k "triplo-s-01301",
      :r/total-passed 200.014,
      :r/t-done 148.0}],
-   :imt-profile
-   {:address "Rua da Bélgica, nº 2281 R/C, 4400-058 VILA NOVA de GAIA",
-    :name "Alto Nível",
-    :distrito "Porto",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AltoNivel.aspx",
-    :concelho "Vila Nova de Gaia",
-    :nec 1301,
-    :cp7 "4400-058",
-    :id #uuid "9b19e309-3374-3a82-964b-2ef4fa7abf04",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+   :imt-profile nil,
+   :obs "license 1301 is 'Alto Nível' in imt.pt",
+   :overwrite/notes nil}]
  ["gueifaes-01304"
   {:nec 1304,
    :rates
@@ -103584,18 +103394,9 @@
      :r/k "barrosas-01316",
      :r/total-passed 78.9992,
      :r/t-done 63.0}],
-   :imt-profile
-   {:address "Rua Central N.º 41 ",
-    :name "José Luís Cunha",
-    :distrito "Porto",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JoseLuisCunha1316.aspx",
-    :concelho "Felgueiras",
-    :nec 1316,
-    :cp7 nil,
-    :id #uuid "4c5fcfa6-7cf0-305a-869f-2017133ef799",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+   :imt-profile nil,
+   :obs "license 1316 is 'José Luís Cunha' in imt.pt",
+   :overwrite/notes nil}]
  ["taveiro-01318"
   {:nec 1318,
    :rates
@@ -103683,19 +103484,9 @@
      :r/k "taveiro-01318",
      :r/total-passed 117.0059,
      :r/t-done 70.0}],
-   :imt-profile
-   {:address
-    "Rua Dr. Cândido Pinto, n.º 28 C, Fração D ; 4520-707 Souto VFR",
-    :name "Medieval",
-    :distrito "Aveiro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Medieval.aspx",
-    :concelho "Santa Maria da Feira",
-    :nec 1318,
-    :cp7 "4520-707",
-    :id #uuid "7e57acad-4b71-3006-a0bb-dc2c8d594ac0",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}]
+   :imt-profile nil,
+   :obs "license 1318 is 'Medieval' in imt.pt",
+   :overwrite/notes nil}]
  ["medieval-01319"
   {:nec 1319,
    :rates
@@ -110262,18 +110053,9 @@
      :r/k "arca-dagua-01399",
      :r/total-passed 194.9982,
      :r/t-done 122.0}],
-   :imt-profile
-   {:address "Rua 9 de Abril n.º 201, r/c Paranhos, 4200-422 Porto",
-    :name "Nova do Porto",
-    :distrito "Porto",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadoPorto.aspx",
-    :concelho "Porto",
-    :nec 1399,
-    :cp7 "4200-422",
-    :id #uuid "c3ab6d6d-9310-3cf2-894f-938f36548629",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+   :imt-profile nil,
+   :obs "license 1399 is 'Nova do Porto' in imt.pt",
+   :overwrite/notes nil}]
  ["a-sebastiana-01400"
   {:nec 1400,
    :rates
@@ -111285,19 +111067,9 @@
      :r/k "nova-caldense-01418",
      :r/total-passed 4.0,
      :r/t-done 3.0}],
-   :imt-profile
-   {:address
-    "Rua Capitão Filipe de Sousa, 128 a 130 A, 2500-066 Caldas da Rainha",
-    :name "Motoschool",
-    :distrito "Leiria",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Motoschool.aspx",
-    :concelho "Caldas da Raínha",
-    :nec 1418,
-    :cp7 "2500-066",
-    :id #uuid "344bce00-51cd-35fe-ba8b-c0912cdfe678",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}]
+   :imt-profile nil,
+   :obs "license 1418 is 'Motoschool' in imt.pt",
+   :overwrite/notes nil}]
  ["casquilhos-01419"
   {:nec 1419,
    :rates
