@@ -130,8 +130,8 @@
                    :overwrite/obs "license 1301 is 'Alto Nível' in imt.pt"}
  "barrosas-01316" {:address-id nil
                    :overwrite/obs "license 1316 is 'José Luís Cunha' in imt.pt"}
- "taveiro-01318"  {:address-id nil
-                   :overwrite/obs "license 1318 is 'Medieval' in imt.pt"}
+ "taveiro-01318"  {:address-id #uuid "102c6d36-273b-3cfa-b2f1-19416f55127b"
+                   :overwrite/obs "lic. 1318 has 2 profiles 'Medieval' and 'Taveiro' in imt.pt"}
  "arca-dagua-01399" {:address-id nil
                      :overwrite/obs "license 1399 is 'Nova do Porto' in imt.pt"}
  "nova-caldense-01418" {:address-id nil
