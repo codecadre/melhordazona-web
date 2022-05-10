@@ -61,6 +61,3 @@
         req-method (keyword (clj-str/lower-case req-method))]
     (merge {:uri uri :request-method req-method}
            (query-string->map query-string))))
-
-(defn get-place-list [type place]
-  (-> (str "./clean-data/" (name type) "-" place ".edn")  slurp edn/read-string))

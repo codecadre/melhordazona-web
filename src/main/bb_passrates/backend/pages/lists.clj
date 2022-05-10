@@ -1,12 +1,15 @@
 #!/usr/bin/env /usr/local/bin/bb
 
 (ns bb-passrates.backend.pages.lists
-  (:require [bb-passrates.shared.main :refer [get-place-list lang url->canonical]]
+  (:require [bb-passrates.shared.main :refer [lang url->canonical]]
             [bb-passrates.backend.templates.template :as tmp]
             [clojure.edn :as edn]))
 
 ;;graph width
 (def W 960)
+
+(defn get-place-list [type place]
+  (-> (str "./clean-data/" (name type) "-" place ".edn")  slurp edn/read-string))
 
 (defn school-list [type city]
   (try

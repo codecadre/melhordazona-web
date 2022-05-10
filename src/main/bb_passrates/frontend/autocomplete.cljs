@@ -14,12 +14,11 @@
     (.classList.remove box "hidden")
     (.classList.add box "show")))
 
-(defn dom-build-li [{:keys [name k search-field] :as suggestion}]
+(defn dom-build-li [{:keys [type name k search-field href] :as suggestion}]
   (let [li (.createElement js/document "li")
         a (.createElement js/document "a")
-        type (-> k namespace)
-        label (get-in copy-list [(keyword "autocomplete" type) lang])]
-    (.setAttribute a "href" (str "/" (get seo type) "/" (clojure.core/name k)))
+        label type #_(get-in copy-list [(keyword "autocomplete" type) lang])]
+    (.setAttribute a "href" href)
     (set! (.-innerText a) (str name " (" label ")"))
     (.appendChild li a)
     (.-outerHTML li)))

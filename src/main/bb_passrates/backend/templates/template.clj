@@ -2,9 +2,9 @@
   (:require [clojure.string :as clj-str]
             [bb-passrates.shared.main :refer [build-href]]))
 
-#_(def env (System/getenv "ENV"))
+(def env (System/getenv "ENV"))
 
-(def env "prod")
+#_(def env "prod")
 
 (def local-dev?  (= env "DEV_LOCAL"))
 

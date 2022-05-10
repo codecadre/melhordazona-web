@@ -11,18 +11,19 @@ box.classList.remove("hidden");
 
 return box.classList.add("show");
 });
-bb_passrates.frontend.autocomplete.dom_build_li = (function bb_passrates$frontend$autocomplete$dom_build_li(p__28856){
-var map__28857 = p__28856;
-var map__28857__$1 = cljs.core.__destructure_map(map__28857);
-var suggestion = map__28857__$1;
-var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28857__$1,new cljs.core.Keyword(null,"name","name",1843675177));
-var k = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28857__$1,new cljs.core.Keyword(null,"k","k",-2146297393));
-var search_field = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28857__$1,new cljs.core.Keyword(null,"search-field","search-field",546910583));
+bb_passrates.frontend.autocomplete.dom_build_li = (function bb_passrates$frontend$autocomplete$dom_build_li(p__19537){
+var map__19538 = p__19537;
+var map__19538__$1 = cljs.core.__destructure_map(map__19538);
+var suggestion = map__19538__$1;
+var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__19538__$1,new cljs.core.Keyword(null,"type","type",1174270348));
+var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__19538__$1,new cljs.core.Keyword(null,"name","name",1843675177));
+var k = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__19538__$1,new cljs.core.Keyword(null,"k","k",-2146297393));
+var search_field = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__19538__$1,new cljs.core.Keyword(null,"search-field","search-field",546910583));
+var href = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__19538__$1,new cljs.core.Keyword(null,"href","href",-793805698));
 var li = document.createElement("li");
 var a = document.createElement("a");
-var type = cljs.core.namespace(k);
-var label = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(bb_passrates.shared.copy.copy_list,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$2("autocomplete",type),bb_passrates.shared.main.lang], null));
-a.setAttribute("href",["/",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.get.cljs$core$IFn$_invoke$arity$2(bb_passrates.shared.main.seo,type)),"/",cljs.core.name(k)].join(''));
+var label = type;
+a.setAttribute("href",href);
 
 (a.innerText = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(name)," (",cljs.core.str.cljs$core$IFn$_invoke$arity$1(label),")"].join(''));
 

@@ -81,11 +81,16 @@
                         :name %
                         :search-field (apply str (interpose " " (clean-strings %)))
                         :href (str "/distritos/" (string->keywordize %))) distritos)
-                 #_(map #(hash-map
-                        :k (keyword "city" (name (string->keyword %)))
-                        :type :school
-                        :name %
-                        :search-field (apply str (interpose " " (clean-strings %)))) cities)
+                 (map (fn [[k s]]
+                        (let [name-imt (-> s :imt-profile :name)
+                              name-pass-rates (-> s :rates first :r/name-raw)
+                              name (or name-imt name-pass-rates)]
+                          (hash-map
+                           :k (keyword k)
+                           :type :school
+                           :name name
+                           :search-field (apply str (interpose " " (clean-strings name)))
+                           :href (str "/escolas/" k)))) db)
                  ])))
 
 (defn build-places-ns [l]
