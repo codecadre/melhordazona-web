@@ -31880,19 +31880,8 @@
      :r/k "mogadourense-00494",
      :r/total-passed 145.0034,
      :r/t-done 82.0}],
-   :imt-profile
-   {:address "Avª do Sabor 5200-289 MOGADOURO",
-    :name "Mogadourense",
-    :distrito "Bragança",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mogadourense662.aspx",
-    :concelho "Mogadouro",
-    :nec 1201,
-    :cp7 "5200-289",
-    :id #uuid "0f7182e1-9ade-3a01-95c8-f5e495a01bc4",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mogadouro"},
-   :obs "nec is 1201 in imt.pt",
+   :imt-profile nil,
+   :obs "There's a mogadourense under 1201",
    :overwrite/notes nil}]
  ["fornos-de-algodres-00495"
   {:nec 495,
@@ -45709,20 +45698,9 @@
      :r/k "autoflor-00652",
      :r/total-passed 80.997,
      :r/t-done 54.0}],
-   :imt-profile
-   {:address "Avª João Carlos Noronha, Nº 20 5360-302 VILA FLOR",
-    :name "Auto Flor",
-    :distrito "Bragança",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoFlor158.aspx",
-    :concelho "Vila Flôr",
-    :nec 1007,
-    :cp7 "5360-302",
-    :id #uuid "42020dad-2dd1-3624-a1eb-43c7ae455cd3",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vila%20Flor"},
-   :obs "nec is 1007 in imt.pt",
-   :overwrite/notes ["https://goo.gl/maps/SqzySt7WvJsw6VYp8"]}]
+   :imt-profile nil,
+   :obs "there's an auto floor but it's 1007",
+   :overwrite/notes nil}]
  ["a-minhota-00653"
   {:nec 653,
    :rates
@@ -75871,18 +75849,9 @@
      :r/k "carlos-vaz-01007",
      :r/total-passed 94.9976,
      :r/t-done 64.0}],
-   :imt-profile
-   {:address "Avª João Carlos Noronha, Nº 20 5360-302 VILA FLOR",
-    :name "Auto Flor",
-    :distrito "Bragança",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoFlor158.aspx",
-    :concelho "Vila Flôr",
-    :nec 1007,
-    :cp7 "5360-302",
-    :id #uuid "42020dad-2dd1-3624-a1eb-43c7ae455cd3",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vila%20Flor"}}]
+   :imt-profile nil,
+   :obs "license 1007 is 'Auto Flor' in imt.pt",
+   :overwrite/notes nil}]
  ["dom-pedro-01008"
   {:nec 1008,
    :rates

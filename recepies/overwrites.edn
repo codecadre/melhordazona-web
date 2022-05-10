@@ -4,13 +4,12 @@
  "campanha-00297" {:address-id #uuid "7f7d57ec-c53d-3011-b080-285687e47e98"
                    :overwrite/obs "missing nec in imt.pt"
                    :overwrite/notes ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"]}
- "autoflor-00652" {:address-id #uuid "42020dad-2dd1-3624-a1eb-43c7ae455cd3"
-                   :overwrite/obs "nec is 1007 in imt.pt"
-                   :overwrite/notes ["https://goo.gl/maps/SqzySt7WvJsw6VYp8"]}
+ "autoflor-00652" {:address-id nil
+                   :overwrite/obs "there's an auto floor but it's 1007"}
  "medieval-01319" {:address-id #uuid "7e57acad-4b71-3006-a0bb-dc2c8d594ac0"
                    :overwrite/obs "nec is 1318 in imt.pt"}
- "mogadourense-00494" {:address-id #uuid "0f7182e1-9ade-3a01-95c8-f5e495a01bc4"
-                       :overwrite/obs "nec is 1201 in imt.pt"}
+ "mogadourense-00494" {:address-id nil
+                       :overwrite/obs "There's a mogadourense under 1201"}
  "douro-sul-00830" {:address-id #uuid "3b79a161-8af9-3b64-83c3-66aec5238418"
                     :overwrite/obs "duplicate nec in passrates"}
  "sind-xxxxx" {:address-id nil
@@ -138,4 +137,6 @@
                         :overwrite/obs "license 1418 is 'Motoschool' in imt.pt"}
  "auto-mira-00651" {:address-id nil
                     :overwrite/obs "license 651 is 'Miranda do Douro' in imt.pt"}
+ "carlos-vaz-01007" {:address-id nil
+                     :overwrite/obs "license 1007 is 'Auto Flor' in imt.pt"}
  }
