@@ -1,0 +1,28 @@
+{:nec 903,
+ :rates
+ [{:r/nec 903,
+   :r/level-0 "2015",
+   :r/d-scheduled 6,
+   :r/t-rate 1.0,
+   :r/total-rate 0.5,
+   :r/d-done 6,
+   :r/total-scheduled 6,
+   :r/name-raw "Escola De Condução Freamundus",
+   :r/total-done 6,
+   :r/d-rate 0.5,
+   :r/t-scheduled 0.0,
+   :r/k "freamundus-00903",
+   :r/total-passed 3.0,
+   :r/t-done 0.0}],
+ :imt-profile
+ {:address "Rua do Leigal, 155 4590-384 FREAMUNDE",
+  :name "Freamundus",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Freamundus469.aspx",
+  :concelho "Paços de Ferreira",
+  :nec 903,
+  :cp7 "4590-384",
+  :id #uuid "3e7eca21-2db3-37c6-b600-3c74d3a6745d",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}

@@ -1,0 +1,29 @@
+{:nec 1441,
+ :rates
+ [{:r/nec 1441,
+   :r/level-0 "2020",
+   :r/d-scheduled 15,
+   :r/t-rate 0.7647,
+   :r/total-rate 0.6452,
+   :r/d-done 14,
+   :r/total-scheduled 34,
+   :r/name-raw "Escola de Condução Por-do-Sol",
+   :r/total-done 31,
+   :r/d-rate 0.5,
+   :r/t-scheduled 19.0,
+   :r/k "pordosol-01441",
+   :r/total-passed 19.9999,
+   :r/t-done 17.0}],
+ :imt-profile
+ {:address
+  "Avenida Arcebispo D. Gaspar de Bragança, n.º30, loja RT BARQUEIROS",
+  :name "Pôr-do-Sol",
+  :distrito "Braga",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/P%c3%b4r-do-Sol.aspx",
+  :concelho "Barcelos",
+  :nec 1441,
+  :cp7 nil,
+  :id #uuid "32918da9-ac55-3221-8af4-56349a93cef8",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}

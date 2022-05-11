@@ -1,0 +1,29 @@
+{:nec 1448,
+ :rates
+ [{:r/nec 1448,
+   :r/level-0 "2020",
+   :r/d-scheduled 4,
+   :r/t-rate 1.0,
+   :r/total-rate 0.4286,
+   :r/d-done 4,
+   :r/total-scheduled 7,
+   :r/name-raw "Escola de Condução Irmãos Gonçalves",
+   :r/total-done 7,
+   :r/d-rate 0.0,
+   :r/t-scheduled 3.0,
+   :r/k "irmaos-goncalves-01448",
+   :r/total-passed 3.0,
+   :r/t-done 3.0}],
+ :imt-profile
+ {:address
+  "Rua José dos Santos Gonçalves, Edifício Santo António, Loja 18 C, 3420-330 Tábua",
+  :name "Irmãos Gonçalves",
+  :distrito "Coimbra",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IrmaosGoncalves.aspx",
+  :concelho "Tábua",
+  :nec 1448,
+  :cp7 "3420-330",
+  :id #uuid "bfb25e49-e4d6-3b23-9c92-9350c0a59e83",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"}}

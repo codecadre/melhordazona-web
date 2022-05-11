@@ -1,0 +1,43 @@
+{:nec 1075,
+ :rates
+ [{:r/nec 1075,
+   :r/level-0 "2019",
+   :r/d-scheduled 67,
+   :r/t-rate 0.6364,
+   :r/total-rate 0.6055,
+   :r/d-done 65,
+   :r/total-scheduled 111,
+   :r/name-raw "ESCOLA DE CONDUÇÃO DE REPESES",
+   :r/total-done 109,
+   :r/d-rate 0.5846,
+   :r/t-scheduled 44.0,
+   :r/k "repeses-01075",
+   :r/total-passed 66.0006,
+   :r/t-done 44.0}
+  {:r/nec 1075,
+   :r/level-0 "2020",
+   :r/d-scheduled 11,
+   :r/t-rate 0.2,
+   :r/total-rate 0.3846,
+   :r/d-done 8,
+   :r/total-scheduled 18,
+   :r/name-raw "ESCOLA DE CONDUÇÃO DE REPESES",
+   :r/total-done 13,
+   :r/d-rate 0.5,
+   :r/t-scheduled 7.0,
+   :r/k "repeses-01075",
+   :r/total-passed 5.0,
+   :r/t-done 5.0}],
+ :imt-profile
+ {:address
+  "Rua Stº António nº 55 A-Bairro de Stª Eulália 3500-693 REPESES",
+  :name "De Repeses",
+  :distrito "Viseu",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeRepeses.aspx",
+  :concelho "Viseu",
+  :nec 1075,
+  :cp7 "3500-693",
+  :id #uuid "8c577d0e-750d-3c08-ae29-dc42fa5b4a91",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}

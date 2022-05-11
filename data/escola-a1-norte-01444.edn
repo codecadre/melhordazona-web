@@ -1,0 +1,28 @@
+{:nec 1444,
+ :rates
+ [{:r/nec 1444,
+   :r/level-0 "2020",
+   :r/d-scheduled 13,
+   :r/t-rate 0.6333,
+   :r/total-rate 0.6512,
+   :r/d-done 13,
+   :r/total-scheduled 45,
+   :r/name-raw "Escola de Condução A1 Norte",
+   :r/total-done 43,
+   :r/d-rate 0.6923,
+   :r/t-scheduled 32.0,
+   :r/k "a1-norte-01444",
+   :r/total-passed 27.9989,
+   :r/t-done 30.0}],
+ :imt-profile
+ {:address "Rua Padre Diamantino Gomes, n.º 189, 4250-541 Porto",
+  :name "A1 Norte",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/A1Norte.aspx",
+  :concelho "Porto",
+  :nec 1444,
+  :cp7 "4250-541",
+  :id #uuid "20918938-6157-3e59-94d9-4362878961e1",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}

@@ -1,0 +1,43 @@
+{:nec 737,
+ :rates
+ [{:r/nec 737,
+   :r/level-0 "2015",
+   :r/d-scheduled 38,
+   :r/t-rate 0.2727,
+   :r/total-rate 0.3684,
+   :r/d-done 35,
+   :r/total-scheduled 60,
+   :r/name-raw "Escola De Condução Auto-Alpendurada",
+   :r/total-done 57,
+   :r/d-rate 0.4286,
+   :r/t-scheduled 22.0,
+   :r/k "autoalpendurada-00737",
+   :r/total-passed 21.0004,
+   :r/t-done 22.0}
+  {:r/nec 737,
+   :r/level-0 "2016",
+   :r/d-scheduled 7,
+   :r/t-rate 0.4,
+   :r/total-rate 0.5,
+   :r/d-done 7,
+   :r/total-scheduled 12,
+   :r/name-raw "Escola De Condução Auto-Alpendurada",
+   :r/total-done 12,
+   :r/d-rate 0.5714,
+   :r/t-scheduled 5.0,
+   :r/k "autoalpendurada-00737",
+   :r/total-passed 5.9998,
+   :r/t-done 5.0}],
+ :imt-profile
+ {:address
+  "Lugar da Tapadinha - Edificio Tâmega Douro, Nº 1, Bloco B, Loja 48 e 49 4575-052 ALPENDURADA E MATOS",
+  :name "Auto Alpendurada",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoAlpendurada139.aspx",
+  :concelho "Marco de Canavezes",
+  :nec 737,
+  :cp7 "4575-052",
+  :id #uuid "44a1ea0f-5799-345b-b4be-b035613aa540",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}

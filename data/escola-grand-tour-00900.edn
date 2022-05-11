@@ -1,0 +1,43 @@
+{:nec 900,
+ :rates
+ [{:r/nec 900,
+   :r/level-0 "2019",
+   :r/d-scheduled 140,
+   :r/t-rate 0.7164,
+   :r/total-rate 0.6507,
+   :r/d-done 138,
+   :r/total-scheduled 278,
+   :r/name-raw "ESCOLA DE CONDUÇÃO GRAND TOUR",
+   :r/total-done 272,
+   :r/d-rate 0.587,
+   :r/t-scheduled 138.0,
+   :r/k "grand-tour-00900",
+   :r/total-passed 177.0036,
+   :r/t-done 134.0}
+  {:r/nec 900,
+   :r/level-0 "2020",
+   :r/d-scheduled 190,
+   :r/t-rate 0.7447,
+   :r/total-rate 0.6981,
+   :r/d-done 177,
+   :r/total-scheduled 337,
+   :r/name-raw "ESCOLA DE CONDUÇÃO GRAND TOUR",
+   :r/total-done 318,
+   :r/d-rate 0.661,
+   :r/t-scheduled 147.0,
+   :r/k "grand-tour-00900",
+   :r/total-passed 221.9997,
+   :r/t-done 141.0}],
+ :imt-profile
+ {:address
+  "Edf. Avenida - Fracção D - Av. dos Bombeiros Voluntários, 172, R/C Post Esq. - 3460-572 Tondela",
+  :name "Escola de Condução Grand Tour",
+  :distrito "Viseu",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Escola%20de%20Condu%c3%a7%c3%a3o%20Grand%20Tour.aspx",
+  :concelho "Tondela",
+  :nec 900,
+  :cp7 "3460-572",
+  :id #uuid "9929dc34-7d82-34ea-944d-a97bce27d9df",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"}}

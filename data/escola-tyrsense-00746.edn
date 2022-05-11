@@ -1,0 +1,28 @@
+{:nec 746,
+ :rates
+ [{:r/nec 746,
+   :r/level-0 "2020",
+   :r/d-scheduled 4,
+   :r/t-rate 0.875,
+   :r/total-rate 0.9167,
+   :r/d-done 4,
+   :r/total-scheduled 12,
+   :r/name-raw "ESCOLA DE CONDUÇÃO TYRSENSE",
+   :r/total-done 12,
+   :r/d-rate 1.0,
+   :r/t-scheduled 8.0,
+   :r/k "tyrsense-00746",
+   :r/total-passed 11.0,
+   :r/t-done 8.0}],
+ :imt-profile
+ {:address "Rua Jornal de Santo Tirso n.º 1",
+  :name "Tyrsense",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tyrsense.aspx",
+  :concelho "Santo Tirso",
+  :nec 746,
+  :cp7 nil,
+  :id #uuid "86ae1097-0079-367e-bd01-9b0eaa6eb31f",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}

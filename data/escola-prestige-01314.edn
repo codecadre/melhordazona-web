@@ -1,0 +1,29 @@
+{:nec 1314,
+ :rates
+ [{:r/nec 1314,
+   :r/level-0 "2019",
+   :r/d-scheduled 21,
+   :r/t-rate 0.3333,
+   :r/total-rate 0.5556,
+   :r/d-done 21,
+   :r/total-scheduled 27,
+   :r/name-raw "ESCOLA DE CONDUÇÃO PRESTIGE",
+   :r/total-done 27,
+   :r/d-rate 0.619,
+   :r/t-scheduled 6.0,
+   :r/k "prestige-01314",
+   :r/total-passed 14.9988,
+   :r/t-done 6.0}],
+ :imt-profile
+ {:address
+  "Rua Aveiro 1-B, Mamodeiro 3810-732 NOSSA SENHORA DE FÁTIMA",
+  :name "Prestige",
+  :distrito "Aveiro",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prestige.aspx",
+  :concelho "Aveiro",
+  :nec 1314,
+  :cp7 "3810-732",
+  :id #uuid "351af02c-cc4f-3980-8f70-da518e9b8dbb",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"}}

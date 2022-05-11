@@ -1,4 +1,22 @@
 * Roadmap
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2022-05-11 Wed 10:41]
+| Headline                                    | Time      |         |
+|---------------------------------------------+-----------+---------|
+| *Total time*                                | *4d 2:53* |         |
+|---------------------------------------------+-----------+---------|
+| Roadmap                                     | 4d 2:53   |         |
+| \_  Markup basics 6:15                      |           |    6:14 |
+| \_  Multilanguage support PT/EN             |           |    2:41 |
+| \_  listing page                            |           |    3:14 |
+| \_  load 2014 data with addresses on the... |           |    0:28 |
+| \_  routing                                 |           |    8:01 |
+| \_  Get entire dataset in the app           |           |    7:44 |
+| \_  Get address and lat/long                |           |   15:36 |
+| \_  parse and import PDFs                   |           | 2d 5:01 |
+| \_  Productionize                           |           |    1:54 |
+#+END:
+
 
 ** DONE Markup basics 6:15
    :LOGBOOK:
@@ -102,7 +120,8 @@ I think these two tasks cover the language requirements. Now it's just a matter 
    1 day to make it happen
 
 ** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
-** TODO display ratings (3 days)
+** DONE display ratings (3 days)
+   Parsing data took about 3 weeks
 ** DONE Get entire dataset in the app
    :LOGBOOK:
    CLOCK: [2022-05-09 Mon 09:37]--[2022-05-09 Mon 15:15] =>  5:38
@@ -119,8 +138,7 @@ I think these two tasks cover the language requirements. Now it's just a matter 
     CLOCK: [2022-05-04 Wed 18:20]--[2022-05-04 Wed 19:43] =>  1:23
     :END:
 
-
-** TODO Get address and lat/long
+** DONE Get address and lat/long
    :LOGBOOK:
    CLOCK: [2022-05-03 Tue 15:14]--[2022-05-03 Tue 16:03] =>  0:49
    CLOCK: [2022-05-03 Tue 12:17]--[2022-05-03 Tue 13:30] =>  1:13
@@ -138,12 +156,11 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 
    - [X] script for raw addresses
    - [X] enrich with raw details
-   - [ ] clean address
    - [X] get postcode column
 
    - [ ] enrich with junta
 
-*** TODO propagate new data format to places
+*** DONE propagate new data format to places
     :LOGBOOK:
     CLOCK: [2022-05-10 Tue 22:09]--[2022-05-10 Tue 23:04] =>  0:55
     CLOCK: [2022-05-10 Tue 16:08]--[2022-05-10 Tue 17:53] =>  1:45
@@ -157,10 +174,18 @@ I think these two tasks cover the language requirements. Now it's just a matter 
     :LOGBOOK:
     CLOCK: [2022-04-14 Thu 10:40]--[2022-04-14 Thu 11:42] =>  1:02
     :END:
-*** TODO Scale svg
+** TODO clean up address in import scripts 1 h
+** DONE produce new listings (1 h) 0:42
+   :LOGBOOK:
+   CLOCK: [2022-05-11 Wed 11:04]--[2022-05-11 Wed 11:46] =>  0:42
+   :END:
+** TODO ADD cp7
+
+** TODO produce svg with ratings 2 days
+** TODO Scale svg 1 h
     https://css-tricks.com/scale-svg/
 
-*** DONE parse and import PDFs
+** DONE parse and import PDFs
     :LOGBOOK:
     CLOCK: [2022-04-19 Tue 15:33]--[2022-04-20 Wed 17:12] => 25:39
     CLOCK: [2022-04-20 Wed 11:20]--[2022-04-20 Wed 13:33] =>  2:13
@@ -174,7 +199,7 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 - [X] export pdf
 - [X] store everything as pickle
 
-*** TODO style listing page
+** TODO style listing page 1 h (other than ratings svg)
 ** TODO page generator and pages (3 days)
    Generate a page from a Markdown to hiccup
 *** TODO Build generator (1 day)

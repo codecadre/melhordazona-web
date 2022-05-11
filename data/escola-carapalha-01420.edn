@@ -1,0 +1,43 @@
+{:nec 1420,
+ :rates
+ [{:r/nec 1420,
+   :r/level-0 "2019",
+   :r/d-scheduled 44,
+   :r/t-rate 0.8286,
+   :r/total-rate 0.6842,
+   :r/d-done 41,
+   :r/total-scheduled 79,
+   :r/name-raw "Escola de Condução Carapalha",
+   :r/total-done 76,
+   :r/d-rate 0.561,
+   :r/t-scheduled 35.0,
+   :r/k "carapalha-01420",
+   :r/total-passed 52.002,
+   :r/t-done 35.0}
+  {:r/nec 1420,
+   :r/level-0 "2020",
+   :r/d-scheduled 58,
+   :r/t-rate 0.8649,
+   :r/total-rate 0.6279,
+   :r/d-done 49,
+   :r/total-scheduled 101,
+   :r/name-raw "Escola de Condução Carapalha",
+   :r/total-done 86,
+   :r/d-rate 0.449,
+   :r/t-scheduled 43.0,
+   :r/k "carapalha-01420",
+   :r/total-passed 54.0023,
+   :r/t-done 37.0}],
+ :imt-profile
+ {:address
+  "Avenida da Carapalha, Lote 65, n.º 45 r/c Dtº 6000-129 CASTELO BRANCO",
+  :name "Carapalha",
+  :distrito "Castelo Branco",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaoCarapalha.aspx",
+  :concelho "Castelo Branco",
+  :nec 1420,
+  :cp7 "6000-129",
+  :id #uuid "49fb784a-9341-39ef-9823-0c7bee9ea578",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"}}

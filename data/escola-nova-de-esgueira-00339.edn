@@ -1,0 +1,28 @@
+{:nec 339,
+ :rates
+ [{:r/nec 339,
+   :r/level-0 "2020",
+   :r/d-scheduled 0,
+   :r/t-rate 1.0,
+   :r/total-rate 1.0,
+   :r/d-done 0,
+   :r/total-scheduled 2,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DE ESGUEIRA",
+   :r/total-done 2,
+   :r/d-rate 1.0,
+   :r/t-scheduled 2.0,
+   :r/k "nova-de-esgueira-00339",
+   :r/total-passed 2.0,
+   :r/t-done 2.0}],
+ :imt-profile
+ {:address "Rua Dr. José Assis e Santos, Nº 89 3450-123 MORTÁGUA",
+  :name "Nova de Esgueira",
+  :distrito "Viseu",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nova%20de%20Esgueira.aspx",
+  :concelho "Mortágua",
+  :nec 339,
+  :cp7 "3450-123",
+  :id #uuid "3ec263bb-8436-3778-9b94-fe1db90a4426",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"}}

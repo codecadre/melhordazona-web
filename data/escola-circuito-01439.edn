@@ -1,0 +1,29 @@
+{:nec 1439,
+ :rates
+ [{:r/nec 1439,
+   :r/level-0 "2020",
+   :r/d-scheduled 52,
+   :r/t-rate 0.7229,
+   :r/total-rate 0.7348,
+   :r/d-done 49,
+   :r/total-scheduled 139,
+   :r/name-raw "Escola de Condução Circuito",
+   :r/total-done 132,
+   :r/d-rate 0.7551,
+   :r/t-scheduled 87.0,
+   :r/k "circuito-01439",
+   :r/total-passed 97.0006,
+   :r/t-done 83.0}],
+ :imt-profile
+ {:address
+  "Lugar do Cano, Avenida de Osnabruck, Lote 17, fração B, 5000-448 Vila Real",
+  :name "Circuito",
+  :distrito "Vila Real",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Circuito.aspx",
+  :concelho "Vila Real",
+  :nec 1439,
+  :cp7 "5000-448",
+  :id #uuid "f674a64b-f087-31a4-ab96-ab2ca7a51237",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}

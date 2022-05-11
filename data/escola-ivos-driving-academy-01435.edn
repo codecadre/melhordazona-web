@@ -1,0 +1,43 @@
+{:nec 1435,
+ :rates
+ [{:r/nec 1435,
+   :r/level-0 "2019",
+   :r/d-scheduled 36,
+   :r/t-rate 0.807,
+   :r/total-rate 0.7419,
+   :r/d-done 36,
+   :r/total-scheduled 94,
+   :r/name-raw "Escola de Condução Ivo's Driving Academy",
+   :r/total-done 93,
+   :r/d-rate 0.6389,
+   :r/t-scheduled 58.0,
+   :r/k "ivos-driving-academy-01435",
+   :r/total-passed 68.9994,
+   :r/t-done 57.0}
+  {:r/nec 1435,
+   :r/level-0 "2020",
+   :r/d-scheduled 179,
+   :r/t-rate 0.8182,
+   :r/total-rate 0.7151,
+   :r/d-done 171,
+   :r/total-scheduled 373,
+   :r/name-raw "Escola de Condução Ivo's Driving Academy",
+   :r/total-done 358,
+   :r/d-rate 0.6023,
+   :r/t-scheduled 194.0,
+   :r/k "ivos-driving-academy-01435",
+   :r/total-passed 255.9967,
+   :r/t-done 187.0}],
+ :imt-profile
+ {:address
+  "Rua Sport Club de Freamunde, n.º208 r/c, 4590-397 Freamunde",
+  :name "Ivo’s Driving Academy",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ivo%e2%80%99sDrivingAcademy.aspx",
+  :concelho "Paços de Ferreira",
+  :nec 1435,
+  :cp7 "4590-397",
+  :id #uuid "101d49cd-5e8f-3718-ad0a-dfd5bc93dfb5",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}

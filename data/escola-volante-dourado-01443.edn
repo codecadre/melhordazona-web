@@ -1,0 +1,43 @@
+{:nec 1443,
+ :rates
+ [{:r/nec 1443,
+   :r/level-0 "2019",
+   :r/d-scheduled 3,
+   :r/t-rate 1.0,
+   :r/total-rate 0.25,
+   :r/d-done 3,
+   :r/total-scheduled 4,
+   :r/name-raw "Escola de Condução Volante Dourado",
+   :r/total-done 4,
+   :r/d-rate 0.0,
+   :r/t-scheduled 1.0,
+   :r/k "volante-dourado-01443",
+   :r/total-passed 1.0,
+   :r/t-done 1.0}
+  {:r/nec 1443,
+   :r/level-0 "2020",
+   :r/d-scheduled 17,
+   :r/t-rate 0.7333,
+   :r/total-rate 0.7234,
+   :r/d-done 17,
+   :r/total-scheduled 47,
+   :r/name-raw "Escola de Condução Volante Dourado",
+   :r/total-done 47,
+   :r/d-rate 0.7059,
+   :r/t-scheduled 30.0,
+   :r/k "volante-dourado-01443",
+   :r/total-passed 33.9993,
+   :r/t-done 30.0}],
+ :imt-profile
+ {:address
+  "Rua de Santo António de Lisboa, n.º 20, Loja C, 2650-115 Amadora",
+  :name "Volante Dourado",
+  :distrito "Lisboa",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolanteDourado.aspx",
+  :concelho "Amadora",
+  :nec 1443,
+  :cp7 "2650-115",
+  :id #uuid "3af627ff-b62c-37ec-8eb8-0f8bada14468",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}

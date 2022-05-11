@@ -1,0 +1,28 @@
+{:nec 552,
+ :rates
+ [{:r/nec 552,
+   :r/level-0 "2015",
+   :r/d-scheduled 103,
+   :r/t-rate 0.8333,
+   :r/total-rate 0.6905,
+   :r/d-done 102,
+   :r/total-scheduled 171,
+   :r/name-raw "Escola De Condução Manuel Leal",
+   :r/total-done 168,
+   :r/d-rate 0.598,
+   :r/t-scheduled 68.0,
+   :r/k "manuel-leal-00552",
+   :r/total-passed 115.9938,
+   :r/t-done 66.0}],
+ :imt-profile
+ {:address "Avª Heróis do Ultramar nº 128 r/c 3100-462 POMBAL",
+  :name "Manuel Leal",
+  :distrito "Leiria",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ManuelLeal623.aspx",
+  :concelho "Pombal",
+  :nec 552,
+  :cp7 "3100-462",
+  :id #uuid "06a03764-8cdd-3100-8182-ac6cc0251985",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"}}

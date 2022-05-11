@@ -1,0 +1,43 @@
+{:nec 587,
+ :rates
+ [{:r/nec 587,
+   :r/level-0 "2019",
+   :r/d-scheduled 93,
+   :r/t-rate 0.7671,
+   :r/total-rate 0.7515,
+   :r/d-done 92,
+   :r/total-scheduled 168,
+   :r/name-raw "ESCOLA DE CONDUÇÃO AUTO DINÂMICA DO AVE",
+   :r/total-done 165,
+   :r/d-rate 0.7391,
+   :r/t-scheduled 75.0,
+   :r/k "auto-dinamica-do-ave-00587",
+   :r/total-passed 123.9955,
+   :r/t-done 73.0}
+  {:r/nec 587,
+   :r/level-0 "2020",
+   :r/d-scheduled 89,
+   :r/t-rate 0.8082,
+   :r/total-rate 0.8108,
+   :r/d-done 75,
+   :r/total-scheduled 171,
+   :r/name-raw "ESCOLA DE CONDUÇÃO AUTO DINÂMICA DO AVE",
+   :r/total-done 148,
+   :r/d-rate 0.8133,
+   :r/t-scheduled 82.0,
+   :r/k "auto-dinamica-do-ave-00587",
+   :r/total-passed 119.9961,
+   :r/t-done 73.0}],
+ :imt-profile
+ {:address
+  "Rua Padre José Carlos Alves Vieira, Nº 232-1º 4850-537 VIEIRA DO MINHO",
+  :name "Auto Dinâmica do Ave",
+  :distrito "Braga",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Auto%20Din%c3%a2mica%20do%20Ave.aspx",
+  :concelho "Vieira do Minho",
+  :nec 587,
+  :cp7 "4850-537",
+  :id #uuid "88a55330-30ec-32d7-8d84-b601c03eb5cb",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"}}

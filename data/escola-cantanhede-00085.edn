@@ -1,0 +1,43 @@
+{:nec 85,
+ :rates
+ [{:r/nec 85,
+   :r/level-0 "2015",
+   :r/d-scheduled 35,
+   :r/t-rate 0.7333,
+   :r/total-rate 0.7375,
+   :r/d-done 35,
+   :r/total-scheduled 80,
+   :r/name-raw "Escola De Condução Cantanhede",
+   :r/total-done 80,
+   :r/d-rate 0.7429,
+   :r/t-scheduled 45.0,
+   :r/k "cantanhede-00085",
+   :r/total-passed 59.0,
+   :r/t-done 45.0}
+  {:r/nec 85,
+   :r/level-0 "2016",
+   :r/d-scheduled 5,
+   :r/t-rate 0.8491,
+   :r/total-rate 0.8559,
+   :r/d-done 5,
+   :r/total-scheduled 118,
+   :r/name-raw "Escola De Condução Cantanhede",
+   :r/total-done 111,
+   :r/d-rate 1.0,
+   :r/t-scheduled 113.0,
+   :r/k "cantanhede-00085",
+   :r/total-passed 95.0046,
+   :r/t-done 106.0}],
+ :imt-profile
+ {:address
+  "Rua da Academia Musical Arazedense, n.º 22, R/C, 3140-998 ARAZADE",
+  :name "Cantanhede",
+  :distrito "Coimbra",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cantanhede279.aspx",
+  :concelho "Montemor-o-Velho",
+  :nec 85,
+  :cp7 "3140-998",
+  :id #uuid "1ae0f161-2a4e-3cf7-81d8-cade4b19bf76",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"}}

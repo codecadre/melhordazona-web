@@ -30,23 +30,6 @@
 (defn string->keywordize [s]
   (apply str (interpose "-" (clean-strings s))))
 
-
-
-#_(def type-k :municipality)
-
-
-;;spit municipality, city and district list
-#_(doseq [district (get-places-fn type-k)]
-  (let [places (filter #(= (-> % :address type-k) district) d)
-        file-name (str "./clean-data/"
-                       (apply str
-                              (interpose "-" (into [(name type-k)]
-                                                   (clean-strings district)))) ".edn")]
-    (doall (spit file-name (pr-str places)))))
-
-
-#_(names-list)
-
 (def db
   (->> "recepies/db.edn" slurp edn/read-string))
 
@@ -90,8 +73,7 @@
                            :type :school
                            :name name
                            :search-field (apply str (interpose " " (clean-strings name)))
-                           :href (str "/escolas/" k)))) db)
-                 ])))
+                           :href (str "/escolas/" k)))) db)])))
 
 (defn build-places-ns [l]
  (apply str ["(ns bb-passrates.shared.places)\n\n"
@@ -105,12 +87,28 @@
                        with-out-str)]
   (doall (spit f (build-places-ns d-as-string))))
 
-#_(doseq [school d]
-  (let [file-name (str "./clean-data/"
-                       (apply str
-                              (interpose "-" (into ["school"]
-                                                   (clean-strings (:name school))))) ".edn")]
-    (doall (spit file-name (pr-str school)))))
+(doseq [[concelho schools] (->> db
+                                (group-by #(-> % last :imt-profile :concelho))
+                                (remove #(-> % first nil?)))]
+  (let [f (format "./data/%s.edn" (apply str (interpose "-" (into ["concelho"]
+                                                                  (clean-strings concelho)))))
+        data-string (with-out-str (pprint/pprint schools))]
+    (spit f data-string)))
+
+(doseq [[distrito schools] (->> db
+                                (group-by #(-> % last :imt-profile :distrito))
+                                (remove #(-> % first nil?)))]
+  (let [f (format "./data/%s.edn" (apply str (interpose "-" (into ["distrito"]
+                                                                  (clean-strings distrito)))))
+        data-string (with-out-str (pprint/pprint schools))]
+    (spit f data-string)))
+
+(doseq [[k s] db]
+  (let [f (format "./data/escola-%s.edn" k)
+        data-string (with-out-str (pprint/pprint s))]
+    (spit f data-string)))
+
+
 
 #_(comment
   ;; 261 municipality

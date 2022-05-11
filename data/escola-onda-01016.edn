@@ -1,0 +1,43 @@
+{:nec 1016,
+ :rates
+ [{:r/nec 1016,
+   :r/level-0 "2015",
+   :r/d-scheduled 5,
+   :r/t-rate 0.75,
+   :r/total-rate 0.6923,
+   :r/d-done 5,
+   :r/total-scheduled 14,
+   :r/name-raw "Escola De Condução Onda",
+   :r/total-done 13,
+   :r/d-rate 0.6,
+   :r/t-scheduled 9.0,
+   :r/k "onda-01016",
+   :r/total-passed 9.0,
+   :r/t-done 8.0}
+  {:r/nec 1016,
+   :r/level-0 "2016",
+   :r/d-scheduled 8,
+   :r/t-rate 1.0,
+   :r/total-rate 0.5556,
+   :r/d-done 8,
+   :r/total-scheduled 9,
+   :r/name-raw "Escola De Condução Onda",
+   :r/total-done 9,
+   :r/d-rate 0.5,
+   :r/t-scheduled 1.0,
+   :r/k "onda-01016",
+   :r/total-passed 5.0,
+   :r/t-done 1.0}],
+ :imt-profile
+ {:address
+  "Praceta Padre João Moreira nº 41 4410-220 S. FÉLIX da MARINHA",
+  :name "Onda",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Onda751.aspx",
+  :concelho "Vila Nova de Gaia",
+  :nec 1016,
+  :cp7 "4410-220",
+  :id #uuid "61adc274-38ca-37dc-ad0e-d06073995542",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}

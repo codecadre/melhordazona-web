@@ -1,0 +1,43 @@
+{:nec 468,
+ :rates
+ [{:r/nec 468,
+   :r/level-0 "2015",
+   :r/d-scheduled 194,
+   :r/t-rate 0.6322,
+   :r/total-rate 0.6284,
+   :r/d-done 192,
+   :r/total-scheduled 373,
+   :r/name-raw "Escola De Condução Nova Xira",
+   :r/total-done 366,
+   :r/d-rate 0.625,
+   :r/t-scheduled 179.0,
+   :r/k "nova-xira-00468",
+   :r/total-passed 230.0028,
+   :r/t-done 174.0}
+  {:r/nec 468,
+   :r/level-0 "2016",
+   :r/d-scheduled 51,
+   :r/t-rate 1.0,
+   :r/total-rate 0.7925,
+   :r/d-done 51,
+   :r/total-scheduled 53,
+   :r/name-raw "Escola De Condução Nova Xira",
+   :r/total-done 53,
+   :r/d-rate 0.7843,
+   :r/t-scheduled 2.0,
+   :r/k "nova-xira-00468",
+   :r/total-passed 41.9993,
+   :r/t-done 2.0}],
+ :imt-profile
+ {:address
+  "Rua Luís de Camões nº 60 r/c Dtº 2600-180 VILA FRANCA DE XIRA",
+  :name "Nova Xira",
+  :distrito "Lisboa",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaXira721.aspx",
+  :concelho "Vila Franca de Xira",
+  :nec 468,
+  :cp7 "2600-180",
+  :id #uuid "94e416ff-9c8d-3191-843e-3938158f59dd",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}

@@ -1,0 +1,29 @@
+{:nec 760,
+ :rates
+ [{:r/nec 760,
+   :r/level-0 "2020",
+   :r/d-scheduled 27,
+   :r/t-rate 0.8103,
+   :r/total-rate 0.8353,
+   :r/d-done 27,
+   :r/total-scheduled 90,
+   :r/name-raw "ESCOLA DE CONDUÇÃO IP4",
+   :r/total-done 85,
+   :r/d-rate 0.8889,
+   :r/t-scheduled 63.0,
+   :r/k "ip4-00760",
+   :r/total-passed 70.9977,
+   :r/t-done 58.0}],
+ :imt-profile
+ {:address
+  "Avª Cidade de Orense, lote 3, loja 41 5000-674 VILA REAL (S. DINIS)",
+  :name "IP4",
+  :distrito "Vila Real",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EC-Condu%c3%a7%c3%a3o-IP4.aspx",
+  :concelho "Vila Real",
+  :nec 760,
+  :cp7 "5000-674",
+  :id #uuid "c01b2431-9092-3c31-be8c-5f76e1be8336",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}

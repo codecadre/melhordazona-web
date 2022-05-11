@@ -1,0 +1,28 @@
+{:nec 1440,
+ :rates
+ [{:r/nec 1440,
+   :r/level-0 "2020",
+   :r/d-scheduled 54,
+   :r/t-rate 0.6667,
+   :r/total-rate 0.6348,
+   :r/d-done 52,
+   :r/total-scheduled 122,
+   :r/name-raw "Escola de Condução Smart Road",
+   :r/total-done 115,
+   :r/d-rate 0.5962,
+   :r/t-scheduled 68.0,
+   :r/k "smart-road-01440",
+   :r/total-passed 73.0045,
+   :r/t-done 63.0}],
+ :imt-profile
+ {:address "Rua Aníbal Dias, n,.º 10 r/c, 3450-150 Mortágua",
+  :name "Smart Road",
+  :distrito "Viseu",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SmartRoad.aspx",
+  :concelho "Mortágua",
+  :nec 1440,
+  :cp7 "3450-150",
+  :id #uuid "7cd6e868-46be-3b83-9fe0-f72734cf1fc6",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"}}
