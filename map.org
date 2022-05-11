@@ -179,7 +179,15 @@ I think these two tasks cover the language requirements. Now it's just a matter 
    :LOGBOOK:
    CLOCK: [2022-05-11 Wed 11:04]--[2022-05-11 Wed 11:46] =>  0:42
    :END:
-** TODO ADD cp7
+** TODO ADD cp7 coord (0:30)
+   :LOGBOOK:
+   CLOCK: [2022-05-11 Wed 16:00]
+   CLOCK: [2022-05-11 Wed 13:37]--[2022-05-11 Wed 14:55] =>  1:18
+   :END:
+
+   - map cp7->coord
+   - check how many of the total cp7 you made
+   - check how many imtprofiles are there left to be added coord
 
 ** TODO produce svg with ratings 2 days
 ** TODO Scale svg 1 h

@@ -1,0 +1,62 @@
+#:url   = ...
+:token = AAPK068313a8e1504eac8aa9a3df8fa72ea2kKG6rEbl7aJRmgKmGu7ab68sPCNkEq_u-YKtmVskJAjUBztOlXJZQdR9x5B5fBSP
+#:service =
+#GET https://:url/arcgis/rest/services/:service/GeocodeServer/geocodeAddresses
+GET https://geocode-api.arcgis.com/arcgis/rest/services/GeocodeServer/findAddressCandidates?sourceCountry=PT&f=pjson&token=:token
+Content-Type: application/json
+addresses=
+{           "records": [
+        {
+            "attributes": {
+                "OBJECTID": 1,
+                "SingleLine": "1950-283"
+            }
+        }
+    ]
+}
+
+
+curl -i -H Content-Type\:\ application/json -XGET https\://geocode-api.arcgis.com/arcgis/rest/services/GeocodeServer/findAddressCandidates\?sourceCountry\=PT\&f\=pjson\&token\=AAPK068313a8e1504eac8aa9a3df8fa72ea2kKG6rEbl7aJRmgKmGu7ab68sPCNkEq_u-YKtmVskJAjUBztOlXJZQdR9x5B5fBSP -d addresses\='
+'\{\ \ \ \ \ \ \ \ \ \ \ \"records\"\:\ \['
+'\ \ \ \ \ \ \ \ \{'
+'\ \ \ \ \ \ \ \ \ \ \ \ \"attributes\"\:\ \{'
+'\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \"OBJECTID\"\:\ 1\,'
+'\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \"SingleLine\"\:\ \"1950-283\"'
+'\ \ \ \ \ \ \ \ \ \ \ \ \}'
+'\ \ \ \ \ \ \ \ \}'
+'\ \ \ \ \]'
+'\}
+
+curl https://geocode-api.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates \
+-d 'f=pjson' \
+-d 'address=1600 Pennsylvania Ave NW, DC' \
+-d 'token=AAPK068313a8e1504eac8aa9a3df8fa72ea2kKG6rEbl7aJRmgKmGu7ab68sPCNkEq_u-YKtmVskJAjUBztOlXJZQdR9x5B5fBSP'
+
+curl https://geocode-api.arcgis.com/arcgis/rest/services/GeocodeServer/findAddressCandidates \
+-d 'f=pjson' \
+-d 'address=1600 Pennsylvania Ave NW, DC' \
+-d 'token=AAPK068313a8e1504eac8aa9a3df8fa72ea2kKG6rEbl7aJRmgKmGu7ab68sPCNkEq_u-YKtmVskJAjUBztOlXJZQdR9x5B5fBSP'
+
+https://geocode-api.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?postal=1950-283&countryCode=PRT&token=AAPK068313a8e1504eac8aa9a3df8fa72ea2kKG6rEbl7aJRmgKmGu7ab68sPCNkEq_u-YKtmVskJAjUBztOlXJZQdR9x5B5fBSP&f=json
+
+
+curl https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/geocodeAddresses?countryCode=PRT \
+-d 'f=pjson' \
+-d 'addresses=
+    {
+        "records": [
+           {
+            "attributes": {
+                "objectid": 1,
+                "address": "1950-283"
+            }
+            },
+            {
+                "attributes": {
+                    "objectid": 2,
+                    "address": "4300-190"
+                }
+            }
+        ]
+    }' \
+-d 'token=AAPK068313a8e1504eac8aa9a3df8fa72ea2kKG6rEbl7aJRmgKmGu7ab68sPCNkEq_u-YKtmVskJAjUBztOlXJZQdR9x5B5fBSP'
