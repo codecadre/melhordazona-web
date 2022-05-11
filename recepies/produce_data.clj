@@ -9,6 +9,9 @@
       slurp
       edn/read-string));;TODO add name to keyword
 
+;;unique ids?
+(assert (= (count imt-profiles) (count (set (map :id imt-profiles)))))
+
 (def nec->imt-profiles
   "uses first, drops the rest. relies on there being a manual overwrite if data
   doesn't look good"
@@ -25,15 +28,15 @@
               [k (first v)]))
        (into {})))
 
-#_(filter #(= 1007 (:nec %)) imt-profiles)
-#_(filter #(= 1001 (:nec %)) db)
-
 (def pass-rates
-  (->> (->
-        "imt-pass-rates-submodule/parsed-data/db.json"
-        slurp
-        (json/parse-string (fn [k] (keyword "r" (clj-str/replace (name k) "_" "-") )))
-        :r/data)
+  (->
+   "imt-pass-rates-submodule/parsed-data/db.json"
+   slurp
+   (json/parse-string (fn [k] (keyword "r" (clj-str/replace (name k) "_" "-") )))
+   :r/data))
+
+(def k->pass-rates
+  (->> pass-rates
        (group-by :r/k)
        (map (fn [[k v]]
               (let [n (-> v first :r/nec)]
@@ -44,7 +47,7 @@
 
 (def db
   (mapv (fn [[k {:keys [nec] :as d}]]
-         [k (assoc d :imt-profile (get nec->imt-profiles nec))]) pass-rates))
+         [k (assoc d :imt-profile (get nec->imt-profiles nec))]) k->pass-rates))
 
 
 (def overwrites
@@ -66,11 +69,7 @@
                   (assoc-in [idx 1 :overwrite/notes] notes)))) db overwrites))
 
 (def nec->pass-rates
-  (->> (->
-        "imt-pass-rates-submodule/parsed-data/db.json"
-        slurp
-        (json/parse-string (fn [k] (keyword "r" (name k))))
-        :r/data)
+  (->> pass-rates
        (group-by :r/nec)))
 
 (spit "./recepies/rates-duplicate-nec.txt"
