@@ -45,6 +45,9 @@
                   :rates v}])))
        (into {})))
 
+(println (format "%s School entries from pass rates pdf." (count k->pass-rates)))
+
+
 (def db
   (mapv (fn [[k {:keys [nec] :as d}]]
          [k (assoc d :imt-profile (get nec->imt-profiles nec))]) k->pass-rates))
@@ -55,6 +58,8 @@
   (-> "recepies/overwrites.edn"
    slurp
    edn/read-string))
+
+(println (format "%s Manual overwrites" (count overwrites)))
 
 (defn db-massaged [db]
   (reduce (fn [db [k {:keys [address-id overwrite/obs overwrite/notes]}]]
@@ -93,6 +98,9 @@
 (defn no-imt-profile [db]
   (remove (fn [[k {:keys [imt-profile]}]]
             (when imt-profile true)) db))
+
+
+(println (format "%s Schools WITH imt profile" (->> db db-massaged (remove #(-> % last :imt-profile nil?)) count)))
 
 (defn print-missing-imt-profile [db]
   (let [f "./recepies/no-imt-profile.txt"
