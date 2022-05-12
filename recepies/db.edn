@@ -76749,7 +76749,19 @@
     :cp7 "2675-768",
     :id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+   :geocode
+   {:y 38.80638000499755,
+    :address "Rua Álvaro Campos, nº 1 2675-768 RAMADA",
+    :postal-c "2620-258",
+    :obs "removed some bits of the address. easy to find.",
+    :overwrite true,
+    :c 1,
+    :id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
+    :score 93.84,
+    :address-c
+    "Rua Álvaro de Campos 1, 2620-258, Bons Dias, Odivelas, Lisboa",
+    :x -9.188270005019518}}]
  ["cidade-do-barreiro-00942"
   {:nec 942,
    :rates
