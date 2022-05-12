@@ -75,23 +75,26 @@
         (Thread/sleep 5000)
         (single-non-stored a)))))
 
-(let [id #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe"
-      address "Praça da Sociedade Filarmónica Recreio Alverquense nº12 - Alverca do Ribatejo"
-      r (single-non-stored {:address address})
-      candidates (get r "candidates")
-      address-c (-> candidates first (get "address"))
-      postal-c  (-> candidates first (get "attributes") (get "Postal"))
-      x (-> candidates first (get "location") (get "x"))
-      y (-> candidates first (get "location") (get "y"))
-      score (-> candidates first (get "score"))]
-  {:id id
-   :address address
-   :address-c address-c
-   :postal-c postal-c
-   :x x
-   :y y
-   :score score
-   :c (count candidates)})
+(comment
+  (let [current (last foo)
+        id (:id current)
+        address (:address current)
+        r (single-non-stored {:address address}
+                             #_{:postal "4615-301"})
+        candidates (get r "candidates")
+        address-c (-> candidates first (get "address"))
+        postal-c  (-> candidates first (get "attributes") (get "Postal"))
+        x (-> candidates first (get "location") (get "x"))
+        y (-> candidates first (get "location") (get "y"))
+        score (-> candidates first (get "score"))]
+    {:id id
+     :address address
+     :address-c address-c
+     :postal-c postal-c
+     :x x
+     :y y
+     :score score
+     :c (count candidates)}))
 
 (comment
   (single-non-stored {:postal "4200-163"})
