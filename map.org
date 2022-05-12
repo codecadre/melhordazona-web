@@ -1,21 +1,24 @@
 * Roadmap
 #+BEGIN: clocktable :scope subtree :maxlevel 2
-#+CAPTION: Clock summary at [2022-05-11 Wed 10:41]
-| Headline                                    | Time      |         |
-|---------------------------------------------+-----------+---------|
-| *Total time*                                | *4d 2:53* |         |
-|---------------------------------------------+-----------+---------|
-| Roadmap                                     | 4d 2:53   |         |
-| \_  Markup basics 6:15                      |           |    6:14 |
-| \_  Multilanguage support PT/EN             |           |    2:41 |
-| \_  listing page                            |           |    3:14 |
-| \_  load 2014 data with addresses on the... |           |    0:28 |
-| \_  routing                                 |           |    8:01 |
-| \_  Get entire dataset in the app           |           |    7:44 |
-| \_  Get address and lat/long                |           |   15:36 |
-| \_  parse and import PDFs                   |           | 2d 5:01 |
-| \_  Productionize                           |           |    1:54 |
+#+CAPTION: Clock summary at [2022-05-12 Thu 15:33]
+| Headline                                    | Time       |         |
+|---------------------------------------------+------------+---------|
+| *Total time*                                | *4d 11:44* |         |
+|---------------------------------------------+------------+---------|
+| Roadmap                                     | 4d 11:44   |         |
+| \_  Markup basics 6:15                      |            |    6:14 |
+| \_  Multilanguage support PT/EN             |            |    2:41 |
+| \_  listing page                            |            |    3:14 |
+| \_  load 2014 data with addresses on the... |            |    0:28 |
+| \_  routing                                 |            |    8:01 |
+| \_  Get entire dataset in the app           |            |    7:44 |
+| \_  Get address and lat/long                |            |   15:36 |
+| \_  produce new listings (1 h) 0:42         |            |    0:42 |
+| \_  ADD cp7 coord (0:30)                    |            |    8:09 |
+| \_  parse and import PDFs                   |            | 2d 5:01 |
+| \_  Productionize                           |            |    1:54 |
 #+END:
+
 
 
 ** DONE Markup basics 6:15
@@ -179,9 +182,10 @@ I think these two tasks cover the language requirements. Now it's just a matter 
    :LOGBOOK:
    CLOCK: [2022-05-11 Wed 11:04]--[2022-05-11 Wed 11:46] =>  0:42
    :END:
-** TODO ADD cp7 coord (0:30)
+** DONE ADD cp7 coord (0:30) 8h - 1 1/2 days
    :LOGBOOK:
-   CLOCK: [2022-05-12 Thu 09:42]
+   CLOCK: [2022-05-12 Thu 14:49]--[2022-05-12 Thu 15:32] =>  0:43
+   CLOCK: [2022-05-12 Thu 09:42]--[2022-05-12 Thu 12:33] =>  2:51
    CLOCK: [2022-05-11 Wed 21:56]--[2022-05-12 Thu 00:08] =>  2:12
    CLOCK: [2022-05-11 Wed 16:53]--[2022-05-11 Wed 17:13] =>  0:20
    CLOCK: [2022-05-11 Wed 16:00]--[2022-05-11 Wed 16:45] =>  0:45
