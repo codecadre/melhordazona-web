@@ -59,7 +59,7 @@
    slurp
    edn/read-string))
 
-(println (format "%s Manual overwrites" (count overwrites)))
+(println (format "%s Manual imt-profile overwrites" (count overwrites)))
 
 (defn db-massaged [db]
   (reduce (fn [db [k {:keys [address-id overwrite/obs overwrite/notes]}]]
@@ -119,8 +119,7 @@
                  (= cp7 (:cp7 a))))
        first))
 
-(cp7->geocode "5300-254");;{:cp7 "2710-583", :postal-c "2710-583", :x -9.37957001355457, :y 38.80322501473279, :score 100, :c 1}
-
+#_(cp7->geocode "5300-254");;{:cp7 "2710-583", :postal-c "2710-583", :x -9.37957001355457, :y 38.80322501473279, :score 100, :c 1}
 
 (defn db-geocoded [db]
   (reduce (fn [acc [k {:keys [imt-profile] :as s}]]
@@ -128,19 +127,19 @@
               (let [address-code (imt-id->geocode (:id imt-profile))
                     cp7-code (cp7->geocode (:cp7 imt-profile))]
                (cond
-                 (and (:score address-code) (> (:score address-code) 90)) (conj acc [k (assoc s :geocode address-code)])
-                 (and (:score cp7-code) (> (:score cp7-code) 95)) (conj acc [k (assoc s :geocode cp7-code)])
-                 :else (do #_(println "couldn't find code for: " k (:cp7 imt-profile) (:address imt-profile))
-                           (conj acc [k s]))))
+                 (and (:score address-code) (> (:score address-code) 95)) (conj acc [k (assoc s :geocode address-code)])
+                 (and (:score cp7-code) (> (:score cp7-code) 99)) (conj acc [k (assoc s :geocode cp7-code)])
+                 :else (conj acc [k s])))
               (conj acc [k s]))) '() db))
 
-;;(count (db-geocoded  (db-massaged db)))
+(let [f "./recepies/db.edn"
+      d (->> db
+             db-massaged
+             db-geocoded
+             (sort #(compare (:nec (last %1)) (:nec (last %2)))))]
+  (spit f (with-out-str (pprint/pprint  d))))
 
-
-(first (db-geocoded  (db-massaged db)))
-
-(first (db-massaged db))
-#_(defn print-missing-imt-profile [db]
+(defn print-missing-imt-profile [db]
   (let [f "./recepies/no-imt-profile.txt"
         d (->> (no-imt-profile db)
                (map (fn [[k {:keys [rates obs]}]]
@@ -150,11 +149,15 @@
           (with-out-str
             (pprint/print-table [:k :2015 :2016 :2017 :2018 :2019 :2020] d)))))
 
+(-> db
+    db-massaged
+    print-missing-imt-profile)
 
 (defn geocoding-db-print [db]
   (->> db
        (map (fn [[k {:keys [geocode imt-profile]}]]
-              {:k k
+              {:id (:id imt-profile)
+               :k k
                :score (:score geocode)
                :cp7 (:cp7 geocode)
                :address (:address imt-profile)
@@ -162,20 +165,12 @@
        (sort #(compare (:score %2) (:score %1)))))
 
 
-(let [d (->> db
+(let [f "./recepies/no-geocode.txt"
+      d (->> db
              db-massaged
              db-geocoded
              (remove #(nil? (:imt-profile (last %))))
-             geocoding-db-print)]
-  (spit "./recepies/geocode-db.txt" (with-out-str (pprint/print-table d))))
-
-
-
-
-#_(spit "./recepies/db.edn" (with-out-str (pprint/pprint (sort #(compare (:nec (last %1)) (:nec (last %2))) (db-massaged db)))))
-
-
-;;(->> db db-massaged (map #(-> % last :imt-profile)) count);;1225
-;;(->> db db-massaged (map #(-> % last :imt-profile cp7)) set count);;1075 unique cp7s
-
-(-> "recepies/cp7-map.edn" slurp edn/read-string keys count)
+             geocoding-db-print
+             (filter #(nil? (:score %))))]
+  (println (format "%s imt profiles with no geocoding." (count d)))
+  (spit f (with-out-str (pprint/print-table '(:id :address) d))))
