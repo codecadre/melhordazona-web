@@ -206,5 +206,23 @@
   :y 38.83210426890922,
   :score 82.23,
   :c 6}
+ {:id #uuid "923cd579-9862-312d-9468-87ac4cc8dc92",
+  :address "Rua Eleutério Teixeira Lt 27 2825 MONTE DA CAPARICA",
+  :address-c
+  "Rua Eleutério Teixeira 27, 2825-152, Alcaniça, Almada, Setúbal",
+  :postal-c "2825-152",
+  :x -9.190076519027935,
+  :y 38.664687331877836,
+  :score 95.41,
+  :c 1}
+ {:id #uuid "fe4c5996-186a-320f-bfe8-210f853321d9",
+  :address "Avenida Bombeiros Voluntários loja 8 1675 PONTINHA",
+  :address-c
+  "Avenida Bombeiros Voluntários 8, 1675-107, Pontinha, Odivelas, Lisboa",
+  :postal-c "1675-107",
+  :x -9.200189993344338,
+  :y 38.763130013254994,
+  :score 98.1,
+  :c 1}
 
  )
