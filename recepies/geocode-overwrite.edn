@@ -66,6 +66,31 @@
   :y 38.55876000000006,
   :score 94.27,
   :c 1}
-
-
+ {:id #uuid "13b8440c-8d60-371e-be7e-fcf07e0f0625",
+  :address
+  "Rua Camilo Castelo Branco, n.º 8, Quinta das Mesuras  VISEU",
+  :address-c "Rua Camilo Castelo Branco 8, 3500-417, Viseu",
+  :postal-c "3500-417",
+  :x -7.910195628356655,
+  :y 40.6512518080556,
+  :score 92.46,
+  :c 4}
+ {:id #uuid "dd8e6f6d-c319-3ab3-8331-93029e586a23",
+  :address "Rua dos Alámos, Lote 42 2135-003 SAMORA CORREIA",
+  :address-c
+  "Rua dos Álamos, 2135-092, Samora Correia, Benavente, Santarém",
+  :postal-c "2135-092",
+  :x -8.863726253832608,
+  :y 38.93493511730475,
+  :score 92.98,
+  :c 50}
+ {:id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
+  :address "Praceta do leigal, n.º 128 freguesia de Freamunde",
+  :address-c
+  "Praceta de Leigal 128, 4590-384, Freamunde, Paços de Ferreira, Porto",
+  :postal-c "4590-384",
+  :x -8.33390999042146,
+  :y 41.285260017628445,
+  :score 92.37,
+  :c 3}
  )
