@@ -8709,7 +8709,18 @@
     :cp7 "2200",
     :id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
+   :geocode
+   {:y 39.46220999092898,
+    :address "Tapada do Chafariz, Lt 7  2200 ABRANTES",
+    :postal-c "2200-443",
+    :obs "removed some bits of the address. easy to find.",
+    :overwrite true,
+    :c 4,
+    :id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
+    :score 95.15,
+    :address-c "Travessa do Chafariz 7, 2200-443, Abrantes, Santarém",
+    :x -8.200040016416466}}]
  ["santos-e-gamelas-00108"
   {:nec 108,
    :rates
