@@ -94320,7 +94320,18 @@
     :cp7 "7630-33",
     :id #uuid "657b50ea-d151-3cb2-9485-ce36cff40de8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"},
+   :geocode
+   {:id #uuid "657b50ea-d151-3cb2-9485-ce36cff40de8",
+    :address
+    "Avenida do Comércio nº 6 A 7630-33 BOAVISTA DOS PINHEIROS",
+    :address-c
+    "Avenida do Comércio 6, 7630-033, Boavista dos Pinheiros, Odemira, Beja",
+    :postal-c "7630-033",
+    :x -8.661343288814946,
+    :y 37.58082856149458,
+    :score 97.95,
+    :c 4}}]
  ["a-mourinha-de-s-teotonio-01142"
   {:nec 1142,
    :rates
