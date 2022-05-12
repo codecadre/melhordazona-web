@@ -97,7 +97,18 @@
     :cp7 "6370-147",
     :id #uuid "267323ac-751a-361a-a9ac-6930cfb96673",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Fornos%20de%20Algodres"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Fornos%20de%20Algodres"},
+   :geocode
+   {:id #uuid "267323ac-751a-361a-a9ac-6930cfb96673",
+    :address
+    "Estrada Nacional nº 16, nº 139, 6370-147 FORNOS DE ALGODRES",
+    :address-c
+    "Estrada Nacional 16, 6370-148, Fornos de Algodres, Guarda",
+    :postal-c "6370-148",
+    :x -7.541863346748359,
+    :y 40.61806013932618,
+    :score 95.79,
+    :c 1}}]
  ["arede-01415"
   {:nec 1415,
    :rates
@@ -155,4 +166,11 @@
     :cp7 "6370-103",
     :id #uuid "ecaa395e-87d2-3a69-95af-09a6e51231b6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Fornos%20de%20Algodres"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Fornos%20de%20Algodres"},
+   :geocode
+   {:cp7 "6370-103",
+    :postal-c "6370-103",
+    :x -7.540605015838793,
+    :y 40.62143998249502,
+    :score 100,
+    :c 1}}]]

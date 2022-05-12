@@ -95,4 +95,14 @@
   :cp7 "4430-047",
   :id #uuid "1e3a61ba-a2d4-3a26-bc15-59cd34b5b975",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "1e3a61ba-a2d4-3a26-bc15-59cd34b5b975",
+  :address "Rua 14 de Outubro, 524 4430-047 MAFAMUDE",
+  :address-c
+  "Rua 14 de Outubro 524, 4430-047, Vila Nova de Gaia, Porto",
+  :postal-c "4430-047",
+  :x -8.604809999747573,
+  :y 41.129900017348064,
+  :score 97.5,
+  :c 1}}

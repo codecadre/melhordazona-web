@@ -95,4 +95,14 @@
   :cp7 "4450-031",
   :id #uuid "14287a15-a5ca-3d48-872e-75a4975599e0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+ :geocode
+ {:id #uuid "14287a15-a5ca-3d48-872e-75a4975599e0",
+  :address "Rua Conde Alto Mearim 1416 4450-031 MATOSINHOS",
+  :address-c
+  "Rua do Conde Alto Mearim 1416, 4450-125, Carcavelos, Matosinhos, Porto",
+  :postal-c "4450-125",
+  :x -8.679800037611187,
+  :y 41.180010010106486,
+  :score 98.93,
+  :c 3}}

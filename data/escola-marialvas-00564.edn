@@ -95,4 +95,13 @@
   :cp7 "3060-183",
   :id #uuid "a2931300-7251-3fca-b981-3a2905362480",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
+ :geocode
+ {:id #uuid "a2931300-7251-3fca-b981-3a2905362480",
+  :address "Rua Luís de Camões, Nº 26, Loja 2 3060-183 CANTANHEDE",
+  :address-c "Rua Luís de Camões 26, 3060-183, Cantanhede, Coimbra",
+  :postal-c "3060-183",
+  :x -8.58485000607783,
+  :y 40.34271999278232,
+  :score 98.52,
+  :c 2}}

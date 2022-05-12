@@ -96,4 +96,15 @@
   :cp7 "8365-149",
   :id #uuid "5d682ecf-4e50-3545-be30-632dc5ef1aa4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
+ :geocode
+ {:id #uuid "5d682ecf-4e50-3545-be30-632dc5ef1aa4",
+  :address
+  "Rua José Prudêncio Vieira, Lote 17 - Loja C 8365-149 ARMAÇÃO DE PERA",
+  :address-c
+  "Rua José Prudêncio Vieira 17, 8365-112, Armação de Pêra, Silves, Faro",
+  :postal-c "8365-112",
+  :x -8.359289974141547,
+  :y 37.103779980495474,
+  :score 98.93,
+  :c 1}}

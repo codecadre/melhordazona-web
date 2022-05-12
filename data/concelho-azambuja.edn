@@ -96,7 +96,17 @@
     :cp7 "2050-158",
     :id #uuid "11f2e166-17f1-3cc9-be32-86f29e92ebe8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"},
+   :geocode
+   {:id #uuid "11f2e166-17f1-3cc9-be32-86f29e92ebe8",
+    :address "Largo da República nº 16 –1º 2050-158 AVEIRAS DE CIMA",
+    :address-c
+    "Largo da República 16, 2050-158, Aveiras de Cima, Azambuja, Lisboa",
+    :postal-c "2050-158",
+    :x -8.899880639876038,
+    :y 39.137716767024635,
+    :score 96.96,
+    :c 3}}]
  ["granvia-01309"
   {:nec 1309,
    :rates
@@ -196,4 +206,15 @@
     :cp7 "2065-016",
     :id #uuid "74a8b556-530a-3c22-983c-a5818a1815dc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"},
+   :geocode
+   {:id #uuid "74a8b556-530a-3c22-983c-a5818a1815dc",
+    :address
+    "Rua Conselheiro Frederico Arouca, n.º 94 R/C ; 2065-016 Alcoentre",
+    :address-c
+    "Rua Conselheiro Frederico Arouca 94, 2065-016, Alcoentre, Azambuja, Lisboa",
+    :postal-c "2065-016",
+    :x -8.956399992553713,
+    :y 39.20653000902689,
+    :score 96.91,
+    :c 2}}]]

@@ -95,4 +95,14 @@
   :cp7 "4560-162",
   :id #uuid "5d453504-6041-358e-9c81-510d7dcea340",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+ :geocode
+ {:id #uuid "5d453504-6041-358e-9c81-510d7dcea340",
+  :address "Av. Central de Guilhufe, 60, 4560-162 Penafiel",
+  :address-c
+  "Avenida Central de Guilhufe 60, 4560-131, Penafiel, Porto",
+  :postal-c "4560-131",
+  :x -8.303753533480688,
+  :y 41.193779162195064,
+  :score 98.07,
+  :c 5}}

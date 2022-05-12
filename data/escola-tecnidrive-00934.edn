@@ -95,4 +95,14 @@
   :cp7 "2855-587",
   :id #uuid "a20173cb-fd2e-3604-a7f1-0cb97b954498",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+ :geocode
+ {:id #uuid "a20173cb-fd2e-3604-a7f1-0cb97b954498",
+  :address "Praceta João Azevedo nº 4/4 A 2855-587 CORROIOS",
+  :address-c
+  "Praceta João Azevedo 4, 2855-587, Vale de Milhaços, Seixal, Setúbal",
+  :postal-c "2855-587",
+  :x -9.148929961560725,
+  :y 38.62976001977444,
+  :score 96.79,
+  :c 1}}

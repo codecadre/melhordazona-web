@@ -96,7 +96,14 @@
     :cp7 "3240-207",
     :id #uuid "b66b6465-3f31-3444-b3aa-b22b62e3b51a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Ansi%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Ansi%C3%A3o"},
+   :geocode
+   {:cp7 "3240-207",
+    :postal-c "3240-207",
+    :x -8.43698594180728,
+    :y 39.92243099954092,
+    :score 100,
+    :c 1}}]
  ["auto-volante-das-serras-de-ansiao-00894"
   {:nec 894,
    :rates
@@ -201,7 +208,17 @@
     :cp7 "3240-153",
     :id #uuid "0ff51a60-db7d-34b3-8dd4-9d139e0b24af",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Ansi%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Ansi%C3%A3o"},
+   :geocode
+   {:id #uuid "0ff51a60-db7d-34b3-8dd4-9d139e0b24af",
+    :address "Avª Dr. Victor Faveiro, lote 3 3240-153 ANSIÃO",
+    :address-c
+    "Avenida Doutor Vitor Faveiro 3, 3240-153, Ansião, Leiria",
+    :postal-c "3240-153",
+    :x -8.437100019509472,
+    :y 39.91064000870597,
+    :score 96.18,
+    :c 1}}]
  ["avelar-01208"
   {:nec 1208,
    :rates
@@ -300,4 +317,13 @@
     :cp7 "3240-326",
     :id #uuid "3b848fe4-3676-3762-933a-c721982ffbc6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Ansi%C3%A3o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Ansi%C3%A3o"},
+   :geocode
+   {:id #uuid "3b848fe4-3676-3762-933a-c721982ffbc6",
+    :address "Rua Nova, Nº 73-A 3240-326 AVELAR",
+    :address-c "Rua Nova 73, 3240-326, Avelar, Ansião, Leiria",
+    :postal-c "3240-326",
+    :x -8.358429990875749,
+    :y 39.92303001225136,
+    :score 97.81,
+    :c 1}}]]

@@ -96,4 +96,15 @@
   :cp7 "4410-406",
   :id #uuid "98305723-cf14-33ac-bead-c0cf895234d0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "98305723-cf14-33ac-bead-c0cf895234d0",
+  :address
+  "Av. João Paulo II, n.º 646; 4410-406 Arcozelo - Vila Nova de Gaia",
+  :address-c
+  "Avenida João Paulo II, 4410-406, Arcozelo, Vila Nova de Gaia, Porto",
+  :postal-c "4410-406",
+  :x -8.64146081219724,
+  :y 41.064016991386374,
+  :score 96.28,
+  :c 8}}

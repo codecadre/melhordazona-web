@@ -96,7 +96,14 @@
     :cp7 "5400-040",
     :id #uuid "4e5c786d-fbc4-3869-9bbf-26a0909309ee",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
+   :geocode
+   {:cp7 "5400-040",
+    :postal-c "5400-040",
+    :x -7.46971498591347,
+    :y 41.74407001665983,
+    :score 100,
+    :c 1}}]
  ["auto-real-00095"
   {:nec 95,
    :rates
@@ -195,7 +202,16 @@
     :cp7 "5000-653",
     :id #uuid "dbee1129-6f8d-3d86-9015-eff207987d16",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:id #uuid "dbee1129-6f8d-3d86-9015-eff207987d16",
+    :address "Rua da Misericórdia, nº 2 5000-653 VILA REAL",
+    :address-c "Rua da Misericórdia 2, 5000-653, Vila Real",
+    :postal-c "5000-653",
+    :x -7.745350016162433,
+    :y 41.29519999087566,
+    :score 98.43,
+    :c 2}}]
  ["auto-marao-00128"
   {:nec 128,
    :rates
@@ -295,7 +311,17 @@
     :cp7 "5000-513",
     :id #uuid "c6171a88-6085-30c7-be34-faee5b62c94f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:id #uuid "c6171a88-6085-30c7-be34-faee5b62c94f",
+    :address
+    "Largo do Pelourinho, 11 - 3º Esqº 5000-513 VILA REAL (SÃO DINIS)",
+    :address-c "Largo do Pelourinho 11, 5000-513, Vila Real",
+    :postal-c "5000-513",
+    :x -7.745819989473489,
+    :y 41.29606999051575,
+    :score 97.08,
+    :c 2}}]
  ["aguiarense-00240"
   {:nec 240,
    :rates
@@ -394,7 +420,17 @@
     :cp7 "5450-016",
     :id #uuid "95defcce-a420-39cb-9b0a-c571217ab3b1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"},
+   :geocode
+   {:id #uuid "95defcce-a420-39cb-9b0a-c571217ab3b1",
+    :address "Praça Luís de Camões, nº 10 5450-016 VILA POUCA AGUIAR",
+    :address-c
+    "Praça Luís de Camões 10, 5450-016, Vila Pouca de Aguiar, Vila Real",
+    :postal-c "5450-016",
+    :x -7.64310999198031,
+    :y 41.50054999697048,
+    :score 98.25,
+    :c 1}}]
  ["murcense-00330"
   {:nec 330,
    :rates
@@ -493,7 +529,17 @@
     :cp7 "5090-135",
     :id #uuid "b1bba656-0bf5-30d4-98e4-9f69e485bf75",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mur%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mur%C3%A7a"},
+   :geocode
+   {:id #uuid "b1bba656-0bf5-30d4-98e4-9f69e485bf75",
+    :address "Rua Frei Diogo de Murça 5090-135 MURÇA",
+    :address-c
+    "Rua Frei Dom Diogo de Murça, 5090-135, Murça, Vila Real",
+    :postal-c "5090-135",
+    :x -7.453859148644214,
+    :y 41.40621038097914,
+    :score 99.59,
+    :c 1}}]
  ["auto-meireles-00351"
   {:nec 351,
    :rates
@@ -592,7 +638,17 @@
     :cp7 "5050-224",
     :id #uuid "fa30aed6-dac7-360e-b1db-39713713003b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
+   :geocode
+   {:id #uuid "fa30aed6-dac7-360e-b1db-39713713003b",
+    :address "Avª Dr. Antão de Carvalho, 51 5050-224 PESO DA RÉGUA",
+    :address-c
+    "Avenida Doutor Antão de Carvalho 51, 5050-224, Peso da Régua, Vila Real",
+    :postal-c "5050-224",
+    :x -7.789830010286465,
+    :y 41.1641700152141,
+    :score 97.72,
+    :c 1}}]
  ["auto-volante-de-chaves-00381"
   {:nec 381,
    :rates
@@ -691,7 +747,16 @@
     :cp7 "5400-017",
     :id #uuid "b5e6e1bd-408e-3e72-ad76-fe3f00d95fc6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
+   :geocode
+   {:id #uuid "b5e6e1bd-408e-3e72-ad76-fe3f00d95fc6",
+    :address "Av. 5 de Outubro, 4 5400-017 SANTA MARIA MAIOR",
+    :address-c "Avenida 5 de Outubro 4, 5400-017, Chaves, Vila Real",
+    :postal-c "5400-017",
+    :x -7.467480035250759,
+    :y 41.74097998614468,
+    :score 95.71,
+    :c 4}}]
  ["requinte-00485"
   {:nec 485,
    :rates
@@ -790,7 +855,16 @@
     :cp7 "5070-059",
     :id #uuid "1fc4eb93-8a26-3a9b-add6-6fbbb8448dc3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Alij%C3%B3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Alij%C3%B3"},
+   :geocode
+   {:id #uuid "1fc4eb93-8a26-3a9b-add6-6fbbb8448dc3",
+    :address "Rua Senhor do Andor 5070-059 ALIJÓ",
+    :address-c "Rua Senhor do Andor, 5070-059, Alijó, Vila Real",
+    :postal-c "5070-059",
+    :x -7.477628876657112,
+    :y 41.275449529784275,
+    :score 100,
+    :c 1}}]
  ["s-cristovao-00530"
   {:nec 530,
    :rates
@@ -890,7 +964,17 @@
     :cp7 nil,
     :id #uuid "32104b70-98c4-3f9c-8977-92b883f01b8a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Boticas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Boticas"},
+   :geocode
+   {:id #uuid "32104b70-98c4-3f9c-8977-92b883f01b8a",
+    :address "Rua Dr. Rogério Braúlio Martins  N 18 Loja 16 Boticas",
+    :address-c
+    "Rua Doutor Rogério Braúlio Martins 18, 5460-313, Boticas, Vila Real",
+    :postal-c "5460-313",
+    :x -7.6697903565943575,
+    :y 41.68896782349776,
+    :score 98.9,
+    :c 1}}]
  ["reguense-00568"
   {:nec 568,
    :rates
@@ -990,7 +1074,14 @@
     :cp7 "5050-223",
     :id #uuid "c4213991-2ab7-3e57-bf6a-68993b258715",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
+   :geocode
+   {:cp7 "5050-223",
+    :postal-c "5050-223",
+    :x -7.792363859616387,
+    :y 41.163349217345626,
+    :score 100,
+    :c 1}}]
  ["vilarealense-00656"
   {:nec 656,
    :rates
@@ -1090,7 +1181,14 @@
     :cp7 "5000-607",
     :id #uuid "4b254680-477d-392f-9889-cce340d42504",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:cp7 "5000-607",
+    :postal-c "5000-607",
+    :x -7.742784986152685,
+    :y 41.30246500545297,
+    :score 100,
+    :c 1}}]
  ["platano-00663"
   {:nec 663,
    :rates
@@ -1189,7 +1287,16 @@
     :cp7 "5070-011",
     :id #uuid "e5c8b5ca-406a-324b-a5ce-45248770f35c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Alij%C3%B3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Alij%C3%B3"},
+   :geocode
+   {:id #uuid "e5c8b5ca-406a-324b-a5ce-45248770f35c",
+    :address "Avª 25 de Abril, 2 5070-011 ALIJÓ",
+    :address-c "Avenida 25 de Abril 2, 5070-011, Alijó, Vila Real",
+    :postal-c "5070-011",
+    :x -7.47803997596634,
+    :y 41.270629992368924,
+    :score 97.28,
+    :c 9}}]
  ["nossa-senhora-da-saude-00703"
   {:nec 703,
    :rates
@@ -1289,7 +1396,14 @@
     :cp7 "5430-469",
     :id #uuid "60cff1e8-641d-3db8-863a-76199bed9093",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Valpa%C3%A7os"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Valpa%C3%A7os"},
+   :geocode
+   {:cp7 "5430-469",
+    :postal-c "5430-469",
+    :x -7.313410009869102,
+    :y 41.619489999310815,
+    :score 100,
+    :c 1}}]
  ["santo-amaro-00708"
   {:nec 708,
    :rates
@@ -1389,7 +1503,18 @@
     :cp7 "5400-482",
     :id #uuid "e84a952a-68a0-3fdf-b744-4afb0ee24ab2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
+   :geocode
+   {:id #uuid "e84a952a-68a0-3fdf-b744-4afb0ee24ab2",
+    :address
+    "Avª da Raposeira, Edificio Jardim ,Loja 4 5400-482 SANTA MARIA MAIOR",
+    :address-c
+    "Edifício Jardim, Avenida da Raposeira, 5400-482, Chaves, Vila Real",
+    :postal-c "5400-482",
+    :x -7.477049989382294,
+    :y 41.74246999516268,
+    :score 97.36,
+    :c 1}}]
  ["sabrosense-00712"
   {:nec 712,
    :rates
@@ -1488,7 +1613,16 @@
     :cp7 "5060-361",
     :id #uuid "641450d6-42a8-3e3d-bad5-58805449bf7c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Sabrosa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Sabrosa"},
+   :geocode
+   {:id #uuid "641450d6-42a8-3e3d-bad5-58805449bf7c",
+    :address "Rua do Bouço, Nº 1 5060-361 SABROSA",
+    :address-c "Rua do Bouço 1, 5060, Sabrosa, Vila Real",
+    :postal-c "5060",
+    :x -7.578802639542536,
+    :y 41.264521330281895,
+    :score 96.1,
+    :c 1}}]
  ["douriense-00723"
   {:nec 723,
    :rates
@@ -1588,7 +1722,14 @@
     :cp7 "5050-067",
     :id #uuid "c01320f7-9078-3cc0-94db-9592cc3062e5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
+   :geocode
+   {:cp7 "5050-067",
+    :postal-c "5050-067",
+    :x -7.797475647086969,
+    :y 41.16700083537353,
+    :score 100,
+    :c 1}}]
  ["belita-00732"
   {:nec 732,
    :rates
@@ -1717,7 +1858,17 @@
     :cp7 "5000-674",
     :id #uuid "c01b2431-9092-3c31-be8c-5f76e1be8336",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:id #uuid "c01b2431-9092-3c31-be8c-5f76e1be8336",
+    :address
+    "Avª Cidade de Orense, lote 3, loja 41 5000-674 VILA REAL (S. DINIS)",
+    :address-c "Avenida Cidade de Ourense 3, 5000-690, Vila Real",
+    :postal-c "5000-690",
+    :x -7.750930016744377,
+    :y 41.29974000682111,
+    :score 96.38,
+    :c 1}}]
  ["prova-real-00765"
   {:nec 765,
    :rates
@@ -1817,7 +1968,18 @@
     :cp7 "5450-011",
     :id #uuid "c9d78977-4f4a-3abe-9ffa-812577c06a76",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"},
+   :geocode
+   {:id #uuid "c9d78977-4f4a-3abe-9ffa-812577c06a76",
+    :address
+    "Rua Comendador Silva, n.º 45, R/c, 5450-011 Vila Pouca de Aguiar",
+    :address-c
+    "Rua Comendador Silva, 5450-011, Vila Pouca de Aguiar, Vila Real",
+    :postal-c "5450-011",
+    :x -7.647142097568632,
+    :y 41.49282154052994,
+    :score 95.63,
+    :c 3}}]
  ["a-nova-mondinense-00780"
   {:nec 780,
    :rates
@@ -1917,7 +2079,14 @@
     :cp7 "4880-239",
     :id #uuid "97d8c522-41f2-3d4e-b32f-4ec34786b72d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mondim%20Basto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mondim%20Basto"},
+   :geocode
+   {:cp7 "4880-239",
+    :postal-c "4880-239",
+    :x -7.955597903558811,
+    :y 41.41191044888083,
+    :score 100,
+    :c 1}}]
  ["mesaofriense-00785"
   {:nec 785,
    :rates
@@ -2017,7 +2186,17 @@
     :cp7 "5040-319",
     :id #uuid "fe454a5c-1ee9-377b-b277-a05438c4f9cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mes%C3%A3o%20Frio"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mes%C3%A3o%20Frio"},
+   :geocode
+   {:id #uuid "fe454a5c-1ee9-377b-b277-a05438c4f9cb",
+    :address
+    "Rua do Balcão nº 92 – 94 5040-319 MESÃO FRIO (SANTA CRISTINA)",
+    :address-c "Rua do Balcão 92, 5040-314, Mesão Frio, Vila Real",
+    :postal-c "5040-314",
+    :x -7.887750001571959,
+    :y 41.16053000612209,
+    :score 96.34,
+    :c 4}}]
  ["via-murca-00786"
   {:nec 786,
    :rates
@@ -2116,7 +2295,17 @@
     :cp7 "5090-136",
     :id #uuid "68107909-9851-3714-a8e8-138b8faa21c0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mur%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mur%C3%A7a"},
+   :geocode
+   {:id #uuid "68107909-9851-3714-a8e8-138b8faa21c0",
+    :address "Rua Soldado Herói Milhões, 21 5090-136 MURÇA",
+    :address-c
+    "Rua Soldado Herói Milhões 21, 5090-136, Murça, Vila Real",
+    :postal-c "5090-136",
+    :x -7.453349990515676,
+    :y 41.41031000828852,
+    :score 100,
+    :c 2}}]
  ["miradouro-00793"
   {:nec 793,
    :rates
@@ -2216,7 +2405,14 @@
     :cp7 "5050-078",
     :id #uuid "e21931eb-87ce-3ce6-9fe1-09585ec2a6d6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
+   :geocode
+   {:cp7 "5050-078",
+    :postal-c "5050-078",
+    :x -7.798139996732658,
+    :y 41.163769988885036,
+    :score 100,
+    :c 1}}]
  ["auto-cabril-00813"
   {:nec 813,
    :rates
@@ -2316,7 +2512,14 @@
     :cp7 "5000-557",
     :id #uuid "bfed9b86-fc1e-3484-a8f5-2824d87ec528",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:cp7 "5000-557",
+    :postal-c "5000-557",
+    :x -7.735244961332171,
+    :y 41.301515000547056,
+    :score 100,
+    :c 1}}]
  ["auto-dinamica-ribeira-de-pena-00877"
   {:nec 877,
    :rates
@@ -2416,7 +2619,14 @@
     :cp7 "4870-163",
     :id #uuid "d145bebd-722f-3fad-b988-87fbfbf2a822",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Ribeira%20de%20Pena"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Ribeira%20de%20Pena"},
+   :geocode
+   {:cp7 "4870-163",
+    :postal-c "4870-163",
+    :x -7.790480026877702,
+    :y 41.52664998617334,
+    :score 100,
+    :c 1}}]
  ["ponto-de-partida-01077"
   {:nec 1077,
    :rates
@@ -2515,7 +2725,16 @@
     :cp7 "5430-420",
     :id #uuid "74d02e36-9dfb-3d9b-854b-071c7d8dcf81",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:id #uuid "74d02e36-9dfb-3d9b-854b-071c7d8dcf81",
+    :address "Avenida 25 de Abril, n.º 19 5430-420 Valpaços",
+    :address-c "Avenida 25 de Abril, 5430-420, Valpaços, Vila Real",
+    :postal-c "5430-420",
+    :x -7.314608841989703,
+    :y 41.60602019332451,
+    :score 96,
+    :c 2}}]
  ["stop-real-01130"
   {:nec 1130,
    :rates
@@ -2815,7 +3034,14 @@
     :cp7 "5000-414",
     :id #uuid "dcdcb58c-0af6-3b3a-a6e4-4d814bdfe075",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:cp7 "5000-414",
+    :postal-c "5000-414",
+    :x -7.731440583118911,
+    :y 41.30793960360248,
+    :score 100,
+    :c 1}}]
  ["aleu-01260"
   {:nec 1260,
    :rates
@@ -2915,7 +3141,14 @@
     :cp7 "5000-262",
     :id #uuid "89e14534-5919-3abf-96e0-9d1d8a42e552",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:cp7 "5000-262",
+    :postal-c "5000-262",
+    :x -7.722617121284173,
+    :y 41.309828465483065,
+    :score 100,
+    :c 1}}]
  ["pedras-salgadas-01266"
   {:nec 1266,
    :rates
@@ -3015,7 +3248,14 @@
     :cp7 "5450-156",
     :id #uuid "4e83792f-32ce-3eaa-9d58-dbfc57bd0d8c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"},
+   :geocode
+   {:cp7 "5450-156",
+    :postal-c "5450-156",
+    :x -7.6023949811246325,
+    :y 41.54292998907292,
+    :score 100,
+    :c 1}}]
  ["auto-corgo-01278"
   {:nec 1278,
    :rates
@@ -3115,7 +3355,14 @@
     :cp7 "5000-440",
     :id #uuid "0bcc7596-bf1e-375e-8e6f-204b130499b2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:cp7 "5000-440",
+    :postal-c "5000-440",
+    :x -7.745695015297116,
+    :y 41.305435007114625,
+    :score 100,
+    :c 1}}]
  ["circuito-01439"
   {:nec 1439,
    :rates
@@ -3145,4 +3392,14 @@
     :cp7 "5000-448",
     :id #uuid "f674a64b-f087-31a4-ab96-ab2ca7a51237",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :geocode
+   {:id #uuid "f674a64b-f087-31a4-ab96-ab2ca7a51237",
+    :address
+    "Lugar do Cano, Avenida de Osnabruck, Lote 17, fração B, 5000-448 Vila Real",
+    :address-c "Avenida de Osnabruck 17, 5000, Vila Real",
+    :postal-c "5000",
+    :x -7.726818029518131,
+    :y 41.30497286931631,
+    :score 95.2,
+    :c 1}}]]

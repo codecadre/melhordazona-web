@@ -95,4 +95,14 @@
   :cp7 "3700-564",
   :id #uuid "b965f83d-4ffe-3267-80c5-0850f7ed4328",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "b965f83d-4ffe-3267-80c5-0850f7ed4328",
+  :address "Rua Terras de Santa Maria nº 1413 3700-564 ARRIFANA",
+  :address-c
+  "Rua Terras de Santa Maria 1413, 3700-396, Arrifana, Santa Maria da Feira, Aveiro",
+  :postal-c "3700-396",
+  :x -8.493874856350558,
+  :y 40.91333496527643,
+  :score 97.46,
+  :c 1}}

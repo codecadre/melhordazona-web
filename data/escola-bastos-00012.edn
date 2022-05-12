@@ -95,4 +95,13 @@
   :cp7 "4300-190",
   :id #uuid "ff973da4-bf2f-3d11-80b0-049f24b398bb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "ff973da4-bf2f-3d11-80b0-049f24b398bb",
+  :address "Avª Fernão de Magalhães, 15 4300-190 PORTO",
+  :address-c "Avenida de Fernão de Magalhães 15, 4300-190, Porto",
+  :postal-c "4300-190",
+  :x -8.598089976514729,
+  :y 41.15068001260548,
+  :score 97.59,
+  :c 4}}

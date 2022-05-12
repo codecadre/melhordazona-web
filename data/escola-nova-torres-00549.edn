@@ -96,4 +96,15 @@
   :cp7 "2350",
   :id #uuid "9085a1b9-326e-3bbc-a302-c6cc5b13b69f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+ :geocode
+ {:id #uuid "9085a1b9-326e-3bbc-a302-c6cc5b13b69f",
+  :address
+  "Rua da Escola Preparatória nº 51 R/c Esqº 2350 TORRES NOVAS",
+  :address-c
+  "Rua da Escola Preparatória 51, 2350-777, Torres Novas, Santarém",
+  :postal-c "2350-777",
+  :x -8.542500021188744,
+  :y 39.48557001980282,
+  :score 97.35,
+  :c 21}}

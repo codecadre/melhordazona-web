@@ -82,4 +82,15 @@
   :cp7 "4470-135",
   :id #uuid "86fa6e76-0a62-3e36-80b4-316bbe87f099",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+ :geocode
+ {:id #uuid "86fa6e76-0a62-3e36-80b4-316bbe87f099",
+  :address
+  "Rua Ângela Adelaide Calheiro Carvalho de Menezes, n.º 275, 4470-135 Maia",
+  :address-c
+  "Rua Ângela Adl. Calheiro Carv. Menezes 275, 4470-135, Maia, Porto",
+  :postal-c "4470-135",
+  :x -8.621670030346905,
+  :y 41.22790998836416,
+  :score 97.08,
+  :c 1}}

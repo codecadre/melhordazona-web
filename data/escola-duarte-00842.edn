@@ -95,4 +95,14 @@
   :cp7 "2550-429",
   :id #uuid "86f595df-4cd8-35e8-aff8-e872362d37ad",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cadaval"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cadaval"},
+ :geocode
+ {:id #uuid "86f595df-4cd8-35e8-aff8-e872362d37ad",
+  :address "Rua Prof. Marcelo Caetano nº 15 r/c 2550 -429 PAINHO",
+  :address-c
+  "Rua Prof. Dr. Marcelo Caetano 15, 2550-429, Paínho, Cadaval, Lisboa",
+  :postal-c "2550-429",
+  :x -9.047829631583308,
+  :y 39.299184690702376,
+  :score 96.63,
+  :c 1}}

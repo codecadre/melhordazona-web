@@ -96,4 +96,15 @@
   :cp7 "4970-459",
   :id #uuid "4cd7f3c9-4d40-30c9-afe2-879472687f9c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
+ :geocode
+ {:id #uuid "4cd7f3c9-4d40-30c9-afe2-879472687f9c",
+  :address
+  "Rua General Amilcar Mota, Nº 181 4970-459 ARCOS DE VALDEVEZ (SALVADOR)",
+  :address-c
+  "Rua General Amílcar Mota 181, 4970-459, Arcos de Valdevez, Viana do Castelo",
+  :postal-c "4970-459",
+  :x -8.421800028729166,
+  :y 41.84793001126866,
+  :score 97.23,
+  :c 2}}

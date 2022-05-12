@@ -95,4 +95,14 @@
   :cp7 "4495-025",
   :id #uuid "684e0910-c636-3664-bfff-2987cdc8c19d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+ :geocode
+ {:id #uuid "684e0910-c636-3664-bfff-2987cdc8c19d",
+  :address "Rua da Codixeira, Nº 66, 4495-025 PÓVOA DE VARZIM",
+  :address-c
+  "Rua da Codixeira 66, 4495-025, Aguçadoura, Póvoa de Varzim, Porto",
+  :postal-c "4495-025",
+  :x -8.776770691925096,
+  :y 41.43016426704915,
+  :score 97.38,
+  :c 6}}

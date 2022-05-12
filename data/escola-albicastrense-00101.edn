@@ -95,4 +95,13 @@
   :cp7 "6000-181",
   :id #uuid "316b40e1-0463-3f4b-abf3-bdd62560bc0a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
+ :geocode
+ {:id #uuid "316b40e1-0463-3f4b-abf3-bdd62560bc0a",
+  :address "Rua de S. Miguel, Nº 7-1 B 6000-181 CASTELO BRANCO",
+  :address-c "Rua de São Miguel 7, 6000-181, Castelo Branco",
+  :postal-c "6000-181",
+  :x -7.49100996530197,
+  :y 39.826360014186406,
+  :score 97.93,
+  :c 7}}

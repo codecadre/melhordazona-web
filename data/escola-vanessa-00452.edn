@@ -95,4 +95,14 @@
   :cp7 "2845-092",
   :id #uuid "ab04d5cf-027d-32bf-8f63-75c12d128d65",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+ :geocode
+ {:id #uuid "ab04d5cf-027d-32bf-8f63-75c12d128d65",
+  :address "Rua do Alentejo, Nº 1 e 1-A 2845-092 SEIXAL",
+  :address-c
+  "Rua do Alentejo 1, 2845-092, Cruz de Pau, Seixal, Setúbal",
+  :postal-c "2845-092",
+  :x -9.122493264924502,
+  :y 38.62170732123658,
+  :score 96.35,
+  :c 1}}

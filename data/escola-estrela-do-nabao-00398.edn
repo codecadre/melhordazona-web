@@ -53,4 +53,13 @@
   :cp7 "2300-482",
   :id #uuid "bb3357f8-483e-30ec-ae72-eed6d12fbde9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
+ :geocode
+ {:id #uuid "bb3357f8-483e-30ec-ae72-eed6d12fbde9",
+  :address "Rua Diogo Arruda, 6 r/c Esqº 2300-482 TOMAR",
+  :address-c "Rua Diogo de Arruda 6, 2300-482, Tomar, Santarém",
+  :postal-c "2300-482",
+  :x -8.403680030444491,
+  :y 39.603760009447,
+  :score 98.18,
+  :c 1}}

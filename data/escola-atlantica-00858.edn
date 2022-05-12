@@ -95,4 +95,14 @@
   :cp7 "4585-517",
   :id #uuid "4c958885-1542-317a-a99a-7751f1b4577d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+ :geocode
+ {:id #uuid "4c958885-1542-317a-a99a-7751f1b4577d",
+  :address "Rua das Searas, Nº 14, loja E 4585-517 REBORDOSA",
+  :address-c
+  "Rua das Searas 14, 4585-517, Presa da Bouça, Paredes, Porto",
+  :postal-c "4585-517",
+  :x -8.415340012132816,
+  :y 41.21677999441363,
+  :score 97.29,
+  :c 1}}

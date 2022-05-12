@@ -96,4 +96,15 @@
   :cp7 "4795-476",
   :id #uuid "a0cc4be9-e889-3baf-aff6-bab08a66ddf5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+ :geocode
+ {:id #uuid "a0cc4be9-e889-3baf-aff6-bab08a66ddf5",
+  :address
+  "Rua Manuel Sousa Oliveira nº 846 4795-476 CAMPO (SÃO MARTINHO)",
+  :address-c
+  "Rua Manuel de Sousa Oliveira 846, 4795-476, São Martinho do Campo, Santo Tirso, Porto",
+  :postal-c "4795-476",
+  :x -8.36121229624523,
+  :y 41.360798984008994,
+  :score 96.97,
+  :c 1}}

@@ -96,7 +96,16 @@
     :cp7 "2530",
     :id #uuid "e7e11e90-1372-304f-8831-eec4c753595a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"},
+   :geocode
+   {:id #uuid "e7e11e90-1372-304f-8831-eec4c753595a",
+    :address "Avª de Angola, 63 2530 LOURINHÃ",
+    :address-c "Avenida de Angola 63, 2530-114, Lourinhã, Lisboa",
+    :postal-c "2530-114",
+    :x -9.294767762916221,
+    :y 39.230532447356886,
+    :score 96.15,
+    :c 2}}]
  ["lourinha-00543"
   {:nec 543,
    :rates
@@ -195,7 +204,17 @@
     :cp7 "2530-059",
     :id #uuid "2d5d3aeb-2cf1-308b-8688-ba8f99710940",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"},
+   :geocode
+   {:id #uuid "2d5d3aeb-2cf1-308b-8688-ba8f99710940",
+    :address "Avª António José de Almeida, 10 r/c 2530-059 LOURINHÃ",
+    :address-c
+    "Avenida António José Almeida 10, 2530-113, Lourinhã, Lisboa",
+    :postal-c "2530-113",
+    :x -9.31336999373201,
+    :y 39.24375001771551,
+    :score 96.23,
+    :c 1}}]
  ["dinossauro-01306"
   {:nec 1306,
    :rates
@@ -294,4 +313,11 @@
     :cp7 "2500-074",
     :id #uuid "fbce1b6d-448d-3e66-9e8e-83aac7ecf798",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"},
+   :geocode
+   {:cp7 "2500-074",
+    :postal-c "2500-074",
+    :x -9.148680013208036,
+    :y 39.4089450079058,
+    :score 100,
+    :c 1}}]]

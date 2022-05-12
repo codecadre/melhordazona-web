@@ -102,4 +102,15 @@
   :cp7 "7200-390",
   :id #uuid "c1f6c863-735a-30ad-902d-67e31249e130",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"},
+ :geocode
+ {:id #uuid "c1f6c863-735a-30ad-902d-67e31249e130",
+  :address
+  "Rua Mouzinho de Albuquerque, 32 7200-390 REGUENGOS DE MONSARAZ",
+  :address-c
+  "Rua Mouzinho de Albuquerque 32, 7200-390, Reguengos de Monsaraz, Évora",
+  :postal-c "7200-390",
+  :x -7.537379994773005,
+  :y 38.42520998251868,
+  :score 100,
+  :c 1}}

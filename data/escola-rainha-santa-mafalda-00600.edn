@@ -96,4 +96,15 @@
   :cp7 "4540-133",
   :id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
+ :geocode
+ {:id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
+  :address
+  "Rua Dr. Figueiredo Sobrinho, Nº 11 R/c Esq.º 4540-133 AROUCA",
+  :address-c
+  "Rua Dr. Figueiredo Sobrinho 11, 4540-133, Arouca, Aveiro",
+  :postal-c "4540-133",
+  :x -8.246469976495234,
+  :y 40.930909989835186,
+  :score 97.28,
+  :c 1}}

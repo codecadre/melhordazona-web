@@ -95,4 +95,14 @@
   :cp7 "4415-386",
   :id #uuid "5077952b-edf7-3b52-848d-0f71d0250176",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "5077952b-edf7-3b52-848d-0f71d0250176",
+  :address "Avª Dr. Moreira de Sousa nº 3997 R/C 4415-386 PEDROSO",
+  :address-c
+  "Avenida Doutor Moreira de Sousa 3997, 4415-386, Afonsim, Vila Nova de Gaia, Porto",
+  :postal-c "4415-386",
+  :x -8.562769977637913,
+  :y 41.042750017271715,
+  :score 96.34,
+  :c 6}}

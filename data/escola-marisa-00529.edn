@@ -96,4 +96,15 @@
   :cp7 "5140-060",
   :id #uuid "c582a01d-81e2-3f5e-b46c-b435f9dc72fc",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"},
+ :geocode
+ {:id #uuid "c582a01d-81e2-3f5e-b46c-b435f9dc72fc",
+  :address
+  "Rua Bombeiros Voluntários, nº 60 5140-060 CARRAZEDA DE ANSIÃES",
+  :address-c
+  "Rua dos Bombeiros Voluntários 60, 5140-060, Carrazeda de Ansiães, Bragança",
+  :postal-c "5140-060",
+  :x -7.307220352750851,
+  :y 41.24335072509448,
+  :score 97.52,
+  :c 1}}

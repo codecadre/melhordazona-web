@@ -95,4 +95,14 @@
   :cp7 "4400-052",
   :id #uuid "983f1a6e-73dd-3fc1-ba6d-ffa94b1b746f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "983f1a6e-73dd-3fc1-ba6d-ffa94b1b746f",
+  :address "Rua da Bélgica nº 1621 4400-052 CANIDELO",
+  :address-c
+  "Rua da Bélgica 1621, 4400-052, Canidelo, Vila Nova de Gaia, Porto",
+  :postal-c "4400-052",
+  :x -8.651480017533288,
+  :y 41.1312599811383,
+  :score 98.4,
+  :c 7}}

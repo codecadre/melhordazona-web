@@ -95,4 +95,13 @@
   :cp7 "1250-152",
   :id #uuid "d82cf438-fd7c-306a-92e7-1577c3bebff4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "d82cf438-fd7c-306a-92e7-1577c3bebff4",
+  :address "Praça Duque da Terceira, n.º 24 - 1º Dto. 1250-152 LISBOA",
+  :address-c "Praça do Duque da Terceira 24, 1200-161, Lisboa",
+  :postal-c "1200-161",
+  :x -9.14307000541271,
+  :y 38.70659998557838,
+  :score 95.19,
+  :c 1}}

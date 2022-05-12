@@ -95,4 +95,13 @@
   :cp7 "4000-216",
   :id #uuid "7b8650fe-2048-30bd-b41b-308cf346d80f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "7b8650fe-2048-30bd-b41b-308cf346d80f",
+  :address "Rua Fernando Tomás, 415-1º 4000-216 PORTO",
+  :address-c "Rua Fernandes Tomás 415, 4000-216, Porto",
+  :postal-c "4000-216",
+  :x -8.60352999931365,
+  :y 41.14922001080086,
+  :score 97.42,
+  :c 5}}

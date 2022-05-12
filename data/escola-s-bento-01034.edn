@@ -95,4 +95,13 @@
   :cp7 "4755-520",
   :id #uuid "fd90a845-a814-327a-a864-c32c14a89230",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+ :geocode
+ {:id #uuid "fd90a845-a814-327a-a864-c32c14a89230",
+  :address "Rua da Estrada, Lote 8, Fracção A 4755-520 VÁRZEA",
+  :address-c "Rua da Estrada 8, 4755-520, Barcelos, Braga",
+  :postal-c "4755-520",
+  :x -8.58357460699733,
+  :y 41.511661327955906,
+  :score 95.22,
+  :c 7}}

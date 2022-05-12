@@ -95,4 +95,14 @@
   :cp7 "2720-172",
   :id #uuid "a0ac275a-6df4-3a18-9ecc-6f1ff37dd1cb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
+ :geocode
+ {:id #uuid "a0ac275a-6df4-3a18-9ecc-6f1ff37dd1cb",
+  :address "Rua D. João de Mascarenhas nº 9 2720-172 AMADORA",
+  :address-c
+  "Rua Dom João de Mascarenhas 9, 2720-172, Damaia, Amadora, Lisboa",
+  :postal-c "2720-172",
+  :x -9.211789960605927,
+  :y 38.74813998525411,
+  :score 98.48,
+  :c 1}}

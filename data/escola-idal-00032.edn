@@ -95,4 +95,13 @@
   :cp7 "1900-119",
   :id #uuid "4018b02c-d99c-3742-9b52-3f0b0410fbbf",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "4018b02c-d99c-3742-9b52-3f0b0410fbbf",
+  :address "Alameda D. Afonso Henriques, 64 r/c Esqº 1900-119 LISBOA",
+  :address-c "Alameda Dom Afonso Henriques 64, 1900-183, Lisboa",
+  :postal-c "1900-183",
+  :x -9.133050026899696,
+  :y 38.737699989572945,
+  :score 97.58,
+  :c 2}}

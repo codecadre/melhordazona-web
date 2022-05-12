@@ -95,4 +95,13 @@
   :cp7 "8100-664",
   :id #uuid "19ca57c2-aa63-3ce1-972d-301d8d8816e3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+ :geocode
+ {:id #uuid "19ca57c2-aa63-3ce1-972d-301d8d8816e3",
+  :address "Largo João XXIII, Lote 10, Loja 12 ; 8100-664 Loulé",
+  :address-c "Largo João XIII 10, 8100-664, Loulé, Faro",
+  :postal-c "8100-664",
+  :x -8.015908230570897,
+  :y 37.136629029663105,
+  :score 95.81,
+  :c 1}}

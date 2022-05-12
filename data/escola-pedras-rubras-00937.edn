@@ -95,4 +95,13 @@
   :cp7 "4470-655",
   :id #uuid "33446b7f-dc3c-3de7-b983-3a1d77143afb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+ :geocode
+ {:id #uuid "33446b7f-dc3c-3de7-b983-3a1d77143afb",
+  :address "Rua do Teatro 45 4470-655 MOREIRA",
+  :address-c "Rua do Teatro 45, 4470-655, Pedras Rubras, Maia, Porto",
+  :postal-c "4470-655",
+  :x -8.666401311237113,
+  :y 41.24118995046534,
+  :score 98.82,
+  :c 1}}

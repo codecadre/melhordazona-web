@@ -97,7 +97,14 @@
     :cp7 "2350-754",
     :id #uuid "30589f06-0ea4-36a3-89b6-3a4525381053",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Torres%20Novas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Torres%20Novas"},
+   :geocode
+   {:cp7 "2350-754",
+    :postal-c "2350-754",
+    :x -8.535774968813996,
+    :y 39.480795017201814,
+    :score 100,
+    :c 1}}]
  ["sao-bernardo-00925"
   {:nec 925,
    :rates
@@ -197,4 +204,15 @@
     :cp7 "2530-565",
     :id #uuid "a04be5b6-dded-3f24-bddd-2de2cfbcc539",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Torres%20Novas"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Torres%20Novas"},
+   :geocode
+   {:id #uuid "a04be5b6-dded-3f24-bddd-2de2cfbcc539",
+    :address
+    "Rua Dr. José Marques – Edifício Arrábida 2530-565 TORRES NOVAS",
+    :address-c
+    "Rua Dr. José Marques, 2350-565, Torres Novas, Santarém",
+    :postal-c "2350-565",
+    :x -8.549153278934792,
+    :y 39.475732677000444,
+    :score 83.9,
+    :c 4}}]]

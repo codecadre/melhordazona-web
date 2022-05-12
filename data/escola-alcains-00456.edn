@@ -95,4 +95,14 @@
   :cp7 "6005-010",
   :id #uuid "a4cb6702-9df2-3957-a07e-270901486da5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
+ :geocode
+ {:id #uuid "a4cb6702-9df2-3957-a07e-270901486da5",
+  :address "Estrada S. Domingos, Nº 64 R/c 6005-010 ALCAINS",
+  :address-c
+  "Estrada de São Domingos 64, 6005-010, Alcains, Castelo Branco",
+  :postal-c "6005-010",
+  :x -7.46680653601521,
+  :y 39.91554069510092,
+  :score 97.9,
+  :c 2}}

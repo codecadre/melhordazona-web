@@ -96,4 +96,15 @@
   :cp7 "3800-276",
   :id #uuid "98c89f77-4ab6-31e6-b042-b7e858818505",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
+ :geocode
+ {:id #uuid "98c89f77-4ab6-31e6-b042-b7e858818505",
+  :address
+  "Rua Vicente de Almeida Eça,nº 38-44-Esgueira 3800 -276 AVEIRO",
+  :address-c
+  "Rua Vicente de Almeida de Eça 38, 3800-276, Esgueira, Aveiro",
+  :postal-c "3800-276",
+  :x -8.62850999861422,
+  :y 40.64938998345724,
+  :score 98.19,
+  :c 1}}

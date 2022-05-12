@@ -97,4 +97,14 @@
     :cp7 "5040-319",
     :id #uuid "fe454a5c-1ee9-377b-b277-a05438c4f9cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mes%C3%A3o%20Frio"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mes%C3%A3o%20Frio"},
+   :geocode
+   {:id #uuid "fe454a5c-1ee9-377b-b277-a05438c4f9cb",
+    :address
+    "Rua do Balcão nº 92 – 94 5040-319 MESÃO FRIO (SANTA CRISTINA)",
+    :address-c "Rua do Balcão 92, 5040-314, Mesão Frio, Vila Real",
+    :postal-c "5040-314",
+    :x -7.887750001571959,
+    :y 41.16053000612209,
+    :score 96.34,
+    :c 4}}]]

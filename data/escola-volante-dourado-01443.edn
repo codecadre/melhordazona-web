@@ -40,4 +40,15 @@
   :cp7 "2650-115",
   :id #uuid "3af627ff-b62c-37ec-8eb8-0f8bada14468",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
+ :geocode
+ {:id #uuid "3af627ff-b62c-37ec-8eb8-0f8bada14468",
+  :address
+  "Rua de Santo António de Lisboa, n.º 20, Loja C, 2650-115 Amadora",
+  :address-c
+  "Rua Santo António de Lisboa 20, 2650-115, Brandoa, Amadora, Lisboa",
+  :postal-c "2650-115",
+  :x -9.215770023509748,
+  :y 38.76687001845187,
+  :score 97.4,
+  :c 4}}

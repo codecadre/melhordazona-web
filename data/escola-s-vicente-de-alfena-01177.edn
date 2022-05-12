@@ -95,4 +95,14 @@
   :cp7 "4445-256",
   :id #uuid "d42031fb-199b-3fa9-b750-13e76d16510a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+ :geocode
+ {:id #uuid "d42031fb-199b-3fa9-b750-13e76d16510a",
+  :address "Rua das Laranjeiras, Nº 14 R/C 4445-256 ALFENA",
+  :address-c
+  "Rua das Laranjeiras 14, 4445-256, Alfena, Valongo, Porto",
+  :postal-c "4445-256",
+  :x -8.528850008048522,
+  :y 41.23678998613582,
+  :score 97.9,
+  :c 2}}

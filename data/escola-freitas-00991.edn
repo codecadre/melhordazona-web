@@ -95,4 +95,14 @@
   :cp7 "4430-299",
   :id #uuid "5e45440b-fd2a-384f-bf47-30b2bbff2a59",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "5e45440b-fd2a-384f-bf47-30b2bbff2a59",
+  :address "Rua Alexandre Herculano nº 181 4430-299 OLIVEIRA do DOURO",
+  :address-c
+  "Rua Alexandre Herculano 181, 4430-299, Oliveira do Douro, Vila Nova de Gaia, Porto",
+  :postal-c "4430-299",
+  :x -8.573599983273823,
+  :y 41.11848000954765,
+  :score 98.59,
+  :c 1}}

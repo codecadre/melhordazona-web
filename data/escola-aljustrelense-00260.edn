@@ -95,4 +95,13 @@
   :cp7 "7600-088",
   :id #uuid "f6898fd6-4f84-3ba9-be93-fc5250690cda",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"},
+ :geocode
+ {:id #uuid "f6898fd6-4f84-3ba9-be93-fc5250690cda",
+  :address "Rua D. Sancho II , 6 A 7600-088 ALJUSTREL",
+  :address-c "Rua Dom Sancho II 6, 7600-088, Aljustrel, Beja",
+  :postal-c "7600-088",
+  :x -8.165779174784374,
+  :y 37.877440618219836,
+  :score 98.57,
+  :c 1}}

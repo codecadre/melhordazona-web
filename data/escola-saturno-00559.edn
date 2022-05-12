@@ -95,4 +95,13 @@
   :cp7 "3050-345",
   :id #uuid "2123a0ef-d1ae-33d6-b5f4-1ec98b889d00",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"},
+ :geocode
+ {:id #uuid "2123a0ef-d1ae-33d6-b5f4-1ec98b889d00",
+  :address "Rua Capitão Cabral, Nº 6 e 8 3050-345 MEALHADA",
+  :address-c "Rua Capitão Cabral 6, 3050-345, Mealhada, Aveiro",
+  :postal-c "3050-345",
+  :x -8.452590028034791,
+  :y 40.375499981630355,
+  :score 97.9,
+  :c 1}}

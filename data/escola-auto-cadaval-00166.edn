@@ -95,4 +95,13 @@
   :cp7 "2550-142",
   :id #uuid "d6e05f46-ac92-3cf4-be35-8ed70f4b8185",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cadaval"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cadaval"},
+ :geocode
+ {:id #uuid "d6e05f46-ac92-3cf4-be35-8ed70f4b8185",
+  :address "Rua D. Fernando, 55 –1º 2550-142 CADAVAL",
+  :address-c "Rua Dom Fernando 55, 2550-142, Cadaval, Lisboa",
+  :postal-c "2550-142",
+  :x -9.10394001244751,
+  :y 39.24195000400857,
+  :score 99.33,
+  :c 1}}

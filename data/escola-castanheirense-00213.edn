@@ -95,4 +95,14 @@
   :cp7 "3280-013",
   :id #uuid "b9d779e0-2979-316c-b79e-457826fc308a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Castanheira%20Pera"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Castanheira%20Pera"},
+ :geocode
+ {:id #uuid "b9d779e0-2979-316c-b79e-457826fc308a",
+  :address "Avª S. Domingos,Nº 51-1º 3280-013 CASTANHEIRA de PERA",
+  :address-c
+  "Avenida de São Domingos 51, 3280-013, Castanheira de Pêra, Leiria",
+  :postal-c "3280-013",
+  :x -8.211660016426663,
+  :y 40.00450001564087,
+  :score 98.06,
+  :c 1}}

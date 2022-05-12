@@ -95,4 +95,13 @@
   :cp7 "6000-086",
   :id #uuid "57f9fe91-c303-3b2a-bbe8-cd64cd0c861b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
+ :geocode
+ {:id #uuid "57f9fe91-c303-3b2a-bbe8-cd64cd0c861b",
+  :address "Avª 1º de Maio, 49- 5/L Dtº 6000-086 CASTELO BRANCO",
+  :address-c "Avenida 1 de Maio 49, 6000-086, Castelo Branco",
+  :postal-c "6000-086",
+  :x -7.494609992715823,
+  :y 39.82150001908721,
+  :score 98.68,
+  :c 2}}

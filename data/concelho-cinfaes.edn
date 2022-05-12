@@ -97,7 +97,14 @@
     :cp7 "4690-058",
     :id #uuid "3e42559a-bb58-336b-adb5-1c2a24e0dd71",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
+   :geocode
+   {:cp7 "4690-058",
+    :postal-c "4690-058",
+    :x -8.101268339949314,
+    :y 41.07912026861641,
+    :score 100,
+    :c 1}}]
  ["bateira-01062"
   {:nec 1062,
    :rates
@@ -197,7 +204,14 @@
     :cp7 "4690-666",
     :id #uuid "b3c68e49-44fc-377d-a253-73e54db082a8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
+   :geocode
+   {:cp7 "4690-666",
+    :postal-c "4690-666",
+    :x -8.230097772660713,
+    :y 41.06897091542788,
+    :score 100,
+    :c 1}}]
  ["s-joao-01070"
   {:nec 1070,
    :rates
@@ -297,4 +311,11 @@
     :cp7 "4690-058",
     :id #uuid "f8fe6377-d045-37b2-ac2a-2778e7c7ddd1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
+   :geocode
+   {:cp7 "4690-058",
+    :postal-c "4690-058",
+    :x -8.101268339949314,
+    :y 41.07912026861641,
+    :score 100,
+    :c 1}}]]

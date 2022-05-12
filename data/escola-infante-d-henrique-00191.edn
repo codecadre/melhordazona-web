@@ -96,4 +96,15 @@
   :cp7 "8600-775",
   :id #uuid "3a051498-3977-3fb0-bf52-adac2f479ab0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
+ :geocode
+ {:id #uuid "3a051498-3977-3fb0-bf52-adac2f479ab0",
+  :address
+  "Rua Francisco Xavier Ataíde de Oliveira, Lote 31, Loja D, 8600-775 LAGOS",
+  :address-c
+  "Rua Francisco Xavier Ataíde de Oliveira 31, 8600-775, Lagos, Faro",
+  :postal-c "8600-775",
+  :x -8.68131003746825,
+  :y 37.10562001779006,
+  :score 100,
+  :c 1}}

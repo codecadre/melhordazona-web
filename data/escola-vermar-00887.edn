@@ -95,4 +95,14 @@
   :cp7 "4490-107",
   :id #uuid "f7278ce9-fe68-3769-af8d-d336f02e93b3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+ :geocode
+ {:id #uuid "f7278ce9-fe68-3769-af8d-d336f02e93b3",
+  :address "Rua Silveira Campos, 25 r/c 4490-107 A VER-O-MAR",
+  :address-c
+  "Rua de Silveira Campos 25, 4490-107, A Ver-o-Mar, Póvoa de Varzim, Porto",
+  :postal-c "4490-107",
+  :x -8.772340020524496,
+  :y 41.40289998678625,
+  :score 99.44,
+  :c 1}}

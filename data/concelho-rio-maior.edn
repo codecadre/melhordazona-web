@@ -96,7 +96,16 @@
     :cp7 "2040-411",
     :id #uuid "3355fa7c-d17d-31be-bb04-c6a06e03c1ed",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
+   :geocode
+   {:id #uuid "3355fa7c-d17d-31be-bb04-c6a06e03c1ed",
+    :address "Rua Ernesto Alves, 23 – 2º 2040-411 RIO MAIOR",
+    :address-c "Rua Ernesto Alves 23, 2040-411, Rio Maior, Santarém",
+    :postal-c "2040-411",
+    :x -8.93709998993998,
+    :y 39.338069981587154,
+    :score 99.41,
+    :c 1}}]
  ["via-maior-01061"
   {:nec 1061,
    :rates
@@ -196,7 +205,14 @@
     :cp7 "2040-277",
     :id #uuid "612d29f6-2caa-3280-8e4b-747eb1f7384a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
+   :geocode
+   {:cp7 "2040-277",
+    :postal-c "2040-277",
+    :x -8.937995009561064,
+    :y 39.33523999961804,
+    :score 100,
+    :c 1}}]
  ["torre-da-marinha-01324"
   {:nec 1324,
    :rates
@@ -267,7 +283,14 @@
     :cp7 "2040-339",
     :id #uuid "91e490de-9142-3b4f-96cc-b8ead2d74280",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
+   :geocode
+   {:cp7 "2040-339",
+    :postal-c "2040-339",
+    :x -8.938219979842302,
+    :y 39.33361998728179,
+    :score 100,
+    :c 1}}]
  ["gato-preto-01360"
   {:nec 1360,
    :rates
@@ -352,4 +375,13 @@
     :cp7 "2040-212",
     :id #uuid "8e6e3fa7-1779-3467-8582-8e4d48d4614c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
+   :geocode
+   {:id #uuid "8e6e3fa7-1779-3467-8582-8e4d48d4614c",
+    :address "Largo do Gato Preto, n.º2, 2040-212 RIO MAIOR",
+    :address-c "Largo do Gato Preto, 2040, Rio Maior, Santarém",
+    :postal-c "2040",
+    :x -8.930525699824017,
+    :y 39.33536424760243,
+    :score 95.38,
+    :c 2}}]]

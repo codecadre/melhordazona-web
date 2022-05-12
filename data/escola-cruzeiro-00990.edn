@@ -96,4 +96,14 @@
   :cp7 "5300-224",
   :id #uuid "cf67a92b-bf81-357e-bf05-9bcef2ea81ed",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+ :geocode
+ {:id #uuid "cf67a92b-bf81-357e-bf05-9bcef2ea81ed",
+  :address
+  "Rua Padre António Vieira, Lote 1 R/C D - Loja E 5300-224 BRAGANÇA (SÉ)",
+  :address-c "Rua Padre António Vieira 1, 5300-224, Bragança",
+  :postal-c "5300-224",
+  :x -6.769400018625618,
+  :y 41.8002799813637,
+  :score 99.02,
+  :c 1}}

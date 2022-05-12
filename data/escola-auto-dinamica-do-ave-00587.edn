@@ -40,4 +40,15 @@
   :cp7 "4850-537",
   :id #uuid "88a55330-30ec-32d7-8d84-b601c03eb5cb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"},
+ :geocode
+ {:id #uuid "88a55330-30ec-32d7-8d84-b601c03eb5cb",
+  :address
+  "Rua Padre José Carlos Alves Vieira, Nº 232-1º 4850-537 VIEIRA DO MINHO",
+  :address-c
+  "Rua Padre José Carlos Alves Vieira 232, 4850-538, Vieira do Minho, Braga",
+  :postal-c "4850-538",
+  :x -8.145659988813861,
+  :y 41.63578001858471,
+  :score 97.23,
+  :c 2}}

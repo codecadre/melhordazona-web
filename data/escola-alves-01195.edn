@@ -95,4 +95,13 @@
   :cp7 "7100-125",
   :id #uuid "b75b1f8d-0083-36ee-97e6-a440985a9eaa",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
+ :geocode
+ {:id #uuid "b75b1f8d-0083-36ee-97e6-a440985a9eaa",
+  :address "Rua José Félix Ribeiro, Lote 59 Loja 7100-125 ESTREMOZ",
+  :address-c "Rua José Félix Ribeiro 59, 7100-125, Estremoz, Évora",
+  :postal-c "7100-125",
+  :x -7.590513198104908,
+  :y 38.85057004382416,
+  :score 98.9,
+  :c 1}}

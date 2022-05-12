@@ -97,4 +97,15 @@
     :cp7 "6060-101",
     :id #uuid "e7621c47-7cbe-3058-abfe-3a98bfa1122c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Idanha%20a%20Nova"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Idanha%20a%20Nova"},
+   :geocode
+   {:id #uuid "e7621c47-7cbe-3058-abfe-3a98bfa1122c",
+    :address
+    "Rua da Filarmónica Idanhense, Lote 69, R/C Dtº 6060-101 IDANHA-A-NOVA",
+    :address-c
+    "Rua Filarmónica Idanhense 69, 6060-188, Idanha-a-Nova, Castelo Branco",
+    :postal-c "6060-188",
+    :x -7.245630001297968,
+    :y 39.92367998693311,
+    :score 98.01,
+    :c 1}}]]

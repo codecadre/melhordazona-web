@@ -95,4 +95,13 @@
   :cp7 "4540-102",
   :id #uuid "257f8f97-1a55-36f8-8b83-ee7f31179915",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
+ :geocode
+ {:id #uuid "257f8f97-1a55-36f8-8b83-ee7f31179915",
+  :address "Avª 25 de Abril, Nº 48-B 4540-102 AROUCA",
+  :address-c "Avenida 25 de Abril 48, 4540-102, Arouca, Aveiro",
+  :postal-c "4540-102",
+  :x -8.249719975632473,
+  :y 40.92842999423314,
+  :score 98.01,
+  :c 2}}

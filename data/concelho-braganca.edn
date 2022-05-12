@@ -97,7 +97,18 @@
     :cp7 "5300-252",
     :id #uuid "51ce98ba-4ef3-315c-9b1e-f7ea5c8fa384",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:id #uuid "51ce98ba-4ef3-315c-9b1e-f7ea5c8fa384",
+    :address
+    "Avª Dr.Francisco Sá Carneiro, Lote 29 r/c Dtº (Prédio S. Lucas) 5300-252 BRAGANÇA (SÉ)",
+    :address-c
+    "Avenida Doutor Francisco Sá Carneiro 29, 5300-252, Bragança",
+    :postal-c "5300-252",
+    :x -6.759789998996894,
+    :y 41.805349985046945,
+    :score 95.07,
+    :c 1}}]
  ["terra-fria-00722"
   {:nec 722,
    :rates
@@ -197,7 +208,13 @@
     :cp7 "5300-254",
     :id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
+    :overwrite true,
+    :obs "Manual coords",
+    :x -6.7631975537083715,
+    :y 41.797498753108506}}]
  ["exito-00728"
   {:nec 728,
    :rates
@@ -297,7 +314,14 @@
     :cp7 "5300-252",
     :id #uuid "26a4f448-5278-3767-9c43-fa2516ea2163",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:cp7 "5300-252",
+    :postal-c "5300-252",
+    :x -6.763875003328479,
+    :y 41.80275000250094,
+    :score 100,
+    :c 1}}]
  ["eurovia-00825"
   {:nec 825,
    :rates
@@ -396,7 +420,14 @@
     :cp7 "5300-236",
     :id #uuid "0464c37c-f17d-3b3b-8f3d-eefa069f84cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:cp7 "5300-236",
+    :postal-c "5300-236",
+    :x -6.763530004193797,
+    :y 41.809740006835085,
+    :score 100,
+    :c 1}}]
  ["princesa-00865"
   {:nec 865,
    :rates
@@ -496,7 +527,14 @@
     :cp7 "5300-167",
     :id #uuid "accd42da-9485-3d57-a94c-f180f7c07fdc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:cp7 "5300-167",
+    :postal-c "5300-167",
+    :x -6.7712250104040095,
+    :y 41.807985003948204,
+    :score 100,
+    :c 1}}]
  ["cruzeiro-00990"
   {:nec 990,
    :rates
@@ -596,4 +634,14 @@
     :cp7 "5300-224",
     :id #uuid "cf67a92b-bf81-357e-bf05-9bcef2ea81ed",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:id #uuid "cf67a92b-bf81-357e-bf05-9bcef2ea81ed",
+    :address
+    "Rua Padre António Vieira, Lote 1 R/C D - Loja E 5300-224 BRAGANÇA (SÉ)",
+    :address-c "Rua Padre António Vieira 1, 5300-224, Bragança",
+    :postal-c "5300-224",
+    :x -6.769400018625618,
+    :y 41.8002799813637,
+    :score 99.02,
+    :c 1}}]]

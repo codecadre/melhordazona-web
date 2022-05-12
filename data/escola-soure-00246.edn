@@ -95,4 +95,14 @@
   :cp7 "3130-240",
   :id #uuid "c8928f9f-ec27-3d0b-a01c-1eb715999463",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
+ :geocode
+ {:id #uuid "c8928f9f-ec27-3d0b-a01c-1eb715999463",
+  :address "Rua Dr. Evaristo de Carvalho 3130-240 SOURE",
+  :address-c
+  "Rua Doutor Evaristo Carvalho Filho, 3130-240, Soure, Coimbra",
+  :postal-c "3130-240",
+  :x -8.635628552249877,
+  :y 40.04644743758927,
+  :score 97.7,
+  :c 2}}

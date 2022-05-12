@@ -96,4 +96,15 @@
   :cp7 "7540-201",
   :id #uuid "168b56b7-469e-3c7e-a5aa-7796bfc024b9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+ :geocode
+ {:id #uuid "168b56b7-469e-3c7e-a5aa-7796bfc024b9",
+  :address
+  "Rua Padre Jorge de Oliveira, Nº 14 7540-201 SANTIAGO CACÉM",
+  :address-c
+  "Rua Padre Jorge de Oliveira 14, 7540-201, Santiago do Cacém, Setúbal",
+  :postal-c "7540-201",
+  :x -8.69308541106637,
+  :y 38.018342073405016,
+  :score 98.25,
+  :c 1}}

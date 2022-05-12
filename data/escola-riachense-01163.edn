@@ -96,4 +96,15 @@
   :cp7 "2495-032",
   :id #uuid "ff047d01-627d-3a91-8c82-e9047446b96f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"},
+ :geocode
+ {:id #uuid "ff047d01-627d-3a91-8c82-e9047446b96f",
+  :address
+  "Estrada do Vale de Ourém, 18, Fr. B - R/C Esq, 2495-032 São Mamede",
+  :address-c
+  "Estrada de Vale de Ourém 18, 2495-032, São Mamede, Batalha, Leiria",
+  :postal-c "2495-032",
+  :x -8.718559969551194,
+  :y 39.623989984218014,
+  :score 98.26,
+  :c 1}}

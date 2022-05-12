@@ -95,4 +95,14 @@
   :cp7 "4455-196",
   :id #uuid "73ad5315-17dc-33cd-b31f-a06eeef0dd6a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+ :geocode
+ {:id #uuid "73ad5315-17dc-33cd-b31f-a06eeef0dd6a",
+  :address "Rua Quinta de Calvelhe nº 212 4455-196 LAVRA",
+  :address-c
+  "Rua Quinta de Calvelhe 212, 4455-196, Condominhas, Matosinhos, Porto",
+  :postal-c "4455-196",
+  :x -8.722489992493053,
+  :y 41.262099980964365,
+  :score 97.28,
+  :c 1}}

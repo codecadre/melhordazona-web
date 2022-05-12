@@ -96,4 +96,15 @@
   :cp7 "4765-550",
   :id #uuid "6958ed7f-a3e4-36aa-a3dd-7a4c07871b63",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+ :geocode
+ {:id #uuid "6958ed7f-a3e4-36aa-a3dd-7a4c07871b63",
+  :address
+  "Rua Nova do Agrelo, n.º 196 ; 4765-550 Serzedelo (Guimarães)",
+  :address-c
+  "Rua Nova do Agrelo 196, 4765-550, Serzedelo, Guimarães, Braga",
+  :postal-c "4765-550",
+  :x -8.360850013960544,
+  :y 41.40808000294868,
+  :score 96.36,
+  :c 5}}

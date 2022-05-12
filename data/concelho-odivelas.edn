@@ -96,7 +96,17 @@
     :cp7 "1675",
     :id #uuid "fe4c5996-186a-320f-bfe8-210f853321d9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+   :geocode
+   {:id #uuid "fe4c5996-186a-320f-bfe8-210f853321d9",
+    :address "Avenida Bombeiros Voluntários loja 8 1675 PONTINHA",
+    :address-c
+    "Avenida Bombeiros Voluntários 8, 1675-107, Pontinha, Odivelas, Lisboa",
+    :postal-c "1675-107",
+    :x -9.200189993344338,
+    :y 38.763130013254994,
+    :score 98.1,
+    :c 1}}]
  ["colinas-do-cruzeiro-00563"
   {:nec 563,
    :rates
@@ -196,7 +206,14 @@
     :cp7 "2675-223",
     :id #uuid "db108d99-64d5-30d1-813d-5c7204e85209",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+   :geocode
+   {:cp7 "2675-223",
+    :postal-c "2675-223",
+    :x -9.186324984387653,
+    :y 38.79512499496113,
+    :score 100,
+    :c 1}}]
  ["jardim-de-radial-00940"
   {:nec 940,
    :rates
@@ -295,7 +312,19 @@
     :cp7 "2675-768",
     :id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+   :geocode
+   {:y 38.80638000499755,
+    :address "Rua Álvaro Campos, nº 1 2675-768 RAMADA",
+    :postal-c "2620-258",
+    :obs "removed some bits of the address. easy to find.",
+    :overwrite true,
+    :c 1,
+    :id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
+    :score 93.84,
+    :address-c
+    "Rua Álvaro de Campos 1, 2620-258, Bons Dias, Odivelas, Lisboa",
+    :x -9.188270005019518}}]
  ["good-01052"
   {:nec 1052,
    :rates
@@ -394,7 +423,17 @@
     :cp7 "1675-597",
     :id #uuid "205e7205-f7d6-3da4-b20e-23c7d842bbdb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+   :geocode
+   {:id #uuid "205e7205-f7d6-3da4-b20e-23c7d842bbdb",
+    :address "Praceta de S. Carlos nº 1 – loja B 1675-597 CANEÇAS",
+    :address-c
+    "Praceta de São Carlos 1, 1685-597, Caneças, Odivelas, Lisboa",
+    :postal-c "1685-597",
+    :x -9.224970000435121,
+    :y 38.81485000197537,
+    :score 96.66,
+    :c 1}}]
  ["jante-integral-01153"
   {:nec 1153,
    :rates
@@ -493,7 +532,16 @@
     :cp7 "2675-424",
     :id #uuid "5850fcb8-0f0d-3cd2-a030-a014ce9a6dd0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+   :geocode
+   {:id #uuid "5850fcb8-0f0d-3cd2-a030-a014ce9a6dd0",
+    :address "Rua Paiva de Andrade, Nº 12 – A 2675-424 ODIVELAS",
+    :address-c "Rua Paiva de Andrade 12A, 2675-424, Odivelas, Lisboa",
+    :postal-c "2675-424",
+    :x -9.181979973419573,
+    :y 38.78629000800956,
+    :score 98.45,
+    :c 1}}]
  ["ebenezer-01181"
   {:nec 1181,
    :rates
@@ -592,7 +640,17 @@
     :cp7 "2675-604",
     :id #uuid "a7002f72-f6e5-3017-ba7b-eb3dea56072b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+   :geocode
+   {:id #uuid "a7002f72-f6e5-3017-ba7b-eb3dea56072b",
+    :address "Rua Artur Bual, Nº 1 R/C Loja 2 2675-604 ODIVELAS",
+    :address-c
+    "Rua Artur Bual 1, 2675-615, Quinta Nova, Odivelas, Lisboa",
+    :postal-c "2675-615",
+    :x -9.178250026506475,
+    :y 38.799240006506096,
+    :score 96.87,
+    :c 3}}]
  ["povoa-de-santo-adriao-01332"
   {:nec 1332,
    :rates
@@ -691,7 +749,17 @@
     :cp7 "2620-077",
     :id #uuid "4319a823-6d72-364d-9afe-d48e337045a5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+   :geocode
+   {:id #uuid "4319a823-6d72-364d-9afe-d48e337045a5",
+    :address "Rua São José, n.º 3 A, 2620-077 PÓVOA DE SANTO ADRIÃO",
+    :address-c
+    "Rua de São José, 2620-077, Póvoa de Santo Adrião, Odivelas, Lisboa",
+    :postal-c "2620-077",
+    :x -9.163111795206614,
+    :y 38.804747113807835,
+    :score 96.41,
+    :c 3}}]
  ["ecodrive-01393"
   {:nec 1393,
    :rates
@@ -763,4 +831,11 @@
     :cp7 "2675-639",
     :id #uuid "70ad66c8-a4bc-355a-a1c5-55fa9d953d97",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+   :geocode
+   {:cp7 "2675-639",
+    :postal-c "2675-639",
+    :x -9.191009965348542,
+    :y 38.78788500036481,
+    :score 100,
+    :c 1}}]]

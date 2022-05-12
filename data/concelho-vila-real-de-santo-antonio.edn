@@ -87,7 +87,17 @@
     :cp7 "8900",
     :id #uuid "076f5935-fa1e-3139-91ca-dbc4ad80dfbd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
+   :geocode
+   {:id #uuid "076f5935-fa1e-3139-91ca-dbc4ad80dfbd",
+    :address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
+    :address-c
+    "Rua Doutor Teófilo Braga 85, 8900-303, Vila Real de Santo António, Faro",
+    :postal-c "8900-303",
+    :x -7.419097368803119,
+    :y 37.19405562927124,
+    :score 95.24,
+    :c 1}}]
  ["auto-esperanca-00742"
   {:nec 742,
    :rates
@@ -187,7 +197,14 @@
     :cp7 "8900-282",
     :id #uuid "34b5d8d8-b933-3b2a-ab48-b7e83a6aec1f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
+   :geocode
+   {:cp7 "8900-282",
+    :postal-c "8900-282",
+    :x -7.427894988762176,
+    :y 37.19438500106074,
+    :score 100,
+    :c 1}}]
  ["monte-gordo-01395"
   {:nec 1395,
    :rates
@@ -272,4 +289,14 @@
     :cp7 "8900-401",
     :id #uuid "65c2c3b9-f50b-313f-89ea-182ef6f38f11",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
+   :geocode
+   {:id #uuid "65c2c3b9-f50b-313f-89ea-182ef6f38f11",
+    :address "Av. da Catalunha, lote 7, 8900-401 MONTE GORDO",
+    :address-c
+    "Avenida da Catalunha 7, 8900-400, Monte Gordo, Vila Real de Santo António, Faro",
+    :postal-c "8900-400",
+    :x -7.45161803965535,
+    :y 37.18252733757638,
+    :score 98.04,
+    :c 1}}]]

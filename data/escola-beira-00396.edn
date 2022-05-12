@@ -96,4 +96,15 @@
   :cp7 "4480-665",
   :id #uuid "213fa049-db93-3924-8db8-24212e69561c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+ :geocode
+ {:id #uuid "213fa049-db93-3924-8db8-24212e69561c",
+  :address
+  "Avª Dr. Carlos Pinto Ferreira, Nº 364-1ºDtº 4480-665 VILA DO CONDE",
+  :address-c
+  "Avenida Doutor Carlos Pinto Ferreira 364, 4480-665, Vila do Conde, Porto",
+  :postal-c "4480-665",
+  :x -8.758090030754971,
+  :y 41.362979999446765,
+  :score 97.67,
+  :c 4}}

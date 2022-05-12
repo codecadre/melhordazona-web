@@ -96,4 +96,15 @@
   :cp7 "2495-447",
   :id #uuid "8c8b1589-e57b-3487-8d57-e65225a6d008",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
+ :geocode
+ {:id #uuid "8c8b1589-e57b-3487-8d57-e65225a6d008",
+  :address
+  "Rua Dr. Júlio Constantino nº 75 ED Primitivo 2495-447 FÁTIMA",
+  :address-c
+  "Rua Doutor Júlio Ferreira Constantino 75, 2495-456, Fátima, Ourém, Santarém",
+  :postal-c "2495-456",
+  :x -8.677659970092435,
+  :y 39.6359699869696,
+  :score 95.06,
+  :c 1}}

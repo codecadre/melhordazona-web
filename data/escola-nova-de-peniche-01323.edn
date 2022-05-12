@@ -96,4 +96,15 @@
   :cp7 "2520-295",
   :id #uuid "a1e9a87a-f8bd-3d41-991b-b6289a509012",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
+ :geocode
+ {:id #uuid "a1e9a87a-f8bd-3d41-991b-b6289a509012",
+  :address
+  "Rua Arquiteto Paulino Montez, Nº 94, R/C Dtº, 2520-295 PENICHE",
+  :address-c
+  "Rua Arquitecto Paulino Montez 94, 2520-295, Peniche, Leiria",
+  :postal-c "2520-295",
+  :x -9.387740022217741,
+  :y 39.361810004041445,
+  :score 96.96,
+  :c 1}}

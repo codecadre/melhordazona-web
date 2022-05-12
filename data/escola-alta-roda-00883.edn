@@ -96,4 +96,15 @@
   :cp7 "2560-253",
   :id #uuid "9a8bf619-e381-305f-84fb-008fe00acdde",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+ :geocode
+ {:id #uuid "9a8bf619-e381-305f-84fb-008fe00acdde",
+  :address
+  "Rua Amadeu Rodrigues Matias lote 16 Loja 2 2560-253 TORRES VEDRAS",
+  :address-c
+  "Rua Amadeu Rodrigues Ferreira Matias 16, 2560-253, Torres Vedras, Lisboa",
+  :postal-c "2560-253",
+  :x -9.258625311922701,
+  :y 39.081213407963595,
+  :score 98.62,
+  :c 1}}

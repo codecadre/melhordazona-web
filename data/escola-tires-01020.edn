@@ -96,4 +96,14 @@
   :cp7 "2785-630",
   :id #uuid "73837dbd-5b0f-3fbf-a9e8-9f661c03950a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+ :geocode
+ {:id #uuid "73837dbd-5b0f-3fbf-a9e8-9f661c03950a",
+  :address
+  "Rua de Mercado, Lote 1 Loja A 2785-630 S. DOMINGOS DE RANA",
+  :address-c "Rua do Mercado 1, 2785-630, Tires, Cascais, Lisboa",
+  :postal-c "2785-630",
+  :x -9.347960012661275,
+  :y 38.712489990849264,
+  :score 98.82,
+  :c 1}}

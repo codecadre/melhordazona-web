@@ -95,4 +95,14 @@
   :cp7 "2955-028",
   :id #uuid "081c1ac1-cd27-3642-ac74-c2f7a4560f02",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+ :geocode
+ {:id #uuid "081c1ac1-cd27-3642-ac74-c2f7a4560f02",
+  :address "Rua Salgueiro Maia lote 33, Loja Dtª 2955-028 PINHAL NOVO",
+  :address-c
+  "Rua Salgueiro Maia 33, 2955-028, Pinhal Novo, Palmela, Setúbal",
+  :postal-c "2955-028",
+  :x -8.912080008961311,
+  :y 38.623849981754944,
+  :score 98.48,
+  :c 1}}

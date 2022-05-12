@@ -83,7 +83,14 @@
     :cp7 "4765-080",
     :id #uuid "06297868-8303-39c4-b2e4-749b489240f3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4765-080",
+    :postal-c "4765-080",
+    :x -8.43125003782626,
+    :y 41.38283500977923,
+    :score 100,
+    :c 1}}]
  ["rolante-de-famalicao-00385"
   {:nec 385,
    :rates
@@ -183,7 +190,18 @@
     :cp7 "4760-105",
     :id #uuid "6378a810-b3f6-35da-ad76-0cfecc3bfbb7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:id #uuid "6378a810-b3f6-35da-ad76-0cfecc3bfbb7",
+    :address
+    "Rua Narciso Ferreira, 21-25 4760-105 VILA NOVA DE FAMALICÃO",
+    :address-c
+    "Avenida Narciso Ferreira 21, 4760-105, Vila Nova de Famalicão, Braga",
+    :postal-c "4760-105",
+    :x -8.518912004333005,
+    :y 41.4088708512541,
+    :score 95.81,
+    :c 2}}]
  ["joanense-00506"
   {:nec 506,
    :rates
@@ -282,7 +300,14 @@
     :cp7 "4770-260",
     :id #uuid "fce3f4f9-6ccf-303c-9815-a96a9aad8055",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4770-260",
+    :postal-c "4770-260",
+    :x -8.409019973319488,
+    :y 41.438590004778746,
+    :score 100,
+    :c 1}}]
  ["opcao-00702"
   {:nec 702,
    :rates
@@ -381,7 +406,14 @@
     :cp7 "4760-282",
     :id #uuid "def928dc-c461-3155-bd1d-71a2b82b093e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-282",
+    :postal-c "4760-282",
+    :x -8.526825024060372,
+    :y 41.40424000164691,
+    :score 100,
+    :c 1}}]
  ["desigual-00784"
   {:nec 784,
    :rates
@@ -480,7 +512,17 @@
     :cp7 "4765-620",
     :id #uuid "21cb62bf-3dbd-34dc-b0af-4a55ed722000",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:id #uuid "21cb62bf-3dbd-34dc-b0af-4a55ed722000",
+    :address "Av. do Loureiro, 65, Loja 2, 4765-620 DELÃES",
+    :address-c
+    "Avenida do Loureiro 65, 4765-620, Delães, Vila Nova de Famalicão, Braga",
+    :postal-c "4765-620",
+    :x -8.417360254323116,
+    :y 41.385906172168966,
+    :score 100,
+    :c 2}}]
  ["via-verde-00794"
   {:nec 794,
    :rates
@@ -580,7 +622,14 @@
     :cp7 "4760-143",
     :id #uuid "85cf7bcc-d047-36ff-b68b-f7e3e8064d35",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-143",
+    :postal-c "4760-143",
+    :x -8.522834986691748,
+    :y 41.4089300117497,
+    :score 100,
+    :c 1}}]
  ["reta-segura-00833"
   {:nec 833,
    :rates
@@ -680,7 +729,14 @@
     :cp7 "4760-175",
     :id #uuid "cf7cebde-b656-34a5-8d5f-67d5f04194f6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-175",
+    :postal-c "4760-175",
+    :x -8.511840025201366,
+    :y 41.42973498507857,
+    :score 100,
+    :c 1}}]
  ["ribeirense-00890"
   {:nec 890,
    :rates
@@ -780,7 +836,14 @@
     :cp7 "4760-713",
     :id #uuid "d6b81280-7484-3cc9-800c-93d55dba7360",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-713",
+    :postal-c "4760-713",
+    :x -8.556765014564974,
+    :y 41.35498001768951,
+    :score 100,
+    :c 1}}]
  ["europeia-00923"
   {:nec 923,
    :rates
@@ -879,7 +942,17 @@
     :cp7 "4760-093",
     :id #uuid "e8751bbc-ec6d-373d-88e3-06a78a5ecd94",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:id #uuid "e8751bbc-ec6d-373d-88e3-06a78a5ecd94",
+    :address "Rua de S. Vicente, 457 4760-093 VILA NOVA DE FAMALICÃO",
+    :address-c
+    "Rua de São Vicente 457, 4760-093, Vila Nova de Famalicão, Braga",
+    :postal-c "4760-093",
+    :x -8.518829813887415,
+    :y 41.415297881647206,
+    :score 100,
+    :c 2}}]
  ["a-citadina-00927"
   {:nec 927,
    :rates
@@ -979,7 +1052,14 @@
     :cp7 "4760-325",
     :id #uuid "7423976a-5f6c-3e33-bf0e-8d24c7dab1c0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-325",
+    :postal-c "4760-325",
+    :x -8.520144982505656,
+    :y 41.39937501931533,
+    :score 100,
+    :c 1}}]
  ["ases-da-estrada-01028"
   {:nec 1028,
    :rates
@@ -1078,7 +1158,14 @@
     :cp7 "4775-456",
     :id #uuid "669140b2-8562-36b9-a6cd-d4cbfff22238",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4775-456",
+    :postal-c "4775-456",
+    :x -8.546949973584589,
+    :y 41.46378998712814,
+    :score 100,
+    :c 1}}]
  ["das-fontes-01183"
   {:nec 1183,
    :rates
@@ -1177,7 +1264,14 @@
     :cp7 "4770-252",
     :id #uuid "dbb28617-061e-3d35-96b7-7a865adeb1a0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4770-252",
+    :postal-c "4770-252",
+    :x -8.425214983720906,
+    :y 41.43748501848313,
+    :score 100,
+    :c 1}}]
  ["rio-ave-01186"
   {:nec 1186,
    :rates
@@ -1277,7 +1371,14 @@
     :cp7 "4765-220",
     :id #uuid "bbaaf8ea-5fb9-3033-80b9-a12d723304e1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4765-220",
+    :postal-c "4765-220",
+    :x -8.393220002014772,
+    :y 41.38700001937664,
+    :score 100,
+    :c 1}}]
  ["lagoncinha-01203"
   {:nec 1203,
    :rates
@@ -1377,7 +1478,14 @@
     :cp7 "4760-624",
     :id #uuid "15ea5479-851c-39ad-813c-a9c116c4aa83",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-624",
+    :postal-c "4760-624",
+    :x -8.527969992034116,
+    :y 41.35229500073581,
+    :score 100,
+    :c 1}}]
  ["positiva-01341"
   {:nec 1341,
    :rates
@@ -1534,4 +1642,11 @@
     :cp7 "4760-859",
     :id #uuid "7f859937-f420-3a67-92fe-0a8a9193eeff",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-859",
+    :postal-c "4760-859",
+    :x -8.533585028971345,
+    :y 41.39896501852152,
+    :score 100,
+    :c 1}}]]

@@ -95,4 +95,14 @@
   :cp7 "2300-576",
   :id #uuid "55ff0b2f-2a82-364d-b05e-a9ccd29254e7",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
+ :geocode
+ {:id #uuid "55ff0b2f-2a82-364d-b05e-a9ccd29254e7",
+  :address "Rua João de Oliveira Casquinho, 25 2300-576 TOMAR",
+  :address-c
+  "Rua João de Oliveira Casquilho 25, 2300-576, Tomar, Santarém",
+  :postal-c "2300-576",
+  :x -8.410239959326674,
+  :y 39.59877001102956,
+  :score 99.39,
+  :c 1}}

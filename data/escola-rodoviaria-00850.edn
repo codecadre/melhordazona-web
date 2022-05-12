@@ -95,4 +95,13 @@
   :cp7 "4440-367",
   :id #uuid "007ee1c1-0fe3-3c42-a8bb-6b1b4fd20bb3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+ :geocode
+ {:id #uuid "007ee1c1-0fe3-3c42-a8bb-6b1b4fd20bb3",
+  :address "Rua D. João I, Nº 188 4440-367 SOBRADO",
+  :address-c "Rua Dom João I 188, 4440-367, Sobrado, Valongo, Porto",
+  :postal-c "4440-367",
+  :x -8.464680001356015,
+  :y 41.20975998286613,
+  :score 98.29,
+  :c 1}}

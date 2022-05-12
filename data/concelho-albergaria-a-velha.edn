@@ -98,7 +98,17 @@
     :cp7 "3850-003",
     :id #uuid "317f17b2-2e8a-3109-85ce-fcf09f3a65a3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"},
+   :geocode
+   {:id #uuid "317f17b2-2e8a-3109-85ce-fcf09f3a65a3",
+    :address "Rua 1º de Maio, 1º F 3850-003 ALBERGARIA A VELHA",
+    :address-c
+    "Rua 1 de Maio 1º, 3850-003, Albergaria-a-Velha, Aveiro",
+    :postal-c "3850-003",
+    :x -8.479424655277292,
+    :y 40.68996485553297,
+    :score 99.73,
+    :c 2}}]
  ["vouga-00976"
   {:nec 976,
    :rates
@@ -198,7 +208,14 @@
     :cp7 "3850-115",
     :id #uuid "1b56e136-876e-3cb6-a0ee-a29a7a2f0654",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"},
+   :geocode
+   {:cp7 "3850-115",
+    :postal-c "3850-115",
+    :x -8.486879974830373,
+    :y 40.698420009901014,
+    :score 100,
+    :c 1}}]
  ["nova-de-albergaria-01331"
   {:nec 1331,
    :rates
@@ -298,4 +315,15 @@
     :cp7 "3850-089",
     :id #uuid "80350540-3f0e-3ea8-958f-56d559fe541d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"},
+   :geocode
+   {:id #uuid "80350540-3f0e-3ea8-958f-56d559fe541d",
+    :address
+    "Rua Comendador Martins Pereira, n.º 65, 3850-089 ALBERGARIA-A-VELHA",
+    :address-c
+    "Rua Comendador Martins Pereira 65, 3850-089, Albergaria-a-Velha, Aveiro",
+    :postal-c "3850-089",
+    :x -8.473029969480365,
+    :y 40.688490011118574,
+    :score 97.26,
+    :c 3}}]]

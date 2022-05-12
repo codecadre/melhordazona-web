@@ -67,4 +67,13 @@
   :cp7 "3010-456",
   :id #uuid "9b55aa64-3328-37cd-a13a-558ad85b496e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
+ :geocode
+ {:id #uuid "9b55aa64-3328-37cd-a13a-558ad85b496e",
+  :address "Rua Albergaria dos Doze, n 55, 3010-456 POMBAL",
+  :address-c "Rua Albergaria dos Doze 55, 3100-456, Pombal, Leiria",
+  :postal-c "3100-456",
+  :x -8.629164792890265,
+  :y 39.910315042319866,
+  :score 98.06,
+  :c 4}}

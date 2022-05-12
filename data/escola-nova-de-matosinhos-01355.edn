@@ -81,4 +81,14 @@
   :cp7 "4450-103",
   :id #uuid "616b0129-2c05-39d8-95ff-d932bef29ab7",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+ :geocode
+ {:id #uuid "616b0129-2c05-39d8-95ff-d932bef29ab7",
+  :address "Rua da Cruz de Pau, n.º 116, 4450-103 Matosinhos",
+  :address-c
+  "Rua da Cruz de Pau, 4450-103, Carcavelos, Matosinhos, Porto",
+  :postal-c "4450-103",
+  :x -8.672541582014839,
+  :y 41.18059513530154,
+  :score 95.14,
+  :c 4}}

@@ -96,4 +96,15 @@
   :cp7 "2700-662",
   :id #uuid "d3248ee3-6f52-388d-993e-74b55c20ddeb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
+ :geocode
+ {:id #uuid "d3248ee3-6f52-388d-993e-74b55c20ddeb",
+  :address
+  "Largo Poeta Ary dos Santos, lote 1, 1 B e 1 C 2700-662 AMADORA",
+  :address-c
+  "Largo Poeta Ary dos Santos 1, 2650-146, Alfornelos, Amadora, Lisboa",
+  :postal-c "2650-146",
+  :x -9.207639996524733,
+  :y 38.76213998476143,
+  :score 96.58,
+  :c 1}}

@@ -95,4 +95,13 @@
   :cp7 "6200-209",
   :id #uuid "7c39b34c-f706-3636-831c-a5ae401ecce6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+ :geocode
+ {:id #uuid "7c39b34c-f706-3636-831c-a5ae401ecce6",
+  :address "Estrada do Sineiro, n.º 57, 6200-209 COVILHÃ",
+  :address-c "Estrada do Sineiro, 6200-209, Covilhã, Castelo Branco",
+  :postal-c "6200-209",
+  :x -7.511186804663096,
+  :y 40.286296465990866,
+  :score 95.88,
+  :c 3}}

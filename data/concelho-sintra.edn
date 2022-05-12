@@ -97,7 +97,18 @@
     :cp7 "2725-316",
     :id #uuid "af6c4c44-cbe3-34d0-866f-3b65a6dbcb1b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "af6c4c44-cbe3-34d0-866f-3b65a6dbcb1b",
+    :address
+    "Rua Francisco Sá Carneiro, Nº 28, Loja C - cave 2725-316 MEM MARTINS",
+    :address-c
+    "Rua Francisco Sá Carneiro 28, 2725-316, Ouressa, Sintra, Lisboa",
+    :postal-c "2725-316",
+    :x -9.355169958134724,
+    :y 38.79868001155495,
+    :score 96.69,
+    :c 1}}]
  ["sintra-00048"
   {:nec 48,
    :rates
@@ -197,7 +208,14 @@
     :cp7 "2710-583",
     :id #uuid "43efa9cb-26d1-357f-89ec-5640bbeec57d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:cp7 "2710-583",
+    :postal-c "2710-583",
+    :x -9.37957001355457,
+    :y 38.80322501473279,
+    :score 100,
+    :c 1}}]
  ["queluz-00210"
   {:nec 210,
    :rates
@@ -296,7 +314,16 @@
     :cp7 "2745-201",
     :id #uuid "753416ec-702a-3072-bfcf-32d3d815a52c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "753416ec-702a-3072-bfcf-32d3d815a52c",
+    :address "Rua D.Pedro IV nº 37 – 1º Dtº 2745-201 QUELUZ",
+    :address-c "Rua Dom Pedro IV 37, 2745-201, Queluz, Sintra, Lisboa",
+    :postal-c "2745-201",
+    :x -9.253199998872901,
+    :y 38.75630001945248,
+    :score 96.9,
+    :c 1}}]
  ["memmartins-algueirao-00318"
   {:nec 318,
    :rates
@@ -395,7 +422,17 @@
     :cp7 "2725-472",
     :id #uuid "c2557ba1-63d5-3248-9426-4142b651ff61",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "c2557ba1-63d5-3248-9426-4142b651ff61",
+    :address "Rua do Zambujal, nº 10 A 2725-472 MEM MARTINS",
+    :address-c
+    "Rua do Zambujal 10, 2725-472, Mem Martins, Sintra, Lisboa",
+    :postal-c "2725-472",
+    :x -9.34189998048447,
+    :y 38.79564999546653,
+    :score 98.15,
+    :c 1}}]
  ["prudentes-do-volante-00404"
   {:nec 404,
    :rates
@@ -495,7 +532,14 @@
     :cp7 "2735-001",
     :id #uuid "6f920e4c-afdd-3841-bf33-b84b65b6093c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:cp7 "2735-001",
+    :postal-c "2735-001",
+    :x -9.293979969478215,
+    :y 38.74788500775949,
+    :score 100,
+    :c 1}}]
  ["atlantida-00490"
   {:nec 490,
    :rates
@@ -594,7 +638,17 @@
     :cp7 "2735",
     :id #uuid "cc30a675-a38f-3719-9a97-423d856c48af",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "cc30a675-a38f-3719-9a97-423d856c48af",
+    :address "Avª D. Nuno Álvares Pereira n 76 A 2735 CACÉM",
+    :address-c
+    "Avenida Dom Nuno Álvares Pereira 76, 2735-146, Agualva, Sintra, Lisboa",
+    :postal-c "2735-146",
+    :x -9.292490002369732,
+    :y 38.770170015641554,
+    :score 95.44,
+    :c 1}}]
  ["infante-sagres-massama-00518"
   {:nec 518,
    :rates
@@ -693,7 +747,17 @@
     :cp7 "2745-822",
     :id #uuid "46493b91-ab7c-3498-869c-56ac57dde3cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "46493b91-ab7c-3498-869c-56ac57dde3cb",
+    :address "Rua da Milharada nº 17 - Loja 2745-822 QUELUZ",
+    :address-c
+    "Rua da Milharada 17, 2745-822, Massamá, Sintra, Lisboa",
+    :postal-c "2745-822",
+    :x -9.28045376931513,
+    :y 38.75523211338537,
+    :score 96.15,
+    :c 1}}]
  ["pero-pinheiro-00535"
   {:nec 535,
    :rates
@@ -792,7 +856,17 @@
     :cp7 "2715-097",
     :id #uuid "41b7040f-7a88-3191-89b6-ecbb72c0a333",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "41b7040f-7a88-3191-89b6-ecbb72c0a333",
+    :address "Avª da Liberdade nº 72 -1º 2715 -097 PERO PINHEIRO",
+    :address-c
+    "Avenida da Liberdade 72, 2715-005, Pero Pinheiro, Sintra, Lisboa",
+    :postal-c "2715-005",
+    :x -9.32586003529181,
+    :y 38.85594999364389,
+    :score 96.92,
+    :c 4}}]
  ["almansor-00815"
   {:nec 815,
    :rates
@@ -891,7 +965,17 @@
     :cp7 "2745-172",
     :id #uuid "b780525e-cab7-3014-8183-84949d5c52a6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "b780525e-cab7-3014-8183-84949d5c52a6",
+    :address "Av. Miguel Bombarda, Nº24 2745-172 QUELUZ",
+    :address-c
+    "Avenida Doutor Miguel Bombarda 24, 2745-172, Pendão, Sintra, Lisboa",
+    :postal-c "2745-172",
+    :x -9.257070007388052,
+    :y 38.75959000026788,
+    :score 96.73,
+    :c 1}}]
  ["terrugem-00837"
   {:nec 837,
    :rates
@@ -990,7 +1074,14 @@
     :cp7 "2705-830",
     :id #uuid "5e82ffee-7258-36e6-a14c-b119ec3fd82e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:cp7 "2705-830",
+    :postal-c "2705-830",
+    :x -9.357444974294594,
+    :y 38.83109044229198,
+    :score 100,
+    :c 1}}]
  ["memmartins-d-afonso-v-00895"
   {:nec 895,
    :rates
@@ -1090,7 +1181,18 @@
     :cp7 "2725-171",
     :id #uuid "92297790-d182-35d2-b9ce-89b2d302a4e5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "92297790-d182-35d2-b9ce-89b2d302a4e5",
+    :address
+    "Rua António Silva Nº 4, Loja A -Urb. S. Carlos 2725 -171 MEM MARTINS",
+    :address-c
+    "Rua António Silva 4, 2725-170, Mem Martins, Sintra, Lisboa",
+    :postal-c "2725-170",
+    :x -9.347769994916291,
+    :y 38.785589993365846,
+    :score 95.58,
+    :c 1}}]
  ["margo-00911"
   {:nec 911,
    :rates
@@ -1189,7 +1291,14 @@
     :cp7 "2735-296",
     :id #uuid "0c1ac9df-4d97-3785-9c8b-40eb260bf5f5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:cp7 "2735-296",
+    :postal-c "2735-296",
+    :x -9.303114986653952,
+    :y 38.76896499133156,
+    :score 100,
+    :c 1}}]
  ["triangulo-azul-00971"
   {:nec 971,
    :rates
@@ -1288,7 +1397,14 @@
     :cp7 "2735-651",
     :id #uuid "96ebf7ec-6dd2-3fc9-b4c5-09a9059fe696",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:cp7 "2735-651",
+    :postal-c "2735-651",
+    :x -9.300264971936258,
+    :y 38.74826998857236,
+    :score 100,
+    :c 1}}]
  ["infante-de-queluz-00977"
   {:nec 977,
    :rates
@@ -1388,7 +1504,18 @@
     :cp7 "2745-123",
     :id #uuid "ba92e46c-1546-308f-9855-603e91343348",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "ba92e46c-1546-308f-9855-603e91343348",
+    :address
+    "Praceta Henrique Pousão Lote 21/22 Loja 5-B 2745-123 QUELUZ",
+    :address-c
+    "Praceta Henrique Pousão 21, 2745-123, Monte Abraão, Sintra, Lisboa",
+    :postal-c "2745-123",
+    :x -9.2692695828102,
+    :y 38.75714863150954,
+    :score 97.23,
+    :c 1}}]
  ["rio-de-mouro-00979"
   {:nec 979,
    :rates
@@ -1487,7 +1614,17 @@
     :cp7 "2635-063",
     :id #uuid "1823c1af-f1b7-38be-924c-7b90fe2320a9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "1823c1af-f1b7-38be-924c-7b90fe2320a9",
+    :address "Av. Das Descobertas, Nº 6 2635-063 RIO DE MOURO",
+    :address-c
+    "Avenida das Descobertas 6, 2635, Rio de Mouro, Sintra, Lisboa",
+    :postal-c "2635",
+    :x -9.319495300236301,
+    :y 38.78284291535,
+    :score 96.53,
+    :c 2}}]
  ["caravela-00984"
   {:nec 984,
    :rates
@@ -1586,7 +1723,14 @@
     :cp7 "2635-011",
     :id #uuid "8de799ce-2681-33b0-9725-c135db841ce7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:cp7 "2635-011",
+    :postal-c "2635-011",
+    :x -9.345709974572856,
+    :y 38.764560007846256,
+    :score 100,
+    :c 1}}]
  ["merces-serra-das-minas-01003"
   {:nec 1003,
    :rates
@@ -1686,7 +1830,18 @@
     :cp7 "2635-361",
     :id #uuid "9bd67077-f5b8-3f9e-bba1-b19589345063",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "9bd67077-f5b8-3f9e-bba1-b19589345063",
+    :address
+    "Rua Ferreira de Castro nº 47 loja 5 2635-361 RIO DE MOURO",
+    :address-c
+    "Rua Ferreira de Castro 47, 2635-361, Mercês, Sintra, Lisboa",
+    :postal-c "2635-361",
+    :x -9.330200017117988,
+    :y 38.78867000750671,
+    :score 97.39,
+    :c 2}}]
  ["via-net-01027"
   {:nec 1027,
    :rates
@@ -1785,7 +1940,17 @@
     :cp7 "2605-842",
     :id #uuid "f8dd7d09-0799-3027-ba0c-2e34307c62f3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "f8dd7d09-0799-3027-ba0c-2e34307c62f3",
+    :address "Rua Pisa nº 11 loja Dtª 2605-842 CASAL DE CAMBRA",
+    :address-c
+    "Rua de Pisa 11, 2605-842, Casal de Cambra, Sintra, Lisboa",
+    :postal-c "2605-842",
+    :x -9.229019968411421,
+    :y 38.80083001162896,
+    :score 96.66,
+    :c 1}}]
  ["nova-imagem-01265"
   {:nec 1265,
    :rates
@@ -1884,7 +2049,16 @@
     :cp7 "2710-043",
     :id #uuid "925b717e-2861-3a1a-9870-07272cb59507",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "925b717e-2861-3a1a-9870-07272cb59507",
+    :address "Rua do Forno, Nº 36, Loja 2, 2710-043 SINTRA",
+    :address-c "Rua do Forno 36, 2710-043, Abrunheira, Sintra, Lisboa",
+    :postal-c "2710-043",
+    :x -9.35743240058234,
+    :y 38.77147480622775,
+    :score 97.28,
+    :c 2}}]
  ["belas-01271"
   {:nec 1271,
    :rates
@@ -1984,7 +2158,18 @@
     :cp7 "2605-015",
     :id #uuid "db302e36-aec1-3a0f-a2e4-523be4a1a5e2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "db302e36-aec1-3a0f-a2e4-523be4a1a5e2",
+    :address
+    "Rua Alexandre Herculano, n.º 52-G, Loja 3, Bloco A, 2605-015 Belas",
+    :address-c
+    "Rua Alexandre Herculano 52G, 2605-015, Belas, Sintra, Lisboa",
+    :postal-c "2605-015",
+    :x -9.260940015903174,
+    :y 38.77347998729604,
+    :score 95.85,
+    :c 1}}]
  ["vale-mourao-01282"
   {:nec 1282,
    :rates
@@ -2084,7 +2269,18 @@
     :cp7 "2635-475",
     :id #uuid "c3692b12-b241-301d-a3e2-f7cdf733cec6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "c3692b12-b241-301d-a3e2-f7cdf733cec6",
+    :address
+    "Praceta Camilo Pessanha lote 44, loja B, 2635-475 Rio de Mouro",
+    :address-c
+    "Praceta Camilo Pessanha 44, 2635-625, Vale Mourão, Sintra, Lisboa",
+    :postal-c "2635-625",
+    :x -9.318618995505952,
+    :y 38.76588267999491,
+    :score 96.25,
+    :c 1}}]
  ["gama-barros-01292"
   {:nec 1292,
    :rates
@@ -2183,7 +2379,16 @@
     :cp7 "2735-476",
     :id #uuid "a2c961f5-3d82-3859-880b-8cdf11724a83",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:id #uuid "a2c961f5-3d82-3859-880b-8cdf11724a83",
+    :address "Largo Gama Barros, n.º 16; 2735-476 Cacém",
+    :address-c "Largo Gama Barros 16, 2735-476, Cacém, Sintra, Lisboa",
+    :postal-c "2735-476",
+    :x -9.312699842774911,
+    :y 38.77226743459027,
+    :score 96.42,
+    :c 1}}]
  ["casal-de-cambra-01342"
   {:nec 1342,
    :rates
@@ -2283,7 +2488,14 @@
     :cp7 "2605-003",
     :id #uuid "c6805408-447a-3bb1-950a-3d223881942e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:cp7 "2605-003",
+    :postal-c "2605-003",
+    :x -9.228035010969279,
+    :y 38.80568501949574,
+    :score 100,
+    :c 1}}]
  ["estacao-01398"
   {:nec 1398,
    :rates
@@ -2355,7 +2567,14 @@
     :cp7 "2725-563",
     :id #uuid "a8251be8-45e7-3a68-b642-b5c8c067d578",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:cp7 "2725-563",
+    :postal-c "2725-563",
+    :x -9.329755021878412,
+    :y 38.79359999149739,
+    :score 100,
+    :c 1}}]
  ["cacem-01424"
   {:nec 1424,
    :rates
@@ -2412,4 +2631,11 @@
     :cp7 "2710-091",
     :id #uuid "fba50ccd-e318-3586-bfff-179921327f9c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+   :geocode
+   {:cp7 "2710-091",
+    :postal-c "2710-091",
+    :x -9.385674972732403,
+    :y 38.81814999916506,
+    :score 100,
+    :c 1}}]]

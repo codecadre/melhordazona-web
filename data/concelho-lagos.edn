@@ -97,7 +97,18 @@
     :cp7 "8600-775",
     :id #uuid "3a051498-3977-3fb0-bf52-adac2f479ab0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
+   :geocode
+   {:id #uuid "3a051498-3977-3fb0-bf52-adac2f479ab0",
+    :address
+    "Rua Francisco Xavier Ataíde de Oliveira, Lote 31, Loja D, 8600-775 LAGOS",
+    :address-c
+    "Rua Francisco Xavier Ataíde de Oliveira 31, 8600-775, Lagos, Faro",
+    :postal-c "8600-775",
+    :x -8.68131003746825,
+    :y 37.10562001779006,
+    :score 100,
+    :c 1}}]
  ["infante-sagres-lagos-00636"
   {:nec 636,
    :rates
@@ -197,7 +208,14 @@
     :cp7 "8600-620",
     :id #uuid "24fcbbf2-edde-355c-a1b6-9a134f186e8b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
+   :geocode
+   {:cp7 "8600-620",
+    :postal-c "8600-620",
+    :x -8.67516501279323,
+    :y 37.09626501756546,
+    :score 100,
+    :c 1}}]
  ["novais-unipessoal-00973"
   {:nec 973,
    :rates
@@ -296,7 +314,16 @@
     :cp7 "8600-546",
     :id #uuid "e63e6220-fb66-3f92-984c-2081f6ba302e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
+   :geocode
+   {:id #uuid "e63e6220-fb66-3f92-984c-2081f6ba302e",
+    :address "Pedra Alçada Lote 7, Loja C 8600-546 LAGOS",
+    :address-c "Rua da Pedra Alçada 7, 8600-546, Lagos, Faro",
+    :postal-c "8600-546",
+    :x -8.686172689874327,
+    :y 37.10052876468152,
+    :score 98.46,
+    :c 1}}]
  ["hora-de-ponta-01277"
   {:nec 1277,
    :rates
@@ -396,4 +423,14 @@
     :cp7 "8600-707",
     :id #uuid "6c709059-ec5f-32ca-9f97-5ecd2203561f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
+   :geocode
+   {:id #uuid "6c709059-ec5f-32ca-9f97-5ecd2203561f",
+    :address
+    "Rua Palos de La Frontera, Lote 14, Loja A - 8600-707 LAGOS",
+    :address-c "Rua Palos de la Frontera 14, 8600-707, Lagos, Faro",
+    :postal-c "8600-707",
+    :x -8.680519417729204,
+    :y 37.11059631554357,
+    :score 98.9,
+    :c 1}}]]

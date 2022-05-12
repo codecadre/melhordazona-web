@@ -95,4 +95,13 @@
   :cp7 "4740-049",
   :id #uuid "73111271-82ef-357e-96bc-644185b2b913",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+ :geocode
+ {:id #uuid "73111271-82ef-357e-96bc-644185b2b913",
+  :address "Rua da Lagoa, Nº 14 4740-049 APÚLIA",
+  :address-c "Rua da Lagoa 14, 4740-083, Apúlia, Esposende, Braga",
+  :postal-c "4740-083",
+  :x -8.770534970640913,
+  :y 41.48575671918389,
+  :score 97.2,
+  :c 1}}

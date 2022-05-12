@@ -96,7 +96,14 @@
     :cp7 "3650-209",
     :id #uuid "7c035670-cd41-307b-894c-a4e9cdbf0c66",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"},
+   :geocode
+   {:cp7 "3650-209",
+    :postal-c "3650-209",
+    :x -7.724229967093208,
+    :y 40.85417999460091,
+    :score 100,
+    :c 1}}]
  ["irmaos-tavares-01119"
   {:nec 1119,
    :rates
@@ -195,4 +202,14 @@
     :cp7 "3650-219",
     :id #uuid "d5178182-ff1e-39ab-b4d0-3ebb3a24b5e1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"},
+   :geocode
+   {:id #uuid "d5178182-ff1e-39ab-b4d0-3ebb3a24b5e1",
+    :address "Rua Egas Moniz, nº 20 r/c 3650-219 VILA NOVA DE PAIVA",
+    :address-c
+    "Rua Egas Moniz 20, 3650-219, Vila Nova de Paiva, Viseu",
+    :postal-c "3650-219",
+    :x -7.731660021344055,
+    :y 40.85150998125388,
+    :score 98.01,
+    :c 4}}]]

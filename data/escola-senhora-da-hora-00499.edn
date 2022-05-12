@@ -95,4 +95,14 @@
   :cp7 "4460-816",
   :id #uuid "c35fd1d4-da00-3cca-b4cf-2de7a4175826",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+ :geocode
+ {:id #uuid "c35fd1d4-da00-3cca-b4cf-2de7a4175826",
+  :address "Rua de S. Gens, 3289/3291, 4460-816 CUSTÓIAS MTS",
+  :address-c
+  "Rua de São Gens 3289, 4460-816, Padrão da Légua, Matosinhos, Porto",
+  :postal-c "4460-816",
+  :x -8.64209002286293,
+  :y 41.18923001978044,
+  :score 96.9,
+  :c 1}}

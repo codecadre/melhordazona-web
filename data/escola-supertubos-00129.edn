@@ -95,4 +95,13 @@
   :cp7 nil,
   :id #uuid "522db535-7570-3cf1-9dd1-161527a8d5b5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
+ :geocode
+ {:id #uuid "522db535-7570-3cf1-9dd1-161527a8d5b5",
+  :address "Rua Ramiro de Matos Bilhau, n.º 8-10 Peniche",
+  :address-c "Rua Ramiro Matos Bilhau 8, 2520-486, Peniche, Leiria",
+  :postal-c "2520-486",
+  :x -9.379200036348408,
+  :y 39.36095999524042,
+  :score 95.33,
+  :c 1}}

@@ -81,4 +81,13 @@
   :cp7 "6270-133",
   :id #uuid "46db1c63-d0cf-3776-8722-8c76d5babb56",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"},
+ :geocode
+ {:id #uuid "46db1c63-d0cf-3776-8722-8c76d5babb56",
+  :address "Rua do Comércio nº 173 r/c 6270-133 SEIA",
+  :address-c "Rua do Comércio 173, 6270-133, Paranhos, Seia, Guarda",
+  :postal-c "6270-133",
+  :x -7.768109984587937,
+  :y 40.471049989793016,
+  :score 97.72,
+  :c 8}}

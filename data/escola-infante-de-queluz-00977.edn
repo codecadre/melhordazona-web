@@ -96,4 +96,15 @@
   :cp7 "2745-123",
   :id #uuid "ba92e46c-1546-308f-9855-603e91343348",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "ba92e46c-1546-308f-9855-603e91343348",
+  :address
+  "Praceta Henrique Pousão Lote 21/22 Loja 5-B 2745-123 QUELUZ",
+  :address-c
+  "Praceta Henrique Pousão 21, 2745-123, Monte Abraão, Sintra, Lisboa",
+  :postal-c "2745-123",
+  :x -9.2692695828102,
+  :y 38.75714863150954,
+  :score 97.23,
+  :c 1}}

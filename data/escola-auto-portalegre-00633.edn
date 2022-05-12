@@ -95,4 +95,13 @@
   :cp7 "7300-205",
   :id #uuid "02f670ec-6e0e-3d17-98f1-22104019c771",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
+ :geocode
+ {:id #uuid "02f670ec-6e0e-3d17-98f1-22104019c771",
+  :address "Rua 1.º de Maio, 81, Loja X, 7300-205 Portalegre",
+  :address-c "Rua 1 de Maio 81, 7300-205, Portalegre",
+  :postal-c "7300-205",
+  :x -7.4326137600314635,
+  :y 39.29363981980897,
+  :score 98.9,
+  :c 2}}

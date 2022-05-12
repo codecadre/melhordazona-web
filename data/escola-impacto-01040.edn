@@ -95,4 +95,14 @@
   :cp7 "3700-511",
   :id #uuid "c70de70d-f125-30da-bcf8-465c99a52a3e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "c70de70d-f125-30da-bcf8-465c99a52a3e",
+  :address "Rua Frei Luís de Sousa nº 24 3700-511 ARRIFANA",
+  :address-c
+  "Rua Frei Luís de Sousa 24, 3700-511, Arrifana, Santa Maria da Feira, Aveiro",
+  :postal-c "3700-511",
+  :x -8.50215914929098,
+  :y 40.92061814916762,
+  :score 97.36,
+  :c 1}}

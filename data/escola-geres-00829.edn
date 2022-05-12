@@ -95,4 +95,14 @@
   :cp7 "4840-100",
   :id #uuid "333cd72f-eac1-3e92-bb57-694aa34be572",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Terras%20Bouro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Terras%20Bouro"},
+ :geocode
+ {:id #uuid "333cd72f-eac1-3e92-bb57-694aa34be572",
+  :address "Rua Dr. Francisco Xavier Araújo 4840-100 MOIMENTA",
+  :address-c
+  "Rua Dr. Francisco Xavier de Araújo, 4840-100, Vila de Terras de Bouro, Terras de Bouro, Braga",
+  :postal-c "4840-100",
+  :x -8.30610643298542,
+  :y 41.71829285839761,
+  :score 96.53,
+  :c 1}}

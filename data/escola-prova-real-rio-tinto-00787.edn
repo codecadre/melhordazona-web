@@ -95,4 +95,14 @@
   :cp7 "4435-374",
   :id #uuid "13e656d7-c160-3459-a36b-b6a83a07bec4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+ :geocode
+ {:id #uuid "13e656d7-c160-3459-a36b-b6a83a07bec4",
+  :address "Rua Padre Joaquim das Neves, Nº 1084 4435-374 RIO TINTO",
+  :address-c
+  "Rua Padre Joaquim das Neves 1084, 4435-374, Campainha, Gondomar, Porto",
+  :postal-c "4435-374",
+  :x -8.552729966376319,
+  :y 41.18728001191619,
+  :score 97.38,
+  :c 3}}

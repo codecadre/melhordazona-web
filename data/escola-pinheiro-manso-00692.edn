@@ -95,4 +95,14 @@
   :cp7 "4585-116",
   :id #uuid "6b055c93-4b3f-36be-a426-1b59a49dfd23",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+ :geocode
+ {:id #uuid "6b055c93-4b3f-36be-a426-1b59a49dfd23",
+  :address "Rua Central da Gandra nº 1479 4585-116 GANDRA",
+  :address-c
+  "Rua Central de Gandra 1479, 4585-248, Vilarinho de Cima, Paredes, Porto",
+  :postal-c "4585-248",
+  :x -8.449562903517997,
+  :y 41.18497594011866,
+  :score 95.83,
+  :c 2}}

@@ -95,4 +95,14 @@
   :cp7 "4940-531",
   :id #uuid "06dab6ab-bf13-3cf4-b1d7-29e51d1494b1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Paredes%20de%20Coura"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Paredes%20de%20Coura"},
+ :geocode
+ {:id #uuid "06dab6ab-bf13-3cf4-b1d7-29e51d1494b1",
+  :address "Rua Dr. Afonso Viana, 60 4940-531 PAREDES DE COURA",
+  :address-c
+  "Rua Doutor Afonso Viana 60, 4940-531, Paredes de Coura, Viana do Castelo",
+  :postal-c "4940-531",
+  :x -8.559660040102727,
+  :y 41.90998999956528,
+  :score 100,
+  :c 1}}

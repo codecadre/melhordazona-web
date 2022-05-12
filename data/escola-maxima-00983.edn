@@ -96,4 +96,15 @@
   :cp7 "4785-313",
   :id #uuid "3a225b27-90d0-3504-8fd9-0fd0a6a5cfe4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+ :geocode
+ {:id #uuid "3a225b27-90d0-3504-8fd9-0fd0a6a5cfe4",
+  :address
+  "Rua Dr. António Augusto Pires de Lima, Nº 327 4785-313 S. MARTINHO (BOUGADO)",
+  :address-c
+  "Rua do Doutor António Augusto Pires Lima 327, 4785-313, Trofa, Porto",
+  :postal-c "4785-313",
+  :x -8.562780035921747,
+  :y 41.33412999163107,
+  :score 97.47,
+  :c 1}}

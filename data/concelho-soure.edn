@@ -96,7 +96,17 @@
     :cp7 "3130-240",
     :id #uuid "c8928f9f-ec27-3d0b-a01c-1eb715999463",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
+   :geocode
+   {:id #uuid "c8928f9f-ec27-3d0b-a01c-1eb715999463",
+    :address "Rua Dr. Evaristo de Carvalho 3130-240 SOURE",
+    :address-c
+    "Rua Doutor Evaristo Carvalho Filho, 3130-240, Soure, Coimbra",
+    :postal-c "3130-240",
+    :x -8.635628552249877,
+    :y 40.04644743758927,
+    :score 97.7,
+    :c 2}}]
  ["s-mateus-00756"
   {:nec 756,
    :rates
@@ -195,7 +205,14 @@
     :cp7 "3130-208",
     :id #uuid "2632b21b-4085-34e5-a137-970cec6cd211",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
+   :geocode
+   {:cp7 "3130-208",
+    :postal-c "3130-208",
+    :x -8.641334226653612,
+    :y 40.0503240898486,
+    :score 100,
+    :c 1}}]
  ["granja-do-ulmeiro-00969"
   {:nec 969,
    :rates
@@ -294,4 +311,14 @@
     :cp7 "3130-080",
     :id #uuid "171bf96e-123a-35bb-bb87-6d39bf190fe1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
+   :geocode
+   {:id #uuid "171bf96e-123a-35bb-bb87-6d39bf190fe1",
+    :address "Rua do Comércio 3130-080 GRANJA DO ULMEIRO",
+    :address-c
+    "Rua do Comércio, 3130-080, Granja do Ulmeiro, Soure, Coimbra",
+    :postal-c "3130-080",
+    :x -8.634721723787333,
+    :y 40.16334907770819,
+    :score 100,
+    :c 1}}]]

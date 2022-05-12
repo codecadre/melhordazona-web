@@ -39,4 +39,13 @@
   :cp7 "2025-031",
   :id #uuid "b24bccbc-3fc4-3a53-87d0-0469765aa6fc",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+ :geocode
+ {:id #uuid "b24bccbc-3fc4-3a53-87d0-0469765aa6fc",
+  :address "Rua do Comércio nº 9 A 2025-031 ALCANEDE",
+  :address-c "Rua do Comércio 9, 2025-040, Alcanede, Santarém",
+  :postal-c "2025-040",
+  :x -8.821540031964673,
+  :y 39.41503999261886,
+  :score 97.01,
+  :c 3}}

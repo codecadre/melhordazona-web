@@ -95,4 +95,13 @@
   :cp7 "4810-421",
   :id #uuid "7e1795a4-3352-353c-9d8a-1b9e0154b83a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+ :geocode
+ {:id #uuid "7e1795a4-3352-353c-9d8a-1b9e0154b83a",
+  :address "Praça Heróis da Fundação, Bloco 6-1º E 4810-421 GUIMARÃES",
+  :address-c "Praça Heróis da Fundação 6, 4810-242, Guimarães, Braga",
+  :postal-c "4810-242",
+  :x -8.300589472734737,
+  :y 41.44354766083905,
+  :score 97.6,
+  :c 1}}

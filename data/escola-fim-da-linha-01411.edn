@@ -53,4 +53,13 @@
   :cp7 "4490-463",
   :id #uuid "1e662879-eab9-3387-8e18-d5fb33df8158",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+ :geocode
+ {:id #uuid "1e662879-eab9-3387-8e18-d5fb33df8158",
+  :address "Rua Almirante Reis, n.º 40, 4490-463 Póvoa de Varzim",
+  :address-c "Rua Almirante Reis, 4490-463, Póvoa de Varzim, Porto",
+  :postal-c "4490-463",
+  :x -8.75843436747284,
+  :y 41.37735304859002,
+  :score 96.5,
+  :c 3}}

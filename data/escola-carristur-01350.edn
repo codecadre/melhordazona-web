@@ -81,4 +81,13 @@
   :cp7 "1800-000",
   :id #uuid "a41f1f27-cbd2-347c-9593-4089c00b0a04",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "a41f1f27-cbd2-347c-9593-4089c00b0a04",
+  :address "Av. Marechal Gomes da Costa 1800-000 LISBOA",
+  :address-c "Avenida Marechal Gomes da Costa, 1800-262, Lisboa",
+  :postal-c "1800-262",
+  :x -9.113788630714275,
+  :y 38.75906835713455,
+  :score 98.42,
+  :c 5}}

@@ -95,4 +95,13 @@
   :cp7 "2070-116",
   :id #uuid "eb22c28c-577a-3596-97ce-fe5c71757611",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"},
+ :geocode
+ {:id #uuid "eb22c28c-577a-3596-97ce-fe5c71757611",
+  :address "Rua Serpa Pinto, nº 3 –1ºDtº 2070-116 CARTAXO",
+  :address-c "Rua Serpa Pinto 3, 2070-116, Cartaxo, Santarém",
+  :postal-c "2070-116",
+  :x -8.786966738249188,
+  :y 39.160554443350705,
+  :score 97.02,
+  :c 7}}

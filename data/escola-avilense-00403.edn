@@ -95,4 +95,14 @@
   :cp7 "4795-058",
   :id #uuid "ece76f2c-5d3b-305f-b175-53f64f5781b8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+ :geocode
+ {:id #uuid "ece76f2c-5d3b-305f-b175-53f64f5781b8",
+  :address "Rua D. Afonso Henriques, Nº 12 4795-058 AVES",
+  :address-c
+  "Rua Dom Afonso Henriques 12, 4795-058, Aves, Santo Tirso, Porto",
+  :postal-c "4795-058",
+  :x -8.402319982835252,
+  :y 41.36342000745395,
+  :score 98.42,
+  :c 1}}

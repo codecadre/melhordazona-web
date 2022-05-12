@@ -26,7 +26,14 @@
     :cp7 "3450-123",
     :id #uuid "3ec263bb-8436-3778-9b94-fe1db90a4426",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
+   :geocode
+   {:cp7 "3450-123",
+    :postal-c "3450-123",
+    :x -8.230805037650669,
+    :y 40.3965199926852,
+    :score 100,
+    :c 1}}]
  ["juiz-de-fora-00792"
   {:nec 792,
    :rates
@@ -126,7 +133,14 @@
     :cp7 "3450-202",
     :id #uuid "b6ea8497-b558-3cb6-8fbc-52015084b1b5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
+   :geocode
+   {:cp7 "3450-202",
+    :postal-c "3450-202",
+    :x -8.247604970004232,
+    :y 40.38981501496855,
+    :score 100,
+    :c 1}}]
  ["smart-road-01440"
   {:nec 1440,
    :rates
@@ -155,4 +169,11 @@
     :cp7 "3450-150",
     :id #uuid "7cd6e868-46be-3b83-9fe0-f72734cf1fc6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
+   :geocode
+   {:cp7 "3450-150",
+    :postal-c "3450-150",
+    :x -8.229184983404906,
+    :y 40.398500007762806,
+    :score 100,
+    :c 1}}]]

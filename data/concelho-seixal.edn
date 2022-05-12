@@ -96,7 +96,17 @@
     :cp7 "2845-092",
     :id #uuid "ab04d5cf-027d-32bf-8f63-75c12d128d65",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "ab04d5cf-027d-32bf-8f63-75c12d128d65",
+    :address "Rua do Alentejo, Nº 1 e 1-A 2845-092 SEIXAL",
+    :address-c
+    "Rua do Alentejo 1, 2845-092, Cruz de Pau, Seixal, Setúbal",
+    :postal-c "2845-092",
+    :x -9.122493264924502,
+    :y 38.62170732123658,
+    :score 96.35,
+    :c 1}}]
  ["amorense-00538"
   {:nec 538,
    :rates
@@ -195,7 +205,16 @@
     :cp7 "2845-367",
     :id #uuid "642ce38a-6e12-3130-a13c-1c60d8090b47",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "642ce38a-6e12-3130-a13c-1c60d8090b47",
+    :address "Rua das Flores, 8 loja C 2845-367 AMORA",
+    :address-c "Rua das Flores 8, 2845-367, Paivas, Seixal, Setúbal",
+    :postal-c "2845-367",
+    :x -9.112960029911704,
+    :y 38.62013000930665,
+    :score 98.82,
+    :c 1}}]
  ["tecnidrive-00934"
   {:nec 934,
    :rates
@@ -294,7 +313,17 @@
     :cp7 "2855-587",
     :id #uuid "a20173cb-fd2e-3604-a7f1-0cb97b954498",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "a20173cb-fd2e-3604-a7f1-0cb97b954498",
+    :address "Praceta João Azevedo nº 4/4 A 2855-587 CORROIOS",
+    :address-c
+    "Praceta João Azevedo 4, 2855-587, Vale de Milhaços, Seixal, Setúbal",
+    :postal-c "2855-587",
+    :x -9.148929961560725,
+    :y 38.62976001977444,
+    :score 96.79,
+    :c 1}}]
  ["corroios-pmr-01013"
   {:nec 1013,
    :rates
@@ -394,7 +423,14 @@
     :cp7 "2855-109",
     :id #uuid "2879e60e-15c7-3f49-a160-cc16ee35d4fb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:cp7 "2855-109",
+    :postal-c "2855-109",
+    :x -9.153319983348865,
+    :y 38.64335500572034,
+    :score 100,
+    :c 1}}]
  ["costa-azul-01122"
   {:nec 1122,
    :rates
@@ -493,7 +529,17 @@
     :cp7 "2865-065",
     :id #uuid "86f86840-b62b-3e0c-9a59-256cd6bd3ac0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "86f86840-b62b-3e0c-9a59-256cd6bd3ac0",
+    :address "Rua da República, lote 344 r/c 2865-065 FERNÃO FERRO",
+    :address-c
+    "Rua República 344, 2865-635, Fernão Ferro, Seixal, Setúbal",
+    :postal-c "2865-635",
+    :x -9.086580001323767,
+    :y 38.56211998898635,
+    :score 98.45,
+    :c 1}}]
  ["pereira-tostao-01223"
   {:nec 1223,
    :rates
@@ -593,7 +639,18 @@
     :cp7 "2840-378",
     :id #uuid "b34c6654-2f02-318b-9639-1ecf952e4d2f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "b34c6654-2f02-318b-9639-1ecf952e4d2f",
+    :address
+    "Rua Distrito de Lobata, Nº 7-B, Quinta de Cima, Torre da Marinha 2840-378 SEIXAL",
+    :address-c
+    "Rua Distrito de Lobata 7B, 2840-378, Quinta de Cima, Seixal, Setúbal",
+    :postal-c "2840-378",
+    :x -9.097379999746266,
+    :y 38.617950002019256,
+    :score 96.43,
+    :c 1}}]
  ["rio-sul-01236"
   {:nec 1236,
    :rates
@@ -692,7 +749,17 @@
     :cp7 "2840-732",
     :id #uuid "84744ece-ecab-32be-badc-9bce5e9532f6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "84744ece-ecab-32be-badc-9bce5e9532f6",
+    :address "Rua Casal do Marco, Nº 73 C e 73 D, 2840-732 SEIXAL",
+    :address-c
+    "Rua Casal do Marco 73, 2840-732, Casal do Marco, Seixal, Setúbal",
+    :postal-c "2840-732",
+    :x -9.10046001388713,
+    :y 38.61120001348257,
+    :score 97.13,
+    :c 1}}]
  ["topdrive-01259"
   {:nec 1259,
    :rates
@@ -890,7 +957,14 @@
     :cp7 "2845-601",
     :id #uuid "1d23ad76-7d33-3992-86af-f4ecd81ba297",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:cp7 "2845-601",
+    :postal-c "2845-601",
+    :x -9.108909978116344,
+    :y 38.614624984848604,
+    :score 100,
+    :c 1}}]
  ["abs-01334"
   {:nec 1334,
    :rates
@@ -989,7 +1063,14 @@
     :cp7 "2845-554",
     :id #uuid "6ddbb550-377b-3cea-a3fc-6231366a6f29",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:cp7 "2845-554",
+    :postal-c "2845-554",
+    :x -9.124454971926497,
+    :y 38.61325999191649,
+    :score 100,
+    :c 1}}]
  ["nova-de-setubal-01364"
   {:nec 1364,
    :rates
@@ -1074,7 +1155,14 @@
     :cp7 "2845-607",
     :id #uuid "6a1abda7-fd26-3e70-a03e-7ca95543f91a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:cp7 "2845-607",
+    :postal-c "2845-607",
+    :x -9.116640020681842,
+    :y 38.63061501580785,
+    :score 100,
+    :c 1}}]
  ["forus-01392"
   {:nec 1392,
    :rates
@@ -1131,4 +1219,13 @@
     :cp7 nil,
     :id #uuid "d77c278d-0ade-3a68-8077-689dada9eb81",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "d77c278d-0ade-3a68-8077-689dada9eb81",
+    :address "Estação de Comboios dos Foros da Amora ",
+    :address-c "Comboio-Foros de Amora",
+    :postal-c "2845",
+    :x -9.127749999999935,
+    :y 38.620940000000076,
+    :score 84.08,
+    :c 6}}]]

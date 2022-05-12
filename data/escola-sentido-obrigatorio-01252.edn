@@ -96,4 +96,15 @@
   :cp7 "2645-048",
   :id #uuid "eb654b9d-d227-302e-82a2-c544e8caf0e3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+ :geocode
+ {:id #uuid "eb654b9d-d227-302e-82a2-c544e8caf0e3",
+  :address
+  "Rua Guilherme Gomes Fernandes, Lote 5, Loja 2645-048 ALCABIDECHE",
+  :address-c
+  "Rua Guilherme Gomes Fernandes 5, 2645-048, Alcabideche, Cascais, Lisboa",
+  :postal-c "2645-048",
+  :x -9.409839999587206,
+  :y 38.73099999908871,
+  :score 99.25,
+  :c 1}}

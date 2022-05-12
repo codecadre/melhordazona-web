@@ -95,4 +95,14 @@
   :cp7 "2565",
   :id #uuid "dad8f8f3-6392-37f4-a686-001fadf0543f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+ :geocode
+ {:id #uuid "dad8f8f3-6392-37f4-a686-001fadf0543f",
+  :address "Rua Francisco Antunes, Nº 1 2565 – 031 CAMPELOS",
+  :address-c
+  "Rua Francisco Antunes 1, 2565-065, Campelos, Torres Vedras, Lisboa",
+  :postal-c "2565-065",
+  :x -9.236929970438098,
+  :y 39.19747998434934,
+  :score 97.4,
+  :c 1}}

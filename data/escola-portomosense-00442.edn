@@ -95,4 +95,14 @@
   :cp7 "2480-317",
   :id #uuid "d300e863-7c49-3740-a9bd-85310e318631",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"},
+ :geocode
+ {:id #uuid "d300e863-7c49-3740-a9bd-85310e318631",
+  :address "Rua Adelino Amaro da Costa, nº 3 2480-317 PORTO DE MÓS",
+  :address-c
+  "Rua Eng. Adelino Amaro da Costa 3, 2480-317, Porto de Mós, Leiria",
+  :postal-c "2480-317",
+  :x -8.819150016093232,
+  :y 39.59926001708919,
+  :score 98.53,
+  :c 1}}

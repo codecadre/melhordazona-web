@@ -95,4 +95,13 @@
   :cp7 "2900-667",
   :id #uuid "244f11ca-0571-34f7-b05a-ab1d58e0f9c8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+ :geocode
+ {:id #uuid "244f11ca-0571-34f7-b05a-ab1d58e0f9c8",
+  :address "Avª 22 de Dezembro, 52 2900-667 SETÙBAL",
+  :address-c "Avenida 22 de Dezembro 52, 2900-667, Setúbal",
+  :postal-c "2900-667",
+  :x -8.89392002899848,
+  :y 38.525089998042716,
+  :score 97.51,
+  :c 1}}

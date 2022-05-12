@@ -95,4 +95,13 @@
   :cp7 "4200-056",
   :id #uuid "bb771206-cfb3-3264-8062-1d3ec9c8d167",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "bb771206-cfb3-3264-8062-1d3ec9c8d167",
+  :address "Rua do Amial, Nº 928 4200-056 PORTO",
+  :address-c "Rua do Amial 928, 4200-056, Porto",
+  :postal-c "4200-056",
+  :x -8.61351997061331,
+  :y 41.18109001833065,
+  :score 98.27,
+  :c 3}}

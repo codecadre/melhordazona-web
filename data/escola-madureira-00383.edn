@@ -95,4 +95,14 @@
   :cp7 "4630-293",
   :id #uuid "e86057b8-75f4-3cdf-8111-7ccfb8411893",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+ :geocode
+ {:id #uuid "e86057b8-75f4-3cdf-8111-7ccfb8411893",
+  :address "Charneca - Rua São Nicolau, 224 4630-293 S. NICOLAU",
+  :address-c
+  "Rua de São Nicolau 224, 4630-261, Marco de Canaveses, Porto",
+  :postal-c "4630-261",
+  :x -8.151929987665227,
+  :y 41.186519982845766,
+  :score 95.75,
+  :c 1}}

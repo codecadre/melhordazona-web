@@ -95,4 +95,13 @@
   :cp7 "4730-711",
   :id #uuid "4cfbc6d2-42d5-38d1-8483-fbe6534d83ad",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
+ :geocode
+ {:id #uuid "4cfbc6d2-42d5-38d1-8483-fbe6534d83ad",
+  :address "Avª António Sérgio, 709 4730-711 VILA VERDE",
+  :address-c "Avenida António Sérgio 709, 4730-711, Vila Verde, Braga",
+  :postal-c "4730-711",
+  :x -8.436259985173251,
+  :y 41.64661999868537,
+  :score 97.61,
+  :c 4}}

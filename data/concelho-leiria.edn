@@ -97,7 +97,14 @@
     :cp7 "2400-123",
     :id #uuid "9959a1f7-63bc-3d62-a2a7-f03592a62dc1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2400-123",
+    :postal-c "2400-123",
+    :x -8.80922500454318,
+    :y 39.74285999766684,
+    :score 100,
+    :c 1}}]
  ["maringa-00597"
   {:nec 597,
    :rates
@@ -182,7 +189,14 @@
     :cp7 "2400-258",
     :id #uuid "07117e21-6d6d-3e21-b216-30e028b0843c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2400-258",
+    :postal-c "2400-258",
+    :x -8.803524975107763,
+    :y 39.747294988365525,
+    :score 100,
+    :c 1}}]
  ["maceira-00694"
   {:nec 694,
    :rates
@@ -282,7 +296,14 @@
     :cp7 "2405-009",
     :id #uuid "26515c36-a601-3873-8816-900e45c7fd56",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2405-009",
+    :postal-c "2405-009",
+    :x -8.914129971020913,
+    :y 39.68120498102215,
+    :score 100,
+    :c 1}}]
  ["rota-do-sol-00695"
   {:nec 695,
    :rates
@@ -381,7 +402,14 @@
     :cp7 "2410-078",
     :id #uuid "93e90028-9736-3137-9b53-eb59678a0de5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2410-078",
+    :postal-c "2410-078",
+    :x -8.798775034397266,
+    :y 39.732025004798544,
+    :score 100,
+    :c 1}}]
  ["esteves-00766"
   {:nec 766,
    :rates
@@ -481,7 +509,18 @@
     :cp7 "2415-440",
     :id #uuid "2ee3f490-87c0-3035-938f-65c7d88e60b7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:id #uuid "2ee3f490-87c0-3035-938f-65c7d88e60b7",
+    :address
+    "Rua António Alves Espirito Santo,Lote 1, Loja 92 2415-440 LEIRIA",
+    :address-c
+    "Rua António do Espirito Santo 1, 2415-440, Sismaria, Leiria",
+    :postal-c "2415-440",
+    :x -8.820561627866361,
+    :y 39.75428456053375,
+    :score 99.72,
+    :c 1}}]
  ["d-dinis-00869"
   {:nec 869,
    :rates
@@ -580,7 +619,14 @@
     :cp7 "2400-250",
     :id #uuid "0bd64c2d-15b9-3d43-af9f-90c0da7b1f62",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2400-250",
+    :postal-c "2400-250",
+    :x -8.811440006276342,
+    :y 39.745769984901784,
+    :score 100,
+    :c 1}}]
  ["batalhense-de-leiria-00872"
   {:nec 872,
    :rates
@@ -780,7 +826,14 @@
     :cp7 "2425-603",
     :id #uuid "b338f7fa-3d95-335c-826e-b4d79c737a06",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2425-603",
+    :postal-c "2425-603",
+    :x -8.835034979896164,
+    :y 39.890819992819246,
+    :score 100,
+    :c 1}}]
  ["rota-do-sol-da-caranguejeira-01114"
   {:nec 1114,
    :rates
@@ -880,7 +933,18 @@
     :cp7 "2420-104",
     :id #uuid "c3c3775b-72dd-3406-878a-2055c26fd77c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:id #uuid "c3c3775b-72dd-3406-878a-2055c26fd77c",
+    :address
+    "Rua de São Cristóvão nº 16 r/c Esqº 2420-104 CARANGUEJEIRA",
+    :address-c
+    "Rua de São Cristovão 16, 2420-104, Casal da Cruz, Leiria",
+    :postal-c "2420-104",
+    :x -8.704999978051063,
+    :y 39.74358000314962,
+    :score 96.16,
+    :c 1}}]
  ["marrazes-01293"
   {:nec 1293,
    :rates
@@ -979,7 +1043,17 @@
     :cp7 "2415-423",
     :id #uuid "38e392cf-f794-3969-8544-671f39fb2a67",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:id #uuid "38e392cf-f794-3969-8544-671f39fb2a67",
+    :address "Rua José Diogo Oliveira Júnior, Lote 4; 2415-423 Leiria",
+    :address-c
+    "Rua José Diogo de Oliveira Júnior 4, 2415-423, Gândara dos Olivais, Leiria",
+    :postal-c "2415-423",
+    :x -8.824739991139978,
+    :y 39.76170000143429,
+    :score 100,
+    :c 1}}]
  ["leiridrive-01335"
   {:nec 1335,
    :rates
@@ -1079,7 +1153,14 @@
     :cp7 "2400-845",
     :id #uuid "4207f3b2-5147-34a4-9815-08ea68ff45d7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2400-845",
+    :postal-c "2400-845",
+    :x -8.824954986956413,
+    :y 39.73940501908743,
+    :score 100,
+    :c 1}}]
  ["via-dinamica-01337"
   {:nec 1337,
    :rates
@@ -1179,7 +1260,14 @@
     :cp7 "2415-376",
     :id #uuid "56cd4099-f7a4-3eb6-8b57-b2b82984962f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2415-376",
+    :postal-c "2415-376",
+    :x -8.792920023572123,
+    :y 39.75810500316234,
+    :score 100,
+    :c 1}}]
  ["limits-01338"
   {:nec 1338,
    :rates
@@ -1265,7 +1353,14 @@
     :cp7 "2425-507",
     :id #uuid "65bf902e-6581-3acf-886b-3c63ae6fac1c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2425-507",
+    :postal-c "2425-507",
+    :x -8.83413501495221,
+    :y 39.850765014929124,
+    :score 100,
+    :c 1}}]
  ["lizauto-01369"
   {:nec 1369,
    :rates
@@ -1336,4 +1431,11 @@
     :cp7 "2400-448",
     :id #uuid "84e680cc-d2ee-3de6-83aa-0ef8abb7d989",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+   :geocode
+   {:cp7 "2400-448",
+    :postal-c "2400-448",
+    :x -8.814950012050076,
+    :y 39.73955983283909,
+    :score 100,
+    :c 1}}]]

@@ -95,4 +95,13 @@
   :cp7 "4050-496",
   :id #uuid "2992efee-820c-3d52-98e5-a1d5e2cf9890",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "2992efee-820c-3d52-98e5-a1d5e2cf9890",
+  :address "Praça da República, 64 4050-496 PORTO",
+  :address-c "Praça da República 64, 4050-496, Porto",
+  :postal-c "4050-496",
+  :x -8.61347001447038,
+  :y 41.15401999147329,
+  :score 100,
+  :c 2}}

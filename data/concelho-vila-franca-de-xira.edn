@@ -96,7 +96,17 @@
     :cp7 "2600-100",
     :id #uuid "6870c25f-13fd-3c87-9b34-a6d664ec8420",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:id #uuid "6870c25f-13fd-3c87-9b34-a6d664ec8420",
+    :address "Rua Alves Redol, 115 e 117 2600 - 100 VILA FRANCA XIRA ",
+    :address-c
+    "Rua Alves Redol 115, 2600-100, Vila Franca de Xira, Lisboa",
+    :postal-c "2600-100",
+    :x -8.987029981327737,
+    :y 38.95793998565429,
+    :score 98.72,
+    :c 5}}]
  ["nova-xira-00468"
   {:nec 468,
    :rates
@@ -140,7 +150,18 @@
     :cp7 "2600-180",
     :id #uuid "94e416ff-9c8d-3191-843e-3938158f59dd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:id #uuid "94e416ff-9c8d-3191-843e-3938158f59dd",
+    :address
+    "Rua Luís de Camões nº 60 r/c Dtº 2600-180 VILA FRANCA DE XIRA",
+    :address-c
+    "Rua Luís de Camões 60, 2600-180, Vila Franca de Xira, Lisboa",
+    :postal-c "2600-180",
+    :x -8.98978997440534,
+    :y 38.95200999870525,
+    :score 97.53,
+    :c 2}}]
  ["salvaterra-00598"
   {:nec 598,
    :rates
@@ -240,7 +261,17 @@
     :cp7 "2695-214",
     :id #uuid "ddc3db66-672a-32e6-bee6-a2f2ac6472ac",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:id #uuid "ddc3db66-672a-32e6-bee6-a2f2ac6472ac",
+    :address "Rua da Circunvalação 2695-214 PÓVOA SANTA IRIA",
+    :address-c
+    "Rua da Circunvalação, 2690-214, Bairro do Estacal Novo, Loures, Lisboa",
+    :postal-c "2690-214",
+    :x -9.093327485178767,
+    :y 38.83210426890922,
+    :score 82.23,
+    :c 6}}]
  ["alhandra-rio-00726"
   {:nec 726,
    :rates
@@ -340,7 +371,18 @@
     :cp7 "2615-072",
     :id #uuid "928a001e-3ae8-31f2-96a6-1d72a67364cd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:id #uuid "928a001e-3ae8-31f2-96a6-1d72a67364cd",
+    :address
+    "Rua Dr. Augusto Assis, Lote 02, Loja Dt.ª, 2615-072 Alhandra",
+    :address-c
+    "Rua de Doutor Augusto Assis 2, 2600-416, Alhandra, Vila Franca de Xira, Lisboa",
+    :postal-c "2600-416",
+    :x -9.01009999635167,
+    :y 38.92576998980985,
+    :score 98.07,
+    :c 1}}]
  ["quinta-da-piedade-00861"
   {:nec 861,
    :rates
@@ -440,7 +482,14 @@
     :cp7 "2625-215",
     :id #uuid "e5bfc242-a134-39f8-8348-d79e53d93e26",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:cp7 "2625-215",
+    :postal-c "2625-215",
+    :x -9.071084963656546,
+    :y 38.86354001651682,
+    :score 100,
+    :c 1}}]
  ["trinca-00864"
   {:nec 864,
    :rates
@@ -596,7 +645,17 @@
     :cp7 "2625-391",
     :id #uuid "65f0df38-1deb-3381-a40a-8156098c2431",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:id #uuid "65f0df38-1deb-3381-a40a-8156098c2431",
+    :address "Rua Padre Américo nº 12 loja 2625-391 FORTE DA CASA",
+    :address-c
+    "Rua Padre Américo 12, 2625-456, Soda Póvoa, Vila Franca de Xira, Lisboa",
+    :postal-c "2625-456",
+    :x -9.060027348636343,
+    :y 38.87153884579824,
+    :score 95.34,
+    :c 2}}]
  ["coimbra-da-povoa-00889"
   {:nec 889,
    :rates
@@ -696,7 +755,14 @@
     :cp7 "2625-215",
     :id #uuid "84e30016-7dd8-3adb-80df-24b76ae65c26",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:cp7 "2625-215",
+    :postal-c "2625-215",
+    :x -9.071084963656546,
+    :y 38.86354001651682,
+    :score 100,
+    :c 1}}]
  ["coimbra-de-vialonga-00891"
   {:nec 891,
    :rates
@@ -796,7 +862,18 @@
     :cp7 "2625",
     :id #uuid "31d2d785-e3b1-3a43-abe6-48598fe5b6f8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:id #uuid "31d2d785-e3b1-3a43-abe6-48598fe5b6f8",
+    :address
+    "Rua Maria Barradas, Nº 6 Loja Dtª 2625 PÓVOA DE STª IRIA",
+    :address-c
+    "Rua Maria Barradas 6, 2625-696, Vialonga, Vila Franca de Xira, Lisboa",
+    :postal-c "2625-696",
+    :x -9.080340009685756,
+    :y 38.873989986662735,
+    :score 95.4,
+    :c 1}}]
  ["viaensinauto-01184"
   {:nec 1184,
    :rates
@@ -896,7 +973,18 @@
     :cp7 "2625-387",
     :id #uuid "500e805a-0083-3c8b-a90f-89561f768992",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:id #uuid "500e805a-0083-3c8b-a90f-89561f768992",
+    :address
+    "Rua Adriano Correia de Oliveira, Nº 6 R/C Frente 2625-387 FORTE da CASA",
+    :address-c
+    "Rua Adriano Correia de Oliveira 6, 2625-387, Soda Póvoa, Vila Franca de Xira, Lisboa",
+    :postal-c "2625-387",
+    :x -9.059182019463659,
+    :y 38.86638219039116,
+    :score 96.08,
+    :c 1}}]
  ["malvarosa-01272"
   {:nec 1272,
    :rates
@@ -954,7 +1042,14 @@
     :cp7 "2615-150",
     :id #uuid "aa28df5c-8b3a-3240-96be-71f1d7dbf2bd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:cp7 "2615-150",
+    :postal-c "2615-150",
+    :x -9.036410036048125,
+    :y 38.89410500363172,
+    :score 100,
+    :c 1}}]
  ["alverca-rio-01401"
   {:nec 1401,
    :rates
@@ -1026,7 +1121,18 @@
     :cp7 nil,
     :id #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:id #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe",
+    :address
+    "Praça da Sociedade Filarmónica Recreio Alverquense nº12 - Alverca do Ribatejo",
+    :address-c
+    "Praça Sociedade Fil. e Rec.a Alverquense, 2615-391, Alverca do Ribatejo, Vila Franca de Xira, Lisboa",
+    :postal-c "2615-391",
+    :x -9.040306654872065,
+    :y 38.89075998980737,
+    :score 74.69,
+    :c 2}}]
  ["castanheira-do-ribatejo-01412"
   {:nec 1412,
    :rates
@@ -1084,4 +1190,15 @@
     :cp7 "2600-605",
     :id #uuid "20b89880-0ee2-3b1f-b402-d11f1bec6a8a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+   :geocode
+   {:id #uuid "20b89880-0ee2-3b1f-b402-d11f1bec6a8a",
+    :address
+    "Rua Padre António Bianchi, n.º 18 2600-605 Castanheira do Ribatejo",
+    :address-c
+    "Rua Padre António Bianchi, 2600-605, Castanheira do Ribatejo, Vila Franca de Xira, Lisboa",
+    :postal-c "2600-605",
+    :x -8.972143085509039,
+    :y 38.98898563249385,
+    :score 97.41,
+    :c 1}}]]

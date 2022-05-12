@@ -97,7 +97,18 @@
     :cp7 "2800-710",
     :id #uuid "0c080967-05ae-3727-b9fd-f749f6353689",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:id #uuid "0c080967-05ae-3727-b9fd-f749f6353689",
+    :address
+    "Rua Torcato José Clavine, nº 5 - Piso 1 2800 -710 ALMADA",
+    :address-c
+    "Rua Torcato José Clavine 5, 2800-710, Pragal, Almada, Setúbal",
+    :postal-c "2800-710",
+    :x -9.166119987688091,
+    :y 38.67582000264704,
+    :score 97.35,
+    :c 1}}]
  ["instrutejo-00736"
   {:nec 736,
    :rates
@@ -196,7 +207,14 @@
     :cp7 "2810-288",
     :id #uuid "30ce7b22-7774-37da-859b-7685d33e9e5f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2810-288",
+    :postal-c "2810-288",
+    :x -9.154369984359647,
+    :y 38.65446999606419,
+    :score 100,
+    :c 1}}]
  ["nova-almada-00978"
   {:nec 978,
    :rates
@@ -296,7 +314,17 @@
     :cp7 "2800-338",
     :id #uuid "4696761e-29aa-3a57-b583-1f84e4337852",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:id #uuid "4696761e-29aa-3a57-b583-1f84e4337852",
+    :address "Avenida António José Gomes 54 2800-338 COVA da PIEDADE",
+    :address-c
+    "Avenida António José Gomes 54, 2805-086, Cova da Piedade, Almada, Setúbal",
+    :postal-c "2805-086",
+    :x -9.156499993594593,
+    :y 38.67186998886609,
+    :score 98.29,
+    :c 1}}]
  ["madalena-e-fonseca-01060"
   {:nec 1060,
    :rates
@@ -396,7 +424,17 @@
     :cp7 "2825",
     :id #uuid "923cd579-9862-312d-9468-87ac4cc8dc92",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:id #uuid "923cd579-9862-312d-9468-87ac4cc8dc92",
+    :address "Rua Eleutério Teixeira Lt 27 2825 MONTE DA CAPARICA",
+    :address-c
+    "Rua Eleutério Teixeira 27, 2825-152, Alcaniça, Almada, Setúbal",
+    :postal-c "2825-152",
+    :x -9.190076519027935,
+    :y 38.664687331877836,
+    :score 95.41,
+    :c 1}}]
  ["instrucosta-01157"
   {:nec 1157,
    :rates
@@ -495,7 +533,14 @@
     :cp7 "2825-001",
     :id #uuid "ba6faa26-de99-3ccf-a8c5-d3bd945b1a73",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2825-001",
+    :postal-c "2825-001",
+    :x -9.185830033005146,
+    :y 38.66619497941164,
+    :score 100,
+    :c 1}}]
  ["lazarim-01213"
   {:nec 1213,
    :rates
@@ -594,7 +639,14 @@
     :cp7 "2825-001",
     :id #uuid "e776c98e-a8c0-3d53-8c02-b005abea99bc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2825-001",
+    :postal-c "2825-001",
+    :x -9.185830033005146,
+    :y 38.66619497941164,
+    :score 100,
+    :c 1}}]
  ["nova-asseiceira-01215"
   {:nec 1215,
    :rates
@@ -693,7 +745,14 @@
     :cp7 "2800-648",
     :id #uuid "b00f102c-f507-33d9-be48-04f69ac705d5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2800-648",
+    :postal-c "2800-648",
+    :x -9.156920010762718,
+    :y 38.67841001072824,
+    :score 100,
+    :c 1}}]
  ["altamente-01242"
   {:nec 1242,
    :rates
@@ -793,7 +852,18 @@
     :cp7 "2810-001",
     :id #uuid "21af171f-3a1e-35c1-a871-642468bdba8a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:id #uuid "21af171f-3a1e-35c1-a871-642468bdba8a",
+    :address
+    "Rua Maria Judite de Carvalho, n.º 15-B ; 2810-001 Almada",
+    :address-c
+    "Rua Maria Judite de Carvalho 15B, 2810-409, Feijó, Almada, Setúbal",
+    :postal-c "2810-409",
+    :x -9.16513997556882,
+    :y 38.650399995339285,
+    :score 96.05,
+    :c 2}}]
  ["charneca-01285"
   {:nec 1285,
    :rates
@@ -893,7 +963,14 @@
     :cp7 "2820-185",
     :id #uuid "49c78c0f-a279-33c2-bf98-a5baea589f35",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2820-185",
+    :postal-c "2820-185",
+    :x -9.187205000402031,
+    :y 38.6056200129006,
+    :score 100,
+    :c 1}}]
  ["universia-01305"
   {:nec 1305,
    :rates
@@ -992,4 +1069,11 @@
     :cp7 "2825-146",
     :id #uuid "dd78b043-5805-3cb0-b9dd-ad66ff7a6473",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2825-146",
+    :postal-c "2825-146",
+    :x -9.19750996362302,
+    :y 38.66621501216022,
+    :score 100,
+    :c 1}}]]

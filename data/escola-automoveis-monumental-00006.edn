@@ -95,4 +95,13 @@
   :cp7 "1000-198",
   :id #uuid "a4031653-1fd4-384e-923b-92ee7ebbe977",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "a4031653-1fd4-384e-923b-92ee7ebbe977",
+  :address "Avª Manuel da Maia, 11 r/c 1000-198 LISBOA",
+  :address-c "Avenida Manuel da Maia 11, 1000-198, Lisboa",
+  :postal-c "1000-198",
+  :x -9.136909977131012,
+  :y 38.73538000450253,
+  :score 99.38,
+  :c 4}}

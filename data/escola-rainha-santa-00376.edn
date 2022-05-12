@@ -95,4 +95,13 @@
   :cp7 "3000-171",
   :id #uuid "1aee2c19-8686-3b80-90c2-c3cab78b5476",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+ :geocode
+ {:id #uuid "1aee2c19-8686-3b80-90c2-c3cab78b5476",
+  :address "Avª Fernão de Magalhães, 160 –1º 3000-171 COIMBRA",
+  :address-c "Avenida Fernão de Magalhães 160, 3000-171, Coimbra",
+  :postal-c "3000-171",
+  :x -8.432199958913117,
+  :y 40.21118002022206,
+  :score 97.2,
+  :c 2}}

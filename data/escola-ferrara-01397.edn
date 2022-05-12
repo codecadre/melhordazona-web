@@ -68,4 +68,15 @@
   :cp7 "4590-590",
   :id #uuid "e772d8d9-9676-3223-ba06-7df2c699695d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+ :geocode
+ {:id #uuid "e772d8d9-9676-3223-ba06-7df2c699695d",
+  :address
+  "Rua Dr. Queirós Ribeiro, n.º 155, 4590-590 Paços de Ferreira",
+  :address-c
+  "Rua Doutor Queirós Ribeiro 155, 4590-590, Paços de Ferreira, Porto",
+  :postal-c "4590-590",
+  :x -8.385965013101416,
+  :y 41.27555659641529,
+  :score 97.12,
+  :c 2}}

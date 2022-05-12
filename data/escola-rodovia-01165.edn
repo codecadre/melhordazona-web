@@ -96,4 +96,15 @@
   :cp7 "3680-077",
   :id #uuid "b13acc44-3e41-3098-9794-c69b9d22d3a4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Oliveira%20de%20Frades"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Oliveira%20de%20Frades"},
+ :geocode
+ {:id #uuid "b13acc44-3e41-3098-9794-c69b9d22d3a4",
+  :address
+  "Edificio Tojal - R. N. Senhora dos Milagres, 26 Ala B, Loja F 3680-077 OLIVEIRA de FRADES",
+  :address-c
+  "Rua Nossa Senhora dos Milagres 26, 3680-077, Oliveira de Frades, Viseu",
+  :postal-c "3680-077",
+  :x -8.175150038756044,
+  :y 40.72589999564266,
+  :score 97.46,
+  :c 2}}

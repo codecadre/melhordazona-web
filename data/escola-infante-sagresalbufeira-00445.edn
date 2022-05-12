@@ -96,4 +96,14 @@
   :cp7 "8200",
   :id #uuid "64d08f67-feea-393e-98ac-cd4bebf284e0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
+ :geocode
+ {:id #uuid "64d08f67-feea-393e-98ac-cd4bebf284e0",
+  :address
+  "Rua Fernão de Magalhães, lote 16 Fracções D e E 8200 ALBUFEIRA",
+  :address-c "Rua Fernão de Magalhães 16, 8200-129, Albufeira, Faro",
+  :postal-c "8200-129",
+  :x -8.246999964233027,
+  :y 37.08959000515267,
+  :score 97.8,
+  :c 1}}

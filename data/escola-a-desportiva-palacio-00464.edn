@@ -95,4 +95,13 @@
   :cp7 "4050-523",
   :id #uuid "dd02ded2-636f-3be7-8653-14164f72de37",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "dd02ded2-636f-3be7-8653-14164f72de37",
+  :address "Rua do Rosário, 5 – 2º 4050-523 PORTO",
+  :address-c "Rua do Rosário 5, 4050-523, Porto",
+  :postal-c "4050-523",
+  :x -8.620539982160807,
+  :y 41.14758000762555,
+  :score 99.26,
+  :c 3}}

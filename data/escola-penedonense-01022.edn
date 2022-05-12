@@ -95,4 +95,14 @@
   :cp7 "3630-240",
   :id #uuid "5ae66847-a47c-341e-b8af-553a66d0404a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Penedono"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Penedono"},
+ :geocode
+ {:id #uuid "5ae66847-a47c-341e-b8af-553a66d0404a",
+  :address "Travessa do Castelo 3630-240 PENEDONO",
+  :address-c
+  "Travessa do Castelo, 3630-311, Penela da Beira, Penedono, Viseu",
+  :postal-c "3630-311",
+  :x -7.4208948842346985,
+  :y 41.043305045945246,
+  :score 98.42,
+  :c 3}}

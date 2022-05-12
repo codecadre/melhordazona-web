@@ -95,4 +95,13 @@
   :cp7 "4705-102",
   :id #uuid "51747abb-caf2-3b65-aba9-7092f3445d59",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "51747abb-caf2-3b65-aba9-7092f3445d59",
+  :address "Rua Monsenhor Airosa n.º 24 R/c, 4705-102 BRAGA",
+  :address-c "Rua Monsenhor Airosa 24, 4705-102, Braga",
+  :postal-c "4705-102",
+  :x -8.425599964533745,
+  :y 41.54333001540198,
+  :score 96.04,
+  :c 1}}

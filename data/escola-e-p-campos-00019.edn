@@ -95,4 +95,13 @@
   :cp7 "1250-018",
   :id #uuid "eb9a9c5a-1886-303d-8c09-19753b64a276",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "eb9a9c5a-1886-303d-8c09-19753b64a276",
+  :address "Avª Álvares Cabral, 24 1250-018 LISBOA",
+  :address-c "Avenida Álvares Cabral 24, 1250-018, Lisboa",
+  :postal-c "1250-018",
+  :x -9.156350041346798,
+  :y 38.7192300049212,
+  :score 97.51,
+  :c 1}}

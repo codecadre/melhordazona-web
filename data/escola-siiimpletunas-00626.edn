@@ -67,4 +67,13 @@
   :cp7 "3000-072",
   :id #uuid "d4a52045-b061-3833-8636-b6836c732a5d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+ :geocode
+ {:id #uuid "d4a52045-b061-3833-8636-b6836c732a5d",
+  :address "Rua Bernardo de Albuquerque nº 25 r/c 3000-072 COIMBRA",
+  :address-c "Rua Bernardo de Albuquerque 25, 3000-072, Coimbra",
+  :postal-c "3000-072",
+  :x -8.412060005782195,
+  :y 40.2146000043557,
+  :score 98.1,
+  :c 1}}

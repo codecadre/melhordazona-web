@@ -96,4 +96,15 @@
   :cp7 "4480-755",
   :id #uuid "4e1bbf96-9719-3b5b-af7c-ae7b13d1a28e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+ :geocode
+ {:id #uuid "4e1bbf96-9719-3b5b-af7c-ae7b13d1a28e",
+  :address
+  "Rua da Independência da Guiné –113 R/C 2 4480-755 VILA DO CONDE",
+  :address-c
+  "Rua da Independência da Guiné 113, 4480-755, Vila do Conde, Porto",
+  :postal-c "4480-755",
+  :x -8.75044003536479,
+  :y 41.35316001314351,
+  :score 99.39,
+  :c 3}}

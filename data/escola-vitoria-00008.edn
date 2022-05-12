@@ -95,4 +95,13 @@
   :cp7 "1170-286",
   :id #uuid "40e8ceb3-f802-3e9c-9dc8-b1e441812c86",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "40e8ceb3-f802-3e9c-9dc8-b1e441812c86",
+  :address "Rua Palmira, 64 – 1º Esqº 1170 -286 LISBOA",
+  :address-c "Rua Palmira 64, 1170-289, Lisboa",
+  :postal-c "1170-289",
+  :x -9.13390003570072,
+  :y 38.72507998660444,
+  :score 97.01,
+  :c 2}}

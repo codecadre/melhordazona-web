@@ -95,4 +95,14 @@
   :cp7 "6200-759",
   :id #uuid "ca40cd91-78fa-37b8-b3ba-62490a6a4641",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+ :geocode
+ {:id #uuid "ca40cd91-78fa-37b8-b3ba-62490a6a4641",
+  :address "Avª Montes Hermínios 6 A 6200-759 TORTOSENDO",
+  :address-c
+  "Avenida Montes Hermínios 6, 6200-759, Tortosendo, Covilhã, Castelo Branco",
+  :postal-c "6200-759",
+  :x -7.525529995339696,
+  :y 40.24081998050252,
+  :score 97.39,
+  :c 2}}

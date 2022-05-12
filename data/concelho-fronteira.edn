@@ -96,4 +96,14 @@
     :cp7 "7460-000",
     :id #uuid "5cef4e9e-bd71-3cb2-bdf7-50eb68fb140c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Fronteira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Fronteira"},
+   :geocode
+   {:id #uuid "5cef4e9e-bd71-3cb2-bdf7-50eb68fb140c",
+    :address "Rua D. Francisco de Portugal, Nº 11 7460-000 FRONTEIRA",
+    :address-c
+    "Rua Dom Francisco de Portugal 11, 7460-134, Fronteira, Portalegre",
+    :postal-c "7460-134",
+    :x -7.64731997048824,
+    :y 39.057060014017424,
+    :score 97.47,
+    :c 2}}]]

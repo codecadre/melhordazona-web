@@ -95,4 +95,13 @@
   :cp7 "3800-089",
   :id #uuid "aed706cb-a0cd-35e4-a29d-06766524c1f8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
+ :geocode
+ {:id #uuid "aed706cb-a0cd-35e4-a29d-06766524c1f8",
+  :address "Rua do Cónego Maio, Bloco 2, Nº8 - R/C 3800-089 AVEIRO",
+  :address-c "Rua do Cónego Maio 2, 3810-089, São Bernardo, Aveiro",
+  :postal-c "3810-089",
+  :x -8.623550007410131,
+  :y 40.61693999013721,
+  :score 97.45,
+  :c 1}}

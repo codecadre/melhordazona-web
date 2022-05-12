@@ -96,7 +96,16 @@
     :cp7 "6420-018",
     :id #uuid "bd12e40d-5892-3aa7-8aa4-00bc339e86e6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"},
+   :geocode
+   {:id #uuid "bd12e40d-5892-3aa7-8aa4-00bc339e86e6",
+    :address "Avª Fernando Pessoa, Nº 8 R/C Dtº 6420-018 TRANCOSO",
+    :address-c "Avenida Fernando Pessoa 8, 6420-061, Trancoso, Guarda",
+    :postal-c "6420-061",
+    :x -7.35398998826463,
+    :y 40.7696000117667,
+    :score 96.22,
+    :c 1}}]
  ["abc-da-estrada-01438"
   {:nec 1438,
    :rates
@@ -139,4 +148,13 @@
     :cp7 nil,
     :id #uuid "0a795374-d0d0-3e1b-841c-ad0fcc0c1182",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"},
+   :geocode
+   {:id #uuid "0a795374-d0d0-3e1b-841c-ad0fcc0c1182",
+    :address "Av. da República, nº24, r/c , Trancoso",
+    :address-c "Avenida da República 24, 6420-140, Trancoso, Guarda",
+    :postal-c "6420-140",
+    :x -7.35264997340397,
+    :y 40.78087999987457,
+    :score 97.03,
+    :c 2}}]]

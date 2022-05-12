@@ -95,4 +95,13 @@
   :cp7 "4100-012",
   :id #uuid "7516aea9-ea08-3a33-8266-96468bfe477e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "7516aea9-ea08-3a33-8266-96468bfe477e",
+  :address "Rua François Guichard, n.º 8, 4100-012 PORTO",
+  :address-c "Rua François Guichard, 4100-012, Porto",
+  :postal-c "4100-012",
+  :x -8.641397812852958,
+  :y 41.165726001617564,
+  :score 96.91,
+  :c 1}}

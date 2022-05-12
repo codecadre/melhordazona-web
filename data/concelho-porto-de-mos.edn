@@ -96,7 +96,17 @@
     :cp7 "2480-317",
     :id #uuid "d300e863-7c49-3740-a9bd-85310e318631",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"},
+   :geocode
+   {:id #uuid "d300e863-7c49-3740-a9bd-85310e318631",
+    :address "Rua Adelino Amaro da Costa, nº 3 2480-317 PORTO DE MÓS",
+    :address-c
+    "Rua Eng. Adelino Amaro da Costa 3, 2480-317, Porto de Mós, Leiria",
+    :postal-c "2480-317",
+    :x -8.819150016093232,
+    :y 39.59926001708919,
+    :score 98.53,
+    :c 1}}]
  ["a-garcia-00526"
   {:nec 526,
    :rates
@@ -195,7 +205,14 @@
     :cp7 "2480-173",
     :id #uuid "88ffa9a5-73e3-3ab2-a1b1-c567e07194d6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"},
+   :geocode
+   {:cp7 "2480-173",
+    :postal-c "2480-173",
+    :x -8.839080002549593,
+    :y 39.600994987227494,
+    :score 100,
+    :c 1}}]
  ["a-gruta-00958"
   {:nec 958,
    :rates
@@ -294,4 +311,11 @@
     :cp7 "2485-075",
     :id #uuid "6b36e0ee-6f52-3139-a4e2-c4d1d8fd95e1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"},
+   :geocode
+   {:cp7 "2485-075",
+    :postal-c "2485-075",
+    :x -8.713829977770246,
+    :y 39.54446998869278,
+    :score 100,
+    :c 1}}]]

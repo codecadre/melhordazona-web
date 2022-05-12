@@ -95,4 +95,13 @@
   :cp7 "3870-133",
   :id #uuid "f1049702-4c7d-3e96-8653-97c500f1396c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Murtosa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Murtosa"},
+ :geocode
+ {:id #uuid "f1049702-4c7d-3e96-8653-97c500f1396c",
+  :address "Rua Guerra Junqueira - Monte 3870-133 MURTOSA",
+  :address-c "Rua Guerra Junqueiro, 3870, Monte, Murtosa, Aveiro",
+  :postal-c "3870",
+  :x -8.636046900225047,
+  :y 40.74897464297118,
+  :score 97.81,
+  :c 2}}

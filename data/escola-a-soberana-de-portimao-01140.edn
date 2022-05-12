@@ -96,4 +96,14 @@
   :cp7 "8500",
   :id #uuid "38af49e3-95e7-35b3-931f-851dbda926ee",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+ :geocode
+ {:id #uuid "38af49e3-95e7-35b3-931f-851dbda926ee",
+  :address
+  "Urbanização Vila Rosa Lote 16/16 A – Loja D 4 8500 PORTIMÃO",
+  :address-c "Urbanização Vila Rosa 16, 8500-782, Portimão, Faro",
+  :postal-c "8500-782",
+  :x -8.5388099721348,
+  :y 37.12561001867317,
+  :score 99.35,
+  :c 2}}

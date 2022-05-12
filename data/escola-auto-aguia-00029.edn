@@ -95,4 +95,13 @@
   :cp7 "4350-102",
   :id #uuid "1a733a73-7d22-3db1-ae12-e51ecb793ee1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "1a733a73-7d22-3db1-ae12-e51ecb793ee1",
+  :address "Rua Chaves de Oliveira, Nº 60 4350-102 PORTO",
+  :address-c "Rua de Chaves de Oliveira 60, 4350-102, Porto",
+  :postal-c "4350-102",
+  :x -8.576940004051181,
+  :y 41.1617400176645,
+  :score 98.43,
+  :c 5}}

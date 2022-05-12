@@ -96,7 +96,16 @@
     :cp7 "2070-116",
     :id #uuid "eb22c28c-577a-3596-97ce-fe5c71757611",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"},
+   :geocode
+   {:id #uuid "eb22c28c-577a-3596-97ce-fe5c71757611",
+    :address "Rua Serpa Pinto, nº 3 –1ºDtº 2070-116 CARTAXO",
+    :address-c "Rua Serpa Pinto 3, 2070-116, Cartaxo, Santarém",
+    :postal-c "2070-116",
+    :x -8.786966738249188,
+    :y 39.160554443350705,
+    :score 97.02,
+    :c 7}}]
  ["a-ideal-cartaxense-00409"
   {:nec 409,
    :rates
@@ -195,7 +204,17 @@
     :cp7 "2070-099",
     :id #uuid "d91f4fd6-9558-3300-a6b0-2ab2bba98adc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"},
+   :geocode
+   {:id #uuid "d91f4fd6-9558-3300-a6b0-2ab2bba98adc",
+    :address "Rua José Ribeiro Costa, Nº 91 - 2º 2070-099 CARTAXO",
+    :address-c
+    "Rua José Ribeiro da Costa 91, 2070-099, Cartaxo, Santarém",
+    :postal-c "2070-099",
+    :x -8.79072999991044,
+    :y 39.16402001360618,
+    :score 97.98,
+    :c 3}}]
  ["todos-os-santos-01185"
   {:nec 1185,
    :rates
@@ -294,4 +313,14 @@
     :cp7 "2070-084",
     :id #uuid "5e6179f1-2529-3304-9c1a-09c5a8d64b0e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"},
+   :geocode
+   {:id #uuid "5e6179f1-2529-3304-9c1a-09c5a8d64b0e",
+    :address "Rua José Ribeiro da Costa, Nº 241-1º 2070-084 CARTAXO",
+    :address-c
+    "Rua José Ribeiro da Costa 241, 2070-099, Cartaxo, Santarém",
+    :postal-c "2070-099",
+    :x -8.796647069835746,
+    :y 39.16793961418995,
+    :score 96.25,
+    :c 3}}]]

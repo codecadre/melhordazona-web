@@ -95,4 +95,13 @@
   :cp7 "4700-357",
   :id #uuid "f2fca5d2-43ea-319a-b27d-03c57294f105",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "f2fca5d2-43ea-319a-b27d-03c57294f105",
+  :address "Rua Adelino Arantes nº 22 4700-357 BRAGA (S. VICENTE)",
+  :address-c "Rua Adelino Arantes 22, 4700-357, Braga",
+  :postal-c "4700-357",
+  :x -8.418999970154374,
+  :y 41.55802998764349,
+  :score 96.59,
+  :c 1}}

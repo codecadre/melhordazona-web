@@ -96,4 +96,15 @@
   :cp7 "2540-004",
   :id #uuid "b2926ae6-79d4-3408-9381-9a92a15830f1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Bombarral"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Bombarral"},
+ :geocode
+ {:id #uuid "b2926ae6-79d4-3408-9381-9a92a15830f1",
+  :address
+  "Avª Dr. Joaquim Albuquerque lote 1 –r/c- C 2540-004 BOMBARRAL",
+  :address-c
+  "Avenida Doutor Joaquim de Albuquerque 1, 2540-006, Bombarral, Leiria",
+  :postal-c "2540-006",
+  :x -9.162560025771398,
+  :y 39.26422998274873,
+  :score 96.14,
+  :c 1}}

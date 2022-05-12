@@ -95,4 +95,14 @@
   :cp7 "4425-005",
   :id #uuid "c4f982c7-b03e-3dfc-aca8-f2e241fb6b07",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+ :geocode
+ {:id #uuid "c4f982c7-b03e-3dfc-aca8-f2e241fb6b07",
+  :address "Rua Abel Salazar, n.º 344; 4425-005 Maia",
+  :address-c
+  "Rua Abel Salazar 344, 4425-005, Águas Santas, Maia, Porto",
+  :postal-c "4425-005",
+  :x -8.559070037938227,
+  :y 41.202840009333016,
+  :score 96.51,
+  :c 4}}

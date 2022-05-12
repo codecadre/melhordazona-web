@@ -95,4 +95,14 @@
   :cp7 "2830",
   :id #uuid "90afbb92-6de8-3b7e-a3a2-de8f71487e81",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+ :geocode
+ {:id #uuid "90afbb92-6de8-3b7e-a3a2-de8f71487e81",
+  :address "Rua Dr. Manuel Pacheco Nobre 31 –A –1º 2830 BARREIRO",
+  :address-c
+  "Rua Doutor Manuel Pacheco Nobre 31, 2830-080, Barreiro, Setúbal",
+  :postal-c "2830-080",
+  :x -9.064559987310588,
+  :y 38.659739991957196,
+  :score 99.25,
+  :c 1}}

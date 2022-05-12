@@ -97,7 +97,18 @@
     :cp7 "6200-053",
     :id #uuid "3da294f2-fdd3-33f3-967f-74271550dd57",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+   :geocode
+   {:id #uuid "3da294f2-fdd3-33f3-967f-74271550dd57",
+    :address
+    "Rua Marquês D'Ávila e Bolama, Lote 5, Nº 357 R/C DTº 6200-053 COVILHÃ",
+    :address-c
+    "Rua Marquês d'Ávila e Bolama 5, 6200-053, Covilhã, Castelo Branco",
+    :postal-c "6200-053",
+    :x -7.507068551770723,
+    :y 40.278040058579414,
+    :score 96.98,
+    :c 2}}]
  ["pero-da-covilha-00308"
   {:nec 308,
    :rates
@@ -197,7 +208,18 @@
     :cp7 "6200-559",
     :id #uuid "6954eecd-445d-3f94-a530-3a7260228d32",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+   :geocode
+   {:id #uuid "6954eecd-445d-3f94-a530-3a7260228d32",
+    :address
+    "Rua Dr. José Mendes Matos, Lote 10, Fracção A, 6200-559 COVILHÃ",
+    :address-c
+    "Rua Doutor José Mendes de Matos 10, 6200-559, Covilhã, Castelo Branco",
+    :postal-c "6200-559",
+    :x -7.503138474373028,
+    :y 40.28888952290127,
+    :score 98.33,
+    :c 1}}]
  ["a-gomescovilha-00472"
   {:nec 472,
    :rates
@@ -297,7 +319,14 @@
     :cp7 "6200-156",
     :id #uuid "3e718da7-99eb-37b0-a469-51ab4c0a4d15",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+   :geocode
+   {:cp7 "6200-156",
+    :postal-c "6200-156",
+    :x -7.50595498248282,
+    :y 40.27969998320552,
+    :score 100,
+    :c 1}}]
  ["serrana-00859"
   {:nec 859,
    :rates
@@ -396,7 +425,16 @@
     :cp7 "6200-209",
     :id #uuid "7c39b34c-f706-3636-831c-a5ae401ecce6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+   :geocode
+   {:id #uuid "7c39b34c-f706-3636-831c-a5ae401ecce6",
+    :address "Estrada do Sineiro, n.º 57, 6200-209 COVILHÃ",
+    :address-c "Estrada do Sineiro, 6200-209, Covilhã, Castelo Branco",
+    :postal-c "6200-209",
+    :x -7.511186804663096,
+    :y 40.286296465990866,
+    :score 95.88,
+    :c 3}}]
  ["do-tortosendo-00870"
   {:nec 870,
    :rates
@@ -495,7 +533,17 @@
     :cp7 "6200-759",
     :id #uuid "ca40cd91-78fa-37b8-b3ba-62490a6a4641",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+   :geocode
+   {:id #uuid "ca40cd91-78fa-37b8-b3ba-62490a6a4641",
+    :address "Avª Montes Hermínios 6 A 6200-759 TORTOSENDO",
+    :address-c
+    "Avenida Montes Hermínios 6, 6200-759, Tortosendo, Covilhã, Castelo Branco",
+    :postal-c "6200-759",
+    :x -7.525529995339696,
+    :y 40.24081998050252,
+    :score 97.39,
+    :c 2}}]
  ["saber-mais-00980"
   {:nec 980,
    :rates
@@ -594,7 +642,17 @@
     :cp7 "6200-086",
     :id #uuid "fae06809-3d5e-3281-8e7c-300ea5da30d2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+   :geocode
+   {:id #uuid "fae06809-3d5e-3281-8e7c-300ea5da30d2",
+    :address "Rua Conde de Ericeira, Nº 21 Subcave 6200-086 COVILHÃ",
+    :address-c
+    "Rua Conde de Ericeira 21, 6200-086, Covilhã, Castelo Branco",
+    :postal-c "6200-086",
+    :x -7.4973799602582005,
+    :y 40.275900005491394,
+    :score 96.93,
+    :c 1}}]
  ["teixoso-01036"
   {:nec 1036,
    :rates
@@ -694,4 +752,15 @@
     :cp7 "6200-638",
     :id #uuid "85a95d13-0e5c-3ee8-81a6-da44c2bf8c6b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+   :geocode
+   {:id #uuid "85a95d13-0e5c-3ee8-81a6-da44c2bf8c6b",
+    :address
+    "Avenida S. Salvador, Lote 5, R/C Dt.º ; 6200-638 Teixoso",
+    :address-c
+    "Avenida de São Salvador 5, 6200-638, Teixoso, Covilhã, Castelo Branco",
+    :postal-c "6200-638",
+    :x -7.461340039717669,
+    :y 40.31030998114045,
+    :score 98.75,
+    :c 1}}]]

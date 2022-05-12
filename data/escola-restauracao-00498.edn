@@ -96,4 +96,15 @@
   :cp7 "2700-821",
   :id #uuid "2033fe75-91f1-3e10-9f82-38c725e7f909",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
+ :geocode
+ {:id #uuid "2033fe75-91f1-3e10-9f82-38c725e7f909",
+  :address
+  "Praceta Torcato Ferreira, Lote 4 c/v Dtª 2700 -821 AMADORA",
+  :address-c
+  "Praceta Torcato Ferreira 4, 2700-821, Falagueira, Amadora, Lisboa",
+  :postal-c "2700-821",
+  :x -9.22330996451123,
+  :y 38.757129995504926,
+  :score 98.91,
+  :c 1}}

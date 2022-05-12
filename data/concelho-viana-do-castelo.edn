@@ -97,7 +97,17 @@
     :cp7 "4900-532",
     :id #uuid "9a1847e1-563f-33e8-b36f-6cfc7d3b8bf5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+   :geocode
+   {:id #uuid "9a1847e1-563f-33e8-b36f-6cfc7d3b8bf5",
+    :address
+    "Rua Candido dos Reis, Nº 59 4900-532 VIANA DO CASTELO(MONSERRATE)",
+    :address-c "Rua Cândido do Reis 59, 4900-344, Viana do Castelo",
+    :postal-c "4900-344",
+    :x -8.830103487797361,
+    :y 41.693754318451866,
+    :score 95.04,
+    :c 1}}]
  ["sonia-00486"
   {:nec 486,
    :rates
@@ -197,7 +207,18 @@
     :cp7 "4900-509",
     :id #uuid "1ec1b64a-f1ea-3670-b4d6-c2facd57b775",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+   :geocode
+   {:id #uuid "1ec1b64a-f1ea-3670-b4d6-c2facd57b775",
+    :address
+    "Largo João Tomás da Costa, 12 - 1º 4900-509 VIANA DO CASTELO (Stª Mª Maior)",
+    :address-c
+    "Largo João Tomás da Costa 12, 4900-473, Viana do Castelo",
+    :postal-c "4900-473",
+    :x -8.826283613463424,
+    :y 41.692558987676215,
+    :score 96.81,
+    :c 1}}]
  ["santa-luzia-00516"
   {:nec 516,
    :rates
@@ -297,7 +318,17 @@
     :cp7 "4900-495",
     :id #uuid "690f7b63-e466-36e6-a913-b41389f71e11",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+   :geocode
+   {:id #uuid "690f7b63-e466-36e6-a913-b41389f71e11",
+    :address
+    "Rua de Aveiro, 61 –1º Esqº 4900 -495 VIANA DO CASTELO (Stª Mª Maior)",
+    :address-c "Rua Aveiro 61, 4900-495, Viana do Castelo",
+    :postal-c "4900-495",
+    :x -8.825139975559495,
+    :y 41.69669000976566,
+    :score 96.8,
+    :c 1}}]
  ["torre-00671"
   {:nec 671,
    :rates
@@ -397,7 +428,17 @@
     :cp7 "4900-422",
     :id #uuid "b4698e21-2af8-37c5-97c1-916ca2a48c70",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+   :geocode
+   {:id #uuid "b4698e21-2af8-37c5-97c1-916ca2a48c70",
+    :address
+    "Rua Ramalho Ortigão nº 177 r/c Dtº 4900-422 VIANA DO CASTELO (Stª Mª Maior)",
+    :address-c "Rua Ramalho Ortigão 177, 4900-422, Viana do Castelo",
+    :postal-c "4900-422",
+    :x -8.823420009027899,
+    :y 41.7035599852463,
+    :score 96.1,
+    :c 2}}]
  ["volante-do-neiva-00674"
   {:nec 674,
    :rates
@@ -497,7 +538,14 @@
     :cp7 "4905-353",
     :id #uuid "a28707f8-5251-3ca6-adc6-e60d0d180d05",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+   :geocode
+   {:cp7 "4905-353",
+    :postal-c "4905-353",
+    :x -8.702560006036691,
+    :y 41.647880008280225,
+    :score 100,
+    :c 1}}]
  ["inovacao-00762"
   {:nec 762,
    :rates
@@ -597,7 +645,14 @@
     :cp7 "4900-299",
     :id #uuid "75c5e735-eb9d-30dc-b785-ee25b3ce3718",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+   :geocode
+   {:cp7 "4900-299",
+    :postal-c "4900-299",
+    :x -8.827490009752808,
+    :y 41.70132000544169,
+    :score 100,
+    :c 1}}]
  ["meadela-00777"
   {:nec 777,
    :rates
@@ -696,7 +751,14 @@
     :cp7 "4900-204",
     :id #uuid "1fc782e0-b0d4-3889-bd1c-8c4e0c780a7c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+   :geocode
+   {:cp7 "4900-204",
+    :postal-c "4900-204",
+    :x -8.806561990085328,
+    :y 41.70635602050757,
+    :score 100,
+    :c 1}}]
  ["santa-luzia-darque-00917"
   {:nec 917,
    :rates
@@ -894,7 +956,17 @@
     :cp7 "4925-411",
     :id #uuid "791866c8-badf-37c6-b81b-97a3a2ce6401",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+   :geocode
+   {:id #uuid "791866c8-badf-37c6-b81b-97a3a2ce6401",
+    :address "Largo Capitão Gaspar de Castro 4925-411 LANHESES",
+    :address-c
+    "Largo Capitão Gaspar de Castro, 4925-411, Feira, Viana do Castelo",
+    :postal-c "4925-411",
+    :x -8.677362008646123,
+    :y 41.73490792112573,
+    :score 98.26,
+    :c 2}}]
  ["vida-nova-01367"
   {:nec 1367,
    :rates
@@ -966,4 +1038,11 @@
     :cp7 "4900-355",
     :id #uuid "cc5e52d4-69bb-317d-9583-403b1f86671d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+   :geocode
+   {:cp7 "4900-355",
+    :postal-c "4900-355",
+    :x -8.840399984661673,
+    :y 41.69388001863561,
+    :score 100,
+    :c 1}}]]

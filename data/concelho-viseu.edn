@@ -96,7 +96,16 @@
     :cp7 "3510-069",
     :id #uuid "056f85d4-46cd-3877-8e04-2a566b87e038",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:id #uuid "056f85d4-46cd-3877-8e04-2a566b87e038",
+    :address "Praça de Gôa –Lote 14 r/c 3510-069 VISEU",
+    :address-c "Praça de Goa 14, 3510-069, Viseu",
+    :postal-c "3510-069",
+    :x -7.918790033049305,
+    :y 40.653730007192934,
+    :score 99.33,
+    :c 1}}]
  ["grao-vasco-00105"
   {:nec 105,
    :rates
@@ -195,7 +204,16 @@
     :cp7 "3500-209",
     :id #uuid "073f7854-037a-3043-a420-a1feb71051e4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:id #uuid "073f7854-037a-3043-a420-a1feb71051e4",
+    :address "Rua Capitão Silva Pereira, 65/67 3500-209 VISEU",
+    :address-c "Avenida Capitão Silva Pereira 65, 3500-209, Viseu",
+    :postal-c "3500-209",
+    :x -7.908369986297743,
+    :y 40.65865001671884,
+    :score 96.92,
+    :c 1}}]
  ["semaforo-00898"
   {:nec 898,
    :rates
@@ -294,7 +312,14 @@
     :cp7 "3500-189",
     :id #uuid "4e6c4b47-6b48-3445-bb8a-c14a47516b41",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3500-189",
+    :postal-c "3500-189",
+    :x -7.912300009239601,
+    :y 40.64841998771226,
+    :score 100,
+    :c 1}}]
  ["armando-cruz-00901"
   {:nec 901,
    :rates
@@ -393,7 +418,14 @@
     :cp7 "3510-197",
     :id #uuid "84fa75dc-e51d-31ac-ad7c-c40cf0b218dd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3510-197",
+    :postal-c "3510-197",
+    :x -7.945716394086247,
+    :y 40.61891166522116,
+    :score 100,
+    :c 1}}]
  ["conduir-00974"
   {:nec 974,
    :rates
@@ -493,7 +525,18 @@
     :cp7 "3510-596",
     :id #uuid "afb1d9cb-fb26-3437-878b-2deb2620ca71",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:id #uuid "afb1d9cb-fb26-3437-878b-2deb2620ca71",
+    :address
+    "Rua dos Deficientes das Forças Armadas, Nº 10 - Marzovelos 3510-596 VISEU",
+    :address-c
+    "Rua Deficientes das Forças Armadas 10, 3510-059, Viseu",
+    :postal-c "3510-059",
+    :x -7.925149969721758,
+    :y 40.65407001909523,
+    :score 95.94,
+    :c 1}}]
  ["auto-formadora-01001"
   {:nec 1001,
    :rates
@@ -593,7 +636,14 @@
     :cp7 "3515-156",
     :id #uuid "29c07a16-bb08-3491-8b86-cbe3481a0562",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3515-156",
+    :postal-c "3515-156",
+    :x -7.920770006217424,
+    :y 40.68056500548522,
+    :score 100,
+    :c 1}}]
  ["visiense-01068"
   {:nec 1068,
    :rates
@@ -678,7 +728,14 @@
     :cp7 "3510-720",
     :id #uuid "0dec50ce-e5f3-3ff9-80d5-0030a8f43be8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3510-720",
+    :postal-c "3510-720",
+    :x -7.92699499424873,
+    :y 40.65980001383451,
+    :score 100,
+    :c 1}}]
  ["estrada-segura-01074"
   {:nec 1074,
    :rates
@@ -821,7 +878,14 @@
     :cp7 "3500-693",
     :id #uuid "8c577d0e-750d-3c08-ae29-dc42fa5b4a91",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3500-693",
+    :postal-c "3500-693",
+    :x -7.925784982706318,
+    :y 40.6410299989586,
+    :score 100,
+    :c 1}}]
  ["nova-de-viseu-01388"
   {:nec 1388,
    :rates
@@ -893,4 +957,14 @@
     :cp7 nil,
     :id #uuid "13b8440c-8d60-371e-be7e-fcf07e0f0625",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:id #uuid "13b8440c-8d60-371e-be7e-fcf07e0f0625",
+    :address
+    "Rua Camilo Castelo Branco, n.º 8, Quinta das Mesuras  VISEU",
+    :address-c "Rua Camilo Castelo Branco 8, 3500-417, Viseu",
+    :postal-c "3500-417",
+    :x -7.910195628356655,
+    :y 40.6512518080556,
+    :score 92.46,
+    :c 4}}]]

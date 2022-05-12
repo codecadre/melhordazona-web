@@ -96,4 +96,14 @@
   :cp7 "3510-596",
   :id #uuid "afb1d9cb-fb26-3437-878b-2deb2620ca71",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+ :geocode
+ {:id #uuid "afb1d9cb-fb26-3437-878b-2deb2620ca71",
+  :address
+  "Rua dos Deficientes das Forças Armadas, Nº 10 - Marzovelos 3510-596 VISEU",
+  :address-c "Rua Deficientes das Forças Armadas 10, 3510-059, Viseu",
+  :postal-c "3510-059",
+  :x -7.925149969721758,
+  :y 40.65407001909523,
+  :score 95.94,
+  :c 1}}

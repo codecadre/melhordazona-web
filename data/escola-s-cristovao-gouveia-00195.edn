@@ -95,4 +95,13 @@
   :cp7 "6290-512",
   :id #uuid "76277110-19da-3ed3-aee4-4f83d9998ca9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Gouveia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Gouveia"},
+ :geocode
+ {:id #uuid "76277110-19da-3ed3-aee4-4f83d9998ca9",
+  :address "Rua Barros Lobo, Nº 23 6290-512 GOUVEIA",
+  :address-c "Rua Barros Lobo 23, 6290-512, Gouveia, Guarda",
+  :postal-c "6290-512",
+  :x -7.593239749871824,
+  :y 40.49406071245344,
+  :score 98.36,
+  :c 1}}

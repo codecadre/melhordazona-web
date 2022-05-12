@@ -95,4 +95,13 @@
   :cp7 "4715-234",
   :id #uuid "3f7e1144-d49b-3797-b83e-2d0ea1f0e6b6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "3f7e1144-d49b-3797-b83e-2d0ea1f0e6b6",
+  :address "Rua José Lopes da Silva Granja, 50, Lomar, 4715-234 Braga",
+  :address-c "Rua José Lopes Silva Granja 50, 4705-225, Feijoa, Braga",
+  :postal-c "4705-225",
+  :x -8.429893719959164,
+  :y 41.52433053581991,
+  :score 96.52,
+  :c 2}}

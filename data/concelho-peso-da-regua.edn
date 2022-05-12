@@ -96,7 +96,17 @@
     :cp7 "5050-224",
     :id #uuid "fa30aed6-dac7-360e-b1db-39713713003b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
+   :geocode
+   {:id #uuid "fa30aed6-dac7-360e-b1db-39713713003b",
+    :address "Avª Dr. Antão de Carvalho, 51 5050-224 PESO DA RÉGUA",
+    :address-c
+    "Avenida Doutor Antão de Carvalho 51, 5050-224, Peso da Régua, Vila Real",
+    :postal-c "5050-224",
+    :x -7.789830010286465,
+    :y 41.1641700152141,
+    :score 97.72,
+    :c 1}}]
  ["reguense-00568"
   {:nec 568,
    :rates
@@ -196,7 +206,14 @@
     :cp7 "5050-223",
     :id #uuid "c4213991-2ab7-3e57-bf6a-68993b258715",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
+   :geocode
+   {:cp7 "5050-223",
+    :postal-c "5050-223",
+    :x -7.792363859616387,
+    :y 41.163349217345626,
+    :score 100,
+    :c 1}}]
  ["douriense-00723"
   {:nec 723,
    :rates
@@ -296,7 +313,14 @@
     :cp7 "5050-067",
     :id #uuid "c01320f7-9078-3cc0-94db-9592cc3062e5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
+   :geocode
+   {:cp7 "5050-067",
+    :postal-c "5050-067",
+    :x -7.797475647086969,
+    :y 41.16700083537353,
+    :score 100,
+    :c 1}}]
  ["miradouro-00793"
   {:nec 793,
    :rates
@@ -396,4 +420,11 @@
     :cp7 "5050-078",
     :id #uuid "e21931eb-87ce-3ce6-9fe1-09585ec2a6d6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
+   :geocode
+   {:cp7 "5050-078",
+    :postal-c "5050-078",
+    :x -7.798139996732658,
+    :y 41.163769988885036,
+    :score 100,
+    :c 1}}]]

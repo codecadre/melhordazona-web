@@ -68,4 +68,15 @@
   :cp7 nil,
   :id #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe",
+  :address
+  "Praça da Sociedade Filarmónica Recreio Alverquense nº12 - Alverca do Ribatejo",
+  :address-c
+  "Praça Sociedade Fil. e Rec.a Alverquense, 2615-391, Alverca do Ribatejo, Vila Franca de Xira, Lisboa",
+  :postal-c "2615-391",
+  :x -9.040306654872065,
+  :y 38.89075998980737,
+  :score 74.69,
+  :c 2}}

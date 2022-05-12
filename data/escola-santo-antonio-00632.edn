@@ -95,4 +95,14 @@
   :cp7 "2510-554",
   :id #uuid "7e61d596-7155-3bb1-be16-2876f55c07ae",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
+ :geocode
+ {:id #uuid "7e61d596-7155-3bb1-be16-2876f55c07ae",
+  :address "Rua Professor Roque Duarte, 13 B, 2510-554 ÓBIDOS",
+  :address-c
+  "Rua Professor Roque Duarte 13B, 2510-554, Olho Marinho, Óbidos, Leiria",
+  :postal-c "2510-554",
+  :x -9.231690023667966,
+  :y 39.32834999138879,
+  :score 99.99,
+  :c 1}}

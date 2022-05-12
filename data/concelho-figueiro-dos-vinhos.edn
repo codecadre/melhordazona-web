@@ -96,7 +96,17 @@
     :cp7 "3260-427",
     :id #uuid "44f8c6a1-548d-3923-93b7-c47cd93182a5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Figueir%C3%B3%20dos%20Vinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Figueir%C3%B3%20dos%20Vinhos"},
+   :geocode
+   {:id #uuid "44f8c6a1-548d-3923-93b7-c47cd93182a5",
+    :address "Rua Major Neutel de Abreu 3260-427 FIGUEIRÓ DOS VINHOS",
+    :address-c
+    "Rua Major Neuel de Abreu, 3260-427, Figueiró dos Vinhos, Leiria",
+    :postal-c "3260-427",
+    :x -8.281119328420896,
+    :y 39.90110861565573,
+    :score 97.72,
+    :c 1}}]
  ["lago-azul-figueiro-dos-vinhos-00491"
   {:nec 491,
    :rates
@@ -196,4 +206,11 @@
     :cp7 "3620-400",
     :id #uuid "9fe69aed-282b-34af-b905-1a113d6445a0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Figueir%C3%B3%20dos%20Vinhos"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Figueir%C3%B3%20dos%20Vinhos"},
+   :geocode
+   {:cp7 "3620-400",
+    :postal-c "3620-400",
+    :x -7.595065006797711,
+    :y 41.03911499541212,
+    :score 100,
+    :c 1}}]]

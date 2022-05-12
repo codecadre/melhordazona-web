@@ -97,7 +97,14 @@
     :cp7 "2580-289",
     :id #uuid "f8961c57-3b02-3164-88db-c42d20d8aeae",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
+   :geocode
+   {:cp7 "2580-289",
+    :postal-c "2580-289",
+    :x -9.008269975431375,
+    :y 39.05487501949764,
+    :score 100,
+    :c 1}}]
  ["scallabis-00772"
   {:nec 772,
    :rates
@@ -196,7 +203,16 @@
     :cp7 "2580-010",
     :id #uuid "aafde8e1-e3ae-3041-975c-53e1ba6effba",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
+   :geocode
+   {:id #uuid "aafde8e1-e3ae-3041-975c-53e1ba6effba",
+    :address "Rua do Baco, 16 A 2580 -010 ABRIGADA",
+    :address-c "Rua do Baco 16, 2580-010, Abrigada, Alenquer, Lisboa",
+    :postal-c "2580-010",
+    :x -9.019039966640548,
+    :y 39.144419980768305,
+    :score 99.63,
+    :c 1}}]
  ["carregado-00832"
   {:nec 832,
    :rates
@@ -296,7 +312,18 @@
     :cp7 "2580-497",
     :id #uuid "33db7ae3-ed4a-32f1-a4ea-3f7c0bc977af",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
+   :geocode
+   {:id #uuid "33db7ae3-ed4a-32f1-a4ea-3f7c0bc977af",
+    :address
+    "Rua Pêro da Covilhã, lote 98 -Urbanização Barrada 2580-497 ALENQUER",
+    :address-c
+    "Rua Pêro da Covilhã 98, 2580-497, Carregado, Alenquer, Lisboa",
+    :postal-c "2580-497",
+    :x -8.969705947715392,
+    :y 39.02193603746345,
+    :score 96.73,
+    :c 1}}]
  ["nova-paredes-01336"
   {:nec 1336,
    :rates
@@ -395,4 +422,14 @@
     :cp7 "2580-531",
     :id #uuid "2f2303a8-cf54-3604-9cd4-5771033d6eea",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
+   :geocode
+   {:id #uuid "2f2303a8-cf54-3604-9cd4-5771033d6eea",
+    :address "Rua Jorge Cunha e Carmo, lote 35 R/c, 2580-531 Alenquer",
+    :address-c
+    "Rua Jorge da Cunha e Carmo 35, 2580-531, Alenquer, Lisboa",
+    :postal-c "2580-531",
+    :x -8.998785196361098,
+    :y 39.046851913342024,
+    :score 99.52,
+    :c 1}}]]

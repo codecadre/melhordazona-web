@@ -95,4 +95,13 @@
   :cp7 "8100-611",
   :id #uuid "82173650-1a46-3ff6-8924-21afc42fe9df",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+ :geocode
+ {:id #uuid "82173650-1a46-3ff6-8924-21afc42fe9df",
+  :address "Rua Padre António Vieira, Nº 189 8100-611 LOULÉ",
+  :address-c "Rua Padre António Vieira 189, 8100-611, Loulé, Faro",
+  :postal-c "8100-611",
+  :x -8.01963002794406,
+  :y 37.13987999928179,
+  :score 98.48,
+  :c 1}}

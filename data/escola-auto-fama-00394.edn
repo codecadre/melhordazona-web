@@ -95,4 +95,14 @@
   :cp7 "3750-154",
   :id #uuid "608b5a19-dbad-3412-a2f2-197706131a8f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
+ :geocode
+ {:id #uuid "608b5a19-dbad-3412-a2f2-197706131a8f",
+  :address "Rua Joaquim Valente de Almeida, nº 126 3750-154 ÁGUEDA",
+  :address-c
+  "Rua Joaquim Valente de Almeida 126, 3750-154, Águeda, Aveiro",
+  :postal-c "3750-154",
+  :x -8.446948095345634,
+  :y 40.579399845338976,
+  :score 98.55,
+  :c 2}}

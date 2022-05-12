@@ -96,4 +96,15 @@
   :cp7 "2840-378",
   :id #uuid "b34c6654-2f02-318b-9639-1ecf952e4d2f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+ :geocode
+ {:id #uuid "b34c6654-2f02-318b-9639-1ecf952e4d2f",
+  :address
+  "Rua Distrito de Lobata, Nº 7-B, Quinta de Cima, Torre da Marinha 2840-378 SEIXAL",
+  :address-c
+  "Rua Distrito de Lobata 7B, 2840-378, Quinta de Cima, Seixal, Setúbal",
+  :postal-c "2840-378",
+  :x -9.097379999746266,
+  :y 38.617950002019256,
+  :score 96.43,
+  :c 1}}

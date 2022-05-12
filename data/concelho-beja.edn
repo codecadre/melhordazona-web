@@ -40,7 +40,16 @@
     :cp7 "7800-451",
     :id #uuid "0c83dbb0-e12e-35ba-83a0-eff52668dbf8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+   :geocode
+   {:id #uuid "0c83dbb0-e12e-35ba-83a0-eff52668dbf8",
+    :address "Rua Capitão João Francisco de Sousa nº 1 7800-451 BEJA",
+    :address-c "Rua Capitão João Francisco de Sousa 1, 7800-451, Beja",
+    :postal-c "7800-451",
+    :x -7.864440012660083,
+    :y 38.01292998158044,
+    :score 98.55,
+    :c 1}}]
  ["vitoria-00272"
   {:nec 272,
    :rates
@@ -139,7 +148,16 @@
     :cp7 "7800-453",
     :id #uuid "b212d470-d859-3d1b-b20f-790805fa1e01",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+   :geocode
+   {:id #uuid "b212d470-d859-3d1b-b20f-790805fa1e01",
+    :address "Rua Cidade de S. Paulo, 14 A r/c Esqº 7800-453 BEJA",
+    :address-c "Rua da Cidade de São Paulo 14, 7800-453, Beja",
+    :postal-c "7800-453",
+    :x -7.858160039343943,
+    :y 38.00809999369463,
+    :score 98.11,
+    :c 3}}]
  ["palma-dores-00669"
   {:nec 669,
    :rates
@@ -238,7 +256,16 @@
     :cp7 "7800-323",
     :id #uuid "81b798ec-493d-3127-b5be-915d369a72ce",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+   :geocode
+   {:id #uuid "81b798ec-493d-3127-b5be-915d369a72ce",
+    :address "Rua Manuel da Fonseca nº 12 –Cave 7800-323 BEJA",
+    :address-c "Rua Manuel da Fonseca 12, 7800-323, Beja",
+    :postal-c "7800-323",
+    :x -7.872789980784432,
+    :y 38.02047000640093,
+    :score 98.46,
+    :c 1}}]
  ["bejense-00812"
   {:nec 812,
    :rates
@@ -337,4 +364,13 @@
     :cp7 "7800",
     :id #uuid "e39f2c49-c0d9-3500-9f78-fac947032f06",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+   :geocode
+   {:id #uuid "e39f2c49-c0d9-3500-9f78-fac947032f06",
+    :address "Rua Sousa Porto 49 r/c 7800 BEJA",
+    :address-c "Rua Sousa Porto 49, 7800-071, Beja",
+    :postal-c "7800-071",
+    :x -7.853359974852452,
+    :y 38.00995997991876,
+    :score 99.2,
+    :c 1}}]]

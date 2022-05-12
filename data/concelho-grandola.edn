@@ -97,7 +97,14 @@
     :cp7 "7570-270",
     :id #uuid "d9885d1e-322d-30cd-bb14-c87a16a0ea15",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Grandola"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Grandola"},
+   :geocode
+   {:cp7 "7570-270",
+    :postal-c "7570-270",
+    :x -8.563994992787002,
+    :y 38.175804986700314,
+    :score 100,
+    :c 1}}]
  ["andancas-00644"
   {:nec 644,
    :rates
@@ -196,4 +203,14 @@
     :cp7 "7570-239",
     :id #uuid "a168ae3c-5a6d-3fa4-801f-10a687693d19",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Grandola"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Grandola"},
+   :geocode
+   {:id #uuid "a168ae3c-5a6d-3fa4-801f-10a687693d19",
+    :address "Rua D. Nuno Álvares Pereira, Nº 162-C 7570-239 GRÂNDOLA",
+    :address-c
+    "Rua Dom Nuno Álvares Pereira 162C, 7570-239, Grândola, Setúbal",
+    :postal-c "7570-239",
+    :x -8.566999988894452,
+    :y 38.17857000891985,
+    :score 98.53,
+    :c 4}}]]

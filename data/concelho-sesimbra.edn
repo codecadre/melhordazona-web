@@ -195,7 +195,14 @@
     :cp7 "2970-649",
     :id #uuid "588695ce-55f5-383b-9441-f06b5ef93cd1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:cp7 "2970-649",
+    :postal-c "2970-649",
+    :x -9.102590023122076,
+    :y 38.449479992710735,
+    :score 100,
+    :c 1}}]
  ["palma-cordeiro-01037"
   {:nec 1037,
    :rates
@@ -295,7 +302,18 @@
     :cp7 "2975-323",
     :id #uuid "38546458-0ba6-3113-be70-9f3ca35c476f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:id #uuid "38546458-0ba6-3113-be70-9f3ca35c476f",
+    :address
+    "Rua Jaime Cortesão nº 53 r/c Dtº - Cova dos Vidros 2975-323 QUINTA DO CONDE",
+    :address-c
+    "Rua Jaime Cortesão 53, 2975-323, Quinta do Conde, Sesimbra, Setúbal",
+    :postal-c "2975-323",
+    :x -9.039790038503611,
+    :y 38.565410011711265,
+    :score 95.59,
+    :c 1}}]
  ["drivers-club-01084"
   {:nec 1084,
    :rates
@@ -394,7 +412,17 @@
     :cp7 "2975-288",
     :id #uuid "91f7d46b-25e0-3db0-9cf9-8c49e2fc25c3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:id #uuid "91f7d46b-25e0-3db0-9cf9-8c49e2fc25c3",
+    :address "Rua Luísa Tody, lote 2157 2975-288 QUINTA DO CONDE",
+    :address-c
+    "Rua Luísa Tody 2157, 2975-288, Quinta do Conde, Sesimbra, Setúbal",
+    :postal-c "2975-288",
+    :x -9.049868137540575,
+    :y 38.56942419917692,
+    :score 98.9,
+    :c 1}}]
  ["via-vanda-01270"
   {:nec 1270,
    :rates
@@ -493,7 +521,14 @@
     :cp7 "2970-585",
     :id #uuid "76ad1b26-76cf-3f01-ba1f-7db610e643fe",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:cp7 "2970-585",
+    :postal-c "2970-585",
+    :x -9.093869993972532,
+    :y 38.47297501213521,
+    :score 100,
+    :c 1}}]
  ["quinta-do-conde-01406"
   {:nec 1406,
    :rates
@@ -551,4 +586,11 @@
     :cp7 "2975-246",
     :id #uuid "41482ca0-23e1-33cb-96b8-8e31b29eb787",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:cp7 "2975-246",
+    :postal-c "2975-246",
+    :x -9.042345010229553,
+    :y 38.57019000154463,
+    :score 100,
+    :c 1}}]]

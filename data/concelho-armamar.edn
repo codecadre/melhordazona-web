@@ -42,4 +42,14 @@
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Armamar"},
    :obs "duplicate nec in passrates",
-   :overwrite/notes nil}]]
+   :overwrite/notes nil,
+   :geocode
+   {:id #uuid "3b79a161-8af9-3b64-83c3-66aec5238418",
+    :address "Av. Dr. Oliveira Salazar 5110-122 ARMAMAR",
+    :address-c
+    "Avenida Doutor Oliveira Salazar, 5110-122, Armamar, Viseu",
+    :postal-c "5110-122",
+    :x -7.689854820257475,
+    :y 41.10507411705227,
+    :score 100,
+    :c 2}}]]

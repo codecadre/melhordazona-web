@@ -95,4 +95,14 @@
   :cp7 "3885-401",
   :id #uuid "aa4390c4-06f1-366d-964c-e1c481ced530",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
+ :geocode
+ {:id #uuid "aa4390c4-06f1-366d-964c-e1c481ced530",
+  :address "Rua da Estrada Nova, Nº 1280 3885-401 ESMORIZ",
+  :address-c
+  "Rua da Estrada Nova 1280, 3885-456, Esmoriz, Ovar, Aveiro",
+  :postal-c "3885-456",
+  :x -8.619960038280084,
+  :y 40.965290000180374,
+  :score 97.39,
+  :c 4}}

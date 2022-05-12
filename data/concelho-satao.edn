@@ -97,7 +97,18 @@
     :cp7 "3560-172",
     :id #uuid "37a2d0ca-0655-32b8-8a2a-e76394df9bb2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S%C3%A1t%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S%C3%A1t%C3%A3o"},
+   :geocode
+   {:id #uuid "37a2d0ca-0655-32b8-8a2a-e76394df9bb2",
+    :address
+    "Rua Dr. Hilário de Almeida Pereira, nº 162-1º 3560-172 SÁTÃO",
+    :address-c
+    "Rua Doutor Hilário de Almeida Pereira 162, 3560-172, Sátão, Viseu",
+    :postal-c "3560-172",
+    :x -7.7324699646478905,
+    :y 40.743770003665134,
+    :score 98.16,
+    :c 2}}]
  ["via-drive-01313"
   {:nec 1313,
    :rates
@@ -197,4 +208,11 @@
     :cp7 "3560-156",
     :id #uuid "a224d02c-7645-3707-97b8-0833fe6200bf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S%C3%A1t%C3%A3o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S%C3%A1t%C3%A3o"},
+   :geocode
+   {:cp7 "3560-156",
+    :postal-c "3560-156",
+    :x -7.7304749878730945,
+    :y 40.74021498707134,
+    :score 100,
+    :c 1}}]]

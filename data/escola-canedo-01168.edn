@@ -95,4 +95,14 @@
   :cp7 "4525-189",
   :id #uuid "62b92832-8af8-316d-98c2-aff4b01b3479",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "62b92832-8af8-316d-98c2-aff4b01b3479",
+  :address "Rua Principal, Nº 1025 4525-189 CANEDO",
+  :address-c
+  "Rua Principal 1025, 4525-189, Canedo, Santa Maria da Feira, Aveiro",
+  :postal-c "4525-189",
+  :x -8.463869974233148,
+  :y 41.00755997980366,
+  :score 98.36,
+  :c 3}}

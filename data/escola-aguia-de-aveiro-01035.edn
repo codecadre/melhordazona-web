@@ -96,4 +96,14 @@
   :cp7 "3800-317",
   :id #uuid "3fe81eb9-caba-388f-ad88-c5da4ec9882e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
+ :geocode
+ {:id #uuid "3fe81eb9-caba-388f-ad88-c5da4ec9882e",
+  :address
+  "Rua Nossa Senhora das Necessidades, Nº 5 - Esgueira 3800-317 AVEIRO",
+  :address-c "Rua Nossa Senhora das Necessidades, 3800-317, Aveiro",
+  :postal-c "3800-317",
+  :x -8.617024790789255,
+  :y 40.65805238779456,
+  :score 96.85,
+  :c 48}}

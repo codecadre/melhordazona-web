@@ -95,4 +95,14 @@
   :cp7 "6215-460",
   :id #uuid "21af80cf-600a-3215-ae52-4424d3d6589a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Belmonte"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Belmonte"},
+ :geocode
+ {:id #uuid "21af80cf-600a-3215-ae52-4424d3d6589a",
+  :address "Estrada do Santuário, Nº 38 R/C Esq 6215-460 PAUL",
+  :address-c
+  "Estrada do Santuário 38, 6215-460, Paul, Covilhã, Castelo Branco",
+  :postal-c "6215-460",
+  :x -7.632809974082193,
+  :y 40.19789998428797,
+  :score 97.18,
+  :c 1}}

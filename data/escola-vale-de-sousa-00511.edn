@@ -96,4 +96,14 @@
   :cp7 "4560-531",
   :id #uuid "1efbce52-140d-3272-b33f-6abde9e40fca",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+ :geocode
+ {:id #uuid "1efbce52-140d-3272-b33f-6abde9e40fca",
+  :address
+  "Rua da Saudade, 120 A - Sala A/ Apartado 108 4560-531 PENAFIEL",
+  :address-c "Rua da Saudade 120A, 4560-531, Penafiel, Porto",
+  :postal-c "4560-531",
+  :x -8.293676855179342,
+  :y 41.19725435096643,
+  :score 96.58,
+  :c 6}}

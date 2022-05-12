@@ -96,7 +96,14 @@
     :cp7 "8300-108",
     :id #uuid "fa74d896-ba86-3fe1-bd45-98ec51735fee",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
+   :geocode
+   {:cp7 "8300-108",
+    :postal-c "8300-108",
+    :x -8.440135944839625,
+    :y 37.18650534152356,
+    :score 100,
+    :c 1}}]
  ["f-guerreiro-00749"
   {:nec 749,
    :rates
@@ -196,7 +203,14 @@
     :cp7 "8375-121",
     :id #uuid "3ebacb7b-2b49-3e3d-bcea-b3be3f0cc1dd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
+   :geocode
+   {:cp7 "8375-121",
+    :postal-c "8375-121",
+    :x -8.280439986046616,
+    :y 37.2562299935409,
+    :score 100,
+    :c 1}}]
  ["cunha-e-ferreira-00957"
   {:nec 957,
    :rates
@@ -296,7 +310,18 @@
     :cp7 "8365-149",
     :id #uuid "5d682ecf-4e50-3545-be30-632dc5ef1aa4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
+   :geocode
+   {:id #uuid "5d682ecf-4e50-3545-be30-632dc5ef1aa4",
+    :address
+    "Rua José Prudêncio Vieira, Lote 17 - Loja C 8365-149 ARMAÇÃO DE PERA",
+    :address-c
+    "Rua José Prudêncio Vieira 17, 8365-112, Armação de Pêra, Silves, Faro",
+    :postal-c "8365-112",
+    :x -8.359289974141547,
+    :y 37.103779980495474,
+    :score 98.93,
+    :c 1}}]
  ["do-algoz-01009"
   {:nec 1009,
    :rates
@@ -396,4 +421,11 @@
     :cp7 "8365-062",
     :id #uuid "f2e1f182-0163-3cfb-97fd-d4241c8a1ed4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
+   :geocode
+   {:cp7 "8365-062",
+    :postal-c "8365-062",
+    :x -8.304480038725075,
+    :y 37.164794996923206,
+    :score 100,
+    :c 1}}]]

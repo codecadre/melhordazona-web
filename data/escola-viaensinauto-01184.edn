@@ -96,4 +96,15 @@
   :cp7 "2625-387",
   :id #uuid "500e805a-0083-3c8b-a90f-89561f768992",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "500e805a-0083-3c8b-a90f-89561f768992",
+  :address
+  "Rua Adriano Correia de Oliveira, Nº 6 R/C Frente 2625-387 FORTE da CASA",
+  :address-c
+  "Rua Adriano Correia de Oliveira 6, 2625-387, Soda Póvoa, Vila Franca de Xira, Lisboa",
+  :postal-c "2625-387",
+  :x -9.059182019463659,
+  :y 38.86638219039116,
+  :score 96.08,
+  :c 1}}

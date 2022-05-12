@@ -95,4 +95,14 @@
   :cp7 "2300-449",
   :id #uuid "1fa8652b-71ed-307d-8605-c7d6e888ddb3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
+ :geocode
+ {:id #uuid "1fa8652b-71ed-307d-8605-c7d6e888ddb3",
+  :address "Rua Alfredo da Maia Pereira nº 6 r/c Esqº 2300-449 TOMAR",
+  :address-c
+  "Rua Alfredo da Maia Pereira 6, 2300-449, Tomar, Santarém",
+  :postal-c "2300-449",
+  :x -8.401710031741175,
+  :y 39.59929999876735,
+  :score 97.2,
+  :c 1}}

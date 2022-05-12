@@ -96,7 +96,16 @@
     :cp7 "3740-251",
     :id #uuid "8ec29d7a-ac3d-33d4-8d31-2ff07fc0d958",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Sever%20do%20Vouga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Sever%20do%20Vouga"},
+   :geocode
+   {:id #uuid "8ec29d7a-ac3d-33d4-8d31-2ff07fc0d958",
+    :address "Rua do Comércio, nº 8 r/c 3740-251 SEVER DO VOUGA",
+    :address-c "Rua do Comércio 8, 3740-271, Sever do Vouga, Aveiro",
+    :postal-c "3740-271",
+    :x -8.370470008054042,
+    :y 40.734499995938734,
+    :score 96.87,
+    :c 1}}]
  ["convida-01196"
   {:nec 1196,
    :rates
@@ -196,4 +205,11 @@
     :cp7 "3740-255",
     :id #uuid "99abaedd-12d2-36c9-bebd-d0231fd202e2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Sever%20do%20Vouga"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Sever%20do%20Vouga"},
+   :geocode
+   {:cp7 "3740-255",
+    :postal-c "3740-255",
+    :x -8.369454959579485,
+    :y 40.73195998590995,
+    :score 100,
+    :c 1}}]]

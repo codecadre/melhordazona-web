@@ -95,4 +95,13 @@
   :cp7 "8500-536",
   :id #uuid "9d851331-6285-324e-8d77-1f1eb4d2d4ae",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+ :geocode
+ {:id #uuid "9d851331-6285-324e-8d77-1f1eb4d2d4ae",
+  :address "Largo Gil Eanes, Loja 5 8500-536 PORTIMÃO",
+  :address-c "Largo Gil Eanes 5, 8500-536, Portimão, Faro",
+  :postal-c "8500-536",
+  :x -8.539870031429388,
+  :y 37.143490001160416,
+  :score 97.8,
+  :c 1}}

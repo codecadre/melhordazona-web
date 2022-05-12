@@ -54,4 +54,15 @@
   :cp7 "2080",
   :id #uuid "600f2917-3883-3dfd-8b0e-ea8ed552f378",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"},
+ :geocode
+ {:id #uuid "600f2917-3883-3dfd-8b0e-ea8ed552f378",
+  :address
+  "Rua de Guilherme Nunes Godinho, Nº 372, Loja 3 2080 ALPIARÇA",
+  :address-c
+  "Rua Dr. Guilherme Nunes Godinho 372, 2080-562, Fazendas de Almeirim, Almeirim, Santarém",
+  :postal-c "2080-562",
+  :x -8.587063968849934,
+  :y 39.17949822181684,
+  :score 96.94,
+  :c 1}}

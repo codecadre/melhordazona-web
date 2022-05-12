@@ -95,4 +95,14 @@
   :cp7 "4590-064",
   :id #uuid "1b5b61ca-bd8a-39f0-9505-02e6787be969",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+ :geocode
+ {:id #uuid "1b5b61ca-bd8a-39f0-9505-02e6787be969",
+  :address "Rua de S. Tiago, 774 4590-064 CARVALHOSA",
+  :address-c
+  "Rua de São Tiago 774, 4590-064, Carvalhosa, Paços de Ferreira, Porto",
+  :postal-c "4590-064",
+  :x -8.364339986985698,
+  :y 41.29713998236559,
+  :score 100,
+  :c 2}}

@@ -95,4 +95,13 @@
   :cp7 "8135-125",
   :id #uuid "2fa8a5b5-71a3-3627-b2ad-c84c2caff36b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+ :geocode
+ {:id #uuid "2fa8a5b5-71a3-3627-b2ad-c84c2caff36b",
+  :address "Rua do Comércio nº 48 - Lj Esq 8135-125 LOULÉ",
+  :address-c "Rua do Comércio 48, 8135-125, Pereiras, Loulé, Faro",
+  :postal-c "8135-125",
+  :x -8.037200005742335,
+  :y 37.08852001330281,
+  :score 96.96,
+  :c 3}}

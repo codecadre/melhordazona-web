@@ -97,7 +97,14 @@
     :cp7 "7520-124",
     :id #uuid "a108e401-d5e5-3dea-99d0-e9143d83201c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"},
+   :geocode
+   {:cp7 "7520-124",
+    :postal-c "7520-124",
+    :x -8.861270001559177,
+    :y 37.95780999956551,
+    :score 100,
+    :c 1}}]
  ["sudoeste-01308"
   {:nec 1308,
    :rates
@@ -196,4 +203,13 @@
     :cp7 "7520-246",
     :id #uuid "4db5989c-43be-3f0b-90d5-f298dd8ddaae",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"},
+   :geocode
+   {:id #uuid "4db5989c-43be-3f0b-90d5-f298dd8ddaae",
+    :address "Rua Zeca Afonso, n.º 4; 7520-246 Sines",
+    :address-c "Rua Zeca Afonso 4, 7520-246, Sines, Setúbal",
+    :postal-c "7520-246",
+    :x -8.863309989154004,
+    :y 37.957849981243655,
+    :score 95.48,
+    :c 1}}]]

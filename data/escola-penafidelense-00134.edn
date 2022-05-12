@@ -95,4 +95,13 @@
   :cp7 "4560-465",
   :id #uuid "89383d9a-e30e-3411-bd79-5e5f4c91498f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+ :geocode
+ {:id #uuid "89383d9a-e30e-3411-bd79-5e5f4c91498f",
+  :address "Rua Eng.º Matos, 253 ; 4560-465 Penafiel",
+  :address-c "Rua Engenheiro Matos 253, 4560-488, Penafiel, Porto",
+  :postal-c "4560-488",
+  :x -8.290624585138005,
+  :y 41.201178674214134,
+  :score 98.93,
+  :c 3}}

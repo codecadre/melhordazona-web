@@ -40,4 +40,14 @@
   :cp7 "6000-129",
   :id #uuid "49fb784a-9341-39ef-9823-0c7bee9ea578",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
+ :geocode
+ {:id #uuid "49fb784a-9341-39ef-9823-0c7bee9ea578",
+  :address
+  "Avenida da Carapalha, Lote 65, n.º 45 r/c Dtº 6000-129 CASTELO BRANCO",
+  :address-c "Avenida da Carapalha 65, 6000-320, Castelo Branco",
+  :postal-c "6000-320",
+  :x -7.486475429319605,
+  :y 39.817949119547066,
+  :score 96.64,
+  :c 2}}

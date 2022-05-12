@@ -95,4 +95,14 @@
   :cp7 "4435-289",
   :id #uuid "bea02562-51b6-3780-a2a4-d588df182ab4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+ :geocode
+ {:id #uuid "bea02562-51b6-3780-a2a4-d588df182ab4",
+  :address "Travessa Infante D. Henrique, 19/21 4435-289 RIO TINTO",
+  :address-c
+  "Travessa Infante Dom Henrique 19, 4435-289, Fânzeres, Gondomar, Porto",
+  :postal-c "4435-289",
+  :x -8.547003416738555,
+  :y 41.16749820942909,
+  :score 98.36,
+  :c 2}}

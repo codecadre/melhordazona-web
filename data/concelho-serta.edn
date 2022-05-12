@@ -97,7 +97,14 @@
     :cp7 "6100-758",
     :id #uuid "6586ae33-7597-3b10-b637-79550b0bdfd5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
+   :geocode
+   {:cp7 "6100-758",
+    :postal-c "6100-758",
+    :x -8.100284975068774,
+    :y 39.80624000998503,
+    :score 100,
+    :c 1}}]
  ["cernache-do-bonjardim-00725"
   {:nec 725,
    :rates
@@ -197,7 +204,14 @@
     :cp7 "6100-205",
     :id #uuid "f478c154-509d-3b8b-9105-e78fd927d72b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
+   :geocode
+   {:cp7 "6100-205",
+    :postal-c "6100-205",
+    :x -8.180419573644372,
+    :y 39.81933007008365,
+    :score 100,
+    :c 1}}]
  ["maia-e-ferreira-00921"
   {:nec 921,
    :rates
@@ -297,7 +311,18 @@
     :cp7 "6100-266",
     :id #uuid "9abdd0d2-f7be-3327-a9b5-6611172e46cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
+   :geocode
+   {:id #uuid "9abdd0d2-f7be-3327-a9b5-6611172e46cb",
+    :address
+    "Rua dos Pinheiros, lote 2 - Apartado 50 6100-266 CERNACHE BONJARDIM",
+    :address-c
+    "Rua dos Pinheiros 2, 6100-266, Cernache do Bonjardim, Sertã, Castelo Branco",
+    :postal-c "6100-266",
+    :x -8.192669976592384,
+    :y 39.81095998539169,
+    :score 97.89,
+    :c 2}}]
  ["silvino-lopes-01204"
   {:nec 1204,
    :rates
@@ -396,4 +421,11 @@
     :cp7 "6100-707",
     :id #uuid "55873886-1cd1-32b9-a72b-e01bf76e49db",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
+   :geocode
+   {:cp7 "6100-707",
+    :postal-c "6100-707",
+    :x -8.101676790091062,
+    :y 39.79396148575188,
+    :score 100,
+    :c 1}}]]

@@ -95,4 +95,14 @@
   :cp7 "2625",
   :id #uuid "31d2d785-e3b1-3a43-abe6-48598fe5b6f8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "31d2d785-e3b1-3a43-abe6-48598fe5b6f8",
+  :address "Rua Maria Barradas, Nº 6 Loja Dtª 2625 PÓVOA DE STª IRIA",
+  :address-c
+  "Rua Maria Barradas 6, 2625-696, Vialonga, Vila Franca de Xira, Lisboa",
+  :postal-c "2625-696",
+  :x -9.080340009685756,
+  :y 38.873989986662735,
+  :score 95.4,
+  :c 1}}

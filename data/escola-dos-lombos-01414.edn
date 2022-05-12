@@ -54,4 +54,15 @@
   :cp7 "2780-052",
   :id #uuid "5091f35e-7136-3574-b2e6-4e70d936bb34",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
+ :geocode
+ {:id #uuid "5091f35e-7136-3574-b2e6-4e70d936bb34",
+  :address
+  "Rua Ernesto veiga de Oliveira, n.º 6 Loja B, 2780-052 Oeiras",
+  :address-c
+  "Rua Ernesto Veiga de Oliveira 6, 2780-052, Oeiras, Lisboa",
+  :postal-c "2780-052",
+  :x -9.322460000087716,
+  :y 38.68609998779655,
+  :score 97.18,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "4990-029",
   :id #uuid "497723d6-aa2f-3d96-88cc-73b7ccae298b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
+ :geocode
+ {:id #uuid "497723d6-aa2f-3d96-88cc-73b7ccae298b",
+  :address "Av. António Feijó, n.º 38, 4990-029 PONTE DE LIMA",
+  :address-c
+  "Avenida António Feijó, 4990-029, Ponte de Lima, Viana do Castelo",
+  :postal-c "4990-029",
+  :x -8.583001706311444,
+  :y 41.766986394881236,
+  :score 96.11,
+  :c 2}}

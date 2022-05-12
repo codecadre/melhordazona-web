@@ -95,4 +95,13 @@
   :cp7 "7490-245",
   :id #uuid "a5545248-b808-350c-a974-c6a488a03188",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Mora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Mora"},
+ :geocode
+ {:id #uuid "a5545248-b808-350c-a974-c6a488a03188",
+  :address "Rua dos Sinos, Nº 10 7490-245 MORA",
+  :address-c "Rua dos Sinos 10, 7490-245, Mora, Évora",
+  :postal-c "7490-245",
+  :x -8.164969965892368,
+  :y 38.944640000790656,
+  :score 98.24,
+  :c 1}}

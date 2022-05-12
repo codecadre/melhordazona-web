@@ -95,4 +95,13 @@
   :cp7 "4620-650",
   :id #uuid "00b0add3-1806-3a93-9452-a98aec17eef6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+ :geocode
+ {:id #uuid "00b0add3-1806-3a93-9452-a98aec17eef6",
+  :address "Rua Visconde de Alentem 4620-650 SILVARES",
+  :address-c "Rua Visconde de Alentém, 4620-650, Lousada, Porto",
+  :postal-c "4620-650",
+  :x -8.28313522222372,
+  :y 41.2749538994789,
+  :score 96.53,
+  :c 1}}

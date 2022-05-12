@@ -95,4 +95,13 @@
   :cp7 "2870-260",
   :id #uuid "7eeb73f1-590b-3397-ad6b-c2ca30880dc1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
+ :geocode
+ {:id #uuid "7eeb73f1-590b-3397-ad6b-c2ca30880dc1",
+  :address "Rua Cristóvão Colombo, nº 77 2870 -260 MONTIJO",
+  :address-c "Rua Cristóvão Colombo 77, 2870-867, Montijo, Setúbal",
+  :postal-c "2870-867",
+  :x -8.957250001354737,
+  :y 38.70076002026943,
+  :score 97.4,
+  :c 1}}

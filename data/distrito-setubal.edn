@@ -96,7 +96,16 @@
     :cp7 "2900-667",
     :id #uuid "244f11ca-0571-34f7-b05a-ab1d58e0f9c8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "244f11ca-0571-34f7-b05a-ab1d58e0f9c8",
+    :address "Avª 22 de Dezembro, 52 2900-667 SETÙBAL",
+    :address-c "Avenida 22 de Dezembro 52, 2900-667, Setúbal",
+    :postal-c "2900-667",
+    :x -8.89392002899848,
+    :y 38.525089998042716,
+    :score 97.51,
+    :c 1}}]
  ["grandolense-00106"
   {:nec 106,
    :rates
@@ -196,7 +205,14 @@
     :cp7 "7570-270",
     :id #uuid "d9885d1e-322d-30cd-bb14-c87a16a0ea15",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Grandola"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Grandola"},
+   :geocode
+   {:cp7 "7570-270",
+    :postal-c "7570-270",
+    :x -8.563994992787002,
+    :y 38.175804986700314,
+    :score 100,
+    :c 1}}]
  ["alcacerense-00122"
   {:nec 122,
    :rates
@@ -296,7 +312,14 @@
     :cp7 "7580-033",
     :id #uuid "a9119789-0c22-3544-b071-9b4a53919c33",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcacer%20do%20Sal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcacer%20do%20Sal"},
+   :geocode
+   {:cp7 "7580-033",
+    :postal-c "7580-033",
+    :x -8.504475014519159,
+    :y 38.371100019836376,
+    :score 100,
+    :c 1}}]
  ["a-barreirense-00164"
   {:nec 164,
    :rates
@@ -395,7 +418,17 @@
     :cp7 "2830",
     :id #uuid "90afbb92-6de8-3b7e-a3a2-de8f71487e81",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "90afbb92-6de8-3b7e-a3a2-de8f71487e81",
+    :address "Rua Dr. Manuel Pacheco Nobre 31 –A –1º 2830 BARREIRO",
+    :address-c
+    "Rua Doutor Manuel Pacheco Nobre 31, 2830-080, Barreiro, Setúbal",
+    :postal-c "2830-080",
+    :x -9.064559987310588,
+    :y 38.659739991957196,
+    :score 99.25,
+    :c 1}}]
  ["alem-rio-00190"
   {:nec 190,
    :rates
@@ -595,7 +628,14 @@
     :cp7 "7520-124",
     :id #uuid "a108e401-d5e5-3dea-99d0-e9143d83201c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"},
+   :geocode
+   {:cp7 "7520-124",
+    :postal-c "7520-124",
+    :x -8.861270001559177,
+    :y 37.95780999956551,
+    :score 100,
+    :c 1}}]
  ["socartas-00372"
   {:nec 372,
    :rates
@@ -694,7 +734,14 @@
     :cp7 "2830-007",
     :id #uuid "2e41c7df-2b39-34f1-aab5-afb09d0aade9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:cp7 "2830-007",
+    :postal-c "2830-007",
+    :x -9.068305021649365,
+    :y 38.65658998892485,
+    :score 100,
+    :c 1}}]
  ["almacoop-00377"
   {:nec 377,
    :rates
@@ -794,7 +841,18 @@
     :cp7 "2800-710",
     :id #uuid "0c080967-05ae-3727-b9fd-f749f6353689",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:id #uuid "0c080967-05ae-3727-b9fd-f749f6353689",
+    :address
+    "Rua Torcato José Clavine, nº 5 - Piso 1 2800 -710 ALMADA",
+    :address-c
+    "Rua Torcato José Clavine 5, 2800-710, Pragal, Almada, Setúbal",
+    :postal-c "2800-710",
+    :x -9.166119987688091,
+    :y 38.67582000264704,
+    :score 97.35,
+    :c 1}}]
  ["santiaguense-00414"
   {:nec 414,
    :rates
@@ -894,7 +952,18 @@
     :cp7 "7540-201",
     :id #uuid "168b56b7-469e-3c7e-a5aa-7796bfc024b9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:id #uuid "168b56b7-469e-3c7e-a5aa-7796bfc024b9",
+    :address
+    "Rua Padre Jorge de Oliveira, Nº 14 7540-201 SANTIAGO CACÉM",
+    :address-c
+    "Rua Padre Jorge de Oliveira 14, 7540-201, Santiago do Cacém, Setúbal",
+    :postal-c "7540-201",
+    :x -8.69308541106637,
+    :y 38.018342073405016,
+    :score 98.25,
+    :c 1}}]
  ["silvano-saraiva-00416"
   {:nec 416,
    :rates
@@ -993,7 +1062,16 @@
     :cp7 "2070-356",
     :id #uuid "8bae66fb-8043-33be-a6f0-f985a0e2c425",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
+   :geocode
+   {:id #uuid "8bae66fb-8043-33be-a6f0-f985a0e2c425",
+    :address "Rua Miguel Pais, Nº 65 2070-356 Montijo",
+    :address-c "Rua Miguel Pais 65, 2870-356, Montijo, Setúbal",
+    :postal-c "2870-356",
+    :x -8.975869980163822,
+    :y 38.70327999754963,
+    :score 96.13,
+    :c 1}}]
  ["infante-sagres-alcochete-00433"
   {:nec 433,
    :rates
@@ -1092,7 +1170,16 @@
     :cp7 "2890",
     :id #uuid "19ac1307-e61e-3028-a74f-d638f3101a23",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcochete"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcochete"},
+   :geocode
+   {:id #uuid "19ac1307-e61e-3028-a74f-d638f3101a23",
+    :address "Av. D. Manuel I, Nº 3,5 2890 ALCOCHETE",
+    :address-c "Avenida Dom Manuel I 3, 2890-014, Alcochete, Setúbal",
+    :postal-c "2890-014",
+    :x -8.963889977412236,
+    :y 38.75517998764067,
+    :score 97.9,
+    :c 4}}]
  ["rodascity-00439"
   {:nec 439,
    :rates
@@ -1290,7 +1377,17 @@
     :cp7 "2845-092",
     :id #uuid "ab04d5cf-027d-32bf-8f63-75c12d128d65",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "ab04d5cf-027d-32bf-8f63-75c12d128d65",
+    :address "Rua do Alentejo, Nº 1 e 1-A 2845-092 SEIXAL",
+    :address-c
+    "Rua do Alentejo 1, 2845-092, Cruz de Pau, Seixal, Setúbal",
+    :postal-c "2845-092",
+    :x -9.122493264924502,
+    :y 38.62170732123658,
+    :score 96.35,
+    :c 1}}]
  ["palmela-00478"
   {:nec 478,
    :rates
@@ -1389,7 +1486,16 @@
     :cp7 "2950-210",
     :id #uuid "0d98042d-de94-3781-a516-fea5302e07f5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:id #uuid "0d98042d-de94-3781-a516-fea5302e07f5",
+    :address "Rua Humberto Cardoso, Lote 15 B2 2950 -210 PINHAL NOVO",
+    :address-c "Rua Humberto Cardoso 15, 2950-210, Palmela, Setúbal",
+    :postal-c "2950-210",
+    :x -8.900669975625675,
+    :y 38.57442001280114,
+    :score 97.21,
+    :c 1}}]
  ["infante-sagres-barreiro-00523"
   {:nec 523,
    :rates
@@ -1489,7 +1595,14 @@
     :cp7 "2830-174",
     :id #uuid "bef7f155-b384-3a50-9251-afc6c42dac9b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:cp7 "2830-174",
+    :postal-c "2830-174",
+    :x -9.059409978361515,
+    :y 38.64444000117689,
+    :score 100,
+    :c 1}}]
  ["amorense-00538"
   {:nec 538,
    :rates
@@ -1588,7 +1701,16 @@
     :cp7 "2845-367",
     :id #uuid "642ce38a-6e12-3130-a13c-1c60d8090b47",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "642ce38a-6e12-3130-a13c-1c60d8090b47",
+    :address "Rua das Flores, 8 loja C 2845-367 AMORA",
+    :address-c "Rua das Flores 8, 2845-367, Paivas, Seixal, Setúbal",
+    :postal-c "2845-367",
+    :x -9.112960029911704,
+    :y 38.62013000930665,
+    :score 98.82,
+    :c 1}}]
  ["cortes-de-setubal-00547"
   {:nec 547,
    :rates
@@ -1687,7 +1809,16 @@
     :cp7 "2900-964",
     :id #uuid "b93a80b3-8137-3127-9f8f-f44691637c0e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "b93a80b3-8137-3127-9f8f-f44691637c0e",
+    :address "Av. Luísa Todi, n 289 2900-964 Setúbal",
+    :address-c "Avenida Luísa Todi 289, 2900-464, Setúbal",
+    :postal-c "2900-464",
+    :x -8.899719970719758,
+    :y 38.52159998310805,
+    :score 98.93,
+    :c 3}}]
  ["rotacoes-00615"
   {:nec 615,
    :rates
@@ -1786,7 +1917,16 @@
     :cp7 "2830-354",
     :id #uuid "f449f3cf-d92a-33e5-a2a2-843ef38b31ce",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "f449f3cf-d92a-33e5-a2a2-843ef38b31ce",
+    :address "Rua Miguel Bombarda, Nº 87 R/C 2830-354 BARREIRO",
+    :address-c "Rua Miguel Bombarda 87, 2830, Barreiro, Setúbal",
+    :postal-c "2830",
+    :x -9.073337037491958,
+    :y 38.65982665998492,
+    :score 96.9,
+    :c 3}}]
  ["hp-dois-00631"
   {:nec 631,
    :rates
@@ -1886,7 +2026,18 @@
     :cp7 "2955-162",
     :id #uuid "87776756-1be8-364e-bf52-bdfc85001498",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:id #uuid "87776756-1be8-364e-bf52-bdfc85001498",
+    :address
+    "Rua Manuel Giraldes da Silva, Lote 13 R/C Dtº 2955-162 Pinhal Novo",
+    :address-c
+    "Rua Manuel Giraldes da Silva 13, 2955-026, Pinhal Novo, Palmela, Setúbal",
+    :postal-c "2955-026",
+    :x -8.91733001401525,
+    :y 38.633010018911676,
+    :score 97.98,
+    :c 1}}]
  ["infante-sagres-miradouro-00643"
   {:nec 643,
    :rates
@@ -1986,7 +2137,18 @@
     :cp7 "2835-123",
     :id #uuid "b8f946b3-988c-3941-b71e-f63658354dad",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
+   :geocode
+   {:id #uuid "b8f946b3-988c-3941-b71e-f63658354dad",
+    :address
+    "Rua Francisco Miguel, 4, 36 B, R/C 2835-123 BAIXA DA BANHEIRA",
+    :address-c
+    "Rua Francisco Miguel 4, 2835-123, Baixa da Banheira, Moita, Setúbal",
+    :postal-c "2835-123",
+    :x -9.038906125185955,
+    :y 38.654522342488676,
+    :score 98.91,
+    :c 1}}]
  ["andancas-00644"
   {:nec 644,
    :rates
@@ -2085,7 +2247,17 @@
     :cp7 "7570-239",
     :id #uuid "a168ae3c-5a6d-3fa4-801f-10a687693d19",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Grandola"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Grandola"},
+   :geocode
+   {:id #uuid "a168ae3c-5a6d-3fa4-801f-10a687693d19",
+    :address "Rua D. Nuno Álvares Pereira, Nº 162-C 7570-239 GRÂNDOLA",
+    :address-c
+    "Rua Dom Nuno Álvares Pereira 162C, 7570-239, Grândola, Setúbal",
+    :postal-c "7570-239",
+    :x -8.566999988894452,
+    :y 38.17857000891985,
+    :score 98.53,
+    :c 4}}]
  ["a-ideal-de-alcacer-00646"
   {:nec 646,
    :rates
@@ -2184,7 +2356,16 @@
     :cp7 "7580-142",
     :id #uuid "1a7b33d5-5e6e-33f2-9850-972731cda4c9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcacer%20do%20Sal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcacer%20do%20Sal"},
+   :geocode
+   {:id #uuid "1a7b33d5-5e6e-33f2-9850-972731cda4c9",
+    :address "Rua de S. Pedro nº 8 R/C 7580 -142 ALCÁCER DO SAL",
+    :address-c "Rua de São Pedro 8, 7580-142, Alcácer do Sal, Setúbal",
+    :postal-c "7580-142",
+    :x -8.513633184965332,
+    :y 38.370968075281404,
+    :score 97.87,
+    :c 4}}]
  ["luz-verde-00706"
   {:nec 706,
    :rates
@@ -2382,7 +2563,16 @@
     :cp7 "2910-389",
     :id #uuid "ef328f62-3dd8-3fbc-8511-f1ef93ff7a92",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "ef328f62-3dd8-3fbc-8511-f1ef93ff7a92",
+    :address "Rua de Aljubarrota nº 22 B 2910-389 SETÚBAL",
+    :address-c "Rua de Aljubarrota 22B, 2910-389, Setúbal",
+    :postal-c "2910-389",
+    :x -8.869029967518998,
+    :y 38.53293001117788,
+    :score 98.42,
+    :c 1}}]
  ["instrutejo-00736"
   {:nec 736,
    :rates
@@ -2481,7 +2671,14 @@
     :cp7 "2810-288",
     :id #uuid "30ce7b22-7774-37da-859b-7685d33e9e5f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2810-288",
+    :postal-c "2810-288",
+    :x -9.154369984359647,
+    :y 38.65446999606419,
+    :score 100,
+    :c 1}}]
  ["bonfim-00763"
   {:nec 763,
    :rates
@@ -2581,7 +2778,14 @@
     :cp7 "2900-406",
     :id #uuid "6f266680-45e2-3917-bfc2-8e389f7f5a22",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:cp7 "2900-406",
+    :postal-c "2900-406",
+    :x -8.889400003892092,
+    :y 38.53157000547813,
+    :score 100,
+    :c 1}}]
  ["manobras-00771"
   {:nec 771,
    :rates
@@ -2680,7 +2884,16 @@
     :cp7 "2910-710",
     :id #uuid "0aabfa3d-324b-3463-9503-bf39478e9d76",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "0aabfa3d-324b-3463-9503-bf39478e9d76",
+    :address "Avª das Descobertas lote 5 letra A 2910-710 SETÚBAL",
+    :address-c "Avenida das Descobertas 5, 2910-711, Setúbal",
+    :postal-c "2910-711",
+    :x -8.866380028830093,
+    :y 38.53359000223389,
+    :score 95.29,
+    :c 1}}]
  ["jevi-00799"
   {:nec 799,
    :rates
@@ -2779,7 +2992,14 @@
     :cp7 "2970-649",
     :id #uuid "588695ce-55f5-383b-9441-f06b5ef93cd1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:cp7 "2970-649",
+    :postal-c "2970-649",
+    :x -9.102590023122076,
+    :y 38.449479992710735,
+    :score 100,
+    :c 1}}]
  ["siiimplesado-00802"
   {:nec 802,
    :rates
@@ -2878,7 +3098,14 @@
     :cp7 "2860-293",
     :id #uuid "1f2a7313-8eff-3592-98f5-e36d2b645979",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
+   :geocode
+   {:cp7 "2860-293",
+    :postal-c "2860-293",
+    :x -8.981760027344222,
+    :y 38.64493499446891,
+    :score 100,
+    :c 1}}]
  ["novoensino-00803"
   {:nec 803,
    :rates
@@ -2950,7 +3177,14 @@
     :cp7 "7500-190",
     :id #uuid "2e64d810-1c31-3a9f-8296-e85f9979b5d5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:cp7 "7500-190",
+    :postal-c "7500-190",
+    :x -8.791774971779319,
+    :y 38.06225999633887,
+    :score 100,
+    :c 1}}]
  ["galaxia-00804"
   {:nec 804,
    :rates
@@ -3049,7 +3283,16 @@
     :cp7 "2870-260",
     :id #uuid "7eeb73f1-590b-3397-ad6b-c2ca30880dc1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
+   :geocode
+   {:id #uuid "7eeb73f1-590b-3397-ad6b-c2ca30880dc1",
+    :address "Rua Cristóvão Colombo, nº 77 2870 -260 MONTIJO",
+    :address-c "Rua Cristóvão Colombo 77, 2870-867, Montijo, Setúbal",
+    :postal-c "2870-867",
+    :x -8.957250001354737,
+    :y 38.70076002026943,
+    :score 97.4,
+    :c 1}}]
  ["nova-moita-00915"
   {:nec 915,
    :rates
@@ -3248,7 +3491,14 @@
     :cp7 "7500-190",
     :id #uuid "4adeeec6-d7e9-3a44-83d3-6459ca215e4b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:cp7 "7500-190",
+    :postal-c "7500-190",
+    :x -8.791774971779319,
+    :y 38.06225999633887,
+    :score 100,
+    :c 1}}]
  ["j-guerreio-e-batista-00931"
   {:nec 931,
    :rates
@@ -3347,7 +3597,17 @@
     :cp7 "7540-113",
     :id #uuid "72ece87f-f25b-3cdf-bc90-36e3cb9918bd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:id #uuid "72ece87f-f25b-3cdf-bc90-36e3cb9918bd",
+    :address "Rua José Maria Pinela 7540 -113 SANTIAGO DO CACÉM",
+    :address-c
+    "Rua José Maria Pinela, 7540-195, Santiago do Cacém, Setúbal",
+    :postal-c "7540-195",
+    :x -8.694521260894772,
+    :y 38.01088777690058,
+    :score 98.42,
+    :c 1}}]
  ["tecnidrive-00934"
   {:nec 934,
    :rates
@@ -3446,7 +3706,17 @@
     :cp7 "2855-587",
     :id #uuid "a20173cb-fd2e-3604-a7f1-0cb97b954498",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "a20173cb-fd2e-3604-a7f1-0cb97b954498",
+    :address "Praceta João Azevedo nº 4/4 A 2855-587 CORROIOS",
+    :address-c
+    "Praceta João Azevedo 4, 2855-587, Vale de Milhaços, Seixal, Setúbal",
+    :postal-c "2855-587",
+    :x -9.148929961560725,
+    :y 38.62976001977444,
+    :score 96.79,
+    :c 1}}]
  ["cidade-do-barreiro-00942"
   {:nec 942,
    :rates
@@ -3545,7 +3815,16 @@
     :cp7 "2830-358",
     :id #uuid "51b36c9b-7b4a-34e5-bb7b-916b00164525",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "51b36c9b-7b4a-34e5-bb7b-916b00164525",
+    :address "Rua São João de Brito, Nº 8 - A 2830-358 BARREIRO",
+    :address-c "Rua São João de Brito 8A, 2830-359, Barreiro, Setúbal",
+    :postal-c "2830-359",
+    :x -9.080110010262644,
+    :y 38.66216001504202,
+    :score 97.37,
+    :c 2}}]
  ["nova-almada-00978"
   {:nec 978,
    :rates
@@ -3645,7 +3924,17 @@
     :cp7 "2800-338",
     :id #uuid "4696761e-29aa-3a57-b583-1f84e4337852",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:id #uuid "4696761e-29aa-3a57-b583-1f84e4337852",
+    :address "Avenida António José Gomes 54 2800-338 COVA da PIEDADE",
+    :address-c
+    "Avenida António José Gomes 54, 2805-086, Cova da Piedade, Almada, Setúbal",
+    :postal-c "2805-086",
+    :x -9.156499993594593,
+    :y 38.67186998886609,
+    :score 98.29,
+    :c 1}}]
  ["corroios-pmr-01013"
   {:nec 1013,
    :rates
@@ -3745,7 +4034,14 @@
     :cp7 "2855-109",
     :id #uuid "2879e60e-15c7-3f49-a160-cc16ee35d4fb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:cp7 "2855-109",
+    :postal-c "2855-109",
+    :x -9.153319983348865,
+    :y 38.64335500572034,
+    :score 100,
+    :c 1}}]
  ["os-loios-01031"
   {:nec 1031,
    :rates
@@ -3844,7 +4140,17 @@
     :cp7 "2830",
     :id #uuid "3345eee1-820b-3da2-9256-c398c79e9ec1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "3345eee1-820b-3da2-9256-c398c79e9ec1",
+    :address "Praceta dos Loios, Nº 5 B 2830 BARREIRO",
+    :address-c
+    "Praceta dos Loios 5B, 2835-342, Lavradio, Barreiro, Setúbal",
+    :postal-c "2835-342",
+    :x -9.052409999562627,
+    :y 38.66300000746875,
+    :score 97.06,
+    :c 2}}]
  ["palma-cordeiro-01037"
   {:nec 1037,
    :rates
@@ -3944,7 +4250,18 @@
     :cp7 "2975-323",
     :id #uuid "38546458-0ba6-3113-be70-9f3ca35c476f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:id #uuid "38546458-0ba6-3113-be70-9f3ca35c476f",
+    :address
+    "Rua Jaime Cortesão nº 53 r/c Dtº - Cova dos Vidros 2975-323 QUINTA DO CONDE",
+    :address-c
+    "Rua Jaime Cortesão 53, 2975-323, Quinta do Conde, Sesimbra, Setúbal",
+    :postal-c "2975-323",
+    :x -9.039790038503611,
+    :y 38.565410011711265,
+    :score 95.59,
+    :c 1}}]
  ["madalena-e-fonseca-01060"
   {:nec 1060,
    :rates
@@ -4044,7 +4361,17 @@
     :cp7 "2825",
     :id #uuid "923cd579-9862-312d-9468-87ac4cc8dc92",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:id #uuid "923cd579-9862-312d-9468-87ac4cc8dc92",
+    :address "Rua Eleutério Teixeira Lt 27 2825 MONTE DA CAPARICA",
+    :address-c
+    "Rua Eleutério Teixeira 27, 2825-152, Alcaniça, Almada, Setúbal",
+    :postal-c "2825-152",
+    :x -9.190076519027935,
+    :y 38.664687331877836,
+    :score 95.41,
+    :c 1}}]
  ["drivers-club-01084"
   {:nec 1084,
    :rates
@@ -4143,7 +4470,17 @@
     :cp7 "2975-288",
     :id #uuid "91f7d46b-25e0-3db0-9cf9-8c49e2fc25c3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:id #uuid "91f7d46b-25e0-3db0-9cf9-8c49e2fc25c3",
+    :address "Rua Luísa Tody, lote 2157 2975-288 QUINTA DO CONDE",
+    :address-c
+    "Rua Luísa Tody 2157, 2975-288, Quinta do Conde, Sesimbra, Setúbal",
+    :postal-c "2975-288",
+    :x -9.049868137540575,
+    :y 38.56942419917692,
+    :score 98.9,
+    :c 1}}]
  ["cercal-do-alentejo-01088"
   {:nec 1088,
    :rates
@@ -4243,7 +4580,14 @@
     :cp7 "7555-101",
     :id #uuid "31cd77ec-4c68-3dd2-aba3-f2d51bfd4aec",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:cp7 "7555-101",
+    :postal-c "7555-101",
+    :x -8.674179971532055,
+    :y 37.80041499892269,
+    :score 100,
+    :c 1}}]
  ["bxb-01104"
   {:nec 1104,
    :rates
@@ -4343,7 +4687,14 @@
     :cp7 "2835-175",
     :id #uuid "1f79b2ac-10f6-3338-bc8c-eba59570cabb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
+   :geocode
+   {:cp7 "2835-175",
+    :postal-c "2835-175",
+    :x -9.037626334017887,
+    :y 38.65753944900703,
+    :score 100,
+    :c 1}}]
  ["previsegur-01115"
   {:nec 1115,
    :rates
@@ -4443,7 +4794,18 @@
     :cp7 "2955-028",
     :id #uuid "081c1ac1-cd27-3642-ac74-c2f7a4560f02",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:id #uuid "081c1ac1-cd27-3642-ac74-c2f7a4560f02",
+    :address
+    "Rua Salgueiro Maia lote 33, Loja Dtª 2955-028 PINHAL NOVO",
+    :address-c
+    "Rua Salgueiro Maia 33, 2955-028, Pinhal Novo, Palmela, Setúbal",
+    :postal-c "2955-028",
+    :x -8.912080008961311,
+    :y 38.623849981754944,
+    :score 98.48,
+    :c 1}}]
  ["costa-azul-01122"
   {:nec 1122,
    :rates
@@ -4542,7 +4904,17 @@
     :cp7 "2865-065",
     :id #uuid "86f86840-b62b-3e0c-9a59-256cd6bd3ac0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "86f86840-b62b-3e0c-9a59-256cd6bd3ac0",
+    :address "Rua da República, lote 344 r/c 2865-065 FERNÃO FERRO",
+    :address-c
+    "Rua República 344, 2865-635, Fernão Ferro, Seixal, Setúbal",
+    :postal-c "2865-635",
+    :x -9.086580001323767,
+    :y 38.56211998898635,
+    :score 98.45,
+    :c 1}}]
  ["instrusol-01138"
   {:nec 1138,
    :rates
@@ -4641,7 +5013,17 @@
     :cp7 "2830",
     :id #uuid "a9dbb338-ae7c-3c0b-bd94-0f014191c188",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "a9dbb338-ae7c-3c0b-bd94-0f014191c188",
+    :address "Rua António Amaro Monteiro nº 6 A 2830 BARREIRO",
+    :address-c
+    "Rua António Amaro Monteiro 6, 2835-744, Santo António da Charneca, Barreiro, Setúbal",
+    :postal-c "2835-744",
+    :x -9.041119995080464,
+    :y 38.63482000708339,
+    :score 96.95,
+    :c 1}}]
  ["3-as-01144"
   {:nec 1144,
    :rates
@@ -4741,7 +5123,17 @@
     :cp7 "2910-238",
     :id #uuid "309f9d74-e9a1-3d79-be85-12caf00509da",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "309f9d74-e9a1-3d79-be85-12caf00509da",
+    :address
+    "Rua Fernando Motrena, Lote 1 R/C Dt, Loja A/C-Manteigadas 2910-238 SETÚBAL",
+    :address-c "Rua Fernando Motrena 1, 2910-238, Manteigada, Setúbal",
+    :postal-c "2910-238",
+    :x -8.854770003284699,
+    :y 38.52310000850031,
+    :score 97.66,
+    :c 1}}]
  ["instrucosta-01157"
   {:nec 1157,
    :rates
@@ -4840,7 +5232,14 @@
     :cp7 "2825-001",
     :id #uuid "ba6faa26-de99-3ccf-a8c5-d3bd945b1a73",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2825-001",
+    :postal-c "2825-001",
+    :x -9.185830033005146,
+    :y 38.66619497941164,
+    :score 100,
+    :c 1}}]
  ["golfinho-01176"
   {:nec 1176,
    :rates
@@ -4911,7 +5310,14 @@
     :cp7 "2900-001",
     :id #uuid "7af795c0-6fe4-34d3-9a98-98d3089d71d8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:cp7 "2900-001",
+    :postal-c "2900-001",
+    :x -8.903740015301736,
+    :y 38.51909999666694,
+    :score 100,
+    :c 1}}]
  ["andrade-de-azeitao-01202"
   {:nec 1202,
    :rates
@@ -5011,7 +5417,18 @@
     :cp7 "2925-598",
     :id #uuid "c678678d-414a-3c20-a0b4-c12a47b08d37",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "c678678d-414a-3c20-a0b4-c12a47b08d37",
+    :address
+    "Rua Sociedade Filarmónica Perpétua Azeitonense, Nº 5 2925-598 AZEITÃO",
+    :address-c
+    "Rua da Soc. Fil. Perpétua Azeitonense 5, 2925-510, Vila Nogueira de Azeitão, Setúbal",
+    :postal-c "2925-510",
+    :x -9.025883940727644,
+    :y 38.525931221812115,
+    :score 95.89,
+    :c 1}}]
  ["lazarim-01213"
   {:nec 1213,
    :rates
@@ -5110,7 +5527,14 @@
     :cp7 "2825-001",
     :id #uuid "e776c98e-a8c0-3d53-8c02-b005abea99bc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2825-001",
+    :postal-c "2825-001",
+    :x -9.185830033005146,
+    :y 38.66619497941164,
+    :score 100,
+    :c 1}}]
  ["nova-asseiceira-01215"
   {:nec 1215,
    :rates
@@ -5209,7 +5633,14 @@
     :cp7 "2800-648",
     :id #uuid "b00f102c-f507-33d9-be48-04f69ac705d5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2800-648",
+    :postal-c "2800-648",
+    :x -9.156920010762718,
+    :y 38.67841001072824,
+    :score 100,
+    :c 1}}]
  ["poceirense-01222"
   {:nec 1222,
    :rates
@@ -5308,7 +5739,14 @@
     :cp7 "2965-301",
     :id #uuid "0fdd25c2-4645-30ea-95aa-23f538f0582b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:cp7 "2965-301",
+    :postal-c "2965-301",
+    :x -8.74207003449186,
+    :y 38.63380001328596,
+    :score 100,
+    :c 1}}]
  ["pereira-tostao-01223"
   {:nec 1223,
    :rates
@@ -5408,7 +5846,18 @@
     :cp7 "2840-378",
     :id #uuid "b34c6654-2f02-318b-9639-1ecf952e4d2f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "b34c6654-2f02-318b-9639-1ecf952e4d2f",
+    :address
+    "Rua Distrito de Lobata, Nº 7-B, Quinta de Cima, Torre da Marinha 2840-378 SEIXAL",
+    :address-c
+    "Rua Distrito de Lobata 7B, 2840-378, Quinta de Cima, Seixal, Setúbal",
+    :postal-c "2840-378",
+    :x -9.097379999746266,
+    :y 38.617950002019256,
+    :score 96.43,
+    :c 1}}]
  ["rio-sul-01236"
   {:nec 1236,
    :rates
@@ -5507,7 +5956,17 @@
     :cp7 "2840-732",
     :id #uuid "84744ece-ecab-32be-badc-9bce5e9532f6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "84744ece-ecab-32be-badc-9bce5e9532f6",
+    :address "Rua Casal do Marco, Nº 73 C e 73 D, 2840-732 SEIXAL",
+    :address-c
+    "Rua Casal do Marco 73, 2840-732, Casal do Marco, Seixal, Setúbal",
+    :postal-c "2840-732",
+    :x -9.10046001388713,
+    :y 38.61120001348257,
+    :score 97.13,
+    :c 1}}]
  ["altamente-01242"
   {:nec 1242,
    :rates
@@ -5607,7 +6066,18 @@
     :cp7 "2810-001",
     :id #uuid "21af171f-3a1e-35c1-a871-642468bdba8a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:id #uuid "21af171f-3a1e-35c1-a871-642468bdba8a",
+    :address
+    "Rua Maria Judite de Carvalho, n.º 15-B ; 2810-001 Almada",
+    :address-c
+    "Rua Maria Judite de Carvalho 15B, 2810-409, Feijó, Almada, Setúbal",
+    :postal-c "2810-409",
+    :x -9.16513997556882,
+    :y 38.650399995339285,
+    :score 96.05,
+    :c 2}}]
  ["fidalguinhos-01255"
   {:nec 1255,
    :rates
@@ -5706,7 +6176,17 @@
     :cp7 "2835-801",
     :id #uuid "d03d9622-e239-35ce-82d3-b1d618614b37",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "d03d9622-e239-35ce-82d3-b1d618614b37",
+    :address "Rua da S.D.U.B. os Franceses, Nº 6-C 2835-801 LAVRADIO",
+    :address-c
+    "Rua S. D. U. B. Franceses 6C, 2835-801, Lavradio, Barreiro, Setúbal",
+    :postal-c "2835-801",
+    :x -9.048709976043881,
+    :y 38.6540200135922,
+    :score 98.19,
+    :c 1}}]
  ["topdrive-01259"
   {:nec 1259,
    :rates
@@ -5904,7 +6384,14 @@
     :cp7 "2970-585",
     :id #uuid "76ad1b26-76cf-3f01-ba1f-7db610e643fe",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:cp7 "2970-585",
+    :postal-c "2970-585",
+    :x -9.093869993972532,
+    :y 38.47297501213521,
+    :score 100,
+    :c 1}}]
  ["net-rodas-01273"
   {:nec 1273,
    :rates
@@ -6004,7 +6491,18 @@
     :cp7 "2870-059",
     :id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
+   :geocode
+   {:id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
+    :address
+    "Rua António Fortunato de Sousa, n.º 71, 2870-059 MONTIJO",
+    :address-c
+    "Rua António Fortunato de Sousa, 2870-054, Montijo, Setúbal",
+    :postal-c "2870-054",
+    :x -8.978027344430592,
+    :y 38.705149808125164,
+    :score 95.29,
+    :c 2}}]
  ["seixalinho-01279"
   {:nec 1279,
    :rates
@@ -6103,7 +6601,16 @@
     :cp7 "2830-095",
     :id #uuid "204fd63b-ef82-3f11-a166-e882e0eb13ef",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "204fd63b-ef82-3f11-a166-e882e0eb13ef",
+    :address "Rua Nuno Tristão, 1 B, 2830-095 Barreiro",
+    :address-c "Rua Nuno Tristão 1B, 2830-095, Barreiro, Setúbal",
+    :postal-c "2830-095",
+    :x -9.060819982113685,
+    :y 38.6559400142431,
+    :score 99.99,
+    :c 1}}]
  ["helder-pereira-01283"
   {:nec 1283,
    :rates
@@ -6202,7 +6709,14 @@
     :cp7 "2845-601",
     :id #uuid "1d23ad76-7d33-3992-86af-f4ecd81ba297",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:cp7 "2845-601",
+    :postal-c "2845-601",
+    :x -9.108909978116344,
+    :y 38.614624984848604,
+    :score 100,
+    :c 1}}]
  ["charneca-01285"
   {:nec 1285,
    :rates
@@ -6302,7 +6816,14 @@
     :cp7 "2820-185",
     :id #uuid "49c78c0f-a279-33c2-bf98-a5baea589f35",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2820-185",
+    :postal-c "2820-185",
+    :x -9.187205000402031,
+    :y 38.6056200129006,
+    :score 100,
+    :c 1}}]
  ["universia-01305"
   {:nec 1305,
    :rates
@@ -6401,7 +6922,14 @@
     :cp7 "2825-146",
     :id #uuid "dd78b043-5805-3cb0-b9dd-ad66ff7a6473",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+   :geocode
+   {:cp7 "2825-146",
+    :postal-c "2825-146",
+    :x -9.19750996362302,
+    :y 38.66621501216022,
+    :score 100,
+    :c 1}}]
  ["sudoeste-01308"
   {:nec 1308,
    :rates
@@ -6500,7 +7028,16 @@
     :cp7 "7520-246",
     :id #uuid "4db5989c-43be-3f0b-90d5-f298dd8ddaae",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"},
+   :geocode
+   {:id #uuid "4db5989c-43be-3f0b-90d5-f298dd8ddaae",
+    :address "Rua Zeca Afonso, n.º 4; 7520-246 Sines",
+    :address-c "Rua Zeca Afonso 4, 7520-246, Sines, Setúbal",
+    :postal-c "7520-246",
+    :x -8.863309989154004,
+    :y 37.957849981243655,
+    :score 95.48,
+    :c 1}}]
  ["abs-01334"
   {:nec 1334,
    :rates
@@ -6599,7 +7136,14 @@
     :cp7 "2845-554",
     :id #uuid "6ddbb550-377b-3cea-a3fc-6231366a6f29",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:cp7 "2845-554",
+    :postal-c "2845-554",
+    :x -9.124454971926497,
+    :y 38.61325999191649,
+    :score 100,
+    :c 1}}]
  ["nova-de-setubal-01364"
   {:nec 1364,
    :rates
@@ -6684,7 +7228,14 @@
     :cp7 "2845-607",
     :id #uuid "6a1abda7-fd26-3e70-a03e-7ca95543f91a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:cp7 "2845-607",
+    :postal-c "2845-607",
+    :x -9.116640020681842,
+    :y 38.63061501580785,
+    :score 100,
+    :c 1}}]
  ["forus-01392"
   {:nec 1392,
    :rates
@@ -6741,7 +7292,16 @@
     :cp7 nil,
     :id #uuid "d77c278d-0ade-3a68-8077-689dada9eb81",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+   :geocode
+   {:id #uuid "d77c278d-0ade-3a68-8077-689dada9eb81",
+    :address "Estação de Comboios dos Foros da Amora ",
+    :address-c "Comboio-Foros de Amora",
+    :postal-c "2845",
+    :x -9.127749999999935,
+    :y 38.620940000000076,
+    :score 84.08,
+    :c 6}}]
  ["quinta-do-conde-01406"
   {:nec 1406,
    :rates
@@ -6799,7 +7359,14 @@
     :cp7 "2975-246",
     :id #uuid "41482ca0-23e1-33cb-96b8-8e31b29eb787",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+   :geocode
+   {:cp7 "2975-246",
+    :postal-c "2975-246",
+    :x -9.042345010229553,
+    :y 38.57019000154463,
+    :score 100,
+    :c 1}}]
  ["vila-serena-01407"
   {:nec 1407,
    :rates
@@ -6857,7 +7424,14 @@
     :cp7 "2955-098",
     :id #uuid "41d4e819-8a0f-3e57-b267-7a315a3e6b95",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:cp7 "2955-098",
+    :postal-c "2955-098",
+    :x -8.910474958322226,
+    :y 38.639345019422166,
+    :score 100,
+    :c 1}}]
  ["casquilhos-01419"
   {:nec 1419,
    :rates
@@ -6914,4 +7488,13 @@
     :cp7 "2830-554",
     :id #uuid "941587fe-f170-3937-929b-b8c28b8048e5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "941587fe-f170-3937-929b-b8c28b8048e5",
+    :address "Rua José Cardoso Pires, n.º 3 C, 2830-554 Barreiro",
+    :address-c "Rua José Cardoso Pires, 2830-554, Barreiro, Setúbal",
+    :postal-c "2830-554",
+    :x -9.058139231301945,
+    :y 38.65158004157783,
+    :score 96.32,
+    :c 2}}]]

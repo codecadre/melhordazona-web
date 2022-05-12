@@ -96,4 +96,15 @@
   :cp7 "4420-155",
   :id #uuid "f96dd77a-48a5-30fd-9f20-f530dba5d2cb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+ :geocode
+ {:id #uuid "f96dd77a-48a5-30fd-9f20-f530dba5d2cb",
+  :address
+  "Avª General Humberto Delgado nº 1012 4420-155 GONDOMAR (S: COSME)",
+  :address-c
+  "Avenida General Humberto Delgado 1012, 4420-155, Vilar, Gondomar, Porto",
+  :postal-c "4420-155",
+  :x -8.53027996073024,
+  :y 41.1529899813016,
+  :score 97.48,
+  :c 2}}

@@ -96,4 +96,15 @@
   :cp7 "2420-104",
   :id #uuid "c3c3775b-72dd-3406-878a-2055c26fd77c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+ :geocode
+ {:id #uuid "c3c3775b-72dd-3406-878a-2055c26fd77c",
+  :address
+  "Rua de São Cristóvão nº 16 r/c Esqº 2420-104 CARANGUEJEIRA",
+  :address-c
+  "Rua de São Cristovão 16, 2420-104, Casal da Cruz, Leiria",
+  :postal-c "2420-104",
+  :x -8.704999978051063,
+  :y 39.74358000314962,
+  :score 96.16,
+  :c 1}}

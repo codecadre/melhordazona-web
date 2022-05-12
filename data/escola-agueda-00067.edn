@@ -95,4 +95,14 @@
   :cp7 "3750-181",
   :id #uuid "92aba0f8-cf8f-3b8b-95c7-ab3dd8f3d167",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
+ :geocode
+ {:id #uuid "92aba0f8-cf8f-3b8b-95c7-ab3dd8f3d167",
+  :address "Rua Miguel de Almeida e Silva -E N 1 3750-181 ÁGUEDA",
+  :address-c
+  "Rua Miguel Almeida e Silva & N1, 3750-181, Póvoa Marta, Águeda, Aveiro",
+  :postal-c "3750-181",
+  :x -8.450989922718605,
+  :y 40.568250059414765,
+  :score 98.99,
+  :c 3}}

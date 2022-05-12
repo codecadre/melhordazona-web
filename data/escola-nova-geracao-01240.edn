@@ -96,4 +96,15 @@
   :cp7 "2795-134",
   :id #uuid "7fc2ddda-4172-3100-81ce-e16d95763083",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
+ :geocode
+ {:id #uuid "7fc2ddda-4172-3100-81ce-e16d95763083",
+  :address
+  "Rua Marcelino Mesquita, Nº 11, Loja 1-A 2795-134 LINDA-A-VELHA",
+  :address-c
+  "Rua Marcelino Mesquita 11, 2795-134, Linda-a-Velha, Oeiras, Lisboa",
+  :postal-c "2795-134",
+  :x -9.239563932515727,
+  :y 38.70449225869621,
+  :score 98.59,
+  :c 1}}

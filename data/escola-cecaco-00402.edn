@@ -95,4 +95,13 @@
   :cp7 "2780-352",
   :id #uuid "103e1562-6725-335b-94ce-56d13f251f44",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
+ :geocode
+ {:id #uuid "103e1562-6725-335b-94ce-56d13f251f44",
+  :address "Avª Pedro Álvares Cabral, 33 A 2780-352 OEIRAS",
+  :address-c "Avenida Pedro Álvares Cabral 33A, 2780, Oeiras, Lisboa",
+  :postal-c "2780",
+  :x -9.30798001089505,
+  :y 38.68717999602072,
+  :score 96.58,
+  :c 2}}

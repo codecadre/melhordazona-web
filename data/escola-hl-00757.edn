@@ -95,4 +95,13 @@
   :cp7 "8000-076",
   :id #uuid "b86967d7-481c-3b20-82d6-e766a6bc9cdd",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+ :geocode
+ {:id #uuid "b86967d7-481c-3b20-82d6-e766a6bc9cdd",
+  :address "Av. 5 de Outubro, nº 90 R/C Esqº 8000-076 FARO",
+  :address-c "Avenida 5 de Outubro 90, 8000-076, Faro",
+  :postal-c "8000-076",
+  :x -7.9243229273354245,
+  :y 37.0182031379166,
+  :score 96.6,
+  :c 1}}

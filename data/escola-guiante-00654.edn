@@ -96,4 +96,15 @@
   :cp7 "4805-161",
   :id #uuid "4599b482-85c9-3d47-96da-bfb3b6047697",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+ :geocode
+ {:id #uuid "4599b482-85c9-3d47-96da-bfb3b6047697",
+  :address
+  "Rua Padre da Silva Gonçalves nº 206 4805-161 CALDAS das TAIPAS",
+  :address-c
+  "Rua Padre Silva Gonçalves 206, 4805-161, Caldelas, Guimarães, Braga",
+  :postal-c "4805-161",
+  :x -8.34496524817909,
+  :y 41.48722237852535,
+  :score 95.68,
+  :c 1}}

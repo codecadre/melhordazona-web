@@ -96,4 +96,15 @@
   :cp7 "6200-053",
   :id #uuid "3da294f2-fdd3-33f3-967f-74271550dd57",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+ :geocode
+ {:id #uuid "3da294f2-fdd3-33f3-967f-74271550dd57",
+  :address
+  "Rua Marquês D'Ávila e Bolama, Lote 5, Nº 357 R/C DTº 6200-053 COVILHÃ",
+  :address-c
+  "Rua Marquês d'Ávila e Bolama 5, 6200-053, Covilhã, Castelo Branco",
+  :postal-c "6200-053",
+  :x -7.507068551770723,
+  :y 40.278040058579414,
+  :score 96.98,
+  :c 2}}

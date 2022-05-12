@@ -95,4 +95,13 @@
   :cp7 "2790-351",
   :id #uuid "55193869-b2d2-3c30-9d0f-8855b29d6aa2",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
+ :geocode
+ {:id #uuid "55193869-b2d2-3c30-9d0f-8855b29d6aa2",
+  :address "Rua Gil Vicente, Nº 16 2790-351 QUEIJAS",
+  :address-c "Rua Gil Vicente 16, 2790-351, Queijas, Oeiras, Lisboa",
+  :postal-c "2790-351",
+  :x -9.260840019798309,
+  :y 38.71887000217981,
+  :score 98.36,
+  :c 2}}

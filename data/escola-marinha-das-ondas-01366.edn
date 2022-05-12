@@ -81,4 +81,14 @@
   :cp7 "3090-485",
   :id #uuid "a95b520b-a6b5-36f7-9307-efba2c7bb19a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
+ :geocode
+ {:id #uuid "a95b520b-a6b5-36f7-9307-efba2c7bb19a",
+  :address "Rua dos Alentejeiros, n.º 22, 3090-485 Marinha das Ondas",
+  :address-c
+  "Rua dos Alentejeiros, 3090-485, Marinha das Ondas, Figueira da Foz, Coimbra",
+  :postal-c "3090-485",
+  :x -8.820152874896998,
+  :y 40.03713276728556,
+  :score 96.82,
+  :c 4}}

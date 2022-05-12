@@ -95,4 +95,13 @@
   :cp7 "4620-596",
   :id #uuid "826923a2-bf12-38c8-b8f3-2ae08f0045ff",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vizela"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vizela"},
+ :geocode
+ {:id #uuid "826923a2-bf12-38c8-b8f3-2ae08f0045ff",
+  :address "Rua de Pousada, 233 4620-596 Barrosas (Santa Eulália)",
+  :address-c "Rua de Pousada 233, 4620-596, Prados, Vizela, Braga",
+  :postal-c "4620-596",
+  :x -8.287226286373675,
+  :y 41.35961273209373,
+  :score 98.82,
+  :c 1}}

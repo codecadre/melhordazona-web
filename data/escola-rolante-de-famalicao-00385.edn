@@ -96,4 +96,15 @@
   :cp7 "4760-105",
   :id #uuid "6378a810-b3f6-35da-ad76-0cfecc3bfbb7",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+ :geocode
+ {:id #uuid "6378a810-b3f6-35da-ad76-0cfecc3bfbb7",
+  :address
+  "Rua Narciso Ferreira, 21-25 4760-105 VILA NOVA DE FAMALICÃO",
+  :address-c
+  "Avenida Narciso Ferreira 21, 4760-105, Vila Nova de Famalicão, Braga",
+  :postal-c "4760-105",
+  :x -8.518912004333005,
+  :y 41.4088708512541,
+  :score 95.81,
+  :c 2}}

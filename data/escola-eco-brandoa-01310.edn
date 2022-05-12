@@ -95,4 +95,14 @@
   :cp7 "2650-224",
   :id #uuid "24c4fc92-24d0-3762-8df6-238f8032ba33",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
+ :geocode
+ {:id #uuid "24c4fc92-24d0-3762-8df6-238f8032ba33",
+  :address "Rua Joaquim Tim Tim Sitima, N.º 20 A; 2650-224 Brandoa",
+  :address-c
+  "Rua Joaquim Tim Tim Sítima 20A, 2650-224, Brandoa, Amadora, Lisboa",
+  :postal-c "2650-224",
+  :x -9.223550022218177,
+  :y 38.76786000503594,
+  :score 97.05,
+  :c 1}}

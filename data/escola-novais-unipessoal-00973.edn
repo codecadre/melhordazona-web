@@ -95,4 +95,13 @@
   :cp7 "8600-546",
   :id #uuid "e63e6220-fb66-3f92-984c-2081f6ba302e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
+ :geocode
+ {:id #uuid "e63e6220-fb66-3f92-984c-2081f6ba302e",
+  :address "Pedra Alçada Lote 7, Loja C 8600-546 LAGOS",
+  :address-c "Rua da Pedra Alçada 7, 8600-546, Lagos, Faro",
+  :postal-c "8600-546",
+  :x -8.686172689874327,
+  :y 37.10052876468152,
+  :score 98.46,
+  :c 1}}

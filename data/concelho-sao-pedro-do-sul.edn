@@ -96,7 +96,17 @@
     :cp7 "3660-482",
     :id #uuid "7e8eb95a-d15b-3608-bfbc-ef3ac2f698f7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"},
+   :geocode
+   {:id #uuid "7e8eb95a-d15b-3608-bfbc-ef3ac2f698f7",
+    :address "Largo Luís de Camões, nº 56 1º 3660-482 S. PEDRO DO SUL",
+    :address-c
+    "Largo Luís de Camões 56, 3660-436, São Pedro do Sul, Viseu",
+    :postal-c "3660-436",
+    :x -8.06326001326704,
+    :y 40.76202997973283,
+    :score 96.97,
+    :c 1}}]
  ["baptista-01073"
   {:nec 1073,
    :rates
@@ -195,4 +205,11 @@
     :cp7 "3660-428",
     :id #uuid "60b44f2d-2b5a-3c6d-aeb8-ab696a5e0f7a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"},
+   :geocode
+   {:cp7 "3660-428",
+    :postal-c "3660-428",
+    :x -8.067694962056208,
+    :y 40.76001501211897,
+    :score 100,
+    :c 1}}]]

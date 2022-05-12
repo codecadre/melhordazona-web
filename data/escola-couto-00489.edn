@@ -95,4 +95,14 @@
   :cp7 "4415-385",
   :id #uuid "a43f67e8-8ec0-31f9-bca7-d3541d4656b8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "a43f67e8-8ec0-31f9-bca7-d3541d4656b8",
+  :address "Avª Dr. Moreira de Sousa nº 2251 4415-385 PEDROSO",
+  :address-c
+  "Avenida Doutor Moreira de Sousa 2251, 4415-385, Venda Nova, Vila Nova de Gaia, Porto",
+  :postal-c "4415-385",
+  :x -8.566958621023348,
+  :y 41.05726182836904,
+  :score 97.32,
+  :c 1}}

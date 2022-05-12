@@ -96,4 +96,15 @@
   :cp7 "4535-014",
   :id #uuid "549aeba9-0357-3a55-85ec-f949c90afbdb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "549aeba9-0357-3a55-85ec-f949c90afbdb",
+  :address
+  "Avª Principal nº 1159-Edificio Nacional 1 4535-014 LOUROSA",
+  :address-c
+  "Avenida Principal 1159, 4535-014, Lourosa, Santa Maria da Feira, Aveiro",
+  :postal-c "4535-014",
+  :x -8.538349973288518,
+  :y 40.991760008498915,
+  :score 95.16,
+  :c 2}}

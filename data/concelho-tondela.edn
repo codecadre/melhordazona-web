@@ -96,7 +96,17 @@
     :cp7 "3460-575",
     :id #uuid "43b6d67f-4895-3c25-bf6f-03993465e73d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
+   :geocode
+   {:id #uuid "43b6d67f-4895-3c25-bf6f-03993465e73d",
+    :address "Rua António Marques da Costa, s/nª 3460-575 TONDELA",
+    :address-c
+    "Rua Dr. António Marques da Costa, 3460-575, Tondela, Viseu",
+    :postal-c "3460-575",
+    :x -8.083200846914126,
+    :y 40.51975900253909,
+    :score 97.44,
+    :c 2}}]
  ["grand-tour-00900"
   {:nec 900,
    :rates
@@ -140,7 +150,14 @@
     :cp7 "3460-572",
     :id #uuid "9929dc34-7d82-34ea-944d-a97bce27d9df",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
+   :geocode
+   {:cp7 "3460-572",
+    :postal-c "3460-572",
+    :x -8.080765031315735,
+    :y 40.514099989325786,
+    :score 100,
+    :c 1}}]
  ["tondeluir-01188"
   {:nec 1188,
    :rates
@@ -240,4 +257,11 @@
     :cp7 "3460-009",
     :id #uuid "59a34454-a3ea-3db4-8405-d22cc824bd55",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
+   :geocode
+   {:cp7 "3460-009",
+    :postal-c "3460-009",
+    :x -8.104160012725828,
+    :y 40.5331450144449,
+    :score 100,
+    :c 1}}]]

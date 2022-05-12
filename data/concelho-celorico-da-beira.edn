@@ -96,4 +96,14 @@
     :cp7 "6360-350",
     :id #uuid "8cf5eec6-e199-356e-a41c-6b2289bda879",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Celorico%20da%20Beira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Celorico%20da%20Beira"},
+   :geocode
+   {:id #uuid "8cf5eec6-e199-356e-a41c-6b2289bda879",
+    :address "Rua Sacadura Cabral, Nº16 6360-350 CELORICO DA BEIRA",
+    :address-c
+    "Rua Sacadura Cabral 16, 6360-350, Celorico da Beira, Guarda",
+    :postal-c "6360-350",
+    :x -7.395419975461181,
+    :y 40.63374000630981,
+    :score 98.04,
+    :c 7}}]]

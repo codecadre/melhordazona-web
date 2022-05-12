@@ -97,7 +97,14 @@
     :cp7 "4920-279",
     :id #uuid "e4562507-5e42-3015-9bf8-46f91cdc038a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Vila%20Nova%20Cerveira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Vila%20Nova%20Cerveira"},
+   :geocode
+   {:cp7 "4920-279",
+    :postal-c "4920-279",
+    :x -8.74238997173606,
+    :y 41.94381998942413,
+    :score 100,
+    :c 1}}]
  ["alto-das-cerejas-00747"
   {:nec 747,
    :rates
@@ -197,4 +204,11 @@
     :cp7 "4920-011",
     :id #uuid "458b2968-93c8-3c65-9b3f-84243c7b6167",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Vila%20Nova%20Cerveira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Vila%20Nova%20Cerveira"},
+   :geocode
+   {:cp7 "4920-011",
+    :postal-c "4920-011",
+    :x -8.688025031559192,
+    :y 41.97114000654366,
+    :score 100,
+    :c 1}}]]

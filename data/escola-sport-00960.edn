@@ -95,4 +95,14 @@
   :cp7 "4560-568",
   :id #uuid "dfc3da07-a89c-31e8-8881-292eb1f2f04e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+ :geocode
+ {:id #uuid "dfc3da07-a89c-31e8-8881-292eb1f2f04e",
+  :address "Rua D. António Ferreira Gomes nº 166 4560-568 MILHUNDOS",
+  :address-c
+  "Rua de Dom António Ferreira Gomes 166, 4560-568, Milhundos, Penafiel, Porto",
+  :postal-c "4560-568",
+  :x -8.276789583394674,
+  :y 41.20752746295534,
+  :score 98.56,
+  :c 2}}

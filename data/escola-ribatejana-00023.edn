@@ -81,4 +81,13 @@
   :cp7 "2000",
   :id #uuid "88ad6878-8beb-31a5-8679-a25d4e888e96",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+ :geocode
+ {:id #uuid "88ad6878-8beb-31a5-8679-a25d4e888e96",
+  :address "Largo Infante Santo, nº 4-1ºEsq 2000 SANTARÉM",
+  :address-c "Largo do Infante Santo 4, 2005-246, Santarém",
+  :postal-c "2005-246",
+  :x -8.686600024200317,
+  :y 39.23875000292378,
+  :score 96.49,
+  :c 2}}

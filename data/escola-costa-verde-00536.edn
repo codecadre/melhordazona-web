@@ -95,4 +95,13 @@
   :cp7 "4500-807",
   :id #uuid "f5fc4eaa-33c6-36a0-a7d7-66e18fabef0b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
+ :geocode
+ {:id #uuid "f5fc4eaa-33c6-36a0-a7d7-66e18fabef0b",
+  :address "Rua 16, nº 1139 4500-807 ESPINHO",
+  :address-c "Rua 16 1139, 4500-807, Espinho, Aveiro",
+  :postal-c "4500-807",
+  :x -8.641389966309731,
+  :y 41.003330010456665,
+  :score 95.83,
+  :c 2}}

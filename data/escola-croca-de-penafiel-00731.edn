@@ -95,4 +95,13 @@
   :cp7 "4560-494",
   :id #uuid "51e18e6d-8bb5-3770-ae01-3108f1ac1e15",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+ :geocode
+ {:id #uuid "51e18e6d-8bb5-3770-ae01-3108f1ac1e15",
+  :address "Av Zeferino de Oliveira, n.º 26, 4560-494 Penafiel",
+  :address-c "Avenida Zeferino Oliveira, 4560-494, Penafiel, Porto",
+  :postal-c "4560-494",
+  :x -8.277578026372995,
+  :y 41.20803736267542,
+  :score 96.41,
+  :c 4}}

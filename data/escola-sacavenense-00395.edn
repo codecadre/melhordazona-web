@@ -95,4 +95,13 @@
   :cp7 "2685-86",
   :id #uuid "6dfbb7bd-ec21-3a14-be58-80d3294fe277",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+ :geocode
+ {:id #uuid "6dfbb7bd-ec21-3a14-be58-80d3294fe277",
+  :address "Travessa do Olival, 6 r/c Dtº 2685-86 SACAVÉM",
+  :address-c "Travessa Olival 6, 2685-086, Sacavém, Loures, Lisboa",
+  :postal-c "2685-086",
+  :x -9.10676001995185,
+  :y 38.79192000664395,
+  :score 98,
+  :c 1}}

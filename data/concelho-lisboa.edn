@@ -96,7 +96,16 @@
     :cp7 "1000-070",
     :id #uuid "cda4577b-d85e-3091-92b9-c85fdb79623e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "cda4577b-d85e-3091-92b9-c85fdb79623e",
+    :address "Avª Barbosa do Bocage, 23 A e B R/C 1000-070 LISBOA",
+    :address-c "Avenida Barbosa du Bocage 23A, 1000-070, Lisboa",
+    :postal-c "1000-070",
+    :x -9.144120006423492,
+    :y 38.74056002066496,
+    :score 98.93,
+    :c 2}}]
  ["a-popular-00005"
   {:nec 5,
    :rates
@@ -195,7 +204,14 @@
     :cp7 "1000-001",
     :id #uuid "6168a0d9-edc4-3b4f-8c1c-43bfde8715b6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1000-001",
+    :postal-c "1000-001",
+    :x -9.13877000526469,
+    :y 38.73311500471695,
+    :score 100,
+    :c 1}}]
  ["automoveis-monumental-00006"
   {:nec 6,
    :rates
@@ -294,7 +310,16 @@
     :cp7 "1000-198",
     :id #uuid "a4031653-1fd4-384e-923b-92ee7ebbe977",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "a4031653-1fd4-384e-923b-92ee7ebbe977",
+    :address "Avª Manuel da Maia, 11 r/c 1000-198 LISBOA",
+    :address-c "Avenida Manuel da Maia 11, 1000-198, Lisboa",
+    :postal-c "1000-198",
+    :x -9.136909977131012,
+    :y 38.73538000450253,
+    :score 99.38,
+    :c 4}}]
  ["vitoria-00008"
   {:nec 8,
    :rates
@@ -393,7 +418,16 @@
     :cp7 "1170-286",
     :id #uuid "40e8ceb3-f802-3e9c-9dc8-b1e441812c86",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "40e8ceb3-f802-3e9c-9dc8-b1e441812c86",
+    :address "Rua Palmira, 64 – 1º Esqº 1170 -286 LISBOA",
+    :address-c "Rua Palmira 64, 1170-289, Lisboa",
+    :postal-c "1170-289",
+    :x -9.13390003570072,
+    :y 38.72507998660444,
+    :score 97.01,
+    :c 2}}]
  ["lusitania-de-automobilsmo-00010"
   {:nec 10,
    :rates
@@ -492,7 +526,16 @@
     :cp7 "1000-268",
     :id #uuid "6b088d8b-fa3a-38a3-b344-5b8c7982aeaf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "6b088d8b-fa3a-38a3-b344-5b8c7982aeaf",
+    :address "Avª Rovisco Pais, 14 e 14 C 1000-268 LISBOA",
+    :address-c "Avenida Rovisco Pais 14, 1000-268, Lisboa",
+    :postal-c "1000-268",
+    :x -9.138900008582937,
+    :y 38.73518998675755,
+    :score 98.79,
+    :c 1}}]
  ["moderna-00016"
   {:nec 16,
    :rates
@@ -592,7 +635,14 @@
     :cp7 "1600-189",
     :id #uuid "e704454f-c2a2-39e1-9552-5289e0dfe89f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1600-189",
+    :postal-c "1600-189",
+    :x -9.151185028791048,
+    :y 38.750030020601116,
+    :score 100,
+    :c 1}}]
  ["e-p-campos-00019"
   {:nec 19,
    :rates
@@ -691,7 +741,16 @@
     :cp7 "1250-018",
     :id #uuid "eb9a9c5a-1886-303d-8c09-19753b64a276",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "eb9a9c5a-1886-303d-8c09-19753b64a276",
+    :address "Avª Álvares Cabral, 24 1250-018 LISBOA",
+    :address-c "Avenida Álvares Cabral 24, 1250-018, Lisboa",
+    :postal-c "1250-018",
+    :x -9.156350041346798,
+    :y 38.7192300049212,
+    :score 97.51,
+    :c 1}}]
  ["sao-cristovao-00021"
   {:nec 21,
    :rates
@@ -790,7 +849,16 @@
     :cp7 "1000-298",
     :id #uuid "b5bbfd47-873a-30df-bde2-4f473d1b009c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "b5bbfd47-873a-30df-bde2-4f473d1b009c",
+    :address "Avª João XXI, 9 - 1º Dtº 1000-298 LISBOA",
+    :address-c "Avenida João XXI 9, 1000-298, Lisboa",
+    :postal-c "1000-298",
+    :x -9.135680016659052,
+    :y 38.74214000941353,
+    :score 95.74,
+    :c 2}}]
  ["dokas-00024"
   {:nec 24,
    :rates
@@ -889,7 +957,16 @@
     :cp7 "1350-259",
     :id #uuid "5e6620b6-fa1b-37a4-8cfd-d57269484aa3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "5e6620b6-fa1b-37a4-8cfd-d57269484aa3",
+    :address "Rua Prior do Crato, 67 – 1º Esqº 1350-259 LISBOA",
+    :address-c "Rua Prior do Crato 67, 1350-259, Lisboa",
+    :postal-c "1350-259",
+    :x -9.172199968794445,
+    :y 38.705690004260134,
+    :score 98.33,
+    :c 1}}]
  ["benfica-00028"
   {:nec 28,
    :rates
@@ -988,7 +1065,14 @@
     :cp7 "1500-089",
     :id #uuid "ced40618-e18e-393a-bbe6-e8fc4d285815",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1500-089",
+    :postal-c "1500-089",
+    :x -9.204325037637886,
+    :y 38.751549994922954,
+    :score 100,
+    :c 1}}]
  ["tecnica-automovel-silvino-00030"
   {:nec 30,
    :rates
@@ -1087,7 +1171,16 @@
     :cp7 "1050-195",
     :id #uuid "c66da933-0dd0-341c-acec-64b071c08058",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "c66da933-0dd0-341c-acec-64b071c08058",
+    :address "Avª da República, 46 – Cave esq 1050-195 LISBOA",
+    :address-c "Avenida da República 46, 1050-195, Lisboa",
+    :postal-c "1050-195",
+    :x -9.145860005703696,
+    :y 38.73948001244082,
+    :score 95.71,
+    :c 1}}]
  ["a-portuguesa-00031"
   {:nec 31,
    :rates
@@ -1186,7 +1279,16 @@
     :cp7 "1900-127",
     :id #uuid "fa71fdd9-5080-34c2-9cf8-7ec157f4300e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "fa71fdd9-5080-34c2-9cf8-7ec157f4300e",
+    :address "Rua Carlos Mardel, 132 - 1º 1900-127 LISBOA",
+    :address-c "Rua Carlos Mardel 132, 1900-127, Lisboa",
+    :postal-c "1900-127",
+    :x -9.13249003194855,
+    :y 38.740899990657766,
+    :score 99.39,
+    :c 2}}]
  ["idal-00032"
   {:nec 32,
    :rates
@@ -1286,7 +1388,17 @@
     :cp7 "1900-119",
     :id #uuid "4018b02c-d99c-3742-9b52-3f0b0410fbbf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "4018b02c-d99c-3742-9b52-3f0b0410fbbf",
+    :address
+    "Alameda D. Afonso Henriques, 64 r/c Esqº 1900-119 LISBOA",
+    :address-c "Alameda Dom Afonso Henriques 64, 1900-183, Lisboa",
+    :postal-c "1900-183",
+    :x -9.133050026899696,
+    :y 38.737699989572945,
+    :score 97.58,
+    :c 2}}]
  ["neuropa-00035"
   {:nec 35,
    :rates
@@ -1386,7 +1498,17 @@
     :cp7 "1350-314",
     :id #uuid "0864676e-495d-35cc-95f8-c6a0ae1160c3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "0864676e-495d-35cc-95f8-c6a0ae1160c3",
+    :address
+    "Rua Tenente Ferreira Durão, Nº 2 r/c Dtº 1350-314 LISBOA",
+    :address-c "Rua Tenente Ferreira Durão 2, 1350-314, Lisboa",
+    :postal-c "1350-314",
+    :x -9.167399988122014,
+    :y 38.719720010980836,
+    :score 97.43,
+    :c 1}}]
  ["campolide-00038"
   {:nec 38,
    :rates
@@ -1471,7 +1593,16 @@
     :cp7 "1070-083",
     :id #uuid "473206e9-8bdd-3096-8f6a-9cd2a22d6fed",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "473206e9-8bdd-3096-8f6a-9cd2a22d6fed",
+    :address "Rua D. Carlos de Mascarenhas, 76-A 1070-083 LISBOA",
+    :address-c "Rua Dom Carlos de Mascarenhas 76A, 1070-083, Lisboa",
+    :postal-c "1070-083",
+    :x -9.164670002257765,
+    :y 38.72648001589184,
+    :score 99.99,
+    :c 1}}]
  ["automovel-lisbonense-00040"
   {:nec 40,
    :rates
@@ -1571,7 +1702,17 @@
     :cp7 "1900-180",
     :id #uuid "dac33f39-79e7-3be3-8138-bcafcd7084ae",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "dac33f39-79e7-3be3-8138-bcafcd7084ae",
+    :address
+    "Alameda D. Afonso Henriques, 27 A r/c Dtº 1900-180 LISBOA",
+    :address-c "Alameda Dom Afonso Henriques 27A, 1900-180, Lisboa",
+    :postal-c "1900-180",
+    :x -9.132639984196345,
+    :y 38.73659999050972,
+    :score 98.85,
+    :c 2}}]
  ["telheiras-00041"
   {:nec 41,
    :rates
@@ -1670,7 +1811,17 @@
     :cp7 "1600-620",
     :id #uuid "0fb39c61-449c-3bfa-8fd5-5af024479eb9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "0fb39c61-449c-3bfa-8fd5-5af024479eb9",
+    :address "Rua Prof. Fernando da Fonseca, Nº 28-B 1600-620 LISBOA",
+    :address-c
+    "Rua Professor Fernando da Fonseca 28B, 1600-620, Lisboa",
+    :postal-c "1600-620",
+    :x -9.16575001048193,
+    :y 38.7618099892334,
+    :score 98.51,
+    :c 1}}]
  ["saldanha-00044"
   {:nec 44,
    :rates
@@ -1770,7 +1921,14 @@
     :cp7 "1050-117",
     :id #uuid "784518db-48bd-364d-8ea8-6912e00ab463",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1050-117",
+    :postal-c "1050-117",
+    :x -9.146680007291337,
+    :y 38.73113000240696,
+    :score 100,
+    :c 1}}]
  ["radical-00055"
   {:nec 55,
    :rates
@@ -1869,7 +2027,16 @@
     :cp7 "1170-164",
     :id #uuid "243604ba-fe0c-3a48-a521-f7063fa931b7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "243604ba-fe0c-3a48-a521-f7063fa931b7",
+    :address "Avª General Roçadas, 48 1170-164 LISBOA",
+    :address-c "Avenida General Roçadas 48, 1170-163, Lisboa",
+    :postal-c "1170-163",
+    :x -9.128070002947027,
+    :y 38.72824000601108,
+    :score 96.47,
+    :c 2}}]
  ["ecir-00059"
   {:nec 59,
    :rates
@@ -1968,7 +2135,16 @@
     :cp7 "1600-413",
     :id #uuid "d3edb76d-f68d-3f75-8f63-0a723b000b69",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "d3edb76d-f68d-3f75-8f63-0a723b000b69",
+    :address "Rua Aristides de Sousa Mendes,Nº 2B 1600-413 LISBOA",
+    :address-c "Rua Aristides de Sousa Mendes 2B, 1600-413, Lisboa",
+    :postal-c "1600-413",
+    :x -9.178209961009316,
+    :y 38.76147001924062,
+    :score 98.53,
+    :c 2}}]
  ["colombo-00074"
   {:nec 74,
    :rates
@@ -2067,7 +2243,14 @@
     :cp7 "1500-179",
     :id #uuid "ceda4085-5ea8-3b92-8a31-f637612e9b55",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1500-179",
+    :postal-c "1500-179",
+    :x -9.190715006175793,
+    :y 38.75066499167619,
+    :score 100,
+    :c 1}}]
  ["ouriquense-00098"
   {:nec 98,
    :rates
@@ -2166,7 +2349,16 @@
     :cp7 "1250-060",
     :id #uuid "68461f40-7e42-3e6a-9985-33c133197c67",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "68461f40-7e42-3e6a-9985-33c133197c67",
+    :address "Rua Campo de Ourique, 115 - 1º Esqº 1250-060 LISBOA",
+    :address-c "Rua de Campo de Ourique 115, 1250-060, Lisboa",
+    :postal-c "1250-060",
+    :x -9.164060669802383,
+    :y 38.72102503977625,
+    :score 98.46,
+    :c 1}}]
  ["patria-00193"
   {:nec 193,
    :rates
@@ -2251,7 +2443,16 @@
     :cp7 "1900-228",
     :id #uuid "2fdde0bd-dc19-3f42-81c8-7491f04a310d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "2fdde0bd-dc19-3f42-81c8-7491f04a310d",
+    :address "Rua Ferreira da Silva nº 1 r/c Esqº 1900-228 LISBOA",
+    :address-c "Rua Ferreira da Silva 1, 1900-228, Lisboa",
+    :postal-c "1900-228",
+    :x -9.133329982465739,
+    :y 38.73544001892927,
+    :score 97.02,
+    :c 1}}]
  ["azambuja-00233"
   {:nec 233,
    :rates
@@ -2350,7 +2551,16 @@
     :cp7 "2050-356",
     :id #uuid "4673afd0-c798-3089-9a6b-0dfe354b491c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "4673afd0-c798-3089-9a6b-0dfe354b491c",
+    :address "Rua Engº Moniz da Maia, Nº 68 Loja 30 2050-356 AZAMBUJA",
+    :address-c "Rua Eng. Moniz da Maia 68, 2050-356, Azambuja, Lisboa",
+    :postal-c "2050-356",
+    :x -8.870328795591826,
+    :y 39.06826403592679,
+    :score 98.54,
+    :c 1}}]
  ["infante-do-restelo-00315"
   {:nec 315,
    :rates
@@ -2449,7 +2659,16 @@
     :cp7 "1400-350",
     :id #uuid "4cfb207f-1c07-3ae5-ba9d-2a642955fdf6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "4cfb207f-1c07-3ae5-ba9d-2a642955fdf6",
+    :address "Rua Tristão Váz, Nº 7 – 1º 1400-350 LISBOA",
+    :address-c "Rua Tristão Vaz 7, 1400-350, Lisboa",
+    :postal-c "1400-350",
+    :x -9.205490038360239,
+    :y 38.70595001089663,
+    :score 97.72,
+    :c 1}}]
  ["grancoop-00370"
   {:nec 370,
    :rates
@@ -2548,7 +2767,14 @@
     :cp7 "1050-028",
     :id #uuid "dd3fb57a-2439-3f1f-8c49-074321307a43",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1050-028",
+    :postal-c "1050-028",
+    :x -9.151754998206968,
+    :y 38.73231499396837,
+    :score 100,
+    :c 1}}]
  ["benficartas-00405"
   {:nec 405,
    :rates
@@ -2647,7 +2873,14 @@
     :cp7 "1500-361",
     :id #uuid "7aea9218-3cab-3ce5-ba7b-92f351729b3e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1500-361",
+    :postal-c "1500-361",
+    :x -9.201385001280045,
+    :y 38.756630014980516,
+    :score 100,
+    :c 1}}]
  ["s-lazaro-00542"
   {:nec 542,
    :rates
@@ -2746,7 +2979,14 @@
     :cp7 "1050-151",
     :id #uuid "ef678ad5-ec72-389a-ba40-7db3ed5b0f84",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1050-151",
+    :postal-c "1050-151",
+    :x -9.152524959832675,
+    :y 38.73882500861717,
+    :score 100,
+    :c 1}}]
  ["elite-00916"
   {:nec 916,
    :rates
@@ -2845,7 +3085,14 @@
     :cp7 "1700-038",
     :id #uuid "61f05386-40be-383b-936b-1d1c9fdecf2f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1700-038",
+    :postal-c "1700-038",
+    :x -9.143335041191108,
+    :y 38.75287001894455,
+    :score 100,
+    :c 1}}]
  ["baixa-de-lisboa-00924"
   {:nec 924,
    :rates
@@ -2944,7 +3191,14 @@
     :cp7 "1100-230",
     :id #uuid "f89efa05-f2e0-3552-8467-233f0eb9cb85",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1100-230",
+    :postal-c "1100-230",
+    :x -9.136999998771131,
+    :y 38.713075005781405,
+    :score 100,
+    :c 1}}]
  ["marvila-01080"
   {:nec 1080,
    :rates
@@ -3044,7 +3298,17 @@
     :cp7 "1950-178",
     :id #uuid "155941b0-d538-321a-8c87-c282d0953362",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "155941b0-d538-321a-8c87-c282d0953362",
+    :address
+    "Rua Luis Cristino da Silva, Lote 238, Loja D 1950-178 LISBOA",
+    :address-c "Rua Luís Cristino da Silva 238, 1950-178, Lisboa",
+    :postal-c "1950-178",
+    :x -9.123270022274596,
+    :y 38.75850999204371,
+    :score 100,
+    :c 1}}]
  ["lumiar-01234"
   {:nec 1234,
    :rates
@@ -3144,7 +3408,17 @@
     :cp7 "1750-230",
     :id #uuid "04abca15-05eb-3c05-ab1f-c87317ee0cb6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "04abca15-05eb-3c05-ab1f-c87317ee0cb6",
+    :address
+    "Rua Professor João Manuel Valadares, Nº 5-A 1750-230 LUMIAR",
+    :address-c "Rua Prof. Manuel Valadares 5A, 1750-232, Lisboa",
+    :postal-c "1750-232",
+    :x -9.16149996647681,
+    :y 38.77513000684564,
+    :score 97.14,
+    :c 1}}]
  ["alto-dos-moinhos-01245"
   {:nec 1245,
    :rates
@@ -3243,7 +3517,16 @@
     :cp7 "1500-359",
     :id #uuid "bb1c0cec-87e3-3153-b728-99bbcc4c95f3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "bb1c0cec-87e3-3153-b728-99bbcc4c95f3",
+    :address "Rua João de Freitas Branco,Nº 37-Loja A 1500-359 LISBOA",
+    :address-c "Rua João de Freitas Branco 37, 1500-627, Lisboa",
+    :postal-c "1500-627",
+    :x -9.180729980199004,
+    :y 38.752920016996995,
+    :score 97.48,
+    :c 1}}]
  ["nova-expo-01254"
   {:nec 1254,
    :rates
@@ -3442,7 +3725,16 @@
     :cp7 "1600-152",
     :id #uuid "87e51403-575d-33a7-b73f-cd546776bd66",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "87e51403-575d-33a7-b73f-cd546776bd66",
+    :address "Avenida do Brasil, Nº 1-1º 1600-152 LISBOA",
+    :address-c "Avenida do Brasil 1, 1700-062, Lisboa",
+    :postal-c "1700-062",
+    :x -9.151089978009026,
+    :y 38.75519000401496,
+    :score 96.11,
+    :c 5}}]
  ["parque-das-nacoes-01263"
   {:nec 1263,
    :rates
@@ -3542,7 +3834,14 @@
     :cp7 "1950-211",
     :id #uuid "46b95be3-ad7e-3ccf-a3cf-51b2ee1df061",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1950-211",
+    :postal-c "1950-211",
+    :x -9.10974003798782,
+    :y 38.754445020460736,
+    :score 100,
+    :c 1}}]
  ["cais-do-sodre-01275"
   {:nec 1275,
    :rates
@@ -3642,7 +3941,17 @@
     :cp7 "1250-152",
     :id #uuid "d82cf438-fd7c-306a-92e7-1577c3bebff4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "d82cf438-fd7c-306a-92e7-1577c3bebff4",
+    :address
+    "Praça Duque da Terceira, n.º 24 - 1º Dto. 1250-152 LISBOA",
+    :address-c "Praça do Duque da Terceira 24, 1200-161, Lisboa",
+    :postal-c "1200-161",
+    :x -9.14307000541271,
+    :y 38.70659998557838,
+    :score 95.19,
+    :c 1}}]
  ["laranjeiras-01280"
   {:nec 1280,
    :rates
@@ -3741,7 +4050,16 @@
     :cp7 "1600-296",
     :id #uuid "825f7686-298b-3ac9-9604-c4b4e34cb86d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "825f7686-298b-3ac9-9604-c4b4e34cb86d",
+    :address "Rua Abranches Ferrão, n.º 21 A, 1600-296 Lisboa",
+    :address-c "Rua Abranches Ferrão 21A, 1600-296, Lisboa",
+    :postal-c "1600-296",
+    :x -9.170410013371338,
+    :y 38.751200008555884,
+    :score 96.57,
+    :c 1}}]
  ["carristur-01350"
   {:nec 1350,
    :rates
@@ -3826,7 +4144,16 @@
     :cp7 "1800-000",
     :id #uuid "a41f1f27-cbd2-347c-9593-4089c00b0a04",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:id #uuid "a41f1f27-cbd2-347c-9593-4089c00b0a04",
+    :address "Av. Marechal Gomes da Costa 1800-000 LISBOA",
+    :address-c "Avenida Marechal Gomes da Costa, 1800-262, Lisboa",
+    :postal-c "1800-262",
+    :x -9.113788630714275,
+    :y 38.75906835713455,
+    :score 98.42,
+    :c 5}}]
  ["dos-olivais-01368"
   {:nec 1368,
    :rates
@@ -3925,4 +4252,11 @@
     :cp7 "1800-096",
     :id #uuid "4ca150ea-ad85-3533-870e-215cd269af5d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+   :geocode
+   {:cp7 "1800-096",
+    :postal-c "1800-096",
+    :x -9.109565023849512,
+    :y 38.76219501195578,
+    :score 100,
+    :c 1}}]]

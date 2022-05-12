@@ -95,4 +95,13 @@
   :cp7 "2520-208",
   :id #uuid "12351d34-c31a-39ec-84e6-f617831989e5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
+ :geocode
+ {:id #uuid "12351d34-c31a-39ec-84e6-f617831989e5",
+  :address "Avª Porto das Pescas, Lote 5 - 1º 2520-208 PENICHE",
+  :address-c "Avenida do Porto de Pesca 5, 2520-208, Peniche, Leiria",
+  :postal-c "2520-208",
+  :x -9.370078821629384,
+  :y 39.35845470862931,
+  :score 96.89,
+  :c 5}}

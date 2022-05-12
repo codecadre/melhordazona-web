@@ -95,4 +95,13 @@
   :cp7 "2070-356",
   :id #uuid "8bae66fb-8043-33be-a6f0-f985a0e2c425",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
+ :geocode
+ {:id #uuid "8bae66fb-8043-33be-a6f0-f985a0e2c425",
+  :address "Rua Miguel Pais, Nº 65 2070-356 Montijo",
+  :address-c "Rua Miguel Pais 65, 2870-356, Montijo, Setúbal",
+  :postal-c "2870-356",
+  :x -8.975869980163822,
+  :y 38.70327999754963,
+  :score 96.13,
+  :c 1}}

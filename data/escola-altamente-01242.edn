@@ -95,4 +95,14 @@
   :cp7 "2810-001",
   :id #uuid "21af171f-3a1e-35c1-a871-642468bdba8a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+ :geocode
+ {:id #uuid "21af171f-3a1e-35c1-a871-642468bdba8a",
+  :address "Rua Maria Judite de Carvalho, n.º 15-B ; 2810-001 Almada",
+  :address-c
+  "Rua Maria Judite de Carvalho 15B, 2810-409, Feijó, Almada, Setúbal",
+  :postal-c "2810-409",
+  :x -9.16513997556882,
+  :y 38.650399995339285,
+  :score 96.05,
+  :c 2}}

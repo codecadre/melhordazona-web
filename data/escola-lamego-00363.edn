@@ -95,4 +95,14 @@
   :cp7 "5100-118",
   :id #uuid "092fd767-d6d1-3bbe-ab82-418ca21bce85",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
+ :geocode
+ {:id #uuid "092fd767-d6d1-3bbe-ab82-418ca21bce85",
+  :address "Rua Dr. Bernardo Pinheiro de Aragão 5100-118 LAMEGO",
+  :address-c
+  "Rua Dr. Bernardo Pinheiro Aragão, 5100-118, Lamego, Viseu",
+  :postal-c "5100-118",
+  :x -7.812142936317615,
+  :y 41.09719759187848,
+  :score 99.98,
+  :c 2}}

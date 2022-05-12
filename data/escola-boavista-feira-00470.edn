@@ -95,4 +95,14 @@
   :cp7 "4520-192",
   :id #uuid "62cd4847-2119-3b00-8326-b85264a6a562",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "62cd4847-2119-3b00-8326-b85264a6a562",
+  :address "Rua Comendador Sá Couto, 59-A 4520-192 SANTA MARIA FEIRA",
+  :address-c
+  "Rua Comendador Sá Couto 59A, 4520-192, Santa Maria da Feira, Aveiro",
+  :postal-c "4520-192",
+  :x -8.551969979215386,
+  :y 40.92611998362753,
+  :score 99.7,
+  :c 2}}

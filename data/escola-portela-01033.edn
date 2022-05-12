@@ -95,4 +95,14 @@
   :cp7 "1885-066",
   :id #uuid "6749cf9c-0f3d-3ee7-a1fb-13159fb323ce",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+ :geocode
+ {:id #uuid "6749cf9c-0f3d-3ee7-a1fb-13159fb323ce",
+  :address "Avª de Moscavide, Nº 99 -A 1885-066 MOSCAVIDE",
+  :address-c
+  "Avenida de Moscavide 99, 1885-066, Moscavide, Loures, Lisboa",
+  :postal-c "1885-066",
+  :x -9.104179986335424,
+  :y 38.78030000663375,
+  :score 98.15,
+  :c 1}}

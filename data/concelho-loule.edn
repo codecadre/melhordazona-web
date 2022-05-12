@@ -96,7 +96,16 @@
     :cp7 "8100-611",
     :id #uuid "82173650-1a46-3ff6-8924-21afc42fe9df",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+   :geocode
+   {:id #uuid "82173650-1a46-3ff6-8924-21afc42fe9df",
+    :address "Rua Padre António Vieira, Nº 189 8100-611 LOULÉ",
+    :address-c "Rua Padre António Vieira 189, 8100-611, Loulé, Faro",
+    :postal-c "8100-611",
+    :x -8.01963002794406,
+    :y 37.13987999928179,
+    :score 98.48,
+    :c 1}}]
  ["autoquarteirense-00418"
   {:nec 418,
    :rates
@@ -196,7 +205,14 @@
     :cp7 "8125-130",
     :id #uuid "6e17212c-d759-3296-8f00-decace85e45e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+   :geocode
+   {:cp7 "8125-130",
+    :postal-c "8125-130",
+    :x -8.069757999884786,
+    :y 37.0895359837867,
+    :score 100,
+    :c 1}}]
  ["loule-transito-00649"
   {:nec 649,
    :rates
@@ -295,7 +311,16 @@
     :cp7 "8100-664",
     :id #uuid "19ca57c2-aa63-3ce1-972d-301d8d8816e3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+   :geocode
+   {:id #uuid "19ca57c2-aa63-3ce1-972d-301d8d8816e3",
+    :address "Largo João XXIII, Lote 10, Loja 12 ; 8100-664 Loulé",
+    :address-c "Largo João XIII 10, 8100-664, Loulé, Faro",
+    :postal-c "8100-664",
+    :x -8.015908230570897,
+    :y 37.136629029663105,
+    :score 95.81,
+    :c 1}}]
  ["segura-00666"
   {:nec 666,
    :rates
@@ -395,7 +420,14 @@
     :cp7 "8125-116",
     :id #uuid "661c4037-2acb-3221-8648-bf400be0fa96",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+   :geocode
+   {:cp7 "8125-116",
+    :postal-c "8125-116",
+    :x -8.097594970882682,
+    :y 37.07202501458676,
+    :score 100,
+    :c 1}}]
  ["infante-de-almancil-00907"
   {:nec 907,
    :rates
@@ -494,7 +526,14 @@
     :cp7 "8135-104",
     :id #uuid "28ca5320-75ac-3af4-811a-83911e12e607",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+   :geocode
+   {:cp7 "8135-104",
+    :postal-c "8135-104",
+    :x -8.024379968654529,
+    :y 37.08527998863033,
+    :score 100,
+    :c 1}}]
  ["almancil-01042"
   {:nec 1042,
    :rates
@@ -593,7 +632,16 @@
     :cp7 "8135-125",
     :id #uuid "2fa8a5b5-71a3-3627-b2ad-c84c2caff36b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+   :geocode
+   {:id #uuid "2fa8a5b5-71a3-3627-b2ad-c84c2caff36b",
+    :address "Rua do Comércio nº 48 - Lj Esq 8135-125 LOULÉ",
+    :address-c "Rua do Comércio 48, 8135-125, Pereiras, Loulé, Faro",
+    :postal-c "8135-125",
+    :x -8.037200005742335,
+    :y 37.08852001330281,
+    :score 96.96,
+    :c 3}}]
  ["nova-de-loule-01289"
   {:nec 1289,
    :rates
@@ -693,4 +741,11 @@
     :cp7 "8100-712",
     :id #uuid "d5dc9264-bf22-3d59-ada8-452087377a11",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+   :geocode
+   {:cp7 "8100-712",
+    :postal-c "8100-712",
+    :x -8.029305007322364,
+    :y 37.14121498500053,
+    :score 100,
+    :c 1}}]]

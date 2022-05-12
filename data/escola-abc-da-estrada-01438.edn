@@ -39,4 +39,13 @@
   :cp7 nil,
   :id #uuid "0a795374-d0d0-3e1b-841c-ad0fcc0c1182",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"},
+ :geocode
+ {:id #uuid "0a795374-d0d0-3e1b-841c-ad0fcc0c1182",
+  :address "Av. da República, nº24, r/c , Trancoso",
+  :address-c "Avenida da República 24, 6420-140, Trancoso, Guarda",
+  :postal-c "6420-140",
+  :x -7.35264997340397,
+  :y 40.78087999987457,
+  :score 97.03,
+  :c 2}}

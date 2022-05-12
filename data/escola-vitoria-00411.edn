@@ -96,4 +96,15 @@
   :cp7 "4420-437",
   :id #uuid "b0e61e68-059d-3f78-b521-bdacb768ed5a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+ :geocode
+ {:id #uuid "b0e61e68-059d-3f78-b521-bdacb768ed5a",
+  :address
+  "Rua Dr. Joaquim Manuel da Costa, n.º 830, 4420 - 437 Valbom, GONDOMAR",
+  :address-c
+  "Rua Doutor Joaquim Manuel da Costa, 4420-437, Pinheiro de Além, Gondomar, Porto",
+  :postal-c "4420-437",
+  :x -8.555544787874382,
+  :y 41.141673663598965,
+  :score 95.32,
+  :c 47}}

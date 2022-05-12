@@ -96,4 +96,13 @@
     :cp7 "5320-321",
     :id #uuid "bc73b936-c837-361f-b6d6-f581d2501049",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vinhais"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vinhais"},
+   :geocode
+   {:id #uuid "bc73b936-c837-361f-b6d6-f581d2501049",
+    :address "Rua de S. Francisco nº 9 5320-321 VINHAIS",
+    :address-c "Rua de São Francisco, 5320, Vinhais, Bragança",
+    :postal-c "5320",
+    :x -7.007224636180972,
+    :y 41.83347933212642,
+    :score 95.19,
+    :c 1}}]]

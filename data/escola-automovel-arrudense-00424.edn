@@ -96,4 +96,15 @@
   :cp7 "2630-110",
   :id #uuid "fa0a3365-3ffe-38ae-a0c7-35cc230be290",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Arruda%20dos%20Vinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Arruda%20dos%20Vinhos"},
+ :geocode
+ {:id #uuid "fa0a3365-3ffe-38ae-a0c7-35cc230be290",
+  :address
+  "Rua Manuel Policarpo Martins, Nº15 R/C Dtº 2630-110 Arruda dos Vinhos",
+  :address-c
+  "Rua Manuel Policarpo Martins 15, 2630-257, Arruda dos Vinhos, Lisboa",
+  :postal-c "2630-257",
+  :x -9.078389959911988,
+  :y 38.988199997222154,
+  :score 96.21,
+  :c 1}}

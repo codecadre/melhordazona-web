@@ -96,4 +96,15 @@
   :cp7 "2460-001",
   :id #uuid "1d5e15d7-8d46-3c5e-be77-7700a1535484",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+ :geocode
+ {:id #uuid "1d5e15d7-8d46-3c5e-be77-7700a1535484",
+  :address
+  "Av. Marginal, Nº 23-Loja A S. Martinho do Porto 2460-001 ALCOBAÇA",
+  :address-c
+  "Avenida Marginal 23, 2460-096, São Martinho do Porto, Alcobaça, Leiria",
+  :postal-c "2460-096",
+  :x -9.134270012906882,
+  :y 39.50950001809258,
+  :score 98.01,
+  :c 1}}

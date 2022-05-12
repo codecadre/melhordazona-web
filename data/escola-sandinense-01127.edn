@@ -95,4 +95,14 @@
   :cp7 "4415-803",
   :id #uuid "4560a2b9-3f63-3c90-9000-6d46f3fe7b80",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "4560a2b9-3f63-3c90-9000-6d46f3fe7b80",
+  :address "Rua Sociedade Columbófila, Nº 259 4415-803 SANDIM",
+  :address-c
+  "Rua da Sociedade Columbófila 259, 4415-803, Sandim, Vila Nova de Gaia, Porto",
+  :postal-c "4415-803",
+  :x -8.51408000500598,
+  :y 41.03967000313088,
+  :score 98.52,
+  :c 1}}

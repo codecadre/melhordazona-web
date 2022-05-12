@@ -95,4 +95,14 @@
   :cp7 "2665-240",
   :id #uuid "ad1c101b-192e-3f0f-9162-a512b049d9ee",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+ :geocode
+ {:id #uuid "ad1c101b-192e-3f0f-9162-a512b049d9ee",
+  :address "Rua Dr. José Sabino Louro 1 r/c Dtº 2665-240 MAFRA",
+  :address-c
+  "Rua Dr. José Sabino Louro 1, 2665-240, Malveira, Mafra, Lisboa",
+  :postal-c "2665-240",
+  :x -9.254259974348486,
+  :y 38.932169991979464,
+  :score 98.68,
+  :c 1}}

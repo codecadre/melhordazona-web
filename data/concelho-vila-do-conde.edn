@@ -97,7 +97,14 @@
     :cp7 "4480-668",
     :id #uuid "29270f87-7613-32d0-b7d0-f28e5ab6b92b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:cp7 "4480-668",
+    :postal-c "4480-668",
+    :x -8.74550502223218,
+    :y 41.35249998017795,
+    :score 100,
+    :c 1}}]
  ["beira-00396"
   {:nec 396,
    :rates
@@ -197,7 +204,18 @@
     :cp7 "4480-665",
     :id #uuid "213fa049-db93-3924-8db8-24212e69561c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "213fa049-db93-3924-8db8-24212e69561c",
+    :address
+    "Avª Dr. Carlos Pinto Ferreira, Nº 364-1ºDtº 4480-665 VILA DO CONDE",
+    :address-c
+    "Avenida Doutor Carlos Pinto Ferreira 364, 4480-665, Vila do Conde, Porto",
+    :postal-c "4480-665",
+    :x -8.758090030754971,
+    :y 41.362979999446765,
+    :score 97.67,
+    :c 4}}]
  ["formariz-00678"
   {:nec 678,
    :rates
@@ -297,7 +315,18 @@
     :cp7 "4480-878",
     :id #uuid "50d2751f-35af-3588-8b2f-3b79811a922e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "50d2751f-35af-3588-8b2f-3b79811a922e",
+    :address
+    "Av. Alexandre Herculano, n.º 355 ; 4480-878 Vila do Conde",
+    :address-c
+    "Avenida Alexandre Herculano, 4480-878, Vila do Conde, Porto",
+    :postal-c "4480-878",
+    :x -8.732453099477949,
+    :y 41.36040741606177,
+    :score 95.93,
+    :c 1}}]
  ["benguiados-00711"
   {:nec 711,
    :rates
@@ -396,7 +425,17 @@
     :cp7 "4480-794",
     :id #uuid "1f710f18-6e5b-30b4-a540-a9e8cb25a6e5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "1f710f18-6e5b-30b4-a540-a9e8cb25a6e5",
+    :address "Rua dos Benguiados 131 - A 4480-794 VILA DO CONDE",
+    :address-c
+    "Rua dos Benguiados 131A, 4480-794, Vila do Conde, Porto",
+    :postal-c "4480-794",
+    :x -8.745590014730396,
+    :y 41.358180018774306,
+    :score 99.99,
+    :c 1}}]
  ["fasa-00739"
   {:nec 739,
    :rates
@@ -495,7 +534,16 @@
     :cp7 "4480-743",
     :id #uuid "156d1c27-9d7a-32ec-a18d-32afa310b1d7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "156d1c27-9d7a-32ec-a18d-32afa310b1d7",
+    :address "Rua da Alegria, Nº 136 4480-743 VILA do CONDE",
+    :address-c "Rua da Alegria 136, 4480-743, Vila do Conde, Porto",
+    :postal-c "4480-743",
+    :x -8.759579997863426,
+    :y 41.36757001344466,
+    :score 98.43,
+    :c 4}}]
  ["nascimento-00795"
   {:nec 795,
    :rates
@@ -595,7 +643,18 @@
     :cp7 "4480-755",
     :id #uuid "4e1bbf96-9719-3b5b-af7c-ae7b13d1a28e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "4e1bbf96-9719-3b5b-af7c-ae7b13d1a28e",
+    :address
+    "Rua da Independência da Guiné –113 R/C 2 4480-755 VILA DO CONDE",
+    :address-c
+    "Rua da Independência da Guiné 113, 4480-755, Vila do Conde, Porto",
+    :postal-c "4480-755",
+    :x -8.75044003536479,
+    :y 41.35316001314351,
+    :score 99.39,
+    :c 3}}]
  ["sousa-batista-00851"
   {:nec 851,
    :rates
@@ -695,7 +754,17 @@
     :cp7 nil,
     :id #uuid "026c05e4-1874-323b-bd17-c428a6f4c38e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "026c05e4-1874-323b-bd17-c428a6f4c38e",
+    :address
+    "Rua dos Pescadores, 19 na Freguesia de VILA DO CONDE, Concelho de VILA DO CONDE e Distrito de PORTO",
+    :address-c "Rua dos Pescadores 19, 4480-804, Vila do Conde, Porto",
+    :postal-c "4480-804",
+    :x -8.755514483244712,
+    :y 41.37343010393725,
+    :score 95.94,
+    :c 2}}]
  ["vila-drive-01383"
   {:nec 1383,
    :rates
@@ -766,4 +835,11 @@
     :cp7 "4485-373",
     :id #uuid "7f6ae041-e53e-38db-b0d7-5b1910ac3070",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:cp7 "4485-373",
+    :postal-c "4485-373",
+    :x -8.681865003277494,
+    :y 41.338390010100966,
+    :score 100,
+    :c 1}}]]

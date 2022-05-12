@@ -95,4 +95,13 @@
   :cp7 "1600-620",
   :id #uuid "0fb39c61-449c-3bfa-8fd5-5af024479eb9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "0fb39c61-449c-3bfa-8fd5-5af024479eb9",
+  :address "Rua Prof. Fernando da Fonseca, Nº 28-B 1600-620 LISBOA",
+  :address-c "Rua Professor Fernando da Fonseca 28B, 1600-620, Lisboa",
+  :postal-c "1600-620",
+  :x -9.16575001048193,
+  :y 38.7618099892334,
+  :score 98.51,
+  :c 1}}

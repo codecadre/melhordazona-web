@@ -95,4 +95,14 @@
   :cp7 "4765-620",
   :id #uuid "21cb62bf-3dbd-34dc-b0af-4a55ed722000",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+ :geocode
+ {:id #uuid "21cb62bf-3dbd-34dc-b0af-4a55ed722000",
+  :address "Av. do Loureiro, 65, Loja 2, 4765-620 DELÃES",
+  :address-c
+  "Avenida do Loureiro 65, 4765-620, Delães, Vila Nova de Famalicão, Braga",
+  :postal-c "4765-620",
+  :x -8.417360254323116,
+  :y 41.385906172168966,
+  :score 100,
+  :c 2}}

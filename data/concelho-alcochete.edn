@@ -96,4 +96,13 @@
     :cp7 "2890",
     :id #uuid "19ac1307-e61e-3028-a74f-d638f3101a23",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcochete"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcochete"},
+   :geocode
+   {:id #uuid "19ac1307-e61e-3028-a74f-d638f3101a23",
+    :address "Av. D. Manuel I, Nº 3,5 2890 ALCOCHETE",
+    :address-c "Avenida Dom Manuel I 3, 2890-014, Alcochete, Setúbal",
+    :postal-c "2890-014",
+    :x -8.963889977412236,
+    :y 38.75517998764067,
+    :score 97.9,
+    :c 4}}]]

@@ -54,4 +54,15 @@
   :cp7 "2500-211",
   :id #uuid "1fd934b0-1b4d-3dee-97a1-22cdf7d913aa",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+ :geocode
+ {:id #uuid "1fd934b0-1b4d-3dee-97a1-22cdf7d913aa",
+  :address
+  "Rua General Queirós,Nº 83-1º Esqº 2500-211 CALDAS DA RAINHA",
+  :address-c
+  "Rua General Queirós 83, 2500-211, Caldas da Rainha, Leiria",
+  :postal-c "2500-211",
+  :x -9.134528091705647,
+  :y 39.403673628998774,
+  :score 97.35,
+  :c 1}}

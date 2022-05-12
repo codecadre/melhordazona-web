@@ -96,7 +96,16 @@
     :cp7 "3510-069",
     :id #uuid "056f85d4-46cd-3877-8e04-2a566b87e038",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:id #uuid "056f85d4-46cd-3877-8e04-2a566b87e038",
+    :address "Praça de Gôa –Lote 14 r/c 3510-069 VISEU",
+    :address-c "Praça de Goa 14, 3510-069, Viseu",
+    :postal-c "3510-069",
+    :x -7.918790033049305,
+    :y 40.653730007192934,
+    :score 99.33,
+    :c 1}}]
  ["azurara-00100"
   {:nec 100,
    :rates
@@ -195,7 +204,16 @@
     :cp7 "3530-000",
     :id #uuid "bf2eddf4-b5d4-349a-a59a-05848eee10bd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"},
+   :geocode
+   {:id #uuid "bf2eddf4-b5d4-349a-a59a-05848eee10bd",
+    :address "Largo do Rossio nº 52 3530-000 MANGUALDE",
+    :address-c "Largo do Rossio 52, 3530-133, Mangualde, Viseu",
+    :postal-c "3530-133",
+    :x -7.7576500399772215,
+    :y 40.604959987385655,
+    :score 97.34,
+    :c 11}}]
  ["grao-vasco-00105"
   {:nec 105,
    :rates
@@ -294,7 +312,16 @@
     :cp7 "3500-209",
     :id #uuid "073f7854-037a-3043-a420-a1feb71051e4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:id #uuid "073f7854-037a-3043-a420-a1feb71051e4",
+    :address "Rua Capitão Silva Pereira, 65/67 3500-209 VISEU",
+    :address-c "Avenida Capitão Silva Pereira 65, 3500-209, Viseu",
+    :postal-c "3500-209",
+    :x -7.908369986297743,
+    :y 40.65865001671884,
+    :score 96.92,
+    :c 1}}]
  ["beira-alta-00137"
   {:nec 137,
    :rates
@@ -393,7 +420,17 @@
     :cp7 "3660-482",
     :id #uuid "7e8eb95a-d15b-3608-bfbc-ef3ac2f698f7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"},
+   :geocode
+   {:id #uuid "7e8eb95a-d15b-3608-bfbc-ef3ac2f698f7",
+    :address "Largo Luís de Camões, nº 56 1º 3660-482 S. PEDRO DO SUL",
+    :address-c
+    "Largo Luís de Camões 56, 3660-436, São Pedro do Sul, Viseu",
+    :postal-c "3660-436",
+    :x -8.06326001326704,
+    :y 40.76202997973283,
+    :score 96.97,
+    :c 1}}]
  ["tondelense-00206"
   {:nec 206,
    :rates
@@ -492,7 +529,17 @@
     :cp7 "3460-575",
     :id #uuid "43b6d67f-4895-3c25-bf6f-03993465e73d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
+   :geocode
+   {:id #uuid "43b6d67f-4895-3c25-bf6f-03993465e73d",
+    :address "Rua António Marques da Costa, s/nª 3460-575 TONDELA",
+    :address-c
+    "Rua Dr. António Marques da Costa, 3460-575, Tondela, Viseu",
+    :postal-c "3460-575",
+    :x -8.083200846914126,
+    :y 40.51975900253909,
+    :score 97.44,
+    :c 2}}]
  ["automobilista-carregal-do-sal-00311"
   {:nec 311,
    :rates
@@ -690,7 +737,17 @@
     :cp7 "3600-187",
     :id #uuid "5715d5b7-48af-3264-94f7-8114efb5ca7f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
+   :geocode
+   {:id #uuid "5715d5b7-48af-3264-94f7-8114efb5ca7f",
+    :address "Avª General Humberto Delgado 3600-187 CASTRO DAIRE",
+    :address-c
+    "Avenida General Humberto Delgado, 3600-187, Castro Daire, Viseu",
+    :postal-c "3600-187",
+    :x -7.9333290223644966,
+    :y 40.90130095651663,
+    :score 100,
+    :c 1}}]
  ["reis-00337"
   {:nec 337,
    :rates
@@ -789,7 +846,17 @@
     :cp7 "3620-304",
     :id #uuid "4e268acb-e114-3f42-9943-ea22157b3a76",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Moimenta%20da%20Beira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Moimenta%20da%20Beira"},
+   :geocode
+   {:id #uuid "4e268acb-e114-3f42-9943-ea22157b3a76",
+    :address "Avª 25 de Abril, Nº 23 R/C 3620-304 MOIMENTA DA BEIRA",
+    :address-c
+    "Avenida 25 de Abril 23, 3620-304, Moimenta da Beira, Viseu",
+    :postal-c "3620-304",
+    :x -7.61257999931118,
+    :y 40.97740000625021,
+    :score 98.01,
+    :c 5}}]
  ["nova-de-esgueira-00339"
   {:nec 339,
    :rates
@@ -818,7 +885,14 @@
     :cp7 "3450-123",
     :id #uuid "3ec263bb-8436-3778-9b94-fe1db90a4426",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
+   :geocode
+   {:cp7 "3450-123",
+    :postal-c "3450-123",
+    :x -8.230805037650669,
+    :y 40.3965199926852,
+    :score 100,
+    :c 1}}]
  ["olifradense-00341"
   {:nec 341,
    :rates
@@ -918,7 +992,14 @@
     :cp7 "3680-094",
     :id #uuid "0580b6c6-074e-35ad-bb68-06dd9634ff73",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Oliveira%20de%20Frades"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Oliveira%20de%20Frades"},
+   :geocode
+   {:cp7 "3680-094",
+    :postal-c "3680-094",
+    :x -8.1705900319715,
+    :y 40.73249500278965,
+    :score 100,
+    :c 1}}]
  ["vouzelense-00344"
   {:nec 344,
    :rates
@@ -1018,7 +1099,14 @@
     :cp7 "3670-237",
     :id #uuid "b8875c50-2864-3fe9-bd02-c78f1153b93e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vouzela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vouzela"},
+   :geocode
+   {:cp7 "3670-237",
+    :postal-c "3670-237",
+    :x -8.113974969887153,
+    :y 40.724324994126476,
+    :score 100,
+    :c 1}}]
  ["lamego-00363"
   {:nec 363,
    :rates
@@ -1117,7 +1205,17 @@
     :cp7 "5100-118",
     :id #uuid "092fd767-d6d1-3bbe-ab82-418ca21bce85",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
+   :geocode
+   {:id #uuid "092fd767-d6d1-3bbe-ab82-418ca21bce85",
+    :address "Rua Dr. Bernardo Pinheiro de Aragão 5100-118 LAMEGO",
+    :address-c
+    "Rua Dr. Bernardo Pinheiro Aragão, 5100-118, Lamego, Viseu",
+    :postal-c "5100-118",
+    :x -7.812142936317615,
+    :y 41.09719759187848,
+    :score 99.98,
+    :c 2}}]
  ["nelas-00367"
   {:nec 367,
    :rates
@@ -1217,7 +1315,14 @@
     :cp7 "3520-056",
     :id #uuid "f5b05aa0-1e8d-3e90-aaf7-5c88e76a3fb7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
+   :geocode
+   {:cp7 "3520-056",
+    :postal-c "3520-056",
+    :x -7.850475007598504,
+    :y 40.53960498913173,
+    :score 100,
+    :c 1}}]
  ["s-cristovao-penalva-do-castelo-00501"
   {:nec 501,
    :rates
@@ -1316,7 +1421,16 @@
     :cp7 "3550-147",
     :id #uuid "c0e9533e-b7b6-3472-a4be-194bb20cd352",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Penalva%20de%20Castelo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Penalva%20de%20Castelo"},
+   :geocode
+   {:id #uuid "c0e9533e-b7b6-3472-a4be-194bb20cd352",
+    :address "Rua D. Manuel I r/c Esq 3550-147 PENALVA DO CASTELO",
+    :address-c "Rua Dom Manuel I, 3550-147, Penalva do Castelo, Viseu",
+    :postal-c "3550-147",
+    :x -7.696765414409277,
+    :y 40.674975004298794,
+    :score 95.51,
+    :c 2}}]
  ["satao-00521"
   {:nec 521,
    :rates
@@ -1416,7 +1530,18 @@
     :cp7 "3560-172",
     :id #uuid "37a2d0ca-0655-32b8-8a2a-e76394df9bb2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S%C3%A1t%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S%C3%A1t%C3%A3o"},
+   :geocode
+   {:id #uuid "37a2d0ca-0655-32b8-8a2a-e76394df9bb2",
+    :address
+    "Rua Dr. Hilário de Almeida Pereira, nº 162-1º 3560-172 SÁTÃO",
+    :address-c
+    "Rua Doutor Hilário de Almeida Pereira 162, 3560-172, Sátão, Viseu",
+    :postal-c "3560-172",
+    :x -7.7324699646478905,
+    :y 40.743770003665134,
+    :score 98.16,
+    :c 2}}]
  ["paivense-00522"
   {:nec 522,
    :rates
@@ -1515,7 +1640,14 @@
     :cp7 "3650-209",
     :id #uuid "7c035670-cd41-307b-894c-a4e9cdbf0c66",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"},
+   :geocode
+   {:cp7 "3650-209",
+    :postal-c "3650-209",
+    :x -7.724229967093208,
+    :y 40.85417999460091,
+    :score 100,
+    :c 1}}]
  ["emigrante-00545"
   {:nec 545,
    :rates
@@ -1615,7 +1747,14 @@
     :cp7 "3440-325",
     :id #uuid "6a9b9558-4563-3e27-9680-365958ffd160",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"},
+   :geocode
+   {:cp7 "3440-325",
+    :postal-c "3440-325",
+    :x -8.12993998086543,
+    :y 40.39968499932422,
+    :score 100,
+    :c 1}}]
  ["tarouca-00565"
   {:nec 565,
    :rates
@@ -1715,7 +1854,14 @@
     :cp7 "3610-103",
     :id #uuid "cdd61f8e-91b1-321b-9b63-b26ecd2c46bd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tarouca"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tarouca"},
+   :geocode
+   {:cp7 "3610-103",
+    :postal-c "3610-103",
+    :x -7.773625025420273,
+    :y 41.030970006729916,
+    :score 100,
+    :c 1}}]
  ["reis-tabuaco-00577"
   {:nec 577,
    :rates
@@ -1814,7 +1960,16 @@
     :cp7 "5120-415",
     :id #uuid "8b1d98a1-50cb-3f43-9784-476c7c4b5672",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tabua%C3%A7o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tabua%C3%A7o"},
+   :geocode
+   {:id #uuid "8b1d98a1-50cb-3f43-9784-476c7c4b5672",
+    :address "Rua Dr. Luis de Freitas 5120-415 TABUAÇO",
+    :address-c "Rua Dr. Luís Freitas, 5120-415, Tabuaço, Viseu",
+    :postal-c "5120-415",
+    :x -7.566207996988302,
+    :y 41.11662831190703,
+    :score 99.98,
+    :c 3}}]
  ["senhora-dos-remedios-00583"
   {:nec 583,
    :rates
@@ -1913,7 +2068,14 @@
     :cp7 "5100-187",
     :id #uuid "fe261eb8-2a89-33e9-9b4c-1581c9b2db0e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
+   :geocode
+   {:cp7 "5100-187",
+    :postal-c "5100-187",
+    :x -7.814387310209867,
+    :y 41.09710292941756,
+    :score 100,
+    :c 1}}]
  ["castrense-00611"
   {:nec 611,
    :rates
@@ -2012,7 +2174,14 @@
     :cp7 "3600-191",
     :id #uuid "31187b4f-4137-3316-be51-7302752a52ad",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
+   :geocode
+   {:cp7 "3600-191",
+    :postal-c "3600-191",
+    :x -7.928765000742288,
+    :y 40.899420017795364,
+    :score 100,
+    :c 1}}]
  ["moimenta-da-beira-00616"
   {:nec 616,
    :rates
@@ -2112,7 +2281,14 @@
     :cp7 "3620-301",
     :id #uuid "107a8dca-20bf-3677-a557-c56933e93d3c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Moimenta%20da%20Beira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Moimenta%20da%20Beira"},
+   :geocode
+   {:cp7 "3620-301",
+    :postal-c "3620-301",
+    :x -7.622825031924435,
+    :y 40.98659000871078,
+    :score 100,
+    :c 1}}]
  ["santarense-00618"
   {:nec 618,
    :rates
@@ -2212,7 +2388,14 @@
     :cp7 "3525-072",
     :id #uuid "4a74faa6-e8fb-3c05-aaea-60d04fd6e173",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
+   :geocode
+   {:cp7 "3525-072",
+    :postal-c "3525-072",
+    :x -7.8981350119682645,
+    :y 40.50701501802868,
+    :score 100,
+    :c 1}}]
  ["s-salvador-de-resende-00655"
   {:nec 655,
    :rates
@@ -2312,7 +2495,14 @@
     :cp7 "4660-226",
     :id #uuid "4e601931-0390-3dee-b1dd-ba1e33490eaf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Resende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Resende"},
+   :geocode
+   {:cp7 "4660-226",
+    :postal-c "4660-226",
+    :x -7.958080036546136,
+    :y 41.106654988185795,
+    :score 100,
+    :c 1}}]
  ["juiz-de-fora-00792"
   {:nec 792,
    :rates
@@ -2412,7 +2602,14 @@
     :cp7 "3450-202",
     :id #uuid "b6ea8497-b558-3cb6-8fbc-52015084b1b5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
+   :geocode
+   {:cp7 "3450-202",
+    :postal-c "3450-202",
+    :x -8.247604970004232,
+    :y 40.38981501496855,
+    :score 100,
+    :c 1}}]
  ["a-realidade-00819"
   {:nec 819,
    :rates
@@ -2498,7 +2695,14 @@
     :cp7 "5100-160",
     :id #uuid "7c6b99ff-dd8a-3619-a1e2-b016536720ac",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
+   :geocode
+   {:cp7 "5100-160",
+    :postal-c "5100-160",
+    :x -7.805919995441059,
+    :y 41.09929001941313,
+    :score 100,
+    :c 1}}]
  ["douro-sul-00830"
   {:nec 830,
    :rates
@@ -2543,7 +2747,17 @@
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Armamar"},
    :obs "duplicate nec in passrates",
-   :overwrite/notes nil}]
+   :overwrite/notes nil,
+   :geocode
+   {:id #uuid "3b79a161-8af9-3b64-83c3-66aec5238418",
+    :address "Av. Dr. Oliveira Salazar 5110-122 ARMAMAR",
+    :address-c
+    "Avenida Doutor Oliveira Salazar, 5110-122, Armamar, Viseu",
+    :postal-c "5110-122",
+    :x -7.689854820257475,
+    :y 41.10507411705227,
+    :score 100,
+    :c 2}}]
  ["egas-moniz-00873"
   {:nec 873,
    :rates
@@ -2642,7 +2856,17 @@
     :cp7 "5100-344",
     :id #uuid "b1b64999-0e41-3e55-bf6b-2a270a0e8460",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
+   :geocode
+   {:id #uuid "b1b64999-0e41-3e55-bf6b-2a270a0e8460",
+    :address "Rua Francisco Sá Carneiro 5100-344 BRITIANDE",
+    :address-c
+    "Rua de Francisco Sá Carneiro, 5100-344, Britiande, Lamego, Viseu",
+    :postal-c "5100-344",
+    :x -7.792150407794964,
+    :y 41.06321724842816,
+    :score 100,
+    :c 1}}]
  ["saliscruz-00897"
   {:nec 897,
    :rates
@@ -2742,7 +2966,14 @@
     :cp7 "3430-039",
     :id #uuid "e2384fb3-9feb-3ee8-adea-ed2f567e149e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Carregal%20do%20Sal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Carregal%20do%20Sal"},
+   :geocode
+   {:cp7 "3430-039",
+    :postal-c "3430-039",
+    :x -8.010934976865968,
+    :y 40.42909500209106,
+    :score 100,
+    :c 1}}]
  ["semaforo-00898"
   {:nec 898,
    :rates
@@ -2841,7 +3072,14 @@
     :cp7 "3500-189",
     :id #uuid "4e6c4b47-6b48-3445-bb8a-c14a47516b41",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3500-189",
+    :postal-c "3500-189",
+    :x -7.912300009239601,
+    :y 40.64841998771226,
+    :score 100,
+    :c 1}}]
  ["grand-tour-00900"
   {:nec 900,
    :rates
@@ -2885,7 +3123,14 @@
     :cp7 "3460-572",
     :id #uuid "9929dc34-7d82-34ea-944d-a97bce27d9df",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
+   :geocode
+   {:cp7 "3460-572",
+    :postal-c "3460-572",
+    :x -8.080765031315735,
+    :y 40.514099989325786,
+    :score 100,
+    :c 1}}]
  ["armando-cruz-00901"
   {:nec 901,
    :rates
@@ -2984,7 +3229,14 @@
     :cp7 "3510-197",
     :id #uuid "84fa75dc-e51d-31ac-ad7c-c40cf0b218dd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3510-197",
+    :postal-c "3510-197",
+    :x -7.945716394086247,
+    :y 40.61891166522116,
+    :score 100,
+    :c 1}}]
  ["conduir-00974"
   {:nec 974,
    :rates
@@ -3084,7 +3336,18 @@
     :cp7 "3510-596",
     :id #uuid "afb1d9cb-fb26-3437-878b-2deb2620ca71",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:id #uuid "afb1d9cb-fb26-3437-878b-2deb2620ca71",
+    :address
+    "Rua dos Deficientes das Forças Armadas, Nº 10 - Marzovelos 3510-596 VISEU",
+    :address-c
+    "Rua Deficientes das Forças Armadas 10, 3510-059, Viseu",
+    :postal-c "3510-059",
+    :x -7.925149969721758,
+    :y 40.65407001909523,
+    :score 95.94,
+    :c 1}}]
  ["miguel-angelo-00982"
   {:nec 982,
    :rates
@@ -3183,7 +3446,16 @@
     :cp7 "3530-214",
     :id #uuid "710424a5-42fb-317e-a574-de3ebfe2b9a9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"},
+   :geocode
+   {:id #uuid "710424a5-42fb-317e-a574-de3ebfe2b9a9",
+    :address "Rua Luis de Camões, Nº 37 3530-214 MANGUALDE",
+    :address-c "Rua Luís de Camões 37, 3530-214, Mangualde, Viseu",
+    :postal-c "3530-214",
+    :x -7.75216174622813,
+    :y 40.603439852218706,
+    :score 98.43,
+    :c 1}}]
  ["cinfanense-00989"
   {:nec 989,
    :rates
@@ -3283,7 +3555,14 @@
     :cp7 "4690-058",
     :id #uuid "3e42559a-bb58-336b-adb5-1c2a24e0dd71",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
+   :geocode
+   {:cp7 "4690-058",
+    :postal-c "4690-058",
+    :x -8.101268339949314,
+    :y 41.07912026861641,
+    :score 100,
+    :c 1}}]
  ["auto-formadora-01001"
   {:nec 1001,
    :rates
@@ -3383,7 +3662,14 @@
     :cp7 "3515-156",
     :id #uuid "29c07a16-bb08-3491-8b86-cbe3481a0562",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3515-156",
+    :postal-c "3515-156",
+    :x -7.920770006217424,
+    :y 40.68056500548522,
+    :score 100,
+    :c 1}}]
  ["penedonense-01022"
   {:nec 1022,
    :rates
@@ -3482,7 +3768,17 @@
     :cp7 "3630-240",
     :id #uuid "5ae66847-a47c-341e-b8af-553a66d0404a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Penedono"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Penedono"},
+   :geocode
+   {:id #uuid "5ae66847-a47c-341e-b8af-553a66d0404a",
+    :address "Travessa do Castelo 3630-240 PENEDONO",
+    :address-c
+    "Travessa do Castelo, 3630-311, Penela da Beira, Penedono, Viseu",
+    :postal-c "3630-311",
+    :x -7.4208948842346985,
+    :y 41.043305045945246,
+    :score 98.42,
+    :c 3}}]
  ["novo-rumo-01023"
   {:nec 1023,
    :rates
@@ -3582,7 +3878,14 @@
     :cp7 "3440-321",
     :id #uuid "a0c55e09-78cf-3370-a803-29f6facf2308",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"},
+   :geocode
+   {:cp7 "3440-321",
+    :postal-c "3440-321",
+    :x -8.128904983461325,
+    :y 40.408625011522616,
+    :score 100,
+    :c 1}}]
  ["bateira-01062"
   {:nec 1062,
    :rates
@@ -3682,7 +3985,14 @@
     :cp7 "4690-666",
     :id #uuid "b3c68e49-44fc-377d-a253-73e54db082a8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
+   :geocode
+   {:cp7 "4690-666",
+    :postal-c "4690-666",
+    :x -8.230097772660713,
+    :y 41.06897091542788,
+    :score 100,
+    :c 1}}]
  ["visiense-01068"
   {:nec 1068,
    :rates
@@ -3767,7 +4077,14 @@
     :cp7 "3510-720",
     :id #uuid "0dec50ce-e5f3-3ff9-80d5-0030a8f43be8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3510-720",
+    :postal-c "3510-720",
+    :x -7.92699499424873,
+    :y 40.65980001383451,
+    :score 100,
+    :c 1}}]
  ["s-joao-01070"
   {:nec 1070,
    :rates
@@ -3867,7 +4184,14 @@
     :cp7 "4690-058",
     :id #uuid "f8fe6377-d045-37b2-ac2a-2778e7c7ddd1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
+   :geocode
+   {:cp7 "4690-058",
+    :postal-c "4690-058",
+    :x -8.101268339949314,
+    :y 41.07912026861641,
+    :score 100,
+    :c 1}}]
  ["baptista-01073"
   {:nec 1073,
    :rates
@@ -3966,7 +4290,14 @@
     :cp7 "3660-428",
     :id #uuid "60b44f2d-2b5a-3c6d-aeb8-ab696a5e0f7a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"},
+   :geocode
+   {:cp7 "3660-428",
+    :postal-c "3660-428",
+    :x -8.067694962056208,
+    :y 40.76001501211897,
+    :score 100,
+    :c 1}}]
  ["estrada-segura-01074"
   {:nec 1074,
    :rates
@@ -4109,7 +4440,14 @@
     :cp7 "3500-693",
     :id #uuid "8c577d0e-750d-3c08-ae29-dc42fa5b4a91",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:cp7 "3500-693",
+    :postal-c "3500-693",
+    :x -7.925784982706318,
+    :y 40.6410299989586,
+    :score 100,
+    :c 1}}]
  ["irmaos-tavares-01119"
   {:nec 1119,
    :rates
@@ -4208,7 +4546,17 @@
     :cp7 "3650-219",
     :id #uuid "d5178182-ff1e-39ab-b4d0-3ebb3a24b5e1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"},
+   :geocode
+   {:id #uuid "d5178182-ff1e-39ab-b4d0-3ebb3a24b5e1",
+    :address "Rua Egas Moniz, nº 20 r/c 3650-219 VILA NOVA DE PAIVA",
+    :address-c
+    "Rua Egas Moniz 20, 3650-219, Vila Nova de Paiva, Viseu",
+    :postal-c "3650-219",
+    :x -7.731660021344055,
+    :y 40.85150998125388,
+    :score 98.01,
+    :c 4}}]
  ["rodovia-01165"
   {:nec 1165,
    :rates
@@ -4308,7 +4656,18 @@
     :cp7 "3680-077",
     :id #uuid "b13acc44-3e41-3098-9794-c69b9d22d3a4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Oliveira%20de%20Frades"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Oliveira%20de%20Frades"},
+   :geocode
+   {:id #uuid "b13acc44-3e41-3098-9794-c69b9d22d3a4",
+    :address
+    "Edificio Tojal - R. N. Senhora dos Milagres, 26 Ala B, Loja F 3680-077 OLIVEIRA de FRADES",
+    :address-c
+    "Rua Nossa Senhora dos Milagres 26, 3680-077, Oliveira de Frades, Viseu",
+    :postal-c "3680-077",
+    :x -8.175150038756044,
+    :y 40.72589999564266,
+    :score 97.46,
+    :c 2}}]
  ["tondeluir-01188"
   {:nec 1188,
    :rates
@@ -4408,7 +4767,14 @@
     :cp7 "3460-009",
     :id #uuid "59a34454-a3ea-3db4-8405-d22cc824bd55",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
+   :geocode
+   {:cp7 "3460-009",
+    :postal-c "3460-009",
+    :x -8.104160012725828,
+    :y 40.5331450144449,
+    :score 100,
+    :c 1}}]
  ["prodouro-01214"
   {:nec 1214,
    :rates
@@ -4508,7 +4874,14 @@
     :cp7 "5130-359",
     :id #uuid "eb8711b8-6192-3aa8-88b6-e77893c0b944",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Jo%C3%A3o%20da%20Pesqueira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Jo%C3%A3o%20da%20Pesqueira"},
+   :geocode
+   {:cp7 "5130-359",
+    :postal-c "5130-359",
+    :x -7.403595013266255,
+    :y 41.14666998439779,
+    :score 100,
+    :c 1}}]
  ["max-01264"
   {:nec 1264,
    :rates
@@ -4607,7 +4980,17 @@
     :cp7 "4660-055",
     :id #uuid "4e40a3c4-a3f0-3290-8483-52342222a6f5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Resende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Resende"},
+   :geocode
+   {:id #uuid "4e40a3c4-a3f0-3290-8483-52342222a6f5",
+    :address "Rua D. Vasco Magalhães, Lote 2 R/C 4660-055 CÁRQUERE",
+    :address-c
+    "Rua Dom Vasco Magalhães 2, 4660-204, Massas, Resende, Viseu",
+    :postal-c "4660-204",
+    :x -7.958977433520868,
+    :y 41.1000773047935,
+    :score 97.26,
+    :c 1}}]
  ["via-drive-01313"
   {:nec 1313,
    :rates
@@ -4707,7 +5090,14 @@
     :cp7 "3560-156",
     :id #uuid "a224d02c-7645-3707-97b8-0833fe6200bf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S%C3%A1t%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S%C3%A1t%C3%A3o"},
+   :geocode
+   {:cp7 "3560-156",
+    :postal-c "3560-156",
+    :x -7.7304749878730945,
+    :y 40.74021498707134,
+    :score 100,
+    :c 1}}]
  ["castro-daire-01343"
   {:nec 1343,
    :rates
@@ -4793,7 +5183,14 @@
     :cp7 "3600-127",
     :id #uuid "b97c5e06-d13c-39a2-a325-4625e7264cb7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
+   :geocode
+   {:cp7 "3600-127",
+    :postal-c "3600-127",
+    :x -7.9229907914637465,
+    :y 40.89873131872096,
+    :score 100,
+    :c 1}}]
  ["nova-de-viseu-01388"
   {:nec 1388,
    :rates
@@ -4865,7 +5262,17 @@
     :cp7 nil,
     :id #uuid "13b8440c-8d60-371e-be7e-fcf07e0f0625",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:id #uuid "13b8440c-8d60-371e-be7e-fcf07e0f0625",
+    :address
+    "Rua Camilo Castelo Branco, n.º 8, Quinta das Mesuras  VISEU",
+    :address-c "Rua Camilo Castelo Branco 8, 3500-417, Viseu",
+    :postal-c "3500-417",
+    :x -7.910195628356655,
+    :y 40.6512518080556,
+    :score 92.46,
+    :c 4}}]
  ["vitor-arede-01434"
   {:nec 1434,
    :rates
@@ -4908,7 +5315,14 @@
     :cp7 "3520-035",
     :id #uuid "59aa636f-e671-39e6-a2f5-9deb51d0a893",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
+   :geocode
+   {:cp7 "3520-035",
+    :postal-c "3520-035",
+    :x -7.851809993317261,
+    :y 40.5299249806115,
+    :score 100,
+    :c 1}}]
  ["smart-road-01440"
   {:nec 1440,
    :rates
@@ -4937,4 +5351,11 @@
     :cp7 "3450-150",
     :id #uuid "7cd6e868-46be-3b83-9fe0-f72734cf1fc6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
+   :geocode
+   {:cp7 "3450-150",
+    :postal-c "3450-150",
+    :x -8.229184983404906,
+    :y 40.398500007762806,
+    :score 100,
+    :c 1}}]]

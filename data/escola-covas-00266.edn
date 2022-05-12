@@ -95,4 +95,14 @@
   :cp7 "4950-454",
   :id #uuid "41228446-f8ce-37aa-b922-d0c6de275ede",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Mon%C3%A7%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Mon%C3%A7%C3%A3o"},
+ :geocode
+ {:id #uuid "41228446-f8ce-37aa-b922-d0c6de275ede",
+  :address "Rua Eng.º Duarte Pacheco , Loja 8 4950-454 MONÇÃO",
+  :address-c
+  "Rua Engenheiro Duarte Pacheco 8, 4950-454, Monção, Viana do Castelo",
+  :postal-c "4950-454",
+  :x -8.482643561193365,
+  :y 42.077321005971505,
+  :score 96.58,
+  :c 1}}

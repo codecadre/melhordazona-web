@@ -96,7 +96,17 @@
     :cp7 "6230-287",
     :id #uuid "fd03f829-02ba-3cd4-986d-0877186cb4e3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"},
+   :geocode
+   {:id #uuid "fd03f829-02ba-3cd4-986d-0877186cb4e3",
+    :address "Loteamento Boavista, Lote 23 R/C DTº 6230 -287 FUNDÃO",
+    :address-c
+    "Loteamento da Boavista 23, 6230-804, Valverde, Fundão, Castelo Branco",
+    :postal-c "6230-804",
+    :x -7.474624532541195,
+    :y 40.14836327131182,
+    :score 96.7,
+    :c 1}}]
  ["a-cereja-00668"
   {:nec 668,
    :rates
@@ -196,4 +206,11 @@
     :cp7 "6230-329",
     :id #uuid "2ab49907-1192-3122-9793-687bc6136515",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"},
+   :geocode
+   {:cp7 "6230-329",
+    :postal-c "6230-329",
+    :x -7.4997299944515134,
+    :y 40.13219001243459,
+    :score 100,
+    :c 1}}]]

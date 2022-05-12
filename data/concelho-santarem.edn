@@ -82,7 +82,16 @@
     :cp7 "2000",
     :id #uuid "88ad6878-8beb-31a5-8679-a25d4e888e96",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+   :geocode
+   {:id #uuid "88ad6878-8beb-31a5-8679-a25d4e888e96",
+    :address "Largo Infante Santo, nº 4-1ºEsq 2000 SANTARÉM",
+    :address-c "Largo do Infante Santo 4, 2005-246, Santarém",
+    :postal-c "2005-246",
+    :x -8.686600024200317,
+    :y 39.23875000292378,
+    :score 96.49,
+    :c 2}}]
  ["tome-00093"
   {:nec 93,
    :rates
@@ -181,7 +190,16 @@
     :cp7 "2000-223",
     :id #uuid "5af064a6-9b65-3bdc-9367-ea93f60db69c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+   :geocode
+   {:id #uuid "5af064a6-9b65-3bdc-9367-ea93f60db69c",
+    :address "Rua Pedro de Santarém, Nº 130-1º Esqº 2000-223 SANTARÉM",
+    :address-c "Rua Pedro de Santarém 130, 2000-223, Santarém",
+    :postal-c "2000-223",
+    :x -8.686809990874877,
+    :y 39.230340020372694,
+    :score 97.2,
+    :c 1}}]
  ["santarem-00201"
   {:nec 201,
    :rates
@@ -324,7 +342,16 @@
     :cp7 "2025-031",
     :id #uuid "b24bccbc-3fc4-3a53-87d0-0469765aa6fc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+   :geocode
+   {:id #uuid "b24bccbc-3fc4-3a53-87d0-0469765aa6fc",
+    :address "Rua do Comércio nº 9 A 2025-031 ALCANEDE",
+    :address-c "Rua do Comércio 9, 2025-040, Alcanede, Santarém",
+    :postal-c "2025-040",
+    :x -8.821540031964673,
+    :y 39.41503999261886,
+    :score 97.01,
+    :c 3}}]
  ["s-domingos-01085"
   {:nec 1085,
    :rates
@@ -509,4 +536,11 @@
     :cp7 "2005-172",
     :id #uuid "91935f13-d068-3c26-98e4-54db1f0d4a43",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+   :geocode
+   {:cp7 "2005-172",
+    :postal-c "2005-172",
+    :x -8.692710012520052,
+    :y 39.24203499650679,
+    :score 100,
+    :c 1}}]]

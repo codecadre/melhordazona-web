@@ -96,7 +96,17 @@
     :cp7 "2330-099",
     :id #uuid "865be790-cae6-306e-9730-d655e4f08662",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"},
+   :geocode
+   {:id #uuid "865be790-cae6-306e-9730-d655e4f08662",
+    :address "Rua Almirante Reis, nº 44-1º Esq 2330-099 ENTRONCAMENTO",
+    :address-c
+    "Rua Almirante Reis 44, 2330-099, Entroncamento, Santarém",
+    :postal-c "2330-099",
+    :x -8.472753440328242,
+    :y 39.46507907494157,
+    :score 98.56,
+    :c 1}}]
  ["carmona-00681"
   {:nec 681,
    :rates
@@ -196,7 +206,14 @@
     :cp7 "2330-114",
     :id #uuid "e274c5a9-3b8a-30be-bcc3-706b44c8186d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"},
+   :geocode
+   {:cp7 "2330-114",
+    :postal-c "2330-114",
+    :x -8.467439994433647,
+    :y 39.46471001927961,
+    :score 100,
+    :c 1}}]
  ["porto-alto-01231"
   {:nec 1231,
    :rates
@@ -296,4 +313,15 @@
     :cp7 "2330-134",
     :id #uuid "749f27ba-a394-3ec1-8c43-24fc347744e0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"},
+   :geocode
+   {:id #uuid "749f27ba-a394-3ec1-8c43-24fc347744e0",
+    :address
+    "Praça da Comunidade Europeia, Nº 16 Cave, Lote 78 2330-134 ENTRONCAMENTO",
+    :address-c
+    "Praça das Comunidades Europeias 16, 2330-074, Entroncamento, Santarém",
+    :postal-c "2330-074",
+    :x -8.47903135530447,
+    :y 39.4689221460848,
+    :score 95.49,
+    :c 1}}]]

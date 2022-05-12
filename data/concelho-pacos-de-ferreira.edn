@@ -96,7 +96,14 @@
     :cp7 "4590-530",
     :id #uuid "a2bbbfde-e140-33f8-a179-5d1ca2307af1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:cp7 "4590-530",
+    :postal-c "4590-530",
+    :x -8.372479988435515,
+    :y 41.27830999497246,
+    :score 100,
+    :c 1}}]
  ["cristo-rei-00676"
   {:nec 676,
    :rates
@@ -195,7 +202,17 @@
     :cp7 "4595-225",
     :id #uuid "d5fcc173-7e05-3b22-a1e0-2ae3bec4291d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "d5fcc173-7e05-3b22-a1e0-2ae3bec4291d",
+    :address "Avª do Marco, Nº 127 4595-225 MEIXOMIL",
+    :address-c
+    "Avenida do Marco 127, 4595-225, Meixomil, Paços de Ferreira, Porto",
+    :postal-c "4595-225",
+    :x -8.38690423718972,
+    :y 41.28282965270231,
+    :score 97.24,
+    :c 4}}]
  ["freamundense-00856"
   {:nec 856,
    :rates
@@ -294,7 +311,17 @@
     :cp7 "4590-336",
     :id #uuid "74474d32-8813-399f-9be8-8d2b2c286826",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "74474d32-8813-399f-9be8-8d2b2c286826",
+    :address "Rua de Gaia nº 7 4590-336 FREAMUNDE",
+    :address-c
+    "Rua de Gaia, 4590-336, Freamunde, Paços de Ferreira, Porto",
+    :postal-c "4590-336",
+    :x -8.34304746616053,
+    :y 41.289685326213146,
+    :score 96.25,
+    :c 3}}]
  ["freamundus-00903"
   {:nec 903,
    :rates
@@ -323,7 +350,17 @@
     :cp7 "4590-384",
     :id #uuid "3e7eca21-2db3-37c6-b600-3c74d3a6745d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "3e7eca21-2db3-37c6-b600-3c74d3a6745d",
+    :address "Rua do Leigal, 155 4590-384 FREAMUNDE",
+    :address-c
+    "Rua de Leigal 155, 4590-384, Freamunde, Paços de Ferreira, Porto",
+    :postal-c "4590-384",
+    :x -8.335400041348947,
+    :y 41.28662999779294,
+    :score 100,
+    :c 1}}]
  ["roda-livre-00908"
   {:nec 908,
    :rates
@@ -422,7 +459,17 @@
     :cp7 "4590-206",
     :id #uuid "c2f9d91f-32de-3d4a-a1ef-a4d16cfbaa4f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "c2f9d91f-32de-3d4a-a1ef-a4d16cfbaa4f",
+    :address "Rua 25 de Abril, Nº 55 4590-206 FIGUEIRÓ",
+    :address-c
+    "Rua 25 de Abril 55, 4590-206, Figueiró, Paços de Ferreira, Porto",
+    :postal-c "4590-206",
+    :x -8.340749958688747,
+    :y 41.31387998411148,
+    :score 98.36,
+    :c 1}}]
  ["pacos-nova-00939"
   {:nec 939,
    :rates
@@ -521,7 +568,17 @@
     :cp7 "4590-064",
     :id #uuid "1b5b61ca-bd8a-39f0-9505-02e6787be969",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "1b5b61ca-bd8a-39f0-9505-02e6787be969",
+    :address "Rua de S. Tiago, 774 4590-064 CARVALHOSA",
+    :address-c
+    "Rua de São Tiago 774, 4590-064, Carvalhosa, Paços de Ferreira, Porto",
+    :postal-c "4590-064",
+    :x -8.364339986985698,
+    :y 41.29713998236559,
+    :score 100,
+    :c 2}}]
  ["dois-volantes-01172"
   {:nec 1172,
    :rates
@@ -620,7 +677,17 @@
     :cp7 "4590-571",
     :id #uuid "9916cdc8-9f99-379a-80ae-4d8cabecfd29",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "9916cdc8-9f99-379a-80ae-4d8cabecfd29",
+    :address "Rua do Estádio, Nº 162 R/C 4590-571 FRAZÃO",
+    :address-c
+    "Rua do Estádio 162, 4590-571, Paços de Ferreira, Porto",
+    :postal-c "4590-571",
+    :x -8.384699965074986,
+    :y 41.26962998941059,
+    :score 95.91,
+    :c 2}}]
  ["ferrara-01397"
   {:nec 1397,
    :rates
@@ -692,7 +759,18 @@
     :cp7 "4590-590",
     :id #uuid "e772d8d9-9676-3223-ba06-7df2c699695d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "e772d8d9-9676-3223-ba06-7df2c699695d",
+    :address
+    "Rua Dr. Queirós Ribeiro, n.º 155, 4590-590 Paços de Ferreira",
+    :address-c
+    "Rua Doutor Queirós Ribeiro 155, 4590-590, Paços de Ferreira, Porto",
+    :postal-c "4590-590",
+    :x -8.385965013101416,
+    :y 41.27555659641529,
+    :score 97.12,
+    :c 2}}]
  ["santa-luzia-pacos-de-ferreira-01423"
   {:nec 1423,
    :rates
@@ -735,7 +813,17 @@
     :cp7 "4590-545",
     :id #uuid "2cec90e9-fba9-33a5-ab12-13353431b2f1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "2cec90e9-fba9-33a5-ab12-13353431b2f1",
+    :address "Rua Casal de Rei I, n.º 16, 4590-545 Paços de Ferreira",
+    :address-c
+    "Rua de Casal de Rei, 4590-545, Paços de Ferreira, Porto",
+    :postal-c "4590-545",
+    :x -8.380168275311137,
+    :y 41.28090213906134,
+    :score 95.63,
+    :c 2}}]
  ["ivos-driving-academy-01435"
   {:nec 1435,
    :rates
@@ -779,4 +867,11 @@
     :cp7 "4590-397",
     :id #uuid "101d49cd-5e8f-3718-ad0a-dfd5bc93dfb5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:cp7 "4590-397",
+    :postal-c "4590-397",
+    :x -8.338999984943769,
+    :y 41.277830005287115,
+    :score 100,
+    :c 1}}]]

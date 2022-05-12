@@ -95,4 +95,14 @@
   :cp7 "4795-489",
   :id #uuid "f20cfae7-da67-3063-9bb1-69a3c75b41c4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+ :geocode
+ {:id #uuid "f20cfae7-da67-3063-9bb1-69a3c75b41c4",
+  :address "Rua da Trindade nº 45 4795-489 CAMPO (SÃO MARTINHO)",
+  :address-c
+  "Rua da Trindade 45, 4795-489, São Martinho do Campo, Santo Tirso, Porto",
+  :postal-c "4795-489",
+  :x -8.366333309080884,
+  :y 41.35808331667903,
+  :score 96.88,
+  :c 1}}

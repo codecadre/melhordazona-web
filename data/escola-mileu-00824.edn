@@ -95,4 +95,13 @@
   :cp7 "6300-617",
   :id #uuid "8c89d682-cf19-33e1-af3b-2f2adb1b0d9c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
+ :geocode
+ {:id #uuid "8c89d682-cf19-33e1-af3b-2f2adb1b0d9c",
+  :address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
+  :address-c "Rua Vila de Manteigas 9A, 6300-617, Guarda",
+  :postal-c "6300-617",
+  :x -7.256720013570373,
+  :y 40.544260004788754,
+  :score 96.82,
+  :c 1}}

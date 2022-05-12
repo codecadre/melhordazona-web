@@ -96,4 +96,14 @@
   :cp7 "4780-406",
   :id #uuid "6a1ebfa7-4c27-3cb0-93ed-35b289d05f4d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+ :geocode
+ {:id #uuid "6a1ebfa7-4c27-3cb0-93ed-35b289d05f4d",
+  :address
+  "Rua do Barreiro, Nº 19 R/C, Fracção N/Bloco 1 4780-406 SANTO TIRSO",
+  :address-c "Rua do Barreiro 19, 4780-406, Santo Tirso, Porto",
+  :postal-c "4780-406",
+  :x -8.489390019555287,
+  :y 41.34464001811327,
+  :score 95.44,
+  :c 3}}

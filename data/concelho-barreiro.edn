@@ -96,7 +96,17 @@
     :cp7 "2830",
     :id #uuid "90afbb92-6de8-3b7e-a3a2-de8f71487e81",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "90afbb92-6de8-3b7e-a3a2-de8f71487e81",
+    :address "Rua Dr. Manuel Pacheco Nobre 31 –A –1º 2830 BARREIRO",
+    :address-c
+    "Rua Doutor Manuel Pacheco Nobre 31, 2830-080, Barreiro, Setúbal",
+    :postal-c "2830-080",
+    :x -9.064559987310588,
+    :y 38.659739991957196,
+    :score 99.25,
+    :c 1}}]
  ["socartas-00372"
   {:nec 372,
    :rates
@@ -195,7 +205,14 @@
     :cp7 "2830-007",
     :id #uuid "2e41c7df-2b39-34f1-aab5-afb09d0aade9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:cp7 "2830-007",
+    :postal-c "2830-007",
+    :x -9.068305021649365,
+    :y 38.65658998892485,
+    :score 100,
+    :c 1}}]
  ["infante-sagres-barreiro-00523"
   {:nec 523,
    :rates
@@ -295,7 +312,14 @@
     :cp7 "2830-174",
     :id #uuid "bef7f155-b384-3a50-9251-afc6c42dac9b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:cp7 "2830-174",
+    :postal-c "2830-174",
+    :x -9.059409978361515,
+    :y 38.64444000117689,
+    :score 100,
+    :c 1}}]
  ["rotacoes-00615"
   {:nec 615,
    :rates
@@ -394,7 +418,16 @@
     :cp7 "2830-354",
     :id #uuid "f449f3cf-d92a-33e5-a2a2-843ef38b31ce",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "f449f3cf-d92a-33e5-a2a2-843ef38b31ce",
+    :address "Rua Miguel Bombarda, Nº 87 R/C 2830-354 BARREIRO",
+    :address-c "Rua Miguel Bombarda 87, 2830, Barreiro, Setúbal",
+    :postal-c "2830",
+    :x -9.073337037491958,
+    :y 38.65982665998492,
+    :score 96.9,
+    :c 3}}]
  ["cidade-do-barreiro-00942"
   {:nec 942,
    :rates
@@ -493,7 +526,16 @@
     :cp7 "2830-358",
     :id #uuid "51b36c9b-7b4a-34e5-bb7b-916b00164525",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "51b36c9b-7b4a-34e5-bb7b-916b00164525",
+    :address "Rua São João de Brito, Nº 8 - A 2830-358 BARREIRO",
+    :address-c "Rua São João de Brito 8A, 2830-359, Barreiro, Setúbal",
+    :postal-c "2830-359",
+    :x -9.080110010262644,
+    :y 38.66216001504202,
+    :score 97.37,
+    :c 2}}]
  ["os-loios-01031"
   {:nec 1031,
    :rates
@@ -592,7 +634,17 @@
     :cp7 "2830",
     :id #uuid "3345eee1-820b-3da2-9256-c398c79e9ec1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "3345eee1-820b-3da2-9256-c398c79e9ec1",
+    :address "Praceta dos Loios, Nº 5 B 2830 BARREIRO",
+    :address-c
+    "Praceta dos Loios 5B, 2835-342, Lavradio, Barreiro, Setúbal",
+    :postal-c "2835-342",
+    :x -9.052409999562627,
+    :y 38.66300000746875,
+    :score 97.06,
+    :c 2}}]
  ["instrusol-01138"
   {:nec 1138,
    :rates
@@ -691,7 +743,17 @@
     :cp7 "2830",
     :id #uuid "a9dbb338-ae7c-3c0b-bd94-0f014191c188",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "a9dbb338-ae7c-3c0b-bd94-0f014191c188",
+    :address "Rua António Amaro Monteiro nº 6 A 2830 BARREIRO",
+    :address-c
+    "Rua António Amaro Monteiro 6, 2835-744, Santo António da Charneca, Barreiro, Setúbal",
+    :postal-c "2835-744",
+    :x -9.041119995080464,
+    :y 38.63482000708339,
+    :score 96.95,
+    :c 1}}]
  ["fidalguinhos-01255"
   {:nec 1255,
    :rates
@@ -790,7 +852,17 @@
     :cp7 "2835-801",
     :id #uuid "d03d9622-e239-35ce-82d3-b1d618614b37",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "d03d9622-e239-35ce-82d3-b1d618614b37",
+    :address "Rua da S.D.U.B. os Franceses, Nº 6-C 2835-801 LAVRADIO",
+    :address-c
+    "Rua S. D. U. B. Franceses 6C, 2835-801, Lavradio, Barreiro, Setúbal",
+    :postal-c "2835-801",
+    :x -9.048709976043881,
+    :y 38.6540200135922,
+    :score 98.19,
+    :c 1}}]
  ["seixalinho-01279"
   {:nec 1279,
    :rates
@@ -889,7 +961,16 @@
     :cp7 "2830-095",
     :id #uuid "204fd63b-ef82-3f11-a166-e882e0eb13ef",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "204fd63b-ef82-3f11-a166-e882e0eb13ef",
+    :address "Rua Nuno Tristão, 1 B, 2830-095 Barreiro",
+    :address-c "Rua Nuno Tristão 1B, 2830-095, Barreiro, Setúbal",
+    :postal-c "2830-095",
+    :x -9.060819982113685,
+    :y 38.6559400142431,
+    :score 99.99,
+    :c 1}}]
  ["casquilhos-01419"
   {:nec 1419,
    :rates
@@ -946,4 +1027,13 @@
     :cp7 "2830-554",
     :id #uuid "941587fe-f170-3937-929b-b8c28b8048e5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+   :geocode
+   {:id #uuid "941587fe-f170-3937-929b-b8c28b8048e5",
+    :address "Rua José Cardoso Pires, n.º 3 C, 2830-554 Barreiro",
+    :address-c "Rua José Cardoso Pires, 2830-554, Barreiro, Setúbal",
+    :postal-c "2830-554",
+    :x -9.058139231301945,
+    :y 38.65158004157783,
+    :score 96.32,
+    :c 2}}]]

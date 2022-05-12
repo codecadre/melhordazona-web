@@ -95,4 +95,13 @@
   :cp7 "2845-367",
   :id #uuid "642ce38a-6e12-3130-a13c-1c60d8090b47",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+ :geocode
+ {:id #uuid "642ce38a-6e12-3130-a13c-1c60d8090b47",
+  :address "Rua das Flores, 8 loja C 2845-367 AMORA",
+  :address-c "Rua das Flores 8, 2845-367, Paivas, Seixal, Setúbal",
+  :postal-c "2845-367",
+  :x -9.112960029911704,
+  :y 38.62013000930665,
+  :score 98.82,
+  :c 1}}

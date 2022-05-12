@@ -95,4 +95,13 @@
   :cp7 "7860-154",
   :id #uuid "db7242c6-987e-30e9-8928-f2494625f83f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Moura"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Moura"},
+ :geocode
+ {:id #uuid "db7242c6-987e-30e9-8928-f2494625f83f",
+  :address "Rua de Santa Justa, Nº 9-A 7860-154 MOURA",
+  :address-c "Rua de Santa Justa 9, 7860-154, Moura, Beja",
+  :postal-c "7860-154",
+  :x -7.446989970024191,
+  :y 38.14320998645536,
+  :score 98.04,
+  :c 2}}

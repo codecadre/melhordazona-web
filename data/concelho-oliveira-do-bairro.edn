@@ -96,7 +96,17 @@
     :cp7 "3770-215",
     :id #uuid "733245dc-866a-3c6c-917d-90ef0ae02c22",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
+   :geocode
+   {:id #uuid "733245dc-866a-3c6c-917d-90ef0ae02c22",
+    :address "Rua da Misericórdia, Nº 2 3770-215 OLIVEIRA DO BAIRRO",
+    :address-c
+    "Rua da Misericórdia 2, 3770-215, Oliveira do Bairro, Aveiro",
+    :postal-c "3770-215",
+    :x -8.492340030377903,
+    :y 40.51132997987389,
+    :score 98.54,
+    :c 1}}]
  ["oia-01029"
   {:nec 1029,
    :rates
@@ -195,7 +205,14 @@
     :cp7 "3770-059",
     :id #uuid "f5710f22-1339-3bcf-bc6b-0a73593983eb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
+   :geocode
+   {:cp7 "3770-059",
+    :postal-c "3770-059",
+    :x -8.533664992327658,
+    :y 40.542804990216524,
+    :score 100,
+    :c 1}}]
  ["bustos-01348"
   {:nec 1348,
    :rates
@@ -281,4 +298,11 @@
     :cp7 "3770-018",
     :id #uuid "75155584-cfba-3d5d-b3a0-6683ddce6e09",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
+   :geocode
+   {:cp7 "3770-018",
+    :postal-c "3770-018",
+    :x -8.596960012147662,
+    :y 40.49558499385398,
+    :score 100,
+    :c 1}}]]

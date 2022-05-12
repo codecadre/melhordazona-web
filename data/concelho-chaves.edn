@@ -96,7 +96,14 @@
     :cp7 "5400-040",
     :id #uuid "4e5c786d-fbc4-3869-9bbf-26a0909309ee",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
+   :geocode
+   {:cp7 "5400-040",
+    :postal-c "5400-040",
+    :x -7.46971498591347,
+    :y 41.74407001665983,
+    :score 100,
+    :c 1}}]
  ["auto-volante-de-chaves-00381"
   {:nec 381,
    :rates
@@ -195,7 +202,16 @@
     :cp7 "5400-017",
     :id #uuid "b5e6e1bd-408e-3e72-ad76-fe3f00d95fc6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
+   :geocode
+   {:id #uuid "b5e6e1bd-408e-3e72-ad76-fe3f00d95fc6",
+    :address "Av. 5 de Outubro, 4 5400-017 SANTA MARIA MAIOR",
+    :address-c "Avenida 5 de Outubro 4, 5400-017, Chaves, Vila Real",
+    :postal-c "5400-017",
+    :x -7.467480035250759,
+    :y 41.74097998614468,
+    :score 95.71,
+    :c 4}}]
  ["santo-amaro-00708"
   {:nec 708,
    :rates
@@ -295,7 +311,18 @@
     :cp7 "5400-482",
     :id #uuid "e84a952a-68a0-3fdf-b744-4afb0ee24ab2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
+   :geocode
+   {:id #uuid "e84a952a-68a0-3fdf-b744-4afb0ee24ab2",
+    :address
+    "Avª da Raposeira, Edificio Jardim ,Loja 4 5400-482 SANTA MARIA MAIOR",
+    :address-c
+    "Edifício Jardim, Avenida da Raposeira, 5400-482, Chaves, Vila Real",
+    :postal-c "5400-482",
+    :x -7.477049989382294,
+    :y 41.74246999516268,
+    :score 97.36,
+    :c 1}}]
  ["santa-eugenia-01175"
   {:nec 1175,
    :rates

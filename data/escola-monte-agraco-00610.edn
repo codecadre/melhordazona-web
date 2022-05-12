@@ -81,4 +81,14 @@
   :cp7 "2590-430",
   :id #uuid "945842f1-21bd-39c8-8550-e0a398623243",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sobral%20Monte%20Agra%C3%A7o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sobral%20Monte%20Agra%C3%A7o"},
+ :geocode
+ {:id #uuid "945842f1-21bd-39c8-8550-e0a398623243",
+  :address "Largo da Sapataria, R/C 2590-430 SOBRAL MONTE AGRAÇO",
+  :address-c
+  "Largo da Sapataria, 2590-430, Sapataria, Sobral de Monte Agraço, Lisboa",
+  :postal-c "2590-430",
+  :x -9.19834707187046,
+  :y 38.96771741087897,
+  :score 97.96,
+  :c 3}}

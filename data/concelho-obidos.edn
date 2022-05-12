@@ -96,7 +96,16 @@
     :cp7 "2510-737",
     :id #uuid "db7bbd94-6ef6-3726-9768-41b7bd659e34",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
+   :geocode
+   {:id #uuid "db7bbd94-6ef6-3726-9768-41b7bd659e34",
+    :address "Estrada Nacional 8- Lote 4 2510 -737 GAEIRAS",
+    :address-c "N8 4, 2510-726, Óbidos, Leiria",
+    :postal-c "2510-726",
+    :x -9.139959984058493,
+    :y 39.37266000051642,
+    :score 97.69,
+    :c 2}}]
  ["santo-antonio-00632"
   {:nec 632,
    :rates
@@ -195,7 +204,17 @@
     :cp7 "2510-554",
     :id #uuid "7e61d596-7155-3bb1-be16-2876f55c07ae",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
+   :geocode
+   {:id #uuid "7e61d596-7155-3bb1-be16-2876f55c07ae",
+    :address "Rua Professor Roque Duarte, 13 B, 2510-554 ÓBIDOS",
+    :address-c
+    "Rua Professor Roque Duarte 13B, 2510-554, Olho Marinho, Óbidos, Leiria",
+    :postal-c "2510-554",
+    :x -9.231690023667966,
+    :y 39.32834999138879,
+    :score 99.99,
+    :c 1}}]
  ["oeste-01064"
   {:nec 1064,
    :rates
@@ -295,4 +314,11 @@
     :cp7 "2510-082",
     :id #uuid "fa81aea5-1189-3f8d-85c5-b9e4d276f6c5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
+   :geocode
+   {:cp7 "2510-082",
+    :postal-c "2510-082",
+    :x -9.155493243204205,
+    :y 39.359680330082625,
+    :score 100,
+    :c 1}}]]

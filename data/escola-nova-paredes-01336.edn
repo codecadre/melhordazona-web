@@ -95,4 +95,14 @@
   :cp7 "2580-531",
   :id #uuid "2f2303a8-cf54-3604-9cd4-5771033d6eea",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
+ :geocode
+ {:id #uuid "2f2303a8-cf54-3604-9cd4-5771033d6eea",
+  :address "Rua Jorge Cunha e Carmo, lote 35 R/c, 2580-531 Alenquer",
+  :address-c
+  "Rua Jorge da Cunha e Carmo 35, 2580-531, Alenquer, Lisboa",
+  :postal-c "2580-531",
+  :x -8.998785196361098,
+  :y 39.046851913342024,
+  :score 99.52,
+  :c 1}}

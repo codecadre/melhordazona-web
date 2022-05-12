@@ -96,7 +96,14 @@
     :cp7 "2490-502",
     :id #uuid "694e8b90-f847-33c1-a144-14a596eb4424",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
+   :geocode
+   {:cp7 "2490-502",
+    :postal-c "2490-502",
+    :x -8.579750037090747,
+    :y 39.65835000372414,
+    :score 100,
+    :c 1}}]
  ["fatima-00613"
   {:nec 613,
    :rates
@@ -195,7 +202,17 @@
     :cp7 "2495",
     :id #uuid "3b34efb2-a4a9-3d68-8cf3-7911800244d4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
+   :geocode
+   {:id #uuid "3b34efb2-a4a9-3d68-8cf3-7911800244d4",
+    :address "Avenida Beato Nuno, N 111 2495 FÁTIMA",
+    :address-c
+    "Avenida Beato Nuno 111, 2495-304, Fátima, Ourém, Santarém",
+    :postal-c "2495-304",
+    :x -8.665370004561424,
+    :y 39.630239992230315,
+    :score 100,
+    :c 1}}]
  ["destinus-00857"
   {:nec 857,
    :rates
@@ -295,7 +312,18 @@
     :cp7 "2495-447",
     :id #uuid "8c8b1589-e57b-3487-8d57-e65225a6d008",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
+   :geocode
+   {:id #uuid "8c8b1589-e57b-3487-8d57-e65225a6d008",
+    :address
+    "Rua Dr. Júlio Constantino nº 75 ED Primitivo 2495-447 FÁTIMA",
+    :address-c
+    "Rua Doutor Júlio Ferreira Constantino 75, 2495-456, Fátima, Ourém, Santarém",
+    :postal-c "2495-456",
+    :x -8.677659970092435,
+    :y 39.6359699869696,
+    :score 95.06,
+    :c 1}}]
  ["esco-2000-00928"
   {:nec 928,
    :rates
@@ -394,7 +422,17 @@
     :cp7 "2490-548",
     :id #uuid "ae4f5c7f-781c-3ee5-aa00-6d7b2e96f26c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
+   :geocode
+   {:id #uuid "ae4f5c7f-781c-3ee5-aa00-6d7b2e96f26c",
+    :address "Rua Francisco Sá Carneiro nº 60 2490-548 OURÉM",
+    :address-c
+    "Rua Dr. Francisco de Sá Carneiro 60, 2490-548, Vila Nova de Ourém, Ourém, Santarém",
+    :postal-c "2490-548",
+    :x -8.573100002749413,
+    :y 39.65457001684911,
+    :score 98.2,
+    :c 2}}]
  ["caxariense-01089"
   {:nec 1089,
    :rates
@@ -493,7 +531,14 @@
     :cp7 "2435-021",
     :id #uuid "00204d1c-89d3-33ba-a239-ef3ef5790726",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
+   :geocode
+   {:cp7 "2435-021",
+    :postal-c "2435-021",
+    :x -8.540564975021681,
+    :y 39.69680500202662,
+    :score 100,
+    :c 1}}]
  ["fatimense-01158"
   {:nec 1158,
    :rates
@@ -593,4 +638,11 @@
     :cp7 "2495-552",
     :id #uuid "b3e3d8d3-fe3b-3e49-ae9a-5d7a8f981703",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
+   :geocode
+   {:cp7 "2495-552",
+    :postal-c "2495-552",
+    :x -8.656345041774387,
+    :y 39.621570003042734,
+    :score 100,
+    :c 1}}]]

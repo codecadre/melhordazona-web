@@ -95,4 +95,13 @@
   :cp7 "4705-267",
   :id #uuid "d123f6fe-c9f3-3ad9-bc25-7af61beb91c6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "d123f6fe-c9f3-3ad9-bc25-7af61beb91c6",
+  :address "Rua Dr. Edgardo Sá Malheiro, Nº 122 4705-267 FERREIROS",
+  :address-c "Rua Doutor Edgardo Sá Malheiro 122, 4705-267, Braga",
+  :postal-c "4705-267",
+  :x -8.453236378661613,
+  :y 41.5339742156658,
+  :score 95.37,
+  :c 6}}

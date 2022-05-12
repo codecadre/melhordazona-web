@@ -96,4 +96,14 @@
   :cp7 "2800-338",
   :id #uuid "4696761e-29aa-3a57-b583-1f84e4337852",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+ :geocode
+ {:id #uuid "4696761e-29aa-3a57-b583-1f84e4337852",
+  :address "Avenida António José Gomes 54 2800-338 COVA da PIEDADE",
+  :address-c
+  "Avenida António José Gomes 54, 2805-086, Cova da Piedade, Almada, Setúbal",
+  :postal-c "2805-086",
+  :x -9.156499993594593,
+  :y 38.67186998886609,
+  :score 98.29,
+  :c 1}}

@@ -95,4 +95,13 @@
   :cp7 "4470-365",
   :id #uuid "025dcdbf-4249-3ba4-a53d-d855fa0d1367",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+ :geocode
+ {:id #uuid "025dcdbf-4249-3ba4-a53d-d855fa0d1367",
+  :address "Rua de S. Romão nº 200 4470-365 VERMOIM",
+  :address-c "Rua de São Romão 200, 4470-150, Vermoim, Maia, Porto",
+  :postal-c "4470-150",
+  :x -8.614520015481162,
+  :y 41.22738000062637,
+  :score 97.28,
+  :c 3}}

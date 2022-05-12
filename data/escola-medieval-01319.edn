@@ -98,4 +98,11 @@
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :obs "nec is 1318 in imt.pt",
- :overwrite/notes nil}
+ :overwrite/notes nil,
+ :geocode
+ {:cp7 "4520-707",
+  :postal-c "4520-707",
+  :x -8.55034497964678,
+  :y 40.906170006332076,
+  :score 100,
+  :c 1}}

@@ -97,7 +97,14 @@
     :cp7 "8200-131",
     :id #uuid "82f34b76-6be9-3808-b082-b9d0319a574f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
+   :geocode
+   {:cp7 "8200-131",
+    :postal-c "8200-131",
+    :x -8.247559959184173,
+    :y 37.09719000249039,
+    :score 100,
+    :c 1}}]
  ["infante-sagresalbufeira-00445"
   {:nec 445,
    :rates
@@ -197,7 +204,17 @@
     :cp7 "8200",
     :id #uuid "64d08f67-feea-393e-98ac-cd4bebf284e0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
+   :geocode
+   {:id #uuid "64d08f67-feea-393e-98ac-cd4bebf284e0",
+    :address
+    "Rua Fernão de Magalhães, lote 16 Fracções D e E 8200 ALBUFEIRA",
+    :address-c "Rua Fernão de Magalhães 16, 8200-129, Albufeira, Faro",
+    :postal-c "8200-129",
+    :x -8.246999964233027,
+    :y 37.08959000515267,
+    :score 97.8,
+    :c 1}}]
  ["academia-albufeira-00637"
   {:nec 637,
    :rates
@@ -297,7 +314,14 @@
     :cp7 "8200-360",
     :id #uuid "86a15372-a5ac-3c1a-a0ed-118611586ca3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
+   :geocode
+   {:cp7 "8200-360",
+    :postal-c "8200-360",
+    :x -8.22732503909026,
+    :y 37.09962000003998,
+    :score 100,
+    :c 1}}]
  ["alfa-00814"
   {:nec 814,
    :rates
@@ -396,7 +420,14 @@
     :cp7 "8200-171",
     :id #uuid "e4eba7bb-ce5c-3805-ace4-93380fa5f0eb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
+   :geocode
+   {:cp7 "8200-171",
+    :postal-c "8200-171",
+    :x -8.257399978236009,
+    :y 37.08490498228227,
+    :score 100,
+    :c 1}}]
  ["areias-mar-01261"
   {:nec 1261,
    :rates
@@ -496,4 +527,11 @@
     :cp7 "8200-276",
     :id #uuid "108770e5-745f-330d-8b4b-f2abf86768e9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
+   :geocode
+   {:cp7 "8200-276",
+    :postal-c "8200-276",
+    :x -8.232615025822355,
+    :y 37.09141499693105,
+    :score 100,
+    :c 1}}]]

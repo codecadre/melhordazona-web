@@ -97,7 +97,14 @@
     :cp7 "4615-623",
     :id #uuid "595ce2ab-5413-375f-869b-afcf48b13bbf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4615-623",
+    :postal-c "4615-623",
+    :x -8.144334977559907,
+    :y 41.32030999349445,
+    :score 100,
+    :c 1}}]
  ["longra-00698"
   {:nec 698,
    :rates
@@ -196,7 +203,14 @@
     :cp7 "4650-464",
     :id #uuid "cd878394-5004-3c80-9e5d-fd068e44e033",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4650-464",
+    :postal-c "4650-464",
+    :x -8.224944997683622,
+    :y 41.33952999084235,
+    :score 100,
+    :c 1}}]
  ["margaride-00820"
   {:nec 820,
    :rates
@@ -395,7 +409,14 @@
     :cp7 "4610-171",
     :id #uuid "7baa8dd9-5ab7-362f-af59-c6840d6fbb05",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4610-171",
+    :postal-c "4610-171",
+    :x -8.203620011081739,
+    :y 41.35899499122007,
+    :score 100,
+    :c 1}}]
  ["rys-00968"
   {:nec 968,
    :rates
@@ -495,7 +516,14 @@
     :cp7 "4615-594",
     :id #uuid "8104e8c9-ba40-3c7b-94b9-9d4c9004d80f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4615-594",
+    :postal-c "4615-594",
+    :x -8.146034995161955,
+    :y 41.32751998087741,
+    :score 100,
+    :c 1}}]
  ["valverde-01102"
   {:nec 1102,
    :rates
@@ -594,7 +622,14 @@
     :cp7 "4610-250",
     :id #uuid "ba279c39-db1f-32e7-b6ff-e459629825b2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4610-250",
+    :postal-c "4610-250",
+    :x -8.214150028402997,
+    :y 41.37058498401689,
+    :score 100,
+    :c 1}}]
  ["frclixa-01246"
   {:nec 1246,
    :rates
@@ -693,4 +728,10 @@
     :cp7 "4615-301",
     :id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
+    :overwrite true,
+    :obs "Manual coords",
+    :x -8.140365830925857,
+    :y 41.3155012036505}}]]

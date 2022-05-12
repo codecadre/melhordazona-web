@@ -67,4 +67,14 @@
   :cp7 "2765-515",
   :id #uuid "0f5caa24-93e8-37b4-a3f7-8234a91dd443",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+ :geocode
+ {:id #uuid "0f5caa24-93e8-37b4-a3f7-8234a91dd443",
+  :address "Rua Afonso Albuquerque, n.º 10, 2765-515 Estoril",
+  :address-c
+  "Rua Afonso de Albuquerque 10, 2765-184, Estoril, Cascais, Lisboa",
+  :postal-c "2765-184",
+  :x -9.398108099049441,
+  :y 38.71051715074396,
+  :score 95.6,
+  :c 1}}

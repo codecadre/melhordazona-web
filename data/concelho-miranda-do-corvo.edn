@@ -96,4 +96,14 @@
     :cp7 "3220-185",
     :id #uuid "ec8f51bf-9fa8-353c-85c2-fde13ec2789f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Miranda%20do%20Corvo"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Miranda%20do%20Corvo"},
+   :geocode
+   {:id #uuid "ec8f51bf-9fa8-353c-85c2-fde13ec2789f",
+    :address "Rua 25 de Abril, 43 3220-185 MIRANDA DO CORVO",
+    :address-c
+    "Rua 25 de Abril 43, 3220-185, Miranda do Corvo, Coimbra",
+    :postal-c "3220-185",
+    :x -8.32937282970722,
+    :y 40.090025553957865,
+    :score 100,
+    :c 2}}]]

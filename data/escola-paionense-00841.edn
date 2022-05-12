@@ -95,4 +95,14 @@
   :cp7 "3090-495",
   :id #uuid "0e5f6bcc-43e9-3c03-8603-ed192c8f9c30",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
+ :geocode
+ {:id #uuid "0e5f6bcc-43e9-3c03-8603-ed192c8f9c30",
+  :address "Rua dos Santinhos, nº 44 A 3090-495 PAIÃO",
+  :address-c
+  "Rua dos Santinhos 44, 3090-495, Paião, Figueira da Foz, Coimbra",
+  :postal-c "3090-495",
+  :x -8.804240035267668,
+  :y 40.07110999434772,
+  :score 98.07,
+  :c 2}}

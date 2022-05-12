@@ -95,4 +95,14 @@
   :cp7 "2625-391",
   :id #uuid "65f0df38-1deb-3381-a40a-8156098c2431",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "65f0df38-1deb-3381-a40a-8156098c2431",
+  :address "Rua Padre Américo nº 12 loja 2625-391 FORTE DA CASA",
+  :address-c
+  "Rua Padre Américo 12, 2625-456, Soda Póvoa, Vila Franca de Xira, Lisboa",
+  :postal-c "2625-456",
+  :x -9.060027348636343,
+  :y 38.87153884579824,
+  :score 95.34,
+  :c 2}}

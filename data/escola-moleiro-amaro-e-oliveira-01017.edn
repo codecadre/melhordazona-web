@@ -95,4 +95,14 @@
   :cp7 "3060-318",
   :id #uuid "6e6330ce-f76a-3718-a446-9166f448b7da",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
+ :geocode
+ {:id #uuid "6e6330ce-f76a-3718-a446-9166f448b7da",
+  :address "Rua Amadeu Castanheira Bloco 1 Loja D 3060-318 FEBRES",
+  :address-c
+  "Rua Amadeu Francisco Castanheira 1, 3060-318, Febres, Cantanhede, Coimbra",
+  :postal-c "3060-318",
+  :x -8.62552998057825,
+  :y 40.40114001389645,
+  :score 99.72,
+  :c 1}}

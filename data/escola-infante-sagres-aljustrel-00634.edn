@@ -95,4 +95,13 @@
   :cp7 "7600-010",
   :id #uuid "e19e6147-c652-33d5-b791-50d5361c551f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"},
+ :geocode
+ {:id #uuid "e19e6147-c652-33d5-b791-50d5361c551f",
+  :address "Rua de Beja, nº 1 7600-010 ALJUSTREL",
+  :address-c "Rua de Beja 1, 7600-073, Aljustrel, Beja",
+  :postal-c "7600-073",
+  :x -8.159892609048883,
+  :y 37.88128196789871,
+  :score 96.13,
+  :c 5}}

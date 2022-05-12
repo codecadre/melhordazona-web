@@ -95,4 +95,14 @@
   :cp7 "3770-215",
   :id #uuid "733245dc-866a-3c6c-917d-90ef0ae02c22",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
+ :geocode
+ {:id #uuid "733245dc-866a-3c6c-917d-90ef0ae02c22",
+  :address "Rua da Misericórdia, Nº 2 3770-215 OLIVEIRA DO BAIRRO",
+  :address-c
+  "Rua da Misericórdia 2, 3770-215, Oliveira do Bairro, Aveiro",
+  :postal-c "3770-215",
+  :x -8.492340030377903,
+  :y 40.51132997987389,
+  :score 98.54,
+  :c 1}}

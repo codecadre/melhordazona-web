@@ -96,4 +96,13 @@
     :cp7 "7960-263",
     :id #uuid "b80278f4-eaf6-383d-a2ae-7f126f64ced0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Vidigueira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Vidigueira"},
+   :geocode
+   {:id #uuid "b80278f4-eaf6-383d-a2ae-7f126f64ced0",
+    :address "Rua do Matadouro nº 26 7960-263 VIDIGUEIRA",
+    :address-c "Rua do Matadouro 26, 7960-263, Vidigueira, Beja",
+    :postal-c "7960-263",
+    :x -7.805850006549548,
+    :y 38.21110000750568,
+    :score 98.43,
+    :c 1}}]]

@@ -40,7 +40,16 @@
     :cp7 "7800-451",
     :id #uuid "0c83dbb0-e12e-35ba-83a0-eff52668dbf8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+   :geocode
+   {:id #uuid "0c83dbb0-e12e-35ba-83a0-eff52668dbf8",
+    :address "Rua Capitão João Francisco de Sousa nº 1 7800-451 BEJA",
+    :address-c "Rua Capitão João Francisco de Sousa 1, 7800-451, Beja",
+    :postal-c "7800-451",
+    :x -7.864440012660083,
+    :y 38.01292998158044,
+    :score 98.55,
+    :c 1}}]
  ["aljustrelense-00260"
   {:nec 260,
    :rates
@@ -139,7 +148,16 @@
     :cp7 "7600-088",
     :id #uuid "f6898fd6-4f84-3ba9-be93-fc5250690cda",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"},
+   :geocode
+   {:id #uuid "f6898fd6-4f84-3ba9-be93-fc5250690cda",
+    :address "Rua D. Sancho II , 6 A 7600-088 ALJUSTREL",
+    :address-c "Rua Dom Sancho II 6, 7600-088, Aljustrel, Beja",
+    :postal-c "7600-088",
+    :x -8.165779174784374,
+    :y 37.877440618219836,
+    :score 98.57,
+    :c 1}}]
  ["automobilista-de-moura-00267"
   {:nec 267,
    :rates
@@ -238,7 +256,14 @@
     :cp7 "7860-244",
     :id #uuid "2fe521a1-b370-33e2-9f02-99661f15af39",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Moura"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Moura"},
+   :geocode
+   {:cp7 "7860-244",
+    :postal-c "7860-244",
+    :x -7.450014998880221,
+    :y 38.14145498356851,
+    :score 100,
+    :c 1}}]
  ["vitoria-00272"
   {:nec 272,
    :rates
@@ -337,7 +362,16 @@
     :cp7 "7800-453",
     :id #uuid "b212d470-d859-3d1b-b20f-790805fa1e01",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+   :geocode
+   {:id #uuid "b212d470-d859-3d1b-b20f-790805fa1e01",
+    :address "Rua Cidade de S. Paulo, 14 A r/c Esqº 7800-453 BEJA",
+    :address-c "Rua da Cidade de São Paulo 14, 7800-453, Beja",
+    :postal-c "7800-453",
+    :x -7.858160039343943,
+    :y 38.00809999369463,
+    :score 98.11,
+    :c 3}}]
  ["vasco-da-gama-00288"
   {:nec 288,
    :rates
@@ -436,7 +470,16 @@
     :cp7 "7960-263",
     :id #uuid "b80278f4-eaf6-383d-a2ae-7f126f64ced0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Vidigueira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Vidigueira"},
+   :geocode
+   {:id #uuid "b80278f4-eaf6-383d-a2ae-7f126f64ced0",
+    :address "Rua do Matadouro nº 26 7960-263 VIDIGUEIRA",
+    :address-c "Rua do Matadouro 26, 7960-263, Vidigueira, Beja",
+    :postal-c "7960-263",
+    :x -7.805850006549548,
+    :y 38.21110000750568,
+    :score 98.43,
+    :c 1}}]
  ["serpense-00324"
   {:nec 324,
    :rates
@@ -521,7 +564,16 @@
     :cp7 "7830-320",
     :id #uuid "92b1f849-6fd8-37df-a5a8-5f614d1fbd56",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Serpa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Serpa"},
+   :geocode
+   {:id #uuid "92b1f849-6fd8-37df-a5a8-5f614d1fbd56",
+    :address "Avª da Paz, Bloco 16 r/c Dtª 7830-320 SERPA",
+    :address-c "Avenida da Paz 16, 7830-320, Serpa, Beja",
+    :postal-c "7830-320",
+    :x -7.6016199903570225,
+    :y 37.94031001065872,
+    :score 98.44,
+    :c 1}}]
  ["ana-paula-00327"
   {:nec 327,
    :rates
@@ -620,7 +672,17 @@
     :cp7 "7780-160",
     :id #uuid "fc920c81-cc8c-348d-93b8-be9adb3c5ceb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Castro%20Verde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Castro%20Verde"},
+   :geocode
+   {:id #uuid "fc920c81-cc8c-348d-93b8-be9adb3c5ceb",
+    :address "Rua dos Celeiros, nº 11 7780-160 CASTO VERDE",
+    :address-c
+    "Rua dos Celeiros 11, 7780-030, Estação de Ourique, Castro Verde, Beja",
+    :postal-c "7780-030",
+    :x -8.226730007783857,
+    :y 37.74592998798282,
+    :score 95.54,
+    :c 2}}]
  ["ferreirense-00425"
   {:nec 425,
    :rates
@@ -720,7 +782,14 @@
     :cp7 "7900-116",
     :id #uuid "02826e70-55b8-3833-8be5-b163cadbbea1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Ferreira%20do%20Alentejo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Ferreira%20do%20Alentejo"},
+   :geocode
+   {:cp7 "7900-116",
+    :postal-c "7900-116",
+    :x -8.121349452119944,
+    :y 38.06508763137509,
+    :score 100,
+    :c 1}}]
  ["ourique-00451"
   {:nec 451,
    :rates
@@ -819,7 +888,16 @@
     :cp7 "7670-261",
     :id #uuid "6fa35fa8-7dd2-3fce-9142-63097b6a5fd7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Ourique"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Ourique"},
+   :geocode
+   {:id #uuid "6fa35fa8-7dd2-3fce-9142-63097b6a5fd7",
+    :address "Rua Batalha de Ourique, Nº49 7670 -261 OURIQUE",
+    :address-c "Rua Batalha de Ourique 49, 7670-261, Ourique, Beja",
+    :postal-c "7670-261",
+    :x -8.226639986143738,
+    :y 37.64897999244229,
+    :score 97.96,
+    :c 1}}]
  ["almodovar-00469"
   {:nec 469,
    :rates
@@ -918,7 +996,16 @@
     :cp7 "7700-058",
     :id #uuid "b480dbb4-2a7b-3630-ab09-897177c4c073",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Almodovar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Almodovar"},
+   :geocode
+   {:id #uuid "b480dbb4-2a7b-3630-ab09-897177c4c073",
+    :address "Rua do Convento nº 27 7700-058 ALMODOVAR",
+    :address-c "Rua do Convento 27, 7700-058, Almodôvar, Beja",
+    :postal-c "7700-058",
+    :x -8.058639992055788,
+    :y 37.513299988356096,
+    :score 98.4,
+    :c 2}}]
  ["do-carmo-00627"
   {:nec 627,
    :rates
@@ -1017,7 +1104,16 @@
     :cp7 "7860-154",
     :id #uuid "db7242c6-987e-30e9-8928-f2494625f83f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Moura"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Moura"},
+   :geocode
+   {:id #uuid "db7242c6-987e-30e9-8928-f2494625f83f",
+    :address "Rua de Santa Justa, Nº 9-A 7860-154 MOURA",
+    :address-c "Rua de Santa Justa 9, 7860-154, Moura, Beja",
+    :postal-c "7860-154",
+    :x -7.446989970024191,
+    :y 38.14320998645536,
+    :score 98.04,
+    :c 2}}]
  ["infante-sagres-aljustrel-00634"
   {:nec 634,
    :rates
@@ -1116,7 +1212,16 @@
     :cp7 "7600-010",
     :id #uuid "e19e6147-c652-33d5-b791-50d5361c551f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"},
+   :geocode
+   {:id #uuid "e19e6147-c652-33d5-b791-50d5361c551f",
+    :address "Rua de Beja, nº 1 7600-010 ALJUSTREL",
+    :address-c "Rua de Beja 1, 7600-073, Aljustrel, Beja",
+    :postal-c "7600-073",
+    :x -8.159892609048883,
+    :y 37.88128196789871,
+    :score 96.13,
+    :c 5}}]
  ["palma-dores-00669"
   {:nec 669,
    :rates
@@ -1215,7 +1320,16 @@
     :cp7 "7800-323",
     :id #uuid "81b798ec-493d-3127-b5be-915d369a72ce",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+   :geocode
+   {:id #uuid "81b798ec-493d-3127-b5be-915d369a72ce",
+    :address "Rua Manuel da Fonseca nº 12 –Cave 7800-323 BEJA",
+    :address-c "Rua Manuel da Fonseca 12, 7800-323, Beja",
+    :postal-c "7800-323",
+    :x -7.872789980784432,
+    :y 38.02047000640093,
+    :score 98.46,
+    :c 1}}]
  ["bejense-00812"
   {:nec 812,
    :rates
@@ -1314,7 +1428,16 @@
     :cp7 "7800",
     :id #uuid "e39f2c49-c0d9-3500-9f78-fac947032f06",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+   :geocode
+   {:id #uuid "e39f2c49-c0d9-3500-9f78-fac947032f06",
+    :address "Rua Sousa Porto 49 r/c 7800 BEJA",
+    :address-c "Rua Sousa Porto 49, 7800-071, Beja",
+    :postal-c "7800-071",
+    :x -7.853359974852452,
+    :y 38.00995997991876,
+    :score 99.2,
+    :c 1}}]
  ["olho-azul-01053"
   {:nec 1053,
    :rates
@@ -1414,7 +1537,14 @@
     :cp7 "7645-301",
     :id #uuid "93613a1a-7daa-3d80-912f-6f71dbbbeef2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"},
+   :geocode
+   {:cp7 "7645-301",
+    :postal-c "7645-301",
+    :x -8.781430026880201,
+    :y 37.72992000809401,
+    :score 100,
+    :c 1}}]
  ["odemirense-01141"
   {:nec 1141,
    :rates
@@ -1513,7 +1643,18 @@
     :cp7 "7630-33",
     :id #uuid "657b50ea-d151-3cb2-9485-ce36cff40de8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"},
+   :geocode
+   {:id #uuid "657b50ea-d151-3cb2-9485-ce36cff40de8",
+    :address
+    "Avenida do Comércio nº 6 A 7630-33 BOAVISTA DOS PINHEIROS",
+    :address-c
+    "Avenida do Comércio 6, 7630-033, Boavista dos Pinheiros, Odemira, Beja",
+    :postal-c "7630-033",
+    :x -8.661343288814946,
+    :y 37.58082856149458,
+    :score 97.95,
+    :c 4}}]
  ["a-mourinha-de-s-teotonio-01142"
   {:nec 1142,
    :rates
@@ -1612,7 +1753,14 @@
     :cp7 "7630-623",
     :id #uuid "5606fabe-5e1b-3bc8-9b26-93dc838eb813",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"},
+   :geocode
+   {:cp7 "7630-623",
+    :postal-c "7630-623",
+    :x -8.703310018732822,
+    :y 37.51112999744301,
+    :score 100,
+    :c 1}}]
  ["planicie-01296"
   {:nec 1296,
    :rates
@@ -1711,4 +1859,11 @@
     :cp7 "7750-337",
     :id #uuid "0ea7096a-5a9d-3691-98bd-da3cf93a8817",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=M%C3%A9rtola"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=M%C3%A9rtola"},
+   :geocode
+   {:cp7 "7750-337",
+    :postal-c "7750-337",
+    :x -7.662944843835646,
+    :y 37.640039561148754,
+    :score 100,
+    :c 1}}]]

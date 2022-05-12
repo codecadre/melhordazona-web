@@ -95,4 +95,14 @@
   :cp7 "4780-468",
   :id #uuid "f56a27a0-bb92-3161-8285-b44e17a2a171",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+ :geocode
+ {:id #uuid "f56a27a0-bb92-3161-8285-b44e17a2a171",
+  :address "Rua Ferreira de Lemos, 302 4780-468 SANTO TIRSO",
+  :address-c
+  "Rua Ferreira de Lemos 302, 4780-468, Orgal, Santo Tirso, Porto",
+  :postal-c "4780-468",
+  :x -8.47649999357597,
+  :y 41.33552000454418,
+  :score 100,
+  :c 2}}

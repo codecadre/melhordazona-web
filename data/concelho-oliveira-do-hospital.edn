@@ -97,7 +97,14 @@
     :cp7 "3400-058",
     :id #uuid "e7c52af4-4db2-3e21-8caf-b03104b75886",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Oliveira%20Hospital"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Oliveira%20Hospital"},
+   :geocode
+   {:cp7 "3400-058",
+    :postal-c "3400-058",
+    :x -7.858539991014879,
+    :y 40.36190998291687,
+    :score 100,
+    :c 1}}]
  ["fica-00715"
   {:nec 715,
    :rates
@@ -196,4 +203,14 @@
     :cp7 "3400-084",
     :id #uuid "881ff11f-5e05-375e-8020-476092082152",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Oliveira%20Hospital"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Oliveira%20Hospital"},
+   :geocode
+   {:id #uuid "881ff11f-5e05-375e-8020-476092082152",
+    :address "Rua António Nobre 16- A 3400-084 OLIVEIRA DO HOSPITAL",
+    :address-c
+    "Rua António Nobre 16, 3400-084, São Paio de Gramaços, Oliveira do Hospital, Coimbra",
+    :postal-c "3400-084",
+    :x -7.858690027081735,
+    :y 40.354710011908196,
+    :score 99.77,
+    :c 1}}]]

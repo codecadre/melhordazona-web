@@ -95,4 +95,13 @@
   :cp7 "4750-329",
   :id #uuid "915aa89a-1d3e-3d9e-92c4-4597e5b0aad1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+ :geocode
+ {:id #uuid "915aa89a-1d3e-3d9e-92c4-4597e5b0aad1",
+  :address "Largo da Porta Nova, 11-1º 4750-329 BARCELOS",
+  :address-c "Largo da Porta Nova 11, 4750-329, Barcelos, Braga",
+  :postal-c "4750-329",
+  :x -8.619410017793712,
+  :y 41.53087999742985,
+  :score 99.43,
+  :c 1}}

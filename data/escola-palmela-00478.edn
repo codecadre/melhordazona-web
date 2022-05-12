@@ -95,4 +95,13 @@
   :cp7 "2950-210",
   :id #uuid "0d98042d-de94-3781-a516-fea5302e07f5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+ :geocode
+ {:id #uuid "0d98042d-de94-3781-a516-fea5302e07f5",
+  :address "Rua Humberto Cardoso, Lote 15 B2 2950 -210 PINHAL NOVO",
+  :address-c "Rua Humberto Cardoso 15, 2950-210, Palmela, Setúbal",
+  :postal-c "2950-210",
+  :x -8.900669975625675,
+  :y 38.57442001280114,
+  :score 97.21,
+  :c 1}}

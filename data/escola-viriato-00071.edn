@@ -95,4 +95,13 @@
   :cp7 "3510-069",
   :id #uuid "056f85d4-46cd-3877-8e04-2a566b87e038",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+ :geocode
+ {:id #uuid "056f85d4-46cd-3877-8e04-2a566b87e038",
+  :address "Praça de Gôa –Lote 14 r/c 3510-069 VISEU",
+  :address-c "Praça de Goa 14, 3510-069, Viseu",
+  :postal-c "3510-069",
+  :x -7.918790033049305,
+  :y 40.653730007192934,
+  :score 99.33,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "4925-411",
   :id #uuid "791866c8-badf-37c6-b81b-97a3a2ce6401",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+ :geocode
+ {:id #uuid "791866c8-badf-37c6-b81b-97a3a2ce6401",
+  :address "Largo Capitão Gaspar de Castro 4925-411 LANHESES",
+  :address-c
+  "Largo Capitão Gaspar de Castro, 4925-411, Feira, Viana do Castelo",
+  :postal-c "4925-411",
+  :x -8.677362008646123,
+  :y 41.73490792112573,
+  :score 98.26,
+  :c 2}}

@@ -95,4 +95,13 @@
   :cp7 "6300-712",
   :id #uuid "89d5d6e2-e4ef-3900-ad7c-86eb5ef294e4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
+ :geocode
+ {:id #uuid "89d5d6e2-e4ef-3900-ad7c-86eb5ef294e4",
+  :address "Largo General Humberto Delgado, 39-1º 6300-712 GUARDA",
+  :address-c "Largo General Humberto Delgado 39, 6300-712, Guarda",
+  :postal-c "6300-712",
+  :x -7.26893001574507,
+  :y 40.5359799836464,
+  :score 99.55,
+  :c 4}}

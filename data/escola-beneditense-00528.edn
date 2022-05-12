@@ -95,4 +95,14 @@
   :cp7 "2475-138",
   :id #uuid "6c81746d-b2d9-34fd-af6e-4cd8de5fc442",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+ :geocode
+ {:id #uuid "6c81746d-b2d9-34fd-af6e-4cd8de5fc442",
+  :address "Rua Padre Dr Fernando Maurício nº 2 r/c 2475-138 BENEDITA",
+  :address-c
+  "Rua Padre Fernando Maurício 2, 2475-138, Benedita, Alcobaça, Leiria",
+  :postal-c "2475-138",
+  :x -8.981749969060417,
+  :y 39.42514001830719,
+  :score 97.86,
+  :c 1}}

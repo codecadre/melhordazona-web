@@ -95,4 +95,14 @@
   :cp7 "2490-548",
   :id #uuid "ae4f5c7f-781c-3ee5-aa00-6d7b2e96f26c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
+ :geocode
+ {:id #uuid "ae4f5c7f-781c-3ee5-aa00-6d7b2e96f26c",
+  :address "Rua Francisco Sá Carneiro nº 60 2490-548 OURÉM",
+  :address-c
+  "Rua Dr. Francisco de Sá Carneiro 60, 2490-548, Vila Nova de Ourém, Ourém, Santarém",
+  :postal-c "2490-548",
+  :x -8.573100002749413,
+  :y 39.65457001684911,
+  :score 98.2,
+  :c 2}}

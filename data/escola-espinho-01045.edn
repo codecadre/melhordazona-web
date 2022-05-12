@@ -95,4 +95,13 @@
   :cp7 "4500-088",
   :id #uuid "04b20b02-a34d-35b8-957e-2f6af065a771",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
+ :geocode
+ {:id #uuid "04b20b02-a34d-35b8-957e-2f6af065a771",
+  :address "Rua da Ponte de Anta, Nº 190 4500-088 ANTA",
+  :address-c "Rua Ponte d'Anta 190, 4500-088, Espinho, Aveiro",
+  :postal-c "4500-088",
+  :x -8.633669982028039,
+  :y 41.015169993515684,
+  :score 96.75,
+  :c 3}}

@@ -96,4 +96,14 @@
   :cp7 "7005-610",
   :id #uuid "21df166e-9b40-38e5-827f-59b7046245e7",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
+ :geocode
+ {:id #uuid "21df166e-9b40-38e5-827f-59b7046245e7",
+  :address
+  "Rua Sebastião do Couto, Nº 1-A vila Lusitano 7005-610 ÉVORA",
+  :address-c "Rua Sebastião do Couto 1A, 7005-610, Évora",
+  :postal-c "7005-610",
+  :x -7.920280000157788,
+  :y 38.56439999237861,
+  :score 96.04,
+  :c 1}}

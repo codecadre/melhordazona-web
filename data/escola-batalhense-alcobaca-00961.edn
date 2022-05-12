@@ -95,4 +95,14 @@
   :cp7 "2460-067",
   :id #uuid "f46b3ee9-f3e6-37b9-bd49-04b3b10abcd9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+ :geocode
+ {:id #uuid "f46b3ee9-f3e6-37b9-bd49-04b3b10abcd9",
+  :address "Rua Mercedes Carlos Campeão , Nº 12 R/C 2460-067 ALCOBAÇA",
+  :address-c
+  "Rua Mercedes e Carlos Campeão 12, 2460-067, Alcobaça, Leiria",
+  :postal-c "2460-067",
+  :x -8.97368004032117,
+  :y 39.55062000060016,
+  :score 97.84,
+  :c 1}}

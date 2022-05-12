@@ -96,4 +96,15 @@
   :cp7 "4810-261",
   :id #uuid "58480c54-4249-3833-9889-57be20112ea0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+ :geocode
+ {:id #uuid "58480c54-4249-3833-9889-57be20112ea0",
+  :address
+  "Rua D. Cristóvão S. Boaventura, Nº 51 4810-261 GUIMARÃES (Oliveira do Castelo)",
+  :address-c
+  "Rua Dom Cristóvão de São Boaventura 51, 4810-261, Guimarães, Braga",
+  :postal-c "4810-261",
+  :x -8.28768002255245,
+  :y 41.4470999834347,
+  :score 98.68,
+  :c 2}}

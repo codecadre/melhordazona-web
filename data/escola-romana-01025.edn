@@ -95,4 +95,13 @@
   :cp7 nil,
   :id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+ :geocode
+ {:id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
+  :address "Rua Manuel Peixoto, N 211 R/C Creixomil",
+  :address-c "Rua Manuel Peixoto 211, 4835-070, Guimarães, Braga",
+  :postal-c "4835-070",
+  :x -8.302399985633059,
+  :y 41.436199988907305,
+  :score 95.01,
+  :c 1}}

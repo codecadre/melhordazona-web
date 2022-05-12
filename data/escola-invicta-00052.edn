@@ -95,4 +95,13 @@
   :cp7 "4000-307",
   :id #uuid "37da4c62-d587-3b6c-bff4-d2c0f012ddc8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "37da4c62-d587-3b6c-bff4-d2c0f012ddc8",
+  :address "Rua João Pedro Ribeiro,713/ 715-1º 4000-307 PORTO",
+  :address-c "Rua de João Pedro Ribeiro 713, 4000-307, Porto",
+  :postal-c "4000-307",
+  :x -8.60677999845089,
+  :y 41.16082999443674,
+  :score 98.72,
+  :c 1}}

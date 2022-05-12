@@ -95,4 +95,14 @@
   :cp7 "4510-147",
   :id #uuid "8c5e7670-8f0a-3fdc-8e99-7ceb932f8dd8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+ :geocode
+ {:id #uuid "8c5e7670-8f0a-3fdc-8e99-7ceb932f8dd8",
+  :address "Rua Trás da Serra, Nº 110 4510-147 JOVIM GDM",
+  :address-c
+  "Rua Trás da Serra 110, 4510-147, Pinheiro, Gondomar, Porto",
+  :postal-c "4510-147",
+  :x -8.509979997067717,
+  :y 41.11651001084434,
+  :score 96.38,
+  :c 1}}

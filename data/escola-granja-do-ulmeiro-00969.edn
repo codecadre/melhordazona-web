@@ -95,4 +95,14 @@
   :cp7 "3130-080",
   :id #uuid "171bf96e-123a-35bb-bb87-6d39bf190fe1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
+ :geocode
+ {:id #uuid "171bf96e-123a-35bb-bb87-6d39bf190fe1",
+  :address "Rua do Comércio 3130-080 GRANJA DO ULMEIRO",
+  :address-c
+  "Rua do Comércio, 3130-080, Granja do Ulmeiro, Soure, Coimbra",
+  :postal-c "3130-080",
+  :x -8.634721723787333,
+  :y 40.16334907770819,
+  :score 100,
+  :c 1}}

@@ -96,4 +96,15 @@
   :cp7 "2560-324",
   :id #uuid "3de5aacc-fb5f-39ca-b3fc-30c15fe5dfb3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+ :geocode
+ {:id #uuid "3de5aacc-fb5f-39ca-b3fc-30c15fe5dfb3",
+  :address
+  "Rua Dr.Aurélio Ricardo Belo, Nº 2-A 2560-324 TORRES VEDRAS",
+  :address-c
+  "Rua Doutor Aurélio Ricardo Belo 2, 2560-324, Torres Vedras, Lisboa",
+  :postal-c "2560-324",
+  :x -9.256389983583432,
+  :y 39.086420018731815,
+  :score 98.35,
+  :c 3}}

@@ -95,4 +95,10 @@
   :cp7 "4615-301",
   :id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+ :geocode
+ {:id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
+  :overwrite true,
+  :obs "Manual coords",
+  :x -8.140365830925857,
+  :y 41.3155012036505}}

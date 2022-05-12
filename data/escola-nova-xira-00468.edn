@@ -40,4 +40,15 @@
   :cp7 "2600-180",
   :id #uuid "94e416ff-9c8d-3191-843e-3938158f59dd",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "94e416ff-9c8d-3191-843e-3938158f59dd",
+  :address
+  "Rua Luís de Camões nº 60 r/c Dtº 2600-180 VILA FRANCA DE XIRA",
+  :address-c
+  "Rua Luís de Camões 60, 2600-180, Vila Franca de Xira, Lisboa",
+  :postal-c "2600-180",
+  :x -8.98978997440534,
+  :y 38.95200999870525,
+  :score 97.53,
+  :c 2}}

@@ -96,4 +96,14 @@
   :cp7 "4785-321",
   :id #uuid "42e5bfb8-234d-34c7-a93b-81e82628c9e0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+ :geocode
+ {:id #uuid "42e5bfb8-234d-34c7-a93b-81e82628c9e0",
+  :address
+  "Rua Gil Vicente, Nº 1-1º Dtº 4785-321 S. MARTINHO (BOUGADO)",
+  :address-c "Rua de Gil Vicente 1, 4785-321, Trofa, Porto",
+  :postal-c "4785-321",
+  :x -8.553590033461148,
+  :y 41.33770001183157,
+  :score 96.27,
+  :c 1}}

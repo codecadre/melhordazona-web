@@ -95,4 +95,13 @@
   :cp7 "7800-323",
   :id #uuid "81b798ec-493d-3127-b5be-915d369a72ce",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+ :geocode
+ {:id #uuid "81b798ec-493d-3127-b5be-915d369a72ce",
+  :address "Rua Manuel da Fonseca nº 12 –Cave 7800-323 BEJA",
+  :address-c "Rua Manuel da Fonseca 12, 7800-323, Beja",
+  :postal-c "7800-323",
+  :x -7.872789980784432,
+  :y 38.02047000640093,
+  :score 98.46,
+  :c 1}}

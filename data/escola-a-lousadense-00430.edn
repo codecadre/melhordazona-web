@@ -95,4 +95,13 @@
   :cp7 "4620-660",
   :id #uuid "722870f9-acdb-32fb-8cf8-a740f3cd31ff",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+ :geocode
+ {:id #uuid "722870f9-acdb-32fb-8cf8-a740f3cd31ff",
+  :address "Rua S. João de Deus, Nº 76 R/C e 1º 4620-660 SILVARES",
+  :address-c "Rua S. João de Deus 76, 4620-660, Lousada, Porto",
+  :postal-c "4620-660",
+  :x -8.278369991238407,
+  :y 41.27809001192361,
+  :score 95.09,
+  :c 1}}

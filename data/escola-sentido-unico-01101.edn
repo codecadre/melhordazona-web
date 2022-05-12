@@ -95,4 +95,14 @@
   :cp7 "3090-401",
   :id #uuid "43b28bf0-7188-38c9-be94-91665d85ee57",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
+ :geocode
+ {:id #uuid "43b28bf0-7188-38c9-be94-91665d85ee57",
+  :address "Rua de Santo Amaro n º 7 r/c 3090-401 FIGUEIRA DA FOZ",
+  :address-c
+  "Rua de Santo Amaro, 3090-401, Alhadas de Baixo, Figueira da Foz, Coimbra",
+  :postal-c "3090-401",
+  :x -8.79450398433556,
+  :y 40.197294173614274,
+  :score 95.63,
+  :c 6}}

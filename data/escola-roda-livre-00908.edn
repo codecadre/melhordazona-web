@@ -95,4 +95,14 @@
   :cp7 "4590-206",
   :id #uuid "c2f9d91f-32de-3d4a-a1ef-a4d16cfbaa4f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+ :geocode
+ {:id #uuid "c2f9d91f-32de-3d4a-a1ef-a4d16cfbaa4f",
+  :address "Rua 25 de Abril, Nº 55 4590-206 FIGUEIRÓ",
+  :address-c
+  "Rua 25 de Abril 55, 4590-206, Figueiró, Paços de Ferreira, Porto",
+  :postal-c "4590-206",
+  :x -8.340749958688747,
+  :y 41.31387998411148,
+  :score 98.36,
+  :c 1}}

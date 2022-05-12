@@ -95,4 +95,13 @@
   :cp7 "6300-728",
   :id #uuid "efcd5978-30a0-3dca-b463-10cfd41058ec",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
+ :geocode
+ {:id #uuid "efcd5978-30a0-3dca-b463-10cfd41058ec",
+  :address "Rua Marquês de Pombal, 45 –1º 6300-728 GUARDA",
+  :address-c "Rua Marquês de Pombal 45, 6300-728, Guarda",
+  :postal-c "6300-728",
+  :x -7.266619963229914,
+  :y 40.537760006514276,
+  :score 99.43,
+  :c 2}}

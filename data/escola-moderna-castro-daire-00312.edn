@@ -95,4 +95,14 @@
   :cp7 "3600-187",
   :id #uuid "5715d5b7-48af-3264-94f7-8114efb5ca7f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
+ :geocode
+ {:id #uuid "5715d5b7-48af-3264-94f7-8114efb5ca7f",
+  :address "Avª General Humberto Delgado 3600-187 CASTRO DAIRE",
+  :address-c
+  "Avenida General Humberto Delgado, 3600-187, Castro Daire, Viseu",
+  :postal-c "3600-187",
+  :x -7.9333290223644966,
+  :y 40.90130095651663,
+  :score 100,
+  :c 1}}

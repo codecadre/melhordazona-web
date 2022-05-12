@@ -96,4 +96,15 @@
   :cp7 "2725-171",
   :id #uuid "92297790-d182-35d2-b9ce-89b2d302a4e5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "92297790-d182-35d2-b9ce-89b2d302a4e5",
+  :address
+  "Rua António Silva Nº 4, Loja A -Urb. S. Carlos 2725 -171 MEM MARTINS",
+  :address-c
+  "Rua António Silva 4, 2725-170, Mem Martins, Sintra, Lisboa",
+  :postal-c "2725-170",
+  :x -9.347769994916291,
+  :y 38.785589993365846,
+  :score 95.58,
+  :c 1}}

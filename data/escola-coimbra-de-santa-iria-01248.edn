@@ -95,4 +95,14 @@
   :cp7 "2695",
   :id #uuid "1d981fc1-2cbb-384a-b201-5528c3d755dd",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+ :geocode
+ {:id #uuid "1d981fc1-2cbb-384a-b201-5528c3d755dd",
+  :address "Rua S. Francisco Xavier, Nº 57-A 2695 Santa Iria de Azoia",
+  :address-c
+  "Rua S. Francisco Xavier 57, 2690-376, Santa Iria de Azóia, Loures, Lisboa",
+  :postal-c "2690-376",
+  :x -9.084921755186961,
+  :y 38.84296144784013,
+  :score 97.04,
+  :c 3}}

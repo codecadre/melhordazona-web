@@ -95,4 +95,13 @@
   :cp7 "4200-222",
   :id #uuid "b766ff8a-b51d-3d8c-aaa2-02c67c47d2e9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "b766ff8a-b51d-3d8c-aaa2-02c67c47d2e9",
+  :address "Rua Costa Cabral, 279-1º 4200-222 PORTO",
+  :address-c "Rua de Costa Cabral 279, 4200-222, Porto",
+  :postal-c "4200-222",
+  :x -8.601490011718823,
+  :y 41.16397999746911,
+  :score 99.35,
+  :c 3}}

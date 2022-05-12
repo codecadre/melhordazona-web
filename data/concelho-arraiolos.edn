@@ -96,4 +96,13 @@
     :cp7 "7040-026",
     :id #uuid "60878311-f2f3-3ffa-9754-720b83e9ab9c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Arraiolos"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Arraiolos"},
+   :geocode
+   {:id #uuid "60878311-f2f3-3ffa-9754-720b83e9ab9c",
+    :address "Praça da República, 14 7040-026 ARRAIOLOS",
+    :address-c "Praca da Republica 14, 7040-016, Arraiolos, Évora",
+    :postal-c "7040-016",
+    :x -7.983789976861472,
+    :y 38.72343937334355,
+    :score 98.9,
+    :c 3}}]]

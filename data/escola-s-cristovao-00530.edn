@@ -96,4 +96,14 @@
   :cp7 nil,
   :id #uuid "32104b70-98c4-3f9c-8977-92b883f01b8a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Boticas"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Boticas"},
+ :geocode
+ {:id #uuid "32104b70-98c4-3f9c-8977-92b883f01b8a",
+  :address "Rua Dr. Rogério Braúlio Martins  N 18 Loja 16 Boticas",
+  :address-c
+  "Rua Doutor Rogério Braúlio Martins 18, 5460-313, Boticas, Vila Real",
+  :postal-c "5460-313",
+  :x -7.6697903565943575,
+  :y 41.68896782349776,
+  :score 98.9,
+  :c 1}}

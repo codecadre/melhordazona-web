@@ -41,7 +41,14 @@
     :cp7 "3140-998",
     :id #uuid "1ae0f161-2a4e-3cf7-81d8-cade4b19bf76",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"},
+   :geocode
+   {:cp7 "3140-998",
+    :postal-c "3140-998",
+    :x -8.65128002532353,
+    :y 40.283550000881576,
+    :score 100,
+    :c 1}}]
  ["automontemor-00359"
   {:nec 359,
    :rates
@@ -140,7 +147,14 @@
     :cp7 "3140-261",
     :id #uuid "e27666d5-760e-3404-b444-2bd6a2fb54b1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"},
+   :geocode
+   {:cp7 "3140-261",
+    :postal-c "3140-261",
+    :x -8.680549966488286,
+    :y 40.17678001903778,
+    :score 100,
+    :c 1}}]
  ["mondego-00713"
   {:nec 713,
    :rates
@@ -239,4 +253,14 @@
     :cp7 "3140",
     :id #uuid "9f0f96c2-96ad-3b10-b289-6b147c298f66",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"},
+   :geocode
+   {:id #uuid "9f0f96c2-96ad-3b10-b289-6b147c298f66",
+    :address "Escadinhas 3140 MONTEMOR-O-VELHO",
+    :address-c
+    "Rua das Escadinhas, 3140-282, Montemor-o-Velho, Coimbra",
+    :postal-c "3140-282",
+    :x -8.670419637665805,
+    :y 40.18164969340656,
+    :score 97.69,
+    :c 3}}]]

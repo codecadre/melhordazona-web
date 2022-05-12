@@ -97,7 +97,17 @@
     :cp7 "7300-189",
     :id #uuid "282cbaa4-d3ba-3964-88f5-3fe7ac119f6d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
+   :geocode
+   {:id #uuid "282cbaa4-d3ba-3964-88f5-3fe7ac119f6d",
+    :address
+    "Rua João da Fonseca Achiolle, 27 - 1º 7300-189 PORTALEGRE",
+    :address-c "Rua João da Fonseca Achaioli 27, 7300-189, Portalegre",
+    :postal-c "7300-189",
+    :x -7.432929997999651,
+    :y 39.29051998969658,
+    :score 97.58,
+    :c 1}}]
  ["siiimpleamaia-00434"
   {:nec 434,
    :rates
@@ -197,7 +207,14 @@
     :cp7 "7300-061",
     :id #uuid "0bf573bf-4604-34d7-9eaa-94b030f7ff4f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
+   :geocode
+   {:cp7 "7300-061",
+    :postal-c "7300-061",
+    :x -7.4369600170464025,
+    :y 39.266300019466456,
+    :score 100,
+    :c 1}}]
  ["auto-portalegre-00633"
   {:nec 633,
    :rates
@@ -296,4 +313,13 @@
     :cp7 "7300-205",
     :id #uuid "02f670ec-6e0e-3d17-98f1-22104019c771",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
+   :geocode
+   {:id #uuid "02f670ec-6e0e-3d17-98f1-22104019c771",
+    :address "Rua 1.º de Maio, 81, Loja X, 7300-205 Portalegre",
+    :address-c "Rua 1 de Maio 81, 7300-205, Portalegre",
+    :postal-c "7300-205",
+    :x -7.4326137600314635,
+    :y 39.29363981980897,
+    :score 98.9,
+    :c 2}}]]

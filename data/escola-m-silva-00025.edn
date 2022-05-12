@@ -95,4 +95,14 @@
   :cp7 "2560",
   :id #uuid "da18076d-e196-3d5e-947f-9ef902b4fc6a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+ :geocode
+ {:id #uuid "da18076d-e196-3d5e-947f-9ef902b4fc6a",
+  :address "Rua Dr. Carlos França nº 27 A 2560 TORRES VEDRAS",
+  :address-c
+  "Rua Doutor Carlos França 27A, 2560-327, Torres Vedras, Lisboa",
+  :postal-c "2560-327",
+  :x -9.26034003927387,
+  :y 39.090130016715335,
+  :score 98.47,
+  :c 1}}

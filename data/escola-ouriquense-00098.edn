@@ -95,4 +95,13 @@
   :cp7 "1250-060",
   :id #uuid "68461f40-7e42-3e6a-9985-33c133197c67",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "68461f40-7e42-3e6a-9985-33c133197c67",
+  :address "Rua Campo de Ourique, 115 - 1º Esqº 1250-060 LISBOA",
+  :address-c "Rua de Campo de Ourique 115, 1250-060, Lisboa",
+  :postal-c "1250-060",
+  :x -9.164060669802383,
+  :y 38.72102503977625,
+  :score 98.46,
+  :c 1}}

@@ -95,4 +95,13 @@
   :cp7 "2100",
   :id #uuid "c0a62e89-0e70-3164-8091-f514c83d622f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Coruche"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Coruche"},
+ :geocode
+ {:id #uuid "c0a62e89-0e70-3164-8091-f514c83d622f",
+  :address "Rua 5 de Outubro, 6 –1º C 2100 CORUCHE",
+  :address-c "Rua 5 de Outubro 6, 2100-127, Coruche, Santarém",
+  :postal-c "2100-127",
+  :x -8.522830041368877,
+  :y 38.95903001025275,
+  :score 98.93,
+  :c 6}}

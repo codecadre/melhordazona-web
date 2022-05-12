@@ -97,7 +97,14 @@
     :cp7 "4860-351",
     :id #uuid "62eb843c-0153-3845-b8bf-38233605dd2b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
+   :geocode
+   {:cp7 "4860-351",
+    :postal-c "4860-351",
+    :x -7.991545036431177,
+    :y 41.51479001227523,
+    :score 100,
+    :c 1}}]
  ["prova-real-arco-de-baulhe-00775"
   {:nec 775,
    :rates
@@ -196,7 +203,14 @@
     :cp7 "4860-069",
     :id #uuid "645149cf-5480-3708-94e8-99a4646996f3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
+   :geocode
+   {:cp7 "4860-069",
+    :postal-c "4860-069",
+    :x -7.9633899722077786,
+    :y 41.49004001239783,
+    :score 100,
+    :c 1}}]
  ["o-basto-01055"
   {:nec 1055,
    :rates
@@ -295,4 +309,11 @@
     :cp7 "4860-407",
     :id #uuid "bd534af0-99de-3774-a68b-60c65e6a88a6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
+   :geocode
+   {:cp7 "4860-407",
+    :postal-c "4860-407",
+    :x -7.998345023020335,
+    :y 41.515129982268036,
+    :score 100,
+    :c 1}}]]

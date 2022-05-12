@@ -95,4 +95,14 @@
   :cp7 "2830",
   :id #uuid "3345eee1-820b-3da2-9256-c398c79e9ec1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+ :geocode
+ {:id #uuid "3345eee1-820b-3da2-9256-c398c79e9ec1",
+  :address "Praceta dos Loios, Nº 5 B 2830 BARREIRO",
+  :address-c
+  "Praceta dos Loios 5B, 2835-342, Lavradio, Barreiro, Setúbal",
+  :postal-c "2835-342",
+  :x -9.052409999562627,
+  :y 38.66300000746875,
+  :score 97.06,
+  :c 2}}

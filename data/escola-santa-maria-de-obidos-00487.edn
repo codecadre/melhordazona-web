@@ -95,4 +95,13 @@
   :cp7 "2510-737",
   :id #uuid "db7bbd94-6ef6-3726-9768-41b7bd659e34",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
+ :geocode
+ {:id #uuid "db7bbd94-6ef6-3726-9768-41b7bd659e34",
+  :address "Estrada Nacional 8- Lote 4 2510 -737 GAEIRAS",
+  :address-c "N8 4, 2510-726, Óbidos, Leiria",
+  :postal-c "2510-726",
+  :x -9.139959984058493,
+  :y 39.37266000051642,
+  :score 97.69,
+  :c 2}}

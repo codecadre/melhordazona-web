@@ -95,4 +95,14 @@
   :cp7 "7780-160",
   :id #uuid "fc920c81-cc8c-348d-93b8-be9adb3c5ceb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Castro%20Verde"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Castro%20Verde"},
+ :geocode
+ {:id #uuid "fc920c81-cc8c-348d-93b8-be9adb3c5ceb",
+  :address "Rua dos Celeiros, nº 11 7780-160 CASTO VERDE",
+  :address-c
+  "Rua dos Celeiros 11, 7780-030, Estação de Ourique, Castro Verde, Beja",
+  :postal-c "7780-030",
+  :x -8.226730007783857,
+  :y 37.74592998798282,
+  :score 95.54,
+  :c 2}}

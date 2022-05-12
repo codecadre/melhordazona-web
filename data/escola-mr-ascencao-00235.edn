@@ -95,4 +95,14 @@
   :cp7 "6270-479",
   :id #uuid "40e489b0-b991-325f-a8d9-0da587b72605",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"},
+ :geocode
+ {:id #uuid "40e489b0-b991-325f-a8d9-0da587b72605",
+  :address "Avª 1º de Maio, Lote 1-2º 6270-479 SEIA",
+  :address-c
+  "Avenida 1 de Maio 1, 6270-644, Vila Cova à Coelheira, Seia, Guarda",
+  :postal-c "6270-644",
+  :x -7.734689995522928,
+  :y 40.382560016765524,
+  :score 98.25,
+  :c 16}}

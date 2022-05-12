@@ -81,4 +81,13 @@
   :cp7 "1900-228",
   :id #uuid "2fdde0bd-dc19-3f42-81c8-7491f04a310d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "2fdde0bd-dc19-3f42-81c8-7491f04a310d",
+  :address "Rua Ferreira da Silva nº 1 r/c Esqº 1900-228 LISBOA",
+  :address-c "Rua Ferreira da Silva 1, 1900-228, Lisboa",
+  :postal-c "1900-228",
+  :x -9.133329982465739,
+  :y 38.73544001892927,
+  :score 97.02,
+  :c 1}}

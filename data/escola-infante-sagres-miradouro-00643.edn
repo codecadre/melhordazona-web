@@ -96,4 +96,15 @@
   :cp7 "2835-123",
   :id #uuid "b8f946b3-988c-3941-b71e-f63658354dad",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
+ :geocode
+ {:id #uuid "b8f946b3-988c-3941-b71e-f63658354dad",
+  :address
+  "Rua Francisco Miguel, 4, 36 B, R/C 2835-123 BAIXA DA BANHEIRA",
+  :address-c
+  "Rua Francisco Miguel 4, 2835-123, Baixa da Banheira, Moita, Setúbal",
+  :postal-c "2835-123",
+  :x -9.038906125185955,
+  :y 38.654522342488676,
+  :score 98.91,
+  :c 1}}

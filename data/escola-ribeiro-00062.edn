@@ -95,4 +95,13 @@
   :cp7 "4710-250",
   :id #uuid "9de52979-12ba-3f95-8990-08de9e8e7e04",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "9de52979-12ba-3f95-8990-08de9e8e7e04",
+  :address "Avª da Liberdade, 362 - 1º 4710-250 BRAGA",
+  :address-c "Avenida da Liberdade 362, 4710-250, Braga",
+  :postal-c "4710-250",
+  :x -8.42033001055026,
+  :y 41.547090011437945,
+  :score 99.35,
+  :c 1}}

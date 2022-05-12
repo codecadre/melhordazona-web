@@ -95,4 +95,13 @@
   :cp7 "5070-059",
   :id #uuid "1fc4eb93-8a26-3a9b-add6-6fbbb8448dc3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Alij%C3%B3"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Alij%C3%B3"},
+ :geocode
+ {:id #uuid "1fc4eb93-8a26-3a9b-add6-6fbbb8448dc3",
+  :address "Rua Senhor do Andor 5070-059 ALIJÓ",
+  :address-c "Rua Senhor do Andor, 5070-059, Alijó, Vila Real",
+  :postal-c "5070-059",
+  :x -7.477628876657112,
+  :y 41.275449529784275,
+  :score 100,
+  :c 1}}

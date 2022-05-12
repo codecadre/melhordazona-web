@@ -95,4 +95,13 @@
   :cp7 "4150-441",
   :id #uuid "e6a6cc2d-548b-38cb-9dce-833e506d3136",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "e6a6cc2d-548b-38cb-9dce-833e506d3136",
+  :address "Rua José Gomes Ferreira, n.º 314 ; 4150-441 Porto",
+  :address-c "Rua José Gomes Ferreira 314, 4150-441, Porto",
+  :postal-c "4150-441",
+  :x -8.668050034282743,
+  :y 41.16320999393389,
+  :score 96.96,
+  :c 1}}

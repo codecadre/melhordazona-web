@@ -95,4 +95,14 @@
   :cp7 "2865-065",
   :id #uuid "86f86840-b62b-3e0c-9a59-256cd6bd3ac0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+ :geocode
+ {:id #uuid "86f86840-b62b-3e0c-9a59-256cd6bd3ac0",
+  :address "Rua da República, lote 344 r/c 2865-065 FERNÃO FERRO",
+  :address-c
+  "Rua República 344, 2865-635, Fernão Ferro, Seixal, Setúbal",
+  :postal-c "2865-635",
+  :x -9.086580001323767,
+  :y 38.56211998898635,
+  :score 98.45,
+  :c 1}}

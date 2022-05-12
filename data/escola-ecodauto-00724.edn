@@ -95,4 +95,13 @@
   :cp7 "2910-389",
   :id #uuid "ef328f62-3dd8-3fbc-8511-f1ef93ff7a92",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+ :geocode
+ {:id #uuid "ef328f62-3dd8-3fbc-8511-f1ef93ff7a92",
+  :address "Rua de Aljubarrota nº 22 B 2910-389 SETÚBAL",
+  :address-c "Rua de Aljubarrota 22B, 2910-389, Setúbal",
+  :postal-c "2910-389",
+  :x -8.869029967518998,
+  :y 38.53293001117788,
+  :score 98.42,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "4470-650",
   :id #uuid "007d9252-7716-3569-adc1-df271b6856eb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+ :geocode
+ {:id #uuid "007d9252-7716-3569-adc1-df271b6856eb",
+  :address "Rua Engº Frederico Ulrich, Nº 3659-2. 1 4470-650 MOREIRA",
+  :address-c
+  "Rua Engenheiro Frederico Ulrich 3659, 4470-605, Guardeiras, Maia, Porto",
+  :postal-c "4470-605",
+  :x -8.65323996574304,
+  :y 41.254640003319196,
+  :score 95.87,
+  :c 2}}

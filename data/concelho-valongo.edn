@@ -96,7 +96,16 @@
     :cp7 "4440-502",
     :id #uuid "e85d1ff4-9497-3b37-a988-950936b6aba5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "e85d1ff4-9497-3b37-a988-950936b6aba5",
+    :address "Avª 25 de Abril nº 402 4440-502 VALONGO",
+    :address-c "Avenida 25 de Abril 402, 4440-502, Valongo, Porto",
+    :postal-c "4440-502",
+    :x -8.502082056367973,
+    :y 41.19280925085791,
+    :score 98.36,
+    :c 4}}]
  ["sameiro-nova-era-00393"
   {:nec 393,
    :rates
@@ -196,7 +205,18 @@
     :cp7 "4445-637",
     :id #uuid "f1a87842-8ad2-36ec-99cf-dd8e263243b4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "f1a87842-8ad2-36ec-99cf-dd8e263243b4",
+    :address
+    "Rua Rodrigues de Freitas, 2072 r/c Esqº e 1º Dtº 4445 - 637 ERMESINDE",
+    :address-c
+    "Rua Rodrigues de Freitas 2072, 4445-637, Ermesinde, Valongo, Porto",
+    :postal-c "4445-637",
+    :x -8.554650008936704,
+    :y 41.22163001504802,
+    :score 97.74,
+    :c 2}}]
  ["joni-00764"
   {:nec 764,
    :rates
@@ -295,7 +315,17 @@
     :cp7 "4445-210",
     :id #uuid "2b9c4de3-a737-3ccf-b8d9-cc41825d7510",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "2b9c4de3-a737-3ccf-b8d9-cc41825d7510",
+    :address "Rua de S.Vicente nº 2024 4445-210 ALFENA",
+    :address-c
+    "Rua de São Vicente 2024, 4445-210, Alfena, Valongo, Porto",
+    :postal-c "4445-210",
+    :x -8.527330033726685,
+    :y 41.22984000538935,
+    :score 98.38,
+    :c 2}}]
  ["rodoviaria-00850"
   {:nec 850,
    :rates
@@ -394,7 +424,16 @@
     :cp7 "4440-367",
     :id #uuid "007ee1c1-0fe3-3c42-a8bb-6b1b4fd20bb3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "007ee1c1-0fe3-3c42-a8bb-6b1b4fd20bb3",
+    :address "Rua D. João I, Nº 188 4440-367 SOBRADO",
+    :address-c "Rua Dom João I 188, 4440-367, Sobrado, Valongo, Porto",
+    :postal-c "4440-367",
+    :x -8.464680001356015,
+    :y 41.20975998286613,
+    :score 98.29,
+    :c 1}}]
  ["campo-00852"
   {:nec 852,
    :rates
@@ -493,7 +532,14 @@
     :cp7 "4440-038",
     :id #uuid "77033e1f-7983-3215-9759-e3b3e3ec7f3b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:cp7 "4440-038",
+    :postal-c "4440-038",
+    :x -8.463980028621847,
+    :y 41.18331000729617,
+    :score 100,
+    :c 1}}]
  ["ermesindense-00875"
   {:nec 875,
    :rates
@@ -593,7 +639,18 @@
     :cp7 "4445-630",
     :id #uuid "51fc2275-6589-316f-8d77-4fcfac084f08",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "51fc2275-6589-316f-8d77-4fcfac084f08",
+    :address
+    "Rua Rodrigues de Freitas, 1074 – 1º Esqº 4445-630 ERMESINDE",
+    :address-c
+    "Rua Rodrigues de Freitas 1074, 4445-635, Ermesinde, Valongo, Porto",
+    :postal-c "4445-635",
+    :x -8.553979959596859,
+    :y 41.21352999527636,
+    :score 97.67,
+    :c 3}}]
  ["s-vicente-de-alfena-01177"
   {:nec 1177,
    :rates
@@ -692,7 +749,17 @@
     :cp7 "4445-256",
     :id #uuid "d42031fb-199b-3fa9-b750-13e76d16510a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "d42031fb-199b-3fa9-b750-13e76d16510a",
+    :address "Rua das Laranjeiras, Nº 14 R/C 4445-256 ALFENA",
+    :address-c
+    "Rua das Laranjeiras 14, 4445-256, Alfena, Valongo, Porto",
+    :postal-c "4445-256",
+    :x -8.528850008048522,
+    :y 41.23678998613582,
+    :score 97.9,
+    :c 2}}]
  ["freire-01189"
   {:nec 1189,
    :rates
@@ -792,7 +859,14 @@
     :cp7 "4445-516",
     :id #uuid "b4c04c7d-fbe1-3a53-bf54-0170b1848570",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:cp7 "4445-516",
+    :postal-c "4445-516",
+    :x -8.5550749714277,
+    :y 41.20512998719008,
+    :score 100,
+    :c 1}}]
  ["conduvallis-01192"
   {:nec 1192,
    :rates
@@ -891,7 +965,17 @@
     :cp7 "4440-488",
     :id #uuid "595ac5ba-b5e0-34a1-8de8-68d7c220abef",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "595ac5ba-b5e0-34a1-8de8-68d7c220abef",
+    :address "Rua Dr. Mário Cal Brandão, Nº 931 4440-488 VALONGO",
+    :address-c
+    "Rua Doutor Mário Cal Brandão 931, 4440-678, Valongo, Porto",
+    :postal-c "4440-678",
+    :x -8.507459977878,
+    :y 41.198959984443604,
+    :score 97.43,
+    :c 2}}]
  ["costa-01365"
   {:nec 1365,
    :rates
@@ -976,4 +1060,14 @@
     :cp7 "4445-441",
     :id #uuid "0a791303-70e0-3c8d-871b-2aa708a6607c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "0a791303-70e0-3c8d-871b-2aa708a6607c",
+    :address "Rua Fontes Pereira de Melo, n.º 43, 4445-441 Ermesinde",
+    :address-c
+    "Rua Fontes Pereira de Melo, 4445-441, Ermesinde, Valongo, Porto",
+    :postal-c "4445-441",
+    :x -8.548399875195884,
+    :y 41.21845154055966,
+    :score 96.67,
+    :c 2}}]]

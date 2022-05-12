@@ -96,7 +96,14 @@
     :cp7 "7100-500",
     :id #uuid "91182255-238a-3245-9325-bd6d8ceee07d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
+   :geocode
+   {:cp7 "7100-500",
+    :postal-c "7100-500",
+    :x -7.583364959612197,
+    :y 38.845689999333445,
+    :score 100,
+    :c 1}}]
  ["ramosauto-00753"
   {:nec 753,
    :rates
@@ -195,7 +202,16 @@
     :cp7 "7100-100",
     :id #uuid "b8e44c5b-64e9-3d40-be65-fdc30afe99cc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
+   :geocode
+   {:id #uuid "b8e44c5b-64e9-3d40-be65-fdc30afe99cc",
+    :address "Rua Sebastião da Gama s/nº 7100-100 ESTREMOZ",
+    :address-c "Rua Sebastião da Gama, 7100-100, Estremoz, Évora",
+    :postal-c "7100-100",
+    :x -7.580140065314571,
+    :y 38.84024530081916,
+    :score 97.08,
+    :c 1}}]
  ["alves-01195"
   {:nec 1195,
    :rates
@@ -294,4 +310,13 @@
     :cp7 "7100-125",
     :id #uuid "b75b1f8d-0083-36ee-97e6-a440985a9eaa",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
+   :geocode
+   {:id #uuid "b75b1f8d-0083-36ee-97e6-a440985a9eaa",
+    :address "Rua José Félix Ribeiro, Lote 59 Loja 7100-125 ESTREMOZ",
+    :address-c "Rua José Félix Ribeiro 59, 7100-125, Estremoz, Évora",
+    :postal-c "7100-125",
+    :x -7.590513198104908,
+    :y 38.85057004382416,
+    :score 98.9,
+    :c 1}}]]

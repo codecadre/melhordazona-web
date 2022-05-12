@@ -95,4 +95,13 @@
   :cp7 "7080-075",
   :id #uuid "b4219ae3-60f2-3389-93ee-47efe5ba3973",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Vendas%20Novas"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Vendas%20Novas"},
+ :geocode
+ {:id #uuid "b4219ae3-60f2-3389-93ee-47efe5ba3973",
+  :address "Rua Sarmento Vieira, n.º 11; 7080-075",
+  :address-c "Rua Sarmento Vieira 11, 7080-075, Vendas Novas, Évora",
+  :postal-c "7080-075",
+  :x -8.463262784012258,
+  :y 38.674540312548714,
+  :score 95.34,
+  :c 1}}

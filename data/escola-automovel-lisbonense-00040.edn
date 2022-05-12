@@ -95,4 +95,13 @@
   :cp7 "1900-180",
   :id #uuid "dac33f39-79e7-3be3-8138-bcafcd7084ae",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "dac33f39-79e7-3be3-8138-bcafcd7084ae",
+  :address "Alameda D. Afonso Henriques, 27 A r/c Dtº 1900-180 LISBOA",
+  :address-c "Alameda Dom Afonso Henriques 27A, 1900-180, Lisboa",
+  :postal-c "1900-180",
+  :x -9.132639984196345,
+  :y 38.73659999050972,
+  :score 98.85,
+  :c 2}}

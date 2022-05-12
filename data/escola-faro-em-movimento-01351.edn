@@ -81,4 +81,11 @@
   :cp7 "8000-123",
   :id #uuid "fdb01b30-9e7b-358c-90f1-7e17304c2057",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+ :geocode
+ {:cp7 "8000-123",
+  :postal-c "8000-123",
+  :x -7.9230799749135485,
+  :y 37.023734984464824,
+  :score 100,
+  :c 1}}

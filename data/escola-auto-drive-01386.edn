@@ -67,4 +67,13 @@
   :cp7 "4715-048",
   :id #uuid "e0f20bd8-c481-3f85-a506-77541d94c80a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "e0f20bd8-c481-3f85-a506-77541d94c80a",
+  :address "Rua de Santo Adrião, n.º 110, 4715-048 Braga",
+  :address-c "Rua de Santo Adrião 110, 4715-048, Braga",
+  :postal-c "4715-048",
+  :x -8.413679976208925,
+  :y 41.541799982796334,
+  :score 95.76,
+  :c 2}}

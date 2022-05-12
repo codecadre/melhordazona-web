@@ -97,7 +97,14 @@
     :cp7 "4740-291",
     :id #uuid "bfbc3bb3-d85b-3e60-adee-513daab91c3b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:cp7 "4740-291",
+    :postal-c "4740-291",
+    :x -8.778095035244746,
+    :y 41.53498000536811,
+    :score 100,
+    :c 1}}]
  ["zende-00572"
   {:nec 572,
    :rates
@@ -196,7 +203,16 @@
     :cp7 "4740-227",
     :id #uuid "69eaf92a-8e3c-3c1a-acce-d11474849ae2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:id #uuid "69eaf92a-8e3c-3c1a-acce-d11474849ae2",
+    :address "Rua 27 de Maio, Lote 1 4740-227 ESPOSENDE",
+    :address-c "Rua 27 de Maio 1, 4740-227, Esposende, Braga",
+    :postal-c "4740-227",
+    :x -8.782150032362978,
+    :y 41.540250001261114,
+    :score 100,
+    :c 1}}]
  ["litoral-00955"
   {:nec 955,
    :rates
@@ -295,7 +311,14 @@
     :cp7 "4740-571",
     :id #uuid "ec0bd522-749b-394c-811f-a19042e994f7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:cp7 "4740-571",
+    :postal-c "4740-571",
+    :x -8.776095029328076,
+    :y 41.53447000846941,
+    :score 100,
+    :c 1}}]
  ["rio-neiva-01125"
   {:nec 1125,
    :rates
@@ -394,7 +417,14 @@
     :cp7 "4740-444",
     :id #uuid "4e156ec9-5711-310a-a6e1-7fa9c996c986",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:cp7 "4740-444",
+    :postal-c "4740-444",
+    :x -8.744645038966382,
+    :y 41.61297499742963,
+    :score 100,
+    :c 1}}]
  ["a-ideal-de-apulia-01145"
   {:nec 1145,
    :rates
@@ -493,4 +523,13 @@
     :cp7 "4740-049",
     :id #uuid "73111271-82ef-357e-96bc-644185b2b913",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:id #uuid "73111271-82ef-357e-96bc-644185b2b913",
+    :address "Rua da Lagoa, Nº 14 4740-049 APÚLIA",
+    :address-c "Rua da Lagoa 14, 4740-083, Apúlia, Esposende, Braga",
+    :postal-c "4740-083",
+    :x -8.770534970640913,
+    :y 41.48575671918389,
+    :score 97.2,
+    :c 1}}]]

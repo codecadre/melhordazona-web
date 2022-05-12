@@ -95,4 +95,13 @@
   :cp7 "7800",
   :id #uuid "e39f2c49-c0d9-3500-9f78-fac947032f06",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+ :geocode
+ {:id #uuid "e39f2c49-c0d9-3500-9f78-fac947032f06",
+  :address "Rua Sousa Porto 49 r/c 7800 BEJA",
+  :address-c "Rua Sousa Porto 49, 7800-071, Beja",
+  :postal-c "7800-071",
+  :x -7.853359974852452,
+  :y 38.00995997991876,
+  :score 99.2,
+  :c 1}}

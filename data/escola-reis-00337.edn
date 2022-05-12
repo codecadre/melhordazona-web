@@ -95,4 +95,14 @@
   :cp7 "3620-304",
   :id #uuid "4e268acb-e114-3f42-9943-ea22157b3a76",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Moimenta%20da%20Beira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Moimenta%20da%20Beira"},
+ :geocode
+ {:id #uuid "4e268acb-e114-3f42-9943-ea22157b3a76",
+  :address "Avª 25 de Abril, Nº 23 R/C 3620-304 MOIMENTA DA BEIRA",
+  :address-c
+  "Avenida 25 de Abril 23, 3620-304, Moimenta da Beira, Viseu",
+  :postal-c "3620-304",
+  :x -7.61257999931118,
+  :y 40.97740000625021,
+  :score 98.01,
+  :c 5}}

@@ -95,4 +95,13 @@
   :cp7 "1350-259",
   :id #uuid "5e6620b6-fa1b-37a4-8cfd-d57269484aa3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "5e6620b6-fa1b-37a4-8cfd-d57269484aa3",
+  :address "Rua Prior do Crato, 67 – 1º Esqº 1350-259 LISBOA",
+  :address-c "Rua Prior do Crato 67, 1350-259, Lisboa",
+  :postal-c "1350-259",
+  :x -9.172199968794445,
+  :y 38.705690004260134,
+  :score 98.33,
+  :c 1}}

@@ -95,4 +95,13 @@
   :cp7 "3000-118",
   :id #uuid "5d5d5c7f-5736-38fa-a1b2-ce61c6df7014",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+ :geocode
+ {:id #uuid "5d5d5c7f-5736-38fa-a1b2-ce61c6df7014",
+  :address "Largo da Conchada, Nº 11 3000-118 COIMBRA",
+  :address-c "Largo da Conchada 11, 3000-118, Coimbra",
+  :postal-c "3000-118",
+  :x -8.428590040853521,
+  :y 40.2145199990899,
+  :score 98.4,
+  :c 3}}

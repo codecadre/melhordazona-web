@@ -96,4 +96,15 @@
   :cp7 "4720-343",
   :id #uuid "25a40fdf-1b40-37db-bfe0-cf44b4295369",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"},
+ :geocode
+ {:id #uuid "25a40fdf-1b40-37db-bfe0-cf44b4295369",
+  :address
+  "Avenida Santo António, n.º 61; 4720-343 Ferreiros (Amares)",
+  :address-c
+  "Avenida Santo António 61, 4720-343, Ferreiros, Amares, Braga",
+  :postal-c "4720-343",
+  :x -8.36213998885924,
+  :y 41.627430008550846,
+  :score 96.36,
+  :c 3}}

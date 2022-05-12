@@ -96,4 +96,15 @@
   :cp7 "6440-031",
   :id #uuid "ea61980c-87b7-3d32-a836-64d3913ab2d4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Figueira%20Castelo%20Rodrigo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Figueira%20Castelo%20Rodrigo"},
+ :geocode
+ {:id #uuid "ea61980c-87b7-3d32-a836-64d3913ab2d4",
+  :address
+  "Rua Artur Costa, Nº 12 r/c 6440-031 FIGUEIRA CASTELO RODRIGO",
+  :address-c
+  "Rua Artur Costa 12, 6440-092, Figueira de Castelo Rodrigo, Guarda",
+  :postal-c "6440-092",
+  :x -6.9644700395709265,
+  :y 40.896170018658125,
+  :score 97.11,
+  :c 4}}

@@ -96,4 +96,15 @@
   :cp7 "4800-045",
   :id #uuid "f3843460-63b6-3514-8998-b42702844f18",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+ :geocode
+ {:id #uuid "f3843460-63b6-3514-8998-b42702844f18",
+  :address
+  "Rua Dr. João Afonso Almeida , Nº 291- Fracção O 4800-045 AZURÉM",
+  :address-c
+  "Rua Doutor João Afonso Almeida 291, 4800-045, Guimarães, Braga",
+  :postal-c "4800-045",
+  :x -8.300729975244366,
+  :y 41.44939000320127,
+  :score 95.78,
+  :c 1}}

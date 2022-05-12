@@ -96,7 +96,17 @@
     :cp7 "4820-261",
     :id #uuid "3554d66b-de71-3d4c-95a1-e0f4e1020ce5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:id #uuid "3554d66b-de71-3d4c-95a1-e0f4e1020ce5",
+    :address "Rua General Humberto Delgado nº 20 –1º 4820-261 FAFE",
+    :address-c
+    "Rua General Humberto Delgado 20, 4820-261, Fafe, Braga",
+    :postal-c "4820-261",
+    :x -8.167370040047615,
+    :y 41.45311999202386,
+    :score 98.06,
+    :c 1}}]
  ["mario-costa-00505"
   {:nec 505,
    :rates
@@ -195,7 +205,16 @@
     :cp7 "4820-268",
     :id #uuid "5732dbe9-8bda-3c0f-bde6-cfe29fbda381",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:id #uuid "5732dbe9-8bda-3c0f-bde6-cfe29fbda381",
+    :address "Rua João XXIII, 209 - 1º 4820-268 FAFE",
+    :address-c "Rua João XXIII 209, 4820-268, Fafe, Braga",
+    :postal-c "4820-268",
+    :x -8.16992993652714,
+    :y 41.44972986734584,
+    :score 99.29,
+    :c 1}}]
  ["trifafe-00683"
   {:nec 683,
    :rates
@@ -294,7 +313,16 @@
     :cp7 "4820-362",
     :id #uuid "8f4b819e-3650-36bb-a485-3d69290bd2e6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:id #uuid "8f4b819e-3650-36bb-a485-3d69290bd2e6",
+    :address "Urbanização S. Gemil, nº 7 4820-362 FAFE",
+    :address-c "Urbanização São Gemil 7, 4820-362, Fafe, Braga",
+    :postal-c "4820-362",
+    :x -8.17511475890136,
+    :y 41.44562888046264,
+    :score 98.36,
+    :c 1}}]
  ["montelongo-00751"
   {:nec 751,
    :rates
@@ -393,7 +421,17 @@
     :cp7 "4820-365",
     :id #uuid "715c45fe-362f-3ea0-b2dd-ff027a18d682",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:id #uuid "715c45fe-362f-3ea0-b2dd-ff027a18d682",
+    :address "Urbanização Dr. Leite Lage, 75 B 4820-365 FAFE",
+    :address-c
+    "Urbanização Doutor Leite Lage 75B, 4820-365, Fafe, Braga",
+    :postal-c "4820-365",
+    :x -8.179650031113823,
+    :y 41.448220015246534,
+    :score 99.99,
+    :c 1}}]
  ["fafecidade-00783"
   {:nec 783,
    :rates
@@ -492,7 +530,14 @@
     :cp7 "4820-248",
     :id #uuid "e6fbe2c9-1129-3fd5-bbc1-37c72e035760",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:cp7 "4820-248",
+    :postal-c "4820-248",
+    :x -8.181175034577564,
+    :y 41.4526500187128,
+    :score 100,
+    :c 1}}]
  ["aroes-01194"
   {:nec 1194,
    :rates
@@ -592,7 +637,14 @@
     :cp7 "4820-748",
     :id #uuid "8b8d9730-d9b0-3ed5-b581-bbc0f05f4475",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:cp7 "4820-748",
+    :postal-c "4820-748",
+    :x -8.207019962466802,
+    :y 41.44684999317249,
+    :score 100,
+    :c 1}}]
  ["nova-fafe-01416"
   {:nec 1416,
    :rates
@@ -649,4 +701,11 @@
     :cp7 "4820-179",
     :id #uuid "ce7acda1-c74a-3ab0-8c7f-9d8402fb9783",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:cp7 "4820-179",
+    :postal-c "4820-179",
+    :x -8.163010025472857,
+    :y 41.45875501980015,
+    :score 100,
+    :c 1}}]]

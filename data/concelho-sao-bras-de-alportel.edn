@@ -97,4 +97,15 @@
     :cp7 "8150-141",
     :id #uuid "da91c99a-0066-3ad9-9b6e-0d1a43783cfa",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=S.%20Braz%20Alportel"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=S.%20Braz%20Alportel"},
+   :geocode
+   {:id #uuid "da91c99a-0066-3ad9-9b6e-0d1a43783cfa",
+    :address
+    "R. Dr. José Dias Sancho, 111 8150-141 SÃO BRÁS DE ALPORTEL",
+    :address-c
+    "Rua Doutor José Dias Sancho 111, 8150-141, São Brás de Alportel, Faro",
+    :postal-c "8150-141",
+    :x -7.883472478551227,
+    :y 37.15279207420903,
+    :score 100,
+    :c 1}}]]

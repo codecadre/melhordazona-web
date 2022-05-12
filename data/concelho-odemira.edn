@@ -97,7 +97,14 @@
     :cp7 "7645-301",
     :id #uuid "93613a1a-7daa-3d80-912f-6f71dbbbeef2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"},
+   :geocode
+   {:cp7 "7645-301",
+    :postal-c "7645-301",
+    :x -8.781430026880201,
+    :y 37.72992000809401,
+    :score 100,
+    :c 1}}]
  ["odemirense-01141"
   {:nec 1141,
    :rates
@@ -196,7 +203,18 @@
     :cp7 "7630-33",
     :id #uuid "657b50ea-d151-3cb2-9485-ce36cff40de8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"},
+   :geocode
+   {:id #uuid "657b50ea-d151-3cb2-9485-ce36cff40de8",
+    :address
+    "Avenida do Comércio nº 6 A 7630-33 BOAVISTA DOS PINHEIROS",
+    :address-c
+    "Avenida do Comércio 6, 7630-033, Boavista dos Pinheiros, Odemira, Beja",
+    :postal-c "7630-033",
+    :x -8.661343288814946,
+    :y 37.58082856149458,
+    :score 97.95,
+    :c 4}}]
  ["a-mourinha-de-s-teotonio-01142"
   {:nec 1142,
    :rates
@@ -295,4 +313,11 @@
     :cp7 "7630-623",
     :id #uuid "5606fabe-5e1b-3bc8-9b26-93dc838eb813",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"},
+   :geocode
+   {:cp7 "7630-623",
+    :postal-c "7630-623",
+    :x -8.703310018732822,
+    :y 37.51112999744301,
+    :score 100,
+    :c 1}}]]

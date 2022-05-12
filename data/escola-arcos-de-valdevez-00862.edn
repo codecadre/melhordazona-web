@@ -96,4 +96,15 @@
   :cp7 "4970-595",
   :id #uuid "a775db6f-0b18-3674-a7dd-deabadd677ea",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
+ :geocode
+ {:id #uuid "a775db6f-0b18-3674-a7dd-deabadd677ea",
+  :address
+  "Praça D. Manuel I, Nº 72 4970-595 ARCOS DE VALDEVEZ (SÃO PAIO)",
+  :address-c
+  "Praça Dom Manuel I 72, 4970-595, Novelhos, Arcos de Valdevez, Viana do Castelo",
+  :postal-c "4970-595",
+  :x -8.417007607046232,
+  :y 41.83826183672724,
+  :score 97.62,
+  :c 5}}

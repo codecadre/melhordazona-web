@@ -95,4 +95,14 @@
   :cp7 "4535-268",
   :id #uuid "70fc58a2-7210-3440-a959-f29ca88d402d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "70fc58a2-7210-3440-a959-f29ca88d402d",
+  :address "Avenida Monte de Cima, n.º10, 4535-268 PAÇOS DE BRANDÃO",
+  :address-c
+  "Avenida do Monte de Cima, 4535-268, Paços de Brandão, Santa Maria da Feira, Aveiro",
+  :postal-c "4535-268",
+  :x -8.581615695837396,
+  :y 40.97399058594574,
+  :score 96.74,
+  :c 3}}

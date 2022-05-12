@@ -95,4 +95,14 @@
   :cp7 "3860-358",
   :id #uuid "8c40325d-acfc-3c8a-8e0b-a75bf6799a3c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
+ :geocode
+ {:id #uuid "8c40325d-acfc-3c8a-8e0b-a75bf6799a3c",
+  :address "Rua Conselheiro José Luciano de Castro 3860-358 ESTARREJA",
+  :address-c
+  "Rua Conselheiro José Luciano de Castro, 3860-358, Estarreja, Aveiro",
+  :postal-c "3860-358",
+  :x -8.575493660013885,
+  :y 40.75662065760831,
+  :score 100,
+  :c 1}}

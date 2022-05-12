@@ -97,7 +97,18 @@
     :cp7 "2200",
     :id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
+   :geocode
+   {:y 39.46220999092898,
+    :address "Tapada do Chafariz, Lt 7  2200 ABRANTES",
+    :postal-c "2200-443",
+    :obs "removed some bits of the address. easy to find.",
+    :overwrite true,
+    :c 4,
+    :id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
+    :score 95.15,
+    :address-c "Travessa do Chafariz 7, 2200-443, Abrantes, Santarém",
+    :x -8.200040016416466}}]
  ["rossioabrantes-00386"
   {:nec 386,
    :rates
@@ -196,7 +207,17 @@
     :cp7 "2205-055",
     :id #uuid "1b318ac7-a406-3623-bbeb-36249e45d175",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
+   :geocode
+   {:id #uuid "1b318ac7-a406-3623-bbeb-36249e45d175",
+    :address "Rua General Godinho, Nº19 R/C 2205-055 ABRANTES",
+    :address-c
+    "Rua General Godinho 19, 2205-050, Rossio ao Sul do Tejo, Abrantes, Santarém",
+    :postal-c "2205-050",
+    :x -8.190230004578012,
+    :y 39.447029987092606,
+    :score 96.4,
+    :c 2}}]
  ["traquina-01120"
   {:nec 1120,
    :rates
@@ -296,7 +317,14 @@
     :cp7 "2200-238",
     :id #uuid "a104c4aa-f646-35f2-a16f-5ff61a3eddf6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
+   :geocode
+   {:cp7 "2200-238",
+    :postal-c "2200-238",
+    :x -8.207545004881695,
+    :y 39.46660499994951,
+    :score 100,
+    :c 1}}]
  ["cidade-florida-01161"
   {:nec 1161,
    :rates
@@ -396,4 +424,11 @@
     :cp7 "2200-024",
     :id #uuid "fac00a1d-c056-35fc-a008-4e7016337f34",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
+   :geocode
+   {:cp7 "2200-024",
+    :postal-c "2200-024",
+    :x -8.18648999938111,
+    :y 39.47997501561417,
+    :score 100,
+    :c 1}}]]

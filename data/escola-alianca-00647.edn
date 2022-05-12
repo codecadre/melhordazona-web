@@ -95,4 +95,14 @@
   :cp7 "4460-840",
   :id #uuid "c9ba0e7f-4ed2-3cf8-b22f-25a9f3f9dc44",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+ :geocode
+ {:id #uuid "c9ba0e7f-4ed2-3cf8-b22f-25a9f3f9dc44",
+  :address "Av. Xanana Gusmão, nº 296, 4460-840 CUSTÓIAS MTS",
+  :address-c
+  "Avenida Xanana Gusmão 296, 4460-840, Padrão da Légua, Matosinhos, Porto",
+  :postal-c "4460-840",
+  :x -8.635929994581232,
+  :y 41.18971998393056,
+  :score 96.5,
+  :c 1}}

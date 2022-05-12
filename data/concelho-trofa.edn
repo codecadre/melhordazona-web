@@ -97,7 +97,17 @@
     :cp7 "4785-321",
     :id #uuid "42e5bfb8-234d-34c7-a93b-81e82628c9e0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:id #uuid "42e5bfb8-234d-34c7-a93b-81e82628c9e0",
+    :address
+    "Rua Gil Vicente, Nº 1-1º Dtº 4785-321 S. MARTINHO (BOUGADO)",
+    :address-c "Rua de Gil Vicente 1, 4785-321, Trofa, Porto",
+    :postal-c "4785-321",
+    :x -8.553590033461148,
+    :y 41.33770001183157,
+    :score 96.27,
+    :c 1}}]
  ["s-romao-00947"
   {:nec 947,
    :rates
@@ -197,7 +207,17 @@
     :cp7 "4745-524",
     :id #uuid "6ee83229-82d8-3b1f-ad17-a5781c624611",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:id #uuid "6ee83229-82d8-3b1f-ad17-a5781c624611",
+    :address
+    "Rua do Horizonte, 1567 R/C; 4745-524 São Romão (Coronado)",
+    :address-c "Rua do Horizonte 1567, 4745-524, Seixal, Trofa, Porto",
+    :postal-c "4745-524",
+    :x -8.55807996753515,
+    :y 41.279910016469614,
+    :score 96.52,
+    :c 5}}]
  ["guiarte-00967"
   {:nec 967,
    :rates
@@ -297,7 +317,14 @@
     :cp7 "4785-187",
     :id #uuid "04b9f5e8-c50b-3e6f-a98b-3d294bb3d3fc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:cp7 "4785-187",
+    :postal-c "4785-187",
+    :x -8.56460997302301,
+    :y 41.33685000303055,
+    :score 100,
+    :c 1}}]
  ["maxima-00983"
   {:nec 983,
    :rates
@@ -397,7 +424,18 @@
     :cp7 "4785-313",
     :id #uuid "3a225b27-90d0-3504-8fd9-0fd0a6a5cfe4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:id #uuid "3a225b27-90d0-3504-8fd9-0fd0a6a5cfe4",
+    :address
+    "Rua Dr. António Augusto Pires de Lima, Nº 327 4785-313 S. MARTINHO (BOUGADO)",
+    :address-c
+    "Rua do Doutor António Augusto Pires Lima 327, 4785-313, Trofa, Porto",
+    :postal-c "4785-313",
+    :x -8.562780035921747,
+    :y 41.33412999163107,
+    :score 97.47,
+    :c 1}}]
  ["campeao-01224"
   {:nec 1224,
    :rates
@@ -496,4 +534,11 @@
     :cp7 "4745-615",
     :id #uuid "37c64c6b-0d58-3833-a7de-a941340130e4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:cp7 "4745-615",
+    :postal-c "4745-615",
+    :x -8.551995041105897,
+    :y 41.27678000427633,
+    :score 100,
+    :c 1}}]]

@@ -96,4 +96,15 @@
   :cp7 "4550-100",
   :id #uuid "abc1fe12-88a5-321e-b94e-eda6f2d6d67b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
+ :geocode
+ {:id #uuid "abc1fe12-88a5-321e-b94e-eda6f2d6d67b",
+  :address
+  "Avª Jean Tyssen-Oliveira do Arda-Raiva 4550-100 CASTELO DE PAIVA",
+  :address-c
+  "Avenida Jean Tyssen, 4550, Oliveira do Arda, Castelo de Paiva, Aveiro",
+  :postal-c "4550",
+  :x -8.359057807946993,
+  :y 41.03843971083298,
+  :score 95.57,
+  :c 10}}

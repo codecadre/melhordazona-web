@@ -96,4 +96,15 @@
   :cp7 "2720-356",
   :id #uuid "6045787b-fb62-33c0-8be0-eec3a67edf28",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
+ :geocode
+ {:id #uuid "6045787b-fb62-33c0-8be0-eec3a67edf28",
+  :address
+  "Rua Sargento Ajudante Manuel António, Nº 11 A 2720-356 AMADORA",
+  :address-c
+  "Rua Sargento-Ajudante Manuel António 11A, 2720-356, Reboleira, Amadora, Lisboa",
+  :postal-c "2720-356",
+  :x -9.23051999380371,
+  :y 38.75606000365505,
+  :score 98.6,
+  :c 1}}

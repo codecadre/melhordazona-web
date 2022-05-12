@@ -55,7 +55,18 @@
     :cp7 "2500-211",
     :id #uuid "1fd934b0-1b4d-3dee-97a1-22cdf7d913aa",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+   :geocode
+   {:id #uuid "1fd934b0-1b4d-3dee-97a1-22cdf7d913aa",
+    :address
+    "Rua General Queirós,Nº 83-1º Esqº 2500-211 CALDAS DA RAINHA",
+    :address-c
+    "Rua General Queirós 83, 2500-211, Caldas da Rainha, Leiria",
+    :postal-c "2500-211",
+    :x -9.134528091705647,
+    :y 39.403673628998774,
+    :score 97.35,
+    :c 1}}]
  ["bavi-00148"
   {:nec 148,
    :rates
@@ -155,7 +166,18 @@
     :cp7 "2500-191",
     :id #uuid "7e77806d-d704-36ec-913d-e1f4a173640d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+   :geocode
+   {:id #uuid "7e77806d-d704-36ec-913d-e1f4a173640d",
+    :address
+    "Rua Dr. José Saudade e Silva, 59 2500-191 CALDAS DA RAINHA",
+    :address-c
+    "Rua Doutor José Saudade e Silva 59, 2500-191, Caldas da Rainha, Leiria",
+    :postal-c "2500-191",
+    :x -9.138967770488957,
+    :y 39.405650909126244,
+    :score 98.9,
+    :c 1}}]
  ["bordalo-pinheiro-00913"
   {:nec 913,
    :rates
@@ -255,7 +277,18 @@
     :cp7 "2500-113",
     :id #uuid "cb842ba2-7d7b-3cf5-b81e-33e0481fa5fd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+   :geocode
+   {:id #uuid "cb842ba2-7d7b-3cf5-b81e-33e0481fa5fd",
+    :address
+    "Rua Dr. Ângelo Ferrari, 5, R/c Dtº 2500 - 113 CALDAS DA RAINHA",
+    :address-c
+    "Rua Doutor Ângelo Ferrari 5, 2500-113, Casais de Santa Rita, Caldas da Rainha, Leiria",
+    :postal-c "2500-113",
+    :x -9.133299975252385,
+    :y 39.412509998964396,
+    :score 98.89,
+    :c 2}}]
  ["caldas-01297"
   {:nec 1297,
    :rates
@@ -355,7 +388,18 @@
     :cp7 "2500-843",
     :id #uuid "fdffe9cb-0ece-3c01-b1fc-e11154efacb4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+   :geocode
+   {:id #uuid "fdffe9cb-0ece-3c01-b1fc-e11154efacb4",
+    :address
+    "Rua Cardeal Alpedrinha, n.º 72 - A, 2500-843 CALDAS DA RAINHA",
+    :address-c
+    "Rua Cardeal Alpedrinha 72A, 2500-843, Bairro dos Arneiros, Caldas da Rainha, Leiria",
+    :postal-c "2500-843",
+    :x -9.148569958819337,
+    :y 39.41081999773664,
+    :score 97,
+    :c 1}}]
  ["nova-rainha-01333"
   {:nec 1333,
    :rates
@@ -455,7 +499,18 @@
     :cp7 "2500-843",
     :id #uuid "7dae2074-337a-32b5-a5fa-ed158afe9c76",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+   :geocode
+   {:id #uuid "7dae2074-337a-32b5-a5fa-ed158afe9c76",
+    :address
+    "Rua Cardeal Alpedrinha, n.º 72 A, 2500-843 Caldas da Rainha",
+    :address-c
+    "Rua Cardeal Alpedrinha 72A, 2500-843, Bairro dos Arneiros, Caldas da Rainha, Leiria",
+    :postal-c "2500-843",
+    :x -9.148569958819337,
+    :y 39.41081999773664,
+    :score 97,
+    :c 1}}]
  ["tecnica-01346"
   {:nec 1346,
    :rates
@@ -541,4 +596,15 @@
     :cp7 "2500-235",
     :id #uuid "6d927be2-5452-3cc0-ab69-a1c4315ed4a2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+   :geocode
+   {:id #uuid "6d927be2-5452-3cc0-ab69-a1c4315ed4a2",
+    :address
+    "Rua Marquês de Pombal, n.º 25 A cave Dtª 2500-235 CALDAS DA RAINHA",
+    :address-c
+    "Rua Marquês de Pombal 25, 2500-235, Casais da Rochida, Caldas da Rainha, Leiria",
+    :postal-c "2500-235",
+    :x -9.127875542793362,
+    :y 39.40986999283072,
+    :score 96.47,
+    :c 2}}]]

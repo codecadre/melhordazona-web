@@ -97,7 +97,17 @@
     :cp7 "2460",
     :id #uuid "6d42f60d-44bc-3d21-8ae5-04a9932a7a8a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+   :geocode
+   {:id #uuid "6d42f60d-44bc-3d21-8ae5-04a9932a7a8a",
+    :address
+    "Rua Costa Veiga, Nº 56-58 Apartado 179 2460 –028 ALCOBAÇA",
+    :address-c "Rua Costa Veiga 56, 2460-028, Alcobaça, Leiria",
+    :postal-c "2460-028",
+    :x -8.974600038013705,
+    :y 39.545690016609484,
+    :score 95.7,
+    :c 1}}]
  ["beneditense-00528"
   {:nec 528,
    :rates
@@ -197,7 +207,18 @@
     :cp7 "2475-138",
     :id #uuid "6c81746d-b2d9-34fd-af6e-4cd8de5fc442",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+   :geocode
+   {:id #uuid "6c81746d-b2d9-34fd-af6e-4cd8de5fc442",
+    :address
+    "Rua Padre Dr Fernando Maurício nº 2 r/c 2475-138 BENEDITA",
+    :address-c
+    "Rua Padre Fernando Maurício 2, 2475-138, Benedita, Alcobaça, Leiria",
+    :postal-c "2475-138",
+    :x -8.981749969060417,
+    :y 39.42514001830719,
+    :score 97.86,
+    :c 1}}]
  ["cister-00867"
   {:nec 867,
    :rates
@@ -297,7 +318,14 @@
     :cp7 "2475-149",
     :id #uuid "f27c2f47-2b2a-3235-97b0-aeee2684f4e8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+   :geocode
+   {:cp7 "2475-149",
+    :postal-c "2475-149",
+    :x -8.979409993150938,
+    :y 39.42900499768044,
+    :score 100,
+    :c 1}}]
  ["d-carlos-00868"
   {:nec 868,
    :rates
@@ -397,7 +425,18 @@
     :cp7 "2460-001",
     :id #uuid "1d5e15d7-8d46-3c5e-be77-7700a1535484",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+   :geocode
+   {:id #uuid "1d5e15d7-8d46-3c5e-be77-7700a1535484",
+    :address
+    "Av. Marginal, Nº 23-Loja A S. Martinho do Porto 2460-001 ALCOBAÇA",
+    :address-c
+    "Avenida Marginal 23, 2460-096, São Martinho do Porto, Alcobaça, Leiria",
+    :postal-c "2460-096",
+    :x -9.134270012906882,
+    :y 39.50950001809258,
+    :score 98.01,
+    :c 1}}]
  ["batalhense-alcobaca-00961"
   {:nec 961,
    :rates
@@ -497,7 +536,18 @@
     :cp7 "2460-067",
     :id #uuid "f46b3ee9-f3e6-37b9-bd49-04b3b10abcd9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+   :geocode
+   {:id #uuid "f46b3ee9-f3e6-37b9-bd49-04b3b10abcd9",
+    :address
+    "Rua Mercedes Carlos Campeão , Nº 12 R/C 2460-067 ALCOBAÇA",
+    :address-c
+    "Rua Mercedes e Carlos Campeão 12, 2460-067, Alcobaça, Leiria",
+    :postal-c "2460-067",
+    :x -8.97368004032117,
+    :y 39.55062000060016,
+    :score 97.84,
+    :c 1}}]
  ["nova-alcoa-01147"
   {:nec 1147,
    :rates
@@ -596,7 +646,16 @@
     :cp7 "2460-028",
     :id #uuid "ebe2b77a-2c89-3306-9e6c-84a1eec2489b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+   :geocode
+   {:id #uuid "ebe2b77a-2c89-3306-9e6c-84a1eec2489b",
+    :address "Rua Costa Veiga, n.º 56 ; 2460-028 Alcobaça",
+    :address-c "Rua Costa Veiga, 2460-028, Alcobaça, Leiria",
+    :postal-c "2460-028",
+    :x -8.974344907597256,
+    :y 39.54553499498132,
+    :score 95.63,
+    :c 3}}]
  ["aljubarrota-01375"
   {:nec 1375,
    :rates
@@ -668,7 +727,14 @@
     :cp7 "2460-711",
     :id #uuid "7b3b61f7-003e-3d6d-81ee-c916fc7235a9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+   :geocode
+   {:cp7 "2460-711",
+    :postal-c "2460-711",
+    :x -8.924229996709272,
+    :y 39.56796999534964,
+    :score 100,
+    :c 1}}]
  ["mar-a-vista-01389"
   {:nec 1389,
    :rates
@@ -739,4 +805,14 @@
     :cp7 "2445-206",
     :id #uuid "a66f5115-de39-3938-b2a8-ea6d791fbf40",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+   :geocode
+   {:id #uuid "a66f5115-de39-3938-b2a8-ea6d791fbf40",
+    :address "Av. Rainha Santa Isabel, n.º 234, 2445-206 Pataias",
+    :address-c
+    "Avenida Rainha Santa Isabel 234, 2445-207, Pataias, Alcobaça, Leiria",
+    :postal-c "2445-207",
+    :x -8.996730022596523,
+    :y 39.66977001152458,
+    :score 95.9,
+    :c 2}}]]

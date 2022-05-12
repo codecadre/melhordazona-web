@@ -96,4 +96,13 @@
     :cp7 "8950-121",
     :id #uuid "8d79e7f0-bb22-39fd-a4c5-71db7cc3ede5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Castro%20Marim"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Castro%20Marim"},
+   :geocode
+   {:id #uuid "8d79e7f0-bb22-39fd-a4c5-71db7cc3ede5",
+    :address "Rua de São Sebastião, Nº 4 8950-121 CASTRO MARIM",
+    :address-c "Rua de São Sebastião 4, 8950-121, Castro Marim, Faro",
+    :postal-c "8950-121",
+    :x -7.443699989208824,
+    :y 37.21751000136952,
+    :score 98.48,
+    :c 2}}]]

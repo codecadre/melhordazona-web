@@ -95,4 +95,14 @@
   :cp7 "2530-059",
   :id #uuid "2d5d3aeb-2cf1-308b-8688-ba8f99710940",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"},
+ :geocode
+ {:id #uuid "2d5d3aeb-2cf1-308b-8688-ba8f99710940",
+  :address "Avª António José de Almeida, 10 r/c 2530-059 LOURINHÃ",
+  :address-c
+  "Avenida António José Almeida 10, 2530-113, Lourinhã, Lisboa",
+  :postal-c "2530-113",
+  :x -9.31336999373201,
+  :y 39.24375001771551,
+  :score 96.23,
+  :c 1}}

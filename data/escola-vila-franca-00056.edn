@@ -95,4 +95,14 @@
   :cp7 "2600-100",
   :id #uuid "6870c25f-13fd-3c87-9b34-a6d664ec8420",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "6870c25f-13fd-3c87-9b34-a6d664ec8420",
+  :address "Rua Alves Redol, 115 e 117 2600 - 100 VILA FRANCA XIRA ",
+  :address-c
+  "Rua Alves Redol 115, 2600-100, Vila Franca de Xira, Lisboa",
+  :postal-c "2600-100",
+  :x -8.987029981327737,
+  :y 38.95793998565429,
+  :score 98.72,
+  :c 5}}

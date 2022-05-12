@@ -96,7 +96,14 @@
     :cp7 "2560-270",
     :id #uuid "4edab0dc-ed0c-3bed-9a94-abb3d07f0ef4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:cp7 "2560-270",
+    :postal-c "2560-270",
+    :x -9.256819975216331,
+    :y 39.09178498158781,
+    :score 100,
+    :c 1}}]
  ["m-silva-00025"
   {:nec 25,
    :rates
@@ -195,7 +202,17 @@
     :cp7 "2560",
     :id #uuid "da18076d-e196-3d5e-947f-9ef902b4fc6a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:id #uuid "da18076d-e196-3d5e-947f-9ef902b4fc6a",
+    :address "Rua Dr. Carlos França nº 27 A 2560 TORRES VEDRAS",
+    :address-c
+    "Rua Doutor Carlos França 27A, 2560-327, Torres Vedras, Lisboa",
+    :postal-c "2560-327",
+    :x -9.26034003927387,
+    :y 39.090130016715335,
+    :score 98.47,
+    :c 1}}]
  ["nova-torres-00549"
   {:nec 549,
    :rates
@@ -295,7 +312,18 @@
     :cp7 "2350",
     :id #uuid "9085a1b9-326e-3bbc-a302-c6cc5b13b69f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:id #uuid "9085a1b9-326e-3bbc-a302-c6cc5b13b69f",
+    :address
+    "Rua da Escola Preparatória nº 51 R/c Esqº 2350 TORRES NOVAS",
+    :address-c
+    "Rua da Escola Preparatória 51, 2350-777, Torres Novas, Santarém",
+    :postal-c "2350-777",
+    :x -8.542500021188744,
+    :y 39.48557001980282,
+    :score 97.35,
+    :c 21}}]
  ["novo-horizonte-00570"
   {:nec 570,
    :rates
@@ -395,7 +423,14 @@
     :cp7 "2560-194",
     :id #uuid "663ff945-b1cb-3045-a8ea-ba07c630b813",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:cp7 "2560-194",
+    :postal-c "2560-194",
+    :x -9.390179994232113,
+    :y 39.07208000732217,
+    :score 100,
+    :c 1}}]
  ["torres-vedras-00677"
   {:nec 677,
    :rates
@@ -495,7 +530,14 @@
     :cp7 "2560-374",
     :id #uuid "94607160-cd65-3dcc-95d2-a3eaa6a5c451",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:cp7 "2560-374",
+    :postal-c "2560-374",
+    :x -9.262510030186974,
+    :y 39.105610008866336,
+    :score 100,
+    :c 1}}]
  ["campelos-00758"
   {:nec 758,
    :rates
@@ -594,7 +636,17 @@
     :cp7 "2565",
     :id #uuid "dad8f8f3-6392-37f4-a686-001fadf0543f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:id #uuid "dad8f8f3-6392-37f4-a686-001fadf0543f",
+    :address "Rua Francisco Antunes, Nº 1 2565 – 031 CAMPELOS",
+    :address-c
+    "Rua Francisco Antunes 1, 2565-065, Campelos, Torres Vedras, Lisboa",
+    :postal-c "2565-065",
+    :x -9.236929970438098,
+    :y 39.19747998434934,
+    :score 97.4,
+    :c 1}}]
  ["oceano-00759"
   {:nec 759,
    :rates
@@ -694,7 +746,18 @@
     :cp7 "2560-324",
     :id #uuid "3de5aacc-fb5f-39ca-b3fc-30c15fe5dfb3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:id #uuid "3de5aacc-fb5f-39ca-b3fc-30c15fe5dfb3",
+    :address
+    "Rua Dr.Aurélio Ricardo Belo, Nº 2-A 2560-324 TORRES VEDRAS",
+    :address-c
+    "Rua Doutor Aurélio Ricardo Belo 2, 2560-324, Torres Vedras, Lisboa",
+    :postal-c "2560-324",
+    :x -9.256389983583432,
+    :y 39.086420018731815,
+    :score 98.35,
+    :c 3}}]
  ["instrumovel-00796"
   {:nec 796,
    :rates
@@ -794,7 +857,14 @@
     :cp7 "2560-230",
     :id #uuid "03beee01-c345-370d-88ed-c783ae76b384",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:cp7 "2560-230",
+    :postal-c "2560-230",
+    :x -9.258540025566958,
+    :y 39.093994996088554,
+    :score 100,
+    :c 1}}]
  ["vila-de-adoscunhados-00828"
   {:nec 828,
    :rates
@@ -894,7 +964,18 @@
     :cp7 "2560-016",
     :id #uuid "541e52ba-4c8e-35ee-9e87-90e30748672d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:id #uuid "541e52ba-4c8e-35ee-9e87-90e30748672d",
+    :address
+    "Rua Monsenhor José Jorge Fialho–Edf. Azenha- Fracção A, Lj R/C 2560-016 A DOS CUNHADOS",
+    :address-c
+    "Edifício Azenha, Rua Monsenhor José Fialho, 2560-027, A-dos-Cunhados, Torres Vedras, Lisboa",
+    :postal-c "2560-027",
+    :x -9.299399959528529,
+    :y 39.15176001337903,
+    :score 97.17,
+    :c 1}}]
  ["alta-roda-00883"
   {:nec 883,
    :rates
@@ -994,7 +1075,18 @@
     :cp7 "2560-253",
     :id #uuid "9a8bf619-e381-305f-84fb-008fe00acdde",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:id #uuid "9a8bf619-e381-305f-84fb-008fe00acdde",
+    :address
+    "Rua Amadeu Rodrigues Matias lote 16 Loja 2 2560-253 TORRES VEDRAS",
+    :address-c
+    "Rua Amadeu Rodrigues Ferreira Matias 16, 2560-253, Torres Vedras, Lisboa",
+    :postal-c "2560-253",
+    :x -9.258625311922701,
+    :y 39.081213407963595,
+    :score 98.62,
+    :c 1}}]
  ["via-principal-01191"
   {:nec 1191,
    :rates
@@ -1094,4 +1186,15 @@
     :cp7 "2560-127",
     :id #uuid "259ceb63-a1ac-390a-8cc1-d9ac54084f4e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
+   :geocode
+   {:id #uuid "259ceb63-a1ac-390a-8cc1-d9ac54084f4e",
+    :address
+    "Av. Padre Dr. Raul Sarreira, nº 95, R/c, 2560-127 Ponte do Rol",
+    :address-c
+    "Avenida Padre Doutor Raúl Sarreira 95, 2560-127, Ponte do Rol, Torres Vedras, Lisboa",
+    :postal-c "2560-127",
+    :x -9.321583732303115,
+    :y 39.09122276004195,
+    :score 98.1,
+    :c 2}}]]

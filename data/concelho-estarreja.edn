@@ -97,7 +97,18 @@
     :cp7 "3860-367",
     :id #uuid "67edabe5-9ca6-3a3a-91ad-fc9ee96d5c1c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
+   :geocode
+   {:id #uuid "67edabe5-9ca6-3a3a-91ad-fc9ee96d5c1c",
+    :address
+    "Rua dos Bombeiros Voluntários nº 50 –1º Dtº 3860-367 ESTARREJA",
+    :address-c
+    "Rua dos Bombeiros Voluntários 50, 3860-367, Estarreja, Aveiro",
+    :postal-c "3860-367",
+    :x -8.570340009671781,
+    :y 40.75089001131752,
+    :score 97.64,
+    :c 1}}]
  ["a-nova-de-estarreja-00534"
   {:nec 534,
    :rates
@@ -197,7 +208,18 @@
     :cp7 "3860-358",
     :id #uuid "8c40325d-acfc-3c8a-8e0b-a75bf6799a3c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
+   :geocode
+   {:id #uuid "8c40325d-acfc-3c8a-8e0b-a75bf6799a3c",
+    :address
+    "Rua Conselheiro José Luciano de Castro 3860-358 ESTARREJA",
+    :address-c
+    "Rua Conselheiro José Luciano de Castro, 3860-358, Estarreja, Aveiro",
+    :postal-c "3860-358",
+    :x -8.575493660013885,
+    :y 40.75662065760831,
+    :score 100,
+    :c 1}}]
  ["nobel-00741"
   {:nec 741,
    :rates
@@ -268,4 +290,11 @@
     :cp7 "3860-133",
     :id #uuid "340962e9-7390-3181-8dfc-3443f7171b2e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
+   :geocode
+   {:cp7 "3860-133",
+    :postal-c "3860-133",
+    :x -8.571320021791081,
+    :y 40.80595002081523,
+    :score 100,
+    :c 1}}]]

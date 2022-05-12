@@ -96,7 +96,14 @@
     :cp7 "3050-344",
     :id #uuid "6bf8c662-26e7-3081-9358-396541118ffa",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"},
+   :geocode
+   {:cp7 "3050-344",
+    :postal-c "3050-344",
+    :x -8.451795004518601,
+    :y 40.37485998141341,
+    :score 100,
+    :c 1}}]
  ["saturno-00559"
   {:nec 559,
    :rates
@@ -195,7 +202,16 @@
     :cp7 "3050-345",
     :id #uuid "2123a0ef-d1ae-33d6-b5f4-1ec98b889d00",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"},
+   :geocode
+   {:id #uuid "2123a0ef-d1ae-33d6-b5f4-1ec98b889d00",
+    :address "Rua Capitão Cabral, Nº 6 e 8 3050-345 MEALHADA",
+    :address-c "Rua Capitão Cabral 6, 3050-345, Mealhada, Aveiro",
+    :postal-c "3050-345",
+    :x -8.452590028034791,
+    :y 40.375499981630355,
+    :score 97.9,
+    :c 1}}]
  ["via-s-01087"
   {:nec 1087,
    :rates
@@ -295,4 +311,11 @@
     :cp7 "3050-428",
     :id #uuid "3495281b-780a-31de-a24d-50560146d538",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"},
+   :geocode
+   {:cp7 "3050-428",
+    :postal-c "3050-428",
+    :x -8.43013499324681,
+    :y 40.33936999754019,
+    :score 100,
+    :c 1}}]]

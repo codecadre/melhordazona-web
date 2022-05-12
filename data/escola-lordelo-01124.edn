@@ -95,4 +95,13 @@
   :cp7 "4150-262",
   :id #uuid "fc29fef5-42e3-37cc-8257-d98e296623f3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "fc29fef5-42e3-37cc-8257-d98e296623f3",
+  :address "Rua Diogo Botelho nº 137 r/c Esq 4150-262 PORTO",
+  :address-c "Rua de Diogo Botelho 137, 4150-262, Porto",
+  :postal-c "4150-262",
+  :x -8.649640022148219,
+  :y 41.15381999926353,
+  :score 97.93,
+  :c 1}}

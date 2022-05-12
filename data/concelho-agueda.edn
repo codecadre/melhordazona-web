@@ -96,7 +96,17 @@
     :cp7 "3750-181",
     :id #uuid "92aba0f8-cf8f-3b8b-95c7-ab3dd8f3d167",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
+   :geocode
+   {:id #uuid "92aba0f8-cf8f-3b8b-95c7-ab3dd8f3d167",
+    :address "Rua Miguel de Almeida e Silva -E N 1 3750-181 ÁGUEDA",
+    :address-c
+    "Rua Miguel Almeida e Silva & N1, 3750-181, Póvoa Marta, Águeda, Aveiro",
+    :postal-c "3750-181",
+    :x -8.450989922718605,
+    :y 40.568250059414765,
+    :score 98.99,
+    :c 3}}]
  ["auto-fama-00394"
   {:nec 394,
    :rates
@@ -195,7 +205,17 @@
     :cp7 "3750-154",
     :id #uuid "608b5a19-dbad-3412-a2f2-197706131a8f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
+   :geocode
+   {:id #uuid "608b5a19-dbad-3412-a2f2-197706131a8f",
+    :address "Rua Joaquim Valente de Almeida, nº 126 3750-154 ÁGUEDA",
+    :address-c
+    "Rua Joaquim Valente de Almeida 126, 3750-154, Águeda, Aveiro",
+    :postal-c "3750-154",
+    :x -8.446948095345634,
+    :y 40.579399845338976,
+    :score 98.55,
+    :c 2}}]
  ["nova-em-agueda-00622"
   {:nec 622,
    :rates
@@ -294,7 +314,14 @@
     :cp7 "3550-124",
     :id #uuid "ae16434b-d055-3313-9276-b71a0fb6703e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
+   :geocode
+   {:cp7 "3550-124",
+    :postal-c "3550-124",
+    :x -7.692947279518904,
+    :y 40.66897094746537,
+    :score 100,
+    :c 1}}]
  ["aguada-de-cima-01093"
   {:nec 1093,
    :rates
@@ -394,4 +421,11 @@
     :cp7 "3750-055",
     :id #uuid "966d6906-0502-3f56-8e33-011bac7c8051",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
+   :geocode
+   {:cp7 "3750-055",
+    :postal-c "3750-055",
+    :x -8.422415008965146,
+    :y 40.5162550185417,
+    :score 100,
+    :c 1}}]]

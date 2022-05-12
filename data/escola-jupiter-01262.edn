@@ -96,4 +96,15 @@
   :cp7 "2665-527",
   :id #uuid "d0997a67-1252-31e0-baa8-9dbafcd000fb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+ :geocode
+ {:id #uuid "d0997a67-1252-31e0-baa8-9dbafcd000fb",
+  :address
+  "Rua Padre Alfredo Fernandes de Brito, Nº 9 F 2665-527 VENDA do PINHEIRO",
+  :address-c
+  "Rua Padre Alfredo Fernandes de Brito 9F, 2665-527, Venda do Pinheiro, Mafra, Lisboa",
+  :postal-c "2665-527",
+  :x -9.232480018042253,
+  :y 38.925810013397495,
+  :score 98.64,
+  :c 1}}

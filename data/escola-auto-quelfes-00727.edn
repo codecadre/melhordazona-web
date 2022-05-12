@@ -95,4 +95,13 @@
   :cp7 "8700-218",
   :id #uuid "6fb5395e-8a7d-3d0e-a9cb-d55fda862ec8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
+ :geocode
+ {:id #uuid "6fb5395e-8a7d-3d0e-a9cb-d55fda862ec8",
+  :address "Estrada de Quelfes nº 69 B r/c 8700-218 QUELFES",
+  :address-c "Estrada Quelfes 69B, 8700-218, Olhão, Faro",
+  :postal-c "8700-218",
+  :x -7.834839992148261,
+  :y 37.038990006334615,
+  :score 96.04,
+  :c 2}}

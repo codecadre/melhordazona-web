@@ -54,4 +54,15 @@
   :cp7 "2600-605",
   :id #uuid "20b89880-0ee2-3b1f-b402-d11f1bec6a8a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "20b89880-0ee2-3b1f-b402-d11f1bec6a8a",
+  :address
+  "Rua Padre António Bianchi, n.º 18 2600-605 Castanheira do Ribatejo",
+  :address-c
+  "Rua Padre António Bianchi, 2600-605, Castanheira do Ribatejo, Vila Franca de Xira, Lisboa",
+  :postal-c "2600-605",
+  :x -8.972143085509039,
+  :y 38.98898563249385,
+  :score 97.41,
+  :c 1}}

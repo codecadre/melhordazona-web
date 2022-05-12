@@ -95,4 +95,13 @@
   :cp7 "6160-418",
   :id #uuid "89df91ba-b8af-3589-8dd5-738de3ab1232",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Oleiros"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Oleiros"},
+ :geocode
+ {:id #uuid "89df91ba-b8af-3589-8dd5-738de3ab1232",
+  :address "Rua do Ramalhal, nº20 6160-418 OLEIROS",
+  :address-c "Rua do Ramalhal, 6160-418, Oleiros, Castelo Branco",
+  :postal-c "6160-418",
+  :x -7.916645681556053,
+  :y 39.91855591930828,
+  :score 95.48,
+  :c 2}}

@@ -95,4 +95,14 @@
   :cp7 "5450-016",
   :id #uuid "95defcce-a420-39cb-9b0a-c571217ab3b1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"},
+ :geocode
+ {:id #uuid "95defcce-a420-39cb-9b0a-c571217ab3b1",
+  :address "Praça Luís de Camões, nº 10 5450-016 VILA POUCA AGUIAR",
+  :address-c
+  "Praça Luís de Camões 10, 5450-016, Vila Pouca de Aguiar, Vila Real",
+  :postal-c "5450-016",
+  :x -7.64310999198031,
+  :y 41.50054999697048,
+  :score 98.25,
+  :c 1}}

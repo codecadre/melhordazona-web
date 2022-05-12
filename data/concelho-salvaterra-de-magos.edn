@@ -96,4 +96,14 @@
     :cp7 "2120",
     :id #uuid "7e587d06-78ce-3047-b758-cdc5879a0605",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Salvaterra%20Magos"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Salvaterra%20Magos"},
+   :geocode
+   {:id #uuid "7e587d06-78ce-3047-b758-cdc5879a0605",
+    :address "Rua Marquês de Pombal, Nº30 2120 SALVATERRA DE MAGOS",
+    :address-c
+    "Rua Marquês de Pombal 30, 2120-095, Salvaterra de Magos, Santarém",
+    :postal-c "2120-095",
+    :x -8.791361273541986,
+    :y 39.02649277073284,
+    :score 98.04,
+    :c 2}}]]

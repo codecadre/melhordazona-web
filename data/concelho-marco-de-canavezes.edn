@@ -96,7 +96,14 @@
     :cp7 "4630-296",
     :id #uuid "927174ef-105d-3335-afd2-7335e0cd19ea",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4630-296",
+    :postal-c "4630-296",
+    :x -8.146055027910535,
+    :y 41.18380998782061,
+    :score 100,
+    :c 1}}]
  ["madureira-00383"
   {:nec 383,
    :rates
@@ -195,7 +202,17 @@
     :cp7 "4630-293",
     :id #uuid "e86057b8-75f4-3cdf-8111-7ccfb8411893",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:id #uuid "e86057b8-75f4-3cdf-8111-7ccfb8411893",
+    :address "Charneca - Rua São Nicolau, 224 4630-293 S. NICOLAU",
+    :address-c
+    "Rua de São Nicolau 224, 4630-261, Marco de Canaveses, Porto",
+    :postal-c "4630-261",
+    :x -8.151929987665227,
+    :y 41.186519982845766,
+    :score 95.75,
+    :c 1}}]
  ["quatro-ases-00662"
   {:nec 662,
    :rates
@@ -295,7 +312,14 @@
     :cp7 "4630-203",
     :id #uuid "70271f41-4321-3803-9843-66fa07f77437",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4630-203",
+    :postal-c "4630-203",
+    :x -8.14909497655421,
+    :y 41.17146499509525,
+    :score 100,
+    :c 1}}]
  ["autoalpendurada-00737"
   {:nec 737,
    :rates
@@ -339,7 +363,14 @@
     :cp7 "4575-052",
     :id #uuid "44a1ea0f-5799-345b-b4be-b035613aa540",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4575-052",
+    :postal-c "4575-052",
+    :x -8.251500040409866,
+    :y 41.086319988167986,
+    :score 100,
+    :c 1}}]
  ["memorial-00816"
   {:nec 816,
    :rates
@@ -438,7 +469,14 @@
     :cp7 "4575-032",
     :id #uuid "dd3a574a-a95f-328f-a6f1-3dca5f11fda4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4575-032",
+    :postal-c "4575-032",
+    :x -8.247280003618101,
+    :y 41.090064980597276,
+    :score 100,
+    :c 1}}]
  ["feira-nova-00817"
   {:nec 817,
    :rates
@@ -537,7 +575,14 @@
     :cp7 "4625-049",
     :id #uuid "0d3c6c37-a2cb-3b0c-8cbf-d0dbb9d70ab4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4625-049",
+    :postal-c "4625-049",
+    :x -8.217085035618908,
+    :y 41.114469981339965,
+    :score 100,
+    :c 1}}]
  ["santa-marinha-autoagra-00944"
   {:nec 944,
    :rates
@@ -636,7 +681,14 @@
     :cp7 "4575-011",
     :id #uuid "dae8ab30-0234-397d-bbc1-8c3298567681",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4575-011",
+    :postal-c "4575-011",
+    :x -8.253195028869982,
+    :y 41.086829985066714,
+    :score 100,
+    :c 1}}]
  ["ariz-01154"
   {:nec 1154,
    :rates
@@ -835,7 +887,14 @@
     :cp7 "4635-518",
     :id #uuid "af6904de-569a-363a-887f-48d0ac8b7369",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4635-518",
+    :postal-c "4635-518",
+    :x -8.145689996027244,
+    :y 41.221474991748806,
+    :score 100,
+    :c 1}}]
  ["preferencia-01228"
   {:nec 1228,
    :rates
@@ -935,4 +994,11 @@
     :cp7 "4575-049",
     :id #uuid "af8fb6e2-9075-3b10-901e-27c8514a0575",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4575-049",
+    :postal-c "4575-049",
+    :x -8.243500016743099,
+    :y 41.098019993443984,
+    :score 100,
+    :c 1}}]]

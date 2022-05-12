@@ -197,7 +197,18 @@
     :cp7 "2835-123",
     :id #uuid "b8f946b3-988c-3941-b71e-f63658354dad",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
+   :geocode
+   {:id #uuid "b8f946b3-988c-3941-b71e-f63658354dad",
+    :address
+    "Rua Francisco Miguel, 4, 36 B, R/C 2835-123 BAIXA DA BANHEIRA",
+    :address-c
+    "Rua Francisco Miguel 4, 2835-123, Baixa da Banheira, Moita, Setúbal",
+    :postal-c "2835-123",
+    :x -9.038906125185955,
+    :y 38.654522342488676,
+    :score 98.91,
+    :c 1}}]
  ["siiimplesado-00802"
   {:nec 802,
    :rates
@@ -296,7 +307,14 @@
     :cp7 "2860-293",
     :id #uuid "1f2a7313-8eff-3592-98f5-e36d2b645979",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
+   :geocode
+   {:cp7 "2860-293",
+    :postal-c "2860-293",
+    :x -8.981760027344222,
+    :y 38.64493499446891,
+    :score 100,
+    :c 1}}]
  ["nova-moita-00915"
   {:nec 915,
    :rates
@@ -495,4 +513,11 @@
     :cp7 "2835-175",
     :id #uuid "1f79b2ac-10f6-3338-bc8c-eba59570cabb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
+   :geocode
+   {:cp7 "2835-175",
+    :postal-c "2835-175",
+    :x -9.037626334017887,
+    :y 38.65753944900703,
+    :score 100,
+    :c 1}}]]

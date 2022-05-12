@@ -95,4 +95,13 @@
   :cp7 "8000-317",
   :id #uuid "7284cb62-f269-3970-bf66-f6b29d0bf4d6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+ :geocode
+ {:id #uuid "7284cb62-f269-3970-bf66-f6b29d0bf4d6",
+  :address "Rua Dr. Arnaldo Vilhena, 27 c/v 8000-317 FARO",
+  :address-c "Rua Doutor Arnaldo Cardoso Vilhena 27, 8005-216, Faro",
+  :postal-c "8005-216",
+  :x -7.927396571229849,
+  :y 37.02536266624246,
+  :score 97.43,
+  :c 1}}

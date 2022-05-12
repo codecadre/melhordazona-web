@@ -26,4 +26,14 @@
   :cp7 nil,
   :id #uuid "32918da9-ac55-3221-8af4-56349a93cef8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+ :geocode
+ {:id #uuid "32918da9-ac55-3221-8af4-56349a93cef8",
+  :address "Avenida Arcebispo D. Gaspar de Bragança, n 30 BARQUEIROS",
+  :address-c
+  "Avenida Arcebispo Dom Gaspar de Bragança, 4740-674, Necessidades, Barcelos, Braga",
+  :postal-c "4740-674",
+  :x -8.717107655062142,
+  :y 41.483030491879035,
+  :score 91.89,
+  :c 1}}

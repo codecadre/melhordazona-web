@@ -96,7 +96,16 @@
     :cp7 "4540-102",
     :id #uuid "257f8f97-1a55-36f8-8b83-ee7f31179915",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
+   :geocode
+   {:id #uuid "257f8f97-1a55-36f8-8b83-ee7f31179915",
+    :address "Avª 25 de Abril, Nº 48-B 4540-102 AROUCA",
+    :address-c "Avenida 25 de Abril 48, 4540-102, Arouca, Aveiro",
+    :postal-c "4540-102",
+    :x -8.249719975632473,
+    :y 40.92842999423314,
+    :score 98.01,
+    :c 2}}]
  ["rainha-santa-mafalda-00600"
   {:nec 600,
    :rates
@@ -196,7 +205,18 @@
     :cp7 "4540-133",
     :id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
+   :geocode
+   {:id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
+    :address
+    "Rua Dr. Figueiredo Sobrinho, Nº 11 R/c Esq.º 4540-133 AROUCA",
+    :address-c
+    "Rua Dr. Figueiredo Sobrinho 11, 4540-133, Arouca, Aveiro",
+    :postal-c "4540-133",
+    :x -8.246469976495234,
+    :y 40.930909989835186,
+    :score 97.28,
+    :c 1}}]
  ["actual-01218"
   {:nec 1218,
    :rates
@@ -295,4 +315,10 @@
     :cp7 "4544-001",
     :id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
+   :geocode
+   {:id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35",
+    :overwrite true,
+    :obs "Manual coords",
+    :x -8.422375527411608,
+    :y 40.94577167143348}}]]

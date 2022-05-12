@@ -95,4 +95,14 @@
   :cp7 "2835-801",
   :id #uuid "d03d9622-e239-35ce-82d3-b1d618614b37",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+ :geocode
+ {:id #uuid "d03d9622-e239-35ce-82d3-b1d618614b37",
+  :address "Rua da S.D.U.B. os Franceses, Nº 6-C 2835-801 LAVRADIO",
+  :address-c
+  "Rua S. D. U. B. Franceses 6C, 2835-801, Lavradio, Barreiro, Setúbal",
+  :postal-c "2835-801",
+  :x -9.048709976043881,
+  :y 38.6540200135922,
+  :score 98.19,
+  :c 1}}

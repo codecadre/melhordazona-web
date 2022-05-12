@@ -95,4 +95,14 @@
   :cp7 "3880-001",
   :id #uuid "d8934337-9da3-39ca-9f58-ee40c61b556c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
+ :geocode
+ {:id #uuid "d8934337-9da3-39ca-9f58-ee40c61b556c",
+  :address "Rua Dr. Albino Borges Pinho nº 84 r/c 3880-001 OVAR",
+  :address-c
+  "Rua Dr. Albino Borges de Pinho 84, 3880-276, Ovar, Aveiro",
+  :postal-c "3880-276",
+  :x -8.625610027753567,
+  :y 40.867400016108235,
+  :score 96.92,
+  :c 1}}

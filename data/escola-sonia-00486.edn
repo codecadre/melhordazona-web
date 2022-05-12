@@ -96,4 +96,15 @@
   :cp7 "4900-509",
   :id #uuid "1ec1b64a-f1ea-3670-b4d6-c2facd57b775",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+ :geocode
+ {:id #uuid "1ec1b64a-f1ea-3670-b4d6-c2facd57b775",
+  :address
+  "Largo João Tomás da Costa, 12 - 1º 4900-509 VIANA DO CASTELO (Stª Mª Maior)",
+  :address-c
+  "Largo João Tomás da Costa 12, 4900-473, Viana do Castelo",
+  :postal-c "4900-473",
+  :x -8.826283613463424,
+  :y 41.692558987676215,
+  :score 96.81,
+  :c 1}}

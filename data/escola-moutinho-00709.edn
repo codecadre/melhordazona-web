@@ -95,4 +95,13 @@
   :cp7 "4475-304",
   :id #uuid "dbe24ae2-677c-38de-ab16-2100b9a2ca9d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+ :geocode
+ {:id #uuid "dbe24ae2-677c-38de-ab16-2100b9a2ca9d",
+  :address "Rua da Agra nº 1288 1º Esqº 4475-304 MILHEIRÓS",
+  :address-c "Rua da Agra 1288, 4475-304, Vessada, Maia, Porto",
+  :postal-c "4475-304",
+  :x -8.594260033496766,
+  :y 41.21334001944089,
+  :score 95.71,
+  :c 1}}

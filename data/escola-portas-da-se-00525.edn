@@ -95,4 +95,13 @@
   :cp7 "4700-204",
   :id #uuid "6a3f386d-a2ed-3b5c-8355-2cb18916a007",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "6a3f386d-a2ed-3b5c-8355-2cb18916a007",
+  :address "Rua Andrade Corvo, 59/60 4700-204 BRAGA(Maximinos)",
+  :address-c "Rua Andrade Corvo 59, 4700-204, Braga",
+  :postal-c "4700-204",
+  :x -8.431699978388707,
+  :y 41.54993998424612,
+  :score 97.25,
+  :c 1}}

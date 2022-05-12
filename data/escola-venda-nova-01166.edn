@@ -96,4 +96,15 @@
   :cp7 "4435-350",
   :id #uuid "862c9470-ac5a-3cd3-b411-ec4317c6ec1f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+ :geocode
+ {:id #uuid "862c9470-ac5a-3cd3-b411-ec4317c6ec1f",
+  :address
+  "Rua Nossa Senhora do Amparo, Nº 155 R/C Dtº 4435-350 RIO TINTO",
+  :address-c
+  "Rua de Nossa Senhora do Amparo 155, 4435-350, Rio Tinto, Gondomar, Porto",
+  :postal-c "4435-350",
+  :x -8.544898167294482,
+  :y 41.17584562644164,
+  :score 96.46,
+  :c 6}}

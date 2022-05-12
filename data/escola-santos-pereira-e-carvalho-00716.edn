@@ -95,4 +95,13 @@
   :cp7 "6300-575",
   :id #uuid "a284bb33-d173-390f-88b0-e2b39be96541",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
+ :geocode
+ {:id #uuid "a284bb33-d173-390f-88b0-e2b39be96541",
+  :address "Rua José dos Santos, Nº 27 6300-575 GUARDA",
+  :address-c "Rua José dos Santos 27, 6300-575, Guarda",
+  :postal-c "6300-575",
+  :x -7.25814996625212,
+  :y 40.53956999468596,
+  :score 98.4,
+  :c 3}}

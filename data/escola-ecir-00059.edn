@@ -95,4 +95,13 @@
   :cp7 "1600-413",
   :id #uuid "d3edb76d-f68d-3f75-8f63-0a723b000b69",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "d3edb76d-f68d-3f75-8f63-0a723b000b69",
+  :address "Rua Aristides de Sousa Mendes,Nº 2B 1600-413 LISBOA",
+  :address-c "Rua Aristides de Sousa Mendes 2B, 1600-413, Lisboa",
+  :postal-c "1600-413",
+  :x -9.178209961009316,
+  :y 38.76147001924062,
+  :score 98.53,
+  :c 2}}

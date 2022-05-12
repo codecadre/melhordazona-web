@@ -95,4 +95,13 @@
   :cp7 "4465-197",
   :id #uuid "87bcb4b1-de3a-3d8b-a3f5-e67793a94667",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+ :geocode
+ {:id #uuid "87bcb4b1-de3a-3d8b-a3f5-e67793a94667",
+  :address "Rua da Mainça, Nº 79 R/c 4465-197 SÃO MAMEDE de INFESTA",
+  :address-c "Rua da Mainça 79, 4465-197, Picotos, Matosinhos, Porto",
+  :postal-c "4465-197",
+  :x -8.617809996296558,
+  :y 41.19327001329199,
+  :score 96.89,
+  :c 2}}

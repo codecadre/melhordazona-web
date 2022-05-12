@@ -96,4 +96,15 @@
   :cp7 "3860-367",
   :id #uuid "67edabe5-9ca6-3a3a-91ad-fc9ee96d5c1c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
+ :geocode
+ {:id #uuid "67edabe5-9ca6-3a3a-91ad-fc9ee96d5c1c",
+  :address
+  "Rua dos Bombeiros Voluntários nº 50 –1º Dtº 3860-367 ESTARREJA",
+  :address-c
+  "Rua dos Bombeiros Voluntários 50, 3860-367, Estarreja, Aveiro",
+  :postal-c "3860-367",
+  :x -8.570340009671781,
+  :y 40.75089001131752,
+  :score 97.64,
+  :c 1}}

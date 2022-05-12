@@ -95,4 +95,13 @@
   :cp7 "3000-343",
   :id #uuid "687bbcba-e6ce-394b-8c8a-f2780124bfce",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+ :geocode
+ {:id #uuid "687bbcba-e6ce-394b-8c8a-f2780124bfce",
+  :address "Praça da República,17-1º 3000-343 COIMBRA",
+  :address-c "Praça da República 17, 3000-343, Coimbra",
+  :postal-c "3000-343",
+  :x -8.419679993958994,
+  :y 40.210009990357804,
+  :score 99.41,
+  :c 1}}

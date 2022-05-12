@@ -95,4 +95,14 @@
   :cp7 "4820-365",
   :id #uuid "715c45fe-362f-3ea0-b2dd-ff027a18d682",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+ :geocode
+ {:id #uuid "715c45fe-362f-3ea0-b2dd-ff027a18d682",
+  :address "Urbanização Dr. Leite Lage, 75 B 4820-365 FAFE",
+  :address-c
+  "Urbanização Doutor Leite Lage 75B, 4820-365, Fafe, Braga",
+  :postal-c "4820-365",
+  :x -8.179650031113823,
+  :y 41.448220015246534,
+  :score 99.99,
+  :c 1}}

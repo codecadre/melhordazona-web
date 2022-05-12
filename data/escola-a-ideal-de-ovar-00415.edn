@@ -95,4 +95,13 @@
   :cp7 "3880-240",
   :id #uuid "cd5e54c1-b14b-3627-aa47-3eae884ae992",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
+ :geocode
+ {:id #uuid "cd5e54c1-b14b-3627-aa47-3eae884ae992",
+  :address "Rua Luís de Camões, 13 3880-240 OVAR",
+  :address-c "Rua Luís de Camões 13, 3880-240, Ovar, Aveiro",
+  :postal-c "3880-240",
+  :x -8.624417715540732,
+  :y 40.858589280967585,
+  :score 98.9,
+  :c 2}}

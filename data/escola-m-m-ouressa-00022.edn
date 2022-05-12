@@ -96,4 +96,15 @@
   :cp7 "2725-316",
   :id #uuid "af6c4c44-cbe3-34d0-866f-3b65a6dbcb1b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "af6c4c44-cbe3-34d0-866f-3b65a6dbcb1b",
+  :address
+  "Rua Francisco Sá Carneiro, Nº 28, Loja C - cave 2725-316 MEM MARTINS",
+  :address-c
+  "Rua Francisco Sá Carneiro 28, 2725-316, Ouressa, Sintra, Lisboa",
+  :postal-c "2725-316",
+  :x -9.355169958134724,
+  :y 38.79868001155495,
+  :score 96.69,
+  :c 1}}

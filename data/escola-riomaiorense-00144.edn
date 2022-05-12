@@ -95,4 +95,13 @@
   :cp7 "2040-411",
   :id #uuid "3355fa7c-d17d-31be-bb04-c6a06e03c1ed",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
+ :geocode
+ {:id #uuid "3355fa7c-d17d-31be-bb04-c6a06e03c1ed",
+  :address "Rua Ernesto Alves, 23 – 2º 2040-411 RIO MAIOR",
+  :address-c "Rua Ernesto Alves 23, 2040-411, Rio Maior, Santarém",
+  :postal-c "2040-411",
+  :x -8.93709998993998,
+  :y 39.338069981587154,
+  :score 99.41,
+  :c 1}}

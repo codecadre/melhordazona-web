@@ -96,4 +96,14 @@
     :cp7 "5350-016",
     :id #uuid "3669af95-40f0-3248-89de-9fbfa2a99afb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Alfandega%20da%20F%C3%A9"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Alfandega%20da%20F%C3%A9"},
+   :geocode
+   {:id #uuid "3669af95-40f0-3248-89de-9fbfa2a99afb",
+    :address "Largo do Prado, 5350-016 ALFÂNDEGA DA FÉ",
+    :address-c
+    "Largo do Prado, 5350-390, Valverde, Alfândega da Fé, Bragança",
+    :postal-c "5350-390",
+    :x -6.987777289228724,
+    :y 41.32901284252853,
+    :score 98.42,
+    :c 3}}]]

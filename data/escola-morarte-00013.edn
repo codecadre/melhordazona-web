@@ -95,4 +95,13 @@
   :cp7 "4000-272",
   :id #uuid "23daa2b3-9e42-301c-9c36-0fa565a39eab",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "23daa2b3-9e42-301c-9c36-0fa565a39eab",
+  :address "Rua Guedes de Azevedo, 131 - 1º 4000-272 PORTO",
+  :address-c "Rua de Guedes de Azevedo 131, 4000-272, Porto",
+  :postal-c "4000-272",
+  :x -8.606649995132642,
+  :y 41.15217999608822,
+  :score 99.43,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "4425-57",
   :id #uuid "efe2dfe8-2b2e-33d6-b99b-4cec816cbdcf",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+ :geocode
+ {:id #uuid "efe2dfe8-2b2e-33d6-b99b-4cec816cbdcf",
+  :address "Rua D. Afonso Henriques, 2248 4425-57 ÁGUAS SANTAS",
+  :address-c
+  "Rua Dom Afonso Henriques 2248, 4425-057, Corim, Maia, Porto",
+  :postal-c "4425-057",
+  :x -8.574946728743265,
+  :y 41.1998779350562,
+  :score 97.13,
+  :c 10}}

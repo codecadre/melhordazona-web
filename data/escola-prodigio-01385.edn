@@ -82,4 +82,15 @@
   :cp7 "4400-097",
   :id #uuid "e1cd54dd-d11d-3fc2-ac7c-c7b432498b75",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "e1cd54dd-d11d-3fc2-ac7c-c7b432498b75",
+  :address
+  "Travessa Conselheiro Veloso da Cruz, n.º 112, 4400-097 Vila Nova de Gaia",
+  :address-c
+  "Travessa Conselheiro Veloso da Cruz, 4400-097, Vila Nova de Gaia, Porto",
+  :postal-c "4400-097",
+  :x -8.614384228040535,
+  :y 41.12853996719058,
+  :score 96.93,
+  :c 4}}

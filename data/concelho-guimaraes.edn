@@ -96,7 +96,17 @@
     :cp7 "4810-431",
     :id #uuid "e30d9b07-01c2-39ed-893e-2792f2ac0836",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "e30d9b07-01c2-39ed-893e-2792f2ac0836",
+    :address "Rua D. Afonso Henriques, 194 - 1º 4810-431 GUIMARÃES",
+    :address-c
+    "Rua Dom Afonso Henriques 194, 4800-866, Gominhães, Guimarães, Braga",
+    :postal-c "4800-866",
+    :x -8.270579541121274,
+    :y 41.472666251224766,
+    :score 97.16,
+    :c 2}}]
  ["pevidense-00432"
   {:nec 432,
    :rates
@@ -296,7 +306,18 @@
     :cp7 "4810-421",
     :id #uuid "7e1795a4-3352-353c-9d8a-1b9e0154b83a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "7e1795a4-3352-353c-9d8a-1b9e0154b83a",
+    :address
+    "Praça Heróis da Fundação, Bloco 6-1º E 4810-421 GUIMARÃES",
+    :address-c
+    "Praça Heróis da Fundação 6, 4810-242, Guimarães, Braga",
+    :postal-c "4810-242",
+    :x -8.300589472734737,
+    :y 41.44354766083905,
+    :score 97.6,
+    :c 1}}]
  ["guiante-00654"
   {:nec 654,
    :rates
@@ -396,7 +417,18 @@
     :cp7 "4805-161",
     :id #uuid "4599b482-85c9-3d47-96da-bfb3b6047697",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "4599b482-85c9-3d47-96da-bfb3b6047697",
+    :address
+    "Rua Padre da Silva Gonçalves nº 206 4805-161 CALDAS das TAIPAS",
+    :address-c
+    "Rua Padre Silva Gonçalves 206, 4805-161, Caldelas, Guimarães, Braga",
+    :postal-c "4805-161",
+    :x -8.34496524817909,
+    :y 41.48722237852535,
+    :score 95.68,
+    :c 1}}]
  ["inovadora-00657"
   {:nec 657,
    :rates
@@ -496,7 +528,14 @@
     :cp7 "4805-081",
     :id #uuid "6c29493e-1e94-3cff-99bc-d1e204890ad2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4805-081",
+    :postal-c "4805-081",
+    :x -8.34773501769999,
+    :y 41.48403999464776,
+    :score 100,
+    :c 1}}]
  ["cidade-berco-00658"
   {:nec 658,
    :rates
@@ -596,7 +635,18 @@
     :cp7 "4800-045",
     :id #uuid "f3843460-63b6-3514-8998-b42702844f18",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "f3843460-63b6-3514-8998-b42702844f18",
+    :address
+    "Rua Dr. João Afonso Almeida , Nº 291- Fracção O 4800-045 AZURÉM",
+    :address-c
+    "Rua Doutor João Afonso Almeida 291, 4800-045, Guimarães, Braga",
+    :postal-c "4800-045",
+    :x -8.300729975244366,
+    :y 41.44939000320127,
+    :score 95.78,
+    :c 1}}]
  ["loureiro-loureiro-00670"
   {:nec 670,
    :rates
@@ -696,7 +746,14 @@
     :cp7 "4810-008",
     :id #uuid "e8863fd4-f18e-31bc-bcd5-4cc6b0464d81",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4810-008",
+    :postal-c "4810-008",
+    :x -8.279429966713963,
+    :y 41.45129998747785,
+    :score 100,
+    :c 1}}]
  ["s-sao-martinho-00679"
   {:nec 679,
    :rates
@@ -796,7 +853,18 @@
     :cp7 "4810-261",
     :id #uuid "58480c54-4249-3833-9889-57be20112ea0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "58480c54-4249-3833-9889-57be20112ea0",
+    :address
+    "Rua D. Cristóvão S. Boaventura, Nº 51 4810-261 GUIMARÃES (Oliveira do Castelo)",
+    :address-c
+    "Rua Dom Cristóvão de São Boaventura 51, 4810-261, Guimarães, Braga",
+    :postal-c "4810-261",
+    :x -8.28768002255245,
+    :y 41.4470999834347,
+    :score 98.68,
+    :c 2}}]
  ["ronfense-00701"
   {:nec 701,
    :rates
@@ -895,7 +963,17 @@
     :cp7 "4805-437",
     :id #uuid "7f083766-e5c0-3e18-b1e8-3052c3d72ba2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "7f083766-e5c0-3e18-b1e8-3052c3d72ba2",
+    :address "Rua de S. Tiago, Nº 784 4805-437 RONFE",
+    :address-c
+    "Rua de São Tiago 784, 4805-437, Ronfe, Guimarães, Braga",
+    :postal-c "4805-437",
+    :x -8.380336758852074,
+    :y 41.441919191551015,
+    :score 97.19,
+    :c 7}}]
  ["mariana-00734"
   {:nec 734,
    :rates
@@ -995,7 +1073,14 @@
     :cp7 "4805-158",
     :id #uuid "73242be2-47cf-385e-b1a9-5fbbf3472ac4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4805-158",
+    :postal-c "4805-158",
+    :x -8.344749970522116,
+    :y 41.4916200011464,
+    :score 100,
+    :c 1}}]
  ["nova-era-00805"
   {:nec 805,
    :rates
@@ -1095,7 +1180,14 @@
     :cp7 "4810-517",
     :id #uuid "4262cf4a-c261-3717-bdd4-6e8a39656f80",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4810-517",
+    :postal-c "4810-517",
+    :x -8.299430025880895,
+    :y 41.42130501168842,
+    :score 100,
+    :c 1}}]
  ["s-gualter-00844"
   {:nec 844,
    :rates
@@ -1195,7 +1287,14 @@
     :cp7 "4800-073",
     :id #uuid "5032fc78-49ab-3cf9-925f-43d2c8abc14f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4800-073",
+    :postal-c "4800-073",
+    :x -8.297950033237214,
+    :y 41.44853500716786,
+    :score 100,
+    :c 1}}]
  ["romana-01025"
   {:nec 1025,
    :rates
@@ -1294,7 +1393,16 @@
     :cp7 nil,
     :id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
+    :address "Rua Manuel Peixoto, N 211 R/C Creixomil",
+    :address-c "Rua Manuel Peixoto 211, 4835-070, Guimarães, Braga",
+    :postal-c "4835-070",
+    :x -8.302399985633059,
+    :y 41.436199988907305,
+    :score 95.01,
+    :c 1}}]
  ["britense-01071"
   {:nec 1071,
    :rates
@@ -1393,7 +1501,14 @@
     :cp7 "4805-676",
     :id #uuid "01481a0a-c6f5-3e70-a719-a9986423a4d9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4805-676",
+    :postal-c "4805-676",
+    :x -8.364070005884429,
+    :y 41.45278500926344,
+    :score 100,
+    :c 1}}]
  ["nova-geracao-01094"
   {:nec 1094,
    :rates
@@ -1493,7 +1608,18 @@
     :cp7 "4765-550",
     :id #uuid "6958ed7f-a3e4-36aa-a3dd-7a4c07871b63",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "6958ed7f-a3e4-36aa-a3dd-7a4c07871b63",
+    :address
+    "Rua Nova do Agrelo, n.º 196 ; 4765-550 Serzedelo (Guimarães)",
+    :address-c
+    "Rua Nova do Agrelo 196, 4765-550, Serzedelo, Guimarães, Braga",
+    :postal-c "4765-550",
+    :x -8.360850013960544,
+    :y 41.40808000294868,
+    :score 96.36,
+    :c 5}}]
  ["guimaraescidade-01312"
   {:nec 1312,
    :rates
@@ -1593,7 +1719,18 @@
     :cp7 "4835-076",
     :id #uuid "9211fefb-dfc7-3dbb-86fb-f8a423fab0d1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "9211fefb-dfc7-3dbb-86fb-f8a423fab0d1",
+    :address
+    "Rua Arqueólogo Mário Cardoso, n.º 565 ; 4835-076 Guimarães",
+    :address-c
+    "Rua Arqueólogo Mário Cardoso 565, 4800-287, Guimarães, Braga",
+    :postal-c "4800-287",
+    :x -8.306300001361535,
+    :y 41.44699998732983,
+    :score 95.47,
+    :c 1}}]
  ["inovaguima-01387"
   {:nec 1387,
    :rates
@@ -1665,4 +1802,15 @@
     :cp7 "4800-411",
     :id #uuid "1f080992-1c4a-3f13-892c-c4c05483a3e3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "1f080992-1c4a-3f13-892c-c4c05483a3e3",
+    :address
+    "Largo da República do Brasil, n.º 34, 4800-411 São Sebastião",
+    :address-c
+    "Largo da República do Brasil 34, 4810-446, Guimarães, Braga",
+    :postal-c "4810-446",
+    :x -8.289989991248575,
+    :y 41.44164001170623,
+    :score 95.16,
+    :c 1}}]]

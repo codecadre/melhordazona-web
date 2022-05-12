@@ -97,7 +97,18 @@
     :cp7 "4970-459",
     :id #uuid "4cd7f3c9-4d40-30c9-afe2-879472687f9c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
+   :geocode
+   {:id #uuid "4cd7f3c9-4d40-30c9-afe2-879472687f9c",
+    :address
+    "Rua General Amilcar Mota, Nº 181 4970-459 ARCOS DE VALDEVEZ (SALVADOR)",
+    :address-c
+    "Rua General Amílcar Mota 181, 4970-459, Arcos de Valdevez, Viana do Castelo",
+    :postal-c "4970-459",
+    :x -8.421800028729166,
+    :y 41.84793001126866,
+    :score 97.23,
+    :c 2}}]
  ["arcos-de-valdevez-00862"
   {:nec 862,
    :rates
@@ -197,7 +208,18 @@
     :cp7 "4970-595",
     :id #uuid "a775db6f-0b18-3674-a7dd-deabadd677ea",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
+   :geocode
+   {:id #uuid "a775db6f-0b18-3674-a7dd-deabadd677ea",
+    :address
+    "Praça D. Manuel I, Nº 72 4970-595 ARCOS DE VALDEVEZ (SÃO PAIO)",
+    :address-c
+    "Praça Dom Manuel I 72, 4970-595, Novelhos, Arcos de Valdevez, Viana do Castelo",
+    :postal-c "4970-595",
+    :x -8.417007607046232,
+    :y 41.83826183672724,
+    :score 97.62,
+    :c 5}}]
  ["miravez-01381"
   {:nec 1381,
    :rates
@@ -269,4 +291,11 @@
     :cp7 "4970-592",
     :id #uuid "4b3b4fe1-bbd3-33a0-9389-2a30b828b958",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
+   :geocode
+   {:cp7 "4970-592",
+    :postal-c "4970-592",
+    :x -8.415724992945655,
+    :y 41.84285502035303,
+    :score 100,
+    :c 1}}]]

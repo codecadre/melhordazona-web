@@ -95,4 +95,14 @@
   :cp7 "4660-055",
   :id #uuid "4e40a3c4-a3f0-3290-8483-52342222a6f5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Resende"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Resende"},
+ :geocode
+ {:id #uuid "4e40a3c4-a3f0-3290-8483-52342222a6f5",
+  :address "Rua D. Vasco Magalhães, Lote 2 R/C 4660-055 CÁRQUERE",
+  :address-c
+  "Rua Dom Vasco Magalhães 2, 4660-204, Massas, Resende, Viseu",
+  :postal-c "4660-204",
+  :x -7.958977433520868,
+  :y 41.1000773047935,
+  :score 97.26,
+  :c 1}}

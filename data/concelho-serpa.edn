@@ -82,4 +82,13 @@
     :cp7 "7830-320",
     :id #uuid "92b1f849-6fd8-37df-a5a8-5f614d1fbd56",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Serpa"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Serpa"},
+   :geocode
+   {:id #uuid "92b1f849-6fd8-37df-a5a8-5f614d1fbd56",
+    :address "Avª da Paz, Bloco 16 r/c Dtª 7830-320 SERPA",
+    :address-c "Avenida da Paz 16, 7830-320, Serpa, Beja",
+    :postal-c "7830-320",
+    :x -7.6016199903570225,
+    :y 37.94031001065872,
+    :score 98.44,
+    :c 1}}]]

@@ -95,4 +95,13 @@
   :cp7 "5400-017",
   :id #uuid "b5e6e1bd-408e-3e72-ad76-fe3f00d95fc6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
+ :geocode
+ {:id #uuid "b5e6e1bd-408e-3e72-ad76-fe3f00d95fc6",
+  :address "Av. 5 de Outubro, 4 5400-017 SANTA MARIA MAIOR",
+  :address-c "Avenida 5 de Outubro 4, 5400-017, Chaves, Vila Real",
+  :postal-c "5400-017",
+  :x -7.467480035250759,
+  :y 41.74097998614468,
+  :score 95.71,
+  :c 4}}

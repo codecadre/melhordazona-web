@@ -96,4 +96,15 @@
   :cp7 "8400-338",
   :id #uuid "2f9f52f9-27bd-3ca8-8d9c-6683799c5c70",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"},
+ :geocode
+ {:id #uuid "2f9f52f9-27bd-3ca8-8d9c-6683799c5c70",
+  :address
+  "Largo dos Combatentes da Grande Guerra, Nª 6 8400-338 LAGOA",
+  :address-c
+  "Largo Combatentes da Grande Guerra 6, 8400-338, Lagoa, Faro",
+  :postal-c "8400-338",
+  :x -8.455493735867378,
+  :y 37.135646433587084,
+  :score 98.59,
+  :c 1}}

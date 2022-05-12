@@ -95,4 +95,13 @@
   :cp7 "2780-139",
   :id #uuid "61200dcc-d845-3b0d-8dc4-189ad6b5f865",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
+ :geocode
+ {:id #uuid "61200dcc-d845-3b0d-8dc4-189ad6b5f865",
+  :address "Alameda Conde de Oeiras, 95 2780-139 OEIRAS",
+  :address-c "Alameda Conde de Oeiras 95, 2780-135, Oeiras, Lisboa",
+  :postal-c "2780-135",
+  :x -9.323819963877924,
+  :y 38.69093001759188,
+  :score 98.93,
+  :c 1}}

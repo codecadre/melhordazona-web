@@ -96,7 +96,16 @@
     :cp7 "4620-660",
     :id #uuid "722870f9-acdb-32fb-8cf8-a740f3cd31ff",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:id #uuid "722870f9-acdb-32fb-8cf8-a740f3cd31ff",
+    :address "Rua S. João de Deus, Nº 76 R/C e 1º 4620-660 SILVARES",
+    :address-c "Rua S. João de Deus 76, 4620-660, Lousada, Porto",
+    :postal-c "4620-660",
+    :x -8.278369991238407,
+    :y 41.27809001192361,
+    :score 95.09,
+    :c 1}}]
  ["ideal-de-lousada-00553"
   {:nec 553,
    :rates
@@ -195,7 +204,16 @@
     :cp7 "4620-650",
     :id #uuid "00b0add3-1806-3a93-9452-a98aec17eef6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:id #uuid "00b0add3-1806-3a93-9452-a98aec17eef6",
+    :address "Rua Visconde de Alentem 4620-650 SILVARES",
+    :address-c "Rua Visconde de Alentém, 4620-650, Lousada, Porto",
+    :postal-c "4620-650",
+    :x -8.28313522222372,
+    :y 41.2749538994789,
+    :score 96.53,
+    :c 1}}]
  ["santa-quiteria-00719"
   {:nec 719,
    :rates
@@ -295,7 +313,18 @@
     :cp7 "4620-131",
     :id #uuid "b120e54a-66ec-378e-a253-f00c5886695a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:id #uuid "b120e54a-66ec-378e-a253-f00c5886695a",
+    :address
+    "Avª dos Combatentes da Grande Guerra, Nº 407 4620-131 CRISTELOS",
+    :address-c
+    "Avenida Combatentes da Grande Guerra 407, 4620-141, Lousada, Porto",
+    :postal-c "4620-141",
+    :x -8.288363793387434,
+    :y 41.27911836749013,
+    :score 96.38,
+    :c 1}}]
  ["a-nortenha-00761"
   {:nec 761,
    :rates
@@ -395,7 +424,14 @@
     :cp7 "4620-429",
     :id #uuid "a7738306-458d-3134-a6fa-44e953ee10df",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:cp7 "4620-429",
+    :postal-c "4620-429",
+    :x -8.307410016799082,
+    :y 41.25303000735727,
+    :score 100,
+    :c 1}}]
  ["senhora-aparecida-00822"
   {:nec 822,
    :rates
@@ -594,7 +630,18 @@
     :cp7 "4620-141",
     :id #uuid "f62830a0-0f78-3291-badc-9de34a2be3dd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:id #uuid "f62830a0-0f78-3291-badc-9de34a2be3dd",
+    :address
+    "Avª dos Combatentes da Grande Guerra n º 342 4620-141 CRISTELO",
+    :address-c
+    "Avenida Combatentes da Grande Guerra 342, 4620-141, Lousada, Porto",
+    :postal-c "4620-141",
+    :x -8.287866675848353,
+    :y 41.27934930536194,
+    :score 96.31,
+    :c 1}}]
  ["a-moderna-de-lustosa-00896"
   {:nec 896,
    :rates
@@ -693,7 +740,14 @@
     :cp7 "4620-294",
     :id #uuid "67819a40-bf6d-31fe-b862-39748a0c9380",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:cp7 "4620-294",
+    :postal-c "4620-294",
+    :x -8.321754051522248,
+    :y 41.277263765818105,
+    :score 100,
+    :c 1}}]
  ["globo-01250"
   {:nec 1250,
    :rates
@@ -792,4 +846,11 @@
     :cp7 "4620-074",
     :id #uuid "a84709ef-7403-3fb5-aae7-a97d83730cb6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:cp7 "4620-074",
+    :postal-c "4620-074",
+    :x -8.215809477593666,
+    :y 41.27202620789038,
+    :score 100,
+    :c 1}}]]

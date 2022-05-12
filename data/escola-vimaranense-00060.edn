@@ -95,4 +95,14 @@
   :cp7 "4810-431",
   :id #uuid "e30d9b07-01c2-39ed-893e-2792f2ac0836",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+ :geocode
+ {:id #uuid "e30d9b07-01c2-39ed-893e-2792f2ac0836",
+  :address "Rua D. Afonso Henriques, 194 - 1º 4810-431 GUIMARÃES",
+  :address-c
+  "Rua Dom Afonso Henriques 194, 4800-866, Gominhães, Guimarães, Braga",
+  :postal-c "4800-866",
+  :x -8.270579541121274,
+  :y 41.472666251224766,
+  :score 97.16,
+  :c 2}}

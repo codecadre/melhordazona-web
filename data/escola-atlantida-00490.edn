@@ -95,4 +95,14 @@
   :cp7 "2735",
   :id #uuid "cc30a675-a38f-3719-9a97-423d856c48af",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "cc30a675-a38f-3719-9a97-423d856c48af",
+  :address "Avª D. Nuno Álvares Pereira n 76 A 2735 CACÉM",
+  :address-c
+  "Avenida Dom Nuno Álvares Pereira 76, 2735-146, Agualva, Sintra, Lisboa",
+  :postal-c "2735-146",
+  :x -9.292490002369732,
+  :y 38.770170015641554,
+  :score 95.44,
+  :c 1}}

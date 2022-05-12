@@ -96,7 +96,17 @@
     :cp7 "3600-187",
     :id #uuid "5715d5b7-48af-3264-94f7-8114efb5ca7f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
+   :geocode
+   {:id #uuid "5715d5b7-48af-3264-94f7-8114efb5ca7f",
+    :address "Avª General Humberto Delgado 3600-187 CASTRO DAIRE",
+    :address-c
+    "Avenida General Humberto Delgado, 3600-187, Castro Daire, Viseu",
+    :postal-c "3600-187",
+    :x -7.9333290223644966,
+    :y 40.90130095651663,
+    :score 100,
+    :c 1}}]
  ["castrense-00611"
   {:nec 611,
    :rates
@@ -195,7 +205,14 @@
     :cp7 "3600-191",
     :id #uuid "31187b4f-4137-3316-be51-7302752a52ad",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
+   :geocode
+   {:cp7 "3600-191",
+    :postal-c "3600-191",
+    :x -7.928765000742288,
+    :y 40.899420017795364,
+    :score 100,
+    :c 1}}]
  ["castro-daire-01343"
   {:nec 1343,
    :rates
@@ -281,4 +298,11 @@
     :cp7 "3600-127",
     :id #uuid "b97c5e06-d13c-39a2-a325-4625e7264cb7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
+   :geocode
+   {:cp7 "3600-127",
+    :postal-c "3600-127",
+    :x -7.9229907914637465,
+    :y 40.89873131872096,
+    :score 100,
+    :c 1}}]]

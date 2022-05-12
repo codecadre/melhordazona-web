@@ -95,4 +95,13 @@
   :cp7 "4820-268",
   :id #uuid "5732dbe9-8bda-3c0f-bde6-cfe29fbda381",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+ :geocode
+ {:id #uuid "5732dbe9-8bda-3c0f-bde6-cfe29fbda381",
+  :address "Rua João XXIII, 209 - 1º 4820-268 FAFE",
+  :address-c "Rua João XXIII 209, 4820-268, Fafe, Braga",
+  :postal-c "4820-268",
+  :x -8.16992993652714,
+  :y 41.44972986734584,
+  :score 99.29,
+  :c 1}}

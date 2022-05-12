@@ -96,4 +96,15 @@
   :cp7 "2750-350",
   :id #uuid "c7f9b57e-fa12-3bf4-b656-4f3c7c51c0e8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+ :geocode
+ {:id #uuid "c7f9b57e-fa12-3bf4-b656-4f3c7c51c0e8",
+  :address
+  "Praça Dr.Francisco Sá Carneiro, Nº 3 - 1º Porta 3 2750-350 CASCAIS",
+  :address-c
+  "Praça Doutor Francisco Sá Carneiro 3, 2750-350, Cascais, Lisboa",
+  :postal-c "2750-350",
+  :x -9.420400024121818,
+  :y 38.70078001110852,
+  :score 97.06,
+  :c 1}}

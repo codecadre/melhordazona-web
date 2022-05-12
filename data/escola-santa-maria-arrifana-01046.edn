@@ -95,4 +95,14 @@
   :cp7 "3700-445",
   :id #uuid "dd5f1a3c-3373-3200-b18d-60c63329ec62",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "dd5f1a3c-3373-3200-b18d-60c63329ec62",
+  :address "Avª 5 de Outubro, Nº 257 3700-445 ARRIFANA",
+  :address-c
+  "Avenida 5 de Outubro 257, 3700-457, Arrifana, Santa Maria da Feira, Aveiro",
+  :postal-c "3700-457",
+  :x -8.496479651097232,
+  :y 40.911540403269115,
+  :score 96.4,
+  :c 2}}

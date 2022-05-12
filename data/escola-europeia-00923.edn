@@ -95,4 +95,14 @@
   :cp7 "4760-093",
   :id #uuid "e8751bbc-ec6d-373d-88e3-06a78a5ecd94",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+ :geocode
+ {:id #uuid "e8751bbc-ec6d-373d-88e3-06a78a5ecd94",
+  :address "Rua de S. Vicente, 457 4760-093 VILA NOVA DE FAMALICÃO",
+  :address-c
+  "Rua de São Vicente 457, 4760-093, Vila Nova de Famalicão, Braga",
+  :postal-c "4760-093",
+  :x -8.518829813887415,
+  :y 41.415297881647206,
+  :score 100,
+  :c 2}}

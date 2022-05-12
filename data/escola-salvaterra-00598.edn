@@ -96,4 +96,14 @@
   :cp7 "2695-214",
   :id #uuid "ddc3db66-672a-32e6-bee6-a2f2ac6472ac",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "ddc3db66-672a-32e6-bee6-a2f2ac6472ac",
+  :address "Rua da Circunvalação 2695-214 PÓVOA SANTA IRIA",
+  :address-c
+  "Rua da Circunvalação, 2690-214, Bairro do Estacal Novo, Loures, Lisboa",
+  :postal-c "2690-214",
+  :x -9.093327485178767,
+  :y 38.83210426890922,
+  :score 82.23,
+  :c 6}}

@@ -96,4 +96,15 @@
   :cp7 "7090-270",
   :id #uuid "adb1ca58-111b-33a8-9334-6e35a89c4a15",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Viana%20do%20Alentejo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Viana%20do%20Alentejo"},
+ :geocode
+ {:id #uuid "adb1ca58-111b-33a8-9334-6e35a89c4a15",
+  :address
+  "Rua Dr. Júlio Pereira Garrido, Nº 12 7090-270 VIANA DO ALENTEJO",
+  :address-c
+  "Rua Dr. Júlio Pereira Garrido 12, 7090-270, Viana do Alentejo, Évora",
+  :postal-c "7090-270",
+  :x -8.006270028653688,
+  :y 38.33552998878784,
+  :score 98.6,
+  :c 3}}

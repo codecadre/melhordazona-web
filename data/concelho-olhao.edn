@@ -96,7 +96,14 @@
     :cp7 "8700-308",
     :id #uuid "3d0f6fbb-dc5c-35ec-b9a4-1e497edbbfae",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
+   :geocode
+   {:cp7 "8700-308",
+    :postal-c "8700-308",
+    :x -7.839844994172381,
+    :y 37.028220015125456,
+    :score 100,
+    :c 1}}]
  ["infante-sagres-olhao-00607"
   {:nec 607,
    :rates
@@ -195,7 +202,14 @@
     :cp7 "8700-425",
     :id #uuid "94eabd2f-2fd5-381f-a4ac-e89dcba3e188",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
+   :geocode
+   {:cp7 "8700-425",
+    :postal-c "8700-425",
+    :x -7.841793535203578,
+    :y 37.02971350263326,
+    :score 100,
+    :c 1}}]
  ["ria-formosa-00667"
   {:nec 667,
    :rates
@@ -295,7 +309,17 @@
     :cp7 "8700",
     :id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
+   :geocode
+   {:id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
+    :address "Avenida dos Bombeiros Municipais n 30 8700 OLHÃO",
+    :address-c
+    "Avenida dos Bombeiros Municipais de Olhão 30, 8700-312, Olhão, Faro",
+    :postal-c "8700-312",
+    :x -7.8468500021132,
+    :y 37.030129999402035,
+    :score 97.61,
+    :c 1}}]
  ["auto-quelfes-00727"
   {:nec 727,
    :rates
@@ -394,7 +418,16 @@
     :cp7 "8700-218",
     :id #uuid "6fb5395e-8a7d-3d0e-a9cb-d55fda862ec8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
+   :geocode
+   {:id #uuid "6fb5395e-8a7d-3d0e-a9cb-d55fda862ec8",
+    :address "Estrada de Quelfes nº 69 B r/c 8700-218 QUELFES",
+    :address-c "Estrada Quelfes 69B, 8700-218, Olhão, Faro",
+    :postal-c "8700-218",
+    :x -7.834839992148261,
+    :y 37.038990006334615,
+    :score 96.04,
+    :c 2}}]
  ["moncarapachense-01083"
   {:nec 1083,
    :rates
@@ -493,4 +526,11 @@
     :cp7 "8700-120",
     :id #uuid "f6edce3a-dad7-3762-a74f-c0a145382e06",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
+   :geocode
+   {:cp7 "8700-120",
+    :postal-c "8700-120",
+    :x -7.760725024976182,
+    :y 37.063560004841335,
+    :score 100,
+    :c 1}}]]

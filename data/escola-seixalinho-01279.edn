@@ -95,4 +95,13 @@
   :cp7 "2830-095",
   :id #uuid "204fd63b-ef82-3f11-a166-e882e0eb13ef",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+ :geocode
+ {:id #uuid "204fd63b-ef82-3f11-a166-e882e0eb13ef",
+  :address "Rua Nuno Tristão, 1 B, 2830-095 Barreiro",
+  :address-c "Rua Nuno Tristão 1B, 2830-095, Barreiro, Setúbal",
+  :postal-c "2830-095",
+  :x -9.060819982113685,
+  :y 38.6559400142431,
+  :score 99.99,
+  :c 1}}

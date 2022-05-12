@@ -95,4 +95,14 @@
   :cp7 "2695-021",
   :id #uuid "a05f19af-09ad-3320-bd96-a76c217c0564",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+ :geocode
+ {:id #uuid "a05f19af-09ad-3320-bd96-a76c217c0564",
+  :address "Praceta Antero de Quental, n.º 2 B ; 2695-021 Bobadela",
+  :address-c
+  "Praceta Antero de Quental 2, 2695-021, Bobadela, Loures, Lisboa",
+  :postal-c "2695-021",
+  :x -9.101719981572472,
+  :y 38.80657999720731,
+  :score 96.38,
+  :c 1}}

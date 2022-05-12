@@ -96,4 +96,13 @@
     :cp7 "3230-257",
     :id #uuid "50a55030-a87e-3c0e-8d8a-6947a7b3d714",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Penela"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Penela"},
+   :geocode
+   {:id #uuid "50a55030-a87e-3c0e-8d8a-6947a7b3d714",
+    :address "Bairro de S. Jorge 3230-257 PENELA",
+    :address-c "Bairro de São Jorge, 3230-257, Penela, Coimbra",
+    :postal-c "3230-257",
+    :x -8.385557844121701,
+    :y 40.02570738439014,
+    :score 100,
+    :c 1}}]]

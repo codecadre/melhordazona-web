@@ -67,4 +67,14 @@
   :cp7 nil,
   :id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+ :geocode
+ {:id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
+  :address "Praceta do leigal, n.º 128 freguesia de Freamunde",
+  :address-c
+  "Praceta de Leigal 128, 4590-384, Freamunde, Paços de Ferreira, Porto",
+  :postal-c "4590-384",
+  :x -8.33390999042146,
+  :y 41.285260017628445,
+  :score 92.37,
+  :c 3}}

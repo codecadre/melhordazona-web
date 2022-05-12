@@ -95,4 +95,14 @@
   :cp7 "4750-106",
   :id #uuid "0b1abd08-54f4-33a1-9670-9513a50551c5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+ :geocode
+ {:id #uuid "0b1abd08-54f4-33a1-9670-9513a50551c5",
+  :address "Avª Alcaides de Faria, 425 - 1º-Sala 3 4750-106 BARCELOS",
+  :address-c
+  "Avenida Alcaides de Faria 425, 4750-106, Barcelos, Braga",
+  :postal-c "4750-106",
+  :x -8.614610897964747,
+  :y 41.53463358437721,
+  :score 98.37,
+  :c 1}}

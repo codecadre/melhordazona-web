@@ -95,4 +95,14 @@
   :cp7 "3100-081",
   :id #uuid "5f168052-0d5a-33d2-8130-664fc2de91ae",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
+ :geocode
+ {:id #uuid "5f168052-0d5a-33d2-8130-664fc2de91ae",
+  :address "Rua Principal nº 289 r/c 3100-081 ALBERGARIA DOZE",
+  :address-c
+  "Rua Principal 289, 3100-081, Albergaria dos Doze, Pombal, Leiria",
+  :postal-c "3100-081",
+  :x -8.583103804189307,
+  :y 39.797970424312155,
+  :score 97.59,
+  :c 2}}

@@ -95,4 +95,14 @@
   :cp7 "2840-732",
   :id #uuid "84744ece-ecab-32be-badc-9bce5e9532f6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
+ :geocode
+ {:id #uuid "84744ece-ecab-32be-badc-9bce5e9532f6",
+  :address "Rua Casal do Marco, Nº 73 C e 73 D, 2840-732 SEIXAL",
+  :address-c
+  "Rua Casal do Marco 73, 2840-732, Casal do Marco, Seixal, Setúbal",
+  :postal-c "2840-732",
+  :x -9.10046001388713,
+  :y 38.61120001348257,
+  :score 97.13,
+  :c 1}}

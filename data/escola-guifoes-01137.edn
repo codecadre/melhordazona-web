@@ -95,4 +95,14 @@
   :cp7 "4460-125",
   :id #uuid "fc305155-01d6-38ec-af89-03ce41307985",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+ :geocode
+ {:id #uuid "fc305155-01d6-38ec-af89-03ce41307985",
+  :address "Av. Joaquim Neves dos Santos, n.º 697 ; 4460-125 Guifões",
+  :address-c
+  "Avenida Joaquim Neves dos Santos, 4460-125, Guifões, Matosinhos, Porto",
+  :postal-c "4460-125",
+  :x -8.667271626618993,
+  :y 41.19432106837668,
+  :score 95.83,
+  :c 3}}

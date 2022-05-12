@@ -95,4 +95,14 @@
   :cp7 "4435-674",
   :id #uuid "1858f30e-6c33-3890-8807-8ce7e5d8d1fc",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+ :geocode
+ {:id #uuid "1858f30e-6c33-3890-8807-8ce7e5d8d1fc",
+  :address "Rua D. João de Castro, Nº 587 4435-674 BAGUIM DO MONTE",
+  :address-c
+  "Rua Dom João de Castro 587, 4435-674, Alto da Serra, Gondomar, Porto",
+  :postal-c "4435-674",
+  :x -8.524191402425343,
+  :y 41.1902641493166,
+  :score 97.35,
+  :c 4}}

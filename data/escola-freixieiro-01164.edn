@@ -95,4 +95,14 @@
   :cp7 "4455-515",
   :id #uuid "76b5016f-655d-3ec5-9c27-140faa6e8d1b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+ :geocode
+ {:id #uuid "76b5016f-655d-3ec5-9c27-140faa6e8d1b",
+  :address "Rua das Oliveiras, Nº 171 R/C Dtº 4455-515 PERAFITA",
+  :address-c
+  "Rua das Oliveiras 171, 4455-515, Padrão, Matosinhos, Porto",
+  :postal-c "4455-515",
+  :x -8.686329959280016,
+  :y 41.22383001317448,
+  :score 96.11,
+  :c 1}}

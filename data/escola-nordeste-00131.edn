@@ -95,4 +95,13 @@
   :cp7 "5370-204",
   :id #uuid "94eb941d-67c3-3b04-9fd4-8d5798eb73de",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"},
+ :geocode
+ {:id #uuid "94eb941d-67c3-3b04-9fd4-8d5798eb73de",
+  :address "Avª das Amoreiras Lote 2-1º 5370-204 MIRANDELA",
+  :address-c "Avenida das Amoreiras 2, 5370-204, Mirandela, Bragança",
+  :postal-c "5370-204",
+  :x -7.179689988111932,
+  :y 41.48356997942719,
+  :score 99.47,
+  :c 7}}

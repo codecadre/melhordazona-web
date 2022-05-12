@@ -40,4 +40,15 @@
   :cp7 "4410-220",
   :id #uuid "61adc274-38ca-37dc-ad0e-d06073995542",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "61adc274-38ca-37dc-ad0e-d06073995542",
+  :address
+  "Praceta Padre João Moreira nº 41 4410-220 S. FÉLIX da MARINHA",
+  :address-c
+  "Praceta Padre João Moreira 41, 4410-220, Mesura, Vila Nova de Gaia, Porto",
+  :postal-c "4410-220",
+  :x -8.629309967453281,
+  :y 41.02455998818601,
+  :score 97.42,
+  :c 1}}

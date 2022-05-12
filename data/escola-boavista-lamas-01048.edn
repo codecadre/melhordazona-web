@@ -95,4 +95,14 @@
   :cp7 "4535-404",
   :id #uuid "5d1e039d-d8ce-34f1-9222-d44d92337654",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "5d1e039d-d8ce-34f1-9222-d44d92337654",
+  :address "Rua de S. José nº 68 4535-404 SANTA MARIA LAMAS",
+  :address-c
+  "Rua de São José 68, 4535-404, Santa Maria de Lamas, Santa Maria da Feira, Aveiro",
+  :postal-c "4535-404",
+  :x -8.573279962210592,
+  :y 40.978409983673316,
+  :score 98.16,
+  :c 2}}

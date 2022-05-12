@@ -95,4 +95,13 @@
   :cp7 "6400-370",
   :id #uuid "f460634f-22c2-3fa5-9f74-2ae3233523a8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"},
+ :geocode
+ {:id #uuid "f460634f-22c2-3fa5-9f74-2ae3233523a8",
+  :address "Rua Conde Ferreira 6400-370 PINHEL",
+  :address-c "Rua Conde Ferreira, 6400-370, Pinhel, Guarda",
+  :postal-c "6400-370",
+  :x -7.065995555468279,
+  :y 40.77383436378259,
+  :score 100,
+  :c 1}}

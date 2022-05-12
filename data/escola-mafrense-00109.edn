@@ -95,4 +95,13 @@
   :cp7 "2640-467",
   :id #uuid "4edac723-4bc7-327b-a45b-6feb8e6734e4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+ :geocode
+ {:id #uuid "4edac723-4bc7-327b-a45b-6feb8e6734e4",
+  :address "Rua Dr.Carlos Galrão, Nº 5 2640-467 MAFRA",
+  :address-c "Rua Doutor Carlos Galrão 5, 2640-467, Mafra, Lisboa",
+  :postal-c "2640-467",
+  :x -9.330439991005903,
+  :y 38.94029000259019,
+  :score 98.38,
+  :c 3}}

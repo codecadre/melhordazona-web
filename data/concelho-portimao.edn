@@ -96,7 +96,16 @@
     :cp7 "8500-536",
     :id #uuid "9d851331-6285-324e-8d77-1f1eb4d2d4ae",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+   :geocode
+   {:id #uuid "9d851331-6285-324e-8d77-1f1eb4d2d4ae",
+    :address "Largo Gil Eanes, Loja 5 8500-536 PORTIMÃO",
+    :address-c "Largo Gil Eanes 5, 8500-536, Portimão, Faro",
+    :postal-c "8500-536",
+    :x -8.539870031429388,
+    :y 37.143490001160416,
+    :score 97.8,
+    :c 1}}]
  ["infante-sagresportimao-00509"
   {:nec 509,
    :rates
@@ -195,7 +204,14 @@
     :cp7 "8500-543",
     :id #uuid "418cc9c8-d520-31e3-984c-bdc69397b077",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+   :geocode
+   {:cp7 "8500-543",
+    :postal-c "8500-543",
+    :x -8.537565008056134,
+    :y 37.136834979586695,
+    :score 100,
+    :c 1}}]
  ["infante-de-sagres-portimao-ii-00584"
   {:nec 584,
    :rates
@@ -294,7 +310,14 @@
     :cp7 "8500-547",
     :id #uuid "4a81bf8e-19a3-316a-858d-6ba6b6dee5de",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+   :geocode
+   {:cp7 "8500-547",
+    :postal-c "8500-547",
+    :x -8.539895009500867,
+    :y 37.13166497979856,
+    :score 100,
+    :c 1}}]
  ["a-mourinha-00781"
   {:nec 781,
    :rates
@@ -394,7 +417,18 @@
     :cp7 "8500-784",
     :id #uuid "bc79baca-b5b8-3d78-b68a-036d02562856",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+   :geocode
+   {:id #uuid "bc79baca-b5b8-3d78-b68a-036d02562856",
+    :address
+    "Urbanização Vila Paraíso, Lote 105, Loja B - Vale Lagar 8500-784 PORTIMÃO",
+    :address-c
+    "Urbanização Vila Paraíso 105, 8500-784, Vale do Lugar, Portimão, Faro",
+    :postal-c "8500-784",
+    :x -8.563069965952565,
+    :y 37.143900001954236,
+    :score 98.05,
+    :c 1}}]
  ["terceiro-milenio-00943"
   {:nec 943,
    :rates
@@ -594,7 +628,17 @@
     :cp7 "8500",
     :id #uuid "38af49e3-95e7-35b3-931f-851dbda926ee",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+   :geocode
+   {:id #uuid "38af49e3-95e7-35b3-931f-851dbda926ee",
+    :address
+    "Urbanização Vila Rosa Lote 16/16 A – Loja D 4 8500 PORTIMÃO",
+    :address-c "Urbanização Vila Rosa 16, 8500-782, Portimão, Faro",
+    :postal-c "8500-782",
+    :x -8.5388099721348,
+    :y 37.12561001867317,
+    :score 99.35,
+    :c 2}}]
  ["dalvor-01209"
   {:nec 1209,
    :rates
@@ -693,4 +737,13 @@
     :cp7 "8500-001",
     :id #uuid "b13cae0a-036b-3fbc-aa96-ff529dc11e24",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+   :geocode
+   {:id #uuid "b13cae0a-036b-3fbc-aa96-ff529dc11e24",
+    :address "Rua 1º de Dezembro, Nº 30 8500 -001 ALVOR",
+    :address-c "Rua 1 de Dezembro 30, 8500-027, Alvor, Portimão, Faro",
+    :postal-c "8500-027",
+    :x -8.592890686529277,
+    :y 37.13108463064124,
+    :score 97.3,
+    :c 1}}]]

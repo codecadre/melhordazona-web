@@ -95,4 +95,13 @@
   :cp7 "7300-189",
   :id #uuid "282cbaa4-d3ba-3964-88f5-3fe7ac119f6d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
+ :geocode
+ {:id #uuid "282cbaa4-d3ba-3964-88f5-3fe7ac119f6d",
+  :address "Rua João da Fonseca Achiolle, 27 - 1º 7300-189 PORTALEGRE",
+  :address-c "Rua João da Fonseca Achaioli 27, 7300-189, Portalegre",
+  :postal-c "7300-189",
+  :x -7.432929997999651,
+  :y 39.29051998969658,
+  :score 97.58,
+  :c 1}}

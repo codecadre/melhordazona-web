@@ -97,7 +97,14 @@
     :cp7 "4490-409",
     :id #uuid "3429221d-75ae-3765-829a-36edbfb4ae58",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:cp7 "4490-409",
+    :postal-c "4490-409",
+    :x -8.763855019939996,
+    :y 41.38147001684712,
+    :score 100,
+    :c 1}}]
  ["guedes-vieira-povoa-de-varzim-00479"
   {:nec 479,
    :rates
@@ -196,7 +203,14 @@
     :cp7 "4490-410",
     :id #uuid "eb289911-51dc-387c-9fa3-2c2886d8e10a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:cp7 "4490-410",
+    :postal-c "4490-410",
+    :x -8.76909999585203,
+    :y 41.38723999326456,
+    :score 100,
+    :c 1}}]
  ["agucadourense-00660"
   {:nec 660,
    :rates
@@ -295,7 +309,17 @@
     :cp7 "4495-025",
     :id #uuid "684e0910-c636-3664-bfff-2987cdc8c19d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "684e0910-c636-3664-bfff-2987cdc8c19d",
+    :address "Rua da Codixeira, Nº 66, 4495-025 PÓVOA DE VARZIM",
+    :address-c
+    "Rua da Codixeira 66, 4495-025, Aguçadoura, Póvoa de Varzim, Porto",
+    :postal-c "4495-025",
+    :x -8.776770691925096,
+    :y 41.43016426704915,
+    :score 97.38,
+    :c 6}}]
  ["universal-00696"
   {:nec 696,
    :rates
@@ -394,7 +418,17 @@
     :cp7 "4490-097",
     :id #uuid "7efe270a-2ea7-3feb-acde-ff77b81c9cd1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "7efe270a-2ea7-3feb-acde-ff77b81c9cd1",
+    :address "Rua José Ferreira Coelho n º 115 4490-097 A VER-O-MAR",
+    :address-c
+    "Rua José Ferreira Coelho 115, 4490-097, A Ver-o-Mar, Póvoa de Varzim, Porto",
+    :postal-c "4490-097",
+    :x -8.768509993687502,
+    :y 41.403949987797034,
+    :score 97.03,
+    :c 1}}]
  ["rosinha-00838"
   {:nec 838,
    :rates
@@ -494,7 +528,14 @@
     :cp7 "4570-477",
     :id #uuid "03204dcc-a46a-3b07-b085-35160ebc171e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:cp7 "4570-477",
+    :postal-c "4570-477",
+    :x -8.666039970082238,
+    :y 41.43110500715258,
+    :score 100,
+    :c 1}}]
  ["vermar-00887"
   {:nec 887,
    :rates
@@ -593,7 +634,17 @@
     :cp7 "4490-107",
     :id #uuid "f7278ce9-fe68-3769-af8d-d336f02e93b3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "f7278ce9-fe68-3769-af8d-d336f02e93b3",
+    :address "Rua Silveira Campos, 25 r/c 4490-107 A VER-O-MAR",
+    :address-c
+    "Rua de Silveira Campos 25, 4490-107, A Ver-o-Mar, Póvoa de Varzim, Porto",
+    :postal-c "4490-107",
+    :x -8.772340020524496,
+    :y 41.40289998678625,
+    :score 99.44,
+    :c 1}}]
  ["lobos-do-mar-01220"
   {:nec 1220,
    :rates
@@ -693,7 +744,14 @@
     :cp7 "4495-137",
     :id #uuid "3d55855f-574c-3bc6-a83d-31fb22ff8040",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:cp7 "4495-137",
+    :postal-c "4495-137",
+    :x -8.743569976065118,
+    :y 41.40516498657183,
+    :score 100,
+    :c 1}}]
  ["a-sebastiana-01400"
   {:nec 1400,
    :rates
@@ -764,7 +822,17 @@
     :cp7 nil,
     :id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
+    :address "Praceta do leigal, n.º 128 freguesia de Freamunde",
+    :address-c
+    "Praceta de Leigal 128, 4590-384, Freamunde, Paços de Ferreira, Porto",
+    :postal-c "4590-384",
+    :x -8.33390999042146,
+    :y 41.285260017628445,
+    :score 92.37,
+    :c 3}}]
  ["fim-da-linha-01411"
   {:nec 1411,
    :rates
@@ -821,4 +889,13 @@
     :cp7 "4490-463",
     :id #uuid "1e662879-eab9-3387-8e18-d5fb33df8158",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "1e662879-eab9-3387-8e18-d5fb33df8158",
+    :address "Rua Almirante Reis, n.º 40, 4490-463 Póvoa de Varzim",
+    :address-c "Rua Almirante Reis, 4490-463, Póvoa de Varzim, Porto",
+    :postal-c "4490-463",
+    :x -8.75843436747284,
+    :y 41.37735304859002,
+    :score 96.5,
+    :c 3}}]]

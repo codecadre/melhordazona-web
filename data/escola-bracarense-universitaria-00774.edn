@@ -95,4 +95,13 @@
   :cp7 "4710-093",
   :id #uuid "deb80c13-6f1a-33b1-8009-20f8bd234fb5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "deb80c13-6f1a-33b1-8009-20f8bd234fb5",
+  :address "Rua da Lameira nº 16 4710-093 GUALTAR",
+  :address-c "Rua da Lameira 16, 4710-093, Gualtar, Braga",
+  :postal-c "4710-093",
+  :x -8.387809986429204,
+  :y 41.56403000539356,
+  :score 98.34,
+  :c 2}}

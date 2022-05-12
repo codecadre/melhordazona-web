@@ -95,4 +95,13 @@
   :cp7 "8500-001",
   :id #uuid "b13cae0a-036b-3fbc-aa96-ff529dc11e24",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+ :geocode
+ {:id #uuid "b13cae0a-036b-3fbc-aa96-ff529dc11e24",
+  :address "Rua 1º de Dezembro, Nº 30 8500 -001 ALVOR",
+  :address-c "Rua 1 de Dezembro 30, 8500-027, Alvor, Portimão, Faro",
+  :postal-c "8500-027",
+  :x -8.592890686529277,
+  :y 37.13108463064124,
+  :score 97.3,
+  :c 1}}

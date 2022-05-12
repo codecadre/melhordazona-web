@@ -96,4 +96,14 @@
   :cp7 "1950-178",
   :id #uuid "155941b0-d538-321a-8c87-c282d0953362",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "155941b0-d538-321a-8c87-c282d0953362",
+  :address
+  "Rua Luis Cristino da Silva, Lote 238, Loja D 1950-178 LISBOA",
+  :address-c "Rua Luís Cristino da Silva 238, 1950-178, Lisboa",
+  :postal-c "1950-178",
+  :x -9.123270022274596,
+  :y 38.75850999204371,
+  :score 100,
+  :c 1}}

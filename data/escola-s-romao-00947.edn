@@ -95,4 +95,13 @@
   :cp7 "4745-524",
   :id #uuid "6ee83229-82d8-3b1f-ad17-a5781c624611",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+ :geocode
+ {:id #uuid "6ee83229-82d8-3b1f-ad17-a5781c624611",
+  :address "Rua do Horizonte, 1567 R/C; 4745-524 São Romão (Coronado)",
+  :address-c "Rua do Horizonte 1567, 4745-524, Seixal, Trofa, Porto",
+  :postal-c "4745-524",
+  :x -8.55807996753515,
+  :y 41.279910016469614,
+  :score 96.52,
+  :c 5}}

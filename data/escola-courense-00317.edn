@@ -95,4 +95,14 @@
   :cp7 "4940-542",
   :id #uuid "31f11dd8-8ef7-33b5-b9a9-babba82a902a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Paredes%20de%20Coura"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Paredes%20de%20Coura"},
+ :geocode
+ {:id #uuid "31f11dd8-8ef7-33b5-b9a9-babba82a902a",
+  :address "Rua Pereira da Cunha, s/nº 4940-542 PAREDES DE COURA",
+  :address-c
+  "Rua Pereira da Cunha, 4940-542, Paredes de Coura, Viana do Castelo",
+  :postal-c "4940-542",
+  :x -8.564309127788178,
+  :y 41.913969831348474,
+  :score 97.44,
+  :c 1}}

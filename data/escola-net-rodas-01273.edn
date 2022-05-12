@@ -95,4 +95,14 @@
   :cp7 "2870-059",
   :id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
+ :geocode
+ {:id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
+  :address "Rua António Fortunato de Sousa, n.º 71, 2870-059 MONTIJO",
+  :address-c
+  "Rua António Fortunato de Sousa, 2870-054, Montijo, Setúbal",
+  :postal-c "2870-054",
+  :x -8.978027344430592,
+  :y 38.705149808125164,
+  :score 95.29,
+  :c 2}}

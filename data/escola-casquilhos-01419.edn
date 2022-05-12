@@ -53,4 +53,13 @@
   :cp7 "2830-554",
   :id #uuid "941587fe-f170-3937-929b-b8c28b8048e5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+ :geocode
+ {:id #uuid "941587fe-f170-3937-929b-b8c28b8048e5",
+  :address "Rua José Cardoso Pires, n.º 3 C, 2830-554 Barreiro",
+  :address-c "Rua José Cardoso Pires, 2830-554, Barreiro, Setúbal",
+  :postal-c "2830-554",
+  :x -9.058139231301945,
+  :y 38.65158004157783,
+  :score 96.32,
+  :c 2}}

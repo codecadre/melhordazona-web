@@ -95,4 +95,14 @@
   :cp7 "3080-008",
   :id #uuid "96873bbc-38fe-3e2c-86c0-4659b82833c6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
+ :geocode
+ {:id #uuid "96873bbc-38fe-3e2c-86c0-4659b82833c6",
+  :address "Rua Dr. José Jardim, nº 22-1º 3080-008 FIGUEIRA DA FOZ",
+  :address-c
+  "Rua Doutor José Jardim 22, 3080-066, Figueira da Foz, Coimbra",
+  :postal-c "3080-066",
+  :x -8.85755834655375,
+  :y 40.149591353245945,
+  :score 96.97,
+  :c 1}}

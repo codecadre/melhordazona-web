@@ -95,4 +95,13 @@
   :cp7 "2460",
   :id #uuid "6d42f60d-44bc-3d21-8ae5-04a9932a7a8a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+ :geocode
+ {:id #uuid "6d42f60d-44bc-3d21-8ae5-04a9932a7a8a",
+  :address "Rua Costa Veiga, Nº 56-58 Apartado 179 2460 –028 ALCOBAÇA",
+  :address-c "Rua Costa Veiga 56, 2460-028, Alcobaça, Leiria",
+  :postal-c "2460-028",
+  :x -8.974600038013705,
+  :y 39.545690016609484,
+  :score 95.7,
+  :c 1}}

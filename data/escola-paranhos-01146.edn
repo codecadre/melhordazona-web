@@ -95,4 +95,13 @@
   :cp7 "4200-509",
   :id #uuid "fea1d289-a1a6-38d3-b66b-b4050707a2b5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "fea1d289-a1a6-38d3-b66b-b4050707a2b5",
+  :address "Rua Vale Formoso, Nº 280-R/C 4200-509 PORTO",
+  :address-c "Rua do Vale Formoso 280, 4200-509, Porto",
+  :postal-c "4200-509",
+  :x -8.61203997796963,
+  :y 41.16788998766239,
+  :score 97.8,
+  :c 2}}

@@ -95,4 +95,13 @@
   :cp7 "2910-710",
   :id #uuid "0aabfa3d-324b-3463-9503-bf39478e9d76",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+ :geocode
+ {:id #uuid "0aabfa3d-324b-3463-9503-bf39478e9d76",
+  :address "Avª das Descobertas lote 5 letra A 2910-710 SETÚBAL",
+  :address-c "Avenida das Descobertas 5, 2910-711, Setúbal",
+  :postal-c "2910-711",
+  :x -8.866380028830093,
+  :y 38.53359000223389,
+  :score 95.29,
+  :c 1}}

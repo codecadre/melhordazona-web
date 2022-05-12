@@ -96,4 +96,15 @@
   :cp7 "5450-011",
   :id #uuid "c9d78977-4f4a-3abe-9ffa-812577c06a76",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"},
+ :geocode
+ {:id #uuid "c9d78977-4f4a-3abe-9ffa-812577c06a76",
+  :address
+  "Rua Comendador Silva, n.º 45, R/c, 5450-011 Vila Pouca de Aguiar",
+  :address-c
+  "Rua Comendador Silva, 5450-011, Vila Pouca de Aguiar, Vila Real",
+  :postal-c "5450-011",
+  :x -7.647142097568632,
+  :y 41.49282154052994,
+  :score 95.63,
+  :c 3}}

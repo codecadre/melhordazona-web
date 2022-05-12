@@ -97,7 +97,14 @@
     :cp7 "3520-056",
     :id #uuid "f5b05aa0-1e8d-3e90-aaf7-5c88e76a3fb7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
+   :geocode
+   {:cp7 "3520-056",
+    :postal-c "3520-056",
+    :x -7.850475007598504,
+    :y 40.53960498913173,
+    :score 100,
+    :c 1}}]
  ["santarense-00618"
   {:nec 618,
    :rates
@@ -197,7 +204,14 @@
     :cp7 "3525-072",
     :id #uuid "4a74faa6-e8fb-3c05-aaea-60d04fd6e173",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
+   :geocode
+   {:cp7 "3525-072",
+    :postal-c "3525-072",
+    :x -7.8981350119682645,
+    :y 40.50701501802868,
+    :score 100,
+    :c 1}}]
  ["vitor-arede-01434"
   {:nec 1434,
    :rates
@@ -240,4 +254,11 @@
     :cp7 "3520-035",
     :id #uuid "59aa636f-e671-39e6-a2f5-9deb51d0a893",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
+   :geocode
+   {:cp7 "3520-035",
+    :postal-c "3520-035",
+    :x -7.851809993317261,
+    :y 40.5299249806115,
+    :score 100,
+    :c 1}}]]

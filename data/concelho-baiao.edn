@@ -96,7 +96,14 @@
     :cp7 "4640-147",
     :id #uuid "c4a53c51-11e8-3aea-ac37-08216798fd78",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"},
+   :geocode
+   {:cp7 "4640-147",
+    :postal-c "4640-147",
+    :x -8.034289976597904,
+    :y 41.164185018820774,
+    :score 100,
+    :c 1}}]
  ["santa-marinhense-01047"
   {:nec 1047,
    :rates
@@ -195,4 +202,11 @@
     :cp7 "4640-264",
     :id #uuid "59e83a39-71b8-3a3d-b578-fecaa629c872",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"},
+   :geocode
+   {:cp7 "4640-264",
+    :postal-c "4640-264",
+    :x -8.053169962043484,
+    :y 41.12627501186276,
+    :score 100,
+    :c 1}}]]

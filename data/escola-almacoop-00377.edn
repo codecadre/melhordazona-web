@@ -95,4 +95,14 @@
   :cp7 "2800-710",
   :id #uuid "0c080967-05ae-3727-b9fd-f749f6353689",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+ :geocode
+ {:id #uuid "0c080967-05ae-3727-b9fd-f749f6353689",
+  :address "Rua Torcato José Clavine, nº 5 - Piso 1 2800 -710 ALMADA",
+  :address-c
+  "Rua Torcato José Clavine 5, 2800-710, Pragal, Almada, Setúbal",
+  :postal-c "2800-710",
+  :x -9.166119987688091,
+  :y 38.67582000264704,
+  :score 97.35,
+  :c 1}}

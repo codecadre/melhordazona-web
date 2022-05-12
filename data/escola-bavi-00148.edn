@@ -96,4 +96,15 @@
   :cp7 "2500-191",
   :id #uuid "7e77806d-d704-36ec-913d-e1f4a173640d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+ :geocode
+ {:id #uuid "7e77806d-d704-36ec-913d-e1f4a173640d",
+  :address
+  "Rua Dr. José Saudade e Silva, 59 2500-191 CALDAS DA RAINHA",
+  :address-c
+  "Rua Doutor José Saudade e Silva 59, 2500-191, Caldas da Rainha, Leiria",
+  :postal-c "2500-191",
+  :x -9.138967770488957,
+  :y 39.405650909126244,
+  :score 98.9,
+  :c 1}}

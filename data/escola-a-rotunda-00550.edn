@@ -96,4 +96,15 @@
   :cp7 "2700-232",
   :id #uuid "9c6ddef0-139d-332c-9026-be7cba1be711",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
+ :geocode
+ {:id #uuid "9c6ddef0-139d-332c-9026-be7cba1be711",
+  :address
+  "Rua 17 de Setembro, n.º 4, Loja - Casal de S. Brás; 2700-232 Amadora",
+  :address-c
+  "Rua 17 de Setembro 4, 2700-232, Casal de São Brás, Amadora, Lisboa",
+  :postal-c "2700-232",
+  :x -9.228529962351786,
+  :y 38.7710799969598,
+  :score 95.56,
+  :c 1}}

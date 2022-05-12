@@ -95,4 +95,14 @@
   :cp7 "2725-472",
   :id #uuid "c2557ba1-63d5-3248-9426-4142b651ff61",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "c2557ba1-63d5-3248-9426-4142b651ff61",
+  :address "Rua do Zambujal, nº 10 A 2725-472 MEM MARTINS",
+  :address-c
+  "Rua do Zambujal 10, 2725-472, Mem Martins, Sintra, Lisboa",
+  :postal-c "2725-472",
+  :x -9.34189998048447,
+  :y 38.79564999546653,
+  :score 98.15,
+  :c 1}}

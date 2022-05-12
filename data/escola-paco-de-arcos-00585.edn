@@ -95,4 +95,14 @@
   :cp7 "2780-634",
   :id #uuid "594079db-16c1-3425-9788-ad7662563aa2",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
+ :geocode
+ {:id #uuid "594079db-16c1-3425-9788-ad7662563aa2",
+  :address "Rua José Moreira Rato, Nº 6-A 2780-634 PAÇO DE ARCOS",
+  :address-c
+  "Rua José Moreira Rato 6A, 2770-106, Paço de Arcos, Oeiras, Lisboa",
+  :postal-c "2770-106",
+  :x -9.294199994436553,
+  :y 38.6976699897543,
+  :score 96.79,
+  :c 1}}

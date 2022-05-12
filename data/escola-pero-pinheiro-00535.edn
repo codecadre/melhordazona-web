@@ -95,4 +95,14 @@
   :cp7 "2715-097",
   :id #uuid "41b7040f-7a88-3191-89b6-ecbb72c0a333",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "41b7040f-7a88-3191-89b6-ecbb72c0a333",
+  :address "Avª da Liberdade nº 72 -1º 2715 -097 PERO PINHEIRO",
+  :address-c
+  "Avenida da Liberdade 72, 2715-005, Pero Pinheiro, Sintra, Lisboa",
+  :postal-c "2715-005",
+  :x -9.32586003529181,
+  :y 38.85594999364389,
+  :score 96.92,
+  :c 4}}

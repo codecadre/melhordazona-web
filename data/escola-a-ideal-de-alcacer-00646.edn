@@ -95,4 +95,13 @@
   :cp7 "7580-142",
   :id #uuid "1a7b33d5-5e6e-33f2-9850-972731cda4c9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcacer%20do%20Sal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcacer%20do%20Sal"},
+ :geocode
+ {:id #uuid "1a7b33d5-5e6e-33f2-9850-972731cda4c9",
+  :address "Rua de S. Pedro nº 8 R/C 7580 -142 ALCÁCER DO SAL",
+  :address-c "Rua de São Pedro 8, 7580-142, Alcácer do Sal, Setúbal",
+  :postal-c "7580-142",
+  :x -8.513633184965332,
+  :y 38.370968075281404,
+  :score 97.87,
+  :c 4}}

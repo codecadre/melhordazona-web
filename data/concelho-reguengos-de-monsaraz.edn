@@ -103,7 +103,18 @@
     :cp7 "7200-390",
     :id #uuid "c1f6c863-735a-30ad-902d-67e31249e130",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"},
+   :geocode
+   {:id #uuid "c1f6c863-735a-30ad-902d-67e31249e130",
+    :address
+    "Rua Mouzinho de Albuquerque, 32 7200-390 REGUENGOS DE MONSARAZ",
+    :address-c
+    "Rua Mouzinho de Albuquerque 32, 7200-390, Reguengos de Monsaraz, Évora",
+    :postal-c "7200-390",
+    :x -7.537379994773005,
+    :y 38.42520998251868,
+    :score 100,
+    :c 1}}]
  ["ferreira-honrado-01156"
   {:nec 1156,
    :rates
@@ -202,4 +213,14 @@
     :cp7 "7200-291",
     :id #uuid "334a4964-18ec-3fb8-99c8-21230206d002",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"},
+   :geocode
+   {:id #uuid "334a4964-18ec-3fb8-99c8-21230206d002",
+    :address "Rua de Mourão, Nº 31-A 7200-291 REGUENGOS DE MONSARAZ",
+    :address-c
+    "Rua de Mourão 31A, 7200-291, Reguengos de Monsaraz, Évora",
+    :postal-c "7200-291",
+    :x -7.53097999260342,
+    :y 38.4243999973053,
+    :score 98.51,
+    :c 2}}]]

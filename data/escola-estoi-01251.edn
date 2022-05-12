@@ -95,4 +95,13 @@
   :cp7 "8000-650",
   :id #uuid "51abbe54-e570-31a0-860a-e43628715315",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+ :geocode
+ {:id #uuid "51abbe54-e570-31a0-860a-e43628715315",
+  :address "Rua Elias Garcia, Nº 20 8000-650 Estói",
+  :address-c "Rua Elias Garcia 20, 8005-472, Estói, Faro",
+  :postal-c "8005-472",
+  :x -7.896482836738557,
+  :y 37.09431919879851,
+  :score 96.03,
+  :c 1}}

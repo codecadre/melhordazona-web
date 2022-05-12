@@ -96,7 +96,17 @@
     :cp7 "2380",
     :id #uuid "f2b71ed1-eb52-3202-8a90-673b56cb804a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"},
+   :geocode
+   {:id #uuid "f2b71ed1-eb52-3202-8a90-673b56cb804a",
+    :address "Rua José Alves Anastácio, 36-1º 2380 ALCANENA",
+    :address-c
+    "Rua José Alves Anastácio 36, 2380-077, Alcanena, Santarém",
+    :postal-c "2380-077",
+    :x -8.668326134127412,
+    :y 39.459030103763325,
+    :score 99.46,
+    :c 1}}]
  ["mindense-00566"
   {:nec 566,
    :rates
@@ -181,7 +191,17 @@
     :cp7 "2380",
     :id #uuid "c96e9043-0c0b-3693-9848-39bab252f26f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"},
+   :geocode
+   {:id #uuid "c96e9043-0c0b-3693-9848-39bab252f26f",
+    :address "Rua Painel das Almas, nº 3-Minde 2380 ALCANENA",
+    :address-c
+    "Rua do Painel das Almas, 2395-173, Minde, Alcanena, Santarém",
+    :postal-c "2395-173",
+    :x -8.6934294864631,
+    :y 39.513386568153614,
+    :score 95.78,
+    :c 1}}]
  ["origens-01403"
   {:nec 1403,
    :rates
@@ -238,4 +258,14 @@
     :cp7 "2380-014",
     :id #uuid "c1e67ec9-667c-3079-a63f-1ff86db12f67",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"},
+   :geocode
+   {:id #uuid "c1e67ec9-667c-3079-a63f-1ff86db12f67",
+    :address "Av. Marquês de Pombal, n.º 382, 2380-014 Alcanena",
+    :address-c
+    "Avenida Marquês de Pombal 382, 2380-014, Alcanena, Santarém",
+    :postal-c "2380-014",
+    :x -8.662299964885364,
+    :y 39.460680000232855,
+    :score 96.59,
+    :c 2}}]]

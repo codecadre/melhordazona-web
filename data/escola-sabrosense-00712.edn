@@ -95,4 +95,13 @@
   :cp7 "5060-361",
   :id #uuid "641450d6-42a8-3e3d-bad5-58805449bf7c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Sabrosa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Sabrosa"},
+ :geocode
+ {:id #uuid "641450d6-42a8-3e3d-bad5-58805449bf7c",
+  :address "Rua do Bouço, Nº 1 5060-361 SABROSA",
+  :address-c "Rua do Bouço 1, 5060, Sabrosa, Vila Real",
+  :postal-c "5060",
+  :x -7.578802639542536,
+  :y 41.264521330281895,
+  :score 96.1,
+  :c 1}}

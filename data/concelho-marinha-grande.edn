@@ -96,7 +96,14 @@
     :cp7 "2430-229",
     :id #uuid "701c10a4-6148-3d9c-b6ed-d1939343f6b5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
+   :geocode
+   {:cp7 "2430-229",
+    :postal-c "2430-229",
+    :x -8.930090036676319,
+    :y 39.743130020677626,
+    :score 100,
+    :c 1}}]
  ["stop-00413"
   {:nec 413,
    :rates
@@ -196,7 +203,14 @@
     :cp7 "2430-308",
     :id #uuid "0c9f95d5-5394-3262-85de-091b651cb36c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
+   :geocode
+   {:cp7 "2430-308",
+    :postal-c "2430-308",
+    :x -8.935090009558536,
+    :y 39.7429050084869,
+    :score 100,
+    :c 1}}]
  ["batalhense-da-marinha-grande-00855"
   {:nec 855,
    :rates
@@ -295,7 +309,17 @@
     :cp7 "2430-053",
     :id #uuid "131d0cdd-8526-3a94-8c30-a7ab1a018101",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
+   :geocode
+   {:id #uuid "131d0cdd-8526-3a94-8c30-a7ab1a018101",
+    :address "Rua Alfredo Gândara, n.º 22, 2430-053 MARINHA GRANDE",
+    :address-c
+    "Rua Alfredo Gândara 22, 2430-282, Marinha Grande, Leiria",
+    :postal-c "2430-282",
+    :x -8.932730000900449,
+    :y 39.75549999147444,
+    :score 95.34,
+    :c 1}}]
  ["esteves-da-vieira-01170"
   {:nec 1170,
    :rates
@@ -395,4 +419,11 @@
     :cp7 "2430-593",
     :id #uuid "4c1582b5-b0d2-3a38-9a3d-ef0cf5929a92",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
+   :geocode
+   {:cp7 "2430-593",
+    :postal-c "2430-593",
+    :x -8.912434982560768,
+    :y 39.875409989559756,
+    :score 100,
+    :c 1}}]]

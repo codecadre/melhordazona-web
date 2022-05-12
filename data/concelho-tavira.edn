@@ -96,7 +96,16 @@
     :cp7 "8800-418",
     :id #uuid "7581c06f-9ff6-3920-9230-57ac94dfbf78",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Tavira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Tavira"},
+   :geocode
+   {:id #uuid "7581c06f-9ff6-3920-9230-57ac94dfbf78",
+    :address "Rua Maria Campina, Lote 13 A, 8800-418 TAVIRA",
+    :address-c "Rua Maria Campina 13, 8800-418, Tavira, Faro",
+    :postal-c "8800-418",
+    :x -7.65145996010466,
+    :y 37.12089000135701,
+    :score 99.71,
+    :c 1}}]
  ["infante-sagres-tavira-00609"
   {:nec 609,
    :rates
@@ -195,4 +204,13 @@
     :cp7 "8800-362",
     :id #uuid "cc6fa89b-8dca-3629-b19d-e59c3ac65add",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Tavira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Tavira"},
+   :geocode
+   {:id #uuid "cc6fa89b-8dca-3629-b19d-e59c3ac65add",
+    :address "Rua 4 de Outubro,20 r/c 8800-362 TAVIRA",
+    :address-c "Rua 4 de Outubro 20, 8800-362, Tavira, Faro",
+    :postal-c "8800-362",
+    :x -7.6462900022260385,
+    :y 37.12335000611998,
+    :score 99.33,
+    :c 1}}]]

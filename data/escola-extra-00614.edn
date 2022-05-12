@@ -54,4 +54,15 @@
   :cp7 "2660-460",
   :id #uuid "769fe2bc-1822-3bd5-b269-420dde91ab00",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+ :geocode
+ {:id #uuid "769fe2bc-1822-3bd5-b269-420dde91ab00",
+  :address
+  "Praceta Manuel Fialho, Torre 1, Loja Dtª 2660-460 SANTO ANTÓNIO dos CAVALEIROS",
+  :address-c
+  "Praceta Manuel Fialho 1, 2660-301, Santo António dos Cavaleiros, Loures, Lisboa",
+  :postal-c "2660-301",
+  :x -9.165545952107426,
+  :y 38.81091276520639,
+  :score 96.66,
+  :c 1}}

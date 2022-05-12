@@ -95,4 +95,13 @@
   :cp7 "2745-822",
   :id #uuid "46493b91-ab7c-3498-869c-56ac57dde3cb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "46493b91-ab7c-3498-869c-56ac57dde3cb",
+  :address "Rua da Milharada nº 17 - Loja 2745-822 QUELUZ",
+  :address-c "Rua da Milharada 17, 2745-822, Massamá, Sintra, Lisboa",
+  :postal-c "2745-822",
+  :x -9.28045376931513,
+  :y 38.75523211338537,
+  :score 96.15,
+  :c 1}}

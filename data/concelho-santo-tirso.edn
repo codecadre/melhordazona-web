@@ -96,7 +96,17 @@
     :cp7 "4795-058",
     :id #uuid "ece76f2c-5d3b-305f-b175-53f64f5781b8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "ece76f2c-5d3b-305f-b175-53f64f5781b8",
+    :address "Rua D. Afonso Henriques, Nº 12 4795-058 AVES",
+    :address-c
+    "Rua Dom Afonso Henriques 12, 4795-058, Aves, Santo Tirso, Porto",
+    :postal-c "4795-058",
+    :x -8.402319982835252,
+    :y 41.36342000745395,
+    :score 98.42,
+    :c 1}}]
  ["a-desportiva-santo-tirso-00467"
   {:nec 467,
    :rates
@@ -195,7 +205,17 @@
     :cp7 "4780-548",
     :id #uuid "8dfc78cb-46ae-355d-b1b2-eb0a9cb20d82",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "8dfc78cb-46ae-355d-b1b2-eb0a9cb20d82",
+    :address "Rua S. João de Brito 4780-548 SANTO TIRSO",
+    :address-c
+    "Rua de São João de Brito, 4780-548, Santo Tirso, Porto",
+    :postal-c "4780-548",
+    :x -8.476749139056055,
+    :y 41.34338989104687,
+    :score 100,
+    :c 1}}]
  ["tyrsense-00746"
   {:nec 746,
    :rates
@@ -323,7 +343,17 @@
     :cp7 "4780-468",
     :id #uuid "f56a27a0-bb92-3161-8285-b44e17a2a171",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "f56a27a0-bb92-3161-8285-b44e17a2a171",
+    :address "Rua Ferreira de Lemos, 302 4780-468 SANTO TIRSO",
+    :address-c
+    "Rua Ferreira de Lemos 302, 4780-468, Orgal, Santo Tirso, Porto",
+    :postal-c "4780-468",
+    :x -8.47649999357597,
+    :y 41.33552000454418,
+    :score 100,
+    :c 2}}]
  ["campense-00986"
   {:nec 986,
    :rates
@@ -422,7 +452,17 @@
     :cp7 "4795-489",
     :id #uuid "f20cfae7-da67-3063-9bb1-69a3c75b41c4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "f20cfae7-da67-3063-9bb1-69a3c75b41c4",
+    :address "Rua da Trindade nº 45 4795-489 CAMPO (SÃO MARTINHO)",
+    :address-c
+    "Rua da Trindade 45, 4795-489, São Martinho do Campo, Santo Tirso, Porto",
+    :postal-c "4795-489",
+    :x -8.366333309080884,
+    :y 41.35808331667903,
+    :score 96.88,
+    :c 1}}]
  ["rio-vizela-01011"
   {:nec 1011,
    :rates
@@ -522,7 +562,18 @@
     :cp7 "4795-476",
     :id #uuid "a0cc4be9-e889-3baf-aff6-bab08a66ddf5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "a0cc4be9-e889-3baf-aff6-bab08a66ddf5",
+    :address
+    "Rua Manuel Sousa Oliveira nº 846 4795-476 CAMPO (SÃO MARTINHO)",
+    :address-c
+    "Rua Manuel de Sousa Oliveira 846, 4795-476, São Martinho do Campo, Santo Tirso, Porto",
+    :postal-c "4795-476",
+    :x -8.36121229624523,
+    :y 41.360798984008994,
+    :score 96.97,
+    :c 1}}]
  ["assuncao-01038"
   {:nec 1038,
    :rates
@@ -622,7 +673,17 @@
     :cp7 "4780-406",
     :id #uuid "6a1ebfa7-4c27-3cb0-93ed-35b289d05f4d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "6a1ebfa7-4c27-3cb0-93ed-35b289d05f4d",
+    :address
+    "Rua do Barreiro, Nº 19 R/C, Fracção N/Bloco 1 4780-406 SANTO TIRSO",
+    :address-c "Rua do Barreiro 19, 4780-406, Santo Tirso, Porto",
+    :postal-c "4780-406",
+    :x -8.489390019555287,
+    :y 41.34464001811327,
+    :score 95.44,
+    :c 3}}]
  ["eficiencia-01299"
   {:nec 1299,
    :rates
@@ -722,4 +783,11 @@
     :cp7 "4795-548",
     :id #uuid "4798d10e-c1d3-3b02-b326-e7f62b9c25f8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:cp7 "4795-548",
+    :postal-c "4795-548",
+    :x -8.404319988751922,
+    :y 41.35667500614966,
+    :score 100,
+    :c 1}}]]

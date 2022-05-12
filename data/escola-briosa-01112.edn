@@ -95,4 +95,13 @@
   :cp7 "3030-177",
   :id #uuid "238fb06f-2c49-3a7f-b775-6b3fb88a4fb2",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+ :geocode
+ {:id #uuid "238fb06f-2c49-3a7f-b775-6b3fb88a4fb2",
+  :address "Rua Carlos Seixas nº 163 3030-177 COIMBRA",
+  :address-c "Rua Carlos Seixas 163, 3030-177, Coimbra",
+  :postal-c "3030-177",
+  :x -8.416780023098369,
+  :y 40.19484000289572,
+  :score 98.42,
+  :c 1}}

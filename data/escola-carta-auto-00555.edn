@@ -96,4 +96,15 @@
   :cp7 "5300-252",
   :id #uuid "51ce98ba-4ef3-315c-9b1e-f7ea5c8fa384",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+ :geocode
+ {:id #uuid "51ce98ba-4ef3-315c-9b1e-f7ea5c8fa384",
+  :address
+  "Avª Dr.Francisco Sá Carneiro, Lote 29 r/c Dtº (Prédio S. Lucas) 5300-252 BRAGANÇA (SÉ)",
+  :address-c
+  "Avenida Doutor Francisco Sá Carneiro 29, 5300-252, Bragança",
+  :postal-c "5300-252",
+  :x -6.759789998996894,
+  :y 41.805349985046945,
+  :score 95.07,
+  :c 1}}

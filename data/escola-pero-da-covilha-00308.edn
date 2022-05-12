@@ -96,4 +96,15 @@
   :cp7 "6200-559",
   :id #uuid "6954eecd-445d-3f94-a530-3a7260228d32",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
+ :geocode
+ {:id #uuid "6954eecd-445d-3f94-a530-3a7260228d32",
+  :address
+  "Rua Dr. José Mendes Matos, Lote 10, Fracção A, 6200-559 COVILHÃ",
+  :address-c
+  "Rua Doutor José Mendes de Matos 10, 6200-559, Covilhã, Castelo Branco",
+  :postal-c "6200-559",
+  :x -7.503138474373028,
+  :y 40.28888952290127,
+  :score 98.33,
+  :c 1}}

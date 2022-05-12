@@ -95,4 +95,14 @@
   :cp7 "2635-063",
   :id #uuid "1823c1af-f1b7-38be-924c-7b90fe2320a9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "1823c1af-f1b7-38be-924c-7b90fe2320a9",
+  :address "Av. Das Descobertas, Nº 6 2635-063 RIO DE MOURO",
+  :address-c
+  "Avenida das Descobertas 6, 2635, Rio de Mouro, Sintra, Lisboa",
+  :postal-c "2635",
+  :x -9.319495300236301,
+  :y 38.78284291535,
+  :score 96.53,
+  :c 2}}

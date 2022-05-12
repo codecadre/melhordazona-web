@@ -82,4 +82,15 @@
   :cp7 "2500-235",
   :id #uuid "6d927be2-5452-3cc0-ab69-a1c4315ed4a2",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+ :geocode
+ {:id #uuid "6d927be2-5452-3cc0-ab69-a1c4315ed4a2",
+  :address
+  "Rua Marquês de Pombal, n.º 25 A cave Dtª 2500-235 CALDAS DA RAINHA",
+  :address-c
+  "Rua Marquês de Pombal 25, 2500-235, Casais da Rochida, Caldas da Rainha, Leiria",
+  :postal-c "2500-235",
+  :x -9.127875542793362,
+  :y 39.40986999283072,
+  :score 96.47,
+  :c 2}}

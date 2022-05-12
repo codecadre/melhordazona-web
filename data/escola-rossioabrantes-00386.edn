@@ -95,4 +95,14 @@
   :cp7 "2205-055",
   :id #uuid "1b318ac7-a406-3623-bbeb-36249e45d175",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
+ :geocode
+ {:id #uuid "1b318ac7-a406-3623-bbeb-36249e45d175",
+  :address "Rua General Godinho, Nº19 R/C 2205-055 ABRANTES",
+  :address-c
+  "Rua General Godinho 19, 2205-050, Rossio ao Sul do Tejo, Abrantes, Santarém",
+  :postal-c "2205-050",
+  :x -8.190230004578012,
+  :y 39.447029987092606,
+  :score 96.4,
+  :c 2}}

@@ -96,4 +96,15 @@
   :cp7 "6000-478",
   :id #uuid "939cca9e-7d29-32b6-b0a5-c061920266e8",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
+ :geocode
+ {:id #uuid "939cca9e-7d29-32b6-b0a5-c061920266e8",
+  :address
+  "Rua Dr. Victor Santos Pinto, Lote 131 B ; 6000-478 Castelo Branco",
+  :address-c
+  "Rua Dr. Victor dos Santos Pinto 131, 6000-478, Castelo Branco",
+  :postal-c "6000-478",
+  :x -7.508620008597433,
+  :y 39.81822001273662,
+  :score 99.8,
+  :c 1}}

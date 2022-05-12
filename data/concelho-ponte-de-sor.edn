@@ -97,4 +97,15 @@
     :cp7 "7400-293",
     :id #uuid "c116607d-165f-380d-b9c3-09ef771c8c43",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Ponte%20de%20Sor"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Ponte%20de%20Sor"},
+   :geocode
+   {:id #uuid "c116607d-165f-380d-b9c3-09ef771c8c43",
+    :address
+    "Rua Manuel Marques Adegas, n.º 20, r/c 7400-293 PONTE DE SOR",
+    :address-c
+    "Rua Manuel Marques Adegas 20, 7400-293, Ponte de Sor, Portalegre",
+    :postal-c "7400-293",
+    :x -8.016799962155886,
+    :y 39.25235001801158,
+    :score 96.65,
+    :c 1}}]]

@@ -95,4 +95,14 @@
   :cp7 "4440-488",
   :id #uuid "595ac5ba-b5e0-34a1-8de8-68d7c220abef",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+ :geocode
+ {:id #uuid "595ac5ba-b5e0-34a1-8de8-68d7c220abef",
+  :address "Rua Dr. Mário Cal Brandão, Nº 931 4440-488 VALONGO",
+  :address-c
+  "Rua Doutor Mário Cal Brandão 931, 4440-678, Valongo, Porto",
+  :postal-c "4440-678",
+  :x -8.507459977878,
+  :y 41.198959984443604,
+  :score 97.43,
+  :c 2}}

@@ -96,7 +96,16 @@
     :cp7 "2070-356",
     :id #uuid "8bae66fb-8043-33be-a6f0-f985a0e2c425",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
+   :geocode
+   {:id #uuid "8bae66fb-8043-33be-a6f0-f985a0e2c425",
+    :address "Rua Miguel Pais, Nº 65 2070-356 Montijo",
+    :address-c "Rua Miguel Pais 65, 2870-356, Montijo, Setúbal",
+    :postal-c "2870-356",
+    :x -8.975869980163822,
+    :y 38.70327999754963,
+    :score 96.13,
+    :c 1}}]
  ["luz-verde-00706"
   {:nec 706,
    :rates
@@ -294,7 +303,16 @@
     :cp7 "2870-260",
     :id #uuid "7eeb73f1-590b-3397-ad6b-c2ca30880dc1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
+   :geocode
+   {:id #uuid "7eeb73f1-590b-3397-ad6b-c2ca30880dc1",
+    :address "Rua Cristóvão Colombo, nº 77 2870 -260 MONTIJO",
+    :address-c "Rua Cristóvão Colombo 77, 2870-867, Montijo, Setúbal",
+    :postal-c "2870-867",
+    :x -8.957250001354737,
+    :y 38.70076002026943,
+    :score 97.4,
+    :c 1}}]
  ["net-rodas-01273"
   {:nec 1273,
    :rates
@@ -394,4 +412,15 @@
     :cp7 "2870-059",
     :id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
+   :geocode
+   {:id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
+    :address
+    "Rua António Fortunato de Sousa, n.º 71, 2870-059 MONTIJO",
+    :address-c
+    "Rua António Fortunato de Sousa, 2870-054, Montijo, Setúbal",
+    :postal-c "2870-054",
+    :x -8.978027344430592,
+    :y 38.705149808125164,
+    :score 95.29,
+    :c 2}}]]

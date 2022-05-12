@@ -96,4 +96,15 @@
   :cp7 "3730-240",
   :id #uuid "202d3509-0ba1-3b9b-ad7a-401c4ead17d6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vale%20de%20Cambra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vale%20de%20Cambra"},
+ :geocode
+ {:id #uuid "202d3509-0ba1-3b9b-ad7a-401c4ead17d6",
+  :address
+  "Avª Camilo Tavares de Matos, nº 135 3730-240 VALE DE CAMBRA",
+  :address-c
+  "Avenida Camilo Tavares de Matos 135, 3730-240, Vila Chã, Vale de Cambra, Aveiro",
+  :postal-c "3730-240",
+  :x -8.393859960322203,
+  :y 40.84936999755416,
+  :score 98.58,
+  :c 1}}

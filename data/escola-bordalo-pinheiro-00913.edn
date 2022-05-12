@@ -96,4 +96,15 @@
   :cp7 "2500-113",
   :id #uuid "cb842ba2-7d7b-3cf5-b81e-33e0481fa5fd",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+ :geocode
+ {:id #uuid "cb842ba2-7d7b-3cf5-b81e-33e0481fa5fd",
+  :address
+  "Rua Dr. Ângelo Ferrari, 5, R/c Dtº 2500 - 113 CALDAS DA RAINHA",
+  :address-c
+  "Rua Doutor Ângelo Ferrari 5, 2500-113, Casais de Santa Rita, Caldas da Rainha, Leiria",
+  :postal-c "2500-113",
+  :x -9.133299975252385,
+  :y 39.412509998964396,
+  :score 98.89,
+  :c 2}}

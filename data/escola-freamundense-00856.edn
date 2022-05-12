@@ -95,4 +95,14 @@
   :cp7 "4590-336",
   :id #uuid "74474d32-8813-399f-9be8-8d2b2c286826",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+ :geocode
+ {:id #uuid "74474d32-8813-399f-9be8-8d2b2c286826",
+  :address "Rua de Gaia nº 7 4590-336 FREAMUNDE",
+  :address-c
+  "Rua de Gaia, 4590-336, Freamunde, Paços de Ferreira, Porto",
+  :postal-c "4590-336",
+  :x -8.34304746616053,
+  :y 41.289685326213146,
+  :score 96.25,
+  :c 3}}

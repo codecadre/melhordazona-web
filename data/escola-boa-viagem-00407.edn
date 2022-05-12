@@ -95,4 +95,13 @@
   :cp7 "3080-047",
   :id #uuid "8e333ae7-0d68-3249-8aa4-f16f5c0902dc",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
+ :geocode
+ {:id #uuid "8e333ae7-0d68-3249-8aa4-f16f5c0902dc",
+  :address "Rua de Coimbra, nº 14 3080-047 FIGUEIRA DA FOZ",
+  :address-c "Rua de Coimbra 14, 3080-047, Figueira da Foz, Coimbra",
+  :postal-c "3080-047",
+  :x -8.848053385720245,
+  :y 40.149796088277824,
+  :score 98.45,
+  :c 15}}

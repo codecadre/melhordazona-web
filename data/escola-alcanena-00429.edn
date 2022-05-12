@@ -95,4 +95,14 @@
   :cp7 "2380",
   :id #uuid "f2b71ed1-eb52-3202-8a90-673b56cb804a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"},
+ :geocode
+ {:id #uuid "f2b71ed1-eb52-3202-8a90-673b56cb804a",
+  :address "Rua José Alves Anastácio, 36-1º 2380 ALCANENA",
+  :address-c
+  "Rua José Alves Anastácio 36, 2380-077, Alcanena, Santarém",
+  :postal-c "2380-077",
+  :x -8.668326134127412,
+  :y 39.459030103763325,
+  :score 99.46,
+  :c 1}}

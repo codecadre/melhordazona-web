@@ -95,4 +95,13 @@
   :cp7 "1500-359",
   :id #uuid "bb1c0cec-87e3-3153-b728-99bbcc4c95f3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "bb1c0cec-87e3-3153-b728-99bbcc4c95f3",
+  :address "Rua João de Freitas Branco,Nº 37-Loja A 1500-359 LISBOA",
+  :address-c "Rua João de Freitas Branco 37, 1500-627, Lisboa",
+  :postal-c "1500-627",
+  :x -9.180729980199004,
+  :y 38.752920016996995,
+  :score 97.48,
+  :c 1}}

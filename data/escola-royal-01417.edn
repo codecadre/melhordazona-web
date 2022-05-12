@@ -56,4 +56,11 @@
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :obs nil,
- :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"]}
+ :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"],
+ :geocode
+ {:cp7 "4580-294",
+  :postal-c "4580-294",
+  :x -8.324744966032341,
+  :y 41.21861001533392,
+  :score 100,
+  :c 1}}

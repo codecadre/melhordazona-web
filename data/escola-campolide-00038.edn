@@ -81,4 +81,13 @@
   :cp7 "1070-083",
   :id #uuid "473206e9-8bdd-3096-8f6a-9cd2a22d6fed",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "473206e9-8bdd-3096-8f6a-9cd2a22d6fed",
+  :address "Rua D. Carlos de Mascarenhas, 76-A 1070-083 LISBOA",
+  :address-c "Rua Dom Carlos de Mascarenhas 76A, 1070-083, Lisboa",
+  :postal-c "1070-083",
+  :x -9.164670002257765,
+  :y 38.72648001589184,
+  :score 99.99,
+  :c 1}}

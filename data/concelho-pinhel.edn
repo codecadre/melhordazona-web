@@ -96,7 +96,16 @@
     :cp7 "6400-370",
     :id #uuid "f460634f-22c2-3fa5-9f74-2ae3233523a8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"},
+   :geocode
+   {:id #uuid "f460634f-22c2-3fa5-9f74-2ae3233523a8",
+    :address "Rua Conde Ferreira 6400-370 PINHEL",
+    :address-c "Rua Conde Ferreira, 6400-370, Pinhel, Guarda",
+    :postal-c "6400-370",
+    :x -7.065995555468279,
+    :y 40.77383436378259,
+    :score 100,
+    :c 1}}]
  ["auto-beira-coa-00582"
   {:nec 582,
    :rates
@@ -195,4 +204,13 @@
     :cp7 "6400-337",
     :id #uuid "93b3d2d5-b0e2-3d81-a365-f1a91c3ebda9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"},
+   :geocode
+   {:id #uuid "93b3d2d5-b0e2-3d81-a365-f1a91c3ebda9",
+    :address "Av. Carneiro de Gusmão,103-R/C Esqº 6400-337 PINHEL",
+    :address-c "Avenida Carneiro Gusmão 103, 6400-337, Pinhel, Guarda",
+    :postal-c "6400-337",
+    :x -7.073256985362141,
+    :y 40.77277884652631,
+    :score 97.39,
+    :c 1}}]]

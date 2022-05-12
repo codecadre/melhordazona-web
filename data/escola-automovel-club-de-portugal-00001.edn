@@ -95,4 +95,13 @@
   :cp7 "1000-070",
   :id #uuid "cda4577b-d85e-3091-92b9-c85fdb79623e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "cda4577b-d85e-3091-92b9-c85fdb79623e",
+  :address "Avª Barbosa do Bocage, 23 A e B R/C 1000-070 LISBOA",
+  :address-c "Avenida Barbosa du Bocage 23A, 1000-070, Lisboa",
+  :postal-c "1000-070",
+  :x -9.144120006423492,
+  :y 38.74056002066496,
+  :score 98.93,
+  :c 2}}

@@ -95,4 +95,13 @@
   :cp7 "3800-212",
   :id #uuid "0a0ff539-d0b5-34b2-ac5b-a5db1e769383",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
+ :geocode
+ {:id #uuid "0a0ff539-d0b5-34b2-ac5b-a5db1e769383",
+  :address "Rua do Magistério Primário, Nº 20/22 3800-212 AVEIRO",
+  :address-c "Rua do Magistério Primário 20, 3800-212, Aveiro",
+  :postal-c "3800-212",
+  :x -8.640120024159614,
+  :y 40.647419984753896,
+  :score 98.06,
+  :c 1}}

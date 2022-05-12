@@ -95,4 +95,13 @@
   :cp7 "3030-775",
   :id #uuid "42a1ec7b-4c23-391e-8c80-6ed863e29be2",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+ :geocode
+ {:id #uuid "42a1ec7b-4c23-391e-8c80-6ed863e29be2",
+  :address "Rua do Brasil, Nº 274 –A 3030-775 COIMBRA",
+  :address-c "Rua do Brasil 274A, 3030-775, Coimbra",
+  :postal-c "3030-775",
+  :x -8.411990016890684,
+  :y 40.20183000722986,
+  :score 98.35,
+  :c 1}}

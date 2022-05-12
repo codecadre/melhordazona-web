@@ -97,7 +97,18 @@
     :cp7 "7540-201",
     :id #uuid "168b56b7-469e-3c7e-a5aa-7796bfc024b9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:id #uuid "168b56b7-469e-3c7e-a5aa-7796bfc024b9",
+    :address
+    "Rua Padre Jorge de Oliveira, Nº 14 7540-201 SANTIAGO CACÉM",
+    :address-c
+    "Rua Padre Jorge de Oliveira 14, 7540-201, Santiago do Cacém, Setúbal",
+    :postal-c "7540-201",
+    :x -8.69308541106637,
+    :y 38.018342073405016,
+    :score 98.25,
+    :c 1}}]
  ["novoensino-00803"
   {:nec 803,
    :rates
@@ -169,7 +180,14 @@
     :cp7 "7500-190",
     :id #uuid "2e64d810-1c31-3a9f-8296-e85f9979b5d5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:cp7 "7500-190",
+    :postal-c "7500-190",
+    :x -8.791774971779319,
+    :y 38.06225999633887,
+    :score 100,
+    :c 1}}]
  ["mirobriga-00920"
   {:nec 920,
    :rates
@@ -269,7 +287,14 @@
     :cp7 "7500-190",
     :id #uuid "4adeeec6-d7e9-3a44-83d3-6459ca215e4b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:cp7 "7500-190",
+    :postal-c "7500-190",
+    :x -8.791774971779319,
+    :y 38.06225999633887,
+    :score 100,
+    :c 1}}]
  ["j-guerreio-e-batista-00931"
   {:nec 931,
    :rates
@@ -368,7 +393,17 @@
     :cp7 "7540-113",
     :id #uuid "72ece87f-f25b-3cdf-bc90-36e3cb9918bd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:id #uuid "72ece87f-f25b-3cdf-bc90-36e3cb9918bd",
+    :address "Rua José Maria Pinela 7540 -113 SANTIAGO DO CACÉM",
+    :address-c
+    "Rua José Maria Pinela, 7540-195, Santiago do Cacém, Setúbal",
+    :postal-c "7540-195",
+    :x -8.694521260894772,
+    :y 38.01088777690058,
+    :score 98.42,
+    :c 1}}]
  ["cercal-do-alentejo-01088"
   {:nec 1088,
    :rates
@@ -468,4 +503,11 @@
     :cp7 "7555-101",
     :id #uuid "31cd77ec-4c68-3dd2-aba3-f2d51bfd4aec",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
+   :geocode
+   {:cp7 "7555-101",
+    :postal-c "7555-101",
+    :x -8.674179971532055,
+    :y 37.80041499892269,
+    :score 100,
+    :c 1}}]]

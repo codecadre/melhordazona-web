@@ -95,4 +95,13 @@
   :cp7 "4820-261",
   :id #uuid "3554d66b-de71-3d4c-95a1-e0f4e1020ce5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+ :geocode
+ {:id #uuid "3554d66b-de71-3d4c-95a1-e0f4e1020ce5",
+  :address "Rua General Humberto Delgado nº 20 –1º 4820-261 FAFE",
+  :address-c "Rua General Humberto Delgado 20, 4820-261, Fafe, Braga",
+  :postal-c "4820-261",
+  :x -8.167370040047615,
+  :y 41.45311999202386,
+  :score 98.06,
+  :c 1}}

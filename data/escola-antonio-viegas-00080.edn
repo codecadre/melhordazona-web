@@ -81,4 +81,13 @@
   :cp7 "8000-255",
   :id #uuid "55d6802b-912e-3f06-8e09-fa2424319988",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+ :geocode
+ {:id #uuid "55d6802b-912e-3f06-8e09-fa2424319988",
+  :address "Rua Conselheiro Bivar, 29 8000-255 FARO",
+  :address-c "Rua Conselheiro Bívar 29, 8000-255, Faro",
+  :postal-c "8000-255",
+  :x -7.935562472760466,
+  :y 37.016889232684335,
+  :score 100,
+  :c 1}}

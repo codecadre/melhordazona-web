@@ -69,7 +69,14 @@
     :cp7 "3720-133",
     :id #uuid "1e5b06fa-e185-3efd-9ab7-844752382224",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20de%20Azem%C3%A9is"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20de%20Azem%C3%A9is"},
+   :geocode
+   {:cp7 "3720-133",
+    :postal-c "3720-133",
+    :x -8.4827099780006,
+    :y 40.841219979730084,
+    :score 100,
+    :c 1}}]
  ["novabela-01408"
   {:nec 1408,
    :rates
@@ -141,4 +148,11 @@
     :cp7 "3700-766",
     :id #uuid "c007ef8a-d9ad-39da-92b1-d091caa0aa80",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20de%20Azem%C3%A9is"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20de%20Azem%C3%A9is"},
+   :geocode
+   {:cp7 "3700-766",
+    :postal-c "3700-766",
+    :x -8.4575025776669,
+    :y 40.887092920433304,
+    :score 100,
+    :c 1}}]]

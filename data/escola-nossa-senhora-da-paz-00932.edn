@@ -96,4 +96,15 @@
   :cp7 "2130-060",
   :id #uuid "6604871b-f598-373f-a4c8-cf8d86a816ae",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
+ :geocode
+ {:id #uuid "6604871b-f598-373f-a4c8-cf8d86a816ae",
+  :address
+  "Rua Joaquim Rodrigues Parracho, Lote 25 r/c Dtº 2130-060 BENAVENTE",
+  :address-c
+  "Rua Joaquim Rodrigues Parracho 25, 2130-060, Benavente, Santarém",
+  :postal-c "2130-060",
+  :x -8.803820018099543,
+  :y 38.976510008320446,
+  :score 99.07,
+  :c 1}}

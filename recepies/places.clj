@@ -107,37 +107,3 @@
   (let [f (format "./data/escola-%s.edn" k)
         data-string (with-out-str (pprint/pprint s))]
     (spit f data-string)))
-
-
-
-#_(comment
-  ;; 261 municipality
-  (count (set (map #(-> % :address :municipality) d)))
-
-  (set (map #(-> % :address :municipality) d))
-  ;;515 city
-  (count (set (map #(-> % :address :city) d)))
-
-  ;;district 18
-  (count (set (map #(-> % :address :district) d)))
-
-
-  (= (string->keyword "S. Pedro do Sul Tábua")
-     :s-pedro-do-sul-tabua)
-  ;;available address keys
-  #{:streetName
-    :observations
-    :raw
-    :city
-    :municipality
-    :longitude
-    :state
-    :zipcode
-    :streetNumber
-    :googlePlaceId
-    :stateCode
-    :noEntriesAtGMaps
-    :latitude
-    :formattedAddress
-    :duplicatedAtGMaps
-    :district})

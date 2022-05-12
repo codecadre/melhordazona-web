@@ -96,4 +96,13 @@
     :cp7 "7370-099",
     :id #uuid "f0af7cdf-c99c-3b1c-807e-f2434fcae135",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Campo%20Maior"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Campo%20Maior"},
+   :geocode
+   {:id #uuid "f0af7cdf-c99c-3b1c-807e-f2434fcae135",
+    :address "Rua de Badajoz, 50 – ABC 7370-099 Campo Maior",
+    :address-c "Rua de Badajoz 50, 7370-099, Campo Maior, Portalegre",
+    :postal-c "7370-099",
+    :x -7.065039969545353,
+    :y 39.014830016072295,
+    :score 99.12,
+    :c 1}}]]

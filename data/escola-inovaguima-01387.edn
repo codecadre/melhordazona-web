@@ -68,4 +68,15 @@
   :cp7 "4800-411",
   :id #uuid "1f080992-1c4a-3f13-892c-c4c05483a3e3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+ :geocode
+ {:id #uuid "1f080992-1c4a-3f13-892c-c4c05483a3e3",
+  :address
+  "Largo da República do Brasil, n.º 34, 4800-411 São Sebastião",
+  :address-c
+  "Largo da República do Brasil 34, 4810-446, Guimarães, Braga",
+  :postal-c "4810-446",
+  :x -8.289989991248575,
+  :y 41.44164001170623,
+  :score 95.16,
+  :c 1}}

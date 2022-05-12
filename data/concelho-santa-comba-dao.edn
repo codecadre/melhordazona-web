@@ -97,7 +97,14 @@
     :cp7 "3440-325",
     :id #uuid "6a9b9558-4563-3e27-9680-365958ffd160",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"},
+   :geocode
+   {:cp7 "3440-325",
+    :postal-c "3440-325",
+    :x -8.12993998086543,
+    :y 40.39968499932422,
+    :score 100,
+    :c 1}}]
  ["novo-rumo-01023"
   {:nec 1023,
    :rates
@@ -197,4 +204,11 @@
     :cp7 "3440-321",
     :id #uuid "a0c55e09-78cf-3370-a803-29f6facf2308",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"},
+   :geocode
+   {:cp7 "3440-321",
+    :postal-c "3440-321",
+    :x -8.128904983461325,
+    :y 40.408625011522616,
+    :score 100,
+    :c 1}}]]

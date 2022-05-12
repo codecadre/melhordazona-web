@@ -95,4 +95,14 @@
   :cp7 "2620-077",
   :id #uuid "4319a823-6d72-364d-9afe-d48e337045a5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+ :geocode
+ {:id #uuid "4319a823-6d72-364d-9afe-d48e337045a5",
+  :address "Rua São José, n.º 3 A, 2620-077 PÓVOA DE SANTO ADRIÃO",
+  :address-c
+  "Rua de São José, 2620-077, Póvoa de Santo Adrião, Odivelas, Lisboa",
+  :postal-c "2620-077",
+  :x -9.163111795206614,
+  :y 38.804747113807835,
+  :score 96.41,
+  :c 3}}

@@ -96,7 +96,16 @@
     :cp7 "2640-467",
     :id #uuid "4edac723-4bc7-327b-a45b-6feb8e6734e4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+   :geocode
+   {:id #uuid "4edac723-4bc7-327b-a45b-6feb8e6734e4",
+    :address "Rua Dr.Carlos Galrão, Nº 5 2640-467 MAFRA",
+    :address-c "Rua Doutor Carlos Galrão 5, 2640-467, Mafra, Lisboa",
+    :postal-c "2640-467",
+    :x -9.330439991005903,
+    :y 38.94029000259019,
+    :score 98.38,
+    :c 3}}]
  ["automovel-capote-00440"
   {:nec 440,
    :rates
@@ -195,7 +204,17 @@
     :cp7 "2665-240",
     :id #uuid "ad1c101b-192e-3f0f-9162-a512b049d9ee",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+   :geocode
+   {:id #uuid "ad1c101b-192e-3f0f-9162-a512b049d9ee",
+    :address "Rua Dr. José Sabino Louro 1 r/c Dtº 2665-240 MAFRA",
+    :address-c
+    "Rua Dr. José Sabino Louro 1, 2665-240, Malveira, Mafra, Lisboa",
+    :postal-c "2665-240",
+    :x -9.254259974348486,
+    :y 38.932169991979464,
+    :score 98.68,
+    :c 1}}]
  ["viazul-00835"
   {:nec 835,
    :rates
@@ -294,7 +313,14 @@
     :cp7 "2640-202",
     :id #uuid "2eb18307-f01f-3628-a09d-90bab76e8fe9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+   :geocode
+   {:cp7 "2640-202",
+    :postal-c "2640-202",
+    :x -9.398664994816613,
+    :y 39.050055006076605,
+    :score 100,
+    :c 1}}]
  ["ericeirense-00950"
   {:nec 950,
    :rates
@@ -393,7 +419,17 @@
     :cp7 "2655-344",
     :id #uuid "fa735fd1-91c3-301e-9ab8-4539da2056c4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+   :geocode
+   {:id #uuid "fa735fd1-91c3-301e-9ab8-4539da2056c4",
+    :address "Rua Prudêncio Franco da Trindade 9 B 2655-344 ERICEIRA",
+    :address-c
+    "Rua Prudêncio Franco da Trindade 9B, 2655-344, Ericeira, Mafra, Lisboa",
+    :postal-c "2655-344",
+    :x -9.41574002123238,
+    :y 38.963920012565296,
+    :score 99.99,
+    :c 1}}]
  ["convento-01249"
   {:nec 1249,
    :rates
@@ -593,4 +629,15 @@
     :cp7 "2665-527",
     :id #uuid "d0997a67-1252-31e0-baa8-9dbafcd000fb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+   :geocode
+   {:id #uuid "d0997a67-1252-31e0-baa8-9dbafcd000fb",
+    :address
+    "Rua Padre Alfredo Fernandes de Brito, Nº 9 F 2665-527 VENDA do PINHEIRO",
+    :address-c
+    "Rua Padre Alfredo Fernandes de Brito 9F, 2665-527, Venda do Pinheiro, Mafra, Lisboa",
+    :postal-c "2665-527",
+    :x -9.232480018042253,
+    :y 38.925810013397495,
+    :score 98.64,
+    :c 1}}]]

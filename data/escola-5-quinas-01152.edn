@@ -96,4 +96,15 @@
   :cp7 "4520-227",
   :id #uuid "b6240d9d-47f4-348d-b70f-2ab36a5fffd1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "b6240d9d-47f4-348d-b70f-2ab36a5fffd1",
+  :address
+  "Rua Ferreira de Castro, Nº 71, 4520-227 SANTA MARIA da FEIRA",
+  :address-c
+  "Rua Ferreira de Castro 71, 4520-227, Santa Maria da Feira, Aveiro",
+  :postal-c "4520-227",
+  :x -8.558403594199504,
+  :y 40.92361890103786,
+  :score 98.58,
+  :c 3}}

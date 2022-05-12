@@ -95,4 +95,13 @@
   :cp7 "4470-136",
   :id #uuid "a020238b-9dab-31f5-bb66-cc34ea9441cb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+ :geocode
+ {:id #uuid "a020238b-9dab-31f5-bb66-cc34ea9441cb",
+  :address "Rua Padre António, 81 – 1º Dtº 4470-136 MAIA",
+  :address-c "Rua Padre António 81, 4470-136, Maia, Porto",
+  :postal-c "4470-136",
+  :x -8.62372996687131,
+  :y 41.233450007267976,
+  :score 98.48,
+  :c 3}}

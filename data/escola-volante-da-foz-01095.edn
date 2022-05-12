@@ -95,4 +95,13 @@
   :cp7 "3080-143",
   :id #uuid "1e2acabd-e7ab-390d-ac8a-f1fc1bfd4055",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
+ :geocode
+ {:id #uuid "1e2acabd-e7ab-390d-ac8a-f1fc1bfd4055",
+  :address "Rua de Timor nº 8 r/c 3080-143 FIGUEIRA DA FOZ",
+  :address-c "Rua de Timor 8, 3080-143, Figueira da Foz, Coimbra",
+  :postal-c "3080-143",
+  :x -8.855740040939168,
+  :y 40.15469001613309,
+  :score 97.87,
+  :c 1}}

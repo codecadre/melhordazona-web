@@ -95,4 +95,13 @@
   :cp7 "1050-195",
   :id #uuid "c66da933-0dd0-341c-acec-64b071c08058",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "c66da933-0dd0-341c-acec-64b071c08058",
+  :address "Avª da República, 46 – Cave esq 1050-195 LISBOA",
+  :address-c "Avenida da República 46, 1050-195, Lisboa",
+  :postal-c "1050-195",
+  :x -9.145860005703696,
+  :y 38.73948001244082,
+  :score 95.71,
+  :c 1}}

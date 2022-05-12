@@ -97,7 +97,14 @@
     :cp7 "3420-325",
     :id #uuid "7e23686f-4695-3651-bcf4-30816bfed0a4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
+   :geocode
+   {:cp7 "3420-325",
+    :postal-c "3420-325",
+    :x -8.029929962023118,
+    :y 40.359544987026396,
+    :score 100,
+    :c 1}}]
  ["nossa-senhora-de-fatima-00959"
   {:nec 959,
    :rates
@@ -197,7 +204,14 @@
     :cp7 "3420-301",
     :id #uuid "9928bd7d-4423-3446-84fb-e23bdb2e5c2d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
+   :geocode
+   {:cp7 "3420-301",
+    :postal-c "3420-301",
+    :x -8.026434959856061,
+    :y 40.36207498068086,
+    :score 100,
+    :c 1}}]
  ["irmaos-goncalves-01448"
   {:nec 1448,
    :rates
@@ -227,4 +241,11 @@
     :cp7 "3420-330",
     :id #uuid "bfb25e49-e4d6-3b23-9c92-9350c0a59e83",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
+   :geocode
+   {:cp7 "3420-330",
+    :postal-c "3420-330",
+    :x -8.033335026369116,
+    :y 40.36177000513382,
+    :score 100,
+    :c 1}}]]

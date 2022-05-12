@@ -95,4 +95,13 @@
   :cp7 "1400-350",
   :id #uuid "4cfb207f-1c07-3ae5-ba9d-2a642955fdf6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "4cfb207f-1c07-3ae5-ba9d-2a642955fdf6",
+  :address "Rua Tristão Váz, Nº 7 – 1º 1400-350 LISBOA",
+  :address-c "Rua Tristão Vaz 7, 1400-350, Lisboa",
+  :postal-c "1400-350",
+  :x -9.205490038360239,
+  :y 38.70595001089663,
+  :score 97.72,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "2635-361",
   :id #uuid "9bd67077-f5b8-3f9e-bba1-b19589345063",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "9bd67077-f5b8-3f9e-bba1-b19589345063",
+  :address "Rua Ferreira de Castro nº 47 loja 5 2635-361 RIO DE MOURO",
+  :address-c
+  "Rua Ferreira de Castro 47, 2635-361, Mercês, Sintra, Lisboa",
+  :postal-c "2635-361",
+  :x -9.330200017117988,
+  :y 38.78867000750671,
+  :score 97.39,
+  :c 2}}

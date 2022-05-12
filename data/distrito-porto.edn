@@ -96,7 +96,14 @@
     :cp7 "4200-163",
     :id #uuid "604b9605-6a1d-3fbc-850d-73b229d83c1f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:cp7 "4200-163",
+    :postal-c "4200-163",
+    :x -8.608410027161426,
+    :y 41.18449001162523,
+    :score 100,
+    :c 1}}]
  ["bastos-00012"
   {:nec 12,
    :rates
@@ -195,7 +202,16 @@
     :cp7 "4300-190",
     :id #uuid "ff973da4-bf2f-3d11-80b0-049f24b398bb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "ff973da4-bf2f-3d11-80b0-049f24b398bb",
+    :address "Avª Fernão de Magalhães, 15 4300-190 PORTO",
+    :address-c "Avenida de Fernão de Magalhães 15, 4300-190, Porto",
+    :postal-c "4300-190",
+    :x -8.598089976514729,
+    :y 41.15068001260548,
+    :score 97.59,
+    :c 4}}]
  ["morarte-00013"
   {:nec 13,
    :rates
@@ -294,7 +310,16 @@
     :cp7 "4000-272",
     :id #uuid "23daa2b3-9e42-301c-9c36-0fa565a39eab",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "23daa2b3-9e42-301c-9c36-0fa565a39eab",
+    :address "Rua Guedes de Azevedo, 131 - 1º 4000-272 PORTO",
+    :address-c "Rua de Guedes de Azevedo 131, 4000-272, Porto",
+    :postal-c "4000-272",
+    :x -8.606649995132642,
+    :y 41.15217999608822,
+    :score 99.43,
+    :c 1}}]
  ["carsil-00014"
   {:nec 14,
    :rates
@@ -393,7 +418,14 @@
     :cp7 "4420-402",
     :id #uuid "f4b12565-04dc-3fa7-aa14-2a991a0b1e46",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4420-402",
+    :postal-c "4420-402",
+    :x -8.559380000717653,
+    :y 41.14703501628108,
+    :score 100,
+    :c 1}}]
  ["hugo-vieira-porto-00017"
   {:nec 17,
    :rates
@@ -492,7 +524,16 @@
     :cp7 "4150-441",
     :id #uuid "e6a6cc2d-548b-38cb-9dce-833e506d3136",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "e6a6cc2d-548b-38cb-9dce-833e506d3136",
+    :address "Rua José Gomes Ferreira, n.º 314 ; 4150-441 Porto",
+    :address-c "Rua José Gomes Ferreira 314, 4150-441, Porto",
+    :postal-c "4150-441",
+    :x -8.668050034282743,
+    :y 41.16320999393389,
+    :score 96.96,
+    :c 1}}]
  ["auto-aguia-00029"
   {:nec 29,
    :rates
@@ -591,7 +632,16 @@
     :cp7 "4350-102",
     :id #uuid "1a733a73-7d22-3db1-ae12-e51ecb793ee1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "1a733a73-7d22-3db1-ae12-e51ecb793ee1",
+    :address "Rua Chaves de Oliveira, Nº 60 4350-102 PORTO",
+    :address-c "Rua de Chaves de Oliveira 60, 4350-102, Porto",
+    :postal-c "4350-102",
+    :x -8.576940004051181,
+    :y 41.1617400176645,
+    :score 98.43,
+    :c 5}}]
  ["pincor-00036"
   {:nec 36,
    :rates
@@ -690,7 +740,16 @@
     :cp7 "4050-496",
     :id #uuid "2992efee-820c-3d52-98e5-a1d5e2cf9890",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "2992efee-820c-3d52-98e5-a1d5e2cf9890",
+    :address "Praça da República, 64 4050-496 PORTO",
+    :address-c "Praça da República 64, 4050-496, Porto",
+    :postal-c "4050-496",
+    :x -8.61347001447038,
+    :y 41.15401999147329,
+    :score 100,
+    :c 2}}]
  ["carvalhido-00042"
   {:nec 42,
    :rates
@@ -789,7 +848,16 @@
     :cp7 "4250-117",
     :id #uuid "2900b077-b0c7-36e9-931f-c5e9ee370d7b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "2900b077-b0c7-36e9-931f-c5e9ee370d7b",
+    :address "Rua dos Castelos, 23 – 1º 4250-117 PORTO",
+    :address-c "Rua dos Castelos 23, 4250-117, Porto",
+    :postal-c "4250-117",
+    :x -8.627499979281566,
+    :y 41.167019988022275,
+    :score 99.33,
+    :c 6}}]
  ["boavista-00049"
   {:nec 49,
    :rates
@@ -888,7 +956,14 @@
     :cp7 "4100-127",
     :id #uuid "ce8005d7-b07a-3bef-a2d0-93a62aaebcc5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:cp7 "4100-127",
+    :postal-c "4100-127",
+    :x -8.631584983613152,
+    :y 41.15825000272983,
+    :score 100,
+    :c 1}}]
  ["invicta-00052"
   {:nec 52,
    :rates
@@ -987,7 +1062,16 @@
     :cp7 "4000-307",
     :id #uuid "37da4c62-d587-3b6c-bff4-d2c0f012ddc8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "37da4c62-d587-3b6c-bff4-d2c0f012ddc8",
+    :address "Rua João Pedro Ribeiro,713/ 715-1º 4000-307 PORTO",
+    :address-c "Rua de João Pedro Ribeiro 713, 4000-307, Porto",
+    :postal-c "4000-307",
+    :x -8.60677999845089,
+    :y 41.16082999443674,
+    :score 98.72,
+    :c 1}}]
  ["s-mamede-00053"
   {:nec 53,
    :rates
@@ -1086,7 +1170,17 @@
     :cp7 "4465-197",
     :id #uuid "87bcb4b1-de3a-3d8b-a3f5-e67793a94667",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "87bcb4b1-de3a-3d8b-a3f5-e67793a94667",
+    :address "Rua da Mainça, Nº 79 R/c 4465-197 SÃO MAMEDE de INFESTA",
+    :address-c
+    "Rua da Mainça 79, 4465-197, Picotos, Matosinhos, Porto",
+    :postal-c "4465-197",
+    :x -8.617809996296558,
+    :y 41.19327001329199,
+    :score 96.89,
+    :c 2}}]
  ["franca-00057"
   {:nec 57,
    :rates
@@ -1185,7 +1279,16 @@
     :cp7 "4000-216",
     :id #uuid "7b8650fe-2048-30bd-b41b-308cf346d80f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "7b8650fe-2048-30bd-b41b-308cf346d80f",
+    :address "Rua Fernando Tomás, 415-1º 4000-216 PORTO",
+    :address-c "Rua Fernandes Tomás 415, 4000-216, Porto",
+    :postal-c "4000-216",
+    :x -8.60352999931365,
+    :y 41.14922001080086,
+    :score 97.42,
+    :c 5}}]
  ["portuense-00058"
   {:nec 58,
    :rates
@@ -1285,7 +1388,14 @@
     :cp7 "4000-055",
     :id #uuid "9f016bf4-1d09-354e-a580-ad93f9355f86",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:cp7 "4000-055",
+    :postal-c "4000-055",
+    :x -8.605739971904882,
+    :y 41.14421500877674,
+    :score 100,
+    :c 1}}]
  ["penafidelense-00134"
   {:nec 134,
    :rates
@@ -1384,7 +1494,16 @@
     :cp7 "4560-465",
     :id #uuid "89383d9a-e30e-3411-bd79-5e5f4c91498f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "89383d9a-e30e-3411-bd79-5e5f4c91498f",
+    :address "Rua Eng.º Matos, 253 ; 4560-465 Penafiel",
+    :address-c "Rua Engenheiro Matos 253, 4560-488, Penafiel, Porto",
+    :postal-c "4560-488",
+    :x -8.290624585138005,
+    :y 41.201178674214134,
+    :score 98.93,
+    :c 3}}]
  ["a-marcoense-00177"
   {:nec 177,
    :rates
@@ -1483,7 +1602,14 @@
     :cp7 "4630-296",
     :id #uuid "927174ef-105d-3335-afd2-7335e0cd19ea",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4630-296",
+    :postal-c "4630-296",
+    :x -8.146055027910535,
+    :y 41.18380998782061,
+    :score 100,
+    :c 1}}]
  ["campanha-00297"
   {:nec 297,
    :rates
@@ -1585,7 +1711,14 @@
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
    :obs "missing nec in imt.pt",
    :overwrite/notes
-   ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"]}]
+   ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"],
+   :geocode
+   {:cp7 "4300-431",
+    :postal-c "4300-431",
+    :x -8.589050010120985,
+    :y 41.14946501383068,
+    :score 100,
+    :c 1}}]
  ["imperio-00325"
   {:nec 325,
    :rates
@@ -1684,7 +1817,16 @@
     :cp7 "4200-056",
     :id #uuid "bb771206-cfb3-3264-8062-1d3ec9c8d167",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "bb771206-cfb3-3264-8062-1d3ec9c8d167",
+    :address "Rua do Amial, Nº 928 4200-056 PORTO",
+    :address-c "Rua do Amial 928, 4200-056, Porto",
+    :postal-c "4200-056",
+    :x -8.61351997061331,
+    :y 41.18109001833065,
+    :score 98.27,
+    :c 3}}]
  ["a-valonguense-00368"
   {:nec 368,
    :rates
@@ -1783,7 +1925,16 @@
     :cp7 "4440-502",
     :id #uuid "e85d1ff4-9497-3b37-a988-950936b6aba5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "e85d1ff4-9497-3b37-a988-950936b6aba5",
+    :address "Avª 25 de Abril nº 402 4440-502 VALONGO",
+    :address-c "Avenida 25 de Abril 402, 4440-502, Valongo, Porto",
+    :postal-c "4440-502",
+    :x -8.502082056367973,
+    :y 41.19280925085791,
+    :score 98.36,
+    :c 4}}]
  ["costa-cabral-00371"
   {:nec 371,
    :rates
@@ -1882,7 +2033,16 @@
     :cp7 "4200-222",
     :id #uuid "b766ff8a-b51d-3d8c-aaa2-02c67c47d2e9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "b766ff8a-b51d-3d8c-aaa2-02c67c47d2e9",
+    :address "Rua Costa Cabral, 279-1º 4200-222 PORTO",
+    :address-c "Rua de Costa Cabral 279, 4200-222, Porto",
+    :postal-c "4200-222",
+    :x -8.601490011718823,
+    :y 41.16397999746911,
+    :score 99.35,
+    :c 3}}]
  ["areosa-00373"
   {:nec 373,
    :rates
@@ -1981,7 +2141,17 @@
     :cp7 "4200-248",
     :id #uuid "9eff6856-7528-3ae9-93fb-8d7b051d5cfc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "9eff6856-7528-3ae9-93fb-8d7b051d5cfc",
+    :address "Rua Dr. Eduardo Santos Silva, Nº 499 4200-248 PORTO",
+    :address-c
+    "Rua do Doutor Eduardo Santos Silva 499, 4200-284, Porto",
+    :postal-c "4200-284",
+    :x -8.58514999439248,
+    :y 41.18012999705044,
+    :score 97.44,
+    :c 1}}]
  ["vilacondense-00374"
   {:nec 374,
    :rates
@@ -2081,7 +2251,14 @@
     :cp7 "4480-668",
     :id #uuid "29270f87-7613-32d0-b7d0-f28e5ab6b92b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:cp7 "4480-668",
+    :postal-c "4480-668",
+    :x -8.74550502223218,
+    :y 41.35249998017795,
+    :score 100,
+    :c 1}}]
  ["madureira-00383"
   {:nec 383,
    :rates
@@ -2180,7 +2357,17 @@
     :cp7 "4630-293",
     :id #uuid "e86057b8-75f4-3cdf-8111-7ccfb8411893",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:id #uuid "e86057b8-75f4-3cdf-8111-7ccfb8411893",
+    :address "Charneca - Rua São Nicolau, 224 4630-293 S. NICOLAU",
+    :address-c
+    "Rua de São Nicolau 224, 4630-261, Marco de Canaveses, Porto",
+    :postal-c "4630-261",
+    :x -8.151929987665227,
+    :y 41.186519982845766,
+    :score 95.75,
+    :c 1}}]
  ["academica-00384"
   {:nec 384,
    :rates
@@ -2265,7 +2452,16 @@
     :cp7 "4050-247",
     :id #uuid "0cc8e1e1-9015-3cbd-8d58-075c2b00555c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "0cc8e1e1-9015-3cbd-8d58-075c2b00555c",
+    :address "Rua da Fábrica, 65-2º 4050-247 PORTO",
+    :address-c "Rua da Fábrica 65, 4050-247, Porto",
+    :postal-c "4050-247",
+    :x -8.613230040582465,
+    :y 41.1474500043073,
+    :score 99.29,
+    :c 2}}]
  ["o-volante-de-gondomar-00387"
   {:nec 387,
    :rates
@@ -2364,7 +2560,17 @@
     :cp7 "4435-289",
     :id #uuid "bea02562-51b6-3780-a2a4-d588df182ab4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "bea02562-51b6-3780-a2a4-d588df182ab4",
+    :address "Travessa Infante D. Henrique, 19/21 4435-289 RIO TINTO",
+    :address-c
+    "Travessa Infante Dom Henrique 19, 4435-289, Fânzeres, Gondomar, Porto",
+    :postal-c "4435-289",
+    :x -8.547003416738555,
+    :y 41.16749820942909,
+    :score 98.36,
+    :c 2}}]
  ["ala-arriba-00390"
   {:nec 390,
    :rates
@@ -2464,7 +2670,14 @@
     :cp7 "4490-409",
     :id #uuid "3429221d-75ae-3765-829a-36edbfb4ae58",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:cp7 "4490-409",
+    :postal-c "4490-409",
+    :x -8.763855019939996,
+    :y 41.38147001684712,
+    :score 100,
+    :c 1}}]
  ["sameiro-nova-era-00393"
   {:nec 393,
    :rates
@@ -2564,7 +2777,18 @@
     :cp7 "4445-637",
     :id #uuid "f1a87842-8ad2-36ec-99cf-dd8e263243b4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "f1a87842-8ad2-36ec-99cf-dd8e263243b4",
+    :address
+    "Rua Rodrigues de Freitas, 2072 r/c Esqº e 1º Dtº 4445 - 637 ERMESINDE",
+    :address-c
+    "Rua Rodrigues de Freitas 2072, 4445-637, Ermesinde, Valongo, Porto",
+    :postal-c "4445-637",
+    :x -8.554650008936704,
+    :y 41.22163001504802,
+    :score 97.74,
+    :c 2}}]
  ["beira-00396"
   {:nec 396,
    :rates
@@ -2664,7 +2888,18 @@
     :cp7 "4480-665",
     :id #uuid "213fa049-db93-3924-8db8-24212e69561c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "213fa049-db93-3924-8db8-24212e69561c",
+    :address
+    "Avª Dr. Carlos Pinto Ferreira, Nº 364-1ºDtº 4480-665 VILA DO CONDE",
+    :address-c
+    "Avenida Doutor Carlos Pinto Ferreira 364, 4480-665, Vila do Conde, Porto",
+    :postal-c "4480-665",
+    :x -8.758090030754971,
+    :y 41.362979999446765,
+    :score 97.67,
+    :c 4}}]
  ["avilense-00403"
   {:nec 403,
    :rates
@@ -2763,7 +2998,17 @@
     :cp7 "4795-058",
     :id #uuid "ece76f2c-5d3b-305f-b175-53f64f5781b8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "ece76f2c-5d3b-305f-b175-53f64f5781b8",
+    :address "Rua D. Afonso Henriques, Nº 12 4795-058 AVES",
+    :address-c
+    "Rua Dom Afonso Henriques 12, 4795-058, Aves, Santo Tirso, Porto",
+    :postal-c "4795-058",
+    :x -8.402319982835252,
+    :y 41.36342000745395,
+    :score 98.42,
+    :c 1}}]
  ["gaiense-00406"
   {:nec 406,
    :rates
@@ -2862,7 +3107,17 @@
     :cp7 "4430-047",
     :id #uuid "1e3a61ba-a2d4-3a26-bc15-59cd34b5b975",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "1e3a61ba-a2d4-3a26-bc15-59cd34b5b975",
+    :address "Rua 14 de Outubro, 524 4430-047 MAFAMUDE",
+    :address-c
+    "Rua 14 de Outubro 524, 4430-047, Vila Nova de Gaia, Porto",
+    :postal-c "4430-047",
+    :x -8.604809999747573,
+    :y 41.129900017348064,
+    :score 97.5,
+    :c 1}}]
  ["asa-00410"
   {:nec 410,
    :rates
@@ -2961,7 +3216,16 @@
     :cp7 "4580-170",
     :id #uuid "ead61692-23e8-37dd-8fc5-5832aed24c8f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:id #uuid "ead61692-23e8-37dd-8fc5-5832aed24c8f",
+    :address "Largo Nuno Álvares Pereira, nº4 4580-170 PAREDES",
+    :address-c "Largo Nuno Álvares 4, 4580-170, Paredes, Porto",
+    :postal-c "4580-170",
+    :x -8.332184946707246,
+    :y 41.20770175405321,
+    :score 98.01,
+    :c 3}}]
  ["vitoria-00411"
   {:nec 411,
    :rates
@@ -3061,7 +3325,18 @@
     :cp7 "4420-437",
     :id #uuid "b0e61e68-059d-3f78-b521-bdacb768ed5a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "b0e61e68-059d-3f78-b521-bdacb768ed5a",
+    :address
+    "Rua Dr. Joaquim Manuel da Costa, n.º 830, 4420 - 437 Valbom, GONDOMAR",
+    :address-c
+    "Rua Doutor Joaquim Manuel da Costa, 4420-437, Pinheiro de Além, Gondomar, Porto",
+    :postal-c "4420-437",
+    :x -8.555544787874382,
+    :y 41.141673663598965,
+    :score 95.32,
+    :c 47}}]
  ["trofense-00417"
   {:nec 417,
    :rates
@@ -3161,7 +3436,17 @@
     :cp7 "4785-321",
     :id #uuid "42e5bfb8-234d-34c7-a93b-81e82628c9e0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:id #uuid "42e5bfb8-234d-34c7-a93b-81e82628c9e0",
+    :address
+    "Rua Gil Vicente, Nº 1-1º Dtº 4785-321 S. MARTINHO (BOUGADO)",
+    :address-c "Rua de Gil Vicente 1, 4785-321, Trofa, Porto",
+    :postal-c "4785-321",
+    :x -8.553590033461148,
+    :y 41.33770001183157,
+    :score 96.27,
+    :c 1}}]
  ["maia-00420"
   {:nec 420,
    :rates
@@ -3260,7 +3545,16 @@
     :cp7 "4470-136",
     :id #uuid "a020238b-9dab-31f5-bb66-cc34ea9441cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "a020238b-9dab-31f5-bb66-cc34ea9441cb",
+    :address "Rua Padre António, 81 – 1º Dtº 4470-136 MAIA",
+    :address-c "Rua Padre António 81, 4470-136, Maia, Porto",
+    :postal-c "4470-136",
+    :x -8.62372996687131,
+    :y 41.233450007267976,
+    :score 98.48,
+    :c 3}}]
  ["a-lousadense-00430"
   {:nec 430,
    :rates
@@ -3359,7 +3653,16 @@
     :cp7 "4620-660",
     :id #uuid "722870f9-acdb-32fb-8cf8-a740f3cd31ff",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:id #uuid "722870f9-acdb-32fb-8cf8-a740f3cd31ff",
+    :address "Rua S. João de Deus, Nº 76 R/C e 1º 4620-660 SILVARES",
+    :address-c "Rua S. João de Deus 76, 4620-660, Lousada, Porto",
+    :postal-c "4620-660",
+    :x -8.278369991238407,
+    :y 41.27809001192361,
+    :score 95.09,
+    :c 1}}]
  ["oficina-do-condutor-00457"
   {:nec 457,
    :rates
@@ -3458,7 +3761,14 @@
     :cp7 "4450-282",
     :id #uuid "d7068da6-89f0-3086-b531-7f214e89881b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:cp7 "4450-282",
+    :postal-c "4450-282",
+    :x -8.692644968951413,
+    :y 41.18237001876457,
+    :score 100,
+    :c 1}}]
  ["a-desportiva-palacio-00464"
   {:nec 464,
    :rates
@@ -3557,7 +3867,16 @@
     :cp7 "4050-523",
     :id #uuid "dd02ded2-636f-3be7-8653-14164f72de37",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "dd02ded2-636f-3be7-8653-14164f72de37",
+    :address "Rua do Rosário, 5 – 2º 4050-523 PORTO",
+    :address-c "Rua do Rosário 5, 4050-523, Porto",
+    :postal-c "4050-523",
+    :x -8.620539982160807,
+    :y 41.14758000762555,
+    :score 99.26,
+    :c 3}}]
  ["a-desportiva-santo-tirso-00467"
   {:nec 467,
    :rates
@@ -3656,7 +3975,17 @@
     :cp7 "4780-548",
     :id #uuid "8dfc78cb-46ae-355d-b1b2-eb0a9cb20d82",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "8dfc78cb-46ae-355d-b1b2-eb0a9cb20d82",
+    :address "Rua S. João de Brito 4780-548 SANTO TIRSO",
+    :address-c
+    "Rua de São João de Brito, 4780-548, Santo Tirso, Porto",
+    :postal-c "4780-548",
+    :x -8.476749139056055,
+    :y 41.34338989104687,
+    :score 100,
+    :c 1}}]
  ["baiao-00474"
   {:nec 474,
    :rates
@@ -3755,7 +4084,14 @@
     :cp7 "4640-147",
     :id #uuid "c4a53c51-11e8-3aea-ac37-08216798fd78",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"},
+   :geocode
+   {:cp7 "4640-147",
+    :postal-c "4640-147",
+    :x -8.034289976597904,
+    :y 41.164185018820774,
+    :score 100,
+    :c 1}}]
  ["guedes-vieira-povoa-de-varzim-00479"
   {:nec 479,
    :rates
@@ -3854,7 +4190,14 @@
     :cp7 "4490-410",
     :id #uuid "eb289911-51dc-387c-9fa3-2c2886d8e10a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:cp7 "4490-410",
+    :postal-c "4490-410",
+    :x -8.76909999585203,
+    :y 41.38723999326456,
+    :score 100,
+    :c 1}}]
  ["couto-00489"
   {:nec 489,
    :rates
@@ -3953,7 +4296,17 @@
     :cp7 "4415-385",
     :id #uuid "a43f67e8-8ec0-31f9-bca7-d3541d4656b8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "a43f67e8-8ec0-31f9-bca7-d3541d4656b8",
+    :address "Avª Dr. Moreira de Sousa nº 2251 4415-385 PEDROSO",
+    :address-c
+    "Avenida Doutor Moreira de Sousa 2251, 4415-385, Venda Nova, Vila Nova de Gaia, Porto",
+    :postal-c "4415-385",
+    :x -8.566958621023348,
+    :y 41.05726182836904,
+    :score 97.32,
+    :c 1}}]
  ["senhora-da-hora-00499"
   {:nec 499,
    :rates
@@ -4052,7 +4405,17 @@
     :cp7 "4460-816",
     :id #uuid "c35fd1d4-da00-3cca-b4cf-2de7a4175826",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "c35fd1d4-da00-3cca-b4cf-2de7a4175826",
+    :address "Rua de S. Gens, 3289/3291, 4460-816 CUSTÓIAS MTS",
+    :address-c
+    "Rua de São Gens 3289, 4460-816, Padrão da Légua, Matosinhos, Porto",
+    :postal-c "4460-816",
+    :x -8.64209002286293,
+    :y 41.18923001978044,
+    :score 96.9,
+    :c 1}}]
  ["brilhante-00500"
   {:nec 500,
    :rates
@@ -4152,7 +4515,14 @@
     :cp7 "4465-099",
     :id #uuid "91a1fcc7-a0fc-342d-800b-90e66f350950",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:cp7 "4465-099",
+    :postal-c "4465-099",
+    :x -8.609479977101785,
+    :y 41.19364501964006,
+    :score 100,
+    :c 1}}]
  ["condutor-seguro-00510"
   {:nec 510,
    :rates
@@ -4251,7 +4621,17 @@
     :cp7 "4560-162",
     :id #uuid "5d453504-6041-358e-9c81-510d7dcea340",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "5d453504-6041-358e-9c81-510d7dcea340",
+    :address "Av. Central de Guilhufe, 60, 4560-162 Penafiel",
+    :address-c
+    "Avenida Central de Guilhufe 60, 4560-131, Penafiel, Porto",
+    :postal-c "4560-131",
+    :x -8.303753533480688,
+    :y 41.193779162195064,
+    :score 98.07,
+    :c 5}}]
  ["vale-de-sousa-00511"
   {:nec 511,
    :rates
@@ -4351,7 +4731,17 @@
     :cp7 "4560-531",
     :id #uuid "1efbce52-140d-3272-b33f-6abde9e40fca",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "1efbce52-140d-3272-b33f-6abde9e40fca",
+    :address
+    "Rua da Saudade, 120 A - Sala A/ Apartado 108 4560-531 PENAFIEL",
+    :address-c "Rua da Saudade 120A, 4560-531, Penafiel, Porto",
+    :postal-c "4560-531",
+    :x -8.293676855179342,
+    :y 41.19725435096643,
+    :score 96.58,
+    :c 6}}]
  ["beira-mar-00515"
   {:nec 515,
    :rates
@@ -4450,7 +4840,17 @@
     :cp7 "4450-001",
     :id #uuid "da4ed34d-0ff2-35e8-ab53-b7e76f5e6e5f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "da4ed34d-0ff2-35e8-ab53-b7e76f5e6e5f",
+    :address "Rua Dr. Afonso Cordeiro 154 4450-001 MATOSINHOS",
+    :address-c
+    "Rua Doutor Afonso Cordeiro 154, 4450-001, Matosinhos, Porto",
+    :postal-c "4450-001",
+    :x -8.685869960433735,
+    :y 41.180900000585666,
+    :score 100,
+    :c 2}}]
  ["vale-do-tamega-00517"
   {:nec 517,
    :rates
@@ -4550,7 +4950,14 @@
     :cp7 "4600-049",
     :id #uuid "e7b327ba-fd03-3dcc-a0fa-90c949a5ed7c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
+   :geocode
+   {:cp7 "4600-049",
+    :postal-c "4600-049",
+    :x -8.085789982269432,
+    :y 41.269349991935,
+    :score 100,
+    :c 1}}]
  ["nova-de-gaia-00532"
   {:nec 532,
    :rates
@@ -4649,7 +5056,17 @@
     :cp7 "4410-227",
     :id #uuid "a254045b-ea5e-3988-babc-dae62f720b3e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "a254045b-ea5e-3988-babc-dae62f720b3e",
+    :address "Rua Delfim de Lima, nº 1955 - 1º 4410-227 CANELAS",
+    :address-c
+    "Rua de Delfim de Lima 1955, 4410-227, Canelas, Vila Nova de Gaia, Porto",
+    :postal-c "4410-227",
+    :x -8.601239979547103,
+    :y 41.080179992634896,
+    :score 97.93,
+    :c 3}}]
  ["samuel-alves-pinto-00541"
   {:nec 541,
    :rates
@@ -4748,7 +5165,14 @@
     :cp7 "4400-309",
     :id #uuid "7d1ba46d-d215-338e-b488-079b68953530",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:cp7 "4400-309",
+    :postal-c "4400-309",
+    :x -8.61253995849404,
+    :y 41.12299001827975,
+    :score 100,
+    :c 1}}]
  ["citania-00546"
   {:nec 546,
    :rates
@@ -4847,7 +5271,14 @@
     :cp7 "4590-530",
     :id #uuid "a2bbbfde-e140-33f8-a179-5d1ca2307af1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:cp7 "4590-530",
+    :postal-c "4590-530",
+    :x -8.372479988435515,
+    :y 41.27830999497246,
+    :score 100,
+    :c 1}}]
  ["nobreza-00551"
   {:nec 551,
    :rates
@@ -4946,7 +5377,14 @@
     :cp7 "4430-196",
     :id #uuid "f3364ec7-ce80-3f2c-a073-24f6f1356da8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:cp7 "4430-196",
+    :postal-c "4430-196",
+    :x -8.606774969308987,
+    :y 41.11746500298264,
+    :score 100,
+    :c 1}}]
  ["ideal-de-lousada-00553"
   {:nec 553,
    :rates
@@ -5045,7 +5483,16 @@
     :cp7 "4620-650",
     :id #uuid "00b0add3-1806-3a93-9452-a98aec17eef6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:id #uuid "00b0add3-1806-3a93-9452-a98aec17eef6",
+    :address "Rua Visconde de Alentem 4620-650 SILVARES",
+    :address-c "Rua Visconde de Alentém, 4620-650, Lousada, Porto",
+    :postal-c "4620-650",
+    :x -8.28313522222372,
+    :y 41.2749538994789,
+    :score 96.53,
+    :c 1}}]
  ["o-grande-premio-00571"
   {:nec 571,
    :rates
@@ -5144,7 +5591,14 @@
     :cp7 "4435-208",
     :id #uuid "b16b5342-a7c5-3270-b1b3-04ae9ad16790",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4435-208",
+    :postal-c "4435-208",
+    :x -8.55375498931565,
+    :y 41.1677899915575,
+    :score 100,
+    :c 1}}]
  ["sampaio-00574"
   {:nec 574,
    :rates
@@ -5244,7 +5698,14 @@
     :cp7 "4615-623",
     :id #uuid "595ce2ab-5413-375f-869b-afcf48b13bbf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4615-623",
+    :postal-c "4615-623",
+    :x -8.144334977559907,
+    :y 41.32030999349445,
+    :score 100,
+    :c 1}}]
  ["oliveira-00594"
   {:nec 594,
    :rates
@@ -5343,7 +5804,17 @@
     :cp7 "4470-200",
     :id #uuid "d9f6aad1-9e5f-3032-8767-c4fc9f5ad350",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "d9f6aad1-9e5f-3032-8767-c4fc9f5ad350",
+    :address "Avª D. Manuel II, nº 1148 4470-200 VERMOIM",
+    :address-c
+    "Avenida Dom Manuel II 1148, 4470-129, Vermoim, Maia, Porto",
+    :postal-c "4470-129",
+    :x -8.611939981864737,
+    :y 41.23675000445766,
+    :score 97.32,
+    :c 3}}]
  ["alianca-00647"
   {:nec 647,
    :rates
@@ -5442,7 +5913,17 @@
     :cp7 "4460-840",
     :id #uuid "c9ba0e7f-4ed2-3cf8-b22f-25a9f3f9dc44",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "c9ba0e7f-4ed2-3cf8-b22f-25a9f3f9dc44",
+    :address "Av. Xanana Gusmão, nº 296, 4460-840 CUSTÓIAS MTS",
+    :address-c
+    "Avenida Xanana Gusmão 296, 4460-840, Padrão da Légua, Matosinhos, Porto",
+    :postal-c "4460-840",
+    :x -8.635929994581232,
+    :y 41.18971998393056,
+    :score 96.5,
+    :c 1}}]
  ["agucadourense-00660"
   {:nec 660,
    :rates
@@ -5541,7 +6022,17 @@
     :cp7 "4495-025",
     :id #uuid "684e0910-c636-3664-bfff-2987cdc8c19d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "684e0910-c636-3664-bfff-2987cdc8c19d",
+    :address "Rua da Codixeira, Nº 66, 4495-025 PÓVOA DE VARZIM",
+    :address-c
+    "Rua da Codixeira 66, 4495-025, Aguçadoura, Póvoa de Varzim, Porto",
+    :postal-c "4495-025",
+    :x -8.776770691925096,
+    :y 41.43016426704915,
+    :score 97.38,
+    :c 6}}]
  ["quatro-ases-00662"
   {:nec 662,
    :rates
@@ -5641,7 +6132,14 @@
     :cp7 "4630-203",
     :id #uuid "70271f41-4321-3803-9843-66fa07f77437",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4630-203",
+    :postal-c "4630-203",
+    :x -8.14909497655421,
+    :y 41.17146499509525,
+    :score 100,
+    :c 1}}]
  ["boa-nova-00672"
   {:nec 672,
    :rates
@@ -5740,7 +6238,14 @@
     :cp7 "4425-057",
     :id #uuid "80297c79-ad95-3e22-adeb-7c29800e0dce",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:cp7 "4425-057",
+    :postal-c "4425-057",
+    :x -8.573450031025999,
+    :y 41.200679992884716,
+    :score 100,
+    :c 1}}]
  ["cristo-rei-00676"
   {:nec 676,
    :rates
@@ -5839,7 +6344,17 @@
     :cp7 "4595-225",
     :id #uuid "d5fcc173-7e05-3b22-a1e0-2ae3bec4291d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "d5fcc173-7e05-3b22-a1e0-2ae3bec4291d",
+    :address "Avª do Marco, Nº 127 4595-225 MEIXOMIL",
+    :address-c
+    "Avenida do Marco 127, 4595-225, Meixomil, Paços de Ferreira, Porto",
+    :postal-c "4595-225",
+    :x -8.38690423718972,
+    :y 41.28282965270231,
+    :score 97.24,
+    :c 4}}]
  ["formariz-00678"
   {:nec 678,
    :rates
@@ -5939,7 +6454,18 @@
     :cp7 "4480-878",
     :id #uuid "50d2751f-35af-3588-8b2f-3b79811a922e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "50d2751f-35af-3588-8b2f-3b79811a922e",
+    :address
+    "Av. Alexandre Herculano, n.º 355 ; 4480-878 Vila do Conde",
+    :address-c
+    "Avenida Alexandre Herculano, 4480-878, Vila do Conde, Porto",
+    :postal-c "4480-878",
+    :x -8.732453099477949,
+    :y 41.36040741606177,
+    :score 95.93,
+    :c 1}}]
  ["pinheiro-manso-00692"
   {:nec 692,
    :rates
@@ -6038,7 +6564,17 @@
     :cp7 "4585-116",
     :id #uuid "6b055c93-4b3f-36be-a426-1b59a49dfd23",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:id #uuid "6b055c93-4b3f-36be-a426-1b59a49dfd23",
+    :address "Rua Central da Gandra nº 1479 4585-116 GANDRA",
+    :address-c
+    "Rua Central de Gandra 1479, 4585-248, Vilarinho de Cima, Paredes, Porto",
+    :postal-c "4585-248",
+    :x -8.449562903517997,
+    :y 41.18497594011866,
+    :score 95.83,
+    :c 2}}]
  ["universal-00696"
   {:nec 696,
    :rates
@@ -6137,7 +6673,17 @@
     :cp7 "4490-097",
     :id #uuid "7efe270a-2ea7-3feb-acde-ff77b81c9cd1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "7efe270a-2ea7-3feb-acde-ff77b81c9cd1",
+    :address "Rua José Ferreira Coelho n º 115 4490-097 A VER-O-MAR",
+    :address-c
+    "Rua José Ferreira Coelho 115, 4490-097, A Ver-o-Mar, Póvoa de Varzim, Porto",
+    :postal-c "4490-097",
+    :x -8.768509993687502,
+    :y 41.403949987797034,
+    :score 97.03,
+    :c 1}}]
  ["cidade-gaia-00697"
   {:nec 697,
    :rates
@@ -6237,7 +6783,14 @@
     :cp7 "4400-039",
     :id #uuid "e9667e60-5580-3af1-b983-f7bcfb5eb333",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:cp7 "4400-039",
+    :postal-c "4400-039",
+    :x -8.625544984184927,
+    :y 41.1265850165517,
+    :score 100,
+    :c 1}}]
  ["longra-00698"
   {:nec 698,
    :rates
@@ -6336,7 +6889,14 @@
     :cp7 "4650-464",
     :id #uuid "cd878394-5004-3c80-9e5d-fd068e44e033",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4650-464",
+    :postal-c "4650-464",
+    :x -8.224944997683622,
+    :y 41.33952999084235,
+    :score 100,
+    :c 1}}]
  ["cidade-jardim-00704"
   {:nec 704,
    :rates
@@ -6435,7 +6995,16 @@
     :cp7 "4470-365",
     :id #uuid "025dcdbf-4249-3ba4-a53d-d855fa0d1367",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "025dcdbf-4249-3ba4-a53d-d855fa0d1367",
+    :address "Rua de S. Romão nº 200 4470-365 VERMOIM",
+    :address-c "Rua de São Romão 200, 4470-150, Vermoim, Maia, Porto",
+    :postal-c "4470-150",
+    :x -8.614520015481162,
+    :y 41.22738000062637,
+    :score 97.28,
+    :c 3}}]
  ["europa-00707"
   {:nec 707,
    :rates
@@ -6534,7 +7103,17 @@
     :cp7 "4450-031",
     :id #uuid "14287a15-a5ca-3d48-872e-75a4975599e0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "14287a15-a5ca-3d48-872e-75a4975599e0",
+    :address "Rua Conde Alto Mearim 1416 4450-031 MATOSINHOS",
+    :address-c
+    "Rua do Conde Alto Mearim 1416, 4450-125, Carcavelos, Matosinhos, Porto",
+    :postal-c "4450-125",
+    :x -8.679800037611187,
+    :y 41.180010010106486,
+    :score 98.93,
+    :c 3}}]
  ["moutinho-00709"
   {:nec 709,
    :rates
@@ -6633,7 +7212,16 @@
     :cp7 "4475-304",
     :id #uuid "dbe24ae2-677c-38de-ab16-2100b9a2ca9d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "dbe24ae2-677c-38de-ab16-2100b9a2ca9d",
+    :address "Rua da Agra nº 1288 1º Esqº 4475-304 MILHEIRÓS",
+    :address-c "Rua da Agra 1288, 4475-304, Vessada, Maia, Porto",
+    :postal-c "4475-304",
+    :x -8.594260033496766,
+    :y 41.21334001944089,
+    :score 95.71,
+    :c 1}}]
  ["codigo-norma-00710"
   {:nec 710,
    :rates
@@ -6733,7 +7321,14 @@
     :cp7 "4460-237",
     :id #uuid "dc907f4c-0d69-3356-a2e7-065f2f6969b8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:cp7 "4460-237",
+    :postal-c "4460-237",
+    :x -8.65723997757641,
+    :y 41.18620000369205,
+    :score 100,
+    :c 1}}]
  ["benguiados-00711"
   {:nec 711,
    :rates
@@ -6832,7 +7427,17 @@
     :cp7 "4480-794",
     :id #uuid "1f710f18-6e5b-30b4-a540-a9e8cb25a6e5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "1f710f18-6e5b-30b4-a540-a9e8cb25a6e5",
+    :address "Rua dos Benguiados 131 - A 4480-794 VILA DO CONDE",
+    :address-c
+    "Rua dos Benguiados 131A, 4480-794, Vila do Conde, Porto",
+    :postal-c "4480-794",
+    :x -8.745590014730396,
+    :y 41.358180018774306,
+    :score 99.99,
+    :c 1}}]
  ["santa-quiteria-00719"
   {:nec 719,
    :rates
@@ -6932,7 +7537,18 @@
     :cp7 "4620-131",
     :id #uuid "b120e54a-66ec-378e-a253-f00c5886695a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:id #uuid "b120e54a-66ec-378e-a253-f00c5886695a",
+    :address
+    "Avª dos Combatentes da Grande Guerra, Nº 407 4620-131 CRISTELOS",
+    :address-c
+    "Avenida Combatentes da Grande Guerra 407, 4620-141, Lousada, Porto",
+    :postal-c "4620-141",
+    :x -8.288363793387434,
+    :y 41.27911836749013,
+    :score 96.38,
+    :c 1}}]
  ["s-goncalo-00720"
   {:nec 720,
    :rates
@@ -7032,7 +7648,14 @@
     :cp7 "4600-760",
     :id #uuid "663b44b4-e665-3f0b-b9ed-7d6d8ab3e9b7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
+   :geocode
+   {:cp7 "4600-760",
+    :postal-c "4600-760",
+    :x -8.090670010117208,
+    :y 41.2872599816356,
+    :score 100,
+    :c 1}}]
  ["baguim-00730"
   {:nec 730,
    :rates
@@ -7131,7 +7754,17 @@
     :cp7 "4435-674",
     :id #uuid "1858f30e-6c33-3890-8807-8ce7e5d8d1fc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "1858f30e-6c33-3890-8807-8ce7e5d8d1fc",
+    :address "Rua D. João de Castro, Nº 587 4435-674 BAGUIM DO MONTE",
+    :address-c
+    "Rua Dom João de Castro 587, 4435-674, Alto da Serra, Gondomar, Porto",
+    :postal-c "4435-674",
+    :x -8.524191402425343,
+    :y 41.1902641493166,
+    :score 97.35,
+    :c 4}}]
  ["croca-de-penafiel-00731"
   {:nec 731,
    :rates
@@ -7230,7 +7863,16 @@
     :cp7 "4560-494",
     :id #uuid "51e18e6d-8bb5-3770-ae01-3108f1ac1e15",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "51e18e6d-8bb5-3770-ae01-3108f1ac1e15",
+    :address "Av Zeferino de Oliveira, n.º 26, 4560-494 Penafiel",
+    :address-c "Avenida Zeferino Oliveira, 4560-494, Penafiel, Porto",
+    :postal-c "4560-494",
+    :x -8.277578026372995,
+    :y 41.20803736267542,
+    :score 96.41,
+    :c 4}}]
  ["norteca-00733"
   {:nec 733,
    :rates
@@ -7329,7 +7971,14 @@
     :cp7 "4425-116",
     :id #uuid "ba5db34b-a3a2-379a-bdc0-567310353ad3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:cp7 "4425-116",
+    :postal-c "4425-116",
+    :x -8.56244501125181,
+    :y 41.20587999988621,
+    :score 100,
+    :c 1}}]
  ["autoalpendurada-00737"
   {:nec 737,
    :rates
@@ -7373,7 +8022,14 @@
     :cp7 "4575-052",
     :id #uuid "44a1ea0f-5799-345b-b4be-b035613aa540",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4575-052",
+    :postal-c "4575-052",
+    :x -8.251500040409866,
+    :y 41.086319988167986,
+    :score 100,
+    :c 1}}]
  ["fasa-00739"
   {:nec 739,
    :rates
@@ -7472,7 +8128,16 @@
     :cp7 "4480-743",
     :id #uuid "156d1c27-9d7a-32ec-a18d-32afa310b1d7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "156d1c27-9d7a-32ec-a18d-32afa310b1d7",
+    :address "Rua da Alegria, Nº 136 4480-743 VILA do CONDE",
+    :address-c "Rua da Alegria 136, 4480-743, Vila do Conde, Porto",
+    :postal-c "4480-743",
+    :x -8.759579997863426,
+    :y 41.36757001344466,
+    :score 98.43,
+    :c 4}}]
  ["tyrsense-00746"
   {:nec 746,
    :rates
@@ -7600,7 +8265,14 @@
     :cp7 "4515-463",
     :id #uuid "093069b3-ee90-316e-9c52-ed6f63d307d0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4515-463",
+    :postal-c "4515-463",
+    :x -8.426189966698274,
+    :y 41.08308997986981,
+    :score 100,
+    :c 1}}]
  ["a-nortenha-00761"
   {:nec 761,
    :rates
@@ -7700,7 +8372,14 @@
     :cp7 "4620-429",
     :id #uuid "a7738306-458d-3134-a6fa-44e953ee10df",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:cp7 "4620-429",
+    :postal-c "4620-429",
+    :x -8.307410016799082,
+    :y 41.25303000735727,
+    :score 100,
+    :c 1}}]
  ["joni-00764"
   {:nec 764,
    :rates
@@ -7799,7 +8478,17 @@
     :cp7 "4445-210",
     :id #uuid "2b9c4de3-a737-3ccf-b8d9-cc41825d7510",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "2b9c4de3-a737-3ccf-b8d9-cc41825d7510",
+    :address "Rua de S.Vicente nº 2024 4445-210 ALFENA",
+    :address-c
+    "Rua de São Vicente 2024, 4445-210, Alfena, Valongo, Porto",
+    :postal-c "4445-210",
+    :x -8.527330033726685,
+    :y 41.22984000538935,
+    :score 98.38,
+    :c 2}}]
  ["vilameanense-nobre-00768"
   {:nec 768,
    :rates
@@ -7998,7 +8687,17 @@
     :cp7 "4435-374",
     :id #uuid "13e656d7-c160-3459-a36b-b6a83a07bec4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "13e656d7-c160-3459-a36b-b6a83a07bec4",
+    :address "Rua Padre Joaquim das Neves, Nº 1084 4435-374 RIO TINTO",
+    :address-c
+    "Rua Padre Joaquim das Neves 1084, 4435-374, Campainha, Gondomar, Porto",
+    :postal-c "4435-374",
+    :x -8.552729966376319,
+    :y 41.18728001191619,
+    :score 97.38,
+    :c 3}}]
  ["pais-neto-00788"
   {:nec 788,
    :rates
@@ -8097,7 +8796,14 @@
     :cp7 "4575-262",
     :id #uuid "036ed107-970d-3dff-8ef2-961c00f33082",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:cp7 "4575-262",
+    :postal-c "4575-262",
+    :x -8.293454986202278,
+    :y 41.14370501187801,
+    :score 100,
+    :c 1}}]
  ["dinamica-00790"
   {:nec 790,
    :rates
@@ -8197,7 +8903,14 @@
     :cp7 "4510-260",
     :id #uuid "0e537316-4e44-3014-87e7-b515a101e58b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4510-260",
+    :postal-c "4510-260",
+    :x -8.507325029236881,
+    :y 41.151860016934506,
+    :score 100,
+    :c 1}}]
  ["nascimento-00795"
   {:nec 795,
    :rates
@@ -8297,7 +9010,18 @@
     :cp7 "4480-755",
     :id #uuid "4e1bbf96-9719-3b5b-af7c-ae7b13d1a28e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "4e1bbf96-9719-3b5b-af7c-ae7b13d1a28e",
+    :address
+    "Rua da Independência da Guiné –113 R/C 2 4480-755 VILA DO CONDE",
+    :address-c
+    "Rua da Independência da Guiné 113, 4480-755, Vila do Conde, Porto",
+    :postal-c "4480-755",
+    :x -8.75044003536479,
+    :y 41.35316001314351,
+    :score 99.39,
+    :c 3}}]
  ["nova-de-gervide-00797"
   {:nec 797,
    :rates
@@ -8397,7 +9121,18 @@
     :cp7 "4430-267",
     :id #uuid "5c4f43a4-8508-32bb-88cb-b8eb25bc7a7d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "5c4f43a4-8508-32bb-88cb-b8eb25bc7a7d",
+    :address
+    "Rua Caetano de Melo, nº 448 - R/C 4430-267 OLIVEIRA do DOURO",
+    :address-c
+    "Rua de Caetano Melo 448, 4430-267, Oliveira do Douro, Vila Nova de Gaia, Porto",
+    :postal-c "4430-267",
+    :x -8.589229969582163,
+    :y 41.12734001648022,
+    :score 98.11,
+    :c 4}}]
  ["s-pedro-00806"
   {:nec 806,
    :rates
@@ -8496,7 +9231,14 @@
     :cp7 "4510-431",
     :id #uuid "8783c347-5a94-3d03-a91f-f924f9c7c792",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4510-431",
+    :postal-c "4510-431",
+    :x -8.509655030681586,
+    :y 41.155540007704644,
+    :score 100,
+    :c 1}}]
  ["lord-00807"
   {:nec 807,
    :rates
@@ -8595,7 +9337,17 @@
     :cp7 "4580-416",
     :id #uuid "a529c39e-8d95-39cc-b34f-999e4cd06a39",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:id #uuid "a529c39e-8d95-39cc-b34f-999e4cd06a39",
+    :address "Rua Antero Ferreira Leal, nº 3003 4580-416 LORDELO",
+    :address-c
+    "Rua Antero Ferreira Leal 3003, 4580-416, Lordelo, Paredes, Porto",
+    :postal-c "4580-416",
+    :x -8.419733719347763,
+    :y 41.23876367984903,
+    :score 98.52,
+    :c 1}}]
  ["via-publica-00808"
   {:nec 808,
    :rates
@@ -8694,7 +9446,17 @@
     :cp7 "4585-457",
     :id #uuid "6696f39b-6f48-39ab-b4a8-7b8a32754352",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:id #uuid "6696f39b-6f48-39ab-b4a8-7b8a32754352",
+    :address "R. São Miguel 142 4585-457 REBORDOSA",
+    :address-c
+    "Rua de São Miguel 142, 4585-457, Rebordosa, Paredes, Porto",
+    :postal-c "4585-457",
+    :x -8.41425352650715,
+    :y 41.2218727840964,
+    :score 100,
+    :c 1}}]
  ["d-fernando-00811"
   {:nec 811,
    :rates
@@ -8793,7 +9555,17 @@
     :cp7 "4510-147",
     :id #uuid "8c5e7670-8f0a-3fdc-8e99-7ceb932f8dd8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "8c5e7670-8f0a-3fdc-8e99-7ceb932f8dd8",
+    :address "Rua Trás da Serra, Nº 110 4510-147 JOVIM GDM",
+    :address-c
+    "Rua Trás da Serra 110, 4510-147, Pinheiro, Gondomar, Porto",
+    :postal-c "4510-147",
+    :x -8.509979997067717,
+    :y 41.11651001084434,
+    :score 96.38,
+    :c 1}}]
  ["memorial-00816"
   {:nec 816,
    :rates
@@ -8892,7 +9664,14 @@
     :cp7 "4575-032",
     :id #uuid "dd3a574a-a95f-328f-a6f1-3dca5f11fda4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4575-032",
+    :postal-c "4575-032",
+    :x -8.247280003618101,
+    :y 41.090064980597276,
+    :score 100,
+    :c 1}}]
  ["feira-nova-00817"
   {:nec 817,
    :rates
@@ -8991,7 +9770,14 @@
     :cp7 "4625-049",
     :id #uuid "0d3c6c37-a2cb-3b0c-8cbf-d0dbb9d70ab4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4625-049",
+    :postal-c "4625-049",
+    :x -8.217085035618908,
+    :y 41.114469981339965,
+    :score 100,
+    :c 1}}]
  ["margaride-00820"
   {:nec 820,
    :rates
@@ -9190,7 +9976,14 @@
     :cp7 "4580-058",
     :id #uuid "2f461648-ad86-36d7-ba54-db96e281ed95",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:cp7 "4580-058",
+    :postal-c "4580-058",
+    :x -8.332895025765936,
+    :y 41.203050185555156,
+    :score 100,
+    :c 1}}]
  ["senhora-aparecida-00822"
   {:nec 822,
    :rates
@@ -9389,7 +10182,18 @@
     :cp7 "4620-141",
     :id #uuid "f62830a0-0f78-3291-badc-9de34a2be3dd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:id #uuid "f62830a0-0f78-3291-badc-9de34a2be3dd",
+    :address
+    "Avª dos Combatentes da Grande Guerra n º 342 4620-141 CRISTELO",
+    :address-c
+    "Avenida Combatentes da Grande Guerra 342, 4620-141, Lousada, Porto",
+    :postal-c "4620-141",
+    :x -8.287866675848353,
+    :y 41.27934930536194,
+    :score 96.31,
+    :c 1}}]
  ["o-volante-00836"
   {:nec 836,
    :rates
@@ -9488,7 +10292,17 @@
     :cp7 "4780-468",
     :id #uuid "f56a27a0-bb92-3161-8285-b44e17a2a171",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "f56a27a0-bb92-3161-8285-b44e17a2a171",
+    :address "Rua Ferreira de Lemos, 302 4780-468 SANTO TIRSO",
+    :address-c
+    "Rua Ferreira de Lemos 302, 4780-468, Orgal, Santo Tirso, Porto",
+    :postal-c "4780-468",
+    :x -8.47649999357597,
+    :y 41.33552000454418,
+    :score 100,
+    :c 2}}]
  ["rosinha-00838"
   {:nec 838,
    :rates
@@ -9588,7 +10402,14 @@
     :cp7 "4570-477",
     :id #uuid "03204dcc-a46a-3b07-b085-35160ebc171e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:cp7 "4570-477",
+    :postal-c "4570-477",
+    :x -8.666039970082238,
+    :y 41.43110500715258,
+    :score 100,
+    :c 1}}]
  ["avintes-00840"
   {:nec 840,
    :rates
@@ -9687,7 +10508,17 @@
     :cp7 "4430-880",
     :id #uuid "19d92a77-77f7-3b6a-b471-09234d590db7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "19d92a77-77f7-3b6a-b471-09234d590db7",
+    :address "Rua Pinhais Bastos, 62 4430-880 AVINTES",
+    :address-c
+    "Rua dos Pinhais Bastos 62, 4430-880, Aldeia Nova-Avintes, Vila Nova de Gaia, Porto",
+    :postal-c "4430-880",
+    :x -8.549839969980468,
+    :y 41.09529998204451,
+    :score 98.82,
+    :c 1}}]
  ["quatro-rodas-00849"
   {:nec 849,
    :rates
@@ -9787,7 +10618,14 @@
     :cp7 "4610-171",
     :id #uuid "7baa8dd9-5ab7-362f-af59-c6840d6fbb05",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4610-171",
+    :postal-c "4610-171",
+    :x -8.203620011081739,
+    :y 41.35899499122007,
+    :score 100,
+    :c 1}}]
  ["rodoviaria-00850"
   {:nec 850,
    :rates
@@ -9886,7 +10724,16 @@
     :cp7 "4440-367",
     :id #uuid "007ee1c1-0fe3-3c42-a8bb-6b1b4fd20bb3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "007ee1c1-0fe3-3c42-a8bb-6b1b4fd20bb3",
+    :address "Rua D. João I, Nº 188 4440-367 SOBRADO",
+    :address-c "Rua Dom João I 188, 4440-367, Sobrado, Valongo, Porto",
+    :postal-c "4440-367",
+    :x -8.464680001356015,
+    :y 41.20975998286613,
+    :score 98.29,
+    :c 1}}]
  ["sousa-batista-00851"
   {:nec 851,
    :rates
@@ -9986,7 +10833,17 @@
     :cp7 nil,
     :id #uuid "026c05e4-1874-323b-bd17-c428a6f4c38e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:id #uuid "026c05e4-1874-323b-bd17-c428a6f4c38e",
+    :address
+    "Rua dos Pescadores, 19 na Freguesia de VILA DO CONDE, Concelho de VILA DO CONDE e Distrito de PORTO",
+    :address-c "Rua dos Pescadores 19, 4480-804, Vila do Conde, Porto",
+    :postal-c "4480-804",
+    :x -8.755514483244712,
+    :y 41.37343010393725,
+    :score 95.94,
+    :c 2}}]
  ["campo-00852"
   {:nec 852,
    :rates
@@ -10085,7 +10942,14 @@
     :cp7 "4440-038",
     :id #uuid "77033e1f-7983-3215-9759-e3b3e3ec7f3b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:cp7 "4440-038",
+    :postal-c "4440-038",
+    :x -8.463980028621847,
+    :y 41.18331000729617,
+    :score 100,
+    :c 1}}]
  ["aguas-santas-00853"
   {:nec 853,
    :rates
@@ -10184,7 +11048,17 @@
     :cp7 "4425-57",
     :id #uuid "efe2dfe8-2b2e-33d6-b99b-4cec816cbdcf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "efe2dfe8-2b2e-33d6-b99b-4cec816cbdcf",
+    :address "Rua D. Afonso Henriques, 2248 4425-57 ÁGUAS SANTAS",
+    :address-c
+    "Rua Dom Afonso Henriques 2248, 4425-057, Corim, Maia, Porto",
+    :postal-c "4425-057",
+    :x -8.574946728743265,
+    :y 41.1998779350562,
+    :score 97.13,
+    :c 10}}]
  ["freamundense-00856"
   {:nec 856,
    :rates
@@ -10283,7 +11157,17 @@
     :cp7 "4590-336",
     :id #uuid "74474d32-8813-399f-9be8-8d2b2c286826",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "74474d32-8813-399f-9be8-8d2b2c286826",
+    :address "Rua de Gaia nº 7 4590-336 FREAMUNDE",
+    :address-c
+    "Rua de Gaia, 4590-336, Freamunde, Paços de Ferreira, Porto",
+    :postal-c "4590-336",
+    :x -8.34304746616053,
+    :y 41.289685326213146,
+    :score 96.25,
+    :c 3}}]
  ["atlantica-00858"
   {:nec 858,
    :rates
@@ -10382,7 +11266,17 @@
     :cp7 "4585-517",
     :id #uuid "4c958885-1542-317a-a99a-7751f1b4577d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:id #uuid "4c958885-1542-317a-a99a-7751f1b4577d",
+    :address "Rua das Searas, Nº 14, loja E 4585-517 REBORDOSA",
+    :address-c
+    "Rua das Searas 14, 4585-517, Presa da Bouça, Paredes, Porto",
+    :postal-c "4585-517",
+    :x -8.415340012132816,
+    :y 41.21677999441363,
+    :score 97.29,
+    :c 1}}]
  ["portugalia-00863"
   {:nec 863,
    :rates
@@ -10582,7 +11476,14 @@
     :cp7 "4575-352",
     :id #uuid "03fbe711-6fe9-3483-b867-fd0830629892",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:cp7 "4575-352",
+    :postal-c "4575-352",
+    :x -8.296674978126163,
+    :y 41.11475999518984,
+    :score 100,
+    :c 1}}]
  ["ermesindense-00875"
   {:nec 875,
    :rates
@@ -10682,7 +11583,18 @@
     :cp7 "4445-630",
     :id #uuid "51fc2275-6589-316f-8d77-4fcfac084f08",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "51fc2275-6589-316f-8d77-4fcfac084f08",
+    :address
+    "Rua Rodrigues de Freitas, 1074 – 1º Esqº 4445-630 ERMESINDE",
+    :address-c
+    "Rua Rodrigues de Freitas 1074, 4445-635, Ermesinde, Valongo, Porto",
+    :postal-c "4445-635",
+    :x -8.553979959596859,
+    :y 41.21352999527636,
+    :score 97.67,
+    :c 3}}]
  ["ideal-de-paredes-00876"
   {:nec 876,
    :rates
@@ -10782,7 +11694,14 @@
     :cp7 "4580-195",
     :id #uuid "604d04cf-f6cb-39cc-a544-f01da11840c1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:cp7 "4580-195",
+    :postal-c "4580-195",
+    :x -8.329655001093471,
+    :y 41.20440499447491,
+    :score 100,
+    :c 1}}]
  ["milenium-00885"
   {:nec 885,
    :rates
@@ -10882,7 +11801,14 @@
     :cp7 "4460-284",
     :id #uuid "2b9e311d-8e1f-391d-a3d9-67d025d75b72",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:cp7 "4460-284",
+    :postal-c "4460-284",
+    :x -8.654397925666728,
+    :y 41.17843618205674,
+    :score 100,
+    :c 1}}]
  ["vermar-00887"
   {:nec 887,
    :rates
@@ -10981,7 +11907,17 @@
     :cp7 "4490-107",
     :id #uuid "f7278ce9-fe68-3769-af8d-d336f02e93b3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "f7278ce9-fe68-3769-af8d-d336f02e93b3",
+    :address "Rua Silveira Campos, 25 r/c 4490-107 A VER-O-MAR",
+    :address-c
+    "Rua de Silveira Campos 25, 4490-107, A Ver-o-Mar, Póvoa de Varzim, Porto",
+    :postal-c "4490-107",
+    :x -8.772340020524496,
+    :y 41.40289998678625,
+    :score 99.44,
+    :c 1}}]
  ["x2000-00893"
   {:nec 893,
    :rates
@@ -11081,7 +12017,14 @@
     :cp7 "4465-040",
     :id #uuid "5cab0928-663b-38a2-b8d0-781699f84a77",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:cp7 "4465-040",
+    :postal-c "4465-040",
+    :x -8.628459958652257,
+    :y 41.180390003686966,
+    :score 100,
+    :c 1}}]
  ["a-moderna-de-lustosa-00896"
   {:nec 896,
    :rates
@@ -11180,7 +12123,14 @@
     :cp7 "4620-294",
     :id #uuid "67819a40-bf6d-31fe-b862-39748a0c9380",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:cp7 "4620-294",
+    :postal-c "4620-294",
+    :x -8.321754051522248,
+    :y 41.277263765818105,
+    :score 100,
+    :c 1}}]
  ["freamundus-00903"
   {:nec 903,
    :rates
@@ -11209,7 +12159,17 @@
     :cp7 "4590-384",
     :id #uuid "3e7eca21-2db3-37c6-b600-3c74d3a6745d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "3e7eca21-2db3-37c6-b600-3c74d3a6745d",
+    :address "Rua do Leigal, 155 4590-384 FREAMUNDE",
+    :address-c
+    "Rua de Leigal 155, 4590-384, Freamunde, Paços de Ferreira, Porto",
+    :postal-c "4590-384",
+    :x -8.335400041348947,
+    :y 41.28662999779294,
+    :score 100,
+    :c 1}}]
  ["roda-livre-00908"
   {:nec 908,
    :rates
@@ -11308,7 +12268,17 @@
     :cp7 "4590-206",
     :id #uuid "c2f9d91f-32de-3d4a-a1ef-a4d16cfbaa4f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "c2f9d91f-32de-3d4a-a1ef-a4d16cfbaa4f",
+    :address "Rua 25 de Abril, Nº 55 4590-206 FIGUEIRÓ",
+    :address-c
+    "Rua 25 de Abril 55, 4590-206, Figueiró, Paços de Ferreira, Porto",
+    :postal-c "4590-206",
+    :x -8.340749958688747,
+    :y 41.31387998411148,
+    :score 98.36,
+    :c 1}}]
  ["gondomar-jovem-00935"
   {:nec 935,
    :rates
@@ -11408,7 +12378,14 @@
     :cp7 "4420-155",
     :id #uuid "a19af0d4-913a-31fc-a8ad-6d7e3f959009",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4420-155",
+    :postal-c "4420-155",
+    :x -8.531534983092712,
+    :y 41.14617000387338,
+    :score 100,
+    :c 1}}]
  ["pedras-rubras-00937"
   {:nec 937,
    :rates
@@ -11507,7 +12484,17 @@
     :cp7 "4470-655",
     :id #uuid "33446b7f-dc3c-3de7-b983-3a1d77143afb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "33446b7f-dc3c-3de7-b983-3a1d77143afb",
+    :address "Rua do Teatro 45 4470-655 MOREIRA",
+    :address-c
+    "Rua do Teatro 45, 4470-655, Pedras Rubras, Maia, Porto",
+    :postal-c "4470-655",
+    :x -8.666401311237113,
+    :y 41.24118995046534,
+    :score 98.82,
+    :c 1}}]
  ["via-douro-00938"
   {:nec 938,
    :rates
@@ -11606,7 +12593,17 @@
     :cp7 "4515-552",
     :id #uuid "d809f5ac-fd2d-3d53-94f5-9214f64d3bbc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "d809f5ac-fd2d-3d53-94f5-9214f64d3bbc",
+    :address "Rua Padre Jerónimo, Nº 170 4515-552 MELRES",
+    :address-c
+    "Rua Padre Jerónimo 170, 4515-552, Melres, Gondomar, Porto",
+    :postal-c "4515-552",
+    :x -8.401710031741175,
+    :y 41.06750001714914,
+    :score 98.42,
+    :c 1}}]
  ["pacos-nova-00939"
   {:nec 939,
    :rates
@@ -11705,7 +12702,17 @@
     :cp7 "4590-064",
     :id #uuid "1b5b61ca-bd8a-39f0-9505-02e6787be969",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "1b5b61ca-bd8a-39f0-9505-02e6787be969",
+    :address "Rua de S. Tiago, 774 4590-064 CARVALHOSA",
+    :address-c
+    "Rua de São Tiago 774, 4590-064, Carvalhosa, Paços de Ferreira, Porto",
+    :postal-c "4590-064",
+    :x -8.364339986985698,
+    :y 41.29713998236559,
+    :score 100,
+    :c 2}}]
  ["santa-marinha-autoagra-00944"
   {:nec 944,
    :rates
@@ -11804,7 +12811,14 @@
     :cp7 "4575-011",
     :id #uuid "dae8ab30-0234-397d-bbc1-8c3298567681",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4575-011",
+    :postal-c "4575-011",
+    :x -8.253195028869982,
+    :y 41.086829985066714,
+    :score 100,
+    :c 1}}]
  ["s-romao-00947"
   {:nec 947,
    :rates
@@ -11904,7 +12918,17 @@
     :cp7 "4745-524",
     :id #uuid "6ee83229-82d8-3b1f-ad17-a5781c624611",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:id #uuid "6ee83229-82d8-3b1f-ad17-a5781c624611",
+    :address
+    "Rua do Horizonte, 1567 R/C; 4745-524 São Romão (Coronado)",
+    :address-c "Rua do Horizonte 1567, 4745-524, Seixal, Trofa, Porto",
+    :postal-c "4745-524",
+    :x -8.55807996753515,
+    :y 41.279910016469614,
+    :score 96.52,
+    :c 5}}]
  ["vip-00951"
   {:nec 951,
    :rates
@@ -12004,7 +13028,18 @@
     :cp7 "4405-318",
     :id #uuid "4c1f656b-8ea0-38fb-9cbd-58ba6a6403d8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "4c1f656b-8ea0-38fb-9cbd-58ba6a6403d8",
+    :address
+    "Rua dos Combatentes do Ultramar, 389 4405-318 S. FÉLIX da MARINHA",
+    :address-c
+    "Rua dos Combatentes de Ultramar 389, 4410-208, São Félix da Marinha, Vila Nova de Gaia, Porto",
+    :postal-c "4410-208",
+    :x -8.629641551147152,
+    :y 41.03948294856618,
+    :score 98.32,
+    :c 2}}]
  ["sport-00960"
   {:nec 960,
    :rates
@@ -12103,7 +13138,17 @@
     :cp7 "4560-568",
     :id #uuid "dfc3da07-a89c-31e8-8881-292eb1f2f04e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "dfc3da07-a89c-31e8-8881-292eb1f2f04e",
+    :address "Rua D. António Ferreira Gomes nº 166 4560-568 MILHUNDOS",
+    :address-c
+    "Rua de Dom António Ferreira Gomes 166, 4560-568, Milhundos, Penafiel, Porto",
+    :postal-c "4560-568",
+    :x -8.276789583394674,
+    :y 41.20752746295534,
+    :score 98.56,
+    :c 2}}]
  ["guiarte-00967"
   {:nec 967,
    :rates
@@ -12203,7 +13248,14 @@
     :cp7 "4785-187",
     :id #uuid "04b9f5e8-c50b-3e6f-a98b-3d294bb3d3fc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:cp7 "4785-187",
+    :postal-c "4785-187",
+    :x -8.56460997302301,
+    :y 41.33685000303055,
+    :score 100,
+    :c 1}}]
  ["rys-00968"
   {:nec 968,
    :rates
@@ -12303,7 +13355,14 @@
     :cp7 "4615-594",
     :id #uuid "8104e8c9-ba40-3c7b-94b9-9d4c9004d80f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4615-594",
+    :postal-c "4615-594",
+    :x -8.146034995161955,
+    :y 41.32751998087741,
+    :score 100,
+    :c 1}}]
  ["euro-2000-00970"
   {:nec 970,
    :rates
@@ -12502,7 +13561,18 @@
     :cp7 "4585-588",
     :id #uuid "b169d2c4-6408-3f9e-bd1c-586e18f36446",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:id #uuid "b169d2c4-6408-3f9e-bd1c-586e18f36446",
+    :address
+    "Lugar da Costa - Rua Nuno Álvares, Nº 115 4585-588 RECAREI",
+    :address-c
+    "Rua Nuno Álvares 115, 4585-899, Recarei, Paredes, Porto",
+    :postal-c "4585-899",
+    :x -8.41248002295032,
+    :y 41.15462001001211,
+    :score 95.26,
+    :c 1}}]
  ["ajs-00981"
   {:nec 981,
    :rates
@@ -12601,7 +13671,17 @@
     :cp7 "4425-672",
     :id #uuid "cfe56ea0-0615-3f2e-b0ed-a4949e84c3b1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "cfe56ea0-0615-3f2e-b0ed-a4949e84c3b1",
+    :address "Travessa Nova da Giesta, Nº 333, 4425-672 MAIA",
+    :address-c
+    "Travessa Nova da Giesta 333, 4425-672, Areosa, Maia, Porto",
+    :postal-c "4425-672",
+    :x -8.58451003608505,
+    :y 41.18887999150385,
+    :score 98.45,
+    :c 3}}]
  ["maxima-00983"
   {:nec 983,
    :rates
@@ -12701,7 +13781,18 @@
     :cp7 "4785-313",
     :id #uuid "3a225b27-90d0-3504-8fd9-0fd0a6a5cfe4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:id #uuid "3a225b27-90d0-3504-8fd9-0fd0a6a5cfe4",
+    :address
+    "Rua Dr. António Augusto Pires de Lima, Nº 327 4785-313 S. MARTINHO (BOUGADO)",
+    :address-c
+    "Rua do Doutor António Augusto Pires Lima 327, 4785-313, Trofa, Porto",
+    :postal-c "4785-313",
+    :x -8.562780035921747,
+    :y 41.33412999163107,
+    :score 97.47,
+    :c 1}}]
  ["campense-00986"
   {:nec 986,
    :rates
@@ -12800,7 +13891,17 @@
     :cp7 "4795-489",
     :id #uuid "f20cfae7-da67-3063-9bb1-69a3c75b41c4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "f20cfae7-da67-3063-9bb1-69a3c75b41c4",
+    :address "Rua da Trindade nº 45 4795-489 CAMPO (SÃO MARTINHO)",
+    :address-c
+    "Rua da Trindade 45, 4795-489, São Martinho do Campo, Santo Tirso, Porto",
+    :postal-c "4795-489",
+    :x -8.366333309080884,
+    :y 41.35808331667903,
+    :score 96.88,
+    :c 1}}]
  ["freitas-00991"
   {:nec 991,
    :rates
@@ -12900,7 +14001,18 @@
     :cp7 "4430-299",
     :id #uuid "5e45440b-fd2a-384f-bf47-30b2bbff2a59",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "5e45440b-fd2a-384f-bf47-30b2bbff2a59",
+    :address
+    "Rua Alexandre Herculano nº 181 4430-299 OLIVEIRA do DOURO",
+    :address-c
+    "Rua Alexandre Herculano 181, 4430-299, Oliveira do Douro, Vila Nova de Gaia, Porto",
+    :postal-c "4430-299",
+    :x -8.573599983273823,
+    :y 41.11848000954765,
+    :score 98.59,
+    :c 1}}]
  ["lidador-01004"
   {:nec 1004,
    :rates
@@ -13000,7 +14112,18 @@
     :cp7 "4475-634",
     :id #uuid "3c1af742-c7e0-3e1f-a943-48b9b4eabe64",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "3c1af742-c7e0-3e1f-a943-48b9b4eabe64",
+    :address
+    "Praça Evaristo da Silva Duarte nº 118-1º Dtº 4475-634 AVIOSO (SANTA MARIA)",
+    :address-c
+    "Praça Evaristo Silva Duarte 118, 4475-634, Castêlo da Maia, Maia, Porto",
+    :postal-c "4475-634",
+    :x -8.611079998598939,
+    :y 41.267470014871776,
+    :score 96.65,
+    :c 1}}]
  ["rio-vizela-01011"
   {:nec 1011,
    :rates
@@ -13100,7 +14223,18 @@
     :cp7 "4795-476",
     :id #uuid "a0cc4be9-e889-3baf-aff6-bab08a66ddf5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "a0cc4be9-e889-3baf-aff6-bab08a66ddf5",
+    :address
+    "Rua Manuel Sousa Oliveira nº 846 4795-476 CAMPO (SÃO MARTINHO)",
+    :address-c
+    "Rua Manuel de Sousa Oliveira 846, 4795-476, São Martinho do Campo, Santo Tirso, Porto",
+    :postal-c "4795-476",
+    :x -8.36121229624523,
+    :y 41.360798984008994,
+    :score 96.97,
+    :c 1}}]
  ["onda-01016"
   {:nec 1016,
    :rates
@@ -13144,7 +14278,18 @@
     :cp7 "4410-220",
     :id #uuid "61adc274-38ca-37dc-ad0e-d06073995542",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "61adc274-38ca-37dc-ad0e-d06073995542",
+    :address
+    "Praceta Padre João Moreira nº 41 4410-220 S. FÉLIX da MARINHA",
+    :address-c
+    "Praceta Padre João Moreira 41, 4410-220, Mesura, Vila Nova de Gaia, Porto",
+    :postal-c "4410-220",
+    :x -8.629309967453281,
+    :y 41.02455998818601,
+    :score 97.42,
+    :c 1}}]
  ["fenix-01032"
   {:nec 1032,
    :rates
@@ -13243,7 +14388,14 @@
     :cp7 "4435-005",
     :id #uuid "524138f4-1e34-3196-9c7d-1aa15369727b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4435-005",
+    :postal-c "4435-005",
+    :x -8.582855029303033,
+    :y 41.18303998428539,
+    :score 100,
+    :c 1}}]
  ["assuncao-01038"
   {:nec 1038,
    :rates
@@ -13343,7 +14495,17 @@
     :cp7 "4780-406",
     :id #uuid "6a1ebfa7-4c27-3cb0-93ed-35b289d05f4d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:id #uuid "6a1ebfa7-4c27-3cb0-93ed-35b289d05f4d",
+    :address
+    "Rua do Barreiro, Nº 19 R/C, Fracção N/Bloco 1 4780-406 SANTO TIRSO",
+    :address-c "Rua do Barreiro 19, 4780-406, Santo Tirso, Porto",
+    :postal-c "4780-406",
+    :x -8.489390019555287,
+    :y 41.34464001811327,
+    :score 95.44,
+    :c 3}}]
  ["santa-marinhense-01047"
   {:nec 1047,
    :rates
@@ -13442,7 +14604,14 @@
     :cp7 "4640-264",
     :id #uuid "59e83a39-71b8-3a3d-b578-fecaa629c872",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"},
+   :geocode
+   {:cp7 "4640-264",
+    :postal-c "4640-264",
+    :x -8.053169962043484,
+    :y 41.12627501186276,
+    :score 100,
+    :c 1}}]
  ["castelo-da-maia-01049"
   {:nec 1049,
    :rates
@@ -13542,7 +14711,14 @@
     :cp7 "4475-641",
     :id #uuid "fe078c58-492b-3a61-822f-e218ba2576f1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:cp7 "4475-641",
+    :postal-c "4475-641",
+    :x -8.60714503033418,
+    :y 41.26765001624247,
+    :score 100,
+    :c 1}}]
  ["projecto-4-01051"
   {:nec 1051,
    :rates
@@ -13642,7 +14818,18 @@
     :cp7 "4420-155",
     :id #uuid "f96dd77a-48a5-30fd-9f20-f530dba5d2cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "f96dd77a-48a5-30fd-9f20-f530dba5d2cb",
+    :address
+    "Avª General Humberto Delgado nº 1012 4420-155 GONDOMAR (S: COSME)",
+    :address-c
+    "Avenida General Humberto Delgado 1012, 4420-155, Vilar, Gondomar, Porto",
+    :postal-c "4420-155",
+    :x -8.53027996073024,
+    :y 41.1529899813016,
+    :score 97.48,
+    :c 2}}]
  ["euro-boavista-01072"
   {:nec 1072,
    :rates
@@ -13742,7 +14929,18 @@
     :cp7 "4410-406",
     :id #uuid "98305723-cf14-33ac-bead-c0cf895234d0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "98305723-cf14-33ac-bead-c0cf895234d0",
+    :address
+    "Av. João Paulo II, n.º 646; 4410-406 Arcozelo - Vila Nova de Gaia",
+    :address-c
+    "Avenida João Paulo II, 4410-406, Arcozelo, Vila Nova de Gaia, Porto",
+    :postal-c "4410-406",
+    :x -8.64146081219724,
+    :y 41.064016991386374,
+    :score 96.28,
+    :c 8}}]
  ["via-unica-01076"
   {:nec 1076,
    :rates
@@ -13841,7 +15039,17 @@
     :cp7 "4510-575",
     :id #uuid "17a10e09-7d1b-3d8a-84ba-1e13d9c42672",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "17a10e09-7d1b-3d8a-84ba-1e13d9c42672",
+    :address "Rua Guerra Junqueiro, Nº 34-R/C 4510-575 FÂNZERES",
+    :address-c
+    "Rua Guerra Junqueiro 34, 4510-575, Fânzeres, Gondomar, Porto",
+    :postal-c "4510-575",
+    :x -8.528199991457257,
+    :y 41.159749986212574,
+    :score 97.98,
+    :c 3}}]
  ["mota-galiza-01079"
   {:nec 1079,
    :rates
@@ -13884,7 +15092,14 @@
     :cp7 "4050-318",
     :id #uuid "58c80e89-6aa3-333a-b697-d39d3a1f8312",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:cp7 "4050-318",
+    :postal-c "4050-318",
+    :x -8.625410035543808,
+    :y 41.15091998649339,
+    :score 100,
+    :c 1}}]
  ["vilar-paraiso-01092"
   {:nec 1092,
    :rates
@@ -13983,7 +15198,14 @@
     :cp7 "4405-830",
     :id #uuid "be324a54-ca1b-33ef-98d3-17faea40f596",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:cp7 "4405-830",
+    :postal-c "4405-830",
+    :x -8.618914982592173,
+    :y 41.100944984285604,
+    :score 100,
+    :c 1}}]
  ["abragonense-01096"
   {:nec 1096,
    :rates
@@ -14181,7 +15403,17 @@
     :cp7 "4400-052",
     :id #uuid "983f1a6e-73dd-3fc1-ba6d-ffa94b1b746f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "983f1a6e-73dd-3fc1-ba6d-ffa94b1b746f",
+    :address "Rua da Bélgica nº 1621 4400-052 CANIDELO",
+    :address-c
+    "Rua da Bélgica 1621, 4400-052, Canidelo, Vila Nova de Gaia, Porto",
+    :postal-c "4400-052",
+    :x -8.651480017533288,
+    :y 41.1312599811383,
+    :score 98.4,
+    :c 7}}]
  ["valverde-01102"
   {:nec 1102,
    :rates
@@ -14280,7 +15512,14 @@
     :cp7 "4610-250",
     :id #uuid "ba279c39-db1f-32e7-b6ff-e459629825b2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:cp7 "4610-250",
+    :postal-c "4610-250",
+    :x -8.214150028402997,
+    :y 41.37058498401689,
+    :score 100,
+    :c 1}}]
  ["estadio-01106"
   {:nec 1106,
    :rates
@@ -14379,7 +15618,14 @@
     :cp7 "4350-171",
     :id #uuid "2928cbe1-9a5b-3839-8b11-4b1f006f5dc2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:cp7 "4350-171",
+    :postal-c "4350-171",
+    :x -8.589165009832556,
+    :y 41.16566999869684,
+    :score 100,
+    :c 1}}]
  ["estrada-real-01109"
   {:nec 1109,
    :rates
@@ -14478,7 +15724,17 @@
     :cp7 "4415-386",
     :id #uuid "5077952b-edf7-3b52-848d-0f71d0250176",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "5077952b-edf7-3b52-848d-0f71d0250176",
+    :address "Avª Dr. Moreira de Sousa nº 3997 R/C 4415-386 PEDROSO",
+    :address-c
+    "Avenida Doutor Moreira de Sousa 3997, 4415-386, Afonsim, Vila Nova de Gaia, Porto",
+    :postal-c "4415-386",
+    :x -8.562769977637913,
+    :y 41.042750017271715,
+    :score 96.34,
+    :c 6}}]
  ["via-arrabida-01111"
   {:nec 1111,
    :rates
@@ -14577,7 +15833,17 @@
     :cp7 "4400-501",
     :id #uuid "56f1d4e9-b0d2-32e9-ba8f-fed1c0e41454",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "56f1d4e9-b0d2-32e9-ba8f-fed1c0e41454",
+    :address "Rua do Meiral, n.º 231; 4400-501 Vila Nova de Gaia",
+    :address-c
+    "Rua do Meiral, 4400-501, Canidelo, Vila Nova de Gaia, Porto",
+    :postal-c "4400-501",
+    :x -8.643598176512306,
+    :y 41.12548008541728,
+    :score 95.27,
+    :c 7}}]
  ["sentido-reversivel-01117"
   {:nec 1117,
    :rates
@@ -14676,7 +15942,14 @@
     :cp7 "4450-664",
     :id #uuid "12c7a572-fa46-380f-b507-955eebacac8a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:cp7 "4450-664",
+    :postal-c "4450-664",
+    :x -8.696224963616686,
+    :y 41.20020000319937,
+    :score 100,
+    :c 1}}]
  ["ideal-de-baltar-01118"
   {:nec 1118,
    :rates
@@ -14776,7 +16049,14 @@
     :cp7 "4580-059",
     :id #uuid "c6c9e1ca-c0cc-399d-8170-880cd308a2fe",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:cp7 "4580-059",
+    :postal-c "4580-059",
+    :x -8.333061909458166,
+    :y 41.20652549024976,
+    :score 100,
+    :c 1}}]
  ["lordelo-01124"
   {:nec 1124,
    :rates
@@ -14875,7 +16155,16 @@
     :cp7 "4150-262",
     :id #uuid "fc29fef5-42e3-37cc-8257-d98e296623f3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "fc29fef5-42e3-37cc-8257-d98e296623f3",
+    :address "Rua Diogo Botelho nº 137 r/c Esq 4150-262 PORTO",
+    :address-c "Rua de Diogo Botelho 137, 4150-262, Porto",
+    :postal-c "4150-262",
+    :x -8.649640022148219,
+    :y 41.15381999926353,
+    :score 97.93,
+    :c 1}}]
  ["sandinense-01127"
   {:nec 1127,
    :rates
@@ -14974,7 +16263,17 @@
     :cp7 "4415-803",
     :id #uuid "4560a2b9-3f63-3c90-9000-6d46f3fe7b80",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "4560a2b9-3f63-3c90-9000-6d46f3fe7b80",
+    :address "Rua Sociedade Columbófila, Nº 259 4415-803 SANDIM",
+    :address-c
+    "Rua da Sociedade Columbófila 259, 4415-803, Sandim, Vila Nova de Gaia, Porto",
+    :postal-c "4415-803",
+    :x -8.51408000500598,
+    :y 41.03967000313088,
+    :score 98.52,
+    :c 1}}]
  ["rio-de-moinhos-01129"
   {:nec 1129,
    :rates
@@ -15074,7 +16373,14 @@
     :cp7 "4575-471",
     :id #uuid "59b655d1-4328-3325-81cb-363fe20e8f0c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:cp7 "4575-471",
+    :postal-c "4575-471",
+    :x -8.268090006088869,
+    :y 41.10407998371127,
+    :score 100,
+    :c 1}}]
  ["angeiras-01133"
   {:nec 1133,
    :rates
@@ -15173,7 +16479,17 @@
     :cp7 "4455-196",
     :id #uuid "73ad5315-17dc-33cd-b31f-a06eeef0dd6a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "73ad5315-17dc-33cd-b31f-a06eeef0dd6a",
+    :address "Rua Quinta de Calvelhe nº 212 4455-196 LAVRA",
+    :address-c
+    "Rua Quinta de Calvelhe 212, 4455-196, Condominhas, Matosinhos, Porto",
+    :postal-c "4455-196",
+    :x -8.722489992493053,
+    :y 41.262099980964365,
+    :score 97.28,
+    :c 1}}]
  ["guerra-01135"
   {:nec 1135,
    :rates
@@ -15272,7 +16588,14 @@
     :cp7 "4415-284",
     :id #uuid "d4214fe0-7938-312a-a874-bf3ad9b7232c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:cp7 "4415-284",
+    :postal-c "4415-284",
+    :x -8.573254984139112,
+    :y 41.06606000618359,
+    :score 100,
+    :c 1}}]
  ["guifoes-01137"
   {:nec 1137,
    :rates
@@ -15372,7 +16695,18 @@
     :cp7 "4460-125",
     :id #uuid "fc305155-01d6-38ec-af89-03ce41307985",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "fc305155-01d6-38ec-af89-03ce41307985",
+    :address
+    "Av. Joaquim Neves dos Santos, n.º 697 ; 4460-125 Guifões",
+    :address-c
+    "Avenida Joaquim Neves dos Santos, 4460-125, Guifões, Matosinhos, Porto",
+    :postal-c "4460-125",
+    :x -8.667271626618993,
+    :y 41.19432106837668,
+    :score 95.83,
+    :c 3}}]
  ["paranhos-01146"
   {:nec 1146,
    :rates
@@ -15471,7 +16805,16 @@
     :cp7 "4200-509",
     :id #uuid "fea1d289-a1a6-38d3-b66b-b4050707a2b5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "fea1d289-a1a6-38d3-b66b-b4050707a2b5",
+    :address "Rua Vale Formoso, Nº 280-R/C 4200-509 PORTO",
+    :address-c "Rua do Vale Formoso 280, 4200-509, Porto",
+    :postal-c "4200-509",
+    :x -8.61203997796963,
+    :y 41.16788998766239,
+    :score 97.8,
+    :c 2}}]
  ["global-01150"
   {:nec 1150,
    :rates
@@ -15770,7 +17113,18 @@
     :cp7 "4470-650",
     :id #uuid "007d9252-7716-3569-adc1-df271b6856eb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "007d9252-7716-3569-adc1-df271b6856eb",
+    :address
+    "Rua Engº Frederico Ulrich, Nº 3659-2. 1 4470-650 MOREIRA",
+    :address-c
+    "Rua Engenheiro Frederico Ulrich 3659, 4470-605, Guardeiras, Maia, Porto",
+    :postal-c "4470-605",
+    :x -8.65323996574304,
+    :y 41.254640003319196,
+    :score 95.87,
+    :c 2}}]
  ["freixieiro-01164"
   {:nec 1164,
    :rates
@@ -15869,7 +17223,17 @@
     :cp7 "4455-515",
     :id #uuid "76b5016f-655d-3ec5-9c27-140faa6e8d1b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "76b5016f-655d-3ec5-9c27-140faa6e8d1b",
+    :address "Rua das Oliveiras, Nº 171 R/C Dtº 4455-515 PERAFITA",
+    :address-c
+    "Rua das Oliveiras 171, 4455-515, Padrão, Matosinhos, Porto",
+    :postal-c "4455-515",
+    :x -8.686329959280016,
+    :y 41.22383001317448,
+    :score 96.11,
+    :c 1}}]
  ["venda-nova-01166"
   {:nec 1166,
    :rates
@@ -15969,7 +17333,18 @@
     :cp7 "4435-350",
     :id #uuid "862c9470-ac5a-3cd3-b411-ec4317c6ec1f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "862c9470-ac5a-3cd3-b411-ec4317c6ec1f",
+    :address
+    "Rua Nossa Senhora do Amparo, Nº 155 R/C Dtº 4435-350 RIO TINTO",
+    :address-c
+    "Rua de Nossa Senhora do Amparo 155, 4435-350, Rio Tinto, Gondomar, Porto",
+    :postal-c "4435-350",
+    :x -8.544898167294482,
+    :y 41.17584562644164,
+    :score 96.46,
+    :c 6}}]
  ["livracao-01167"
   {:nec 1167,
    :rates
@@ -16068,7 +17443,14 @@
     :cp7 "4635-518",
     :id #uuid "af6904de-569a-363a-887f-48d0ac8b7369",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4635-518",
+    :postal-c "4635-518",
+    :x -8.145689996027244,
+    :y 41.221474991748806,
+    :score 100,
+    :c 1}}]
  ["boa-formacao-01169"
   {:nec 1169,
    :rates
@@ -16167,7 +17549,14 @@
     :cp7 "4580-753",
     :id #uuid "077fc9e5-6ad0-31cb-9f6a-dfc6d46a7953",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:cp7 "4580-753",
+    :postal-c "4580-753",
+    :x -8.362624965776973,
+    :y 41.25305498542872,
+    :score 100,
+    :c 1}}]
  ["dois-volantes-01172"
   {:nec 1172,
    :rates
@@ -16266,7 +17655,17 @@
     :cp7 "4590-571",
     :id #uuid "9916cdc8-9f99-379a-80ae-4d8cabecfd29",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "9916cdc8-9f99-379a-80ae-4d8cabecfd29",
+    :address "Rua do Estádio, Nº 162 R/C 4590-571 FRAZÃO",
+    :address-c
+    "Rua do Estádio 162, 4590-571, Paços de Ferreira, Porto",
+    :postal-c "4590-571",
+    :x -8.384699965074986,
+    :y 41.26962998941059,
+    :score 95.91,
+    :c 2}}]
  ["s-vicente-de-alfena-01177"
   {:nec 1177,
    :rates
@@ -16365,7 +17764,17 @@
     :cp7 "4445-256",
     :id #uuid "d42031fb-199b-3fa9-b750-13e76d16510a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "d42031fb-199b-3fa9-b750-13e76d16510a",
+    :address "Rua das Laranjeiras, Nº 14 R/C 4445-256 ALFENA",
+    :address-c
+    "Rua das Laranjeiras 14, 4445-256, Alfena, Valongo, Porto",
+    :postal-c "4445-256",
+    :x -8.528850008048522,
+    :y 41.23678998613582,
+    :score 97.9,
+    :c 2}}]
  ["rio-tinto-01182"
   {:nec 1182,
    :rates
@@ -16464,7 +17873,14 @@
     :cp7 "4435-346",
     :id #uuid "f63c8fc6-f721-3030-b151-850bb8487dc7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4435-346",
+    :postal-c "4435-346",
+    :x -8.559591308496692,
+    :y 41.17800761534738,
+    :score 100,
+    :c 1}}]
  ["freire-01189"
   {:nec 1189,
    :rates
@@ -16564,7 +17980,14 @@
     :cp7 "4445-516",
     :id #uuid "b4c04c7d-fbe1-3a53-bf54-0170b1848570",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:cp7 "4445-516",
+    :postal-c "4445-516",
+    :x -8.5550749714277,
+    :y 41.20512998719008,
+    :score 100,
+    :c 1}}]
  ["ideal-de-rans-01190"
   {:nec 1190,
    :rates
@@ -16762,7 +18185,17 @@
     :cp7 "4440-488",
     :id #uuid "595ac5ba-b5e0-34a1-8de8-68d7c220abef",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "595ac5ba-b5e0-34a1-8de8-68d7c220abef",
+    :address "Rua Dr. Mário Cal Brandão, Nº 931 4440-488 VALONGO",
+    :address-c
+    "Rua Doutor Mário Cal Brandão 931, 4440-678, Valongo, Porto",
+    :postal-c "4440-678",
+    :x -8.507459977878,
+    :y 41.198959984443604,
+    :score 97.43,
+    :c 2}}]
  ["nova-atitude-01200"
   {:nec 1200,
    :rates
@@ -16861,7 +18294,14 @@
     :cp7 "4430-121",
     :id #uuid "8561af26-b438-3702-8001-20e95bad37e6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:cp7 "4430-121",
+    :postal-c "4430-121",
+    :x -8.600624999311123,
+    :y 41.123515018785156,
+    :score 100,
+    :c 1}}]
  ["lobos-do-mar-01220"
   {:nec 1220,
    :rates
@@ -16961,7 +18401,14 @@
     :cp7 "4495-137",
     :id #uuid "3d55855f-574c-3bc6-a83d-31fb22ff8040",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:cp7 "4495-137",
+    :postal-c "4495-137",
+    :x -8.743569976065118,
+    :y 41.40516498657183,
+    :score 100,
+    :c 1}}]
  ["campeao-01224"
   {:nec 1224,
    :rates
@@ -17060,7 +18507,14 @@
     :cp7 "4745-615",
     :id #uuid "37c64c6b-0d58-3833-a7de-a941340130e4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
+   :geocode
+   {:cp7 "4745-615",
+    :postal-c "4745-615",
+    :x -8.551995041105897,
+    :y 41.27678000427633,
+    :score 100,
+    :c 1}}]
  ["defensiva-01225"
   {:nec 1225,
    :rates
@@ -17159,7 +18613,17 @@
     :cp7 "4460-732",
     :id #uuid "eb943b75-fb4e-39f2-b2dd-539a4a103e0d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "eb943b75-fb4e-39f2-b2dd-539a4a103e0d",
+    :address "Rua Fonte Velha, Nº 1252 R/C 4460-732 CUSTÓIAS MTS",
+    :address-c
+    "Rua Fonte Velha 1252, 4460-732, Custóias, Matosinhos, Porto",
+    :postal-c "4460-732",
+    :x -8.641100036278885,
+    :y 41.202089996636886,
+    :score 97.22,
+    :c 1}}]
  ["preferencia-01228"
   {:nec 1228,
    :rates
@@ -17259,7 +18723,14 @@
     :cp7 "4575-049",
     :id #uuid "af8fb6e2-9075-3b10-901e-27c8514a0575",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
+   :geocode
+   {:cp7 "4575-049",
+    :postal-c "4575-049",
+    :x -8.243500016743099,
+    :y 41.098019993443984,
+    :score 100,
+    :c 1}}]
  ["frclixa-01246"
   {:nec 1246,
    :rates
@@ -17358,7 +18829,13 @@
     :cp7 "4615-301",
     :id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :geocode
+   {:id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
+    :overwrite true,
+    :obs "Manual coords",
+    :x -8.140365830925857,
+    :y 41.3155012036505}}]
  ["globo-01250"
   {:nec 1250,
    :rates
@@ -17457,7 +18934,14 @@
     :cp7 "4620-074",
     :id #uuid "a84709ef-7403-3fb5-aae7-a97d83730cb6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+   :geocode
+   {:cp7 "4620-074",
+    :postal-c "4620-074",
+    :x -8.215809477593666,
+    :y 41.27202620789038,
+    :score 100,
+    :c 1}}]
  ["seven-01294"
   {:nec 1294,
    :rates
@@ -17557,7 +19041,14 @@
     :cp7 "4600-018",
     :id #uuid "be2a7ab7-8871-3a27-a9a3-a0ecd60c1555",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
+   :geocode
+   {:cp7 "4600-018",
+    :postal-c "4600-018",
+    :x -8.077604969999555,
+    :y 41.275215019134436,
+    :score 100,
+    :c 1}}]
  ["eficiencia-01299"
   {:nec 1299,
    :rates
@@ -17657,7 +19148,14 @@
     :cp7 "4795-548",
     :id #uuid "4798d10e-c1d3-3b02-b326-e7f62b9c25f8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+   :geocode
+   {:cp7 "4795-548",
+    :postal-c "4795-548",
+    :x -8.404319988751922,
+    :y 41.35667500614966,
+    :score 100,
+    :c 1}}]
  ["gueifaes-01304"
   {:nec 1304,
    :rates
@@ -17756,7 +19254,14 @@
     :cp7 "4470-054",
     :id #uuid "c339e582-6354-38e5-ae13-f67341d019b0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:cp7 "4470-054",
+    :postal-c "4470-054",
+    :x -8.60136998286535,
+    :y 41.21749501266399,
+    :score 100,
+    :c 1}}]
  ["conduzir-em-seguranca-01320"
   {:nec 1320,
    :rates
@@ -17855,7 +19360,17 @@
     :cp7 "4425-005",
     :id #uuid "c4f982c7-b03e-3dfc-aca8-f2e241fb6b07",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "c4f982c7-b03e-3dfc-aca8-f2e241fb6b07",
+    :address "Rua Abel Salazar, n.º 344; 4425-005 Maia",
+    :address-c
+    "Rua Abel Salazar 344, 4425-005, Águas Santas, Maia, Porto",
+    :postal-c "4425-005",
+    :x -8.559070037938227,
+    :y 41.202840009333016,
+    :score 96.51,
+    :c 4}}]
  ["porto-bessa-01321"
   {:nec 1321,
    :rates
@@ -17954,7 +19469,16 @@
     :cp7 "4100-012",
     :id #uuid "7516aea9-ea08-3a33-8266-96468bfe477e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "7516aea9-ea08-3a33-8266-96468bfe477e",
+    :address "Rua François Guichard, n.º 8, 4100-012 PORTO",
+    :address-c "Rua François Guichard, 4100-012, Porto",
+    :postal-c "4100-012",
+    :x -8.641397812852958,
+    :y 41.165726001617564,
+    :score 96.91,
+    :c 1}}]
  ["bruno-neves-01325"
   {:nec 1325,
    :rates
@@ -18054,7 +19578,14 @@
     :cp7 "4580-191",
     :id #uuid "29ffd1e7-2e7a-3861-b0f0-42a7821273d4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+   :geocode
+   {:cp7 "4580-191",
+    :postal-c "4580-191",
+    :x -8.358510038051065,
+    :y 41.233335007556406,
+    :score 100,
+    :c 1}}]
  ["classe-01328"
   {:nec 1328,
    :rates
@@ -18153,7 +19684,14 @@
     :cp7 "4600-754",
     :id #uuid "4df99bde-65b3-3e41-9d40-e3d18b85897f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
+   :geocode
+   {:cp7 "4600-754",
+    :postal-c "4600-754",
+    :x -8.09818497304721,
+    :y 41.2922050111425,
+    :score 100,
+    :c 1}}]
  ["seguranca-activa-01339"
   {:nec 1339,
    :rates
@@ -18239,7 +19777,18 @@
     :cp7 "4470-135",
     :id #uuid "86fa6e76-0a62-3e36-80b4-316bbe87f099",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+   :geocode
+   {:id #uuid "86fa6e76-0a62-3e36-80b4-316bbe87f099",
+    :address
+    "Rua Ângela Adelaide Calheiro Carvalho de Menezes, n.º 275, 4470-135 Maia",
+    :address-c
+    "Rua Ângela Adl. Calheiro Carv. Menezes 275, 4470-135, Maia, Porto",
+    :postal-c "4470-135",
+    :x -8.621670030346905,
+    :y 41.22790998836416,
+    :score 97.08,
+    :c 1}}]
  ["ramalde-01352"
   {:nec 1352,
    :rates
@@ -18324,7 +19873,16 @@
     :cp7 "4100-205",
     :id #uuid "583b44cd-b68b-3982-9415-3608b5cd8f98",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "583b44cd-b68b-3982-9415-3608b5cd8f98",
+    :address "Rua Direita das Campinas, n.º 266, 4100-205 Porto",
+    :address-c "Rua Direita das Campinas 266, 4100-205, Porto",
+    :postal-c "4100-205",
+    :x -8.652850039607301,
+    :y 41.16714999134055,
+    :score 97.09,
+    :c 1}}]
  ["nova-de-matosinhos-01355"
   {:nec 1355,
    :rates
@@ -18409,7 +19967,17 @@
     :cp7 "4450-103",
     :id #uuid "616b0129-2c05-39d8-95ff-d932bef29ab7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "616b0129-2c05-39d8-95ff-d932bef29ab7",
+    :address "Rua da Cruz de Pau, n.º 116, 4450-103 Matosinhos",
+    :address-c
+    "Rua da Cruz de Pau, 4450-103, Carcavelos, Matosinhos, Porto",
+    :postal-c "4450-103",
+    :x -8.672541582014839,
+    :y 41.18059513530154,
+    :score 95.14,
+    :c 4}}]
  ["crystal-01361"
   {:nec 1361,
    :rates
@@ -18494,7 +20062,14 @@
     :cp7 "4600-275",
     :id #uuid "f761d6b2-e665-39c3-8d14-870eadfc3d0b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
+   :geocode
+   {:cp7 "4600-275",
+    :postal-c "4600-275",
+    :x -8.082760008090531,
+    :y 41.278094999156,
+    :score 100,
+    :c 1}}]
  ["costa-01365"
   {:nec 1365,
    :rates
@@ -18579,7 +20154,17 @@
     :cp7 "4445-441",
     :id #uuid "0a791303-70e0-3c8d-871b-2aa708a6607c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+   :geocode
+   {:id #uuid "0a791303-70e0-3c8d-871b-2aa708a6607c",
+    :address "Rua Fontes Pereira de Melo, n.º 43, 4445-441 Ermesinde",
+    :address-c
+    "Rua Fontes Pereira de Melo, 4445-441, Ermesinde, Valongo, Porto",
+    :postal-c "4445-441",
+    :x -8.548399875195884,
+    :y 41.21845154055966,
+    :score 96.67,
+    :c 2}}]
  ["star-01371"
   {:nec 1371,
    :rates
@@ -18651,7 +20236,14 @@
     :cp7 "4560-371",
     :id #uuid "199eb188-33a8-39fb-9c72-60487402e827",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:cp7 "4560-371",
+    :postal-c "4560-371",
+    :x -8.33964002707026,
+    :y 41.16910498643719,
+    :score 100,
+    :c 1}}]
  ["polo-universitario-01376"
   {:nec 1376,
    :rates
@@ -18736,7 +20328,16 @@
     :cp7 "4200-282",
     :id #uuid "7679ccca-6a09-3765-b0a1-ace6c138ddf9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:id #uuid "7679ccca-6a09-3765-b0a1-ace6c138ddf9",
+    :address "Rua Dr. Eduardo Santos Silva, n,º 61 4200-282 Porto",
+    :address-c "Rua do Doutor Eduardo Santos Silva, 4200-282, Porto",
+    :postal-c "4200-282",
+    :x -8.587984117210333,
+    :y 41.177127016846896,
+    :score 96.41,
+    :c 1}}]
  ["vila-drive-01383"
   {:nec 1383,
    :rates
@@ -18807,7 +20408,14 @@
     :cp7 "4485-373",
     :id #uuid "7f6ae041-e53e-38db-b0d7-5b1910ac3070",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+   :geocode
+   {:cp7 "4485-373",
+    :postal-c "4485-373",
+    :x -8.681865003277494,
+    :y 41.338390010100966,
+    :score 100,
+    :c 1}}]
  ["prodigio-01385"
   {:nec 1385,
    :rates
@@ -18893,7 +20501,18 @@
     :cp7 "4400-097",
     :id #uuid "e1cd54dd-d11d-3fc2-ac7c-c7b432498b75",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:id #uuid "e1cd54dd-d11d-3fc2-ac7c-c7b432498b75",
+    :address
+    "Travessa Conselheiro Veloso da Cruz, n.º 112, 4400-097 Vila Nova de Gaia",
+    :address-c
+    "Travessa Conselheiro Veloso da Cruz, 4400-097, Vila Nova de Gaia, Porto",
+    :postal-c "4400-097",
+    :x -8.614384228040535,
+    :y 41.12853996719058,
+    :score 96.93,
+    :c 4}}]
  ["ferrara-01397"
   {:nec 1397,
    :rates
@@ -18965,7 +20584,18 @@
     :cp7 "4590-590",
     :id #uuid "e772d8d9-9676-3223-ba06-7df2c699695d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "e772d8d9-9676-3223-ba06-7df2c699695d",
+    :address
+    "Rua Dr. Queirós Ribeiro, n.º 155, 4590-590 Paços de Ferreira",
+    :address-c
+    "Rua Doutor Queirós Ribeiro 155, 4590-590, Paços de Ferreira, Porto",
+    :postal-c "4590-590",
+    :x -8.385965013101416,
+    :y 41.27555659641529,
+    :score 97.12,
+    :c 2}}]
  ["a-sebastiana-01400"
   {:nec 1400,
    :rates
@@ -19036,7 +20666,17 @@
     :cp7 nil,
     :id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
+    :address "Praceta do leigal, n.º 128 freguesia de Freamunde",
+    :address-c
+    "Praceta de Leigal 128, 4590-384, Freamunde, Paços de Ferreira, Porto",
+    :postal-c "4590-384",
+    :x -8.33390999042146,
+    :y 41.285260017628445,
+    :score 92.37,
+    :c 3}}]
  ["75agv-01410"
   {:nec 1410,
    :rates
@@ -19108,7 +20748,14 @@
     :cp7 "4150-261",
     :id #uuid "83e9ea82-92b0-3430-8160-eb2ed0e980e9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:cp7 "4150-261",
+    :postal-c "4150-261",
+    :x -8.670360002978867,
+    :y 41.15331000236483,
+    :score 100,
+    :c 1}}]
  ["fim-da-linha-01411"
   {:nec 1411,
    :rates
@@ -19165,7 +20812,16 @@
     :cp7 "4490-463",
     :id #uuid "1e662879-eab9-3387-8e18-d5fb33df8158",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+   :geocode
+   {:id #uuid "1e662879-eab9-3387-8e18-d5fb33df8158",
+    :address "Rua Almirante Reis, n.º 40, 4490-463 Póvoa de Varzim",
+    :address-c "Rua Almirante Reis, 4490-463, Póvoa de Varzim, Porto",
+    :postal-c "4490-463",
+    :x -8.75843436747284,
+    :y 41.37735304859002,
+    :score 96.5,
+    :c 3}}]
  ["royal-01417"
   {:nec 1417,
    :rates
@@ -19225,7 +20881,14 @@
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :obs nil,
-   :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"]}]
+   :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"],
+   :geocode
+   {:cp7 "4580-294",
+    :postal-c "4580-294",
+    :x -8.324744966032341,
+    :y 41.21861001533392,
+    :score 100,
+    :c 1}}]
  ["santa-luzia-pacos-de-ferreira-01423"
   {:nec 1423,
    :rates
@@ -19268,7 +20931,17 @@
     :cp7 "4590-545",
     :id #uuid "2cec90e9-fba9-33a5-ab12-13353431b2f1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:id #uuid "2cec90e9-fba9-33a5-ab12-13353431b2f1",
+    :address "Rua Casal de Rei I, n.º 16, 4590-545 Paços de Ferreira",
+    :address-c
+    "Rua de Casal de Rei, 4590-545, Paços de Ferreira, Porto",
+    :postal-c "4590-545",
+    :x -8.380168275311137,
+    :y 41.28090213906134,
+    :score 95.63,
+    :c 2}}]
  ["ivos-driving-academy-01435"
   {:nec 1435,
    :rates
@@ -19312,7 +20985,14 @@
     :cp7 "4590-397",
     :id #uuid "101d49cd-5e8f-3718-ad0a-dfd5bc93dfb5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:cp7 "4590-397",
+    :postal-c "4590-397",
+    :x -8.338999984943769,
+    :y 41.277830005287115,
+    :score 100,
+    :c 1}}]
  ["a1-norte-01444"
   {:nec 1444,
    :rates
@@ -19341,4 +21021,11 @@
     :cp7 "4250-541",
     :id #uuid "20918938-6157-3e59-94d9-4362878961e1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :geocode
+   {:cp7 "4250-541",
+    :postal-c "4250-541",
+    :x -8.637089966161682,
+    :y 41.17505500613481,
+    :score 100,
+    :c 1}}]]

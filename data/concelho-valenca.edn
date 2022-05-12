@@ -97,7 +97,14 @@
     :cp7 "4930-673",
     :id #uuid "ea575bde-ced1-3cae-b389-86214e0047dc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Valen%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Valen%C3%A7a"},
+   :geocode
+   {:cp7 "4930-673",
+    :postal-c "4930-673",
+    :x -8.638444984629018,
+    :y 42.02728999873031,
+    :score 100,
+    :c 1}}]
  ["a-valenciana-00558"
   {:nec 558,
    :rates
@@ -196,4 +203,11 @@
     :cp7 "4930-697",
     :id #uuid "0e02e6eb-f8d8-3142-ae9a-10bd97b4e5ec",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Valen%C3%A7a"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Valen%C3%A7a"},
+   :geocode
+   {:cp7 "4930-697",
+    :postal-c "4930-697",
+    :x -8.645172467755714,
+    :y 42.02582748235474,
+    :score 100,
+    :c 1}}]]

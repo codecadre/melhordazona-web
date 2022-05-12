@@ -96,4 +96,14 @@
   :cp7 "4710-409",
   :id #uuid "773f0fe4-18ab-3ef9-9214-ba928ec1c0dc",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "773f0fe4-18ab-3ef9-9214-ba928ec1c0dc",
+  :address
+  "Rua Nova de Stª Cruz nº 26, Loja 7 4710-409 BRAGA (S. VICTOR)",
+  :address-c "Rua Nova de Santa Cruz 26, 4710-409, Braga",
+  :postal-c "4710-409",
+  :x -8.399166232819157,
+  :y 41.55753857354629,
+  :score 96.98,
+  :c 1}}

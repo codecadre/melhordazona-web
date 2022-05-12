@@ -96,4 +96,15 @@
   :cp7 "2975-323",
   :id #uuid "38546458-0ba6-3113-be70-9f3ca35c476f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+ :geocode
+ {:id #uuid "38546458-0ba6-3113-be70-9f3ca35c476f",
+  :address
+  "Rua Jaime Cortesão nº 53 r/c Dtº - Cova dos Vidros 2975-323 QUINTA DO CONDE",
+  :address-c
+  "Rua Jaime Cortesão 53, 2975-323, Quinta do Conde, Sesimbra, Setúbal",
+  :postal-c "2975-323",
+  :x -9.039790038503611,
+  :y 38.565410011711265,
+  :score 95.59,
+  :c 1}}

@@ -96,4 +96,14 @@
   :cp7 "5000-513",
   :id #uuid "c6171a88-6085-30c7-be34-faee5b62c94f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+ :geocode
+ {:id #uuid "c6171a88-6085-30c7-be34-faee5b62c94f",
+  :address
+  "Largo do Pelourinho, 11 - 3º Esqº 5000-513 VILA REAL (SÃO DINIS)",
+  :address-c "Largo do Pelourinho 11, 5000-513, Vila Real",
+  :postal-c "5000-513",
+  :x -7.745819989473489,
+  :y 41.29606999051575,
+  :score 97.08,
+  :c 2}}

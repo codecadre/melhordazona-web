@@ -95,4 +95,13 @@
   :cp7 "1170-164",
   :id #uuid "243604ba-fe0c-3a48-a521-f7063fa931b7",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "243604ba-fe0c-3a48-a521-f7063fa931b7",
+  :address "Avª General Roçadas, 48 1170-164 LISBOA",
+  :address-c "Avenida General Roçadas 48, 1170-163, Lisboa",
+  :postal-c "1170-163",
+  :x -9.128070002947027,
+  :y 38.72824000601108,
+  :score 96.47,
+  :c 2}}

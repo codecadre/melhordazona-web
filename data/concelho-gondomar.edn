@@ -96,7 +96,14 @@
     :cp7 "4420-402",
     :id #uuid "f4b12565-04dc-3fa7-aa14-2a991a0b1e46",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4420-402",
+    :postal-c "4420-402",
+    :x -8.559380000717653,
+    :y 41.14703501628108,
+    :score 100,
+    :c 1}}]
  ["o-volante-de-gondomar-00387"
   {:nec 387,
    :rates
@@ -195,7 +202,17 @@
     :cp7 "4435-289",
     :id #uuid "bea02562-51b6-3780-a2a4-d588df182ab4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "bea02562-51b6-3780-a2a4-d588df182ab4",
+    :address "Travessa Infante D. Henrique, 19/21 4435-289 RIO TINTO",
+    :address-c
+    "Travessa Infante Dom Henrique 19, 4435-289, Fânzeres, Gondomar, Porto",
+    :postal-c "4435-289",
+    :x -8.547003416738555,
+    :y 41.16749820942909,
+    :score 98.36,
+    :c 2}}]
  ["vitoria-00411"
   {:nec 411,
    :rates
@@ -295,7 +312,18 @@
     :cp7 "4420-437",
     :id #uuid "b0e61e68-059d-3f78-b521-bdacb768ed5a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "b0e61e68-059d-3f78-b521-bdacb768ed5a",
+    :address
+    "Rua Dr. Joaquim Manuel da Costa, n.º 830, 4420 - 437 Valbom, GONDOMAR",
+    :address-c
+    "Rua Doutor Joaquim Manuel da Costa, 4420-437, Pinheiro de Além, Gondomar, Porto",
+    :postal-c "4420-437",
+    :x -8.555544787874382,
+    :y 41.141673663598965,
+    :score 95.32,
+    :c 47}}]
  ["o-grande-premio-00571"
   {:nec 571,
    :rates
@@ -394,7 +422,14 @@
     :cp7 "4435-208",
     :id #uuid "b16b5342-a7c5-3270-b1b3-04ae9ad16790",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4435-208",
+    :postal-c "4435-208",
+    :x -8.55375498931565,
+    :y 41.1677899915575,
+    :score 100,
+    :c 1}}]
  ["baguim-00730"
   {:nec 730,
    :rates
@@ -493,7 +528,17 @@
     :cp7 "4435-674",
     :id #uuid "1858f30e-6c33-3890-8807-8ce7e5d8d1fc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "1858f30e-6c33-3890-8807-8ce7e5d8d1fc",
+    :address "Rua D. João de Castro, Nº 587 4435-674 BAGUIM DO MONTE",
+    :address-c
+    "Rua Dom João de Castro 587, 4435-674, Alto da Serra, Gondomar, Porto",
+    :postal-c "4435-674",
+    :x -8.524191402425343,
+    :y 41.1902641493166,
+    :score 97.35,
+    :c 4}}]
  ["rocha-dias-00750"
   {:nec 750,
    :rates
@@ -592,7 +637,14 @@
     :cp7 "4515-463",
     :id #uuid "093069b3-ee90-316e-9c52-ed6f63d307d0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4515-463",
+    :postal-c "4515-463",
+    :x -8.426189966698274,
+    :y 41.08308997986981,
+    :score 100,
+    :c 1}}]
  ["prova-real-rio-tinto-00787"
   {:nec 787,
    :rates
@@ -691,7 +743,17 @@
     :cp7 "4435-374",
     :id #uuid "13e656d7-c160-3459-a36b-b6a83a07bec4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "13e656d7-c160-3459-a36b-b6a83a07bec4",
+    :address "Rua Padre Joaquim das Neves, Nº 1084 4435-374 RIO TINTO",
+    :address-c
+    "Rua Padre Joaquim das Neves 1084, 4435-374, Campainha, Gondomar, Porto",
+    :postal-c "4435-374",
+    :x -8.552729966376319,
+    :y 41.18728001191619,
+    :score 97.38,
+    :c 3}}]
  ["dinamica-00790"
   {:nec 790,
    :rates
@@ -791,7 +853,14 @@
     :cp7 "4510-260",
     :id #uuid "0e537316-4e44-3014-87e7-b515a101e58b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4510-260",
+    :postal-c "4510-260",
+    :x -8.507325029236881,
+    :y 41.151860016934506,
+    :score 100,
+    :c 1}}]
  ["s-pedro-00806"
   {:nec 806,
    :rates
@@ -890,7 +959,14 @@
     :cp7 "4510-431",
     :id #uuid "8783c347-5a94-3d03-a91f-f924f9c7c792",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4510-431",
+    :postal-c "4510-431",
+    :x -8.509655030681586,
+    :y 41.155540007704644,
+    :score 100,
+    :c 1}}]
  ["d-fernando-00811"
   {:nec 811,
    :rates
@@ -989,7 +1065,17 @@
     :cp7 "4510-147",
     :id #uuid "8c5e7670-8f0a-3fdc-8e99-7ceb932f8dd8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "8c5e7670-8f0a-3fdc-8e99-7ceb932f8dd8",
+    :address "Rua Trás da Serra, Nº 110 4510-147 JOVIM GDM",
+    :address-c
+    "Rua Trás da Serra 110, 4510-147, Pinheiro, Gondomar, Porto",
+    :postal-c "4510-147",
+    :x -8.509979997067717,
+    :y 41.11651001084434,
+    :score 96.38,
+    :c 1}}]
  ["gondomar-jovem-00935"
   {:nec 935,
    :rates
@@ -1089,7 +1175,14 @@
     :cp7 "4420-155",
     :id #uuid "a19af0d4-913a-31fc-a8ad-6d7e3f959009",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4420-155",
+    :postal-c "4420-155",
+    :x -8.531534983092712,
+    :y 41.14617000387338,
+    :score 100,
+    :c 1}}]
  ["via-douro-00938"
   {:nec 938,
    :rates
@@ -1188,7 +1281,17 @@
     :cp7 "4515-552",
     :id #uuid "d809f5ac-fd2d-3d53-94f5-9214f64d3bbc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "d809f5ac-fd2d-3d53-94f5-9214f64d3bbc",
+    :address "Rua Padre Jerónimo, Nº 170 4515-552 MELRES",
+    :address-c
+    "Rua Padre Jerónimo 170, 4515-552, Melres, Gondomar, Porto",
+    :postal-c "4515-552",
+    :x -8.401710031741175,
+    :y 41.06750001714914,
+    :score 98.42,
+    :c 1}}]
  ["fenix-01032"
   {:nec 1032,
    :rates
@@ -1287,7 +1390,14 @@
     :cp7 "4435-005",
     :id #uuid "524138f4-1e34-3196-9c7d-1aa15369727b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4435-005",
+    :postal-c "4435-005",
+    :x -8.582855029303033,
+    :y 41.18303998428539,
+    :score 100,
+    :c 1}}]
  ["projecto-4-01051"
   {:nec 1051,
    :rates
@@ -1387,7 +1497,18 @@
     :cp7 "4420-155",
     :id #uuid "f96dd77a-48a5-30fd-9f20-f530dba5d2cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "f96dd77a-48a5-30fd-9f20-f530dba5d2cb",
+    :address
+    "Avª General Humberto Delgado nº 1012 4420-155 GONDOMAR (S: COSME)",
+    :address-c
+    "Avenida General Humberto Delgado 1012, 4420-155, Vilar, Gondomar, Porto",
+    :postal-c "4420-155",
+    :x -8.53027996073024,
+    :y 41.1529899813016,
+    :score 97.48,
+    :c 2}}]
  ["via-unica-01076"
   {:nec 1076,
    :rates
@@ -1486,7 +1607,17 @@
     :cp7 "4510-575",
     :id #uuid "17a10e09-7d1b-3d8a-84ba-1e13d9c42672",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "17a10e09-7d1b-3d8a-84ba-1e13d9c42672",
+    :address "Rua Guerra Junqueiro, Nº 34-R/C 4510-575 FÂNZERES",
+    :address-c
+    "Rua Guerra Junqueiro 34, 4510-575, Fânzeres, Gondomar, Porto",
+    :postal-c "4510-575",
+    :x -8.528199991457257,
+    :y 41.159749986212574,
+    :score 97.98,
+    :c 3}}]
  ["venda-nova-01166"
   {:nec 1166,
    :rates
@@ -1586,7 +1717,18 @@
     :cp7 "4435-350",
     :id #uuid "862c9470-ac5a-3cd3-b411-ec4317c6ec1f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:id #uuid "862c9470-ac5a-3cd3-b411-ec4317c6ec1f",
+    :address
+    "Rua Nossa Senhora do Amparo, Nº 155 R/C Dtº 4435-350 RIO TINTO",
+    :address-c
+    "Rua de Nossa Senhora do Amparo 155, 4435-350, Rio Tinto, Gondomar, Porto",
+    :postal-c "4435-350",
+    :x -8.544898167294482,
+    :y 41.17584562644164,
+    :score 96.46,
+    :c 6}}]
  ["rio-tinto-01182"
   {:nec 1182,
    :rates
@@ -1685,4 +1827,11 @@
     :cp7 "4435-346",
     :id #uuid "f63c8fc6-f721-3030-b151-850bb8487dc7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+   :geocode
+   {:cp7 "4435-346",
+    :postal-c "4435-346",
+    :x -8.559591308496692,
+    :y 41.17800761534738,
+    :score 100,
+    :c 1}}]]

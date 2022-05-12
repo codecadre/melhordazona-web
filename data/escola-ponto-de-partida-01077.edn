@@ -95,4 +95,13 @@
   :cp7 "5430-420",
   :id #uuid "74d02e36-9dfb-3d9b-854b-071c7d8dcf81",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+ :geocode
+ {:id #uuid "74d02e36-9dfb-3d9b-854b-071c7d8dcf81",
+  :address "Avenida 25 de Abril, n.º 19 5430-420 Valpaços",
+  :address-c "Avenida 25 de Abril, 5430-420, Valpaços, Vila Real",
+  :postal-c "5430-420",
+  :x -7.314608841989703,
+  :y 41.60602019332451,
+  :score 96,
+  :c 2}}

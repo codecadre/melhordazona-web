@@ -96,4 +96,15 @@
   :cp7 "2500-843",
   :id #uuid "fdffe9cb-0ece-3c01-b1fc-e11154efacb4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+ :geocode
+ {:id #uuid "fdffe9cb-0ece-3c01-b1fc-e11154efacb4",
+  :address
+  "Rua Cardeal Alpedrinha, n.º 72 - A, 2500-843 CALDAS DA RAINHA",
+  :address-c
+  "Rua Cardeal Alpedrinha 72A, 2500-843, Bairro dos Arneiros, Caldas da Rainha, Leiria",
+  :postal-c "2500-843",
+  :x -9.148569958819337,
+  :y 39.41081999773664,
+  :score 97,
+  :c 1}}

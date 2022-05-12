@@ -98,4 +98,11 @@
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :obs "missing nec in imt.pt",
  :overwrite/notes
- ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"]}
+ ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"],
+ :geocode
+ {:cp7 "4300-431",
+  :postal-c "4300-431",
+  :x -8.589050010120985,
+  :y 41.14946501383068,
+  :score 100,
+  :c 1}}

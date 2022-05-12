@@ -95,4 +95,13 @@
   :cp7 "7470-181",
   :id #uuid "294e0f4b-5044-3a03-91c5-154ee13af7bd",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Sousel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Sousel"},
+ :geocode
+ {:id #uuid "294e0f4b-5044-3a03-91c5-154ee13af7bd",
+  :address "Rua de S. Pedro, Nº 8 7470 - 181 SOUSEL",
+  :address-c "Rua de São Pedro 8, 7470-240, Sousel, Portalegre",
+  :postal-c "7470-240",
+  :x -7.674989973974874,
+  :y 38.954420005415756,
+  :score 97.2,
+  :c 1}}

@@ -98,4 +98,15 @@
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
  :obs "lic. 1318 has 2 profiles 'Medieval' and 'Taveiro' in imt.pt",
- :overwrite/notes nil}
+ :overwrite/notes nil,
+ :geocode
+ {:id #uuid "102c6d36-273b-3cfa-b2f1-19416f55127b",
+  :address
+  "Rua Soldado José dos Santos Calhau, n.º 14 ; 3045-481 Taveiro",
+  :address-c
+  "Rua Soldado José Santos Calhau 14, 3045-481, Taveiro, Coimbra",
+  :postal-c "3045-481",
+  :x -8.503429958831248,
+  :y 40.20217999359696,
+  :score 96.62,
+  :c 4}}

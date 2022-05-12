@@ -81,4 +81,14 @@
   :cp7 "4445-441",
   :id #uuid "0a791303-70e0-3c8d-871b-2aa708a6607c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+ :geocode
+ {:id #uuid "0a791303-70e0-3c8d-871b-2aa708a6607c",
+  :address "Rua Fontes Pereira de Melo, n.º 43, 4445-441 Ermesinde",
+  :address-c
+  "Rua Fontes Pereira de Melo, 4445-441, Ermesinde, Valongo, Porto",
+  :postal-c "4445-441",
+  :x -8.548399875195884,
+  :y 41.21845154055966,
+  :score 96.67,
+  :c 2}}

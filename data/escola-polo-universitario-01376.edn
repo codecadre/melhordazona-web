@@ -81,4 +81,13 @@
   :cp7 "4200-282",
   :id #uuid "7679ccca-6a09-3765-b0a1-ace6c138ddf9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "7679ccca-6a09-3765-b0a1-ace6c138ddf9",
+  :address "Rua Dr. Eduardo Santos Silva, n,º 61 4200-282 Porto",
+  :address-c "Rua do Doutor Eduardo Santos Silva, 4200-282, Porto",
+  :postal-c "4200-282",
+  :x -8.587984117210333,
+  :y 41.177127016846896,
+  :score 96.41,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "2430-053",
   :id #uuid "131d0cdd-8526-3a94-8c30-a7ab1a018101",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
+ :geocode
+ {:id #uuid "131d0cdd-8526-3a94-8c30-a7ab1a018101",
+  :address "Rua Alfredo Gândara, n.º 22, 2430-053 MARINHA GRANDE",
+  :address-c
+  "Rua Alfredo Gândara 22, 2430-282, Marinha Grande, Leiria",
+  :postal-c "2430-282",
+  :x -8.932730000900449,
+  :y 39.75549999147444,
+  :score 95.34,
+  :c 1}}

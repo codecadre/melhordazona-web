@@ -95,4 +95,13 @@
   :cp7 "2830-354",
   :id #uuid "f449f3cf-d92a-33e5-a2a2-843ef38b31ce",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+ :geocode
+ {:id #uuid "f449f3cf-d92a-33e5-a2a2-843ef38b31ce",
+  :address "Rua Miguel Bombarda, Nº 87 R/C 2830-354 BARREIRO",
+  :address-c "Rua Miguel Bombarda 87, 2830, Barreiro, Setúbal",
+  :postal-c "2830",
+  :x -9.073337037491958,
+  :y 38.65982665998492,
+  :score 96.9,
+  :c 3}}

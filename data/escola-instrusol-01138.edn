@@ -95,4 +95,14 @@
   :cp7 "2830",
   :id #uuid "a9dbb338-ae7c-3c0b-bd94-0f014191c188",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
+ :geocode
+ {:id #uuid "a9dbb338-ae7c-3c0b-bd94-0f014191c188",
+  :address "Rua António Amaro Monteiro nº 6 A 2830 BARREIRO",
+  :address-c
+  "Rua António Amaro Monteiro 6, 2835-744, Santo António da Charneca, Barreiro, Setúbal",
+  :postal-c "2835-744",
+  :x -9.041119995080464,
+  :y 38.63482000708339,
+  :score 96.95,
+  :c 1}}

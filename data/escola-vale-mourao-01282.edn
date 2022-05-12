@@ -96,4 +96,15 @@
   :cp7 "2635-475",
   :id #uuid "c3692b12-b241-301d-a3e2-f7cdf733cec6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "c3692b12-b241-301d-a3e2-f7cdf733cec6",
+  :address
+  "Praceta Camilo Pessanha lote 44, loja B, 2635-475 Rio de Mouro",
+  :address-c
+  "Praceta Camilo Pessanha 44, 2635-625, Vale Mourão, Sintra, Lisboa",
+  :postal-c "2635-625",
+  :x -9.318618995505952,
+  :y 38.76588267999491,
+  :score 96.25,
+  :c 1}}

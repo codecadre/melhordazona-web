@@ -95,4 +95,14 @@
   :cp7 "4585-457",
   :id #uuid "6696f39b-6f48-39ab-b4a8-7b8a32754352",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+ :geocode
+ {:id #uuid "6696f39b-6f48-39ab-b4a8-7b8a32754352",
+  :address "R. São Miguel 142 4585-457 REBORDOSA",
+  :address-c
+  "Rua de São Miguel 142, 4585-457, Rebordosa, Paredes, Porto",
+  :postal-c "4585-457",
+  :x -8.41425352650715,
+  :y 41.2218727840964,
+  :score 100,
+  :c 1}}

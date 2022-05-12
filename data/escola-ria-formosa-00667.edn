@@ -96,4 +96,14 @@
   :cp7 "8700",
   :id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
+ :geocode
+ {:id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
+  :address "Avenida dos Bombeiros Municipais n 30 8700 OLHÃO",
+  :address-c
+  "Avenida dos Bombeiros Municipais de Olhão 30, 8700-312, Olhão, Faro",
+  :postal-c "8700-312",
+  :x -7.8468500021132,
+  :y 37.030129999402035,
+  :score 97.61,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "6250-088",
   :id #uuid "cc09c2d3-567d-3c7a-81e0-7fd70cca0606",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Belmonte"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Belmonte"},
+ :geocode
+ {:id #uuid "cc09c2d3-567d-3c7a-81e0-7fd70cca0606",
+  :address "Rua Pedro Álvares Cabral, Nº 292 R/C 6250-088 BELMONTE",
+  :address-c
+  "Rua Pedro Álvares Cabral 292, 6250-088, Belmonte, Castelo Branco",
+  :postal-c "6250-088",
+  :x -7.345949982919706,
+  :y 40.36313001083357,
+  :score 98.08,
+  :c 4}}

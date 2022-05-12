@@ -25,4 +25,14 @@
   :cp7 "4590-384",
   :id #uuid "3e7eca21-2db3-37c6-b600-3c74d3a6745d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+ :geocode
+ {:id #uuid "3e7eca21-2db3-37c6-b600-3c74d3a6745d",
+  :address "Rua do Leigal, 155 4590-384 FREAMUNDE",
+  :address-c
+  "Rua de Leigal 155, 4590-384, Freamunde, Paços de Ferreira, Porto",
+  :postal-c "4590-384",
+  :x -8.335400041348947,
+  :y 41.28662999779294,
+  :score 100,
+  :c 1}}

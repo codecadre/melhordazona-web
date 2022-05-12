@@ -96,4 +96,15 @@
   :cp7 "2685-311",
   :id #uuid "8512b50d-49f3-34d0-a0d4-2f57f9d16b5a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+ :geocode
+ {:id #uuid "8512b50d-49f3-34d0-a0d4-2f57f9d16b5a",
+  :address
+  "Rua Manuel José Cerqueira Afonso dos Santos, Lote 9-Loja Esq 2685-311 Prior Velho",
+  :address-c
+  "Rua José Manuel Cerqueira Afonso Santos 9, 2685-344, Prior Velho, Loures, Lisboa",
+  :postal-c "2685-344",
+  :x -9.121019984186177,
+  :y 38.79203001912313,
+  :score 97.04,
+  :c 1}}

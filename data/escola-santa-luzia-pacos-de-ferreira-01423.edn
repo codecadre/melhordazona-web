@@ -39,4 +39,13 @@
   :cp7 "4590-545",
   :id #uuid "2cec90e9-fba9-33a5-ab12-13353431b2f1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+ :geocode
+ {:id #uuid "2cec90e9-fba9-33a5-ab12-13353431b2f1",
+  :address "Rua Casal de Rei I, n.º 16, 4590-545 Paços de Ferreira",
+  :address-c "Rua de Casal de Rei, 4590-545, Paços de Ferreira, Porto",
+  :postal-c "4590-545",
+  :x -8.380168275311137,
+  :y 41.28090213906134,
+  :score 95.63,
+  :c 2}}

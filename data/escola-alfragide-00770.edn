@@ -95,4 +95,14 @@
   :cp7 "2610-110",
   :id #uuid "4c4803a4-eb4c-35b8-ba0a-ca28b6fc657a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
+ :geocode
+ {:id #uuid "4c4803a4-eb4c-35b8-ba0a-ca28b6fc657a",
+  :address "Rua Manuel Lemos Peixoto, 2 A 2610-110 AMADORA",
+  :address-c
+  "Rua Manuel Lemos Peixoto 2A, 2610-110, Alfragide, Amadora, Lisboa",
+  :postal-c "2610-110",
+  :x -9.212169996095895,
+  :y 38.73674001020228,
+  :score 99.99,
+  :c 1}}

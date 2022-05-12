@@ -96,4 +96,13 @@
     :cp7 "7670-261",
     :id #uuid "6fa35fa8-7dd2-3fce-9142-63097b6a5fd7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Ourique"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Ourique"},
+   :geocode
+   {:id #uuid "6fa35fa8-7dd2-3fce-9142-63097b6a5fd7",
+    :address "Rua Batalha de Ourique, Nº49 7670 -261 OURIQUE",
+    :address-c "Rua Batalha de Ourique 49, 7670-261, Ourique, Beja",
+    :postal-c "7670-261",
+    :x -8.226639986143738,
+    :y 37.64897999244229,
+    :score 97.96,
+    :c 1}}]]

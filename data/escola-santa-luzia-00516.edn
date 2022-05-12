@@ -96,4 +96,14 @@
   :cp7 "4900-495",
   :id #uuid "690f7b63-e466-36e6-a913-b41389f71e11",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+ :geocode
+ {:id #uuid "690f7b63-e466-36e6-a913-b41389f71e11",
+  :address
+  "Rua de Aveiro, 61 –1º Esqº 4900 -495 VIANA DO CASTELO (Stª Mª Maior)",
+  :address-c "Rua Aveiro 61, 4900-495, Viana do Castelo",
+  :postal-c "4900-495",
+  :x -8.825139975559495,
+  :y 41.69669000976566,
+  :score 96.8,
+  :c 1}}

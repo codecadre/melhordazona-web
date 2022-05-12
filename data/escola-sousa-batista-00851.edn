@@ -96,4 +96,14 @@
   :cp7 nil,
   :id #uuid "026c05e4-1874-323b-bd17-c428a6f4c38e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+ :geocode
+ {:id #uuid "026c05e4-1874-323b-bd17-c428a6f4c38e",
+  :address
+  "Rua dos Pescadores, 19 na Freguesia de VILA DO CONDE, Concelho de VILA DO CONDE e Distrito de PORTO",
+  :address-c "Rua dos Pescadores 19, 4480-804, Vila do Conde, Porto",
+  :postal-c "4480-804",
+  :x -8.755514483244712,
+  :y 41.37343010393725,
+  :score 95.94,
+  :c 2}}

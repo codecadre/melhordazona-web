@@ -96,7 +96,16 @@
     :cp7 "3530-000",
     :id #uuid "bf2eddf4-b5d4-349a-a59a-05848eee10bd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"},
+   :geocode
+   {:id #uuid "bf2eddf4-b5d4-349a-a59a-05848eee10bd",
+    :address "Largo do Rossio nº 52 3530-000 MANGUALDE",
+    :address-c "Largo do Rossio 52, 3530-133, Mangualde, Viseu",
+    :postal-c "3530-133",
+    :x -7.7576500399772215,
+    :y 40.604959987385655,
+    :score 97.34,
+    :c 11}}]
  ["miguel-angelo-00982"
   {:nec 982,
    :rates
@@ -195,4 +204,13 @@
     :cp7 "3530-214",
     :id #uuid "710424a5-42fb-317e-a574-de3ebfe2b9a9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"},
+   :geocode
+   {:id #uuid "710424a5-42fb-317e-a574-de3ebfe2b9a9",
+    :address "Rua Luis de Camões, Nº 37 3530-214 MANGUALDE",
+    :address-c "Rua Luís de Camões 37, 3530-214, Mangualde, Viseu",
+    :postal-c "3530-214",
+    :x -7.75216174622813,
+    :y 40.603439852218706,
+    :score 98.43,
+    :c 1}}]]

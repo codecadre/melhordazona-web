@@ -95,4 +95,14 @@
   :cp7 "4515-552",
   :id #uuid "d809f5ac-fd2d-3d53-94f5-9214f64d3bbc",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
+ :geocode
+ {:id #uuid "d809f5ac-fd2d-3d53-94f5-9214f64d3bbc",
+  :address "Rua Padre Jerónimo, Nº 170 4515-552 MELRES",
+  :address-c
+  "Rua Padre Jerónimo 170, 4515-552, Melres, Gondomar, Porto",
+  :postal-c "4515-552",
+  :x -8.401710031741175,
+  :y 41.06750001714914,
+  :score 98.42,
+  :c 1}}

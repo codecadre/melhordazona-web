@@ -96,4 +96,14 @@
     :cp7 "7150-105",
     :id #uuid "ad3bd4f5-71d3-352f-a5b9-218e97a02b7b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Borba"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Borba"},
+   :geocode
+   {:id #uuid "ad3bd4f5-71d3-352f-a5b9-218e97a02b7b",
+    :address "Avª D. Dinis de Melo e Castro, Nº 2H 7150-105 BORBA",
+    :address-c
+    "Avenida Dom Dinis de Melo e Castro 2, 7150-105, Borba, Évora",
+    :postal-c "7150-105",
+    :x -7.453210012732626,
+    :y 38.807599991004736,
+    :score 97.72,
+    :c 3}}]]

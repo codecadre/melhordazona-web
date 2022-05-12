@@ -96,4 +96,14 @@
   :cp7 "2910-238",
   :id #uuid "309f9d74-e9a1-3d79-be85-12caf00509da",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+ :geocode
+ {:id #uuid "309f9d74-e9a1-3d79-be85-12caf00509da",
+  :address
+  "Rua Fernando Motrena, Lote 1 R/C Dt, Loja A/C-Manteigadas 2910-238 SETÚBAL",
+  :address-c "Rua Fernando Motrena 1, 2910-238, Manteigada, Setúbal",
+  :postal-c "2910-238",
+  :x -8.854770003284699,
+  :y 38.52310000850031,
+  :score 97.66,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "4470-200",
   :id #uuid "d9f6aad1-9e5f-3032-8767-c4fc9f5ad350",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
+ :geocode
+ {:id #uuid "d9f6aad1-9e5f-3032-8767-c4fc9f5ad350",
+  :address "Avª D. Manuel II, nº 1148 4470-200 VERMOIM",
+  :address-c
+  "Avenida Dom Manuel II 1148, 4470-129, Vermoim, Maia, Porto",
+  :postal-c "4470-129",
+  :x -8.611939981864737,
+  :y 41.23675000445766,
+  :score 97.32,
+  :c 3}}

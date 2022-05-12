@@ -95,4 +95,13 @@
   :cp7 "1000-268",
   :id #uuid "6b088d8b-fa3a-38a3-b344-5b8c7982aeaf",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "6b088d8b-fa3a-38a3-b344-5b8c7982aeaf",
+  :address "Avª Rovisco Pais, 14 e 14 C 1000-268 LISBOA",
+  :address-c "Avenida Rovisco Pais 14, 1000-268, Lisboa",
+  :postal-c "1000-268",
+  :x -9.138900008582937,
+  :y 38.73518998675755,
+  :score 98.79,
+  :c 1}}

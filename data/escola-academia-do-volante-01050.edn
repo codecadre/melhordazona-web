@@ -96,4 +96,16 @@
   :cp7 "8000-546",
   :id #uuid "999d90d2-1b82-30ae-87ec-7429780aa84b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+ :geocode
+ {:y 37.030079036750756,
+  :address
+  "Parque das Amoreiras I, Av. 25 de Abril, Lote 10/11 8000-546 FARO",
+  :postal-c "8005-102",
+  :obs "manually removed a bit of the address.",
+  :overwrite true,
+  :c 1,
+  :id #uuid "999d90d2-1b82-30ae-87ec-7429780aa84b",
+  :score 94.07,
+  :address-c "Avenida 25 de Abril 10, 8005-102, Faro",
+  :x -7.9303512395930404}}

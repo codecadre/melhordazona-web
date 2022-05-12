@@ -95,4 +95,13 @@
   :cp7 "8800-418",
   :id #uuid "7581c06f-9ff6-3920-9230-57ac94dfbf78",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Tavira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Tavira"},
+ :geocode
+ {:id #uuid "7581c06f-9ff6-3920-9230-57ac94dfbf78",
+  :address "Rua Maria Campina, Lote 13 A, 8800-418 TAVIRA",
+  :address-c "Rua Maria Campina 13, 8800-418, Tavira, Faro",
+  :postal-c "8800-418",
+  :x -7.65145996010466,
+  :y 37.12089000135701,
+  :score 99.71,
+  :c 1}}

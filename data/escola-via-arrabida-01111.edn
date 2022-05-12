@@ -95,4 +95,14 @@
   :cp7 "4400-501",
   :id #uuid "56f1d4e9-b0d2-32e9-ba8f-fed1c0e41454",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "56f1d4e9-b0d2-32e9-ba8f-fed1c0e41454",
+  :address "Rua do Meiral, n.º 231; 4400-501 Vila Nova de Gaia",
+  :address-c
+  "Rua do Meiral, 4400-501, Canidelo, Vila Nova de Gaia, Porto",
+  :postal-c "4400-501",
+  :x -8.643598176512306,
+  :y 41.12548008541728,
+  :score 95.27,
+  :c 7}}

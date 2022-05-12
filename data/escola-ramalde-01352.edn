@@ -81,4 +81,13 @@
   :cp7 "4100-205",
   :id #uuid "583b44cd-b68b-3982-9415-3608b5cd8f98",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "583b44cd-b68b-3982-9415-3608b5cd8f98",
+  :address "Rua Direita das Campinas, n.º 266, 4100-205 Porto",
+  :address-c "Rua Direita das Campinas 266, 4100-205, Porto",
+  :postal-c "4100-205",
+  :x -8.652850039607301,
+  :y 41.16714999134055,
+  :score 97.09,
+  :c 1}}

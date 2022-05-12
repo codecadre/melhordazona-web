@@ -95,4 +95,14 @@
   :cp7 "3460-575",
   :id #uuid "43b6d67f-4895-3c25-bf6f-03993465e73d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
+ :geocode
+ {:id #uuid "43b6d67f-4895-3c25-bf6f-03993465e73d",
+  :address "Rua António Marques da Costa, s/nª 3460-575 TONDELA",
+  :address-c
+  "Rua Dr. António Marques da Costa, 3460-575, Tondela, Viseu",
+  :postal-c "3460-575",
+  :x -8.083200846914126,
+  :y 40.51975900253909,
+  :score 97.44,
+  :c 2}}

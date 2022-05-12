@@ -96,7 +96,16 @@
     :cp7 "2950-210",
     :id #uuid "0d98042d-de94-3781-a516-fea5302e07f5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:id #uuid "0d98042d-de94-3781-a516-fea5302e07f5",
+    :address "Rua Humberto Cardoso, Lote 15 B2 2950 -210 PINHAL NOVO",
+    :address-c "Rua Humberto Cardoso 15, 2950-210, Palmela, Setúbal",
+    :postal-c "2950-210",
+    :x -8.900669975625675,
+    :y 38.57442001280114,
+    :score 97.21,
+    :c 1}}]
  ["hp-dois-00631"
   {:nec 631,
    :rates
@@ -196,7 +205,18 @@
     :cp7 "2955-162",
     :id #uuid "87776756-1be8-364e-bf52-bdfc85001498",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:id #uuid "87776756-1be8-364e-bf52-bdfc85001498",
+    :address
+    "Rua Manuel Giraldes da Silva, Lote 13 R/C Dtº 2955-162 Pinhal Novo",
+    :address-c
+    "Rua Manuel Giraldes da Silva 13, 2955-026, Pinhal Novo, Palmela, Setúbal",
+    :postal-c "2955-026",
+    :x -8.91733001401525,
+    :y 38.633010018911676,
+    :score 97.98,
+    :c 1}}]
  ["previsegur-01115"
   {:nec 1115,
    :rates
@@ -296,7 +316,18 @@
     :cp7 "2955-028",
     :id #uuid "081c1ac1-cd27-3642-ac74-c2f7a4560f02",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:id #uuid "081c1ac1-cd27-3642-ac74-c2f7a4560f02",
+    :address
+    "Rua Salgueiro Maia lote 33, Loja Dtª 2955-028 PINHAL NOVO",
+    :address-c
+    "Rua Salgueiro Maia 33, 2955-028, Pinhal Novo, Palmela, Setúbal",
+    :postal-c "2955-028",
+    :x -8.912080008961311,
+    :y 38.623849981754944,
+    :score 98.48,
+    :c 1}}]
  ["poceirense-01222"
   {:nec 1222,
    :rates
@@ -395,7 +426,14 @@
     :cp7 "2965-301",
     :id #uuid "0fdd25c2-4645-30ea-95aa-23f538f0582b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:cp7 "2965-301",
+    :postal-c "2965-301",
+    :x -8.74207003449186,
+    :y 38.63380001328596,
+    :score 100,
+    :c 1}}]
  ["vila-serena-01407"
   {:nec 1407,
    :rates
@@ -453,4 +491,11 @@
     :cp7 "2955-098",
     :id #uuid "41d4e819-8a0f-3e57-b267-7a315a3e6b95",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
+   :geocode
+   {:cp7 "2955-098",
+    :postal-c "2955-098",
+    :x -8.910474958322226,
+    :y 38.639345019422166,
+    :score 100,
+    :c 1}}]]

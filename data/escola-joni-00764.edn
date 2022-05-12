@@ -95,4 +95,14 @@
   :cp7 "4445-210",
   :id #uuid "2b9c4de3-a737-3ccf-b8d9-cc41825d7510",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+ :geocode
+ {:id #uuid "2b9c4de3-a737-3ccf-b8d9-cc41825d7510",
+  :address "Rua de S.Vicente nº 2024 4445-210 ALFENA",
+  :address-c
+  "Rua de São Vicente 2024, 4445-210, Alfena, Valongo, Porto",
+  :postal-c "4445-210",
+  :x -8.527330033726685,
+  :y 41.22984000538935,
+  :score 98.38,
+  :c 2}}

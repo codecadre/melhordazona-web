@@ -96,4 +96,15 @@
   :cp7 "4620-141",
   :id #uuid "f62830a0-0f78-3291-badc-9de34a2be3dd",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
+ :geocode
+ {:id #uuid "f62830a0-0f78-3291-badc-9de34a2be3dd",
+  :address
+  "Avª dos Combatentes da Grande Guerra n º 342 4620-141 CRISTELO",
+  :address-c
+  "Avenida Combatentes da Grande Guerra 342, 4620-141, Lousada, Porto",
+  :postal-c "4620-141",
+  :x -8.287866675848353,
+  :y 41.27934930536194,
+  :score 96.31,
+  :c 1}}

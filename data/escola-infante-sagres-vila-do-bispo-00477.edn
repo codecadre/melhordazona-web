@@ -95,4 +95,14 @@
   :cp7 "8650-387",
   :id #uuid "19e99ac7-aab8-3008-b595-20656668b8e1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Vila%20do%20Bispo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Vila%20do%20Bispo"},
+ :geocode
+ {:id #uuid "19e99ac7-aab8-3008-b595-20656668b8e1",
+  :address "Roça da Veiga 8650-387 Sagres",
+  :address-c
+  "Rua Roca do Veiga, 8650-387, Sagres, Vila do Bispo, Faro",
+  :postal-c "8650-387",
+  :x -8.938982339932876,
+  :y 37.01479585460186,
+  :score 96.94,
+  :c 1}}

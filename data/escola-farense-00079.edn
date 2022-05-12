@@ -95,4 +95,13 @@
   :cp7 "8000-145",
   :id #uuid "878111f1-7a86-3c84-abe7-632cdb454887",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+ :geocode
+ {:id #uuid "878111f1-7a86-3c84-abe7-632cdb454887",
+  :address "Largo de S. Pedro, Nº 8-1º 8000 -145 FARO",
+  :address-c "Largo de São Pedro 8, 8000-145, Faro",
+  :postal-c "8000-145",
+  :x -7.93482000377719,
+  :y 37.01885998575895,
+  :score 97.63,
+  :c 3}}

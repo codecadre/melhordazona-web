@@ -96,7 +96,16 @@
     :cp7 "4560-465",
     :id #uuid "89383d9a-e30e-3411-bd79-5e5f4c91498f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "89383d9a-e30e-3411-bd79-5e5f4c91498f",
+    :address "Rua Eng.º Matos, 253 ; 4560-465 Penafiel",
+    :address-c "Rua Engenheiro Matos 253, 4560-488, Penafiel, Porto",
+    :postal-c "4560-488",
+    :x -8.290624585138005,
+    :y 41.201178674214134,
+    :score 98.93,
+    :c 3}}]
  ["condutor-seguro-00510"
   {:nec 510,
    :rates
@@ -195,7 +204,17 @@
     :cp7 "4560-162",
     :id #uuid "5d453504-6041-358e-9c81-510d7dcea340",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "5d453504-6041-358e-9c81-510d7dcea340",
+    :address "Av. Central de Guilhufe, 60, 4560-162 Penafiel",
+    :address-c
+    "Avenida Central de Guilhufe 60, 4560-131, Penafiel, Porto",
+    :postal-c "4560-131",
+    :x -8.303753533480688,
+    :y 41.193779162195064,
+    :score 98.07,
+    :c 5}}]
  ["vale-de-sousa-00511"
   {:nec 511,
    :rates
@@ -295,7 +314,17 @@
     :cp7 "4560-531",
     :id #uuid "1efbce52-140d-3272-b33f-6abde9e40fca",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "1efbce52-140d-3272-b33f-6abde9e40fca",
+    :address
+    "Rua da Saudade, 120 A - Sala A/ Apartado 108 4560-531 PENAFIEL",
+    :address-c "Rua da Saudade 120A, 4560-531, Penafiel, Porto",
+    :postal-c "4560-531",
+    :x -8.293676855179342,
+    :y 41.19725435096643,
+    :score 96.58,
+    :c 6}}]
  ["croca-de-penafiel-00731"
   {:nec 731,
    :rates
@@ -394,7 +423,16 @@
     :cp7 "4560-494",
     :id #uuid "51e18e6d-8bb5-3770-ae01-3108f1ac1e15",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "51e18e6d-8bb5-3770-ae01-3108f1ac1e15",
+    :address "Av Zeferino de Oliveira, n.º 26, 4560-494 Penafiel",
+    :address-c "Avenida Zeferino Oliveira, 4560-494, Penafiel, Porto",
+    :postal-c "4560-494",
+    :x -8.277578026372995,
+    :y 41.20803736267542,
+    :score 96.41,
+    :c 4}}]
  ["pais-neto-00788"
   {:nec 788,
    :rates
@@ -493,7 +531,14 @@
     :cp7 "4575-262",
     :id #uuid "036ed107-970d-3dff-8ef2-961c00f33082",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:cp7 "4575-262",
+    :postal-c "4575-262",
+    :x -8.293454986202278,
+    :y 41.14370501187801,
+    :score 100,
+    :c 1}}]
  ["termas-de-s-vicente-00866"
   {:nec 866,
    :rates
@@ -593,7 +638,14 @@
     :cp7 "4575-352",
     :id #uuid "03fbe711-6fe9-3483-b867-fd0830629892",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:cp7 "4575-352",
+    :postal-c "4575-352",
+    :x -8.296674978126163,
+    :y 41.11475999518984,
+    :score 100,
+    :c 1}}]
  ["sport-00960"
   {:nec 960,
    :rates
@@ -692,7 +744,17 @@
     :cp7 "4560-568",
     :id #uuid "dfc3da07-a89c-31e8-8881-292eb1f2f04e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "dfc3da07-a89c-31e8-8881-292eb1f2f04e",
+    :address "Rua D. António Ferreira Gomes nº 166 4560-568 MILHUNDOS",
+    :address-c
+    "Rua de Dom António Ferreira Gomes 166, 4560-568, Milhundos, Penafiel, Porto",
+    :postal-c "4560-568",
+    :x -8.276789583394674,
+    :y 41.20752746295534,
+    :score 98.56,
+    :c 2}}]
  ["abragonense-01096"
   {:nec 1096,
    :rates
@@ -891,7 +953,14 @@
     :cp7 "4575-471",
     :id #uuid "59b655d1-4328-3325-81cb-363fe20e8f0c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:cp7 "4575-471",
+    :postal-c "4575-471",
+    :x -8.268090006088869,
+    :y 41.10407998371127,
+    :score 100,
+    :c 1}}]
  ["ideal-de-rans-01190"
   {:nec 1190,
    :rates
@@ -1062,4 +1131,11 @@
     :cp7 "4560-371",
     :id #uuid "199eb188-33a8-39fb-9c72-60487402e827",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:cp7 "4560-371",
+    :postal-c "4560-371",
+    :x -8.33964002707026,
+    :y 41.16910498643719,
+    :score 100,
+    :c 1}}]]

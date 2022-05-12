@@ -95,4 +95,13 @@
   :cp7 "1900-127",
   :id #uuid "fa71fdd9-5080-34c2-9cf8-7ec157f4300e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "fa71fdd9-5080-34c2-9cf8-7ec157f4300e",
+  :address "Rua Carlos Mardel, 132 - 1º 1900-127 LISBOA",
+  :address-c "Rua Carlos Mardel 132, 1900-127, Lisboa",
+  :postal-c "1900-127",
+  :x -9.13249003194855,
+  :y 38.740899990657766,
+  :score 99.39,
+  :c 2}}

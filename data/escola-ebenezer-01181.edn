@@ -95,4 +95,14 @@
   :cp7 "2675-604",
   :id #uuid "a7002f72-f6e5-3017-ba7b-eb3dea56072b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+ :geocode
+ {:id #uuid "a7002f72-f6e5-3017-ba7b-eb3dea56072b",
+  :address "Rua Artur Bual, Nº 1 R/C Loja 2 2675-604 ODIVELAS",
+  :address-c
+  "Rua Artur Bual 1, 2675-615, Quinta Nova, Odivelas, Lisboa",
+  :postal-c "2675-615",
+  :x -9.178250026506475,
+  :y 38.799240006506096,
+  :score 96.87,
+  :c 3}}

@@ -86,4 +86,14 @@
   :cp7 "8900",
   :id #uuid "076f5935-fa1e-3139-91ca-dbc4ad80dfbd",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
+ :geocode
+ {:id #uuid "076f5935-fa1e-3139-91ca-dbc4ad80dfbd",
+  :address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
+  :address-c
+  "Rua Doutor Teófilo Braga 85, 8900-303, Vila Real de Santo António, Faro",
+  :postal-c "8900-303",
+  :x -7.419097368803119,
+  :y 37.19405562927124,
+  :score 95.24,
+  :c 1}}

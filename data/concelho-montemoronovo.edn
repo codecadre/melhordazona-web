@@ -96,4 +96,14 @@
     :cp7 "7050",
     :id #uuid "0f410351-2bb8-3c4d-bbb0-b46261df0759",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Montemor%20o%20Novo"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Montemor%20o%20Novo"},
+   :geocode
+   {:id #uuid "0f410351-2bb8-3c4d-bbb0-b46261df0759",
+    :address "Rua Tomé Adelino Vidigal, 14 - 7050 - MONTEMOR-O-NOVO",
+    :address-c
+    "Rua Tomé Adelino Vidigal 14, 7050-138, Montemor-o-Novo, Évora",
+    :postal-c "7050-138",
+    :x -8.207999974586073,
+    :y 38.65241999209505,
+    :score 100,
+    :c 1}}]]

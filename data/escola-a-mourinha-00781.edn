@@ -96,4 +96,15 @@
   :cp7 "8500-784",
   :id #uuid "bc79baca-b5b8-3d78-b68a-036d02562856",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
+ :geocode
+ {:id #uuid "bc79baca-b5b8-3d78-b68a-036d02562856",
+  :address
+  "Urbanização Vila Paraíso, Lote 105, Loja B - Vale Lagar 8500-784 PORTIMÃO",
+  :address-c
+  "Urbanização Vila Paraíso 105, 8500-784, Vale do Lugar, Portimão, Faro",
+  :postal-c "8500-784",
+  :x -8.563069965952565,
+  :y 37.143900001954236,
+  :score 98.05,
+  :c 1}}

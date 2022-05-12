@@ -96,4 +96,15 @@
   :cp7 "4445-637",
   :id #uuid "f1a87842-8ad2-36ec-99cf-dd8e263243b4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+ :geocode
+ {:id #uuid "f1a87842-8ad2-36ec-99cf-dd8e263243b4",
+  :address
+  "Rua Rodrigues de Freitas, 2072 r/c Esqº e 1º Dtº 4445 - 637 ERMESINDE",
+  :address-c
+  "Rua Rodrigues de Freitas 2072, 4445-637, Ermesinde, Valongo, Porto",
+  :postal-c "4445-637",
+  :x -8.554650008936704,
+  :y 41.22163001504802,
+  :score 97.74,
+  :c 2}}

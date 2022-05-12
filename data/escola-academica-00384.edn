@@ -81,4 +81,13 @@
   :cp7 "4050-247",
   :id #uuid "0cc8e1e1-9015-3cbd-8d58-075c2b00555c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "0cc8e1e1-9015-3cbd-8d58-075c2b00555c",
+  :address "Rua da Fábrica, 65-2º 4050-247 PORTO",
+  :address-c "Rua da Fábrica 65, 4050-247, Porto",
+  :postal-c "4050-247",
+  :x -8.613230040582465,
+  :y 41.1474500043073,
+  :score 99.29,
+  :c 2}}

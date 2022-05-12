@@ -95,4 +95,13 @@
   :cp7 "1000-298",
   :id #uuid "b5bbfd47-873a-30df-bde2-4f473d1b009c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "b5bbfd47-873a-30df-bde2-4f473d1b009c",
+  :address "Avª João XXI, 9 - 1º Dtº 1000-298 LISBOA",
+  :address-c "Avenida João XXI 9, 1000-298, Lisboa",
+  :postal-c "1000-298",
+  :x -9.135680016659052,
+  :y 38.74214000941353,
+  :score 95.74,
+  :c 2}}

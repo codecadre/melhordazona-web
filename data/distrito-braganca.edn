@@ -96,7 +96,17 @@
     :cp7 "5370-204",
     :id #uuid "94eb941d-67c3-3b04-9fd4-8d5798eb73de",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"},
+   :geocode
+   {:id #uuid "94eb941d-67c3-3b04-9fd4-8d5798eb73de",
+    :address "Avª das Amoreiras Lote 2-1º 5370-204 MIRANDELA",
+    :address-c
+    "Avenida das Amoreiras 2, 5370-204, Mirandela, Bragança",
+    :postal-c "5370-204",
+    :x -7.179689988111932,
+    :y 41.48356997942719,
+    :score 99.47,
+    :c 7}}]
  ["a-coroa-de-vinhais-00352"
   {:nec 352,
    :rates
@@ -195,7 +205,16 @@
     :cp7 "5320-321",
     :id #uuid "bc73b936-c837-361f-b6d6-f581d2501049",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vinhais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vinhais"},
+   :geocode
+   {:id #uuid "bc73b936-c837-361f-b6d6-f581d2501049",
+    :address "Rua de S. Francisco nº 9 5320-321 VINHAIS",
+    :address-c "Rua de São Francisco, 5320, Vinhais, Bragança",
+    :postal-c "5320",
+    :x -7.007224636180972,
+    :y 41.83347933212642,
+    :score 95.19,
+    :c 1}}]
  ["marisa-00529"
   {:nec 529,
    :rates
@@ -295,7 +314,18 @@
     :cp7 "5140-060",
     :id #uuid "c582a01d-81e2-3f5e-b46c-b435f9dc72fc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"},
+   :geocode
+   {:id #uuid "c582a01d-81e2-3f5e-b46c-b435f9dc72fc",
+    :address
+    "Rua Bombeiros Voluntários, nº 60 5140-060 CARRAZEDA DE ANSIÃES",
+    :address-c
+    "Rua dos Bombeiros Voluntários 60, 5140-060, Carrazeda de Ansiães, Bragança",
+    :postal-c "5140-060",
+    :x -7.307220352750851,
+    :y 41.24335072509448,
+    :score 97.52,
+    :c 1}}]
  ["o-prado-00554"
   {:nec 554,
    :rates
@@ -394,7 +424,17 @@
     :cp7 "5350-016",
     :id #uuid "3669af95-40f0-3248-89de-9fbfa2a99afb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Alfandega%20da%20F%C3%A9"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Alfandega%20da%20F%C3%A9"},
+   :geocode
+   {:id #uuid "3669af95-40f0-3248-89de-9fbfa2a99afb",
+    :address "Largo do Prado, 5350-016 ALFÂNDEGA DA FÉ",
+    :address-c
+    "Largo do Prado, 5350-390, Valverde, Alfândega da Fé, Bragança",
+    :postal-c "5350-390",
+    :x -6.987777289228724,
+    :y 41.32901284252853,
+    :score 98.42,
+    :c 3}}]
  ["carta-auto-00555"
   {:nec 555,
    :rates
@@ -494,7 +534,18 @@
     :cp7 "5300-252",
     :id #uuid "51ce98ba-4ef3-315c-9b1e-f7ea5c8fa384",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:id #uuid "51ce98ba-4ef3-315c-9b1e-f7ea5c8fa384",
+    :address
+    "Avª Dr.Francisco Sá Carneiro, Lote 29 r/c Dtº (Prédio S. Lucas) 5300-252 BRAGANÇA (SÉ)",
+    :address-c
+    "Avenida Doutor Francisco Sá Carneiro 29, 5300-252, Bragança",
+    :postal-c "5300-252",
+    :x -6.759789998996894,
+    :y 41.805349985046945,
+    :score 95.07,
+    :c 1}}]
  ["terra-fria-00722"
   {:nec 722,
    :rates
@@ -594,7 +645,13 @@
     :cp7 "5300-254",
     :id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
+    :overwrite true,
+    :obs "Manual coords",
+    :x -6.7631975537083715,
+    :y 41.797498753108506}}]
  ["exito-00728"
   {:nec 728,
    :rates
@@ -694,7 +751,14 @@
     :cp7 "5300-252",
     :id #uuid "26a4f448-5278-3767-9c43-fa2516ea2163",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:cp7 "5300-252",
+    :postal-c "5300-252",
+    :x -6.763875003328479,
+    :y 41.80275000250094,
+    :score 100,
+    :c 1}}]
  ["eurovia-00825"
   {:nec 825,
    :rates
@@ -793,7 +857,14 @@
     :cp7 "5300-236",
     :id #uuid "0464c37c-f17d-3b3b-8f3d-eefa069f84cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:cp7 "5300-236",
+    :postal-c "5300-236",
+    :x -6.763530004193797,
+    :y 41.809740006835085,
+    :score 100,
+    :c 1}}]
  ["princesa-00865"
   {:nec 865,
    :rates
@@ -893,7 +964,14 @@
     :cp7 "5300-167",
     :id #uuid "accd42da-9485-3d57-a94c-f180f7c07fdc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:cp7 "5300-167",
+    :postal-c "5300-167",
+    :x -6.7712250104040095,
+    :y 41.807985003948204,
+    :score 100,
+    :c 1}}]
  ["cruzeiro-00990"
   {:nec 990,
    :rates
@@ -993,7 +1071,17 @@
     :cp7 "5300-224",
     :id #uuid "cf67a92b-bf81-357e-bf05-9bcef2ea81ed",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:id #uuid "cf67a92b-bf81-357e-bf05-9bcef2ea81ed",
+    :address
+    "Rua Padre António Vieira, Lote 1 R/C D - Loja E 5300-224 BRAGANÇA (SÉ)",
+    :address-c "Rua Padre António Vieira 1, 5300-224, Bragança",
+    :postal-c "5300-224",
+    :x -6.769400018625618,
+    :y 41.8002799813637,
+    :score 99.02,
+    :c 1}}]
  ["nova-via-01173"
   {:nec 1173,
    :rates
@@ -1092,7 +1180,14 @@
     :cp7 "5370-198",
     :id #uuid "afa4f277-676f-3ee8-b004-9825dbe0739c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"},
+   :geocode
+   {:cp7 "5370-198",
+    :postal-c "5370-198",
+    :x -7.181723102546158,
+    :y 41.49167289095544,
+    :score 100,
+    :c 1}}]
  ["keris-01356"
   {:nec 1356,
    :rates
@@ -1178,4 +1273,11 @@
     :cp7 "5140-080",
     :id #uuid "05b941fb-4d7f-33ff-8d12-296b48bafdfb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"},
+   :geocode
+   {:cp7 "5140-080",
+    :postal-c "5140-080",
+    :x -7.3055499639853565,
+    :y 41.241729986500815,
+    :score 100,
+    :c 1}}]]

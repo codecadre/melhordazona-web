@@ -96,4 +96,15 @@
   :cp7 "2785-338",
   :id #uuid "541c1f30-bb4d-3b5f-8b0a-7777fd546a54",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+ :geocode
+ {:id #uuid "541c1f30-bb4d-3b5f-8b0a-7777fd546a54",
+  :address
+  "Rua Almeida Garrett, Lote 19, Loja A - Buzano 2785-338 S. DOMINGOS DE RANA",
+  :address-c
+  "Rua Almeida Garrett 19, 2785-053, Tires, Cascais, Lisboa",
+  :postal-c "2785-053",
+  :x -9.344657278126462,
+  :y 38.71107757601521,
+  :score 96.7,
+  :c 2}}

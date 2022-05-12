@@ -96,7 +96,17 @@
     :cp7 "2450-000",
     :id #uuid "605ce209-db27-3166-aee7-2efdf6126929",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Nazar%C3%A9"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Nazar%C3%A9"},
+   :geocode
+   {:id #uuid "605ce209-db27-3166-aee7-2efdf6126929",
+    :address "Rua de Campo, nº 3 r/c 2450-000 VALADO dos FRADES",
+    :address-c
+    "Rua do Campo 3, 2450-359, Valado dos Frades, Nazaré, Leiria",
+    :postal-c "2450-359",
+    :x -9.023620006173672,
+    :y 39.58452999572481,
+    :score 96.87,
+    :c 3}}]
  ["sete-saias-01229"
   {:nec 1229,
    :rates
@@ -195,4 +205,14 @@
     :cp7 "2450-051",
     :id #uuid "01dc20a5-e87e-310b-96a9-1f90d260c090",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Nazar%C3%A9"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Nazar%C3%A9"},
+   :geocode
+   {:id #uuid "01dc20a5-e87e-310b-96a9-1f90d260c090",
+    :address "Rua Mouzinho de Albuquerque, Nº 186 2450-051 NAZARÉ",
+    :address-c
+    "Rua Mouzinho de Albuquerque 186, 2450-240, Nazaré, Leiria",
+    :postal-c "2450-240",
+    :x -9.069763129101052,
+    :y 39.60045959009424,
+    :score 96.72,
+    :c 1}}]]

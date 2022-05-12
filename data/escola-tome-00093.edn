@@ -95,4 +95,13 @@
   :cp7 "2000-223",
   :id #uuid "5af064a6-9b65-3bdc-9367-ea93f60db69c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+ :geocode
+ {:id #uuid "5af064a6-9b65-3bdc-9367-ea93f60db69c",
+  :address "Rua Pedro de Santarém, Nº 130-1º Esqº 2000-223 SANTARÉM",
+  :address-c "Rua Pedro de Santarém 130, 2000-223, Santarém",
+  :postal-c "2000-223",
+  :x -8.686809990874877,
+  :y 39.230340020372694,
+  :score 97.2,
+  :c 1}}

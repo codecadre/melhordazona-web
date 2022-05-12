@@ -97,7 +97,14 @@
     :cp7 "2750-011",
     :id #uuid "63b611e0-8daa-3013-887f-157613a718de",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2750-011",
+    :postal-c "2750-011",
+    :x -9.448289968747787,
+    :y 38.72618501480957,
+    :score 100,
+    :c 1}}]
  ["carcavelos-00389"
   {:nec 389,
    :rates
@@ -196,7 +203,14 @@
     :cp7 "2775-688",
     :id #uuid "6a0b6034-ac65-38e1-bebb-6370271cadab",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2775-688",
+    :postal-c "2775-688",
+    :x -9.333925018708186,
+    :y 38.69018499212814,
+    :score 100,
+    :c 1}}]
  ["costa-do-sol-00426"
   {:nec 426,
    :rates
@@ -296,7 +310,18 @@
     :cp7 "2750-350",
     :id #uuid "c7f9b57e-fa12-3bf4-b656-4f3c7c51c0e8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:id #uuid "c7f9b57e-fa12-3bf4-b656-4f3c7c51c0e8",
+    :address
+    "Praça Dr.Francisco Sá Carneiro, Nº 3 - 1º Porta 3 2750-350 CASCAIS",
+    :address-c
+    "Praça Doutor Francisco Sá Carneiro 3, 2750-350, Cascais, Lisboa",
+    :postal-c "2750-350",
+    :x -9.420400024121818,
+    :y 38.70078001110852,
+    :score 97.06,
+    :c 1}}]
  ["ti-ta-00427"
   {:nec 427,
    :rates
@@ -396,7 +421,14 @@
     :cp7 "2645-183",
     :id #uuid "ba1462c0-70bd-304d-98dc-8b7c6526cb11",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2645-183",
+    :postal-c "2645-183",
+    :x -9.414215017768669,
+    :y 38.712359987531016,
+    :score 100,
+    :c 1}}]
  ["estoril-00623"
   {:nec 623,
    :rates
@@ -496,7 +528,18 @@
     :cp7 "2765-087",
     :id #uuid "0ac03492-c314-3e1a-ae3b-9ec2422c2dc0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:id #uuid "0ac03492-c314-3e1a-ae3b-9ec2422c2dc0",
+    :address
+    "Rua Damião de Góis, Lote 12 c/v Esqº - Alapraia 2765-087 ESTORIL",
+    :address-c
+    "Rua Damião de Góis 12, 2765-087, Alapraia, Cascais, Lisboa",
+    :postal-c "2765-087",
+    :x -9.379809987442485,
+    :y 38.704859986298175,
+    :score 97.35,
+    :c 1}}]
  ["infante-de-sagrescascais-00635"
   {:nec 635,
    :rates
@@ -596,7 +639,14 @@
     :cp7 "2775-273",
     :id #uuid "7c391833-07cc-3908-bf66-428aeee22f82",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2775-273",
+    :postal-c "2775-273",
+    :x -9.34521996851322,
+    :y 38.68909999667159,
+    :score 100,
+    :c 1}}]
  ["baia-de-cascais-00661"
   {:nec 661,
    :rates
@@ -696,7 +746,14 @@
     :cp7 "2750-179",
     :id #uuid "7ede2747-dfec-3d60-b76c-13df7f325c3d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2750-179",
+    :postal-c "2750-179",
+    :x -9.434720002782853,
+    :y 38.69553998051936,
+    :score 100,
+    :c 1}}]
  ["tamariz-00693"
   {:nec 693,
    :rates
@@ -795,7 +852,14 @@
     :cp7 "2765-200",
     :id #uuid "5db98ec4-2907-39d8-9a10-ad1f12c7c6db",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2765-200",
+    :postal-c "2765-200",
+    :x -9.395290021503001,
+    :y 38.70437500938044,
+    :score 100,
+    :c 1}}]
  ["tires-01020"
   {:nec 1020,
    :rates
@@ -895,7 +959,17 @@
     :cp7 "2785-630",
     :id #uuid "73837dbd-5b0f-3fbf-a9e8-9f661c03950a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:id #uuid "73837dbd-5b0f-3fbf-a9e8-9f661c03950a",
+    :address
+    "Rua de Mercado, Lote 1 Loja A 2785-630 S. DOMINGOS DE RANA",
+    :address-c "Rua do Mercado 1, 2785-630, Tires, Cascais, Lisboa",
+    :postal-c "2785-630",
+    :x -9.347960012661275,
+    :y 38.712489990849264,
+    :score 98.82,
+    :c 1}}]
  ["gemeos-01235"
   {:nec 1235,
    :rates
@@ -995,7 +1069,14 @@
     :cp7 "2765-294",
     :id #uuid "23735d1d-3ece-325a-a271-42174dca0ad1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2765-294",
+    :postal-c "2765-294",
+    :x -9.404540038390337,
+    :y 38.70992500274903,
+    :score 100,
+    :c 1}}]
  ["francipaulo-01241"
   {:nec 1241,
    :rates
@@ -1095,7 +1176,18 @@
     :cp7 "2785-338",
     :id #uuid "541c1f30-bb4d-3b5f-8b0a-7777fd546a54",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:id #uuid "541c1f30-bb4d-3b5f-8b0a-7777fd546a54",
+    :address
+    "Rua Almeida Garrett, Lote 19, Loja A - Buzano 2785-338 S. DOMINGOS DE RANA",
+    :address-c
+    "Rua Almeida Garrett 19, 2785-053, Tires, Cascais, Lisboa",
+    :postal-c "2785-053",
+    :x -9.344657278126462,
+    :y 38.71107757601521,
+    :score 96.7,
+    :c 2}}]
  ["sentido-obrigatorio-01252"
   {:nec 1252,
    :rates
@@ -1195,7 +1287,18 @@
     :cp7 "2645-048",
     :id #uuid "eb654b9d-d227-302e-82a2-c544e8caf0e3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:id #uuid "eb654b9d-d227-302e-82a2-c544e8caf0e3",
+    :address
+    "Rua Guilherme Gomes Fernandes, Lote 5, Loja 2645-048 ALCABIDECHE",
+    :address-c
+    "Rua Guilherme Gomes Fernandes 5, 2645-048, Alcabideche, Cascais, Lisboa",
+    :postal-c "2645-048",
+    :x -9.409839999587206,
+    :y 38.73099999908871,
+    :score 99.25,
+    :c 1}}]
  ["alcabideche-01274"
   {:nec 1274,
    :rates
@@ -1295,7 +1398,14 @@
     :cp7 "2750-091",
     :id #uuid "f6ceb836-9a4a-38bf-a438-178e3778da3b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2750-091",
+    :postal-c "2750-091",
+    :x -9.466714984489016,
+    :y 38.73001499973705,
+    :score 100,
+    :c 1}}]
  ["cascais-01298"
   {:nec 1298,
    :rates
@@ -1395,7 +1505,14 @@
     :cp7 "2750-513",
     :id #uuid "7629b41c-bbf6-3d0b-bf9a-e4f90e3a840e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2750-513",
+    :postal-c "2750-513",
+    :x -9.425475015037449,
+    :y 38.69821498109877,
+    :score 100,
+    :c 1}}]
  ["linha-de-cascais-01363"
   {:nec 1363,
    :rates
@@ -1480,7 +1597,14 @@
     :cp7 "2750-100",
     :id #uuid "5b51ca4f-57c9-3717-b17d-34e4ff4cbd4c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2750-100",
+    :postal-c "2750-100",
+    :x -9.432084983881595,
+    :y 38.70481501738766,
+    :score 100,
+    :c 1}}]
  ["aprendizes-do-volante-01382"
   {:nec 1382,
    :rates
@@ -1551,7 +1675,14 @@
     :cp7 "2755-062",
     :id #uuid "51d4031a-5116-3f3b-97b4-41f50466631b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:cp7 "2755-062",
+    :postal-c "2755-062",
+    :x -9.42413500017679,
+    :y 38.71743502035616,
+    :score 100,
+    :c 1}}]
  ["sao-joao-01391"
   {:nec 1391,
    :rates
@@ -1622,4 +1753,14 @@
     :cp7 "2765-515",
     :id #uuid "0f5caa24-93e8-37b4-a3f7-8234a91dd443",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+   :geocode
+   {:id #uuid "0f5caa24-93e8-37b4-a3f7-8234a91dd443",
+    :address "Rua Afonso Albuquerque, n.º 10, 2765-515 Estoril",
+    :address-c
+    "Rua Afonso de Albuquerque 10, 2765-184, Estoril, Cascais, Lisboa",
+    :postal-c "2765-184",
+    :x -9.398108099049441,
+    :y 38.71051715074396,
+    :score 95.6,
+    :c 1}}]]

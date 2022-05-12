@@ -95,4 +95,14 @@
   :cp7 "4430-880",
   :id #uuid "19d92a77-77f7-3b6a-b471-09234d590db7",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "19d92a77-77f7-3b6a-b471-09234d590db7",
+  :address "Rua Pinhais Bastos, 62 4430-880 AVINTES",
+  :address-c
+  "Rua dos Pinhais Bastos 62, 4430-880, Aldeia Nova-Avintes, Vila Nova de Gaia, Porto",
+  :postal-c "4430-880",
+  :x -8.549839969980468,
+  :y 41.09529998204451,
+  :score 98.82,
+  :c 1}}

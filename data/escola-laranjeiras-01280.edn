@@ -95,4 +95,13 @@
   :cp7 "1600-296",
   :id #uuid "825f7686-298b-3ac9-9604-c4b4e34cb86d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "825f7686-298b-3ac9-9604-c4b4e34cb86d",
+  :address "Rua Abranches Ferrão, n.º 21 A, 1600-296 Lisboa",
+  :address-c "Rua Abranches Ferrão 21A, 1600-296, Lisboa",
+  :postal-c "1600-296",
+  :x -9.170410013371338,
+  :y 38.751200008555884,
+  :score 96.57,
+  :c 1}}

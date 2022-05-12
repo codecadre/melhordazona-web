@@ -96,7 +96,17 @@
     :cp7 "4990-029",
     :id #uuid "497723d6-aa2f-3d96-88cc-73b7ccae298b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
+   :geocode
+   {:id #uuid "497723d6-aa2f-3d96-88cc-73b7ccae298b",
+    :address "Av. António Feijó, n.º 38, 4990-029 PONTE DE LIMA",
+    :address-c
+    "Avenida António Feijó, 4990-029, Ponte de Lima, Viana do Castelo",
+    :postal-c "4990-029",
+    :x -8.583001706311444,
+    :y 41.766986394881236,
+    :score 96.11,
+    :c 2}}]
  ["volante-de-lima-00590"
   {:nec 590,
    :rates
@@ -196,7 +206,14 @@
     :cp7 "4990-144",
     :id #uuid "6eeb2768-bc3a-358d-9b48-e265e8af54f1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
+   :geocode
+   {:cp7 "4990-144",
+    :postal-c "4990-144",
+    :x -8.581720035794064,
+    :y 41.761605000012366,
+    :score 100,
+    :c 1}}]
  ["sucesso-de-lima-00675"
   {:nec 675,
    :rates
@@ -295,7 +312,14 @@
     :cp7 "4990-343",
     :id #uuid "ccc148c8-fdaa-3899-8ef6-82a2e17b9022",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
+   :geocode
+   {:cp7 "4990-343",
+    :postal-c "4990-343",
+    :x -8.585879974340031,
+    :y 41.74873001954924,
+    :score 100,
+    :c 1}}]
  ["ponte-de-lima-00846"
   {:nec 846,
    :rates
@@ -395,7 +419,14 @@
     :cp7 "4990-072",
     :id #uuid "23c70346-630d-3458-a0a9-0d632ce803ac",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
+   :geocode
+   {:cp7 "4990-072",
+    :postal-c "4990-072",
+    :x -8.590094981989864,
+    :y 41.76157499279901,
+    :score 100,
+    :c 1}}]
  ["s-cristovao-do-freixo-00952"
   {:nec 952,
    :rates
@@ -494,4 +525,11 @@
     :cp7 "4990-450",
     :id #uuid "e4ef76d5-8b11-306d-891f-59f836c4ac9d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
+   :geocode
+   {:cp7 "4990-450",
+    :postal-c "4990-450",
+    :x -8.584859980542603,
+    :y 41.65044000914807,
+    :score 100,
+    :c 1}}]]

@@ -95,4 +95,14 @@
   :cp7 "3040-300",
   :id #uuid "7596380e-26ed-34d8-b496-27d1db9bd9e9",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+ :geocode
+ {:id #uuid "7596380e-26ed-34d8-b496-27d1db9bd9e9",
+  :address "Avª Nova, Nº 67 B 3040-300 COIMBRA",
+  :address-c
+  "Avenida Nova 67B, 3045-232, São Martinho do Bispo, Coimbra",
+  :postal-c "3045-232",
+  :x -8.459880020683585,
+  :y 40.2076799889131,
+  :score 95.89,
+  :c 8}}

@@ -96,4 +96,14 @@
   :cp7 "4900-422",
   :id #uuid "b4698e21-2af8-37c5-97c1-916ca2a48c70",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+ :geocode
+ {:id #uuid "b4698e21-2af8-37c5-97c1-916ca2a48c70",
+  :address
+  "Rua Ramalho Ortigão nº 177 r/c Dtº 4900-422 VIANA DO CASTELO (Stª Mª Maior)",
+  :address-c "Rua Ramalho Ortigão 177, 4900-422, Viana do Castelo",
+  :postal-c "4900-422",
+  :x -8.823420009027899,
+  :y 41.7035599852463,
+  :score 96.1,
+  :c 2}}

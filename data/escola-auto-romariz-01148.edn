@@ -96,4 +96,15 @@
   :cp7 "3700-894",
   :id #uuid "56984989-b540-3116-a1e3-a97d00d0ed6c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "56984989-b540-3116-a1e3-a97d00d0ed6c",
+  :address
+  "Rua Professor Antero Fonseca, Nº 104 - Portela 3700-894 ROMARIZ",
+  :address-c
+  "Rua Professor Antero Fonseca 104, 3700-894, Portela-Romariz, Santa Maria da Feira, Aveiro",
+  :postal-c "3700-894",
+  :x -8.45088003596797,
+  :y 40.9496899791759,
+  :score 96.1,
+  :c 1}}

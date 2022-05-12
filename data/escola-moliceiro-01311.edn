@@ -95,4 +95,14 @@
   :cp7 "3840-507",
   :id #uuid "47cde028-caad-3e66-b6c7-6628ac2c8787",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vagos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vagos"},
+ :geocode
+ {:id #uuid "47cde028-caad-3e66-b6c7-6628ac2c8787",
+  :address "Rua D. António Santos, n.º 48, Quintã, 3840-507 VAGOS",
+  :address-c
+  "Rua Dom António dos Santos 48, 3840-507, Quintã, Vagos, Aveiro",
+  :postal-c "3840-507",
+  :x -8.67833001943228,
+  :y 40.53229001841149,
+  :score 96.42,
+  :c 17}}

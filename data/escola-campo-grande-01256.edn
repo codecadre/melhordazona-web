@@ -95,4 +95,13 @@
   :cp7 "1600-152",
   :id #uuid "87e51403-575d-33a7-b73f-cd546776bd66",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "87e51403-575d-33a7-b73f-cd546776bd66",
+  :address "Avenida do Brasil, Nº 1-1º 1600-152 LISBOA",
+  :address-c "Avenida do Brasil 1, 1700-062, Lisboa",
+  :postal-c "1700-062",
+  :x -9.151089978009026,
+  :y 38.75519000401496,
+  :score 96.11,
+  :c 5}}

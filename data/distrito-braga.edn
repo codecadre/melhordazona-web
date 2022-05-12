@@ -96,7 +96,17 @@
     :cp7 "4810-431",
     :id #uuid "e30d9b07-01c2-39ed-893e-2792f2ac0836",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "e30d9b07-01c2-39ed-893e-2792f2ac0836",
+    :address "Rua D. Afonso Henriques, 194 - 1º 4810-431 GUIMARÃES",
+    :address-c
+    "Rua Dom Afonso Henriques 194, 4800-866, Gominhães, Guimarães, Braga",
+    :postal-c "4800-866",
+    :x -8.270579541121274,
+    :y 41.472666251224766,
+    :score 97.16,
+    :c 2}}]
  ["central-do-sameiro-00061"
   {:nec 61,
    :rates
@@ -196,7 +206,14 @@
     :cp7 "4710-249",
     :id #uuid "9ec0b1c7-6204-3539-a78a-edfa6deea158",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:cp7 "4710-249",
+    :postal-c "4710-249",
+    :x -8.421802459481086,
+    :y 41.549310000403466,
+    :score 100,
+    :c 1}}]
  ["ribeiro-00062"
   {:nec 62,
    :rates
@@ -295,7 +312,16 @@
     :cp7 "4710-250",
     :id #uuid "9de52979-12ba-3f95-8990-08de9e8e7e04",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "9de52979-12ba-3f95-8990-08de9e8e7e04",
+    :address "Avª da Liberdade, 362 - 1º 4710-250 BRAGA",
+    :address-c "Avenida da Liberdade 362, 4710-250, Braga",
+    :postal-c "4710-250",
+    :x -8.42033001055026,
+    :y 41.547090011437945,
+    :score 99.35,
+    :c 1}}]
  ["bracarense-00097"
   {:nec 97,
    :rates
@@ -394,7 +420,14 @@
     :cp7 "4710-249",
     :id #uuid "17d50bde-bfd1-3742-b934-6731cc355005",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:cp7 "4710-249",
+    :postal-c "4710-249",
+    :x -8.421802459481086,
+    :y 41.549310000403466,
+    :score 100,
+    :c 1}}]
  ["brigantina-00165"
   {:nec 165,
    :rates
@@ -493,7 +526,14 @@
     :cp7 "4700-206",
     :id #uuid "18db0e53-8494-3764-a345-abaff1b2d869",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:cp7 "4700-206",
+    :postal-c "4700-206",
+    :x -8.433714987912083,
+    :y 41.5472900036477,
+    :score 100,
+    :c 1}}]
  ["fafense-00181"
   {:nec 181,
    :rates
@@ -592,7 +632,17 @@
     :cp7 "4820-261",
     :id #uuid "3554d66b-de71-3d4c-95a1-e0f4e1020ce5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:id #uuid "3554d66b-de71-3d4c-95a1-e0f4e1020ce5",
+    :address "Rua General Humberto Delgado nº 20 –1º 4820-261 FAFE",
+    :address-c
+    "Rua General Humberto Delgado 20, 4820-261, Fafe, Braga",
+    :postal-c "4820-261",
+    :x -8.167370040047615,
+    :y 41.45311999202386,
+    :score 98.06,
+    :c 1}}]
  ["a-ideal-de-esposende-00256"
   {:nec 256,
    :rates
@@ -692,7 +742,14 @@
     :cp7 "4740-291",
     :id #uuid "bfbc3bb3-d85b-3e60-adee-513daab91c3b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:cp7 "4740-291",
+    :postal-c "4740-291",
+    :x -8.778095035244746,
+    :y 41.53498000536811,
+    :score 100,
+    :c 1}}]
  ["cabeceirense-00299"
   {:nec 299,
    :rates
@@ -792,7 +849,14 @@
     :cp7 "4860-351",
     :id #uuid "62eb843c-0153-3845-b8bf-38233605dd2b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
+   :geocode
+   {:cp7 "4860-351",
+    :postal-c "4860-351",
+    :x -7.991545036431177,
+    :y 41.51479001227523,
+    :score 100,
+    :c 1}}]
  ["landim-00349"
   {:nec 349,
    :rates
@@ -878,7 +942,14 @@
     :cp7 "4765-080",
     :id #uuid "06297868-8303-39c4-b2e4-749b489240f3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4765-080",
+    :postal-c "4765-080",
+    :x -8.43125003782626,
+    :y 41.38283500977923,
+    :score 100,
+    :c 1}}]
  ["rolante-de-famalicao-00385"
   {:nec 385,
    :rates
@@ -978,7 +1049,18 @@
     :cp7 "4760-105",
     :id #uuid "6378a810-b3f6-35da-ad76-0cfecc3bfbb7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:id #uuid "6378a810-b3f6-35da-ad76-0cfecc3bfbb7",
+    :address
+    "Rua Narciso Ferreira, 21-25 4760-105 VILA NOVA DE FAMALICÃO",
+    :address-c
+    "Avenida Narciso Ferreira 21, 4760-105, Vila Nova de Famalicão, Braga",
+    :postal-c "4760-105",
+    :x -8.518912004333005,
+    :y 41.4088708512541,
+    :score 95.81,
+    :c 2}}]
  ["pevidense-00432"
   {:nec 432,
    :rates
@@ -1178,7 +1260,18 @@
     :cp7 "4810-421",
     :id #uuid "7e1795a4-3352-353c-9d8a-1b9e0154b83a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "7e1795a4-3352-353c-9d8a-1b9e0154b83a",
+    :address
+    "Praça Heróis da Fundação, Bloco 6-1º E 4810-421 GUIMARÃES",
+    :address-c
+    "Praça Heróis da Fundação 6, 4810-242, Guimarães, Braga",
+    :postal-c "4810-242",
+    :x -8.300589472734737,
+    :y 41.44354766083905,
+    :score 97.6,
+    :c 1}}]
  ["barcelense-00471"
   {:nec 471,
    :rates
@@ -1277,7 +1370,16 @@
     :cp7 "4750-329",
     :id #uuid "915aa89a-1d3e-3d9e-92c4-4597e5b0aad1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:id #uuid "915aa89a-1d3e-3d9e-92c4-4597e5b0aad1",
+    :address "Largo da Porta Nova, 11-1º 4750-329 BARCELOS",
+    :address-c "Largo da Porta Nova 11, 4750-329, Barcelos, Braga",
+    :postal-c "4750-329",
+    :x -8.619410017793712,
+    :y 41.53087999742985,
+    :score 99.43,
+    :c 1}}]
  ["maria-da-fonte-00484"
   {:nec 484,
    :rates
@@ -1377,7 +1479,14 @@
     :cp7 "4830-520",
     :id #uuid "43136a90-19d6-3d5d-8c62-a717c8bc3cd8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=P%C3%B3voa%20Lanhoso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=P%C3%B3voa%20Lanhoso"},
+   :geocode
+   {:cp7 "4830-520",
+    :postal-c "4830-520",
+    :x -8.269355002916114,
+    :y 41.5756849998495,
+    :score 100,
+    :c 1}}]
  ["flor-do-cavado-00488"
   {:nec 488,
    :rates
@@ -1476,7 +1585,14 @@
     :cp7 "4750-324",
     :id #uuid "2ce909ab-153b-3cd7-a4ae-5db9629b4025",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4750-324",
+    :postal-c "4750-324",
+    :x -8.61793002515003,
+    :y 41.536099995270405,
+    :score 100,
+    :c 1}}]
  ["bom-jesus-00504"
   {:nec 504,
    :rates
@@ -1576,7 +1692,14 @@
     :cp7 "4700-387",
     :id #uuid "769fa585-319e-3bb9-9edd-e1cf84e5217b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:cp7 "4700-387",
+    :postal-c "4700-387",
+    :x -8.424784992088007,
+    :y 41.555519984828095,
+    :score 100,
+    :c 1}}]
  ["mario-costa-00505"
   {:nec 505,
    :rates
@@ -1675,7 +1798,16 @@
     :cp7 "4820-268",
     :id #uuid "5732dbe9-8bda-3c0f-bde6-cfe29fbda381",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:id #uuid "5732dbe9-8bda-3c0f-bde6-cfe29fbda381",
+    :address "Rua João XXIII, 209 - 1º 4820-268 FAFE",
+    :address-c "Rua João XXIII 209, 4820-268, Fafe, Braga",
+    :postal-c "4820-268",
+    :x -8.16992993652714,
+    :y 41.44972986734584,
+    :score 99.29,
+    :c 1}}]
  ["joanense-00506"
   {:nec 506,
    :rates
@@ -1774,7 +1906,14 @@
     :cp7 "4770-260",
     :id #uuid "fce3f4f9-6ccf-303c-9815-a96a9aad8055",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4770-260",
+    :postal-c "4770-260",
+    :x -8.409019973319488,
+    :y 41.438590004778746,
+    :score 100,
+    :c 1}}]
  ["vizelense-00507"
   {:nec 507,
    :rates
@@ -1874,7 +2013,14 @@
     :cp7 "4815-514",
     :id #uuid "0865f9ce-e629-3afc-a717-496c7659f45b",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vizela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vizela"},
+   :geocode
+   {:cp7 "4815-514",
+    :postal-c "4815-514",
+    :x -8.308980031082854,
+    :y 41.37643999484203,
+    :score 100,
+    :c 1}}]
  ["bela-vista-vila-verde-00519"
   {:nec 519,
    :rates
@@ -1973,7 +2119,17 @@
     :cp7 "4730-711",
     :id #uuid "4cfbc6d2-42d5-38d1-8483-fbe6534d83ad",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
+   :geocode
+   {:id #uuid "4cfbc6d2-42d5-38d1-8483-fbe6534d83ad",
+    :address "Avª António Sérgio, 709 4730-711 VILA VERDE",
+    :address-c
+    "Avenida António Sérgio 709, 4730-711, Vila Verde, Braga",
+    :postal-c "4730-711",
+    :x -8.436259985173251,
+    :y 41.64661999868537,
+    :score 97.61,
+    :c 4}}]
  ["santa-maria-00520"
   {:nec 520,
    :rates
@@ -2073,7 +2229,18 @@
     :cp7 "4750-106",
     :id #uuid "0b1abd08-54f4-33a1-9670-9513a50551c5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:id #uuid "0b1abd08-54f4-33a1-9670-9513a50551c5",
+    :address
+    "Avª Alcaides de Faria, 425 - 1º-Sala 3 4750-106 BARCELOS",
+    :address-c
+    "Avenida Alcaides de Faria 425, 4750-106, Barcelos, Braga",
+    :postal-c "4750-106",
+    :x -8.614610897964747,
+    :y 41.53463358437721,
+    :score 98.37,
+    :c 1}}]
  ["portas-da-se-00525"
   {:nec 525,
    :rates
@@ -2172,7 +2339,16 @@
     :cp7 "4700-204",
     :id #uuid "6a3f386d-a2ed-3b5c-8355-2cb18916a007",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "6a3f386d-a2ed-3b5c-8355-2cb18916a007",
+    :address "Rua Andrade Corvo, 59/60 4700-204 BRAGA(Maximinos)",
+    :address-c "Rua Andrade Corvo 59, 4700-204, Braga",
+    :postal-c "4700-204",
+    :x -8.431699978388707,
+    :y 41.54993998424612,
+    :score 97.25,
+    :c 1}}]
  ["auto-dinamica-vieira-do-minho-00562"
   {:nec 562,
    :rates
@@ -2271,7 +2447,16 @@
     :cp7 "4850-536",
     :id #uuid "e078ba5f-c08e-3e2d-a434-163e5dd16e1c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"},
+   :geocode
+   {:id #uuid "e078ba5f-c08e-3e2d-a434-163e5dd16e1c",
+    :address "Rua Luís de Camões 4850-536 VIEIRA DO MINHO",
+    :address-c "Rua Luís de Camões, 4850-536, Vieira do Minho, Braga",
+    :postal-c "4850-536",
+    :x -8.139539942210334,
+    :y 41.63328003214359,
+    :score 100,
+    :c 1}}]
  ["zende-00572"
   {:nec 572,
    :rates
@@ -2370,7 +2555,16 @@
     :cp7 "4740-227",
     :id #uuid "69eaf92a-8e3c-3c1a-acce-d11474849ae2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:id #uuid "69eaf92a-8e3c-3c1a-acce-d11474849ae2",
+    :address "Rua 27 de Maio, Lote 1 4740-227 ESPOSENDE",
+    :address-c "Rua 27 de Maio 1, 4740-227, Esposende, Braga",
+    :postal-c "4740-227",
+    :x -8.782150032362978,
+    :y 41.540250001261114,
+    :score 100,
+    :c 1}}]
  ["auto-dinamina-amares-00576"
   {:nec 576,
    :rates
@@ -2470,7 +2664,18 @@
     :cp7 "4720-343",
     :id #uuid "25a40fdf-1b40-37db-bfe0-cf44b4295369",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"},
+   :geocode
+   {:id #uuid "25a40fdf-1b40-37db-bfe0-cf44b4295369",
+    :address
+    "Avenida Santo António, n.º 61; 4720-343 Ferreiros (Amares)",
+    :address-c
+    "Avenida Santo António 61, 4720-343, Ferreiros, Amares, Braga",
+    :postal-c "4720-343",
+    :x -8.36213998885924,
+    :y 41.627430008550846,
+    :score 96.36,
+    :c 3}}]
  ["auto-dinamica-do-ave-00587"
   {:nec 587,
    :rates
@@ -2514,7 +2719,18 @@
     :cp7 "4850-537",
     :id #uuid "88a55330-30ec-32d7-8d84-b601c03eb5cb",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"},
+   :geocode
+   {:id #uuid "88a55330-30ec-32d7-8d84-b601c03eb5cb",
+    :address
+    "Rua Padre José Carlos Alves Vieira, Nº 232-1º 4850-537 VIEIRA DO MINHO",
+    :address-c
+    "Rua Padre José Carlos Alves Vieira 232, 4850-538, Vieira do Minho, Braga",
+    :postal-c "4850-538",
+    :x -8.145659988813861,
+    :y 41.63578001858471,
+    :score 97.23,
+    :c 2}}]
  ["verde-minho-00599"
   {:nec 599,
    :rates
@@ -2712,7 +2928,14 @@
     :cp7 "4755-065",
     :id #uuid "fcd97a73-8568-3517-b4ee-5846ebc067e2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4755-065",
+    :postal-c "4755-065",
+    :x -8.633349960964807,
+    :y 41.51850998472352,
+    :score 100,
+    :c 1}}]
  ["auto-dinamica-povoa-de-lanhoso-00620"
   {:nec 620,
    :rates
@@ -2910,7 +3133,16 @@
     :cp7 "4705-102",
     :id #uuid "51747abb-caf2-3b65-aba9-7092f3445d59",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "51747abb-caf2-3b65-aba9-7092f3445d59",
+    :address "Rua Monsenhor Airosa n.º 24 R/c, 4705-102 BRAGA",
+    :address-c "Rua Monsenhor Airosa 24, 4705-102, Braga",
+    :postal-c "4705-102",
+    :x -8.425599964533745,
+    :y 41.54333001540198,
+    :score 96.04,
+    :c 1}}]
  ["guiante-00654"
   {:nec 654,
    :rates
@@ -3010,7 +3242,18 @@
     :cp7 "4805-161",
     :id #uuid "4599b482-85c9-3d47-96da-bfb3b6047697",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "4599b482-85c9-3d47-96da-bfb3b6047697",
+    :address
+    "Rua Padre da Silva Gonçalves nº 206 4805-161 CALDAS das TAIPAS",
+    :address-c
+    "Rua Padre Silva Gonçalves 206, 4805-161, Caldelas, Guimarães, Braga",
+    :postal-c "4805-161",
+    :x -8.34496524817909,
+    :y 41.48722237852535,
+    :score 95.68,
+    :c 1}}]
  ["inovadora-00657"
   {:nec 657,
    :rates
@@ -3110,7 +3353,14 @@
     :cp7 "4805-081",
     :id #uuid "6c29493e-1e94-3cff-99bc-d1e204890ad2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4805-081",
+    :postal-c "4805-081",
+    :x -8.34773501769999,
+    :y 41.48403999464776,
+    :score 100,
+    :c 1}}]
  ["cidade-berco-00658"
   {:nec 658,
    :rates
@@ -3210,7 +3460,18 @@
     :cp7 "4800-045",
     :id #uuid "f3843460-63b6-3514-8998-b42702844f18",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "f3843460-63b6-3514-8998-b42702844f18",
+    :address
+    "Rua Dr. João Afonso Almeida , Nº 291- Fracção O 4800-045 AZURÉM",
+    :address-c
+    "Rua Doutor João Afonso Almeida 291, 4800-045, Guimarães, Braga",
+    :postal-c "4800-045",
+    :x -8.300729975244366,
+    :y 41.44939000320127,
+    :score 95.78,
+    :c 1}}]
  ["loureiro-loureiro-00670"
   {:nec 670,
    :rates
@@ -3310,7 +3571,14 @@
     :cp7 "4810-008",
     :id #uuid "e8863fd4-f18e-31bc-bcd5-4cc6b0464d81",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4810-008",
+    :postal-c "4810-008",
+    :x -8.279429966713963,
+    :y 41.45129998747785,
+    :score 100,
+    :c 1}}]
  ["s-sao-martinho-00679"
   {:nec 679,
    :rates
@@ -3410,7 +3678,18 @@
     :cp7 "4810-261",
     :id #uuid "58480c54-4249-3833-9889-57be20112ea0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "58480c54-4249-3833-9889-57be20112ea0",
+    :address
+    "Rua D. Cristóvão S. Boaventura, Nº 51 4810-261 GUIMARÃES (Oliveira do Castelo)",
+    :address-c
+    "Rua Dom Cristóvão de São Boaventura 51, 4810-261, Guimarães, Braga",
+    :postal-c "4810-261",
+    :x -8.28768002255245,
+    :y 41.4470999834347,
+    :score 98.68,
+    :c 2}}]
  ["s-miguel-00680"
   {:nec 680,
    :rates
@@ -3510,7 +3789,14 @@
     :cp7 "4815-474",
     :id #uuid "0bfa296a-23ed-37ba-8034-1eae1bd0cb30",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vizela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vizela"},
+   :geocode
+   {:cp7 "4815-474",
+    :postal-c "4815-474",
+    :x -8.314999997762499,
+    :y 41.38259000674941,
+    :score 100,
+    :c 1}}]
  ["trifafe-00683"
   {:nec 683,
    :rates
@@ -3609,7 +3895,16 @@
     :cp7 "4820-362",
     :id #uuid "8f4b819e-3650-36bb-a485-3d69290bd2e6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:id #uuid "8f4b819e-3650-36bb-a485-3d69290bd2e6",
+    :address "Urbanização S. Gemil, nº 7 4820-362 FAFE",
+    :address-c "Urbanização São Gemil 7, 4820-362, Fafe, Braga",
+    :postal-c "4820-362",
+    :x -8.17511475890136,
+    :y 41.44562888046264,
+    :score 98.36,
+    :c 1}}]
  ["celoricense-00687"
   {:nec 687,
    :rates
@@ -3708,7 +4003,14 @@
     :cp7 "4890-228",
     :id #uuid "0e85d0be-6450-3a24-bf6d-b271ace16a60",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Celorico%20Basto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Celorico%20Basto"},
+   :geocode
+   {:cp7 "4890-228",
+    :postal-c "4890-228",
+    :x -7.9958008639494835,
+    :y 41.39257352398363,
+    :score 100,
+    :c 1}}]
  ["ronfense-00701"
   {:nec 701,
    :rates
@@ -3807,7 +4109,17 @@
     :cp7 "4805-437",
     :id #uuid "7f083766-e5c0-3e18-b1e8-3052c3d72ba2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "7f083766-e5c0-3e18-b1e8-3052c3d72ba2",
+    :address "Rua de S. Tiago, Nº 784 4805-437 RONFE",
+    :address-c
+    "Rua de São Tiago 784, 4805-437, Ronfe, Guimarães, Braga",
+    :postal-c "4805-437",
+    :x -8.380336758852074,
+    :y 41.441919191551015,
+    :score 97.19,
+    :c 7}}]
  ["opcao-00702"
   {:nec 702,
    :rates
@@ -3906,7 +4218,14 @@
     :cp7 "4760-282",
     :id #uuid "def928dc-c461-3155-bd1d-71a2b82b093e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-282",
+    :postal-c "4760-282",
+    :x -8.526825024060372,
+    :y 41.40424000164691,
+    :score 100,
+    :c 1}}]
  ["mariana-00734"
   {:nec 734,
    :rates
@@ -4006,7 +4325,14 @@
     :cp7 "4805-158",
     :id #uuid "73242be2-47cf-385e-b1a9-5fbbf3472ac4",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4805-158",
+    :postal-c "4805-158",
+    :x -8.344749970522116,
+    :y 41.4916200011464,
+    :score 100,
+    :c 1}}]
  ["olivolante-00735"
   {:nec 735,
    :rates
@@ -4106,7 +4432,14 @@
     :cp7 "4700-213",
     :id #uuid "d3dfdd88-15d7-3953-a9db-15a5488a3703",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:cp7 "4700-213",
+    :postal-c "4700-213",
+    :x -8.43902659995436,
+    :y 41.56432768868484,
+    :score 100,
+    :c 1}}]
  ["bela-vista-braga-00748"
   {:nec 748,
    :rates
@@ -4206,7 +4539,17 @@
     :cp7 "4710-409",
     :id #uuid "773f0fe4-18ab-3ef9-9214-ba928ec1c0dc",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "773f0fe4-18ab-3ef9-9214-ba928ec1c0dc",
+    :address
+    "Rua Nova de Stª Cruz nº 26, Loja 7 4710-409 BRAGA (S. VICTOR)",
+    :address-c "Rua Nova de Santa Cruz 26, 4710-409, Braga",
+    :postal-c "4710-409",
+    :x -8.399166232819157,
+    :y 41.55753857354629,
+    :score 96.98,
+    :c 1}}]
  ["montelongo-00751"
   {:nec 751,
    :rates
@@ -4305,7 +4648,17 @@
     :cp7 "4820-365",
     :id #uuid "715c45fe-362f-3ea0-b2dd-ff027a18d682",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:id #uuid "715c45fe-362f-3ea0-b2dd-ff027a18d682",
+    :address "Urbanização Dr. Leite Lage, 75 B 4820-365 FAFE",
+    :address-c
+    "Urbanização Doutor Leite Lage 75B, 4820-365, Fafe, Braga",
+    :postal-c "4820-365",
+    :x -8.179650031113823,
+    :y 41.448220015246534,
+    :score 99.99,
+    :c 1}}]
  ["bracarense-universitaria-00774"
   {:nec 774,
    :rates
@@ -4404,7 +4757,16 @@
     :cp7 "4710-093",
     :id #uuid "deb80c13-6f1a-33b1-8009-20f8bd234fb5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "deb80c13-6f1a-33b1-8009-20f8bd234fb5",
+    :address "Rua da Lameira nº 16 4710-093 GUALTAR",
+    :address-c "Rua da Lameira 16, 4710-093, Gualtar, Braga",
+    :postal-c "4710-093",
+    :x -8.387809986429204,
+    :y 41.56403000539356,
+    :score 98.34,
+    :c 2}}]
  ["prova-real-arco-de-baulhe-00775"
   {:nec 775,
    :rates
@@ -4503,7 +4865,14 @@
     :cp7 "4860-069",
     :id #uuid "645149cf-5480-3708-94e8-99a4646996f3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
+   :geocode
+   {:cp7 "4860-069",
+    :postal-c "4860-069",
+    :x -7.9633899722077786,
+    :y 41.49004001239783,
+    :score 100,
+    :c 1}}]
  ["terras-de-bouro-00778"
   {:nec 778,
    :rates
@@ -4602,7 +4971,14 @@
     :cp7 "4840-100",
     :id #uuid "9f57b9bf-671f-3dfb-9be3-b86ba791eff5",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Terras%20Bouro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Terras%20Bouro"},
+   :geocode
+   {:cp7 "4840-100",
+    :postal-c "4840-100",
+    :x -8.304169992126617,
+    :y 41.718335017430746,
+    :score 100,
+    :c 1}}]
  ["sara-00779"
   {:nec 779,
    :rates
@@ -4702,7 +5078,14 @@
     :cp7 "4775-269",
     :id #uuid "a21e72fc-541a-303e-8954-dbe229484380",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4775-269",
+    :postal-c "4775-269",
+    :x -8.566064987595212,
+    :y 41.455250001258804,
+    :score 100,
+    :c 1}}]
  ["fafecidade-00783"
   {:nec 783,
    :rates
@@ -4801,7 +5184,14 @@
     :cp7 "4820-248",
     :id #uuid "e6fbe2c9-1129-3fd5-bbc1-37c72e035760",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:cp7 "4820-248",
+    :postal-c "4820-248",
+    :x -8.181175034577564,
+    :y 41.4526500187128,
+    :score 100,
+    :c 1}}]
  ["desigual-00784"
   {:nec 784,
    :rates
@@ -4900,7 +5290,17 @@
     :cp7 "4765-620",
     :id #uuid "21cb62bf-3dbd-34dc-b0af-4a55ed722000",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:id #uuid "21cb62bf-3dbd-34dc-b0af-4a55ed722000",
+    :address "Av. do Loureiro, 65, Loja 2, 4765-620 DELÃES",
+    :address-c
+    "Avenida do Loureiro 65, 4765-620, Delães, Vila Nova de Famalicão, Braga",
+    :postal-c "4765-620",
+    :x -8.417360254323116,
+    :y 41.385906172168966,
+    :score 100,
+    :c 2}}]
  ["abreu-00789"
   {:nec 789,
    :rates
@@ -5000,7 +5400,17 @@
     :cp7 nil,
     :id #uuid "b52d04d9-5881-3905-8fc2-80556b28ce50",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:id #uuid "b52d04d9-5881-3905-8fc2-80556b28ce50",
+    :address "Rua da Fraternidade 40  barcelos",
+    :address-c
+    "Rua da Fraternidade 40, 4750-744, Souto Casal, Barcelos, Braga",
+    :postal-c "4750-744",
+    :x -8.582410034063457,
+    :y 41.55178999600551,
+    :score 100,
+    :c 1}}]
  ["via-verde-00794"
   {:nec 794,
    :rates
@@ -5100,7 +5510,14 @@
     :cp7 "4760-143",
     :id #uuid "85cf7bcc-d047-36ff-b68b-f7e3e8064d35",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-143",
+    :postal-c "4760-143",
+    :x -8.522834986691748,
+    :y 41.4089300117497,
+    :score 100,
+    :c 1}}]
  ["nova-era-00805"
   {:nec 805,
    :rates
@@ -5200,7 +5617,14 @@
     :cp7 "4810-517",
     :id #uuid "4262cf4a-c261-3717-bdd4-6e8a39656f80",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4810-517",
+    :postal-c "4810-517",
+    :x -8.299430025880895,
+    :y 41.42130501168842,
+    :score 100,
+    :c 1}}]
  ["volante-de-celorico-00810"
   {:nec 810,
    :rates
@@ -5300,7 +5724,14 @@
     :cp7 "4890-296",
     :id #uuid "6dadc722-b06d-32e3-a109-5854c3ce770f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Celorico%20Basto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Celorico%20Basto"},
+   :geocode
+   {:cp7 "4890-296",
+    :postal-c "4890-296",
+    :x -7.996343843637192,
+    :y 41.39725754102565,
+    :score 100,
+    :c 1}}]
  ["galo-00818"
   {:nec 818,
    :rates
@@ -5400,7 +5831,14 @@
     :cp7 "4750-132",
     :id #uuid "96d8d3a7-0720-36a7-851a-25403475449c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4750-132",
+    :postal-c "4750-132",
+    :x -8.614529989945936,
+    :y 41.54156000890842,
+    :score 100,
+    :c 1}}]
  ["geres-00829"
   {:nec 829,
    :rates
@@ -5499,7 +5937,17 @@
     :cp7 "4840-100",
     :id #uuid "333cd72f-eac1-3e92-bb57-694aa34be572",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Terras%20Bouro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Terras%20Bouro"},
+   :geocode
+   {:id #uuid "333cd72f-eac1-3e92-bb57-694aa34be572",
+    :address "Rua Dr. Francisco Xavier Araújo 4840-100 MOIMENTA",
+    :address-c
+    "Rua Dr. Francisco Xavier de Araújo, 4840-100, Vila de Terras de Bouro, Terras de Bouro, Braga",
+    :postal-c "4840-100",
+    :x -8.30610643298542,
+    :y 41.71829285839761,
+    :score 96.53,
+    :c 1}}]
  ["dinamica-drive-00831"
   {:nec 831,
    :rates
@@ -5598,7 +6046,14 @@
     :cp7 "4830-508",
     :id #uuid "621d64af-d67f-3483-a563-9b2164d8237c",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=P%C3%B3voa%20Lanhoso"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=P%C3%B3voa%20Lanhoso"},
+   :geocode
+   {:cp7 "4830-508",
+    :postal-c "4830-508",
+    :x -8.260234989347055,
+    :y 41.57246002069323,
+    :score 100,
+    :c 1}}]
  ["reta-segura-00833"
   {:nec 833,
    :rates
@@ -5698,7 +6153,14 @@
     :cp7 "4760-175",
     :id #uuid "cf7cebde-b656-34a5-8d5f-67d5f04194f6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-175",
+    :postal-c "4760-175",
+    :x -8.511840025201366,
+    :y 41.42973498507857,
+    :score 100,
+    :c 1}}]
  ["ze-ferreira-00839"
   {:nec 839,
    :rates
@@ -5797,7 +6259,16 @@
     :cp7 "4705-267",
     :id #uuid "d123f6fe-c9f3-3ad9-bc25-7af61beb91c6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "d123f6fe-c9f3-3ad9-bc25-7af61beb91c6",
+    :address "Rua Dr. Edgardo Sá Malheiro, Nº 122 4705-267 FERREIROS",
+    :address-c "Rua Doutor Edgardo Sá Malheiro 122, 4705-267, Braga",
+    :postal-c "4705-267",
+    :x -8.453236378661613,
+    :y 41.5339742156658,
+    :score 95.37,
+    :c 6}}]
  ["s-gualter-00844"
   {:nec 844,
    :rates
@@ -5897,7 +6368,14 @@
     :cp7 "4800-073",
     :id #uuid "5032fc78-49ab-3cf9-925f-43d2c8abc14f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4800-073",
+    :postal-c "4800-073",
+    :x -8.297950033237214,
+    :y 41.44853500716786,
+    :score 100,
+    :c 1}}]
  ["ribeirense-00890"
   {:nec 890,
    :rates
@@ -5997,7 +6475,14 @@
     :cp7 "4760-713",
     :id #uuid "d6b81280-7484-3cc9-800c-93d55dba7360",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-713",
+    :postal-c "4760-713",
+    :x -8.556765014564974,
+    :y 41.35498001768951,
+    :score 100,
+    :c 1}}]
  ["ze-manel-00906"
   {:nec 906,
    :rates
@@ -6096,7 +6581,14 @@
     :cp7 "4755-304",
     :id #uuid "fd17fd5d-b8b1-305f-945a-6cc024d15b8a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4755-304",
+    :postal-c "4755-304",
+    :x -8.506494969365406,
+    :y 41.53265000392341,
+    :score 100,
+    :c 1}}]
  ["europeia-00923"
   {:nec 923,
    :rates
@@ -6195,7 +6687,17 @@
     :cp7 "4760-093",
     :id #uuid "e8751bbc-ec6d-373d-88e3-06a78a5ecd94",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:id #uuid "e8751bbc-ec6d-373d-88e3-06a78a5ecd94",
+    :address "Rua de S. Vicente, 457 4760-093 VILA NOVA DE FAMALICÃO",
+    :address-c
+    "Rua de São Vicente 457, 4760-093, Vila Nova de Famalicão, Braga",
+    :postal-c "4760-093",
+    :x -8.518829813887415,
+    :y 41.415297881647206,
+    :score 100,
+    :c 2}}]
  ["bom-jesus-lomar-00926"
   {:nec 926,
    :rates
@@ -6295,7 +6797,18 @@
     :cp7 "4715-234",
     :id #uuid "3f7e1144-d49b-3797-b83e-2d0ea1f0e6b6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "3f7e1144-d49b-3797-b83e-2d0ea1f0e6b6",
+    :address
+    "Rua José Lopes da Silva Granja, 50, Lomar, 4715-234 Braga",
+    :address-c
+    "Rua José Lopes Silva Granja 50, 4705-225, Feijoa, Braga",
+    :postal-c "4705-225",
+    :x -8.429893719959164,
+    :y 41.52433053581991,
+    :score 96.52,
+    :c 2}}]
  ["a-citadina-00927"
   {:nec 927,
    :rates
@@ -6395,7 +6908,14 @@
     :cp7 "4760-325",
     :id #uuid "7423976a-5f6c-3e33-bf0e-8d24c7dab1c0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-325",
+    :postal-c "4760-325",
+    :x -8.520144982505656,
+    :y 41.39937501931533,
+    :score 100,
+    :c 1}}]
  ["auto-vilaverdense-00929"
   {:nec 929,
    :rates
@@ -6495,7 +7015,14 @@
     :cp7 "4730-072",
     :id #uuid "0f42be8e-32ea-3ccf-9be2-708ad80f1ac6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
+   :geocode
+   {:cp7 "4730-072",
+    :postal-c "4730-072",
+    :x -8.437140001187629,
+    :y 41.65395998938658,
+    :score 100,
+    :c 1}}]
  ["santa-eulalia-00930"
   {:nec 930,
    :rates
@@ -6594,7 +7121,16 @@
     :cp7 "4620-596",
     :id #uuid "826923a2-bf12-38c8-b8f3-2ae08f0045ff",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vizela"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vizela"},
+   :geocode
+   {:id #uuid "826923a2-bf12-38c8-b8f3-2ae08f0045ff",
+    :address "Rua de Pousada, 233 4620-596 Barrosas (Santa Eulália)",
+    :address-c "Rua de Pousada 233, 4620-596, Prados, Vizela, Braga",
+    :postal-c "4620-596",
+    :x -8.287226286373675,
+    :y 41.35961273209373,
+    :score 98.82,
+    :c 1}}]
  ["volante-do-minho-00936"
   {:nec 936,
    :rates
@@ -6793,7 +7329,14 @@
     :cp7 "4755-058",
     :id #uuid "7a2cfc5e-bac0-3e60-8e56-4206be0c7ccd",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4755-058",
+    :postal-c "4755-058",
+    :x -8.624669997312452,
+    :y 41.52413998335794,
+    :score 100,
+    :c 1}}]
  ["litoral-00955"
   {:nec 955,
    :rates
@@ -6892,7 +7435,14 @@
     :cp7 "4740-571",
     :id #uuid "ec0bd522-749b-394c-811f-a19042e994f7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:cp7 "4740-571",
+    :postal-c "4740-571",
+    :x -8.776095029328076,
+    :y 41.53447000846941,
+    :score 100,
+    :c 1}}]
  ["alcaide-00956"
   {:nec 956,
    :rates
@@ -6991,7 +7541,14 @@
     :cp7 "4755-233",
     :id #uuid "0e0123b5-ec02-35f6-9f3e-97eeeb77c3b6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4755-233",
+    :postal-c "4755-233",
+    :x -8.665449967917738,
+    :y 41.50548501010309,
+    :score 100,
+    :c 1}}]
  ["mundial-00966"
   {:nec 966,
    :rates
@@ -7091,7 +7648,14 @@
     :cp7 "4755-266",
     :id #uuid "db4c0fa5-56ae-3d74-9f6a-dc200925e99f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4755-266",
+    :postal-c "4755-266",
+    :x -8.632389981594116,
+    :y 41.43708499215407,
+    :score 100,
+    :c 1}}]
  ["faial-01015"
   {:nec 1015,
    :rates
@@ -7190,7 +7754,16 @@
     :cp7 "4700-284",
     :id #uuid "0bab389e-5570-39d6-8bc9-3500c7b681e2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "0bab389e-5570-39d6-8bc9-3500c7b681e2",
+    :address "Rua Padre Manuel Guimarães n.º 163 C 4700-284 Braga",
+    :address-c "Rua Padre Manuel Guimarães 163, 4700-284, Real, Braga",
+    :postal-c "4700-284",
+    :x -8.439883561589527,
+    :y 41.55683314615559,
+    :score 95.81,
+    :c 2}}]
  ["romana-01025"
   {:nec 1025,
    :rates
@@ -7289,7 +7862,16 @@
     :cp7 nil,
     :id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
+    :address "Rua Manuel Peixoto, N 211 R/C Creixomil",
+    :address-c "Rua Manuel Peixoto 211, 4835-070, Guimarães, Braga",
+    :postal-c "4835-070",
+    :x -8.302399985633059,
+    :y 41.436199988907305,
+    :score 95.01,
+    :c 1}}]
  ["ases-da-estrada-01028"
   {:nec 1028,
    :rates
@@ -7388,7 +7970,14 @@
     :cp7 "4775-456",
     :id #uuid "669140b2-8562-36b9-a6cd-d4cbfff22238",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4775-456",
+    :postal-c "4775-456",
+    :x -8.546949973584589,
+    :y 41.46378998712814,
+    :score 100,
+    :c 1}}]
  ["tadim-01030"
   {:nec 1030,
    :rates
@@ -7487,7 +8076,16 @@
     :cp7 "4705-671",
     :id #uuid "bd28fd9e-ea09-36ff-a3e7-a8a848d90f89",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "bd28fd9e-ea09-36ff-a3e7-a8a848d90f89",
+    :address "Rua General Humberto Delgado, N.º 95, 4705-671 TADIM",
+    :address-c "Rua General Humberto Delgado, 4705-671, Tadim, Braga",
+    :postal-c "4705-671",
+    :x -8.487168042728683,
+    :y 41.50800599983972,
+    :score 96.59,
+    :c 2}}]
  ["s-bento-01034"
   {:nec 1034,
    :rates
@@ -7586,7 +8184,16 @@
     :cp7 "4755-520",
     :id #uuid "fd90a845-a814-327a-a864-c32c14a89230",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:id #uuid "fd90a845-a814-327a-a864-c32c14a89230",
+    :address "Rua da Estrada, Lote 8, Fracção A 4755-520 VÁRZEA",
+    :address-c "Rua da Estrada 8, 4755-520, Barcelos, Braga",
+    :postal-c "4755-520",
+    :x -8.58357460699733,
+    :y 41.511661327955906,
+    :score 95.22,
+    :c 7}}]
  ["quinta-das-fontes-01054"
   {:nec 1054,
    :rates
@@ -7685,7 +8292,16 @@
     :cp7 "4700-357",
     :id #uuid "f2fca5d2-43ea-319a-b27d-03c57294f105",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "f2fca5d2-43ea-319a-b27d-03c57294f105",
+    :address "Rua Adelino Arantes nº 22 4700-357 BRAGA (S. VICENTE)",
+    :address-c "Rua Adelino Arantes 22, 4700-357, Braga",
+    :postal-c "4700-357",
+    :x -8.418999970154374,
+    :y 41.55802998764349,
+    :score 96.59,
+    :c 1}}]
  ["o-basto-01055"
   {:nec 1055,
    :rates
@@ -7784,7 +8400,14 @@
     :cp7 "4860-407",
     :id #uuid "bd534af0-99de-3774-a68b-60c65e6a88a6",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
+   :geocode
+   {:cp7 "4860-407",
+    :postal-c "4860-407",
+    :x -7.998345023020335,
+    :y 41.515129982268036,
+    :score 100,
+    :c 1}}]
  ["britense-01071"
   {:nec 1071,
    :rates
@@ -7883,7 +8506,14 @@
     :cp7 "4805-676",
     :id #uuid "01481a0a-c6f5-3e70-a719-a9986423a4d9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:cp7 "4805-676",
+    :postal-c "4805-676",
+    :x -8.364070005884429,
+    :y 41.45278500926344,
+    :score 100,
+    :c 1}}]
  ["lusiada-01078"
   {:nec 1078,
    :rates
@@ -7983,7 +8613,17 @@
     :cp7 "4720-022",
     :id #uuid "f10c8f4c-faac-31ca-93ef-4412ffb61a6e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"},
+   :geocode
+   {:id #uuid "f10c8f4c-faac-31ca-93ef-4412ffb61a6e",
+    :address
+    "Rua José Alves Leite, Bloco 1, Fracçâo C, D e E 4720-022 AMARES",
+    :address-c "Rua José Alves Leite 1, 4720-022, Amares, Braga",
+    :postal-c "4720-022",
+    :x -8.352090003132872,
+    :y 41.631569998167265,
+    :score 97.66,
+    :c 1}}]
  ["nova-geracao-01094"
   {:nec 1094,
    :rates
@@ -8083,7 +8723,18 @@
     :cp7 "4765-550",
     :id #uuid "6958ed7f-a3e4-36aa-a3dd-7a4c07871b63",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "6958ed7f-a3e4-36aa-a3dd-7a4c07871b63",
+    :address
+    "Rua Nova do Agrelo, n.º 196 ; 4765-550 Serzedelo (Guimarães)",
+    :address-c
+    "Rua Nova do Agrelo 196, 4765-550, Serzedelo, Guimarães, Braga",
+    :postal-c "4765-550",
+    :x -8.360850013960544,
+    :y 41.40808000294868,
+    :score 96.36,
+    :c 5}}]
  ["carapecos-01103"
   {:nec 1103,
    :rates
@@ -8182,7 +8833,14 @@
     :cp7 "4750-383",
     :id #uuid "f2ce67fd-a42a-3f7c-8ef6-87e67d9f63a3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4750-383",
+    :postal-c "4750-383",
+    :x -8.631509295027485,
+    :y 41.587180319049935,
+    :score 100,
+    :c 1}}]
  ["vale-do-tamel-01121"
   {:nec 1121,
    :rates
@@ -8281,7 +8939,14 @@
     :cp7 "4750-367",
     :id #uuid "a13b65f5-133a-35d8-a478-69a71cc4e9f7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4750-367",
+    :postal-c "4750-367",
+    :x -8.615499105591084,
+    :y 41.59630976226009,
+    :score 100,
+    :c 1}}]
  ["rio-neiva-01125"
   {:nec 1125,
    :rates
@@ -8380,7 +9045,14 @@
     :cp7 "4740-444",
     :id #uuid "4e156ec9-5711-310a-a6e1-7fa9c996c986",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:cp7 "4740-444",
+    :postal-c "4740-444",
+    :x -8.744645038966382,
+    :y 41.61297499742963,
+    :score 100,
+    :c 1}}]
  ["vila-verde-01128"
   {:nec 1128,
    :rates
@@ -8480,7 +9152,14 @@
     :cp7 "4730-717",
     :id #uuid "6b441cf8-02c3-31f7-b2f7-e8c5ddfa7a22",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
+   :geocode
+   {:cp7 "4730-717",
+    :postal-c "4730-717",
+    :x -8.43172504027919,
+    :y 41.64827001823497,
+    :score 100,
+    :c 1}}]
  ["a-ideal-de-apulia-01145"
   {:nec 1145,
    :rates
@@ -8579,7 +9258,16 @@
     :cp7 "4740-049",
     :id #uuid "73111271-82ef-357e-96bc-644185b2b913",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
+   :geocode
+   {:id #uuid "73111271-82ef-357e-96bc-644185b2b913",
+    :address "Rua da Lagoa, Nº 14 4740-049 APÚLIA",
+    :address-c "Rua da Lagoa 14, 4740-083, Apúlia, Esposende, Braga",
+    :postal-c "4740-083",
+    :x -8.770534970640913,
+    :y 41.48575671918389,
+    :score 97.2,
+    :c 1}}]
  ["das-fontes-01183"
   {:nec 1183,
    :rates
@@ -8678,7 +9366,14 @@
     :cp7 "4770-252",
     :id #uuid "dbb28617-061e-3d35-96b7-7a865adeb1a0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4770-252",
+    :postal-c "4770-252",
+    :x -8.425214983720906,
+    :y 41.43748501848313,
+    :score 100,
+    :c 1}}]
  ["rio-ave-01186"
   {:nec 1186,
    :rates
@@ -8778,7 +9473,14 @@
     :cp7 "4765-220",
     :id #uuid "bbaaf8ea-5fb9-3033-80b9-a12d723304e1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4765-220",
+    :postal-c "4765-220",
+    :x -8.393220002014772,
+    :y 41.38700001937664,
+    :score 100,
+    :c 1}}]
  ["aroes-01194"
   {:nec 1194,
    :rates
@@ -8878,7 +9580,14 @@
     :cp7 "4820-748",
     :id #uuid "8b8d9730-d9b0-3ed5-b581-bbc0f05f4475",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:cp7 "4820-748",
+    :postal-c "4820-748",
+    :x -8.207019962466802,
+    :y 41.44684999317249,
+    :score 100,
+    :c 1}}]
  ["um-01197"
   {:nec 1197,
    :rates
@@ -8977,7 +9686,16 @@
     :cp7 "4710-057",
     :id #uuid "b564b2d2-1c6c-3abb-9a98-081d7828580a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "b564b2d2-1c6c-3abb-9a98-081d7828580a",
+    :address "Rua da Universidade, Nº 46 4710 - 057 BRAGA",
+    :address-c "Rua da Universidade 46, 4710-057, Gualtar, Braga",
+    :postal-c "4710-057",
+    :x -8.393240034763352,
+    :y 41.56265998331955,
+    :score 98.4,
+    :c 2}}]
  ["lagoncinha-01203"
   {:nec 1203,
    :rates
@@ -9077,7 +9795,14 @@
     :cp7 "4760-624",
     :id #uuid "15ea5479-851c-39ad-813c-a9c116c4aa83",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-624",
+    :postal-c "4760-624",
+    :x -8.527969992034116,
+    :y 41.35229500073581,
+    :score 100,
+    :c 1}}]
  ["braguesa-01205"
   {:nec 1205,
    :rates
@@ -9177,7 +9902,18 @@
     :cp7 "4710-412",
     :id #uuid "4a5a2c70-12ce-3db8-b713-ffb48afa0755",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "4a5a2c70-12ce-3db8-b713-ffb48afa0755",
+    :address
+    "Rua Padre António Vieira, Nº 64 R/C 4710-412 S. VICTOR BRG",
+    :address-c
+    "Rua Padre António Vieira 64, 4710-412, Areal de Baixo, Braga",
+    :postal-c "4710-412",
+    :x -8.408140041124142,
+    :y 41.560890018735506,
+    :score 95.85,
+    :c 1}}]
  ["celeiros-01210"
   {:nec 1210,
    :rates
@@ -9276,7 +10012,16 @@
     :cp7 "4700-586",
     :id #uuid "f92827bd-c161-315b-a674-179dc87d2b30",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "f92827bd-c161-315b-a674-179dc87d2b30",
+    :address "Avenida de Covedêlo, N 7 4700-586 CELEIRÓS",
+    :address-c "Avenida do Covedêlo 7, 4705-401, Celeirós, Braga",
+    :postal-c "4705-401",
+    :x -8.452660016926302,
+    :y 41.512549990561126,
+    :score 97.94,
+    :c 1}}]
  ["guimaraescidade-01312"
   {:nec 1312,
    :rates
@@ -9376,7 +10121,18 @@
     :cp7 "4835-076",
     :id #uuid "9211fefb-dfc7-3dbb-86fb-f8a423fab0d1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "9211fefb-dfc7-3dbb-86fb-f8a423fab0d1",
+    :address
+    "Rua Arqueólogo Mário Cardoso, n.º 565 ; 4835-076 Guimarães",
+    :address-c
+    "Rua Arqueólogo Mário Cardoso 565, 4800-287, Guimarães, Braga",
+    :postal-c "4800-287",
+    :x -8.306300001361535,
+    :y 41.44699998732983,
+    :score 95.47,
+    :c 1}}]
  ["positiva-01341"
   {:nec 1341,
    :rates
@@ -9533,7 +10289,14 @@
     :cp7 "4715-249",
     :id #uuid "67a6dec4-7fd5-3a2b-9660-5c2ecf2c377a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:cp7 "4715-249",
+    :postal-c "4715-249",
+    :x -8.402915014141655,
+    :y 41.541289985897606,
+    :score 100,
+    :c 1}}]
  ["auto-drive-01386"
   {:nec 1386,
    :rates
@@ -9604,7 +10367,16 @@
     :cp7 "4715-048",
     :id #uuid "e0f20bd8-c481-3f85-a506-77541d94c80a",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "e0f20bd8-c481-3f85-a506-77541d94c80a",
+    :address "Rua de Santo Adrião, n.º 110, 4715-048 Braga",
+    :address-c "Rua de Santo Adrião 110, 4715-048, Braga",
+    :postal-c "4715-048",
+    :x -8.413679976208925,
+    :y 41.541799982796334,
+    :score 95.76,
+    :c 2}}]
  ["inovaguima-01387"
   {:nec 1387,
    :rates
@@ -9676,7 +10448,18 @@
     :cp7 "4800-411",
     :id #uuid "1f080992-1c4a-3f13-892c-c4c05483a3e3",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "1f080992-1c4a-3f13-892c-c4c05483a3e3",
+    :address
+    "Largo da República do Brasil, n.º 34, 4800-411 São Sebastião",
+    :address-c
+    "Largo da República do Brasil 34, 4810-446, Guimarães, Braga",
+    :postal-c "4810-446",
+    :x -8.289989991248575,
+    :y 41.44164001170623,
+    :score 95.16,
+    :c 1}}]
  ["macedo-01390"
   {:nec 1390,
    :rates
@@ -9748,7 +10531,14 @@
     :cp7 "4760-859",
     :id #uuid "7f859937-f420-3a67-92fe-0a8a9193eeff",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:cp7 "4760-859",
+    :postal-c "4760-859",
+    :x -8.533585028971345,
+    :y 41.39896501852152,
+    :score 100,
+    :c 1}}]
  ["vicentina-01396"
   {:nec 1396,
    :rates
@@ -9820,7 +10610,14 @@
     :cp7 "4750-800",
     :id #uuid "b9d3cac2-7ec9-3498-b278-b35f2fac8d11",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:cp7 "4750-800",
+    :postal-c "4750-800",
+    :x -8.6297149810147,
+    :y 41.53114499129873,
+    :score 100,
+    :c 1}}]
  ["nova-fafe-01416"
   {:nec 1416,
    :rates
@@ -9877,7 +10674,14 @@
     :cp7 "4820-179",
     :id #uuid "ce7acda1-c74a-3ab0-8c7f-9d8402fb9783",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+   :geocode
+   {:cp7 "4820-179",
+    :postal-c "4820-179",
+    :x -8.163010025472857,
+    :y 41.45875501980015,
+    :score 100,
+    :c 1}}]
  ["verde-minho-2-01428"
   {:nec 1428,
    :rates
@@ -9950,4 +10754,15 @@
     :cp7 nil,
     :id #uuid "32918da9-ac55-3221-8af4-56349a93cef8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:id #uuid "32918da9-ac55-3221-8af4-56349a93cef8",
+    :address
+    "Avenida Arcebispo D. Gaspar de Bragança, n 30 BARQUEIROS",
+    :address-c
+    "Avenida Arcebispo Dom Gaspar de Bragança, 4740-674, Necessidades, Barcelos, Braga",
+    :postal-c "4740-674",
+    :x -8.717107655062142,
+    :y 41.483030491879035,
+    :score 91.89,
+    :c 1}}]]

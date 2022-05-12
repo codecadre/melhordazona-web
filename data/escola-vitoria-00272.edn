@@ -95,4 +95,13 @@
   :cp7 "7800-453",
   :id #uuid "b212d470-d859-3d1b-b20f-790805fa1e01",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
+ :geocode
+ {:id #uuid "b212d470-d859-3d1b-b20f-790805fa1e01",
+  :address "Rua Cidade de S. Paulo, 14 A r/c Esqº 7800-453 BEJA",
+  :address-c "Rua da Cidade de São Paulo 14, 7800-453, Beja",
+  :postal-c "7800-453",
+  :x -7.858160039343943,
+  :y 38.00809999369463,
+  :score 98.11,
+  :c 3}}

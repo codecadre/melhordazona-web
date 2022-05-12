@@ -96,4 +96,14 @@
     :cp7 "4960-570",
     :id #uuid "cdbd1757-2a14-3d01-87ed-3ed58581f173",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Melga%C3%A7o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Melga%C3%A7o"},
+   :geocode
+   {:id #uuid "cdbd1757-2a14-3d01-87ed-3ed58581f173",
+    :address "Avª Salgueiro Maia, 173 4960-570 VILA",
+    :address-c
+    "Avenida Salgueiro Maia 173, 4960-570, Melgaço, Viana do Castelo",
+    :postal-c "4960-570",
+    :x -8.259959979103854,
+    :y 42.10931999707097,
+    :score 98.67,
+    :c 2}}]]

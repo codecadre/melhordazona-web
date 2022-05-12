@@ -96,4 +96,14 @@
   :cp7 "2135-003",
   :id #uuid "dd8e6f6d-c319-3ab3-8331-93029e586a23",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
+ :geocode
+ {:id #uuid "dd8e6f6d-c319-3ab3-8331-93029e586a23",
+  :address "Rua dos Alámos, Lote 42 2135-003 SAMORA CORREIA",
+  :address-c
+  "Rua dos Álamos, 2135-092, Samora Correia, Benavente, Santarém",
+  :postal-c "2135-092",
+  :x -8.863726253832608,
+  :y 38.93493511730475,
+  :score 92.98,
+  :c 50}}

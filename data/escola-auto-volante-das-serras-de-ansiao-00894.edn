@@ -95,4 +95,14 @@
   :cp7 "3240-153",
   :id #uuid "0ff51a60-db7d-34b3-8dd4-9d139e0b24af",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Ansi%C3%A3o"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Ansi%C3%A3o"},
+ :geocode
+ {:id #uuid "0ff51a60-db7d-34b3-8dd4-9d139e0b24af",
+  :address "Avª Dr. Victor Faveiro, lote 3 3240-153 ANSIÃO",
+  :address-c
+  "Avenida Doutor Vitor Faveiro 3, 3240-153, Ansião, Leiria",
+  :postal-c "3240-153",
+  :x -8.437100019509472,
+  :y 39.91064000870597,
+  :score 96.18,
+  :c 1}}

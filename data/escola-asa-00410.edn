@@ -95,4 +95,13 @@
   :cp7 "4580-170",
   :id #uuid "ead61692-23e8-37dd-8fc5-5832aed24c8f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
+ :geocode
+ {:id #uuid "ead61692-23e8-37dd-8fc5-5832aed24c8f",
+  :address "Largo Nuno Álvares Pereira, nº4 4580-170 PAREDES",
+  :address-c "Largo Nuno Álvares 4, 4580-170, Paredes, Porto",
+  :postal-c "4580-170",
+  :x -8.332184946707246,
+  :y 41.20770175405321,
+  :score 98.01,
+  :c 3}}

@@ -96,4 +96,15 @@
   :cp7 "2605-015",
   :id #uuid "db302e36-aec1-3a0f-a2e4-523be4a1a5e2",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "db302e36-aec1-3a0f-a2e4-523be4a1a5e2",
+  :address
+  "Rua Alexandre Herculano, n.º 52-G, Loja 3, Bloco A, 2605-015 Belas",
+  :address-c
+  "Rua Alexandre Herculano 52G, 2605-015, Belas, Sintra, Lisboa",
+  :postal-c "2605-015",
+  :x -9.260940015903174,
+  :y 38.77347998729604,
+  :score 95.85,
+  :c 1}}

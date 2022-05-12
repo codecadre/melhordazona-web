@@ -97,7 +97,18 @@
     :cp7 "4720-343",
     :id #uuid "25a40fdf-1b40-37db-bfe0-cf44b4295369",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"},
+   :geocode
+   {:id #uuid "25a40fdf-1b40-37db-bfe0-cf44b4295369",
+    :address
+    "Avenida Santo António, n.º 61; 4720-343 Ferreiros (Amares)",
+    :address-c
+    "Avenida Santo António 61, 4720-343, Ferreiros, Amares, Braga",
+    :postal-c "4720-343",
+    :x -8.36213998885924,
+    :y 41.627430008550846,
+    :score 96.36,
+    :c 3}}]
  ["lusiada-01078"
   {:nec 1078,
    :rates
@@ -197,4 +208,14 @@
     :cp7 "4720-022",
     :id #uuid "f10c8f4c-faac-31ca-93ef-4412ffb61a6e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"},
+   :geocode
+   {:id #uuid "f10c8f4c-faac-31ca-93ef-4412ffb61a6e",
+    :address
+    "Rua José Alves Leite, Bloco 1, Fracçâo C, D e E 4720-022 AMARES",
+    :address-c "Rua José Alves Leite 1, 4720-022, Amares, Braga",
+    :postal-c "4720-022",
+    :x -8.352090003132872,
+    :y 41.631569998167265,
+    :score 97.66,
+    :c 1}}]]

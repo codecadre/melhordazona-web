@@ -95,4 +95,13 @@
   :cp7 "4820-362",
   :id #uuid "8f4b819e-3650-36bb-a485-3d69290bd2e6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
+ :geocode
+ {:id #uuid "8f4b819e-3650-36bb-a485-3d69290bd2e6",
+  :address "Urbanização S. Gemil, nº 7 4820-362 FAFE",
+  :address-c "Urbanização São Gemil 7, 4820-362, Fafe, Braga",
+  :postal-c "4820-362",
+  :x -8.17511475890136,
+  :y 41.44562888046264,
+  :score 98.36,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "2975-288",
   :id #uuid "91f7d46b-25e0-3db0-9cf9-8c49e2fc25c3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
+ :geocode
+ {:id #uuid "91f7d46b-25e0-3db0-9cf9-8c49e2fc25c3",
+  :address "Rua Luísa Tody, lote 2157 2975-288 QUINTA DO CONDE",
+  :address-c
+  "Rua Luísa Tody 2157, 2975-288, Quinta do Conde, Sesimbra, Setúbal",
+  :postal-c "2975-288",
+  :x -9.049868137540575,
+  :y 38.56942419917692,
+  :score 98.9,
+  :c 1}}

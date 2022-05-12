@@ -96,4 +96,15 @@
   :cp7 "4430-267",
   :id #uuid "5c4f43a4-8508-32bb-88cb-b8eb25bc7a7d",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:id #uuid "5c4f43a4-8508-32bb-88cb-b8eb25bc7a7d",
+  :address
+  "Rua Caetano de Melo, nº 448 - R/C 4430-267 OLIVEIRA do DOURO",
+  :address-c
+  "Rua de Caetano Melo 448, 4430-267, Oliveira do Douro, Vila Nova de Gaia, Porto",
+  :postal-c "4430-267",
+  :x -8.589229969582163,
+  :y 41.12734001648022,
+  :score 98.11,
+  :c 4}}

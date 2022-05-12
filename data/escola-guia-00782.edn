@@ -95,4 +95,14 @@
   :cp7 "3100-863",
   :id #uuid "069943c8-6e7e-3740-8300-a225f6795ac3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
+ :geocode
+ {:id #uuid "069943c8-6e7e-3740-8300-a225f6795ac3",
+  :address "Largo Engenheiro Guilherme Santos,nº 3 3100-863 GUIA PBL",
+  :address-c
+  "Largo Eng. Guilherme Gomes dos Santos 3, 3100-081, Albergaria dos Doze, Pombal, Leiria",
+  :postal-c "3100-081",
+  :x -8.581139337542055,
+  :y 39.80039589563404,
+  :score 96.11,
+  :c 6}}

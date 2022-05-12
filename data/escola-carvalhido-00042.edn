@@ -95,4 +95,13 @@
   :cp7 "4250-117",
   :id #uuid "2900b077-b0c7-36e9-931f-c5e9ee370d7b",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "2900b077-b0c7-36e9-931f-c5e9ee370d7b",
+  :address "Rua dos Castelos, 23 – 1º 4250-117 PORTO",
+  :address-c "Rua dos Castelos 23, 4250-117, Porto",
+  :postal-c "4250-117",
+  :x -8.627499979281566,
+  :y 41.167019988022275,
+  :score 99.33,
+  :c 6}}

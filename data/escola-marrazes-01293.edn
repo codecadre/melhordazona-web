@@ -95,4 +95,14 @@
   :cp7 "2415-423",
   :id #uuid "38e392cf-f794-3969-8544-671f39fb2a67",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
+ :geocode
+ {:id #uuid "38e392cf-f794-3969-8544-671f39fb2a67",
+  :address "Rua José Diogo Oliveira Júnior, Lote 4; 2415-423 Leiria",
+  :address-c
+  "Rua José Diogo de Oliveira Júnior 4, 2415-423, Gândara dos Olivais, Leiria",
+  :postal-c "2415-423",
+  :x -8.824739991139978,
+  :y 39.76170000143429,
+  :score 100,
+  :c 1}}

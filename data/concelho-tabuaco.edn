@@ -96,4 +96,13 @@
     :cp7 "5120-415",
     :id #uuid "8b1d98a1-50cb-3f43-9784-476c7c4b5672",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tabua%C3%A7o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tabua%C3%A7o"},
+   :geocode
+   {:id #uuid "8b1d98a1-50cb-3f43-9784-476c7c4b5672",
+    :address "Rua Dr. Luis de Freitas 5120-415 TABUAÇO",
+    :address-c "Rua Dr. Luís Freitas, 5120-415, Tabuaço, Viseu",
+    :postal-c "5120-415",
+    :x -7.566207996988302,
+    :y 41.11662831190703,
+    :score 99.98,
+    :c 3}}]]

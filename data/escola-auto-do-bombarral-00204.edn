@@ -95,4 +95,13 @@
   :cp7 "2540-113",
   :id #uuid "3fa99468-a6a2-342d-b25b-6058175d90bf",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Bombarral"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Bombarral"},
+ :geocode
+ {:id #uuid "3fa99468-a6a2-342d-b25b-6058175d90bf",
+  :address "Rua Luís de Camões, Nº 73-A 2540-113 BOMBARRAL",
+  :address-c "Rua Luís de Camões 73, 2540-113, Bombarral, Leiria",
+  :postal-c "2540-113",
+  :x -9.15843357986768,
+  :y 39.26766388117792,
+  :score 98.18,
+  :c 1}}

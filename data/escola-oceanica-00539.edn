@@ -95,4 +95,14 @@
   :cp7 "2450-000",
   :id #uuid "605ce209-db27-3166-aee7-2efdf6126929",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Nazar%C3%A9"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Nazar%C3%A9"},
+ :geocode
+ {:id #uuid "605ce209-db27-3166-aee7-2efdf6126929",
+  :address "Rua de Campo, nº 3 r/c 2450-000 VALADO dos FRADES",
+  :address-c
+  "Rua do Campo 3, 2450-359, Valado dos Frades, Nazaré, Leiria",
+  :postal-c "2450-359",
+  :x -9.023620006173672,
+  :y 39.58452999572481,
+  :score 96.87,
+  :c 3}}

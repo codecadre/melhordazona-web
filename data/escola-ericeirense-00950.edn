@@ -95,4 +95,14 @@
   :cp7 "2655-344",
   :id #uuid "fa735fd1-91c3-301e-9ab8-4539da2056c4",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+ :geocode
+ {:id #uuid "fa735fd1-91c3-301e-9ab8-4539da2056c4",
+  :address "Rua Prudêncio Franco da Trindade 9 B 2655-344 ERICEIRA",
+  :address-c
+  "Rua Prudêncio Franco da Trindade 9B, 2655-344, Ericeira, Mafra, Lisboa",
+  :postal-c "2655-344",
+  :x -9.41574002123238,
+  :y 38.963920012565296,
+  :score 99.99,
+  :c 1}}

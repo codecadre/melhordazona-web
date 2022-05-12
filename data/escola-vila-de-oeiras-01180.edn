@@ -95,4 +95,13 @@
   :cp7 "2780-001",
   :id #uuid "15eeff58-4825-357d-8806-f32075f68930",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
+ :geocode
+ {:id #uuid "15eeff58-4825-357d-8806-f32075f68930",
+  :address "Rua Carlos Vieira Ramos,Nº 42 B/C 2780-001 OEIRAS",
+  :address-c "Rua Carlos Vieira Ramos 42B, 2780-201, Oeiras, Lisboa",
+  :postal-c "2780-201",
+  :x -9.302460024739844,
+  :y 38.69789001471264,
+  :score 97.16,
+  :c 1}}

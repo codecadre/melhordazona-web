@@ -95,4 +95,13 @@
   :cp7 "2670-469",
   :id #uuid "58b9769e-be6e-34c6-b6a4-fe03313632dc",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+ :geocode
+ {:id #uuid "58b9769e-be6e-34c6-b6a4-fe03313632dc",
+  :address "Rua da República, 56 – 1º 2670-469 LOURES",
+  :address-c "Rua da República 56, 2670-469, Loures, Lisboa",
+  :postal-c "2670-469",
+  :x -9.16720997037703,
+  :y 38.830429990231266,
+  :score 99.35,
+  :c 7}}

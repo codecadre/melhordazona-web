@@ -96,4 +96,15 @@
   :cp7 "2615-072",
   :id #uuid "928a001e-3ae8-31f2-96a6-1d72a67364cd",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "928a001e-3ae8-31f2-96a6-1d72a67364cd",
+  :address
+  "Rua Dr. Augusto Assis, Lote 02, Loja Dt.ª, 2615-072 Alhandra",
+  :address-c
+  "Rua de Doutor Augusto Assis 2, 2600-416, Alhandra, Vila Franca de Xira, Lisboa",
+  :postal-c "2600-416",
+  :x -9.01009999635167,
+  :y 38.92576998980985,
+  :score 98.07,
+  :c 1}}

@@ -96,4 +96,15 @@
   :cp7 "2580-497",
   :id #uuid "33db7ae3-ed4a-32f1-a4ea-3f7c0bc977af",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
+ :geocode
+ {:id #uuid "33db7ae3-ed4a-32f1-a4ea-3f7c0bc977af",
+  :address
+  "Rua Pêro da Covilhã, lote 98 -Urbanização Barrada 2580-497 ALENQUER",
+  :address-c
+  "Rua Pêro da Covilhã 98, 2580-497, Carregado, Alenquer, Lisboa",
+  :postal-c "2580-497",
+  :x -8.969705947715392,
+  :y 39.02193603746345,
+  :score 96.73,
+  :c 1}}

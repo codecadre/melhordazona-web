@@ -95,4 +95,13 @@
   :cp7 "1350-314",
   :id #uuid "0864676e-495d-35cc-95f8-c6a0ae1160c3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:id #uuid "0864676e-495d-35cc-95f8-c6a0ae1160c3",
+  :address "Rua Tenente Ferreira Durão, Nº 2 r/c Dtº 1350-314 LISBOA",
+  :address-c "Rua Tenente Ferreira Durão 2, 1350-314, Lisboa",
+  :postal-c "1350-314",
+  :x -9.167399988122014,
+  :y 38.719720010980836,
+  :score 97.43,
+  :c 1}}

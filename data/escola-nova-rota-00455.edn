@@ -95,4 +95,14 @@
   :cp7 "2700-398",
   :id #uuid "7eb5bbc2-f222-3d73-915c-ed7d9ba813e0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
+ :geocode
+ {:id #uuid "7eb5bbc2-f222-3d73-915c-ed7d9ba813e0",
+  :address "Rua Fonte dos Passarinhos, nº 7 A 2700-398 AMADORA",
+  :address-c
+  "Rua Fonte dos Passarinhos 7A, 2700-398, Mina, Amadora, Lisboa",
+  :postal-c "2700-398",
+  :x -9.230229979953833,
+  :y 38.761210012604124,
+  :score 98.49,
+  :c 1}}

@@ -95,4 +95,14 @@
   :cp7 "4490-097",
   :id #uuid "7efe270a-2ea7-3feb-acde-ff77b81c9cd1",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+ :geocode
+ {:id #uuid "7efe270a-2ea7-3feb-acde-ff77b81c9cd1",
+  :address "Rua José Ferreira Coelho n º 115 4490-097 A VER-O-MAR",
+  :address-c
+  "Rua José Ferreira Coelho 115, 4490-097, A Ver-o-Mar, Póvoa de Varzim, Porto",
+  :postal-c "4490-097",
+  :x -8.768509993687502,
+  :y 41.403949987797034,
+  :score 97.03,
+  :c 1}}

@@ -96,4 +96,14 @@
   :cp7 "4900-532",
   :id #uuid "9a1847e1-563f-33e8-b36f-6cfc7d3b8bf5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
+ :geocode
+ {:id #uuid "9a1847e1-563f-33e8-b36f-6cfc7d3b8bf5",
+  :address
+  "Rua Candido dos Reis, Nº 59 4900-532 VIANA DO CASTELO(MONSERRATE)",
+  :address-c "Rua Cândido do Reis 59, 4900-344, Viana do Castelo",
+  :postal-c "4900-344",
+  :x -8.830103487797361,
+  :y 41.693754318451866,
+  :score 95.04,
+  :c 1}}

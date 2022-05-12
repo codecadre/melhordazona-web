@@ -95,4 +95,13 @@
   :cp7 "2745-201",
   :id #uuid "753416ec-702a-3072-bfcf-32d3d815a52c",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "753416ec-702a-3072-bfcf-32d3d815a52c",
+  :address "Rua D.Pedro IV nº 37 – 1º Dtº 2745-201 QUELUZ",
+  :address-c "Rua Dom Pedro IV 37, 2745-201, Queluz, Sintra, Lisboa",
+  :postal-c "2745-201",
+  :x -9.253199998872901,
+  :y 38.75630001945248,
+  :score 96.9,
+  :c 1}}

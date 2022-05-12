@@ -95,4 +95,13 @@
   :cp7 "5000-653",
   :id #uuid "dbee1129-6f8d-3d86-9015-eff207987d16",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+ :geocode
+ {:id #uuid "dbee1129-6f8d-3d86-9015-eff207987d16",
+  :address "Rua da Misericórdia, nº 2 5000-653 VILA REAL",
+  :address-c "Rua da Misericórdia 2, 5000-653, Vila Real",
+  :postal-c "5000-653",
+  :x -7.745350016162433,
+  :y 41.29519999087566,
+  :score 98.43,
+  :c 2}}

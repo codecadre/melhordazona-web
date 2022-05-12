@@ -67,4 +67,14 @@
   :cp7 "2445-206",
   :id #uuid "a66f5115-de39-3938-b2a8-ea6d791fbf40",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
+ :geocode
+ {:id #uuid "a66f5115-de39-3938-b2a8-ea6d791fbf40",
+  :address "Av. Rainha Santa Isabel, n.º 234, 2445-206 Pataias",
+  :address-c
+  "Avenida Rainha Santa Isabel 234, 2445-207, Pataias, Alcobaça, Leiria",
+  :postal-c "2445-207",
+  :x -8.996730022596523,
+  :y 39.66977001152458,
+  :score 95.9,
+  :c 2}}

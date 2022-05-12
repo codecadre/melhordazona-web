@@ -95,4 +95,13 @@
   :cp7 "4440-502",
   :id #uuid "e85d1ff4-9497-3b37-a988-950936b6aba5",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+ :geocode
+ {:id #uuid "e85d1ff4-9497-3b37-a988-950936b6aba5",
+  :address "Avª 25 de Abril nº 402 4440-502 VALONGO",
+  :address-c "Avenida 25 de Abril 402, 4440-502, Valongo, Porto",
+  :postal-c "4440-502",
+  :x -8.502082056367973,
+  :y 41.19280925085791,
+  :score 98.36,
+  :c 4}}

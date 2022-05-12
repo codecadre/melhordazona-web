@@ -96,4 +96,15 @@
   :cp7 "2765-087",
   :id #uuid "0ac03492-c314-3e1a-ae3b-9ec2422c2dc0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
+ :geocode
+ {:id #uuid "0ac03492-c314-3e1a-ae3b-9ec2422c2dc0",
+  :address
+  "Rua Damião de Góis, Lote 12 c/v Esqº - Alapraia 2765-087 ESTORIL",
+  :address-c
+  "Rua Damião de Góis 12, 2765-087, Alapraia, Cascais, Lisboa",
+  :postal-c "2765-087",
+  :x -9.379809987442485,
+  :y 38.704859986298175,
+  :score 97.35,
+  :c 1}}

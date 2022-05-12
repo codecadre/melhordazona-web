@@ -95,4 +95,13 @@
   :cp7 "4700-284",
   :id #uuid "0bab389e-5570-39d6-8bc9-3500c7b681e2",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "0bab389e-5570-39d6-8bc9-3500c7b681e2",
+  :address "Rua Padre Manuel Guimarães n.º 163 C 4700-284 Braga",
+  :address-c "Rua Padre Manuel Guimarães 163, 4700-284, Real, Braga",
+  :postal-c "4700-284",
+  :x -8.439883561589527,
+  :y 41.55683314615559,
+  :score 95.81,
+  :c 2}}

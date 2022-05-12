@@ -95,4 +95,13 @@
   :cp7 "2100-330",
   :id #uuid "45d544f2-dcef-33e9-a41f-48e3eb68bcef",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Coruche"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Coruche"},
+ :geocode
+ {:id #uuid "45d544f2-dcef-33e9-a41f-48e3eb68bcef",
+  :address "Rua do Comércio, nº 18 a 24 2100-330 COUÇO",
+  :address-c "Rua do Comércio 18, 2100-330, Couço, Coruche, Santarém",
+  :postal-c "2100-330",
+  :x -8.288908233248108,
+  :y 38.98831969780861,
+  :score 97.45,
+  :c 1}}

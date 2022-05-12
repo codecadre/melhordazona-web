@@ -95,4 +95,13 @@
   :cp7 "4805-437",
   :id #uuid "7f083766-e5c0-3e18-b1e8-3052c3d72ba2",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+ :geocode
+ {:id #uuid "7f083766-e5c0-3e18-b1e8-3052c3d72ba2",
+  :address "Rua de S. Tiago, Nº 784 4805-437 RONFE",
+  :address-c "Rua de São Tiago 784, 4805-437, Ronfe, Guimarães, Braga",
+  :postal-c "4805-437",
+  :x -8.380336758852074,
+  :y 41.441919191551015,
+  :score 97.19,
+  :c 7}}

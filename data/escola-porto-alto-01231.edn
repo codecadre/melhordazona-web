@@ -96,4 +96,15 @@
   :cp7 "2330-134",
   :id #uuid "749f27ba-a394-3ec1-8c43-24fc347744e0",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"},
+ :geocode
+ {:id #uuid "749f27ba-a394-3ec1-8c43-24fc347744e0",
+  :address
+  "Praça da Comunidade Europeia, Nº 16 Cave, Lote 78 2330-134 ENTRONCAMENTO",
+  :address-c
+  "Praça das Comunidades Europeias 16, 2330-074, Entroncamento, Santarém",
+  :postal-c "2330-074",
+  :x -8.47903135530447,
+  :y 39.4689221460848,
+  :score 95.49,
+  :c 1}}

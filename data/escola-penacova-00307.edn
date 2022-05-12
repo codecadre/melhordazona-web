@@ -95,4 +95,13 @@
   :cp7 "3360-191",
   :id #uuid "eec9a674-cbd1-3755-9cd8-b11fd0e8ae47",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Penacova"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Penacova"},
+ :geocode
+ {:id #uuid "eec9a674-cbd1-3755-9cd8-b11fd0e8ae47",
+  :address "Rua de São João, Nº 25-1ºL 3360-191 PENACOVA",
+  :address-c "Rua de São João 25, 3360-340, Penacova, Coimbra",
+  :postal-c "3360-340",
+  :x -8.283120015767935,
+  :y 40.271159997336184,
+  :score 96.49,
+  :c 5}}

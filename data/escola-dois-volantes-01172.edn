@@ -95,4 +95,13 @@
   :cp7 "4590-571",
   :id #uuid "9916cdc8-9f99-379a-80ae-4d8cabecfd29",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+ :geocode
+ {:id #uuid "9916cdc8-9f99-379a-80ae-4d8cabecfd29",
+  :address "Rua do Estádio, Nº 162 R/C 4590-571 FRAZÃO",
+  :address-c "Rua do Estádio 162, 4590-571, Paços de Ferreira, Porto",
+  :postal-c "4590-571",
+  :x -8.384699965074986,
+  :y 41.26962998941059,
+  :score 95.91,
+  :c 2}}

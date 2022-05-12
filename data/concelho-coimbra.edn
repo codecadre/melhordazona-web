@@ -96,7 +96,16 @@
     :cp7 "3000-343",
     :id #uuid "687bbcba-e6ce-394b-8c8a-f2780124bfce",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:id #uuid "687bbcba-e6ce-394b-8c8a-f2780124bfce",
+    :address "Praça da República,17-1º 3000-343 COIMBRA",
+    :address-c "Praça da República 17, 3000-343, Coimbra",
+    :postal-c "3000-343",
+    :x -8.419679993958994,
+    :y 40.210009990357804,
+    :score 99.41,
+    :c 1}}]
  ["santa-clara-00069"
   {:nec 69,
    :rates
@@ -195,7 +204,14 @@
     :cp7 "3030-393",
     :id #uuid "c471eaa2-f44e-3fc0-ac06-22dda51b93c1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:cp7 "3030-393",
+    :postal-c "3030-393",
+    :x -8.408195026408976,
+    :y 40.19602499445716,
+    :score 100,
+    :c 1}}]
  ["centro-de-portugal-00084"
   {:nec 84,
    :rates
@@ -294,7 +310,16 @@
     :cp7 "3030-775",
     :id #uuid "42a1ec7b-4c23-391e-8c80-6ed863e29be2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:id #uuid "42a1ec7b-4c23-391e-8c80-6ed863e29be2",
+    :address "Rua do Brasil, Nº 274 –A 3030-775 COIMBRA",
+    :address-c "Rua do Brasil 274A, 3030-775, Coimbra",
+    :postal-c "3030-775",
+    :x -8.411990016890684,
+    :y 40.20183000722986,
+    :score 98.35,
+    :c 1}}]
  ["automoveis-do-centro-00096"
   {:nec 96,
    :rates
@@ -393,7 +418,16 @@
     :cp7 "3000-118",
     :id #uuid "5d5d5c7f-5736-38fa-a1b2-ce61c6df7014",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:id #uuid "5d5d5c7f-5736-38fa-a1b2-ce61c6df7014",
+    :address "Largo da Conchada, Nº 11 3000-118 COIMBRA",
+    :address-c "Largo da Conchada 11, 3000-118, Coimbra",
+    :postal-c "3000-118",
+    :x -8.428590040853521,
+    :y 40.2145199990899,
+    :score 98.4,
+    :c 3}}]
  ["rainha-santa-00376"
   {:nec 376,
    :rates
@@ -492,7 +526,16 @@
     :cp7 "3000-171",
     :id #uuid "1aee2c19-8686-3b80-90c2-c3cab78b5476",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:id #uuid "1aee2c19-8686-3b80-90c2-c3cab78b5476",
+    :address "Avª Fernão de Magalhães, 160 –1º 3000-171 COIMBRA",
+    :address-c "Avenida Fernão de Magalhães 160, 3000-171, Coimbra",
+    :postal-c "3000-171",
+    :x -8.432199958913117,
+    :y 40.21118002022206,
+    :score 97.2,
+    :c 2}}]
  ["aurora-00408"
   {:nec 408,
    :rates
@@ -592,7 +635,14 @@
     :cp7 "3000-095",
     :id #uuid "a6a4d978-4417-3212-a003-2802f7343908",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:cp7 "3000-095",
+    :postal-c "3000-095",
+    :x -8.405925039391008,
+    :y 40.21693998026518,
+    :score 100,
+    :c 1}}]
  ["academica-00533"
   {:nec 533,
    :rates
@@ -692,7 +742,14 @@
     :cp7 "3020-306",
     :id #uuid "258b153e-7055-3b77-9ead-3e81162b7826",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:cp7 "3020-306",
+    :postal-c "3020-306",
+    :x -8.39754866827164,
+    :y 40.231943712677776,
+    :score 100,
+    :c 1}}]
  ["siiimpletunas-00626"
   {:nec 626,
    :rates
@@ -763,7 +820,16 @@
     :cp7 "3000-072",
     :id #uuid "d4a52045-b061-3833-8636-b6836c732a5d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:id #uuid "d4a52045-b061-3833-8636-b6836c732a5d",
+    :address "Rua Bernardo de Albuquerque nº 25 r/c 3000-072 COIMBRA",
+    :address-c "Rua Bernardo de Albuquerque 25, 3000-072, Coimbra",
+    :postal-c "3000-072",
+    :x -8.412060005782195,
+    :y 40.2146000043557,
+    :score 98.1,
+    :c 1}}]
  ["ines-de-castro-00664"
   {:nec 664,
    :rates
@@ -863,7 +929,14 @@
     :cp7 "3020-096",
     :id #uuid "16dc78a3-744d-3f77-ae1c-3fc2ac03be2d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:cp7 "3020-096",
+    :postal-c "3020-096",
+    :x -8.435039999166065,
+    :y 40.255209989964584,
+    :score 100,
+    :c 1}}]
  ["s-martinho-do-bispo-00845"
   {:nec 845,
    :rates
@@ -962,7 +1035,17 @@
     :cp7 "3040-300",
     :id #uuid "7596380e-26ed-34d8-b496-27d1db9bd9e9",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:id #uuid "7596380e-26ed-34d8-b496-27d1db9bd9e9",
+    :address "Avª Nova, Nº 67 B 3040-300 COIMBRA",
+    :address-c
+    "Avenida Nova 67B, 3045-232, São Martinho do Bispo, Coimbra",
+    :postal-c "3045-232",
+    :x -8.459880020683585,
+    :y 40.2076799889131,
+    :score 95.89,
+    :c 8}}]
  ["briosa-01112"
   {:nec 1112,
    :rates
@@ -1061,7 +1144,16 @@
     :cp7 "3030-177",
     :id #uuid "238fb06f-2c49-3a7f-b775-6b3fb88a4fb2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:id #uuid "238fb06f-2c49-3a7f-b775-6b3fb88a4fb2",
+    :address "Rua Carlos Seixas nº 163 3030-177 COIMBRA",
+    :address-c "Rua Carlos Seixas 163, 3030-177, Coimbra",
+    :postal-c "3030-177",
+    :x -8.416780023098369,
+    :y 40.19484000289572,
+    :score 98.42,
+    :c 1}}]
  ["solum-01315"
   {:nec 1315,
    :rates
@@ -1161,7 +1253,14 @@
     :cp7 "3030-328",
     :id #uuid "7d89233a-a6ee-336e-bbc9-bcd8a4d443b7",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:cp7 "3030-328",
+    :postal-c "3030-328",
+    :x -8.40458996985322,
+    :y 40.20345999403085,
+    :score 100,
+    :c 1}}]
  ["taveiro-01318"
   {:nec 1318,
    :rates
@@ -1263,7 +1362,18 @@
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
    :obs "lic. 1318 has 2 profiles 'Medieval' and 'Taveiro' in imt.pt",
-   :overwrite/notes nil}]
+   :overwrite/notes nil,
+   :geocode
+   {:id #uuid "102c6d36-273b-3cfa-b2f1-19416f55127b",
+    :address
+    "Rua Soldado José dos Santos Calhau, n.º 14 ; 3045-481 Taveiro",
+    :address-c
+    "Rua Soldado José Santos Calhau 14, 3045-481, Taveiro, Coimbra",
+    :postal-c "3045-481",
+    :x -8.503429958831248,
+    :y 40.20217999359696,
+    :score 96.62,
+    :c 4}}]
  ["universidade-01353"
   {:nec 1353,
    :rates
@@ -1349,7 +1459,14 @@
     :cp7 "3040-262",
     :id #uuid "0eefdbd7-26d2-3f7b-95a0-8b65518d0e3d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:cp7 "3040-262",
+    :postal-c "3040-262",
+    :x -8.436904972622585,
+    :y 40.19904000693887,
+    :score 100,
+    :c 1}}]
  ["quinta-das-flores-01377"
   {:nec 1377,
    :rates
@@ -1420,7 +1537,14 @@
     :cp7 "3030-193",
     :id #uuid "15fd78cf-bb57-3144-8827-579318918c11",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:cp7 "3030-193",
+    :postal-c "3030-193",
+    :x -8.40388002265425,
+    :y 40.193189983346116,
+    :score 100,
+    :c 1}}]
  ["capas-negras-01378"
   {:nec 1378,
    :rates
@@ -1478,4 +1602,11 @@
     :cp7 "3000-337",
     :id #uuid "1ed673f8-79f4-3bec-828b-cc726e551cfe",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :geocode
+   {:cp7 "3000-337",
+    :postal-c "3000-337",
+    :x -8.429414987764062,
+    :y 40.20745501863186,
+    :score 100,
+    :c 1}}]]

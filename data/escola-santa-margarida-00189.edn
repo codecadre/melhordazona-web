@@ -95,4 +95,13 @@
   :cp7 "3830-097",
   :id #uuid "588f141e-b048-3e2a-95cd-8262e35a760e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
+ :geocode
+ {:id #uuid "588f141e-b048-3e2a-95cd-8262e35a760e",
+  :address "Largo do Mercado, Nº 32-B 3830-097 ÍLHAVO",
+  :address-c "Largo do Mercado 32, 3830-754, Barra, Ílhavo, Aveiro",
+  :postal-c "3830-754",
+  :x -8.747006409393672,
+  :y 40.64093127128553,
+  :score 96.04,
+  :c 3}}

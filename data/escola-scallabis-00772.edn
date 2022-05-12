@@ -95,4 +95,13 @@
   :cp7 "2580-010",
   :id #uuid "aafde8e1-e3ae-3041-975c-53e1ba6effba",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
+ :geocode
+ {:id #uuid "aafde8e1-e3ae-3041-975c-53e1ba6effba",
+  :address "Rua do Baco, 16 A 2580 -010 ABRIGADA",
+  :address-c "Rua do Baco 16, 2580-010, Abrigada, Alenquer, Lisboa",
+  :postal-c "2580-010",
+  :x -9.019039966640548,
+  :y 39.144419980768305,
+  :score 99.63,
+  :c 1}}

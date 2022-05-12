@@ -53,4 +53,14 @@
   :cp7 "2380-014",
   :id #uuid "c1e67ec9-667c-3079-a63f-1ff86db12f67",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"},
+ :geocode
+ {:id #uuid "c1e67ec9-667c-3079-a63f-1ff86db12f67",
+  :address "Av. Marquês de Pombal, n.º 382, 2380-014 Alcanena",
+  :address-c
+  "Avenida Marquês de Pombal 382, 2380-014, Alcanena, Santarém",
+  :postal-c "2380-014",
+  :x -8.662299964885364,
+  :y 39.460680000232855,
+  :score 96.59,
+  :c 2}}

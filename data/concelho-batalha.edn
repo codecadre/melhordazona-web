@@ -96,7 +96,14 @@
     :cp7 "2440-042",
     :id #uuid "45c8c2ba-ac91-3c03-a7f6-27f1a3fc78c1",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"},
+   :geocode
+   {:cp7 "2440-042",
+    :postal-c "2440-042",
+    :x -8.825865010184174,
+    :y 39.65310498590259,
+    :score 100,
+    :c 1}}]
  ["bagagem-01012"
   {:nec 1012,
    :rates
@@ -196,7 +203,14 @@
     :cp7 "2440-057",
     :id #uuid "8c01b732-8798-3808-8beb-48fa510aea56",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"},
+   :geocode
+   {:cp7 "2440-057",
+    :postal-c "2440-057",
+    :x -8.818805016958521,
+    :y 39.662270010291735,
+    :score 100,
+    :c 1}}]
  ["riachense-01163"
   {:nec 1163,
    :rates
@@ -296,4 +310,15 @@
     :cp7 "2495-032",
     :id #uuid "ff047d01-627d-3a91-8c82-e9047446b96f",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"},
+   :geocode
+   {:id #uuid "ff047d01-627d-3a91-8c82-e9047446b96f",
+    :address
+    "Estrada do Vale de Ourém, 18, Fr. B - R/C Esq, 2495-032 São Mamede",
+    :address-c
+    "Estrada de Vale de Ourém 18, 2495-032, São Mamede, Batalha, Leiria",
+    :postal-c "2495-032",
+    :x -8.718559969551194,
+    :y 39.623989984218014,
+    :score 98.26,
+    :c 1}}]]

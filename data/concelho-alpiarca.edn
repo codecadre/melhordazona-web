@@ -96,7 +96,17 @@
     :cp7 "2090-144",
     :id #uuid "d0fcba1f-c5ba-3766-bbcc-acd6179941f0",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"},
+   :geocode
+   {:id #uuid "d0fcba1f-c5ba-3766-bbcc-acd6179941f0",
+    :address "Rua Silvestre Bernartdo Lima, 16, 2090-144 ALPIARÇA",
+    :address-c
+    "Rua Silvestre Bernardo Lima 16, 2090-144, Alpiarça, Santarém",
+    :postal-c "2090-144",
+    :x -8.584373373393934,
+    :y 39.25884795360725,
+    :score 99.37,
+    :c 1}}]
  ["jose-relvas-00625"
   {:nec 625,
    :rates
@@ -154,4 +164,15 @@
     :cp7 "2080",
     :id #uuid "600f2917-3883-3dfd-8b0e-ea8ed552f378",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"},
+   :geocode
+   {:id #uuid "600f2917-3883-3dfd-8b0e-ea8ed552f378",
+    :address
+    "Rua de Guilherme Nunes Godinho, Nº 372, Loja 3 2080 ALPIARÇA",
+    :address-c
+    "Rua Dr. Guilherme Nunes Godinho 372, 2080-562, Fazendas de Almeirim, Almeirim, Santarém",
+    :postal-c "2080-562",
+    :x -8.587063968849934,
+    :y 39.17949822181684,
+    :score 96.94,
+    :c 1}}]]

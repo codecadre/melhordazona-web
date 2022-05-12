@@ -95,4 +95,14 @@
   :cp7 "2745-172",
   :id #uuid "b780525e-cab7-3014-8183-84949d5c52a6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
+ :geocode
+ {:id #uuid "b780525e-cab7-3014-8183-84949d5c52a6",
+  :address "Av. Miguel Bombarda, Nº24 2745-172 QUELUZ",
+  :address-c
+  "Avenida Doutor Miguel Bombarda 24, 2745-172, Pendão, Sintra, Lisboa",
+  :postal-c "2745-172",
+  :x -9.257070007388052,
+  :y 38.75959000026788,
+  :score 96.73,
+  :c 1}}

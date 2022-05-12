@@ -95,4 +95,13 @@
   :cp7 "3850-003",
   :id #uuid "317f17b2-2e8a-3109-85ce-fcf09f3a65a3",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"},
+ :geocode
+ {:id #uuid "317f17b2-2e8a-3109-85ce-fcf09f3a65a3",
+  :address "Rua 1º de Maio, 1º F 3850-003 ALBERGARIA A VELHA",
+  :address-c "Rua 1 de Maio 1º, 3850-003, Albergaria-a-Velha, Aveiro",
+  :postal-c "3850-003",
+  :x -8.479424655277292,
+  :y 40.68996485553297,
+  :score 99.73,
+  :c 2}}

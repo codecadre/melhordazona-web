@@ -95,4 +95,13 @@
   :cp7 "5090-135",
   :id #uuid "b1bba656-0bf5-30d4-98e4-9f69e485bf75",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mur%C3%A7a"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mur%C3%A7a"},
+ :geocode
+ {:id #uuid "b1bba656-0bf5-30d4-98e4-9f69e485bf75",
+  :address "Rua Frei Diogo de Murça 5090-135 MURÇA",
+  :address-c "Rua Frei Dom Diogo de Murça, 5090-135, Murça, Vila Real",
+  :postal-c "5090-135",
+  :x -7.453859148644214,
+  :y 41.40621038097914,
+  :score 99.59,
+  :c 1}}

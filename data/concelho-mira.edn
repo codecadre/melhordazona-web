@@ -96,4 +96,13 @@
     :cp7 "3070-141",
     :id #uuid "6fb54d8d-58dc-3f49-abb3-a6a698961776",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Mira"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Mira"},
+   :geocode
+   {:id #uuid "6fb54d8d-58dc-3f49-abb3-a6a698961776",
+    :address "Avª Central, Nº 30 R/C - Lagoa 3070-141 MIRA",
+    :address-c "Avenida Central 30, 3070-141, Lagoa, Mira, Coimbra",
+    :postal-c "3070-141",
+    :x -8.74332066377722,
+    :y 40.43523552777937,
+    :score 97.76,
+    :c 5}}]]

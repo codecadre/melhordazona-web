@@ -96,7 +96,16 @@
     :cp7 "2900-667",
     :id #uuid "244f11ca-0571-34f7-b05a-ab1d58e0f9c8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "244f11ca-0571-34f7-b05a-ab1d58e0f9c8",
+    :address "Avª 22 de Dezembro, 52 2900-667 SETÙBAL",
+    :address-c "Avenida 22 de Dezembro 52, 2900-667, Setúbal",
+    :postal-c "2900-667",
+    :x -8.89392002899848,
+    :y 38.525089998042716,
+    :score 97.51,
+    :c 1}}]
  ["cortes-de-setubal-00547"
   {:nec 547,
    :rates
@@ -195,7 +204,16 @@
     :cp7 "2900-964",
     :id #uuid "b93a80b3-8137-3127-9f8f-f44691637c0e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "b93a80b3-8137-3127-9f8f-f44691637c0e",
+    :address "Av. Luísa Todi, n 289 2900-964 Setúbal",
+    :address-c "Avenida Luísa Todi 289, 2900-464, Setúbal",
+    :postal-c "2900-464",
+    :x -8.899719970719758,
+    :y 38.52159998310805,
+    :score 98.93,
+    :c 3}}]
  ["ecodauto-00724"
   {:nec 724,
    :rates
@@ -294,7 +312,16 @@
     :cp7 "2910-389",
     :id #uuid "ef328f62-3dd8-3fbc-8511-f1ef93ff7a92",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "ef328f62-3dd8-3fbc-8511-f1ef93ff7a92",
+    :address "Rua de Aljubarrota nº 22 B 2910-389 SETÚBAL",
+    :address-c "Rua de Aljubarrota 22B, 2910-389, Setúbal",
+    :postal-c "2910-389",
+    :x -8.869029967518998,
+    :y 38.53293001117788,
+    :score 98.42,
+    :c 1}}]
  ["bonfim-00763"
   {:nec 763,
    :rates
@@ -394,7 +421,14 @@
     :cp7 "2900-406",
     :id #uuid "6f266680-45e2-3917-bfc2-8e389f7f5a22",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:cp7 "2900-406",
+    :postal-c "2900-406",
+    :x -8.889400003892092,
+    :y 38.53157000547813,
+    :score 100,
+    :c 1}}]
  ["manobras-00771"
   {:nec 771,
    :rates
@@ -493,7 +527,16 @@
     :cp7 "2910-710",
     :id #uuid "0aabfa3d-324b-3463-9503-bf39478e9d76",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "0aabfa3d-324b-3463-9503-bf39478e9d76",
+    :address "Avª das Descobertas lote 5 letra A 2910-710 SETÚBAL",
+    :address-c "Avenida das Descobertas 5, 2910-711, Setúbal",
+    :postal-c "2910-711",
+    :x -8.866380028830093,
+    :y 38.53359000223389,
+    :score 95.29,
+    :c 1}}]
  ["3-as-01144"
   {:nec 1144,
    :rates
@@ -593,7 +636,17 @@
     :cp7 "2910-238",
     :id #uuid "309f9d74-e9a1-3d79-be85-12caf00509da",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "309f9d74-e9a1-3d79-be85-12caf00509da",
+    :address
+    "Rua Fernando Motrena, Lote 1 R/C Dt, Loja A/C-Manteigadas 2910-238 SETÚBAL",
+    :address-c "Rua Fernando Motrena 1, 2910-238, Manteigada, Setúbal",
+    :postal-c "2910-238",
+    :x -8.854770003284699,
+    :y 38.52310000850031,
+    :score 97.66,
+    :c 1}}]
  ["golfinho-01176"
   {:nec 1176,
    :rates
@@ -664,7 +717,14 @@
     :cp7 "2900-001",
     :id #uuid "7af795c0-6fe4-34d3-9a98-98d3089d71d8",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:cp7 "2900-001",
+    :postal-c "2900-001",
+    :x -8.903740015301736,
+    :y 38.51909999666694,
+    :score 100,
+    :c 1}}]
  ["andrade-de-azeitao-01202"
   {:nec 1202,
    :rates
@@ -764,4 +824,15 @@
     :cp7 "2925-598",
     :id #uuid "c678678d-414a-3c20-a0b4-c12a47b08d37",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:id #uuid "c678678d-414a-3c20-a0b4-c12a47b08d37",
+    :address
+    "Rua Sociedade Filarmónica Perpétua Azeitonense, Nº 5 2925-598 AZEITÃO",
+    :address-c
+    "Rua da Soc. Fil. Perpétua Azeitonense 5, 2925-510, Vila Nogueira de Azeitão, Setúbal",
+    :postal-c "2925-510",
+    :x -9.025883940727644,
+    :y 38.525931221812115,
+    :score 95.89,
+    :c 1}}]]

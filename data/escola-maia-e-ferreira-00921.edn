@@ -96,4 +96,15 @@
   :cp7 "6100-266",
   :id #uuid "9abdd0d2-f7be-3327-a9b5-6611172e46cb",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
+ :geocode
+ {:id #uuid "9abdd0d2-f7be-3327-a9b5-6611172e46cb",
+  :address
+  "Rua dos Pinheiros, lote 2 - Apartado 50 6100-266 CERNACHE BONJARDIM",
+  :address-c
+  "Rua dos Pinheiros 2, 6100-266, Cernache do Bonjardim, Sertã, Castelo Branco",
+  :postal-c "6100-266",
+  :x -8.192669976592384,
+  :y 39.81095998539169,
+  :score 97.89,
+  :c 2}}

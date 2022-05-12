@@ -95,4 +95,13 @@
   :cp7 "4710-057",
   :id #uuid "b564b2d2-1c6c-3abb-9a98-081d7828580a",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+ :geocode
+ {:id #uuid "b564b2d2-1c6c-3abb-9a98-081d7828580a",
+  :address "Rua da Universidade, Nº 46 4710 - 057 BRAGA",
+  :address-c "Rua da Universidade 46, 4710-057, Gualtar, Braga",
+  :postal-c "4710-057",
+  :x -8.393240034763352,
+  :y 41.56265998331955,
+  :score 98.4,
+  :c 2}}

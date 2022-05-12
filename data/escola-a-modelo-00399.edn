@@ -95,4 +95,14 @@
   :cp7 "4505-473",
   :id #uuid "3d5a4fc9-636e-34a2-834c-a27b41fc038e",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
+ :geocode
+ {:id #uuid "3d5a4fc9-636e-34a2-834c-a27b41fc038e",
+  :address "Rua do Comércio,Nº 1094 - 1ºA 4505-473 SANTA MARIA FEIRA",
+  :address-c
+  "Rua do Comércio 1094, 4505-473, Corga do Lobão, Santa Maria da Feira, Aveiro",
+  :postal-c "4505-473",
+  :x -8.48463999502576,
+  :y 40.99056998779557,
+  :score 97.59,
+  :c 7}}

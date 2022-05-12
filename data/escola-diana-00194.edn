@@ -95,4 +95,13 @@
   :cp7 "7000-601",
   :id #uuid "4635399f-a4d4-374a-9aad-3e0c0989de90",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
+ :geocode
+ {:id #uuid "4635399f-a4d4-374a-9aad-3e0c0989de90",
+  :address "Rua do Menino de Jesus, 35 7000-601 ÉVORA",
+  :address-c "Rua Menino Jesus 35, 7000-601, Évora",
+  :postal-c "7000-601",
+  :x -7.908729989039131,
+  :y 38.57335999541607,
+  :score 99.99,
+  :c 1}}

@@ -96,4 +96,14 @@
   :cp7 "8600-707",
   :id #uuid "6c709059-ec5f-32ca-9f97-5ecd2203561f",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
+ :geocode
+ {:id #uuid "6c709059-ec5f-32ca-9f97-5ecd2203561f",
+  :address
+  "Rua Palos de La Frontera, Lote 14, Loja A - 8600-707 LAGOS",
+  :address-c "Rua Palos de la Frontera 14, 8600-707, Lagos, Faro",
+  :postal-c "8600-707",
+  :x -8.680519417729204,
+  :y 37.11059631554357,
+  :score 98.9,
+  :c 1}}

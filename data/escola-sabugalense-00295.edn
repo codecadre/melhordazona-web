@@ -95,4 +95,13 @@
   :cp7 "6320-380",
   :id #uuid "430c148a-e451-3934-bdd7-9b657bdff2d6",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Sabugal"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Sabugal"},
+ :geocode
+ {:id #uuid "430c148a-e451-3934-bdd7-9b657bdff2d6",
+  :address "Rua Luís de Camões, nº26 -1º Dtº 6320-380 SABUGAL",
+  :address-c "Rua Luís de Camões 26, 6320-380, Sabugal, Guarda",
+  :postal-c "6320-380",
+  :x -7.087640011258259,
+  :y 40.35205001493546,
+  :score 96.68,
+  :c 1}}
