@@ -9,7 +9,7 @@
       slurp
       edn/read-string));;TODO add name to keyword
 
-;;unique ids?
+;;unique imt-profile ids?
 (assert (= (count imt-profiles) (count (set (map :id imt-profiles)))))
 
 (def nec->imt-profiles
@@ -180,7 +180,7 @@
        (sort #(compare (:score %2) (:score %1)))))
 
 
-(let [f "./recepies/no-geocode.txt"
+(let [f "./recepies/no-geocode"
       d (->> db
              db-massaged
              db-geocoded
@@ -189,4 +189,5 @@
              (remove #(:overwrite %))
              (filter #(nil? (:score %))))]
   (println (format "%s imt profiles with no geocoding." (count d)))
-  (spit f (with-out-str (pprint/print-table '(:id :address :concelho :k) d))))
+  (spit (str f ".txt") (with-out-str (pprint/print-table '(:id :address :concelho :k) d)))
+  #_(spit (str f ".edn") (with-out-str (pprint/pprint  d))))
