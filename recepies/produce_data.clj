@@ -170,7 +170,8 @@
                :score (:score geocode)
                :cp7 (:cp7 geocode)
                :address (:address imt-profile)
-               :address-c (:address-c geocode)}))
+               :address-c (:address-c geocode)
+               :overwrite (:overwrite geocode)}))
        (sort #(compare (:score %2) (:score %1)))))
 
 
@@ -180,6 +181,7 @@
              db-geocoded
              (remove #(nil? (:imt-profile (last %))))
              geocoding-db-print
+             (remove #(:overwrite %))
              (filter #(nil? (:score %))))]
   (println (format "%s imt profiles with no geocoding." (count d)))
   (spit f (with-out-str (pprint/print-table '(:id :address :concelho :k) d))))

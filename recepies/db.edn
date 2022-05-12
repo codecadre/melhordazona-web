@@ -56041,7 +56041,12 @@
     :cp7 "5300-254",
     :id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
+   :geocode
+   {:overwrite true,
+    :obs "Manual coords",
+    :x -6.7631975537083715,
+    :y 41.797498753108506}}]
  ["douriense-00723"
   {:nec 723,
    :rates
