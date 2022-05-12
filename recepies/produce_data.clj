@@ -104,12 +104,18 @@
 
 (def cp7-geocoded (-> "recepies/cp7.edn" slurp edn/read-string))
 (def address-geocoded (-> "recepies/address-geocode.edn" slurp edn/read-string))
+(def overwrite-geocodes (-> "recepies/geocode-overwrite.edn" slurp edn/read-string))
 
 (defn imt-id->geocode [id]
   (->> address-geocoded
        (filter (fn [a]
                  (= id (:id a))))
        first))
+
+(defn imt-id->overwrite-geocode [id]
+  (get overwrite-geocodes id))
+
+#_(imt-id->overwrite-geocode #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe")
 
 ;;(keys (imt-id->geocode #uuid "0f7182e1-9ade-3a01-95c8-f5e495a01bc4"))(:id :address :address-c :postal-c :x :y :score :c)
 
@@ -125,11 +131,13 @@
   (reduce (fn [acc [k {:keys [imt-profile] :as s}]]
             (if imt-profile
               (let [address-code (imt-id->geocode (:id imt-profile))
-                    cp7-code (cp7->geocode (:cp7 imt-profile))]
-               (cond
-                 (and (:score address-code) (> (:score address-code) 95)) (conj acc [k (assoc s :geocode address-code)])
-                 (and (:score cp7-code) (> (:score cp7-code) 99)) (conj acc [k (assoc s :geocode cp7-code)])
-                 :else (conj acc [k s])))
+                    cp7-code (cp7->geocode (:cp7 imt-profile))
+                    overwrite-code (imt-id->overwrite-geocode (:id imt-profile))]
+                (cond
+                  overwrite-code (conj acc [k (assoc s :geocode overwrite-code)])
+                  (and (:score address-code) (> (:score address-code) 95)) (conj acc [k (assoc s :geocode address-code)])
+                  (and (:score cp7-code) (> (:score cp7-code) 99)) (conj acc [k (assoc s :geocode cp7-code)])
+                  :else (conj acc [k s])))
               (conj acc [k s]))) '() db))
 
 (let [f "./recepies/db.edn"
@@ -158,6 +166,7 @@
        (map (fn [[k {:keys [geocode imt-profile]}]]
               {:id (:id imt-profile)
                :k k
+               :concelho (:concelho imt-profile)
                :score (:score geocode)
                :cp7 (:cp7 geocode)
                :address (:address imt-profile)
@@ -173,4 +182,4 @@
              geocoding-db-print
              (filter #(nil? (:score %))))]
   (println (format "%s imt profiles with no geocoding." (count d)))
-  (spit f (with-out-str (pprint/print-table '(:id :address) d))))
+  (spit f (with-out-str (pprint/print-table '(:id :address :concelho :k) d))))

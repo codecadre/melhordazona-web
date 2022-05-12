@@ -75,6 +75,23 @@
         (Thread/sleep 5000)
         (single-non-stored a)))))
 
+(let [id #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe"
+      address "Praça da Sociedade Filarmónica Recreio Alverquense nº12 - Alverca do Ribatejo"
+      r (single-non-stored {:address address})
+      candidates (get r "candidates")
+      address-c (-> candidates first (get "address"))
+      postal-c  (-> candidates first (get "attributes") (get "Postal"))
+      x (-> candidates first (get "location") (get "x"))
+      y (-> candidates first (get "location") (get "y"))
+      score (-> candidates first (get "score"))]
+  {:id id
+   :address address
+   :address-c address-c
+   :postal-c postal-c
+   :x x
+   :y y
+   :score score
+   :c (count candidates)})
 
 (comment
   (single-non-stored {:postal "4200-163"})
@@ -106,7 +123,7 @@
 
 #_(non-stored-address :address id->address)
 
-(let [d (doall (non-stored-address :address id->address))
+#_(let [d (doall (non-stored-address :address id->address))
       f "recepies/address-geocode"
       ks '(:address :address-c :postal-c :c :score :x :y :id)]
   (spit (str f ".txt") (with-out-str (pprint/print-table ks d)))
@@ -129,7 +146,7 @@
                         :c (count candidates)})))
     (sort #(compare (:score %2) (:score %1)) @a)))
 
-(let [d (doall (non-stored-postal cp7))
+#_(let [d (doall (non-stored-postal cp7))
       f "recepies/cp7"
       ks '(:cp7 :postal-c :c :score :x :y)]
   (spit (str f ".txt") (with-out-str (pprint/print-table ks d)))
