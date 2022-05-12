@@ -31315,7 +31315,16 @@
     :cp7 "4520-258",
     :id #uuid "1cd0898e-0cc2-32ea-a279-8440c41b9ea2",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
+   :geocode
+   {:id #uuid "1cd0898e-0cc2-32ea-a279-8440c41b9ea2",
+    :address "Rua 21, n 410; 4520-258 Espinho",
+    :address-c "Rua 21 410, 4500-267, Espinho, Aveiro",
+    :postal-c "4500-267",
+    :x -8.640883737503026,
+    :y 41.00811119885399,
+    :score 96.96,
+    :c 1}}]
  ["a-desportiva-palacio-00464"
   {:nec 464,
    :rates
@@ -101373,7 +101382,16 @@
     :cp7 "4700-586",
     :id #uuid "f92827bd-c161-315b-a674-179dc87d2b30",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
+   :geocode
+   {:id #uuid "f92827bd-c161-315b-a674-179dc87d2b30",
+    :address "Avenida de Covedêlo, N 7 4700-586 CELEIRÓS",
+    :address-c "Avenida do Covedêlo 7, 4705-401, Celeirós, Braga",
+    :postal-c "4705-401",
+    :x -8.452660016926302,
+    :y 41.512549990561126,
+    :score 97.94,
+    :c 1}}]
  ["berlenga-01211"
   {:nec 1211,
    :rates
