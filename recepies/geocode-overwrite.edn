@@ -111,5 +111,23 @@
   :y 41.55178999600551,
   :score 100,
   :c 1}
+ {:id #uuid "32918da9-ac55-3221-8af4-56349a93cef8",
+  :address "Avenida Arcebispo D. Gaspar de Bragança, n 30 BARQUEIROS",
+  :address-c
+  "Avenida Arcebispo Dom Gaspar de Bragança, 4740-674, Necessidades, Barcelos, Braga",
+  :postal-c "4740-674",
+  :x -8.717107655062142,
+  :y 41.483030491879035,
+  :score 91.89,
+  :c 1}
+ {:id #uuid "cc30a675-a38f-3719-9a97-423d856c48af",
+  :address "Avª D. Nuno Álvares Pereira n 76 A 2735 CACÉM",
+  :address-c
+  "Avenida Dom Nuno Álvares Pereira 76, 2735-146, Agualva, Sintra, Lisboa",
+  :postal-c "2735-146",
+  :x -9.292490002369732,
+  :y 38.770170015641554,
+  :score 95.44,
+  :c 1}
 
  )
