@@ -113,7 +113,12 @@
        first))
 
 (defn imt-id->overwrite-geocode [id]
-  (get overwrite-geocodes id))
+  (get (->> overwrite-geocodes
+            (group-by :id)
+            (map (fn [[k v]]
+                   [k (first v)]))
+            (into {}))
+       id))
 
 #_(imt-id->overwrite-geocode #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe")
 

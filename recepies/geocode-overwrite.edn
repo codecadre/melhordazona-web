@@ -1,67 +1,71 @@
-{
- #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe" {:id #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe",
-                                               :address
-                                               "Praça da Sociedade Filarmónica Recreio Alverquense nº12 - Alverca do Ribatejo",
-                                               :address-c
-                                               "Praça Sociedade Fil. e Rec.a Alverquense, 2615-391, Alverca do Ribatejo, Vila Franca de Xira, Lisboa",
-                                               :postal-c "2615-391",
-                                               :x -9.040306654872065,
-                                               :y 38.89075998980737,
-                                               :score 74.69,
-                                               :c 2}
- #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d" {:overwrite true
-                                               :obs "Manual coords"
-                                               :x -6.7631975537083715
-                                               :y 41.797498753108506}
- #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0" {:overwrite true
-                                               :obs "Manual coords"
-                                               :x -8.140365830925857
-                                               :y 41.3155012036505}
- #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35" {:overwrite true
-                                               :obs "Manual coords"
-                                               :x -8.422375527411608
-                                               :y 40.94577167143348}
- #uuid "999d90d2-1b82-30ae-87ec-7429780aa84b" {:id #uuid "999d90d2-1b82-30ae-87ec-7429780aa84b",
-                                               :overwrite true
-                                               :obs "manually removed a bit of the address."
-                                               :address
-                                               "Parque das Amoreiras I, Av. 25 de Abril, Lote 10/11 8000-546 FARO",
-                                               :address-c "Avenida 25 de Abril 10, 8005-102, Faro",
-                                               :postal-c "8005-102",
-                                               :x -7.9303512395930404,
-                                               :y 37.030079036750756,
-                                               :score 94.07,
-                                               :c 1}
- #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f" {:id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
-                                               :overwrite true
-                                               :obs "removed some bits of the address. easy to find."
-                                               :address "Tapada do Chafariz, Lt 7  2200 ABRANTES",
-                                               :address-c "Travessa do Chafariz 7, 2200-443, Abrantes, Santarém",
-                                               :postal-c "2200-443",
-                                               :x -8.200040016416466,
-                                               :y 39.46220999092898,
-                                               :score 95.15,
-                                               :c 4}
+(
+ {:id #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe",
+  :address
+  "Praça da Sociedade Filarmónica Recreio Alverquense nº12 - Alverca do Ribatejo",
+  :address-c
+  "Praça Sociedade Fil. e Rec.a Alverquense, 2615-391, Alverca do Ribatejo, Vila Franca de Xira, Lisboa",
+  :postal-c "2615-391",
+  :x -9.040306654872065,
+  :y 38.89075998980737,
+  :score 74.69,
+  :c 2}
+ {:id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d"
+  :overwrite true
+  :obs "Manual coords"
+  :x -6.7631975537083715
+  :y 41.797498753108506}
+ {:id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0"
+  :overwrite true
+  :obs "Manual coords"
+  :x -8.140365830925857
+  :y 41.3155012036505}
+ {:id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35"
+  :overwrite true
+  :obs "Manual coords"
+  :x -8.422375527411608
+  :y 40.94577167143348}
+ {:id #uuid "999d90d2-1b82-30ae-87ec-7429780aa84b",
+  :overwrite true
+  :obs "manually removed a bit of the address."
+  :address
+  "Parque das Amoreiras I, Av. 25 de Abril, Lote 10/11 8000-546 FARO",
+  :address-c "Avenida 25 de Abril 10, 8005-102, Faro",
+  :postal-c "8005-102",
+  :x -7.9303512395930404,
+  :y 37.030079036750756,
+  :score 94.07,
+  :c 1}
+ {:id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
+  :overwrite true
+  :obs "removed some bits of the address. easy to find."
+  :address "Tapada do Chafariz, Lt 7  2200 ABRANTES",
+  :address-c "Travessa do Chafariz 7, 2200-443, Abrantes, Santarém",
+  :postal-c "2200-443",
+  :x -8.200040016416466,
+  :y 39.46220999092898,
+  :score 95.15,
+  :c 4}
 
- #uuid "b9516ee7-f41e-3875-bc88-209305e90c62" {:id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
-                                               :overwrite true
-                                               :obs "removed some bits of the address. easy to find."
-                                               :address "Rua Álvaro Campos, nº 1 2675-768 RAMADA",
-                                               :address-c
-                                               "Rua Álvaro de Campos 1, 2620-258, Bons Dias, Odivelas, Lisboa",
-                                               :postal-c "2620-258",
-                                               :x -9.188270005019518,
-                                               :y 38.80638000499755,
-                                               :score 93.84,
-                                               :c 1}
- #uuid "f2ddda32-ed37-30c0-bae4-938e184aff5d" {:id #uuid "f2ddda32-ed37-30c0-bae4-938e184aff5d",
-                                               :address
-                                               "Zona Industrial - Horta das Figueiras- Rua C 7005-316 ÉVORA",
-                                               :address-c "Zona Industrial Horta das Figueiras",
-                                               :postal-c "7005-212",
-                                               :x -7.914289999999937,
-                                               :y 38.55876000000006,
-                                               :score 94.27,
-                                               :c 1}
+ {:id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
+  :overwrite true
+  :obs "removed some bits of the address. easy to find."
+  :address "Rua Álvaro Campos, nº 1 2675-768 RAMADA",
+  :address-c
+  "Rua Álvaro de Campos 1, 2620-258, Bons Dias, Odivelas, Lisboa",
+  :postal-c "2620-258",
+  :x -9.188270005019518,
+  :y 38.80638000499755,
+  :score 93.84,
+  :c 1}
+ {:id #uuid "f2ddda32-ed37-30c0-bae4-938e184aff5d",
+  :address
+  "Zona Industrial - Horta das Figueiras- Rua C 7005-316 ÉVORA",
+  :address-c "Zona Industrial Horta das Figueiras",
+  :postal-c "7005-212",
+  :x -7.914289999999937,
+  :y 38.55876000000006,
+  :score 94.27,
+  :c 1}
 
- }
+
+ )

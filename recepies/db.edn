@@ -56054,7 +56054,8 @@
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
-   {:overwrite true,
+   {:id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
+    :overwrite true,
     :obs "Manual coords",
     :x -6.7631975537083715,
     :y 41.797498753108506}}]
@@ -101976,7 +101977,8 @@
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
    :geocode
-   {:overwrite true,
+   {:id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35",
+    :overwrite true,
     :obs "Manual coords",
     :x -8.422375527411608,
     :y 40.94577167143348}}]
@@ -104592,7 +104594,8 @@
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
    :geocode
-   {:overwrite true,
+   {:id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
+    :overwrite true,
     :obs "Manual coords",
     :x -8.140365830925857,
     :y 41.3155012036505}}]
