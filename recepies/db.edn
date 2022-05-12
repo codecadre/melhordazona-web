@@ -62342,7 +62342,17 @@
     :cp7 nil,
     :id #uuid "b52d04d9-5881-3905-8fc2-80556b28ce50",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
+   :geocode
+   {:id #uuid "b52d04d9-5881-3905-8fc2-80556b28ce50",
+    :address "Rua da Fraternidade 40  barcelos",
+    :address-c
+    "Rua da Fraternidade 40, 4750-744, Souto Casal, Barcelos, Braga",
+    :postal-c "4750-744",
+    :x -8.582410034063457,
+    :y 41.55178999600551,
+    :score 100,
+    :c 1}}]
  ["dinamica-00790"
   {:nec 790,
    :rates
