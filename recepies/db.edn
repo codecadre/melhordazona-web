@@ -50878,7 +50878,17 @@
     :cp7 "8700",
     :id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
+   :geocode
+   {:id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
+    :address "Avenida dos Bombeiros Municipais n 30 8700 OLHÃO",
+    :address-c
+    "Avenida dos Bombeiros Municipais de Olhão 30, 8700-312, Olhão, Faro",
+    :postal-c "8700-312",
+    :x -7.8468500021132,
+    :y 37.030129999402035,
+    :score 97.61,
+    :c 1}}]
  ["a-cereja-00668"
   {:nec 668,
    :rates
@@ -83480,7 +83490,16 @@
     :cp7 nil,
     :id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
+   :geocode
+   {:id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
+    :address "Rua Manuel Peixoto, N 211 R/C Creixomil",
+    :address-c "Rua Manuel Peixoto 211, 4835-070, Guimarães, Braga",
+    :postal-c "4835-070",
+    :x -8.302399985633059,
+    :y 41.436199988907305,
+    :score 95.01,
+    :c 1}}]
  ["estrela-do-arda-01026"
   {:nec 1026,
    :rates
@@ -116403,7 +116422,16 @@
     :cp7 "3010-456",
     :id #uuid "9b55aa64-3328-37cd-a13a-558ad85b496e",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
+   :geocode
+   {:id #uuid "9b55aa64-3328-37cd-a13a-558ad85b496e",
+    :address "Rua Albergaria dos Doze, n 55, 3010-456 POMBAL",
+    :address-c "Rua Albergaria dos Doze 55, 3100-456, Pombal, Leiria",
+    :postal-c "3100-456",
+    :x -8.629164792890265,
+    :y 39.910315042319866,
+    :score 98.06,
+    :c 4}}]
  ["star-01371"
   {:nec 1371,
    :rates
