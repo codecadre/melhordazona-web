@@ -57,11 +57,13 @@
   (let [header (.querySelector js/document "header")
         footer (.querySelector js/document "footer")
         cta (.querySelector js/document ".cta")
-        sub-cta (.querySelector js/document ".sub-cta")]
+        sub-cta (.querySelector js/document ".sub-cta")
+        search-wrapper (.querySelector js/document ".search-wrapper")]
     (.classList.add footer "mobile-hidden")
     (.classList.add header "mobile-hidden")
     (.classList.add cta "mobile-hidden")
-    (.classList.add sub-cta "mobile-hidden")))
+    (.classList.add sub-cta "mobile-hidden")
+    (.classList.add search-wrapper "search-wrapper-to-the-top")))
 
 (defn autocomplete-cmp []
   (let [input (.querySelector js/document ".search-wrapper .search-input input" )]
