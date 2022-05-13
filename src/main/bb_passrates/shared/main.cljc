@@ -48,11 +48,12 @@
 
 (defn query-string->map [query-string]
   (when (not (empty? query-string))
-      (->> (clj-str/split query-string #"&")
-           (filter #(clj-str/includes? % "="))
-           (map #(clj-str/split % #"="))
-           (reduce (fn [acc [k v]]
-                     (assoc acc (keyword "url" k) v)) {}))))
+    (update (->> (clj-str/split query-string #"&")
+                 (filter #(clj-str/includes? % "="))
+                 (map #(clj-str/split % #"="))
+                 (reduce (fn [acc [k v]]
+                           (assoc acc (keyword "url" k) v)) {}))
+            :url/lang #(when % (keyword %)))))
 
 (defn url->req-map
   "parses query params and build a request map"
@@ -61,3 +62,13 @@
         req-method (keyword (clj-str/lower-case req-method))]
     (merge {:uri uri :request-method req-method}
            (query-string->map query-string))))
+
+#?(:clj
+   (def req
+     (let [request-uri (System/getenv "REQUEST_URI")
+           query-string (System/getenv "QUERY_STRING")
+           request-method (System/getenv "REQUEST_METHOD")
+           req (url->req-map request-uri request-method query-string)]
+       (if (:url/lang req)
+         req
+         (assoc req :url/lang :pt)))))

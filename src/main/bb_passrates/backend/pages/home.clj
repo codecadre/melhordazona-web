@@ -1,26 +1,27 @@
 (ns bb-passrates.backend.pages.home
   (:require [bb-passrates.backend.templates.template :as tmp]
             [hiccup2.core :refer [html]]
-            [cheshire.core :as json]))
+            [cheshire.core :as json]
+            [bb-passrates.shared.main :refer [req]]
+            [bb-passrates.shared.copy :refer [copy]]))
+
+(def lang (:url/lang req))
 
 (def content
-  {:title "Avaliações Abertas - Open Pass Rates"
-   :subtitle
-   (str
-    "Avaliações Abertas: Taxas de aprovação de condução. Dados do IMT."
-    "- Open Pass Rates: Driving school pass rates in Portugal. - Government data.")})
+  {:title (copy [:meta/title lang])
+   :subtitle (copy [:meta/subtitle lang])})
 
 (def autocomplete
   [:div.search-wrapper
    [:div.search-input
-    [:input.u-full-width {:type "text" :placeholder "Pesquisa por cidade/distrito/municipio"}]
+    [:input.u-full-width {:type "text" :placeholder (copy [:autocomplete/placeholder lang])}]
     [:div.autocomplete-box]]
-   [:p.char-limit.hidden "Escreve duas letras no mínimo"]])
+   [:p.char-limit.hidden (copy [:autocomplete/char-limit lang])]])
 
-(defn page [url-map]
+(defn page [req]
   [:html
    (tmp/header
-    (merge content url-map)
+    (merge content req)
     [:main
      [:div.container
       [:form

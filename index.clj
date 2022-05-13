@@ -6,7 +6,7 @@
             [bb-passrates.backend.pages.404 :as not-found]
             [bb-passrates.backend.pages.lists :as lists]
             [hiccup2.core :refer [html]]
-            [bb-passrates.shared.main :refer [url->req-map]]
+            [bb-passrates.shared.main :refer [req]]
             [clojure.core.match :refer [match]]
             [clojure.string :as str]))
 
@@ -18,21 +18,9 @@
   {:header header-404
    :page (not-found/page)})
 
-(def request-uri (System/getenv "REQUEST_URI"))
-(def query-string (System/getenv "QUERY_STRING"))
-(def request-method (System/getenv "REQUEST_METHOD"))
-
-(def req (url->req-map request-uri request-method query-string))
 
 (defn cities-handler [req]
   (let [schools (lists/school-list "city" (:city req))]
-    (if (empty? schools)
-      resp-404
-      {:page (lists/page req schools)
-       :header html-header})))
-
-(defn municipio-handler [req]
-  (let [schools (lists/school-list "municipality" (:municipality req))]
     (if (empty? schools)
       resp-404
       {:page (lists/page req schools)
@@ -68,7 +56,6 @@
            [:get ["echo" id]] (echo-handler (assoc req :id id))
            [:get []] (home-handler req)
            [:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
-           [:get ["municipios" municipio]] (municipio-handler (assoc req :municipality municipio))
            ;;district has data issues
            #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
            :else {:page (not-found/page)

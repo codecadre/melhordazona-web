@@ -249,10 +249,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1eaedb;
+  color: #57cc99;
 }
 a:hover {
-  color: #1b9cc5;
+  color: #43c68d;
 }
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -326,41 +326,41 @@ input[type="button"]:focus {
 .button.button-primary,
 button.button-primary {
   color: #fff;
-  background-color: #33c3f0;
-  border-color: #33c3f0;
+  background-color: #57cc99;
+  border-color: #57cc99;
 }
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #fff;
-  background-color: #33c3f0;
-  border-color: #33c3f0;
+  background-color: #57cc99;
+  border-color: #57cc99;
 }
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb;
+  background-color: #57cc99;
+  border-color: #57cc99;
 }
 input[type="submit"].button-primary:hover,
 input[type="reset"].button-primary:hover,
 input[type="button"].button-primary:hover {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb;
+  background-color: #57cc99;
+  border-color: #57cc99;
 }
 .button.button-primary:focus,
 button.button-primary:focus {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb;
+  background-color: #57cc99;
+  border-color: #57cc99;
 }
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb;
+  background-color: #57cc99;
+  border-color: #57cc99;
 }
 input[type="email"],
 input[type="number"],
@@ -417,12 +417,12 @@ input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus {
-  border: 1px solid #33c3f0;
+  border: 1px solid #57cc99;
   outline: 0;
 }
 textarea:focus,
 select:focus {
-  border: 1px solid #33c3f0;
+  border: 1px solid #57cc99;
   outline: 0;
 }
 label,

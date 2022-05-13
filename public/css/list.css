@@ -10,8 +10,11 @@
 #map {
   height: 500px;
 }
-.bar {
+.bar.driving {
   fill: #d81c3f;
+}
+.bar.theory {
+  fill: blue;
 }
 .bar:hover {
   fill: darkgray;
@@ -27,4 +30,9 @@
 }
 .x.axis path {
   display: none;
+}
+.border {
+  border: dashed;
+  border-width: 1px;
+  border-color: greenyellow;
 }
