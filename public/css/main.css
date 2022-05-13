@@ -754,3 +754,6 @@ body {
 .subtitle {
   color: #555555;
 }
+.mobile-hidden {
+  display: none;
+}

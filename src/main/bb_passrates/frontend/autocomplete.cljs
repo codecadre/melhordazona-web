@@ -53,7 +53,19 @@
        (dom-hide-search-wrapper)
        (display-char-limit)))))
 
+(defn expand-search-fn [ev]
+  (let [header (.querySelector js/document "header")
+        footer (.querySelector js/document "footer")
+        cta (.querySelector js/document ".cta")
+        sub-cta (.querySelector js/document ".sub-cta")]
+    (.classList.add footer "mobile-hidden")
+    (.classList.add header "mobile-hidden")
+    (.classList.add cta "mobile-hidden")
+    (.classList.add sub-cta "mobile-hidden")))
+
 (defn autocomplete-cmp []
   (let [input (.querySelector js/document ".search-wrapper .search-input input" )]
     (when input
-      (set! (.-onkeyup input) on-key-fn))))
+      (do
+        (set! (.-onclick input) expand-search-fn)
+        (set! (.-onkeyup input) on-key-fn)))))
