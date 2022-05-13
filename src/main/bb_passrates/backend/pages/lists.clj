@@ -3,18 +3,19 @@
 (ns bb-passrates.backend.pages.lists
   (:require [bb-passrates.shared.main :refer [lang url->canonical]]
             [bb-passrates.backend.templates.template :as tmp]
-            [clojure.edn :as edn]))
+            [clojure.edn :as edn]
+            [bb-passrates.shared.svg :as svg]))
 
 ;;graph width
-(def W 960)
+
 
 (defn get-place-list [type place]
-  (-> (str "./clean-data/" (name type) "-" place ".edn")  slurp edn/read-string))
+  (-> (str "./data/" (name type) "-" place ".edn")  slurp edn/read-string))
 
 (defn school-list [type city]
   (try
     (get-place-list type city)
-    (catch Exception e (list))))
+    (catch Exception e '())))
 
 (def content
   {:title "Avaliações Abertas - Open Pass Rates"
@@ -23,73 +24,59 @@
     "Avaliações Abertas: Taxas de aprovação de condução. Dados do IMT."
     "- Open Pass Rates: Driving school pass rates in Portugal. - Government data.")})
 
-(defn y-axis-ticks
-  "takes in tick step in %, returns ticks and labels from 0 to 100%"
-  [n]
-  ;;these could be parameters eventualy
-  (let [tick-length 6]
-    (map
-     (fn [percentage-value]
-       (let [y-coord (int (- 450 (* 450 (/ percentage-value 100))))]
-         [:g {:class "tick", :transform (str "translate(0," y-coord ")"), :style "opacity: 1;"}
-          [:line {:x2 (-> tick-length (* -1) str), :y2 "0"}]
-          [:text {:dy ".32em", :x "-9", :y "0", :style "text-anchor: end;"}
-           (str percentage-value "%")]" "]))
-     (range 0 (+ 100 n) n))))
+(defn hiccup-school [[k {:keys [rates geocode imt-profile]}]]
+  (let [lat (:y geocode)
+        long (:x geocode)
+        name (:name imt-profile)
+        nec (:nec imt-profile)
+        address (:address imt-profile)
+        concelho (:concelho imt-profile)
+        cp7 (:cp7 imt-profile)]
+    [:div.school {:lat lat :long long}
+     [:div.name [:h4 name]]
+     [:div.nec [:p (str "Licensa n# " nec)]]
+     [:div.address [:p address]]
+     [:div.concelho [:p (str "ver mais escolas no concelho" concelho)]]
+     [:div.cp7 [:p cp7]]
+     [:div.address #_(:raw address)]
+     [:div.coordinates [:p "coordinates: " {:lat lat :long long}]]
+     [:div.ratings
+      (svg/svg (svg/parse-d rates))]]))
 
-(defn x-ticks [ticks]
-  (let [spacing (int (/ W (+ 1 (count ticks))))]
-    (map
-     (fn [n]
-       [:g {:class "tick",
-            :transform (str "translate(" (* spacing n) ", 0)"),
-            :style "opacity: 1;"}
-        [:line {:y2 "6", :x2 "0"}]
-        [:text {:dy ".71em", :y "9", :x "0",
-                :style "text-anchor: middle;"} (nth ticks (dec n))]" "])
-     (range 1 (inc (count ticks)) 1))))
+(let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
+(hiccup-school (first l)))
 
-;;(x-ticks ["1 semetre 2018" "1 semenstre 2019" "2 semenstre 2019"])
-
-(defn hiccup-school [{:keys [name address contacts]}]
-  [:div.school {:lat (:latitude address) :long (:longitude address)}
-   [:div.name [:h4 name]]
-   [:div.address (:raw address)]
-   [:div.coordinates [:p "coordinates: " {:lat (:latitude address) :long (:longitude address)}]]
-   [:div.ratings
-    [:svg {:width "960", :height "500"}
-     [:g {:transform "translate(40,20)"}
-
-      [:g {:class "x axis", :transform "translate(0,450)"}
-
-       (x-ticks ["1 semetre 2018" "1 semenstre 2019" "2 semenstre 2019"])
-
-       [:path {:class "domain", :d "M0,6V0H900V6"}]" "]
-
-      ;;y axis ticks
-      [:g {:class "y axis"}
-       (y-axis-ticks 10)
-       [:path {:class "domain", :d "M-6,0H0V450H-6"}]
-       ;;text
-       [:text {:transform "rotate(-90)", :y "6", :dy ".71em", :style "text-anchor: end;"} "Frequency"]" "]
-
-      [:rect {:class "bar", :x "10", :width "31", :y "160.66367501180912", :height "289.3363249881909"}] " "]" "]]])
+(defn centroid- [d]
+  (let [xx (->> d;;long
+                (map (fn [[k {:keys [geocode]}]]
+                       (:x geocode)))
+                (remove nil?))
+        yy (->> d;;lat
+                (map (fn [[k {:keys [geocode]}]]
+                       (:y geocode)))
+                (remove nil?))
+        n (count xx)]
+    [(/ (reduce + 0 yy) n)
+     (/ (reduce + 0 xx) n)]))
 
 (defn page [url-map place-list]
-  (let [[lat long] (let [n (count place-list)]
-                       (->> place-list
-                            (reduce (fn [acc {:keys [address]}]
-                                      (let [{:keys [latitude longitude]} address]
-                                        (-> acc
-                                            (update-in [0] + latitude)
-                                            (update-in [1] + longitude))))
-                                    [0 0])
-                            (map #(/ % n))))]
+  (let [[lat long] (centroid- place-list)]
       [:html
        (tmp/header
-        (merge content url-map)
+       (merge content url-map)
         [:main
          [:div.container
           [:div.map-wrapper
            [:div#map {:lat lat :long long}]]
           [:div.list (map hiccup-school place-list)]]])]))
+
+(comment
+ (centroid- (-> "data/distrito-lisboa.edn" slurp edn/read-string))
+
+ (let [d (-> "data/concelho-loule.edn" slurp edn/read-string)
+       url-map {:uri "/concelhos/loule", :request-method :get, :concelho "loule"}]
+   (page url-map d))
+
+ (let [d (-> "data/concelho-loule.edn" slurp edn/read-string)
+       url-map {:uri "/concelhos/loule", :request-method :get, :concelho "loule"}]
+   (centroid- d)))

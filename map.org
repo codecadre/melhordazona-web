@@ -197,6 +197,33 @@ I think these two tasks cover the language requirements. Now it's just a matter 
    - check how many imtprofiles are there left to be added coord
 
 ** TODO produce svg with ratings 2 days
+*** DONE add routing for concelhos
+    :LOGBOOK:
+    CLOCK: [2022-05-12 Thu 16:54]--[2022-05-12 Thu 17:00] =>  0:06
+    :END:
+
+*** DONE listing first paint
+*** DONE show schools list
+    :LOGBOOK:
+    CLOCK: [2022-05-12 Thu 17:11]--[2022-05-12 Thu 17:23] =>  0:12
+    :END:
+
+*** DONE display raw coords
+*** DONE calc centroid
+*** DONE display nec
+    :LOGBOOK:
+    CLOCK: [2022-05-12 Thu 17:33]--[2022-05-12 Thu 17:35] =>  0:02
+    :END:
+
+*** TODO Display bars with full data
+    :LOGBOOK:
+    CLOCK: [2022-05-12 Thu 21:26]
+    :END:
+    - Theory bar
+    - Driving bar
+    - display value for each bar
+    - Legend
+    - display done somewhere
 ** TODO Scale svg 1 h
     https://css-tricks.com/scale-svg/
 

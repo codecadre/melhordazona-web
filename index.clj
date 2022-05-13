@@ -38,6 +38,13 @@
       {:page (lists/page req schools)
        :header html-header})))
 
+(defn concelho-handler [req]
+  (let [schools (lists/school-list :concelho (:concelho req))]
+    (if (empty? schools)
+      resp-404
+      {:page (lists/page req schools)
+       :header html-header})))
+
 (defn district-handler [req]
   (let [schools (lists/school-list "district" (:district req))]
     (if (empty? schools)
@@ -60,7 +67,7 @@
     (match [(:request-method req) paths]
            [:get ["echo" id]] (echo-handler (assoc req :id id))
            [:get []] (home-handler req)
-           [:get ["cidades" city]] (cities-handler (assoc req :city city))
+           [:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
            [:get ["municipios" municipio]] (municipio-handler (assoc req :municipality municipio))
            ;;district has data issues
            #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
