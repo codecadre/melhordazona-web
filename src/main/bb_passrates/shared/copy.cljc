@@ -16,8 +16,17 @@
    :meta/subtitle {:en "Driving school Pass Rates in Portugal based on government data."
                    :pt "O teu guia (não) oficial para as taxas de aprovação do IMT"}
    :header/subtitle {:pt "O teu guia (não) oficial para as taxas de aprovação do IMT"
-                     :en "Your (un)official guide to IMT pass-rates"}}
-  )
+                     :en "Your (un)official guide to IMT pass-rates"}
+   :nav/search {:pt "Pesquisa"
+                :en "Search"}
+   :nav/about {:pt "Acerca"
+               :en "About"}
+   :nav/faq {:pt "FAQ"
+             :en "FAQ"}
+   :nav/privacy {:pt "Privacidade"
+                 :en "Privacy"}
+
+   })
 
 (defn copy [p]
   (get-in copy-list p))

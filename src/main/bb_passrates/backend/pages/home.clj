@@ -24,5 +24,7 @@
     (merge content req)
     [:main
      [:div.container
+      [:h3.cta "Pesquisa por concelho ou nome da escola"]
+      [:h5.sub-cta "Mostramos-te as taxas de aprovação publicadas pelo IMT, num mapa, gratuitamente."]
       [:form
        autocomplete]]])])

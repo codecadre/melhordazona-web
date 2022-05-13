@@ -654,6 +654,22 @@ footer .items {
 footer .items .item {
   margin-right: 2rem;
 }
+footer.home {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.cta {
+  max-width: 70rem;
+  margin: 0rem auto;
+  text-align: center;
+}
+.sub-cta {
+  max-width: 70rem;
+  margin: 0rem auto;
+  text-align: center;
+  color: #555555;
+}
 .search-wrapper {
   max-width: 45rem;
   margin: 15rem auto;
@@ -716,6 +732,8 @@ footer .items .item {
 body {
   -webkit-font-smoothing: antialiased;
   background: #fff;
+  display: flex;
+  flex-direction: column;
 }
 .selected {
   font-weight: bold;
@@ -726,4 +744,13 @@ body {
 }
 .show {
   display: block;
+}
+.title {
+  font-weight: bold;
+}
+.title a:hover {
+  color: initial;
+}
+.subtitle {
+  color: #555555;
 }

@@ -9,8 +9,11 @@
 
 (def local-dev?  (= env "DEV_LOCAL"))
 
-(def footer
-  [:footer
+(defn home? [{:keys [uri]}]
+  (= uri "/"))
+
+(defn footer [req]
+  [(if (home? req) :footer.home :footer)
    [:div.container
     [:div.items
      [:div.item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]
@@ -28,7 +31,7 @@
         [:h2.title
          [:strong
           [:a {:href "/"#_(build-href "/" url)} "Passa à Primeira"]]]
-        [:h5 (copy [:header/subtitle lang])
+        [:p.subtitle (copy [:header/subtitle lang])
          ]]
        [:div.column.one-half
         [:div.menu
@@ -37,10 +40,10 @@
           [(keyword (str "a#en" (when (= lang :en) ".selected")) ) {:href (build-href "" (assoc req :url/lang "en"))} "EN"]
           [:span "/"]
           [(keyword (str "a#en" (when (or (nil? lang)(= lang :pt)) ".selected")) ) {:href (build-href "" (assoc req :url/lang "pt"))} "PT"] [:span "]"]]
-         [:div.menu-item [:a {:href (build-href "/pesquisa/" req)} [:strong "Pesquisa"]]]
-         [:div.menu-item [:a {:href (build-href "/acerca/" req)} [:strong "Acerca"]]]
-         [:div.menu-item [:a {:href (build-href "/faq/" req)} [:strong "FAQ"]]]
-         [:div.menu-item [:a {:href (build-href "/privacidade/" req)} [:strong "Privacidade"]]]]]]]]))
+         [:div.menu-item [:a {:href (build-href "/pesquisa/" req)} [:strong (copy [:nav/search lang])]]]
+         [:div.menu-item [:a {:href (build-href "/acerca/" req)} [:strong (copy [:nav/about lang])]]]
+         [:div.menu-item [:a {:href (build-href "/faq/" req)} [:strong (copy [:nav/faq lang])]]]
+         [:div.menu-item [:a {:href (build-href "/privacidade/" req)} [:strong (copy [:nav/privacy lang])]]]]]]]]))
 
 (defn header [{:keys [title subtitle url] :as req} main]
   [:head
@@ -54,7 +57,7 @@
    [:body
     (header-c req)
     main
-    footer]
+    (footer req)]
    (if local-dev?
      [:script {:src "/target/shadow-builds/public/main/js/main.js"}]
      [:script {:src "/public/js/main.js"}])

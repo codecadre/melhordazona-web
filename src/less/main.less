@@ -11,6 +11,8 @@
 body {
     -webkit-font-smoothing: antialiased;
     background: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 .selected {
@@ -24,4 +26,18 @@ body {
 
 .show {
     display: block;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.title a {
+    &:hover {
+        color: initial;
+    }
+}
+
+.subtitle {
+    color: @secondary-color;
 }
