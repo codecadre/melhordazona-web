@@ -90,15 +90,39 @@
     background: #efefef;
 }
 
+.back {
+    display: none;
+    border: none;
+    width: 10%;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: @font-color;
+}
+
 //mobile behaviour of search input box
 @media (max-width: @bp-larger-than-phablet){
     .mobile-hidden {
         display: none;
     }
-}
 
-@media (max-width: @bp-larger-than-phablet){
+    .mobile-show {
+        display: inline;
+    }
+
     .mobile-opacity-zero {
         opacity: 0
+    }
+
+    .input-mobile-overwrite {
+        width: 90% !important;
+        box-shadow: none !important;
+    }
+
+    .autocomplete-box-mobile-overwrite {
+        border-top: 1px solid @light-grey;
+        margin: 0 10px;
+        overflow-y: hidden !important;
     }
 }

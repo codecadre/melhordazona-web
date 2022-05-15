@@ -14,7 +14,8 @@
 (def autocomplete
   [:div.search-wrapper
    [:div.search-input
-    [:input.u-full-width {:onfocus "window.scrollTo(0, 0);"  :type "text" :placeholder (copy [:autocomplete/placeholder lang])}]
+    [:button.back "<"]
+    [:input.u-full-width {:type "text" :placeholder (copy [:autocomplete/placeholder lang])}]
     [:div.autocomplete-box]]
    [:p.char-limit.hidden (copy [:autocomplete/char-limit lang])]])
 

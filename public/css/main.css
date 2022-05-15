@@ -731,14 +731,34 @@ footer.home {
 .autocomplete-box li:hover {
   background: #efefef;
 }
+.back {
+  display: none;
+  border: none;
+  width: 10%;
+  padding: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #222;
+}
 @media (max-width: 550px) {
   .mobile-hidden {
     display: none;
   }
-}
-@media (max-width: 550px) {
+  .mobile-show {
+    display: inline;
+  }
   .mobile-opacity-zero {
     opacity: 0;
+  }
+  .input-mobile-overwrite {
+    width: 90% !important;
+    box-shadow: none !important;
+  }
+  .autocomplete-box-mobile-overwrite {
+    border-top: 1px solid #e1e1e1;
+    margin: 0 10px;
+    overflow-y: hidden !important;
   }
 }
 * {
