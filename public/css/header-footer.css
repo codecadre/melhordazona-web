@@ -616,3 +616,8 @@ footer .items {
 footer .items .item {
   margin-right: 2rem;
 }
+footer.home {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

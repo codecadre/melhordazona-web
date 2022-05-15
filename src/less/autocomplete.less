@@ -1,3 +1,5 @@
+@import "skeleton.less";
+
 .cta {
     max-width: 70rem;
     margin: 0rem auto;
@@ -13,7 +15,14 @@
 
 .search-wrapper{
     max-width: 45.0rem;
-    margin: 15rem auto;
+    margin: 2rem auto;
+}
+
+@media (min-width: @bp-larger-than-phablet){
+    .search-wrapper{
+        max-width: 45.0rem;
+        margin: 15rem auto;
+    }
 }
 
 .search-wrapper .search-input{
@@ -79,4 +88,17 @@
 
 .autocomplete-box li:hover{
     background: #efefef;
+}
+
+//mobile behaviour of search input box
+@media (max-width: @bp-larger-than-phablet){
+    .mobile-hidden {
+        display: none;
+    }
+}
+
+@media (max-width: @bp-larger-than-phablet){
+    .mobile-opacity-zero {
+        opacity: 0
+    }
 }

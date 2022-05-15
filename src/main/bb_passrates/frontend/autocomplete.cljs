@@ -53,21 +53,25 @@
        (dom-hide-search-wrapper)
        (display-char-limit)))))
 
-(defn expand-search-fn [ev]
+(defn sleep [f ms]
+  (js/setTimeout f ms))
+
+(defn expand-search-fn [input]
   (let [header (.querySelector js/document "header")
         footer (.querySelector js/document "footer")
         cta (.querySelector js/document ".cta")
         sub-cta (.querySelector js/document ".sub-cta")
-        search-wrapper (.querySelector js/document ".search-wrapper")]
+        input (.querySelector js/document ".search-wrapper .search-input input")]
+    (.classList.add input "mobile-opacity-zero")
+    (sleep (fn [] (.classList.remove input "mobile-opacity-zero")) 0)
     (.classList.add footer "mobile-hidden")
     (.classList.add header "mobile-hidden")
     (.classList.add cta "mobile-hidden")
-    (.classList.add sub-cta "mobile-hidden")
-    (.classList.add search-wrapper "search-wrapper-to-the-top")))
+    (.classList.add sub-cta "mobile-hidden")))
 
 (defn autocomplete-cmp []
-  (let [input (.querySelector js/document ".search-wrapper .search-input input" )]
+  (let [input (.querySelector js/document ".search-wrapper .search-input input")]
     (when input
       (do
-        (set! (.-onclick input) expand-search-fn)
+        (set! (.-onfocus input) (partial expand-search-fn input))
         (set! (.-onkeyup input) on-key-fn)))))
