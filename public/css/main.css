@@ -617,6 +617,7 @@ header {
 }
 header a {
   color: #222;
+  text-decoration: none;
 }
 header a:hover {
   color: #bbb;
