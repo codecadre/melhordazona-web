@@ -44,8 +44,8 @@
     (.classList.remove search-wrapper "active")))
 
 (defn on-key-fn [ev]
-  (let [query-string (-> ev .-target .-value)
-        above-min? (> (count query-string) 1)
+  (let [query-string (when ev (-> ev .-target .-value))
+        above-min? (and query-string (> (count query-string) 1))
         suggestion-box (.querySelector js/document ".search-input .autocomplete-box")
         suggestion (when above-min?
                      (->> (query-place-list places query-string)
@@ -78,10 +78,12 @@
 (defn back-home-fn
   "reverts expand-search-fn"
   [ev]
+  (.preventDefault ev)
   (let [html (.querySelector js/document "html")
         input (.querySelector js/document ".search-wrapper .search-input input")]
+    (set! (.-value input) "")
+    (.onkeyup input nil)
     (.classList.remove html "mobile-overwrite")
-    (.preventDefault ev)
     (.classList.remove input "mobile-opacity-zero")))
 
 (defn autocomplete-cmp []
