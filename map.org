@@ -1,11 +1,52 @@
-* Roadmap
+* 2 iteration
+
+** DONE bits and bobs style fixes
+   :LOGBOOK:
+   CLOCK: [2022-05-16 Mon 16:28]--[2022-05-16 Mon 16:37] =>  0:09
+   :END:
+- home padding, input box and back arraw color
+- colapse nav left
+
+** DONE underline only current page
+   :LOGBOOK:
+   CLOCK: [2022-05-16 Mon 16:21]--[2022-05-16 Mon 16:28] =>  0:07
+   :END:
+
+
+** DONE no results found error message
+** DONE expand search in mobile
+   :LOGBOOK:
+   CLOCK: [2022-05-15 Sun 09:15]--[2022-05-15 Sun 10:10] =>  0:55
+   :END:
+** DONE back button functionality in mobile
+   :LOGBOOK:
+   CLOCK: [2022-05-15 Sun 10:11]--[2022-05-15 Sun 11:53] =>  1:42
+   :END:
+
+** DONE omited results info
+** TODO index page multilang support
+   :LOGBOOK:
+   CLOCK: [2022-05-13 Fri 15:05]--[2022-05-13 Fri 15:54] =>  0:49
+   :END:
+
+*** TODO [SEO] "en" url structure
+** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
+** TODO page generator and pages (3 days)
+   Generate a page from a Markdown to hiccup
+*** TODO Build generator (1 day)
+*** TODO Privacy policy, DPA (1-3 day at least...)
+*** TODO about
+*** TODO FAQ
+
+
+* DONE Roadmap
 #+BEGIN: clocktable :scope subtree :maxlevel 2
-#+CAPTION: Clock summary at [2022-05-12 Thu 15:33]
+#+CAPTION: Clock summary at [2022-05-13 Fri 13:03]
 | Headline                                    | Time       |         |
 |---------------------------------------------+------------+---------|
-| *Total time*                                | *4d 11:44* |         |
+| *Total time*                                | *4d 12:04* |         |
 |---------------------------------------------+------------+---------|
-| Roadmap                                     | 4d 11:44   |         |
+| Roadmap                                     | 4d 12:04   |         |
 | \_  Markup basics 6:15                      |            |    6:14 |
 | \_  Multilanguage support PT/EN             |            |    2:41 |
 | \_  listing page                            |            |    3:14 |
@@ -14,10 +55,12 @@
 | \_  Get entire dataset in the app           |            |    7:44 |
 | \_  Get address and lat/long                |            |   15:36 |
 | \_  produce new listings (1 h) 0:42         |            |    0:42 |
-| \_  ADD cp7 coord (0:30)                    |            |    8:09 |
+| \_  ADD cp7 coord (0:30) 8h - 1 1/2 days    |            |    8:09 |
+| \_  produce svg with ratings 2 days         |            |    0:20 |
 | \_  parse and import PDFs                   |            | 2d 5:01 |
 | \_  Productionize                           |            |    1:54 |
 #+END:
+
 
 
 
@@ -122,7 +165,6 @@ I think these two tasks cover the language requirements. Now it's just a matter 
    1 day for setting up and what not
    1 day to make it happen
 
-** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 ** DONE display ratings (3 days)
    Parsing data took about 3 weeks
 ** DONE Get entire dataset in the app
@@ -196,7 +238,7 @@ I think these two tasks cover the language requirements. Now it's just a matter 
    - check how many of the total cp7 you made
    - check how many imtprofiles are there left to be added coord
 
-** TODO produce svg with ratings 2 days
+** DONE produce svg with ratings 2 days
 *** DONE add routing for concelhos
     :LOGBOOK:
     CLOCK: [2022-05-12 Thu 16:54]--[2022-05-12 Thu 17:00] =>  0:06
@@ -215,10 +257,7 @@ I think these two tasks cover the language requirements. Now it's just a matter 
     CLOCK: [2022-05-12 Thu 17:33]--[2022-05-12 Thu 17:35] =>  0:02
     :END:
 
-*** TODO Display bars with full data
-    :LOGBOOK:
-    CLOCK: [2022-05-12 Thu 21:26]
-    :END:
+*** DONE Display bars with full data
     - Theory bar
     - Driving bar
     - display value for each bar
@@ -242,12 +281,6 @@ I think these two tasks cover the language requirements. Now it's just a matter 
 - [X] store everything as pickle
 
 ** TODO style listing page 1 h (other than ratings svg)
-** TODO page generator and pages (3 days)
-   Generate a page from a Markdown to hiccup
-*** TODO Build generator (1 day)
-*** TODO Privacy policy, DPA (1-3 day at least...)
-*** TODO about
-*** TODO FAQ
 ** TODO Productionize
    - [X] shadow builds and proper css setup
    - [X] css build

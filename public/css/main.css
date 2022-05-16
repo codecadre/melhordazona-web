@@ -742,7 +742,7 @@ footer.home {
   margin-bottom: 0;
   font-weight: 400;
   font-size: 2.5rem;
-  color: #222;
+  color: #e1e1e1;
 }
 .mobile-separator {
   width: 90%;
@@ -756,6 +756,9 @@ footer.home {
 }
 .autocomplete-box ul {
   margin-bottom: 0;
+}
+.char-limit {
+  padding: 0.5rem 0px 0px 0.5rem;
 }
 @media (max-width: 550px) {
   .mobile-opacity-zero {
@@ -774,6 +777,15 @@ footer.home {
   html.mobile-overwrite footer,
   html.mobile-overwrite header {
     display: none;
+  }
+  header .menu {
+    justify-content: inherit;
+  }
+  footer .items {
+    justify-content: inherit;
+  }
+  header {
+    margin-bottom: 0;
   }
 }
 * {

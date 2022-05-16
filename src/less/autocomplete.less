@@ -100,7 +100,7 @@
     margin-bottom: 0;
     font-weight: 400;
     font-size: 2.5rem;
-    color: @font-color;
+    color: @light-grey;
 }
 
 .mobile-separator {
@@ -116,6 +116,10 @@
 
 .autocomplete-box ul{
     margin-bottom: 0;
+}
+
+.char-limit {
+    padding: .5rem 0px 0px .5rem;
 }
 
 //mobile behaviour of search input box
@@ -139,6 +143,18 @@
     html.mobile-overwrite footer,
     html.mobile-overwrite header{
         display: none;
+    }
+
+    header .menu {
+        justify-content: inherit;
+    }
+
+    footer .items {
+        justify-content: inherit;
+    }
+
+    header {
+        margin-bottom: 0;
     }
 
 }
