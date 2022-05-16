@@ -31,11 +31,16 @@
       (.classList.add search-wrapper "active"))))
 
 (defn dom-show-search-wrapper []
-  (let [search-wrapper (.querySelector js/document ".search-wrapper .search-input")]
+  (let [search-wrapper (.querySelector js/document ".search-wrapper .search-input")
+        separator (.querySelector js/document ".search-wrapper .mobile-separator")]
+    ;;document.querySelector(".mobile-separator").style.opacity = 0
+    (set! (.-opacity (.-style separator)) 1)
     (.classList.add search-wrapper "active")))
 
 (defn dom-hide-search-wrapper []
-  (let [search-wrapper (.querySelector js/document ".search-wrapper .search-input")]
+  (let [search-wrapper (.querySelector js/document ".search-wrapper .search-input")
+        separator (.querySelector js/document ".search-wrapper .mobile-separator")]
+        (set! (.-opacity (.-style separator)) 0)
     (.classList.remove search-wrapper "active")))
 
 (defn on-key-fn [ev]
@@ -58,7 +63,7 @@
           (and (not results?) (not above-min?)) (do
                                                   (dom-hide-search-wrapper)
                                                   (display-char-limit-div))
-          (zero? (count suggestion)) (do (dom-hide-search-wrapper)))))
+          (zero? (count suggestion)) (dom-hide-search-wrapper))))
 
 (defn sleep [f ms]
   (js/setTimeout f ms))

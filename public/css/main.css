@@ -751,6 +751,7 @@ footer.home {
   left: 50%;
   transform: translateX(-50%);
   display: none;
+  opacity: 0;
 }
 .autocomplete-box ul {
   margin-bottom: 0;
