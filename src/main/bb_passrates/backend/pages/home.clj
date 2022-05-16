@@ -16,6 +16,7 @@
    [:div.search-input
     [:button.back "<"]
     [:input.u-full-width {:type "text" :placeholder (copy [:autocomplete/placeholder lang])}]
+    [:div.mobile-separator]
     [:div.autocomplete-box]]
    [:p.char-limit.hidden (copy [:autocomplete/char-limit lang])]])
 

@@ -4,12 +4,12 @@
             [bb-passrates.shared.main :refer [query-place-list seo lang]]
             [bb-passrates.shared.copy :refer [copy-list]]))
 
-(defn hide-char-limit []
+(defn hide-char-limit-div []
   (let [box (.querySelector js/document ".char-limit")]
     (.classList.remove box "show")
     (.classList.add box "hidden")))
 
-(defn display-char-limit []
+(defn display-char-limit-div []
   (let [box (.querySelector js/document ".char-limit")]
     (.classList.remove box "hidden")
     (.classList.add box "show")))
@@ -42,16 +42,21 @@
   (let [query-string (-> ev .-target .-value)]
     (if (> (count query-string) 1)
 
-     (let [suggestion-box (.querySelector js/document ".search-input .autocomplete-box")
-            li-html (map dom-build-li (query-place-list places query-string))]
+      (let [suggestion-box (.querySelector js/document ".search-input .autocomplete-box")
+            suggestion (->> (query-place-list places query-string)
+                            (sort #(compare (str (:type %1)) (str (:type %2)))))
+            li-html (map dom-build-li suggestion)]
 
-       (set! (.-innerHTML suggestion-box) (clj-str/join (interpose "\n" li-html)))
-       (hide-char-limit)
-        (dom-show-search-wrapper))
+        (set! (.-innerHTML suggestion-box) (clj-str/join
+                                            (flatten ["<ul>"
+                                                      (interpose "\n" li-html)
+                                                      "</ul>"])))
+       (hide-char-limit-div)
+       (dom-show-search-wrapper))
 
      (do
        (dom-hide-search-wrapper)
-       (display-char-limit)))))
+       (display-char-limit-div)))))
 
 (defn sleep [f ms]
   (js/setTimeout f ms))
@@ -63,8 +68,8 @@
         sub-cta (.querySelector js/document ".sub-cta")
         back (.querySelector js/document ".back")
         input (.querySelector js/document ".search-wrapper .search-input input")
-        autocomplete-box (.querySelector js/document ".autocomplete-box")]
-    (.classList.add autocomplete-box "autocomplete-box-mobile-overwrite")
+        separator (.querySelector js/document ".mobile-separator")]
+    (.classList.add separator "mobile-show")
     (.classList.add back "mobile-show")
     (.classList.add input "mobile-opacity-zero")
     (.classList.add input "input-mobile-overwrite")
@@ -83,13 +88,12 @@
         sub-cta (.querySelector js/document ".sub-cta")
         back (.querySelector js/document ".back")
         input (.querySelector js/document ".search-wrapper .search-input input")
-        autocomplete-box (.querySelector js/document ".autocomplete-box")]
+        separator (.querySelector js/document ".mobile-separator")]
+    (.classList.remove separator "mobile-show")
     (.preventDefault ev)
-    (.classList.remove autocomplete-box "autocomplete-box-mobile-overwrite")
     (.classList.remove back "mobile-show")
     (.classList.remove input "mobile-opacity-zero")
     (.classList.remove input "input-mobile-overwrite")
-
     (.classList.remove footer "mobile-hidden")
     (.classList.remove header "mobile-hidden")
     (.classList.remove cta "mobile-hidden")

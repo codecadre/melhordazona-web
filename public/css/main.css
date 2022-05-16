@@ -711,11 +711,13 @@ footer.home {
   overflow-y: auto;
   opacity: 0;
   pointer-events: none;
+  display: none;
 }
 .search-input.active .autocomplete-box {
   padding: 1rem 0.8rem;
   opacity: 1;
   pointer-events: auto;
+  display: inherit;
 }
 .autocomplete-box li {
   list-style: none;
@@ -741,12 +743,21 @@ footer.home {
   font-size: 2.5rem;
   color: #222;
 }
+.mobile-separator {
+  width: 90%;
+  height: 1px;
+  background-color: #e1e1e1;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
 @media (max-width: 550px) {
   .mobile-hidden {
     display: none;
   }
   .mobile-show {
-    display: inline;
+    display: inline-block;
   }
   .mobile-opacity-zero {
     opacity: 0;
@@ -754,11 +765,6 @@ footer.home {
   .input-mobile-overwrite {
     width: 90% !important;
     box-shadow: none !important;
-  }
-  .autocomplete-box-mobile-overwrite {
-    border-top: 1px solid #e1e1e1;
-    margin: 0 10px;
-    overflow-y: hidden !important;
   }
 }
 * {

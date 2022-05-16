@@ -64,12 +64,14 @@
     overflow-y: auto;
     opacity: 0;
     pointer-events: none;
+    display:none;
 }
 
 .search-input.active .autocomplete-box{
     padding: 1rem .8rem;
     opacity: 1;
     pointer-events: auto;
+    display: inherit;
 }
 
 
@@ -101,6 +103,16 @@
     color: @font-color;
 }
 
+.mobile-separator {
+  width: 90%;
+  height: 1px;
+  background-color: @light-grey;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
 //mobile behaviour of search input box
 @media (max-width: @bp-larger-than-phablet){
     .mobile-hidden {
@@ -108,7 +120,7 @@
     }
 
     .mobile-show {
-        display: inline;
+        display: inline-block;
     }
 
     .mobile-opacity-zero {
@@ -120,9 +132,4 @@
         box-shadow: none !important;
     }
 
-    .autocomplete-box-mobile-overwrite {
-        border-top: 1px solid @light-grey;
-        margin: 0 10px;
-        overflow-y: hidden !important;
-    }
 }
