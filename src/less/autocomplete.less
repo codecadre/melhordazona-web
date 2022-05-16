@@ -115,21 +115,25 @@
 
 //mobile behaviour of search input box
 @media (max-width: @bp-larger-than-phablet){
-    .mobile-hidden {
-        display: none;
-    }
-
-    .mobile-show {
-        display: inline-block;
-    }
-
     .mobile-opacity-zero {
         opacity: 0
     }
 
-    .input-mobile-overwrite {
+    html.mobile-overwrite .search-wrapper button.back,
+    html.mobile-overwrite .search-wrapper .mobile-separator{
+        display: inline-block;
+    }
+
+    html.mobile-overwrite .search-wrapper .search-input input {
         width: 90% !important;
         box-shadow: none !important;
+    }
+
+    html.mobile-overwrite .cta,
+    html.mobile-overwrite .sub-cta,
+    html.mobile-overwrite footer,
+    html.mobile-overwrite header{
+        display: none;
     }
 
 }

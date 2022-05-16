@@ -62,42 +62,20 @@
   (js/setTimeout f ms))
 
 (defn expand-search-fn [input]
-  (let [header (.querySelector js/document "header")
-        footer (.querySelector js/document "footer")
-        cta (.querySelector js/document ".cta")
-        sub-cta (.querySelector js/document ".sub-cta")
-        back (.querySelector js/document ".back")
-        input (.querySelector js/document ".search-wrapper .search-input input")
-        separator (.querySelector js/document ".mobile-separator")]
-    (.classList.add separator "mobile-show")
-    (.classList.add back "mobile-show")
+  (let [html (.querySelector js/document "html")
+        input (.querySelector js/document ".search-wrapper .search-input input")]
+    (.classList.add html "mobile-overwrite")
     (.classList.add input "mobile-opacity-zero")
-    (.classList.add input "input-mobile-overwrite")
-    (sleep (fn [] (.classList.remove input "mobile-opacity-zero")) 0)
-    (.classList.add footer "mobile-hidden")
-    (.classList.add header "mobile-hidden")
-    (.classList.add cta "mobile-hidden")
-    (.classList.add sub-cta "mobile-hidden")))
+    (sleep (fn [] (.classList.remove input "mobile-opacity-zero")) 0)))
 
 (defn back-home-fn
   "reverts expand-search-fn"
   [ev]
-  (let [header (.querySelector js/document "header")
-        footer (.querySelector js/document "footer")
-        cta (.querySelector js/document ".cta")
-        sub-cta (.querySelector js/document ".sub-cta")
-        back (.querySelector js/document ".back")
-        input (.querySelector js/document ".search-wrapper .search-input input")
-        separator (.querySelector js/document ".mobile-separator")]
-    (.classList.remove separator "mobile-show")
+  (let [html (.querySelector js/document "html")
+        input (.querySelector js/document ".search-wrapper .search-input input")]
+    (.classList.remove html "mobile-overwrite")
     (.preventDefault ev)
-    (.classList.remove back "mobile-show")
-    (.classList.remove input "mobile-opacity-zero")
-    (.classList.remove input "input-mobile-overwrite")
-    (.classList.remove footer "mobile-hidden")
-    (.classList.remove header "mobile-hidden")
-    (.classList.remove cta "mobile-hidden")
-    (.classList.remove sub-cta "mobile-hidden")))
+    (.classList.remove input "mobile-opacity-zero")))
 
 (defn autocomplete-cmp []
   (let [input (.querySelector js/document ".search-wrapper .search-input input")
