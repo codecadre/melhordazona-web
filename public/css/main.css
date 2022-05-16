@@ -752,6 +752,9 @@ footer.home {
   transform: translateX(-50%);
   display: none;
 }
+.autocomplete-box ul {
+  margin-bottom: 0;
+}
 @media (max-width: 550px) {
   .mobile-opacity-zero {
     opacity: 0;

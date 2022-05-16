@@ -39,24 +39,26 @@
     (.classList.remove search-wrapper "active")))
 
 (defn on-key-fn [ev]
-  (let [query-string (-> ev .-target .-value)]
-    (if (> (count query-string) 1)
-
-      (let [suggestion-box (.querySelector js/document ".search-input .autocomplete-box")
-            suggestion (->> (query-place-list places query-string)
-                            (sort #(compare (str (:type %1)) (str (:type %2)))))
-            li-html (map dom-build-li suggestion)]
-
-        (set! (.-innerHTML suggestion-box) (clj-str/join
-                                            (flatten ["<ul>"
-                                                      (interpose "\n" li-html)
-                                                      "</ul>"])))
-       (hide-char-limit-div)
-       (dom-show-search-wrapper))
-
-     (do
-       (dom-hide-search-wrapper)
-       (display-char-limit-div)))))
+  (let [query-string (-> ev .-target .-value)
+        above-min? (> (count query-string) 1)
+        suggestion-box (.querySelector js/document ".search-input .autocomplete-box")
+        suggestion (when above-min?
+                     (->> (query-place-list places query-string)
+                          (sort #(compare (str (:type %1)) (str (:type %2))))))
+        results? (not (empty? suggestion))
+        li-html (when suggestion
+                  (map dom-build-li suggestion))]
+    (cond results?
+          (do (set! (.-innerHTML suggestion-box) (clj-str/join
+                                                  (flatten ["<ul>"
+                                                            (interpose "\n" li-html)
+                                                            "</ul>"])))
+              (hide-char-limit-div)
+              (dom-show-search-wrapper))
+          (and (not results?) (not above-min?)) (do
+                                                  (dom-hide-search-wrapper)
+                                                  (display-char-limit-div))
+          (zero? (count suggestion)) (do (dom-hide-search-wrapper)))))
 
 (defn sleep [f ms]
   (js/setTimeout f ms))
