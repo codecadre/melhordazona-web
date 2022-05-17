@@ -585,6 +585,16 @@ there.
 #map {
   height: 500px;
 }
+.year-label,
+.driving-ratings,
+.theory-ratings {
+  height: 20rem;
+}
+.year-label text,
+.driving-ratings text,
+.theory-ratings text {
+  font-size: 0.55em;
+}
 .bar.driving {
   fill: #d81c3f;
 }
@@ -738,8 +748,18 @@ footer.home {
 .search-input.active .autocomplete-box li {
   display: block;
 }
+.search-input.active .autocomplete-box li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+.search-input.active .autocomplete-box li .suggestion-type {
+  color: #c8c8c8;
+  padding-left: 0.6em;
+  font-size: 0.7em;
+}
 .autocomplete-box li:hover {
-  background: #efefef;
+  background: #e1e1e1;
 }
 .back {
   display: none;

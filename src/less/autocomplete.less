@@ -86,10 +86,22 @@
 
 .search-input.active .autocomplete-box li{
     display: block;
+    a {
+        text-decoration: none;
+        color: @font-color;
+        font-weight: bold;
+    }
+
+    .suggestion-type {
+        color: darken(@light-grey, 10%);
+        padding-left: 0.6em;
+        font-size: 0.7em;
+
+    }
 }
 
-.autocomplete-box li:hover{
-    background: #efefef;
+.autocomplete-box li:hover {
+    background: @light-grey;
 }
 
 .back {

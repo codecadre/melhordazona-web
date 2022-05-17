@@ -2,7 +2,7 @@
   (:require [clojure.string :as clj-str]
             [bb-passrates.shared.places :refer [places]]
             [bb-passrates.shared.main :refer [query-place-list seo lang]]
-            [bb-passrates.shared.copy :refer [copy-list]]))
+            [bb-passrates.shared.copy :refer [copy]]))
 
 (defn hide-char-limit-div []
   (let [box (.querySelector js/document ".char-limit")]
@@ -17,9 +17,16 @@
 (defn dom-build-li [{:keys [type name k search-field href] :as suggestion}]
   (let [li (.createElement js/document "li")
         a (.createElement js/document "a")
-        label type #_(get-in copy-list [(keyword "autocomplete" type) lang])]
+        span (.createElement js/document "span")]
+    ;;span
+    (.classList.add span "suggestion-type")
+    (set! (.-innerText span) (copy [type lang]))
+    ;;a
     (.setAttribute a "href" href)
-    (set! (.-innerText a) (str name " (" label ")"))
+    (set! (.-innerText a) name)
+
+    (.appendChild a span)
+
     (.appendChild li a)
     (.-outerHTML li)))
 

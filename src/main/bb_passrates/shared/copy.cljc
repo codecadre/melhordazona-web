@@ -1,7 +1,13 @@
 (ns bb-passrates.shared.copy)
 
 (def copy-list
-  {:autocomplete/district {:pt "Distrito"
+  {:concelho {:pt "Concelho"
+              :en "Concelho"}
+   :distrito {:pt "Distrito"
+              :en "District"}
+   :school {:pt "Escola"
+            :en "School"}
+   :autocomplete/district {:pt "Distrito"
                            :en "District"}
    :autocomplete/municipality {:pt "Município"
                                :en "Municipality"}
