@@ -1,6 +1,13 @@
 (ns bb-passrates.frontend.map
   (:require [oops.core :refer [oget]]))
 
+
+(defn make-icon-js []
+  (clj->js {:icon (.divIcon js/L (clj->js {:className "custom-marker"}))} ))
+
+(defn make-coord-js [lat long]
+  (.latLng  js/L lat long))
+
 (defn set-map []
   (let [el (.querySelector js/document "#map")]
     (when el
@@ -14,5 +21,8 @@
         (-> (.querySelectorAll js/document ".school") js/Array.from
             (.forEach (fn [el]
                         (let [lat (oget el "attributes.lat.value")
-                              long (oget el "attributes.long.value")]
-                          (.addTo (.marker js/L (.latLng  js/L lat long)) map)))))))))
+                              long (oget el "attributes.long.value")
+                              coord-js (make-coord-js lat long)
+                              icon (make-icon-js)
+                              popup-html-str (.-outerHTML (.querySelector el ".ratings"))]
+                          (.bindPopup (.addTo (.marker js/L coord-js icon) map) popup-html-str)))))))))

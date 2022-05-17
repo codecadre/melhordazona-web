@@ -606,6 +606,13 @@ there.
 .x.axis path {
   display: none;
 }
+.custom-marker {
+  background-color: red;
+  border: none;
+  border-radius: 100rem;
+  width: 2rem !important;
+  height: 2rem !important;
+}
 .border {
   border: dashed;
   border-width: 1px;
