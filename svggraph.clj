@@ -17,7 +17,7 @@
 
 
 (def page
-  {:page [:html (tmp/header {} (svg/svg (svg/parse-d (:rates (last (first d))))))]
+  {:page [:html (tmp/header {} (into [:div] (svg/svg (svg/parse-d (:rates (last (first d)))))))]
    :header html-header})
 
 (let [{:keys [page header]} page]
@@ -26,8 +26,10 @@
 
 
 
-(svg/svg (svg/parse-d (:rates (last (first d)))))
 
-(svg/parse-d (:rates (last (first d))))
+(comment (svg/svg (svg/parse-d (:rates (last (first d)))))
 
-(svg/svg (svg/parse-d (:rates (last (first d)))))
+ (svg/parse-d (:rates (last (first d))))
+
+ (svg/svg (svg/parse-d (:rates (last (first d)))))
+ )
