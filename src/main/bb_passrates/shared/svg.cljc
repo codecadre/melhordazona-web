@@ -3,27 +3,39 @@
 (def debug false)
 
 (defn svg [d]
-  (let [y2 150
-        y3 550
-        row-d 45
-        text-y 22
-        bar-length-nominal 200];;100 % is 200 px
-    (into
-     [:svg (merge {:width "860", :height "300" } (when debug {:class "border"}))]
+  (let [y2 0
+        y3 0
+        row-h (int (/ 100 6))
+        bar-y (int (* row-h 0.85))
+        text-y (int (* row-h 0.6))
+        bar-length-nominal 100]
+    [(into
+      [:svg (merge {:class "year-label" :viewBox "0 0 25 100"} (when debug {:class "border"}))]
 
-     (map (fn [[idx label r-1 r-2]]
-            (let [b1-l (int (* bar-length-nominal r-1))
-                  b2-l (int (* bar-length-nominal r-2))
-                  b1-label (format "%s %s" (int (* 100 r-1)) "%")
-                  b2-label (format "%s %s" (int (* 100 r-2)) "%")]
-              [:g (merge {:transform (format "translate(0,%s)" (* idx row-d))} (when debug {:class "border"}))
-               [:text {:transform "rotate(0)", :y 0, :dy text-y } label]
-               [:rect {:class "bar driving", :x y2, :width b1-l, :y "0", :height "30"}]
-               [:text {:transform "rotate(0)", :y 0, :dy text-y :x (+ b1-l y2 5) } b1-label]
-               [:rect {:class "bar theory", :x y3, :width b2-l, :y "0", :height "30"}]
-               [:text {:transform "rotate(0)", :y 0, :dy text-y :x (+ b2-l y3 5) } b2-label]
-               ]))
-          d))))
+      (map (fn [[idx label _ _]]
+             [:g (merge {:transform (format "translate(0,%s)" (* idx row-h))} (when debug {:class "border"}))
+              [:text {:dy text-y} label]])
+           d))
+     (into
+      [:svg (merge {:class "driving-ratings" :viewBox "0 0 130 100"} (when debug {:class "border"}))]
+
+      (map (fn [[idx _ r1 _]]
+             (let [bar-length (int (* bar-length-nominal r1))
+                   bar-label (format "%s %s" (int (* 100 r1)) "%")]
+               [:g (merge {:transform (format "translate(0,%s)" (* idx row-h))} (when debug {:class "border"}))
+                [:rect {:class "bar driving", :width bar-length, :height bar-y}]
+                [:text {:dy text-y :x (+ bar-length 5) } bar-label]]))
+           d))
+     (into
+      [:svg (merge {:class "theory-ratings" :viewBox "0 0 130 100"} (when debug {:class "border"}))]
+
+      (map (fn [[idx _ _ r2]]
+             (let [bar-length (int (* bar-length-nominal r2))
+                   bar-label (format "%s %s" (int (* 100 r2)) "%")]
+               [:g (merge {:transform (format "translate(0,%s)" (* idx row-h))} (when debug {:class "border"}))
+                [:rect {:class "bar theory", :width bar-length, :height bar-y}]
+                [:text {:dy text-y :x (+ bar-length 5) } bar-label]]))
+           d))]))
 
 (defn parse-d [d]
   (map-indexed (fn [idx {:keys [r/level-0 r/d-rate r/t-rate]}]

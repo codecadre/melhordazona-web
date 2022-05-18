@@ -7,9 +7,6 @@ header {
     a {
         color: @font-color;
         text-decoration: none;
-        &:hover {
-            color: @border-color;
-        }
     }
 
     .title {
@@ -17,10 +14,13 @@ header {
         margin-bottom: 0;
         margin-top: -10px;
 
-        a {
-            text-decoration: none;
-        }
     }
+
+    .subtitle {
+        color: @dark-grey;
+    }
+
+
 
     .menu {
         text-align: right;
@@ -30,11 +30,7 @@ header {
         justify-content: flex-end;
 
         .menu-item, .lang {
-            margin-right: 2.0rem;
-        }
-
-        #pt {
-
+            margin: 0 1.0rem;
         }
 
     }
@@ -43,51 +39,30 @@ header {
 
 footer {
     padding: 2em 0;
-    background-color: @light-grey;
+    background-color: @off-white;
+
     h2 {
         margin-bottom: 0rem;
     }
-    .title {
-        a {
-            text-decoration: none;
-            color: @font-color;
-        }
+    .title a {
+        text-decoration: none;
+        color: @font-color;
     }
-    //text-align: right;
-    //padding: 30px 0;
 
-
-
-    .items {
-        text-align: centre;
-        display: flex;
-        display: -webkit-flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-
-        .item {
-            margin-right: 2.0rem;
-            a {
-                color: @dark-grey;
-            }
-        }
-
-    }
 }
-/*
+
 footer.home {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
-*/
+
 
 footer .logo-column{
 
     justify-content: flex-end;
 
     .logo {
-
         background-color: black;
         padding: 6px;
         box-sizing: initial;

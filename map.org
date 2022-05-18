@@ -1,5 +1,50 @@
 * 2 iteration
 
+- pages:
+home
+about
+faq
+Privacy
+TOS
+
+
+
+** TODO color palette
+   :LOGBOOK:
+   CLOCK: [2022-05-18 Wed 18:15]
+   CLOCK: [2022-05-18 Wed 16:01]--[2022-05-18 Wed 18:15] =>  2:14
+   :END:
+
+- [ ] box-shadow new colors
+
+- suggestions colors
+- footer...
+- box-shadow issues
+
+** DONE display logo
+** DONE suggestion styling
+** TODO footer styling
+   :LOGBOOK:
+   CLOCK: [2022-05-18 Wed 10:26]--[2022-05-18 Wed 14:53] =>  4:27
+   :END:
+
+** TODO school listing fixes
+
+*** DONE display round markers
+
+*** DONE diplay info on marker click
+
+*** TODO Style info
+
+*** TODO single school page
+*** TODO style ratings
+
+    :LOGBOOK:
+    CLOCK: [2022-05-17 Tue 15:50]--[2022-05-17 Tue 22:19] =>  6:29
+    CLOCK: [2022-05-17 Tue 14:15]--[2022-05-17 Tue 15:50] =>  1:35
+    :END:
+
+
 ** DONE bits and bobs style fixes
    :LOGBOOK:
    CLOCK: [2022-05-16 Mon 16:28]--[2022-05-16 Mon 16:37] =>  0:09
@@ -11,7 +56,6 @@
    :LOGBOOK:
    CLOCK: [2022-05-16 Mon 16:21]--[2022-05-16 Mon 16:28] =>  0:07
    :END:
-
 
 ** DONE no results found error message
 ** DONE expand search in mobile

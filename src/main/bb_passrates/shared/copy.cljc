@@ -35,7 +35,7 @@
              :en "FAQ"}
    :nav/privacy {:pt "Privacidade"
                  :en "Privacy"}
-   :footer/subtitle {:pt ["Dados públicos com acessibilidade gratuita e com foco na privacidade do utilizador. Realizado por " " para " ", sem recurso a tecnologias que invadem a privacidade do utilizador. Não monetizamos informação pessoal. Hosting em servidores europeus."]
+   :footer/subtitle {:pt ["Dados públicos com acessibilidade gratuita e com foco na privacidade do utilizador. Realizado por " " para " "." #_"., sem recurso a tecnologias que invadem a privacidade do utilizador. Não monetizamos informação pessoal. Hosting em servidores europeus."]
                      :en ["Free access to government data" " para " ", sem recurso a tecnologias que invadem a privacidade do utilizador. Não monetizamos informação pessoal. Hosting em servidores europeus."]}
 
    })

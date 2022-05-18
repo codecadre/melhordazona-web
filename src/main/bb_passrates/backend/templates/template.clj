@@ -58,9 +58,11 @@
          ]]
        [:div.column.one-half
         [:div.menu
+         [:span " ["]
          [(keyword (str "a#en" (when (= lang :en) ".selected")) ) {:href (build-href "" (assoc req :url/lang "en"))} "EN"]
          [:span "/"]
-         [(keyword (str "a#en" (when (or (nil? lang) (= lang :pt)) ".selected")) ) {:href (build-href "" (assoc req :url/lang "pt"))} "PT"] [:span "]"]
+         [(keyword (str "a#en" (when (or (nil? lang) (= lang :pt)) ".selected")) ) {:href (build-href "" (assoc req :url/lang "pt"))} "PT"]
+         [:span "]"]
          [(keyword (str "div.menu-item" (when (-> req :uri (= "/")) ".selected")) ) [:a {:href (build-href "/pesquisa/" req)} [:strong (copy [:nav/search lang])]]]
          [:div.menu-item [:a {:href (build-href "/acerca/" req)} [:strong (copy [:nav/about lang])]]]
          [:div.menu-item [:a {:href (build-href "/faq/" req)} [:strong (copy [:nav/faq lang])]]]

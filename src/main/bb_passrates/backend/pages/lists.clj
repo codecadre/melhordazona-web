@@ -24,6 +24,27 @@
     "Avaliações Abertas: Taxas de aprovação de condução. Dados do IMT."
     "- Open Pass Rates: Driving school pass rates in Portugal. - Government data.")})
 
+
+#_(defn pop-up []
+  [:table
+   [:thead
+    [:tr
+     [:th "2015"]
+     [:th "Age"]
+     [:th "Sex"]
+     [:th "Location"]]]
+   [:tbody
+    [:tr
+     [:td "Dave Gamache"]
+     [:td "26"]
+     [:td "Male"]
+     [:td "San Francisco"]]
+    [:tr
+     [:td "Dwayne Johnson"]
+     [:td "42"]
+     [:td "Male"]
+     [:td "Hayward"]]]])
+
 (defn hiccup-school [[k {:keys [rates geocode imt-profile]}]]
   (let [lat (:y geocode)
         long (:x geocode)
@@ -33,6 +54,7 @@
         concelho (:concelho imt-profile)
         cp7 (:cp7 imt-profile)]
     [:div.school {:lat lat :long long}
+     #_[:div.pop-up (pop-up)]
      [:div.name [:h4 name]]
      [:div.nec [:p (str "Licensa n# " nec)]]
      [:div.address [:p address]]
@@ -40,8 +62,12 @@
      [:div.cp7 [:p cp7]]
      [:div.address #_(:raw address)]
      [:div.coordinates [:p "coordinates: " {:lat lat :long long}]]
-     [:div.ratings
-      (svg/svg (svg/parse-d rates))]]))
+     (let [[label r1 r2] (svg/svg (svg/parse-d rates))]
+         [:div.ratings
+          [:div.label label]
+          [:div.driving r1]
+          [:div.label label]
+          [:div.theory r2]])]))
 
 (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
 (hiccup-school (first l)))
