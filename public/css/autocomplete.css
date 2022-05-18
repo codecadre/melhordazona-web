@@ -261,7 +261,7 @@ button {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #6f656f;
+  color: #d2cdd2;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -272,7 +272,7 @@ button {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb4bb;
+  border: 1px solid #e2dfe2;
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -282,7 +282,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #6f656f;
+  color: #d2cdd2;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -293,34 +293,34 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb4bb;
+  border: 1px solid #e2dfe2;
   cursor: pointer;
   box-sizing: border-box;
 }
 .button:hover,
 button:hover {
-  color: #4b444b;
-  border-color: #a198a1;
+  color: #b1a9b1;
+  border-color: #ffffff;
   outline: 0;
 }
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  color: #4b444b;
-  border-color: #a198a1;
+  color: #b1a9b1;
+  border-color: #ffffff;
   outline: 0;
 }
 .button:focus,
 button:focus {
-  color: #4b444b;
-  border-color: #a198a1;
+  color: #b1a9b1;
+  border-color: #ffffff;
   outline: 0;
 }
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #4b444b;
-  border-color: #a198a1;
+  color: #b1a9b1;
+  border-color: #ffffff;
   outline: 0;
 }
 .button.button-primary,
@@ -372,7 +372,7 @@ input[type="password"] {
   height: 38px;
   padding: 6px 10px;
   background-color: #fff;
-  border: 1px solid #d0ccd0;
+  border: 1px solid #f7f7f7;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
@@ -385,7 +385,7 @@ select {
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
-  border: 1px solid #d0ccd0;
+  border: 1px solid #f7f7f7;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
@@ -478,8 +478,8 @@ code {
   margin: 0 0.2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #cbc5cb;
-  border: 1px solid #bbb4bb;
+  background: #f2f0f2;
+  border: 1px solid #e2dfe2;
   border-radius: 4px;
 }
 pre > code {
@@ -493,7 +493,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #bbb4bb;
+  border-bottom: 1px solid #e2dfe2;
 }
 th:first-child,
 td:first-child {
@@ -548,7 +548,7 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #bbb4bb;
+  border-top: 1px solid #e2dfe2;
 }
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -582,7 +582,7 @@ there.
   max-width: 70rem;
   margin: 0rem auto;
   text-align: center;
-  color: #6f656f;
+  color: #b1a9b1;
 }
 .search-wrapper {
   max-width: 45rem;
@@ -591,7 +591,7 @@ there.
 @media (min-width: 550px) {
   .search-wrapper {
     max-width: 45rem;
-    margin: 15rem auto;
+    min-height: 34rem;
   }
 }
 .search-wrapper .search-input {
@@ -599,7 +599,7 @@ there.
   width: 100%;
   border-radius: 0.5rem;
   position: relative;
-  box-shadow: 0 0.1rem 0.5rem 0.3rem rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0.1rem 0.5rem 0.3rem rgba(21, 19, 21, 0.12);
 }
 .search-input input {
   height: 5.5rem;
@@ -609,7 +609,7 @@ there.
   border-radius: 0.5rem;
   padding: 0 6rem 0 2rem;
   font-size: 1.8rem;
-  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.1rem 0.5rem rgba(21, 19, 21, 0.1);
   margin-bottom: 0;
   border: 0;
 }
@@ -650,12 +650,12 @@ there.
   font-weight: bold;
 }
 .search-input.active .autocomplete-box li .suggestion-type {
-  color: #a399a3;
+  color: #cac4ca;
   padding-left: 0.6em;
   font-size: 0.7em;
 }
 .autocomplete-box li:hover {
-  background: #bbb4bb;
+  background: #e2dfe2;
 }
 .back {
   display: none;
@@ -665,12 +665,12 @@ there.
   margin-bottom: 0;
   font-weight: 400;
   font-size: 2.5rem;
-  color: #bbb4bb;
+  color: #e2dfe2;
 }
 .mobile-separator {
   width: 90%;
   height: 1px;
-  background-color: #bbb4bb;
+  background-color: #e2dfe2;
   position: relative;
   left: 50%;
   transform: translateX(-50%);

@@ -261,7 +261,7 @@ button {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #6f656f;
+  color: #d2cdd2;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -272,7 +272,7 @@ button {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb4bb;
+  border: 1px solid #e2dfe2;
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -282,7 +282,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #6f656f;
+  color: #d2cdd2;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -293,34 +293,34 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb4bb;
+  border: 1px solid #e2dfe2;
   cursor: pointer;
   box-sizing: border-box;
 }
 .button:hover,
 button:hover {
-  color: #4b444b;
-  border-color: #a198a1;
+  color: #b1a9b1;
+  border-color: #ffffff;
   outline: 0;
 }
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  color: #4b444b;
-  border-color: #a198a1;
+  color: #b1a9b1;
+  border-color: #ffffff;
   outline: 0;
 }
 .button:focus,
 button:focus {
-  color: #4b444b;
-  border-color: #a198a1;
+  color: #b1a9b1;
+  border-color: #ffffff;
   outline: 0;
 }
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #4b444b;
-  border-color: #a198a1;
+  color: #b1a9b1;
+  border-color: #ffffff;
   outline: 0;
 }
 .button.button-primary,
@@ -372,7 +372,7 @@ input[type="password"] {
   height: 38px;
   padding: 6px 10px;
   background-color: #fff;
-  border: 1px solid #d0ccd0;
+  border: 1px solid #f7f7f7;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
@@ -385,7 +385,7 @@ select {
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
-  border: 1px solid #d0ccd0;
+  border: 1px solid #f7f7f7;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
@@ -478,8 +478,8 @@ code {
   margin: 0 0.2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #cbc5cb;
-  border: 1px solid #bbb4bb;
+  background: #f2f0f2;
+  border: 1px solid #e2dfe2;
   border-radius: 4px;
 }
 pre > code {
@@ -493,7 +493,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #bbb4bb;
+  border-bottom: 1px solid #e2dfe2;
 }
 th:first-child,
 td:first-child {
@@ -548,7 +548,7 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #bbb4bb;
+  border-top: 1px solid #e2dfe2;
 }
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -581,16 +581,13 @@ header a {
   color: #151315;
   text-decoration: none;
 }
-header a:hover {
-  color: #bbb4bb;
-}
 header .title {
   line-height: 40px;
   margin-bottom: 0;
   margin-top: -10px;
 }
-header .title a {
-  text-decoration: none;
+header .subtitle {
+  color: #b1a9b1;
 }
 header .menu {
   text-align: right;
@@ -601,7 +598,7 @@ header .menu {
 }
 header .menu .menu-item,
 header .menu .lang {
-  margin-right: 2rem;
+  margin: 0 1rem;
 }
 footer {
   padding: 2em 0;
@@ -614,26 +611,11 @@ footer .title a {
   text-decoration: none;
   color: #151315;
 }
-footer .items {
-  text-align: centre;
-  display: flex;
-  display: -webkit-flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-footer .items .item {
-  margin-right: 2rem;
-}
-footer .items .item a {
-  color: #4b444b;
-}
-/*
 footer.home {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-*/
 footer .logo-column {
   justify-content: flex-end;
 }
