@@ -38,17 +38,29 @@ header {
 }
 
 footer {
-    padding: 2em 0;
+    padding-bottom: 0 !important;
+    padding-top: 2em;
     background-color: @off-white;
+    width: 100%;
 
     h2 {
         margin-bottom: 0rem;
     }
     .title a {
         text-decoration: none;
-        color: @font-color;
+        color: @colour-1-darker;
     }
 
+    .item {
+        margin: 0.5rem 0;
+    }
+
+}
+
+.top-level-item {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
 }
 
 footer .logo-column{
@@ -58,11 +70,12 @@ footer .logo-column{
     .logo {
         background-color: black;
         padding: 6px;
-        box-sizing: initial;
+        border:none;
         width: 183px;
 
         svg {
-            width: auto;
+            width: 100%;
+            height: auto;
         }
 
         .cls-1{
@@ -72,5 +85,17 @@ footer .logo-column{
 
     .built-by{
         margin-bottom: 0.5rem;
+    }
+}
+
+.footer-bottom-row {
+    padding-bottom: 2rem;
+}
+
+@media (min-width: @bp-larger-than-phablet){
+    footer {
+        .logo-div {
+            float: right;
+        }
     }
 }

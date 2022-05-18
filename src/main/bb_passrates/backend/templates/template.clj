@@ -24,17 +24,27 @@
       (let [[sub-1 sub-2 sub-3] (copy [:footer/subtitle lang])]
         [:p.subtitle
          [:span sub-1]
-         [:a {:href "https://www.flaviosousa.co/" } "flaviosousa.co"]
+         [:a {:href "https://www.flaviosousa.co/" } "Flávio Sousa"]
          [:span sub-2]
          [:a {:href "https://www.codecadre.ai/" } "Codecadre"]
          [:span sub-3]])]]
-    [:div.row
-     [:div.columns.two [:h3 "Project"]]
-     [:div.columns.two [:h3 "Legal"]]
-     [:div.columns.two [:h3 "Contactos"]]
+    [:div.row.footer-bottom-row
+     [:div.columns.two
+      [:p.top-level-item "Project"]
+      [:p.item "FAQ"]
+      [:p.item [:a {:href "/"} "Home"]]
+      [:p.item "About"]]
+     [:div.columns.two
+      [:p.top-level-item "Legal"]
+      [:p.item "Privacy Policy"]
+      [:p.item "Terms of Service"]
+      [:p.item "DPA"]]
+     [:div.columns.two [:p.top-level-item "Contactos"]
+      [:p.item "mail@codecadre.ai"]]
      [:div.columns.six.logo-column
-      [:p.built-by "Built by"]
-      [:div.logo logo]]]
+      [:div.logo-div
+       [:p.built-by "Built by"]
+       [:div.logo logo]]]]
 
     #_[:div.items
      [:div.item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]

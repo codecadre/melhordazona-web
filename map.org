@@ -11,15 +11,21 @@ TOS
 
 ** TODO color palette
    :LOGBOOK:
-   CLOCK: [2022-05-18 Wed 18:15]
+   CLOCK: [2022-05-18 Wed 18:15]--[2022-05-18 Wed 18:47] =>  0:32
    CLOCK: [2022-05-18 Wed 16:01]--[2022-05-18 Wed 18:15] =>  2:14
    :END:
+** TODO footer style
+   :LOGBOOK:
+   CLOCK: [2022-05-18 Wed 19:02]--[2022-05-18 Wed 19:19] =>  0:17
+   :END:
 
-- [ ] box-shadow new colors
+- [X] box-shadow new colors
+- [X] suggestions colors
+- [X] and suggestion box height
+- [ ] footer location issue on ipad
 
-- suggestions colors
-- footer...
-- box-shadow issues
+- [ ] box-shadow issues and bring back the div
+- [ ] remove footer.home class from home page
 
 ** DONE display logo
 ** DONE suggestion styling
@@ -35,7 +41,6 @@ TOS
 *** DONE diplay info on marker click
 
 *** TODO Style info
-
 *** TODO single school page
 *** TODO style ratings
 
@@ -72,6 +77,7 @@ TOS
    :LOGBOOK:
    CLOCK: [2022-05-13 Fri 15:05]--[2022-05-13 Fri 15:54] =>  0:49
    :END:
+*** rework multilang system
 
 *** TODO [SEO] "en" url structure
 ** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
