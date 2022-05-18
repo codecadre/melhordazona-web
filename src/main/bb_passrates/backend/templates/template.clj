@@ -1,7 +1,8 @@
 (ns bb-passrates.backend.templates.template
   (:require [clojure.string :as clj-str]
             [bb-passrates.shared.main :refer [build-href]]
-            [bb-passrates.shared.copy :refer [copy]]))
+            [bb-passrates.shared.copy :refer [copy]]
+            [bb-passrates.backend.logo :refer [logo]]))
 
 (def env (System/getenv "ENV"))
 
@@ -12,15 +13,37 @@
 (defn home? [{:keys [uri]}]
   (= uri "/"))
 
-(defn footer [req]
+(defn footer [{:keys [url/lang] :as req}]
   [(if (home? req) :footer.home :footer)
    [:div.container
-    [:div.items
+    [:div.row
+     [:div.column.two-thirds
+      [:h2.title
+       [:strong
+        [:a {:href (build-href "/" req)} "Passa à Primeira"]]]
+      (let [[sub-1 sub-2 sub-3] (copy [:footer/subtitle lang])]
+        [:p.subtitle
+         [:span sub-1]
+         [:a {:href "https://www.flaviosousa.co/" } "flaviosousa.co"]
+         [:span sub-2]
+         [:a {:href "https://www.codecadre.ai/" } "Codecadre"]
+         [:span sub-3]])]]
+    [:div.row
+     [:div.columns.two [:h3 "Project"]]
+     [:div.columns.two [:h3 "Legal"]]
+     [:div.columns.two [:h3 "Contactos"]]
+     [:div.columns.six.logo-column
+      [:p.built-by "Built by"]
+      [:div.logo logo]]]
+
+    #_[:div.items
      [:div.item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]
-     [:div.item [:a {:href "/termos/"} [:strong "Termos e serviços"]]]
+     [:div.item [:a {:href "/sobre/"} [:strong "sobre"]]]
+     [:div.item [:a {:href "/termos/"} [:strong "T&S"]]]
      [:div.item [:a {:href "/faq"} [:strong "FAQ"]]]
-     [:div.item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]
-     [:strong [:span "made by " [:a {:href "/codecadre.ai"} "Codecadre"]]]]]]  )
+     [:div.item [:a {:href "/dpa"} [:strong "DPA"]]]
+     [:strong [:span "made by " [:a {:href "https://www.codecadre.ai"} "Codecadre"]]]
+     ]]])
 
 (defn header-c [{:keys [url/lang] :as req}]
   (let [lang (keyword lang)]
@@ -30,16 +53,14 @@
        [:div.column.one-half
         [:h2.title
          [:strong
-          [:a {:href "/"#_(build-href "/" url)} "Passa à Primeira"]]]
+          [:a {:href (build-href "/" req)} "Passa à Primeira"]]]
         [:p.subtitle (copy [:header/subtitle lang])
          ]]
        [:div.column.one-half
         [:div.menu
-         [:div.lang
-          [:span "["]
-          [(keyword (str "a#en" (when (= lang :en) ".selected")) ) {:href (build-href "" (assoc req :url/lang "en"))} "EN"]
-          [:span "/"]
-          [(keyword (str "a#en" (when (or (nil? lang) (= lang :pt)) ".selected")) ) {:href (build-href "" (assoc req :url/lang "pt"))} "PT"] [:span "]"]]
+         [(keyword (str "a#en" (when (= lang :en) ".selected")) ) {:href (build-href "" (assoc req :url/lang "en"))} "EN"]
+         [:span "/"]
+         [(keyword (str "a#en" (when (or (nil? lang) (= lang :pt)) ".selected")) ) {:href (build-href "" (assoc req :url/lang "pt"))} "PT"] [:span "]"]
          [(keyword (str "div.menu-item" (when (-> req :uri (= "/")) ".selected")) ) [:a {:href (build-href "/pesquisa/" req)} [:strong (copy [:nav/search lang])]]]
          [:div.menu-item [:a {:href (build-href "/acerca/" req)} [:strong (copy [:nav/about lang])]]]
          [:div.menu-item [:a {:href (build-href "/faq/" req)} [:strong (copy [:nav/faq lang])]]]

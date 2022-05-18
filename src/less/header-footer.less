@@ -42,8 +42,21 @@ header {
 }
 
 footer {
-    text-align: right;
-    padding: 30px 0;
+    padding: 2em 0;
+    background-color: @light-grey;
+    h2 {
+        margin-bottom: 0rem;
+    }
+    .title {
+        a {
+            text-decoration: none;
+            color: @font-color;
+        }
+    }
+    //text-align: right;
+    //padding: 30px 0;
+
+
 
     .items {
         text-align: centre;
@@ -54,13 +67,42 @@ footer {
 
         .item {
             margin-right: 2.0rem;
+            a {
+                color: @dark-grey;
+            }
         }
 
     }
 }
-
+/*
 footer.home {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+*/
+
+footer .logo-column{
+
+    justify-content: flex-end;
+
+    .logo {
+
+        background-color: black;
+        padding: 6px;
+        box-sizing: initial;
+        width: 183px;
+
+        svg {
+            width: auto;
+        }
+
+        .cls-1{
+            fill: white;
+        }
+    }
+
+    .built-by{
+        margin-bottom: 0.5rem;
+    }
 }

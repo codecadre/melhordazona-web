@@ -659,8 +659,15 @@ header .menu .lang {
   margin-right: 2rem;
 }
 footer {
-  text-align: right;
-  padding: 30px 0;
+  padding: 2em 0;
+  background-color: #e1e1e1;
+}
+footer h2 {
+  margin-bottom: 0rem;
+}
+footer .title a {
+  text-decoration: none;
+  color: #222;
 }
 footer .items {
   text-align: centre;
@@ -672,10 +679,33 @@ footer .items {
 footer .items .item {
   margin-right: 2rem;
 }
+footer .items .item a {
+  color: #333;
+}
+/*
 footer.home {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+*/
+footer .logo-column {
+  justify-content: flex-end;
+}
+footer .logo-column .logo {
+  background-color: black;
+  padding: 6px;
+  box-sizing: initial;
+  width: 183px;
+}
+footer .logo-column .logo svg {
+  width: auto;
+}
+footer .logo-column .logo .cls-1 {
+  fill: white;
+}
+footer .logo-column .built-by {
+  margin-bottom: 0.5rem;
 }
 .cta {
   max-width: 70rem;
@@ -820,6 +850,7 @@ footer.home {
   box-sizing: border-box;
 }
 body {
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   background: #fff;
   display: flex;
