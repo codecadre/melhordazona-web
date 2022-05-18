@@ -1,4 +1,0 @@
-goog.provide('bb_passrates.shared.copy');
-bb_passrates.shared.copy.copy_list = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword("autocomplete","district","autocomplete/district",124372055),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"pt","pt",556460867),"Distrito",new cljs.core.Keyword(null,"en","en",88457073),"District"], null),new cljs.core.Keyword("autocomplete","municipality","autocomplete/municipality",-404337004),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"pt","pt",556460867),"Munic\u00EDpio",new cljs.core.Keyword(null,"en","en",88457073),"Municipality"], null),new cljs.core.Keyword("autocomplete","city","autocomplete/city",-1298367070),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"pt","pt",556460867),"Cidade",new cljs.core.Keyword(null,"en","en",88457073),"City"], null)], null);
-
-//# sourceMappingURL=bb_passrates.shared.copy.js.map
