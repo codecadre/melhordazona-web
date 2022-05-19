@@ -594,12 +594,10 @@ there.
 svg.pop-up {
   height: 10rem;
 }
-text {
-  font-size: 1.1rem;
-}
-.pop-up-wrapper {
-  display: none;
-}
+/*
+.pop-up-wrapper{
+    display: none;
+}*/
 .leaflet-popup-content-wrapper .pop-up-wrapper {
   display: flex;
   flex-direction: column;
@@ -626,41 +624,6 @@ text {
 }
 .leaflet-popup-close-button {
   color: #b1a9b1 !important;
-}
-text.bar-label {
-  fill: #151315;
-  font-size: 1.1rem;
-}
-.year-label,
-.driving-ratings,
-.theory-ratings {
-  height: 20rem;
-}
-.year-label text,
-.driving-ratings text,
-.theory-ratings text {
-  font-size: 0.55rem;
-}
-.bar.driving {
-  fill: #fbd5a3;
-}
-.bar.theory {
-  fill: blue;
-}
-.bar:hover {
-  fill: #fbd5a3;
-}
-.axis {
-  font: 10px sans-serif;
-}
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-.x.axis path {
-  display: none;
 }
 .custom-marker {
   background-color: #d05353;
@@ -890,6 +853,24 @@ footer .logo-column .built-by {
 }
 .solo-school .name {
   font-weight: bold;
+}
+.solo-school svg {
+  height: 23rem;
+  font-size: 0.75rem;
+}
+.solo-school .driving .bar {
+  fill: #fbd5a3;
+}
+.solo-school .theory .bar {
+  fill: #29aae3;
+}
+.solo-school div.description .driving {
+  padding: 0.3rem;
+  background-color: #fbd5a3;
+}
+.solo-school div.description .theory {
+  padding: 0.3rem;
+  background-color: #29aae3;
 }
 #map-solo {
   height: 300px;

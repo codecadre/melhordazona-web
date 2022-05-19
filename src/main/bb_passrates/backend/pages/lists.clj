@@ -30,7 +30,7 @@
    [:a {:href (format "escolas/%s" k)} "ver mais >"]])
 
 (defn hiccup-school [[k {:keys [rates geocode imt-profile]}]]
-  (let [svg (svg/pop-up-svg (svg/parse-d-min rates))
+  (let [svg 123 #_(svg/pop-up-svg (svg/parse-d-min rates))
         lat (:y geocode)
         long (:x geocode)
         name (:name imt-profile)
@@ -47,12 +47,6 @@
       svg]
      [:a {:href (format "escolas/%s" k)} "ver mais >"]]))
 
-#_(let [[label r1 r2] (svg/svg (svg/parse-d rates))]
-         [:div.ratings
-          [:div.label label]
-          [:div.driving r1]
-          [:div.label label]
-          [:div.theory r2]])
 (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
 (hiccup-school (first l)))
 

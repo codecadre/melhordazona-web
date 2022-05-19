@@ -1,15 +1,15 @@
 (ns bb-passrates.shared.svg)
 
-(def debug false)
+(def debug true)
 
 
-(defn pop-up-svg [d]
+(defn pop-up-svg [d n]
   (let [H 100
         bar-length-nominal 100
         x2 40
         x3 (+ bar-length-nominal x2 5)
-        W (+ x3 70)
-        row-h (int (/ H 4))
+        W (+ x3 50)
+        row-h (int (/ H (inc n)))
         bar-y (int (* row-h 0.85))
         text-y (int (* row-h 0.6))
         top-level-label [[:g {:transform (format "translate(%s,0)" x2)}
@@ -17,7 +17,7 @@
                          [:g {:transform (format "translate(%s,0)" x3)}
                           [:text {:dy text-y} "N. Exames"]]]]
     (into
-       [:svg.pop-up (merge {:viewBox (format "0 0 %s %s" W H)} (when debug {:class "border"}))]
+       [:svg (merge {:viewBox (format "0 0 %s %s" W H)} (when debug {:class "border"}))]
 
        (reduce
         (fn [acc [idx label r i]]
@@ -28,12 +28,13 @@
                   [[:g (merge {:transform (format "translate(0,%s)" y)})
                     [:text {:dy text-y} label]]
                    [:g (merge {:transform (format "translate(%s,%s)" x2 y)})
-                    [:rect {:class "bar driving", :width bar-length, :height bar-y}]
+                    [:rect {:class "bar", :width bar-length, :height bar-y}]
                     [:text {:class "bar-label" :dy text-y :x (- bar-length 28)} bar-label]]
                    [:g (merge {:transform (format "translate(%s,%s)" x3 y)})
                     [:text {:dy text-y} i]]])))
         top-level-label d))))
 
+;;TODO deprecated
 (defn svg [d]
   (let [y2 0
         y3 0
@@ -75,6 +76,22 @@
   [d]
   (map-indexed (fn [idx {:keys [r/level-0 r/d-rate r/t-rate r/d-done r/t-done]}]
                  [idx level-0 d-rate t-rate d-done t-done]) d))
+
+(defn parse-d-smart
+  "receives school listing, return list of:
+  [idx YEAR d-rating t-rating d-done t-done]"
+  [d type year-selector]
+  (->> d
+       (filter (fn [{:keys [r/level-0 r/d-rate r/t-rate r/d-done r/t-done]}]
+                 (year-selector level-0)))
+       (map-indexed (fn [idx {:keys [r/level-0 r/d-rate r/t-rate r/d-done r/t-done]}]
+                      (let [p1 (if (= :d type)
+                                     d-rate
+                                     t-rate)
+                            p2 (if (= :d type)
+                                 d-done
+                                 t-done)]
+                        [idx level-0 p1 p2])))))
 
 (defn parse-d-min
   "simplified data set only for 3 last years and driving rates
