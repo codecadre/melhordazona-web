@@ -25,25 +25,12 @@
     "- Open Pass Rates: Driving school pass rates in Portugal. - Government data.")})
 
 
-#_(defn pop-up []
-  [:table
-   [:thead
-    [:tr
-     [:th "2015"]
-     [:th "Age"]
-     [:th "Sex"]
-     [:th "Location"]]]
-   [:tbody
-    [:tr
-     [:td "Dave Gamache"]
-     [:td "26"]
-     [:td "Male"]
-     [:td "San Francisco"]]
-    [:tr
-     [:td "Dwayne Johnson"]
-     [:td "42"]
-     [:td "Male"]
-     [:td "Hayward"]]]])
+(defn pop-up [k rates {:keys [name] :as imt-profile}]
+  [:div.pop-up
+   [:h5.name name]
+   [:p "Provas práticas:"]
+   [:div (svg/pop-up-svg (svg/parse-d-min rates))]
+   [:a {:href (format "escolas/%s" k)} "ver mais >"]])
 
 (defn hiccup-school [[k {:keys [rates geocode imt-profile]}]]
   (let [lat (:y geocode)
@@ -54,7 +41,7 @@
         concelho (:concelho imt-profile)
         cp7 (:cp7 imt-profile)]
     [:div.school {:lat lat :long long}
-     (svg/pop-up-svg (svg/parse-d-min rates))
+     (pop-up k rates imt-profile)
      [:div.name [:h4 name]]
      [:div.nec [:p (str "Licensa n# " nec)]]
      [:div.address [:p address]]

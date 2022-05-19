@@ -8,7 +8,7 @@
         bar-length-nominal 100
         x2 40
         x3 (+ bar-length-nominal x2 5)
-        W (+ bar-length-nominal x3)
+        W (+ x3 70)
         row-h (int (/ H 4))
         bar-y (int (* row-h 0.85))
         text-y (int (* row-h 0.6))

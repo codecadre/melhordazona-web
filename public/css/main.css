@@ -591,6 +591,22 @@ svg.pop-up {
 text {
   font-size: 1.1rem;
 }
+.leaflet-popup-content-wrapper .pop-up {
+  padding-bottom: 0.5rem;
+}
+.leaflet-popup-content-wrapper .pop-up .name {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.leaflet-popup-content-wrapper .pop-up p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+.leaflet-popup-content-wrapper .pop-up a {
+  color: #29aae3 !important;
+  float: right;
+  font-size: 1.1rem;
+}
 text.bar-label {
   fill: #151315;
   font-size: 1.1rem;
