@@ -1,6 +1,6 @@
 (ns bb-passrates.shared.svg)
 
-(def debug true)
+(def debug false)
 
 
 (defn pop-up-svg [d]

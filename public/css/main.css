@@ -591,7 +591,11 @@ svg.pop-up {
 text {
   font-size: 1.1rem;
 }
+.pop-up {
+  display: none;
+}
 .leaflet-popup-content-wrapper .pop-up {
+  display: inherit;
   padding-bottom: 0.5rem;
 }
 .leaflet-popup-content-wrapper .pop-up .name {
