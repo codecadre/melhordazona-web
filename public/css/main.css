@@ -326,15 +326,15 @@ input[type="button"]:focus {
 .button.button-primary,
 button.button-primary {
   color: #fff;
-  background-color: colour-2;
-  border-color: colour-2;
+  background-color: #d05353;
+  border-color: #d05353;
 }
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #fff;
-  background-color: colour-2;
-  border-color: colour-2;
+  background-color: #d05353;
+  border-color: #d05353;
 }
 .button.button-primary:hover,
 button.button-primary:hover {
@@ -417,12 +417,12 @@ input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus {
-  border: 1px solid colour-2;
+  border: 1px solid #d05353;
   outline: 0;
 }
 textarea:focus,
 select:focus {
-  border: 1px solid colour-2;
+  border: 1px solid #d05353;
   outline: 0;
 }
 label,
@@ -591,25 +591,35 @@ svg.pop-up {
 text {
   font-size: 1.1rem;
 }
-.pop-up {
+.pop-up-wrapper {
   display: none;
 }
-.leaflet-popup-content-wrapper .pop-up {
-  display: inherit;
-  padding-bottom: 0.5rem;
+.leaflet-popup-content-wrapper .pop-up-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
 }
-.leaflet-popup-content-wrapper .pop-up .name {
+.leaflet-popup-content-wrapper .pop-up-wrapper .name {
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
-.leaflet-popup-content-wrapper .pop-up p {
+.leaflet-popup-content-wrapper .pop-up-wrapper p {
   font-size: 1.1rem;
   margin: 1rem 0;
 }
-.leaflet-popup-content-wrapper .pop-up a {
+.leaflet-popup-content-wrapper .pop-up-wrapper a {
+  text-align: right;
+  padding: 0.2rem;
   color: #29aae3 !important;
   float: right;
   font-size: 1.1rem;
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 0 !important;
+  color: #151315 !important;
+}
+.leaflet-popup-close-button {
+  color: #b1a9b1 !important;
 }
 text.bar-label {
   fill: #151315;

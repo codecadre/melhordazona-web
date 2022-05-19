@@ -26,7 +26,7 @@
 
 
 (defn pop-up [k rates {:keys [name] :as imt-profile}]
-  [:div.pop-up
+  [:div.pop-up-wrapper
    [:h5.name name]
    [:p "Provas práticas:"]
    [:div (svg/pop-up-svg (svg/parse-d-min rates))]

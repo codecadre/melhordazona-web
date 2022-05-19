@@ -22,19 +22,19 @@ text{
     font-size: 1.1rem;
 }
 
-.pop-up{
+.pop-up-wrapper{
     display: none;
 }
 
-.leaflet-popup-content-wrapper .pop-up {
+.leaflet-popup-content-wrapper .pop-up-wrapper {
 
-    display: inherit;
-
-    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
 
     .name {
         font-weight: bold;
-        margin-bottom: 1rem;
+        margin-bottom: 0;
     }
 
     p {
@@ -43,6 +43,8 @@ text{
     }
 
     a {
+        text-align: right;
+        padding: .2rem;
         color: @colour-1 !important;
         float: right;
         font-size: 1.1rem;
@@ -50,6 +52,14 @@ text{
 
 }
 
+.leaflet-popup-content-wrapper{
+    border-radius: 0 !important;
+    color: @kinda-black !important;
+}
+
+.leaflet-popup-close-button{
+    color: @dark-grey !important;
+}
 
 text.bar-label {
     fill: @font-color;
