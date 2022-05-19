@@ -601,20 +601,25 @@ header .menu .lang {
   margin: 0 1rem;
 }
 footer {
-  padding: 2em 0;
+  padding-bottom: 0 !important;
+  padding-top: 2em;
   background-color: #f2efe9;
+  width: 100%;
 }
 footer h2 {
   margin-bottom: 0rem;
 }
 footer .title a {
   text-decoration: none;
-  color: #151315;
+  color: #053c5e;
 }
-footer.home {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+footer .item {
+  margin: 0.5rem 0;
+}
+.top-level-item {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
 }
 footer .logo-column {
   justify-content: flex-end;
@@ -622,15 +627,24 @@ footer .logo-column {
 footer .logo-column .logo {
   background-color: black;
   padding: 6px;
-  box-sizing: initial;
+  border: none;
   width: 183px;
 }
 footer .logo-column .logo svg {
-  width: auto;
+  width: 100%;
+  height: auto;
 }
 footer .logo-column .logo .cls-1 {
   fill: white;
 }
 footer .logo-column .built-by {
   margin-bottom: 0.5rem;
+}
+.footer-bottom-row {
+  padding-bottom: 2rem;
+}
+@media (min-width: 550px) {
+  footer .logo-div {
+    float: right;
+  }
 }

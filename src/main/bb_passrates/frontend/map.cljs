@@ -24,5 +24,5 @@
                               long (oget el "attributes.long.value")
                               coord-js (make-coord-js lat long)
                               icon (make-icon-js)
-                              popup-html-str (.-outerHTML (.querySelector el ".ratings"))]
+                              popup-html-str (.-outerHTML (.querySelector el ".pop-up"))]
                           (.bindPopup (.addTo (.marker js/L coord-js icon) map) popup-html-str)))))))))

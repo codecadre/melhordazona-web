@@ -585,6 +585,16 @@ there.
 #map {
   height: 500px;
 }
+svg.pop-up {
+  height: 10rem;
+}
+text {
+  font-size: 1.1rem;
+}
+text.bar-label {
+  fill: #151315;
+  font-size: 1.1rem;
+}
 .year-label,
 .driving-ratings,
 .theory-ratings {
@@ -593,16 +603,16 @@ there.
 .year-label text,
 .driving-ratings text,
 .theory-ratings text {
-  font-size: 0.55em;
+  font-size: 0.55rem;
 }
 .bar.driving {
-  fill: #d81c3f;
+  fill: #fbd5a3;
 }
 .bar.theory {
   fill: blue;
 }
 .bar:hover {
-  fill: darkgray;
+  fill: #fbd5a3;
 }
 .axis {
   font: 10px sans-serif;
@@ -617,11 +627,11 @@ there.
   display: none;
 }
 .custom-marker {
-  background-color: red;
-  border: none;
-  border-radius: 100rem;
-  width: 2rem !important;
-  height: 2rem !important;
+  background-color: #d05353;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  border-radius: 50%;
+  opacity: 0.7;
 }
 .border {
   border: dashed;

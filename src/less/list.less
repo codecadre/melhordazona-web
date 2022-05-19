@@ -14,29 +14,41 @@
 
 // svg ratings
 
-.ratings svg{
-    //width: 100%;
+svg.pop-up {
+    height: 10rem;
 }
+
+text{
+    font-size: 1.1rem;
+}
+
+
+text.bar-label {
+    fill: @font-color;
+    font-size: 1.1rem;
+}
+
 
 .year-label,
 .driving-ratings,
 .theory-ratings {
     height: 20rem;
     text{
-        font-size: 0.55em;
+        font-size: .55rem;
     }
+
 }
 
 .bar.driving {
-  fill: #d81c3f;
+    fill: @colour-3;
 }
 
 .bar.theory {
-  fill: blue
+    fill: blue;
 }
 
 .bar:hover {
-  fill: darkgray;
+    fill: @colour-3;
 }
 
 .axis {
@@ -55,11 +67,12 @@
 }
 
 .custom-marker {
-    background-color: red;
-    border: none;
-    border-radius: 100rem;
-    width: 2rem !important;
-    height: 2rem !important;
+    background-color: @colour-2;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    border-radius: 50%;
+    opacity: 0.7;
+
 }
 
 //debug info

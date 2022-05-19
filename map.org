@@ -1,20 +1,13 @@
 * 2 iteration
 
-- pages:
-home
-about
-faq
-Privacy
-TOS
 
 
-
-** TODO color palette
+** DONE color palette
    :LOGBOOK:
    CLOCK: [2022-05-18 Wed 18:15]--[2022-05-18 Wed 18:47] =>  0:32
    CLOCK: [2022-05-18 Wed 16:01]--[2022-05-18 Wed 18:15] =>  2:14
    :END:
-** TODO footer style
+** DONE footer style
    :LOGBOOK:
    CLOCK: [2022-05-18 Wed 19:02]--[2022-05-18 Wed 19:19] =>  0:17
    :END:
@@ -22,24 +15,23 @@ TOS
 - [X] box-shadow new colors
 - [X] suggestions colors
 - [X] and suggestion box height
-- [ ] footer location issue on ipad
-
-- [ ] box-shadow issues and bring back the div
-- [ ] remove footer.home class from home page
 
 ** DONE display logo
 ** DONE suggestion styling
-** TODO footer styling
+** TODO outstanding home styling remarks
    :LOGBOOK:
    CLOCK: [2022-05-18 Wed 10:26]--[2022-05-18 Wed 14:53] =>  4:27
    :END:
+- [ ] footer location issue on ipad
+- [ ] box-shadow issues and bring back the div separator
+- [ ] box shadow remove radius
+- [X] remove footer.home class from home page
 
-** TODO school listing fixes
 
 *** DONE display round markers
-
 *** DONE diplay info on marker click
 
+** TODO school listing fixes
 *** TODO Style info
 *** TODO single school page
 *** TODO style ratings
@@ -49,6 +41,13 @@ TOS
     CLOCK: [2022-05-17 Tue 14:15]--[2022-05-17 Tue 15:50] =>  1:35
     :END:
 
+*** TODO POP UP
+    :LOGBOOK:
+    CLOCK: [2022-05-19 Thu 11:26]--[2022-05-19 Thu 11:46] =>  0:20
+    CLOCK: [2022-05-19 Thu 10:41]--[2022-05-19 Thu 11:26] =>  0:45
+    CLOCK: [2022-05-19 Thu 09:33]--[2022-05-19 Thu 10:37] =>  1:04
+    CLOCK: [2022-05-19 Thu 09:00]--[2022-05-19 Thu 09:33] =>  0:33
+    :END:
 
 ** DONE bits and bobs style fixes
    :LOGBOOK:

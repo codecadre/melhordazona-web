@@ -54,7 +54,7 @@
         concelho (:concelho imt-profile)
         cp7 (:cp7 imt-profile)]
     [:div.school {:lat lat :long long}
-     #_[:div.pop-up (pop-up)]
+     (svg/pop-up-svg (svg/parse-d-min rates))
      [:div.name [:h4 name]]
      [:div.nec [:p (str "Licensa n# " nec)]]
      [:div.address [:p address]]

@@ -586,7 +586,8 @@ there.
 }
 .search-wrapper {
   max-width: 45rem;
-  margin: 2rem auto;
+  margin-top: 2rem;
+  margin-bottom: 20rem;
 }
 @media (min-width: 550px) {
   .search-wrapper {
@@ -628,17 +629,17 @@ there.
   display: none;
 }
 .search-input.active .autocomplete-box {
-  padding: 1rem 0.8rem;
+  padding: 1rem 0rem;
   opacity: 1;
   pointer-events: auto;
   display: inherit;
 }
 .autocomplete-box li {
   list-style: none;
-  padding: 0.8rem 0.12em;
+  padding: 0.8rem 0.5em;
   width: 100%;
   cursor: default;
-  border-radius: 0.3rem;
+  border-radius: 0rem;
   display: none;
 }
 .search-input.active .autocomplete-box li {
@@ -650,7 +651,7 @@ there.
   font-weight: bold;
 }
 .search-input.active .autocomplete-box li .suggestion-type {
-  color: #cac4ca;
+  color: #b2a9b2;
   padding-left: 0.6em;
   font-size: 0.7em;
 }

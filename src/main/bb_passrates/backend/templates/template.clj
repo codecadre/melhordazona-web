@@ -14,7 +14,7 @@
   (= uri "/"))
 
 (defn footer [{:keys [url/lang] :as req}]
-  [(if (home? req) :footer.home :footer)
+  [:footer
    [:div.container
     [:div.row
      [:div.column.two-thirds
