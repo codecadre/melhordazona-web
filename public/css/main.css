@@ -575,12 +575,18 @@ there.
 /* Larger than Desktop HD */
 .list {
   position: relative;
-  max-width: 80%;
+  max-width: 100%;
+  margin: 0.1rem;
+  padding: 1rem 0.2rem 0.2rem 0rem;
 }
-.school {
-  padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px 10px;
+.school-card {
+  width: 50%;
+  padding: 2rem;
   background-color: #fff;
+  box-shadow: 0 0.1rem 0.5rem 0.3rem #e2dfe2;
+}
+.school-card .name {
+  font-weight: bold;
 }
 #map {
   height: 500px;
@@ -881,6 +887,12 @@ footer .logo-column .built-by {
   header {
     margin-bottom: 0;
   }
+}
+.solo-school .name {
+  font-weight: bold;
+}
+#map-solo {
+  height: 300px;
 }
 * {
   -webkit-overflow-scrolling: touch;

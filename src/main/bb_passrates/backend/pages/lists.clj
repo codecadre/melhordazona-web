@@ -4,13 +4,10 @@
   (:require [bb-passrates.shared.main :refer [lang url->canonical]]
             [bb-passrates.backend.templates.template :as tmp]
             [clojure.edn :as edn]
-            [bb-passrates.shared.svg :as svg]))
+            [bb-passrates.shared.svg :as svg]
+            [bb-passrates.shared.main :refer [get-place-list]]))
 
 ;;graph width
-
-
-(defn get-place-list [type place]
-  (-> (str "./data/" (name type) "-" place ".edn")  slurp edn/read-string))
 
 (defn school-list [type city]
   (try
@@ -25,37 +22,37 @@
     "- Open Pass Rates: Driving school pass rates in Portugal. - Government data.")})
 
 
-(defn pop-up [k rates {:keys [name] :as imt-profile}]
+(defn pop-up [k svg {:keys [name] :as imt-profile}]
   [:div.pop-up-wrapper
    [:h5.name name]
    [:p "Provas práticas:"]
-   [:div (svg/pop-up-svg (svg/parse-d-min rates))]
+   [:div svg]
    [:a {:href (format "escolas/%s" k)} "ver mais >"]])
 
 (defn hiccup-school [[k {:keys [rates geocode imt-profile]}]]
-  (let [lat (:y geocode)
+  (let [svg (svg/pop-up-svg (svg/parse-d-min rates))
+        lat (:y geocode)
         long (:x geocode)
         name (:name imt-profile)
         nec (:nec imt-profile)
         address (:address imt-profile)
         concelho (:concelho imt-profile)
         cp7 (:cp7 imt-profile)]
-    [:div.school {:lat lat :long long}
-     (pop-up k rates imt-profile)
-     [:div.name [:h4 name]]
-     [:div.nec [:p (str "Licensa n# " nec)]]
-     [:div.address [:p address]]
-     [:div.concelho [:p (str "ver mais escolas no concelho" concelho)]]
-     [:div.cp7 [:p cp7]]
-     [:div.address #_(:raw address)]
-     [:div.coordinates [:p "coordinates: " {:lat lat :long long}]]
-     (let [[label r1 r2] (svg/svg (svg/parse-d rates))]
+    [:div.school-card {:lat lat :long long}
+     (pop-up k svg imt-profile)
+     [:h4.name name]
+     [:div.nec [:p (str "Licensa IMT N. " nec)]]
+     [:div.address [:p (str "Morada:" address)]]
+     [:div.ratings
+      svg]
+     [:a {:href (format "escolas/%s" k)} "ver mais >"]]))
+
+#_(let [[label r1 r2] (svg/svg (svg/parse-d rates))]
          [:div.ratings
           [:div.label label]
           [:div.driving r1]
           [:div.label label]
-          [:div.theory r2]])]))
-
+          [:div.theory r2]])
 (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
 (hiccup-school (first l)))
 

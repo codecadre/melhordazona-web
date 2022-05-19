@@ -72,3 +72,7 @@
        (if (:url/lang req)
          req
          (assoc req :url/lang :pt)))))
+
+#?(:clj
+   (defn get-place-list [type place]
+     (-> (str "./data/" (name type) "-" place ".edn")  slurp edn/read-string)))

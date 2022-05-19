@@ -5,6 +5,7 @@
             [bb-passrates.backend.pages.home :as home]
             [bb-passrates.backend.pages.404 :as not-found]
             [bb-passrates.backend.pages.lists :as lists]
+            [bb-passrates.backend.pages.school :as school]
             [hiccup2.core :refer [html]]
             [bb-passrates.shared.main :refer [req]]
             [clojure.core.match :refer [match]]
@@ -33,6 +34,13 @@
       {:page (lists/page req schools)
        :header html-header})))
 
+(defn escola-handler [req]
+  (let [school (school/school-data (:school req))]
+    (if (empty? school)
+      resp-404
+      {:page (school/page req school)
+       :header html-header})))
+
 (defn district-handler [req]
   (let [schools (lists/school-list "district" (:district req))]
     (if (empty? schools)
@@ -56,6 +64,7 @@
            [:get ["echo" id]] (echo-handler (assoc req :id id))
            [:get []] (home-handler req)
            [:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
+           [:get ["escolas" escola]] (escola-handler (assoc req :school escola))
            ;;district has data issues
            #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
            :else {:page (not-found/page)
