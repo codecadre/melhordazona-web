@@ -740,7 +740,6 @@ footer .logo-column .built-by {
 .search-wrapper .search-input {
   background: #fff;
   width: 100%;
-  border-radius: 0.5rem;
   position: relative;
   box-shadow: 0 0.1rem 0.5rem 0.3rem rgba(21, 19, 21, 0.12);
 }
@@ -752,7 +751,6 @@ footer .logo-column .built-by {
   border-radius: 0.5rem;
   padding: 0 6rem 0 2rem;
   font-size: 1.8rem;
-  box-shadow: 0 0.1rem 0.5rem rgba(21, 19, 21, 0.1);
   margin-bottom: 0;
   border: 0;
 }
@@ -778,7 +776,7 @@ footer .logo-column .built-by {
 }
 .autocomplete-box li {
   list-style: none;
-  padding: 0.8rem 0.5em;
+  padding: 0.5rem 6rem 0.5rem 2rem;
   width: 100%;
   cursor: default;
   border-radius: 0rem;
