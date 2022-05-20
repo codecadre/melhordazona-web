@@ -1,6 +1,6 @@
 (ns bb-passrates.shared.svg)
 
-(def debug true)
+(def debug false)
 
 
 (defn pop-up-svg [d n]
@@ -8,7 +8,7 @@
         bar-length-nominal 100
         x2 40
         x3 (+ bar-length-nominal x2 5)
-        W (+ x3 50)
+        W (+ x3 55)
         row-h (int (/ H (inc n)))
         bar-y (int (* row-h 0.85))
         text-y (int (* row-h 0.6))

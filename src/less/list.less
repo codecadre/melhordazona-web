@@ -18,16 +18,13 @@
 
 #map { height: 500px; }
 
-// svg ratings
+// school-card ratings
 
-svg.pop-up {
-    height: 10rem;
-}
-
-/*
 .pop-up-wrapper{
     display: none;
-}*/
+}
+
+.ratings .bar{fill: red;}
 
 //pop up and map
 .leaflet-popup-content-wrapper .pop-up-wrapper {
@@ -35,6 +32,14 @@ svg.pop-up {
     display: flex;
     flex-direction: column;
     padding: 0.5rem 0;
+
+    svg {
+        height: 13rem;
+        font-size: 1.1rem;
+    }
+    .bar {
+        fill: @colour-3;
+    }
 
     .name {
         font-weight: bold;
@@ -47,11 +52,12 @@ svg.pop-up {
     }
 
     a {
-        text-align: right;
+        width: max-content;
+        display: flex;
+        align-self: end;
         padding: .2rem;
-        color: @colour-1 !important;
-        float: right;
-        font-size: 1.1rem;
+        color: @kinda-black !important;
+        font-size: 1.2rem;
     }
 
 }

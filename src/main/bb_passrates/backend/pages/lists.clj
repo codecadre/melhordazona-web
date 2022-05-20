@@ -29,8 +29,11 @@
    [:div svg]
    [:a {:href (format "escolas/%s" k)} "ver mais >"]])
 
+(def year-selector
+  #{"2018" "2019" "2020"})
+
 (defn hiccup-school [[k {:keys [rates geocode imt-profile]}]]
-  (let [svg 123 #_(svg/pop-up-svg (svg/parse-d-min rates))
+  (let [svg (svg/pop-up-svg (svg/parse-d-smart rates :d year-selector) (count year-selector))
         lat (:y geocode)
         long (:x geocode)
         name (:name imt-profile)
@@ -64,15 +67,23 @@
      (/ (reduce + 0 xx) n)]))
 
 (defn page [url-map place-list]
-  (let [[lat long] (centroid- place-list)]
-      [:html
-       (tmp/header
-       (merge content url-map)
-        [:main
-         [:div.container
-          [:div.map-wrapper
-           [:div#map {:lat lat :long long}]]
-          [:div.list (map hiccup-school place-list)]]])]))
+  (let [[lat long] (centroid- place-list)
+        school-cards (->> place-list
+                          (map hiccup-school)
+                          (partition 2)
+                          (reduce (fn [acc [s1 s2]]
+                                    (conj acc [:div.row
+                                               [:div.columns.six s1]
+                                               [:div.columns.six s2]]))
+                                  [:div.list]))]
+    [:html
+     (tmp/header
+      (merge content url-map)
+      [:main
+       [:div.container
+        [:div.map-wrapper
+         [:div#map {:lat lat :long long}]]
+        school-cards]])]))
 
 (comment
  (centroid- (-> "data/distrito-lisboa.edn" slurp edn/read-string))

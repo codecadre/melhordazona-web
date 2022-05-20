@@ -591,17 +591,23 @@ there.
 #map {
   height: 500px;
 }
-svg.pop-up {
-  height: 10rem;
+.pop-up-wrapper {
+  display: none;
 }
-/*
-.pop-up-wrapper{
-    display: none;
-}*/
+.ratings .bar {
+  fill: red;
+}
 .leaflet-popup-content-wrapper .pop-up-wrapper {
   display: flex;
   flex-direction: column;
   padding: 0.5rem 0;
+}
+.leaflet-popup-content-wrapper .pop-up-wrapper svg {
+  height: 13rem;
+  font-size: 1.1rem;
+}
+.leaflet-popup-content-wrapper .pop-up-wrapper .bar {
+  fill: #fbd5a3;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper .name {
   font-weight: bold;
@@ -612,11 +618,12 @@ svg.pop-up {
   margin: 1rem 0;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper a {
-  text-align: right;
+  width: max-content;
+  display: flex;
+  align-self: end;
   padding: 0.2rem;
-  color: #29aae3 !important;
-  float: right;
-  font-size: 1.1rem;
+  color: #151315 !important;
+  font-size: 1.2rem;
 }
 .leaflet-popup-content-wrapper {
   border-radius: 0 !important;

@@ -32,12 +32,12 @@
       (let [[lat-centre long-centre]
             [(js/parseFloat (oget el "attributes.lat.value"))
              (js/parseFloat (oget el "attributes.long.value"))]
-            icon (make-icon-js)
             map (.setView (.map js/L "map") (.latLng  js/L lat-centre long-centre) 13)]
         (.. js/L
             (tileLayer tile-server (clj->js {:attribution attribution}))
             (addTo map))
-        (-> (.querySelectorAll js/document ".school") js/Array.from
+        (-> (.querySelectorAll js/document ".school-card")
+            js/Array.from
             (.forEach (fn [el]
                         (let [lat (oget el "attributes.lat.value")
                               long (oget el "attributes.long.value")

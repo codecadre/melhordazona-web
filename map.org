@@ -1,5 +1,57 @@
 * 2 iteration
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2022-05-19 Thu 20:29]
+| Headline                                  | Time      |       |
+|-------------------------------------------+-----------+-------|
+| *Total time*                              | *1d 1:56* |       |
+|-------------------------------------------+-----------+-------|
+| 2 iteration                               | 1d 1:56   |       |
+| \_  styling remarks (Pairing with Giulia) |           |  4:27 |
+| \_  index page multilang support          |           |  0:49 |
+| \_  color palette                         |           |  2:46 |
+| \_  footer style                          |           |  0:17 |
+| \_  school listing fixes                  |           | 14:44 |
+| \_  bits and bobs style fixes             |           |  0:09 |
+| \_  underline only current page           |           |  0:07 |
+| \_  expand search in mobile               |           |  0:55 |
+| \_  back button functionality in mobile   |           |  1:42 |
+#+END:
+** DONE disable input/enable when JS is loaded
 
+** TODO don't allow user to zoom in map past a certain point
+** TODO styling remarks (Pairing with Giulia)
+   :LOGBOOK:
+   CLOCK: [2022-05-20 Fri 14:44]--[2022-05-20 Fri 15:18] =>  0:34
+   CLOCK: [2022-05-20 Fri 12:47]--[2022-05-20 Fri 13:00] =>  0:13
+   CLOCK: [2022-05-20 Fri 11:46]--[2022-05-20 Fri 12:28] =>  0:42
+   CLOCK: [2022-05-20 Fri 09:31]--[2022-05-20 Fri 10:45] =>  1:14
+   CLOCK: [2022-05-18 Wed 10:26]--[2022-05-18 Wed 14:53] =>  4:27
+   :END:
+Things for me to do
+- [ ] box-shadow issues and bring back the div separator
+
+
+- [ ] footer location issue on ipad (Giulia will look into this wtv.)
+
+
+- [X] box shadow remove radius
+- [X] remove footer.home class from home page
+
+** TODO index page multilang support
+   :LOGBOOK:
+   CLOCK: [2022-05-13 Fri 15:05]--[2022-05-13 Fri 15:54] =>  0:49
+   :END:
+*** TODO rework multilang system
+
+*** TODO [SEO] "en" url structure
+
+** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
+** TODO page generator and pages (3 days)
+   Generate a page from a Markdown to hiccup
+*** TODO Build generator (1 day)
+*** TODO Privacy policy, DPA (1-3 day at least...)
+*** TODO about
+*** TODO FAQ
 
 
 ** DONE color palette
@@ -18,28 +70,18 @@
 
 ** DONE display logo
 ** DONE suggestion styling
-** TODO outstanding home styling remarks
-   :LOGBOOK:
-   CLOCK: [2022-05-18 Wed 10:26]--[2022-05-18 Wed 14:53] =>  4:27
-   :END:
-- [ ] footer location issue on ipad
-- [ ] box-shadow issues and bring back the div separator
-- [ ] box shadow remove radius
-- [X] remove footer.home class from home page
-
-
 *** DONE display round markers
 *** DONE diplay info on marker click
 
-** TODO school listing fixes
-*** TODO Style listing page
+** DONE school listing fixes
+*** DONE Style listing page
     :LOGBOOK:
     CLOCK: [2022-05-19 Thu 14:20]--[2022-05-19 Thu 14:37] =>  0:17
     :END:
 - [X] First pass
-- [ ] finish stylings
+- [X] finish stylings
 
-*** TODO single school page
+*** DONE single school page
     :LOGBOOK:
     CLOCK: [2022-05-19 Thu 19:54]--[2022-05-19 Thu 20:26] =>  0:32
     CLOCK: [2022-05-19 Thu 16:45]--[2022-05-19 Thu 18:53] =>  2:08
@@ -47,7 +89,7 @@
     CLOCK: [2022-05-19 Thu 15:00]--[2022-05-19 Thu 15:21] =>  0:21
     :END:
 
-*** TODO style ratings
+*** DONE style ratings
 
     :LOGBOOK:
     CLOCK: [2022-05-17 Tue 15:50]--[2022-05-17 Tue 22:19] =>  6:29
@@ -86,21 +128,6 @@
    :END:
 
 ** DONE omited results info
-** TODO index page multilang support
-   :LOGBOOK:
-   CLOCK: [2022-05-13 Fri 15:05]--[2022-05-13 Fri 15:54] =>  0:49
-   :END:
-*** rework multilang system
-
-*** TODO [SEO] "en" url structure
-** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
-** TODO page generator and pages (3 days)
-   Generate a page from a Markdown to hiccup
-*** TODO Build generator (1 day)
-*** TODO Privacy policy, DPA (1-3 day at least...)
-*** TODO about
-*** TODO FAQ
-
 
 * DONE Roadmap
 #+BEGIN: clocktable :scope subtree :maxlevel 2
