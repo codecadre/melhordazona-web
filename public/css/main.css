@@ -892,8 +892,8 @@ footer .logo-column .logo-div {
   font-weight: bold;
 }
 .solo-school svg {
-  height: 23rem;
-  font-size: 0.75rem;
+  height: 17rem;
+  font-size: 0.6rem;
 }
 .solo-school .driving .bar {
   fill: #fbd5a3;
@@ -911,6 +911,12 @@ footer .logo-column .logo-div {
 }
 #map-solo {
   height: 300px;
+  margin-bottom: 5rem;
+}
+@media (min-width: 550px) {
+  .solo-school svg {
+    height: 20rem;
+  }
 }
 * {
   -webkit-overflow-scrolling: touch;
