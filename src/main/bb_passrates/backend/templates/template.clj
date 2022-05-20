@@ -20,7 +20,7 @@
      [:div.column.two-thirds
       [:h2.title
        [:strong
-        [:a {:href (build-href "/" req)} "Passa à Primeira"]]]
+        [:a {:href "/"} "Passa à Primeira"]]]
       (let [[sub-1 sub-2 sub-3] (copy [:footer/subtitle lang])]
         [:p.subtitle
          [:span sub-1]

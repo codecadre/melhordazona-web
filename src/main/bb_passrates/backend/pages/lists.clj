@@ -27,7 +27,7 @@
    [:h5.name name]
    [:div svg]
    [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"] [:a {:href "ESRI"} "ESRI"]]
-   [:a.ver-mais {:href (format "escolas/%s" k)} "ver mais >"]])
+   [:a.ver-mais {:href (format "/escolas/%s" k)} "ver mais >"]])
 
 (def year-selector
   #{"2018" "2019" "2020"})
@@ -52,7 +52,7 @@
      [:div.ratings
       svg]
           [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"]]
-     [:a.ver-mais {:href (format "escolas/%s" k)} "ver mais >"]]))
+     [:a.ver-mais {:href (format "/escolas/%s" k)} "ver mais >"]]))
 
 (comment (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
    (hiccup-school (first l))))

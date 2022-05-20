@@ -19,7 +19,9 @@
 ** DONE disable input/enable when JS is loaded
 
 ** TODO don't allow user to zoom in map past a certain point
-** TODO styling remarks (Pairing with Giulia)
+** TODO New centroid Rules
+** TODO - [ ] box-shadow issues and bring back the div separator
+** DONE styling remarks (Pairing with Giulia)
    :LOGBOOK:
    CLOCK: [2022-05-20 Fri 15:28]--[2022-05-20 Fri 16:04] =>  0:36
    CLOCK: [2022-05-20 Fri 14:44]--[2022-05-20 Fri 15:18] =>  0:34
@@ -29,7 +31,7 @@
    CLOCK: [2022-05-18 Wed 10:26]--[2022-05-18 Wed 14:53] =>  4:27
    :END:
 Things for me to do
-- [ ] box-shadow issues and bring back the div separator
+
 
 
 - [ ] footer location issue on ipad (Giulia will look into this wtv.)
@@ -47,13 +49,14 @@ Things for me to do
 *** TODO [SEO] "en" url structure
 
 ** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
-** TODO page generator and pages (3 days)
+** TODO COPY, page generator and pages (3 days)
    Generate a page from a Markdown to hiccup
 *** TODO Build generator (1 day)
 *** TODO Privacy policy, DPA (1-3 day at least...)
 *** TODO about
 *** TODO FAQ
 
+*** TODO Add copy
 
 ** DONE color palette
    :LOGBOOK:
