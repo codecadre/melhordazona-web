@@ -25,8 +25,9 @@
 (defn pop-up [k svg {:keys [name] :as imt-profile}]
   [:div.pop-up-wrapper
    [:h5.name name]
-   [:p "Provas práticas:"]
+   [:p "The data represented in the graph below represents Driving pass rates and number of exams done in an examination centre of each year."]
    [:div svg]
+   [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"] [:a {:href "ESRI"} "ESRI"]]
    [:a {:href (format "escolas/%s" k)} "ver mais >"]])
 
 (def year-selector

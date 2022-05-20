@@ -625,6 +625,18 @@ there.
   color: #151315 !important;
   font-size: 1.2rem;
 }
+.leaflet-popup-content-wrapper .pop-up-wrapper .source {
+  display: flex;
+  font-size: 1rem;
+  color: #151315;
+  opacity: 0.75;
+}
+.leaflet-popup-content-wrapper .pop-up-wrapper .source a {
+  opacity: 0.75;
+  color: #151315;
+  font-size: 1rem;
+  padding: 0 0.2rem;
+}
 .leaflet-popup-content-wrapper {
   border-radius: 0 !important;
   color: #151315 !important;
