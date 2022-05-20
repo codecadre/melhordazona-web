@@ -71,7 +71,8 @@ footer .logo-column{
         background-color: black;
         padding: 6px;
         border:none;
-        width: 183px;
+        width: 100%;
+        height: auto;
 
         svg {
             width: 100%;
@@ -84,12 +85,17 @@ footer .logo-column{
     }
 
     .built-by{
-        margin-bottom: 0.5rem;
+        margin: 2.25rem 0 0.5rem 0;
     }
-}
 
-.footer-bottom-row {
-    padding-bottom: 2rem;
+    .limited {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+
+    .logo-div {
+        max-width: 20rem;
+    }
 }
 
 @media (min-width: @bp-larger-than-phablet){
@@ -98,4 +104,5 @@ footer .logo-column{
             float: right;
         }
     }
+
 }

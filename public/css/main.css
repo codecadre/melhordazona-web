@@ -692,7 +692,8 @@ footer .logo-column .logo {
   background-color: black;
   padding: 6px;
   border: none;
-  width: 183px;
+  width: 100%;
+  height: auto;
 }
 footer .logo-column .logo svg {
   width: 100%;
@@ -702,10 +703,14 @@ footer .logo-column .logo .cls-1 {
   fill: white;
 }
 footer .logo-column .built-by {
-  margin-bottom: 0.5rem;
+  margin: 2.25rem 0 0.5rem 0;
 }
-.footer-bottom-row {
-  padding-bottom: 2rem;
+footer .logo-column .limited {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+footer .logo-column .logo-div {
+  max-width: 20rem;
 }
 @media (min-width: 550px) {
   footer .logo-div {

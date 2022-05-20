@@ -39,21 +39,15 @@
       [:p.item "Privacy Policy"]
       [:p.item "Terms of Service"]
       [:p.item "DPA"]]
-     [:div.columns.two [:p.top-level-item "Contactos"]
-      [:p.item "mail@codecadre.ai"]]
-     [:div.columns.six.logo-column
+     [:div.columns.three [:p.top-level-item "Contactos"]
+      ;;a href="mailto:someone@yoursite.com">Email Us</a>
+      [:p.item "Direct enquiries to " [:a {:href "mailto:mail@codecadre.ai?subject='Pass a Primeira'" :target "_blank"} "Codecadre email."]]
+      [:p.item ""]]
+     [:div.columns.five.logo-column
       [:div.logo-div
-       [:p.built-by "Built by"]
-       [:div.logo logo]]]]
-
-    #_[:div.items
-     [:div.item [:a {:href "/privacidade/"} [:strong "Privacidade"]]]
-     [:div.item [:a {:href "/sobre/"} [:strong "sobre"]]]
-     [:div.item [:a {:href "/termos/"} [:strong "T&S"]]]
-     [:div.item [:a {:href "/faq"} [:strong "FAQ"]]]
-     [:div.item [:a {:href "/dpa"} [:strong "DPA"]]]
-     [:strong [:span "made by " [:a {:href "https://www.codecadre.ai"} "Codecadre"]]]
-     ]]])
+       [:p.built-by "Passa à Primeira is a project by:"]
+       [:div.logo logo]
+       [:p.limited "CODECADRE LTD is a " [:a {:target "_blank" :href "https://find-and-update.company-information.service.gov.uk/company/12134880"} "UK registered company."] ]]]]]])
 
 (defn header-c [{:keys [url/lang] :as req}]
   (let [lang (keyword lang)]
