@@ -25,7 +25,6 @@
 (defn pop-up [k svg {:keys [name] :as imt-profile}]
   [:div.pop-up-wrapper
    [:h5.name name]
-   [:p "The data represented in the graph below represents Driving pass rates and number of exams done in an examination centre of each year."]
    [:div svg]
    [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"] [:a {:href "ESRI"} "ESRI"]]
    [:a {:href (format "escolas/%s" k)} "ver mais >"]])
@@ -82,6 +81,9 @@
       (merge content url-map)
       [:main
        [:div.container
+        [:h1 "List of Schools in Concelho de Lisboa"]
+        [:h2 "This is blabla..."]
+        [:p "The data represented in the graph below represents Driving pass rates and number of exams done in an examination centre of each year."]
         [:div.map-wrapper
          [:div#map {:lat lat :long long}]]
         school-cards]])]))

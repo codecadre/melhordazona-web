@@ -603,8 +603,8 @@ there.
   padding: 0.5rem 0;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper svg {
-  height: 13rem;
-  font-size: 1.1rem;
+  height: 11rem;
+  font-size: 1rem;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper .bar {
   fill: #fbd5a3;
@@ -614,7 +614,7 @@ there.
   margin-bottom: 0;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 1rem 0;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper a {
@@ -623,7 +623,7 @@ there.
   align-self: end;
   padding: 0.2rem;
   color: #151315 !important;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper .source {
   display: flex;
@@ -634,7 +634,7 @@ there.
 .leaflet-popup-content-wrapper .pop-up-wrapper .source a {
   opacity: 0.75;
   color: #151315;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0 0.2rem;
 }
 .leaflet-popup-content-wrapper {
@@ -655,6 +655,24 @@ there.
   border: dashed;
   border-width: 1px;
   border-color: greenyellow;
+}
+@media (min-width: 550px) {
+  .leaflet-popup-content-wrapper .pop-up-wrapper svg {
+    height: 13rem;
+    font-size: 1.1rem;
+  }
+  .leaflet-popup-content-wrapper .pop-up-wrapper p {
+    font-size: 1.1rem;
+  }
+  .leaflet-popup-content-wrapper .pop-up-wrapper a {
+    font-size: 1.2rem;
+  }
+  .leaflet-popup-content-wrapper .pop-up-wrapper .source {
+    font-size: 1rem;
+  }
+  .leaflet-popup-content-wrapper .pop-up-wrapper .source a {
+    font-size: 1rem;
+  }
 }
 header {
   margin-bottom: 30px;
