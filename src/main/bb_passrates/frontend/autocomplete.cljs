@@ -98,6 +98,7 @@
         back (.querySelector js/document ".search-wrapper .search-input .back")]
     (when input
       (do
+        (set! (.-disabled input) false)
         (set! (.-onclick back) back-home-fn)
         (set! (.-onfocus input) (partial expand-search-fn input))
         (set! (.-onkeyup input) on-key-fn)))))
