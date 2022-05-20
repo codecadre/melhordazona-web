@@ -3,15 +3,20 @@
             [clojure.test :as t :refer [deftest is]]))
 
 (deftest build-href-test
+  (is (= "/en/"
+         (build-href "/" {:lang :en})))
+  (is (= "/en/path?foo=bar"
+         (build-href "/path" {:lang :en
+                           :url/foo "bar"})))
   (is (= "/path?foo=bar"
-         (build-href "/path" {:url/lang nil
+         (build-href "/path" {:lang :pt
                               :url/foo "bar"})))
 
-  (is (= "/?lang=pt&foo=bar"
-         (build-href "/" {:url/lang "pt"
+  (is (= "?foo=bar"
+         (build-href "/" {:lang :pt
                           :url/foo "bar"})))
 
-  (is (= "/"
+  (is (= ""
          (build-href "/" {:url/lang nil
                           :url/foo nil}))))
 
