@@ -74,7 +74,7 @@
   (let [[lat long] (centroid- place-list)
         school-cards (->> place-list
                           (map hiccup-school)
-                          (partition 2)
+                          (partition 2 2 nil)
                           (reduce (fn [acc [s1 s2]]
                                     (conj acc [:div.row
                                                [:div.columns.six s1]
