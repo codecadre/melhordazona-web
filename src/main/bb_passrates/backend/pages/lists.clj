@@ -27,7 +27,7 @@
    [:h5.name name]
    [:div svg]
    [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"] [:a {:href "ESRI"} "ESRI"]]
-   [:a {:href (format "escolas/%s" k)} "ver mais >"]])
+   [:a.ver-mais {:href (format "escolas/%s" k)} "ver mais >"]])
 
 (def year-selector
   #{"2018" "2019" "2020"})
@@ -44,14 +44,18 @@
     [:div.school-card {:lat lat :long long}
      (pop-up k svg imt-profile)
      [:h4.name name]
-     [:div.nec [:p (str "Licensa IMT N. " nec)]]
-     [:div.address [:p (str "Morada:" address)]]
+     [:p.label "IMT licence"]
+     [:p.field nec]
+     [:p.label "Morada"]
+     [:p.field address]
+     [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"]]
      [:div.ratings
       svg]
-     [:a {:href (format "escolas/%s" k)} "ver mais >"]]))
+          [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"]]
+     [:a.ver-mais {:href (format "escolas/%s" k)} "ver mais >"]]))
 
-(let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
-(hiccup-school (first l)))
+(comment (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
+   (hiccup-school (first l))))
 
 (defn centroid- [d]
   (let [xx (->> d;;long
@@ -81,9 +85,8 @@
       (merge content url-map)
       [:main
        [:div.container
-        [:h1 "List of Schools in Concelho de Lisboa"]
-        [:h2 "This is blabla..."]
-        [:p "The data represented in the graph below represents Driving pass rates and number of exams done in an examination centre of each year."]
+        [:h2 "List of Schools in Concelho de Lisboa"]
+        [:p "The data represented in the graph below represents Driving pass rates and number of exams done in an examination centre of each year. Link to about page explaining how the 3 data sources got created."]
         [:div.map-wrapper
          [:div#map {:lat lat :long long}]]
         school-cards]])]))

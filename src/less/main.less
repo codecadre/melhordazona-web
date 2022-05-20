@@ -44,3 +44,51 @@ body {
         color: initial;
     }
 }
+
+.label{
+    margin:0;
+    font-size: 1rem;
+    opacity: .75;
+}
+
+.field {
+    margin-bottom: 1rem;
+
+}
+
+.source {
+    display:flex;
+    font-size:1rem;
+    color: @kinda-black;
+    opacity: .75;
+    a{
+        opacity: .75;
+        color: @kinda-black;
+        font-size:0.9rem;
+        padding:0 0.2rem;
+    }
+}
+
+.ver-mais {
+    width: max-content;
+    display: flex;
+    align-self: end !important;
+    padding: 0.2rem;
+    color: #151315 !important;
+    font-size: 1.1rem;
+}
+
+@media (min-width: @bp-larger-than-phablet){
+
+    .source {
+        font-size:1rem;
+        a{
+            font-size:1rem;
+        }
+    }
+
+    .ver-mais {
+        font-size: 1.2rem;
+    }
+
+}

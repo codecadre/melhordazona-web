@@ -576,14 +576,17 @@ there.
 .list {
   position: relative;
   max-width: 100%;
-  margin: 0.1rem;
+  margin-top: 3rem;
   padding: 1rem 0.2rem 0.2rem 0rem;
 }
 .school-card {
-  width: 50%;
+  width: 100%;
   padding: 2rem;
   background-color: #fff;
   box-shadow: 0 0.1rem 0.5rem 0.3rem #e2dfe2;
+  margin: 5% 0;
+  display: flex;
+  flex-direction: column;
 }
 .school-card .name {
   font-weight: bold;
@@ -595,7 +598,11 @@ there.
   display: none;
 }
 .ratings .bar {
-  fill: red;
+  fill: #fbd5a3;
+}
+.ratings svg {
+  font-size: 1rem;
+  height: 12rem;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper {
   display: flex;
@@ -616,14 +623,6 @@ there.
 .leaflet-popup-content-wrapper .pop-up-wrapper p {
   font-size: 1rem;
   margin: 1rem 0;
-}
-.leaflet-popup-content-wrapper .pop-up-wrapper a {
-  width: max-content;
-  display: flex;
-  align-self: end;
-  padding: 0.2rem;
-  color: #151315 !important;
-  font-size: 1.1rem;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper .source {
   display: flex;
@@ -664,14 +663,9 @@ there.
   .leaflet-popup-content-wrapper .pop-up-wrapper p {
     font-size: 1.1rem;
   }
-  .leaflet-popup-content-wrapper .pop-up-wrapper a {
-    font-size: 1.2rem;
-  }
-  .leaflet-popup-content-wrapper .pop-up-wrapper .source {
+  .ratings svg {
     font-size: 1rem;
-  }
-  .leaflet-popup-content-wrapper .pop-up-wrapper .source a {
-    font-size: 1rem;
+    height: 15rem;
   }
 }
 header {
@@ -948,4 +942,43 @@ body {
 }
 .title a:hover {
   color: initial;
+}
+.label {
+  margin: 0;
+  font-size: 1rem;
+  opacity: 0.75;
+}
+.field {
+  margin-bottom: 1rem;
+}
+.source {
+  display: flex;
+  font-size: 1rem;
+  color: #151315;
+  opacity: 0.75;
+}
+.source a {
+  opacity: 0.75;
+  color: #151315;
+  font-size: 0.9rem;
+  padding: 0 0.2rem;
+}
+.ver-mais {
+  width: max-content;
+  display: flex;
+  align-self: end !important;
+  padding: 0.2rem;
+  color: #151315 !important;
+  font-size: 1.1rem;
+}
+@media (min-width: 550px) {
+  .source {
+    font-size: 1rem;
+  }
+  .source a {
+    font-size: 1rem;
+  }
+  .ver-mais {
+    font-size: 1.2rem;
+  }
 }
