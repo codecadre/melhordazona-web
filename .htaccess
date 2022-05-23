@@ -11,7 +11,11 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 # ensures canonical paths are used
 RewriteCond %{REQUEST_URI} /(.+)$
+RewriteCond %{REQUEST_URI} "-ne/en/pages/(.+)$"
+RewriteCond %{REQUEST_URI} "-ne/paginas/(.+)$"
 RewriteRule ^ /index.clj [L]
+
+DirectoryIndex index.html
 
 #RewriteCond %{REQUEST_URI} /(.+)$
 #RewriteRule ^(.+)$ %{SERVER_PROTOCOL}://%{HTTP_HOST}/$1/ [R=301,L]

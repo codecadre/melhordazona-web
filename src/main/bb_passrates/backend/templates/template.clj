@@ -49,7 +49,7 @@
        [:div.logo logo]
        [:p.limited "CODECADRE LTD is a " [:a {:target "_blank" :href "https://find-and-update.company-information.service.gov.uk/company/12134880"} "UK registered company."] ]]]]]])
 
-(defn header-c [{:keys [url/lang] :as req}]
+(defn header-c [{:keys [lang] :as req}]
   (let [lang (keyword lang)]
     [:header
      [:div.container
