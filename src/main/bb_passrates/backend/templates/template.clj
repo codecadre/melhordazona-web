@@ -49,7 +49,8 @@
 
 (def pt->en-map
   {"/" "/en/"
-   "/sobre/" "/en/about/"})
+   "/sobre/" "/en/about/"
+   "/paginas/faq-pt/" "/en/pages/faq/"})
 
 (def en->pt-map
   (map-invert pt->en-map))
@@ -74,29 +75,31 @@
 
 #_(en->pt "/en/school/abc")
 
-(defn header-c [{:keys [lang] :as req}]
-  [:header
-   [:div.container
-    [:div.row
-     [:div.column.one-half
-      [:h2.title
-       [:strong
-        [:a {:href (path->href "/" req)} "Passa à Primeira"]]]
-      [:p.subtitle (copy [:header/subtitle lang])
-       ]]
-     [:div.column.one-half
-      [:div.menu
-       [:span " ["]
-       [(if (= lang :en) "a#en.selected" "a#en") {:href (pt->en (:uri req))} "EN"]
-       [:span "/"]
-       [(if (= lang :pt) "a#en.selected" "a#en") {:href (en->pt (:uri req)) } "PT"]
-       [:span "]"]
-       [(keyword (str "div.menu-item" (when (-> req :uri (= "/")) ".selected")) ) [:a {:href (build-href "/pesquisa/" req)} (copy [:nav/search lang])]]
-       [:div.menu-item [:a {:href (build-href "/acerca/" req)} (copy [:nav/about lang])]]
-       [:div.menu-item [:a {:href (build-href "/faq/" req)} (copy [:nav/faq lang])]]
-       [:div.menu-item [:a {:href (build-href "/privacidade/" req)} (copy [:nav/privacy lang])]]]]]]])
+(defn header-c [{:keys [lang uri] :as req}]
+  (let [pt? (= :pt lang)]
+    [:header
+     [:div.container
+      [:div.row
+       [:div.column.one-half
+        [:h2.title
+         [:strong
+          [:a {:href (path->href "/" req)} "Passa à Primeira"]]]
+        [:p.subtitle (copy [:header/subtitle lang])
+         ]]
+       [:div.column.one-half
+        [:div.menu
+         [:span " ["]
+         [(if (= lang :en) "a#en.selected" "a#en") {:href (pt->en (:uri req))} "EN"]
+         [:span "/"]
+         [(if (= lang :pt) "a#en.selected" "a#en") {:href (en->pt (:uri req)) } "PT"]
+         [:span "]"]
+         [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
+          [:a {:href (path->href "/" req)} (copy [:nav/search lang])]]
+         [:div.menu-item [:a {:href (if pt? "/acerca/" "/en/about/")} (copy [:nav/about lang])]]
+         [:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
+         [:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
 
-(defn header [{:keys [title subtitle url] :as req} main]
+(defn header [{:keys [title subtitle] :as req} main]
   [:head
    [:meta {:charset "UTF-8"}]
    [:meta {:content "width=device-width, initial-scale=1, maximum-scale=1" :name "viewport"}]

@@ -17,7 +17,8 @@
 (def pages
   {:faq-pt {:title "Passa a Primeira FAQ"
             :subtitle "Perguntas frequentes"
-            :lang :pt} })
+            :lang :pt
+            :uri "/paginas/faq-pt/"} })
 
 (defn md [n]
   (format "pages-md/%s.md" n))
