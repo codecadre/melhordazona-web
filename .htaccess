@@ -1,7 +1,7 @@
 AddHandler cgi-script .clj
-DirectoryIndex index.clj  index.html
+DirectoryIndex index.clj index.html
 RewriteEngine On
-
+Options -Indexes
 PassEnv ENV
 
 # send everything to /index.clj minus files and directories
@@ -10,7 +10,10 @@ RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 # ensures canonical paths are used
-RewriteCond %{REQUEST_URI} /(.+)$
+#RewriteCond %{REQUEST_URI} /(.+)$
+RewriteRule ^ /index.clj [L]
+
+RewriteCond %{REQUEST_URI} "/en/"
 RewriteRule ^ /index.clj [L]
 
 #RewriteCond %{REQUEST_URI} /(.+)$

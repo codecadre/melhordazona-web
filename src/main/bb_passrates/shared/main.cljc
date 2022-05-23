@@ -31,6 +31,18 @@
 (def url->canonical
   (map-invert seo))
 
+(defn path->href
+  "given a path and a lang, appends /en/ if necessary"
+  [path {:keys [lang] :as req}]
+  (let [l (if (= lang :en) "/en" "")]
+    (str l path)))
+
+
+
+
+
+
+;;TODO deprecated
 (defn build-href
   "builds href taking into account a variable number of query strings"
   [path {:keys [url/lang url/foo]}]
@@ -45,7 +57,7 @@
       (> (count qs) 1) (apply str (into (interpose "&" qs) (list "?" path)))
       :else (apply str (into qs (list "?" path))))))
 
-
+;;deprecated
 (defn query-string->map [query-string]
   (when (not (empty? query-string))
     (update (->> (clj-str/split query-string #"&")
@@ -55,6 +67,15 @@
                            (assoc acc (keyword "url" k) v)) {}))
             :url/lang #(when % (keyword %)))))
 
+
+(defn url->req [uri req-method query-string]
+  (let [en? (clj-str/includes? uri "/en/")
+        lang (if en? :en :pt)]
+    {:request-method (-> req-method clj-str/lower-case keyword)
+     :lang lang
+     :uri (-> uri (clj-str/split #"\?") first)}))
+
+;;TODO DEPRECATED
 (defn url->req-map
   "parses query params and build a request map"
   [uri req-method query-string]
@@ -67,11 +88,8 @@
    (def req
      (let [request-uri (System/getenv "REQUEST_URI")
            query-string (System/getenv "QUERY_STRING")
-           request-method (System/getenv "REQUEST_METHOD")
-           req (url->req-map request-uri request-method query-string)]
-       (if (:url/lang req)
-         req
-         (assoc req :url/lang :pt)))))
+           request-method (System/getenv "REQUEST_METHOD")]
+       (url->req request-uri request-method query-string))))
 
 #?(:clj
    (defn get-place-list [type place]

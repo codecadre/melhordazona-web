@@ -63,6 +63,7 @@
     (match [(:request-method req) paths]
            [:get ["echo" id]] (echo-handler (assoc req :id id))
            [:get []] (home-handler req)
+           [:get ["en"]] (home-handler req)
            [:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
            [:get ["escolas" escola]] (escola-handler (assoc req :school escola))
            ;;district has data issues

@@ -1,8 +1,9 @@
 (ns bb-passrates.backend.templates.template
   (:require [clojure.string :as clj-str]
-            [bb-passrates.shared.main :refer [build-href]]
+            [bb-passrates.shared.main :refer [build-href path->href]]
             [bb-passrates.shared.copy :refer [copy]]
-            [bb-passrates.backend.logo :refer [logo]]))
+            [bb-passrates.backend.logo :refer [logo]]
+            [clojure.set :refer [map-invert]]))
 
 (def env (System/getenv "ENV"))
 
@@ -10,10 +11,7 @@
 
 (def local-dev?  (= env "DEV_LOCAL"))
 
-(defn home? [{:keys [uri]}]
-  (= uri "/"))
-
-(defn footer [{:keys [url/lang] :as req}]
+(defn footer [{:keys [lang] :as req}]
   [:footer
    [:div.container
     [:div.row
@@ -40,7 +38,6 @@
       [:p.item "Terms of Service"]
       [:p.item "DPA"]]
      [:div.columns.three [:p.top-level-item "Contactos"]
-      ;;a href="mailto:someone@yoursite.com">Email Us</a>
       [:p.item "Direct enquiries to " [:a {:href "mailto:mail@codecadre.ai?subject='Pass a Primeira'" :target "_blank"} "Codecadre email."]]
       [:p.item ""]]
      [:div.columns.five.logo-column
@@ -49,28 +46,55 @@
        [:div.logo logo]
        [:p.limited "CODECADRE LTD is a " [:a {:target "_blank" :href "https://find-and-update.company-information.service.gov.uk/company/12134880"} "UK registered company."] ]]]]]])
 
+
+(def pt->en-map
+  {"/" "/en/"
+   "/sobre/" "/en/about/"})
+
+(def en->pt-map
+  (map-invert pt->en-map))
+
+(defn pt->en [path]
+  (let [res (get pt->en-map path)]
+    (cond
+      res res
+      (clj-str/includes? path "escola") (str "/en" (clj-str/replace path "escola" "school"))
+      (clj-str/includes? path "concelho") (str "/en" (clj-str/replace path "concelho" "municipality")))))
+
+(defn en->pt [path]
+  (let [res (get en->pt-map path)]
+    (cond
+      res res
+      (clj-str/includes? path "school") (-> path
+                                            (clj-str/replace "/en" "")
+                                            (clj-str/replace "school" "escola"))
+      (clj-str/includes? path "municipality") (-> path
+                                                  (clj-str/replace "/en" "")
+                                                  (clj-str/replace "municipality" "concelho")))))
+
+#_(en->pt "/en/school/abc")
+
 (defn header-c [{:keys [lang] :as req}]
-  (let [lang (keyword lang)]
-    [:header
-     [:div.container
-      [:div.row
-       [:div.column.one-half
-        [:h2.title
-         [:strong
-          [:a {:href (build-href "/" req)} "Passa à Primeira"]]]
-        [:p.subtitle (copy [:header/subtitle lang])
-         ]]
-       [:div.column.one-half
-        [:div.menu
-         [:span " ["]
-         [(keyword (str "a#en" (when (= lang :en) ".selected")) ) {:href (build-href "" (assoc req :url/lang "en"))} "EN"]
-         [:span "/"]
-         [(keyword (str "a#en" (when (or (nil? lang) (= lang :pt)) ".selected")) ) {:href (build-href "" (assoc req :url/lang "pt"))} "PT"]
-         [:span "]"]
-         [(keyword (str "div.menu-item" (when (-> req :uri (= "/")) ".selected")) ) [:a {:href (build-href "/pesquisa/" req)} (copy [:nav/search lang])]]
-         [:div.menu-item [:a {:href (build-href "/acerca/" req)} (copy [:nav/about lang])]]
-         [:div.menu-item [:a {:href (build-href "/faq/" req)} (copy [:nav/faq lang])]]
-         [:div.menu-item [:a {:href (build-href "/privacidade/" req)} (copy [:nav/privacy lang])]]]]]]]))
+  [:header
+   [:div.container
+    [:div.row
+     [:div.column.one-half
+      [:h2.title
+       [:strong
+        [:a {:href (path->href "/" req)} "Passa à Primeira"]]]
+      [:p.subtitle (copy [:header/subtitle lang])
+       ]]
+     [:div.column.one-half
+      [:div.menu
+       [:span " ["]
+       [(if (= lang :en) "a#en.selected" "a#en") {:href (pt->en (:uri req))} "EN"]
+       [:span "/"]
+       [(if (= lang :pt) "a#en.selected" "a#en") {:href (en->pt (:uri req)) } "PT"]
+       [:span "]"]
+       [(keyword (str "div.menu-item" (when (-> req :uri (= "/")) ".selected")) ) [:a {:href (build-href "/pesquisa/" req)} (copy [:nav/search lang])]]
+       [:div.menu-item [:a {:href (build-href "/acerca/" req)} (copy [:nav/about lang])]]
+       [:div.menu-item [:a {:href (build-href "/faq/" req)} (copy [:nav/faq lang])]]
+       [:div.menu-item [:a {:href (build-href "/privacidade/" req)} (copy [:nav/privacy lang])]]]]]]])
 
 (defn header [{:keys [title subtitle url] :as req} main]
   [:head

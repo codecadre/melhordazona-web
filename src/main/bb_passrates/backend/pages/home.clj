@@ -5,7 +5,7 @@
             [bb-passrates.shared.main :refer [req]]
             [bb-passrates.shared.copy :refer [copy]]))
 
-(def lang (:url/lang req))
+(def lang (:lang req))
 
 (def content
   {:title (copy [:meta/title lang])
