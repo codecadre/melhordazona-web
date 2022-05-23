@@ -1,23 +1,6 @@
 * 2 iteration
 #+BEGIN: clocktable :scope subtree :maxlevel 2
 #+CAPTION: Clock summary at [2022-05-19 Thu 20:29]
-| Headline                                  | Time      |       |
-|-------------------------------------------+-----------+-------|
-| *Total time*                              | *1d 1:56* |       |
-|-------------------------------------------+-----------+-------|
-| 2 iteration                               | 1d 1:56   |       |
-| \_  styling remarks (Pairing with Giulia) |           |  4:27 |
-| \_  index page multilang support          |           |  0:49 |
-| \_  color palette                         |           |  2:46 |
-| \_  footer style                          |           |  0:17 |
-| \_  school listing fixes                  |           | 14:44 |
-| \_  bits and bobs style fixes             |           |  0:09 |
-| \_  underline only current page           |           |  0:07 |
-| \_  expand search in mobile               |           |  0:55 |
-| \_  back button functionality in mobile   |           |  1:42 |
-#+END:
-** DONE disable input/enable when JS is loaded
-
 ** TODO droping schools like lombos form the map
 ** TODO don't allow user to zoom in map past a certain point
 ** TODO New centroid Rules
@@ -52,7 +35,7 @@ Things for me to do
 ** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 ** TODO COPY, page generator and pages (3 days)
    Generate a page from a Markdown to hiccup
-*** TODO Build generator (1 day)
+*** DONE Build generator (1 day)
     :LOGBOOK:
     CLOCK: [2022-05-22 Sun 19:39]--[2022-05-22 Sun 20:14] =>  0:35
     :END:
@@ -62,6 +45,8 @@ Read a markdown and strip html
 *** TODO FAQ
 
 *** TODO Add copy
+
+** DONE disable input/enable when JS is loaded
 
 ** DONE color palette
    :LOGBOOK:

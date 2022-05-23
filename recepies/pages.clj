@@ -15,10 +15,7 @@
  '[pod.retrogradeorbit.bootleg.utils :as bootleg])
 
 (def pages
-  {:hello {:title "Simple hello page in english"
-           :subtitle "basic subtitle"
-           :lang :en}
-   :faq-pt {:title "Passa a Primeira FAQ"
+  {:faq-pt {:title "Passa a Primeira FAQ"
             :subtitle "Perguntas frequentes"
             :lang :pt} })
 
