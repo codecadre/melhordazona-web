@@ -7,9 +7,10 @@
             [bb-passrates.backend.pages.lists :as lists]
             [bb-passrates.backend.pages.school :as school]
             [hiccup2.core :refer [html]]
-            [bb-passrates.shared.main :refer [req]]
+            [bb-passrates.shared.main :refer [req-fn]]
             [clojure.core.match :refer [match]]
             [clojure.string :as str]))
+(def req (req-fn))
 
 (def html-header "Content-type:text/html\r\n")
 

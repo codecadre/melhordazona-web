@@ -85,7 +85,7 @@
            (query-string->map query-string))))
 
 #?(:clj
-   (def req
+   (defn req-fn []
      (let [request-uri (System/getenv "REQUEST_URI")
            query-string (System/getenv "QUERY_STRING")
            request-method (System/getenv "REQUEST_METHOD")]
