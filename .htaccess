@@ -1,3 +1,10 @@
+AuthType Basic
+AuthName "Restricted Files"
+# (Following line optional)
+AuthBasicProvider file
+AuthUserFile "/usr/home/codecan/passwords"
+Require user rbowen
+
 AddHandler cgi-script .clj
 DirectoryIndex index.clj index.html
 RewriteEngine On
