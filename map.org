@@ -1,6 +1,5 @@
 * 2 iteration
-#+BEGIN: clocktable :scope subtree :maxlevel 2
-#+CAPTION: Clock summary at [2022-05-19 Thu 20:29]
+** TODO listing of schools with no address
 ** TODO droping schools like lombos form the map
 ** TODO don't allow user to zoom in map past a certain point
 ** TODO New centroid Rules
@@ -24,13 +23,13 @@ Things for me to do
 - [X] box shadow remove radius
 - [X] remove footer.home class from home page
 
-** TODO index page multilang support
+** DONE index page multilang support
    :LOGBOOK:
    CLOCK: [2022-05-13 Fri 15:05]--[2022-05-13 Fri 15:54] =>  0:49
    :END:
-*** TODO rework multilang system
+*** DONE rework multilang system
 
-*** TODO [SEO] "en" url structure
+*** DONE [SEO] "en" url structure
     :LOGBOOK:
     CLOCK: [2022-05-23 Mon 18:02]--[2022-05-23 Mon 18:45] =>  0:43
     CLOCK: [2022-05-23 Mon 16:53]--[2022-05-23 Mon 18:02] =>  1:09
@@ -45,11 +44,32 @@ Things for me to do
     CLOCK: [2022-05-22 Sun 19:39]--[2022-05-22 Sun 20:14] =>  0:35
     :END:
 Read a markdown and strip html
-*** TODO Privacy policy, DPA (1-3 day at least...)
-*** TODO about
-*** TODO FAQ
 
-*** TODO Add copy
+*** TODO about
+    :LOGBOOK:
+    CLOCK: [2022-05-26 Thu 12:46]--[2022-05-26 Thu 12:55] =>  0:09
+
+    :END:
+*** TODO What Can we infer by the data
+
+*** TODO methodology
+    :LOGBOOK:
+    CLOCK: [2022-05-26 Thu 12:55]--[2022-05-26 Thu 13:49] =>  0:54
+    :END:
+
+*** TODO OS
+*** TODO Privacy
+
+*** TODO explainer page on the past projects
+    :LOGBOOK:
+    CLOCK: [2022-05-25 Wed 15:32]--[2022-05-25 Wed 16:07] =>  0:35
+    CLOCK: [2022-05-25 Wed 11:39]--[2022-05-25 Wed 12:31] =>  0:52
+    CLOCK: [2022-05-24 Tue 18:09]--[2022-05-24 Tue 18:20] =>  0:11
+    CLOCK: [2022-05-24 Tue 17:47]--[2022-05-24 Tue 18:09] =>  0:22
+    CLOCK: [2022-05-24 Tue 16:52]--[2022-05-24 Tue 17:47] =>  0:55
+    CLOCK: [2022-05-24 Tue 14:42]--[2022-05-24 Tue 16:52] =>  2:10
+    :END:
+
 
 ** DONE disable input/enable when JS is loaded
 
@@ -129,7 +149,6 @@ Read a markdown and strip html
 ** DONE omited results info
 
 * DONE Roadmap
-#+BEGIN: clocktable :scope subtree :maxlevel 2
 #+CAPTION: Clock summary at [2022-05-13 Fri 13:03]
 | Headline                                    | Time       |         |
 |---------------------------------------------+------------+---------|
