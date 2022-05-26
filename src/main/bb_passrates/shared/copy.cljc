@@ -25,6 +25,9 @@
                 :en "Passa à Primeira"}
    :meta/subtitle {:en "Driving school Pass-Rates in Portugal based on government data."
                    :pt "O teu guia (não) oficial para as taxas de aprovação do IMT"}
+   :meta/subtitle-list {:pt "Taxas de aprovação da carta de condução para as escolas do concelho de %s. Dados do IMT."}
+   ;;
+   ;;
    :header/subtitle {:pt "O teu guia (não) oficial para as taxas de aprovação do IMT"
                      :en "Your (un)official guide to IMT pass-rates"}
    :nav/search {:pt "Pesquisa"

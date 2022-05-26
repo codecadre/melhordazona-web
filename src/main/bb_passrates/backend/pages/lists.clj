@@ -5,7 +5,8 @@
             [bb-passrates.backend.templates.template :as tmp]
             [clojure.edn :as edn]
             [bb-passrates.shared.svg :as svg]
-            [bb-passrates.shared.main :refer [get-place-list]]))
+            [bb-passrates.shared.main :refer [get-place-list k->concelho]]
+            [bb-passrates.shared.copy :refer [copy]]))
 
 ;;graph width
 
@@ -14,12 +15,9 @@
     (get-place-list type city)
     (catch Exception e '())))
 
-(def content
-  {:title "Avaliações Abertas - Open Pass Rates"
-   :subtitle
-   (str
-    "Avaliações Abertas: Taxas de aprovação de condução. Dados do IMT."
-    "- Open Pass Rates: Driving school pass rates in Portugal. - Government data.")})
+(defn content [lang place]
+  {:title (copy [:meta/title lang])
+   :subtitle (format (copy [:meta/subtitle-list lang]) (k->concelho place))})
 
 
 (defn pop-up [k svg {:keys [name] :as imt-profile}]
@@ -70,7 +68,7 @@
     [(/ (reduce + 0 yy) n)
      (/ (reduce + 0 xx) n)]))
 
-(defn page [url-map place-list]
+(defn page [{:keys [concelho lang] :as req} place-list]
   (let [[lat long] (centroid- place-list)
         school-cards (->> place-list
                           (map hiccup-school)
@@ -82,7 +80,7 @@
                                   [:div.list]))]
     [:html
      (tmp/header
-      (merge content url-map)
+      (merge (content lang concelho) req)
       [:main
        [:div.container
         [:h2 "List of Schools in Concelho de Lisboa"]

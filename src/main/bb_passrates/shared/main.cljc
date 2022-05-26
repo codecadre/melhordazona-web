@@ -94,3 +94,11 @@
 #?(:clj
    (defn get-place-list [type place]
      (-> (str "./data/" (name type) "-" place ".edn")  slurp edn/read-string)))
+
+#?(:clj
+  (defn k->concelho [k]
+    (->>
+     (clj-str/split k #"-" )
+     (map clj-str/capitalize)
+     (interpose " " )
+     clj-str/join)))
