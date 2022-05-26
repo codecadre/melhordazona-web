@@ -27,24 +27,24 @@
          [:a {:href "https://www.codecadre.ai/" } "Codecadre"]
          [:span sub-3]])]]
     [:div.row.footer-bottom-row
-     [:div.columns.two
-      [:p.top-level-item "Project"]
+     #_[:div.columns.two
+      [:p.top-level-item (copy [:footer/links-title lang])]
       [:p.item "FAQ"]
       [:p.item [:a {:href "/"} "Home"]]
       [:p.item "About"]]
-     [:div.columns.two
+     #_[:div.columns.two
       [:p.top-level-item "Legal"]
       [:p.item "Privacy Policy"]
       [:p.item "Terms of Service"]
       [:p.item "DPA"]]
-     [:div.columns.three [:p.top-level-item "Contactos"]
-      [:p.item "Direct enquiries to " [:a {:href "mailto:mail@codecadre.ai?subject='Pass a Primeira'" :target "_blank"} "Codecadre email."]]
+     [:div.columns.three [:p.top-level-item (copy [:footer/contact-title lang])]
+      [:p.item (copy [:footer/enquiries lang]) [:a {:href "mailto:mail@codecadre.ai?subject='Pass a Primeira'" :target "_blank"} "mail [at] codecadre [.] com"]]
       [:p.item ""]]
      [:div.columns.five.logo-column
       [:div.logo-div
-       [:p.built-by "Passa à Primeira is a project by:"]
+       [:p.built-by (copy [:footer/by lang])]
        [:div.logo logo]
-       [:p.limited "CODECADRE LTD is a " [:a {:target "_blank" :href "https://find-and-update.company-information.service.gov.uk/company/12134880"} "UK registered company."] ]]]]]])
+       [:p.limited "CODECADRE LTD is a " [:a {:target "_blank" :href "https://find-and-update.company-information.service.gov.uk/company/12134880"} (copy [:footer/is-a lang])]]]]]]])
 
 
 (def pt->en-map
@@ -95,9 +95,9 @@
          [:span "]"]
          [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
           [:a {:href (path->href "/" req)} (copy [:nav/search lang])]]
-         [:div.menu-item [:a {:href (if pt? "/acerca/" "/en/about/")} (copy [:nav/about lang])]]
-         [:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
-         [:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
+         #_[:div.menu-item [:a {:href (if pt? "/acerca/" "/en/about/")} (copy [:nav/about lang])]]
+         #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
+         #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
 
 (defn header [{:keys [title subtitle] :as req} main]
   [:head

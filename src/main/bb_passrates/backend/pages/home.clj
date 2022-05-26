@@ -23,7 +23,7 @@
     (merge (content lang) req)
     [:main
      [:div.container
-      [:h3.cta (copy [:autocomplete/cta (:url/lang req)])]
-      [:h5.sub-cta (copy [:autocomplete/sub-cta (:url/lang req)])]
+      [:h3.cta (copy [:autocomplete/cta lang])]
+      [:h5.sub-cta (copy [:autocomplete/sub-cta lang])]
       [:form
        (autocomplete lang)]]])])

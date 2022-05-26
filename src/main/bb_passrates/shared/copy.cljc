@@ -19,8 +19,8 @@
                              :en "Type minimum 2 letters"}
    :autocomplete/cta {:pt "Pesquisa por concelho ou nome da escola"
                       :en "Search by location or school name"}
-   :autocomplete/sub-cta {:pt  "Mostramos-te as taxas de aprovação publicadas pelo IMT, num mapa, gratuitamente"
-                          :en "You guide you through the pass-rates published by the Government, free of charge"}
+   :autocomplete/sub-cta {:pt  "Mostramos-te as taxas de aprovação publicadas pelo IMT num mapa, gratuitamente"
+                          :en "We guide you through the pass-rates published by the Government, free of charge"}
    :meta/title {:pt "Passa à Primeira"
                 :en "Passa à Primeira"}
    :meta/subtitle {:en "Driving school Pass-Rates in Portugal based on government data."
@@ -35,8 +35,16 @@
              :en "FAQ"}
    :nav/privacy {:pt "Privacidade"
                  :en "Privacy"}
-   :footer/subtitle {:pt ["Dados públicos com acessibilidade gratuita e foco na privacidade do utilizador. Realizado por " " para " "." #_"., sem recurso a tecnologias que invadem a privacidade do utilizador. Não monetizamos informação pessoal. Hosting em servidores europeus."]
-                     :en ["Free access to government data" " para " ", sem recurso a tecnologias que invadem a privacidade do utilizador. Não monetizamos informação pessoal. Hosting em servidores europeus."]}
+   :footer/links-title {:pt "Links" :en "Links"}
+   :footer/contact-title {:pt "Contacto" :en "Contacts"}
+   :footer/enquiries {:pt "Enviar contactos directamente para: "
+                      :en "Direct enquiries to: "}
+   :footer/by {:pt "Passa à Primeira realizado por:"
+               :en "Passa à Primeira is a project by:"}
+   :footer/is-a {:pt "é uma empresa registrada no Reino Unido"
+                 :en "is a UK registered company."}
+   :footer/subtitle {:pt ["Dados públicos com acessibilidade gratuita e foco na privacidade do utilizador. Realizado por " " para " "."]
+                     :en ["Free access to government data focused on user privacy. Done by " " for " "."]}
 
    })
 
