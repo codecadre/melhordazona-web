@@ -5,10 +5,20 @@
             [bb-passrates.backend.templates.template :as tmp]
             [clojure.edn :as edn]
             [bb-passrates.shared.svg :as svg]
-            [bb-passrates.shared.main :refer [get-place-list k->concelho]]
+            [bb-passrates.shared.main :refer [get-place-list k->human address->human]]
             [bb-passrates.shared.copy :refer [copy]]))
 
-;;graph width
+;;TODO after copy
+;;link this to methodology instead
+(def taxa-aprovacao-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx")
+
+;;TODO after copy
+;;link this to methodology instead
+(def esri-href
+  "https://www.esri.com/en-us/arcgis/products/arcgis-platform/services/geocoding-search")
+
+
 
 (defn school-list [type city]
   (try
@@ -17,15 +27,15 @@
 
 (defn content [lang place]
   {:title (copy [:meta/title lang])
-   :subtitle (format (copy [:meta/subtitle-list lang]) (k->concelho place))})
+   :subtitle (format (copy [:meta/subtitle-list lang]) (k->human place))})
 
 
 (defn pop-up [k svg {:keys [name] :as imt-profile}]
   [:div.pop-up-wrapper
    [:h5.name name]
    [:div svg]
-   [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"] [:a {:href "ESRI"} "ESRI"]]
-   [:a.ver-mais {:href (format "/escolas/%s" k)} "ver mais >"]])
+   [:div.source [:span "Fonte: "] [:a {:href taxa-aprovacao-href} "IMT"] [:a {:href esri-href} "ESRI"]]
+   [:a.ver-mais {:href (str "#" k)} "ver mais >"]])
 
 (def year-selector
   #{"2018" "2019" "2020"})
@@ -38,19 +48,20 @@
         nec (:nec imt-profile)
         address (:address imt-profile)
         concelho (:concelho imt-profile)
-        cp7 (:cp7 imt-profile)]
-    [:div.school-card {:lat lat :long long}
+        cp7 (:cp7 imt-profile)
+        href-school (:imt-href imt-profile)]
+    [(keyword (str "div#" k)) {:class "school-card" :lat lat :long long}
      (pop-up k svg imt-profile)
      [:h4.name name]
-     [:p.label "IMT licence"]
+     [:p.label "Licença IMT"]
      [:p.field nec]
      [:p.label "Morada"]
-     [:p.field address]
-     [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"]]
+     [:p.field (address->human address)]
+     [:div.source [:span "Fonte: "] [:a {:href href-school} "IMT"]]
      [:div.ratings
       svg]
-          [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"]]
-     [:a.ver-mais {:href (format "/escolas/%s" k)} "ver mais >"]]))
+     [:div.source [:span "Fonte: "] [:a {:href taxa-aprovacao-href} "IMT"]]
+     [:a.ver-mais {:href (format "/escolas/%s" k)} "perfil completo >"]]))
 
 (comment (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
    (hiccup-school (first l))))
@@ -69,7 +80,8 @@
      (/ (reduce + 0 xx) n)]))
 
 (defn page [{:keys [concelho lang] :as req} place-list]
-  (let [[lat long] (centroid- place-list)
+  (let [human (k->human concelho)
+        [lat long] (centroid- place-list)
         school-cards (->> place-list
                           (map hiccup-school)
                           (partition 2 2 nil)
@@ -83,8 +95,11 @@
       (merge (content lang concelho) req)
       [:main
        [:div.container
-        [:h2 "List of Schools in Concelho de Lisboa"]
-        [:p "The data represented in the graph below represents Driving pass rates and number of exams done in an examination centre of each year. Link to about page explaining how the 3 data sources got created."]
+        [:h2 (format "%s (Concelho)" human)]
+        [:p (format "Os gráficos abaixo mostram as taxas de aprovação para %s escolas do concelho de %s." (count place-list) human)
+         ]
+        [:p "Dados referentes aos exames de condução nos últimos três anos. Contabilizando todas as categorias e (condução, mota, etc) e apenas pasagem à primeira."]
+        [:p.strong "Clica nos marcadores redondos no mapa!"]
         [:div.map-wrapper
          [:div#map {:lat lat :long long}]]
         school-cards]])]))

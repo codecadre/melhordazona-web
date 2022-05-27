@@ -96,9 +96,19 @@
      (-> (str "./data/" (name type) "-" place ".edn")  slurp edn/read-string)))
 
 #?(:clj
-  (defn k->concelho [k]
+  (defn k->human [k]
     (->>
      (clj-str/split k #"-" )
      (map clj-str/capitalize)
      (interpose " " )
      clj-str/join)))
+
+#?(:clj
+  (defn address->human [k]
+    (->>
+     (clj-str/split k #" " )
+     (map clj-str/capitalize)
+     (interpose " " )
+     clj-str/join)))
+
+#_(address->human "Avª Bombeiros Voluntários loja 8 J D 1675 PONTINHA")

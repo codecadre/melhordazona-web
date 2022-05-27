@@ -21,13 +21,19 @@
                       :en "Search by location or school name"}
    :autocomplete/sub-cta {:pt  "Mostramos-te as taxas de aprovação publicadas pelo IMT num mapa, gratuitamente"
                           :en "We guide you through the pass-rates published by the Government, free of charge"}
+   ;;
+   ;; meta
+
    :meta/title {:pt "Passa à Primeira"
                 :en "Passa à Primeira"}
    :meta/subtitle {:en "Driving school Pass-Rates in Portugal based on government data."
                    :pt "O teu guia (não) oficial para as taxas de aprovação do IMT"}
-   :meta/subtitle-list {:pt "Taxas de aprovação da carta de condução para as escolas do concelho de %s. Dados do IMT."}
+   :meta/subtitle-list {:pt
+                        "Lista gerada a partir das taxas de aprovação do IMT, para as escolas de condução do concelho de %s."}
+
    ;;
    ;;
+
    :header/subtitle {:pt "O teu guia (não) oficial para as taxas de aprovação do IMT"
                      :en "Your (un)official guide to IMT pass-rates"}
    :nav/search {:pt "Pesquisa"

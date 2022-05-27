@@ -1,4 +1,5 @@
 * 2 iteration
+** TODO cleanup address from the source
 ** TODO listing of schools with no address
 ** TODO droping schools like lombos form the map
 ** TODO don't allow user to zoom in map past a certain point
@@ -39,6 +40,12 @@ Things for me to do
 ** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 ** TODO COPY, page generator and pages (3 days)
    Generate a page from a Markdown to hiccup
+*** TODO Bits and bobs around the website
+    :LOGBOOK:
+    CLOCK: [2022-05-27 Fri 09:12]--[2022-05-27 Fri 09:43] =>  0:31
+    :END:
+
+
 *** DONE Build generator (1 day)
     :LOGBOOK:
     CLOCK: [2022-05-22 Sun 19:39]--[2022-05-22 Sun 20:14] =>  0:35
