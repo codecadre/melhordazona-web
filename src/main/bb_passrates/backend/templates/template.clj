@@ -95,7 +95,7 @@
          [:span "]"]
          [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
           [:a {:href (path->href "/" req)} (copy [:nav/search lang])]]
-         #_[:div.menu-item [:a {:href (if pt? "/acerca/" "/en/about/")} (copy [:nav/about lang])]]
+         [:div.menu-item [:a {:href "/paginas/acerca/"} (copy [:nav/about lang])]]
          #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
          #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
 

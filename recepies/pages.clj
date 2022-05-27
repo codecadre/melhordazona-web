@@ -17,7 +17,11 @@
 (require '[markdown.core :as md])
 
 (def pages
-  {:faq-pt {:title "Passa a Primeira FAQ"
+  {:acerca {:title "Passa à Primeira - Acerca"
+            :subtitle "Passa à Primeira - Acerca"
+            :lang :pt
+            :uri "/paginas/acerca/"}
+   :faq-pt {:title "Passa a Primeira FAQ"
             :subtitle "Perguntas frequentes"
             :lang :pt
             :uri "/paginas/faq-pt/"}
