@@ -1,4 +1,6 @@
 * 2 iteration
+
+** TODO robots.txt
 ** TODO cleanup address from the source
 ** TODO listing of schools with no address
 ** TODO droping schools like lombos form the map
@@ -42,12 +44,14 @@ Things for me to do
    Generate a page from a Markdown to hiccup
 *** TODO Bits and bobs around the website
     :LOGBOOK:
+    CLOCK: [2022-05-27 Fri 11:18]--[2022-05-27 Fri 12:06] =>  0:48
     CLOCK: [2022-05-27 Fri 10:35]--[2022-05-27 Fri 11:06] =>  0:31
     CLOCK: [2022-05-27 Fri 09:59]--[2022-05-27 Fri 10:30] =>  0:31
     CLOCK: [2022-05-27 Fri 09:12]--[2022-05-27 Fri 09:43] =>  0:31
     :END:
 
-
+- list: more in pop up
+- list: maybe add href for imt school
 *** DONE Build generator (1 day)
     :LOGBOOK:
     CLOCK: [2022-05-22 Sun 19:39]--[2022-05-22 Sun 20:14] =>  0:35

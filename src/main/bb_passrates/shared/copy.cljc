@@ -9,6 +9,8 @@
               :en "District"}
    :school {:pt "Escola"
             :en "School"}
+   :cp7 {:pt "Codigo Postal"
+         :en "Post Code"}
    ;;
    ;; autocomplete
    ;;
@@ -61,6 +63,33 @@
                         :en "Address"}
 
    ;;
+   ;;school
+   ;;
+
+   :school/title {:pt "Escola de Condução"
+                  :en "Driving School"}
+   :school/back {:pt "< Concelho de %s"
+                 :en "< %s Municipality"}
+   :school/coords {:pt "coordenadas (Aproximadas)"
+                   :en "Coordinates (Approximate)"}
+   :school/explainer
+   {:pt
+    ["Dados referentes aos exames nos últimos seis anos. Contabilizando todas as categorias (condução, mota, etc) e apenas pasagem à primeira. Este gráfico compara "
+     "aprovação em exame prático (condução)"
+     " com "
+     "aprovação em exame teórico"
+     ". A taxa de aprovação é o número de exames aprovados, em relação ao número de exames realizados."
+     ]
+    :en
+    ["Data relative to exams in the last six years. Accounts for all categories (driving, motorbike, etc) and only first passes. This chart compares "
+     "approval in practical exam (driving)"
+     " with "
+     "approval in theoretical exam (Highway code)"
+     ". Approval rates is the number of exams passed vs. the number of exams done."
+     ]
+    }
+
+   ;;
    ;; svg
    ;;
 
@@ -80,6 +109,10 @@
    :meta/subtitle-list {:pt
                         "Lista gerada a partir das taxas de aprovação do IMT, para as escolas de condução do concelho de %s."
                         :en "List generated from IMT aproval rates, for driving schools in the municipality of %s. "}
+   :meta/subtitle-school {:pt
+                          "Taxas de aprovação IMT da escola de condução %s, em %s."
+                          :en
+                          "Approval rates for driving school %s, in %s."}
 
    ;;
    ;;header/footer

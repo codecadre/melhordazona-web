@@ -28,6 +28,7 @@
    "municipality" "municipios"
    "city" "cidades"})
 
+;;TODO deprecated
 (def url->canonical
   (map-invert seo))
 
@@ -83,6 +84,32 @@
         req-method (keyword (clj-str/lower-case req-method))]
     (merge {:uri uri :request-method req-method}
            (query-string->map query-string))))
+
+#?(:clj
+   (defn remove-accents
+     [text]
+     (clj-str/escape text {\á "a", \Á "A", \à "a", \À "A", \â "a", \Â "A", \ã "a", \Ã "A", \ä "a", \Ä "A",
+                           \ç "c", \Ç "C",
+                           \ñ "n", \Ñ "N",
+                           \é "e", \É "E", \ê "e", \Ê "E",
+                           \í "i", \Í "I", \ï "i", \Ï "I",
+                           \ó "o", \Ó "O", \ô "o", \Ô "O", \õ "o", \Õ "O", \ö "o", \Ö "O",
+                           \ú "u", \Ú "U", \ü "u", \Ü "U"})))
+
+#?(:clj
+   (defn clean-strings
+     "returns collection of string"
+     [s]
+     (let [words (-> s
+                     clj-str/lower-case
+                     remove-accents
+                     (clj-str/replace #"[^0-9a-z_ ]" "")
+                     (clj-str/split #" "))]
+       (vec (remove empty? words)))))
+
+#?(:clj
+   (defn string->keywordize [s]
+     (apply str (interpose "-" (clean-strings s)))))
 
 #?(:clj
    (defn req-fn []

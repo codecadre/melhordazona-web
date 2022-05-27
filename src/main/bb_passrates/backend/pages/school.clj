@@ -3,13 +3,18 @@
             [bb-passrates.backend.templates.template :as tmp]
             [clojure.edn :as edn]
             [bb-passrates.shared.svg :as svg]
-            [bb-passrates.shared.main :refer [get-place-list]]))
+            [bb-passrates.shared.main :refer [get-place-list string->keywordize]]
+            [bb-passrates.shared.copy :refer [copy]]
+            ))
 
-(def content
-  {:title "COPY"
-   :subtitle
-   (str
-    "COPY")})
+;;TODO after copy
+;;link this to methodology instead
+(def taxa-aprovacao-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx")
+
+(defn content [lang {:keys [name concelho] :as imt-profile}]
+  {:title (copy [:meta/title lang])
+   :subtitle (format (copy [:meta/subtitle-school lang]) name concelho)})
 
 (defn school-data [k]
   (try
@@ -25,29 +30,30 @@
         long (:x geocode)]
     [:html
      (tmp/header
-      (merge content url-map)
+      (merge (content lang imt-profile) url-map)
       [:main
        [:div.solo-school
         [:div.container
          [:div.row
-          [:p.label "Escola de Condução"]
+          [:p.label (copy [:school/title lang])]
           [:h4.name (:name imt-profile)]
-          [:p [:a {:href (:concelho-href imt-profile)}
-            (format "Ver Mais escolas no concelho de %s." (:concelho imt-profile))]]
+          [:p [:a {:href (format (copy [:autocomplete/li-href :concelho lang])
+                                 (-> imt-profile :concelho string->keywordize) )  }
+            (format (copy [:school/back lang])  (:concelho imt-profile))]]
           [:div.row
            [:div.six.columns
-            [:p.label "Licensa IMT"]
+            [:p.label (copy [:list/scard-license lang])]
             [:p.field (:nec imt-profile)]
-            [:p.label "Morada"]
+            [:p.label (copy [:list/scard-address lang])]
             [:p.field (:address imt-profile)]
-            [:p.label "Concelho"]
-            [:p.field "Lisboa"]
-            [:p.label "Codigo Postal"]
+            [:p.label (copy [:concelho lang])]
+            [:p.field (:concelho imt-profile)]
+            [:p.label (copy [:cp7 lang])]
             [:p.field (:cp7 imt-profile)]
-            [:p.source "Fonte dos Dados:" [:a {:href (:imt-href imt-profile)} "Escola no site do IMT"]]
-            [:p.label "coordenadas (Aproximadas)"]
+            [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "IMT"]]
+            [:p.label (copy [:school/coords lang])]
             [:p.field lat " " long]
-            [:p.source "Fonte dos Dados:" [:a {:href (:imt-href imt-profile)} "ESRI"]]]
+            [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "ESRI"]]]
            [:div.six.columns
             [:div#map-solo {:lat lat :long long}]]]
           [:div.row
@@ -57,6 +63,9 @@
            [:div.six.columns
             [:div.theory
              (svg/pop-up-svg lang (svg/parse-d-smart rates nil year-selector) (count year-selector))]
-            [:p.source "Fonte dos Dados:" [:a {:href (:imt-href imt-profile)} "ESRI"]]]]
+            [:p.source (copy [:list/pop-up-source lang]) [:a {:href taxa-aprovacao-href} "IMT"]]]]
           [:div.row.description
-           [:p "This is a label that explain the charts above. " [:span.driving "This is for driving"] " While, " [:span.theory "This other is for theory" " Everything looks amazing."] ]]]]]])]))
+           (let [[one two three four five] (copy [:school/explainer lang])]
+             [:p one
+              [:span.driving two] three
+              [:span.theory four] five])]]]]])]))

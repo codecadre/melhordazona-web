@@ -68,6 +68,7 @@
            [:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
            [:get ["en" "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho))
            [:get ["escolas" escola]] (escola-handler (assoc req :school escola))
+           [:get ["en" "schools" escola]] (escola-handler (assoc req :school escola))
            ;;district has data issues
            #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
            :else {:page (not-found/page)
