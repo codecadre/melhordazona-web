@@ -21,8 +21,8 @@ Por uma questão de transparência e reproducibilidade, publicamos o código usa
 
 [Moradas e licensa IMT](https://github.com/codecadre/imt-school-addresses)
 
-Adicionalmente, as taxas de aprovações podem ser importadas num Júpiter notebook para inferência estatística.
+De forma a facilitar iniciativas como esta, as taxas de aprovações podem ser importadas num Júpiter Notebook.
 
-[https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb](Demo)
+[Demo](https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb)
 
-O site respeita as normas europeias de privacidade. Não o usamos cookies para a melhor experiência do utilizador e porque na Codecadre não acreditamos em vender informação pessoal como modelo economicamente viável. Os nossos parceiros foram escolhidos com este princípio em mente.
+O site respeita as normas europeias de privacidade. Não usamos cookies para a melhor experiência de navegação e porque na Codecadre não acreditamos que ceder informação pessoal seja um modelo economicamente viável. Os nossos parceiros foram escolhidos com este princípio em mente.
