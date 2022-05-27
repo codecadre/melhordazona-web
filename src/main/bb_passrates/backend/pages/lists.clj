@@ -60,7 +60,7 @@
      [:div.ratings
       svg]
      [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]
-     [:a.ver-mais {:href (format "/escolas/%s" k)} (copy [:list/pop-up-more lang])]]))
+     [:a.ver-mais {:href (format (copy [:autocomplete/li-href :school lang]) k)} (copy [:list/pop-up-more lang])]]))
 
 (comment (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
    (hiccup-school (first l))))
