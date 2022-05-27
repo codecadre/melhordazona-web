@@ -1,9 +1,10 @@
-(ns bb-passrates.shared.svg)
+(ns bb-passrates.shared.svg
+  (:require [bb-passrates.shared.copy :refer [copy]]))
 
 (def debug false)
 
 
-(defn pop-up-svg [d n]
+(defn pop-up-svg [lang d n]
   (let [H 100
         bar-length-nominal 100
         x2 40
@@ -13,9 +14,9 @@
         bar-y (int (* row-h 0.85))
         text-y (int (* row-h 0.6))
         top-level-label [[:g {:transform (format "translate(%s,0)" x2)}
-                          [:text {:dy text-y} "Aprovação"]]
+                          [:text {:dy text-y} (copy [:svg/approval lang])]]
                          [:g {:transform (format "translate(%s,0)" x3)}
-                          [:text {:dy text-y} "N. Exames"]]]]
+                          [:text {:dy text-y} (copy [:svg/n lang])]]]]
     (into
        [:svg (merge {:viewBox (format "0 0 %s %s" W H)} (when debug {:class "border"}))]
 

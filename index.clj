@@ -66,6 +66,7 @@
            [:get []] (home-handler req)
            [:get ["en"]] (home-handler req)
            [:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
+           [:get ["en" "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho))
            [:get ["escolas" escola]] (escola-handler (assoc req :school escola))
            ;;district has data issues
            #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))

@@ -60,7 +60,7 @@
     (cond
       res res
       (clj-str/includes? path "escola") (str "/en" (clj-str/replace path "escola" "school"))
-      (clj-str/includes? path "concelho") (str "/en" (clj-str/replace path "concelho" "municipality")))))
+      (clj-str/includes? path "concelhos") (str "/en" (clj-str/replace path "concelhos" "municipalities")))))
 
 (defn en->pt [path]
   (let [res (get en->pt-map path)]

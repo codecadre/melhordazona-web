@@ -19,7 +19,7 @@
                                        [:p "full svg"]] (svg/svg (svg/parse-d (:rates (last (first d))))))
                                 [:div.pop-up-svg
                                  [:p "pop up svg"]
-                                 (svg/pop-up-svg (svg/parse-d-min (:rates (last (first d)))))]])]
+                                 (svg/pop-up-svg :en (svg/parse-d-min (:rates (last (first d)))))]])]
    :header html-header})
 
 (let [{:keys [page header]} page]

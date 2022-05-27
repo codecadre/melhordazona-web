@@ -1,8 +1,7 @@
 #!/usr/bin/env /usr/local/bin/bb
 
 (ns bb-passrates.backend.pages.lists
-  (:require [bb-passrates.shared.main :refer [lang url->canonical]]
-            [bb-passrates.backend.templates.template :as tmp]
+  (:require [bb-passrates.backend.templates.template :as tmp]
             [clojure.edn :as edn]
             [bb-passrates.shared.svg :as svg]
             [bb-passrates.shared.main :refer [get-place-list k->human address->human]]
@@ -18,8 +17,6 @@
 (def esri-href
   "https://www.esri.com/en-us/arcgis/products/arcgis-platform/services/geocoding-search")
 
-
-
 (defn school-list [type city]
   (try
     (get-place-list type city)
@@ -30,18 +27,20 @@
    :subtitle (format (copy [:meta/subtitle-list lang]) (k->human place))})
 
 
-(defn pop-up [k svg {:keys [name] :as imt-profile}]
+(defn pop-up [k svg {:keys [name] :as imt-profile} lang]
   [:div.pop-up-wrapper
    [:h5.name name]
    [:div svg]
-   [:div.source [:span "Fonte: "] [:a {:href taxa-aprovacao-href} "IMT"] [:a {:href esri-href} "ESRI"]]
-   [:a.ver-mais {:href (str "#" k)} "ver mais >"]])
+   [:div.source [:span (copy [:list/pop-up-source lang])]
+    [:a {:href taxa-aprovacao-href} "IMT"]
+    [:a {:href esri-href} "ESRI"]]
+   [:a.ver-mais {:href (str "#" k)} (copy [:list/pop-up-more lang])]])
 
 (def year-selector
   #{"2018" "2019" "2020"})
 
-(defn hiccup-school [[k {:keys [rates geocode imt-profile]}]]
-  (let [svg (svg/pop-up-svg (svg/parse-d-smart rates :d year-selector) (count year-selector))
+(defn hiccup-school [lang [k {:keys [rates geocode imt-profile]}]]
+  (let [svg (svg/pop-up-svg lang (svg/parse-d-smart rates :d year-selector) (count year-selector))
         lat (:y geocode)
         long (:x geocode)
         name (:name imt-profile)
@@ -51,17 +50,17 @@
         cp7 (:cp7 imt-profile)
         href-school (:imt-href imt-profile)]
     [(keyword (str "div#" k)) {:class "school-card" :lat lat :long long}
-     (pop-up k svg imt-profile)
+     (pop-up k svg imt-profile lang)
      [:h4.name name]
-     [:p.label "Licença IMT"]
+     [:p.label (copy [:list/scard-license lang])]
      [:p.field nec]
-     [:p.label "Morada"]
+     [:p.label (copy [:list/scard-address lang])]
      [:p.field (address->human address)]
-     [:div.source [:span "Fonte: "] [:a {:href href-school} "IMT"]]
+     [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href href-school} "IMT"]]
      [:div.ratings
       svg]
-     [:div.source [:span "Fonte: "] [:a {:href taxa-aprovacao-href} "IMT"]]
-     [:a.ver-mais {:href (format "/escolas/%s" k)} "perfil completo >"]]))
+     [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]
+     [:a.ver-mais {:href (format "/escolas/%s" k)} (copy [:list/pop-up-more lang])]]))
 
 (comment (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
    (hiccup-school (first l))))
@@ -83,7 +82,7 @@
   (let [human (k->human concelho)
         [lat long] (centroid- place-list)
         school-cards (->> place-list
-                          (map hiccup-school)
+                          (map (partial hiccup-school lang))
                           (partition 2 2 nil)
                           (reduce (fn [acc [s1 s2]]
                                     (conj acc [:div.row
@@ -95,11 +94,12 @@
       (merge (content lang concelho) req)
       [:main
        [:div.container
-        [:h2 (format "%s (Concelho)" human)]
-        [:p (format "Os gráficos abaixo mostram as taxas de aprovação para %s escolas do concelho de %s." (count place-list) human)
-         ]
-        [:p "Dados referentes aos exames de condução nos últimos três anos. Contabilizando todas as categorias e (condução, mota, etc) e apenas pasagem à primeira."]
-        [:p.strong "Clica nos marcadores redondos no mapa!"]
+        [:h2 (format (copy [:list/h1 lang]) human)]
+        (let [[one two three] (copy [:list/header-copy lang])]
+          [:div
+           [:p (format one (count place-list) human)]
+           [:p two]
+           [:p.strong three]])
         [:div.map-wrapper
          [:div#map {:lat lat :long long}]]
         school-cards]])]))

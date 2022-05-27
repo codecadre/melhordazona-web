@@ -20,7 +20,8 @@
   #{"2015" "2016" "2017" "2018" "2019" "2020"})
 
 (defn page [url-map {:keys [nec rates geocode imt-profile] :as school}]
-  (let [lat (:y geocode)
+  (let [lang (:lang url-map)
+        lat (:y geocode)
         long (:x geocode)]
     [:html
      (tmp/header
@@ -52,10 +53,10 @@
           [:div.row
            [:div.six.columns
             [:div.driving
-             (svg/pop-up-svg (svg/parse-d-smart rates :d year-selector) (count year-selector))]]
+             (svg/pop-up-svg lang (svg/parse-d-smart rates :d year-selector) (count year-selector))]]
            [:div.six.columns
             [:div.theory
-             (svg/pop-up-svg (svg/parse-d-smart rates nil year-selector) (count year-selector))]
+             (svg/pop-up-svg lang (svg/parse-d-smart rates nil year-selector) (count year-selector))]
             [:p.source "Fonte dos Dados:" [:a {:href (:imt-href imt-profile)} "ESRI"]]]]
           [:div.row.description
            [:p "This is a label that explain the charts above. " [:span.driving "This is for driving"] " While, " [:span.theory "This other is for theory" " Everything looks amazing."] ]]]]]])]))

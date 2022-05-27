@@ -1,8 +1,14 @@
 (ns bb-passrates.frontend.autocomplete
   (:require [clojure.string :as clj-str]
             [bb-passrates.shared.places :refer [places]]
-            [bb-passrates.shared.main :refer [query-place-list seo lang]]
-            [bb-passrates.shared.copy :refer [copy]]))
+            [bb-passrates.shared.main :refer [query-place-list seo]]
+            [bb-passrates.shared.copy :refer [copy]]
+            [goog.string :as gstring]
+            [goog.string.format]))
+
+(def lang
+  (let [en? (clj-str/includes? (.. js/window -location -href) "/en/")]
+    (if en? :en :pt)))
 
 (defn hide-char-limit-div []
   (let [box (.querySelector js/document ".char-limit")]
@@ -18,11 +24,14 @@
   (let [li (.createElement js/document "li")
         a (.createElement js/document "a")
         span (.createElement js/document "span")]
+
     ;;span
     (.classList.add span "suggestion-type")
     (set! (.-innerText span) (copy [type lang]))
+
     ;;a
-    (.setAttribute a "href" href)
+    (.setAttribute a "href" (gstring/format (copy [:autocomplete/li-href type lang])
+                                            (.-name k)))
     (set! (.-innerText a) name)
 
     (.appendChild a span)
