@@ -17,8 +17,9 @@
     (remove empty? words)))
 
 (defn query-place-list [list q]
-  (let [q (apply str (interpose " " (clean-q q)))]
-    (filter #(clj-str/includes? (:search-field %) q) list)))
+  (let [q (clean-q q)]
+    (when (not (empty? q))
+      (filter #(clj-str/includes? (:search-field %) (apply str (interpose " " q))) list))))
 
 
 (def lang :pt)

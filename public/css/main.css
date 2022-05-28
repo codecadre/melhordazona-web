@@ -825,6 +825,8 @@ footer .logo-column .logo-div {
   text-decoration: none;
   color: #151315;
   font-weight: bold;
+  width: 100%;
+  display: inline-block;
 }
 .search-input.active .autocomplete-box li .suggestion-type {
   color: #b2a9b2;
