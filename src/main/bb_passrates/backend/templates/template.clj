@@ -44,7 +44,7 @@
       [:div.logo-div
        [:p.built-by (copy [:footer/by lang])]
        [:div.logo logo]
-       [:p.limited "CODECADRE LTD is a " [:a {:target "_blank" :href "https://find-and-update.company-information.service.gov.uk/company/12134880"} (copy [:footer/is-a lang])]]]]]]])
+       [:p.limited "CODECADRE LTD " [:a {:target "_blank" :href "https://find-and-update.company-information.service.gov.uk/company/12134880"} (copy [:footer/is-a lang])]]]]]]])
 
 
 (def pt->en-map
