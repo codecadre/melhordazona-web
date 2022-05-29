@@ -73,10 +73,9 @@
         yy (->> d;;lat
                 (map (fn [[k {:keys [geocode]}]]
                        (:y geocode)))
-                (remove nil?))
-        n (count xx)]
-    [(/ (reduce + 0 yy) n)
-     (/ (reduce + 0 xx) n)]))
+                (remove nil?))]
+    [(/ (+ (apply min yy ) (apply max yy ))  2)
+     (/ (+ (apply min xx ) (apply max xx ))  2)]))
 
 (defn page [{:keys [concelho lang] :as req} place-list]
   (let [human (k->human concelho)

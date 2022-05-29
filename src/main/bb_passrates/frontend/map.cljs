@@ -32,7 +32,10 @@
       (let [[lat-centre long-centre]
             [(js/parseFloat (oget el "attributes.lat.value"))
              (js/parseFloat (oget el "attributes.long.value"))]
-            map (.setView (.map js/L "map") (.latLng  js/L lat-centre long-centre) 13)]
+            map (.. js/L
+                    (map "map")
+                    (setView (.latLng  js/L lat-centre long-centre) 12)
+                    (setMaxZoom 14))]
         (.. js/L
             (tileLayer tile-server (clj->js {:attribution attribution}))
             (addTo map))
