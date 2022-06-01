@@ -143,7 +143,7 @@
         [:p "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."]
         [:div
          (map-indexed
-          #(vector :p.no [:a {:href (str "#" (-> %2 first)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw))])
+          #(vector :p.no [:a {:href (str "#" (-> %2 first)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw address->human))])
           schools)]
         (->> schools
              (map (partial hiccup-school lang))
