@@ -27,11 +27,11 @@
          [:a {:href "https://www.codecadre.ai/" } "Codecadre"]
          [:span sub-3]])]]
     [:div.row.footer-bottom-row
-     #_[:div.columns.two
-      [:p.top-level-item (copy [:footer/links-title lang])]
-      [:p.item "FAQ"]
-      [:p.item [:a {:href "/"} "Home"]]
-      [:p.item "About"]]
+     (when (= :pt lang)
+       [:div.columns.two
+        [:p.top-level-item "Escolas"]
+        [:p.item [:a {:href "/escola-sem-morada-imt"} "Sem morada"]]
+        #_[:p.item "About"]])
      #_[:div.columns.two
       [:p.top-level-item "Legal"]
       [:p.item "Privacy Policy"]

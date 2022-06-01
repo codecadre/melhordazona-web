@@ -118,12 +118,15 @@
                            [:div.ratings
                             svg]
                            [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]
-                           [:a.ver-mais {:href (format (copy [:autocomplete/li-href :school lang]) k)} (copy [:list/pop-up-more lang])]]))]
+                           [:a.ver-mais {:href (format (copy [:autocomplete/li-href :school lang]) k)} (copy [:list/pop-up-more lang])]]))
+        meta {:title (copy [:meta/title lang])
+              :subtitle "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."}]
     [:html
      (tmp/header
-      (merge {:title "CoPY"} req)
+      (merge meta req)
       [:main
        [:div.container
+        [:p "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."]
         (->> schools
              (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)))
              (map (partial hiccup-school lang))

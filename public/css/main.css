@@ -600,6 +600,9 @@ there.
 .ratings .bar {
   fill: #fbd5a3;
 }
+.ratings .grey-bar {
+  fill: #e2dfe2;
+}
 .ratings svg {
   font-size: 1rem;
   height: 12rem;
@@ -615,6 +618,9 @@ there.
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper .bar {
   fill: #fbd5a3;
+}
+.leaflet-popup-content-wrapper .pop-up-wrapper .grey-bar {
+  fill: #e2dfe2;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper .name {
   font-weight: bold;
