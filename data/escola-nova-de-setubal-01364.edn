@@ -3,7 +3,7 @@
  [{:r/nec 1364,
    :r/level-0 "2015",
    :r/d-scheduled 1,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 1,
    :r/total-scheduled 1,
@@ -26,7 +26,7 @@
    :r/d-rate 0.7813,
    :r/t-scheduled 90.0,
    :r/k "nova-de-setubal-01364",
-   :r/total-passed 115.002,
+   :r/total-passed 115.0,
    :r/t-done 86.0}
   {:r/nec 1364,
    :r/level-0 "2018",
@@ -40,7 +40,7 @@
    :r/d-rate 0.764,
    :r/t-scheduled 139.0,
    :r/k "nova-de-setubal-01364",
-   :r/total-passed 160.992,
+   :r/total-passed 161.0,
    :r/t-done 134.0}
   {:r/nec 1364,
    :r/level-0 "2019",
@@ -54,7 +54,7 @@
    :r/d-rate 0.7788,
    :r/t-scheduled 303.0,
    :r/k "nova-de-setubal-01364",
-   :r/total-passed 366.021,
+   :r/total-passed 366.0,
    :r/t-done 294.0}
   {:r/nec 1364,
    :r/level-0 "2020",
@@ -68,7 +68,7 @@
    :r/d-rate 0.7981,
    :r/t-scheduled 473.0,
    :r/k "nova-de-setubal-01364",
-   :r/total-passed 462.99,
+   :r/total-passed 463.0,
    :r/t-done 437.0}],
  :imt-profile
  {:address "Rua Cacheu, n.º 17, 2845-607 Seixal",

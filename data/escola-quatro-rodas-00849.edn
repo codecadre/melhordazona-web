@@ -12,12 +12,12 @@
    :r/d-rate 0.4309,
    :r/t-scheduled 161.0,
    :r/k "quatro-rodas-00849",
-   :r/total-passed 252.0043,
+   :r/total-passed 252.0,
    :r/t-done 158.0}
   {:r/nec 849,
    :r/level-0 "2016",
    :r/d-scheduled 338,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.506,
    :r/d-done 336,
    :r/total-scheduled 338,
@@ -26,7 +26,7 @@
    :r/d-rate 0.506,
    :r/t-scheduled 0.0,
    :r/k "quatro-rodas-00849",
-   :r/total-passed 170.016,
+   :r/total-passed 170.0,
    :r/t-done 0.0}
   {:r/nec 849,
    :r/level-0 "2017",
@@ -40,7 +40,7 @@
    :r/d-rate 0.4579,
    :r/t-scheduled 247.0,
    :r/k "quatro-rodas-00849",
-   :r/total-passed 350.99,
+   :r/total-passed 351.0,
    :r/t-done 245.0}
   {:r/nec 849,
    :r/level-0 "2018",
@@ -54,7 +54,7 @@
    :r/d-rate 0.5275,
    :r/t-scheduled 223.0,
    :r/k "quatro-rodas-00849",
-   :r/total-passed 318.9963,
+   :r/total-passed 319.0,
    :r/t-done 216.0}
   {:r/nec 849,
    :r/level-0 "2019",
@@ -68,7 +68,7 @@
    :r/d-rate 0.5343,
    :r/t-scheduled 214.0,
    :r/k "quatro-rodas-00849",
-   :r/total-passed 293.0003,
+   :r/total-passed 293.0,
    :r/t-done 211.0}
   {:r/nec 849,
    :r/level-0 "2020",
@@ -82,7 +82,7 @@
    :r/d-rate 0.4815,
    :r/t-scheduled 153.0,
    :r/k "quatro-rodas-00849",
-   :r/total-passed 215.0109,
+   :r/total-passed 215.0,
    :r/t-done 144.0}],
  :imt-profile
  {:address

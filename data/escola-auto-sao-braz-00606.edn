@@ -12,7 +12,7 @@
    :r/d-rate 0.6813,
    :r/t-scheduled 92.0,
    :r/k "auto-sao-braz-00606",
-   :r/total-passed 126.9963,
+   :r/total-passed 127.0,
    :r/t-done 90.0}
   {:r/nec 606,
    :r/level-0 "2016",
@@ -31,7 +31,7 @@
   {:r/nec 606,
    :r/level-0 "2017",
    :r/d-scheduled 2,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 1.0,
    :r/d-done 2,
    :r/total-scheduled 2,

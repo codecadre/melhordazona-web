@@ -3,7 +3,7 @@
  [{:r/nec 1408,
    :r/level-0 "2017",
    :r/d-scheduled 1,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 1,
    :r/total-scheduled 1,
@@ -26,7 +26,7 @@
    :r/d-rate 0.6538,
    :r/t-scheduled 66.0,
    :r/k "novabela-01408",
-   :r/total-passed 85.999,
+   :r/total-passed 86.0,
    :r/t-done 66.0}
   {:r/nec 1408,
    :r/level-0 "2019",
@@ -40,7 +40,7 @@
    :r/d-rate 0.7914,
    :r/t-scheduled 172.0,
    :r/k "novabela-01408",
-   :r/total-passed 248.005,
+   :r/total-passed 248.0,
    :r/t-done 172.0}
   {:r/nec 1408,
    :r/level-0 "2020",
@@ -54,7 +54,7 @@
    :r/d-rate 0.811,
    :r/t-scheduled 221.0,
    :r/k "novabela-01408",
-   :r/total-passed 276.012,
+   :r/total-passed 276.0,
    :r/t-done 205.0}],
  :imt-profile
  {:address

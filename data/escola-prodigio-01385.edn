@@ -3,7 +3,7 @@
  [{:r/nec 1385,
    :r/level-0 "2016",
    :r/d-scheduled 3,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 3,
    :r/total-scheduled 3,
@@ -26,7 +26,7 @@
    :r/d-rate 0.5135,
    :r/t-scheduled 71.0,
    :r/k "prodigio-01385",
-   :r/total-passed 97.002,
+   :r/total-passed 97.0,
    :r/t-done 70.0}
   {:r/nec 1385,
    :r/level-0 "2018",
@@ -40,7 +40,7 @@
    :r/d-rate 0.6176,
    :r/t-scheduled 239.0,
    :r/k "prodigio-01385",
-   :r/total-passed 345.9779,
+   :r/total-passed 346.0,
    :r/t-done 227.0}
   {:r/nec 1385,
    :r/level-0 "2019",
@@ -54,7 +54,7 @@
    :r/d-rate 0.6405,
    :r/t-scheduled 262.0,
    :r/k "prodigio-01385",
-   :r/total-passed 400.9848,
+   :r/total-passed 401.0,
    :r/t-done 246.0}
   {:r/nec 1385,
    :r/level-0 "2020",
@@ -68,7 +68,7 @@
    :r/d-rate 0.5538,
    :r/t-scheduled 281.0,
    :r/k "prodigio-01385",
-   :r/total-passed 342.9915,
+   :r/total-passed 343.0,
    :r/t-done 251.0}],
  :imt-profile
  {:address

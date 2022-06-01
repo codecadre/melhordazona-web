@@ -3,7 +3,7 @@
  [{:r/nec 1376,
    :r/level-0 "2016",
    :r/d-scheduled 2,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 2,
    :r/total-scheduled 2,
@@ -26,7 +26,7 @@
    :r/d-rate 0.6441,
    :r/t-scheduled 93.0,
    :r/k "polo-universitario-01376",
-   :r/total-passed 115.9995,
+   :r/total-passed 116.0,
    :r/t-done 92.0}
   {:r/nec 1376,
    :r/level-0 "2018",
@@ -40,7 +40,7 @@
    :r/d-rate 0.5689,
    :r/t-scheduled 199.0,
    :r/k "polo-universitario-01376",
-   :r/total-passed 301.9929,
+   :r/total-passed 302.0,
    :r/t-done 197.0}
   {:r/nec 1376,
    :r/level-0 "2019",
@@ -54,7 +54,7 @@
    :r/d-rate 0.5484,
    :r/t-scheduled 223.0,
    :r/k "polo-universitario-01376",
-   :r/total-passed 322.001,
+   :r/total-passed 322.0,
    :r/t-done 209.0}
   {:r/nec 1376,
    :r/level-0 "2020",
@@ -68,7 +68,7 @@
    :r/d-rate 0.5093,
    :r/t-scheduled 157.0,
    :r/k "polo-universitario-01376",
-   :r/total-passed 230.013,
+   :r/total-passed 230.0,
    :r/t-done 142.0}],
  :imt-profile
  {:address "Rua Dr. Eduardo Santos Silva, n,º 61 4200-282 Porto",

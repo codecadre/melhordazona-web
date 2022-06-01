@@ -12,7 +12,7 @@
    :r/d-rate 0.7778,
    :r/t-scheduled 20.0,
    :r/k "algarve-00874",
-   :r/total-passed 35.0006,
+   :r/total-passed 35.0,
    :r/t-done 20.0}
   {:r/nec 874,
    :r/level-0 "2016",
@@ -26,12 +26,12 @@
    :r/d-rate 0.8421,
    :r/t-scheduled 27.0,
    :r/k "algarve-00874",
-   :r/total-passed 30.9999,
+   :r/total-passed 31.0,
    :r/t-done 25.0}
   {:r/nec 874,
    :r/level-0 "2017",
    :r/d-scheduled 4,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 1.0,
    :r/d-done 4,
    :r/total-scheduled 4,

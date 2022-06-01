@@ -9,7 +9,7 @@
    :r/total-scheduled 3,
    :r/name-raw "ESCOLA DE CONDUÇÃO ALVERCA RIO",
    :r/total-done 3,
-   :r/d-rate 1.0,
+   :r/d-rate nil,
    :r/t-scheduled 3.0,
    :r/k "alverca-rio-01401",
    :r/total-passed 3.0,
@@ -26,7 +26,7 @@
    :r/d-rate 0.7701,
    :r/t-scheduled 135.0,
    :r/k "alverca-rio-01401",
-   :r/total-passed 168.9953,
+   :r/total-passed 169.0,
    :r/t-done 131.0}
   {:r/nec 1401,
    :r/level-0 "2019",
@@ -40,7 +40,7 @@
    :r/d-rate 0.639,
    :r/t-scheduled 203.0,
    :r/k "alverca-rio-01401",
-   :r/total-passed 274.9923,
+   :r/total-passed 275.0,
    :r/t-done 193.0}
   {:r/nec 1401,
    :r/level-0 "2020",
@@ -54,7 +54,7 @@
    :r/d-rate 0.5913,
    :r/t-scheduled 252.0,
    :r/k "alverca-rio-01401",
-   :r/total-passed 297.009,
+   :r/total-passed 297.0,
    :r/t-done 225.0}],
  :imt-profile
  {:address

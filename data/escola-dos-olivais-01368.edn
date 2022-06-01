@@ -3,7 +3,7 @@
  [{:r/nec 1368,
    :r/level-0 "2015",
    :r/d-scheduled 3,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 3,
    :r/total-scheduled 3,
@@ -23,7 +23,7 @@
    :r/total-scheduled 3,
    :r/name-raw "ESCOLA DE CONDUÇÃO DOS OLIVAIS",
    :r/total-done 3,
-   :r/d-rate 1.0,
+   :r/d-rate nil,
    :r/t-scheduled 3.0,
    :r/k "dos-olivais-01368",
    :r/total-passed 3.0,
@@ -40,7 +40,7 @@
    :r/d-rate 0.6574,
    :r/t-scheduled 133.0,
    :r/k "dos-olivais-01368",
-   :r/total-passed 174.9992,
+   :r/total-passed 175.0,
    :r/t-done 130.0}
   {:r/nec 1368,
    :r/level-0 "2018",
@@ -54,7 +54,7 @@
    :r/d-rate 0.7365,
    :r/t-scheduled 193.0,
    :r/k "dos-olivais-01368",
-   :r/total-passed 260.9879,
+   :r/total-passed 261.0,
    :r/t-done 182.0}
   {:r/nec 1368,
    :r/level-0 "2019",
@@ -68,7 +68,7 @@
    :r/d-rate 0.8203,
    :r/t-scheduled 225.0,
    :r/k "dos-olivais-01368",
-   :r/total-passed 347.0131,
+   :r/total-passed 347.0,
    :r/t-done 210.0}
   {:r/nec 1368,
    :r/level-0 "2020",
@@ -82,7 +82,7 @@
    :r/d-rate 0.7085,
    :r/t-scheduled 250.0,
    :r/k "dos-olivais-01368",
-   :r/total-passed 318.9917,
+   :r/total-passed 319.0,
    :r/t-done 238.0}],
  :imt-profile
  {:address "Av. Cidade de Luanda, n.º 58, 1.º B, 1800-096 Lisboa",

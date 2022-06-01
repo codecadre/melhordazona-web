@@ -3,7 +3,7 @@
  [{:r/nec 1398,
    :r/level-0 "2017",
    :r/d-scheduled 1,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 1,
    :r/total-scheduled 1,
@@ -26,7 +26,7 @@
    :r/d-rate 0.5797,
    :r/t-scheduled 114.0,
    :r/k "estacao-01398",
-   :r/total-passed 115.0022,
+   :r/total-passed 115.0,
    :r/t-done 109.0}
   {:r/nec 1398,
    :r/level-0 "2019",
@@ -40,7 +40,7 @@
    :r/d-rate 0.5779,
    :r/t-scheduled 283.0,
    :r/k "estacao-01398",
-   :r/total-passed 330.0076,
+   :r/total-passed 330.0,
    :r/t-done 270.0}
   {:r/nec 1398,
    :r/level-0 "2020",
@@ -54,7 +54,7 @@
    :r/d-rate 0.6161,
    :r/t-scheduled 389.0,
    :r/k "estacao-01398",
-   :r/total-passed 421.0039,
+   :r/total-passed 421.0,
    :r/t-done 364.0}],
  :imt-profile
  {:address "Rua Miguel Torga, n.º 22 loja Drtº, 2725-563 Men Martins",
