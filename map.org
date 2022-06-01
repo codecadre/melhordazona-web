@@ -28,18 +28,28 @@
 ** TODO location of percentage looks weird (maybe for third release)
 * 2 iteration
 
-** DONE remove distrit entries from places
-** TODO revert centroid in school listing
-
-** TODO droping schools like lombos form the map
-
-styling
-** TODO box-shadow issues and bring back the div separator
-** TODO rounding of theory N exam
+** TODO translate about
+** TODO manually inspect some schools data
+** TODO final styling rounds
+*** TODO box-shadow issues and bring back the div separator
+*** TODO rounding of theory N exam
 
 
 meh
 ** TODO beta domain
+
+
+
+** DONE remove distrit entries from places
+** DONE revert centroid in school listing
+
+** DONE droping schools like lombos form the map or olivais
+   :LOGBOOK:
+   CLOCK: [2022-06-01 Wed 14:48]--[2022-06-01 Wed 15:30] =>  0:42
+   :END:
+
+styling
+
 
 ** DONE remove live js
 ** DONE license

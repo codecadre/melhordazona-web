@@ -16,7 +16,10 @@
       (let [[lat long]
             [(js/parseFloat (oget el "attributes.lat.value"))
              (js/parseFloat (oget el "attributes.long.value"))]
-            map (.setView (.map js/L "map-solo") (.latLng  js/L lat long) 13)
+            map (.. js/L
+                    (map "map-solo")
+                    (setView (.latLng  js/L (.latLng  js/L lat long)) 13)
+                    (setMaxZoom 14))
             coord-js (make-coord-js lat long)
             icon (make-icon-js)]
         (.. js/L
@@ -35,29 +38,31 @@
             map (.. js/L
                     (map "map")
                     (setView (.latLng  js/L lat-centre long-centre) 12)
-                    (setMaxZoom 14))]
+                    (setMaxZoom 14))
+            schools (doall (js->clj (.querySelectorAll js/document ".school-card")))]
         (.. js/L
             (tileLayer tile-server (clj->js {:attribution attribution}))
             (addTo map))
-        (-> (.querySelectorAll js/document ".school-card")
-            js/Array.from
-            (.forEach (fn [el]
-                        (let [lat (oget el "attributes.lat.value")
-                              long (oget el "attributes.long.value")
-                              coord-js (make-coord-js lat long)
-                              icon (make-icon-js)
-                              popup-html-str (.. el
-                                                 (querySelector ".pop-up-wrapper")
-                                                 -outerHTML)
-                              pop-up (.. js/L
-                                         popup
-                                         (setLatLng coord-js)
-                                         (setContent popup-html-str))
-                              marker (.. js/L
-                                         (marker coord-js icon)
-                                         (bindPopup pop-up)
-                                         (addTo map))]
-                          (.on marker "click" (fn [e]
-                                                (this-as this
-                                                  (.. this
-                                                      openPopup))))))))))))
+        (doseq [el schools]
+          (let [lat (oget el "attributes" "?lat.value")
+                long (oget el "attributes" "?long.value")
+                coord-js (when (and lat long)
+                           (make-coord-js lat long))
+                icon (make-icon-js)
+                popup-html-str (.. el
+                                   (querySelector ".pop-up-wrapper")
+                                   -outerHTML)
+                pop-up (when coord-js
+                         (.. js/L
+                             popup
+                             (setLatLng coord-js)
+                             (setContent popup-html-str)))
+                marker (when coord-js
+                         (.. js/L
+                             (marker coord-js icon)
+                             (bindPopup pop-up)
+                             (addTo map)))]
+            (when coord-js (.on marker "click" (fn [e]
+                                   (this-as this
+                                     (.. this
+                                         openPopup)))))))))))

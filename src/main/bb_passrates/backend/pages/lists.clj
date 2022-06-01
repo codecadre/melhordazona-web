@@ -73,6 +73,19 @@
         yy (->> d;;lat
                 (map (fn [[k {:keys [geocode]}]]
                        (:y geocode)))
+                (remove nil?))
+        n (count xx)]
+    [(/ (reduce + 0 yy) n)
+     (/ (reduce + 0 xx) n)]))
+
+#_(defn centroid- [d]
+  (let [xx (->> d;;long
+                (map (fn [[k {:keys [geocode]}]]
+                       (:x geocode)))
+                (remove nil?))
+        yy (->> d;;lat
+                (map (fn [[k {:keys [geocode]}]]
+                       (:y geocode)))
                 (remove nil?))]
     [(/ (+ (apply min yy ) (apply max yy ))  2)
      (/ (+ (apply min xx ) (apply max xx ))  2)]))
