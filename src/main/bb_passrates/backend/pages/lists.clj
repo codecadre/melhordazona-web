@@ -122,10 +122,11 @@
         schools (try
                   (-> "./data/concelho-nil.edn"  slurp edn/read-string)
                   (catch Exception e '()))
+        schools (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)) schools)
         hiccup-school (fn [lang [k {:keys [rates]}]]
                         (let [name (-> rates first :r/name-raw address->human)
                               svg (svg/pop-up-svg lang (svg/parse-d-smart rates :d year-selector) (count year-selector))]
-                          [:div.school-card
+                          [:div.school-card {:id k}
                            [:p.label "Nome"]
                            [:p.field name]
                            [:div.ratings
@@ -140,8 +141,11 @@
       [:main
        [:div.container
         [:p "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."]
+        [:div
+         (map-indexed
+          #(vector :p.no [:a {:href (str "#" (-> %2 first)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw))])
+          schools)]
         (->> schools
-             (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)))
              (map (partial hiccup-school lang))
              (partition 2 2 nil)
              (reduce (fn [acc [s1 s2]]

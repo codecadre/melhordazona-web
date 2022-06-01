@@ -26,9 +26,16 @@
 
 ** TODO school in azambuja shows up in lisbon concelho
 ** TODO location of percentage looks weird (maybe for third release)
+** TODO translate about
 * 2 iteration
 
-** TODO translate about
+
+** TODO
+   what about schools with no coord
+   these show up in th elisting page but not on the map
+   perhaps create a listing of these
+
+
 ** TODO manually inspect some schools data
 ** TODO final styling rounds
 *** TODO box-shadow issues and bring back the div separator
@@ -36,21 +43,19 @@
 
 
 meh
+
 ** TODO beta domain
 
 
-
+** DONE no imt profile list
 ** DONE remove distrit entries from places
 ** DONE revert centroid in school listing
-
 ** DONE droping schools like lombos form the map or olivais
    :LOGBOOK:
    CLOCK: [2022-06-01 Wed 14:48]--[2022-06-01 Wed 15:30] =>  0:42
    :END:
 
 styling
-
-
 ** DONE remove live js
 ** DONE license
    :LOGBOOK:
@@ -63,7 +68,6 @@ styling
    :END:
 
 ** DONE Data issues
-
 *** DONE sort imt-pass-rates
     :LOGBOOK:
     CLOCK: [2022-06-01 Wed 10:06]--[2022-06-01 Wed 12:23] =>  2:17
@@ -82,11 +86,8 @@ styling
     CLOCK: [2022-06-01 Wed 12:50]--[2022-06-01 Wed 14:06] =>  1:16
     :END:
 
-
 ** DONE don't allow user to zoom in map past a certain point
 ** DONE New centroid Rules
-
-
 ** DONE styling remarks (Pairing with Giulia)
    :LOGBOOK:
    CLOCK: [2022-05-20 Fri 15:28]--[2022-05-20 Fri 16:04] =>  0:36
@@ -144,7 +145,6 @@ Read a markdown and strip html
     :END:
 
 ** DONE disable input/enable when JS is loaded
-
 ** DONE color palette
    :LOGBOOK:
    CLOCK: [2022-05-18 Wed 18:15]--[2022-05-18 Wed 18:47] =>  0:32
