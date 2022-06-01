@@ -95,6 +95,12 @@
         data-string (with-out-str (pprint/pprint schools))]
     (spit f data-string)))
 
+(let [d (->> db
+             (filter #(-> % last :imt-profile nil?)))
+      f "./data/concelho-nil.edn"
+      data-string (with-out-str (pprint/pprint d))]
+  (spit f data-string))
+
 (doseq [[distrito schools] (->> db
                                 (group-by #(-> % last :imt-profile :distrito))
                                 (remove #(-> % first nil?)))]
