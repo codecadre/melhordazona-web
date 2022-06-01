@@ -3,7 +3,8 @@
             [bb-passrates.backend.templates.template :as tmp]
             [clojure.edn :as edn]
             [bb-passrates.shared.svg :as svg]
-            [bb-passrates.shared.main :refer [get-place-list string->keywordize]]
+            [bb-passrates.shared.main :refer [get-place-list string->keywordize
+                                              address->human]]
             [bb-passrates.shared.copy :refer [copy]]
             ))
 
@@ -14,7 +15,7 @@
 
 (defn content [lang {:keys [name concelho] :as imt-profile}]
   {:title (copy [:meta/title lang])
-   :subtitle (format (copy [:meta/subtitle-school lang]) name concelho)})
+   :subtitle (format (copy [:meta/subtitle-school lang]) name (or concelho "sem morada no IMT"))})
 
 (defn school-data [k]
   (try
@@ -36,26 +37,31 @@
         [:div.container
          [:div.row
           [:p.label (copy [:school/title lang])]
-          [:h4.name (:name imt-profile)]
-          [:p [:a {:href (format (copy [:autocomplete/li-href :concelho lang])
-                                 (-> imt-profile :concelho string->keywordize) )  }
-            (format (copy [:school/back lang])  (:concelho imt-profile))]]
+          (if imt-profile
+            [:h4.name (:name imt-profile)]
+            [:h4.name (-> rates first :r/name-raw address->human)])
+          (when imt-profile
+            [:p [:a {:href (format (copy [:autocomplete/li-href :concelho lang])
+                                   (-> imt-profile :concelho string->keywordize) )  }
+                 (format (copy [:school/back lang])  (:concelho imt-profile))]])
           [:div.row
-           [:div.six.columns
-            [:p.label (copy [:list/scard-license lang])]
-            [:p.field (:nec imt-profile)]
-            [:p.label (copy [:list/scard-address lang])]
-            [:p.field (:address imt-profile)]
-            [:p.label (copy [:concelho lang])]
-            [:p.field (:concelho imt-profile)]
-            [:p.label (copy [:cp7 lang])]
-            [:p.field (:cp7 imt-profile)]
-            [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "IMT"]]
-            [:p.label (copy [:school/coords lang])]
-            [:p.field lat " " long]
-            [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "ESRI"]]]
-           [:div.six.columns
-            [:div#map-solo {:lat lat :long long}]]]
+           (when imt-profile
+             [:div.six.columns
+              [:p.label (copy [:list/scard-license lang])]
+              [:p.field (:nec imt-profile)]
+              [:p.label (copy [:list/scard-address lang])]
+              [:p.field (:address imt-profile)]
+              [:p.label (copy [:concelho lang])]
+              [:p.field (:concelho imt-profile)]
+              [:p.label (copy [:cp7 lang])]
+              [:p.field (:cp7 imt-profile)]
+              [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "IMT"]]
+              [:p.label (copy [:school/coords lang])]
+              [:p.field lat " " long]
+              [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "ESRI"]]])
+           (when geocode
+             [:div.six.columns
+              [:div#map-solo {:lat lat :long long}]])]
           [:div.row
            [:div.six.columns
             [:div.driving

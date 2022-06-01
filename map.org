@@ -1,12 +1,71 @@
-* 2 iteration
+* 3rd iteration - after release
 
+** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 ** TODO robots.txt
 ** TODO cleanup address from the source
+** TODO COPY
+*** TODO What Can we infer by the data
+*** TODO methodology
+    :LOGBOOK:
+    CLOCK: [2022-05-26 Thu 12:55]--[2022-05-26 Thu 13:49] =>  0:54
+    :END:
+
+*** TODO OS
+*** TODO Privacy
+*** TODO explainer page on the past projects
+    :LOGBOOK:
+    CLOCK: [2022-05-25 Wed 15:32]--[2022-05-25 Wed 16:07] =>  0:35
+    CLOCK: [2022-05-25 Wed 11:39]--[2022-05-25 Wed 12:31] =>  0:52
+    CLOCK: [2022-05-24 Tue 18:09]--[2022-05-24 Tue 18:20] =>  0:11
+    CLOCK: [2022-05-24 Tue 17:47]--[2022-05-24 Tue 18:09] =>  0:22
+    CLOCK: [2022-05-24 Tue 16:52]--[2022-05-24 Tue 17:47] =>  0:55
+    CLOCK: [2022-05-24 Tue 14:42]--[2022-05-24 Tue 16:52] =>  2:10
+    :END:
+
+*** TODO tech blog on babashka?
+
+* 2 iteration
+
+** TODO rounding of theory N exam
+** TODO location of percentage looks weird maybe for third release
+** TODO remove distrit entries from places
+** TODO beta domain
+** DONE remove live js
+** DONE license
+   :LOGBOOK:
+   CLOCK: [2022-05-29 Sun 15:17]--[2022-05-29 Sun 15:40] =>  0:23
+   :END:
+
 ** TODO listing of schools with no address
-** TODO droping schools like lombos form the map
-** TODO don't allow user to zoom in map past a certain point
-** TODO New centroid Rules
-** TODO - [ ] box-shadow issues and bring back the div separator
+   :LOGBOOK:
+   CLOCK: [2022-05-30 Mon 11:26]--[2022-05-30 Mon 12:08] =>  0:42
+   :END:
+
+** DONE Data issues
+
+*** DONE sort imt-pass-rates
+    :LOGBOOK:
+    CLOCK: [2022-06-01 Wed 10:06]--[2022-06-01 Wed 12:23] =>  2:17
+    :END:
+
+*** DONE 100%
+    :LOGBOOK:
+    CLOCK: [2022-05-30 Mon 15:15]--[2022-06-01 Wed 10:06] => 42:51
+    :END:
+   https://passaprimeira.xyz/escolas/dos-olivais-01368
+
+*** TODO revert centroid in school listing
+*** TODO droping schools like lombos form the map
+*** DONE fix school page
+    :LOGBOOK:
+    CLOCK: [2022-06-01 Wed 12:50]--[2022-06-01 Wed 14:06] =>  1:16
+    :END:
+
+*** TODO school in azambuja shows up in lisbon concelho
+** DONE don't allow user to zoom in map past a certain point
+** DONE New centroid Rules
+** TODO box-shadow issues and bring back the div separator
+
 ** DONE styling remarks (Pairing with Giulia)
    :LOGBOOK:
    CLOCK: [2022-05-20 Fri 15:28]--[2022-05-20 Fri 16:04] =>  0:36
@@ -39,8 +98,7 @@ Things for me to do
     CLOCK: [2022-05-23 Mon 15:54]--[2022-05-23 Mon 16:11] =>  0:17
     :END:
 
-** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
-** TODO COPY, page generator and pages (3 days)
+** DONE COPY, page generator and pages (3 days)
    Generate a page from a Markdown to hiccup
 *** DONE Bits and bobs around the website
     :LOGBOOK:
@@ -63,26 +121,6 @@ Read a markdown and strip html
     CLOCK: [2022-05-26 Thu 12:46]--[2022-05-26 Thu 12:55] =>  0:09
 
     :END:
-*** TODO What Can we infer by the data
-
-*** TODO methodology
-    :LOGBOOK:
-    CLOCK: [2022-05-26 Thu 12:55]--[2022-05-26 Thu 13:49] =>  0:54
-    :END:
-
-*** TODO OS
-*** TODO Privacy
-
-*** TODO explainer page on the past projects
-    :LOGBOOK:
-    CLOCK: [2022-05-25 Wed 15:32]--[2022-05-25 Wed 16:07] =>  0:35
-    CLOCK: [2022-05-25 Wed 11:39]--[2022-05-25 Wed 12:31] =>  0:52
-    CLOCK: [2022-05-24 Tue 18:09]--[2022-05-24 Tue 18:20] =>  0:11
-    CLOCK: [2022-05-24 Tue 17:47]--[2022-05-24 Tue 18:09] =>  0:22
-    CLOCK: [2022-05-24 Tue 16:52]--[2022-05-24 Tue 17:47] =>  0:55
-    CLOCK: [2022-05-24 Tue 14:42]--[2022-05-24 Tue 16:52] =>  2:10
-    :END:
-
 
 ** DONE disable input/enable when JS is loaded
 

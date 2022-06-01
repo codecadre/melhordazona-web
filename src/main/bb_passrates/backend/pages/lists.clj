@@ -50,7 +50,7 @@
         cp7 (:cp7 imt-profile)
         href-school (:imt-href imt-profile)]
     [(keyword (str "div#" k)) {:class "school-card" :lat lat :long long}
-     (pop-up k svg imt-profile lang)
+     #_(pop-up k svg imt-profile lang)
      [:h4.name name]
      [:p.label (copy [:list/scard-license lang])]
      [:p.field nec]
@@ -102,6 +102,38 @@
         [:div.map-wrapper
          [:div#map {:lat lat :long long}]]
         school-cards]])]))
+
+
+(defn no-imt-profile [{:keys [lang] :as req}]
+  (let [year-selector #{#_#_#_"2015" "2016" "2017" "2018" "2019" "2020"}
+        schools (try
+                  (-> "./data/concelho-nil.edn"  slurp edn/read-string)
+                  (catch Exception e '()))
+        hiccup-school (fn [lang [k {:keys [rates]}]]
+                        (let [name (-> rates first :r/name-raw address->human)
+                              svg (svg/pop-up-svg lang (svg/parse-d-smart rates :d year-selector) (count year-selector))]
+                          [:div.school-card
+                           [:p.label "Nome"]
+                           [:p.field name]
+                           [:div.ratings
+                            svg]
+                           [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]
+                           [:a.ver-mais {:href (format (copy [:autocomplete/li-href :school lang]) k)} (copy [:list/pop-up-more lang])]]))]
+    [:html
+     (tmp/header
+      (merge {:title "CoPY"} req)
+      [:main
+       [:div.container
+        (->> schools
+             (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)))
+             (map (partial hiccup-school lang))
+             (partition 2 2 nil)
+             (reduce (fn [acc [s1 s2]]
+                       (conj acc [:div.row
+                                  [:div.columns.six s1]
+                                  [:div.columns.six s2]]))
+                     [:div.list]))]])]))
+
 
 (comment
  (centroid- (-> "data/distrito-lisboa.edn" slurp edn/read-string))

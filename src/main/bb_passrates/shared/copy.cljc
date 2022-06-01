@@ -3,7 +3,9 @@
 
 
 (def copy-list
-  {:concelho {:pt "Concelho"
+  {:no-data {:pt "Sem Dados"
+             :en "No Data"}
+   :concelho {:pt "Concelho"
               :en "Municipality"}
    :distrito {:pt "Distrito"
               :en "District"}
