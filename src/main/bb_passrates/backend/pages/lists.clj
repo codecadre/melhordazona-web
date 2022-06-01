@@ -50,7 +50,7 @@
         cp7 (:cp7 imt-profile)
         href-school (:imt-href imt-profile)]
     [(keyword (str "div#" k)) {:class "school-card" :lat lat :long long}
-     #_(pop-up k svg imt-profile lang)
+     (pop-up k svg imt-profile lang)
      [:h4.name name]
      [:p.label (copy [:list/scard-license lang])]
      [:p.field nec]

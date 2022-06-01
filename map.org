@@ -24,19 +24,30 @@
 
 *** TODO tech blog on babashka?
 
+** TODO school in azambuja shows up in lisbon concelho
+** TODO location of percentage looks weird (maybe for third release)
 * 2 iteration
 
+** DONE remove distrit entries from places
+** TODO revert centroid in school listing
+
+** TODO droping schools like lombos form the map
+
+styling
+** TODO box-shadow issues and bring back the div separator
 ** TODO rounding of theory N exam
-** TODO location of percentage looks weird maybe for third release
-** TODO remove distrit entries from places
+
+
+meh
 ** TODO beta domain
+
 ** DONE remove live js
 ** DONE license
    :LOGBOOK:
    CLOCK: [2022-05-29 Sun 15:17]--[2022-05-29 Sun 15:40] =>  0:23
    :END:
 
-** TODO listing of schools with no address
+** DONE listing of schools with no address
    :LOGBOOK:
    CLOCK: [2022-05-30 Mon 11:26]--[2022-05-30 Mon 12:08] =>  0:42
    :END:
@@ -54,17 +65,17 @@
     :END:
    https://passaprimeira.xyz/escolas/dos-olivais-01368
 
-*** TODO revert centroid in school listing
-*** TODO droping schools like lombos form the map
+
+
 *** DONE fix school page
     :LOGBOOK:
     CLOCK: [2022-06-01 Wed 12:50]--[2022-06-01 Wed 14:06] =>  1:16
     :END:
 
-*** TODO school in azambuja shows up in lisbon concelho
+
 ** DONE don't allow user to zoom in map past a certain point
 ** DONE New centroid Rules
-** TODO box-shadow issues and bring back the div separator
+
 
 ** DONE styling remarks (Pairing with Giulia)
    :LOGBOOK:

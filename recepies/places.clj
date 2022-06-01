@@ -58,7 +58,7 @@
                         :name %
                         :search-field (apply str (interpose " " (clean-strings %)))
                         :href (str "/concelhos/" (string->keywordize %))) concelhos)
-                 (map #(hash-map
+                 #_(map #(hash-map
                         :k (keyword "distrito" (string->keywordize %))
                         :type :distrito
                         :name %
