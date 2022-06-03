@@ -13,6 +13,9 @@
 (def taxa-aprovacao-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx")
 
+(def esri-href
+  "https://www.esri.com/en-us/arcgis/products/arcgis-platform/services/geocoding-search")
+
 (defn content [lang {:keys [name concelho] :as imt-profile}]
   {:title (copy [:meta/title lang])
    :subtitle (format (copy [:meta/subtitle-school lang]) name (or concelho "sem morada no IMT"))})
@@ -57,8 +60,10 @@
               [:p.field (:cp7 imt-profile)]
               [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "IMT"]]
               [:p.label (copy [:school/coords lang])]
-              [:p.field lat " " long]
-              [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "ESRI"]]])
+              (if lat
+                [:p.field lat " " long]
+                [:p.field.no-coord (copy [:no-data lang])])
+              [:p.source (copy [:list/pop-up-source lang]) [:a {:href esri-href} "ESRI"]]])
            (when geocode
              [:div.six.columns
               [:div#map-solo {:lat lat :long long}]])]

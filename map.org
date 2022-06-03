@@ -1,5 +1,6 @@
 * 3rd iteration - after release
 
+** TODO link no-coord to faq when written
 ** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 ** TODO robots.txt
 ** TODO cleanup address from the source
@@ -33,8 +34,7 @@
    :LOGBOOK:
    CLOCK: [2022-06-03 Fri 21:00]--[2022-06-03 Fri 21:14] =>  0:14
    :END:
-** TODO
-   what about schools with no coord
+** DONE what about schools with no coord
    these show up in th elisting page but not on the map
    perhaps create a listing of these
 ** TODO manually inspect some schools data
@@ -42,7 +42,7 @@
 *** TODO box-shadow issues and bring back the div separator
 *** TODO rounding of theory N exam
 *** TODO School page svg goes on top of the other when reducing window size
-** TODO
+** TODO HTACCESS
    Rules for htaccess like: this is visible http://localhost/data/concelho-faro.edn
 
 meh

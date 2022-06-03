@@ -3,7 +3,10 @@
 
 
 (def copy-list
-  {:no-data {:pt "Sem Dados"
+  {:no-coord {:pt "Sem coordenadas geográficas - não aparece no mapa."
+              :en "No geographic coordinates - doesn't show up on the map."}
+
+   :no-data {:pt "Sem Dados"
              :en "No Data"}
    :concelho {:pt "Concelho"
               :en "Municipality"}

@@ -54,13 +54,16 @@
      [:h4.name name]
      [:p.label (copy [:list/scard-license lang])]
      [:p.field nec]
-     [:p.label (copy [:list/scard-address lang])]
+     [:p.label  [:span (copy [:list/scard-address lang])] (when (nil? geocode) [:span.no-coord [:sup.strong "†"]])]
      [:p.field (address->human address)]
      [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href href-school} "IMT"]]
      [:div.ratings
       svg]
      [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]
-     [:a.ver-mais {:href (format (copy [:autocomplete/li-href :school lang]) k)} (copy [:list/pop-up-more lang])]]))
+     [:a.ver-mais {:href (format (copy [:autocomplete/li-href :school lang]) k)} (copy [:list/pop-up-more lang])]
+     (when (nil? geocode)
+       [:div.row
+        [:div.column.one-half [:p.no-coord.label "†" #_[:sup ] (copy [:no-coord lang])]]])]))
 
 (comment (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
    (hiccup-school (first l))))
