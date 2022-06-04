@@ -1,4 +1,4 @@
-# _Passa à Primeira_: uma visualizaçãp gratuita de dados públicos com foco na privacidade do utilizador
+## _Passa à Primeira_: uma visualização gratuita de dados públicos com foco na privacidade do utilizador
 
 Na minha experiência com escolas de condução, constatei que os incentivos não estão alinhados para dar aos alunos a melhor experiência de ensino.
 
