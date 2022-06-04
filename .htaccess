@@ -4,19 +4,27 @@ RewriteEngine On
 Options -Indexes
 PassEnv ENV
 
-RewriteRule ^favicon.ico public/img/favicon.ico
+RewriteRule ^favicon.ico public/img/favicon.ico [L]
 
 # send everything to /index.clj minus files and directories
 RewriteBase /
-#RewriteRule ^index\.clj$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-# ensures canonical paths are used
-#RewriteCond %{REQUEST_URI} /(.+)$
-RewriteRule ^ /index.clj [L]
+RewriteRule ^(.*)$ /index.clj [L]
 
 RewriteCond %{REQUEST_URI} "/en/"
 RewriteRule ^ /index.clj [L]
+
+RewriteRule ^/?bb.edn$ - [F,L]
+RewriteRule ^/?.gitignore$ - [F,L]
+RewriteRule ^/?.gitmodules$ - [F,L]
+RewriteRule ^/?.htaccess$ - [F,L]
+RewriteRule ^/?.nrepl-port$ - [F,L]
+RewriteRule ^/?package.json$ - [F,L]
+RewriteRule ^/?package-lock.json$ - [F,L]
+RewriteRule ^/?Readme.org$ - [F,L]
+RewriteRule ^/?shadow-cljs.edn$ - [F,L]
+RewriteRule ^/?user.clj$ - [F,L]
 
 
 #RewriteCond %{REQUEST_URI} /(.+)$
