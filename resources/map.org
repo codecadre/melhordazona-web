@@ -1,5 +1,26 @@
 * 3rd iteration - after release
 
+** TODO sort these
+          "dependencies": {
+-        "leaflet": "^1.7.1",
+-        "puppeteer": "^13.6.0"
++        "leaflet": "^1.7.1"
+       },
+       "devDependencies": {
+         "shadow-cljs": "^2.17.8"
+       }
+** TODO final styling rounds
+*** TODO box-shadow issues and bring back the div separator
+*** TODO rounding of theory N exam
+*** TODO School page svg goes on top of the other when reducing window size
+*** TODO NO IMT listing fixes
+*** TODO bring the home footer up
+*** TODO listing page bottom padding
+*** TODO change opacity of no coords
+*** DONE Ribbon
+    :LOGBOOK:
+    CLOCK: [2022-06-04 Sat 10:12]--[2022-06-04 Sat 10:36] =>  0:24
+    :END:
 ** TODO link no-coord to faq when written
 ** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 ** TODO robots.txt
@@ -30,16 +51,6 @@
 ** TODO translate about
 * 2 iteration
 
-** sort these
-          "dependencies": {
--        "leaflet": "^1.7.1",
--        "puppeteer": "^13.6.0"
-+        "leaflet": "^1.7.1"
-       },
-       "devDependencies": {
-         "shadow-cljs": "^2.17.8"
-       }
-
 ** DONE favicon
    :LOGBOOK:
    CLOCK: [2022-06-03 Fri 21:00]--[2022-06-03 Fri 21:14] =>  0:14
@@ -48,19 +59,8 @@
    these show up in th elisting page but not on the map
    perhaps create a listing of these
 ** TODO manually inspect some schools data
-** TODO final styling rounds
-*** TODO box-shadow issues and bring back the div separator
-*** TODO rounding of theory N exam
-*** TODO School page svg goes on top of the other when reducing window size
-*** TODO NO IMT listing fixes
-*** TODO bring the home footer up
-*** TODO listing page bottom padding
-*** TODO change opacity of no coords
-*** DONE Ribbon
-    :LOGBOOK:
-    CLOCK: [2022-06-04 Sat 10:12]--[2022-06-04 Sat 10:36] =>  0:24
-    :END:
-** TODO HTACCESS
+
+** DONE HTACCESS
    Rules for htaccess like: this is visible http://localhost/data/concelho-faro.edn
 
 meh
