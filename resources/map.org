@@ -1,5 +1,8 @@
 * 3rd iteration - after release
 
+** TODO SORT OPEN SOURCE REPOS
+** TODO clean up svg label spacing
+** TODO clean TODO
 ** TODO sort these
           "dependencies": {
 -        "leaflet": "^1.7.1",
@@ -49,7 +52,31 @@
 ** TODO school in azambuja shows up in lisbon concelho
 ** TODO location of percentage looks weird (maybe for third release)
 ** TODO translate about
-* 2 iteration
+
+* DONE 2 iteration
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2022-06-04 Sat 18:40]
+| Headline                                    | Time       |          |
+|---------------------------------------------+------------+----------|
+| *Total time*                                | *3d 10:54* |          |
+|---------------------------------------------+------------+----------|
+| 2 iteration                                 | 3d 10:54   |          |
+| \_  favicon                                 |            |     0:14 |
+| \_  droping schools like lombos form the... |            |     0:42 |
+| \_  license                                 |            |     0:23 |
+| \_  listing of schools with no address      |            |     0:42 |
+| \_  Data issues                             |            | 1d 22:24 |
+| \_  styling remarks (Pairing with Giulia)   |            |     7:46 |
+| \_  index page multilang support            |            |     2:58 |
+| \_  COPY, page generator and pages (3 days) |            |     3:05 |
+| \_  color palette                           |            |     2:46 |
+| \_  footer style                            |            |     0:17 |
+| \_  school listing fixes                    |            |    14:44 |
+| \_  bits and bobs style fixes               |            |     0:09 |
+| \_  underline only current page             |            |     0:07 |
+| \_  expand search in mobile                 |            |     0:55 |
+| \_  back button functionality in mobile     |            |     1:42 |
+#+END:
 
 ** DONE favicon
    :LOGBOOK:
@@ -58,7 +85,7 @@
 ** DONE what about schools with no coord
    these show up in th elisting page but not on the map
    perhaps create a listing of these
-** TODO manually inspect some schools data
+** DONE manually inspect some schools data
 
 ** DONE HTACCESS
    Rules for htaccess like: this is visible http://localhost/data/concelho-faro.edn

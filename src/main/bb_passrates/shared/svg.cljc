@@ -1,5 +1,6 @@
 (ns bb-passrates.shared.svg
-  (:require [bb-passrates.shared.copy :refer [copy]]))
+  (:require [bb-passrates.shared.copy :refer [copy]]
+            [clojure.math :refer [round]]))
 
 (def debug false)
 
@@ -26,14 +27,14 @@
                 zero-rate? (when r (zero? r))
                 bar-length (cond nil_rate? bar-length-nominal
                                  zero-rate? 1
-                                 :else (int (* bar-length-nominal r)))
+                                 :else (round (* bar-length-nominal r)))
                 rating-label-x (cond
                                  nil_rate? 5 #_(- bar-length 35)
                                  zero-rate? (+ bar-length 5)
                                  :else (- bar-length 25))
                 bar-label (if nil_rate?
                             (copy [:no-data lang])
-                            (format "%s%s" (int (* 100 r)) "%"))
+                            (format "%s%s" (round (* 100 r)) "%"))
                 y (* (inc idx) row-h)]
             (into acc
                   [[:g (merge {:transform (format "translate(0,%s)" y)})
