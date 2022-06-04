@@ -78,6 +78,7 @@
 (defn header-c [{:keys [lang uri] :as req}]
   (let [pt? (= :pt lang)]
     [:header
+     [:div.ribbon (copy [:ribbon lang])]
      [:div.container
       [:div.row
        [:div.column.one-half
