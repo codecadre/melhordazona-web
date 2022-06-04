@@ -24,13 +24,13 @@ Caso saibas o nome da escola, podes pesquisar directamente também.
 
 #### Origem dos dados
 
-Os dados apresentados são referentes aos exames de 2015 a 2020, contabilizando todas as categorias (condução, mota, etc) e apenas passagens à primeira. A taxa de aprovação é o número de exames aprovados, em relação ao número de exames realizados.
+Os dados apresentados são referentes aos exames de 2015 a 2020, contabilizando todas as categorias (condução, mota, etc.) e apenas passagens à primeira. A taxa de aprovação é o número de exames aprovados, em relação ao número de exames realizados.
 
-Está previsto no [decreto lei n.º 14/2014, de 18 de março](https://www.imt-ip.pt/sites/imtt/portugues/ensinoconducao/indicadoresdesempenho_escolasconducao/Paginas/IndicadoresdeDesempenho_EscolasdeConducao.aspx) que o IMT publique regularmente as taxas de aprovação dos exames de condução, agregados por escola de condução. Desde uma primeira publicação em 2015, estes dados deixaram de ser actualizados, apesar de [pedidos de acesso a dados públicos](https://www.flaviosousa.co/pedido-accesso-dados-publicos/) e a uma queixa ao provedor de justiça.
+Está previsto no [decreto-lei n.º 14/2014, de 18 de março](https://www.imt-ip.pt/sites/imtt/portugues/ensinoconducao/indicadoresdesempenho_escolasconducao/Paginas/IndicadoresdeDesempenho_EscolasdeConducao.aspx) que o IMT publique regularmente as taxas de aprovação dos exames de condução, agregados por escola de condução. Desde uma primeira publicação em 2015, estes dados deixaram de ser actualizados, apesar de [pedidos de acesso a dados públicos](https://www.flaviosousa.co/pedido-accesso-dados-publicos/) e a uma queixa ao provedor de justiça.
 
 Durante o ano de 2021, estes dados foram finalmente publicados, permitindo agora iniciativas como esta.
 
-Os dados referem-se às aprovações à primeira, agregados por escola, no total de todas as categorias (condução, carta de mota, etc)
+Os dados referem-se às aprovações à primeira, agregados por escola, no total de todas as categorias (condução, carta de mota, etc.)
 
 #### Open Source
 
@@ -40,10 +40,10 @@ Por uma questão de transparência e reproducibilidade, publicamos o código usa
 
 [Moradas e licensa IMT](https://github.com/codecadre/imt-school-addresses)
 
-De forma a facilitar iniciativas como esta, as taxas de aprovações podem ser importadas num Júpiter Notebook.
+Para facilitar iniciativas como esta, as taxas de aprovações podem ser importadas num Júpiter Notebook.
 
 [Demo](https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb)
 
 #### Privacidade e GDPR
 
-O site respeita as normas europeias de privacidade. Não usamos cookies para oferecer uma melhor experiência de navegação e porque na [Codecadre](www.codecadre.ai) não acreditamos que ceder informação pessoal em troca de publicidade segmentada seja um modelo economicamente viável. Os nossos parceiros foram escolhidos com este princípio em mente.
+O site respeita as normas europeias de privacidade. Não usamos cookies para oferecer uma melhor experiência de navegação e, porque na [Codecadre](https://www.codecadre.ai), não acreditamos que ceder informação pessoal em troca de publicidade segmentada seja um modelo economicamente viável. Os nossos parceiros foram escolhidos com este princípio em mente.
