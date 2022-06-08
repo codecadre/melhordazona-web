@@ -38,7 +38,7 @@
       [:p.item "Terms of Service"]
       [:p.item "DPA"]]
      [:div.columns.three [:p.top-level-item (copy [:footer/contact-title lang])]
-      [:p.item (copy [:footer/enquiries lang]) [:a {:href "mailto:mail@codecadre.ai?subject='Pass a Primeira'" :target "_blank"} "mail [at] codecadre [.] com"]]
+      [:p.item (copy [:footer/enquiries lang]) [:a {:href "mailto:passaprimeira@codecadre.ai?subject='Pass a Primeira'" :target "_blank"} "passaprimeira [at] codecadre [.] ai"]]
       [:p.item ""]]
      [:div.columns.five.logo-column
       [:div.logo-div
