@@ -75,6 +75,9 @@
                            :search-field (apply str (interpose " " (clean-strings name)))
                            :href (str "/escolas/" k)))) db)])))
 
+;;
+;; Populate places.cljc
+;;
 (defn build-places-ns [l]
  (apply str ["(ns bb-passrates.shared.places)\n\n"
 
@@ -86,6 +89,40 @@
                        pprint/pprint
                        with-out-str)]
   (doall (spit f (build-places-ns d-as-string))))
+
+;;
+;; Populate sitemap
+;;
+
+(def domain "https://passaprimeira.xyz")
+
+(def sitemap
+  (flatten
+   [domain
+    (map #(str domain %)
+         '("/en/"
+           "/paginas/acerca/"
+           "/escola-sem-morada-imt/"))]))
+
+(defn sitemap-gen [list]
+  (let [school-template (str domain "/escolas/%s/")
+        school-template-en (str domain "/en/schools/%s/")
+        concelho-template (str domain "/concelhos/%s/")
+        concelho-template-en (str domain "/en/municipalities/%s/")]
+    (sort (reduce (fn [acc {:keys [k type]}]
+                    (if (= :school type)
+                      (conj acc
+                            (format school-template (name k))
+                            (format school-template-en (name k)))
+                      (conj acc
+                            (format concelho-template (name k))
+                            (format concelho-template-en (name k))))) sitemap list))))
+
+(spit "sitemap" (apply str (interpose "\n"  (sitemap-gen (names-list)))))
+
+;;
+;; Populate /data/
+;;
 
 (doseq [[concelho schools] (->> db
                                 (group-by #(-> % last :imt-profile :concelho))

@@ -17,7 +17,7 @@
   "https://www.esri.com/en-us/arcgis/products/arcgis-platform/services/geocoding-search")
 
 (defn content [lang {:keys [name concelho] :as imt-profile}]
-  {:title (copy [:meta/title lang])
+  {:title (format (copy [:school/meta-title lang]) name)
    :subtitle (format (copy [:meta/subtitle-school lang]) name (or concelho "sem morada no IMT"))})
 
 (defn school-data [k]

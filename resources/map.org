@@ -16,9 +16,26 @@
 ** TODO clean up no imt page list
 
 
-** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
-** TODO robots.txt
-** TODO progressive web apps
+
+** TODO SEO & PWA
+*** DONE bit of research
+    :LOGBOOK:
+    CLOCK: [2022-06-15 Wed 14:43]--[2022-06-15 Wed 15:41] =>  0:58
+    :END:
+
+*** DONE Title and subtitle
+   :LOGBOOK:
+   CLOCK: [2022-06-15 Wed 16:25]--[2022-06-15 Wed 17:00] =>  0:35
+   CLOCK: [2022-06-15 Wed 15:42]--[2022-06-15 Wed 16:11] =>  0:29
+   :END:
+
+*** DONE sitemap
+
+*** TODO robots.txt
+
+*** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
+*** TODO progressive web apps
+*** TODO lang metatag
 
 ** DONE data issue: Figueiro dos vinhos
    :LOGBOOK:
@@ -32,6 +49,8 @@
 ** DONE SORT OPEN SOURCE REPOS
 
 ** TODO yak shaving
+*** TODO deprecate href in places
+      :href "/escolas/5-estrelas-01404"
 *** TODO clean TODO
 *** TODO sort these
           "dependencies": {
@@ -83,8 +102,6 @@
 ** TODO school in azambuja shows up in lisbon concelho
 
 ** TODO link no-coord to faq when written
-
-
 
 ** TODO cleanup address from the source
 

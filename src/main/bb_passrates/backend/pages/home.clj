@@ -5,8 +5,8 @@
             [bb-passrates.shared.copy :refer [copy]]))
 
 (defn content [lang]
-  {:title (copy [:meta/title lang])
-   :subtitle (copy [:meta/subtitle lang])})
+  {:title (copy [:home/meta-title lang])
+   :subtitle (copy [:home/meta-subtitle lang])})
 
 (defn autocomplete [lang]
   [:div.search-wrapper

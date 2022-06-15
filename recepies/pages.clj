@@ -17,8 +17,8 @@
 (require '[markdown.core :as md])
 
 (def pages
-  {:acerca {:title "Passa à Primeira - Acerca"
-            :subtitle "Passa à Primeira - Acerca"
+  {:acerca {:title "Acerca deste projecto | Passa à Primeira"
+            :subtitle "Passa à Primeira - Dados públicos com acessibilidade gratuita e foco na privacidade do utilizador. Realizado por Flávio Sousa para Codecadre."
             :lang :pt
             :uri "/paginas/acerca/"}
    :faq-pt {:title "Passa a Primeira FAQ"
