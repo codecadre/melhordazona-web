@@ -110,8 +110,13 @@
    ;; meta
    ;;
 
-   :meta/title {:pt "Passa à Primeira"
-                :en "Passa à Primeira"}
+   :home/meta-title {:pt "Pesquisa: Escolas de condução por Concelho | Passa à Primeira"
+                     :en "Search: Driving schools in Portugal | Passa à Primeira"}
+   :home/meta-subtitle {:en "Government pass rates for driving schools across Portugal. Official government data from 2015-2020."
+                        :pt "Taxas de aprovação oficiais do IMT para as escolas de condução de todo o país. Dados de 2015-2020."}
+   ;;TODO: deprecate
+   :meta/title {:pt "Pesquisa: Escolas de condução por Concelho | Passa à Primeira"
+                :en "Search: Driving schools by location | Passa à Primeira"}
    :meta/subtitle {:en "Driving school Pass-Rates in Portugal based on government data."
                    :pt "O teu guia (não) oficial para as taxas de aprovação do IMT"}
    :meta/subtitle-list {:pt
