@@ -18,6 +18,7 @@
          :en "Post Code"}
    :ribbon {:pt "Dados 2015-2020"
             :en "2015-2020 Data"}
+   :project {:pt "Projecto" :en "Project"}
    ;;
    ;; autocomplete
    ;;

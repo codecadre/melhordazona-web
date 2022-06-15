@@ -1,5 +1,25 @@
 * 3rd iteration - after release
 
+** DONE Link Open source in the footer
+
+*** merge page branch
+    :LOGBOOK:
+    CLOCK: [2022-06-15 Wed 10:23]--[2022-06-15 Wed 10:30] =>  0:07
+    :END:
+
+*** add link
+    :LOGBOOK:
+    CLOCK: [2022-06-15 Wed 10:30]--[2022-06-15 Wed 10:38] =>  0:08
+    :END:
+
+
+** TODO clean up no imt page list
+
+
+** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
+** TODO robots.txt
+** TODO progressive web apps
+
 ** DONE data issue: Figueiro dos vinhos
    :LOGBOOK:
    CLOCK: [2022-06-14 Tue 15:59]--[2022-06-14 Tue 16:24] =>  0:25
@@ -10,10 +30,10 @@
    https://passaprimeira.xyz/concelhos/figueiro-dos-vinhos
 ** DONE URGENT fiz email in contacts
 ** DONE SORT OPEN SOURCE REPOS
-** TODO Link Open source in the footer
-** TODO clean up svg label spacing
-** TODO clean TODO
-** TODO sort these
+
+** TODO yak shaving
+*** TODO clean TODO
+*** TODO sort these
           "dependencies": {
 -        "leaflet": "^1.7.1",
 -        "puppeteer": "^13.6.0"
@@ -23,6 +43,8 @@
          "shadow-cljs": "^2.17.8"
        }
 ** TODO final styling rounds
+*** TODO location of percentage looks weird (maybe for third release)
+*** TODO clean up svg label spacing
 *** TODO box-shadow issues and bring back the div separator
 *** TODO rounding of theory N exam
 *** TODO School page svg goes on top of the other when reducing window size
@@ -34,11 +56,9 @@
     :LOGBOOK:
     CLOCK: [2022-06-04 Sat 10:12]--[2022-06-04 Sat 10:36] =>  0:24
     :END:
-** TODO link no-coord to faq when written
-** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
-** TODO robots.txt
-** TODO cleanup address from the source
+
 ** TODO COPY
+*** TODO translate about
 *** TODO What Can we infer by the data
 *** TODO methodology
     :LOGBOOK:
@@ -59,9 +79,15 @@
 
 *** TODO tech blog on babashka?
 
+
 ** TODO school in azambuja shows up in lisbon concelho
-** TODO location of percentage looks weird (maybe for third release)
-** TODO translate about
+
+** TODO link no-coord to faq when written
+
+
+
+** TODO cleanup address from the source
+
 
 * DONE 2 iteration
 #+BEGIN: clocktable :scope subtree :maxlevel 2

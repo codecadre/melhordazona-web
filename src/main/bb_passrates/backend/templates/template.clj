@@ -27,6 +27,10 @@
          [:a {:href "https://www.codecadre.ai/" } "Codecadre"]
          [:span sub-3]])]]
     [:div.row.footer-bottom-row
+     [:div.columns.two
+      [:p.top-level-item (copy [:project lang])]
+      [:p.item [:a {:href "https://github.com/codecadre"} "Open Source"]]
+      #_[:p.item "About"]]
      (when (= :pt lang)
        [:div.columns.two
         [:p.top-level-item "Escolas"]
