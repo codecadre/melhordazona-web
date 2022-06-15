@@ -118,7 +118,7 @@
                             (format concelho-template (name k))
                             (format concelho-template-en (name k))))) sitemap list))))
 
-(spit "sitemap" (apply str (interpose "\n"  (sitemap-gen (names-list)))))
+(spit "sitemap.txt" (apply str (interpose "\n"  (sitemap-gen (names-list)))))
 
 ;;
 ;; Populate /data/
