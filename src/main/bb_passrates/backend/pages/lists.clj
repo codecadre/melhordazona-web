@@ -22,8 +22,8 @@
     (get-place-list type city)
     (catch Exception e '())))
 
-(defn content [lang place]
-  {:title (copy [:meta/title lang])
+(defn content [lang place n]
+  {:title (format (copy [:list/meta-title lang]) n place)
    :subtitle (format (copy [:meta/subtitle-list lang]) (k->human place))})
 
 
@@ -106,7 +106,7 @@
                                   [:div.list]))]
     [:html
      (tmp/header
-      (merge (content lang concelho) req)
+      (merge (content lang concelho (count place-list)) req)
       [:main
        [:div.container
         [:h2 (format (copy [:list/h1 lang]) human)]
