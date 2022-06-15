@@ -58,7 +58,7 @@
                         :name %
                         :search-field (apply str (interpose " " (clean-strings %)))
                         :href (str "/concelhos/" (string->keywordize %))) concelhos)
-                 (map #(hash-map
+                 #_(map #(hash-map
                         :k (keyword "distrito" (string->keywordize %))
                         :type :distrito
                         :name %
@@ -94,6 +94,12 @@
                                                                   (clean-strings concelho)))))
         data-string (with-out-str (pprint/pprint schools))]
     (spit f data-string)))
+
+(let [d (->> db
+             (filter #(-> % last :imt-profile nil?)))
+      f "./data/concelho-nil.edn"
+      data-string (with-out-str (pprint/pprint d))]
+  (spit f data-string))
 
 (doseq [[distrito schools] (->> db
                                 (group-by #(-> % last :imt-profile :distrito))

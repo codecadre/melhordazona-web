@@ -21,12 +21,9 @@
    :page (not-found/page)})
 
 
-(defn cities-handler [req]
-  (let [schools (lists/school-list "city" (:city req))]
-    (if (empty? schools)
-      resp-404
-      {:page (lists/page req schools)
-       :header html-header})))
+(defn no-imt-profile-handler [req]
+  {:page (lists/no-imt-profile req)
+   :header html-header})
 
 (defn concelho-handler [req]
   (let [schools (lists/school-list :concelho (:concelho req))]
@@ -66,7 +63,10 @@
            [:get []] (home-handler req)
            [:get ["en"]] (home-handler req)
            [:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
+           [:get ["en" "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho))
            [:get ["escolas" escola]] (escola-handler (assoc req :school escola))
+           [:get ["en" "schools" escola]] (escola-handler (assoc req :school escola))
+           [:get ["escola-sem-morada-imt"]] (no-imt-profile-handler req)
            ;;district has data issues
            #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
            :else {:page (not-found/page)

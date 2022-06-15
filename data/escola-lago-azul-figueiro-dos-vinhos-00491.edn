@@ -12,7 +12,7 @@
    :r/d-rate 0.5789,
    :r/t-scheduled 36.0,
    :r/k "lago-azul-figueiro-dos-vinhos-00491",
-   :r/total-passed 56.9968,
+   :r/total-passed 57.0,
    :r/t-done 35.0}
   {:r/nec 491,
    :r/level-0 "2016",
@@ -26,7 +26,7 @@
    :r/d-rate 0.6327,
    :r/t-scheduled 26.0,
    :r/k "lago-azul-figueiro-dos-vinhos-00491",
-   :r/total-passed 52.0023,
+   :r/total-passed 52.0,
    :r/t-done 25.0}
   {:r/nec 491,
    :r/level-0 "2017",
@@ -40,7 +40,7 @@
    :r/d-rate 0.807,
    :r/t-scheduled 33.0,
    :r/k "lago-azul-figueiro-dos-vinhos-00491",
-   :r/total-passed 71.0006,
+   :r/total-passed 71.0,
    :r/t-done 32.0}
   {:r/nec 491,
    :r/level-0 "2018",
@@ -54,7 +54,7 @@
    :r/d-rate 0.6452,
    :r/t-scheduled 39.0,
    :r/k "lago-azul-figueiro-dos-vinhos-00491",
-   :r/total-passed 69.003,
+   :r/total-passed 69.0,
    :r/t-done 37.0}
   {:r/nec 491,
    :r/level-0 "2019",
@@ -68,7 +68,7 @@
    :r/d-rate 0.6949,
    :r/t-scheduled 63.0,
    :r/k "lago-azul-figueiro-dos-vinhos-00491",
-   :r/total-passed 74.0001,
+   :r/total-passed 74.0,
    :r/t-done 61.0}
   {:r/nec 491,
    :r/level-0 "2020",
@@ -82,25 +82,25 @@
    :r/d-rate 0.6912,
    :r/t-scheduled 32.0,
    :r/k "lago-azul-figueiro-dos-vinhos-00491",
-   :r/total-passed 69.0006,
+   :r/total-passed 69.0,
    :r/t-done 30.0}],
  :imt-profile
  {:address
-  "Avª Francisco Sá Carneiro s/n º 3620-400 FIGUEIRÓ DOS VINHOS",
+  "Avª Francisco Sá Carneiro s/n º 3260-400 FIGUEIRÓ DOS VINHOS",
   :name "Lago Azul –Figueiró dos Vinhos",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LagoAzul%e2%80%93FigueirodosVinhos588.aspx",
   :concelho "Figueiró dos Vinhos",
   :nec 491,
-  :cp7 "3620-400",
+  :cp7 "3260-400",
   :id #uuid "9fe69aed-282b-34af-b905-1a113d6445a0",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Figueir%C3%B3%20dos%20Vinhos"},
  :geocode
- {:cp7 "3620-400",
-  :postal-c "3620-400",
-  :x -7.595065006797711,
-  :y 41.03911499541212,
+ {:cp7 "3260-400",
+  :postal-c "3260-400",
+  :x -8.27527170454863,
+  :y 39.90660035047057,
   :score 100,
   :c 1}}

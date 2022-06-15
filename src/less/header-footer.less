@@ -1,6 +1,7 @@
 @import "skeleton.less";
 
 header {
+    position: relative;
     margin-bottom: 30px;
     padding: 30px 0;
 
@@ -98,6 +99,18 @@ footer .logo-column{
     }
 }
 
+.ribbon {
+    position: absolute;
+    right: 0;
+    background-color: @colour-2;
+    padding: 0px 33px;
+    z-index: 999999999;
+    box-shadow: 0px 5px 4px 0px #00000057;
+    color: @off-white;
+    top:50%;
+    padding-top: 3px;
+}
+
 @media (min-width: @bp-larger-than-phablet){
     footer {
         .logo-div {
@@ -105,4 +118,16 @@ footer .logo-column{
         }
     }
 
+    .ribbon {
+        transform: translate(-45px, 15px) rotate(-45deg);
+        position: absolute;
+        right: initial;
+        top: initial;
+        left: 0;
+        background-color: @colour-2;
+        padding: 0px 33px;
+        z-index: 999999999;
+        box-shadow: 0px 5px 4px 0px #00000057;
+        color: @off-white;
+    }
 }

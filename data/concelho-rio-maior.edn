@@ -13,7 +13,7 @@
      :r/d-rate 0.6635,
      :r/t-scheduled 161.0,
      :r/k "riomaiorense-00144",
-     :r/total-passed 274.0144,
+     :r/total-passed 274.0,
      :r/t-done 158.0}
     {:r/nec 144,
      :r/level-0 "2016",
@@ -27,7 +27,7 @@
      :r/d-rate 0.7284,
      :r/t-scheduled 177.0,
      :r/k "riomaiorense-00144",
-     :r/total-passed 312.9912,
+     :r/total-passed 313.0,
      :r/t-done 174.0}
     {:r/nec 144,
      :r/level-0 "2017",
@@ -41,7 +41,7 @@
      :r/d-rate 0.7429,
      :r/t-scheduled 150.0,
      :r/k "riomaiorense-00144",
-     :r/total-passed 280.013,
+     :r/total-passed 280.0,
      :r/t-done 145.0}
     {:r/nec 144,
      :r/level-0 "2018",
@@ -55,7 +55,7 @@
      :r/d-rate 0.7527,
      :r/t-scheduled 164.0,
      :r/k "riomaiorense-00144",
-     :r/total-passed 270.9966,
+     :r/total-passed 271.0,
      :r/t-done 159.0}
     {:r/nec 144,
      :r/level-0 "2019",
@@ -69,7 +69,7 @@
      :r/d-rate 0.8122,
      :r/t-scheduled 175.0,
      :r/k "riomaiorense-00144",
-     :r/total-passed 286.0024,
+     :r/total-passed 286.0,
      :r/t-done 163.0}
     {:r/nec 144,
      :r/level-0 "2020",
@@ -83,7 +83,7 @@
      :r/d-rate 0.6957,
      :r/t-scheduled 178.0,
      :r/k "riomaiorense-00144",
-     :r/total-passed 246.012,
+     :r/total-passed 246.0,
      :r/t-done 168.0}],
    :imt-profile
    {:address "Rua Ernesto Alves, 23 – 2º 2040-411 RIO MAIOR",
@@ -121,7 +121,7 @@
      :r/d-rate 0.6667,
      :r/t-scheduled 126.0,
      :r/k "via-maior-01061",
-     :r/total-passed 157.0026,
+     :r/total-passed 157.0,
      :r/t-done 126.0}
     {:r/nec 1061,
      :r/level-0 "2016",
@@ -135,7 +135,7 @@
      :r/d-rate 0.6281,
      :r/t-scheduled 113.0,
      :r/k "via-maior-01061",
-     :r/total-passed 162.0044,
+     :r/total-passed 162.0,
      :r/t-done 113.0}
     {:r/nec 1061,
      :r/level-0 "2017",
@@ -149,7 +149,7 @@
      :r/d-rate 0.7881,
      :r/t-scheduled 121.0,
      :r/k "via-maior-01061",
-     :r/total-passed 171.9968,
+     :r/total-passed 172.0,
      :r/t-done 118.0}
     {:r/nec 1061,
      :r/level-0 "2018",
@@ -163,7 +163,7 @@
      :r/d-rate 0.6937,
      :r/t-scheduled 124.0,
      :r/k "via-maior-01061",
-     :r/total-passed 155.0007,
+     :r/total-passed 155.0,
      :r/t-done 120.0}
     {:r/nec 1061,
      :r/level-0 "2019",
@@ -177,7 +177,7 @@
      :r/d-rate 0.678,
      :r/t-scheduled 155.0,
      :r/k "via-maior-01061",
-     :r/total-passed 221.0069,
+     :r/total-passed 221.0,
      :r/t-done 143.0}
     {:r/nec 1061,
      :r/level-0 "2020",
@@ -191,7 +191,7 @@
      :r/d-rate 0.7451,
      :r/t-scheduled 85.0,
      :r/k "via-maior-01061",
-     :r/total-passed 82.9995,
+     :r/total-passed 83.0,
      :r/t-done 74.0}],
    :imt-profile
    {:address
@@ -228,7 +228,7 @@
      :r/d-rate 0.5185,
      :r/t-scheduled 21.0,
      :r/k "torre-da-marinha-01324",
-     :r/total-passed 25.9989,
+     :r/total-passed 26.0,
      :r/t-done 21.0}
     {:r/nec 1324,
      :r/level-0 "2017",
@@ -239,21 +239,21 @@
      :r/total-scheduled 1,
      :r/name-raw "ESCOLA DE CONDUÇÃO TORRE DA MARINHA",
      :r/total-done 1,
-     :r/d-rate 1.0,
+     :r/d-rate nil,
      :r/t-scheduled 1.0,
      :r/k "torre-da-marinha-01324",
      :r/total-passed 1.0,
      :r/t-done 1.0}
     {:r/nec 1324,
      :r/level-0 "2019",
-     :r/d-scheduled 0,
+     :r/d-scheduled nil,
      :r/t-rate 0.6,
      :r/total-rate 0.6,
      :r/d-done 0,
      :r/total-scheduled 5,
      :r/name-raw "ESCOLA DE CONDUÇÃO TORRE DA MARINHA",
      :r/total-done 5,
-     :r/d-rate 1.0,
+     :r/d-rate nil,
      :r/t-scheduled 5.0,
      :r/k "torre-da-marinha-01324",
      :r/total-passed 3.0,
@@ -270,7 +270,7 @@
      :r/d-rate 0.6471,
      :r/t-scheduled 42.0,
      :r/k "torre-da-marinha-01324",
-     :r/total-passed 36.9988,
+     :r/total-passed 37.0,
      :r/t-done 41.0}],
    :imt-profile
    {:address "Rua das Taipas, n.º 9, 2040-339 RIO MAIOR",
@@ -306,7 +306,7 @@
      :r/d-rate 0.75,
      :r/t-scheduled 9.0,
      :r/k "gato-preto-01360",
-     :r/total-passed 11.0001,
+     :r/total-passed 11.0,
      :r/t-done 9.0}
     {:r/nec 1360,
      :r/level-0 "2017",
@@ -320,7 +320,7 @@
      :r/d-rate 0.6353,
      :r/t-scheduled 99.0,
      :r/k "gato-preto-01360",
-     :r/total-passed 123.0023,
+     :r/total-passed 123.0,
      :r/t-done 98.0}
     {:r/nec 1360,
      :r/level-0 "2018",
@@ -334,7 +334,7 @@
      :r/d-rate 0.5971,
      :r/t-scheduled 126.0,
      :r/k "gato-preto-01360",
-     :r/total-passed 158.0023,
+     :r/total-passed 158.0,
      :r/t-done 123.0}
     {:r/nec 1360,
      :r/level-0 "2019",
@@ -348,7 +348,7 @@
      :r/d-rate 0.5752,
      :r/t-scheduled 169.0,
      :r/k "gato-preto-01360",
-     :r/total-passed 190.0008,
+     :r/total-passed 190.0,
      :r/t-done 162.0}
     {:r/nec 1360,
      :r/level-0 "2020",
@@ -362,7 +362,7 @@
      :r/d-rate 0.6332,
      :r/t-scheduled 208.0,
      :r/k "gato-preto-01360",
-     :r/total-passed 253.9983,
+     :r/total-passed 254.0,
      :r/t-done 203.0}],
    :imt-profile
    {:address "Largo do Gato Preto, n.º2, 2040-212 RIO MAIOR",

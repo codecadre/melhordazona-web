@@ -600,6 +600,9 @@ there.
 .ratings .bar {
   fill: #fbd5a3;
 }
+.ratings .grey-bar {
+  fill: #e2dfe2;
+}
 .ratings svg {
   font-size: 1rem;
   height: 12rem;
@@ -615,6 +618,9 @@ there.
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper .bar {
   fill: #fbd5a3;
+}
+.leaflet-popup-content-wrapper .pop-up-wrapper .grey-bar {
+  fill: #e2dfe2;
 }
 .leaflet-popup-content-wrapper .pop-up-wrapper .name {
   font-weight: bold;
@@ -669,6 +675,7 @@ there.
   }
 }
 header {
+  position: relative;
   margin-bottom: 30px;
   padding: 30px 0;
 }
@@ -743,9 +750,32 @@ footer .logo-column .limited {
 footer .logo-column .logo-div {
   max-width: 20rem;
 }
+.ribbon {
+  position: absolute;
+  right: 0;
+  background-color: #d05353;
+  padding: 0px 33px;
+  z-index: 999999999;
+  box-shadow: 0px 5px 4px 0px #00000057;
+  color: #f2efe9;
+  top: 50%;
+  padding-top: 3px;
+}
 @media (min-width: 550px) {
   footer .logo-div {
     float: right;
+  }
+  .ribbon {
+    transform: translate(-45px, 15px) rotate(-45deg);
+    position: absolute;
+    right: initial;
+    top: initial;
+    left: 0;
+    background-color: #d05353;
+    padding: 0px 33px;
+    z-index: 999999999;
+    box-shadow: 0px 5px 4px 0px #00000057;
+    color: #f2efe9;
   }
 }
 .cta {
@@ -825,6 +855,8 @@ footer .logo-column .logo-div {
   text-decoration: none;
   color: #151315;
   font-weight: bold;
+  width: 100%;
+  display: inline-block;
 }
 .search-input.active .autocomplete-box li .suggestion-type {
   color: #b2a9b2;
@@ -898,6 +930,9 @@ footer .logo-column .logo-div {
 .solo-school .driving .bar {
   fill: #fbd5a3;
 }
+.solo-school .grey-bar {
+  fill: #e2dfe2;
+}
 .solo-school .theory .bar {
   fill: #29aae3;
 }
@@ -917,6 +952,31 @@ footer .logo-column .logo-div {
   .solo-school svg {
     height: 20rem;
   }
+}
+.no-coord {
+  color: #d05353;
+}
+.pages p {
+  font-size: 2rem;
+}
+.pages blockquote {
+  font-style: italic;
+  opacity: 0.5;
+}
+.pages table,
+.pages img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pages img {
+  max-width: 70%;
+}
+.pages .quote-ref {
+  text-align: right;
+}
+.pages li {
+  font-size: 2rem;
 }
 * {
   -webkit-overflow-scrolling: touch;
@@ -987,4 +1047,8 @@ body {
   .ver-mais {
     font-size: 1.2rem;
   }
+}
+sup.strong {
+  font-weight: bold;
+  font-size: 1.05rem;
 }

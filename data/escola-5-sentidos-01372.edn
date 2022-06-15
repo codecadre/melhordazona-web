@@ -3,7 +3,7 @@
  [{:r/nec 1372,
    :r/level-0 "2016",
    :r/d-scheduled 2,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 1,
    :r/total-scheduled 2,
@@ -26,7 +26,7 @@
    :r/d-rate 0.4563,
    :r/t-scheduled 129.0,
    :r/k "5-sentidos-01372",
-   :r/total-passed 142.0005,
+   :r/total-passed 142.0,
    :r/t-done 128.0}
   {:r/nec 1372,
    :r/level-0 "2018",
@@ -40,7 +40,7 @@
    :r/d-rate 0.5637,
    :r/t-scheduled 187.0,
    :r/k "5-sentidos-01372",
-   :r/total-passed 246.999,
+   :r/total-passed 247.0,
    :r/t-done 186.0}
   {:r/nec 1372,
    :r/level-0 "2019",
@@ -54,7 +54,7 @@
    :r/d-rate 0.564,
    :r/t-scheduled 220.0,
    :r/k "5-sentidos-01372",
-   :r/total-passed 262.0018,
+   :r/total-passed 262.0,
    :r/t-done 209.0}
   {:r/nec 1372,
    :r/level-0 "2020",
@@ -68,6 +68,6 @@
    :r/d-rate 0.5294,
    :r/t-scheduled 171.0,
    :r/k "5-sentidos-01372",
-   :r/total-passed 211.9994,
+   :r/total-passed 212.0,
    :r/t-done 158.0}],
  :imt-profile nil}

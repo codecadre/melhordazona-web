@@ -6,6 +6,8 @@
             [cheshire.core :as json]))
 
 ;;TODO needs to be updated to reflect new directory structure
+;;TODO clean up this file - should be able to run from
+;; bb cp7_map.clj and produce everything it needs
 (def d (-> "./imt-school-addresses-submodule/parsed-data/db.edn" slurp edn/read-string))
 
 (def cp7
@@ -126,7 +128,7 @@
 
 #_(non-stored-address :address id->address)
 
-#_(let [d (doall (non-stored-address :address id->address))
+(let [d (doall (non-stored-address :address id->address))
       f "recepies/address-geocode"
       ks '(:address :address-c :postal-c :c :score :x :y :id)]
   (spit (str f ".txt") (with-out-str (pprint/print-table ks d)))
@@ -149,7 +151,7 @@
                         :c (count candidates)})))
     (sort #(compare (:score %2) (:score %1)) @a)))
 
-#_(let [d (doall (non-stored-postal cp7))
+(let [d (doall (non-stored-postal cp7))
       f "recepies/cp7"
       ks '(:cp7 :postal-c :c :score :x :y)]
   (spit (str f ".txt") (with-out-str (pprint/print-table ks d)))

@@ -9,10 +9,10 @@
    :r/total-scheduled 7,
    :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DO BOMBARRAL",
    :r/total-done 7,
-   :r/d-rate 1.0,
+   :r/d-rate nil,
    :r/t-scheduled 7.0,
    :r/k "nova-do-bombarral-01357",
-   :r/total-passed 5.9997,
+   :r/total-passed 6.0,
    :r/t-done 7.0}
   {:r/nec 1357,
    :r/level-0 "2017",
@@ -26,7 +26,7 @@
    :r/d-rate 0.4634,
    :r/t-scheduled 76.0,
    :r/k "nova-do-bombarral-01357",
-   :r/total-passed 62.9958,
+   :r/total-passed 63.0,
    :r/t-done 76.0}
   {:r/nec 1357,
    :r/level-0 "2018",
@@ -40,7 +40,7 @@
    :r/d-rate 0.5181,
    :r/t-scheduled 74.0,
    :r/k "nova-do-bombarral-01357",
-   :r/total-passed 96.0003,
+   :r/total-passed 96.0,
    :r/t-done 73.0}
   {:r/nec 1357,
    :r/level-0 "2019",
@@ -54,7 +54,7 @@
    :r/d-rate 0.5733,
    :r/t-scheduled 49.0,
    :r/k "nova-do-bombarral-01357",
-   :r/total-passed 79.9974,
+   :r/total-passed 80.0,
    :r/t-done 49.0}
   {:r/nec 1357,
    :r/level-0 "2020",
@@ -68,7 +68,7 @@
    :r/d-rate 0.3636,
    :r/t-scheduled 29.0,
    :r/k "nova-do-bombarral-01357",
-   :r/total-passed 26.9984,
+   :r/total-passed 27.0,
    :r/t-done 28.0}],
  :imt-profile
  {:address

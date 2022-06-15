@@ -3,7 +3,7 @@
  [{:r/nec 1410,
    :r/level-0 "2017",
    :r/d-scheduled 10,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 9,
    :r/total-scheduled 10,
@@ -26,7 +26,7 @@
    :r/d-rate 0.619,
    :r/t-scheduled 135.0,
    :r/k "75agv-01410",
-   :r/total-passed 181.9968,
+   :r/total-passed 182.0,
    :r/t-done 132.0}
   {:r/nec 1410,
    :r/level-0 "2019",
@@ -40,7 +40,7 @@
    :r/d-rate 0.5824,
    :r/t-scheduled 207.0,
    :r/k "75agv-01410",
-   :r/total-passed 305.9865,
+   :r/total-passed 306.0,
    :r/t-done 201.0}
   {:r/nec 1410,
    :r/level-0 "2020",
@@ -54,7 +54,7 @@
    :r/d-rate 0.6416,
    :r/t-scheduled 202.0,
    :r/k "75agv-01410",
-   :r/total-passed 324.0062,
+   :r/total-passed 324.0,
    :r/t-done 187.0}],
  :imt-profile
  {:address

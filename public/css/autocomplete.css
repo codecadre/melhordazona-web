@@ -588,6 +588,9 @@ there.
   max-width: 45rem;
   margin-top: 2rem;
   margin-bottom: 20rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media (min-width: 550px) {
   .search-wrapper {
@@ -598,7 +601,6 @@ there.
 .search-wrapper .search-input {
   background: #fff;
   width: 100%;
-  border-radius: 0.5rem;
   position: relative;
   box-shadow: 0 0.1rem 0.5rem 0.3rem rgba(21, 19, 21, 0.12);
 }
@@ -610,7 +612,6 @@ there.
   border-radius: 0.5rem;
   padding: 0 6rem 0 2rem;
   font-size: 1.8rem;
-  box-shadow: 0 0.1rem 0.5rem rgba(21, 19, 21, 0.1);
   margin-bottom: 0;
   border: 0;
 }
@@ -636,7 +637,7 @@ there.
 }
 .autocomplete-box li {
   list-style: none;
-  padding: 0.8rem 0.5em;
+  padding: 0.5rem 6rem 0.5rem 2rem;
   width: 100%;
   cursor: default;
   border-radius: 0rem;
@@ -649,6 +650,8 @@ there.
   text-decoration: none;
   color: #151315;
   font-weight: bold;
+  width: 100%;
+  display: inline-block;
 }
 .search-input.active .autocomplete-box li .suggestion-type {
   color: #b2a9b2;

@@ -1,9 +1,11 @@
-(ns bb-passrates.shared.svg)
+(ns bb-passrates.shared.svg
+  (:require [bb-passrates.shared.copy :refer [copy]]
+            [clojure.math :refer [round]]))
 
 (def debug false)
 
 
-(defn pop-up-svg [d n]
+(defn pop-up-svg [lang d n]
   (let [H 100
         bar-length-nominal 100
         x2 40
@@ -13,23 +15,33 @@
         bar-y (int (* row-h 0.85))
         text-y (int (* row-h 0.6))
         top-level-label [[:g {:transform (format "translate(%s,0)" x2)}
-                          [:text {:dy text-y} "Aprovação"]]
+                          [:text {:dy text-y} (copy [:svg/approval lang])]]
                          [:g {:transform (format "translate(%s,0)" x3)}
-                          [:text {:dy text-y} "N. Exames"]]]]
+                          [:text {:dy text-y} (copy [:svg/n lang])]]]]
     (into
        [:svg (merge {:viewBox (format "0 0 %s %s" W H)} (when debug {:class "border"}))]
 
        (reduce
         (fn [acc [idx label r i]]
-          (let [bar-length (int (* bar-length-nominal r))
-                bar-label (format "%s%s" (int (* 100 r)) "%")
+          (let [nil_rate? (nil? r)
+                zero-rate? (when r (zero? r))
+                bar-length (cond nil_rate? bar-length-nominal
+                                 zero-rate? 1
+                                 :else (round (* bar-length-nominal r)))
+                rating-label-x (cond
+                                 nil_rate? 5 #_(- bar-length 35)
+                                 zero-rate? (+ bar-length 5)
+                                 :else (- bar-length 25))
+                bar-label (if nil_rate?
+                            (copy [:no-data lang])
+                            (format "%s%s" (round (* 100 r)) "%"))
                 y (* (inc idx) row-h)]
             (into acc
                   [[:g (merge {:transform (format "translate(0,%s)" y)})
                     [:text {:dy text-y} label]]
                    [:g (merge {:transform (format "translate(%s,%s)" x2 y)})
-                    [:rect {:class "bar", :width bar-length, :height bar-y}]
-                    [:text {:class "bar-label" :dy text-y :x (- bar-length 28)} bar-label]]
+                    [:rect {:class (if nil_rate? "grey-bar" "bar"), :width bar-length, :height bar-y}]
+                    [:text {:class "bar-label" :dy text-y :x rating-label-x} bar-label]]
                    [:g (merge {:transform (format "translate(%s,%s)" x3 y)})
                     [:text {:dy text-y} i]]])))
         top-level-label d))))

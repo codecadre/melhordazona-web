@@ -27,24 +27,24 @@
          [:a {:href "https://www.codecadre.ai/" } "Codecadre"]
          [:span sub-3]])]]
     [:div.row.footer-bottom-row
-     [:div.columns.two
-      [:p.top-level-item "Project"]
-      [:p.item "FAQ"]
-      [:p.item [:a {:href "/"} "Home"]]
-      [:p.item "About"]]
-     [:div.columns.two
+     (when (= :pt lang)
+       [:div.columns.two
+        [:p.top-level-item "Escolas"]
+        [:p.item [:a {:href "/escola-sem-morada-imt"} "Sem morada"]]
+        #_[:p.item "About"]])
+     #_[:div.columns.two
       [:p.top-level-item "Legal"]
       [:p.item "Privacy Policy"]
       [:p.item "Terms of Service"]
       [:p.item "DPA"]]
-     [:div.columns.three [:p.top-level-item "Contactos"]
-      [:p.item "Direct enquiries to " [:a {:href "mailto:mail@codecadre.ai?subject='Pass a Primeira'" :target "_blank"} "Codecadre email."]]
+     [:div.columns.three [:p.top-level-item (copy [:footer/contact-title lang])]
+      [:p.item (copy [:footer/enquiries lang]) [:a {:href "mailto:passaprimeira@codecadre.ai?subject='Pass a Primeira'" :target "_blank"} "passaprimeira [at] codecadre [.] ai"]]
       [:p.item ""]]
      [:div.columns.five.logo-column
       [:div.logo-div
-       [:p.built-by "Passa à Primeira is a project by:"]
+       [:p.built-by (copy [:footer/by lang])]
        [:div.logo logo]
-       [:p.limited "CODECADRE LTD is a " [:a {:target "_blank" :href "https://find-and-update.company-information.service.gov.uk/company/12134880"} "UK registered company."] ]]]]]])
+       [:p.limited "CODECADRE LTD " [:a {:target "_blank" :href "https://find-and-update.company-information.service.gov.uk/company/12134880"} (copy [:footer/is-a lang])]]]]]]])
 
 
 (def pt->en-map
@@ -59,25 +59,26 @@
   (let [res (get pt->en-map path)]
     (cond
       res res
-      (clj-str/includes? path "escola") (str "/en" (clj-str/replace path "escola" "school"))
-      (clj-str/includes? path "concelho") (str "/en" (clj-str/replace path "concelho" "municipality")))))
+      (clj-str/includes? path "escolas") (str "/en" (clj-str/replace path "escolas" "schools"))
+      (clj-str/includes? path "concelhos") (str "/en" (clj-str/replace path "concelhos" "municipalities")))))
 
 (defn en->pt [path]
   (let [res (get en->pt-map path)]
     (cond
       res res
-      (clj-str/includes? path "school") (-> path
+      (clj-str/includes? path "schools") (-> path
                                             (clj-str/replace "/en" "")
-                                            (clj-str/replace "school" "escola"))
-      (clj-str/includes? path "municipality") (-> path
+                                            (clj-str/replace "schools" "escolas"))
+      (clj-str/includes? path "municipalities") (-> path
                                                   (clj-str/replace "/en" "")
-                                                  (clj-str/replace "municipality" "concelho")))))
+                                                  (clj-str/replace "municipalities" "concelhos")))))
 
 #_(en->pt "/en/school/abc")
 
 (defn header-c [{:keys [lang uri] :as req}]
   (let [pt? (= :pt lang)]
     [:header
+     [:div.ribbon (copy [:ribbon lang])]
      [:div.container
       [:div.row
        [:div.column.one-half
@@ -95,9 +96,9 @@
          [:span "]"]
          [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
           [:a {:href (path->href "/" req)} (copy [:nav/search lang])]]
-         [:div.menu-item [:a {:href (if pt? "/acerca/" "/en/about/")} (copy [:nav/about lang])]]
-         [:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
-         [:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
+         [:div.menu-item [:a {:href "/paginas/acerca/"} (copy [:nav/about lang])]]
+         #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
+         #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
 
 (defn header [{:keys [title subtitle] :as req} main]
   [:head
@@ -115,6 +116,6 @@
    (if local-dev?
      [:script {:src "/target/shadow-builds/public/main/js/main.js"}]
      [:script {:src "/public/js/main.js"}])
-
-   #_[:script {:src "https://plausible.io/js/plausible.js"
-             :async "defer" :data-domain "flaviosousa.co"}]])
+   (when (not local-dev?)
+     [:script {:src "https://plausible.io/js/plausible.js"
+              :async "defer" :data-domain "passaprimeira.xyz"}])])

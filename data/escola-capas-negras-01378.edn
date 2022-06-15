@@ -3,7 +3,7 @@
  [{:r/nec 1378,
    :r/level-0 "2018",
    :r/d-scheduled 5,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 5,
    :r/total-scheduled 5,
@@ -26,7 +26,7 @@
    :r/d-rate 0.5106,
    :r/t-scheduled 79.0,
    :r/k "capas-negras-01378",
-   :r/total-passed 87.9972,
+   :r/total-passed 88.0,
    :r/t-done 78.0}
   {:r/nec 1378,
    :r/level-0 "2020",
@@ -40,7 +40,7 @@
    :r/d-rate 0.6182,
    :r/t-scheduled 140.0,
    :r/k "capas-negras-01378",
-   :r/total-passed 181.9959,
+   :r/total-passed 182.0,
    :r/t-done 139.0}],
  :imt-profile
  {:address

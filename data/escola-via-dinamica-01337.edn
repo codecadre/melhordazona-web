@@ -2,14 +2,14 @@
  :rates
  [{:r/nec 1337,
    :r/level-0 "2015",
-   :r/d-scheduled 0,
+   :r/d-scheduled nil,
    :r/t-rate 1.0,
    :r/total-rate 1.0,
    :r/d-done 0,
    :r/total-scheduled 1,
    :r/name-raw "ESCOLA DE CONDUÇÃO VIA DINÂMICA",
    :r/total-done 1,
-   :r/d-rate 1.0,
+   :r/d-rate nil,
    :r/t-scheduled 1.0,
    :r/k "via-dinamica-01337",
    :r/total-passed 1.0,
@@ -26,7 +26,7 @@
    :r/d-rate 0.6429,
    :r/t-scheduled 41.0,
    :r/k "via-dinamica-01337",
-   :r/total-passed 60.0027,
+   :r/total-passed 60.0,
    :r/t-done 41.0}
   {:r/nec 1337,
    :r/level-0 "2017",
@@ -40,7 +40,7 @@
    :r/d-rate 0.5974,
    :r/t-scheduled 78.0,
    :r/k "via-dinamica-01337",
-   :r/total-passed 99.9999,
+   :r/total-passed 100.0,
    :r/t-done 77.0}
   {:r/nec 1337,
    :r/level-0 "2018",
@@ -54,7 +54,7 @@
    :r/d-rate 0.6412,
    :r/t-scheduled 109.0,
    :r/k "via-dinamica-01337",
-   :r/total-passed 167.9996,
+   :r/total-passed 168.0,
    :r/t-done 108.0}
   {:r/nec 1337,
    :r/level-0 "2019",
@@ -68,7 +68,7 @@
    :r/d-rate 0.6288,
    :r/t-scheduled 97.0,
    :r/k "via-dinamica-01337",
-   :r/total-passed 155.9996,
+   :r/total-passed 156.0,
    :r/t-done 95.0}
   {:r/nec 1337,
    :r/level-0 "2020",
@@ -82,7 +82,7 @@
    :r/d-rate 0.6531,
    :r/t-scheduled 140.0,
    :r/k "via-dinamica-01337",
-   :r/total-passed 191.0052,
+   :r/total-passed 191.0,
    :r/t-done 135.0}],
  :imt-profile
  {:address

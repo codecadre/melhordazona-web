@@ -12,7 +12,7 @@
    :r/d-rate 0.6719,
    :r/t-scheduled 172.0,
    :r/k "varzim-00847",
-   :r/total-passed 208.009,
+   :r/total-passed 208.0,
    :r/t-done 161.0}
   {:r/nec 847,
    :r/level-0 "2016",
@@ -26,7 +26,7 @@
    :r/d-rate 0.7126,
    :r/t-scheduled 126.0,
    :r/k "varzim-00847",
-   :r/total-passed 211.0031,
+   :r/total-passed 211.0,
    :r/t-done 119.0}
   {:r/nec 847,
    :r/level-0 "2017",
@@ -40,12 +40,12 @@
    :r/d-rate 0.7727,
    :r/t-scheduled 108.0,
    :r/k "varzim-00847",
-   :r/total-passed 139.9994,
+   :r/total-passed 140.0,
    :r/t-done 102.0}
   {:r/nec 847,
    :r/level-0 "2018",
    :r/d-scheduled 1,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 1.0,
    :r/d-done 1,
    :r/total-scheduled 1,

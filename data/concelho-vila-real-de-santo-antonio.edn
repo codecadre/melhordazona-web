@@ -14,7 +14,7 @@
      :r/d-rate 0.7879,
      :r/t-scheduled 163.0,
      :r/k "infante-sagresvila-real-de-santo-antonio-00447",
-     :r/total-passed 203.0056,
+     :r/total-passed 203.0,
      :r/t-done 158.0}
     {:r/nec 447,
      :r/level-0 "2016",
@@ -29,7 +29,7 @@
      :r/d-rate 0.789,
      :r/t-scheduled 178.0,
      :r/k "infante-sagresvila-real-de-santo-antonio-00447",
-     :r/total-passed 196.0006,
+     :r/total-passed 196.0,
      :r/t-done 158.0}
     {:r/nec 447,
      :r/level-0 "2017",
@@ -44,7 +44,7 @@
      :r/d-rate 0.8077,
      :r/t-scheduled 143.0,
      :r/k "infante-sagresvila-real-de-santo-antonio-00447",
-     :r/total-passed 196.0062,
+     :r/total-passed 196.0,
      :r/t-done 143.0}
     {:r/nec 447,
      :r/level-0 "2018",
@@ -59,7 +59,7 @@
      :r/d-rate 0.7538,
      :r/t-scheduled 142.0,
      :r/k "infante-sagresvila-real-de-santo-antonio-00447",
-     :r/total-passed 198.9875,
+     :r/total-passed 199.0,
      :r/t-done 135.0}
     {:r/nec 447,
      :r/level-0 "2019",
@@ -74,7 +74,7 @@
      :r/d-rate 0.7273,
      :r/t-scheduled 127.0,
      :r/k "infante-sagresvila-real-de-santo-antonio-00447",
-     :r/total-passed 161.0063,
+     :r/total-passed 161.0,
      :r/t-done 119.0}],
    :imt-profile
    {:address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
@@ -113,7 +113,7 @@
      :r/d-rate 0.8431,
      :r/t-scheduled 64.0,
      :r/k "auto-esperanca-00742",
-     :r/total-passed 81.9951,
+     :r/total-passed 82.0,
      :r/t-done 63.0}
     {:r/nec 742,
      :r/level-0 "2016",
@@ -127,7 +127,7 @@
      :r/d-rate 0.7937,
      :r/t-scheduled 76.0,
      :r/k "auto-esperanca-00742",
-     :r/total-passed 104.0025,
+     :r/total-passed 104.0,
      :r/t-done 69.0}
     {:r/nec 742,
      :r/level-0 "2017",
@@ -141,7 +141,7 @@
      :r/d-rate 0.8,
      :r/t-scheduled 104.0,
      :r/k "auto-esperanca-00742",
-     :r/total-passed 119.0038,
+     :r/total-passed 119.0,
      :r/t-done 102.0}
     {:r/nec 742,
      :r/level-0 "2018",
@@ -155,7 +155,7 @@
      :r/d-rate 0.8421,
      :r/t-scheduled 97.0,
      :r/k "auto-esperanca-00742",
-     :r/total-passed 137.0011,
+     :r/total-passed 137.0,
      :r/t-done 94.0}
     {:r/nec 742,
      :r/level-0 "2019",
@@ -169,7 +169,7 @@
      :r/d-rate 0.7083,
      :r/t-scheduled 85.0,
      :r/k "auto-esperanca-00742",
-     :r/total-passed 102.0011,
+     :r/total-passed 102.0,
      :r/t-done 83.0}
     {:r/nec 742,
      :r/level-0 "2020",
@@ -183,7 +183,7 @@
      :r/d-rate 0.7813,
      :r/t-scheduled 65.0,
      :r/k "auto-esperanca-00742",
-     :r/total-passed 63.0032,
+     :r/total-passed 63.0,
      :r/t-done 63.0}],
    :imt-profile
    {:address
@@ -211,7 +211,7 @@
    [{:r/nec 1395,
      :r/level-0 "2016",
      :r/d-scheduled 1,
-     :r/t-rate 1.0,
+     :r/t-rate nil,
      :r/total-rate 0.0,
      :r/d-done 1,
      :r/total-scheduled 1,
@@ -234,7 +234,7 @@
      :r/d-rate 0.6667,
      :r/t-scheduled 33.0,
      :r/k "monte-gordo-01395",
-     :r/total-passed 38.0005,
+     :r/total-passed 38.0,
      :r/t-done 32.0}
     {:r/nec 1395,
      :r/level-0 "2018",
@@ -248,7 +248,7 @@
      :r/d-rate 0.7589,
      :r/t-scheduled 150.0,
      :r/k "monte-gordo-01395",
-     :r/total-passed 215.0009,
+     :r/total-passed 215.0,
      :r/t-done 145.0}
     {:r/nec 1395,
      :r/level-0 "2019",
@@ -262,7 +262,7 @@
      :r/d-rate 0.7212,
      :r/t-scheduled 215.0,
      :r/k "monte-gordo-01395",
-     :r/total-passed 299.9928,
+     :r/total-passed 300.0,
      :r/t-done 213.0}
     {:r/nec 1395,
      :r/level-0 "2020",
@@ -276,7 +276,7 @@
      :r/d-rate 0.7554,
      :r/t-scheduled 226.0,
      :r/k "monte-gordo-01395",
-     :r/total-passed 271.9853,
+     :r/total-passed 272.0,
      :r/t-done 199.0}],
    :imt-profile
    {:address "Av. da Catalunha, lote 7, 8900-401 MONTE GORDO",

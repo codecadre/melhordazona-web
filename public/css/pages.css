@@ -1,0 +1,22 @@
+.pages p {
+  font-size: 2rem;
+}
+.pages blockquote {
+  font-style: italic;
+  opacity: 0.5;
+}
+.pages table,
+.pages img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pages img {
+  max-width: 70%;
+}
+.pages .quote-ref {
+  text-align: right;
+}
+.pages li {
+  font-size: 2rem;
+}

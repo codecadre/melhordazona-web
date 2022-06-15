@@ -1,58 +1,69 @@
 #!/usr/bin/env /usr/local/bin/bb
 
 (ns bb-passrates.backend.pages.lists
-  (:require [bb-passrates.shared.main :refer [lang url->canonical]]
-            [bb-passrates.backend.templates.template :as tmp]
+  (:require [bb-passrates.backend.templates.template :as tmp]
             [clojure.edn :as edn]
             [bb-passrates.shared.svg :as svg]
-            [bb-passrates.shared.main :refer [get-place-list]]))
+            [bb-passrates.shared.main :refer [get-place-list k->human address->human]]
+            [bb-passrates.shared.copy :refer [copy]]))
 
-;;graph width
+;;TODO after copy
+;;link this to methodology instead
+(def taxa-aprovacao-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx")
+
+;;TODO after copy
+;;link this to methodology instead
+(def esri-href
+  "https://www.esri.com/en-us/arcgis/products/arcgis-platform/services/geocoding-search")
 
 (defn school-list [type city]
   (try
     (get-place-list type city)
     (catch Exception e '())))
 
-(def content
-  {:title "Avaliações Abertas - Open Pass Rates"
-   :subtitle
-   (str
-    "Avaliações Abertas: Taxas de aprovação de condução. Dados do IMT."
-    "- Open Pass Rates: Driving school pass rates in Portugal. - Government data.")})
+(defn content [lang place]
+  {:title (copy [:meta/title lang])
+   :subtitle (format (copy [:meta/subtitle-list lang]) (k->human place))})
 
 
-(defn pop-up [k svg {:keys [name] :as imt-profile}]
+(defn pop-up [k svg {:keys [name] :as imt-profile} lang]
   [:div.pop-up-wrapper
    [:h5.name name]
    [:div svg]
-   [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"] [:a {:href "ESRI"} "ESRI"]]
-   [:a.ver-mais {:href (format "/escolas/%s" k)} "ver mais >"]])
+   [:div.source [:span (copy [:list/pop-up-source lang])]
+    [:a {:href taxa-aprovacao-href} "IMT"]
+    [:a {:href esri-href} "ESRI"]]
+   [:a.ver-mais {:href (str "#" k)} (copy [:list/pop-up-more lang])]])
 
 (def year-selector
   #{"2018" "2019" "2020"})
 
-(defn hiccup-school [[k {:keys [rates geocode imt-profile]}]]
-  (let [svg (svg/pop-up-svg (svg/parse-d-smart rates :d year-selector) (count year-selector))
+(defn hiccup-school [lang [k {:keys [rates geocode imt-profile]}]]
+  (let [svg (svg/pop-up-svg lang (svg/parse-d-smart rates :d year-selector) (count year-selector))
         lat (:y geocode)
         long (:x geocode)
         name (:name imt-profile)
         nec (:nec imt-profile)
         address (:address imt-profile)
         concelho (:concelho imt-profile)
-        cp7 (:cp7 imt-profile)]
-    [:div.school-card {:lat lat :long long}
-     (pop-up k svg imt-profile)
+        cp7 (:cp7 imt-profile)
+        href-school (:imt-href imt-profile)]
+    [(keyword (str "div#" k)) {:class "school-card" :lat lat :long long}
+     (pop-up k svg imt-profile lang)
      [:h4.name name]
-     [:p.label "IMT licence"]
+     [:p.label (copy [:list/scard-license lang])]
      [:p.field nec]
-     [:p.label "Morada"]
-     [:p.field address]
-     [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"]]
+     [:p.label  [:span (copy [:list/scard-address lang])] (when (nil? geocode) [:span.no-coord [:sup.strong "†"]])]
+     [:p.field (address->human address)]
+     [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href href-school} "IMT"]]
      [:div.ratings
       svg]
-          [:div.source [:span "Source: "] [:a {:href "IMT"} "IMT"]]
-     [:a.ver-mais {:href (format "/escolas/%s" k)} "ver mais >"]]))
+     [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]
+     [:a.ver-mais {:href (format (copy [:autocomplete/li-href :school lang]) k)} (copy [:list/pop-up-more lang])]
+     (when (nil? geocode)
+       [:div.row
+        [:div.column.one-half [:p.no-coord.label "†" #_[:sup ] (copy [:no-coord lang])]]])]))
 
 (comment (let [l (-> "data/concelho-loule.edn" slurp edn/read-string)]
    (hiccup-school (first l))))
@@ -70,10 +81,23 @@
     [(/ (reduce + 0 yy) n)
      (/ (reduce + 0 xx) n)]))
 
-(defn page [url-map place-list]
-  (let [[lat long] (centroid- place-list)
+#_(defn centroid- [d]
+  (let [xx (->> d;;long
+                (map (fn [[k {:keys [geocode]}]]
+                       (:x geocode)))
+                (remove nil?))
+        yy (->> d;;lat
+                (map (fn [[k {:keys [geocode]}]]
+                       (:y geocode)))
+                (remove nil?))]
+    [(/ (+ (apply min yy ) (apply max yy ))  2)
+     (/ (+ (apply min xx ) (apply max xx ))  2)]))
+
+(defn page [{:keys [concelho lang] :as req} place-list]
+  (let [human (k->human concelho)
+        [lat long] (centroid- place-list)
         school-cards (->> place-list
-                          (map hiccup-school)
+                          (map (partial hiccup-school lang))
                           (partition 2 2 nil)
                           (reduce (fn [acc [s1 s2]]
                                     (conj acc [:div.row
@@ -82,14 +106,57 @@
                                   [:div.list]))]
     [:html
      (tmp/header
-      (merge content url-map)
+      (merge (content lang concelho) req)
       [:main
        [:div.container
-        [:h2 "List of Schools in Concelho de Lisboa"]
-        [:p "The data represented in the graph below represents Driving pass rates and number of exams done in an examination centre of each year. Link to about page explaining how the 3 data sources got created."]
+        [:h2 (format (copy [:list/h1 lang]) human)]
+        (let [[one two three] (copy [:list/header-copy lang])]
+          [:div
+           [:p (format one (count place-list) human)]
+           [:p two]
+           [:p.strong three]])
         [:div.map-wrapper
          [:div#map {:lat lat :long long}]]
         school-cards]])]))
+
+
+(defn no-imt-profile [{:keys [lang] :as req}]
+  (let [year-selector #{#_#_#_"2015" "2016" "2017" "2018" "2019" "2020"}
+        schools (try
+                  (-> "./data/concelho-nil.edn"  slurp edn/read-string)
+                  (catch Exception e '()))
+        schools (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)) schools)
+        hiccup-school (fn [lang [k {:keys [rates]}]]
+                        (let [name (-> rates first :r/name-raw address->human)
+                              svg (svg/pop-up-svg lang (svg/parse-d-smart rates :d year-selector) (count year-selector))]
+                          [:div.school-card {:id k}
+                           [:p.label "Nome"]
+                           [:p.field name]
+                           [:div.ratings
+                            svg]
+                           [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]
+                           [:a.ver-mais {:href (format (copy [:autocomplete/li-href :school lang]) k)} (copy [:list/pop-up-more lang])]]))
+        meta {:title (copy [:meta/title lang])
+              :subtitle "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."}]
+    [:html
+     (tmp/header
+      (merge meta req)
+      [:main
+       [:div.container
+        [:p "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."]
+        [:div
+         (map-indexed
+          #(vector :p.no [:a {:href (str "#" (-> %2 first)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw address->human))])
+          schools)]
+        (->> schools
+             (map (partial hiccup-school lang))
+             (partition 2 2 nil)
+             (reduce (fn [acc [s1 s2]]
+                       (conj acc [:div.row
+                                  [:div.columns.six s1]
+                                  [:div.columns.six s2]]))
+                     [:div.list]))]])]))
+
 
 (comment
  (centroid- (-> "data/distrito-lisboa.edn" slurp edn/read-string))

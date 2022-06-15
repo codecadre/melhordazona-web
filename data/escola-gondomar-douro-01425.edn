@@ -3,7 +3,7 @@
  [{:r/nec 1425,
    :r/level-0 "2018",
    :r/d-scheduled 3,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 3,
    :r/total-scheduled 3,
@@ -26,7 +26,7 @@
    :r/d-rate 0.7941,
    :r/t-scheduled 37.0,
    :r/k "gondomar-douro-01425",
-   :r/total-passed 56.001,
+   :r/total-passed 56.0,
    :r/t-done 36.0}
   {:r/nec 1425,
    :r/level-0 "2020",
@@ -40,6 +40,6 @@
    :r/d-rate 0.65,
    :r/t-scheduled 52.0,
    :r/k "gondomar-douro-01425",
-   :r/total-passed 71.0008,
+   :r/total-passed 71.0,
    :r/t-done 52.0}],
  :imt-profile nil}

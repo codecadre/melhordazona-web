@@ -3,7 +3,7 @@
  [{:r/nec 1342,
    :r/level-0 "2015",
    :r/d-scheduled 1,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 0.0,
    :r/d-done 1,
    :r/total-scheduled 1,
@@ -26,7 +26,7 @@
    :r/d-rate 0.6786,
    :r/t-scheduled 71.0,
    :r/k "casal-de-cambra-01342",
-   :r/total-passed 65.9988,
+   :r/total-passed 66.0,
    :r/t-done 70.0}
   {:r/nec 1342,
    :r/level-0 "2017",
@@ -40,7 +40,7 @@
    :r/d-rate 0.5909,
    :r/t-scheduled 191.0,
    :r/k "casal-de-cambra-01342",
-   :r/total-passed 157.9928,
+   :r/total-passed 158.0,
    :r/t-done 183.0}
   {:r/nec 1342,
    :r/level-0 "2018",
@@ -54,7 +54,7 @@
    :r/d-rate 0.6686,
    :r/t-scheduled 150.0,
    :r/k "casal-de-cambra-01342",
-   :r/total-passed 201.9992,
+   :r/total-passed 202.0,
    :r/t-done 145.0}
   {:r/nec 1342,
    :r/level-0 "2019",
@@ -68,7 +68,7 @@
    :r/d-rate 0.6772,
    :r/t-scheduled 125.0,
    :r/k "casal-de-cambra-01342",
-   :r/total-passed 169.01,
+   :r/total-passed 169.0,
    :r/t-done 124.0}
   {:r/nec 1342,
    :r/level-0 "2020",
@@ -82,7 +82,7 @@
    :r/d-rate 0.5429,
    :r/t-scheduled 108.0,
    :r/k "casal-de-cambra-01342",
-   :r/total-passed 125.0013,
+   :r/total-passed 125.0,
    :r/t-done 96.0}],
  :imt-profile
  {:address "Avenida de Lisboa, n.º 127, R/C, 2605-003 Casal de Cambra",

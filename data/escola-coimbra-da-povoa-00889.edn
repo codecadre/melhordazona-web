@@ -12,7 +12,7 @@
    :r/d-rate 0.5417,
    :r/t-scheduled 70.0,
    :r/k "coimbra-da-povoa-00889",
-   :r/total-passed 84.0048,
+   :r/total-passed 84.0,
    :r/t-done 68.0}
   {:r/nec 889,
    :r/level-0 "2016",
@@ -26,7 +26,7 @@
    :r/d-rate 0.6517,
    :r/t-scheduled 87.0,
    :r/k "coimbra-da-povoa-00889",
-   :r/total-passed 125.0039,
+   :r/total-passed 125.0,
    :r/t-done 86.0}
   {:r/nec 889,
    :r/level-0 "2017",
@@ -40,7 +40,7 @@
    :r/d-rate 0.6835,
    :r/t-scheduled 68.0,
    :r/k "coimbra-da-povoa-00889",
-   :r/total-passed 105.9967,
+   :r/total-passed 106.0,
    :r/t-done 63.0}
   {:r/nec 889,
    :r/level-0 "2018",
@@ -54,7 +54,7 @@
    :r/d-rate 0.6768,
    :r/t-scheduled 94.0,
    :r/k "coimbra-da-povoa-00889",
-   :r/total-passed 134.0068,
+   :r/total-passed 134.0,
    :r/t-done 92.0}
   {:r/nec 889,
    :r/level-0 "2019",
@@ -68,22 +68,22 @@
    :r/d-rate 0.7308,
    :r/t-scheduled 56.0,
    :r/k "coimbra-da-povoa-00889",
-   :r/total-passed 103.0044,
+   :r/total-passed 103.0,
    :r/t-done 55.0}
   {:r/nec 889,
    :r/level-0 "2020",
    :r/d-scheduled 4,
-   :r/t-rate 1.0,
+   :r/t-rate nil,
    :r/total-rate 1.0,
    :r/d-done 4,
    :r/total-scheduled 4,
    :r/name-raw "ESCOLA DE CONDUÇÃO COIMBRA DA PÓVOA",
    :r/total-done 4,
    :r/d-rate 1.0,
-   :r/t-scheduled 0.0,
+   :r/t-scheduled nil,
    :r/k "coimbra-da-povoa-00889",
    :r/total-passed 4.0,
-   :r/t-done 0.0}],
+   :r/t-done nil}],
  :imt-profile
  {:address
   "Estrada Nacional, Nº 10, Quinta da Bolonha, Lote 3B C/V Esq 2625-215 PÓVOA DE STª IRIA",
