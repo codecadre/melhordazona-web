@@ -53,8 +53,8 @@
 
 (def pt->en-map
   {"/" "/en/"
-   "/sobre/" "/en/about/"
-   "/paginas/faq-pt/" "/en/pages/faq/"})
+   #_#_"/paginas/acerca/" ""
+   #_#_"/paginas/faq-pt/" "/en/pages/faq/"})
 
 (def en->pt-map
   (map-invert pt->en-map))
@@ -78,6 +78,8 @@
                                                   (clj-str/replace "municipalities" "concelhos")))))
 
 #_(en->pt "/en/school/abc")
+
+(defn en? [lang] (= :en lang))
 
 (defn header-c [{:keys [lang uri] :as req}]
   (let [pt? (= :pt lang)]
@@ -104,13 +106,33 @@
          #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
          #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
 
-(defn header [{:keys [title subtitle] :as req} main]
+(def domain "https://passaprimeira.xyz")
+
+(defn alternate-hreflang-en [lang uri]
+  (let [en-lang? (en? lang)
+        en-alternate (pt->en uri)
+        alternate? (boolean en-alternate)
+        href (if en-lang? (str domain uri) (str domain en-alternate))]
+    (when (or alternate? en-lang?)
+      [:link {:rel "alternate" :hreflang "en" :href href }])))
+
+(defn alternate-hreflang-pt [lang uri]
+  (let [pt-lang? (not (en? lang))
+        pt-alternate (en->pt uri)
+        alternate? (boolean pt-alternate)
+        href (if pt-lang? (str domain uri) (str domain pt-alternate))]
+    (when (or alternate? pt-lang?)
+      [:link {:rel "alternate" :hreflang "pt" :href href}])))
+
+(defn header [{:keys [title subtitle lang uri] :as req} main]
   [:head
    [:meta {:charset "UTF-8"}]
    [:meta {:content "width=device-width, initial-scale=1, maximum-scale=1" :name "viewport"}]
    [:meta {:name "description" :content subtitle}]
    [:link {:href "/public/css/main.css", :rel "stylesheet"}]
    [:link {:rel "stylesheet" :href "/public/vendor/leaflet/leaflet.css" :crossorigin ""}]
+   (alternate-hreflang-pt lang uri)
+   (alternate-hreflang-en lang uri)
    (when local-dev? [:script {:src "https://livejs.com/live.js"}])
    [:title title]
    [:body
