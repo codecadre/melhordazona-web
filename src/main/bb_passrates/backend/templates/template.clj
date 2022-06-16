@@ -34,7 +34,7 @@
      (when (= :pt lang)
        [:div.columns.two
         [:p.top-level-item "Escolas"]
-        [:p.item [:a {:href "/escola-sem-morada-imt"} "Sem morada"]]
+        [:p.item [:a {:href "/escola-sem-morada-imt/"} "Sem morada"]]
         #_[:p.item "About"]])
      #_[:div.columns.two
       [:p.top-level-item "Legal"]
