@@ -57,7 +57,8 @@
   (let [search-wrapper (.querySelector js/document ".search-wrapper .search-input")
         separator (.querySelector js/document ".search-wrapper .mobile-separator")]
         (set! (.-opacity (.-style separator)) 0)
-    (.classList.remove search-wrapper "active")))
+        (.classList.remove
+         search-wrapper "active")))
 
 (defn on-key-fn [ev]
   (let [query-string (when ev (-> ev .-target .-value))

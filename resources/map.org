@@ -30,9 +30,15 @@
    :END:
 
 *** DONE sitemap
+*** DONE robots.txt
 
-*** TODO robots.txt
-
+*** DONE add canonical /
+    - [X] search box
+    - [X] header
+      - [X] multilang
+    - [X] footer
+    - [X] list
+    - [X] Single page
 *** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 *** TODO progressive web apps
 *** TODO lang metatag

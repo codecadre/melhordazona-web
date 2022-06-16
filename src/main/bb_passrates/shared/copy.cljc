@@ -23,12 +23,12 @@
    ;; autocomplete
    ;;
 
-   :autocomplete/li-href {:school {:pt "/escolas/%s"
-                                   :en "/en/schools/%s"}
-                          :concelho {:pt "/concelhos/%s"
-                                     :en "/en/municipalities/%s"}
-                          :distrito {:pt "/distritos/%s"
-                                     :en "/en/districts/%s"}}
+   :autocomplete/li-href {:school {:pt "/escolas/%s/"
+                                   :en "/en/schools/%s/"}
+                          :concelho {:pt "/concelhos/%s/"
+                                     :en "/en/municipalities/%s/"}
+                          :distrito {:pt "/distritos/%s/"
+                                     :en "/en/districts/%s/"}}
    :autocomplete/district {:pt "Distrito"
                            :en "District"}
    :autocomplete/municipality {:pt "Município"
