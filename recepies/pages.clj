@@ -18,7 +18,7 @@
 
 (def pages
   {:acerca {:title "Acerca deste projecto | Passa à Primeira"
-            :subtitle "Passa à Primeira - Dados públicos com acessibilidade gratuita e foco na privacidade do utilizador. Realizado por Flávio Sousa para Codecadre."
+            :subtitle "Passa à primeira é um guia interactivo das taxas de aprovação do IMT. Realizado por Flávio Sousa para Codecadre."
             :lang :pt
             :uri "/paginas/acerca/"}
    :faq-pt {:title "Passa a Primeira FAQ"
