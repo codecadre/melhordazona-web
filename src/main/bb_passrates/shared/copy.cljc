@@ -116,6 +116,10 @@
    ;; meta
    ;;
 
+   :directory/meta-title {:pt "Diretório de escolas de condução para todo o país | Passa à Primeira"
+                          :en "Driving school directory for Portugal | Passa à Primeira"}
+   :directory/subtitle {:pt "Procura escolas de condução por distrito e concelho"
+                        :en "Find driving schools by district and municipality"}
    :school/meta-title {:pt "Escola de condução: %s - Morada e taxa de aprovação IMT | Passa à Primeira"
                        :en "Driving school: %s - Official government data | Passa à Primeira"}
    :meta/subtitle-school {:pt "Taxas de aprovação IMT da escola de condução %s, em %s. Dados referentes aos últimos seis anos. Contabilizando todas as categorias (condução, mota, etc) e apenas pasagem à primeira."

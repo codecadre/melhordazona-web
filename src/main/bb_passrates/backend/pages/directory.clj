@@ -5,9 +5,9 @@
             [bb-passrates.shared.main :refer [string->keywordize]]
             [bb-passrates.shared.copy :refer [copy]]))
 
-(defn content []
-  {:title "123"
-   :subtitle "345"})
+(defn content [lang]
+  {:title (copy [:directory/meta-title lang])
+   :subtitle (copy [:directory/subtitle lang])})
 
 (def districts
   [["Setúbal" 72]
@@ -32,7 +32,7 @@
 (defn index [{:keys [lang] :as req}]
   [:html
    (tmp/header
-    (merge (content) req)
+    (merge (content lang) req)
     [:main
      (into [:div.container
             [:h2 (format (copy [:dir/title lang]))]
