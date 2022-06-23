@@ -156,6 +156,13 @@
    :footer/subtitle {:pt
                      ["Dados públicos com acessibilidade gratuita e foco na privacidade do utilizador. Realizado por " " para " "."]
                      :en ["Free access to government data focused on user privacy. Done by " " for " "."]}
+
+   ;;
+   ;; Directory
+   ;;
+
+   :dir/href-district {:pt "/distritos/%s/"
+                       :en "/en/district/%s/"}
 })
 
 (defn copy [p]

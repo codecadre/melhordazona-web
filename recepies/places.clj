@@ -3,6 +3,7 @@
             [clojure.string :as clj-str]
             [clojure.pprint :as pprint]))
 
+;;TODO use the on in main
 (defn remove-accents
   [text]
   (clj-str/escape text {\á "a", \Á "A", \à "a", \À "A", \â "a", \Â "A", \ã "a", \Ã "A", \ä "a", \Ä "A",

@@ -6,6 +6,7 @@
             [bb-passrates.backend.pages.404 :as not-found]
             [bb-passrates.backend.pages.lists :as lists]
             [bb-passrates.backend.pages.school :as school]
+            [bb-passrates.backend.pages.directory :as directory]
             [hiccup2.core :refer [html]]
             [bb-passrates.shared.main :refer [req-fn]]
             [clojure.core.match :refer [match]]
@@ -56,6 +57,10 @@
   {:page (home/page req)
    :header html-header})
 
+(defn district-index-handler [req]
+  {:page (directory/index req)
+   :header html-header})
+
 (def page
   (let [paths (vec (rest (str/split (:uri req) #"/")))]
     (match [(:request-method req) paths]
@@ -67,6 +72,9 @@
            [:get ["escolas" escola]] (escola-handler (assoc req :school escola))
            [:get ["en" "schools" escola]] (escola-handler (assoc req :school escola))
            [:get ["escola-sem-morada-imt"]] (no-imt-profile-handler req)
+           [:get ["distritos"]] (district-index-handler req)
+           [:get ["en" "districts"]] (district-index-handler req)
+
            ;;district has data issues
            #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
            :else {:page (not-found/page)
