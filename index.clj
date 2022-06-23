@@ -26,8 +26,8 @@
   {:page (lists/no-imt-profile req)
    :header html-header})
 
-(defn concelho-handler [req]
-  (let [schools (lists/school-list :concelho (:concelho req))]
+(defn concelho-handler [{:keys [concelho district] :as req}]
+  (let [schools (lists/school-list {:district district :concelho concelho})]
     (if (empty? schools)
       resp-404
       {:page (lists/page req schools)
@@ -38,13 +38,6 @@
     (if (empty? school)
       resp-404
       {:page (school/page req school)
-       :header html-header})))
-
-(defn district-handler [req]
-  (let [schools (lists/school-list "district" (:district req))]
-    (if (empty? schools)
-      resp-404
-      {:page (lists/page req schools)
        :header html-header})))
 
 (defn echo-handler [req]
@@ -61,19 +54,33 @@
   {:page (directory/index req)
    :header html-header})
 
+(defn district-list-handler [req]
+  (let [district (directory/district-data (:district req))]
+    (if (empty? district)
+      resp-404
+      {:page (directory/list district req)
+       :header html-header})))
+
 (def page
   (let [paths (vec (rest (str/split (:uri req) #"/")))]
     (match [(:request-method req) paths]
            [:get ["echo" id]] (echo-handler (assoc req :id id))
            [:get []] (home-handler req)
            [:get ["en"]] (home-handler req)
+           ;;TODO deprecate from here
            [:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
            [:get ["en" "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho))
            [:get ["escolas" escola]] (escola-handler (assoc req :school escola))
            [:get ["en" "schools" escola]] (escola-handler (assoc req :school escola))
+           ;;TODO deprecate till here
            [:get ["escola-sem-morada-imt"]] (no-imt-profile-handler req)
            [:get ["distritos"]] (district-index-handler req)
            [:get ["en" "districts"]] (district-index-handler req)
+           [:get ["distritos" district]] (district-list-handler (assoc req :district district))
+           [:get ["en" "districts" district]] (district-list-handler (assoc req :district district))
+           [:get ["distritos" district concelho]] (concelho-handler (assoc req :concelho concelho :district district))
+           [:get ["en" "districts" district concelho]] (concelho-handler (assoc req :concelho concelho :district district))
+
 
            ;;district has data issues
            #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))

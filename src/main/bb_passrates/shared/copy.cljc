@@ -26,6 +26,8 @@
 
    :district-href {:pt "/distritos/%s/"
                    :en "/en/districts/%s/"}
+   :municipality-href {:pt "/distritos/%s/%s/"
+                       :en "/en/districts/%s/%s/"}
    ;;
    ;; autocomplete
    ;;
@@ -173,6 +175,8 @@
 
    :dir/title {:pt "Diretório de escolas de condução"
                :en "Driving school directory"}
+   :dir/list-title {:pt "Diretório de escolas de condução no distrito de %s"
+                    :en "Driving school directory in %s district"}
 })
 
 (defn copy [p]

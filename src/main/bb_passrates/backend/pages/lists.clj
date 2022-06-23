@@ -17,9 +17,9 @@
 (def esri-href
   "https://www.esri.com/en-us/arcgis/products/arcgis-platform/services/geocoding-search")
 
-(defn school-list [type city]
+(defn school-list [{:keys [district concelho]}]
   (try
-    (get-place-list type city)
+    (get-place-list :concelho concelho)
     (catch Exception e '())))
 
 (defn content [lang place n]
