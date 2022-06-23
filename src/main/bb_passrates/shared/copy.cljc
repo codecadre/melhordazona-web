@@ -19,6 +19,13 @@
    :ribbon {:pt "Dados 2015-2020"
             :en "2015-2020 Data"}
    :project {:pt "Projecto" :en "Project"}
+
+   ;;
+   ;;href
+   ;;
+
+   :district-href {:pt "/distritos/%s/"
+                   :en "/en/districts/%s/"}
    ;;
    ;; autocomplete
    ;;
@@ -27,8 +34,7 @@
                                    :en "/en/schools/%s/"}
                           :concelho {:pt "/concelhos/%s/"
                                      :en "/en/municipalities/%s/"}
-                          :distrito {:pt "/distritos/%s/"
-                                     :en "/en/districts/%s/"}}
+}
    :autocomplete/district {:pt "Distrito"
                            :en "District"}
    :autocomplete/municipality {:pt "Município"
@@ -161,8 +167,8 @@
    ;; Directory
    ;;
 
-   :dir/href-district {:pt "/distritos/%s/"
-                       :en "/en/district/%s/"}
+   :dir/title {:pt "Diretório de escolas de condução"
+               :en "Driving school directory"}
 })
 
 (defn copy [p]

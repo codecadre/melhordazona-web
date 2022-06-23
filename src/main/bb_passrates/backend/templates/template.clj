@@ -77,7 +77,9 @@
       (clj-str/includes? path "municipalities") (-> path
                                                   (clj-str/replace "/en" "")
                                                   (clj-str/replace "municipalities" "concelhos"))
-      (clj-str/includes? path "districts") (str "/en" (clj-str/replace path "districts" "distritos")))))
+      (clj-str/includes? path "districts") (-> path
+                                                  (clj-str/replace "/en" "")
+                                                  (clj-str/replace "districts" "distritos")))))
 
 #_(en->pt "/en/school/abc")
 

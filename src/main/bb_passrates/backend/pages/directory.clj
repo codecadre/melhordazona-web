@@ -34,9 +34,11 @@
    (tmp/header
     (merge (content) req)
     [:main
-     (into [:div.container]
+     (into [:div.container
+            [:h2 (format (copy [:dir/title lang]))]
+            [:p [:a {:href (if (= lang :pt) "/" "/en/")} "Home"] (str " > " (format (copy [:distrito lang]))) "s"]]
            (map #(let [district-human (first %)
                        district-key (string->keywordize district-human)
-                       href (format (copy [:dir/href-district lang]) district-key)
+                       href (format (copy [:district-href lang]) district-key)
                        n-school (last %)]
                    [:h5 [:a {:href href} district-human] [:span.opacity35 (str " (" n-school " " (copy [:school lang]) "s)")]]) (sort #(compare (first %1) (first %2)) districts)))])])
