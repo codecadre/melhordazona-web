@@ -1,7 +1,8 @@
 (ns recepies.places
   (:require [clojure.edn :as edn]
             [clojure.string :as clj-str]
-            [clojure.pprint :as pprint]))
+            [clojure.pprint :as pprint]
+            [clojure.java.io :as io]))
 
 ;;TODO use the on in main
 (defn remove-accents
@@ -125,12 +126,18 @@
 ;; Populate /data/
 ;;
 
+(defn string->file-sys-string [s]
+  (->> s clean-strings (interpose "-") (apply str)))
+
 (doseq [[concelho schools] (->> db
                                 (group-by #(-> % last :imt-profile :concelho))
                                 (remove #(-> % first nil?)))]
-  (let [f (format "./data/%s.edn" (apply str (interpose "-" (into ["concelho"]
-                                                                  (clean-strings concelho)))))
+  (let [distrito (-> schools first last :imt-profile :distrito)
+        concelho-key (string->file-sys-string concelho)
+        distrito-key (string->file-sys-string distrito)
+        f (format "./data/concelho-%s-%s.edn" distrito-key concelho-key)
         data-string (with-out-str (pprint/pprint schools))]
+    (io/make-parents f)
     (spit f data-string)))
 
 (let [d (->> db
@@ -142,12 +149,18 @@
 (doseq [[distrito schools] (->> db
                                 (group-by #(-> % last :imt-profile :distrito))
                                 (remove #(-> % first nil?)))]
-  (let [f (format "./data/%s.edn" (apply str (interpose "-" (into ["distrito"]
-                                                                  (clean-strings distrito)))))
+  (let [f (format "./data/distrito-%s.edn" (string->file-sys-string distrito))
         data-string (with-out-str (pprint/pprint schools))]
     (spit f data-string)))
 
 (doseq [[k s] db]
-  (let [f (format "./data/escola-%s.edn" k)
+  (let [distrito-key (->> s :imt-profile :distrito)
+        concelho-key (->> s :imt-profile :concelho)
+        location-key (if (and distrito-key concelho-key)
+                       (format "%s-%s"
+                               (string->file-sys-string  distrito-key)
+                               (string->file-sys-string  concelho-key))
+                       "nil")
+        f (format "./data/escola-%s-%s.edn" location-key k)
         data-string (with-out-str (pprint/pprint s))]
     (spit f data-string)))

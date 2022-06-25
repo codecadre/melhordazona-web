@@ -20,9 +20,9 @@
   {:title (format (copy [:school/meta-title lang]) name)
    :subtitle (format (copy [:meta/subtitle-school lang]) name (or concelho "sem morada no IMT"))})
 
-(defn school-data [k]
+(defn school-data [{:keys [district concelho school] :as req}]
   (try
-    (-> (str "./data/escola-" k ".edn") slurp edn/read-string)
+    (-> (format "./data/escola-%s-%s-%s.edn" district  concelho school) slurp edn/read-string)
     (catch Exception e '())))
 
 (def year-selector
@@ -31,7 +31,13 @@
 (defn page [url-map {:keys [nec rates geocode imt-profile] :as school}]
   (let [lang (:lang url-map)
         lat (:y geocode)
-        long (:x geocode)]
+        long (:x geocode)
+        concelho (:concelho imt-profile)
+        concelho-key (if concelho (string->keywordize concelho) "no-info")
+        district (:distrito imt-profile)
+        district-key (if district (string->keywordize district) "no-info")
+        name (:name imt-profile)
+        name-key (if name name "NO IMT NAME TODO")]
     [:html
      (tmp/header
       (merge (content lang imt-profile) url-map)
@@ -44,9 +50,19 @@
             [:h4.name (:name imt-profile)]
             [:h4.name (-> rates first :r/name-raw address->human)])
           (when imt-profile
-            [:p [:a {:href (format (copy [:autocomplete/li-href :concelho lang])
-                                   (-> imt-profile :concelho string->keywordize) )  }
-                 (format (copy [:school/back lang])  (:concelho imt-profile))]])
+            [:p
+             [:a {:href (if (= lang :pt) "/" "/en/")} "Home"]
+             [:span " > "]
+             [:a {:href (format (copy [:district-index-href lang]))} (str (format (copy [:dir/breadcrumb-district-region lang])))]
+             [:span " > "]
+             [:a {:href (format (copy [:district-href lang]) district-key)} district]
+             [:span " > "]
+             [:a {:href (format (copy [:municipality-href lang]) district-key concelho-key)} concelho]
+             [:span " > "]
+             [:span name]]
+
+
+            )
           [:div.row
            (when imt-profile
              [:div.six.columns

@@ -34,7 +34,7 @@
        :header html-header})))
 
 (defn escola-handler [req]
-  (let [school (school/school-data (:school req))]
+  (let [school (school/school-data req)]
     (if (empty? school)
       resp-404
       {:page (school/page req school)
@@ -74,12 +74,18 @@
            [:get ["en" "schools" escola]] (escola-handler (assoc req :school escola))
            ;;TODO deprecate till here
            [:get ["escola-sem-morada-imt"]] (no-imt-profile-handler req)
-           [:get ["distritos"]] (district-index-handler req)
-           [:get ["en" "districts"]] (district-index-handler req)
-           [:get ["distritos" district]] (district-list-handler (assoc req :district district))
-           [:get ["en" "districts" district]] (district-list-handler (assoc req :district district))
-           [:get ["distritos" district concelho]] (concelho-handler (assoc req :concelho concelho :district district))
-           [:get ["en" "districts" district concelho]] (concelho-handler (assoc req :concelho concelho :district district))
+
+           [:get ["distritos-regioes"]] (district-index-handler req)
+           [:get ["en" "districts-regions"]] (district-index-handler req)
+
+           [:get ["distritos-regioes" district]] (district-list-handler (assoc req :district district))
+           [:get ["en" "districts-regions" district]] (district-list-handler (assoc req :district district))
+
+           [:get ["distritos-regioes" district "municipios" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
+           [:get ["en" "districts" district "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
+
+           [:get ["distritos-regioes" district "concelhos" concelho "escolas" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))
+           [:get ["en" "districts-regions" district "municipalities" concelho "school" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))
 
 
            ;;district has data issues

@@ -62,7 +62,7 @@
     [:main
        (into [:div.container
               [:h2 (format (copy [:dir/title lang]))]
-              [:p [:a {:href (if (= lang :pt) "/" "/en/")} "Home"] (str " > " (format (copy [:distrito lang]))) "s"]]
+              [:p [:a {:href (if (= lang :pt) "/" "/en/")} "Home"] (str " > " (format (copy [:dir/breadcrumb-district-region lang])))]]
              (map #(let [district-human (first %)
                          district-key (string->keywordize district-human)
                          href (format (copy [:district-href lang]) district-key)
@@ -93,9 +93,10 @@
               [:p
                [:a {:href (if (= lang :pt) "/" "/en/")} "Home"]
                [:span " > "]
-               [:a {:href (if (= lang :pt) "/distritos/" "/en/districts/")} (str (format (copy [:distrito lang]))) "s" ]
+               [:a {:href (if (= lang :pt) "/distritos-regions/" "/en/districts-regions/")} (str (format (copy [:dir/breadcrumb-district-region lang])))]
                [:span " > "]
-               [:span district-name]]]
+               [:span district-name]
+               ]]
              (map #(let [municipality-human (first %)
                          municipality-key (string->keywordize municipality-human)
                          href (format (copy [:municipality-href lang]) district municipality-key)

@@ -23,15 +23,19 @@
    ;;
    ;;href
    ;;
-
-   :district-href {:pt "/distritos/%s/"
-                   :en "/en/districts/%s/"}
-   :municipality-href {:pt "/distritos/%s/%s/"
-                       :en "/en/districts/%s/%s/"}
+   :district-index-href {:pt "/distritos-regioes/"
+                         :en "/en/districts-regions/"}
+   :district-href {:pt "/distritos-regioes/%s/"
+                   :en "/en/districts-regions/%s/"}
+   :municipality-href {:pt "/distritos-regioes/%s/concelhos/%s/"
+                       :en "/en/districts-regions/%s/municipalities/%s/"}
+   :school-href {:pt "/distritos-regioes/%s/concelhos/%s/escolas/%s/"
+                 :en "/en/districts-regions/%s/municipalities/%s/schools/%s/"}
    ;;
    ;; autocomplete
    ;;
 
+   ;;todo deprecate
    :autocomplete/li-href {:school {:pt "/escolas/%s/"
                                    :en "/en/schools/%s/"}
                           :concelho {:pt "/concelhos/%s/"
@@ -177,6 +181,8 @@
                :en "Driving school directory"}
    :dir/list-title {:pt "Diretório de escolas de condução no distrito de %s"
                     :en "Driving school directory in %s district"}
+   :dir/breadcrumb-district-region {:pt "Distritos e Regiôes"
+                                    :en "District and Regions"}
 })
 
 (defn copy [p]
