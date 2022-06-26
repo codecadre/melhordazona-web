@@ -1,7 +1,7 @@
 (ns bb-passrates.frontend.autocomplete
   (:require [clojure.string :as clj-str]
             [bb-passrates.shared.places :refer [places]]
-            [bb-passrates.shared.main :refer [query-place-list seo]]
+            [bb-passrates.shared.main :refer [query-place-list string->keywordize]]
             [bb-passrates.shared.copy :refer [copy]]
             [goog.string :as gstring]
             [goog.string.format]))
@@ -20,18 +20,36 @@
     (.classList.remove box "hidden")
     (.classList.add box "show")))
 
-(defn dom-build-li [{:keys [type name k search-field href] :as suggestion}]
+(defn dom-build-li [suggestion]
   (let [li (.createElement js/document "li")
         a (.createElement js/document "a")
-        span (.createElement js/document "span")]
+        span (.createElement js/document "span")
+        type (if (= :s (first suggestion)) :school :concelho)
+        school? (= type :school)
+        name (if school? (nth suggestion 1) (-> suggestion last))
+        district-key (if school?
+                       (-> suggestion (nth 2) first)
+                       (-> suggestion (nth 1)))
+        no-imt-profile? (not district-key)
+        concelho-key (cond
+                       no-imt-profile? nil
+                       school? (-> suggestion (nth 2) (nth 1))
+                       :else (-> suggestion last string->keywordize))
+        href (cond
+               (not school?) (gstring/format (copy [:href/municipality lang])
+                                             district-key concelho-key)
+               (and no-imt-profile? school?)
+               (gstring/format (copy [:href/school-nil-concelho lang]) (-> suggestion last last))
+               school?
+               (gstring/format (copy [:href/school lang])
+                                            district-key concelho-key (-> suggestion last last)))]
 
     ;;span
     (.classList.add span "suggestion-type")
     (set! (.-innerText span) (copy [type lang]))
 
     ;;a
-    (.setAttribute a "href" (gstring/format (copy [:autocomplete/li-href type lang])
-                                            (.-name k)))
+    (.setAttribute a "href" href)
     (set! (.-innerText a) name)
 
     (.appendChild a span)
@@ -66,7 +84,7 @@
         suggestion-box (.querySelector js/document ".search-input .autocomplete-box")
         suggestion (when above-min?
                      (->> (query-place-list places query-string)
-                          (sort #(compare (str (:type %1)) (str (:type %2))))))
+                          (sort #(compare (str (first %1)) (str (first %2))))))
         results? (not (empty? suggestion))
         li-html (when suggestion
                   (map dom-build-li suggestion))]

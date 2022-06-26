@@ -38,6 +38,7 @@
 
 *** TODO SEO directory list
     :LOGBOOK:
+    CLOCK: [2022-06-26 Sun 21:47]--[2022-06-26 Sun 22:20] =>  0:33
     CLOCK: [2022-06-26 Sun 21:07]--[2022-06-26 Sun 21:13] =>  0:06
     CLOCK: [2022-06-26 Sun 18:38]--[2022-06-26 Sun 20:11] =>  1:33
     CLOCK: [2022-06-26 Sun 18:03]--[2022-06-26 Sun 18:27] =>  0:24
@@ -49,7 +50,20 @@
     CLOCK: [2022-06-23 Thu 11:58]--[2022-06-23 Thu 12:37] =>  0:39
     :END:
 
-- [ ] autocomplete with new url structure
+- [X] autocomplete with new url structure
+
+{:name "Escola De Condução 100%",
+  :type :school,
+  :k :100-00910,
+  :search-field "escola de conducao 100",
+  :href "/escolas/100-00910"}
+
+
+type name [district concelho key]
+
+:s "Escola De Condução 100%" [lisboa lisboa keywordize-from-name]
+:s "Escola De Condução 100%" nil
+:c "Lisboa" [lisboa] - only the district
 
 - [X] Breadcrumbs fix using human labels instead of keys
 - [X] EN routing at index.clj needs to reflect the new structure

@@ -15,6 +15,7 @@
                         \ó "o", \Ó "O", \ô "o", \Ô "O", \õ "o", \Õ "O", \ö "o", \Ö "O",
                         \ú "u", \Ú "U", \ü "u", \Ü "U"}))
 
+;;TODO moved to main
 (defn clean-strings
   "returns collection of string"
   [s]
@@ -35,47 +36,26 @@
 (def db
   (->> "recepies/db.edn" slurp edn/read-string))
 
-(def distritos
-  (->> db
-      (map (fn [[k s]]
-             (-> s :imt-profile :distrito)))
-      (remove nil?)
-      set
-      vec))
-
-
 (def concelhos
   (->> db
       (map (fn [[k s]]
-             (-> s :imt-profile :concelho)))
-      (remove nil?)
-      set
-      vec))
+             (-> s :imt-profile (select-keys [:distrito :concelho]))))
+      (remove empty?)
+      set))
 
 (defn names-list []
   "builds bb-passrates.shared.places/places"
-  (vec (flatten [(map #(hash-map
-                        :k (keyword "concelho" (string->keywordize %))
-                        :type :concelho
-                        :name %
-                        :search-field (apply str (interpose " " (clean-strings %)))
-                        :href (str "/concelhos/" (string->keywordize %))) concelhos)
-                 #_(map #(hash-map
-                        :k (keyword "distrito" (string->keywordize %))
-                        :type :distrito
-                        :name %
-                        :search-field (apply str (interpose " " (clean-strings %)))
-                        :href (str "/distritos/" (string->keywordize %))) distritos)
-                 (map (fn [[k s]]
-                        (let [name-imt (-> s :imt-profile :name)
-                              name-pass-rates (-> s :rates first :r/name-raw)
-                              name (or name-imt name-pass-rates)]
-                          (hash-map
-                           :k (keyword k)
-                           :type :school
-                           :name name
-                           :search-field (apply str (interpose " " (clean-strings name)))
-                           :href (str "/escolas/" k)))) db)])))
+  (into (mapv #(vector :c (string->keywordize (:distrito %)) (:concelho %)) concelhos)
+        (map (fn [[k s]]
+               (let [imt-profile? (-> s :imt-profile boolean)
+                     concelho (when imt-profile?
+                                (-> s :imt-profile :concelho string->keywordize))
+                     district (when imt-profile?
+                                (-> s :imt-profile :distrito string->keywordize))
+                     name-imt (-> s :imt-profile :name)
+                     name-pass-rates (-> s :rates first :r/name-raw)
+                     name (or name-imt name-pass-rates)]
+                 (vector :s name (into (if imt-profile? [district concelho] [nil]) [k] )))) db)))
 
 ;;
 ;; Populate places.cljc
@@ -83,11 +63,11 @@
 (defn build-places-ns [l]
  (apply str ["(ns bb-passrates.shared.places)\n\n"
 
-             "(def places\n'" l "\n)"]))
+             "(def places\n" l "\n)"]))
 
 (let [f "src/main/bb_passrates/shared/places.cljc"
       d-as-string (->> (names-list)
-                       (sort #(compare (:k %1) (:k %2)))
+                       #_(sort #(compare (first %1) (first %2)))
                        pprint/pprint
                        with-out-str)]
   (doall (spit f (build-places-ns d-as-string))))
