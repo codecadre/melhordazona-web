@@ -107,8 +107,9 @@
          [:span "]"]
          [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
           [:a {:href (path->href "/" req)} (copy [:nav/search lang])]]
-         [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
-          [:a {:href (path->href "/" req)} (copy [:nav/search lang])]]
+         [(if  (or (= uri "/en/districts-regions/") (= uri "/distritos-regioes/"))
+            :div.menu-item.selected :div.menu-item)
+          [:a {:href (copy [:href/district-index lang])} (copy [:nav/dir lang])]]
          [:div.menu-item [:a {:href "/paginas/acerca/"} (copy [:nav/about lang])]]
          #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
          #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))

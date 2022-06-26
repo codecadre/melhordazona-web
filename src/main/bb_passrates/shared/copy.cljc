@@ -161,6 +161,8 @@
                      :en "Your (un)official guide to IMT pass-rates"}
    :nav/search {:pt "Pesquisa"
                 :en "Search"}
+   :nav/dir {:pt "Directório"
+             :en "Directory"}
    :nav/about {:pt "Acerca"
                :en "About"}
    :nav/faq {:pt "FAQ"
