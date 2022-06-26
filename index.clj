@@ -68,12 +68,14 @@
            [:get []] (home-handler req)
            [:get ["en"]] (home-handler req)
            ;;TODO deprecate from here
-           [:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
-           [:get ["en" "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho))
-           [:get ["escolas" escola]] (escola-handler (assoc req :school escola))
-           [:get ["en" "schools" escola]] (escola-handler (assoc req :school escola))
+           #_#_[:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
+           #_#_[:get ["en" "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho))
+           #_#_[:get ["escolas" escola]] (escola-handler (assoc req :school escola))
+           #_#_[:get ["en" "schools" escola]] (escola-handler (assoc req :school escola))
            ;;TODO deprecate till here
-           [:get ["escola-sem-morada-imt"]] (no-imt-profile-handler req)
+
+           [:get ["distritos-regioes" "sem-info"]] (no-imt-profile-handler req)
+           #_#_[:get ["distritos-regioes" "sem-info" "escolas" school]] (escola-handler (assoc req :school school :concelho nil :district nil))
 
            [:get ["distritos-regioes"]] (district-index-handler req)
            [:get ["en" "districts-regions"]] (district-index-handler req)
@@ -82,10 +84,10 @@
            [:get ["en" "districts-regions" district]] (district-list-handler (assoc req :district district))
 
            [:get ["distritos-regioes" district "concelhos" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
-           [:get ["en" "districts" district "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
+           [:get ["en" "districts-regions" district "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
 
            [:get ["distritos-regioes" district "concelhos" concelho "escolas" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))
-           [:get ["en" "districts-regions" district "municipalities" concelho "school" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))
+           [:get ["en" "districts-regions" district "municipalities" concelho "schools" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))
 
 
            ;;district has data issues

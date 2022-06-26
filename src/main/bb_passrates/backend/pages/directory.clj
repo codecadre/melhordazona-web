@@ -14,8 +14,7 @@
    :subtitle (copy [:directory/subtitle lang])})
 
 (def districts
-  {nil 151,
-   "Setúbal" 72,
+  {"Setúbal" 72,
    "Évora" 20,
    "Portalegre" 12,
    "Braga" 104,
@@ -32,9 +31,11 @@
    "Vila Real" 33,
    "Guarda" 22,
    "Aveiro" 73,
-   "Viseu" 54})
+   "Viseu" 54
+   nil 151})
 
-(def key->district-human
+;;TODO:delete
+#_(def key->district-human
   {"setubal" "Setúbal",
    "viana-do-castelo" "Viana do Castelo",
    "leiria" "Leiria",
@@ -55,24 +56,24 @@
    "viseu" "Viseu"})
 
 (defn index [{:keys [lang] :as req}]
-  (let [title (format (copy [:dir/title lang]))
-        data (->> districts
-                  (remove #(-> % first nil?))
-                  (sort #(compare (first %1) (first %2))))]
+  (let [h (->> districts
+               (remove #(-> % first nil?))
+               (sort (fn [[one _] [two _]]
+                       (compare one two)))
+               (map (fn [[district-human n-school]]
+                      (let [district-key (string->keywordize district-human)
+                            href (format (copy [:href/district lang]) district-key)
+                            district-label (str " (" n-school " " (copy [:school lang]) "s)")]
+                        [:h5 [:a {:href href} district-human] [:span.opacity35 district-label]])))
+               (into [:div.container
+                      [:h2 (format (copy [:dir/title lang]))]
+                      (breadcrumbs {} lang)]))]
     [:html
      (tmp/header
       (merge (content lang) req)
       [:main
-       (->> data
-            (map #(let [district-human (first %)
-                        district-key (string->keywordize district-human)
-                        href (format (copy [:href/district lang]) district-key)
-                        n-school (last %)
-                        district-label (str " (" n-school " " (copy [:school lang]) "s)")]
-                    [:h5 [:a {:href href} district-human] [:span.opacity35 district-label]]))
-            (into [:div.container
-                   [:h2 title]
-                   (breadcrumbs {} lang)]))])]))
+       (into h [[:h5 [:a {:href (copy [:href/nil-concelho lang])} (copy [:no-district lang])]
+                 [:span.opacity35 (str " (" (get districts nil) " " (copy [:school lang]) "s)")]]])])]))
 
 (defn district-data [k]
   (try
@@ -91,7 +92,7 @@
      (tmp/header
       (merge (content-list lang) req)
       [:main
-       (->> lists
+       #_(->> lists
             (map #(let [municipality-human (first %)
                         municipality-key (string->keywordize municipality-human)
                         href (format (copy [:href/municipality lang]) district municipality-key)

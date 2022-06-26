@@ -61,25 +61,24 @@
 
 (defn pt->en [path]
   (let [res (get pt->en-map path)]
-    (cond
-      res res
-      (clj-str/includes? path "escolas") (str "/en" (clj-str/replace path "escolas" "schools"))
-      (clj-str/includes? path "concelhos") (str "/en" (clj-str/replace path "concelhos" "municipalities"))
-      (clj-str/includes? path "distritos") (str "/en" (clj-str/replace path "distritos" "districts")))))
+    (if res
+      res
+      (str "/en"
+           (cond-> path
+             (clj-str/includes? path "escolas") (clj-str/replace "escolas" "schools")
+             (clj-str/includes? path "concelhos") (clj-str/replace "concelhos" "municipalities")
+             (clj-str/includes? path "distritos-regioes") (clj-str/replace "distritos-regioes" "districts-regions"))))))
 
 (defn en->pt [path]
   (let [res (get en->pt-map path)]
-    (cond
-      res res
-      (clj-str/includes? path "schools") (-> path
-                                            (clj-str/replace "/en" "")
-                                            (clj-str/replace "schools" "escolas"))
-      (clj-str/includes? path "municipalities") (-> path
-                                                  (clj-str/replace "/en" "")
-                                                  (clj-str/replace "municipalities" "concelhos"))
-      (clj-str/includes? path "districts") (-> path
-                                                  (clj-str/replace "/en" "")
-                                                  (clj-str/replace "districts" "distritos")))))
+    (if res
+      res
+      (->
+       (cond-> path
+         (clj-str/includes? path "schools") (clj-str/replace "schools" "escolas")
+         (clj-str/includes? path "municipalities") (clj-str/replace "municipalities" "concelhos")
+         (clj-str/includes? path "districts-regions") (clj-str/replace "districts-regions" "distritos-regioes"))
+       (clj-str/replace "/en" "")))))
 
 #_(en->pt "/en/school/abc")
 

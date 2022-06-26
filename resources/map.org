@@ -38,7 +38,8 @@
 
 *** TODO SEO directory list
     :LOGBOOK:
-    CLOCK: [2022-06-26 Sun 18:03]
+    CLOCK: [2022-06-26 Sun 18:38]
+    CLOCK: [2022-06-26 Sun 18:03]--[2022-06-26 Sun 18:27] =>  0:24
     CLOCK: [2022-06-26 Sun 12:46]--[2022-06-26 Sun 13:29] =>  0:43
     CLOCK: [2022-06-25 Sat 11:38]--[2022-06-25 Sat 12:43] =>  1:05
     CLOCK: [2022-06-23 Thu 16:16]--[2022-06-23 Thu 17:19] =>  1:03
@@ -50,8 +51,11 @@
 
 
 - [X] Breadcrumbs fix using human labels instead of keys
-- [ ] EN routing at index.clj needs to reflect the new structure
+- [X] EN routing at index.clj needs to reflect the new structure
 - [ ] no imt profile schools
+  - put list in index
+  - breadcrumbs in school and list
+  - end
 - [ ] autocomplete with new url structure
 
 - [X] PT routing at index.clj needs to reflect the new structure

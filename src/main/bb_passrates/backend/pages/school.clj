@@ -23,7 +23,9 @@
 
 (defn school-data [{:keys [district concelho school] :as req}]
   (try
-    (-> (format "./data/escola-%s-%s-%s.edn" district  concelho school) slurp edn/read-string)
+    (if district
+      (-> (format "./data/escola-%s-%s-%s.edn" district  concelho school) slurp edn/read-string)
+      (-> (format "./data/escola-nil-%s.edn" "autopropostos-apec-03004" #_school) slurp edn/read-string))
     (catch Exception e '())))
 
 (def year-selector

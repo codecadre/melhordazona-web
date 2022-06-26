@@ -20,7 +20,9 @@
 
 (defn school-list [{:keys [district concelho]}]
   (try
-    (get-place-list :concelho (format "%s-%s" district concelho))
+    (if district
+      (get-place-list :concelho (format "%s-%s" district concelho))
+      (get-place-list :concelho "nil"))
     (catch Exception e '())))
 
 (defn content [lang place n]
@@ -129,23 +131,8 @@
         school-cards]])]))
 
 
-(defn no-imt-profile [{:keys [lang concelho district] :as req}]
-  (let [year-selector #{#_#_#_"2015" "2016" "2017" "2018" "2019" "2020"}
-        schools (try
-                  (-> "./data/concelho-nil.edn"  slurp edn/read-string)
-                  (catch Exception e '()))
-        schools (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)) schools)
-        hiccup-school (fn [lang [k {:keys [rates]}]]
-                        (let [name (-> rates first :r/name-raw address->human)
-                              svg (svg/pop-up-svg lang (svg/parse-d-smart rates :d year-selector) (count year-selector))]
-                          [:div.school-card {:id k}
-                           [:p.label "Nome"]
-                           [:p.field name]
-                           [:div.ratings
-                            svg]
-                           [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]
-                           [:a.ver-mais {:href (format (copy [:autocomplete/li-href :school lang]) k)} (copy [:list/pop-up-more lang])]]))
-        meta {:title (copy [:meta/title lang])
+(defn no-imt-profile [{:keys [lang] :as req}]
+  (let [meta {:title (copy [:meta/title lang])
               :subtitle "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."}]
     [:html
      (tmp/header
@@ -154,18 +141,12 @@
        [:div.container
         [:p "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."]
 
-        [:div
-         (map-indexed
-          #(vector :p.no [:a {:href (str "#" (-> %2 first)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw address->human))])
-          schools)]
-        (->> schools
-             (map (partial hiccup-school lang))
-             (partition 2 2 nil)
-             (reduce (fn [acc [s1 s2]]
-                       (conj acc [:div.row
-                                  [:div.columns.six s1]
-                                  [:div.columns.six s2]]))
-                     [:div.list]))]])]))
+        #_[:div
+         (->>
+          (school-list {})
+          (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)))
+          (map-indexed
+           #(vector :p.no [:a {:href (format (copy [:href/school-nil-concelho lang]) (first %2)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw address->human))])))]]])]))
 
 
 (comment
