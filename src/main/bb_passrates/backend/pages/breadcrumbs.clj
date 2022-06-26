@@ -37,4 +37,10 @@
      [:span " > "]
      [:a {:href (format (copy [:href/district-index lang]))} (format (copy [:dir/breadcrumb-district-region lang]))]
      [:span " > "]
-     [:span (format (copy [:no-district lang]))]]))
+     (if (= 2 lvl)
+       [:a {:href (format (copy [:href/nil-concelho lang]))} (format (copy [:no-district lang]))]
+       [:span (format (copy [:no-district lang]))])
+     (when school-name
+       [:span " > "])
+     (when school-name
+       [:span school-name])]))

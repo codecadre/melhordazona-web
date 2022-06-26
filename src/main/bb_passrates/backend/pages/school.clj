@@ -6,7 +6,7 @@
             [bb-passrates.shared.main :refer [get-place-list string->keywordize
                                               address->human]]
             [bb-passrates.shared.copy :refer [copy]]
-            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs]]
+            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs no-info-breadcrumbs]]
             ))
 
 ;;TODO after copy
@@ -25,7 +25,7 @@
   (try
     (if district
       (-> (format "./data/escola-%s-%s-%s.edn" district  concelho school) slurp edn/read-string)
-      (-> (format "./data/escola-nil-%s.edn" "autopropostos-apec-03004" #_school) slurp edn/read-string))
+      (-> (format "./data/escola-nil-%s.edn" #_"autopropostos-apec-03004" school) slurp edn/read-string))
     (catch Exception e '())))
 
 (def year-selector
@@ -52,12 +52,13 @@
           (if imt-profile
             [:h4.name (:name imt-profile)]
             [:h4.name (-> rates first :r/name-raw address->human)])
-          (when imt-profile
+          (if imt-profile
             (breadcrumbs {:district district
                           :district-key district-key
                           :concelho concelho
                           :concelho-key concelho-key
-                          :school-name name} lang))
+                          :school-name name} lang)
+            (no-info-breadcrumbs {:school-name (-> rates first :r/name-raw address->human)} lang))
           [:div.row
            (when imt-profile
              [:div.six.columns

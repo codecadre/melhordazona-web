@@ -75,7 +75,10 @@
            ;;TODO deprecate till here
 
            [:get ["distritos-regioes" "sem-info"]] (no-imt-profile-handler req)
-           #_#_[:get ["distritos-regioes" "sem-info" "escolas" school]] (escola-handler (assoc req :school school :concelho nil :district nil))
+           [:get ["en" "districts-regions" "no-info"]] (no-imt-profile-handler req)
+
+           [:get ["distritos-regioes" "sem-info" "escolas" school]] (escola-handler (assoc req :school school))
+           [:get ["en" "districts-regions" "no-info" "schools" school]] (escola-handler (assoc req :school school))
 
            [:get ["distritos-regioes"]] (district-index-handler req)
            [:get ["en" "districts-regions"]] (district-index-handler req)

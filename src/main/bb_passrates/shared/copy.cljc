@@ -9,7 +9,7 @@
    :no-data {:pt "Sem Dados"
              :en "No Data"}
    :no-district {:pt "Sem informação no site do IMT"
-                 :en "No Data"}
+                 :en "No Data in IMT website"}
    :concelho {:pt "Concelho"
               :en "Municipality"}
    :distrito {:pt "Distrito"
@@ -34,9 +34,9 @@
    :href/school {:pt "/distritos-regioes/%s/concelhos/%s/escolas/%s/"
                  :en "/en/districts-regions/%s/municipalities/%s/schools/%s/"}
    :href/nil-concelho {:pt "/distritos-regioes/sem-info/"
-                       :en "/en/districts-regions/%s/municipalities/%s/schools/%s/"}
+                       :en "/en/districts-regions/no-info/"}
    :href/school-nil-concelho {:pt "/distritos-regioes/sem-info/escolas/%s/"
-                              :en "/en/districts-regions/%s/municipalities/%s/schools/%s/"}
+                              :en "/en/districts-regions/no-info/schools/%s/"}
    ;;
    ;; autocomplete
    ;;
