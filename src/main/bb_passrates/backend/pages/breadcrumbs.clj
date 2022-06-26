@@ -28,3 +28,13 @@
        [:span " > "])
      (when school-name
        [:span school-name])]))
+
+(defn no-info-breadcrumbs [{:keys [school-name] :as opt} lang]
+  (let [lvl (cond (empty? opt) 1
+                  :else 2)]
+    [:p
+     [:a {:href (if (= lang :pt) "/" "/en/")} "Home"]
+     [:span " > "]
+     [:a {:href (format (copy [:href/district-index lang]))} (format (copy [:dir/breadcrumb-district-region lang]))]
+     [:span " > "]
+     [:span (format (copy [:no-district lang]))]]))

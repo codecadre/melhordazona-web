@@ -92,7 +92,7 @@
      (tmp/header
       (merge (content-list lang) req)
       [:main
-       #_(->> lists
+       (->> lists
             (map #(let [municipality-human (first %)
                         municipality-key (string->keywordize municipality-human)
                         href (format (copy [:href/municipality lang]) district municipality-key)

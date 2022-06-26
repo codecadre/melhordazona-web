@@ -6,7 +6,7 @@
             [bb-passrates.shared.svg :as svg]
             [bb-passrates.shared.main :refer [get-place-list k->human address->human string->keywordize]]
             [bb-passrates.shared.copy :refer [copy]]
-            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs]]))
+            [bb-passrates.backend.pages.breadcrumbs :refer [no-info-breadcrumbs breadcrumbs]]))
 
 ;;TODO after copy
 ;;link this to methodology instead
@@ -140,8 +140,8 @@
       [:main
        [:div.container
         [:p "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."]
-
-        #_[:div
+        (no-info-breadcrumbs {} lang)
+        [:div
          (->>
           (school-list {})
           (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)))
