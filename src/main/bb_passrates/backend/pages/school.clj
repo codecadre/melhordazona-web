@@ -6,6 +6,7 @@
             [bb-passrates.shared.main :refer [get-place-list string->keywordize
                                               address->human]]
             [bb-passrates.shared.copy :refer [copy]]
+            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs]]
             ))
 
 ;;TODO after copy
@@ -50,19 +51,11 @@
             [:h4.name (:name imt-profile)]
             [:h4.name (-> rates first :r/name-raw address->human)])
           (when imt-profile
-            [:p
-             [:a {:href (if (= lang :pt) "/" "/en/")} "Home"]
-             [:span " > "]
-             [:a {:href (format (copy [:href/district-index lang]))} (str (format (copy [:dir/breadcrumb-district-region lang])))]
-             [:span " > "]
-             [:a {:href (format (copy [:href/district lang]) district-key)} district]
-             [:span " > "]
-             [:a {:href (format (copy [:href/municipality lang]) district-key concelho-key)} concelho]
-             [:span " > "]
-             [:span name]]
-
-
-            )
+            (breadcrumbs {:district district
+                          :district-key district
+                          :concelho concelho
+                          :concelho-key concelho
+                          :school-name name} lang))
           [:div.row
            (when imt-profile
              [:div.six.columns

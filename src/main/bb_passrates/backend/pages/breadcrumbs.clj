@@ -4,7 +4,8 @@
 (defn breadcrumbs [{:keys [district district-key concelho concelho-key school-name] :as opt} lang]
   (let [lvl (cond (empty? opt) 1
                   (and (nil? concelho) (nil? school-name)) 2
-                  (nil? school-name) 3)]
+                  (nil? school-name) 3
+                  :else 4)]
     [:p
      [:a {:href (if (= lang :pt) "/" "/en/")} "Home"]
      [:span " > "]
@@ -23,8 +24,7 @@
        (if (= 3 lvl)
          [:span concelho]
          [:a {:href (format (copy [:href/municipality lang]) district-key concelho-key)} concelho]))
-     #_(
-        [:span " > "]
-        [:a {:href (format (copy [:href/municipality lang]) district-key concelho-key)} concelho]
-        [:span " > "]
-        [:span school-name])]))
+     (when school-name
+       [:span " > "])
+     (when school-name
+       [:span school-name])]))
