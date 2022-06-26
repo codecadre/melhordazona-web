@@ -52,9 +52,9 @@
             [:h4.name (-> rates first :r/name-raw address->human)])
           (when imt-profile
             (breadcrumbs {:district district
-                          :district-key district
+                          :district-key district-key
                           :concelho concelho
-                          :concelho-key concelho
+                          :concelho-key concelho-key
                           :school-name name} lang))
           [:div.row
            (when imt-profile
