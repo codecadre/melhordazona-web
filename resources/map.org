@@ -38,12 +38,24 @@
 
 *** TODO SEO directory list
     :LOGBOOK:
+    CLOCK: [2022-06-26 Sun 12:46]--[2022-06-26 Sun 13:29] =>  0:43
     CLOCK: [2022-06-25 Sat 11:38]--[2022-06-25 Sat 12:43] =>  1:05
     CLOCK: [2022-06-23 Thu 16:16]--[2022-06-23 Thu 17:19] =>  1:03
     CLOCK: [2022-06-23 Thu 14:27]--[2022-06-23 Thu 15:38] =>  1:11
     CLOCK: [2022-06-23 Thu 13:09]--[2022-06-23 Thu 13:14] =>  0:05
     CLOCK: [2022-06-23 Thu 11:58]--[2022-06-23 Thu 12:37] =>  0:39
     :END:
+
+routing at index.clj needs to reflect the new structure
+
+href in copy need to reflect the new structure
+
+file system needs to reflect new structure
+
+new component: breadcrumbs
+
+autocomplete with new url structure
+
 
 **** TODO 404 handling due to new url structure
      :LOGBOOK:

@@ -53,11 +53,11 @@
             [:p
              [:a {:href (if (= lang :pt) "/" "/en/")} "Home"]
              [:span " > "]
-             [:a {:href (format (copy [:district-index-href lang]))} (str (format (copy [:dir/breadcrumb-district-region lang])))]
+             [:a {:href (format (copy [:href/district-index lang]))} (str (format (copy [:dir/breadcrumb-district-region lang])))]
              [:span " > "]
-             [:a {:href (format (copy [:district-href lang]) district-key)} district]
+             [:a {:href (format (copy [:href/district lang]) district-key)} district]
              [:span " > "]
-             [:a {:href (format (copy [:municipality-href lang]) district-key concelho-key)} concelho]
+             [:a {:href (format (copy [:href/municipality lang]) district-key concelho-key)} concelho]
              [:span " > "]
              [:span name]]
 

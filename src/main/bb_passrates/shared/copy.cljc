@@ -23,13 +23,13 @@
    ;;
    ;;href
    ;;
-   :district-index-href {:pt "/distritos-regioes/"
+   :href/district-index {:pt "/distritos-regioes/"
                          :en "/en/districts-regions/"}
-   :district-href {:pt "/distritos-regioes/%s/"
+   :href/district {:pt "/distritos-regioes/%s/"
                    :en "/en/districts-regions/%s/"}
-   :municipality-href {:pt "/distritos-regioes/%s/concelhos/%s/"
+   :href/municipality {:pt "/distritos-regioes/%s/concelhos/%s/"
                        :en "/en/districts-regions/%s/municipalities/%s/"}
-   :school-href {:pt "/distritos-regioes/%s/concelhos/%s/escolas/%s/"
+   :href/school {:pt "/distritos-regioes/%s/concelhos/%s/escolas/%s/"
                  :en "/en/districts-regions/%s/municipalities/%s/schools/%s/"}
    ;;
    ;; autocomplete

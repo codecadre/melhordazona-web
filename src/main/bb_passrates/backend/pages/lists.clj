@@ -63,7 +63,7 @@
      [:div.ratings
       svg]
      [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]
-     [:a.ver-mais {:href (format (copy [:school-href lang]) district-key municipality-key k)} (copy [:list/pop-up-more lang])]
+     [:a.ver-mais {:href (format (copy [:href/school lang]) district-key municipality-key k)} (copy [:list/pop-up-more lang])]
      (when (nil? geocode)
        [:div.row
         [:div.column.one-half [:p.no-coord.label "†" #_[:sup ] (copy [:no-coord lang])]]])]))
@@ -116,9 +116,9 @@
         [:p
          [:a {:href (if (= lang :pt) "/" "/en/")} "Home"]
          [:span " > "]
-         [:a {:href (format (copy [:district-index-href lang]))} (str (format (copy [:dir/breadcrumb-district-region lang])))]
+         [:a {:href (format (copy [:href/district-index lang]))} (str (format (copy [:dir/breadcrumb-district-region lang])))]
          [:span " > "]
-         [:a {:href (format (copy [:district-href lang]) district)} (-> place-list first last :imt-profile :distrito)]
+         [:a {:href (format (copy [:href/district lang]) district)} (-> place-list first last :imt-profile :distrito)]
          [:span " > "]
          [:span human]
          ]
