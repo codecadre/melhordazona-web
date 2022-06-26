@@ -81,7 +81,7 @@
            [:get ["distritos-regioes" district]] (district-list-handler (assoc req :district district))
            [:get ["en" "districts-regions" district]] (district-list-handler (assoc req :district district))
 
-           [:get ["distritos-regioes" district "municipios" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
+           [:get ["distritos-regioes" district "concelhos" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
            [:get ["en" "districts" district "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
 
            [:get ["distritos-regioes" district "concelhos" concelho "escolas" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))

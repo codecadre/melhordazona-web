@@ -5,7 +5,8 @@
             [clojure.edn :as edn]
             [bb-passrates.shared.svg :as svg]
             [bb-passrates.shared.main :refer [get-place-list k->human address->human string->keywordize]]
-            [bb-passrates.shared.copy :refer [copy]]))
+            [bb-passrates.shared.copy :refer [copy]]
+            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs]]))
 
 ;;TODO after copy
 ;;link this to methodology instead
@@ -97,7 +98,8 @@
      (/ (+ (apply min xx ) (apply max xx ))  2)]))
 
 (defn page [{:keys [concelho lang district] :as req} place-list]
-  (let [human (k->human concelho)
+  (let [concelho-human (-> place-list first last :imt-profile :concelho)
+        district-human (-> place-list first last :imt-profile :distrito)
         [lat long] (centroid- place-list)
         school-cards (->> place-list
                           (map (partial hiccup-school lang))
@@ -112,19 +114,14 @@
       (merge (content lang concelho (count place-list)) req)
       [:main
        [:div.container
-        [:h2 (format (copy [:list/h1 lang]) human)]
-        [:p
-         [:a {:href (if (= lang :pt) "/" "/en/")} "Home"]
-         [:span " > "]
-         [:a {:href (format (copy [:href/district-index lang]))} (str (format (copy [:dir/breadcrumb-district-region lang])))]
-         [:span " > "]
-         [:a {:href (format (copy [:href/district lang]) district)} (-> place-list first last :imt-profile :distrito)]
-         [:span " > "]
-         [:span human]
-         ]
+        [:h2 (format (copy [:list/h1 lang]) concelho-human)]
+        (breadcrumbs {:district district-human
+                      :district-key district
+                      :concelho concelho-human
+                      :concelho-key concelho} lang)
         (let [[one two three] (copy [:list/header-copy lang])]
           [:div
-           [:p (format one (count place-list) human)]
+           [:p (format one (count place-list) concelho-human)]
            [:p two]
            [:p.strong three]])
         [:div.map-wrapper
