@@ -31,11 +31,6 @@
       [:p.top-level-item (copy [:project lang])]
       [:p.item [:a {:href "https://github.com/codecadre"} "Open Source"]]
       #_[:p.item "About"]]
-     (when (= :pt lang)
-       [:div.columns.two
-        [:p.top-level-item "Escolas"]
-        [:p.item [:a {:href "/escola-sem-morada-imt/"} "Sem morada"]]
-        #_[:p.item "About"]])
      #_[:div.columns.two
       [:p.top-level-item "Legal"]
       [:p.item "Privacy Policy"]
