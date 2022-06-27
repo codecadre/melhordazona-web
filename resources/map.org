@@ -13,10 +13,6 @@
     :END:
 
 
-** TODO clean up no imt page list
-
-
-
 ** TODO SEO & PWA
 *** DONE bit of research
     :LOGBOOK:
@@ -25,7 +21,7 @@
 
 *** DONE Title and subtitle
    :LOGBOOK:
-   CLOCK: [2022-06-15 Wed 16:25]--[2022-06-15 Wed 17:00] =>  0:35
+   CLOCK: [2022-06-13 Mon 16:25]--[2022-06-15 Wed 17:00] => 48:35
    CLOCK: [2022-06-15 Wed 15:42]--[2022-06-15 Wed 16:11] =>  0:29
    :END:
 
@@ -39,6 +35,72 @@
     - [X] footer
     - [X] list
     - [X] Single page
+
+*** TODO SEO directory list
+    :LOGBOOK:
+    CLOCK: [2022-06-27 Mon 12:04]--[2022-06-27 Mon 12:36] =>  0:32
+    CLOCK: [2022-06-26 Sun 21:47]--[2022-06-26 Sun 22:20] =>  0:33
+    CLOCK: [2022-06-26 Sun 21:07]--[2022-06-26 Sun 21:13] =>  0:06
+    CLOCK: [2022-06-26 Sun 18:38]--[2022-06-26 Sun 20:11] =>  1:33
+    CLOCK: [2022-06-26 Sun 18:03]--[2022-06-26 Sun 18:27] =>  0:24
+    CLOCK: [2022-06-26 Sun 12:46]--[2022-06-26 Sun 13:29] =>  0:43
+    CLOCK: [2022-06-25 Sat 11:38]--[2022-06-25 Sat 12:43] =>  1:05
+    CLOCK: [2022-06-23 Thu 16:16]--[2022-06-23 Thu 17:19] =>  1:03
+    CLOCK: [2022-06-23 Thu 14:27]--[2022-06-23 Thu 15:38] =>  1:11
+    CLOCK: [2022-06-23 Thu 13:09]--[2022-06-23 Thu 13:14] =>  0:05
+    CLOCK: [2022-06-23 Thu 11:58]--[2022-06-23 Thu 12:37] =>  0:39
+    :END:
+
+- [ ] check if metadata is on every page and what google expects
+
+
+- [X] autocomplete with new url structure
+
+{:name "Escola De Condução 100%",
+  :type :school,
+  :k :100-00910,
+  :search-field "escola de conducao 100",
+  :href "/escolas/100-00910"}
+
+
+type name [district concelho key]
+
+:s "Escola De Condução 100%" [lisboa lisboa keywordize-from-name]
+:s "Escola De Condução 100%" nil
+:c "Lisboa" [lisboa] - only the district
+
+- [X] Breadcrumbs fix using human labels instead of keys
+- [X] EN routing at index.clj needs to reflect the new structure
+- [X] no imt profile schools
+  - [X] put list in index
+  - [X] Display list
+  - [X] Breadcrumbs in list
+  - [X] school with no info opens up
+  - [X] breadcrumbs in school
+  - [X] en
+
+
+- [X] PT routing at index.clj needs to reflect the new structure
+- [X] href in copy need to reflect the new structure
+- [X] file system needs to reflect new structure
+- [X] new component: breadcrumbs
+
+
+
+
+**** TODO 404 handling due to new url structure
+     :LOGBOOK:
+     CLOCK: [2022-06-23 Thu 21:24]--[2022-06-23 Thu 21:55] =>  0:31
+     CLOCK: [2022-06-23 Thu 17:19]--[2022-06-23 Thu 17:27] =>  0:08
+     :END:
+
+**** DONE Breadcrums
+     #
+     :LOGBOOK:
+     CLOCK: [2022-06-23 Thu 12:54]--[2022-06-23 Thu 13:09] =>  0:15
+     :END:
+
+*** DONE clean up no imt page list
 
 *** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 

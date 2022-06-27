@@ -1,7 +1,7 @@
 (ns bb-passrates.frontend.autocomplete
   (:require [clojure.string :as clj-str]
             [bb-passrates.shared.places :refer [places]]
-            [bb-passrates.shared.main :refer [query-place-list seo]]
+            [bb-passrates.shared.main :refer [query-place-list string->keywordize string->keywordize-opt]]
             [bb-passrates.shared.copy :refer [copy]]
             [goog.string :as gstring]
             [goog.string.format]))
@@ -20,18 +20,18 @@
     (.classList.remove box "hidden")
     (.classList.add box "show")))
 
-(defn dom-build-li [{:keys [type name k search-field href] :as suggestion}]
+(defn dom-build-li [{:keys [school? href name] :as suggestion}]
   (let [li (.createElement js/document "li")
         a (.createElement js/document "a")
-        span (.createElement js/document "span")]
+        span (.createElement js/document "span")
+        type (if school? :school :concelho)]
 
     ;;span
     (.classList.add span "suggestion-type")
     (set! (.-innerText span) (copy [type lang]))
 
     ;;a
-    (.setAttribute a "href" (gstring/format (copy [:autocomplete/li-href type lang])
-                                            (.-name k)))
+    (.setAttribute a "href" href)
     (set! (.-innerText a) name)
 
     (.appendChild a span)
@@ -60,13 +60,12 @@
         (.classList.remove
          search-wrapper "active")))
 
-(defn on-key-fn [ev]
+(defn on-key-fn [places ev]
   (let [query-string (when ev (-> ev .-target .-value))
         above-min? (and query-string (> (count query-string) 1))
         suggestion-box (.querySelector js/document ".search-input .autocomplete-box")
         suggestion (when above-min?
-                     (->> (query-place-list places query-string)
-                          (sort #(compare (str (:type %1)) (str (:type %2))))))
+                     (query-place-list places query-string))
         results? (not (empty? suggestion))
         li-html (when suggestion
                   (map dom-build-li suggestion))]
@@ -103,12 +102,47 @@
     (.classList.remove html "mobile-overwrite")
     (.classList.remove input "mobile-opacity-zero")))
 
+(defn parse-list [list]
+  (->> list
+       (sort #(compare (str (first %2)) (str (first %1))))
+       (map (fn [item]
+              (let [school? (-> item first (= :s))
+                    concelho? (-> item first (= :c))
+                    no-imt-profile? (and school? (-> item last first nil?))
+                    name (if school? (nth item 1) (-> item last))
+                    search-field (if school?
+                                   (string->keywordize-opt (nth item 1) " ")
+                                   (string->keywordize-opt (nth item 2) " "))
+                    district-key (if school?
+                                   (-> item (nth 2) first)
+                                   (-> item (nth 1)))
+                    concelho-key (cond
+                                   no-imt-profile? nil
+                                   school? (-> item (nth 2) (nth 1))
+                                   :else (-> item last string->keywordize))
+                    href (cond
+                           (not school?) (gstring/format (copy [:href/municipality lang])
+                                                         district-key concelho-key)
+                           (and no-imt-profile? school?)
+                           (gstring/format (copy [:href/school-nil-concelho lang]) (-> item last last))
+                           school?
+                           (gstring/format (copy [:href/school lang])
+                                           district-key concelho-key (-> item last last)))]
+                (hash-map
+                 :school? (if school? true false)
+                 :concelho? (if concelho? true false)
+                 :no-imt-profile? (if no-imt-profile? true false)
+                 :name name
+                 :search-field search-field
+                 :href href))))))
+
 (defn autocomplete-cmp []
   (let [input (.querySelector js/document ".search-wrapper .search-input input")
-        back (.querySelector js/document ".search-wrapper .search-input .back")]
+        back (.querySelector js/document ".search-wrapper .search-input .back")
+        parsed-list (parse-list places)]
     (when input
       (do
         (set! (.-disabled input) false)
         (set! (.-onclick back) back-home-fn)
         (set! (.-onfocus input) (partial expand-search-fn input))
-        (set! (.-onkeyup input) on-key-fn)))))
+        (set! (.-onkeyup input) (partial on-key-fn parsed-list))))))

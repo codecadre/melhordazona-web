@@ -6,6 +6,7 @@
             [bb-passrates.shared.main :refer [get-place-list string->keywordize
                                               address->human]]
             [bb-passrates.shared.copy :refer [copy]]
+            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs no-info-breadcrumbs]]
             ))
 
 ;;TODO after copy
@@ -20,9 +21,11 @@
   {:title (format (copy [:school/meta-title lang]) name)
    :subtitle (format (copy [:meta/subtitle-school lang]) name (or concelho "sem morada no IMT"))})
 
-(defn school-data [k]
+(defn school-data [{:keys [district concelho school] :as req}]
   (try
-    (-> (str "./data/escola-" k ".edn") slurp edn/read-string)
+    (if district
+      (-> (format "./data/escola-%s-%s-%s.edn" district  concelho school) slurp edn/read-string)
+      (-> (format "./data/escola-nil-%s.edn" #_"autopropostos-apec-03004" school) slurp edn/read-string))
     (catch Exception e '())))
 
 (def year-selector
@@ -31,7 +34,13 @@
 (defn page [url-map {:keys [nec rates geocode imt-profile] :as school}]
   (let [lang (:lang url-map)
         lat (:y geocode)
-        long (:x geocode)]
+        long (:x geocode)
+        concelho (:concelho imt-profile)
+        concelho-key (if concelho (string->keywordize concelho) "no-info")
+        district (:distrito imt-profile)
+        district-key (if district (string->keywordize district) "no-info")
+        name (:name imt-profile)
+        name-key (if name name "NO IMT NAME TODO")]
     [:html
      (tmp/header
       (merge (content lang imt-profile) url-map)
@@ -43,10 +52,13 @@
           (if imt-profile
             [:h4.name (:name imt-profile)]
             [:h4.name (-> rates first :r/name-raw address->human)])
-          (when imt-profile
-            [:p [:a {:href (format (copy [:autocomplete/li-href :concelho lang])
-                                   (-> imt-profile :concelho string->keywordize) )  }
-                 (format (copy [:school/back lang])  (:concelho imt-profile))]])
+          (if imt-profile
+            (breadcrumbs {:district district
+                          :district-key district-key
+                          :concelho concelho
+                          :concelho-key concelho-key
+                          :school-name name} lang)
+            (no-info-breadcrumbs {:school-name (-> rates first :r/name-raw address->human)} lang))
           [:div.row
            (when imt-profile
              [:div.six.columns

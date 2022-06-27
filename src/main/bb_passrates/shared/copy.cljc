@@ -8,6 +8,8 @@
 
    :no-data {:pt "Sem Dados"
              :en "No Data"}
+   :no-district {:pt "Sem informação no site do IMT"
+                 :en "No Data in IMT website"}
    :concelho {:pt "Concelho"
               :en "Municipality"}
    :distrito {:pt "Distrito"
@@ -19,16 +21,32 @@
    :ribbon {:pt "Dados 2015-2020"
             :en "2015-2020 Data"}
    :project {:pt "Projecto" :en "Project"}
+
+   ;;
+   ;;href
+   ;;
+   :href/district-index {:pt "/distritos-regioes/"
+                         :en "/en/districts-regions/"}
+   :href/district {:pt "/distritos-regioes/%s/"
+                   :en "/en/districts-regions/%s/"}
+   :href/municipality {:pt "/distritos-regioes/%s/concelhos/%s/"
+                       :en "/en/districts-regions/%s/municipalities/%s/"}
+   :href/school {:pt "/distritos-regioes/%s/concelhos/%s/escolas/%s/"
+                 :en "/en/districts-regions/%s/municipalities/%s/schools/%s/"}
+   :href/nil-concelho {:pt "/distritos-regioes/sem-info/"
+                       :en "/en/districts-regions/no-info/"}
+   :href/school-nil-concelho {:pt "/distritos-regioes/sem-info/escolas/%s/"
+                              :en "/en/districts-regions/no-info/schools/%s/"}
    ;;
    ;; autocomplete
    ;;
 
+   ;;todo deprecate
    :autocomplete/li-href {:school {:pt "/escolas/%s/"
                                    :en "/en/schools/%s/"}
                           :concelho {:pt "/concelhos/%s/"
                                      :en "/en/municipalities/%s/"}
-                          :distrito {:pt "/distritos/%s/"
-                                     :en "/en/districts/%s/"}}
+}
    :autocomplete/district {:pt "Distrito"
                            :en "District"}
    :autocomplete/municipality {:pt "Município"
@@ -110,6 +128,21 @@
    ;; meta
    ;;
 
+   :no-imt-data/title {:pt "Escolas sem morada | Passa à Primeira"
+                       :en "Schools with missing addresses | Passa à Primeira"}
+   :no-imt-data/subtitles {:pt "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."
+                           :en "List of schools com pass rates data, but with no address info in the IMT website."}
+
+   :directory/meta-title {:pt "Diretório de escolas de condução para todo o país | Passa à Primeira"
+                          :en "Driving school directory for Portugal | Passa à Primeira"}
+   :directory/subtitle {:pt "Procura escolas de condução por distrito e concelho"
+                        :en "Find driving schools by district and municipality"}
+
+   :directory-list/meta-title {:pt "Escolas de condução nos concelhos do distrito de %s | Passa à Primeira"
+                               :en "Municipalities in %s district in Portugal | Passa à Primeira"}
+   :directory-list/subtitle {:pt "Escolas de condução por concelho no distrito de %s. Dados do IMT."
+                             :en "Driving schools listed by municipality in the district of %s, in Portugal. Using official government data (IMT)."}
+
    :school/meta-title {:pt "Escola de condução: %s - Morada e taxa de aprovação IMT | Passa à Primeira"
                        :en "Driving school: %s - Official government data | Passa à Primeira"}
    :meta/subtitle-school {:pt "Taxas de aprovação IMT da escola de condução %s, em %s. Dados referentes aos últimos seis anos. Contabilizando todas as categorias (condução, mota, etc) e apenas pasagem à primeira."
@@ -139,6 +172,8 @@
                      :en "Your (un)official guide to IMT pass-rates"}
    :nav/search {:pt "Pesquisa"
                 :en "Search"}
+   :nav/dir {:pt "Directório"
+             :en "Directory"}
    :nav/about {:pt "Acerca"
                :en "About"}
    :nav/faq {:pt "FAQ"
@@ -156,6 +191,17 @@
    :footer/subtitle {:pt
                      ["Dados públicos com acessibilidade gratuita e foco na privacidade do utilizador. Realizado por " " para " "."]
                      :en ["Free access to government data focused on user privacy. Done by " " for " "."]}
+
+   ;;
+   ;; Directory
+   ;;
+
+   :dir/title {:pt "Diretório de escolas de condução"
+               :en "Driving school directory"}
+   :dir/list-title {:pt "Diretório de escolas de condução no distrito de %s"
+                    :en "Driving school directory in %s district"}
+   :dir/breadcrumb-district-region {:pt "Distritos e Regiôes"
+                                    :en "District and Regions"}
 })
 
 (defn copy [p]

@@ -61,21 +61,26 @@
 
 (defn pt->en [path]
   (let [res (get pt->en-map path)]
-    (cond
-      res res
-      (clj-str/includes? path "escolas") (str "/en" (clj-str/replace path "escolas" "schools"))
-      (clj-str/includes? path "concelhos") (str "/en" (clj-str/replace path "concelhos" "municipalities")))))
+    (if res
+      res
+      (str "/en"
+           (cond-> path
+             (clj-str/includes? path "escolas") (clj-str/replace "escolas" "schools")
+             (clj-str/includes? path "concelhos") (clj-str/replace "concelhos" "municipalities")
+             (clj-str/includes? path "distritos-regioes") (clj-str/replace "distritos-regioes" "districts-regions")
+             (clj-str/includes? path "sem-info") (clj-str/replace "sem-info" "no-info"))))))
 
 (defn en->pt [path]
   (let [res (get en->pt-map path)]
-    (cond
-      res res
-      (clj-str/includes? path "schools") (-> path
-                                            (clj-str/replace "/en" "")
-                                            (clj-str/replace "schools" "escolas"))
-      (clj-str/includes? path "municipalities") (-> path
-                                                  (clj-str/replace "/en" "")
-                                                  (clj-str/replace "municipalities" "concelhos")))))
+    (if res
+      res
+      (->
+       (cond-> path
+         (clj-str/includes? path "schools") (clj-str/replace "schools" "escolas")
+         (clj-str/includes? path "municipalities") (clj-str/replace "municipalities" "concelhos")
+         (clj-str/includes? path "districts-regions") (clj-str/replace "districts-regions" "distritos-regioes")
+         (clj-str/includes? path "no-info") (clj-str/replace "no-info" "sem-info"))
+       (clj-str/replace "/en" "")))))
 
 #_(en->pt "/en/school/abc")
 
@@ -102,6 +107,9 @@
          [:span "]"]
          [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
           [:a {:href (path->href "/" req)} (copy [:nav/search lang])]]
+         [(if  (or (= uri "/en/districts-regions/") (= uri "/distritos-regioes/"))
+            :div.menu-item.selected :div.menu-item)
+          [:a {:href (copy [:href/district-index lang])} (copy [:nav/dir lang])]]
          [:div.menu-item [:a {:href "/paginas/acerca/"} (copy [:nav/about lang])]]
          #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
          #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
