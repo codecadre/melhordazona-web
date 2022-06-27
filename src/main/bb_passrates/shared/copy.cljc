@@ -41,12 +41,6 @@
    ;; autocomplete
    ;;
 
-   ;;todo deprecate
-   :autocomplete/li-href {:school {:pt "/escolas/%s/"
-                                   :en "/en/schools/%s/"}
-                          :concelho {:pt "/concelhos/%s/"
-                                     :en "/en/municipalities/%s/"}
-}
    :autocomplete/district {:pt "Distrito"
                            :en "District"}
    :autocomplete/municipality {:pt "Município"

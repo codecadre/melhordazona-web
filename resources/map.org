@@ -1,18 +1,7 @@
 * 3rd iteration - after release
 
-** TODO yak shaving
-*** DONE deprecate href in places
-      :href "/escolas/5-estrelas-01404"
-*** TODO clean TODO
-*** TODO sort these
-          "dependencies": {
--        "leaflet": "^1.7.1",
--        "puppeteer": "^13.6.0"
-+        "leaflet": "^1.7.1"
-       },
-       "devDependencies": {
-         "shadow-cljs": "^2.17.8"
-       }
+*** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
+
 ** TODO final styling rounds
 *** TODO location of percentage looks weird (maybe for third release)
 *** TODO clean up svg label spacing
@@ -27,6 +16,20 @@
     :LOGBOOK:
     CLOCK: [2022-06-04 Sat 10:12]--[2022-06-04 Sat 10:36] =>  0:24
     :END:
+
+** TODO yak shaving
+*** DONE deprecate href in places
+      :href "/escolas/5-estrelas-01404"
+*** DONE clean TODO
+*** TODO sort these
+          "dependencies": {
+-        "leaflet": "^1.7.1",
+-        "puppeteer": "^13.6.0"
++        "leaflet": "^1.7.1"
+       },
+       "devDependencies": {
+         "shadow-cljs": "^2.17.8"
+       }
 
 ** TODO COPY
 *** TODO translate about
@@ -54,7 +57,7 @@
 ** TODO link no-coord to faq when written
 ** TODO cleanup address from the source
 
-*** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
+
 
 
 ** DONE Link Open source in the footer
