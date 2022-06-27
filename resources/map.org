@@ -1,5 +1,62 @@
 * 3rd iteration - after release
 
+** TODO yak shaving
+*** DONE deprecate href in places
+      :href "/escolas/5-estrelas-01404"
+*** TODO clean TODO
+*** TODO sort these
+          "dependencies": {
+-        "leaflet": "^1.7.1",
+-        "puppeteer": "^13.6.0"
++        "leaflet": "^1.7.1"
+       },
+       "devDependencies": {
+         "shadow-cljs": "^2.17.8"
+       }
+** TODO final styling rounds
+*** TODO location of percentage looks weird (maybe for third release)
+*** TODO clean up svg label spacing
+*** TODO box-shadow issues and bring back the div separator
+*** TODO rounding of theory N exam
+*** TODO School page svg goes on top of the other when reducing window size
+*** TODO bring the home footer up
+*** TODO listing page bottom padding
+*** TODO change opacity of no coords
+*** DONE NO IMT listing fixes
+*** DONE Ribbon
+    :LOGBOOK:
+    CLOCK: [2022-06-04 Sat 10:12]--[2022-06-04 Sat 10:36] =>  0:24
+    :END:
+
+** TODO COPY
+*** TODO translate about
+*** TODO What Can we infer by the data
+*** TODO methodology
+    :LOGBOOK:
+    CLOCK: [2022-05-26 Thu 12:55]--[2022-05-26 Thu 13:49] =>  0:54
+    :END:
+
+*** TODO OS
+*** TODO Privacy
+*** TODO explainer page on the past projects
+    :LOGBOOK:
+    CLOCK: [2022-05-25 Wed 15:32]--[2022-05-25 Wed 16:07] =>  0:35
+    CLOCK: [2022-05-25 Wed 11:39]--[2022-05-25 Wed 12:31] =>  0:52
+    CLOCK: [2022-05-24 Tue 18:09]--[2022-05-24 Tue 18:20] =>  0:11
+    CLOCK: [2022-05-24 Tue 17:47]--[2022-05-24 Tue 18:09] =>  0:22
+    CLOCK: [2022-05-24 Tue 16:52]--[2022-05-24 Tue 17:47] =>  0:55
+    CLOCK: [2022-05-24 Tue 14:42]--[2022-05-24 Tue 16:52] =>  2:10
+    :END:
+
+*** TODO tech blog on babashka?
+
+** TODO school in azambuja shows up in lisbon concelho
+** TODO link no-coord to faq when written
+** TODO cleanup address from the source
+
+*** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
+
+
 ** DONE Link Open source in the footer
 
 *** merge page branch
@@ -36,7 +93,7 @@
     - [X] list
     - [X] Single page
 
-*** TODO SEO directory list
+*** DONE SEO directory list
     :LOGBOOK:
     CLOCK: [2022-06-27 Mon 12:04]--[2022-06-27 Mon 12:36] =>  0:32
     CLOCK: [2022-06-26 Sun 21:47]--[2022-06-26 Sun 22:20] =>  0:33
@@ -102,9 +159,8 @@ type name [district concelho key]
 
 *** DONE clean up no imt page list
 
-*** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 
-*** TODO progressive web apps
+
 
 *** DONE lang metatag
     :LOGBOOK:
@@ -122,63 +178,6 @@ type name [district concelho key]
    https://passaprimeira.xyz/concelhos/figueiro-dos-vinhos
 ** DONE URGENT fiz email in contacts
 ** DONE SORT OPEN SOURCE REPOS
-
-** TODO yak shaving
-*** TODO deprecate href in places
-      :href "/escolas/5-estrelas-01404"
-*** TODO clean TODO
-*** TODO sort these
-          "dependencies": {
--        "leaflet": "^1.7.1",
--        "puppeteer": "^13.6.0"
-+        "leaflet": "^1.7.1"
-       },
-       "devDependencies": {
-         "shadow-cljs": "^2.17.8"
-       }
-** TODO final styling rounds
-*** TODO location of percentage looks weird (maybe for third release)
-*** TODO clean up svg label spacing
-*** TODO box-shadow issues and bring back the div separator
-*** TODO rounding of theory N exam
-*** TODO School page svg goes on top of the other when reducing window size
-*** TODO NO IMT listing fixes
-*** TODO bring the home footer up
-*** TODO listing page bottom padding
-*** TODO change opacity of no coords
-*** DONE Ribbon
-    :LOGBOOK:
-    CLOCK: [2022-06-04 Sat 10:12]--[2022-06-04 Sat 10:36] =>  0:24
-    :END:
-
-** TODO COPY
-*** TODO translate about
-*** TODO What Can we infer by the data
-*** TODO methodology
-    :LOGBOOK:
-    CLOCK: [2022-05-26 Thu 12:55]--[2022-05-26 Thu 13:49] =>  0:54
-    :END:
-
-*** TODO OS
-*** TODO Privacy
-*** TODO explainer page on the past projects
-    :LOGBOOK:
-    CLOCK: [2022-05-25 Wed 15:32]--[2022-05-25 Wed 16:07] =>  0:35
-    CLOCK: [2022-05-25 Wed 11:39]--[2022-05-25 Wed 12:31] =>  0:52
-    CLOCK: [2022-05-24 Tue 18:09]--[2022-05-24 Tue 18:20] =>  0:11
-    CLOCK: [2022-05-24 Tue 17:47]--[2022-05-24 Tue 18:09] =>  0:22
-    CLOCK: [2022-05-24 Tue 16:52]--[2022-05-24 Tue 17:47] =>  0:55
-    CLOCK: [2022-05-24 Tue 14:42]--[2022-05-24 Tue 16:52] =>  2:10
-    :END:
-
-*** TODO tech blog on babashka?
-
-
-** TODO school in azambuja shows up in lisbon concelho
-
-** TODO link no-coord to faq when written
-
-** TODO cleanup address from the source
 
 
 * DONE 2 iteration
