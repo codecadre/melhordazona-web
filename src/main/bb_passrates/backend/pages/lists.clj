@@ -132,8 +132,8 @@
 
 
 (defn no-imt-profile [{:keys [lang] :as req}]
-  (let [meta {:title (copy [:meta/title lang])
-              :subtitle "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."}]
+  (let [meta {:title (copy [:no-imt-data/title lang])
+              :subtitle (copy [:no-imt-data/subtitle lang]) }]
     [:html
      (tmp/header
       (merge meta req)

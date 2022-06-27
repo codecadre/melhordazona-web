@@ -9,9 +9,9 @@
   {:title (copy [:directory/meta-title lang])
    :subtitle (copy [:directory/subtitle lang])})
 
-(defn content-list [lang]
-  {:title "..." #_(copy [:directory/meta-title lang])
-   :subtitle (copy [:directory/subtitle lang])})
+(defn content-list [lang district-human]
+  {:title (format (copy [:directory-list/meta-title lang]) district-human)
+   :subtitle (format (copy [:directory-list/subtitle lang]) district-human)})
 
 (def districts
   {"Setúbal" 72,
@@ -90,7 +90,7 @@
         title (format (copy [:dir/list-title lang]) district-name)]
     [:html
      (tmp/header
-      (merge (content-list lang) req)
+      (merge (content-list lang district-name) req)
       [:main
        (->> lists
             (map #(let [municipality-human (first %)
