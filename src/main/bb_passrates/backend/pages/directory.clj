@@ -34,27 +34,6 @@
    "Viseu" 54
    nil 151})
 
-;;TODO:delete
-#_(def key->district-human
-  {"setubal" "Setúbal",
-   "viana-do-castelo" "Viana do Castelo",
-   "leiria" "Leiria",
-   "santarem" "Santarém",
-   "aveiro" "Aveiro",
-   "braga" "Braga",
-   "evora" "Évora",
-   "castelo-branco" "Castelo Branco",
-   "porto" "Porto",
-   "braganca" "Bragança",
-   "faro" "Faro",
-   "vila-real" "Vila Real",
-   "portalegre" "Portalegre",
-   "beja" "Beja",
-   "guarda" "Guarda",
-   "lisboa" "Lisboa",
-   "coimbra" "Coimbra",
-   "viseu" "Viseu"})
-
 (defn index [{:keys [lang] :as req}]
   (let [h (->> districts
                (remove #(-> % first nil?))

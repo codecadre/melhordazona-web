@@ -46,7 +46,7 @@
                     [:text {:dy text-y} i]]])))
         top-level-label d))))
 
-;;TODO deprecated
+;;TODO deprecated next time you do anything svg related
 (defn svg [d]
   (let [y2 0
         y3 0

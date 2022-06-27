@@ -153,12 +153,7 @@
                      :en "Search: Driving schools in Portugal | Passa à Primeira"}
    :home/meta-subtitle {:en "Government pass rates for driving schools across Portugal. Official government data from 2015-2020."
                         :pt "Quantos alunos passaram à primeira na tua futura escola de condução?. Dados oficiais do IMT de 2015 - 2020."}
-   ;;TODO: deprecate :meta/title
-   :meta/title {:pt "Pesquisa: Escolas de condução por Concelho | Passa à Primeira"
-                :en "Search: Driving schools by location | Passa à Primeira"}
-   ;;TODO deprecate meta/subtitle
-   :meta/subtitle {:en "Driving school Pass-Rates in Portugal based on government data."
-                   :pt "O teu guia (não) oficial para as taxas de aprovação do IMT"}
+
    :meta/subtitle-list {:pt
                         "Dados oficiais do IMT, para as escolas de condução do concelho de %s. Dados referentes aos exames de condução nos últimos três anos. Contabilizando todas as categorias (condução, mota, etc) e apenas pasagem à primeira."
                         :en "Oficial government data for driving schools in the municipality of %s. Data relative to driving exams in the last three years. Accounting for all categories (driving, motorbike, etc) and first passes only."}

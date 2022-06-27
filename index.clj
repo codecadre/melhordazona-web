@@ -65,14 +65,9 @@
   (let [paths (vec (rest (str/split (:uri req) #"/")))]
     (match [(:request-method req) paths]
            [:get ["echo" id]] (echo-handler (assoc req :id id))
+
            [:get []] (home-handler req)
            [:get ["en"]] (home-handler req)
-           ;;TODO deprecate from here
-           #_#_[:get ["concelhos" concelho]] (concelho-handler (assoc req :concelho concelho))
-           #_#_[:get ["en" "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho))
-           #_#_[:get ["escolas" escola]] (escola-handler (assoc req :school escola))
-           #_#_[:get ["en" "schools" escola]] (escola-handler (assoc req :school escola))
-           ;;TODO deprecate till here
 
            [:get ["distritos-regioes" "sem-info"]] (no-imt-profile-handler req)
            [:get ["en" "districts-regions" "no-info"]] (no-imt-profile-handler req)
@@ -92,9 +87,6 @@
            [:get ["distritos-regioes" district "concelhos" concelho "escolas" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))
            [:get ["en" "districts-regions" district "municipalities" concelho "schools" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))
 
-
-           ;;district has data issues
-           #_#_[:get ["distritos" distrito]] (district-handler (assoc req :district distrito))
            :else {:page (not-found/page)
                   :header header-404})))
 

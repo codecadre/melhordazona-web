@@ -1,6 +1,6 @@
 (ns bb-passrates.backend.templates.template
   (:require [clojure.string :as clj-str]
-            [bb-passrates.shared.main :refer [build-href path->href]]
+            [bb-passrates.shared.main :refer [path->href]]
             [bb-passrates.shared.copy :refer [copy]]
             [bb-passrates.backend.logo :refer [logo]]
             [clojure.set :refer [map-invert]]))

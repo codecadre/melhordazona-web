@@ -1,13 +1,11 @@
 (ns bb-passrates.backend.pages.school
-  (:require [bb-passrates.shared.main :refer [lang url->canonical]]
-            [bb-passrates.backend.templates.template :as tmp]
+  (:require [bb-passrates.backend.templates.template :as tmp]
             [clojure.edn :as edn]
             [bb-passrates.shared.svg :as svg]
             [bb-passrates.shared.main :refer [get-place-list string->keywordize
                                               address->human]]
             [bb-passrates.shared.copy :refer [copy]]
-            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs no-info-breadcrumbs]]
-            ))
+            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs no-info-breadcrumbs]]))
 
 ;;TODO after copy
 ;;link this to methodology instead
@@ -39,8 +37,7 @@
         concelho-key (if concelho (string->keywordize concelho) "no-info")
         district (:distrito imt-profile)
         district-key (if district (string->keywordize district) "no-info")
-        name (:name imt-profile)
-        name-key (if name name "NO IMT NAME TODO")]
+        name (:name imt-profile)]
     [:html
      (tmp/header
       (merge (content lang imt-profile) url-map)
