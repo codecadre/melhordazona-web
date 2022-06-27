@@ -38,6 +38,7 @@
 
 *** TODO SEO directory list
     :LOGBOOK:
+    CLOCK: [2022-06-27 Mon 12:04]--[2022-06-27 Mon 12:36] =>  0:32
     CLOCK: [2022-06-26 Sun 21:47]--[2022-06-26 Sun 22:20] =>  0:33
     CLOCK: [2022-06-26 Sun 21:07]--[2022-06-26 Sun 21:13] =>  0:06
     CLOCK: [2022-06-26 Sun 18:38]--[2022-06-26 Sun 20:11] =>  1:33
@@ -49,6 +50,9 @@
     CLOCK: [2022-06-23 Thu 13:09]--[2022-06-23 Thu 13:14] =>  0:05
     CLOCK: [2022-06-23 Thu 11:58]--[2022-06-23 Thu 12:37] =>  0:39
     :END:
+
+- [ ] check if metadata is on every page and what google expects
+
 
 - [X] autocomplete with new url structure
 
@@ -96,7 +100,7 @@ type name [district concelho key]
      CLOCK: [2022-06-23 Thu 12:54]--[2022-06-23 Thu 13:09] =>  0:15
      :END:
 
-*** TODO clean up no imt page list
+*** DONE clean up no imt page list
 
 *** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 
