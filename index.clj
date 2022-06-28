@@ -69,8 +69,8 @@
            [:get []] (home-handler req)
            [:get ["en"]] (home-handler req)
 
-           [:get ["distritos-regioes" "sem-info"]] (no-imt-profile-handler req)
-           [:get ["en" "districts-regions" "no-info"]] (no-imt-profile-handler req)
+           [:get ["distritos-regioes" "sem-info" "escolas"]] (no-imt-profile-handler req)
+           [:get ["en" "districts-regions" "no-info" "schools"]] (no-imt-profile-handler req)
 
            [:get ["distritos-regioes" "sem-info" "escolas" school]] (escola-handler (assoc req :school school))
            [:get ["en" "districts-regions" "no-info" "schools" school]] (escola-handler (assoc req :school school))
@@ -78,11 +78,11 @@
            [:get ["distritos-regioes"]] (district-index-handler req)
            [:get ["en" "districts-regions"]] (district-index-handler req)
 
-           [:get ["distritos-regioes" district]] (district-list-handler (assoc req :district district))
-           [:get ["en" "districts-regions" district]] (district-list-handler (assoc req :district district))
+           [:get ["distritos-regioes" district "concelhos"]] (district-list-handler (assoc req :district district))
+           [:get ["en" "districts-regions" district "municipalities"]] (district-list-handler (assoc req :district district))
 
-           [:get ["distritos-regioes" district "concelhos" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
-           [:get ["en" "districts-regions" district "municipalities" concelho]] (concelho-handler (assoc req :concelho concelho :district district))
+           [:get ["distritos-regioes" district "concelhos" concelho "escolas"]] (concelho-handler (assoc req :concelho concelho :district district))
+           [:get ["en" "districts-regions" district "municipalities" concelho "schools"]] (concelho-handler (assoc req :concelho concelho :district district))
 
            [:get ["distritos-regioes" district "concelhos" concelho "escolas" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))
            [:get ["en" "districts-regions" district "municipalities" concelho "schools" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))

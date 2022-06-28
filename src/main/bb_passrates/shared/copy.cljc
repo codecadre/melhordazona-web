@@ -27,14 +27,14 @@
    ;;
    :href/district-index {:pt "/distritos-regioes/"
                          :en "/en/districts-regions/"}
-   :href/district {:pt "/distritos-regioes/%s/"
-                   :en "/en/districts-regions/%s/"}
-   :href/municipality {:pt "/distritos-regioes/%s/concelhos/%s/"
-                       :en "/en/districts-regions/%s/municipalities/%s/"}
+   :href/district {:pt "/distritos-regioes/%s/concelhos/"
+                   :en "/en/districts-regions/%s/municipalities/"}
+   :href/municipality {:pt "/distritos-regioes/%s/concelhos/%s/escolas/"
+                       :en "/en/districts-regions/%s/municipalities/%s/schools/"}
    :href/school {:pt "/distritos-regioes/%s/concelhos/%s/escolas/%s/"
                  :en "/en/districts-regions/%s/municipalities/%s/schools/%s/"}
-   :href/nil-concelho {:pt "/distritos-regioes/sem-info/"
-                       :en "/en/districts-regions/no-info/"}
+   :href/nil-concelho {:pt "/distritos-regioes/sem-info/escolas/"
+                       :en "/en/districts-regions/no-info/schools/"}
    :href/school-nil-concelho {:pt "/distritos-regioes/sem-info/escolas/%s/"
                               :en "/en/districts-regions/no-info/schools/%s/"}
    ;;
