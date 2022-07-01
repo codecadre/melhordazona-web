@@ -96,6 +96,43 @@
 
 (spit "sitemap.txt" (apply str (interpose "\n"  (sitemap-gen (names-list)))))
 
+
+(let [list (->> (names-list)
+                sitemap-gen
+                )
+      template-fn (fn [url]
+                    (element :url {}
+                             (element :loc {} url)
+                             (element :lastmod {} "2022-07-01")))
+      sitemap (element :urlset {:xmlns "http://www.sitemaps.org/schemas/sitemap/0.9"})]
+  (spit "sitemap.xml"
+        (indent-str
+    (update (element :urlset {:xmlns "http://www.sitemaps.org/schemas/sitemap/0.9"}
+                     (map #(template-fn %) list))
+            :content (fn [el] (first el)))))
+  )
+
+(print (indent-str (element :urlset {:xmlns "http://www.sitemaps.org/schemas/sitemap/0.9"}
+                            (element :url {}
+                                     (element :loc {} "The baz value1")
+                                     ))))
+
+
+
+;; <urlset xmlns=>
+;;   <url>
+;;     <loc>http://hashobject.com/about</loc>
+;;     <lastmod>2013-05-31</lastmod>
+;;     <changefreq>monthly</changefreq>
+;;     <priority>0.8</priority>
+;;   </url>
+;;   <url>
+;;     <loc>http://hashobject.com/team</loc>
+;;     <lastmod>2013-06-01</lastmod>
+;;     <changefreq>monthly</changefreq>
+;;     <priority>0.9</priority>
+;;   </url>
+;; </urlset>
 ;;
 ;; Populate /data/
 ;;
