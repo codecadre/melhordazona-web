@@ -5,7 +5,7 @@ Options -Indexes
 PassEnv ENV
 
 <IfModule mod_headers.c>
-    <FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+    <FilesMatch "\.(jpg|jpeg|png|gif|swf|js|css)$">
         Header set Cache-Control "max-age=3600, public"
     </FilesMatch>
 </IfModule>
