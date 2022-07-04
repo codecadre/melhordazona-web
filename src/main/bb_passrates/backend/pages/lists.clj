@@ -111,7 +111,8 @@
                                                [:div.columns.six s1]
                                                [:div.columns.six s2]]))
                                   [:div.list]))]
-    [:html
+    (into
+     [:html]
      (tmp/header
       (merge (content lang concelho (count place-list)) req)
       [:main
@@ -128,13 +129,14 @@
            [:p.strong three]])
         [:div.map-wrapper
          [:div#map {:lat lat :long long}]]
-        school-cards]])]))
+        school-cards]]))))
 
 
 (defn no-imt-profile [{:keys [lang] :as req}]
   (let [meta {:title (copy [:no-imt-data/title lang])
               :subtitle (copy [:no-imt-data/subtitle lang]) }]
-    [:html
+    (into
+     [:html]
      (tmp/header
       (merge meta req)
       [:main
@@ -146,7 +148,7 @@
           (school-list {})
           (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)))
           (map-indexed
-           #(vector :p.no [:a {:href (format (copy [:href/school-nil-concelho lang]) (first %2)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw address->human))])))]]])]))
+           #(vector :p.no [:a {:href (format (copy [:href/school-nil-concelho lang]) (first %2)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw address->human))])))]]]))))
 
 
 (comment

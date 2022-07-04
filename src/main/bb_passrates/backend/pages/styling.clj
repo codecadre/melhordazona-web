@@ -49,7 +49,8 @@
       "M17.48,35.21c-.85,2-3,2.83-6.18,2.83-4.67,0-6.68-1.7-6.68-5.4s2-5.34,6.68-5.34c3.35,0,5.48.86,6.26,3L21.9,28.6c-1.36-3.41-4.82-5.18-10.6-5.18C3.39,23.42,0,26.68,0,32.64s3.39,9.28,11.3,9.28c5.69,0,9.12-1.74,10.53-5.06Z"}]]]])
 
 (def page
-  [:html
+  (into
+   [:html]
    (tmp/header
     content
     [:main
@@ -91,7 +92,7 @@
       #_svg-code-cadre
       [:div [:img {:src "/public/img/code-cadre-logo.png"}]
        [:p ":img"]]
-      [:a {:href "/"} "a: some link"]]])])
+      [:a {:href "/"} "a: some link"]]])))
 
 (println "Content-type:text/html\r\n")
 (println (str (html page)))

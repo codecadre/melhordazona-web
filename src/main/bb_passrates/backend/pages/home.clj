@@ -18,7 +18,8 @@
    [:p.char-limit.hidden (copy [:autocomplete/char-limit lang])]])
 
 (defn page [{:keys [lang] :as req}]
-  [:html
+  (into
+   [:html]
    (tmp/header
     (merge (content lang) req)
     [:main
@@ -26,4 +27,4 @@
       [:h3.cta (copy [:autocomplete/cta lang])]
       [:h5.sub-cta (copy [:autocomplete/sub-cta lang])]
       [:form
-       (autocomplete lang)]]])])
+       (autocomplete lang)]]])))

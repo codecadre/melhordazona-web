@@ -128,16 +128,16 @@
       [:link {:rel "alternate" :hreflang "pt" :href href}])))
 
 (defn header [{:keys [title subtitle lang uri] :as req} main]
-  [:head
-   [:meta {:charset "UTF-8"}]
-   [:meta {:content "width=device-width, initial-scale=1, maximum-scale=1" :name "viewport"}]
-   [:meta {:name "description" :content subtitle}]
-   [:link {:href "/public/css/main.css", :rel "stylesheet"}]
-   [:link {:rel "stylesheet" :href "/public/vendor/leaflet/leaflet.css" :crossorigin ""}]
-   (alternate-hreflang-pt lang uri)
-   (alternate-hreflang-en lang uri)
-   (when local-dev? [:script {:src "https://livejs.com/live.js"}])
-   [:title title]
+  [[:head
+    [:meta {:charset "UTF-8"}]
+    [:meta {:content "width=device-width, initial-scale=1, maximum-scale=1" :name "viewport"}]
+    [:meta {:name "description" :content subtitle}]
+    [:link {:href "/public/css/main.css", :rel "stylesheet"}]
+    [:link {:rel "stylesheet" :href "/public/vendor/leaflet/leaflet.css" :crossorigin ""}]
+    (alternate-hreflang-pt lang uri)
+    (alternate-hreflang-en lang uri)
+    (when local-dev? [:script {:src "https://livejs.com/live.js"}])
+    [:title title]]
    [:body
     (header-c req)
     main
@@ -147,4 +147,4 @@
      [:script {:src "/public/js/main.js"}])
    (when (not local-dev?)
      [:script {:src "https://plausible.io/js/plausible.js"
-              :async "defer" :data-domain "passaprimeira.xyz"}])])
+               :async "defer" :data-domain "passaprimeira.xyz"}])])

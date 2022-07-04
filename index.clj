@@ -108,4 +108,4 @@
 
 (let [{:keys [page header]} page]
   (println header)
-  (println (str (html page))))
+  (println (str "<!DOCTYPE html>\n" (html page))))

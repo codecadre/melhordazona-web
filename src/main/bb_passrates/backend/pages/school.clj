@@ -38,7 +38,8 @@
         district (:distrito imt-profile)
         district-key (if district (string->keywordize district) "no-info")
         name (:name imt-profile)]
-    [:html
+    (into
+     [:html]
      (tmp/header
       (merge (content lang imt-profile) url-map)
       [:main
@@ -88,4 +89,4 @@
            (let [[one two three four five] (copy [:school/explainer lang])]
              [:p one
               [:span.driving two] three
-              [:span.theory four] five])]]]]])]))
+              [:span.theory four] five])]]]]]))))

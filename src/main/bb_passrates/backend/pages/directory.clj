@@ -47,12 +47,13 @@
                (into [:div.container
                       [:h2 (format (copy [:dir/title lang]))]
                       (breadcrumbs {} lang)]))]
-    [:html
+    (into
+     [:html]
      (tmp/header
       (merge (content lang) req)
       [:main
        (into h [[:h5 [:a {:href (copy [:href/nil-concelho lang])} (copy [:no-district lang])]
-                 [:span.opacity35 (str " (" (get districts nil) " " (copy [:school lang]) "s)")]]])])]))
+                 [:span.opacity35 (str " (" (get districts nil) " " (copy [:school lang]) "s)")]]])]))))
 
 (defn district-data [k]
   (try
@@ -67,7 +68,8 @@
                    (into [])
                    (sort #(compare (first %1) (first %2))))
         title (format (copy [:dir/list-title lang]) district-name)]
-    [:html
+    (into
+     [:html]
      (tmp/header
       (merge (content-list lang district-name) req)
       [:main
@@ -81,4 +83,4 @@
             (into
              [:div.container
               [:h2 title]
-              (breadcrumbs {:district district-name :district-key district} lang)]))])]))
+              (breadcrumbs {:district district-name :district-key district} lang)]))]))))
