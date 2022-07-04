@@ -50,7 +50,7 @@
 
 (def page
   (into
-   [:html]
+   [:html {:lang (name lang)}]
    (tmp/header
     content
     [:main

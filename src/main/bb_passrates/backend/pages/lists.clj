@@ -112,7 +112,7 @@
                                                [:div.columns.six s2]]))
                                   [:div.list]))]
     (into
-     [:html]
+     [:html {:lang (name lang)}]
      (tmp/header
       (merge (content lang concelho (count place-list)) req)
       [:main
@@ -136,7 +136,7 @@
   (let [meta {:title (copy [:no-imt-data/title lang])
               :subtitle (copy [:no-imt-data/subtitle lang]) }]
     (into
-     [:html]
+     [:html {:lang (name lang)}]
      (tmp/header
       (merge meta req)
       [:main

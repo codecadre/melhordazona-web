@@ -39,7 +39,7 @@
         district-key (if district (string->keywordize district) "no-info")
         name (:name imt-profile)]
     (into
-     [:html]
+     [:html {:lang (clojure.core/name lang)}]
      (tmp/header
       (merge (content lang imt-profile) url-map)
       [:main

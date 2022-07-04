@@ -48,7 +48,7 @@
                       [:h2 (format (copy [:dir/title lang]))]
                       (breadcrumbs {} lang)]))]
     (into
-     [:html]
+     [:html {:lang (name lang)}]
      (tmp/header
       (merge (content lang) req)
       [:main
@@ -69,7 +69,7 @@
                    (sort #(compare (first %1) (first %2))))
         title (format (copy [:dir/list-title lang]) district-name)]
     (into
-     [:html]
+     [:html {:lang (name lang)}]
      (tmp/header
       (merge (content-list lang district-name) req)
       [:main

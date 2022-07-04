@@ -19,7 +19,7 @@
 
 (defn page [{:keys [lang] :as req}]
   (into
-   [:html]
+   [:html {:lang (name lang)}]
    (tmp/header
     (merge (content lang) req)
     [:main
