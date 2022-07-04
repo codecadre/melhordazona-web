@@ -41,8 +41,8 @@
                                           (map #(update-in % [1] slurp))
                                           (map #(update-in % [1] md/md-to-html-string))
                                           (map #(update-in % [1]  (fn [p] (bootleg/convert-to p :hiccup-seq))))
-                                          (map #(update-in % [1] (fn [c] (tmp/header (last %)  [:div.pages.container c]))))
-                                          (map #(update-in % [1] (fn [c] (html c)))))]
+                                          (map #(update-in % [1] (fn [c] (into [:html {:lang (name (:lang (last %)))}] (tmp/header (last %)  [:div.pages.container c])))))
+                                          (map #(update-in % [1] (fn [c] (str "<!DOCTYPE html>\n" (html c))))))]
     (let [out-str (if (= :en lang)
                     "en/pages/%s/index.html"
                     "paginas/%s/index.html")
