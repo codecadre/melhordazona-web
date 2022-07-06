@@ -84,8 +84,9 @@
                        (:y geocode)))
                 (remove nil?))
         n (count xx)]
-    [(/ (reduce + 0 yy) n)
-     (/ (reduce + 0 xx) n)]))
+    (when (not (zero? n))
+      [(/ (reduce + 0 yy) n)
+       (/ (reduce + 0 xx) n)])))
 
 #_(defn centroid- [d]
   (let [xx (->> d;;long
@@ -126,9 +127,11 @@
           [:div
            [:p (format one (count place-list) concelho-human)]
            [:p two]
-           [:p.strong three]])
-        [:div.map-wrapper
-         [:div#map {:lat lat :long long}]]
+           (when (and long lat)
+             [:p.strong three])])
+        (when (and long lat)
+          [:div.map-wrapper
+           [:div#map {:lat lat :long long}]])
         school-cards]]))))
 
 
