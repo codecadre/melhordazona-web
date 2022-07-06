@@ -26,7 +26,7 @@ PassEnv ENV
   AddOutputFilterByType DEFLATE text/html
   AddOutputFilterByType DEFLATE text/javascript
   AddOutputFilterByType DEFLATE text/plain
-  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/xml  
 
   # Remove browser bugs (only needed for ancient browsers)
   BrowserMatch ^Mozilla/4 gzip-only-text/html
