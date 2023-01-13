@@ -1,7 +1,7 @@
 ** Apache start
 
 cd ~/src/clj-cgi-example/docker
-ENV=DEV_LOCAL docker-compose up web
+ENV=DEV_LOCAL docker compose up web
 
 ** logs
 
