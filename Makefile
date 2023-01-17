@@ -16,3 +16,7 @@ logs-tail:
 
 less-watch:
 	npx less-watch-compiler --less-args math=always src/less/ public/css/
+
+pages:
+	bb recepies/pages.clj
+	./node_modules/js-beautify/js/bin/html-beautify.js paginas/**/*.html  -r -s 2 -d
