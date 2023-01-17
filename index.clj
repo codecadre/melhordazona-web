@@ -17,6 +17,10 @@
 
 (def header-404 "Status: 404 Not Found\nContent-type: text/html\n")
 
+(defn header-301
+  [new-url]
+  (format "Status: 301 Moved Permanently\nLocation: %s\n" new-url))
+
 (def resp-404
   {:header header-404
    :page (not-found/page)})
@@ -61,6 +65,19 @@
       {:page (directory/list district req)
        :header html-header})))
 
+(defn no-info-redirect [{:keys [lang uri]}]
+  (let [new-url (str uri (if (= lang :pt) "escolas/" "schools/"))]
+    {:header (header-301 new-url)}))
+
+(defn district-redirect [{:keys [lang uri]}]
+  (let [new-url (str uri (if (= lang :pt) "concelhos/" "municipalities/"))]
+    {:header (header-301 new-url)}))
+
+(defn concelho-redirect [{:keys [lang uri]}]
+  (let [new-url (str uri
+                     (if (= lang :pt) "escolas/" "schools/"))]
+      {:header (header-301 new-url)}))
+
 (def page
   (let [paths (vec (rest (str/split (:uri req) #"/")))]
     (match [(:request-method req) paths]
@@ -69,7 +86,10 @@
            [:get []] (home-handler req)
            [:get ["en"]] (home-handler req)
 
+           [:get ["distritos-regioes" "sem-info"]] (no-info-redirect req)
            [:get ["distritos-regioes" "sem-info" "escolas"]] (no-imt-profile-handler req)
+
+           [:get ["en" "districts-regions" "no-info"]] (no-info-redirect req)
            [:get ["en" "districts-regions" "no-info" "schools"]] (no-imt-profile-handler req)
 
            [:get ["distritos-regioes" "sem-info" "escolas" school]] (escola-handler (assoc req :school school))
@@ -78,10 +98,16 @@
            [:get ["distritos-regioes"]] (district-index-handler req)
            [:get ["en" "districts-regions"]] (district-index-handler req)
 
+           [:get ["distritos-regioes" district]] (district-redirect req)
            [:get ["distritos-regioes" district "concelhos"]] (district-list-handler (assoc req :district district))
+
+           [:get ["en" "districts-regions" district]] (district-redirect req)
            [:get ["en" "districts-regions" district "municipalities"]] (district-list-handler (assoc req :district district))
 
+           [:get ["distritos-regioes" district "concelhos" concelho]] (concelho-redirect (assoc req :concelho concelho :district district))
            [:get ["distritos-regioes" district "concelhos" concelho "escolas"]] (concelho-handler (assoc req :concelho concelho :district district))
+
+           [:get ["en" "districts-regions" district "municipalities" concelho]] (concelho-redirect req)
            [:get ["en" "districts-regions" district "municipalities" concelho "schools"]] (concelho-handler (assoc req :concelho concelho :district district))
 
            [:get ["distritos-regioes" district "concelhos" concelho "escolas" escola]] (escola-handler (assoc req :school escola :concelho concelho :district district))

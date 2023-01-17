@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgres
+    user: postgres
+    volumes:
+      - "pgdata:/var/lib/postgresql/data"
+    environment:
+      POSTGRES_PASSWORD: "postgresql"
+    ports:
+      - 5432:5432
+  web:
+    container_name: apache-server-passaprimeira
+    environment:
+      - ENV
+    network_mode: "host"
+    build: .
+    volumes:
+      - "/home/fsousa/src/passaprimeira:/var/www/public_html"
+    #ports:
+    #  - "8081:80"
+
+volumes:
+  pgdata:
