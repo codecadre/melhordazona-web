@@ -127,6 +127,9 @@
     (when (or alternate? pt-lang?)
       [:link {:rel "alternate" :hreflang "pt" :href href}])))
 
+(defn add-canonical [uri]
+  [:link {:rel "canonical" :href (str domain uri)}])
+
 (defn header [{:keys [title subtitle lang uri] :as req} main]
   [[:head
     [:meta {:charset "UTF-8"}]
@@ -136,6 +139,7 @@
     [:link {:rel "stylesheet" :href "/public/vendor/leaflet/leaflet.css" :crossorigin ""}]
     (alternate-hreflang-pt lang uri)
     (alternate-hreflang-en lang uri)
+    (add-canonical uri)
     (when local-dev? [:script {:src "https://livejs.com/live.js"}])
     [:title title]]
    [:body

@@ -53,12 +53,25 @@
   (let [l (if (= lang :en) "/en" "")]
     (str l path)))
 
+(defn ->add-trailing-slash
+  "add trailing slash if not present"
+  [uri]
+  (if (= (last uri) \/)
+    uri
+    (str uri "/")))
+
 (defn url->req [uri req-method query-string]
   (let [en? (clj-str/includes? uri "/en/")
         lang (if en? :en :pt)]
     {:request-method (-> req-method clj-str/lower-case keyword)
      :lang lang
-     :uri (-> uri (clj-str/split #"\?") first)}))
+     ;; make sure uri is canonical
+     ;;ends with a / if not top level
+     :uri (-> uri (clj-str/split #"\?")
+              first
+              ->add-trailing-slash)}))
+
+#_(-> "http://localhost/distritos-regioes/aveiro" (clj-str/split #"\?") first)
 
 #?(:clj
    (defn remove-accents

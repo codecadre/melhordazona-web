@@ -1,7 +1,7 @@
 ** Apache start
 
 cd ~/src/clj-cgi-example/docker
-ENV=DEV_LOCAL docker-compose up web
+ENV=DEV_LOCAL docker compose up web
 
 ** logs
 
@@ -42,6 +42,13 @@ cp  node_modules/leaflet/dist/leaflet.css public/vendor/leaflet
 - bb
 beside apache2, etc, that come preinstaled with the server
 
+** Deploy play book
+
+*** 1 Render pages
+
+#+begin_src bash
+  make pages
+#+end_src
 
 ** data cleanup under recepies/
 
