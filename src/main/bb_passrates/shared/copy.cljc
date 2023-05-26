@@ -191,7 +191,25 @@
                     :en "Driving school directory in %s district"}
    :dir/breadcrumb-district-region {:pt "Distritos e Regiôes"
                                     :en "District and Regions"}
+
+   ;;
+   ;; Contact
+   ;;
+
+   :contact/title {:pt "Sugestões, opiniões, mandar vir:"
+                   :en "Contact Form"}
+   :contact/email {:pt "Email"
+                   :en "Email"}
+   :contact/msg {:pt "Mensagem"
+                 :en "Message"}
+   :contact/send-yourself {:pt "Envia-me uma cópia"
+                           :en "Send yourself a copy"}
+   :contact/submit {:pt "Enviar"
+                    :en "Submit"}
 })
 
 (defn copy [p]
   (get-in copy-list p))
+
+(defmacro copy-m [copy-key]
+  `(copy [~copy-key ~'lang]))

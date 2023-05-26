@@ -978,6 +978,10 @@ footer .logo-column .logo-div {
 .pages li {
   font-size: 2rem;
 }
+.send-yourself-copy {
+  float: right;
+  margin-top: 12px;
+}
 * {
   -webkit-overflow-scrolling: touch;
   box-sizing: border-box;
