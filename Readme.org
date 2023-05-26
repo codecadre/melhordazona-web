@@ -1,26 +1,17 @@
-** Apache start
+** dev setup
 
-cd ~/src/clj-cgi-example/docker
-ENV=DEV_LOCAL docker compose up web
+$ git submodule init
+$ git submodule update
 
-** logs
+** run
 
-docker exec -it clj_cgi_web_1 tail -f -n 20 /var/log/apache2/error.log
+just
 
 ** babashka nrepl
 
 bb nrepl
 
 then cider connect
-
-** less
-
-lessc .src/less/main.less target/main.css
-
-or
-
-npx less-watch-compiler --less-args math=always src/less/ public/css/
-
 
 ** shadow build
 
