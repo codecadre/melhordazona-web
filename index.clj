@@ -79,7 +79,6 @@
         from (java.net.URLDecoder/decode (:email-input request-data))
         send-copy (= "on" (:send-copy request-data))
         body (java.net.URLDecoder/decode (:message request-data))
-        #_#_ (log from send-copy body)
         success? (email/send-me-the-message from body send-copy)]
     (components/form (assoc req :data request-data) success?)))
 
