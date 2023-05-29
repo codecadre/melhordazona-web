@@ -98,8 +98,8 @@
        [:div.column.one-half
         [:div.menu
          (if (= lang :en)
-           [:a#en {:href (en->pt (:uri req))} "PT"]
-           [:a#en {:href (pt->en (:uri req)) } "EN"])
+           [:a#en {:href (en->pt (:uri req))} [:strong "PT"]]
+           [:a#en {:href (pt->en (:uri req)) } [:strong "EN"]])
          [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
           [:a {:href (path->href "/" req)} (copy-m :nav/search)]]
          [(if  (or (= uri "/en/districts-regions/") (= uri "/distritos-regioes/"))
