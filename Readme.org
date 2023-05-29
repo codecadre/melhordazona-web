@@ -36,9 +36,10 @@ beside apache2, etc, that come preinstaled with the server
 ** Deploy play book
 
 *** 1 Render pages
+*** release js
 
 #+begin_src bash
-  make pages
+  just pages
 #+end_src
 
 ** data cleanup under recepies/
