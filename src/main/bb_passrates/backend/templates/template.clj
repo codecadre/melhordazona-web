@@ -97,11 +97,9 @@
         [:p.subtitle (copy [:header/subtitle lang])]]
        [:div.column.one-half
         [:div.menu
-         [:span " ["]
-         [(if (= lang :en) "a#en.selected" "a#en") {:href (pt->en (:uri req))} "EN"]
-         [:span "/"]
-         [(if (= lang :pt) "a#en.selected" "a#en") {:href (en->pt (:uri req)) } "PT"]
-         [:span "]"]
+         (if (= lang :en)
+           [:a#en {:href (en->pt (:uri req))} "PT"]
+           [:a#en {:href (pt->en (:uri req)) } "EN"])
          [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
           [:a {:href (path->href "/" req)} (copy-m :nav/search)]]
          [(if  (or (= uri "/en/districts-regions/") (= uri "/distritos-regioes/"))
