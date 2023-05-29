@@ -28,6 +28,11 @@ RUN curl -s https://raw.githubusercontent.com/babashka/babashka/master/install  
 # repl with history
 RUN apt install rlwrap
 
+# load-pods writes and reads from the env var bellow
+ENV BABASHKA_PODS_DIR /var/www/.babashka/pods
+RUN /usr/home/codecan/bin/bb "(babashka.pods/load-pod 'tzzh/mail \"0.0.2\")"
+RUN chown -R www-data /var/www/.babashka/pods
+
 EXPOSE 80
 VOLUME /var/www/public_html
 WORKDIR /var/www/public_html
