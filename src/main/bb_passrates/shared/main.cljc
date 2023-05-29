@@ -60,18 +60,21 @@
     uri
     (str uri "/")))
 
-(defn url->req [uri req-method query-string]
+(defn parse-qs-like-string [string]
+  (->> (clj-str/split string #"&|=")
+      (partition 2)
+      (reduce #(assoc %1 (keyword (first %2)) (last %2)) {})))
+
+(defn url->req [uri req-method query-string in]
   (let [en? (clj-str/includes? uri "/en/")
         lang (if en? :en :pt)]
     {:request-method (-> req-method clj-str/lower-case keyword)
      :lang lang
-     ;; make sure uri is canonical
-     ;;ends with a / if not top level
      :uri (-> uri (clj-str/split #"\?")
               first
-              ->add-trailing-slash)}))
-
-#_(-> "http://localhost/distritos-regioes/aveiro" (clj-str/split #"\?") first)
+              #_->add-trailing-slash)
+     :q (parse-qs-like-string query-string)
+     :in in}))
 
 #?(:clj
    (defn remove-accents
@@ -103,8 +106,10 @@
    (defn req-fn []
      (let [request-uri (System/getenv "REQUEST_URI")
            query-string (System/getenv "QUERY_STRING")
-           request-method (System/getenv "REQUEST_METHOD")]
-       (url->req request-uri request-method query-string))))
+           request-method (System/getenv "REQUEST_METHOD")
+           in (try (str (edn/read *in*))
+                   (catch Exception e nil))]
+       (url->req request-uri request-method query-string in))))
 
 #?(:clj
    (defn get-place-list [type place]

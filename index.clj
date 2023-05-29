@@ -9,9 +9,13 @@
             [bb-passrates.backend.pages.school :as school]
             [bb-passrates.backend.pages.directory :as directory]
             [hiccup2.core :refer [html]]
-            [bb-passrates.shared.main :refer [req-fn]]
+            [bb-passrates.shared.main :as main :refer [req-fn]]
             [clojure.core.match :refer [match]]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [bb-passrates.backend.util :refer [log]]
+            [bb-passrates.backend.email :as email]
+            [bb-passrates.backend.components :as components]))
+
 (def req (req-fn))
 
 (def html-header "Content-type:text/html\r\n")
@@ -70,6 +74,19 @@
   {:page (contact/page req)
    :header html-header})
 
+(defn post-contact [{:keys [in] :as req}]
+  (let [request-data (main/parse-qs-like-string in)
+        from (java.net.URLDecoder/decode (:email-input request-data))
+        send-copy (= "on" (:send-copy request-data))
+        body (java.net.URLDecoder/decode (:message request-data))
+        #_#_ (log from send-copy body)
+        success? (email/send-me-the-message from body send-copy)]
+    (components/form (assoc req :data request-data) success?)))
+
+(defn post-contact-handler [req]
+  {:page (post-contact req)
+   :header html-header})
+
 (defn no-info-redirect [{:keys [lang uri]}]
   (let [new-url (str uri (if (= lang :pt) "escolas/" "schools/"))]
     {:header (header-301 new-url)}))
@@ -91,8 +108,11 @@
            [:get []] (home-handler req)
            [:get ["en"]] (home-handler req)
 
-           [:get ["contacto"]] (contact-handler req)
-           [:get ["en" "contact"]] (contact-handler req)
+           [:get ["contato"]] (contact-handler req)
+           ;;[:get ["en" "contact"]] (contact-handler req)
+
+           [:post ["post-contact"]] (post-contact-handler req)
+           [:post ["en" "post-contact"]] (post-contact-handler req)
 
            [:get ["distritos-regioes" "sem-info"]] (no-info-redirect req)
            [:get ["distritos-regioes" "sem-info" "escolas"]] (no-imt-profile-handler req)

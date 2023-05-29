@@ -37,6 +37,8 @@
                        :en "/en/districts-regions/no-info/schools/"}
    :href/school-nil-concelho {:pt "/distritos-regioes/sem-info/escolas/%s/"
                               :en "/en/districts-regions/no-info/schools/%s/"}
+   :href/contact {:pt "/contato"
+                  :en "/en/contact"}
    ;;
    ;; autocomplete
    ;;
@@ -161,14 +163,16 @@
                      :en "Your (un)official guide to IMT pass-rates"}
    :nav/search {:pt "Pesquisa"
                 :en "Search"}
-   :nav/dir {:pt "Directório"
+   :nav/dir {:pt "Diretório"
              :en "Directory"}
-   :nav/about {:pt "Acerca"
+   :nav/about {:pt "Sobre"
                :en "About"}
    :nav/faq {:pt "FAQ"
              :en "FAQ"}
    :nav/privacy {:pt "Privacidade"
                  :en "Privacy"}
+   :nav/contact {:pt "Contato"
+                 :en "Contact"}
    :footer/links-title {:pt "Links" :en "Links"}
    :footer/contact-title {:pt "Contacto" :en "Contacts"}
    :footer/enquiries {:pt "Enviar contactos directamente para: "
@@ -196,9 +200,10 @@
    ;; Contact
    ;;
 
+
    :contact/title {:pt "Sugestões, opiniões, mandar vir:"
                    :en "Contact Form"}
-   :contact/email {:pt "Email"
+   :contact/email {:pt "O teu Email"
                    :en "Email"}
    :contact/msg {:pt "Mensagem"
                  :en "Message"}
@@ -206,6 +211,10 @@
                            :en "Send yourself a copy"}
    :contact/submit {:pt "Enviar"
                     :en "Submit"}
+   :contact/success {:pt "Mensagem enviada com sucesso!"
+                     :en "Message sent successfully"}
+   :contact/error {:pt "Ocoreu um erro. P.f.f. tente mais tarde ou envie directamente para mail@flaviosousa.co"
+                   :en "Something went wrong"}
 })
 
 (defn copy [p]

@@ -2,7 +2,8 @@
   (:require [bb-passrates.frontend.autocomplete :refer [autocomplete-cmp]]
             [bb-passrates.frontend.background-color-click-handler :as background-color-btn]
             [bb-passrates.frontend.map :refer [set-map solo-map]]
-            ["leaflet" :as LEAFLET]))
+            ["leaflet" :as LEAFLET]
+            ["htmx.org" :as htmx]))
 
 
 (defn init []
