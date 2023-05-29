@@ -4,15 +4,9 @@
             [bb-passrates.shared.copy :refer [copy copy-m]]
             [bb-passrates.backend.logo :refer [logo]]
             [clojure.set :refer [map-invert]]
-            [bb-passrates.backend.components :refer [form]]))
+            [bb-passrates.backend.components :refer [form]]
+            [bb-passrates.backend.config :as config :refer [local-dev?]]))
 
-;;TODO config.edn
-(def env (System/getenv "ENV"))
-
-#_(def env "prod")
-
-;;TODO config.edn
-(def local-dev?  (= env "DEV_LOCAL"))
 
 (defn footer [{:keys [lang] :as req}]
   [:footer
@@ -110,8 +104,7 @@
          #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
          #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
 
-;;TODO put in config
-(def domain "https://passaprimeira.xyz")
+(def domain (:domain config/values))
 
 (defn alternate-hreflang-en [lang uri]
   (let [en-lang? (en? lang)
@@ -138,7 +131,6 @@
     [:meta {:content "width=device-width, initial-scale=1, maximum-scale=1" :name "viewport"}]
     [:meta {:name "description" :content subtitle}]
     [:link {:href "/public/css/main.css", :rel "stylesheet"}]
-    ;;TODO merge these two
     [:link {:rel "stylesheet" :href "/public/vendor/leaflet/leaflet.css" :crossorigin ""}]
     (alternate-hreflang-pt lang uri)
     (alternate-hreflang-en lang uri)

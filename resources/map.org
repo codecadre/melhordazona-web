@@ -1,4 +1,47 @@
-* 3rd iteration - after release
+* TODO For the conference
+** TODO TODO's
+
+** DONE chat box
+*** DONE get pod into project
+:LOGBOOK:
+CLOCK: [2023-05-27 Sat 16:12]--[2023-05-27 Sat 17:11] =>  0:59
+CLOCK: [2023-05-27 Sat 10:11]--[2023-05-27 Sat 16:12] =>  6:01
+:END:
+
+- [X] create lib folder
+- [X] download it
+- [X] make sure you're running babashka 0.8
+- [X] add it to bb.edn
+- [X] check if it work in repl
+- [X] write a parser for the qs
+- [X] check if it works in docker/hook it up to the online form
+- [ ] check if it works in shared host
+
+*** DONE reset password
+:LOGBOOK:
+CLOCK: [2023-05-29 Mon 14:52]--[2023-05-29 Mon 15:41] =>  0:49
+:END:
+
+*** DONE update nav to include contact form
+:LOGBOOK:
+CLOCK: [2023-05-29 Mon 15:43]--[2023-05-29 Mon 17:33] =>  1:50
+:END:
+*** DONE label year
+*** DONE style error msgs and success msgs
+*** DONE size of the box
+*** DONE border styles
+
+
+
+** TODO Update melhor da zona with 2021 data
+** TODO location of percentage looks weird (maybe for third release)
+** TODO clean up svg label spacing
+** TODO rounding of theory N exam
+** TODO School page svg goes on top of the other when reducing window size
+** TODO change opacity of no coords
+
+
+* DONE 3rd iteration - after release
 
 *** TODO [SEO] htaccess rules for canonical urls, www and https vs http 2 hours
 
@@ -181,7 +224,6 @@ type name [district concelho key]
    https://passaprimeira.xyz/concelhos/figueiro-dos-vinhos
 ** DONE URGENT fiz email in contacts
 ** DONE SORT OPEN SOURCE REPOS
-
 
 * DONE 2 iteration
 #+BEGIN: clocktable :scope subtree :maxlevel 2
