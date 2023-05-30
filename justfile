@@ -29,6 +29,9 @@ less-watch:
 shadow-watch:
     ./node_modules/.bin/shadow-cljs watch main
 
+shadow-build:
+    ./node_modules/.bin/shadow-cljs release main
+
 pages:
     bb recepies/pages.clj
     ./node_modules/js-beautify/js/bin/html-beautify.js paginas/**/*.html  -r -s 2 -d
@@ -38,3 +41,8 @@ bb:
 
 test:
     bb test/test_runner.clj
+
+release:
+    ENV="PROD" bb recepies/pages.clj
+    ./node_modules/js-beautify/js/bin/html-beautify.js paginas/**/*.html  -r -s 2 -d
+    just shadow-build
