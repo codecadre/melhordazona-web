@@ -38,3 +38,12 @@
 
 
 (take 30 (->> d (filter #(= "Lisboa" (-> % :address :city ))) ))
+
+
+(def sitemap (-> "./sitemap.txt" slurp clj-str/split-lines set))
+
+(def indexed (-> "./indexed.txt" slurp clj-str/split-lines set))
+
+(def not-indexed (clojure.set/difference sitemap indexed))
+
+(spit "to-index.txt" (clj-str/join "\n" (sort-by #(-> % (clj-str/split #"/") count) not-indexed)))

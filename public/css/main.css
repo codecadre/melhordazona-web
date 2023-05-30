@@ -978,6 +978,10 @@ footer .logo-column .logo-div {
 .pages li {
   font-size: 2rem;
 }
+.send-yourself-copy {
+  float: right;
+  margin-top: 12px;
+}
 * {
   -webkit-overflow-scrolling: touch;
   box-sizing: border-box;
@@ -1054,4 +1058,7 @@ sup.strong {
 }
 .opacity35 {
   opacity: 0.35 !important;
+}
+.error {
+  color: #d05353;
 }

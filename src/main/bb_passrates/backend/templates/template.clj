@@ -1,15 +1,12 @@
 (ns bb-passrates.backend.templates.template
   (:require [clojure.string :as clj-str]
             [bb-passrates.shared.main :refer [path->href]]
-            [bb-passrates.shared.copy :refer [copy]]
+            [bb-passrates.shared.copy :refer [copy copy-m]]
             [bb-passrates.backend.logo :refer [logo]]
-            [clojure.set :refer [map-invert]]))
+            [clojure.set :refer [map-invert]]
+            [bb-passrates.backend.components :refer [form]]
+            [bb-passrates.backend.config :as config :refer [local-dev?]]))
 
-(def env (System/getenv "ENV"))
-
-#_(def env "prod")
-
-(def local-dev?  (= env "DEV_LOCAL"))
 
 (defn footer [{:keys [lang] :as req}]
   [:footer
@@ -27,7 +24,7 @@
          [:a {:href "https://www.codecadre.ai/" } "Codecadre"]
          [:span sub-3]])]]
     [:div.row.footer-bottom-row
-     [:div.columns.two
+     [:div.columns.three
       [:p.top-level-item (copy [:project lang])]
       [:p.item [:a {:href "https://github.com/codecadre"} "Open Source"]]
       #_[:p.item "About"]]
@@ -36,10 +33,10 @@
       [:p.item "Privacy Policy"]
       [:p.item "Terms of Service"]
       [:p.item "DPA"]]
-     [:div.columns.three [:p.top-level-item (copy [:footer/contact-title lang])]
-      [:p.item (copy [:footer/enquiries lang]) [:a {:href "mailto:passaprimeira@codecadre.ai?subject='Pass a Primeira'" :target "_blank"} "passaprimeira [at] codecadre [.] ai"]]
-      [:p.item ""]]
-     [:div.columns.five.logo-column
+     [:div.columns.eight [:p.top-level-item (copy [:footer/contact-title lang])]
+      (form req)
+      [:br]]
+     #_[:div.columns.five.logo-column
       [:div.logo-div
        [:p.built-by (copy [:footer/by lang])]
        [:div.logo logo]
@@ -91,25 +88,23 @@
         [:h2.title
          [:strong
           [:a {:href (path->href "/" req)} "Passa à Primeira"]]]
-        [:p.subtitle (copy [:header/subtitle lang])
-         ]]
+        [:p.subtitle (copy [:header/subtitle lang])]]
        [:div.column.one-half
         [:div.menu
-         [:span " ["]
-         [(if (= lang :en) "a#en.selected" "a#en") {:href (pt->en (:uri req))} "EN"]
-         [:span "/"]
-         [(if (= lang :pt) "a#en.selected" "a#en") {:href (en->pt (:uri req)) } "PT"]
-         [:span "]"]
+         (if (= lang :en)
+           [:a#en {:href (en->pt (:uri req))} [:strong "PT"]]
+           [:a#en {:href (pt->en (:uri req)) } [:strong "EN"]])
          [(if  (or (= uri "/en/") (= uri "/")) :div.menu-item.selected :div.menu-item)
-          [:a {:href (path->href "/" req)} (copy [:nav/search lang])]]
+          [:a {:href (path->href "/" req)} (copy-m :nav/search)]]
          [(if  (or (= uri "/en/districts-regions/") (= uri "/distritos-regioes/"))
             :div.menu-item.selected :div.menu-item)
-          [:a {:href (copy [:href/district-index lang])} (copy [:nav/dir lang])]]
+          [:a {:href (copy-m :href/district-index)} (copy-m :nav/dir)]]
          [:div.menu-item [:a {:href "/paginas/acerca/"} (copy [:nav/about lang])]]
+
          #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
          #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
 
-(def domain "https://passaprimeira.xyz")
+(def domain (:domain config/values))
 
 (defn alternate-hreflang-en [lang uri]
   (let [en-lang? (en? lang)
@@ -140,7 +135,7 @@
     (alternate-hreflang-pt lang uri)
     (alternate-hreflang-en lang uri)
     (add-canonical uri)
-    (when local-dev? [:script {:src "https://livejs.com/live.js"}])
+    #_(when local-dev? [:script {:src "https://livejs.com/live.js"}])
     [:title title]]
    [:body
     (header-c req)

@@ -3,14 +3,19 @@
 (ns index
   (:require [bb-passrates.shared.places :as places]
             [bb-passrates.backend.pages.home :as home]
+            [bb-passrates.backend.pages.contact :as contact]
             [bb-passrates.backend.pages.404 :as not-found]
             [bb-passrates.backend.pages.lists :as lists]
             [bb-passrates.backend.pages.school :as school]
             [bb-passrates.backend.pages.directory :as directory]
             [hiccup2.core :refer [html]]
-            [bb-passrates.shared.main :refer [req-fn]]
+            [bb-passrates.shared.main :as main :refer [req-fn]]
             [clojure.core.match :refer [match]]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [bb-passrates.backend.util :refer [log]]
+            [bb-passrates.backend.email :as email]
+            [bb-passrates.backend.components :as components]))
+
 (def req (req-fn))
 
 (def html-header "Content-type:text/html\r\n")
@@ -65,6 +70,22 @@
       {:page (directory/list district req)
        :header html-header})))
 
+(defn contact-handler [req]
+  {:page (contact/page req)
+   :header html-header})
+
+(defn post-contact [{:keys [in] :as req}]
+  (let [request-data (main/parse-qs-like-string in)
+        from (java.net.URLDecoder/decode (:email-input request-data))
+        send-copy (= "on" (:send-copy request-data))
+        body (java.net.URLDecoder/decode (:message request-data))
+        success? (email/send-me-the-message from body send-copy)]
+    (components/form (assoc req :data request-data) success?)))
+
+(defn post-contact-handler [req]
+  {:page (post-contact req)
+   :header html-header})
+
 (defn no-info-redirect [{:keys [lang uri]}]
   (let [new-url (str uri (if (= lang :pt) "escolas/" "schools/"))]
     {:header (header-301 new-url)}))
@@ -85,6 +106,12 @@
 
            [:get []] (home-handler req)
            [:get ["en"]] (home-handler req)
+
+           [:get ["contato"]] (contact-handler req)
+           ;;[:get ["en" "contact"]] (contact-handler req)
+
+           [:post ["post-contact"]] (post-contact-handler req)
+           [:post ["en" "post-contact"]] (post-contact-handler req)
 
            [:get ["distritos-regioes" "sem-info"]] (no-info-redirect req)
            [:get ["distritos-regioes" "sem-info" "escolas"]] (no-imt-profile-handler req)
@@ -115,22 +142,6 @@
 
            :else {:page (not-found/page)
                   :header header-404})))
-
-#_(def page
-  (condp apply [(:url/type url-map)]
-    #{:city :district :municipality}
-    (let [place-list (lists/school-list url-map)]
-      (if (empty? place-list)
-        {:header header-404
-         :page (not-found/page)}
-        {:header html-header
-         :page (lists/page url-map place-list)}))
-    #_#_:school {:header html-header
-                 :page (home/page url-map)}
-    #{:home} {:header html-header
-              :page (home/page url-map)}
-    {:header header-404
-     :page (not-found/page)}))
 
 (let [{:keys [page header]} page]
   (println header)
