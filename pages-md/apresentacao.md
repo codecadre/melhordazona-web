@@ -33,18 +33,18 @@ Os dados publicados eram relativos ao ano de 2014. Caso eu tivesse tido acesso a
 
 
 
-| escola         | p     |
-|----------------|-------|
-| a minha escola | 51 %  |
-| escola 1       | 60 %  |
-| escola 2       | 47 %  |
-| escola 3       | 67 %  |
-| escola 4       | 80 %  |
-| escola 5       | 59 %  |
-| escola 6       | 69 %  |
-| escola 7       | 64 %  |
-| escola 8       | 65 %  |
-| escola 9       | 100 % |
+| school   | PR     |
+|----------|-------|
+| mine     | 51 %  |
+| school A | 60 %  |
+| school B | 47 %  |
+| school C | 67 %  |
+| school D | 80 %  |
+| school E | 59 %  |
+| school F | 69 %  |
+| school G | 64 %  |
+| school H | 65 %  |
+| school I | 100 % |
 
 Ignorando os outliers a 100 %, em 9 escolas, temos de 47 % a 80%. A minha, não sendo a mais baixa, é a segunda mais baixa. Isto não queria dizer que eu estava ilibado de aselhice. Sempre havia probabilidade de eu ir a baixar a taxa de aprovação de uma escola. O que é possível dizer no entanto, é que caso eu tivesse tido acesso a esta informação, decerto não teria ido para a minha escola como primeira opção. Se calhar tinha sido claro o porque de ser uma das mais baratas.
 
