@@ -10,15 +10,15 @@ Esta aplicação permite ao utilizador visualizar num mapa as [taxas de aprovaç
 
 #### 1 - Pesquisa por concelho
 
-![home search with drop down view](/public/img/pages/about/search.png "Home page search")
+![home search with drop down view](/img/pages/about/search.png "Home page search")
 
 #### 2 - Clica nos marcadores vermelhos
 
-![list view map ](/public/img/pages/about/map.png "List view map")
+![list view map ](/img/pages/about/map.png "List view map")
 
 #### 3 - Vê o perfil completo da escola
 
-![School profile](/public/img/pages/about/school.png "School profile")
+![School profile](/img/pages/about/school.png "School profile")
 
 Caso saibas o nome da escola, podes pesquisar directamente também.
 
