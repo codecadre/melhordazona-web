@@ -46,3 +46,6 @@ release:
     ENV="PROD" bb recepies/pages.clj
     ./node_modules/js-beautify/js/bin/html-beautify.js public/paginas/**/*.html  -r -s 2 -d
     just shadow-build
+
+deploy:
+    rsync -havz public/ hetzner:/usr/home/codecan/public_html/passaprimeira --include='**.gitignore' --exclude='/.git' --filter=':- .gitignore' --delete-after
