@@ -5,6 +5,12 @@
             [clojure.edn :as edn]
             [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs]]))
 
+
+(def config
+  (merge
+   (-> "config_files/config.edn" slurp edn/read-string)
+   (-> "config_files/secrets.edn" slurp edn/read-string)))
+
 (defn content [lang]
   {:title (copy [:directory/meta-title lang])
    :subtitle (copy [:directory/subtitle lang])})
@@ -53,7 +59,8 @@
       (merge (content lang) req)
       [:main
        (into h [[:h5 [:a {:href (copy [:href/nil-concelho lang])} (copy [:no-district lang])]
-                 [:span.opacity35 (str " (" (get districts nil) " " (copy [:school lang]) "s)")]]])]))))
+                 [:span.opacity35 (str " (" (get districts nil) " " (copy [:school lang]) "s)")]]])]
+      config))))
 
 (defn district-data [k]
   (try
@@ -83,4 +90,5 @@
             (into
              [:div.container
               [:h2 title]
-              (breadcrumbs {:district district-name :district-key district} lang)]))]))))
+              (breadcrumbs {:district district-name :district-key district} lang)]))]
+      config))))

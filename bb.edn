@@ -1,4 +1,4 @@
-{:paths ["src/main/" "." "test/"]
+{:paths ["public/src/clj/" "public" "recepies" "." "test/"]
  :pods {tzzh/mail {:version "0.0.2"}}
  :tasks
  {:requires ([babashka.fs :as fs]

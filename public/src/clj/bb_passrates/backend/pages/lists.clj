@@ -8,6 +8,11 @@
             [bb-passrates.shared.copy :refer [copy]]
             [bb-passrates.backend.pages.breadcrumbs :refer [no-info-breadcrumbs breadcrumbs]]))
 
+(def config
+  (merge
+   (-> "config_files/config.edn" slurp edn/read-string)
+   (-> "config_files/secrets.edn" slurp edn/read-string)))
+
 ;;TODO after copy
 ;;link this to methodology instead
 (def taxa-aprovacao-href
@@ -132,7 +137,8 @@
         (when (and long lat)
           [:div.map-wrapper
            [:div#map {:lat lat :long long}]])
-        school-cards]]))))
+        school-cards]]
+      config))))
 
 
 (defn no-imt-profile [{:keys [lang] :as req}]
@@ -151,7 +157,8 @@
           (school-list {})
           (sort #(compare (-> %1 last :rates first :r/name-raw) (-> %2 last :rates first :r/name-raw)))
           (map-indexed
-           #(vector :p.no [:a {:href (format (copy [:href/school-nil-concelho lang]) (first %2)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw address->human))])))]]]))))
+           #(vector :p.no [:a {:href (format (copy [:href/school-nil-concelho lang]) (first %2)) } (str (inc %1) " - " (-> %2 last :rates first :r/name-raw address->human))])))]]]
+      config))))
 
 
 (comment

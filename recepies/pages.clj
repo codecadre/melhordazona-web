@@ -3,7 +3,13 @@
             [babashka.pods :as pods]
             [bb-passrates.backend.templates.template :as tmp]
             [hiccup2.core :refer [html]]
-            [clojure.java.io :as io]))
+            [clojure.java.io :as io]
+            [clojure.edn :as edn]))
+
+(def config
+  (merge
+   (-> "public/config_files/config.edn" slurp edn/read-string)
+   (-> "public/config_files/secrets.edn" slurp edn/read-string)))
 
 (deps/add-deps '{:deps {com.github.askonomm/clarktown {:mvn/version "1.1.2"}}})
 (deps/add-deps '{:deps {markdown-clj/markdown-clj {:mvn/version "1.11.1"}}})
@@ -41,11 +47,12 @@
                                           (map #(update-in % [1] slurp))
                                           (map #(update-in % [1] md/md-to-html-string))
                                           (map #(update-in % [1]  (fn [p] (bootleg/convert-to p :hiccup-seq))))
-                                          (map #(update-in % [1] (fn [c] (into [:html {:lang (name (:lang (last %)))}] (tmp/header (last %)  [:div.pages.container c])))))
+                                          (map #(update-in % [1] (fn [c] (into [:html {:lang (name (:lang (last %)))}] (tmp/header (last %)  [:div.pages.container c]
+                                                                                                                                   config)))))
                                           (map #(update-in % [1] (fn [c] (str "<!DOCTYPE html>\n" (html c))))))]
     (let [out-str (if (= :en lang)
-                    "en/pages/%s/index.html"
-                    "paginas/%s/index.html")
+                    "public/en/pages/%s/index.html"
+                    "public/paginas/%s/index.html")
           f (format out-str (name k))]
      (clojure.java.io/make-parents f)
      (spit f html-ct))))

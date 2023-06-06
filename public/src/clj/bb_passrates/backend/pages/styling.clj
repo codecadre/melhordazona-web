@@ -5,6 +5,11 @@
             [hiccup2.core :refer [html]]
             [cheshire.core :as json]))
 
+(def config
+  (merge
+   (-> "config_files/config.edn" slurp edn/read-string)
+   (-> "config_files/secrets.edn" slurp edn/read-string)))
+
 (def content
   {:title "Styling page"
    :subtitle
@@ -92,7 +97,8 @@
       #_svg-code-cadre
       [:div [:img {:src "/public/img/code-cadre-logo.png"}]
        [:p ":img"]]
-      [:a {:href "/"} "a: some link"]]])))
+      [:a {:href "/"} "a: some link"]]]
+    config)))
 
 (println "Content-type:text/html\r\n")
 (println (str (html page)))

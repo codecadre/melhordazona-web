@@ -104,37 +104,38 @@
          #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
          #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
 
-(def domain (:domain config/values))
-
-(defn alternate-hreflang-en [lang uri]
-  (let [en-lang? (en? lang)
+(defn alternate-hreflang-en [lang uri config]
+  (let [domain (:domain config)
+        en-lang? (en? lang)
         en-alternate (pt->en uri)
         alternate? (boolean en-alternate)
         href (if en-lang? (str domain uri) (str domain en-alternate))]
     (when (or alternate? en-lang?)
       [:link {:rel "alternate" :hreflang "en" :href href }])))
 
-(defn alternate-hreflang-pt [lang uri]
-  (let [pt-lang? (not (en? lang))
+(defn alternate-hreflang-pt [lang uri config]
+  (let [domain (:domain config)
+        pt-lang? (not (en? lang))
         pt-alternate (en->pt uri)
         alternate? (boolean pt-alternate)
         href (if pt-lang? (str domain uri) (str domain pt-alternate))]
     (when (or alternate? pt-lang?)
       [:link {:rel "alternate" :hreflang "pt" :href href}])))
 
-(defn add-canonical [uri]
-  [:link {:rel "canonical" :href (str domain uri)}])
+(defn add-canonical [uri config]
+  (let [domain (:domain config)]
+    [:link {:rel "canonical" :href (str domain uri)}]))
 
-(defn header [{:keys [title subtitle lang uri] :as req} main]
+(defn header [{:keys [title subtitle lang uri] :as req} main config]
   [[:head
     [:meta {:charset "UTF-8"}]
     [:meta {:content "width=device-width, initial-scale=1, maximum-scale=1" :name "viewport"}]
     [:meta {:name "description" :content subtitle}]
-    [:link {:href "/public/css/main.css", :rel "stylesheet"}]
-    [:link {:rel "stylesheet" :href "/public/vendor/leaflet/leaflet.css" :crossorigin ""}]
-    (alternate-hreflang-pt lang uri)
-    (alternate-hreflang-en lang uri)
-    (add-canonical uri)
+    [:link {:href "/css/main.css", :rel "stylesheet"}]
+    [:link {:rel "stylesheet" :href "/vendor/leaflet/leaflet.css" :crossorigin ""}]
+    (alternate-hreflang-pt lang uri config)
+    (alternate-hreflang-en lang uri config)
+    (add-canonical uri config)
     #_(when local-dev? [:script {:src "https://livejs.com/live.js"}])
     [:title title]]
    [:body
@@ -142,8 +143,8 @@
     main
     (footer req)]
    (if local-dev?
-     [:script {:src "/target/shadow-builds/public/main/js/main.js"}]
-     [:script {:src "/public/js/main.js"}])
+     [:script {:src "/shadow-builds/main/js/main.js"}]
+     [:script {:src "/js/main.js"}])
    (when (not local-dev?)
      [:script {:src "https://plausible.io/js/plausible.js"
                :async "defer" :data-domain "passaprimeira.xyz"}])])

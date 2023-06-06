@@ -7,6 +7,12 @@
             [bb-passrates.shared.copy :refer [copy]]
             [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs no-info-breadcrumbs]]))
 
+(def config
+  (merge
+   (-> "config_files/config.edn" slurp edn/read-string)
+   (-> "config_files/secrets.edn" slurp edn/read-string)))
+
+
 ;;TODO after copy
 ;;link this to methodology instead
 (def taxa-aprovacao-href
@@ -89,4 +95,5 @@
            (let [[one two three four five] (copy [:school/explainer lang])]
              [:p one
               [:span.driving two] three
-              [:span.theory four] five])]]]]]))))
+              [:span.theory four] five])]]]]]
+      config))))

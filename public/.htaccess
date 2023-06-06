@@ -27,7 +27,7 @@ SetEnv BABASHKA_PODS_DIR /usr/home/codecan/.babashka/pods
   AddOutputFilterByType DEFLATE text/html
   AddOutputFilterByType DEFLATE text/javascript
   AddOutputFilterByType DEFLATE text/plain
-  AddOutputFilterByType DEFLATE text/xml  
+  AddOutputFilterByType DEFLATE text/xml
 
   # Remove browser bugs (only needed for ancient browsers)
   BrowserMatch ^Mozilla/4 gzip-only-text/html
@@ -42,7 +42,7 @@ SetEnv BABASHKA_PODS_DIR /usr/home/codecan/.babashka/pods
     </FilesMatch>
 </IfModule>
 
-RewriteRule ^favicon.ico public/img/favicon.ico [L]
+RewriteRule ^favicon.ico /img/favicon.ico [L]
 
 # send everything to /index.clj minus files and directories
 RewriteBase /
@@ -54,15 +54,7 @@ RewriteCond %{REQUEST_URI} "/en/"
 RewriteRule ^ /index.clj [L]
 
 RewriteRule ^/?bb.edn$ - [F,L]
-RewriteRule ^/?.gitignore$ - [F,L]
-RewriteRule ^/?.gitmodules$ - [F,L]
 RewriteRule ^/?.htaccess$ - [F,L]
-RewriteRule ^/?.nrepl-port$ - [F,L]
-RewriteRule ^/?package.json$ - [F,L]
-RewriteRule ^/?package-lock.json$ - [F,L]
-RewriteRule ^/?Readme.org$ - [F,L]
-RewriteRule ^/?shadow-cljs.edn$ - [F,L]
-RewriteRule ^/?user.clj$ - [F,L]
 
 
 #RewriteCond %{REQUEST_URI} /(.+)$

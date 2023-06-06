@@ -9,7 +9,7 @@
   :init-ns bb-passrates.shadow-repl}
 
  :source-paths
- ["src/main"
+ ["public/src/clj"
   "dev"]
 
  :builds
@@ -18,7 +18,7 @@
    #_#_:open-file-command
    ["emacsclient" "-n" ["+%s:%s" :line :column] :file]
    :modules {:main {:init-fn bb-passrates.frontend.index/init}}
-   :dev {:output-dir "target/shadow-builds/public/main/js"
+   :dev {:output-dir "public/shadow-builds/main/js"
          :asset-path "/main/js"
 
          :compiler-options  {:cross-chunk-method-motion false
