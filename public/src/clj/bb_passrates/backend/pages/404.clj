@@ -9,4 +9,4 @@
   [:html
    [:h1 "404"]
    [:h2 "NOT FOUND"]
-   [:div [:img {:src "/public/img/404.jpeg"}]]])
+   [:div [:img {:src "/img/404.jpeg"}]]])

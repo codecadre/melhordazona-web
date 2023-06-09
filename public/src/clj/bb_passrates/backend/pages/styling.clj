@@ -95,7 +95,7 @@
                "cupidatat non proident, sunt in culpa qui officia deserunt mollit"
                "anim id est laborum.")]
       #_svg-code-cadre
-      [:div [:img {:src "/public/img/code-cadre-logo.png"}]
+      [:div [:img {:src "/img/code-cadre-logo.png"}]
        [:p ":img"]]
       [:a {:href "/"} "a: some link"]]]
     config)))
