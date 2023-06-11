@@ -9,6 +9,8 @@ To run the dev setup in a docker container do:
 just server
 ```
 
+Connect to [localhost:8081](http://localhost:8081).
+
 ## babashka nrepl
 
 ```
