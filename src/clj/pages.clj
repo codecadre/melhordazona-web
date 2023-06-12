@@ -5,29 +5,15 @@
             [hiccup2.core :as hiccup2]
             [clojure.java.io :as io]
             [clojure.edn :as edn]
-            [babashka.fs :as fs]))
-
-;;TODO move to bb.edn
-(deps/add-deps '{:deps {com.github.askonomm/clarktown {:mvn/version "1.1.2"}}})
-(deps/add-deps '{:deps {markdown-clj/markdown-clj {:mvn/version "1.11.1"}}})
-(require '[clarktown.core :as clarktown])
-
-(pods/load-pod 'retrogradeorbit/bootleg "0.1.9")
-
-(require
- '[pod.retrogradeorbit.bootleg.utils :as bootleg])
-
-(require '[markdown.core :as md])
+            [babashka.fs :as fs]
+            [clarktown.core :as clarktown]
+            [pod.retrogradeorbit.bootleg.utils :as bootleg]
+            [markdown.core :as md]))
 
 (def config
   (merge
    (-> "public/config_files/config.edn" slurp edn/read-string)
    (-> "public/config_files/secrets.edn" slurp edn/read-string)))
-
-
-(pods/load-pod 'retrogradeorbit/bootleg "0.1.9")
-(require
- '[pod.retrogradeorbit.bootleg.utils :as bootleg])
 
 (defn process-page! [file]
   (let [{:keys [metadata html]} (md/md-to-html-string-with-meta (slurp file))
