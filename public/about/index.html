@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+  <meta content="Passa à primeira is an interactive guide to IMT approval rates. Created by Flávio Sousa for Codecadre." name="description" />
+  <link href="/css/main.css" rel="stylesheet" />
+  <link crossorigin="" href="/vendor/leaflet/leaflet.css" rel="stylesheet" />
+  <link href="https://passaprimeira.xyz/about/" hreflang="pt" rel="alternate" />
+  <link href="https://passaprimeira.xyz/en/about/" hreflang="en" rel="alternate" />
+  <link href="https://passaprimeira.xyz/about/" rel="canonical" />
+  <title>About this Project | Passa à Primeira</title>
+</head>
+
+<body>
+  <header>
+    <div class="ribbon"></div>
+    <div class="container">
+      <div class="row">
+        <div class="column one-half">
+          <h2 class="title">
+            <strong>
+              <a href="/">Passa à Primeira</a>
+            </strong>
+          </h2>
+          <p class="subtitle"></p>
+        </div>
+        <div class="column one-half">
+          <div class="menu">
+            <a href="/en/about/" id="en">
+              <strong>EN</strong>
+            </a>
+            <div class="menu-item">
+              <a href="/"></a>
+            </div>
+            <div class="menu-item">
+              <a></a>
+            </div>
+            <div class="menu-item">
+              <a href="/paginas/acerca/"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="pages container">
+    <h2>
+      <i>Passa à Primeira</i>: free data visualization with a focus on user privacy
+    </h2>
+    <p>In my experience with driving schools, I&apos;ve noticed that the incentives are not aligned to provide students with the best learning experience.</p>
+    <p>Schools are forced to choose between providing more dedicated support or accommodating more students - this creates a push for increasingly lower prices.</p>
+    <p>Tools like this one, allow schools to highlight their quality and enable students to make better decisions.</p>
+    <p>This application allows you visualise the <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx">IMT approval rates</a> on a map in three steps:</p>
+    <h4>1 - Search by municipality</h4>
+    <p>
+      <img alt="home search with drop down view" src="/img/pages/about/search.png" title="Home page search" />
+    </p>
+    <h4>2 - Click on the red markers</h4>
+    <p>
+      <img alt="list view map " src="/img/pages/about/map.png" title="List view map" />
+    </p>
+    <h4>3 - View the complete school profile</h4>
+    <p>
+      <img alt="School profile" src="/img/pages/about/school.png" title="School profile" />
+    </p>
+    <p>If you know the school name, you can also search directly.</p>
+    <h4>Data source</h4>
+    <p>From 2015 to 2020, including all categories (driving, motorcycle, etc.) and only first-time passes. The approval rate is the number of approved exams over the total number of exams done.</p>
+    <p>The Portuguese law says that (<a href="https://www.imt-ip.pt/sites/imtt/portugues/ensinoconducao/indicadoresdesempenho_escolasconducao/Paginas/IndicadoresdeDesempenho_EscolasdeConducao.aspx">decreto-lei n.º 14/2014, de 18 de março</a>) IMT should publish approval rates regularly. Since the initial publication in 2015, these data have not been updated, despite freedom of information acts and a complaint to the Ombudsman.</p>
+    <p>During the year 2021, the data were finally made public, making initiatives like this one possible.</p>
+    <h4>Open Source</h4>
+    <p>For a matter of transparency and reproducibility, we have published the code used to extract the data in open-source format:</p>
+    <p>
+      <a href="https://github.com/codecadre/imt-pass-rates">Approval rates</a>
+      <a href="https://github.com/codecadre/imt-school-addresses">Addresses and IMT license</a>
+    </p>
+    <p>To make initiatives like this one easier, the approval rates can be imported into a Jupyter Notebook:</p>
+    <p>
+      <a href="https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb">Demo</a>
+    </p>
+    <h4>Privacy and GDPR</h4>
+    <p>The website complies with European privacy standards. We do not use cookies to offer a better browsing experience because, at Codecadre, we do not believe that providing personal information in exchange for targeted advertising is an economically viable model. Our partners were chosen with this principle in mind.</p>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="column two-thirds">
+          <h2 class="title">
+            <strong>
+              <a href="/">Passa à Primeira</a>
+            </strong>
+          </h2>
+          <p class="subtitle">
+            <span></span>
+            <a href="https://www.flaviosousa.co/">Flávio Sousa</a>
+            <span></span>
+            <a href="https://www.codecadre.ai/">Codecadre</a>
+            <span></span>
+          </p>
+        </div>
+      </div>
+      <div class="row footer-bottom-row">
+        <div class="columns three">
+          <p class="top-level-item"></p>
+          <p class="item">
+            <a href="https://github.com/codecadre">Open Source</a>
+          </p>
+        </div>
+        <div class="columns eight">
+          <p class="top-level-item"></p>
+          <form hx-post="/post-contact" hx-swap="outerHTML" hx-target="this">
+            <label for="email-input"></label>
+            <input class="u-full-width" id="email-input" name="email-input" placeholder="ola@mail.com" type="email" />
+            <label for="message"></label>
+            <textarea class="u-full-width" id="message" name="message" placeholder="Ola Flávio..."></textarea>
+            <label class="send-yourself-copy">
+              <input name="send-copy" type="checkbox" />
+              <span class="label-body"></span>
+            </label>
+            <input class="button-primary" type="submit" />
+          </form>
+          <br />
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="/js/main.js"></script>
+<script async="defer" data-domain="passaprimeira.xyz" src="https://plausible.io/js/plausible.js"></script>
+
+</html>
