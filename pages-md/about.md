@@ -1,51 +1,52 @@
-title: Acerca deste projecto | Passa à Primeira
-subtitle: Passa à primeira é um guia interactivo das taxas de aprovação do IMT. Realizado por Flávio Sousa para Codecadre.
-lang: pt
-uri: /acerca/
+title: About this Project | Passa à Primeira
+subtitle: Passa à primeira is an interactive guide to IMT approval rates. Created by Flávio Sousa for Codecadre.
+lang: en-gb
+uri: /about/
 
-## _Passa à Primeira_: uma visualização gratuita de dados públicos com foco na privacidade do utilizador
+## _Passa à Primeira_: free data visualization with a focus on user privacy
 
-Na minha experiência com escolas de condução, constatei que os incentivos não estão alinhados para dar aos alunos a melhor experiência de ensino.
+In my experience with driving schools, I've noticed that the incentives are not aligned to provide students with the best learning experience.
 
-As escolas vêm-se obrigadas a ter de optar entre um acompanhamento mais dedicado, ou a acomodarem mais alunos - esta é a lógica da corrida aos preços baixos.
+Schools are forced to choose between providing more dedicated support or accommodating more students - this creates a push for increasingly lower prices.
 
-Ferramentas como esta permitem às escolas valorizarem a qualidade do seu ensino e que futuros alunos possam tomar uma melhor decisão, tendo em conta o seu contexto pessoal.
+Tools like this one, allow schools to highlight their quality and enable students to make better decisions.
 
-Esta aplicação permite ao utilizador visualizar num mapa as [taxas de aprovação do IMT](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx), em três passos:
+This application allows you visualise the [IMT approval rates](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx) on a map in three steps:
 
-#### 1 - Pesquisa por concelho
+#### 1 - Search by municipality
 
 ![home search with drop down view](/img/pages/about/search.png "Home page search")
 
-#### 2 - Clica nos marcadores vermelhos
+#### 2 - Click on the red markers
 
 ![list view map ](/img/pages/about/map.png "List view map")
 
-#### 3 - Vê o perfil completo da escola
+#### 3 - View the complete school profile
 
 ![School profile](/img/pages/about/school.png "School profile")
 
-Caso saibas o nome da escola, podes pesquisar directamente também.
+If you know the school name, you can also search directly.
 
-#### Origem dos dados
+#### Data source
 
-Os dados apresentados são referentes aos exames de 2015 a 2020, contabilizando todas as categorias (condução, mota, etc.) e apenas passagens à primeira. A taxa de aprovação é o número de exames aprovados, em relação ao número de exames realizados.
+From 2015 to 2020, including all categories (driving, motorcycle, etc.) and only first-time passes. The approval rate is the number of approved exams over the total number of exams done.
 
-Está previsto no [decreto-lei n.º 14/2014, de 18 de março](https://www.imt-ip.pt/sites/imtt/portugues/ensinoconducao/indicadoresdesempenho_escolasconducao/Paginas/IndicadoresdeDesempenho_EscolasdeConducao.aspx) que o IMT publique regularmente as taxas de aprovação dos exames de condução, agregados por escola de condução. Desde uma primeira publicação em 2015, estes dados deixaram de ser actualizados, apesar de [pedidos de acesso a dados públicos](https://www.flaviosousa.co/pedido-accesso-dados-publicos/) e a uma queixa ao Provedor de Justiça.
+The Portuguese law says that ([decreto-lei n.º 14/2014, de 18 de março](https://www.imt-ip.pt/sites/imtt/portugues/ensinoconducao/indicadoresdesempenho_escolasconducao/Paginas/IndicadoresdeDesempenho_EscolasdeConducao.aspx)) IMT should publish approval rates regularly. Since the initial publication in 2015, these data have not been updated, despite freedom of information acts and a complaint to the Ombudsman.
 
-Durante o ano de 2021, estes dados foram finalmente publicados, permitindo agora iniciativas como esta.
+During the year 2021, the data were finally made public, making  initiatives like this one possible.
 
 #### Open Source
 
-Por uma questão de transparência e reproducibilidade, publicamos o código usado para extrair os dados, em formato open source:
+For a matter of transparency and reproducibility, we have published the code used to extract the data in open-source format:
 
-- [Taxas de aprovação](https://github.com/codecadre/imt-pass-rates)
-- [Moradas e licensa IMT](https://github.com/codecadre/imt-school-addresses)
+[Approval rates](https://github.com/codecadre/imt-pass-rates)
+[Addresses and IMT license](https://github.com/codecadre/imt-school-addresses)
 
-Para facilitar iniciativas como esta, as taxas de aprovações podem ser importadas num Júpiter Notebook:
+
+To make initiatives like this one easier, the approval rates can be imported into a Jupyter Notebook:
 
 [Demo](https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb)
 
-#### Privacidade e GDPR
+#### Privacy and GDPR
 
-O site respeita as normas europeias de privacidade. Não usamos cookies para oferecer uma melhor experiência de navegação e, porque na [Codecadre](https://www.codecadre.ai), não acreditamos que ceder informação pessoal em troca de publicidade segmentada seja um modelo economicamente viável. Os nossos parceiros foram escolhidos com este princípio em mente.
+The website complies with European privacy standards. We do not use cookies to offer a better browsing experience because, at Codecadre, we do not believe that providing personal information in exchange for targeted advertising is an economically viable model. Our partners were chosen with this principle in mind.
