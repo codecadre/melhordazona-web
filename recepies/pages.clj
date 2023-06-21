@@ -1,3 +1,5 @@
+;; DEPRECATED use src/pages.clj
+
 (ns recepies.pages
   (:require [babashka.deps :as deps]
             [babashka.pods :as pods]
