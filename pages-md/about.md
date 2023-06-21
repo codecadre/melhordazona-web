@@ -1,6 +1,6 @@
 title: About this Project | Passa à Primeira
 subtitle: Passa à primeira is an interactive guide to IMT approval rates. Created by Flávio Sousa for Codecadre.
-lang: en-gb
+lang: en
 uri: /about/
 
 ## _Passa à Primeira_: free data visualization with a focus on user privacy
