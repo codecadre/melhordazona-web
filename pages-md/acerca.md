@@ -1,7 +1,7 @@
 title: Acerca deste projecto | Passa à Primeira
 subtitle: Passa à primeira é um guia interactivo das taxas de aprovação do IMT. Realizado por Flávio Sousa para Codecadre.
 lang: pt
-uri: /acerca/
+uri: /static/acerca/
 
 ## _Passa à Primeira_: uma visualização gratuita de dados públicos com foco na privacidade do utilizador
 

@@ -1,11 +1,11 @@
 title: About this Project | Passa à Primeira
 subtitle: Passa à primeira is an interactive guide to IMT approval rates. Created by Flávio Sousa for Codecadre.
 lang: en
-uri: /about/
+uri: /static/en/about/
 
 ## _Passa à Primeira_: free data visualization with a focus on user privacy
 
-In my experience with driving schools, I've noticed that the incentives are not aligned to provide students with the best learning experience.
+From personal experience with driving schools, I saw that the incentives are not aligned to provide students with the best learning experience.
 
 Schools are forced to choose between providing more dedicated support or accommodating more students - this creates a push for increasingly lower prices.
 

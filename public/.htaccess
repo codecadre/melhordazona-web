@@ -51,6 +51,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.clj [L]
 
 RewriteCond %{REQUEST_URI} "/en/"
+RewriteCond %{REQUEST_URI} !^/static/en/*
 RewriteRule ^ /index.clj [L]
 
 RewriteRule ^/?bb.edn$ - [F,L]
