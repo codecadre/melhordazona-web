@@ -27,4 +27,6 @@
 
                    (binding [*command-line-args* (list (str file))]
                      (run 'md-to-html))
-                   (run 'beautify)))}}}
+                   (run 'beautify)))}
+  sitemap {:doc "builds sitemap.txt"
+           :task (shell "bb src/clj/sitemap.clj")}}}
