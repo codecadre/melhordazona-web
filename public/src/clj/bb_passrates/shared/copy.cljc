@@ -25,6 +25,8 @@
    ;;
    ;;href
    ;;
+   :href/about {:pt "/static/acerca/"
+                :en "/static/en/about/"}
    :href/district-index {:pt "/distritos-regioes/"
                          :en "/en/districts-regions/"}
    :href/district {:pt "/distritos-regioes/%s/concelhos/"
@@ -214,8 +216,7 @@
    :contact/success {:pt "Mensagem enviada com sucesso!"
                      :en "Message sent successfully"}
    :contact/error {:pt "Ocoreu um erro. P.f.f. tente mais tarde ou envie directamente para mail@flaviosousa.co"
-                   :en "Something went wrong"}
-})
+                   :en "Something went wrong"}})
 
 (defn copy [p]
   (get-in copy-list p))

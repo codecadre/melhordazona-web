@@ -42,7 +42,12 @@ SetEnv BABASHKA_PODS_DIR /usr/home/codecan/.babashka/pods
     </FilesMatch>
 </IfModule>
 
+# ACERCA 301
+RewriteRule ^paginas/acerca/(.*)$ /static/acerca/$1 [R=301,L]
+
+#FAVICON
 RewriteRule ^favicon.ico /img/favicon.ico [L]
+
 
 # send everything to /index.clj minus files and directories
 RewriteBase /
@@ -51,6 +56,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.clj [L]
 
 RewriteCond %{REQUEST_URI} "/en/"
+RewriteCond %{REQUEST_URI} !^/static/en/*
 RewriteRule ^ /index.clj [L]
 
 RewriteRule ^/?bb.edn$ - [F,L]

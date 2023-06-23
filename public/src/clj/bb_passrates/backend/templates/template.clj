@@ -45,7 +45,7 @@
 
 (def pt->en-map
   {"/" "/en/"
-   #_#_"/paginas/acerca/" ""
+   "/static/acerca/" "/static/en/about/"
    #_#_"/paginas/faq-pt/" "/en/pages/faq/"})
 
 (def en->pt-map
@@ -99,7 +99,7 @@
          [(if  (or (= uri "/en/districts-regions/") (= uri "/distritos-regioes/"))
             :div.menu-item.selected :div.menu-item)
           [:a {:href (copy-m :href/district-index)} (copy-m :nav/dir)]]
-         [:div.menu-item [:a {:href "/paginas/acerca/"} (copy [:nav/about lang])]]
+         [:div.menu-item [:a {:href (copy-m :href/about)} (copy [:nav/about lang])]]
 
          #_[:div.menu-item [:a {:href (if pt? "/paginas/faq-pt/" "/en/pages/faq/")} (copy [:nav/faq lang])]]
          #_[:div.menu-item [:a {:href "#"} (copy [:nav/privacy lang])]]]]]]]))
