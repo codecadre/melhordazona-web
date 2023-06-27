@@ -43,8 +43,7 @@ test:
     bb test/test_runner.clj
 
 release:
-    ENV="PROD" bb recepies/pages.clj
-    ./node_modules/js-beautify/js/bin/html-beautify.js public/paginas/**/*.html  -r -s 2 -d
+    ENV="PROD" bb pages
     just shadow-build
 
 deploy:
