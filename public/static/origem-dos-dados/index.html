@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+  <meta content="Passa à primeira cruza dados de várias fontes: Taxas de aprovação do IMT, moradas das escolas de condução e latitude e longitude do ESRI." name="description" />
+  <link href="/css/main.css" rel="stylesheet" />
+  <link crossorigin="" href="/vendor/leaflet/leaflet.css" rel="stylesheet" />
+  <link href="https://passaprimeira.xyz/static/origem-dos-dados/" hreflang="pt" rel="alternate" />
+  <link href="https://passaprimeira.xyz/en/static/origem-dos-dados/" hreflang="en" rel="alternate" />
+  <link href="https://passaprimeira.xyz/static/origem-dos-dados/" rel="canonical" />
+  <title>Origem dos Dados | Passa à Primeira</title>
+</head>
+
+<body>
+  <header>
+    <div class="ribbon">Dados 2015-2020</div>
+    <div class="container">
+      <div class="row">
+        <div class="column one-half">
+          <h2 class="title">
+            <strong>
+              <a href="/">Passa à Primeira</a>
+            </strong>
+          </h2>
+          <p class="subtitle">O teu guia (não) oficial para as taxas de aprovação do IMT</p>
+        </div>
+        <div class="column one-half">
+          <div class="menu">
+            <a href="/en/static/origem-dos-dados/" id="en">
+              <strong>EN</strong>
+            </a>
+            <div class="menu-item">
+              <a href="/">Pesquisa</a>
+            </div>
+            <div class="menu-item">
+              <a href="/distritos-regioes/">Diretório</a>
+            </div>
+            <div class="menu-item">
+              <a href="/static/acerca/">Sobre</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="pages container">
+    <h2>Qual a origem dos dados</h2>
+    <h3>1. Taxas de aprovação do IMT</h3>
+    <p>Usámos as taxas de aprovação publicadas a partir de 2015 no site do IMT que podem ser consultados aqui:</p>
+    <p>
+      <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx">Taxas de aprovação IMT para os anos de 2015 a 2020</a>
+    </p>
+    <p>Usamos apenas as agregações globais, ou seja, categoria B, mota, pesados, etc, tudo agrupado.</p>
+    <p>Principalmente usámos os pdf por &apos;escolas de condução&apos;.</p>
+    <p>Estes ficheiros estão num formato tabular em que as principais colunas para a nossa análise são, para as provas teóricas e práticas:</p>
+    <ul>
+      <li>Provas marcadas</li>
+      <li>Provas realizadas</li>
+      <li>percentagem de aprovação</li>
+    </ul>
+    <p>A extração dos pdfs foi realizada num script python e o código fonte é Open Source e pode ser <a href="https://github.com/codecadre/imt-pass-rates">consultado no github</a>.</p>
+    <p>Publicamos o código por uma questão de transparencia. Tomámos todos os cuidados para verificar que a extração foi feita correctamente e queremos mostrar isso. Também é importante que outros possam reproduzir o processo.</p>
+    <p>Adicionalmente, mostramos como a base de dados pode ser importada num jupiter notebook para facilitar a análise estatistica.</p>
+    <h4>Metodologia do IMT</h4>
+    <p>Existe uma <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">ficha técnica publicada em 2014</a>, que se presume que seja valiada ao longo dos anos, que explica a metodologia usada na agregação dos dados por escolas de condução:</p>
+    <ul>
+      <li>A percentagem de aprovação é o rácio de <code>número de aprovações / Total provas realizadas</code>
+      </li>
+      <li>
+        <code>Total provas realizadas</code>: alunos que realizaram exame pela primeira vez. Apenas contabilizadas “aprovado” ou “reprovado”, ou seja, cancelado ou faltou foram excluidas.
+      </li>
+    </ul>
+    <h3>2. Moradas e pagina do IMT.</h3>
+    <p>Cada escola de condução tem uma página correspondente no site do IMT com</p>
+    <ul>
+      <li>Morada</li>
+      <li>Nome da escola</li>
+      <li>Licença ou número de escola</li>
+      <li>Concelho e distrito</li>
+    </ul>
+    <p>Em primeiro lugar, descarregamos cada página e construímos uma lista esta informação. O código e a base de dados e formato json podem ser <a href="https://github.com/codecadre/imt-school-addresses">consultados aqui no github</a> ou na nossa secção <a href="#open-source">Open Source</a>.</p>
+    <p>Adicionalmente, corremos este codigo de tempos a tempos e propagamos quaisquer alterações que existam no site do IMT.</p>
+    <ol>
+      <li>Das taxas de aprovação lemos o número de licensa.</li>
+      <li>Com o número de licensa cruzamos com os dados do site.</li>
+      <li>Ás vezes algumas licensas aparecem com outro nome talvez a escola tenha mudade de gerência. Neste caso, ignoramos.</li>
+    </ol>
+    <p>Caso existam imprecisões, estas são propagadas desde o site do IMT, que consideramos a fonte de verdade.</p>
+    <p>Corremos os script com frequencia necessária para propagar alterações caso existam.</p>
+    <p>Para consulta uma lista de escolas sem moradas consultar <a href="pagina-com-listagem-completa">a seguinta pagina</a>:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>k</th>
+          <th>2015</th>
+          <th>2016</th>
+          <th>2017</th>
+          <th>2018</th>
+          <th>2019</th>
+          <th>2020</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>circular-de-braga-00443</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td></td>
+          <td>true</td>
+          <td>true</td>
+        </tr>
+        <tr>
+          <td>chelas-01187</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+        </tr>
+        <tr>
+          <td>boa-onda-01373</td>
+          <td></td>
+          <td></td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+        </tr>
+        <tr>
+          <td>auto-mira-00651</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>3. Latitude e longitude</h3>
+    <p>ESRI data</p>
+    <p>Dataset pago, com limites de utilização. Não usamos google anteriormente pq queriamos usar OSM e o google tem limites de usitilização (Por os links que usaste nos issues sobre o google TOS)</p>
+    <p>...show list of schools with no geocode?</p>
+    <p>As escolas sem geocode aparecem nas listagens por concelho mas nao no mapa. Pode-se ser concsultadas taxas de avaliacao.</p>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="column two-thirds">
+          <h2 class="title">
+            <strong>
+              <a href="/">Passa à Primeira</a>
+            </strong>
+          </h2>
+          <p class="subtitle">
+            <span>Dados públicos com acessibilidade gratuita e foco na privacidade do utilizador. Realizado por </span>
+            <a href="https://www.flaviosousa.co/">Flávio Sousa</a>
+            <span> para </span>
+            <a href="https://www.codecadre.ai/">Codecadre</a>
+            <span>.</span>
+          </p>
+        </div>
+      </div>
+      <div class="row footer-bottom-row">
+        <div class="columns three">
+          <p class="top-level-item">Projecto</p>
+          <p class="item">
+            <a href="https://github.com/codecadre">Open Source</a>
+          </p>
+        </div>
+        <div class="columns eight">
+          <p class="top-level-item">Contacto</p>
+          <form hx-post="/post-contact" hx-swap="outerHTML" hx-target="this">
+            <label for="email-input">O teu Email</label>
+            <input class="u-full-width" id="email-input" name="email-input" placeholder="ola@mail.com" type="email" />
+            <label for="message">Mensagem</label>
+            <textarea class="u-full-width" id="message" name="message" placeholder="Ola Flávio..."></textarea>
+            <label class="send-yourself-copy">
+              <input name="send-copy" type="checkbox" />
+              <span class="label-body">Envia-me uma cópia</span>
+            </label>
+            <input class="button-primary" type="submit" value="Enviar" />
+          </form>
+          <br />
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="/js/main.js"></script>
+<script async="defer" data-domain="passaprimeira.xyz" src="https://plausible.io/js/plausible.js"></script>
+
+</html>
