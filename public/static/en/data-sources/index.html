@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -9,36 +9,36 @@
   <link crossorigin="" href="/vendor/leaflet/leaflet.css" rel="stylesheet" />
   <link href="https://passaprimeira.xyz/static/origem-dos-dados/" hreflang="pt" rel="alternate" />
   <link href="https://passaprimeira.xyz/static/en/data-sources/" hreflang="en" rel="alternate" />
-  <link href="https://passaprimeira.xyz/static/origem-dos-dados/" rel="canonical" />
-  <title>Origem dos Dados | Passa à Primeira</title>
+  <link href="https://passaprimeira.xyz/static/en/data-sources/" rel="canonical" />
+  <title>Data Sources | Passa à Primeira</title>
 </head>
 
 <body>
   <header>
-    <div class="ribbon">Dados 2015-2020</div>
+    <div class="ribbon">2015-2020 Data</div>
     <div class="container">
       <div class="row">
         <div class="column one-half">
           <h2 class="title">
             <strong>
-              <a href="/">Passa à Primeira</a>
+              <a href="/en/">Passa à Primeira</a>
             </strong>
           </h2>
-          <p class="subtitle">O teu guia (não) oficial para as taxas de aprovação do IMT</p>
+          <p class="subtitle">Your (un)official guide to IMT pass-rates</p>
         </div>
         <div class="column one-half">
           <div class="menu">
-            <a href="/static/en/data-sources/" id="en">
-              <strong>EN</strong>
+            <a href="/static/origem-dos-dados/" id="en">
+              <strong>PT</strong>
             </a>
             <div class="menu-item">
-              <a href="/">Pesquisa</a>
+              <a href="/en/">Search</a>
             </div>
             <div class="menu-item">
-              <a href="/distritos-regioes/">Diretório</a>
+              <a href="/en/districts-regions/">Directory</a>
             </div>
             <div class="menu-item">
-              <a href="/static/acerca/">Sobre</a>
+              <a href="/static/en/about/">About</a>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
     </div>
   </header>
   <div class="pages container">
-    <h2>Qual a origem dos dados?</h2>
+    <h2>Qual data sources were used?</h2>
     <p>Nesta página explicamos quais as fontes usadas nesta aplicação.</p>
     <h3>1. Taxas de aprovação do IMT</h3>
     <p>Utilizámos as <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">taxas de aprovação publicadas a partir de 2015 no site do IMT</a>.</p>
@@ -106,9 +106,9 @@
             </strong>
           </h2>
           <p class="subtitle">
-            <span>Dados públicos com acessibilidade gratuita e foco na privacidade do utilizador. Realizado por </span>
+            <span>Free access to government data focused on user privacy. Done by </span>
             <a href="https://www.flaviosousa.co/">Flávio Sousa</a>
-            <span> para </span>
+            <span> for </span>
             <a href="https://www.codecadre.ai/">Codecadre</a>
             <span>.</span>
           </p>
@@ -116,26 +116,26 @@
       </div>
       <div class="row footer-bottom-row">
         <div class="columns three">
-          <p class="top-level-item">Projecto</p>
+          <p class="top-level-item">Project</p>
           <p class="item">
             <a href="https://github.com/codecadre">Open Source</a>
           </p>
           <p class="item">
-            <a href="/static/origem-dos-dados/">Origem dos dados</a>
+            <a href="/static/en/data-sources/">Data sources</a>
           </p>
         </div>
         <div class="columns eight">
-          <p class="top-level-item">Contacto</p>
-          <form hx-post="/post-contact" hx-swap="outerHTML" hx-target="this">
-            <label for="email-input">O teu Email</label>
+          <p class="top-level-item">Contacts</p>
+          <form hx-post="/en/post-contact" hx-swap="outerHTML" hx-target="this">
+            <label for="email-input">Email</label>
             <input class="u-full-width" id="email-input" name="email-input" placeholder="ola@mail.com" type="email" />
-            <label for="message">Mensagem</label>
+            <label for="message">Message</label>
             <textarea class="u-full-width" id="message" name="message" placeholder="Ola Flávio..."></textarea>
             <label class="send-yourself-copy">
               <input name="send-copy" type="checkbox" />
-              <span class="label-body">Envia-me uma cópia</span>
+              <span class="label-body">Send yourself a copy</span>
             </label>
-            <input class="button-primary" type="submit" value="Enviar" />
+            <input class="button-primary" type="submit" value="Submit" />
           </form>
           <br />
         </div>

@@ -27,6 +27,7 @@
      [:div.columns.three
       [:p.top-level-item (copy [:project lang])]
       [:p.item [:a {:href "https://github.com/codecadre"} "Open Source"]]
+      [:p.item [:a {:href (copy-m :href/data-sources)} (copy-m :footer/data-sources)]]
       #_[:p.item "About"]]
      #_[:div.columns.two
       [:p.top-level-item "Legal"]
@@ -46,6 +47,7 @@
 (def pt->en-map
   {"/" "/en/"
    "/static/acerca/" "/static/en/about/"
+   "/static/origem-dos-dados/" "/static/en/data-sources/"
    #_#_"/paginas/faq-pt/" "/en/pages/faq/"})
 
 (def en->pt-map
