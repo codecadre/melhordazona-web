@@ -5,61 +5,61 @@ uri: /static/en/data-sources/
 
 ## Qual data sources were used?
 
-Nesta página explicamos quais as fontes usadas nesta aplicação.
+On this page, we explain the sources used in this application.
 
-### 1. Taxas de aprovação do IMT
+### 1. IMT Approval Rates
 
-Utilizámos as [taxas de aprovação publicadas a partir de 2015 no site do IMT](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx").
+We used the [approval rates published from 2015 on the IMT website](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx").
 
-Concentramo-nos nas agregações globais, ou seja, sem distinção entre várias categorias: automóvel, mota, pesados, etc.
+We focused on overall aggregations, without distinction between various categories: car, motorcycle, truck, etc.
 
-Os ficheiros originais em PDF estão num formato tabular em que as principais colunas para a nossa análise são:
+The original PDF files are in a tabular format, and the main columns for our analysis are:
 
-- Provas marcadas
-- Provas realizadas
-- Percentagem de aprovação
+- Scheduled exams
+- Exams conducted
+- Approval percentage
 
-A extração dos PDFs foi realizada num script Python e o código fonte pode ser [consultado no GitHub](https://github.com/codecadre/imt-pass-rates).
+PDF extraction was done with a Python script and the source code can be [found on GitHub](https://github.com/codecadre/imt-pass-rates).
 
-Publicamos o código por uma questão de transparência. Tomámos todos os cuidados para verificar que a extração foi feita corretamente e queremos demonstrar isso, ao tornar o código público e permitir que outros possam reproduzir e verificar.
+We have published the code for transparency purposes. We have taken all precautions to ensure that the extraction was done correctly, and we want to demonstrate this by making the code public and allowing others to reproduce and verify it.
 
-Adicionalmente, a base de dados pode ser importada num Jupyter Notebook para facilitar outros usos, como por exemplo, análise estatística.
+Additionally, we show how to import the database into a Jupyter Notebook to facilitate other uses, such as statistical analysis.
 
-#### Metodologia do IMT
+#### IMT Methodology
 
-Existe uma [ficha técnica publicada em 2014](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx"), que se presume ser válida ao longo dos anos, que explica a metodologia usada na agregação dos dados por escolas de condução. Para a nossa applicação interessa:
-- A percentagem de aprovação é o rácio de `Número de Aprovações / Total Provas Realizadas`
-- `Total Provas Realizadas`: alunos que realizaram exame pela primeira vez. Apenas contabilizadas provas com o estado **aprovado** ou **reprovado**, ou seja, provas **canceladas** ou **com falta** são excluidas.
+There is a [technical sheet published in 2014](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx") that is presumed to be valid over the years, which explains the methodology used in aggregating the data by driving schools. For our application, the following is relevant:
+- The approval percentage is the ratio of `Number of Approvals / Total Exams Conducted`
+- `Total Exams Conducted`: students who took the exam for the first time. Only exams with the status **approved** or **failed** are counted, meaning that **canceled** or **absent** exams are excluded.
 
-### 2. Moradas e página do IMT
+### 2. Addresses and IMT Page
 
-Cada escola de condução tem uma página correspondente no site do IMT com as seguintes informações:
+Each driving school has a corresponding page on the IMT website with the following information:
 
-- Morada
-- Nome da escola
-- Licença ou número de escola
-- Concelho e distrito
+- Address
+- School name
+- License or school number
+- Municipality and district
 
-O código usado para a extração e a base de dados em formato JSON podem ser [consultados no GitHub](https://github.com/codecadre/imt-school-addresses).
+The code used for extraction and the database in JSON format can be [found on GitHub](https://github.com/codecadre/imt-school-addresses).
 
-Adicionalmente, executamos este código com a frequência necessária para propagar quaisquer alterações que existam no site do IMT.
+Additionally, we run this code with the necessary frequency to propagate any changes that exist on the IMT website.
 
-Com o número de licença e com nome da escola, cruzamos a morada com as taxas de aprovação. Por vezes não é possivel fazer este cruzamento, por exemplo quando o nome da escola difere para o mesmo número de licença - o que pode indicar que uma escola fechou e a licensa foi reutilizada.
+Using the license number and school name, we cross-reference the address with the approval rates. Sometimes, it is not possible to make this cross-reference, for example, when the school name differs for the same license number, which may indicate that a school has closed and the license has been reused.
 
-Nos casos em que não foi possível cruzar a morada com as taxas de aprovação, listamos a escola na [secção sem informação sobre morada](https://passaprimeira.xyz/distritos-regioes/sem-info/).
+In cases where it was not possible to match the address with the approval rates, we list the school in the [section without address information](https://passaprimeira.xyz/distritos-regioes/sem-info/).
 
-### 3. Latitude e longitude
+### 3. Latitude and Longitude
 
-Nas iterações anteriores deste projeto, os dados eram obtidos através da API de Geocodificação do Google Maps. No entanto, a [política de utilização](https://developers.google.com/maps/documentation/geocoding/policies) impunha limitações, como a restrição de exibir as escolas apenas em mapas do Google Maps.
+In previous iterations of this project, the data was obtained through the Google Maps Geocoding API. However, the [usage policy](https://developers.google.com/maps/documentation/geocoding/policies) imposed limitations, such as the restriction to display schools only on Google Maps.
 
 > You can display Geocoding API results on a Google Map, or without a map. If you want to display Geocoding API results on a map, then these results must be displayed on a Google Map. It is prohibited to use Geocoding API data on a map that is not a Google map.
 
-E também:
+And also:
 
-[3.2.3 Restrições contra o uso indevido dos serviços. ](https://cloud.google.com/maps-platform/terms/#3.-license.)
+[3.2.3 Restrictions against Misusing the Services.](https://cloud.google.com/maps-platform/terms/#3.-license.)
 
 > (a) No Scraping. Customer will not export, extract, or otherwise scrape Google Maps Content for use outside the Services. For example, Customer will not: (i) pre-fetch, index, store, reshare, or rehost Google Maps Content outside the services; (ii) bulk download Google Maps tiles, Street View images, geocodes,
 
-Por questões de privacidade, optámos por usar `Leaflet` e OpenStreetMap como tile server, o que obrigou a usar um serviço diferente de geocoding nesta nova iteração do projecto.
+For privacy reasons, we opted to use `Leaflet` and OpenStreetMap as the tile server, which required using a different geocoding service in this new iteration of the project.
 
-Desta forma, utilizamos a API de geocodificação da ESRI para converter o código postal (CP7) obtido na secção anterior, em latitude e longitude. Nos casos em que não foi possível obter as coordenadas geogŕaficas, as escolas não são exibidas no mapa, mas são listadas e devidamente identificadas como tendo informações de latitude e longitude em falta.
+Therefore, we use the ESRI geocoding API to convert the postal code (CP7) obtained in the previous section into latitude and longitude. In cases where it was not possible to obtain the geographic coordinates, the schools are not displayed on the map but are listed and properly identified as having missing latitude and longitude information.
