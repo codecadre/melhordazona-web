@@ -3,32 +3,34 @@ subtitle: Passa à primeira cruza dados de várias fontes: Taxas de aprovação 
 lang: en
 uri: /static/en/data-sources/
 
-## Qual data sources were used?
+## Which data sources were used?
 
-On this page, we explain the sources used in this application.
+On this page, we go through the sources used in this application.
 
-### 1. IMT Approval Rates
+### 1. IMT Pass Rates
 
-We used the [approval rates published from 2015 on the IMT website](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx").
+We used the [pass rates published from 2015 on the IMT website](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx).
 
-We focused on overall aggregations, without distinction between various categories: car, motorcycle, truck, etc.
+We focused on overall aggregations, without distinction between various categories: car, motorcycle, lorry, etc.
 
 The original PDF files are in a tabular format, and the main columns for our analysis are:
 
 - Scheduled exams
 - Exams conducted
-- Approval percentage
+- Approval rate
 
-PDF extraction was done with a Python script and the source code can be [found on GitHub](https://github.com/codecadre/imt-pass-rates).
+PDF extraction was done with a Python script and the source code can be [found on GitHub](https://github.com/codecadre/imt-pass-rates/blob/master/parse.ipynb).
 
 We have published the code for transparency purposes. We have taken all precautions to ensure that the extraction was done correctly, and we want to demonstrate this by making the code public and allowing others to reproduce and verify it.
 
-Additionally, we show how to import the database into a Jupyter Notebook to facilitate other uses, such as statistical analysis.
+Additionally, we show how to import the database into a [Jupyter Notebook](https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb) to facilitate other uses, such as statistical analysis.
+
+![Pass rate distribution, theory vs driving](/img/pages/data-sources/demo.png "Pass rate distribution, theory vs. driving")
 
 #### IMT Methodology
 
-There is a [technical sheet published in 2014](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx") that is presumed to be valid over the years, which explains the methodology used in aggregating the data by driving schools. For our application, the following is relevant:
-- The approval percentage is the ratio of `Number of Approvals / Total Exams Conducted`
+There is a [technical sheet published in 2014](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx") that is presumed to apply to consecutive years, and it explains the methodology used to aggregate the pass rates. For our application, the following is relevant:
+- The approval rate is the ratio of `Number of Approvals / Total Exams Conducted`
 - `Total Exams Conducted`: students who took the exam for the first time. Only exams with the status **approved** or **failed** are counted, meaning that **canceled** or **absent** exams are excluded.
 
 ### 2. Addresses and IMT Page
@@ -44,9 +46,9 @@ The code used for extraction and the database in JSON format can be [found on Gi
 
 Additionally, we run this code with the necessary frequency to propagate any changes that exist on the IMT website.
 
-Using the license number and school name, we cross-reference the address with the approval rates. Sometimes, it is not possible to make this cross-reference, for example, when the school name differs for the same license number, which may indicate that a school has closed and the license has been reused.
+Using the license number and school name, we cross-reference the address with the pass rates. Sometimes, it is not possible to make this cross-reference, for example, when the school name differs for the same license number, which may indicate that a school has closed and the license has been reused.
 
-In cases where it was not possible to match the address with the approval rates, we list the school in the [section without address information](https://passaprimeira.xyz/distritos-regioes/sem-info/).
+In cases where it was not possible to match the address with the pass rates, we list the school in the section ['No Data in IMT website'](https://passaprimeira.xyz/en/districts-regions/no-info/schools/).
 
 ### 3. Latitude and Longitude
 

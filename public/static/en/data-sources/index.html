@@ -46,55 +46,58 @@
     </div>
   </header>
   <div class="pages container">
-    <h2>Qual data sources were used?</h2>
-    <p>Nesta página explicamos quais as fontes usadas nesta aplicação.</p>
-    <h3>1. Taxas de aprovação do IMT</h3>
-    <p>Utilizámos as <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">taxas de aprovação publicadas a partir de 2015 no site do IMT</a>.</p>
-    <p>Concentramo-nos nas agregações globais, ou seja, sem distinção entre várias categorias: automóvel, mota, pesados, etc.</p>
-    <p>Os ficheiros originais em PDF estão num formato tabular em que as principais colunas para a nossa análise são:</p>
+    <h2>Which data sources were used?</h2>
+    <p>On this page, we go through the sources used in this application.</p>
+    <h3>1. IMT Pass Rates</h3>
+    <p>We used the <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx">pass rates published from 2015 on the IMT website</a>.</p>
+    <p>We focused on overall aggregations, without distinction between various categories: car, motorcycle, lorry, etc.</p>
+    <p>The original PDF files are in a tabular format, and the main columns for our analysis are:</p>
     <ul>
-      <li>Provas marcadas</li>
-      <li>Provas realizadas</li>
-      <li>Percentagem de aprovação</li>
+      <li>Scheduled exams</li>
+      <li>Exams conducted</li>
+      <li>Approval rate</li>
     </ul>
-    <p>A extração dos PDFs foi realizada num script Python e o código fonte pode ser <a href="https://github.com/codecadre/imt-pass-rates">consultado no GitHub</a>.</p>
-    <p>Publicamos o código por uma questão de transparência. Tomámos todos os cuidados para verificar que a extração foi feita corretamente e queremos demonstrar isso, ao tornar o código público e permitir que outros possam reproduzir e verificar.</p>
-    <p>Adicionalmente, a base de dados pode ser importada num Jupyter Notebook para facilitar outros usos, como por exemplo, análise estatística.</p>
-    <h4>Metodologia do IMT</h4>
-    <p>Existe uma <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">ficha técnica publicada em 2014</a>, que se presume ser válida ao longo dos anos, que explica a metodologia usada na agregação dos dados por escolas de condução. Para a nossa applicação interessa:</p>
+    <p>PDF extraction was done with a Python script and the source code can be <a href="https://github.com/codecadre/imt-pass-rates/blob/master/parse.ipynb">found on GitHub</a>.</p>
+    <p>We have published the code for transparency purposes. We have taken all precautions to ensure that the extraction was done correctly, and we want to demonstrate this by making the code public and allowing others to reproduce and verify it.</p>
+    <p>Additionally, we show how to import the database into a <a href="https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb">Jupyter Notebook</a> to facilitate other uses, such as statistical analysis.</p>
+    <p>
+      <img alt="Pass rate distribution, theory vs driving" src="/img/pages/data-sources/demo.png" title="Pass rate distribution, theory vs. driving" />
+    </p>
+    <h4>IMT Methodology</h4>
+    <p>There is a <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">technical sheet published in 2014</a> that is presumed to apply to consecutive years, and it explains the methodology used to aggregate the pass rates. For our application, the following is relevant:</p>
     <ul>
-      <li>A percentagem de aprovação é o rácio de <code>Número de Aprovações / Total Provas Realizadas</code>
+      <li>The approval rate is the ratio of <code>Number of Approvals / Total Exams Conducted</code>
       </li>
       <li>
-        <code>Total Provas Realizadas</code>: alunos que realizaram exame pela primeira vez. Apenas contabilizadas provas com o estado <strong>aprovado</strong> ou <strong>reprovado</strong>, ou seja, provas <strong>canceladas</strong> ou <strong>com falta</strong> são excluidas.
+        <code>Total Exams Conducted</code>: students who took the exam for the first time. Only exams with the status <strong>approved</strong> or <strong>failed</strong> are counted, meaning that <strong>canceled</strong> or <strong>absent</strong> exams are excluded.
       </li>
     </ul>
-    <h3>2. Moradas e página do IMT</h3>
-    <p>Cada escola de condução tem uma página correspondente no site do IMT com as seguintes informações:</p>
+    <h3>2. Addresses and IMT Page</h3>
+    <p>Each driving school has a corresponding page on the IMT website with the following information:</p>
     <ul>
-      <li>Morada</li>
-      <li>Nome da escola</li>
-      <li>Licença ou número de escola</li>
-      <li>Concelho e distrito</li>
+      <li>Address</li>
+      <li>School name</li>
+      <li>License or school number</li>
+      <li>Municipality and district</li>
     </ul>
-    <p>O código usado para a extração e a base de dados em formato JSON podem ser <a href="https://github.com/codecadre/imt-school-addresses">consultados no GitHub</a>.</p>
-    <p>Adicionalmente, executamos este código com a frequência necessária para propagar quaisquer alterações que existam no site do IMT.</p>
-    <p>Com o número de licença e com nome da escola, cruzamos a morada com as taxas de aprovação. Por vezes não é possivel fazer este cruzamento, por exemplo quando o nome da escola difere para o mesmo número de licença - o que pode indicar que uma escola fechou e a licensa foi reutilizada.</p>
-    <p>Nos casos em que não foi possível cruzar a morada com as taxas de aprovação, listamos a escola na <a href="https://passaprimeira.xyz/distritos-regioes/sem-info/">secção sem informação sobre morada</a>.</p>
-    <h3>3. Latitude e longitude</h3>
-    <p>Nas iterações anteriores deste projeto, os dados eram obtidos através da API de Geocodificação do Google Maps. No entanto, a <a href="https://developers.google.com/maps/documentation/geocoding/policies">política de utilização</a> impunha limitações, como a restrição de exibir as escolas apenas em mapas do Google Maps.</p>
+    <p>The code used for extraction and the database in JSON format can be <a href="https://github.com/codecadre/imt-school-addresses">found on GitHub</a>.</p>
+    <p>Additionally, we run this code with the necessary frequency to propagate any changes that exist on the IMT website.</p>
+    <p>Using the license number and school name, we cross-reference the address with the pass rates. Sometimes, it is not possible to make this cross-reference, for example, when the school name differs for the same license number, which may indicate that a school has closed and the license has been reused.</p>
+    <p>In cases where it was not possible to match the address with the pass rates, we list the school in the section <a href="https://passaprimeira.xyz/en/districts-regions/no-info/schools/">&apos;No Data in IMT website&apos;</a>.</p>
+    <h3>3. Latitude and Longitude</h3>
+    <p>In previous iterations of this project, the data was obtained through the Google Maps Geocoding API. However, the <a href="https://developers.google.com/maps/documentation/geocoding/policies">usage policy</a> imposed limitations, such as the restriction to display schools only on Google Maps.</p>
     <blockquote>
       <p> You can display Geocoding API results on a Google Map, or without a map. If you want to display Geocoding API results on a map, then these results must be displayed on a Google Map. It is prohibited to use Geocoding API data on a map that is not a Google map. </p>
     </blockquote>
-    <p>E também:</p>
+    <p>And also:</p>
     <p>
-      <a href="https://cloud.google.com/maps-platform/terms/#3.-license.">3.2.3 Restrições contra o uso indevido dos serviços. </a>
+      <a href="https://cloud.google.com/maps-platform/terms/#3.-license.">3.2.3 Restrictions against Misusing the Services.</a>
     </p>
     <blockquote>
       <p> (a) No Scraping. Customer will not export, extract, or otherwise scrape Google Maps Content for use outside the Services. For example, Customer will not: (i) pre-fetch, index, store, reshare, or rehost Google Maps Content outside the services; (ii) bulk download Google Maps tiles, Street View images, geocodes, </p>
     </blockquote>
-    <p>Por questões de privacidade, optámos por usar <code>Leaflet</code> e OpenStreetMap como tile server, o que obrigou a usar um serviço diferente de geocoding nesta nova iteração do projecto.</p>
-    <p>Desta forma, utilizamos a API de geocodificação da ESRI para converter o código postal (CP7) obtido na secção anterior, em latitude e longitude. Nos casos em que não foi possível obter as coordenadas geogŕaficas, as escolas não são exibidas no mapa, mas são listadas e devidamente identificadas como tendo informações de latitude e longitude em falta.</p>
+    <p>For privacy reasons, we opted to use <code>Leaflet</code> and OpenStreetMap as the tile server, which required using a different geocoding service in this new iteration of the project.</p>
+    <p>Therefore, we use the ESRI geocoding API to convert the postal code (CP7) obtained in the previous section into latitude and longitude. In cases where it was not possible to obtain the geographic coordinates, the schools are not displayed on the map but are listed and properly identified as having missing latitude and longitude information.</p>
   </div>
   <footer>
     <div class="container">
