@@ -50,7 +50,7 @@
     <p>Nesta página explicamos quais as fontes usadas nesta aplicação.</p>
     <h3>1. Taxas de aprovação do IMT</h3>
     <p>Utilizámos as <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">taxas de aprovação publicadas a partir de 2015 no site do IMT</a>.</p>
-    <p>Concentramo-nos nas agregações globais, ou seja, sem distinção entre várias categorias: automóvel, mota, pesados, etc.</p>
+    <p>Concentrámo-nos nas agregações globais, ou seja, sem distinção entre as várias categorias: automóvel, mota, pesados, etc.</p>
     <p>Os ficheiros originais em PDF estão num formato tabular em que as principais colunas para a nossa análise são:</p>
     <ul>
       <li>Provas marcadas</li>
@@ -58,18 +58,18 @@
       <li>Percentagem de aprovação</li>
     </ul>
     <p>A extração dos PDFs foi realizada num script Python e o código fonte pode ser <a href="https://github.com/codecadre/imt-pass-rates/blob/master/parse.ipynb">consultado no GitHub</a>.</p>
-    <p>Publicamos o código por uma questão de transparência. Tomámos todos os cuidados para verificar que a extração foi feita corretamente e queremos demonstrar isso, ao tornar o código público e permitir que outros possam reproduzir e verificar.</p>
-    <p>Adicionalmente, a base de dados pode ser <a href="https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb">importada num Jupyter Notebook</a> para facilitar outros usos, como por exemplo, análise estatística.</p>
+    <p>Publicámos o código por uma questão de transparência. Tomámos todos os cuidados para verificar que a extração foi feita corretamente e ao tornar o código público, queremos que outros possam reproduzir e verificar.</p>
+    <p>Adicionalmente, a base de dados pode ser <a href="https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb">importada num Jupyter Notebook</a> para facilitar outros usos, como por exemplo, análise estatística:</p>
     <p>
       <img alt="Distribuição de taxas de aprovação teórica vs. prática" src="/img/pages/data-sources/demo.png" title="Distribuição de taxas de aprovação teórica vs. prática" />
     </p>
     <h4>Metodologia do IMT</h4>
-    <p>Existe uma <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">ficha técnica publicada em 2014</a>, que se presume ser válida ao longo dos anos, que explica a metodologia usada na agregação dos dados por escolas de condução. Para a nossa applicação interessa:</p>
+    <p>Existe uma <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">ficha técnica publicada em 2014</a>, que se presume ser válida ao longo dos anos, que explica a metodologia usada na agregação dos dados. Para a nossa applicação interessa:</p>
     <ul>
-      <li>A percentagem de aprovação é o rácio <code>Número de Aprovações / Total Provas Realizadas</code>
+      <li>A percentagem de aprovação é o rácio <code>N. Aprovações / Provas Realizadas</code>
       </li>
       <li>
-        <code>Total Provas Realizadas</code>: alunos que realizaram exame pela primeira vez. Apenas contabilizadas provas <strong>aprovadas</strong> ou <strong>reprovadas</strong>, ou seja, provas <strong>canceladas</strong> ou <strong>com falta</strong> são excluidas.
+        <code>Provas Realizadas</code>: alunos que realizaram exame pela primeira vez. Apenas contabilizadas provas <strong>aprovadas</strong> ou <strong>reprovadas</strong>, ou seja, provas <strong>canceladas</strong> ou <strong>com falta</strong> são excluidas.
       </li>
     </ul>
     <h3>2. Moradas e página do IMT</h3>
@@ -89,8 +89,8 @@
     <blockquote>
       <p> You can display Geocoding API results on a Google Map, or without a map. If you want to display Geocoding API results on a map, then these results must be displayed on a Google Map. It is prohibited to use Geocoding API data on a map that is not a Google map. </p>
     </blockquote>
-    <p>Por questões de privacidade, optámos por usar Leaflet e OpenStreetMap como tile server, o que obrigou a usar um serviço diferente de geocoding.</p>
-    <p>Desta forma, utilizámos a API de geocodificação da ESRI para converter o código postal (CP7) obtido na secção anterior, em latitude e longitude. Nos casos em que não foi possível obter as coordenadas geográficas, as escolas não são exibidas no mapa, mas são listadas e devidamente asinaladas como tendo latitude e longitude em falta.</p>
+    <p>Por questões de privacidade, optámos por usar Leaflet e OpenStreetMap como <i>tile server</i>, o que obrigou a usar um serviço diferente de geocoding.</p>
+    <p>Desta forma, utilizámos a API de geocodificação da ESRI para converter o código postal (CP7) obtido na secção anterior, em latitude e longitude. Nos casos em que não foi possível obter as coordenadas geográficas, as escolas não são exibidas no mapa, no entanto, são listadas e devidamente assinaladas como tendo latitude e longitude em falta.</p>
   </div>
   <footer>
     <div class="container">

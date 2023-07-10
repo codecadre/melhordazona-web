@@ -11,7 +11,7 @@ Nesta página explicamos quais as fontes usadas nesta aplicação.
 
 Utilizámos as [taxas de aprovação publicadas a partir de 2015 no site do IMT](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx").
 
-Concentramo-nos nas agregações globais, ou seja, sem distinção entre várias categorias: automóvel, mota, pesados, etc.
+Concentrámo-nos nas agregações globais, ou seja, sem distinção entre as várias categorias: automóvel, mota, pesados, etc.
 
 Os ficheiros originais em PDF estão num formato tabular em que as principais colunas para a nossa análise são:
 
@@ -21,17 +21,17 @@ Os ficheiros originais em PDF estão num formato tabular em que as principais co
 
 A extração dos PDFs foi realizada num script Python e o código fonte pode ser [consultado no GitHub](https://github.com/codecadre/imt-pass-rates/blob/master/parse.ipynb).
 
-Publicamos o código por uma questão de transparência. Tomámos todos os cuidados para verificar que a extração foi feita corretamente e queremos demonstrar isso, ao tornar o código público e permitir que outros possam reproduzir e verificar.
+Publicámos o código por uma questão de transparência. Tomámos todos os cuidados para verificar que a extração foi feita corretamente e ao tornar o código público, queremos que outros possam reproduzir e verificar.
 
-Adicionalmente, a base de dados pode ser [importada num Jupyter Notebook](https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb) para facilitar outros usos, como por exemplo, análise estatística.
+Adicionalmente, a base de dados pode ser [importada num Jupyter Notebook](https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb) para facilitar outros usos, como por exemplo, análise estatística:
 
 ![Distribuição de taxas de aprovação teórica vs. prática](/img/pages/data-sources/demo.png "Distribuição de taxas de aprovação teórica vs. prática")
 
 #### Metodologia do IMT
 
-Existe uma [ficha técnica publicada em 2014](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx"), que se presume ser válida ao longo dos anos, que explica a metodologia usada na agregação dos dados por escolas de condução. Para a nossa applicação interessa:
-- A percentagem de aprovação é o rácio `Número de Aprovações / Total Provas Realizadas`
-- `Total Provas Realizadas`: alunos que realizaram exame pela primeira vez. Apenas contabilizadas provas **aprovadas** ou **reprovadas**, ou seja, provas **canceladas** ou **com falta** são excluidas.
+Existe uma [ficha técnica publicada em 2014](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx"), que se presume ser válida ao longo dos anos, que explica a metodologia usada na agregação dos dados. Para a nossa applicação interessa:
+- A percentagem de aprovação é o rácio `N. Aprovações / Provas Realizadas`
+- `Provas Realizadas`: alunos que realizaram exame pela primeira vez. Apenas contabilizadas provas **aprovadas** ou **reprovadas**, ou seja, provas **canceladas** ou **com falta** são excluidas.
 
 ### 2. Moradas e página do IMT
 
@@ -56,6 +56,6 @@ Nas iterações anteriores deste projeto, os dados eram obtidos através da API 
 
 > You can display Geocoding API results on a Google Map, or without a map. If you want to display Geocoding API results on a map, then these results must be displayed on a Google Map. It is prohibited to use Geocoding API data on a map that is not a Google map.
 
-Por questões de privacidade, optámos por usar Leaflet e OpenStreetMap como tile server, o que obrigou a usar um serviço diferente de geocoding.
+Por questões de privacidade, optámos por usar Leaflet e OpenStreetMap como _tile server_, o que obrigou a usar um serviço diferente de geocoding.
 
-Desta forma, utilizámos a API de geocodificação da ESRI para converter o código postal (CP7) obtido na secção anterior, em latitude e longitude. Nos casos em que não foi possível obter as coordenadas geográficas, as escolas não são exibidas no mapa, mas são listadas e devidamente asinaladas como tendo latitude e longitude em falta.
+Desta forma, utilizámos a API de geocodificação da ESRI para converter o código postal (CP7) obtido na secção anterior, em latitude e longitude. Nos casos em que não foi possível obter as coordenadas geográficas, as escolas não são exibidas no mapa, no entanto, são listadas e devidamente assinaladas como tendo latitude e longitude em falta.
