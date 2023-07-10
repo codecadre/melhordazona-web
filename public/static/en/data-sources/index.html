@@ -49,27 +49,27 @@
     <h2>Which data sources were used?</h2>
     <p>On this page, we go through the sources used in this application.</p>
     <h3>1. IMT Pass Rates</h3>
-    <p>We used the <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx">pass rates published from 2015 on the IMT website</a>.</p>
-    <p>We focused on overall aggregations, without distinction between various categories: car, motorcycle, lorry, etc.</p>
-    <p>The original PDF files are in a tabular format, and the main columns for our analysis are:</p>
+    <p>We have used the <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">pass rates published since 2015 on the IMT website</a>.</p>
+    <p>We focused on the overall aggregations, without distinguishing between various categories such as car, motorcycle, lorry, etc.</p>
+    <p>The original files in PDF are in a tabular format, and the main columns for our analysis are:</p>
     <ul>
       <li>Scheduled exams</li>
-      <li>Exams conducted</li>
-      <li>Approval rate</li>
+      <li>Exams taken</li>
+      <li>Pass rate</li>
     </ul>
-    <p>PDF extraction was done with a Python script and the source code can be <a href="https://github.com/codecadre/imt-pass-rates/blob/master/parse.ipynb">found on GitHub</a>.</p>
-    <p>We have published the code for transparency purposes. We have taken all precautions to ensure that the extraction was done correctly, and we want to demonstrate this by making the code public and allowing others to reproduce and verify it.</p>
-    <p>Additionally, we show how to import the database into a <a href="https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb">Jupyter Notebook</a> to facilitate other uses, such as statistical analysis.</p>
+    <p>The PDF extraction was done using a Python script, and the source code can be <a href="https://github.com/codecadre/imt-pass-rates/blob/master/parse.ipynb">found on GitHub</a>.</p>
+    <p>We have made the code public for transparency purposes. We have taken all precautions to ensure that the extraction was done correctly, and by making the code available, we want others to be able to reproduce and verify it.</p>
+    <p>Additionally, the database can be <a href="https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb">imported into a Jupyter Notebook</a> to facilitate other uses, such as statistical analysis:</p>
     <p>
-      <img alt="Pass rate distribution, theory vs driving" src="/img/pages/data-sources/demo.png" title="Pass rate distribution, theory vs. driving" />
+      <img alt="Distribution of theoretical vs. practical pass rates" src="/img/pages/data-sources/demo.png" title="Distribution of theoretical vs. practical pass rates" />
     </p>
     <h4>IMT Methodology</h4>
-    <p>There is a <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">technical sheet published in 2014</a> that is presumed to apply to consecutive years, and it explains the methodology used to aggregate the pass rates. For our application, the following is relevant:</p>
+    <p>There is a <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">technical sheet published in 2014</a>, which is presumed to be valid over the years, explaining the methodology used in aggregating the data. For our application, the following is relevant:</p>
     <ul>
-      <li>The approval rate is the ratio of <code>Number of Approvals / Total Exams Conducted</code>
+      <li>The pass rate is the ratio <code>Number of Approvals / Exams Taken</code>
       </li>
       <li>
-        <code>Total Exams Conducted</code>: students who took the exam for the first time. Only exams with the status <strong>approved</strong> or <strong>failed</strong> are counted, meaning that <strong>canceled</strong> or <strong>absent</strong> exams are excluded.
+        <code>Exams Taken</code>: students who took the exam for the first time. Only <strong>approved</strong> or <strong>failed</strong> exams are counted, meaning <strong>canceled</strong> or <strong>absent</strong> exams are excluded.
       </li>
     </ul>
     <h3>2. Addresses and IMT Page</h3>
@@ -80,24 +80,17 @@
       <li>License or school number</li>
       <li>Municipality and district</li>
     </ul>
-    <p>The code used for extraction and the database in JSON format can be <a href="https://github.com/codecadre/imt-school-addresses">found on GitHub</a>.</p>
-    <p>Additionally, we run this code with the necessary frequency to propagate any changes that exist on the IMT website.</p>
-    <p>Using the license number and school name, we cross-reference the address with the pass rates. Sometimes, it is not possible to make this cross-reference, for example, when the school name differs for the same license number, which may indicate that a school has closed and the license has been reused.</p>
-    <p>In cases where it was not possible to match the address with the pass rates, we list the school in the section <a href="https://passaprimeira.xyz/en/districts-regions/no-info/schools/">&apos;No Data in IMT website&apos;</a>.</p>
+    <p>The code used for extraction and the JSON database can be <a href="https://github.com/codecadre/imt-school-addresses">found on GitHub</a>.</p>
+    <p>Additionally, we run this code as often as necessary to propagate any changes that exist on the IMT website.</p>
+    <p>Using the license number and school name, we cross-reference the address with the pass rates. Sometimes it is not possible to make this cross-reference, such as when the school name differs for the same license number, which may indicate that a school has closed and the license has been reused.</p>
+    <p>In cases where it was not possible to match the address with the pass rates, we list the school in the section <a href="https://passaprimeira.xyz/distritos-regioes/sem-info/">&apos;No Data in IMT website&apos;</a>.</p>
     <h3>3. Latitude and Longitude</h3>
-    <p>In previous iterations of this project, the data was obtained through the Google Maps Geocoding API. However, the <a href="https://developers.google.com/maps/documentation/geocoding/policies">usage policy</a> imposed limitations, such as the restriction to display schools only on Google Maps.</p>
+    <p>In previous iterations of this project, the data was obtained through the Google Maps Geocoding API. However, the <a href="https://developers.google.com/maps/documentation/geocoding/policies">usage policy</a> required displaying the schools only on Google Maps.</p>
     <blockquote>
       <p> You can display Geocoding API results on a Google Map, or without a map. If you want to display Geocoding API results on a map, then these results must be displayed on a Google Map. It is prohibited to use Geocoding API data on a map that is not a Google map. </p>
     </blockquote>
-    <p>And also:</p>
-    <p>
-      <a href="https://cloud.google.com/maps-platform/terms/#3.-license.">3.2.3 Restrictions against Misusing the Services.</a>
-    </p>
-    <blockquote>
-      <p> (a) No Scraping. Customer will not export, extract, or otherwise scrape Google Maps Content for use outside the Services. For example, Customer will not: (i) pre-fetch, index, store, reshare, or rehost Google Maps Content outside the services; (ii) bulk download Google Maps tiles, Street View images, geocodes, </p>
-    </blockquote>
-    <p>For privacy reasons, we opted to use <code>Leaflet</code> and OpenStreetMap as the tile server, which required using a different geocoding service in this new iteration of the project.</p>
-    <p>Therefore, we use the ESRI geocoding API to convert the postal code (CP7) obtained in the previous section into latitude and longitude. In cases where it was not possible to obtain the geographic coordinates, the schools are not displayed on the map but are listed and properly identified as having missing latitude and longitude information.</p>
+    <p>For privacy reasons, we opted to use Leaflet and OpenStreetMap as the tile server, which required using a different geocoding service.</p>
+    <p>Therefore, we used the ESRI geocoding API to convert the postal code (CP7) obtained in the previous section into latitude and longitude. In cases where it was not possible to obtain the geographic coordinates, the schools are not displayed on the map. However, they are listed and properly marked as having missing latitude and longitude information.</p>
   </div>
   <footer>
     <div class="container">
