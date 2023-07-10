@@ -31,7 +31,7 @@ Adicionalmente, a base de dados pode ser [importada num Jupyter Notebook](https:
 
 Existe uma [ficha técnica publicada em 2014](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx"), que se presume ser válida ao longo dos anos, que explica a metodologia usada na agregação dos dados. Para a nossa applicação interessa:
 - A percentagem de aprovação é o rácio `N. Aprovações / Provas Realizadas`
-- `Provas Realizadas`: alunos que realizaram exame pela primeira vez. Apenas contabilizadas provas **aprovadas** ou **reprovadas**, ou seja, provas **canceladas** ou **com falta** são excluidas.
+- `Provas Realizadas`: alunos que realizaram exame pela primeira vez. Apenas contabilizadas provas **aprovadas** ou **reprovadas**, ou seja, provas **canceladas** ou **com falta** são excluídas.
 
 ### 2. Moradas e página do IMT
 
@@ -46,7 +46,7 @@ O código usado para a extração e a base de dados em formato JSON podem ser [c
 
 Adicionalmente, executamos este código com a frequência necessária para propagar quaisquer alterações que existam no site do IMT.
 
-Com o número de licença e com o nome da escola, cruzamos a morada com as taxas de aprovação. Por vezes não é possivel fazer este cruzamento, por exemplo quando o nome da escola difere para o mesmo número de licença - o que pode indicar que uma escola fechou e a licensa foi reutilizada.
+Com o número de licença e com o nome da escola, cruzamos a morada com as taxas de aprovação. Por vezes não é possivel fazer este cruzamento, como por exemplo, quando o nome da escola difere para o mesmo número de licença - o que pode indicar que uma escola fechou e a licensa foi reutilizada.
 
 Nos casos em que não foi possível cruzar a morada com as taxas de aprovação, listamos a escola na secção [sem informação sobre morada](https://passaprimeira.xyz/distritos-regioes/sem-info/).
 
@@ -58,4 +58,4 @@ Nas iterações anteriores deste projeto, os dados eram obtidos através da API 
 
 Por questões de privacidade, optámos por usar Leaflet e OpenStreetMap como _tile server_, o que obrigou a usar um serviço diferente de geocoding.
 
-Desta forma, utilizámos a API de geocodificação da ESRI para converter o código postal (CP7) obtido na secção anterior, em latitude e longitude. Nos casos em que não foi possível obter as coordenadas geográficas, as escolas não são exibidas no mapa, no entanto, são listadas e devidamente assinaladas como tendo latitude e longitude em falta.
+Desta forma, utilizámos a API de geocodificação da ESRI para converter o código postal (CP7) obtido na secção anterior, em latitude e longitude. Nos casos em que não foi possível obter as coordenadas geográficas, as escolas não são exibidas no mapa. No entanto, são listadas e devidamente assinaladas como tendo latitude e longitude em falta.
