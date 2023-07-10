@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+  <meta content="Passa à primeira cruza dados de várias fontes: Taxas de aprovação do IMT, moradas das escolas de condução e latitude e longitude do ESRI." name="description" />
+  <link href="/css/main.css" rel="stylesheet" />
+  <link crossorigin="" href="/vendor/leaflet/leaflet.css" rel="stylesheet" />
+  <link href="https://passaprimeira.xyz/static/origem-dos-dados/" hreflang="pt" rel="alternate" />
+  <link href="https://passaprimeira.xyz/static/en/data-sources/" hreflang="en" rel="alternate" />
+  <link href="https://passaprimeira.xyz/static/en/data-sources/" rel="canonical" />
+  <title>Data Sources | Passa à Primeira</title>
+</head>
+
+<body>
+  <header>
+    <div class="ribbon">2015-2020 Data</div>
+    <div class="container">
+      <div class="row">
+        <div class="column one-half">
+          <h2 class="title">
+            <strong>
+              <a href="/en/">Passa à Primeira</a>
+            </strong>
+          </h2>
+          <p class="subtitle">Your (un)official guide to IMT pass-rates</p>
+        </div>
+        <div class="column one-half">
+          <div class="menu">
+            <a href="/static/origem-dos-dados/" id="en">
+              <strong>PT</strong>
+            </a>
+            <div class="menu-item">
+              <a href="/en/">Search</a>
+            </div>
+            <div class="menu-item">
+              <a href="/en/districts-regions/">Directory</a>
+            </div>
+            <div class="menu-item">
+              <a href="/static/en/about/">About</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="pages container">
+    <h2>Which data sources were used?</h2>
+    <p>On this page, we go through the sources used in this application.</p>
+    <h3>1. IMT Pass Rates</h3>
+    <p>We have used the <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">pass rates published since 2015 on the IMT website</a>.</p>
+    <p>We focused on the overall aggregations, without distinguishing between various categories such as car, motorcycle, lorry, etc.</p>
+    <p>The original files in PDF are in a tabular format, and the main columns for our analysis are:</p>
+    <ul>
+      <li>Scheduled exams</li>
+      <li>Exams taken</li>
+      <li>Pass rate</li>
+    </ul>
+    <p>The PDF extraction was done using a Python script, and the source code can be <a href="https://github.com/codecadre/imt-pass-rates/blob/master/parse.ipynb">found on GitHub</a>.</p>
+    <p>We have made the code public for transparency purposes. We have taken all precautions to ensure that the extraction was done correctly, and by making the code available, we want others to be able to reproduce and verify it.</p>
+    <p>Additionally, the database can be <a href="https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb">imported into a Jupyter Notebook</a> to facilitate other uses, such as statistical analysis:</p>
+    <p>
+      <img alt="Distribution of theoretical vs. practical pass rates" src="/img/pages/data-sources/demo.png" title="Distribution of theoretical vs. practical pass rates" />
+    </p>
+    <h4>IMT Methodology</h4>
+    <p>There is a <a href="https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx&quot;">technical sheet published in 2014</a>, which is presumed to be valid over the years, explaining the methodology used in aggregating the data. For our application, the following is relevant:</p>
+    <ul>
+      <li>The pass rate is the ratio <code>Number of Approvals / Exams Taken</code>
+      </li>
+      <li>
+        <code>Exams Taken</code>: students who took the exam for the first time. Only <strong>approved</strong> or <strong>failed</strong> exams are counted, meaning <strong>canceled</strong> or <strong>absent</strong> exams are excluded.
+      </li>
+    </ul>
+    <h3>2. Addresses and IMT Page</h3>
+    <p>Each driving school has a corresponding page on the IMT website with the following information:</p>
+    <ul>
+      <li>Address</li>
+      <li>School name</li>
+      <li>License or school number</li>
+      <li>Municipality and district</li>
+    </ul>
+    <p>The code used for extraction and the JSON database can be <a href="https://github.com/codecadre/imt-school-addresses">found on GitHub</a>.</p>
+    <p>Additionally, we run this code as often as necessary to propagate any changes that exist on the IMT website.</p>
+    <p>Using the license number and school name, we cross-reference the address with the pass rates. Sometimes it is not possible to make this cross-reference, such as when the school name differs for the same license number, which may indicate that a school has closed and the license has been reused.</p>
+    <p>In cases where it was not possible to match the address with the pass rates, we list the school in the section <a href="https://passaprimeira.xyz/distritos-regioes/sem-info/">&apos;No Data in IMT website&apos;</a>.</p>
+    <h3>3. Latitude and Longitude</h3>
+    <p>In previous iterations of this project, the data was obtained through the Google Maps Geocoding API. However, the <a href="https://developers.google.com/maps/documentation/geocoding/policies">usage policy</a> required displaying the schools only on Google Maps.</p>
+    <blockquote>
+      <p> You can display Geocoding API results on a Google Map, or without a map. If you want to display Geocoding API results on a map, then these results must be displayed on a Google Map. It is prohibited to use Geocoding API data on a map that is not a Google map. </p>
+    </blockquote>
+    <p>For privacy reasons, we opted to use Leaflet and OpenStreetMap as the tile server, which required using a different geocoding service.</p>
+    <p>Therefore, we used the ESRI geocoding API to convert the postal code (CP7) obtained in the previous section into latitude and longitude. In cases where it was not possible to obtain the geographic coordinates, the schools are not displayed on the map. However, they are listed and properly marked as having missing latitude and longitude information.</p>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="column two-thirds">
+          <h2 class="title">
+            <strong>
+              <a href="/">Passa à Primeira</a>
+            </strong>
+          </h2>
+          <p class="subtitle">
+            <span>Free access to government data focused on user privacy. Done by </span>
+            <a href="https://www.flaviosousa.co/">Flávio Sousa</a>
+            <span> for </span>
+            <a href="https://www.codecadre.ai/">Codecadre</a>
+            <span>.</span>
+          </p>
+        </div>
+      </div>
+      <div class="row footer-bottom-row">
+        <div class="columns three">
+          <p class="top-level-item">Project</p>
+          <p class="item">
+            <a href="https://github.com/codecadre">Open Source</a>
+          </p>
+          <p class="item">
+            <a href="/static/en/data-sources/">Data sources</a>
+          </p>
+        </div>
+        <div class="columns eight">
+          <p class="top-level-item">Contacts</p>
+          <form hx-post="/en/post-contact" hx-swap="outerHTML" hx-target="this">
+            <label for="email-input">Email</label>
+            <input class="u-full-width" id="email-input" name="email-input" placeholder="ola@mail.com" type="email" />
+            <label for="message">Message</label>
+            <textarea class="u-full-width" id="message" name="message" placeholder="Ola Flávio..."></textarea>
+            <label class="send-yourself-copy">
+              <input name="send-copy" type="checkbox" />
+              <span class="label-body">Send yourself a copy</span>
+            </label>
+            <input class="button-primary" type="submit" value="Submit" />
+          </form>
+          <br />
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="/js/main.js"></script>
+<script async="defer" data-domain="passaprimeira.xyz" src="https://plausible.io/js/plausible.js"></script>
+
+</html>

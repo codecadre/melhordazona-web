@@ -27,6 +27,8 @@
    ;;
    :href/about {:pt "/static/acerca/"
                 :en "/static/en/about/"}
+   :href/data-sources {:pt "/static/origem-dos-dados/"
+                       :en "/static/en/data-sources/"}
    :href/district-index {:pt "/distritos-regioes/"
                          :en "/en/districts-regions/"}
    :href/district {:pt "/distritos-regioes/%s/concelhos/"
@@ -186,6 +188,8 @@
    :footer/subtitle {:pt
                      ["Dados públicos com acessibilidade gratuita e foco na privacidade do utilizador. Realizado por " " para " "."]
                      :en ["Free access to government data focused on user privacy. Done by " " for " "."]}
+   :footer/data-sources {:pt "Origem dos dados"
+                         :en "Data sources"}
 
    ;;
    ;; Directory

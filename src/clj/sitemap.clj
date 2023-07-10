@@ -47,6 +47,8 @@
            ["/en/"
             "/static/acerca/"
             "/static/en/about/"
+            "/static/origem-dos-dados/"
+            "/static/en/data-sources/"
             (copy [:href/district-index :pt])
             (copy [:href/district-index :en])
             (copy [:href/nil-concelho :pt])
