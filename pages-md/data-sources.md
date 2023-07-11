@@ -3,9 +3,9 @@ subtitle: Passa à primeira cruza dados de várias fontes: Taxas de aprovação 
 lang: en
 uri: /static/en/data-sources/
 
-## Which data sources were used?
+## What data sources were used?
 
-On this page, we go through the sources used in this application.
+On this page, we'll go through the data sources used in this application.
 
 ### 1. IMT Pass Rates
 
