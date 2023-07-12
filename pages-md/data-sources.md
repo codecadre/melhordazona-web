@@ -9,9 +9,7 @@ On this page, we'll go through the data sources used in this application.
 
 ### 1. IMT Pass Rates
 
-We have used the [pass rates published since 2015 on the IMT website](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx").
-
-We focused on the overall aggregations, without distinguishing between various categories such as car, motorcycle, lorry, etc.
+We have used the [pass rates published since 2015 on the IMT website](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx") and focused on the overall aggregations, i.e. without distinguishing between various categories such as car, motorcycle, lorry, etc.
 
 The original files in PDF are in a tabular format, and the main columns for our analysis are:
 

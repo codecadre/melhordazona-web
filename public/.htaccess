@@ -2,7 +2,7 @@ AddHandler cgi-script .clj
 DirectoryIndex index.clj index.html
 RewriteEngine On
 Options -Indexes
-PassEnv ENV
+SetEnvIf Host localhost ENV=DEV_LOCAL
 SetEnv BABASHKA_PODS_DIR /usr/home/codecan/.babashka/pods
 
 <IfModule mod_deflate.c>
