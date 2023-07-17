@@ -7,7 +7,7 @@ uri: /static/origem-dos-dados/
 
 Nesta página explicamos quais as fontes usadas nesta aplicação.
 
-### 1. Taxas de aprovação do IMT
+### 1. Taxas de aprovação
 
 Utilizámos as [taxas de aprovação publicadas a partir de 2015 no site do IMT](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx").
 
