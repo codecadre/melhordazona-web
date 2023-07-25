@@ -1,14 +1,10 @@
-(ns recepies.cp7-map
+(ns cp7
   (:require [clojure.edn :as edn]
             [clojure.pprint :as pprint]
             [clojure.string :as str]
             [babashka.curl :as curl]
             [cheshire.core :as json]
             [util :as util]))
-
-;;TODO needs to be updated to reflect new directory structure
-;;TODO clean up this file - should be able to run from
-;; bb cp7_map.clj and produce everything it needs
 
 (def esri-token
   (:esri (edn/read-string (slurp "./public/config_files/secrets.edn"))))
@@ -132,12 +128,13 @@
 
 #_(non-stored-address :address (into {} (take 2 id->address)))
 
-(let [d (doall (non-stored-address :address id->address))
+#_(let [d (doall (non-stored-address :address id->address))
       f "recepies/address-geocode"
       ks '(:address :address-c :postal-c :c :score :x :y :id)]
   (spit (str f ".txt") (with-out-str (pprint/print-table ks d)))
   (spit (str f ".edn") (with-out-str (pprint/pprint d))))
 
+;;TODO use recur ..
 (defn non-stored-postal [cp7s]
   (let [a (atom [])]
     (doseq [cp7 cp7s]
@@ -155,28 +152,18 @@
                         :c (count candidates)})))
     (sort #(compare (:score %2) (:score %1)) @a)))
 
-(let [d (doall (non-stored-postal cp7))
-      f "recepies/cp7"
-      ks '(:cp7 :postal-c :c :score :x :y)]
-  (spit (str f ".txt") (with-out-str (pprint/print-table ks d)))
-  (spit (str f ".edn") (with-out-str (pprint/pprint d))))
 
-(comment
-  (def parsed-results
-    (->> (get (json/parse-string r) "locations")
-         (map #(select-keys % ["address" "location" "score"]))
-         (map #(assoc % "x" (get-in % ["location" "x"])
-                      "y" (get-in % ["location" "y"] )))
-         (map #(dissoc % "location"))
-         (sort #(compare (get %1 "address") (get %2 "address")))))
-
-  (spit "./recepies/table.txt" (with-out-str (pprint/print-table parsed-results)))
+(defn -main []
+  (let [d (doall (non-stored-postal (take 3 cp7)))
+        f "resources/data/cp7"]
+    (spit (str f ".txt") (with-out-str (pprint/print-table '(:cp7 :postal-c :c :score :x :y) d)))
+    (spit (str f ".edn") (with-out-str (pprint/pprint d)))))
 
 
-  (def map-r (->>  parsed-results
-                   (group-by #(get % "address"))
-                   (map (fn [[k v]] [k (select-keys (first v) ["score" "x" "y"])]))
-                   (into {})))
 
-  (spit "recepies/cp7-map.edn" (with-out-str (pprint/pprint map-r)))
-  )
+(let [d (->>
+         (edn/read-string (slurp "resources/data/cp7.edn"))
+         (sort-by :cp7))
+      f "resources/data/cp7"]
+    (spit (str f ".txt") (with-out-str (pprint/print-table '(:cp7 :postal-c :c :score :x :y) d)))
+    (spit (str f ".edn") (with-out-str (pprint/pprint d))))

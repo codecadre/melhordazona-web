@@ -29,4 +29,6 @@
                      (run 'md-to-html))
                    (run 'beautify)))}
   sitemap {:doc "builds sitemap.txt"
-           :task (shell "bb src/clj/sitemap.clj")}}}
+           :task (shell "bb src/clj/sitemap.clj")}
+  cp7 {:doc "geocodes addresses with esri"
+       :task (shell "bb -m cp7")}}}
