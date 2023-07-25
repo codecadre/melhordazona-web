@@ -3,12 +3,17 @@
             [clojure.pprint :as pprint]
             [clojure.string :as str]
             [babashka.curl :as curl]
-            [cheshire.core :as json]))
+            [cheshire.core :as json]
+            [util :as util]))
 
 ;;TODO needs to be updated to reflect new directory structure
 ;;TODO clean up this file - should be able to run from
 ;; bb cp7_map.clj and produce everything it needs
-(def d (-> "./imt-school-addresses-submodule/parsed-data/db.edn" slurp edn/read-string))
+
+(def esri-token
+  (:esri (edn/read-string (slurp "./public/config_files/secrets.edn"))))
+
+(def d (util/imt-profiles))
 
 (def cp7
   (->> d
@@ -20,25 +25,23 @@
 
 
 (def id->address
-  (->> d
-       (map #(select-keys % [:id :address]))
-       (reduce (fn [acc {:keys [id address]}]
-                 (assoc acc id address)) {})))
+  (reduce (fn [acc {:keys [id address]}]
+            (assoc acc id address)) {} d))
 
 
-(defn cp7->request-obj []
-  (->> cp7
-       (map-indexed (fn [idx v]
-                      {:attributes {:objectid idx
-                                    :address v}}))))
+;; (defn cp7->request-obj []
+;;   (->> cp7
+;;        (map-indexed (fn [idx v]
+;;                       {:attributes {:objectid idx
+;;                                     :address v}}))))
 
 
-(defn s [] (json/generate-string {:records cp7->request-obj}))
+;; (defn s [] (json/generate-string {:records cp7->request-obj}))
 
 #_(def r (:body (curl/post "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/geocodeAddresses"
                          {:query-params [["countryCode" "PRT"]
                                          ["sourceCountry" "PRT"]
-                                   ["token" "AAPK068313a8e1504eac8aa9a3df8fa72ea2kKG6rEbl7aJRmgKmGu7ab68sPCNkEq_u-YKtmVskJAjUBztOlXJZQdR9x5B5fBSP"]]
+                                   ["token" esri-token]]
                     :form-params [["f" "json"]
                                   ["addresses" s]]})))
 
@@ -48,7 +51,7 @@
   (-> (:body (curl/post "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/geocodeAddresses"
                         {:query-params [["countryCode" "PRT"]
                                         ["sourceCountry" "PRT"]
-                                        ["token" "AAPK068313a8e1504eac8aa9a3df8fa72ea2kKG6rEbl7aJRmgKmGu7ab68sPCNkEq_u-YKtmVskJAjUBztOlXJZQdR9x5B5fBSP"]]
+                                        ["token" esri-token]]
                          :form-params [["f" "json"]
                                        ["addresses" (json/generate-string {:records [{:attributes {:objectid 0
                                                                                                    :address s}}]}) ]]}))
@@ -62,13 +65,14 @@
   (println (format "Coding address %s ..." (or postal address)))
   (try
     (-> (:body (curl/get "https://geocode-api.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates"
-                        {:query-params [["countryCode" "PRT"]
-                                        ["sourceCountry" "PRT"]
-                                        (when postal ["postal" postal])
-                                        (when address ["address" address])
-                                        ["outFields" "*"]
-                                        ["f" "json"]
-                                        ["token" "AAPK068313a8e1504eac8aa9a3df8fa72ea2kKG6rEbl7aJRmgKmGu7ab68sPCNkEq_u-YKtmVskJAjUBztOlXJZQdR9x5B5fBSP"]]}))
+                         {:query-params (conj [["countryCode" "PRT"]
+                                               ["sourceCountry" "PRT"]
+                                               ["outFields" "*"]
+                                               ["f" "json"]
+                                               ["token" esri-token]]
+                                              (if postal
+                                                ["postal" postal]
+                                                ["address" address]))}))
        json/parse-string
        #_(get "locations"))
     (catch Exception e
@@ -77,7 +81,7 @@
         (Thread/sleep 5000)
         (single-non-stored a)))))
 
-(comment
+#_(comment
   (let [current (last foo)
         id (:id current)
         address (:address current)
@@ -98,14 +102,14 @@
      :score score
      :c (count candidates)}))
 
+
 (comment
   (single-non-stored {:postal "4200-163"})
-  (single-non-stored {:address (-> id->address first last)})
 
-  (single-non-stored {:postal "4200-163"})
   (let [a "Estrada Exterior da Circunvalação, 8154 4200-163 PORTO"]
     (single-non-stored {:address a})))
 
+;;TODO use recur ..
 (defn non-stored-address [k address-map]
   (let [a (atom [])]
     (doseq [[id address] address-map]
@@ -126,7 +130,7 @@
                         :c (count candidates)})))
     (sort #(compare (:score %2) (:score %1)) @a)))
 
-#_(non-stored-address :address id->address)
+#_(non-stored-address :address (into {} (take 2 id->address)))
 
 (let [d (doall (non-stored-address :address id->address))
       f "recepies/address-geocode"

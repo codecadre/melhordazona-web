@@ -2,15 +2,18 @@
   (:require [clojure.string :as clj-str]
             [cheshire.core :as json]
             [clojure.edn :as edn]
-            [clojure.pprint :as pprint]))
+            [clojure.pprint :as pprint]
+            [babashka.fs :as fs]))
 
-(def imt-profiles
-  (-> "imt-school-addresses-submodule/parsed-data/db.edn"
-      slurp
-      edn/read-string));;TODO add name to keyword
+;;TODO use from util
+(defn imt-profiles []
+  (map #(-> % str slurp edn/read-string)
+       (fs/glob "imt-school-addresses-submodule/parsed-data" "**/*.edn")))
+;;TODO add name to keyword
 
 ;;unique imt-profile ids?
 (assert (= (count imt-profiles) (count (set (map :id imt-profiles)))))
+
 
 (def nec->imt-profiles
   "uses first, drops the rest. relies on there being a manual overwrite if data
