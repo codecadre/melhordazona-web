@@ -11,6 +11,11 @@
 
 (def d (util/imt-profiles))
 
+(def old-batch
+  (-> "resources/data/cp7.edn"
+      slurp
+      edn/read-string))
+
 ;; Non nil post codes in the format xxxx-xxx
 (def
   cp7
@@ -64,34 +69,49 @@
   (let [a "Estrada Exterior da Circunvalação, 8154 4200-163 PORTO"]
     (single-non-stored {:address a})))
 
-;;TODO check local first, then pull from api if necessary
-(defn non-stored-postal
-  [cp7s]
+(defn geocode-cp7 [cp7]
+  (let [{:keys [candidates]} (single-non-stored {:postal cp7})
+        postal-c  (-> candidates first :attributes :Postal)
+        {:keys [x y]} (-> candidates first :location)
+        score (-> candidates first :score)]
+    {:cp7 cp7
+     :postal-c postal-c
+     :x x
+     :y y
+     :score score
+     :c (count candidates)}))
+
+(defn update-all
+  "geocodes cp7 that come from all imt addresses. Tries to be smart about few things:
+
+  Looks up old cp7 mapping, if theres a geocode and the score is lower than 100, fetches from ESRI
+  API, otherwise just leaves old value in place."
+  [cp7s old-batch-map previous-results]
   (->>
    (loop [cp7-set cp7s
-          results []]
+          results previous-results]
      (let [cp7 (first cp7-set)
-           {:keys [candidates]} (single-non-stored {:postal cp7})
-           postal-c  (-> candidates first :attributes :Postal)
-           {:keys [x y]} (-> candidates first :location)
-           score (-> candidates first :score)
-           results (conj results
-                         {:cp7 cp7
-                          :postal-c postal-c
-                          :x x
-                          :y y
-                          :score score
-                          :c (count candidates)})]
+           old-geocode (get old-batch-map cp7)
+           result (if (and old-geocode (= 100 (:score old-geocode)))
+                    old-geocode
+                    (geocode-cp7 cp7))
+           results (conj results result)]
        (if (empty? (rest cp7-set))
          results
          (recur (rest cp7-set) results))))
+   (group-by :cp7)
+   (reduce (fn [acc [cp7 geocode-list]]
+             (conj acc (last (sort-by :score geocode-list)))) [])
    (sort-by :cp7)))
 
 (defn -main [& _args]
   (let [[n & _] _args
         n  (when n (edn/read-string n))
-        d (doall (non-stored-postal (if n (take n cp7)
-                                        cp7)))
+        old-batch-map (reduce #(assoc %1 (:cp7 %2) %2) {} old-batch)
+        full-data-set (doall (update-all (if n (take n cp7)
+                                             cp7)
+                                         old-batch-map
+                                         old-batch))
         f "resources/data/cp7"]
-    (spit (str f ".txt") (with-out-str (pprint/print-table '(:cp7 :postal-c :c :score :x :y) d)))
-    (spit (str f ".edn") (with-out-str (pprint/pprint d)))))
+    (spit (str f ".txt") (with-out-str (pprint/print-table '(:cp7 :postal-c :c :score :x :y) full-data-set)))
+    (spit (str f ".edn") (with-out-str (pprint/pprint full-data-set)))))
