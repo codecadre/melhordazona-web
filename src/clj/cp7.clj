@@ -59,6 +59,7 @@
        #_(get "locations"))
     (catch Exception e
       (do
+        ;; optimistic retry, shit code
         (println "retrying request in 5 sec....")
         (Thread/sleep 5000)
         (single-non-stored a)))))
