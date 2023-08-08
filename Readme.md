@@ -56,3 +56,25 @@ cp  node_modules/leaflet/dist/leaflet.css public/vendor/leaflet
 ## host requirements
 
 Apache2 and babashka
+
+## Aggregate Transform Load
+
+available at `/aggregate-transform-load`. This should get it's own project at some point, but for now it lives here.
+
+Merges data from separate projects containing pass rates and address data
+- [imt-pass-rates](https://github.com/codecadre/imt-pass-rates)
+- [imt-school-addresses](https://github.com/codecadre/imt-school-addresses)
+
+Tasks:
+
+### CP7 and address geocoding
+
+`bb cp7-addresses-geocoding n` n is optional. Reads from imt-school-addresses and outputs:
+
+```
+aggregate-transform-load/data/cp7.edn(txt)
+aggregate-transform-load/data/address-geocode.edn(txt)
+```
+- Loops through incoming set of cp7 and addresses.
+- Transforms old batch into a lookup table.
+- If it can't find a value in the lookup table, encodes with ESRI. If the value exists and the existing encoding score is bellow a certain threshold, re-encodes.

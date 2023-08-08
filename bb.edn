@@ -1,4 +1,4 @@
-{:paths ["public/src/clj/" "public/config_files" "src/clj/" "recepies" "test/"]
+{:paths ["public/src/clj/" "public/config_files" "src/clj/" "recepies" "test/" "aggregate-transform-load/src/clj"]
  :pods {tzzh/mail {:version "0.0.2"}
         retrogradeorbit/bootleg {:version "0.1.9"}}
  :deps {com.github.askonomm/clarktown {:mvn/version "1.1.2"}

@@ -12,11 +12,11 @@
 (def full-imt-profiles-dataset (util/imt-profiles))
 
 (def old-batch-cp7
-  (util/open-edn "resources/data/cp7.edn"))
+  (util/open-edn "aggregate-transform-load/data/cp7.edn"))
 
-(def address-geocode-filepath "recepies/address-geocode")
+(def address-geocode-filepath "aggregate-transform-load/data/address-geocode")
 
-(def cp7-geocode-filepath "resources/data/cp7")
+(def cp7-geocode-filepath "aggregate-transform-load/data/cp7")
 
 (def old-batch-addresses
   (util/open-edn (str address-geocode-filepath ".edn")))
@@ -119,7 +119,6 @@
 (defmethod geocode :address [{:keys [address]}]
   (geocode-address address))
 
-(hash-map :a 123)
 (defn fetch-if-lower-than-threshold
   " Looks up old cp7 or address mapping, if theres a geocode and the score is lower than threshold (0-100), fetches from ESRI
   API, otherwise just leaves old value in place. "
@@ -129,7 +128,7 @@
           results previous-results]
      (let [item (first remaining-items-to-encode)
            old-geocode (get old-batch-map item)
-           result (if (and old-geocode (= threshold (:score old-geocode))) ;100 for cp7
+           result (if (and old-geocode (< (:score old-geocode) threshold)) ;100 for cp7
                     old-geocode
                     (geocode (hash-map type item)))
            results (conj results result)]
