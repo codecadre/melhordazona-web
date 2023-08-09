@@ -75,6 +75,6 @@ Tasks:
 aggregate-transform-load/data/cp7.edn(txt)
 aggregate-transform-load/data/address-geocode.edn(txt)
 ```
-- Loops through incoming set of cp7 and addresses.
+- Loops through incoming set of cp7 and addresses (imt-school-profiles doesn't delete entries).
 - Transforms old batch into a lookup table.
 - If it can't find a value in the lookup table, encodes with ESRI. If the value exists and the existing encoding score is bellow a certain threshold, re-encodes.
