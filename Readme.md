@@ -78,3 +78,14 @@ aggregate-transform-load/data/address-geocode.edn(txt)
 - Loops through incoming set of cp7 and addresses (imt-school-profiles doesn't delete entries).
 - Transforms old batch into a lookup table.
 - If it can't find a value in the lookup table, encodes with ESRI. If the value exists and the existing encoding score is bellow a certain threshold, re-encodes.
+
+### Simple DB
+
+`bb produce-data simple-db`
+
+Merges pass rates, imt profiles and `overwrites.edn`.
+
+Diff `simple-db.txt` to track what changed and work on `overwrites.edn` until things look decent: you'll either have to add entries, remove, or edit them. Few cases:
+- overwrite entry has address-id nil: Check if school name is included in new entries.
+- New imt-profile batch fixes nec and overwrite is no longer necessary.
+- New imt-profile batch fixes nec and overwrite needs to be pointed to another address-id.

@@ -123,37 +123,32 @@
                   (assoc-in [idx 1 :obs] obs)
                   (assoc-in [idx 1 :overwrite/notes] notes)))) db overwrites))
 
-;; :pr/k | :nec | :imt/name | :imt/nec | :obs |
-
-
-
-((defn produce-simple-db
-   [[key-string {:keys [nec rates imt-profile obs]}]]
-   {:pr/k key-string
-    :nec nec
-    :imt/name (:name imt-profile)
-    :imt/nec (:nec imt-profile)
-    :obs obs})
-
- (->> db db-massaged first))
-
-(let [d (->> db
-             db-massaged
-             (sort #(compare (:nec (last %1)) (:nec (last %2)))))]
-  (spit simple-db-txt-file (with-out-str (pprint/print-table [:pr/k :nec :imt/name :imt/nec :obs] d))))
+(defn produce-simple-db
+  "maps db entry so that it can be outputed into simple-db format"
+  []
+  (let [produce-simple-db (fn
+                            [[key-string {:keys [nec imt-profile obs]}]]
+                            {:pr/k key-string :nec nec :imt/name (:name imt-profile) :imt/nec (:nec imt-profile) :obs obs})
+        d (->> db
+               db-massaged
+               (sort #(compare (:nec (last %1)) (:nec (last %2))))
+               (map produce-simple-db))]
+    (spit simple-db-txt-file (with-out-str (pprint/print-table [:pr/k :nec :imt/name :imt/nec :obs] d)))
+    (println (str "wrote " simple-db-txt-file))))
 
 (defn -main
   [& _args]
-  (let [[mode & _] _args
-        (case mode
-          "simple-db" )
-        #_#_d (->> db
-                   db-massaged
-                   db-geocoded
-                   (remove #(nil? (:imt-profile (last %))))
-                   geocoding-db-print
-                   (remove #(:overwrite %))
-                   (filter #(nil? (:score %))))]
+  (let [[mode & _] _args]
+    (case mode
+      "simple-db" (produce-simple-db)
+      :else (println "option not available"))
+    #_#_d (->> db
+                    db-massaged
+                    db-geocoded
+                    (remove #(nil? (:imt-profile (last %))))
+                    geocoding-db-print
+                    (remove #(:overwrite %))
+                    (filter #(nil? (:score %))))
     #_(println (format "%s imt profiles with no geocoding." (count d)))
     #_(spit no-geocode-found-file (with-out-str (pprint/print-table '(:id :address :concelho :k) d)))
     #_(spit (str f ".edn") (with-out-str (pprint/pprint  d)))))

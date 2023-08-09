@@ -1,25 +1,36 @@
-{"royal-01417" {:address-id #uuid "85b9c656-e409-38cc-a8fa-9d1a39713ae0"
-                :overwrite/reason "missing nec in imt.pt"
-                :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"]}
- "campanha-00297" {:address-id #uuid "7f7d57ec-c53d-3011-b080-285687e47e98"
-                   :overwrite/obs "missing nec in imt.pt"
-                   :overwrite/notes ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"]}
+{"a-coroa-de-vinhais-00352" {:address-id #uuid "bc73b936-c837-361f-b6d6-f581d2501049"
+                             :overwrite/obs "pointing to archived imt-profiles"}
+
+ "sousa-batista-00851" {:address-id #uuid "9c2a8e84-8d15-3059-a1bf-7012779e109c"
+                        :overwrite/obs "two profiles with same name and nec and both archived."}
+
+
+ "ponto-de-partida-01077" {:address-id #uuid "74d02e36-9dfb-3d9b-854b-071c7d8dcf81"
+                           :overwrite/obs "two profiles with same name and nec and both archived."}
+
+ "mota-galiza-01079" {:address-id #uuid "58c80e89-6aa3-333a-b697-d39d3a1f8312"
+                      :overwrite/obs "noting to add"}
+
+ "prestige-01314" {:address-id #uuid "d3431f0e-3ea9-39bc-9409-18ad609a8abc"
+                   :overwrite/obs "archived school with the same license nr."}
+
  "autoflor-00652" {:address-id nil
                    :overwrite/obs "there's an auto floor but it's 1007"}
- "medieval-01319" {:address-id #uuid "7e57acad-4b71-3006-a0bb-dc2c8d594ac0"
-                   :overwrite/obs "nec is 1318 in imt.pt"}
+
  "mogadourense-00494" {:address-id nil
                        :overwrite/obs "There's a mogadourense under 1201"}
- "douro-sul-00830" {:address-id #uuid "3b79a161-8af9-3b64-83c3-66aec5238418"
-                    :overwrite/obs "duplicate nec in passrates"}
+
  "sind-xxxxx" {:address-id nil
                :overwrite/obs "not really a school"}
- "celas-00626" {:address-id nil
-                :overwrite/obs "problably the same as siiimpletunas-00626"}
+
+ "celas-00626" {:address-id #uuid "2084bf10-3b7f-3122-9d86-52374319d531"
+                :overwrite/obs "duplicate nec with siiimpletunas 00626"}
+
  "nova-mira-01349" {:address-id nil
                     :overwrite/obs "prob. same as nova-de-tomar-01349. data until 2018"}
- "malhoa-01314" {:address-id nil
-                 :overwrite/obs "prob. same as nova-mira-01349. data until 2018"}
+ "malhoa-01314" {:address-id #uuid "02713c1f-d2c3-3548-b74e-9251cc0754fc"
+                 :overwrite/obs "duplicate nec with another name"}
+
  "nascente-do-ave-00587" {:address-id nil
                           :overwrite/obs "prob. same as auto-dinamica-do-ave-00587. data until 2018"}
  "vr-00447" {:address-id nil
@@ -32,6 +43,7 @@
                       :overwrite/obs "Dup nova-de-esgueira-00339. Data stops @ 2018."}
  "dinamica-do-vez-00746" {:address-id nil
                           :overwrite/obs "Dup tyrsense-00746. Data stops @ 2019."}
+
  "armando-machado-da-cruz-00900" {:address-id nil
                                   :overwrite/obs "Dup grand-tour-00900. Data stops @ 2019."}
  "rodaqui-00011" {:address-id nil
@@ -46,22 +58,23 @@
                        :overwrite/obs "license 269 is 'Alentejana' in imt.pt"}
  "siiimplemarinhais-00302" {:address-id nil
                             :overwrite/obs "license 302 is 'Salvaterra de Magos' in imt.pt"}
+
+
  "o-farol-00333" {:address-id nil
                   :overwrite/obs "license 333 is 'Estrela de Almeida' in imt.pt"}
  "nelmar-00338" {:address-id nil
-                 :overwrite/obs "license 338 is 'Automóvel de Macedo' in imt.pt"}
+                 :overwrite/obs "license 338 is 'Automóvel de Macedo' in imt.pt.There's a Nelmar 527"}
  "cinochaves-00353" {:address-id nil
                      :overwrite/obs "license 353 is 'Valpacense in imt.pt"}
  "alverca-00375" {:address-id nil
                   :overwrite/obs "license 375 is 'Infante D. Pedro' in imt.pt"}
- "nova-mafra-00378" {:address-id nil
-                     :overwrite/obs "license 378 is 'Instrucoop' in imt.pt"}
  "circular-de-braga-00443" {:address-id nil
                             :overwrite/obs "license 443 is 'Pampicar' in imt.pt"}
  "a-desportiva-gondomar-00465" {:address-id nil
                                 :overwrite/obs "license 465 is 'Gondomar Centro' in imt.pt"}
  "via-odivelas-00481" {:address-id nil
                        :overwrite/obs "license 481 is 'Chuabo de Odivelas' in imt.pt"}
+
  "urbe-00513" {:address-id nil
                :overwrite/obs "license 513 is 'Barcelinhos' in imt.pt"}
 
@@ -69,14 +82,14 @@
                            :overwrite/obs "license 527 is 'Nelmar' in imt.pt"}
  "terra-nova-00544" {:address-id nil
                      :overwrite/obs "license 544 is 'Deu-la-Deu' in imt.pt"}
- "s-bartolomeu-00595" {:address-id nil
-                       :overwrite/obs "license 595 is 'Carlos Vaz' in imt.pt"}
+ "s-bartolomeu-00595" {:address-id #uuid "86ea8129-2a86-35cf-927b-1307792d759e"
+                       :overwrite/obs "duplicate nec and an archived one"}
  "jcdrive-00624" {:address-id nil
                   :overwrite/obs "license 624 is 'do Fanqueiro - Loures' in imt.pt"}
  "cavaleira-00630" {:address-id nil
                     :overwrite/obs "license 630 is 'De Pernes - Loures' in imt.pt"}
  "automovel-de-macedo-00650" {:address-id nil
-                              :overwrite/obs "license 650 is 'A Nova' in imt.pt"}
+                              :overwrite/obs "automovel macedo is 338"}
  "azurem-00684" {:address-id nil
                  :overwrite/obs "license 684 is 'Moreirense' in imt.pt"}
  "cubista-00691" {:address-id nil
@@ -95,28 +108,29 @@
                      :overwrite/obs "license 1024 is 'Egitaniense' in imt.pt"}
  "s-jorge-01043" {:address-id nil
                   :overwrite/obs "license 1043 is 'Dominante' in imt.pt"}
- "d-chama-01057" {:address-id nil
-                  :overwrite/obs "license 1057 is 'Auto Mira' in imt.pt"}
+
  "s-verissimo-01058" {:address-id nil
                       :overwrite/obs "license 1058 is 'Volante de Negreiros' in imt.pt"}
  "auto-dao-01075"  {:address-id nil
                     :overwrite/obs "license 1075 is 'De Repeses' in imt.pt"}
- "boliqueime-01081" {:address-id nil
-                     :overwrite/obs "license 1081 is 'Linha de Sintra' in imt.pt"}
+ "boliqueime-01081" {:address-id #uuid "8ca014b5-1108-3368-ae12-16be64246232"
+                     :overwrite/obs "duplicate with 1081 is 'Linha de Sintra'"}
  "seguranca-maxima-premium-01105" {:address-id nil
                                    :overwrite/obs "license 1105 is 'Alameda' in imt.pt"}
  "palhaca-01110" {:address-id nil
                   :overwrite/obs "license 1110 is 'Bairrada' in imt.pt"}
- "do-juncal-01162" {:address-id nil
+ "do-juncal-01162" {:address-id #uuid "17bc7a38-f908-31fc-9991-8f7e7a54448c"
                     :overwrite/obs "license 1162 is 'Da Serra' in imt.pt"}
- "macao-01171" {:address-id nil
-                :overwrite/obs "license 1171 is 'Abranjovem' in imt.pt"}
- "o-motorista-01179" {:address-id nil
+
+ "macao-01171" {:address-id #uuid "34232526-f88a-3ad2-add4-c0d2a1f385e6"
+                :overwrite/obs "duplicate license 1171 is 'Abranjovem'"}
+
+ "o-motorista-01179" {:address-id  #uuid "6ca11c48-7549-3da4-968e-cd6a1cbbf19b"
                       :overwrite/obs "license 1179 is 'Montenegrense' in imt.pt"}
  "chelas-01187" {:address-id nil
                  :overwrite/obs "license 1187 is 'Babilónia' in imt.pt"}
- "moncorvense-01201" {:address-id nil
-                      :overwrite/obs "license 1201 is 'Mogadourense' in imt.pt"}
+ "moncorvense-01201" {:address-id #uuid "f0a2f0e2-98af-36d0-aedc-7844b4c65152"
+                      :overwrite/obs "duplicate: license 1201 is 'Mogadourense' in imt.pt"}
  "a-nova-de-mozelos-01232" {:address-id nil
                             :overwrite/obs "license 1232 is 'Irmãos Couto' in imt.pt"}
  "espiral-01258" {:address-id nil
@@ -138,5 +152,5 @@
  "auto-mira-00651" {:address-id nil
                     :overwrite/obs "license 651 is 'Miranda do Douro' in imt.pt"}
  "carlos-vaz-01007" {:address-id nil
-                     :overwrite/obs "license 1007 is 'Auto Flor' in imt.pt"}
+                     :overwrite/obs "1007 is 'Auto Flor'. Carlos Vaz is archived."}
  }
