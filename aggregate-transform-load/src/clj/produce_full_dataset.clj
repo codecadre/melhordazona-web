@@ -1,4 +1,4 @@
-(ns produce-data
+(ns produce-full-dataset
   (:require [clojure.string :as clj-str]
             [cheshire.core :as json]
             [clojure.edn :as edn]
@@ -28,11 +28,11 @@
 ;; full-data-set-output
 (def enriched-dataset-file (str base-dir "/data/db.edn"))
 
-;; Data weirdness logs
+;; Data quality logs
 (def duplicates-file (str base-dir "/rates-duplicate-nec.txt"))
 (def no-imt-profile-file (str base-dir "/no-imt-profile.txt"))
 (def no-geocode-found-file (str base-dir "/no-geocode.txt"))
-
+(def simple-db-txt-file (str base-dir "/simple-db.txt"))
 
 ;;TODO add name to keyword
 
@@ -123,116 +123,30 @@
                   (assoc-in [idx 1 :obs] obs)
                   (assoc-in [idx 1 :overwrite/notes] notes)))) db overwrites))
 
-(def nec->pass-rates
-  (->> pass-rates
-       (group-by :r/nec)))
-
-(spit duplicates-file
-      (with-out-str
-        (pprint/print-table (->> nec->pass-rates
-                                 (map (fn [[k v]]
-                                        (let [s (set (map :r/k v))]
-                                          {:nec k
-                                           :ks (apply str (interpose " -- " s))
-                                           :names (apply str (interpose " -- " (set (map :r/name_raw v))))
-                                           :k-count (count s)})))
-                                 (filter #(> (:k-count %) 1))
-                                 (map #(select-keys % [:nec :ks]))))))
-
-;;TODO delete maybe??
-(defn db-print [db]
-  (->> db
-       (map (fn [[k {:keys [rates imt-profile nec obs]}]]
-              {:pr/k k :nec nec :imt/name (-> imt-profile :name) :imt/nec (-> imt-profile :nec) :obs obs}))
-       (sort #(compare (:nec %1) (:nec %2)))))
-
-(defn no-imt-profile [db]
-  (remove (fn [[k {:keys [imt-profile]}]]
-            (when imt-profile true)) db))
+;; :pr/k | :nec | :imt/name | :imt/nec | :obs |
 
 
-(println (format "%s Schools WITH imt profile" (->> db db-massaged (remove #(-> % last :imt-profile nil?)) count)))
 
-(def cp7-geocoded (util/open-edn geocoded-cp7-file))
-(def address-geocoded (util/open-edn geocoded-address-file))
-(def overwrite-geocodes (util/open-edn geocode-overwrites))
+((defn produce-simple-db
+   [[key-string {:keys [nec rates imt-profile obs]}]]
+   {:pr/k key-string
+    :nec nec
+    :imt/name (:name imt-profile)
+    :imt/nec (:nec imt-profile)
+    :obs obs})
 
-(defn imt-id->geocode [id]
-  (->> address-geocoded
-       (filter (fn [a]
-                 (= id (:id a))))
-       first))
-
-(defn imt-id->overwrite-geocode [id]
-  (get (->> overwrite-geocodes
-            (group-by :id)
-            (map (fn [[k v]]
-                   [k (first v)]))
-            (into {}))
-       id))
-
-#_(imt-id->overwrite-geocode #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe")
-
-;;(keys (imt-id->geocode #uuid "0f7182e1-9ade-3a01-95c8-f5e495a01bc4"))(:id :address :address-c :postal-c :x :y :score :c)
-
-(defn cp7->geocode [cp7]
-  (->> cp7-geocoded
-       (filter (fn [a]
-                 (= cp7 (:cp7 a))))
-       first))
-
-#_(cp7->geocode "5300-254");;{:cp7 "2710-583", :postal-c "2710-583", :x -9.37957001355457, :y 38.80322501473279, :score 100, :c 1}
-
-(defn db-geocoded [db]
-  (reduce (fn [acc [k {:keys [imt-profile] :as s}]]
-            (if imt-profile
-              (let [address-code (imt-id->geocode (:id imt-profile))
-                    cp7-code (cp7->geocode (:cp7 imt-profile))
-                    overwrite-code (imt-id->overwrite-geocode (:id imt-profile))]
-                (cond
-                  overwrite-code (conj acc [k (assoc s :geocode overwrite-code)])
-                  (and (:score address-code) (> (:score address-code) 95)) (conj acc [k (assoc s :geocode address-code)])
-                  (and (:score cp7-code) (> (:score cp7-code) 99)) (conj acc [k (assoc s :geocode cp7-code)])
-                  :else (conj acc [k s])))
-              (conj acc [k s]))) '() db))
+ (->> db db-massaged first))
 
 (let [d (->> db
              db-massaged
-             db-geocoded
              (sort #(compare (:nec (last %1)) (:nec (last %2)))))]
-  (spit enriched-dataset-file (with-out-str (pprint/pprint  d))))
-
-(defn print-missing-imt-profile [db]
-  (let [d (->> (no-imt-profile db)
-               (map (fn [[k {:keys [rates obs]}]]
-                      (into {:k k} (map #(hash-map (keyword (:r/level-0 %)) true) rates))))
-               (sort #(compare (-> %2 :2020) (-> %1 :2020))))]
-    (spit no-imt-profile-file
-          (with-out-str
-            (pprint/print-table [:k :2015 :2016 :2017 :2018 :2019 :2020] d)))))
-
-(-> db
-    db-massaged
-    print-missing-imt-profile)
-
-(defn geocoding-db-print [db]
-  (->> db
-       (map (fn [[k {:keys [geocode imt-profile]}]]
-              {:id (:id imt-profile)
-               :k k
-               :concelho (:concelho imt-profile)
-               :score (:score geocode)
-               :cp7 (:cp7 geocode)
-               :address (:address imt-profile)
-               :address-c (:address-c geocode)
-               :overwrite (:overwrite geocode)}))
-       (sort #(compare (:score %2) (:score %1)))))
-
+  (spit simple-db-txt-file (with-out-str (pprint/print-table [:pr/k :nec :imt/name :imt/nec :obs] d))))
 
 (defn -main
   [& _args]
   (let [[mode & _] _args
-        _ (print mode)
+        (case mode
+          "simple-db" )
         #_#_d (->> db
                    db-massaged
                    db-geocoded
