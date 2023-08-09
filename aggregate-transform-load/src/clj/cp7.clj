@@ -114,10 +114,14 @@
     (first (keys cp7-or-address-map))))
 
 (defmethod geocode :cp7 [{:keys [cp7]}]
-  (geocode-cp7 cp7))
+  (let [new-code (geocode-cp7 cp7)]
+    (println ">>>> new geocode: " new-code)
+    new-code))
 
 (defmethod geocode :address [{:keys [address]}]
-  (geocode-address address))
+  (let [new-code (geocode-address address)]
+    (println ">>>> new geocode: " new-code)
+    new-code))
 
 (defn fetch-if-lower-than-threshold
   " Looks up old cp7 or address mapping, if theres a geocode and the score is lower than threshold (0-100), fetches from ESRI
@@ -128,9 +132,10 @@
           results previous-results]
      (let [item (first remaining-items-to-encode)
            old-geocode (get old-batch-map item)
-           result (if (and old-geocode (< (:score old-geocode) threshold)) ;100 for cp7
-                    old-geocode
-                    (geocode (hash-map type item)))
+           _ (println "\n>>>> Old geocode" old-geocode)
+           result (cond (nil? (:score old-geocode)) (geocode (hash-map type item))
+                        (and old-geocode (< (:score old-geocode) threshold)) (geocode (hash-map type item))
+                        :else old-geocode)
            results (conj results result)]
        (if (empty? (rest remaining-items-to-encode))
          results
