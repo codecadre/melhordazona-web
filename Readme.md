@@ -96,6 +96,10 @@ Diff `simple-db.txt` to track what changed and work on `overwrites.edn` until th
 
 At some point I'll look into automating this with fuzzy pattern matching but that won't be a clean cut solution.
 
+Also outputs:
+- rates-duplicate-nec.txt
+- no-imt-profile.txt
+
 ### Full Run
 
 `bb produce-data`
@@ -107,3 +111,22 @@ Reads from:
 
 Outputs all datasets and debug files:
 - simple-db.txt
+- rates-duplicate-nec.txt
+- no-imt-profile.txt
+
+### Schools that now have imt-profile
+
+They show up on the map:
+
+| moncorvense-01201  | true | true | true | true | true | true |
+| nova-mafra-00378   | true |      |      | true | true | true |
+| d-chama-01057      | true | true | true | true | true | true |
+| boliqueime-01081   | true | true | true | true | true | true |
+| celas-00626        |      |      |      |      | true | true |
+| do-juncal-01162    | true | true | true | true | true | true |
+| macao-01171        | true | true | true | true | true | true |
+| o-motorista-01179  | true | true | true | true | true | true |
+| s-bartolomeu-00595 | true | true | true | true | true | true |
+| malhoa-01314       | true | true | true | true |      |      |
+
+You can't rely on the no-imt-profile.txt diff for this batch because of previous ordering but that's fixed for the next ones.

@@ -139,9 +139,8 @@
     (println (str "wrote " simple-db-txt-file))))
 
 (defn merge-pass-rates-imt-profiles
-  []
-  (let [k->pass-rates-map (k->pass-rates (load-pass-rates))
-        imt-profiles (load-imt-profiles)
+  [pass-rates imt-profiles]
+  (let [k->pass-rates-map (k->pass-rates pass-rates)
         nec->imt-profiles-map (nec->imt-profiles imt-profiles)
         id->imt-profiles-map (id->imt-profiles imt-profiles)]
     (->> (db k->pass-rates-map nec->imt-profiles-map)
@@ -152,10 +151,47 @@
   (println "Full Run...")
   (produce-simple-db pass-rates-imt-profiles-merged-dataset))
 
+(defn output-pass-rates-duplicates!
+  "outputs a file listing all entries with the same nec and different name in the pass-rates dataset."
+  [pass-rates]
+  (spit duplicates-file
+        (with-out-str
+          (pprint/print-table (->> pass-rates
+                                   (group-by :r/nec)
+                                   (map (fn [[k v]]
+                                          (let [s (set (map :r/k v))]
+                                            {:nec k
+                                             :ks (apply str (interpose " -- " s))
+                                             :names (apply str (interpose " -- " (set (map :r/name_raw v))))
+                                             :k-count (count s)})))
+                                   (filter #(> (:k-count %) 1))
+                                   (map #(select-keys % [:nec :ks]))))))
+  (println (str "Wrote " duplicates-file)))
+
+
+(defn print-missing-imt-profile! [pass-rates-imt-profiles-merged-dataset]
+  (let [d (->> pass-rates-imt-profiles-merged-dataset
+               (remove (fn [[k {:keys [imt-profile]}]]
+                         (when imt-profile true)) )
+               (map (fn [[k {:keys [rates obs]}]]
+                      (into {:k k} (map #(hash-map (keyword (:r/level-0 %)) true) rates))))
+               (sort #(compare (-> %2 :2020) (-> %1 :2020))))]
+    (spit no-imt-profile-file
+          (with-out-str
+            (pprint/print-table [:k :2015 :2016 :2017 :2018 :2019 :2020] d)))
+    (println (str "Wrote " no-imt-profile-file))))
+
 (defn -main
   [& _args]
   (let [[mode & _] _args
-        pass-rates-imt-profiles-merged-dataset (merge-pass-rates-imt-profiles)]
+        pass-rates (load-pass-rates)
+        imt-profiles (load-imt-profiles)
+        pass-rates-imt-profiles-merged-dataset (merge-pass-rates-imt-profiles pass-rates imt-profiles)]
+    (println (format "%s Schools WITH imt profile" (->> pass-rates-imt-profiles-merged-dataset
+                                                        (remove #(-> % last :imt-profile nil?))
+                                                        count)))
+    (output-pass-rates-duplicates! pass-rates)
+    (print-missing-imt-profile! pass-rates-imt-profiles-merged-dataset)
     (case mode
       "simple-db" (produce-simple-db pass-rates-imt-profiles-merged-dataset)
       (full-run pass-rates-imt-profiles-merged-dataset))
