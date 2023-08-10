@@ -83,9 +83,27 @@ aggregate-transform-load/data/address-geocode.edn(txt)
 
 `bb produce-data simple-db`
 
-Merges pass rates, imt profiles and `overwrites.edn`.
+Merges pass rates, imt profiles and overwrites:
+
+- imt-pass-rates-submodule/parsed-data/db.json
+- imt-school-addresses-submodule/parsed-data/*
+- overwrites.edn
 
 Diff `simple-db.txt` to track what changed and work on `overwrites.edn` until things look decent: you'll either have to add entries, remove, or edit them. Few cases:
 - overwrite entry has address-id nil: Check if school name is included in new entries.
 - New imt-profile batch fixes nec and overwrite is no longer necessary.
 - New imt-profile batch fixes nec and overwrite needs to be pointed to another address-id.
+
+At some point I'll look into automating this with fuzzy pattern matching but that won't be a clean cut solution.
+
+### Full Run
+
+`bb produce-data`
+
+Reads from:
+- imt-pass-rates-submodule/parsed-data/db.json
+- imt-school-addresses-submodule/parsed-data/*
+- overwrites.edn
+
+Outputs all datasets and debug files:
+- simple-db.txt
