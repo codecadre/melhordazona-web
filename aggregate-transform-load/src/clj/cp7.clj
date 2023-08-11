@@ -189,4 +189,7 @@
   (geocode {:address "Estrada Exterior da Circunvalação, 8154 4200-163 PORTO"})
 
   (sort (frequencies (map int (remove nil? (map :score old-batch-addresses))) ))
+
+
+  (geocode-address "Rua Dr. José Marques – Edifício Arrábida 2000 r/c Esqº 2530-565 TORRES NOVAS")
   )

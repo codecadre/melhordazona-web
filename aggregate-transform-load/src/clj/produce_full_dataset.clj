@@ -16,7 +16,6 @@
 (def geocoded-cp7-file (str base-dir "/data/cp7.edn"))
 (def geocoded-address-file (str base-dir "/data/address-geocode.edn"))
 
-;;TODO add file name to keyword maybe
 (defn load-imt-profiles []
   (let [data (util/imt-profiles)]
     (assert (= (count data) (count (set (map :id data)))))
@@ -71,7 +70,6 @@
     (println (format "%s School entries from pass rates pdf." (count result)))
     result))
 
-;;TODO maybe passs it down call it something else...
 (defn db [k->pass-rates-map nec->imt-profiles-map]
   "Merges imt-profile data with pass rates:
   - uses pass rate as starting point
@@ -147,9 +145,11 @@
          (db-massaged id->imt-profiles-map)
          (sort #(compare (:nec (last %1)) (:nec (last %2)))))))
 
-(defn full-run [pass-rates-imt-profiles-merged-dataset]
-  (println "Full Run...")
-  (produce-simple-db pass-rates-imt-profiles-merged-dataset))
+(defn print-full-dataset
+  [full-dataset]
+  (spit enriched-dataset-file (binding [*print-namespace-maps* false]
+                                (with-out-str (pprint/pprint full-dataset))))
+  (println (str "Wrote " enriched-dataset-file)))
 
 (defn output-pass-rates-duplicates!
   "outputs a file listing all entries with the same nec and different name in the pass-rates dataset."
@@ -168,7 +168,6 @@
                                    (map #(select-keys % [:nec :ks]))))))
   (println (str "Wrote " duplicates-file)))
 
-
 (defn print-missing-imt-profile! [pass-rates-imt-profiles-merged-dataset]
   (let [d (->> pass-rates-imt-profiles-merged-dataset
                (remove (fn [[k {:keys [imt-profile]}]]
@@ -181,12 +180,99 @@
             (pprint/print-table [:k :2015 :2016 :2017 :2018 :2019 :2020] d)))
     (println (str "Wrote " no-imt-profile-file))))
 
+(defn address->geocode [address-geocoded address]
+  (->> address-geocoded
+       (filter (fn [a]
+                 (= address (:address a))))
+       first))
+
+(defn imt-id->geocode [address-geocoded id]
+  (->> address-geocoded
+       (filter (fn [a]
+                 (= id (:id a))))
+       first))
+
+(defn imt-id->overwrite-geocode [overwrite-geocodes id]
+  (get (->> overwrite-geocodes
+            (group-by :id)
+            (map (fn [[k v]]
+                   [k (first v)]))
+            (into {}))
+       id))
+
+#_(imt-id->overwrite-geocode #uuid "4e24e93e-8297-3401-bff0-6cd16928b7fe")
+
+;;(keys (imt-id->geocode #uuid "0f7182e1-9ade-3a01-95c8-f5e495a01bc4"))(:id :address :address-c :postal-c :x :y :score :c)
+
+(defn cp7->geocode [cp7-geocoded cp7]
+  (->> cp7-geocoded
+       (filter (fn [a]
+                 (= cp7 (:cp7 a))))
+       first))
+
+(defn db-geocoded [pass-rates-imt-profiles-merged-dataset cp7-geocoded address-geocoded #_overwrite-geocodes]
+  (reduce (fn [acc [k {:keys [imt-profile] :as s}]]
+            (if imt-profile
+              (let [address-code (address->geocode address-geocoded (:address imt-profile))
+                    cp7-code (cp7->geocode cp7-geocoded (:cp7 imt-profile))
+                    #_#_overwrite-code (imt-id->overwrite-geocode overwrite-geocodes (:id imt-profile))]
+                (cond
+                  #_#_overwrite-code (conj acc [k (assoc s :geocode overwrite-code)])
+                  (and (:score address-code) (> (:score address-code) 87)) (conj acc [k (assoc s :geocode address-code)])
+                  (and (:score cp7-code) (> (:score cp7-code) 99)) (conj acc [k (assoc s :geocode cp7-code)])
+                  :else (conj acc [k s])))
+              (conj acc [k s]))) [] pass-rates-imt-profiles-merged-dataset))
+
+(defn fixed-length-string
+  "adds whitespace padding or trims strings bigger than length"
+  [s length]
+  (subs (format (str "%" length "s") s) 0 length))
+
+(defn geocoding-db-print [full-dataset]
+
+  (->> full-dataset
+       (map (fn [[k {:keys [geocode imt-profile]}]]
+              {:id (:id imt-profile)
+               :k (fixed-length-string k 36);; MAGIC NUMBER - see below
+               :concelho (fixed-length-string (:concelho imt-profile) 22) ;; MAGIC NUMBER - see below
+               :score (:score geocode)
+               :cp7 (:cp7 geocode)
+               :address (fixed-length-string (:address imt-profile) 94) ;;MAGIC NUMBER: 94 is the length of the largest address found
+               :address-c (:address-c geocode)
+               :overwrite (:overwrite geocode)}))
+       (sort #(compare (:score %2) (:score %1)))
+       reverse))
+
+(defn produce-missing-geocode-file!
+  [full-dataset]
+  (let [data (->> full-dataset
+                  (remove #(nil? (:imt-profile (last %))))
+                  geocoding-db-print
+                  (remove #(:overwrite %))
+                  (filter #(nil? (:score %))))]
+    (println (format "%s imt profiles with no geocoding." (count data)))
+    (spit no-geocode-found-file (with-out-str (pprint/print-table '(:id :address :concelho :k) data)))
+    (println (str "Wrote " no-geocode-found-file))))
+
+(defn full-run [pass-rates-imt-profiles-merged-dataset full-dataset]
+  (println "Full Run...")
+  (produce-simple-db pass-rates-imt-profiles-merged-dataset)
+  (produce-missing-geocode-file! full-dataset)
+  (print-full-dataset full-dataset)
+)
+
 (defn -main
   [& _args]
   (let [[mode & _] _args
         pass-rates (load-pass-rates)
         imt-profiles (load-imt-profiles)
-        pass-rates-imt-profiles-merged-dataset (merge-pass-rates-imt-profiles pass-rates imt-profiles)]
+        pass-rates-imt-profiles-merged-dataset (merge-pass-rates-imt-profiles pass-rates imt-profiles)
+        cp7-geocoded (util/open-edn geocoded-cp7-file)
+        address-geocoded (util/open-edn geocoded-address-file)
+        ;; no longer using overwrites
+        ;;overwrite-geocodes (util/open-edn geocode-overwrites)
+        full-dataset (db-geocoded pass-rates-imt-profiles-merged-dataset cp7-geocoded address-geocoded #_overwrite-geocodes)]
+
     (println (format "%s Schools WITH imt profile" (->> pass-rates-imt-profiles-merged-dataset
                                                         (remove #(-> % last :imt-profile nil?))
                                                         count)))
@@ -194,14 +280,5 @@
     (print-missing-imt-profile! pass-rates-imt-profiles-merged-dataset)
     (case mode
       "simple-db" (produce-simple-db pass-rates-imt-profiles-merged-dataset)
-      (full-run pass-rates-imt-profiles-merged-dataset))
-    #_#_d (->> db
-               db-massaged
-               db-geocoded
-               (remove #(nil? (:imt-profile (last %))))
-               geocoding-db-print
-               (remove #(:overwrite %))
-               (filter #(nil? (:score %))))
-    #_(println (format "%s imt profiles with no geocoding." (count d)))
-    #_(spit no-geocode-found-file (with-out-str (pprint/print-table '(:id :address :concelho :k) d)))
-    #_(spit (str f ".edn") (with-out-str (pprint/pprint  d)))))
+      "missing-geocode" (produce-missing-geocode-file! full-dataset)
+      (full-run pass-rates-imt-profiles-merged-dataset full-dataset))))
