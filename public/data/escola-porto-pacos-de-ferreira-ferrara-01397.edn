@@ -60,6 +60,7 @@
  {:address
   "Rua Dr. Queirós Ribeiro, n.º 155, 4590-590 Paços de Ferreira",
   :name "Ferrara",
+  :href-id #uuid "4e377b48-9bfe-349a-8ee9-ccf175e529f0",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ferrara.aspx",
@@ -67,6 +68,8 @@
   :nec 1397,
   :cp7 "4590-590",
   :id #uuid "e772d8d9-9676-3223-ba06-7df2c699695d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/4e377b48-ferrara.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode

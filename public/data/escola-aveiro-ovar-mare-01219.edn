@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Estrada Nova, Nº 1280 3885-401 ESMORIZ",
   :name "Maré",
+  :href-id #uuid "5fb1ddf6-a3cd-3eea-a936-74a7a5c0efb1",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mare626.aspx",
@@ -94,6 +95,8 @@
   :nec 1219,
   :cp7 "3885-401",
   :id #uuid "aa4390c4-06f1-366d-964c-e1c481ced530",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ovar/5fb1ddf6-mare.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
  :geocode

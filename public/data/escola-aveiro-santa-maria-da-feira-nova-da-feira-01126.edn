@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 25 de Abril nº 695 - Valos 4505-240 FIÃES",
   :name "Nova da Feira",
+  :href-id #uuid "ef06c947-da72-3577-acad-c7fb65dc6395",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadaFeira703.aspx",
@@ -94,6 +95,8 @@
   :nec 1126,
   :cp7 "4505-240",
   :id #uuid "12016643-1524-3b9c-b238-276bc7a54ac7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/ef06c947-nova-da-feira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

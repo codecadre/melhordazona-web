@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª da República, Nº 343 4830-000 PÓVOA DE LANHOSO",
   :name "Auto Dinâmica",
+  :href-id #uuid "ce20d6e1-5e67-3579-8ec4-7f71214bbbc1",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoDinamica149.aspx",
@@ -94,5 +95,17 @@
   :nec 620,
   :cp7 "4830-000",
   :id #uuid "6cb6b3c0-eaef-3c19-a34b-dfdb87150e25",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/povoa-de-lanhoso/ce20d6e1-auto-dinamica.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=P%C3%B3voa%20Lanhoso"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=P%C3%B3voa%20Lanhoso"},
+ :geocode
+ {:id #uuid "6cb6b3c0-eaef-3c19-a34b-dfdb87150e25",
+  :address "Avª da República, Nº 343 4830-000 PÓVOA DE LANHOSO",
+  :address-c
+  "Avenida da República 343, 4830-513, Póvoa de Lanhoso, Braga",
+  :postal-c "4830-513",
+  :x -8.274320023262078,
+  :y 41.57913000396411,
+  :score 90.35,
+  :c 4}}

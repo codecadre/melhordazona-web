@@ -74,6 +74,7 @@
  {:address
   "Rua da Estrada Nacional 204-5, n.º 158 r/c, Landim 4765-080 Vila Nova de Famalicão ",
   :name "Landim",
+  :href-id #uuid "c1b6635a-c991-38f6-9d4e-a82378f3c9cf",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Landim.aspx",
@@ -81,12 +82,18 @@
   :nec 349,
   :cp7 "4765-080",
   :id #uuid "06297868-8303-39c4-b2e4-749b489240f3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/c1b6635a-landim.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
  :geocode
- {:cp7 "4765-080",
-  :postal-c "4765-080",
-  :x -8.43125003782626,
-  :y 41.38283500977923,
-  :score 100,
-  :c 1}}
+ {:id #uuid "06297868-8303-39c4-b2e4-749b489240f3",
+  :address
+  "Rua da Estrada Nacional 204-5, n.º 158 r/c, Landim 4765-080 Vila Nova de Famalicão ",
+  :address-c
+  "N204-5 158, 4765-614, Figueiras-Delães, Vila Nova de Famalicão, Braga",
+  :postal-c "4765-614",
+  :x -8.426441879691957,
+  :y 41.384287412564085,
+  :score 87.29,
+  :c 34}}

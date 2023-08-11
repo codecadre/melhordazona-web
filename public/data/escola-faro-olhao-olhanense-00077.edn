@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª da República nº 31 8700-308 OLHÃO",
   :name "Olhanense",
+  :href-id #uuid "af5e574a-4336-3032-bb1e-dc6b12f5ebcb",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Olhanense743.aspx",
@@ -94,12 +95,16 @@
   :nec 77,
   :cp7 "8700-308",
   :id #uuid "3d0f6fbb-dc5c-35ec-b9a4-1e497edbbfae",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/af5e574a-olhanense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
  :geocode
- {:cp7 "8700-308",
+ {:id #uuid "3d0f6fbb-dc5c-35ec-b9a4-1e497edbbfae",
+  :address "Avª da República nº 31 8700-308 OLHÃO",
+  :address-c "Avenida da República 31, 8700-308, Olhão, Faro",
   :postal-c "8700-308",
-  :x -7.839844994172381,
-  :y 37.028220015125456,
-  :score 100,
-  :c 1}}
+  :x -7.8397999833523215,
+  :y 37.02793000127558,
+  :score 89.32,
+  :c 3}}

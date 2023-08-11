@@ -88,6 +88,7 @@
  {:address
   "Avª dos Bons Amigos, Bloco B Lote 4 cave 2735-001 Agualva - CACÉM",
   :name "Prudentes do Volante",
+  :href-id #uuid "b0a81698-f3a6-32a4-8961-eadceb60f9b2",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PrudentesdoVolante826.aspx",
@@ -95,6 +96,8 @@
   :nec 404,
   :cp7 "2735-001",
   :id #uuid "6f920e4c-afdd-3841-bf33-b84b65b6093c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/b0a81698-prudentes-do-volante.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

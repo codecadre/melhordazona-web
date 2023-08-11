@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Principal nº 289 r/c 3100-081 ALBERGARIA DOZE",
   :name "Estrela de Albergaria dos Doze",
+  :href-id #uuid "301cad48-7269-3737-b3c7-d071982c9e25",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladeAlbergariadosDoze423.aspx",
@@ -94,6 +95,8 @@
   :nec 1082,
   :cp7 "3100-081",
   :id #uuid "5f168052-0d5a-33d2-8130-664fc2de91ae",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/301cad48-estrela-de-albergaria-dos-doze.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
  :geocode

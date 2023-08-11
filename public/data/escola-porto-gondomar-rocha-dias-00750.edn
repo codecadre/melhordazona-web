@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Santa Bárbara nº 582 4515-463 MELRES",
   :name "Rocha e Dias",
+  :href-id #uuid "0295ae83-a0d8-3e0d-8482-39f7e4d737cc",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RochaeDias861.aspx",
@@ -94,12 +95,16 @@
   :nec 750,
   :cp7 "4515-463",
   :id #uuid "093069b3-ee90-316e-9c52-ed6f63d307d0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/0295ae83-rocha-e-dias.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode
- {:cp7 "4515-463",
+ {:address "Avª Santa Bárbara nº 582 4515-463 MELRES",
+  :address-c
+  "Avenida de Santa Bárbara 582, 4515-463, Branzelo, Gondomar, Porto",
   :postal-c "4515-463",
-  :x -8.426189966698274,
-  :y 41.08308997986981,
-  :score 100,
-  :c 1}}
+  :x -8.424439992953,
+  :y 41.080739987586,
+  :score 87.9,
+  :c 3}}

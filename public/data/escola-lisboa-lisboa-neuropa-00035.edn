@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Tenente Ferreira Durão, Nº 2 r/c Dtº 1350-314 LISBOA",
   :name "Neuropa",
+  :href-id #uuid "ebd73b10-30d7-374d-80c9-302690c9fea7",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Neuropa691.aspx",
@@ -94,6 +95,8 @@
   :nec 35,
   :cp7 "1350-314",
   :id #uuid "0864676e-495d-35cc-95f8-c6a0ae1160c3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/ebd73b10-neuropa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

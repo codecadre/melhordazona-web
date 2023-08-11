@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de S.Vicente nº 2024 4445-210 ALFENA",
   :name "Joni",
+  :href-id #uuid "ba5b4ceb-e537-34ce-a1e1-ff2b5d69d8f3",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Joni577.aspx",
@@ -94,6 +95,8 @@
   :nec 764,
   :cp7 "4445-210",
   :id #uuid "2b9c4de3-a737-3ccf-b8d9-cc41825d7510",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/valongo/ba5b4ceb-joni.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
  :geocode

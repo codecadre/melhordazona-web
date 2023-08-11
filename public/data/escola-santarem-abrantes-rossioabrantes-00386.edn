@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua General Godinho, Nº19 R/C 2205-055 ABRANTES",
   :name "Rossio-Abrantes",
+  :href-id #uuid "e9de7316-2773-37f6-900d-92c420232e5e",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RossioAbrantes870.aspx",
@@ -94,6 +95,8 @@
   :nec 386,
   :cp7 "2205-055",
   :id #uuid "1b318ac7-a406-3623-bbeb-36249e45d175",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/e9de7316-rossio-abrantes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
  :geocode

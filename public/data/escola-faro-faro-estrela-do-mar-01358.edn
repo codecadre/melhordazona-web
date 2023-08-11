@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua General Gomes Freire, n.º18, 8000-359 Faro",
   :name "Estrela do Mar",
+  :href-id #uuid "63ef2584-2d7c-3e48-b4a0-e292b6cb1f1b",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladoMar.aspx",
@@ -80,6 +81,8 @@
   :nec 1358,
   :cp7 "8000-359",
   :id #uuid "5697ae1c-9b1a-3e46-8ae1-2231e0416061",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/63ef2584-estrela-do-mar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua Nova do Agrelo, n.º 196 ; 4765-550 Serzedelo (Guimarães)",
   :name "Nova Geração",
+  :href-id #uuid "4f318872-bbf3-3738-a46b-ce99d075da3f",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaGeracao714.aspx",
@@ -95,6 +96,8 @@
   :nec 1094,
   :cp7 "4765-550",
   :id #uuid "6958ed7f-a3e4-36aa-a3dd-7a4c07871b63",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/4f318872-nova-geracao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode

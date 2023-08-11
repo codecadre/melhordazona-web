@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª da República, 46 – Cave esq 1050-195 LISBOA",
   :name "Técnica Automóvel Silvino",
+  :href-id #uuid "2679d7ca-10c7-3443-8f99-21a3eb06203c",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TecnicaAutomovelSilvino996.aspx",
@@ -94,6 +95,8 @@
   :nec 30,
   :cp7 "1050-195",
   :id #uuid "c66da933-0dd0-341c-acec-64b071c08058",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/2679d7ca-tecnica-automovel-silvino.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

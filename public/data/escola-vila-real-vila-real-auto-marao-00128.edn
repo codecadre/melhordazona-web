@@ -88,6 +88,7 @@
  {:address
   "Largo do Pelourinho, 11 - 3º Esqº 5000-513 VILA REAL (SÃO DINIS)",
   :name "Auto Marão",
+  :href-id #uuid "244642f5-0d04-3195-b22b-1d7bb18a907f",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoMarao162.aspx",
@@ -95,6 +96,8 @@
   :nec 128,
   :cp7 "5000-513",
   :id #uuid "c6171a88-6085-30c7-be34-faee5b62c94f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/244642f5-auto-marao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
  :geocode

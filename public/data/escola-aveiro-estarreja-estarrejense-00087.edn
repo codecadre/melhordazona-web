@@ -88,6 +88,7 @@
  {:address
   "Rua dos Bombeiros Voluntários nº 50 –1º Dtº 3860-367 ESTARREJA",
   :name "A Estarrejense",
+  :href-id #uuid "f7768540-e809-3890-a0ec-56458df7df32",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AEstarrejense016.aspx",
@@ -95,6 +96,8 @@
   :nec 87,
   :cp7 "3860-367",
   :id #uuid "67edabe5-9ca6-3a3a-91ad-fc9ee96d5c1c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/estarreja/f7768540-a-estarrejense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
  :geocode

@@ -31,6 +31,7 @@
  :imt-profile
  {:address "Lugar do Faial, Rua 1, n.º 56 B, 4730-458 Vila de Prado",
   :name "Verde Minho 2",
+  :href-id #uuid "b65ae048-6c0b-3afe-9af8-7cfc2662e809",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VerdeMinho1428.aspx",
@@ -38,5 +39,16 @@
   :nec 1428,
   :cp7 "4730-458",
   :id #uuid "10e0127f-7fc9-3c30-afed-eaedd7d74a42",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/b65ae048-verde-minho-2.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
+ :geocode
+ {:address "Lugar do Faial, Rua 1, n.º 56 B, 4730-458 Vila de Prado",
+  :address-c
+  "Lugar do Faial Rua 2 1, 4730-460, Ponte-Vila de Prado, Vila Verde, Braga",
+  :postal-c "4730-460",
+  :x -8.463430008135,
+  :y 41.60294001531,
+  :score 91.68,
+  :c 2}}

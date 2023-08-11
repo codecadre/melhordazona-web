@@ -85,24 +85,26 @@
    :r/total-passed 137.0,
    :r/t-done 111.0}],
  :imt-profile
- {:address "Praceta de S. Carlos nº 1 – loja B 1675-597 CANEÇAS",
+ {:address "Av. 1º de Novembro, nº 38, 2665-378 Milharado",
   :name "Good",
+  :href-id #uuid "9a942947-d8cc-362d-b515-dd80a3e6268e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Good.aspx",
-  :concelho "Odivelas",
+  :concelho "Mafra",
   :nec 1052,
-  :cp7 "1675-597",
-  :id #uuid "205e7205-f7d6-3da4-b20e-23c7d842bbdb",
+  :cp7 "2665-378",
+  :id #uuid "55c5d233-25da-3eea-84ac-f21247693a71",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/9a942947-good.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
  :geocode
- {:id #uuid "205e7205-f7d6-3da4-b20e-23c7d842bbdb",
-  :address "Praceta de S. Carlos nº 1 – loja B 1675-597 CANEÇAS",
+ {:address "Av. 1º de Novembro, nº 38, 2665-378 Milharado",
   :address-c
-  "Praceta de São Carlos 1, 1685-597, Caneças, Odivelas, Lisboa",
-  :postal-c "1685-597",
-  :x -9.224970000435121,
-  :y 38.81485000197537,
-  :score 96.66,
+  "Avenida 1 de Novembro 38, 2665-378, Tituaria, Mafra, Lisboa",
+  :postal-c "2665-378",
+  :x -9.207957464476,
+  :y 38.948257212145,
+  :score 97.25,
   :c 1}}

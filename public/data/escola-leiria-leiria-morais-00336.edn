@@ -88,6 +88,7 @@
  {:address
   "Avª dos Combatentes da Grande Guerra, Edf. Lena, 2ºPiso 2400-123 LEIRIA",
   :name "Morais",
+  :href-id #uuid "edb160f6-8f7b-3d47-9906-8efac01b21d2",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Morais678.aspx",
@@ -95,12 +96,18 @@
   :nec 336,
   :cp7 "2400-123",
   :id #uuid "9959a1f7-63bc-3d62-a2a7-f03592a62dc1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/leiria/edb160f6-morais.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
  :geocode
- {:cp7 "2400-123",
-  :postal-c "2400-123",
-  :x -8.80922500454318,
-  :y 39.74285999766684,
-  :score 100,
-  :c 1}}
+ {:id #uuid "9959a1f7-63bc-3d62-a2a7-f03592a62dc1",
+  :address
+  "Avª dos Combatentes da Grande Guerra, Edf. Lena, 2ºPiso 2400-123 LEIRIA",
+  :address-c
+  "Avenida Combatentes da Grande Guerra 2, 2400-223, Leiria",
+  :postal-c "2400-223",
+  :x -8.807289958376117,
+  :y 39.743280014834966,
+  :score 92,
+  :c 2}}

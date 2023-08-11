@@ -88,6 +88,7 @@
  {:address
   "Praça Dr.Francisco Sá Carneiro, Nº 3 - 1º Porta 3 2750-350 CASCAIS",
   :name "Costa do Sol",
+  :href-id #uuid "6e04ad33-3c95-31d1-85a6-2980e864321d",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostadoSol342.aspx",
@@ -95,6 +96,8 @@
   :nec 426,
   :cp7 "2750-350",
   :id #uuid "c7f9b57e-fa12-3bf4-b656-4f3c7c51c0e8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/6e04ad33-costa-do-sol.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode

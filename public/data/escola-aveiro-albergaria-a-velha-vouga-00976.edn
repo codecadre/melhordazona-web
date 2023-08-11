@@ -88,6 +88,7 @@
  {:address
   "Rua Marquês de Pombal -Edificio Sol Mar, Nº 3 3850-115 ALBERGARIA A VELHA",
   :name "Vouga",
+  :href-id #uuid "04841d2e-b577-3583-aca4-fa93501b96cd",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vouga1089.aspx",
@@ -95,12 +96,18 @@
   :nec 976,
   :cp7 "3850-115",
   :id #uuid "1b56e136-876e-3cb6-a0ee-a29a7a2f0654",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/albergaria-a-velha/04841d2e-vouga.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"},
  :geocode
- {:cp7 "3850-115",
+ {:id #uuid "1b56e136-876e-3cb6-a0ee-a29a7a2f0654",
+  :address
+  "Rua Marquês de Pombal -Edificio Sol Mar, Nº 3 3850-115 ALBERGARIA A VELHA",
+  :address-c
+  "Rua Marquês de Pombal, 3850-115, Albergaria-a-Velha, Aveiro",
   :postal-c "3850-115",
-  :x -8.486879974830373,
-  :y 40.698420009901014,
-  :score 100,
-  :c 1}}
+  :x -8.486813660882035,
+  :y 40.698837481853666,
+  :score 89.74,
+  :c 7}}

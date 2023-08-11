@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Sousa Porto 49 r/c 7800 BEJA",
   :name "Bejense",
+  :href-id #uuid "da0f67de-580e-35df-89d1-4ffaa8d2d9d3",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bejense236.aspx",
@@ -94,6 +95,8 @@
   :nec 812,
   :cp7 "7800",
   :id #uuid "e39f2c49-c0d9-3500-9f78-fac947032f06",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/beja/da0f67de-bejense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
  :geocode

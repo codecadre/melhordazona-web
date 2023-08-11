@@ -59,6 +59,7 @@
  :imt-profile
  {:address "Rua Miguel Torga, n.º 22 loja Drtº, 2725-563 Men Martins",
   :name "Estação",
+  :href-id #uuid "9f2ff93d-cd91-30b7-a88b-9aa2a1254d37",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Esta%c3%a7%c3%a3o.aspx",
@@ -66,6 +67,8 @@
   :nec 1398,
   :cp7 "2725-563",
   :id #uuid "a8251be8-45e7-3a68-b642-b5c8c067d578",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/9f2ff93d-estacao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

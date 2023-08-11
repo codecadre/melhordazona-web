@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Monsenhor Airosa n.º 24 R/c, 4705-102 BRAGA",
   :name "A Minhota",
+  :href-id #uuid "4e0abdae-d418-3415-b6ef-41fdf76b19fe",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AMinhota026.aspx",
@@ -94,6 +95,8 @@
   :nec 653,
   :cp7 "4705-102",
   :id #uuid "51747abb-caf2-3b65-aba9-7092f3445d59",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/4e0abdae-a-minhota.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praça de Gôa –Lote 14 r/c 3510-069 VISEU",
   :name "Viriato",
+  :href-id #uuid "9e4cbc4e-2323-387f-b33e-e385e3dec4db",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Viriato1074.aspx",
@@ -94,6 +95,8 @@
   :nec 71,
   :cp7 "3510-069",
   :id #uuid "056f85d4-46cd-3877-8e04-2a566b87e038",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/9e4cbc4e-viriato.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Edificio Multifuncional - Quintela – Bloco 2 r/c Dtº 4690-058 CINFÃES",
   :name "S. João",
+  :href-id #uuid "cde4b929-19de-3381-a96b-71a9f7edbaa2",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SJoao886.aspx",
@@ -95,6 +96,8 @@
   :nec 1070,
   :cp7 "4690-058",
   :id #uuid "f8fe6377-d045-37b2-ac2a-2778e7c7ddd1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/cinfaes/cde4b929-s-joao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
  :geocode

@@ -85,21 +85,28 @@
    :r/total-passed 96.0,
    :r/t-done 87.0}],
  :imt-profile
- {:address "Estrada Nacional nº 8 – 22 c/v – Dagorda 2510-082 ÓBIDOS",
+ {:address
+  "Rua Cidade de Abrantes, 23 - Santo Onofre, 2500-146 Caldas da Rainha",
   :name "Oeste",
+  :href-id #uuid "caa2ffd7-6373-36c7-aafd-dd575917eafd",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oeste740.aspx",
-  :concelho "Óbidos",
+  :concelho "Caldas da Raínha",
   :nec 1064,
-  :cp7 "2510-082",
-  :id #uuid "fa81aea5-1189-3f8d-85c5-b9e4d276f6c5",
+  :cp7 "2500-146",
+  :id #uuid "9bd8071f-5109-308a-a777-48d1cd8b357d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/caldas-da-rainha/caa2ffd7-oeste.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
  :geocode
- {:cp7 "2510-082",
-  :postal-c "2510-082",
-  :x -9.155493243204205,
-  :y 39.359680330082625,
-  :score 100,
+ {:address
+  "Rua Cidade de Abrantes, 23 - Santo Onofre, 2500-146 Caldas da Rainha",
+  :address-c
+  "Rua Cidade de Abrantes 23, 2500-146, Caldas da Rainha, Leiria",
+  :postal-c "2500-146",
+  :x -9.141539972807,
+  :y 39.400900015328,
+  :score 97.92,
   :c 1}}

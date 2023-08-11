@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Aquilino Ribeiro, nº 9 3650-209 VILA NOVA DE PAIVA",
   :name "Paivense",
+  :href-id #uuid "e54a6afa-ad1e-30b5-ad23-06365c4b260f",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Paivense767.aspx",
@@ -94,12 +95,17 @@
   :nec 522,
   :cp7 "3650-209",
   :id #uuid "7c035670-cd41-307b-894c-a4e9cdbf0c66",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/vila-nova-de-paiva/e54a6afa-paivense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"},
  :geocode
- {:cp7 "3650-209",
+ {:id #uuid "7c035670-cd41-307b-894c-a4e9cdbf0c66",
+  :address "Rua Aquilino Ribeiro, nº 9 3650-209 VILA NOVA DE PAIVA",
+  :address-c
+  "Avenida Aquilino Ribeiro 9, 3650-209, Vila Nova de Paiva, Viseu",
   :postal-c "3650-209",
-  :x -7.724229967093208,
-  :y 40.85417999460091,
-  :score 100,
-  :c 1}}
+  :x -7.725590014702448,
+  :y 40.853069979163394,
+  :score 94.19,
+  :c 5}}

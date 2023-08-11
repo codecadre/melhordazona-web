@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Frei Luís de Sousa nº 24 3700-511 ARRIFANA",
   :name "Impacto",
+  :href-id #uuid "e0cebeda-46a4-35e2-9889-28418eea0ad2",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Impacto519.aspx",
@@ -94,6 +95,8 @@
   :nec 1040,
   :cp7 "3700-511",
   :id #uuid "c70de70d-f125-30da-bcf8-465c99a52a3e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/e0cebeda-impacto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

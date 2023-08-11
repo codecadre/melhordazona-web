@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. Francisco de Portugal, Nº 11 7460-000 FRONTEIRA",
   :name "Fronteira",
+  :href-id #uuid "ec4524d3-9f58-3b28-bd66-2d0cc5f9b06b",
   :distrito "Portalegre",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fronteira473.aspx",
@@ -94,6 +95,8 @@
   :nec 319,
   :cp7 "7460-000",
   :id #uuid "5cef4e9e-bd71-3cb2-bdf7-50eb68fb140c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/fronteira/ec4524d3-fronteira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Fronteira"},
  :geocode

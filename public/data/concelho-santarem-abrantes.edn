@@ -89,6 +89,7 @@
    {:address
     "Tapada do Chafariz, Rua Projectada à Av.25 de Abril,Lt 7 R/C Dtº 2200 ABRANTES",
     :name "Abrantina",
+    :href-id #uuid "70f1d641-6b3c-3fd6-b475-4591832d866b",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Abrantina050.aspx",
@@ -96,19 +97,20 @@
     :nec 107,
     :cp7 "2200",
     :id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/70f1d641-abrantina.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
    :geocode
-   {:y 39.46220999092898,
-    :address "Tapada do Chafariz, Lt 7  2200 ABRANTES",
-    :postal-c "2200-443",
-    :obs "removed some bits of the address. easy to find.",
-    :overwrite true,
-    :c 4,
-    :id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
-    :score 95.15,
-    :address-c "Travessa do Chafariz 7, 2200-443, Abrantes, Santarém",
-    :x -8.200040016416466}}]
+   {:id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
+    :address
+    "Tapada do Chafariz, Rua Projectada à Av.25 de Abril,Lt 7 R/C Dtº 2200 ABRANTES",
+    :address-c "Avenida 25 de Abril 7, 2200-299, Abrantes, Santarém",
+    :postal-c "2200-299",
+    :x -8.20039663584211,
+    :y 39.459602627085495,
+    :score 93.16,
+    :c 1}}]
  ["rossioabrantes-00386"
   {:nec 386,
    :rates
@@ -199,6 +201,7 @@
    :imt-profile
    {:address "Rua General Godinho, Nº19 R/C 2205-055 ABRANTES",
     :name "Rossio-Abrantes",
+    :href-id #uuid "e9de7316-2773-37f6-900d-92c420232e5e",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RossioAbrantes870.aspx",
@@ -206,6 +209,8 @@
     :nec 386,
     :cp7 "2205-055",
     :id #uuid "1b318ac7-a406-3623-bbeb-36249e45d175",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/e9de7316-rossio-abrantes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
    :geocode
@@ -309,6 +314,7 @@
    {:address
     "Rua Cidade Parthenay, Bloco E r/c Loja 7 2200-238 ABRANTES",
     :name "Traquina",
+    :href-id #uuid "ff582301-0eb1-34b1-a7ed-5996bb4fab43",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Traquina1018.aspx",
@@ -316,6 +322,8 @@
     :nec 1120,
     :cp7 "2200-238",
     :id #uuid "a104c4aa-f646-35f2-a16f-5ff61a3eddf6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/ff582301-traquina.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
    :geocode
@@ -416,6 +424,7 @@
    {:address
     "Av. António Farinha Pereira - Edificio Mamade, R/C B ; 2200-024 Abrantes",
     :name "Cidade Florida",
+    :href-id #uuid "7989ee26-2029-3d71-894f-2dd2f929b4f8",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadeFlorida312.aspx",
@@ -423,12 +432,18 @@
     :nec 1161,
     :cp7 "2200-024",
     :id #uuid "fac00a1d-c056-35fc-a008-4e7016337f34",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/7989ee26-cidade-florida.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
    :geocode
-   {:cp7 "2200-024",
+   {:id #uuid "fac00a1d-c056-35fc-a008-4e7016337f34",
+    :address
+    "Av. António Farinha Pereira - Edificio Mamade, R/C B ; 2200-024 Abrantes",
+    :address-c
+    "Avenida António Farinha Pereira, 2200-024, Abrantes, Santarém",
     :postal-c "2200-024",
-    :x -8.18648999938111,
-    :y 39.47997501561417,
-    :score 100,
-    :c 1}}]]
+    :x -8.18669925107517,
+    :y 39.48233325063699,
+    :score 89.18,
+    :c 2}}]]

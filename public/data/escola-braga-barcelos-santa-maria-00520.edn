@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Alcaides de Faria, 425 - 1º-Sala 3 4750-106 BARCELOS",
   :name "Santa Maria",
+  :href-id #uuid "abedc985-777a-3864-a8a4-cc63d66258b9",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMaria928.aspx",
@@ -94,6 +95,8 @@
   :nec 520,
   :cp7 "4750-106",
   :id #uuid "0b1abd08-54f4-33a1-9670-9513a50551c5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/abedc985-santa-maria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode

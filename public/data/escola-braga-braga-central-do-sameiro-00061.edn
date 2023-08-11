@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de São Victor, n.º 33 – R/C São Victor 4710-249 BRAGA",
   :name "Central do Sameiro",
+  :href-id #uuid "6c697392-c8a2-3546-987b-7c4d151bd409",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CentraldoSameiro303.aspx",
@@ -94,12 +95,16 @@
   :nec 61,
   :cp7 "4710-249",
   :id #uuid "9ec0b1c7-6204-3539-a78a-edfa6deea158",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/6c697392-central-do-sameiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode
- {:cp7 "4710-249",
-  :postal-c "4710-249",
-  :x -8.421802459481086,
-  :y 41.549310000403466,
-  :score 100,
+ {:id #uuid "9ec0b1c7-6204-3539-a78a-edfa6deea158",
+  :address "Rua de São Victor, n.º 33 – R/C São Victor 4710-249 BRAGA",
+  :address-c "Rua de São Victor 33, 4710-439, Braga",
+  :postal-c "4710-439",
+  :x -8.41550999712922,
+  :y 41.5523100092785,
+  :score 92.09,
   :c 1}}

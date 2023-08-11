@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av Zeferino de Oliveira, n.º 26, 4560-494 Penafiel",
   :name "Croca",
+  :href-id #uuid "bc286cd4-6b58-3452-98a3-f1e5aa21a133",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SameirodePenafiel911.aspx",
@@ -94,6 +95,8 @@
   :nec 731,
   :cp7 "4560-494",
   :id #uuid "51e18e6d-8bb5-3770-ae01-3108f1ac1e15",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/bc286cd4-croca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
  :geocode

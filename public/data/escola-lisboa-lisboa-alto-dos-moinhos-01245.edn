@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua João de Freitas Branco,Nº 37-Loja A 1500-359 LISBOA",
   :name "Alto dos Moinhos",
+  :href-id #uuid "95fda4ca-e795-35d5-a2a2-8bbd3caaa1cd",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AltodosMoinhos097.aspx",
@@ -94,6 +95,8 @@
   :nec 1245,
   :cp7 "1500-359",
   :id #uuid "bb1c0cec-87e3-3153-b728-99bbcc4c95f3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/95fda4ca-alto-dos-moinhos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Santiago, Nº 1911 4505-525 LOBÃO",
   :name "De Lobão",
+  :href-id #uuid "0a71ef73-06f8-3f31-86f4-a3590e63c015",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeLobao373.aspx",
@@ -94,6 +95,8 @@
   :nec 744,
   :cp7 "4505-525",
   :id #uuid "8bd2b622-5425-32f4-b293-93634e88b827",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/0a71ef73-de-lobao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

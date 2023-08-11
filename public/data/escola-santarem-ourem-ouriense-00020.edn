@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praceta Prof. António de Oliveira Nº 4 2490-502 OURÉM",
   :name "Ouriense",
+  :href-id #uuid "812ca4a4-7a35-3d5f-a5ab-9ec1297e9f98",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ouriense757.aspx",
@@ -94,6 +95,8 @@
   :nec 20,
   :cp7 "2490-502",
   :id #uuid "694e8b90-f847-33c1-a144-14a596eb4424",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/812ca4a4-ouriense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
  :geocode

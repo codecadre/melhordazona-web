@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Dr.Carlos Galrão, Nº 5 2640-467 MAFRA",
     :name "Mafrense",
+    :href-id #uuid "34959d52-c8da-3ab3-b55c-cad18be614f4",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mafrense619.aspx",
@@ -95,6 +96,8 @@
     :nec 109,
     :cp7 "2640-467",
     :id #uuid "4edac723-4bc7-327b-a45b-6feb8e6734e4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/34959d52-mafrense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
    :geocode
@@ -105,6 +108,89 @@
     :x -9.330439991005903,
     :y 38.94029000259019,
     :score 98.38,
+    :c 3}}]
+ ["nova-mafra-00378"
+  {:nec 378,
+   :rates
+   [{:r/nec 378,
+     :r/level-0 "2015",
+     :r/d-scheduled 39,
+     :r/t-rate 0.85,
+     :r/total-rate 0.8136,
+     :r/d-done 39,
+     :r/total-scheduled 62,
+     :r/name-raw "Escola De Condução Nova Mafra",
+     :r/total-done 59,
+     :r/d-rate 0.7949,
+     :r/t-scheduled 23.0,
+     :r/k "nova-mafra-00378",
+     :r/total-passed 48.0,
+     :r/t-done 20.0}
+    {:r/nec 378,
+     :r/level-0 "2018",
+     :r/d-scheduled 0,
+     :r/t-rate 1.0,
+     :r/total-rate 1.0,
+     :r/d-done 0,
+     :r/total-scheduled 2,
+     :r/name-raw "ESCOLA DE CONDUÇÃO NOVA MAFRA",
+     :r/total-done 2,
+     :r/d-rate nil,
+     :r/t-scheduled 2.0,
+     :r/k "nova-mafra-00378",
+     :r/total-passed 2.0,
+     :r/t-done 2.0}
+    {:r/nec 378,
+     :r/level-0 "2019",
+     :r/d-scheduled 81,
+     :r/t-rate 0.7521,
+     :r/total-rate 0.7526,
+     :r/d-done 77,
+     :r/total-scheduled 204,
+     :r/name-raw "ESCOLA DE CONDUÇÃO NOVA MAFRA",
+     :r/total-done 194,
+     :r/d-rate 0.7532,
+     :r/t-scheduled 123.0,
+     :r/k "nova-mafra-00378",
+     :r/total-passed 146.0,
+     :r/t-done 117.0}
+    {:r/nec 378,
+     :r/level-0 "2020",
+     :r/d-scheduled 264,
+     :r/t-rate 0.7574,
+     :r/total-rate 0.7514,
+     :r/d-done 250,
+     :r/total-scheduled 613,
+     :r/name-raw "ESCOLA DE CONDUÇÃO NOVA MAFRA",
+     :r/total-done 555,
+     :r/d-rate 0.744,
+     :r/t-scheduled 349.0,
+     :r/k "nova-mafra-00378",
+     :r/total-passed 417.0,
+     :r/t-done 305.0}],
+   :imt-profile
+   {:address "Av. Drº Francisco Sá Carneiro, nº 12, 2640-486 Mafra",
+    :name "Nova Mafra",
+    :href-id #uuid "2b1278c1-16b6-32b5-ba9d-10690e064411",
+    :distrito "Lisboa",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Instrucoop560.aspx",
+    :concelho "Mafra",
+    :nec 378,
+    :cp7 "2640-486",
+    :id #uuid "b356acea-dff4-3f3c-b7c7-8ff2078f4e3c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/2b1278c1-nova-mafra.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+   :geocode
+   {:address "Av. Drº Francisco Sá Carneiro, nº 12, 2640-486 Mafra",
+    :address-c
+    "Avenida Francisco Sá Carneiro 12, 2640-486, Mafra, Lisboa",
+    :postal-c "2640-486",
+    :x -9.338048283087,
+    :y 38.942883513487,
+    :score 86.13,
     :c 3}}]
  ["automovel-capote-00440"
   {:nec 440,
@@ -196,6 +282,7 @@
    :imt-profile
    {:address "Rua Dr. José Sabino Louro 1 r/c Dtº 2665-240 MAFRA",
     :name "Automóvel Capote",
+    :href-id #uuid "d980c8cf-f5d2-3c63-ab6a-bf5159871d20",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomovelCapote194.aspx",
@@ -203,6 +290,8 @@
     :nec 440,
     :cp7 "2665-240",
     :id #uuid "ad1c101b-192e-3f0f-9162-a512b049d9ee",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/d980c8cf-automovel-capote.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
    :geocode
@@ -305,6 +394,7 @@
    :imt-profile
    {:address "Edifício Casa D' Alves - Barril 2640 -202 ENCARNAÇÃO",
     :name "Viazul",
+    :href-id #uuid "7381c21b-f77e-3fd6-8d4b-32e3502633b2",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Viazul1060.aspx",
@@ -312,6 +402,8 @@
     :nec 835,
     :cp7 "2640-202",
     :id #uuid "2eb18307-f01f-3628-a09d-90bab76e8fe9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/7381c21b-viazul.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
    :geocode
@@ -411,6 +503,7 @@
    :imt-profile
    {:address "Rua Prudêncio Franco da Trindade 9 B 2655-344 ERICEIRA",
     :name "Ericeirense",
+    :href-id #uuid "62c46bb0-972d-36c1-9936-b7857706a5ac",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ericeirense408.aspx",
@@ -418,6 +511,8 @@
     :nec 950,
     :cp7 "2655-344",
     :id #uuid "fa735fd1-91c3-301e-9ab8-4539da2056c4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/62c46bb0-ericeirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
    :geocode
@@ -429,6 +524,117 @@
     :x -9.41574002123238,
     :y 38.963920012565296,
     :score 99.99,
+    :c 1}}]
+ ["good-01052"
+  {:nec 1052,
+   :rates
+   [{:r/nec 1052,
+     :r/level-0 "2015",
+     :r/d-scheduled 94,
+     :r/t-rate 0.6282,
+     :r/total-rate 0.5906,
+     :r/d-done 93,
+     :r/total-scheduled 175,
+     :r/name-raw "Escola De Condução Good",
+     :r/total-done 171,
+     :r/d-rate 0.5591,
+     :r/t-scheduled 81.0,
+     :r/k "good-01052",
+     :r/total-passed 101.0,
+     :r/t-done 78.0}
+    {:r/nec 1052,
+     :r/level-0 "2016",
+     :r/d-scheduled 65,
+     :r/t-rate 0.5614,
+     :r/total-rate 0.575,
+     :r/d-done 63,
+     :r/total-scheduled 126,
+     :r/name-raw "Escola De Condução Good",
+     :r/total-done 120,
+     :r/d-rate 0.5873,
+     :r/t-scheduled 61.0,
+     :r/k "good-01052",
+     :r/total-passed 69.0,
+     :r/t-done 57.0}
+    {:r/nec 1052,
+     :r/level-0 "2017",
+     :r/d-scheduled 51,
+     :r/t-rate 0.6508,
+     :r/total-rate 0.6316,
+     :r/d-done 51,
+     :r/total-scheduled 117,
+     :r/name-raw "Escola De Condução Good",
+     :r/total-done 114,
+     :r/d-rate 0.6078,
+     :r/t-scheduled 66.0,
+     :r/k "good-01052",
+     :r/total-passed 72.0,
+     :r/t-done 63.0}
+    {:r/nec 1052,
+     :r/level-0 "2018",
+     :r/d-scheduled 72,
+     :r/t-rate 0.7143,
+     :r/total-rate 0.6875,
+     :r/d-done 72,
+     :r/total-scheduled 129,
+     :r/name-raw "Escola De Condução Good",
+     :r/total-done 128,
+     :r/d-rate 0.6667,
+     :r/t-scheduled 57.0,
+     :r/k "good-01052",
+     :r/total-passed 88.0,
+     :r/t-done 56.0}
+    {:r/nec 1052,
+     :r/level-0 "2019",
+     :r/d-scheduled 92,
+     :r/t-rate 0.6752,
+     :r/total-rate 0.7073,
+     :r/d-done 88,
+     :r/total-scheduled 213,
+     :r/name-raw "ESCOLA DE CONDUÇÃO GOOD",
+     :r/total-done 205,
+     :r/d-rate 0.75,
+     :r/t-scheduled 121.0,
+     :r/k "good-01052",
+     :r/total-passed 145.0,
+     :r/t-done 117.0}
+    {:r/nec 1052,
+     :r/level-0 "2020",
+     :r/d-scheduled 114,
+     :r/t-rate 0.6216,
+     :r/total-rate 0.6284,
+     :r/d-done 107,
+     :r/total-scheduled 233,
+     :r/name-raw "ESCOLA DE CONDUÇÃO GOOD",
+     :r/total-done 218,
+     :r/d-rate 0.6355,
+     :r/t-scheduled 119.0,
+     :r/k "good-01052",
+     :r/total-passed 137.0,
+     :r/t-done 111.0}],
+   :imt-profile
+   {:address "Av. 1º de Novembro, nº 38, 2665-378 Milharado",
+    :name "Good",
+    :href-id #uuid "9a942947-d8cc-362d-b515-dd80a3e6268e",
+    :distrito "Lisboa",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Good.aspx",
+    :concelho "Mafra",
+    :nec 1052,
+    :cp7 "2665-378",
+    :id #uuid "55c5d233-25da-3eea-84ac-f21247693a71",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/9a942947-good.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+   :geocode
+   {:address "Av. 1º de Novembro, nº 38, 2665-378 Milharado",
+    :address-c
+    "Avenida 1 de Novembro 38, 2665-378, Tituaria, Mafra, Lisboa",
+    :postal-c "2665-378",
+    :x -9.207957464476,
+    :y 38.948257212145,
+    :score 97.25,
     :c 1}}]
  ["convento-01249"
   {:nec 1249,
@@ -521,6 +727,7 @@
    {:address
     "Rua da Cruz Vermelha Portuguesa, Edificio Urbimafra, Bloco Norte - Loja B 2640-000 MAFRA",
     :name "Convento",
+    :href-id #uuid "acca4801-161a-31fa-9998-e907a5404b06",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Convento333.aspx",
@@ -528,6 +735,8 @@
     :nec 1249,
     :cp7 "2640-000",
     :id #uuid "78548318-5b04-3bc4-b35e-2ac3ca23286e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/acca4801-convento.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"}}]
  ["jupiter-01262"
@@ -621,6 +830,7 @@
    {:address
     "Rua Padre Alfredo Fernandes de Brito, Nº 9 F 2665-527 VENDA do PINHEIRO",
     :name "Júpiter",
+    :href-id #uuid "d0026887-f933-34ef-8ba9-a5145a9c6900",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Jupiter585.aspx",
@@ -628,6 +838,8 @@
     :nec 1262,
     :cp7 "2665-527",
     :id #uuid "d0997a67-1252-31e0-baa8-9dbafcd000fb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/d0026887-jupiter.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
    :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Conselheiro José Luciano de Castro 3860-358 ESTARREJA",
   :name "A Nova de Estarreja",
+  :href-id #uuid "3c5d61a2-93a8-371b-9e59-67eaa25c80de",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ANovadeEstarreja034.aspx",
@@ -94,6 +95,8 @@
   :nec 534,
   :cp7 "3860-358",
   :id #uuid "8c40325d-acfc-3c8a-8e0b-a75bf6799a3c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/estarreja/3c5d61a2-a-nova-de-estarreja.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
  :geocode

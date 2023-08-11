@@ -88,6 +88,7 @@
  {:address
   "Rua Fontes Pereira de Melo, Nº 24-A Damaia 2720 -233 AMADORA",
   :name "Damaia",
+  :href-id #uuid "5b80f9f7-87a8-33ba-ac37-c691a815110c",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Damaia364.aspx",
@@ -95,6 +96,8 @@
   :nec 540,
   :cp7 "2720-233",
   :id #uuid "ccc557e9-823d-3765-997a-78987091537e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/5b80f9f7-damaia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
  :geocode

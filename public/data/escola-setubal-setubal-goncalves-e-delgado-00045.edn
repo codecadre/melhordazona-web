@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 22 de Dezembro, 52 2900-667 SETÙBAL",
   :name "Gonçalves e Delgado",
+  :href-id #uuid "dbb9e842-4e76-3b00-ada2-32c368622313",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GoncalveseDelgado493.aspx",
@@ -94,6 +95,8 @@
   :nec 45,
   :cp7 "2900-667",
   :id #uuid "244f11ca-0571-34f7-b05a-ab1d58e0f9c8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/dbb9e842-goncalves-e-delgado.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua das Laranjeiras, Nº 14 R/C 4445-256 ALFENA",
   :name "S. Vicente de Alfena",
+  :href-id #uuid "b7fd78d1-af09-3bd4-8e92-1251c99df4c1",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SVicentedeAlfena901.aspx",
@@ -94,6 +95,8 @@
   :nec 1177,
   :cp7 "4445-256",
   :id #uuid "d42031fb-199b-3fa9-b750-13e76d16510a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/valongo/b7fd78d1-s-vicente-de-alfena.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
  :geocode

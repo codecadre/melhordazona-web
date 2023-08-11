@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Barbosa do Bocage, 23 A e B R/C 1000-070 LISBOA",
   :name "Automóvel Clube de Portugal",
+  :href-id #uuid "28e33efb-c12e-3473-bcdf-6f77b7e08662",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomovelClubedePortugal195.aspx",
@@ -94,6 +95,8 @@
   :nec 1,
   :cp7 "1000-070",
   :id #uuid "cda4577b-d85e-3091-92b9-c85fdb79623e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/28e33efb-automovel-clube-de-portugal.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

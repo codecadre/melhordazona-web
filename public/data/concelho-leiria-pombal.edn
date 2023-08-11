@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Dr. José dos Santos Alves, Nº 10-1º 3100-480 POMBAL",
     :name "Pombal",
+    :href-id #uuid "ee1c8c99-bab1-33ef-a197-cf709580bddf",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Pombal796.aspx",
@@ -95,15 +96,19 @@
     :nec 441,
     :cp7 "3100-480",
     :id #uuid "c2a08a86-5ce9-3569-aca5-28f7bde33582",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/ee1c8c99-pombal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
    :geocode
-   {:cp7 "3100-480",
+   {:id #uuid "c2a08a86-5ce9-3569-aca5-28f7bde33582",
+    :address "Rua Dr. José dos Santos Alves, Nº 10-1º 3100-480 POMBAL",
+    :address-c "Rua José Santos Alves 10, 3100-480, Pombal, Leiria",
     :postal-c "3100-480",
-    :x -8.62352502933868,
-    :y 39.91807999551207,
-    :score 100,
-    :c 1}}]
+    :x -8.623744467563796,
+    :y 39.91800288200287,
+    :score 87,
+    :c 7}}]
  ["triangular-00537"
   {:nec 537,
    :rates
@@ -194,6 +199,7 @@
    :imt-profile
    {:address "Avª Arquitecto Rosado Correia, Lote 3 3100-532 POMBAL",
     :name "Triangular",
+    :href-id #uuid "5d5f7618-3a03-3ca8-8c16-47dbe5445da5",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Triangular1019.aspx",
@@ -201,15 +207,20 @@
     :nec 537,
     :cp7 "3100-532",
     :id #uuid "c16a2497-02f2-349e-9386-4599e2b4a169",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/5d5f7618-triangular.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
    :geocode
-   {:cp7 "3100-532",
+   {:id #uuid "c16a2497-02f2-349e-9386-4599e2b4a169",
+    :address "Avª Arquitecto Rosado Correia, Lote 3 3100-532 POMBAL",
+    :address-c
+    "Rua Arquitecto Rosado Correia, 3100-532, Pombal, Leiria",
     :postal-c "3100-532",
-    :x -8.631650027181792,
-    :y 39.91456001527354,
-    :score 100,
-    :c 1}}]
+    :x -8.633189364635294,
+    :y 39.916356792294245,
+    :score 89.65,
+    :c 2}}]
  ["manuel-leal-00552"
   {:nec 552,
    :rates
@@ -230,6 +241,7 @@
    :imt-profile
    {:address "Avª Heróis do Ultramar nº 128 r/c 3100-462 POMBAL",
     :name "Manuel Leal",
+    :href-id #uuid "c670b2f4-a3f8-37a4-95d4-a2f4b0b445ed",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ManuelLeal623.aspx",
@@ -237,15 +249,20 @@
     :nec 552,
     :cp7 "3100-462",
     :id #uuid "06a03764-8cdd-3100-8182-ac6cc0251985",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/c670b2f4-manuel-leal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
    :geocode
-   {:cp7 "3100-462",
+   {:id #uuid "06a03764-8cdd-3100-8182-ac6cc0251985",
+    :address "Avª Heróis do Ultramar nº 128 r/c 3100-462 POMBAL",
+    :address-c
+    "Avenida Heróis do Ultramar 128, 3100-462, Pombal, Leiria",
     :postal-c "3100-462",
-    :x -8.620164975812742,
-    :y 39.91799999024627,
-    :score 100,
-    :c 1}}]
+    :x -8.617593743194647,
+    :y 39.91855298630827,
+    :score 88.71,
+    :c 2}}]
  ["guia-00782"
   {:nec 782,
    :rates
@@ -337,6 +354,7 @@
    {:address
     "Largo Engenheiro Guilherme Santos,nº 3 3100-863 GUIA PBL",
     :name "Da Guia",
+    :href-id #uuid "0530da15-2ba4-3d24-b96c-c3ec72dcc200",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaGuia356.aspx",
@@ -344,6 +362,8 @@
     :nec 782,
     :cp7 "3100-863",
     :id #uuid "069943c8-6e7e-3740-8300-a225f6795ac3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/0530da15-da-guia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
    :geocode
@@ -448,6 +468,7 @@
    {:address
     "Rua do Comércio, Nº 7 B, Frcção B 3105-253 MEIRINHAS PBL",
     :name "Meiriformação",
+    :href-id #uuid "8619528c-17b5-380f-89af-28e5dae87e9e",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Meiriformacao639.aspx",
@@ -455,14 +476,20 @@
     :nec 1059,
     :cp7 "3105-253",
     :id #uuid "c22eef16-e98b-30f8-bd3a-f43e6016f44b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/8619528c-meiriformacao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
    :geocode
-   {:cp7 "3105-253",
-    :postal-c "3105-253",
-    :x -8.707700040520962,
-    :y 39.84771500800164,
-    :score 100,
+   {:id #uuid "c22eef16-e98b-30f8-bd3a-f43e6016f44b",
+    :address
+    "Rua do Comércio, Nº 7 B, Frcção B 3105-253 MEIRINHAS PBL",
+    :address-c
+    "Rua do Comércio 7B, 3105-235, Meirinhas de Cima, Pombal, Leiria",
+    :postal-c "3105-235",
+    :x -8.710920032444847,
+    :y 39.84148000359605,
+    :score 93.22,
     :c 1}}]
  ["estrela-de-albergaria-dos-doze-01082"
   {:nec 1082,
@@ -554,6 +581,7 @@
    :imt-profile
    {:address "Rua Principal nº 289 r/c 3100-081 ALBERGARIA DOZE",
     :name "Estrela de Albergaria dos Doze",
+    :href-id #uuid "301cad48-7269-3737-b3c7-d071982c9e25",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladeAlbergariadosDoze423.aspx",
@@ -561,6 +589,8 @@
     :nec 1082,
     :cp7 "3100-081",
     :id #uuid "5f168052-0d5a-33d2-8130-664fc2de91ae",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/301cad48-estrela-de-albergaria-dos-doze.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
    :geocode
@@ -635,6 +665,7 @@
    :imt-profile
    {:address "Rua Albergaria dos Doze, n.ºs 55/57, 3010-456 POMBAL",
     :name "Clube do Condutor",
+    :href-id #uuid "a43fbc56-d640-39e7-b66a-a98c06f5e3d2",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ClubedoCondutor.aspx",
@@ -642,17 +673,19 @@
     :nec 1370,
     :cp7 "3010-456",
     :id #uuid "9b55aa64-3328-37cd-a13a-558ad85b496e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/a43fbc56-clube-do-condutor.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
    :geocode
    {:id #uuid "9b55aa64-3328-37cd-a13a-558ad85b496e",
-    :address "Rua Albergaria dos Doze, n 55, 3010-456 POMBAL",
+    :address "Rua Albergaria dos Doze, n.ºs 55/57, 3010-456 POMBAL",
     :address-c "Rua Albergaria dos Doze 55, 3100-456, Pombal, Leiria",
     :postal-c "3100-456",
     :x -8.629164792890265,
     :y 39.910315042319866,
-    :score 98.06,
-    :c 4}}]
+    :score 92.15,
+    :c 6}}]
  ["cardal-01394"
   {:nec 1394,
    :rates
@@ -702,6 +735,7 @@
    {:address
     "Rua Marechal António Spínola, edifício Intermarché, Várzea, 3100-389 POMBAL",
     :name "Cardal",
+    :href-id #uuid "7ea924a1-f775-3cbd-b208-ab5a3728a546",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cardal.aspx",
@@ -709,12 +743,18 @@
     :nec 1394,
     :cp7 "3100-389",
     :id #uuid "8a892bb2-7296-3ffb-9be9-3172cbacd2c8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/7ea924a1-cardal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
    :geocode
-   {:cp7 "3100-389",
+   {:id #uuid "8a892bb2-7296-3ffb-9be9-3172cbacd2c8",
+    :address
+    "Rua Marechal António Spínola, edifício Intermarché, Várzea, 3100-389 POMBAL",
+    :address-c
+    "Rua Marechal António Spinola, 3100-389, Pombal, Leiria",
     :postal-c "3100-389",
-    :x -8.630040031219863,
-    :y 39.91745998613419,
-    :score 100,
-    :c 1}}]]
+    :x -8.629869674374023,
+    :y 39.920908083518306,
+    :score 86.11,
+    :c 3}}]]

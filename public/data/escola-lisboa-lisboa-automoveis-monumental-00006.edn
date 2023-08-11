@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Manuel da Maia, 11 r/c 1000-198 LISBOA",
   :name "Automóveis Monumental",
+  :href-id #uuid "c9fcd4d3-98c3-3b8d-bfa5-57845602c5a5",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomoveisMonumental190.aspx",
@@ -94,6 +95,8 @@
   :nec 6,
   :cp7 "1000-198",
   :id #uuid "a4031653-1fd4-384e-923b-92ee7ebbe977",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/c9fcd4d3-automoveis-monumental.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

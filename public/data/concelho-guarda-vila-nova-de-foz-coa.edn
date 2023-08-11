@@ -89,6 +89,7 @@
    {:address
     "Avª Cidade Nova, Nº 14 R/C Esqº 5150-566 VILA NOVA FOZ CÔA",
     :name "Alternativa",
+    :href-id #uuid "f55c4ede-4934-309a-b705-26ea9495d9ff",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alternativa094.aspx",
@@ -96,6 +97,8 @@
     :nec 884,
     :cp7 "5150-566",
     :id #uuid "4ff4aa1f-3974-3af4-8a2f-b6fb88d31a9b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/vila-nova-de-foz-coa/f55c4ede-alternativa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Vila%20Nova%20Foz%20Coa"},
    :geocode

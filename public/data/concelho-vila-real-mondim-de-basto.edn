@@ -89,6 +89,7 @@
    {:address
     "Rua Comendador Alfredo Álvares de Carvalho (Lugar de Barrio), 4880-239 MONDIM DE BASTO",
     :name "A Nova Mondinense",
+    :href-id #uuid "fd4f9f0a-b3de-39f3-8e98-36e4fa066a08",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ANovaMondinense035.aspx",
@@ -96,12 +97,17 @@
     :nec 780,
     :cp7 "4880-239",
     :id #uuid "97d8c522-41f2-3d4e-b32f-4ec34786b72d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/mondim-de-basto/fd4f9f0a-a-nova-mondinense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mondim%20Basto"},
    :geocode
-   {:cp7 "4880-239",
-    :postal-c "4880-239",
-    :x -7.955597903558811,
-    :y 41.41191044888083,
-    :score 100,
-    :c 1}}]]
+   {:address
+    "Rua Comendador Alfredo Álvares de Carvalho (Lugar de Barrio), 4880-239 MONDIM DE BASTO",
+    :address-c
+    "Rua Comendador Alfredo Álvares Carvalho, 4880-191, Mondim de Basto, Vila Real",
+    :postal-c "4880-191",
+    :x -7.956844813692,
+    :y 41.411816692463,
+    :score 88.28,
+    :c 2}}]]

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praça da Liberdade, Piso 1, Loja M, 2800-648 ALMADA",
   :name "Nova Asseiceira",
+  :href-id #uuid "6570d1fa-e97a-39e1-9258-b1567d94c77e",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaAsseiceira701.aspx",
@@ -94,12 +95,16 @@
   :nec 1215,
   :cp7 "2800-648",
   :id #uuid "b00f102c-f507-33d9-be48-04f69ac705d5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/6570d1fa-nova-asseiceira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
  :geocode
- {:cp7 "2800-648",
+ {:id #uuid "b00f102c-f507-33d9-be48-04f69ac705d5",
+  :address "Praça da Liberdade, Piso 1, Loja M, 2800-648 ALMADA",
+  :address-c "Praça da Liberdade, 2800-648, Almada, Setúbal",
   :postal-c "2800-648",
-  :x -9.156920010762718,
-  :y 38.67841001072824,
-  :score 100,
-  :c 1}}
+  :x -9.156818495251866,
+  :y 38.67845135541402,
+  :score 91.03,
+  :c 9}}

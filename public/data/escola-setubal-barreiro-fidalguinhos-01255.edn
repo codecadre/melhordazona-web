@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da S.D.U.B. os Franceses, Nº 6-C 2835-801 LAVRADIO",
   :name "Fidalguinhos",
+  :href-id #uuid "d42d0a99-1a58-3299-a46f-fd8c3fb0ddeb",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fidalguinhos455.aspx",
@@ -94,6 +95,8 @@
   :nec 1255,
   :cp7 "2835-801",
   :id #uuid "d03d9622-e239-35ce-82d3-b1d618614b37",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/barreiro/d42d0a99-fidalguinhos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
  :geocode

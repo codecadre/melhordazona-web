@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª de Moscavide, Nº 99 -A 1885-066 MOSCAVIDE",
   :name "Portela",
+  :href-id #uuid "da645b57-22ee-373f-aedc-474f0acc78f6",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Portela802.aspx",
@@ -94,6 +95,8 @@
   :nec 1033,
   :cp7 "1885-066",
   :id #uuid "6749cf9c-0f3d-3ee7-a1fb-13159fb323ce",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/da645b57-portela.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode

@@ -46,6 +46,7 @@
  {:address
   "Av. Principal, n.º 1152 r/c, Quinta do Conde 1, 2975-246 Quinta do Conde",
   :name "Quinta do Conde",
+  :href-id #uuid "cb09a2cc-205a-3baf-8c90-89b251778898",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeCondu%c3%a7%c3%a3oQuintadoConde.aspx",
@@ -53,12 +54,18 @@
   :nec 1406,
   :cp7 "2975-246",
   :id #uuid "41482ca0-23e1-33cb-96b8-8e31b29eb787",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/cb09a2cc-quinta-do-conde.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
  :geocode
- {:cp7 "2975-246",
+ {:id #uuid "41482ca0-23e1-33cb-96b8-8e31b29eb787",
+  :address
+  "Av. Principal, n.º 1152 r/c, Quinta do Conde 1, 2975-246 Quinta do Conde",
+  :address-c
+  "Avenida Principal 1152, 2975-246, Quinta do Conde, Sesimbra, Setúbal",
   :postal-c "2975-246",
-  :x -9.042345010229553,
-  :y 38.57019000154463,
-  :score 100,
+  :x -9.042299999409494,
+  :y 38.57030998848859,
+  :score 93.55,
   :c 1}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "R. São Miguel 142 4585-457 REBORDOSA",
   :name "Via Pública",
+  :href-id #uuid "3b63b5d3-eb1b-3f4b-b37f-63e5e0f8c980",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeGranda371.aspx",
@@ -94,6 +95,8 @@
   :nec 808,
   :cp7 "4585-457",
   :id #uuid "6696f39b-6f48-39ab-b4a8-7b8a32754352",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/3b63b5d3-via-publica.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :geocode

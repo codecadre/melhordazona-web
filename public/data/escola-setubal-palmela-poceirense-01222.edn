@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª de Palmela, Nº 18-C 2965-301 POCEIRÃO",
   :name "Poceirense",
+  :href-id #uuid "06d868e9-40b0-3444-b307-a228ef080144",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Poceirense795.aspx",
@@ -94,12 +95,17 @@
   :nec 1222,
   :cp7 "2965-301",
   :id #uuid "0fdd25c2-4645-30ea-95aa-23f538f0582b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/palmela/06d868e9-poceirense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
  :geocode
- {:cp7 "2965-301",
-  :postal-c "2965-301",
-  :x -8.74207003449186,
-  :y 38.63380001328596,
-  :score 100,
-  :c 1}}
+ {:id #uuid "0fdd25c2-4645-30ea-95aa-23f538f0582b",
+  :address "Avª de Palmela, Nº 18-C 2965-301 POCEIRÃO",
+  :address-c
+  "Avenida de Palmela 18C, 2965-316, Poceirão, Palmela, Setúbal",
+  :postal-c "2965-316",
+  :x -8.742969999435815,
+  :y 38.633440010544575,
+  :score 88.83,
+  :c 7}}

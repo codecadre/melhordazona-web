@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Dr. Fernando Aroso 1242 4450-664 LEÇA da PALMEIRA",
   :name "Sentido Reversível",
+  :href-id #uuid "1892aa60-54b6-3af8-9264-87a03db1b210",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sentido%20Revers%c3%advel.aspx",
@@ -94,12 +95,17 @@
   :nec 1117,
   :cp7 "4450-664",
   :id #uuid "12c7a572-fa46-380f-b507-955eebacac8a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/1892aa60-sentido-reversivel.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode
- {:cp7 "4450-664",
+ {:id #uuid "12c7a572-fa46-380f-b507-955eebacac8a",
+  :address "Avª Dr. Fernando Aroso 1242 4450-664 LEÇA da PALMEIRA",
+  :address-c
+  "Avenida Doutor Fernando Aroso 1242, 4450-664, Amorosa, Matosinhos, Porto",
   :postal-c "4450-664",
-  :x -8.696224963616686,
-  :y 41.20020000319937,
-  :score 100,
-  :c 1}}
+  :x -8.696209960010009,
+  :y 41.200890001468764,
+  :score 94.11,
+  :c 3}}

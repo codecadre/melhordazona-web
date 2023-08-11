@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Padre Américo nº 12 loja 2625-391 FORTE DA CASA",
   :name "Coimbra do Forte",
+  :href-id #uuid "12152399-34c4-3711-b307-3fd6c4812aae",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CoimbradoForte324.aspx",
@@ -94,6 +95,8 @@
   :nec 881,
   :cp7 "2625-391",
   :id #uuid "65f0df38-1deb-3381-a40a-8156098c2431",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/vila-franca-de-xira/12152399-coimbra-do-forte.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
  :geocode

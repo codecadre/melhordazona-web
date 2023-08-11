@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Delfim de Lima, nº 1955 - 1º 4410-227 CANELAS",
   :name "Nova Gaia",
+  :href-id #uuid "da4e7c9f-84cf-32ee-a42e-117c233ac946",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaGaia712.aspx",
@@ -94,6 +95,8 @@
   :nec 532,
   :cp7 "4410-227",
   :id #uuid "a254045b-ea5e-3988-babc-dae62f720b3e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/da4e7c9f-nova-gaia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode

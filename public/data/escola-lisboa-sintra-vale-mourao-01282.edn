@@ -88,6 +88,7 @@
  {:address
   "Praceta Camilo Pessanha lote 44, loja B, 2635-475 Rio de Mouro",
   :name "Vale Mourão",
+  :href-id #uuid "d5a51cb7-0f1a-3867-b144-d724276fd7db",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ValeMour%c3%a3o.aspx",
@@ -95,6 +96,8 @@
   :nec 1282,
   :cp7 "2635-475",
   :id #uuid "c3692b12-b241-301d-a3e2-f7cdf733cec6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/d5a51cb7-vale-mourao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

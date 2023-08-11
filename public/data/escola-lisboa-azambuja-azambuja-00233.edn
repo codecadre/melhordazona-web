@@ -87,15 +87,18 @@
  :imt-profile
  {:address "Rua Engº Moniz da Maia, Nº 68 Loja 30 2050-356 AZAMBUJA",
   :name "Azambuja",
+  :href-id #uuid "636d3554-69f6-39d1-9031-4da642718d2b",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Azambuja207.aspx",
-  :concelho "Lisboa",
+  :concelho "Azambuja",
   :nec 233,
   :cp7 "2050-356",
   :id #uuid "4673afd0-c798-3089-9a6b-0dfe354b491c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/azambuja/636d3554-azambuja.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"},
  :geocode
  {:id #uuid "4673afd0-c798-3089-9a6b-0dfe354b491c",
   :address "Rua Engº Moniz da Maia, Nº 68 Loja 30 2050-356 AZAMBUJA",

@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Estrada Nacional 8- Lote 4 2510 -737 GAEIRAS",
     :name "Santa Maria de Óbidos",
+    :href-id #uuid "bc1a93d5-e8e8-34c1-872c-af94d0d0c0ed",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMariadeObidos930.aspx",
@@ -95,6 +96,8 @@
     :nec 487,
     :cp7 "2510-737",
     :id #uuid "db7bbd94-6ef6-3726-9768-41b7bd659e34",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/obidos/bc1a93d5-santa-maria-de-obidos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Rua Professor Roque Duarte, 13 B, 2510-554 ÓBIDOS",
     :name "Santo António",
+    :href-id #uuid "d851f236-9de1-3ad8-a91b-9dae7f83e278",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantoAntonio941.aspx",
@@ -203,6 +207,8 @@
     :nec 632,
     :cp7 "2510-554",
     :id #uuid "7e61d596-7155-3bb1-be16-2876f55c07ae",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/obidos/d851f236-santo-antonio.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
    :geocode
@@ -214,111 +220,4 @@
     :x -9.231690023667966,
     :y 39.32834999138879,
     :score 99.99,
-    :c 1}}]
- ["oeste-01064"
-  {:nec 1064,
-   :rates
-   [{:r/nec 1064,
-     :r/level-0 "2015",
-     :r/d-scheduled 174,
-     :r/t-rate 0.6013,
-     :r/total-rate 0.5982,
-     :r/d-done 173,
-     :r/total-scheduled 329,
-     :r/name-raw "Escola De Condução Oeste",
-     :r/total-done 326,
-     :r/d-rate 0.5954,
-     :r/t-scheduled 155.0,
-     :r/k "oeste-01064",
-     :r/total-passed 195.0,
-     :r/t-done 153.0}
-    {:r/nec 1064,
-     :r/level-0 "2016",
-     :r/d-scheduled 199,
-     :r/t-rate 0.6378,
-     :r/total-rate 0.6329,
-     :r/d-done 199,
-     :r/total-scheduled 399,
-     :r/name-raw "Escola De Condução Oeste",
-     :r/total-done 395,
-     :r/d-rate 0.6281,
-     :r/t-scheduled 200.0,
-     :r/k "oeste-01064",
-     :r/total-passed 250.0,
-     :r/t-done 196.0}
-    {:r/nec 1064,
-     :r/level-0 "2017",
-     :r/d-scheduled 172,
-     :r/t-rate 0.5931,
-     :r/total-rate 0.6146,
-     :r/d-done 169,
-     :r/total-scheduled 321,
-     :r/name-raw "Escola De Condução Oeste",
-     :r/total-done 314,
-     :r/d-rate 0.6331,
-     :r/t-scheduled 149.0,
-     :r/k "oeste-01064",
-     :r/total-passed 193.0,
-     :r/t-done 145.0}
-    {:r/nec 1064,
-     :r/level-0 "2018",
-     :r/d-scheduled 142,
-     :r/t-rate 0.5874,
-     :r/total-rate 0.607,
-     :r/d-done 142,
-     :r/total-scheduled 287,
-     :r/name-raw "Escola De Condução Oeste",
-     :r/total-done 285,
-     :r/d-rate 0.6268,
-     :r/t-scheduled 145.0,
-     :r/k "oeste-01064",
-     :r/total-passed 173.0,
-     :r/t-done 143.0}
-    {:r/nec 1064,
-     :r/level-0 "2019",
-     :r/d-scheduled 126,
-     :r/t-rate 0.6,
-     :r/total-rate 0.618,
-     :r/d-done 123,
-     :r/total-scheduled 238,
-     :r/name-raw "ESCOLA DE CONDUÇÃO OESTE",
-     :r/total-done 233,
-     :r/d-rate 0.6341,
-     :r/t-scheduled 112.0,
-     :r/k "oeste-01064",
-     :r/total-passed 144.0,
-     :r/t-done 110.0}
-    {:r/nec 1064,
-     :r/level-0 "2020",
-     :r/d-scheduled 75,
-     :r/t-rate 0.5747,
-     :r/total-rate 0.5926,
-     :r/d-done 75,
-     :r/total-scheduled 164,
-     :r/name-raw "ESCOLA DE CONDUÇÃO OESTE",
-     :r/total-done 162,
-     :r/d-rate 0.6133,
-     :r/t-scheduled 89.0,
-     :r/k "oeste-01064",
-     :r/total-passed 96.0,
-     :r/t-done 87.0}],
-   :imt-profile
-   {:address
-    "Estrada Nacional nº 8 – 22 c/v – Dagorda 2510-082 ÓBIDOS",
-    :name "Oeste",
-    :distrito "Leiria",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oeste740.aspx",
-    :concelho "Óbidos",
-    :nec 1064,
-    :cp7 "2510-082",
-    :id #uuid "fa81aea5-1189-3f8d-85c5-b9e4d276f6c5",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
-   :geocode
-   {:cp7 "2510-082",
-    :postal-c "2510-082",
-    :x -9.155493243204205,
-    :y 39.359680330082625,
-    :score 100,
     :c 1}}]]

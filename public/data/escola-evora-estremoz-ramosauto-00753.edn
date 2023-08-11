@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Sebastião da Gama s/nº 7100-100 ESTREMOZ",
   :name "Ramosauto",
+  :href-id #uuid "54265cd8-8a7a-31a3-bd26-7fc4d7dbecd7",
   :distrito "Évora",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ramosauto837.aspx",
@@ -94,6 +95,8 @@
   :nec 753,
   :cp7 "7100-100",
   :id #uuid "b8e44c5b-64e9-3d40-be65-fdc30afe99cc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/estremoz/54265cd8-ramosauto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
  :geocode

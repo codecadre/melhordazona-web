@@ -88,6 +88,7 @@
  {:address
   "Avª dos Combatentes da Grande Guerra, Nº 407 4620-131 CRISTELOS",
   :name "Santa Quitéria",
+  :href-id #uuid "00cddcb1-74af-3fc4-a504-0bbcbf8b067d",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaQuiteria934.aspx",
@@ -95,6 +96,8 @@
   :nec 719,
   :cp7 "4620-131",
   :id #uuid "b120e54a-66ec-378e-a253-f00c5886695a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/00cddcb1-santa-quiteria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
  :geocode

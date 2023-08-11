@@ -88,6 +88,7 @@
  {:address
   "Lugar da Costa - Rua Nuno Álvares, Nº 115 4585-588 RECAREI",
   :name "Recarei",
+  :href-id #uuid "a14d18c3-1e11-32c7-b05e-27a5450d4760",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Recarei839.aspx",
@@ -95,6 +96,8 @@
   :nec 972,
   :cp7 "4585-588",
   :id #uuid "b169d2c4-6408-3f9e-bd1c-586e18f36446",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/a14d18c3-recarei.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :geocode

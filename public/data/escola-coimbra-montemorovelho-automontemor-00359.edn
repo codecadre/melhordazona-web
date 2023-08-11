@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Estrada Nacional, nº 111 3140-261 MONTEMOR-O-VELHO",
   :name "Auto Montemor",
+  :href-id #uuid "dfce4308-281b-3d09-aa17-75e3f08eb299",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoMontemor167.aspx",
@@ -94,12 +95,16 @@
   :nec 359,
   :cp7 "3140-261",
   :id #uuid "e27666d5-760e-3404-b444-2bd6a2fb54b1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/montemor-o-velho/dfce4308-auto-montemor.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"},
  :geocode
- {:cp7 "3140-261",
-  :postal-c "3140-261",
-  :x -8.680549966488286,
-  :y 40.17678001903778,
-  :score 100,
-  :c 1}}
+ {:id #uuid "e27666d5-760e-3404-b444-2bd6a2fb54b1",
+  :address "Estrada Nacional, nº 111 3140-261 MONTEMOR-O-VELHO",
+  :address-c "Estrada Nacional, 3140, Montemor-o-Velho, Coimbra",
+  :postal-c "3140",
+  :x -8.674672221922702,
+  :y 40.14110933594557,
+  :score 94.22,
+  :c 9}}

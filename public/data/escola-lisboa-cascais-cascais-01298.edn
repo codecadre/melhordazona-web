@@ -88,6 +88,7 @@
  {:address
   "A.ª 25 de Abril, n.º 850, Loja B, Fracção GB, 2750-513 CASCAIS",
   :name "Cascais",
+  :href-id #uuid "c814b904-1e93-38ed-8305-d3e954de594f",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cascais.aspx",
@@ -95,6 +96,8 @@
   :nec 1298,
   :cp7 "2750-513",
   :id #uuid "7629b41c-bbf6-3d0b-bf9a-e4f90e3a840e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/c814b904-cascais.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode

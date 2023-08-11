@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Comércio 3130-080 GRANJA DO ULMEIRO",
   :name "Granja do Ulmeiro",
+  :href-id #uuid "488d8aa3-6eb1-3aa6-9d49-d65443ee11bd",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GranjadoUlmeiro497.aspx",
@@ -94,6 +95,8 @@
   :nec 969,
   :cp7 "3130-080",
   :id #uuid "171bf96e-123a-35bb-bb87-6d39bf190fe1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/soure/488d8aa3-granja-do-ulmeiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
  :geocode

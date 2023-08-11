@@ -88,6 +88,7 @@
  {:address
   "Largo Caras Direitas nº 51 – Bloco H 3080-254 FIGUEIRA DA FOZ",
   :name "Praia da Claridade",
+  :href-id #uuid "00ff8f85-dbeb-37db-b730-36403bd2107b",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PraiadaClaridade808.aspx",
@@ -95,6 +96,8 @@
   :nec 1100,
   :cp7 "3080-254",
   :id #uuid "31ab2f30-a24d-3e32-9500-a603b7af4b44",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/00ff8f85-praia-da-claridade.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
  :geocode

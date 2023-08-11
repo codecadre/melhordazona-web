@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo Engenheiro Guilherme Santos,nº 3 3100-863 GUIA PBL",
   :name "Da Guia",
+  :href-id #uuid "0530da15-2ba4-3d24-b96c-c3ec72dcc200",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaGuia356.aspx",
@@ -94,6 +95,8 @@
   :nec 782,
   :cp7 "3100-863",
   :id #uuid "069943c8-6e7e-3740-8300-a225f6795ac3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/0530da15-da-guia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
  :geocode

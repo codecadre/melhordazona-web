@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Cidade de Lisboa, Bloco C - 1.º Esq. 2685 Camarate",
   :name "Rio Minho",
+  :href-id #uuid "f0244ce6-c0e8-3db3-8e23-30902ffa87a1",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RioMinho857.aspx",
@@ -94,5 +95,17 @@
   :nec 454,
   :cp7 "2685",
   :id #uuid "9deb3796-8cf6-3446-b257-63bb792eab20",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/f0244ce6-rio-minho.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+ :geocode
+ {:id #uuid "9deb3796-8cf6-3446-b257-63bb792eab20",
+  :address "Rua Cidade de Lisboa, Bloco C - 1.º Esq. 2685 Camarate",
+  :address-c
+  "Rua Cidade de Lisboa 1, 2680, Bairro de São Francisco, Loures, Lisboa",
+  :postal-c "2680",
+  :x -9.14128820592336,
+  :y 38.787581784572275,
+  :score 89.1,
+  :c 4}}

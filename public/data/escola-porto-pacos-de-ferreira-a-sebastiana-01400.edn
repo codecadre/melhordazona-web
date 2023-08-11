@@ -57,24 +57,26 @@
    :r/total-passed 100.0,
    :r/t-done 67.0}],
  :imt-profile
- {:address "Praceta do leigal, n.º 128 freguesia de Freamunde",
+ {:address "Praceta do leigal, n.º 128 4590-384 Freamunde",
   :name "A Sebastiana",
+  :href-id #uuid "54622ac3-a07c-3863-a581-a372ed8f7235",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ASebastiana.aspx",
-  :concelho "Póvoa de Varzim",
+  :concelho "Paços de Ferreira",
   :nec 1400,
-  :cp7 nil,
-  :id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
+  :cp7 "4590-384",
+  :id #uuid "88aec4cc-1c09-3132-99fb-de6d13f1ba31",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/54622ac3-a-sebastiana.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode
- {:id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
-  :address "Praceta do leigal, n.º 128 freguesia de Freamunde",
+ {:address "Praceta do leigal, n.º 128 4590-384 Freamunde",
   :address-c
   "Praceta de Leigal 128, 4590-384, Freamunde, Paços de Ferreira, Porto",
   :postal-c "4590-384",
-  :x -8.33390999042146,
-  :y 41.285260017628445,
-  :score 92.37,
+  :x -8.333909990421,
+  :y 41.285260017628,
+  :score 94.47,
   :c 3}}

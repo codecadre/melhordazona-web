@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Costa Cabral, 279-1º 4200-222 PORTO",
   :name "Costa Cabral",
+  :href-id #uuid "16bd1fcc-ea9d-3688-a5df-8a9c7a6c81d3",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostaCabral340.aspx",
@@ -94,6 +95,8 @@
   :nec 371,
   :cp7 "4200-222",
   :id #uuid "b766ff8a-b51d-3d8c-aaa2-02c67c47d2e9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/16bd1fcc-costa-cabral.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

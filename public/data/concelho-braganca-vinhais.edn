@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua de S. Francisco nº 9 5320-321 VINHAIS",
     :name "A Coroa de Vinhais",
+    :href-id #uuid "fb889365-a7a7-37c5-9161-871061afa1c5",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ACoroadeVinhais008.aspx",
@@ -95,8 +96,12 @@
     :nec 352,
     :cp7 "5320-321",
     :id #uuid "bc73b936-c837-361f-b6d6-f581d2501049",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/vinhais/fb889365-a-coroa-de-vinhais.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vinhais"},
+   :obs "pointing to archived imt-profiles",
+   :overwrite/notes nil,
    :geocode
    {:id #uuid "bc73b936-c837-361f-b6d6-f581d2501049",
     :address "Rua de S. Francisco nº 9 5320-321 VINHAIS",

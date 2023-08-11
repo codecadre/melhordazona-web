@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar de Mereces 4755-065 BARCELINHOS",
   :name "Stº André de Barcelinhos",
+  :href-id #uuid "5087c2a5-a53a-373d-9089-7b677f80a845",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/StAndredeBarcelinhos989.aspx",
@@ -94,12 +95,17 @@
   :nec 608,
   :cp7 "4755-065",
   :id #uuid "fcd97a73-8568-3517-b4ee-5846ebc067e2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/5087c2a5-sto-andre-de-barcelinhos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode
- {:cp7 "4755-065",
-  :postal-c "4755-065",
-  :x -8.633349960964807,
-  :y 41.51850998472352,
-  :score 100,
-  :c 1}}
+ {:id #uuid "fcd97a73-8568-3517-b4ee-5846ebc067e2",
+  :address "Lugar de Mereces 4755-065 BARCELINHOS",
+  :address-c
+  "Travessa de Mereces, 4755-050, Barcelinhos, Barcelos, Braga",
+  :postal-c "4755-050",
+  :x -8.627639056553454,
+  :y 41.52233358396027,
+  :score 87.12,
+  :c 13}}

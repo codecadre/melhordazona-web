@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua do Ramalhal, nº20 6160-418 OLEIROS",
     :name "Oleirense",
+    :href-id #uuid "f767cfe8-8f16-3ba5-b77f-478d06a0ad12",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oleirense742.aspx",
@@ -95,6 +96,8 @@
     :nec 591,
     :cp7 "6160-418",
     :id #uuid "89df91ba-b8af-3589-8dd5-738de3ab1232",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/oleiros/f767cfe8-oleirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Oleiros"},
    :geocode

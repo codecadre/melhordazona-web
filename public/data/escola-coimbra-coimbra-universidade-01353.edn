@@ -74,6 +74,7 @@
  {:address
   "Rua Dr. Mendes dos Remédios, n.º 168, r/c Dtº 3040-262 Coimbra",
   :name "Universidade",
+  :href-id #uuid "f42dc297-d6a8-3f49-b813-6524230d43a1",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Universidade.aspx",
@@ -81,6 +82,8 @@
   :nec 1353,
   :cp7 "3040-262",
   :id #uuid "0eefdbd7-26d2-3f7b-95a0-8b65518d0e3d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/coimbra/f42dc297-universidade.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
  :geocode

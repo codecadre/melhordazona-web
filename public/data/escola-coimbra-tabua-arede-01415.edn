@@ -44,21 +44,26 @@
    :r/t-done 33.0}],
  :imt-profile
  {:address
-  "Loteamento dos Quintais da Vila, lote 6 r/c, 6370-103 Fornos de Algodres",
+  "Edifício Milénio, Rua da Indústria/Avenida de Coimbra, n.º 3, 3420-314 Tábua",
   :name "Arede",
-  :distrito "Guarda",
+  :href-id #uuid "e21a9cab-c572-38ed-8013-3673ba522cd0",
+  :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arede.aspx",
-  :concelho "Fornos de Algodres",
+  :concelho "Tábua",
   :nec 1415,
-  :cp7 "6370-103",
-  :id #uuid "ecaa395e-87d2-3a69-95af-09a6e51231b6",
+  :cp7 "3420-314",
+  :id #uuid "9cff1b95-2cb5-3d32-90c5-82e1672ad19f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/tabua/e21a9cab-arede.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Fornos%20de%20Algodres"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
  :geocode
- {:cp7 "6370-103",
-  :postal-c "6370-103",
-  :x -7.540605015838793,
-  :y 40.62143998249502,
-  :score 100,
-  :c 1}}
+ {:address
+  "Edifício Milénio, Rua da Indústria/Avenida de Coimbra, n.º 3, 3420-314 Tábua",
+  :address-c "Avenida de Coimbra 3, 3420-341, Tábua, Coimbra",
+  :postal-c "3420-341",
+  :x -8.021440016116,
+  :y 40.362950009463,
+  :score 89.08,
+  :c 3}}

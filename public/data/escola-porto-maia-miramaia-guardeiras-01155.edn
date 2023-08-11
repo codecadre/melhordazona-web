@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Engº Frederico Ulrich, Nº 3659-2. 1 4470-650 MOREIRA",
   :name "Mira Maia Guardeiras",
+  :href-id #uuid "fba81024-d415-3210-bf44-d7a7b6db5474",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MiraMaiaGuardeiras.aspx",
@@ -94,6 +95,8 @@
   :nec 1155,
   :cp7 "4470-650",
   :id #uuid "007d9252-7716-3569-adc1-df271b6856eb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/fba81024-mira-maia-guardeiras.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode

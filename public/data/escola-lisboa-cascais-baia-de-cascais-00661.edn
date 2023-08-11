@@ -88,6 +88,7 @@
  {:address
   "Avª Nossa Senhora do Rosário, Nº 603-1ºL- Edificio Biarritz 2750-179 CASCAIS",
   :name "Baía de Cascais",
+  :href-id #uuid "5f73530f-117f-3b24-aef5-082431730039",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BaiadeCascais212.aspx",
@@ -95,6 +96,8 @@
   :nec 661,
   :cp7 "2750-179",
   :id #uuid "7ede2747-dfec-3d60-b76c-13df7f325c3d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/5f73530f-baia-de-cascais.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode

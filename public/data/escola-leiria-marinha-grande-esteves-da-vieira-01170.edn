@@ -88,6 +88,7 @@
  {:address
   "Campo de Futebol Albano Tomé Feteira -Rua de Leiria, S/N 2430-593 VIEIRA DE LEIRIA",
   :name "Esteves da Vieira",
+  :href-id #uuid "c6e8561a-c5fc-3067-9db9-5c22c1f8b09b",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstevesdaVieira416.aspx",
@@ -95,6 +96,8 @@
   :nec 1170,
   :cp7 "2430-593",
   :id #uuid "4c1582b5-b0d2-3a38-9a3d-ef0cf5929a92",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/marinha-grande/c6e8561a-esteves-da-vieira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
  :geocode

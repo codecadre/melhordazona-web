@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. Paulo Quintela nº 23 3030-393 COIMBRA",
   :name "Santa Clara",
+  :href-id #uuid "a894007d-3b65-3f15-9a12-e94965dcbd57",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaClara918.aspx",
@@ -94,12 +95,16 @@
   :nec 69,
   :cp7 "3030-393",
   :id #uuid "c471eaa2-f44e-3fc0-ac06-22dda51b93c1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/coimbra/a894007d-santa-clara.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
  :geocode
- {:cp7 "3030-393",
+ {:id #uuid "c471eaa2-f44e-3fc0-ac06-22dda51b93c1",
+  :address "Rua Dr. Paulo Quintela nº 23 3030-393 COIMBRA",
+  :address-c "Rua Paulo Quintela 23, 3030-393, Coimbra",
   :postal-c "3030-393",
-  :x -8.408195026408976,
-  :y 40.19602499445716,
-  :score 100,
-  :c 1}}
+  :x -8.403369983846034,
+  :y 40.19689000686486,
+  :score 88.04,
+  :c 2}}

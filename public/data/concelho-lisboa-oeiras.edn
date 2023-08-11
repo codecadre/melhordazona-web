@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Damião de Góis, Nº 28 C/V Esqº /Dtº 1495-043 ALGÉS",
     :name "Algés",
+    :href-id #uuid "36c65943-d33a-30bd-9b48-c33131f46e05",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alges082.aspx",
@@ -95,6 +96,8 @@
     :nec 149,
     :cp7 "1495-043",
     :id #uuid "8320f8fc-2140-310e-981d-ae4e3310d0ff",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/36c65943-alges.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Alameda Conde de Oeiras, 95 2780-139 OEIRAS",
     :name "Armando Victor",
+    :href-id #uuid "5ca7f60c-7249-384c-a6bf-8860d302901b",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ArmandoVictor124.aspx",
@@ -204,6 +208,8 @@
     :nec 215,
     :cp7 "2780-139",
     :id #uuid "61200dcc-d845-3b0d-8dc4-189ad6b5f865",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/5ca7f60c-armando-victor.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
@@ -305,6 +311,7 @@
    :imt-profile
    {:address "Avª Pedro Álvares Cabral, 33 A 2780-352 OEIRAS",
     :name "Cecaco",
+    :href-id #uuid "75a198a0-918f-37b6-a032-c1e47be6e387",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cecaco298.aspx",
@@ -312,6 +319,8 @@
     :nec 402,
     :cp7 "2780-352",
     :id #uuid "103e1562-6725-335b-94ce-56d13f251f44",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/75a198a0-cecaco.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
@@ -414,6 +423,7 @@
    :imt-profile
    {:address "Avª Carolina Michaelis, nº 12 cave 2780 OEIRAS",
     :name "Linda-A-Velha",
+    :href-id #uuid "ab535a55-344b-33bd-986a-3e543907593f",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LindaAVelha599.aspx",
@@ -421,6 +431,8 @@
     :nec 492,
     :cp7 "2780",
     :id #uuid "20a0bb83-15dc-3c6c-a223-4e70480c1800",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/ab535a55-linda-a-velha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
@@ -523,6 +535,7 @@
    :imt-profile
    {:address "Rua José Moreira Rato, Nº 6-A 2780-634 PAÇO DE ARCOS",
     :name "Paço D’ Arcos",
+    :href-id #uuid "68a05863-1890-3008-8fca-3259b9ee161d",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PacoD%e2%80%99Arcos763.aspx",
@@ -530,6 +543,8 @@
     :nec 585,
     :cp7 "2780-634",
     :id #uuid "594079db-16c1-3425-9788-ad7662563aa2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/68a05863-paco-d-arcos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
@@ -633,6 +648,7 @@
    {:address
     "Rua General Ferreira Martins, n.º 30 - R/C Loja, 1495-137 Algés",
     :name "Miraflores",
+    :href-id #uuid "994bda9e-94d1-313a-a9f4-0e62449c8cf6",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Miraflores.aspx",
@@ -640,14 +656,20 @@
     :nec 1131,
     :cp7 "1495-137",
     :id #uuid "dfc5323d-ea80-3dda-a9b3-f87b2595d3e9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/994bda9e-miraflores.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
-   {:cp7 "1495-137",
+   {:id #uuid "dfc5323d-ea80-3dda-a9b3-f87b2595d3e9",
+    :address
+    "Rua General Ferreira Martins, n.º 30 - R/C Loja, 1495-137 Algés",
+    :address-c
+    "Rua General Ferreira Martíns 30, 1495-137, Algés, Oeiras, Lisboa",
     :postal-c "1495-137",
-    :x -9.224355020199141,
-    :y 38.7075299996452,
-    :score 100,
+    :x -9.224141621482731,
+    :y 38.70753424396599,
+    :score 94.83,
     :c 1}}]
  ["auto-carnaxide-01149"
   {:nec 1149,
@@ -739,6 +761,7 @@
    :imt-profile
    {:address "Rua Tenente Zeferino Teixeira, Nº 9, 2790-085 CARNAXIDE",
     :name "Auto Carnaxide",
+    :href-id #uuid "afc7628c-53ed-3ebb-96e9-44e1144c5e2e",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoCarnaxide146.aspx",
@@ -746,14 +769,18 @@
     :nec 1149,
     :cp7 "2790-085",
     :id #uuid "69246c3b-21d6-398e-abd2-4d97eb228055",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/afc7628c-auto-carnaxide.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
-   {:cp7 "2790-085",
-    :postal-c "2790-085",
-    :x -9.237065002898248,
-    :y 38.72702500723631,
-    :score 100,
+   {:address "Rua Tenente Zeferino Teixeira, Nº 9, 2790-085 CARNAXIDE",
+    :address-c
+    "Rua Tenente General Zeferino Sequeira 9, 2790-156, Carnaxide, Oeiras, Lisboa",
+    :postal-c "2790-156",
+    :x -9.236699971015,
+    :y 38.727140006948,
+    :score 91.16,
     :c 1}}]
  ["vila-de-oeiras-01180"
   {:nec 1180,
@@ -845,6 +872,7 @@
    :imt-profile
    {:address "Rua Carlos Vieira Ramos,Nº 42 B/C 2780-001 OEIRAS",
     :name "Vila de Oeiras",
+    :href-id #uuid "d77a7756-c4d1-39e9-9482-cc5373442d3f",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViladeOeiras1065.aspx",
@@ -852,6 +880,8 @@
     :nec 1180,
     :cp7 "2780-001",
     :id #uuid "15eeff58-4825-357d-8806-f32075f68930",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/d77a7756-vila-de-oeiras.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
@@ -954,6 +984,7 @@
    {:address
     "Rua Marcelino Mesquita, Nº 11, Loja 1-A 2795-134 LINDA-A-VELHA",
     :name "Nova Geração",
+    :href-id #uuid "591f38b6-3cb9-3016-9e53-2eb959d033e6",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaGeracao713.aspx",
@@ -961,6 +992,8 @@
     :nec 1240,
     :cp7 "2795-134",
     :id #uuid "7fc2ddda-4172-3100-81ce-e16d95763083",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/591f38b6-nova-geracao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
@@ -1064,6 +1097,7 @@
    :imt-profile
    {:address "Rua Gil Vicente, Nº 16 2790-351 QUEIJAS",
     :name "Queijas",
+    :href-id #uuid "96b7e27f-7f32-305a-a0bb-8d94bde65a17",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Queijas829.aspx",
@@ -1071,6 +1105,8 @@
     :nec 1243,
     :cp7 "2790-351",
     :id #uuid "55193869-b2d2-3c30-9d0f-8855b29d6aa2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/96b7e27f-queijas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
@@ -1172,6 +1208,7 @@
    :imt-profile
    {:address "Rua de Macau, n.º 1 e n.º 4, 2730-117 BARCARENA",
     :name "Profissional",
+    :href-id #uuid "01212594-153f-3dee-9748-d1ab4850d687",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Profissional.aspx",
@@ -1179,15 +1216,18 @@
     :nec 1284,
     :cp7 "2730-117",
     :id #uuid "54e4629c-6a72-390d-8b97-967e5a1d61b8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/01212594-profissional.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode
-   {:cp7 "2730-117",
+   {:address "Rua de Macau, n.º 1 e n.º 4, 2730-117 BARCARENA",
+    :address-c "Rua de Macau 1, 2730-117, Tercena, Oeiras, Lisboa",
     :postal-c "2730-117",
-    :x -9.281769967303518,
-    :y 38.750484990305495,
-    :score 100,
-    :c 1}}]
+    :x -9.281950010584,
+    :y 38.750260020024,
+    :score 90.96,
+    :c 3}}]
  ["porto-salvo-01286"
   {:nec 1286,
    :rates
@@ -1264,6 +1304,7 @@
    :imt-profile
    {:address "Rua Conde de Rio Maior, n.º 15.3, 2784-501 OEIRAS",
     :name "Porto Salvo",
+    :href-id #uuid "8a55dbb4-1bff-3851-83d1-f5d3e2d96173",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PortoSalvo.aspx",
@@ -1271,8 +1312,19 @@
     :nec 1286,
     :cp7 "2784-501",
     :id #uuid "c8946fe1-1fcc-3723-8d06-4ee4454bdbfb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/8a55dbb4-porto-salvo.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
+   :geocode
+   {:address "Rua Conde de Rio Maior, n.º 15.3, 2784-501 OEIRAS",
+    :address-c
+    "Rua Conde de Rio Maior 15, 2740-039, Porto Salvo, Oeiras, Lisboa",
+    :postal-c "2740-039",
+    :x -9.302430017526,
+    :y 38.717199991791,
+    :score 86.9,
+    :c 5}}]
  ["dos-lombos-01414"
   {:nec 1414,
    :rates
@@ -1322,6 +1374,7 @@
    {:address
     "Rua Ernesto veiga de Oliveira, n.º 6 Loja B, 2780-052 Oeiras",
     :name "Lombos",
+    :href-id #uuid "722f2195-e802-3719-bd3b-beec7f4ece3a",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lombos.aspx",
@@ -1329,6 +1382,8 @@
     :nec 1414,
     :cp7 "2780-052",
     :id #uuid "5091f35e-7136-3574-b2e6-4e70d936bb34",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/722f2195-lombos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
    :geocode

@@ -89,6 +89,7 @@
    {:address
     "Rua do Balcão nº 92 – 94 5040-319 MESÃO FRIO (SANTA CRISTINA)",
     :name "Mesãofriense",
+    :href-id #uuid "30ed8f88-ce01-3872-8875-5440530c3f99",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mesaofriense644.aspx",
@@ -96,6 +97,8 @@
     :nec 785,
     :cp7 "5040-319",
     :id #uuid "fe454a5c-1ee9-377b-b277-a05438c4f9cb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/mesao-frio/30ed8f88-mesaofriense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mes%C3%A3o%20Frio"},
    :geocode

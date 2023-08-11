@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª António Sérgio, 709 4730-711 VILA VERDE",
   :name "Bela Vista",
+  :href-id #uuid "4cc7aeac-359d-384c-a44f-70a37e1a4553",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BelaVista237.aspx",
@@ -94,6 +95,8 @@
   :nec 519,
   :cp7 "4730-711",
   :id #uuid "4cfbc6d2-42d5-38d1-8483-fbe6534d83ad",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/4cc7aeac-bela-vista.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
  :geocode

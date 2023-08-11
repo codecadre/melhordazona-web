@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Comércio, nº 18 a 24 2100-330 COUÇO",
   :name "Sorraia",
+  :href-id #uuid "3b87fbba-a1d7-3771-b1cc-58a8bea09d14",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sorraia982.aspx",
@@ -94,6 +95,8 @@
   :nec 641,
   :cp7 "2100-330",
   :id #uuid "45d544f2-dcef-33e9-a41f-48e3eb68bcef",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/coruche/3b87fbba-sorraia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Coruche"},
  :geocode

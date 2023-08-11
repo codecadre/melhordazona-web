@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar do Corgo-Edificio Santiago 4620-294 LUSTOSA",
   :name "A Moderna de Lustosa",
+  :href-id #uuid "ad9945bd-bc1d-3e60-a58e-395cb0c5a725",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AModernadeLustosa028.aspx",
@@ -94,6 +95,8 @@
   :nec 896,
   :cp7 "4620-294",
   :id #uuid "67819a40-bf6d-31fe-b862-39748a0c9380",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/ad9945bd-a-moderna-de-lustosa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
  :geocode

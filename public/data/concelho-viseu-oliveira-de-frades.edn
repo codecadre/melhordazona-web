@@ -89,6 +89,7 @@
    {:address
     "Rua Dr. António José de Almeida 3680-094 OLIVEIRA DE FRADES",
     :name "Olifradense",
+    :href-id #uuid "c964d6df-71d3-397b-a31a-a78d079decc7",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Olifradense744.aspx",
@@ -96,14 +97,20 @@
     :nec 341,
     :cp7 "3680-094",
     :id #uuid "0580b6c6-074e-35ad-bb68-06dd9634ff73",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/oliveira-de-frades/c964d6df-olifradense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Oliveira%20de%20Frades"},
    :geocode
-   {:cp7 "3680-094",
-    :postal-c "3680-094",
-    :x -8.1705900319715,
-    :y 40.73249500278965,
-    :score 100,
+   {:id #uuid "0580b6c6-074e-35ad-bb68-06dd9634ff73",
+    :address
+    "Rua Dr. António José de Almeida 3680-094 OLIVEIRA DE FRADES",
+    :address-c
+    "Avenida Doutor António José de Almeida, 3680-112, Oliveira de Frades, Viseu",
+    :postal-c "3680-112",
+    :x -8.174961401772972,
+    :y 40.733061656707584,
+    :score 94.64,
     :c 1}}]
  ["rodovia-01165"
   {:nec 1165,
@@ -196,6 +203,7 @@
    {:address
     "Edificio Tojal - R. N. Senhora dos Milagres, 26 Ala B, Loja F 3680-077 OLIVEIRA de FRADES",
     :name "Rodovia",
+    :href-id #uuid "f9324070-712e-37bb-92b3-851d63d315b0",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rodovia864.aspx",
@@ -203,6 +211,8 @@
     :nec 1165,
     :cp7 "3680-077",
     :id #uuid "b13acc44-3e41-3098-9794-c69b9d22d3a4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/oliveira-de-frades/f9324070-rodovia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Oliveira%20de%20Frades"},
    :geocode

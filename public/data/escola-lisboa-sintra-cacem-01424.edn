@@ -45,6 +45,7 @@
  :imt-profile
  {:address "Rua Marquês de Pombal, n.º 116-A, 2710-091 Sintra",
   :name "Cacém",
+  :href-id #uuid "d095d926-8035-31c6-bf0b-84065b3f12bb",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cac%c3%a9m.aspx",
@@ -52,12 +53,17 @@
   :nec 1424,
   :cp7 "2710-091",
   :id #uuid "fba50ccd-e318-3586-bfff-179921327f9c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/d095d926-cacem.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode
- {:cp7 "2710-091",
-  :postal-c "2710-091",
-  :x -9.385674972732403,
-  :y 38.81814999916506,
-  :score 100,
-  :c 1}}
+ {:id #uuid "fba50ccd-e318-3586-bfff-179921327f9c",
+  :address "Rua Marquês de Pombal, n.º 116-A, 2710-091 Sintra",
+  :address-c
+  "Rua Marquês de Pombal, 2710-180, Manique de Cima, Sintra, Lisboa",
+  :postal-c "2710-180",
+  :x -9.357784902377873,
+  :y 38.75361502345355,
+  :score 92.84,
+  :c 7}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua 14 de Outubro, 524 4430-047 MAFAMUDE",
   :name "Gaiense",
+  :href-id #uuid "be6f5cdf-d72a-3599-8e1b-020a27cf753d",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Gaiense479.aspx",
@@ -94,6 +95,8 @@
   :nec 406,
   :cp7 "4430-047",
   :id #uuid "1e3a61ba-a2d4-3a26-bc15-59cd34b5b975",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/be6f5cdf-gaiense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode

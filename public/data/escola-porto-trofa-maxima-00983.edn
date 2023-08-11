@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. António Augusto Pires de Lima, Nº 327 4785-313 S. MARTINHO (BOUGADO)",
   :name "Máxima",
+  :href-id #uuid "0a695250-ce70-305e-a434-9928e92b5cce",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Maxima636.aspx",
@@ -95,6 +96,8 @@
   :nec 983,
   :cp7 "4785-313",
   :id #uuid "3a225b27-90d0-3504-8fd9-0fd0a6a5cfe4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/trofa/0a695250-maxima.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
  :geocode

@@ -87,7 +87,9 @@
      :r/t-done 27.0}],
    :imt-profile
    {:address "Rua do Colégio, nº 4 6260-000 MANTEIGAS",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Manteigas",
+    :href-id #uuid "0d7d4219-0cfb-3e15-850e-b03ed374fbfa",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Manteigas622.aspx",
@@ -95,5 +97,7 @@
     :nec 335,
     :cp7 "6260-000",
     :id #uuid "00cbaa05-25d5-318f-b2af-c0c5d692e4df",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/manteigas/0d7d4219-manteigas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Manteigas"}}]]

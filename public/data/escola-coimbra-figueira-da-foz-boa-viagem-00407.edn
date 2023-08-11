@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Coimbra, nº 14 3080-047 FIGUEIRA DA FOZ",
   :name "Academia Boa Viagem",
+  :href-id #uuid "53e96dd0-6a08-39ec-b841-7a85122293f5",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AcademiaBoaViagem.aspx",
@@ -94,6 +95,8 @@
   :nec 407,
   :cp7 "3080-047",
   :id #uuid "8e333ae7-0d68-3249-8aa4-f16f5c0902dc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/53e96dd0-academia-boa-viagem.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
  :geocode

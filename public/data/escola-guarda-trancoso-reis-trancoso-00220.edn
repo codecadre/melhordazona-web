@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Fernando Pessoa, Nº 8 R/C Dtº 6420-018 TRANCOSO",
   :name "Reis Trancoso",
+  :href-id #uuid "9e4e32d9-3a29-33a1-9118-0638414b791a",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Reis%20Trancoso.aspx",
@@ -94,6 +95,8 @@
   :nec 220,
   :cp7 "6420-018",
   :id #uuid "bd12e40d-5892-3aa7-8aa4-00bc339e86e6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/trancoso/9e4e32d9-reis-trancoso.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"},
  :geocode

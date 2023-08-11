@@ -78,6 +78,7 @@
  :imt-profile
  {:address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
   :name "Infante de Sagres - Vila Real de Stº António",
+  :href-id #uuid "d4ccadd9-dfd6-3445-90b2-2b4d282bb1d2",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresVilaRealdeStAntonio544.aspx",
@@ -85,15 +86,16 @@
   :nec 447,
   :cp7 "8900",
   :id #uuid "076f5935-fa1e-3139-91ca-dbc4ad80dfbd",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/vila-real-de-santo-antonio/d4ccadd9-infante-de-sagres-vila-real-de-sto-antonio.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
  :geocode
- {:id #uuid "076f5935-fa1e-3139-91ca-dbc4ad80dfbd",
-  :address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
+ {:address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
   :address-c
   "Rua Doutor Teófilo Braga 85, 8900-303, Vila Real de Santo António, Faro",
   :postal-c "8900-303",
-  :x -7.419097368803119,
-  :y 37.19405562927124,
-  :score 95.24,
+  :x -7.419097452622,
+  :y 37.194055587362,
+  :score 100,
   :c 1}}

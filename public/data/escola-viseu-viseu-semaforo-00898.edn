@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Quinta de S. José Lote A, Fracção C 3500-189 VISEU",
   :name "Semáforo",
+  :href-id #uuid "4083bd60-186c-348a-b751-18c00508eb95",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Semaforo953.aspx",
@@ -94,6 +95,8 @@
   :nec 898,
   :cp7 "3500-189",
   :id #uuid "4e6c4b47-6b48-3445-bb8a-c14a47516b41",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/4083bd60-semaforo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
  :geocode

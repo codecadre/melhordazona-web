@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Urbanização Dr. Leite Lage, 75 B 4820-365 FAFE",
   :name "Montelongo",
+  :href-id #uuid "fde9f67e-221c-3b85-88d9-77717aa923e4",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Montelongo673.aspx",
@@ -94,6 +95,8 @@
   :nec 751,
   :cp7 "4820-365",
   :id #uuid "715c45fe-362f-3ea0-b2dd-ff027a18d682",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/fde9f67e-montelongo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
  :geocode

@@ -84,6 +84,28 @@
    :r/k "moncorvense-01201",
    :r/total-passed 89.0,
    :r/t-done 57.0}],
- :imt-profile nil,
- :obs "license 1201 is 'Mogadourense' in imt.pt",
- :overwrite/notes nil}
+ :imt-profile
+ {:address "Rua dos Palheiros - Torre de Moncorvo",
+  :name "Moncorvense",
+  :href-id #uuid "142874ad-ad03-3e49-b427-bc1568f0795c",
+  :distrito "Bragança",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mogadourense662.aspx",
+  :concelho "Torre de Moncorvo",
+  :nec 1201,
+  :cp7 nil,
+  :id #uuid "f0a2f0e2-98af-36d0-aedc-7844b4c65152",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/torre-de-moncorvo/142874ad-moncorvense.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Torre%20de%20Moncorvo"},
+ :obs "duplicate: license 1201 is 'Mogadourense' in imt.pt",
+ :overwrite/notes nil,
+ :geocode
+ {:address "Rua dos Palheiros - Torre de Moncorvo",
+  :address-c "Rua Palheiros, 5160-309, Torre de Moncorvo, Bragança",
+  :postal-c "5160-309",
+  :x -7.053893617481,
+  :y 41.175874321483,
+  :score 100,
+  :c 2}}

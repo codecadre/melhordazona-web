@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Vale Maior, Nº 2, 4570-477 Rates, PÓVOA do VARZIM",
   :name "Rosinha",
+  :href-id #uuid "07fddc75-89eb-3884-b338-8d9f33753d98",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rosinha.aspx",
@@ -94,12 +95,17 @@
   :nec 838,
   :cp7 "4570-477",
   :id #uuid "03204dcc-a46a-3b07-b085-35160ebc171e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/07fddc75-rosinha.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
  :geocode
- {:cp7 "4570-477",
-  :postal-c "4570-477",
-  :x -8.666039970082238,
-  :y 41.43110500715258,
-  :score 100,
-  :c 1}}
+ {:id #uuid "03204dcc-a46a-3b07-b085-35160ebc171e",
+  :address "Rua do Vale Maior, Nº 2, 4570-477 Rates, PÓVOA do VARZIM",
+  :address-c
+  "Rua do Vale Maior 2, 4570, Serra do Monte, Póvoa de Varzim, Porto",
+  :postal-c "4570",
+  :x -8.66608790788222,
+  :y 41.431070463104895,
+  :score 94.82,
+  :c 26}}

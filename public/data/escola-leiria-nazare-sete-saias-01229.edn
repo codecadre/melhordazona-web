@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Mouzinho de Albuquerque, Nº 186 2450-051 NAZARÉ",
   :name "Sete Saias",
+  :href-id #uuid "afc7a5f9-ab51-32f2-aba2-e0f65cdb34c2",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SeteSaias968.aspx",
@@ -94,6 +95,8 @@
   :nec 1229,
   :cp7 "2450-051",
   :id #uuid "01dc20a5-e87e-310b-96a9-1f90d260c090",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/nazare/afc7a5f9-sete-saias.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Nazar%C3%A9"},
  :geocode

@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª 25 de Abril, Nº 48-B 4540-102 AROUCA",
     :name "Arouquense",
+    :href-id #uuid "85b15a60-0021-3050-87d0-e92efedb6e72",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arouquense126.aspx",
@@ -95,6 +96,8 @@
     :nec 290,
     :cp7 "4540-102",
     :id #uuid "257f8f97-1a55-36f8-8b83-ee7f31179915",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/arouca/85b15a60-arouquense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
    :geocode
@@ -197,6 +200,7 @@
    {:address
     "Rua Dr. Figueiredo Sobrinho, Nº 11 R/c Esq.º 4540-133 AROUCA",
     :name "Rainha Santa Mafalda",
+    :href-id #uuid "1ef8369b-8f7f-353b-bf10-751810a584fc",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RainhaSantaMafalda836.aspx",
@@ -204,18 +208,19 @@
     :nec 600,
     :cp7 "4540-133",
     :id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/arouca/1ef8369b-rainha-santa-mafalda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
    :geocode
-   {:id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
-    :address
+   {:address
     "Rua Dr. Figueiredo Sobrinho, Nº 11 R/c Esq.º 4540-133 AROUCA",
     :address-c
     "Rua Dr. Figueiredo Sobrinho 11, 4540-133, Arouca, Aveiro",
     :postal-c "4540-133",
-    :x -8.246469976495234,
-    :y 40.930909989835186,
-    :score 97.28,
+    :x -8.246469976495,
+    :y 40.930909989835,
+    :score 98.14,
     :c 1}}]
  ["actual-01218"
   {:nec 1218,
@@ -307,6 +312,7 @@
    :imt-profile
    {:address "Lugar do Cimo da Inha - Escariz 4544-001 AROUCA",
     :name "Actual",
+    :href-id #uuid "be8e88c9-8df4-346f-9236-c8bb356bfa33",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Actual057.aspx",
@@ -314,11 +320,7 @@
     :nec 1218,
     :cp7 "4544-001",
     :id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/arouca/be8e88c9-actual.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
-   :geocode
-   {:id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35",
-    :overwrite true,
-    :obs "Manual coords",
-    :x -8.422375527411608,
-    :y 40.94577167143348}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"}}]]

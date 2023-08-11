@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Padrão n º 58 – 1.5 4415-284 PEDROSO",
   :name "Guerra",
+  :href-id #uuid "a3219426-445b-3753-bab6-78b6ad46b829",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Guerra503.aspx",
@@ -94,12 +95,17 @@
   :nec 1135,
   :cp7 "4415-284",
   :id #uuid "d4214fe0-7938-312a-a874-bf3ad9b7232c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/a3219426-guerra.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode
- {:cp7 "4415-284",
+ {:id #uuid "d4214fe0-7938-312a-a874-bf3ad9b7232c",
+  :address "Rua do Padrão n º 58 – 1.5 4415-284 PEDROSO",
+  :address-c
+  "Rua do Padrão 58, 4415-284, Carvalhos, Vila Nova de Gaia, Porto",
   :postal-c "4415-284",
-  :x -8.573254984139112,
-  :y 41.06606000618359,
-  :score 100,
-  :c 1}}
+  :x -8.574778061016264,
+  :y 41.066195415953764,
+  :score 92.61,
+  :c 2}}

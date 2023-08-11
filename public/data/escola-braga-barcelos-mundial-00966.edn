@@ -88,6 +88,7 @@
  {:address
   "Lugar de Outeirinho - Praça Padre Portela, loja 2 B ; 4755-266 MACEIRA de RATES BCL",
   :name "Mundial",
+  :href-id #uuid "a2877446-ef65-3404-8eef-121d7bb346ef",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Outeirinho760.aspx",
@@ -95,12 +96,17 @@
   :nec 966,
   :cp7 "4755-266",
   :id #uuid "db4c0fa5-56ae-3d74-9f6a-dc200925e99f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/a2877446-mundial.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode
- {:cp7 "4755-266",
+ {:address
+  "Lugar de Outeirinho - Praça Padre Portela, loja 2 B ; 4755-266 MACEIRA de RATES BCL",
+  :address-c
+  "Praça Padre Portela 2, 4755-266, Macieira de Rates, Barcelos, Braga",
   :postal-c "4755-266",
-  :x -8.632389981594116,
-  :y 41.43708499215407,
-  :score 100,
+  :x -8.632221397935,
+  :y 41.437073729682,
+  :score 93.09,
   :c 1}}

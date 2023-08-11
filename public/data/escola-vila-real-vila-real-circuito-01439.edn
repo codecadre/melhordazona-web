@@ -18,6 +18,7 @@
  {:address
   "Lugar do Cano, Avenida de Osnabruck, Lote 17, fração B, 5000-448 Vila Real",
   :name "Circuito",
+  :href-id #uuid "7e879f11-afb5-3dbd-a4e4-0814c6635e12",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Circuito.aspx",
@@ -25,6 +26,8 @@
   :nec 1439,
   :cp7 "5000-448",
   :id #uuid "f674a64b-f087-31a4-ab96-ab2ca7a51237",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/7e879f11-circuito.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
  :geocode

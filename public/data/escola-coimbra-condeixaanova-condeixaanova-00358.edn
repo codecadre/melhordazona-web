@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praça da República 3150-127 CONDEIXA-A-NOVA",
   :name "Condeixa a Nova",
+  :href-id #uuid "6573f09b-5675-38a2-a4a0-dfcce415453e",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CondeixaaNova329.aspx",
@@ -94,6 +95,8 @@
   :nec 358,
   :cp7 "3150-127",
   :id #uuid "262570dc-f73d-3342-a8cc-40229d0d147f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/condeixa-a-nova/6573f09b-condeixa-a-nova.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Condeixa%20a%20Nova"},
  :geocode

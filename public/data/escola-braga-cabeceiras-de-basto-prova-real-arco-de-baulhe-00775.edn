@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar do Carvalhal 4860-069 ARCO de BAÚLHE",
   :name "Prova Real- Arco de Baúlhe",
+  :href-id #uuid "063fb188-5bce-3d95-a8a3-61843bbfc983",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ProvaRealArcodeBaulhe825.aspx",
@@ -94,6 +95,8 @@
   :nec 775,
   :cp7 "4860-069",
   :id #uuid "645149cf-5480-3708-94e8-99a4646996f3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/cabeceiras-de-basto/063fb188-prova-real-arco-de-baulhe.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Estrada do Sineiro, n.º 57, 6200-209 COVILHÃ",
   :name "Serrana",
+  :href-id #uuid "526dc91b-2521-33eb-92b1-7b614b56d8ef",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Serrana.aspx",
@@ -94,6 +95,8 @@
   :nec 859,
   :cp7 "6200-209",
   :id #uuid "7c39b34c-f706-3636-831c-a5ae401ecce6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/526dc91b-serrana.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
  :geocode

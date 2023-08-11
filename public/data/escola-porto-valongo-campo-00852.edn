@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Central do Campo n º 1320-R/C 4440-038 CAMPO",
   :name "Campo",
+  :href-id #uuid "298a4244-24c9-33fd-b008-adf989e93c87",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Campo275.aspx",
@@ -94,12 +95,17 @@
   :nec 852,
   :cp7 "4440-038",
   :id #uuid "77033e1f-7983-3215-9759-e3b3e3ec7f3b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/valongo/298a4244-campo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
  :geocode
- {:cp7 "4440-038",
+ {:id #uuid "77033e1f-7983-3215-9759-e3b3e3ec7f3b",
+  :address "Rua Central do Campo n º 1320-R/C 4440-038 CAMPO",
+  :address-c
+  "Rua Central de Campo 1320, 4440-038, Campo, Valongo, Porto",
   :postal-c "4440-038",
-  :x -8.463980028621847,
-  :y 41.18331000729617,
-  :score 100,
-  :c 1}}
+  :x -8.469019983182193,
+  :y 41.18270998875738,
+  :score 93.55,
+  :c 2}}

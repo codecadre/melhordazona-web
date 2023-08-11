@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Praça de Gôa –Lote 14 r/c 3510-069 VISEU",
     :name "Viriato",
+    :href-id #uuid "9e4cbc4e-2323-387f-b33e-e385e3dec4db",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Viriato1074.aspx",
@@ -95,6 +96,8 @@
     :nec 71,
     :cp7 "3510-069",
     :id #uuid "056f85d4-46cd-3877-8e04-2a566b87e038",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/9e4cbc4e-viriato.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Rua Capitão Silva Pereira, 65/67 3500-209 VISEU",
     :name "Grão Vasco",
+    :href-id #uuid "84f8d3bb-40de-36fb-8133-748a1e700c48",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GraoVasco498.aspx",
@@ -203,6 +207,8 @@
     :nec 105,
     :cp7 "3500-209",
     :id #uuid "073f7854-037a-3043-a420-a1feb71051e4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/84f8d3bb-grao-vasco.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
    :geocode
@@ -304,6 +310,7 @@
    :imt-profile
    {:address "Quinta de S. José Lote A, Fracção C 3500-189 VISEU",
     :name "Semáforo",
+    :href-id #uuid "4083bd60-186c-348a-b751-18c00508eb95",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Semaforo953.aspx",
@@ -311,6 +318,8 @@
     :nec 898,
     :cp7 "3500-189",
     :id #uuid "4e6c4b47-6b48-3445-bb8a-c14a47516b41",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/4083bd60-semaforo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
    :geocode
@@ -410,6 +419,7 @@
    :imt-profile
    {:address "EN 2 - Quinta Marcão, lote 1 - 252 r/c 3510-197 VISEU",
     :name "Armando Cruz",
+    :href-id #uuid "25576d4b-c215-3432-b7fe-daf1f9328a64",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ArmandoCruz122.aspx",
@@ -417,6 +427,8 @@
     :nec 901,
     :cp7 "3510-197",
     :id #uuid "84fa75dc-e51d-31ac-ad7c-c40cf0b218dd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/25576d4b-armando-cruz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
    :geocode
@@ -517,6 +529,7 @@
    {:address
     "Rua dos Deficientes das Forças Armadas, Nº 10 - Marzovelos 3510-596 VISEU",
     :name "Conduir",
+    :href-id #uuid "6323cf3d-50cf-35b3-b956-80c3b7f3748d",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Conduir331.aspx",
@@ -524,6 +537,8 @@
     :nec 974,
     :cp7 "3510-596",
     :id #uuid "afb1d9cb-fb26-3437-878b-2deb2620ca71",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/6323cf3d-conduir.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
    :geocode
@@ -628,6 +643,7 @@
    {:address
     "Bairro do Vale-Rua 9 de Julho lote 35 loja D-Abraveses 3515-156 VISEU",
     :name "Auto Formadora",
+    :href-id #uuid "259bee8d-b142-3562-b355-5564fb7f688c",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoFormadora159.aspx",
@@ -635,15 +651,19 @@
     :nec 1001,
     :cp7 "3515-156",
     :id #uuid "29c07a16-bb08-3491-8b86-cbe3481a0562",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/259bee8d-auto-formadora.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
    :geocode
-   {:cp7 "3515-156",
+   {:address
+    "Bairro do Vale-Rua 9 de Julho lote 35 loja D-Abraveses 3515-156 VISEU",
+    :address-c "Bairro do Vale 9, 3515-156, Abraveses, Viseu",
     :postal-c "3515-156",
-    :x -7.920770006217424,
-    :y 40.68056500548522,
-    :score 100,
-    :c 1}}]
+    :x -7.920761776765,
+    :y 40.680331523488,
+    :score 88.92,
+    :c 3}}]
  ["visiense-01068"
   {:nec 1068,
    :rates
@@ -719,7 +739,9 @@
      :r/t-done 8.0}],
    :imt-profile
    {:address "Av. Cidade de Aveiro, Lote 7 r/c 3510-720 VISEU",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Visiense",
+    :href-id #uuid "92fdf89d-f0b8-3f38-83b9-27752edbb9a6",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Visiense1076.aspx",
@@ -727,15 +749,19 @@
     :nec 1068,
     :cp7 "3510-720",
     :id #uuid "0dec50ce-e5f3-3ff9-80d5-0030a8f43be8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/92fdf89d-visiense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
    :geocode
-   {:cp7 "3510-720",
+   {:id #uuid "0dec50ce-e5f3-3ff9-80d5-0030a8f43be8",
+    :address "Av. Cidade de Aveiro, Lote 7 r/c 3510-720 VISEU",
+    :address-c "Avenida Cidade de Aveiro, 3510-720, Viseu",
     :postal-c "3510-720",
-    :x -7.92699499424873,
-    :y 40.65980001383451,
-    :score 100,
-    :c 1}}]
+    :x -7.924536809360731,
+    :y 40.65984726855131,
+    :score 93,
+    :c 4}}]
  ["estrada-segura-01074"
   {:nec 1074,
    :rates
@@ -826,6 +852,7 @@
    :imt-profile
    {:address "Quinta da Carreira Lote 7 r/c Loja A 3500-098 VISEU",
     :name "Estrada Segura",
+    :href-id #uuid "9d77ab83-851f-39ee-bf74-a5e1c0d5d33e",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstradaSegura420.aspx",
@@ -833,8 +860,19 @@
     :nec 1074,
     :cp7 "3500-098",
     :id #uuid "da925117-e8f9-369c-86a9-65f2f9c04763",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/9d77ab83-estrada-segura.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+   :geocode
+   {:id #uuid "da925117-e8f9-369c-86a9-65f2f9c04763",
+    :address "Quinta da Carreira Lote 7 r/c Loja A 3500-098 VISEU",
+    :address-c "Travessa Quinta das Carreiras 7, 3510-685, Viseu",
+    :postal-c "3510-685",
+    :x -7.94332998243317,
+    :y 40.667760013913636,
+    :score 87.45,
+    :c 8}}]
  ["repeses-01075"
   {:nec 1075,
    :rates
@@ -870,6 +908,7 @@
    {:address
     "Rua Stº António nº 55 A-Bairro de Stª Eulália 3500-693 REPESES",
     :name "De Repeses",
+    :href-id #uuid "355c3ffb-edde-3cb1-a2f3-3716f1c1f694",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeRepeses.aspx",
@@ -877,14 +916,18 @@
     :nec 1075,
     :cp7 "3500-693",
     :id #uuid "8c577d0e-750d-3c08-ae29-dc42fa5b4a91",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/355c3ffb-de-repeses.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
    :geocode
-   {:cp7 "3500-693",
+   {:address
+    "Rua Stº António nº 55 A-Bairro de Stª Eulália 3500-693 REPESES",
+    :address-c "Rua de Santo António 55A, 3500-693, Viseu",
     :postal-c "3500-693",
-    :x -7.925784982706318,
-    :y 40.6410299989586,
-    :score 100,
+    :x -7.925590019638,
+    :y 40.640760017857,
+    :score 94.09,
     :c 1}}]
  ["nova-de-viseu-01388"
   {:nec 1388,
@@ -949,6 +992,7 @@
    {:address
     "Rua Camilo Castelo Branco, n.º 8, Quinta das Mesuras, freguesia da União das freguesias de VISEU",
     :name "Nova de Viseu",
+    :href-id #uuid "06bfcbf8-65f1-3f69-83ba-62044e07ba25",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeViseu.aspx",
@@ -956,15 +1000,7 @@
     :nec 1388,
     :cp7 nil,
     :id #uuid "13b8440c-8d60-371e-be7e-fcf07e0f0625",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/06bfcbf8-nova-de-viseu.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
-   :geocode
-   {:id #uuid "13b8440c-8d60-371e-be7e-fcf07e0f0625",
-    :address
-    "Rua Camilo Castelo Branco, n.º 8, Quinta das Mesuras  VISEU",
-    :address-c "Rua Camilo Castelo Branco 8, 3500-417, Viseu",
-    :postal-c "3500-417",
-    :x -7.910195628356655,
-    :y 40.6512518080556,
-    :score 92.46,
-    :c 4}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}]]

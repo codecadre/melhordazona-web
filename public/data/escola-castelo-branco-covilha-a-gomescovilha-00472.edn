@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Olivença, No Prédio Moço, s/nº-1º 6200-156 COVILHÃ",
   :name "A .Gomes - Covilhã",
+  :href-id #uuid "46dd0ad5-50ff-3454-b83a-fc58a1bba093",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AGomesCovilha002.aspx",
@@ -94,12 +95,16 @@
   :nec 472,
   :cp7 "6200-156",
   :id #uuid "3e718da7-99eb-37b0-a469-51ab4c0a4d15",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/46dd0ad5-a-gomes-covilha.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
  :geocode
- {:cp7 "6200-156",
+ {:id #uuid "3e718da7-99eb-37b0-a469-51ab4c0a4d15",
+  :address "Rua de Olivença, No Prédio Moço, s/nº-1º 6200-156 COVILHÃ",
+  :address-c "Rua de Olivença, 6200-156, Covilhã, Castelo Branco",
   :postal-c "6200-156",
-  :x -7.50595498248282,
-  :y 40.27969998320552,
-  :score 100,
-  :c 1}}
+  :x -7.5060767202192675,
+  :y 40.27935772178058,
+  :score 86.48,
+  :c 2}}

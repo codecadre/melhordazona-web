@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Cristóvão Colombo, nº 77 2870 -260 MONTIJO",
   :name "Galáxia",
+  :href-id #uuid "599b8e9a-215b-3e07-98ba-735df1cc8785",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Galaxia481.aspx",
@@ -94,6 +95,8 @@
   :nec 804,
   :cp7 "2870-260",
   :id #uuid "7eeb73f1-590b-3397-ad6b-c2ca30880dc1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/montijo/599b8e9a-galaxia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
  :geocode

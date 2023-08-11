@@ -46,21 +46,26 @@
  {:address
   "Urbanização Quinta do Carregoso, n.º 323 r/c Esq. 4580-294 Bitarães",
   :name "Royal",
+  :href-id #uuid "bceb0203-f9cd-34c4-8eb3-31d18fe15bfd",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Royal.aspx",
   :concelho "Paredes",
-  :nec nil,
+  :nec 1417,
   :cp7 "4580-294",
-  :id #uuid "85b9c656-e409-38cc-a8fa-9d1a39713ae0",
+  :id #uuid "f537c45d-d0aa-3cb4-843b-33af227d7919",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/bceb0203-royal.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
- :obs nil,
- :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"],
  :geocode
- {:cp7 "4580-294",
+ {:id #uuid "85b9c656-e409-38cc-a8fa-9d1a39713ae0",
+  :address
+  "Urbanização Quinta do Carregoso, n.º 323 r/c Esq. 4580-294 Bitarães",
+  :address-c
+  "Urbanização Quinta de Carregoso 323, 4580-294, Paço, Paredes, Porto",
   :postal-c "4580-294",
-  :x -8.324744966032341,
-  :y 41.21861001533392,
-  :score 100,
-  :c 1}}
+  :x -8.32108794700586,
+  :y 41.21948176896229,
+  :score 93.59,
+  :c 2}}

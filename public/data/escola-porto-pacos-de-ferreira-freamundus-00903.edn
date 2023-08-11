@@ -17,6 +17,7 @@
  :imt-profile
  {:address "Rua do Leigal, 155 4590-384 FREAMUNDE",
   :name "Freamundus",
+  :href-id #uuid "a6622608-ef72-3a77-a56d-a6cfdf93bcd2",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Freamundus469.aspx",
@@ -24,6 +25,8 @@
   :nec 903,
   :cp7 "4590-384",
   :id #uuid "3e7eca21-2db3-37c6-b600-3c74d3a6745d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/a6622608-freamundus.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode

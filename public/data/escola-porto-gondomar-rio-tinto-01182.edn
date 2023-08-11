@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo do Mosteiro,Nº116 4435-346 RIO TINTO",
   :name "Rio Tinto",
+  :href-id #uuid "e6b9f06d-0f3c-376c-8b46-f0495be71512",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RioTinto859.aspx",
@@ -94,12 +95,16 @@
   :nec 1182,
   :cp7 "4435-346",
   :id #uuid "f63c8fc6-f721-3030-b151-850bb8487dc7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/e6b9f06d-rio-tinto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode
- {:cp7 "4435-346",
-  :postal-c "4435-346",
-  :x -8.559591308496692,
-  :y 41.17800761534738,
-  :score 100,
-  :c 1}}
+ {:id #uuid "f63c8fc6-f721-3030-b151-850bb8487dc7",
+  :address "Largo do Mosteiro,Nº116 4435-346 RIO TINTO",
+  :address-c "Rua do Mosteiro, 4435-345, Rio Tinto, Gondomar, Porto",
+  :postal-c "4435-345",
+  :x -8.561130001449119,
+  :y 41.17803939217308,
+  :score 86.53,
+  :c 2}}

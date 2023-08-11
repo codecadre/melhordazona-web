@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª das Amoreiras Lote 2-1º 5370-204 MIRANDELA",
     :name "Nordeste",
+    :href-id #uuid "55f28a86-4eb9-3909-bc00-950f38920166",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nordeste694.aspx",
@@ -95,6 +96,8 @@
     :nec 131,
     :cp7 "5370-204",
     :id #uuid "94eb941d-67c3-3b04-9fd4-8d5798eb73de",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/mirandela/55f28a86-nordeste.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Rua de S. Francisco nº 9 5320-321 VINHAIS",
     :name "A Coroa de Vinhais",
+    :href-id #uuid "fb889365-a7a7-37c5-9161-871061afa1c5",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ACoroadeVinhais008.aspx",
@@ -204,8 +208,12 @@
     :nec 352,
     :cp7 "5320-321",
     :id #uuid "bc73b936-c837-361f-b6d6-f581d2501049",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/vinhais/fb889365-a-coroa-de-vinhais.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vinhais"},
+   :obs "pointing to archived imt-profiles",
+   :overwrite/notes nil,
    :geocode
    {:id #uuid "bc73b936-c837-361f-b6d6-f581d2501049",
     :address "Rua de S. Francisco nº 9 5320-321 VINHAIS",
@@ -306,6 +314,7 @@
    {:address
     "Rua Bombeiros Voluntários, nº 60 5140-060 CARRAZEDA DE ANSIÃES",
     :name "Marisa",
+    :href-id #uuid "b7698fdc-b37d-39d5-a295-cb78439ae59e",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Marisa631.aspx",
@@ -313,6 +322,8 @@
     :nec 529,
     :cp7 "5140-060",
     :id #uuid "c582a01d-81e2-3f5e-b46c-b435f9dc72fc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/carrazeda-de-ansiaes/b7698fdc-marisa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"},
    :geocode
@@ -416,6 +427,7 @@
    :imt-profile
    {:address "Largo do Prado, 5350-016 ALFÂNDEGA DA FÉ",
     :name "O Prado",
+    :href-id #uuid "01e8c2fa-dc7c-399b-81e0-c71f57bbc30d",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OPrado.aspx",
@@ -423,6 +435,8 @@
     :nec 554,
     :cp7 "5350-016",
     :id #uuid "3669af95-40f0-3248-89de-9fbfa2a99afb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/alfandega-da-fe/01e8c2fa-o-prado.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Alfandega%20da%20F%C3%A9"},
    :geocode
@@ -526,6 +540,7 @@
    {:address
     "Avª Dr.Francisco Sá Carneiro, Lote 29 r/c Dtº (Prédio S. Lucas) 5300-252 BRAGANÇA (SÉ)",
     :name "Carta - Auto",
+    :href-id #uuid "09b199a4-2474-372d-9c0c-e51bd36036e7",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CartaAuto291.aspx",
@@ -533,6 +548,8 @@
     :nec 555,
     :cp7 "5300-252",
     :id #uuid "51ce98ba-4ef3-315c-9b1e-f7ea5c8fa384",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/09b199a4-carta-auto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
@@ -545,6 +562,118 @@
     :x -6.759789998996894,
     :y 41.805349985046945,
     :score 95.07,
+    :c 1}}]
+ ["s-bartolomeu-00595"
+  {:nec 595,
+   :rates
+   [{:r/nec 595,
+     :r/level-0 "2015",
+     :r/d-scheduled 26,
+     :r/t-rate 0.6364,
+     :r/total-rate 0.7234,
+     :r/d-done 25,
+     :r/total-scheduled 48,
+     :r/name-raw "Escola De Condução S Bartolomeu",
+     :r/total-done 47,
+     :r/d-rate 0.8,
+     :r/t-scheduled 22.0,
+     :r/k "s-bartolomeu-00595",
+     :r/total-passed 34.0,
+     :r/t-done 22.0}
+    {:r/nec 595,
+     :r/level-0 "2016",
+     :r/d-scheduled 31,
+     :r/t-rate 0.7368,
+     :r/total-rate 0.6531,
+     :r/d-done 30,
+     :r/total-scheduled 52,
+     :r/name-raw "Escola De Condução S Bartolomeu",
+     :r/total-done 49,
+     :r/d-rate 0.6,
+     :r/t-scheduled 21.0,
+     :r/k "s-bartolomeu-00595",
+     :r/total-passed 32.0,
+     :r/t-done 19.0}
+    {:r/nec 595,
+     :r/level-0 "2017",
+     :r/d-scheduled 20,
+     :r/t-rate 0.7273,
+     :r/total-rate 0.76,
+     :r/d-done 14,
+     :r/total-scheduled 31,
+     :r/name-raw "Escola De Condução S Bartolomeu",
+     :r/total-done 25,
+     :r/d-rate 0.7857,
+     :r/t-scheduled 11.0,
+     :r/k "s-bartolomeu-00595",
+     :r/total-passed 19.0,
+     :r/t-done 11.0}
+    {:r/nec 595,
+     :r/level-0 "2018",
+     :r/d-scheduled 16,
+     :r/t-rate 0.8333,
+     :r/total-rate 0.6429,
+     :r/d-done 16,
+     :r/total-scheduled 29,
+     :r/name-raw "Escola De Condução S Bartolomeu",
+     :r/total-done 28,
+     :r/d-rate 0.5,
+     :r/t-scheduled 13.0,
+     :r/k "s-bartolomeu-00595",
+     :r/total-passed 18.0,
+     :r/t-done 12.0}
+    {:r/nec 595,
+     :r/level-0 "2019",
+     :r/d-scheduled 16,
+     :r/t-rate 0.5882,
+     :r/total-rate 0.5758,
+     :r/d-done 16,
+     :r/total-scheduled 35,
+     :r/name-raw "ESCOLA DE CONDUÇÃO S BARTOLOMEU",
+     :r/total-done 33,
+     :r/d-rate 0.5625,
+     :r/t-scheduled 19.0,
+     :r/k "s-bartolomeu-00595",
+     :r/total-passed 19.0,
+     :r/t-done 17.0}
+    {:r/nec 595,
+     :r/level-0 "2020",
+     :r/d-scheduled 24,
+     :r/t-rate 0.8182,
+     :r/total-rate 0.8,
+     :r/d-done 23,
+     :r/total-scheduled 46,
+     :r/name-raw "ESCOLA DE CONDUÇÃO S BARTOLOMEU",
+     :r/total-done 45,
+     :r/d-rate 0.7826,
+     :r/t-scheduled 22.0,
+     :r/k "s-bartolomeu-00595",
+     :r/total-passed 36.0,
+     :r/t-done 22.0}],
+   :imt-profile
+   {:address "Av. de Alcanices, 21 - Bairro das Cruzes Vimioso",
+    :name "S. Bartolomeu",
+    :href-id #uuid "dc55446b-85c4-38a1-a16b-430305512f79",
+    :distrito "Bragança",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CarlosVaz285.aspx",
+    :concelho "Vimioso",
+    :nec 595,
+    :cp7 nil,
+    :id #uuid "86ea8129-2a86-35cf-927b-1307792d759e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/vimioso/dc55446b-s-bartolomeu.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vimioso"},
+   :obs "duplicate nec and an archived one",
+   :overwrite/notes nil,
+   :geocode
+   {:address "Av. de Alcanices, 21 - Bairro das Cruzes Vimioso",
+    :address-c "Avenida de Alcanices 21, 5230-308, Vimioso, Bragança",
+    :postal-c "5230-308",
+    :x -6.530670005144,
+    :y 41.586220004403,
+    :score 95.95,
     :c 1}}]
  ["terra-fria-00722"
   {:nec 722,
@@ -637,6 +766,7 @@
    {:address
     "Loteamento Santa Apolónia –Lote 1 r/c Esqº 5300-254 BRAGANÇA",
     :name "Terra Fria",
+    :href-id #uuid "58b408aa-039e-3d06-8e38-d95825b96b59",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TerraFria1004.aspx",
@@ -644,14 +774,10 @@
     :nec 722,
     :cp7 "5300-254",
     :id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/58b408aa-terra-fria.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
-   :geocode
-   {:id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
-    :overwrite true,
-    :obs "Manual coords",
-    :x -6.7631975537083715,
-    :y 41.797498753108506}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
  ["exito-00728"
   {:nec 728,
    :rates
@@ -743,6 +869,7 @@
    {:address
     "Av. Sá Carneiro - Edificio Supinorte, Lote 1, R/C Esq, 5300-252 BRAGANÇA",
     :name "Êxito",
+    :href-id #uuid "7d4a6bba-e117-3ae0-ab9b-635506ca6463",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Exito.aspx",
@@ -750,6 +877,8 @@
     :nec 728,
     :cp7 "5300-252",
     :id #uuid "26a4f448-5278-3767-9c43-fa2516ea2163",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/7d4a6bba-exito.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
@@ -849,6 +978,7 @@
    :imt-profile
    {:address "Rua 1º de Maio, Bloco 1 - R/C 5300-236 BRAGANÇA (SÉ)",
     :name "Eurovia",
+    :href-id #uuid "85282504-f424-325d-a3ee-3c21668ad974",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Eurovia436.aspx",
@@ -856,15 +986,18 @@
     :nec 825,
     :cp7 "5300-236",
     :id #uuid "0464c37c-f17d-3b3b-8f3d-eefa069f84cb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/85282504-eurovia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
-   {:cp7 "5300-236",
-    :postal-c "5300-236",
-    :x -6.763530004193797,
-    :y 41.809740006835085,
-    :score 100,
-    :c 1}}]
+   {:address "Rua 1º de Maio, Bloco 1 - R/C 5300-236 BRAGANÇA (SÉ)",
+    :address-c "Rua 1 de Maio 1, 7480-153, Avis, Portalegre",
+    :postal-c "7480-153",
+    :x -7.892489967818,
+    :y 39.05468001452,
+    :score 93.69,
+    :c 3}}]
  ["princesa-00865"
   {:nec 865,
    :rates
@@ -956,6 +1089,7 @@
    {:address
     "Lugar do Campelo-Bairro do Pinhal, Lote 2 A-R/C 5300-167 BRAGANÇA (SÉ)",
     :name "Princesa",
+    :href-id #uuid "b75cb351-e97c-371e-8544-3bfa31d908b2",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Princesa813.aspx",
@@ -963,6 +1097,8 @@
     :nec 865,
     :cp7 "5300-167",
     :id #uuid "accd42da-9485-3d57-a94c-f180f7c07fdc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/b75cb351-princesa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
@@ -1063,6 +1199,7 @@
    {:address
     "Rua Padre António Vieira, Lote 1 R/C D - Loja E 5300-224 BRAGANÇA (SÉ)",
     :name "Cruzeiro",
+    :href-id #uuid "7b4fa9d8-0fc3-3e2f-8d4d-fdede8a4e751",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cruzeiro350.aspx",
@@ -1070,6 +1207,8 @@
     :nec 990,
     :cp7 "5300-224",
     :id #uuid "cf67a92b-bf81-357e-bf05-9bcef2ea81ed",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/7b4fa9d8-cruzeiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
@@ -1172,6 +1311,7 @@
    :imt-profile
    {:address "Rua Teófilo Braga, Nº 814, 5370-198 MIRANDELA",
     :name "Nova Via",
+    :href-id #uuid "aa31685b-03a8-3dc2-9e23-37c113e7bf42",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaVia720.aspx",
@@ -1179,15 +1319,132 @@
     :nec 1173,
     :cp7 "5370-198",
     :id #uuid "afa4f277-676f-3ee8-b004-9825dbe0739c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/mirandela/aa31685b-nova-via.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"},
    :geocode
-   {:cp7 "5370-198",
-    :postal-c "5370-198",
-    :x -7.181723102546158,
-    :y 41.49167289095544,
+   {:id #uuid "afa4f277-676f-3ee8-b004-9825dbe0739c",
+    :address "Rua Teófilo Braga, Nº 814, 5370-198 MIRANDELA",
+    :address-c
+    "Rua Joaquim Teófilo Braga, 5370-346, Mirandela, Bragança",
+    :postal-c "5370-346",
+    :x -7.180768033745931,
+    :y 41.490574480570366,
+    :score 89.84,
+    :c 2}}]
+ ["moncorvense-01201"
+  {:nec 1201,
+   :rates
+   [{:r/nec 1201,
+     :r/level-0 "2015",
+     :r/d-scheduled 124,
+     :r/t-rate 0.5909,
+     :r/total-rate 0.5694,
+     :r/d-done 121,
+     :r/total-scheduled 216,
+     :r/name-raw "Escola De Condução Moncorvense",
+     :r/total-done 209,
+     :r/d-rate 0.5537,
+     :r/t-scheduled 92.0,
+     :r/k "moncorvense-01201",
+     :r/total-passed 119.0,
+     :r/t-done 88.0}
+    {:r/nec 1201,
+     :r/level-0 "2016",
+     :r/d-scheduled 105,
+     :r/t-rate 0.6795,
+     :r/total-rate 0.5967,
+     :r/d-done 103,
+     :r/total-scheduled 184,
+     :r/name-raw "Escola De Condução Moncorvense",
+     :r/total-done 181,
+     :r/d-rate 0.534,
+     :r/t-scheduled 79.0,
+     :r/k "moncorvense-01201",
+     :r/total-passed 108.0,
+     :r/t-done 78.0}
+    {:r/nec 1201,
+     :r/level-0 "2017",
+     :r/d-scheduled 80,
+     :r/t-rate 0.6471,
+     :r/total-rate 0.6728,
+     :r/d-done 77,
+     :r/total-scheduled 168,
+     :r/name-raw "Escola De Condução Moncorvense",
+     :r/total-done 162,
+     :r/d-rate 0.7013,
+     :r/t-scheduled 88.0,
+     :r/k "moncorvense-01201",
+     :r/total-passed 109.0,
+     :r/t-done 85.0}
+    {:r/nec 1201,
+     :r/level-0 "2018",
+     :r/d-scheduled 83,
+     :r/t-rate 0.7692,
+     :r/total-rate 0.6986,
+     :r/d-done 81,
+     :r/total-scheduled 148,
+     :r/name-raw "Escola De Condução Moncorvense",
+     :r/total-done 146,
+     :r/d-rate 0.642,
+     :r/t-scheduled 65.0,
+     :r/k "moncorvense-01201",
+     :r/total-passed 102.0,
+     :r/t-done 65.0}
+    {:r/nec 1201,
+     :r/level-0 "2019",
+     :r/d-scheduled 76,
+     :r/t-rate 0.7742,
+     :r/total-rate 0.6985,
+     :r/d-done 74,
+     :r/total-scheduled 140,
+     :r/name-raw "ESCOLA DE CONDUÇÃO MONCORVENSE",
+     :r/total-done 136,
+     :r/d-rate 0.6351,
+     :r/t-scheduled 64.0,
+     :r/k "moncorvense-01201",
+     :r/total-passed 95.0,
+     :r/t-done 62.0}
+    {:r/nec 1201,
+     :r/level-0 "2020",
+     :r/d-scheduled 87,
+     :r/t-rate 0.7018,
+     :r/total-rate 0.6403,
+     :r/d-done 82,
+     :r/total-scheduled 153,
+     :r/name-raw "ESCOLA DE CONDUÇÃO MONCORVENSE",
+     :r/total-done 139,
+     :r/d-rate 0.5976,
+     :r/t-scheduled 66.0,
+     :r/k "moncorvense-01201",
+     :r/total-passed 89.0,
+     :r/t-done 57.0}],
+   :imt-profile
+   {:address "Rua dos Palheiros - Torre de Moncorvo",
+    :name "Moncorvense",
+    :href-id #uuid "142874ad-ad03-3e49-b427-bc1568f0795c",
+    :distrito "Bragança",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mogadourense662.aspx",
+    :concelho "Torre de Moncorvo",
+    :nec 1201,
+    :cp7 nil,
+    :id #uuid "f0a2f0e2-98af-36d0-aedc-7844b4c65152",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/torre-de-moncorvo/142874ad-moncorvense.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Torre%20de%20Moncorvo"},
+   :obs "duplicate: license 1201 is 'Mogadourense' in imt.pt",
+   :overwrite/notes nil,
+   :geocode
+   {:address "Rua dos Palheiros - Torre de Moncorvo",
+    :address-c "Rua Palheiros, 5160-309, Torre de Moncorvo, Bragança",
+    :postal-c "5160-309",
+    :x -7.053893617481,
+    :y 41.175874321483,
     :score 100,
-    :c 1}}]
+    :c 2}}]
  ["keris-01356"
   {:nec 1356,
    :rates
@@ -1265,6 +1522,7 @@
    {:address
     "Rua Luis de Camões, n.º 319, r/c B 5140-080 Carrazeda de Ansiães",
     :name "Kéris",
+    :href-id #uuid "1b92ad42-195b-3d31-96e1-fb264fd42318",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/K%c3%a9ris.aspx",
@@ -1272,12 +1530,18 @@
     :nec 1356,
     :cp7 "5140-080",
     :id #uuid "05b941fb-4d7f-33ff-8d12-296b48bafdfb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/carrazeda-de-ansiaes/1b92ad42-keris.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"},
    :geocode
-   {:cp7 "5140-080",
+   {:id #uuid "05b941fb-4d7f-33ff-8d12-296b48bafdfb",
+    :address
+    "Rua Luis de Camões, n.º 319, r/c B 5140-080 Carrazeda de Ansiães",
+    :address-c
+    "Rua Luís de Camões, 5140-080, Carrazeda de Ansiães, Bragança",
     :postal-c "5140-080",
-    :x -7.3055499639853565,
-    :y 41.241729986500815,
-    :score 100,
-    :c 1}}]]
+    :x -7.301649322931634,
+    :y 41.24578181522291,
+    :score 94.17,
+    :c 6}}]]

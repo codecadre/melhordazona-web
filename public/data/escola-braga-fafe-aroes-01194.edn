@@ -88,6 +88,7 @@
  {:address
   "Lugar de Porinhos-Loteamento do Telhado, Nº 1 4820 -748 Arões (Sº Romão)",
   :name "Arões",
+  :href-id #uuid "839ff9ac-e3c2-3315-bcdc-25885a9218fa",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aroes125.aspx",
@@ -95,6 +96,8 @@
   :nec 1194,
   :cp7 "4820-748",
   :id #uuid "8b8d9730-d9b0-3ed5-b581-bbc0f05f4475",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/839ff9ac-aroes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
  :geocode

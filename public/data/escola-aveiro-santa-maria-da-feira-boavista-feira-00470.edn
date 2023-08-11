@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Comendador Sá Couto, 59-A 4520-192 SANTA MARIA FEIRA",
   :name "Boavista - Feira",
+  :href-id #uuid "af94a481-2dff-3052-b656-7a976cd809f6",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BoavistaFeira250.aspx",
@@ -94,6 +95,8 @@
   :nec 470,
   :cp7 "4520-192",
   :id #uuid "62cd4847-2119-3b00-8326-b85264a6a562",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/af94a481-boavista-feira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

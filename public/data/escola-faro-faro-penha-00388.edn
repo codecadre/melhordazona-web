@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. Arnaldo Vilhena, 27 c/v 8000-317 FARO",
   :name "da Penha",
+  :href-id #uuid "05c0394a-a1f0-35dd-a7b2-9e7e11c5079f",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/daPenha358.aspx",
@@ -94,6 +95,8 @@
   :nec 388,
   :cp7 "8000-317",
   :id #uuid "7284cb62-f269-3970-bf66-f6b29d0bf4d6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/05c0394a-da-penha.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
  :geocode

@@ -89,6 +89,7 @@
    {:address
     "Rua da Figueira, Fracção A, Lote L, Caliços, 8200-131 ALBUFEIRA",
     :name "Figueirinha FHR",
+    :href-id #uuid "e502ea18-b3fc-3263-a212-e7452c6fc7b1",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FigueirinhaFHR.aspx",
@@ -96,15 +97,20 @@
     :nec 342,
     :cp7 "8200-131",
     :id #uuid "82f34b76-6be9-3808-b082-b9d0319a574f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/e502ea18-figueirinha-fhr.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
-   {:cp7 "8200-131",
+   {:id #uuid "82f34b76-6be9-3808-b082-b9d0319a574f",
+    :address
+    "Rua da Figueira, Fracção A, Lote L, Caliços, 8200-131 ALBUFEIRA",
+    :address-c "Rua da Figueira, 8200-131, Caliços, Albufeira, Faro",
     :postal-c "8200-131",
-    :x -8.247559959184173,
-    :y 37.09719000249039,
-    :score 100,
-    :c 1}}]
+    :x -8.246788550546839,
+    :y 37.09687217765912,
+    :score 90.71,
+    :c 3}}]
  ["infante-sagresalbufeira-00445"
   {:nec 445,
    :rates
@@ -196,6 +202,7 @@
    {:address
     "Rua Fernão de Magalhães, lote 16 Fracções D e E 8200 ALBUFEIRA",
     :name "Infante de Sagres –Albufeira",
+    :href-id #uuid "09a94a6d-507d-3d3a-9a76-9839ac75be02",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagres%e2%80%93Albufeira545.aspx",
@@ -203,6 +210,8 @@
     :nec 445,
     :cp7 "8200",
     :id #uuid "64d08f67-feea-393e-98ac-cd4bebf284e0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/09a94a6d-infante-de-sagres-albufeira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
@@ -306,6 +315,7 @@
    {:address
     "Sitio da Correeira, Lt 128-A Montechoro 8200-360 ALBUFEIRA",
     :name "Academia Albufeira",
+    :href-id #uuid "55f974f5-e33e-3750-a46e-228f230d478b",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EuropaAlbufeira434.aspx",
@@ -313,6 +323,8 @@
     :nec 637,
     :cp7 "8200-360",
     :id #uuid "86a15372-a5ac-3c1a-a0ed-118611586ca3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/55f974f5-academia-albufeira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
@@ -412,6 +424,7 @@
    :imt-profile
    {:address "Edifício Central ,Lagoas, Loja L 8200-171 ALBUFEIRA",
     :name "Alfa",
+    :href-id #uuid "3b9dc72a-b77d-3bf7-bae3-a3cb938cc28f",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alfa080.aspx",
@@ -419,14 +432,18 @@
     :nec 814,
     :cp7 "8200-171",
     :id #uuid "e4eba7bb-ce5c-3805-ace4-93380fa5f0eb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/3b9dc72a-alfa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
-   {:cp7 "8200-171",
-    :postal-c "8200-171",
-    :x -8.257399978236009,
-    :y 37.08490498228227,
-    :score 100,
+   {:address "Edifício Central ,Lagoas, Loja L 8200-171 ALBUFEIRA",
+    :address-c
+    "Edifício Central, Avenida 12 de Julho, 8200-559, Ferreiras, Albufeira, Faro",
+    :postal-c "8200-559",
+    :x -8.242359994092,
+    :y 37.12655998167,
+    :score 92.57,
     :c 1}}]
  ["areias-mar-01261"
   {:nec 1261,
@@ -519,6 +536,7 @@
    {:address
     "Rua Camilo Castelo Branco, Nº 60 Edificio Areias do Mar, cave, Parte B, Loja 9 8200-276 Albufeira",
     :name "Areias Mar",
+    :href-id #uuid "0f2e4c41-a6e2-37b1-afe1-a81b9740b4df",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AreiasMar117.aspx",
@@ -526,12 +544,18 @@
     :nec 1261,
     :cp7 "8200-276",
     :id #uuid "108770e5-745f-330d-8b4b-f2abf86768e9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/0f2e4c41-areias-mar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
-   {:cp7 "8200-276",
+   {:id #uuid "108770e5-745f-330d-8b4b-f2abf86768e9",
+    :address
+    "Rua Camilo Castelo Branco, Nº 60 Edificio Areias do Mar, cave, Parte B, Loja 9 8200-276 Albufeira",
+    :address-c
+    "Rua Camilo Castelo Branco 60, 8200-276, Forte de São João, Albufeira, Faro",
     :postal-c "8200-276",
-    :x -8.232615025822355,
-    :y 37.09141499693105,
-    :score 100,
-    :c 1}}]]
+    :x -8.233480038230056,
+    :y 37.089859986253956,
+    :score 94.96,
+    :c 3}}]]

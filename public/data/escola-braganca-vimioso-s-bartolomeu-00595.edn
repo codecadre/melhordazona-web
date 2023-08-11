@@ -84,6 +84,28 @@
    :r/k "s-bartolomeu-00595",
    :r/total-passed 36.0,
    :r/t-done 22.0}],
- :imt-profile nil,
- :obs "license 595 is 'Carlos Vaz' in imt.pt",
- :overwrite/notes nil}
+ :imt-profile
+ {:address "Av. de Alcanices, 21 - Bairro das Cruzes Vimioso",
+  :name "S. Bartolomeu",
+  :href-id #uuid "dc55446b-85c4-38a1-a16b-430305512f79",
+  :distrito "Bragança",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CarlosVaz285.aspx",
+  :concelho "Vimioso",
+  :nec 595,
+  :cp7 nil,
+  :id #uuid "86ea8129-2a86-35cf-927b-1307792d759e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/vimioso/dc55446b-s-bartolomeu.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Vimioso"},
+ :obs "duplicate nec and an archived one",
+ :overwrite/notes nil,
+ :geocode
+ {:address "Av. de Alcanices, 21 - Bairro das Cruzes Vimioso",
+  :address-c "Avenida de Alcanices 21, 5230-308, Vimioso, Bragança",
+  :postal-c "5230-308",
+  :x -6.530670005144,
+  :y 41.586220004403,
+  :score 95.95,
+  :c 1}}

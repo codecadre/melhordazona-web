@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua General Humberto Delgado, N.º 95, 4705-671 TADIM",
   :name "Tadim",
+  :href-id #uuid "077e335d-135e-37af-bbe4-d03ca5cf5a74",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tadim994.aspx",
@@ -94,6 +95,8 @@
   :nec 1030,
   :cp7 "4705-671",
   :id #uuid "bd28fd9e-ea09-36ff-a3e7-a8a848d90f89",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/077e335d-tadim.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

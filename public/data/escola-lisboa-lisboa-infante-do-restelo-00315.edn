@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Tristão Váz, Nº 7 – 1º 1400-350 LISBOA",
   :name "Infante do Restelo",
+  :href-id #uuid "5deed168-57de-36b4-aff4-a889f08b69fb",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedoRestelo553.aspx",
@@ -94,6 +95,8 @@
   :nec 315,
   :cp7 "1400-350",
   :id #uuid "4cfb207f-1c07-3ae5-ba9d-2a642955fdf6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/5deed168-infante-do-restelo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

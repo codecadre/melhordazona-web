@@ -88,6 +88,7 @@
  {:address
   "Rua Costa Pinto, Nº 152 - Pai do Vento-Amoreira 2645-183 ALCABIDECHE",
   :name "Ti-Ta",
+  :href-id #uuid "0b8a9c3f-ef75-31c6-a4f6-eb63ebd61ec6",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TiTa1008.aspx",
@@ -95,12 +96,18 @@
   :nec 427,
   :cp7 "2645-183",
   :id #uuid "ba1462c0-70bd-304d-98dc-8b7c6526cb11",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/0b8a9c3f-ti-ta.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode
- {:cp7 "2645-183",
+ {:id #uuid "ba1462c0-70bd-304d-98dc-8b7c6526cb11",
+  :address
+  "Rua Costa Pinto, Nº 152 - Pai do Vento-Amoreira 2645-183 ALCABIDECHE",
+  :address-c
+  "Rua Costa Pinto 152, 2645-183, Alto da Castelhana, Cascais, Lisboa",
   :postal-c "2645-183",
-  :x -9.414215017768669,
-  :y 38.712359987531016,
-  :score 100,
-  :c 1}}
+  :x -9.41400999641698,
+  :y 38.712489990849264,
+  :score 94.2,
+  :c 3}}

@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Aquilino Ribeiro, nº 9 3650-209 VILA NOVA DE PAIVA",
     :name "Paivense",
+    :href-id #uuid "e54a6afa-ad1e-30b5-ad23-06365c4b260f",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Paivense767.aspx",
@@ -95,15 +96,20 @@
     :nec 522,
     :cp7 "3650-209",
     :id #uuid "7c035670-cd41-307b-894c-a4e9cdbf0c66",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/vila-nova-de-paiva/e54a6afa-paivense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"},
    :geocode
-   {:cp7 "3650-209",
+   {:id #uuid "7c035670-cd41-307b-894c-a4e9cdbf0c66",
+    :address "Rua Aquilino Ribeiro, nº 9 3650-209 VILA NOVA DE PAIVA",
+    :address-c
+    "Avenida Aquilino Ribeiro 9, 3650-209, Vila Nova de Paiva, Viseu",
     :postal-c "3650-209",
-    :x -7.724229967093208,
-    :y 40.85417999460091,
-    :score 100,
-    :c 1}}]
+    :x -7.725590014702448,
+    :y 40.853069979163394,
+    :score 94.19,
+    :c 5}}]
  ["irmaos-tavares-01119"
   {:nec 1119,
    :rates
@@ -194,6 +200,7 @@
    :imt-profile
    {:address "Rua Egas Moniz, nº 20 r/c 3650-219 VILA NOVA DE PAIVA",
     :name "Irmãos Tavares",
+    :href-id #uuid "7de1d913-0af6-35fc-9aa0-c846c71ae32f",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IrmaosTavares569.aspx",
@@ -201,6 +208,8 @@
     :nec 1119,
     :cp7 "3650-219",
     :id #uuid "d5178182-ff1e-39ab-b4d0-3ebb3a24b5e1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/vila-nova-de-paiva/7de1d913-irmaos-tavares.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"},
    :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Ponte de Pego, n.º 375, 4600-754 TELÕES AMT",
   :name "Classe",
+  :href-id #uuid "335a0c68-079b-32c5-8609-e618d7f15429",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Classe.aspx",
@@ -94,12 +95,16 @@
   :nec 1328,
   :cp7 "4600-754",
   :id #uuid "4df99bde-65b3-3e41-9d40-e3d18b85897f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/335a0c68-classe.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
  :geocode
- {:cp7 "4600-754",
+ {:id #uuid "4df99bde-65b3-3e41-9d40-e3d18b85897f",
+  :address "Rua Ponte de Pego, n.º 375, 4600-754 TELÕES AMT",
+  :address-c "Ponte de Pego 375, 4600-754, Penalta, Amarante, Porto",
   :postal-c "4600-754",
-  :x -8.09818497304721,
-  :y 41.2922050111425,
-  :score 100,
-  :c 1}}
+  :x -8.09818002772434,
+  :y 41.2916899851019,
+  :score 91.2,
+  :c 5}}

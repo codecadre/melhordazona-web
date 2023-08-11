@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Marquês de Pombal, 45 –1º 6300-728 GUARDA",
   :name "A Gomes",
+  :href-id #uuid "15faaf5f-1334-3424-b71d-def0471131a7",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AGomes020.aspx",
@@ -94,6 +95,8 @@
   :nec 216,
   :cp7 "6300-728",
   :id #uuid "efcd5978-30a0-3dca-b463-10cfd41058ec",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/15faaf5f-a-gomes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
  :geocode

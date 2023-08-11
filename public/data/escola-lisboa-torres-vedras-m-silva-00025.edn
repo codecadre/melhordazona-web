@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. Carlos França nº 27 A 2560 TORRES VEDRAS",
   :name "M. Silva",
+  :href-id #uuid "db03feba-57a0-334a-b07f-d189df5b4473",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MSilva616.aspx",
@@ -94,6 +95,8 @@
   :nec 25,
   :cp7 "2560",
   :id #uuid "da18076d-e196-3d5e-947f-9ef902b4fc6a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/db03feba-m-silva.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
  :geocode

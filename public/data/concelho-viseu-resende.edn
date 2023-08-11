@@ -89,6 +89,7 @@
    {:address
     "Rua do Pavilhão, Nº 27, Edificio Passus II, Fracção D 4660-226 RESENDE",
     :name "S. Salvador de Resende",
+    :href-id #uuid "a5006c93-3503-3467-9214-c98cc858cd0f",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SSalvadordeResende898.aspx",
@@ -96,6 +97,8 @@
     :nec 655,
     :cp7 "4660-226",
     :id #uuid "4e601931-0390-3dee-b1dd-ba1e33490eaf",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/resende/a5006c93-s-salvador-de-resende.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Resende"},
    :geocode
@@ -195,6 +198,7 @@
    :imt-profile
    {:address "Rua D. Vasco Magalhães, Lote 2 R/C 4660-055 CÁRQUERE",
     :name "Max",
+    :href-id #uuid "06c513d6-252a-393b-b458-ad70b4535e83",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Max635.aspx",
@@ -202,6 +206,8 @@
     :nec 1264,
     :cp7 "4660-055",
     :id #uuid "4e40a3c4-a3f0-3290-8483-52342222a6f5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/resende/06c513d6-max.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Resende"},
    :geocode

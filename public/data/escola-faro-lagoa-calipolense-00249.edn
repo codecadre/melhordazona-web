@@ -88,6 +88,7 @@
  {:address
   "Urbanização Quinta do Alto, Lote 20, Fracção A Cave Semi-enterrada Direita - 8400-142 ESTOMBAR",
   :name "Calipolense",
+  :href-id #uuid "55aa9a58-f62f-3a72-9d86-3f2ba8177ce8",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaooCalipolense.aspx",
@@ -95,5 +96,7 @@
   :nec 249,
   :cp7 "8400-142",
   :id #uuid "893a9595-f658-3aa9-a789-8432e516a8eb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagoa/55aa9a58-calipolense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"}}

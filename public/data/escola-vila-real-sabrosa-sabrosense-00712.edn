@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Bouço, Nº 1 5060-361 SABROSA",
   :name "Sabrosense",
+  :href-id #uuid "930837c9-81cd-37dc-80e3-74d90beec3d1",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sabrosense904.aspx",
@@ -94,6 +95,8 @@
   :nec 712,
   :cp7 "5060-361",
   :id #uuid "641450d6-42a8-3e3d-bad5-58805449bf7c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/sabrosa/930837c9-sabrosense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Sabrosa"},
  :geocode

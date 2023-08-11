@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Amial, Nº 928 4200-056 PORTO",
   :name "Império",
+  :href-id #uuid "4ee12509-2ddf-3173-bb1a-90a9324cb85a",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Imperio521.aspx",
@@ -94,6 +95,8 @@
   :nec 325,
   :cp7 "4200-056",
   :id #uuid "bb771206-cfb3-3264-8062-1d3ec9c8d167",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/4ee12509-imperio.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

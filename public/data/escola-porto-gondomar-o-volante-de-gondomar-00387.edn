@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Travessa Infante D. Henrique, 19/21 4435-289 RIO TINTO",
   :name "O Volante de Gondomar",
+  :href-id #uuid "bef5e63d-effc-3c01-adc2-7e9a6c9a2e68",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OVolantedeGondomar734.aspx",
@@ -94,6 +95,8 @@
   :nec 387,
   :cp7 "4435-289",
   :id #uuid "bea02562-51b6-3780-a2a4-d588df182ab4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/bef5e63d-o-volante-de-gondomar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo João XXIII, Lote 10, Loja 12 ; 8100-664 Loulé",
   :name "Loulé Trânsito",
+  :href-id #uuid "45b58f99-2eed-39c0-984c-76dcd321d637",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LouleTransito542.aspx",
@@ -94,6 +95,8 @@
   :nec 649,
   :cp7 "8100-664",
   :id #uuid "19ca57c2-aa63-3ce1-972d-301d8d8816e3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/45b58f99-loule-transito.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Lameira nº 16 4710-093 GUALTAR",
   :name "Bracarense Universitária",
+  :href-id #uuid "515c2d6b-e988-3e43-a27a-137e45545449",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BracarenseUniversitaria262.aspx",
@@ -94,6 +95,8 @@
   :nec 774,
   :cp7 "4710-093",
   :id #uuid "deb80c13-6f1a-33b1-8009-20f8bd234fb5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/515c2d6b-bracarense-universitaria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

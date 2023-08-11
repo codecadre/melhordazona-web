@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Travessa do Olival, 6 r/c Dtº 2685-86 SACAVÉM",
   :name "Sacavenense",
+  :href-id #uuid "f96c85e0-8585-32b2-a889-1ccdae37525f",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sacavenense906.aspx",
@@ -94,6 +95,8 @@
   :nec 395,
   :cp7 "2685-86",
   :id #uuid "6dfbb7bd-ec21-3a14-be58-80d3294fe277",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/f96c85e0-sacavenense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode

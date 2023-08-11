@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Largo Alípio Loureiro - Santana 2970 SESIMBRA",
     :name "Rodascity",
+    :href-id #uuid "7a765fd7-a5aa-33c9-bf23-d7520541072a",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rodascity863.aspx",
@@ -95,6 +96,8 @@
     :nec 439,
     :cp7 "2970",
     :id #uuid "03a466df-780f-3c09-8696-79a459660753",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/7a765fd7-rodascity.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}]
  ["jevi-00799"
@@ -187,6 +190,7 @@
    :imt-profile
    {:address "Avª João Paulo II, 42 B e 42 F 2970-649 SESIMBRA",
     :name "Jevi",
+    :href-id #uuid "ed310111-c319-38a4-8f62-1ff724390a7d",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Jevi575.aspx",
@@ -194,15 +198,20 @@
     :nec 799,
     :cp7 "2970-649",
     :id #uuid "588695ce-55f5-383b-9441-f06b5ef93cd1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/ed310111-jevi.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
    :geocode
-   {:cp7 "2970-649",
-    :postal-c "2970-649",
-    :x -9.102590023122076,
-    :y 38.449479992710735,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "588695ce-55f5-383b-9441-f06b5ef93cd1",
+    :address "Avª João Paulo II, 42 B e 42 F 2970-649 SESIMBRA",
+    :address-c
+    "Avenida João Paulo II 42B, 2970-002, Cotovia, Sesimbra, Setúbal",
+    :postal-c "2970-002",
+    :x -9.100899979984803,
+    :y 38.4691000163877,
+    :score 89.8,
+    :c 7}}]
  ["palma-cordeiro-01037"
   {:nec 1037,
    :rates
@@ -294,6 +303,7 @@
    {:address
     "Rua Jaime Cortesão nº 53 r/c Dtº - Cova dos Vidros 2975-323 QUINTA DO CONDE",
     :name "Palma Cordeiro",
+    :href-id #uuid "1773f468-5d50-33aa-a752-7361e4895d0a",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PalmaCordeiro768.aspx",
@@ -301,6 +311,8 @@
     :nec 1037,
     :cp7 "2975-323",
     :id #uuid "38546458-0ba6-3113-be70-9f3ca35c476f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/1773f468-palma-cordeiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
    :geocode
@@ -404,6 +416,7 @@
    :imt-profile
    {:address "Rua Luísa Tody, lote 2157 2975-288 QUINTA DO CONDE",
     :name "Driver´s Club",
+    :href-id #uuid "f8eaca6b-c2b6-390f-bd7b-9b019f1be4fc",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Driver%c2%b4sClub397.aspx",
@@ -411,6 +424,8 @@
     :nec 1084,
     :cp7 "2975-288",
     :id #uuid "91f7d46b-25e0-3db0-9cf9-8c49e2fc25c3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/f8eaca6b-driver´s-club.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
    :geocode
@@ -513,6 +528,7 @@
    :imt-profile
    {:address "Rua Terra da Ucha, n.º 34-D, 2970-585 SESIMBRA",
     :name "Via Vanda",
+    :href-id #uuid "43e6b3a3-e12d-339a-93ed-64296c921fd9",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaVanda.aspx",
@@ -520,6 +536,8 @@
     :nec 1270,
     :cp7 "2970-585",
     :id #uuid "76ad1b26-76cf-3f01-ba1f-7db610e643fe",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/43e6b3a3-via-vanda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
    :geocode
@@ -578,6 +596,7 @@
    {:address
     "Av. Principal, n.º 1152 r/c, Quinta do Conde 1, 2975-246 Quinta do Conde",
     :name "Quinta do Conde",
+    :href-id #uuid "cb09a2cc-205a-3baf-8c90-89b251778898",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeCondu%c3%a7%c3%a3oQuintadoConde.aspx",
@@ -585,12 +604,18 @@
     :nec 1406,
     :cp7 "2975-246",
     :id #uuid "41482ca0-23e1-33cb-96b8-8e31b29eb787",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/cb09a2cc-quinta-do-conde.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
    :geocode
-   {:cp7 "2975-246",
+   {:id #uuid "41482ca0-23e1-33cb-96b8-8e31b29eb787",
+    :address
+    "Av. Principal, n.º 1152 r/c, Quinta do Conde 1, 2975-246 Quinta do Conde",
+    :address-c
+    "Avenida Principal 1152, 2975-246, Quinta do Conde, Sesimbra, Setúbal",
     :postal-c "2975-246",
-    :x -9.042345010229553,
-    :y 38.57019000154463,
-    :score 100,
+    :x -9.042299999409494,
+    :y 38.57030998848859,
+    :score 93.55,
     :c 1}}]]

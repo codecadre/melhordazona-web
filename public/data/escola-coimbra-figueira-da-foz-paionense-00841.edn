@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua dos Santinhos, nº 44 A 3090-495 PAIÃO",
   :name "Paionense",
+  :href-id #uuid "fe71b9c9-8d35-38d1-aa7e-a6ab80ea24df",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Paionense765.aspx",
@@ -94,6 +95,8 @@
   :nec 841,
   :cp7 "3090-495",
   :id #uuid "0e5f6bcc-43e9-3c03-8603-ed192c8f9c30",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/fe71b9c9-paionense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
  :geocode

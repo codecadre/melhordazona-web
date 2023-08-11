@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua do Alentejo, Nº 1 e 1-A 2845-092 SEIXAL",
     :name "Vanessa",
+    :href-id #uuid "bd4854bf-8178-33b7-a875-6d5582698de1",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vanessa1038.aspx",
@@ -95,6 +96,8 @@
     :nec 452,
     :cp7 "2845-092",
     :id #uuid "ab04d5cf-027d-32bf-8f63-75c12d128d65",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/bd4854bf-vanessa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Rua das Flores, 8 loja C 2845-367 AMORA",
     :name "Amorense",
+    :href-id #uuid "e10c8b3d-9feb-3e7a-9847-3161c622315d",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Amorense104.aspx",
@@ -204,6 +208,8 @@
     :nec 538,
     :cp7 "2845-367",
     :id #uuid "642ce38a-6e12-3130-a13c-1c60d8090b47",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/e10c8b3d-amorense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
    :geocode
@@ -305,6 +311,7 @@
    :imt-profile
    {:address "Praceta João Azevedo nº 4/4 A 2855-587 CORROIOS",
     :name "Tecnidrive",
+    :href-id #uuid "1a65b18c-9c46-3b97-ae10-7e90b1f59b42",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tecnidrive999.aspx",
@@ -312,6 +319,8 @@
     :nec 934,
     :cp7 "2855-587",
     :id #uuid "a20173cb-fd2e-3604-a7f1-0cb97b954498",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/1a65b18c-tecnidrive.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
    :geocode
@@ -415,6 +424,7 @@
    {:address
     "Rua Associação dos Reformados de Corroios nº 19 Loja A Dtº 2855-109 CORROIOS",
     :name "Corroios PMR",
+    :href-id #uuid "5fe720f4-2086-3be9-b372-a891a003990e",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CorroiosPMR336.aspx",
@@ -422,6 +432,8 @@
     :nec 1013,
     :cp7 "2855-109",
     :id #uuid "2879e60e-15c7-3f49-a160-cc16ee35d4fb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/5fe720f4-corroios-pmr.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
    :geocode
@@ -521,6 +533,7 @@
    :imt-profile
    {:address "Rua da República, lote 344 r/c 2865-065 FERNÃO FERRO",
     :name "Costa Azul",
+    :href-id #uuid "f1a3e8c7-4d82-334b-a62c-bc0dcdad4fad",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostaAzul339.aspx",
@@ -528,6 +541,8 @@
     :nec 1122,
     :cp7 "2865-065",
     :id #uuid "86f86840-b62b-3e0c-9a59-256cd6bd3ac0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/f1a3e8c7-costa-azul.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
    :geocode
@@ -631,6 +646,7 @@
    {:address
     "Rua Distrito de Lobata, Nº 7-B, Quinta de Cima, Torre da Marinha 2840-378 SEIXAL",
     :name "Pereira & Tostão",
+    :href-id #uuid "c2fec1b7-9df1-34c4-934a-14ed32fcf897",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PereiraTostao785.aspx",
@@ -638,6 +654,8 @@
     :nec 1223,
     :cp7 "2840-378",
     :id #uuid "b34c6654-2f02-318b-9639-1ecf952e4d2f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/c2fec1b7-pereira-tostao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
    :geocode
@@ -741,6 +759,7 @@
    :imt-profile
    {:address "Rua Casal do Marco, Nº 73 C e 73 D, 2840-732 SEIXAL",
     :name "Rio Sul",
+    :href-id #uuid "d7b61b23-aa00-3288-9f47-ef9f72eaee8d",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rio%20Sul.aspx",
@@ -748,6 +767,8 @@
     :nec 1236,
     :cp7 "2840-732",
     :id #uuid "84744ece-ecab-32be-badc-9bce5e9532f6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/d7b61b23-rio-sul.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
    :geocode
@@ -850,6 +871,7 @@
    :imt-profile
    {:address "Praceta António Gonçalves, Nº 1 2845-549 AMORA",
     :name "Topdrive",
+    :href-id #uuid "293de01c-acaf-39ee-a0b8-5b97fa6329db",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Topdrive1014.aspx",
@@ -857,6 +879,8 @@
     :nec 1259,
     :cp7 "2845-549",
     :id #uuid "f174ec49-b25f-3b8b-82cd-a10a50433ab9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/293de01c-topdrive.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]
  ["helder-pereira-01283"
@@ -949,6 +973,7 @@
    :imt-profile
    {:address "Av. 1.º de Maio, n.º 87-A, 2845-601 Amora",
     :name "Helder Pereira",
+    :href-id #uuid "6454a219-93f6-3aa3-a6bc-76aa8d6a0202",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/HelderPereira.aspx",
@@ -956,15 +981,20 @@
     :nec 1283,
     :cp7 "2845-601",
     :id #uuid "1d23ad76-7d33-3992-86af-f4ecd81ba297",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/6454a219-helder-pereira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
    :geocode
-   {:cp7 "2845-601",
+   {:id #uuid "1d23ad76-7d33-3992-86af-f4ecd81ba297",
+    :address "Av. 1.º de Maio, n.º 87-A, 2845-601 Amora",
+    :address-c
+    "Avenida 1 de Maio 87A, 2845-601, Fogueteiro, Seixal, Setúbal",
     :postal-c "2845-601",
-    :x -9.108909978116344,
-    :y 38.614624984848604,
-    :score 100,
-    :c 1}}]
+    :x -9.109199991966221,
+    :y 38.61501000757096,
+    :score 93.11,
+    :c 4}}]
  ["abs-01334"
   {:nec 1334,
    :rates
@@ -1055,6 +1085,7 @@
    :imt-profile
    {:address "Rua Foros da Amora, loja n.º 91-A, 2845-554 Amora",
     :name "ABS",
+    :href-id #uuid "bbacff0d-fe2f-3294-9eb7-f76ec31cce50",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ABS.aspx",
@@ -1062,6 +1093,8 @@
     :nec 1334,
     :cp7 "2845-554",
     :id #uuid "6ddbb550-377b-3cea-a3fc-6231366a6f29",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/bbacff0d-abs.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
    :geocode
@@ -1069,98 +1102,6 @@
     :postal-c "2845-554",
     :x -9.124454971926497,
     :y 38.61325999191649,
-    :score 100,
-    :c 1}}]
- ["nova-de-setubal-01364"
-  {:nec 1364,
-   :rates
-   [{:r/nec 1364,
-     :r/level-0 "2015",
-     :r/d-scheduled 1,
-     :r/t-rate nil,
-     :r/total-rate 0.0,
-     :r/d-done 1,
-     :r/total-scheduled 1,
-     :r/name-raw "Escola De Condução Nova De Setúbal",
-     :r/total-done 1,
-     :r/d-rate 0.0,
-     :r/t-scheduled 0.0,
-     :r/k "nova-de-setubal-01364",
-     :r/total-passed 0.0,
-     :r/t-done 0.0}
-    {:r/nec 1364,
-     :r/level-0 "2017",
-     :r/d-scheduled 64,
-     :r/t-rate 0.7558,
-     :r/total-rate 0.7667,
-     :r/d-done 64,
-     :r/total-scheduled 154,
-     :r/name-raw "Escola De Condução Nova De Setúbal",
-     :r/total-done 150,
-     :r/d-rate 0.7813,
-     :r/t-scheduled 90.0,
-     :r/k "nova-de-setubal-01364",
-     :r/total-passed 115.0,
-     :r/t-done 86.0}
-    {:r/nec 1364,
-     :r/level-0 "2018",
-     :r/d-scheduled 93,
-     :r/t-rate 0.694,
-     :r/total-rate 0.722,
-     :r/d-done 89,
-     :r/total-scheduled 232,
-     :r/name-raw "Escola De Condução Nova De Setúbal",
-     :r/total-done 223,
-     :r/d-rate 0.764,
-     :r/t-scheduled 139.0,
-     :r/k "nova-de-setubal-01364",
-     :r/total-passed 161.0,
-     :r/t-done 134.0}
-    {:r/nec 1364,
-     :r/level-0 "2019",
-     :r/d-scheduled 227,
-     :r/t-rate 0.6463,
-     :r/total-rate 0.7038,
-     :r/d-done 226,
-     :r/total-scheduled 530,
-     :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DE SETÚBAL",
-     :r/total-done 520,
-     :r/d-rate 0.7788,
-     :r/t-scheduled 303.0,
-     :r/k "nova-de-setubal-01364",
-     :r/total-passed 366.0,
-     :r/t-done 294.0}
-    {:r/nec 1364,
-     :r/level-0 "2020",
-     :r/d-scheduled 218,
-     :r/t-rate 0.6796,
-     :r/total-rate 0.7178,
-     :r/d-done 208,
-     :r/total-scheduled 691,
-     :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DE SETÚBAL",
-     :r/total-done 645,
-     :r/d-rate 0.7981,
-     :r/t-scheduled 473.0,
-     :r/k "nova-de-setubal-01364",
-     :r/total-passed 463.0,
-     :r/t-done 437.0}],
-   :imt-profile
-   {:address "Rua Cacheu, n.º 17, 2845-607 Seixal",
-    :name "Nova de Setúbal",
-    :distrito "Setúbal",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeSet%c3%babal.aspx",
-    :concelho "Seixal",
-    :nec 1364,
-    :cp7 "2845-607",
-    :id #uuid "6a1abda7-fd26-3e70-a03e-7ca95543f91a",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
-   :geocode
-   {:cp7 "2845-607",
-    :postal-c "2845-607",
-    :x -9.116640020681842,
-    :y 38.63061501580785,
     :score 100,
     :c 1}}]
  ["forus-01392"
@@ -1211,6 +1152,7 @@
    :imt-profile
    {:address "Estação de Comboios dos Foros da Amora loja 18",
     :name "Forus",
+    :href-id #uuid "144bea86-0843-34e0-86bd-1d69a250c914",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Forus.aspx",
@@ -1218,14 +1160,7 @@
     :nec 1392,
     :cp7 nil,
     :id #uuid "d77c278d-0ade-3a68-8077-689dada9eb81",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/144bea86-forus.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
-   :geocode
-   {:id #uuid "d77c278d-0ade-3a68-8077-689dada9eb81",
-    :address "Estação de Comboios dos Foros da Amora ",
-    :address-c "Comboio-Foros de Amora",
-    :postal-c "2845",
-    :x -9.127749999999935,
-    :y 38.620940000000076,
-    :score 84.08,
-    :c 6}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}]]

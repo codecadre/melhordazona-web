@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Egas Moniz, nº 20 r/c 3650-219 VILA NOVA DE PAIVA",
   :name "Irmãos Tavares",
+  :href-id #uuid "7de1d913-0af6-35fc-9aa0-c846c71ae32f",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IrmaosTavares569.aspx",
@@ -94,6 +95,8 @@
   :nec 1119,
   :cp7 "3650-219",
   :id #uuid "d5178182-ff1e-39ab-b4d0-3ebb3a24b5e1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/vila-nova-de-paiva/7de1d913-irmaos-tavares.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vila%20Nova%20de%20Paiva"},
  :geocode

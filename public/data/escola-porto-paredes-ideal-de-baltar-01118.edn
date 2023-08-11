@@ -88,6 +88,7 @@
  {:address
   "Avª dos Bombeiros Voluntários – Edifício Sol 4580-059 BALTAR",
   :name "Ideal de Baltar",
+  :href-id #uuid "bd3dbbe0-dcba-3817-b1ae-887397c2584d",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealdeBaltar514.aspx",
@@ -95,6 +96,8 @@
   :nec 1118,
   :cp7 "4580-059",
   :id #uuid "c6c9e1ca-c0cc-399d-8170-880cd308a2fe",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/bd3dbbe0-ideal-de-baltar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. Fernando, 55 –1º 2550-142 CADAVAL",
   :name "Auto Cadaval",
+  :href-id #uuid "f89442ff-378f-3a69-8109-0642c468c980",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoCadaval144.aspx",
@@ -94,6 +95,8 @@
   :nec 166,
   :cp7 "2550-142",
   :id #uuid "d6e05f46-ac92-3cf4-be35-8ed70f4b8185",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cadaval/f89442ff-auto-cadaval.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cadaval"},
  :geocode

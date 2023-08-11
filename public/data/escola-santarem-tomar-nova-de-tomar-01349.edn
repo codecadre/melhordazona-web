@@ -31,6 +31,7 @@
  :imt-profile
  {:address "Av. General Norton de Matos, n.º 30-32 r/c Esq. Tomar",
   :name "Nova de Tomar",
+  :href-id #uuid "c62b6c3b-34b8-3e86-a140-3760d5a59bd5",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeTomar.aspx",
@@ -38,5 +39,7 @@
   :nec 1349,
   :cp7 nil,
   :id #uuid "b780e95a-4c4a-3cb6-89c0-287311e007ac",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/c62b6c3b-nova-de-tomar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"}}

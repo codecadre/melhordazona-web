@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Tenente Zeferino Teixeira, Nº 9, 2790-085 CARNAXIDE",
   :name "Auto Carnaxide",
+  :href-id #uuid "afc7628c-53ed-3ebb-96e9-44e1144c5e2e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoCarnaxide146.aspx",
@@ -94,12 +95,16 @@
   :nec 1149,
   :cp7 "2790-085",
   :id #uuid "69246c3b-21d6-398e-abd2-4d97eb228055",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/afc7628c-auto-carnaxide.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
  :geocode
- {:cp7 "2790-085",
-  :postal-c "2790-085",
-  :x -9.237065002898248,
-  :y 38.72702500723631,
-  :score 100,
+ {:address "Rua Tenente Zeferino Teixeira, Nº 9, 2790-085 CARNAXIDE",
+  :address-c
+  "Rua Tenente General Zeferino Sequeira 9, 2790-156, Carnaxide, Oeiras, Lisboa",
+  :postal-c "2790-156",
+  :x -9.236699971015,
+  :y 38.727140006948,
+  :score 91.16,
   :c 1}}

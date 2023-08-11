@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Principal, n.º 8, 2480-173 LEÕES",
   :name "A. Garcia",
+  :href-id #uuid "c809a0d8-ea86-3471-ad7c-bb7fb963148f",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AGarcia019.aspx",
@@ -94,12 +95,17 @@
   :nec 526,
   :cp7 "2480-173",
   :id #uuid "88ffa9a5-73e3-3ab2-a1b1-c567e07194d6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/porto-de-mos/c809a0d8-a-garcia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"},
  :geocode
- {:cp7 "2480-173",
+ {:id #uuid "88ffa9a5-73e3-3ab2-a1b1-c567e07194d6",
+  :address "Rua Principal, n.º 8, 2480-173 LEÕES",
+  :address-c
+  "Rua Principal 8, 2480-173, Tourões, Porto de Mós, Leiria",
   :postal-c "2480-173",
-  :x -8.839080002549593,
-  :y 39.600994987227494,
-  :score 100,
-  :c 1}}
+  :x -8.843979979326946,
+  :y 39.60240000374728,
+  :score 92.67,
+  :c 30}}

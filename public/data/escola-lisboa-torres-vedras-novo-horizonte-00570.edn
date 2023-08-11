@@ -88,6 +88,7 @@
  {:address
   "Urb. Vale Nogueira, Lote 20-Fracção A -R/C Esq-Silveira 2560-194 TORRES VEDRAS",
   :name "Novo Horizonte",
+  :href-id #uuid "fbd72489-3556-3fec-988a-adaf86aada3f",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovoHorizonte723.aspx",
@@ -95,6 +96,8 @@
   :nec 570,
   :cp7 "2560-194",
   :id #uuid "663ff945-b1cb-3045-a8ea-ba07c630b813",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/fbd72489-novo-horizonte.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
  :geocode

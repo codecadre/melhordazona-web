@@ -1,13 +1,16 @@
-(ns recepies.places
+;; Not too happy with how this script is done. Needs to be refactored into functions so that if can be loaded in a REPL
+;; safely
+
+(ns recepies.web-data
   (:require [clojure.edn :as edn]
             [clojure.string :as clj-str]
             [clojure.pprint :as pprint]
             [clojure.java.io :as io]
-            [bb-passrates.shared.main :refer [string->keywordize]]
+            [bb-passrates.shared.main :refer [string->keywordize clean-strings]]
             [bb-passrates.shared.copy :refer [copy]]))
 
 (def db
-  (->> "recepies/db.edn" slurp edn/read-string))
+  (->> "aggregate-transform-load/data/db.edn" slurp edn/read-string))
 
 (def concelhos
   (->> db
@@ -38,7 +41,8 @@
 
              "(def places\n" l "\n)"]))
 
-(let [f "src/main/bb_passrates/shared/places.cljc"
+
+(let [f "public/src/clj/bb_passrates/shared/places.cljc"
       d-as-string (->> (names-list)
                        #_(sort #(compare (first %1) (first %2)))
                        pprint/pprint
@@ -60,7 +64,10 @@
       (mapv #(format (str domain (copy [:href/district :en]))  %)  distritos)
       (map #(str domain %)
            ["/en/"
-            "/paginas/acerca/"
+            "/static/acerca/"
+            "/static/en/about/"
+            "/static/origem-dos-dados/"
+            "/static/en/data-sources/"
             (copy [:href/district-index :pt])
             (copy [:href/district-index :en])
             (copy [:href/nil-concelho :pt])
@@ -94,10 +101,10 @@
 
 
 
-(spit "sitemap.txt" (apply str (interpose "\n"  (sitemap-gen (names-list)))))
+(spit "public/sitemap.txt" (apply str (interpose "\n"  (sitemap-gen (names-list)))))
 
 
-(let [list (->> (names-list)
+#_(let [list (->> (names-list)
                 sitemap-gen
                 )
       template-fn (fn [url]
@@ -112,7 +119,7 @@
             :content (fn [el] (first el)))))
   )
 
-(print (indent-str (element :urlset {:xmlns "http://www.sitemaps.org/schemas/sitemap/0.9"}
+#_(print (indent-str (element :urlset {:xmlns "http://www.sitemaps.org/schemas/sitemap/0.9"}
                             (element :url {}
                                      (element :loc {} "The baz value1")
                                      ))))
@@ -146,22 +153,25 @@
   (let [distrito (-> schools first last :imt-profile :distrito)
         concelho-key (string->file-sys-string concelho)
         distrito-key (string->file-sys-string distrito)
-        f (format "./data/concelho-%s-%s.edn" distrito-key concelho-key)
-        data-string (with-out-str (pprint/pprint schools))]
+        f (format "./public/data/concelho-%s-%s.edn" distrito-key concelho-key)
+        data-string (binding [*print-namespace-maps* false]
+                      (with-out-str (pprint/pprint schools)))]
     (io/make-parents f)
     (spit f data-string)))
 
 (let [d (->> db
              (filter #(-> % last :imt-profile nil?)))
-      f "./data/concelho-nil.edn"
-      data-string (with-out-str (pprint/pprint d))]
+      f "./public/data/concelho-nil.edn"
+      data-string (binding [*print-namespace-maps* false]
+                    (with-out-str (pprint/pprint d)))]
   (spit f data-string))
 
 (doseq [[distrito schools] (->> db
                                 (group-by #(-> % last :imt-profile :distrito))
                                 (remove #(-> % first nil?)))]
-  (let [f (format "./data/distrito-%s.edn" (string->file-sys-string distrito))
-        data-string (with-out-str (pprint/pprint schools))]
+  (let [f (format "./public/data/distrito-%s.edn" (string->file-sys-string distrito))
+        data-string (binding [*print-namespace-maps* false]
+                      (with-out-str (pprint/pprint schools)))]
     (spit f data-string)))
 
 (doseq [[k s] db]
@@ -172,6 +182,7 @@
                                (string->file-sys-string  distrito-key)
                                (string->file-sys-string  concelho-key))
                        "nil")
-        f (format "./data/escola-%s-%s.edn" location-key k)
-        data-string (with-out-str (pprint/pprint s))]
+        f (format "./public/data/escola-%s-%s.edn" location-key k)
+        data-string (binding [*print-namespace-maps* false]
+                      (with-out-str (pprint/pprint s)))]
     (spit f data-string)))

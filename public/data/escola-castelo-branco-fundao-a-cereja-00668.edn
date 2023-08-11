@@ -88,6 +88,7 @@
  {:address
   "Loteamento Quinta do Espírito Santo, lote 10 r/c Frente 6230-329 FUNDÃO",
   :name "A Cereja",
+  :href-id #uuid "035c3e16-af4a-38d1-9233-2173e6767f72",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ACereja005.aspx",
@@ -95,6 +96,8 @@
   :nec 668,
   :cp7 "6230-329",
   :id #uuid "2ab49907-1192-3122-9793-687bc6136515",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/fundao/035c3e16-a-cereja.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Barros Lobo, Nº 23 6290-512 GOUVEIA",
   :name "S. Cristóvão - Gouveia",
+  :href-id #uuid "5d577d33-f7fa-3dcc-a8ee-ec9ce32abe9f",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SCristovaoGouveia880.aspx",
@@ -94,6 +95,8 @@
   :nec 195,
   :cp7 "6290-512",
   :id #uuid "76277110-19da-3ed3-aee4-4f83d9998ca9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/gouveia/5d577d33-s-cristovao-gouveia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Gouveia"},
  :geocode

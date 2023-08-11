@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Bairro Aliança, 7 5400-040 SANTA MARIA MAIOR",
     :name "Flaviense",
+    :href-id #uuid "f3e56e0e-84d0-3c2d-89d8-774ca29de4cd",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Flaviense458.aspx",
@@ -95,15 +96,19 @@
     :nec 89,
     :cp7 "5400-040",
     :id #uuid "4e5c786d-fbc4-3869-9bbf-26a0909309ee",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/chaves/f3e56e0e-flaviense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
    :geocode
-   {:cp7 "5400-040",
+   {:id #uuid "4e5c786d-fbc4-3869-9bbf-26a0909309ee",
+    :address "Bairro Aliança, 7 5400-040 SANTA MARIA MAIOR",
+    :address-c "Bairro da Aliança, 5400-040, Chaves, Vila Real",
     :postal-c "5400-040",
-    :x -7.46971498591347,
-    :y 41.74407001665983,
-    :score 100,
-    :c 1}}]
+    :x -7.469629909596236,
+    :y 41.744535023693246,
+    :score 94.21,
+    :c 2}}]
  ["auto-volante-de-chaves-00381"
   {:nec 381,
    :rates
@@ -194,6 +199,7 @@
    :imt-profile
    {:address "Av. 5 de Outubro, 4 5400-017 SANTA MARIA MAIOR",
     :name "Auto Volante de Chaves",
+    :href-id #uuid "dabdda50-5394-3d23-882f-2e7a9a0d19dd",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoVolantedeChaves180.aspx",
@@ -201,6 +207,8 @@
     :nec 381,
     :cp7 "5400-017",
     :id #uuid "b5e6e1bd-408e-3e72-ad76-fe3f00d95fc6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/chaves/dabdda50-auto-volante-de-chaves.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
    :geocode
@@ -303,6 +311,7 @@
    {:address
     "Avª da Raposeira, Edificio Jardim ,Loja 4 5400-482 SANTA MARIA MAIOR",
     :name "Santo Amaro",
+    :href-id #uuid "883b3531-4dba-3a70-9821-4e4c3b6b7272",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantoAmaro940.aspx",
@@ -310,6 +319,8 @@
     :nec 708,
     :cp7 "5400-482",
     :id #uuid "e84a952a-68a0-3fdf-b744-4afb0ee24ab2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/chaves/883b3531-santo-amaro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
    :geocode
@@ -414,6 +425,7 @@
    {:address
     "Estrada Nacional n.º 2-Edificio Campilho, Piso 2, Loja 7 R/C 5400 VIDAGO",
     :name "Santa Eugénia",
+    :href-id #uuid "7fd7440f-0350-3e8a-95da-316e866582c1",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaEugenia.aspx",
@@ -421,5 +433,18 @@
     :nec 1175,
     :cp7 "5400",
     :id #uuid "b6acb363-fce8-3ac9-9f35-127d53b17b99",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/chaves/7fd7440f-santa-eugenia.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
+   :geocode
+   {:id #uuid "b6acb363-fce8-3ac9-9f35-127d53b17b99",
+    :address
+    "Estrada Nacional n.º 2-Edificio Campilho, Piso 2, Loja 7 R/C 5400 VIDAGO",
+    :address-c
+    "Estrada Nacional 2, 5400-764, Vila Nova da Veiga, Chaves, Vila Real",
+    :postal-c "5400-764",
+    :x -7.488301242055634,
+    :y 41.71661574608685,
+    :score 88.64,
+    :c 1}}]]

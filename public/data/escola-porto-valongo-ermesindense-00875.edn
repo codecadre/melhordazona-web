@@ -88,6 +88,7 @@
  {:address
   "Rua Rodrigues de Freitas, 1074 – 1º Esqº 4445-630 ERMESINDE",
   :name "Ermesindense",
+  :href-id #uuid "218766cf-a7cb-3cd7-9c61-001156cd2e94",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ermesindense409.aspx",
@@ -95,6 +96,8 @@
   :nec 875,
   :cp7 "4445-630",
   :id #uuid "51fc2275-6589-316f-8d77-4fcfac084f08",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/valongo/218766cf-ermesindense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
  :geocode

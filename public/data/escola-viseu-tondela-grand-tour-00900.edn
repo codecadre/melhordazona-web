@@ -32,6 +32,7 @@
  {:address
   "Edf. Avenida - Fracção D - Av. dos Bombeiros Voluntários, 172, R/C Post Esq. - 3460-572 Tondela",
   :name "Escola de Condução Grand Tour",
+  :href-id #uuid "e1eb84eb-b793-3a07-903c-31b20acbb935",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Escola%20de%20Condu%c3%a7%c3%a3o%20Grand%20Tour.aspx",
@@ -39,6 +40,8 @@
   :nec 900,
   :cp7 "3460-572",
   :id #uuid "9929dc34-7d82-34ea-944d-a97bce27d9df",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/tondela/e1eb84eb-escola-de-conducao-grand-tour.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
  :geocode

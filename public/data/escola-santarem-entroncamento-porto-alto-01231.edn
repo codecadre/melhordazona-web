@@ -88,6 +88,7 @@
  {:address
   "Praça da Comunidade Europeia, Nº 16 Cave, Lote 78 2330-134 ENTRONCAMENTO",
   :name "Porto Alto",
+  :href-id #uuid "8d30fa18-9de8-3415-90fb-5f76fbf55df8",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PortoAlto804.aspx",
@@ -95,6 +96,8 @@
   :nec 1231,
   :cp7 "2330-134",
   :id #uuid "749f27ba-a394-3ec1-8c43-24fc347744e0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/entroncamento/8d30fa18-porto-alto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"},
  :geocode

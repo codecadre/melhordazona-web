@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Manuel Peixoto, Nº 211 R/C Creixomil",
   :name "Romana",
+  :href-id #uuid "f8ea4b24-1d93-3063-8f6f-96e286e30082",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Romana868.aspx",
@@ -94,14 +95,16 @@
   :nec 1025,
   :cp7 nil,
   :id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/f8ea4b24-romana.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode
  {:id #uuid "dcc60eb4-f982-37e5-b9f4-052f9f8973cf",
-  :address "Rua Manuel Peixoto, N 211 R/C Creixomil",
+  :address "Rua Manuel Peixoto, Nº 211 R/C Creixomil",
   :address-c "Rua Manuel Peixoto 211, 4835-070, Guimarães, Braga",
   :postal-c "4835-070",
   :x -8.302399985633059,
   :y 41.436199988907305,
-  :score 95.01,
+  :score 91.65,
   :c 1}}

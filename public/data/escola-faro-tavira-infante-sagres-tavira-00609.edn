@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua 4 de Outubro,20 r/c 8800-362 TAVIRA",
   :name "Infante de Sagres –Tavira",
+  :href-id #uuid "a5d96c8b-b711-3a8d-ba19-451235ef6097",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagres%e2%80%93Tavira551.aspx",
@@ -94,6 +95,8 @@
   :nec 609,
   :cp7 "8800-362",
   :id #uuid "cc6fa89b-8dca-3629-b19d-e59c3ac65add",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/tavira/a5d96c8b-infante-de-sagres-tavira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Tavira"},
  :geocode

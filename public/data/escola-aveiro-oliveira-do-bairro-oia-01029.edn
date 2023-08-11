@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Agnelo Prazeres nº 45 R/C 3770-059 OIÃ",
   :name "Oiã",
+  :href-id #uuid "343ca06d-a02f-314f-9530-989d7bd54d36",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oia741.aspx",
@@ -94,12 +95,17 @@
   :nec 1029,
   :cp7 "3770-059",
   :id #uuid "f5710f22-1339-3bcf-bc6b-0a73593983eb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/oliveira-do-bairro/343ca06d-oia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
  :geocode
- {:cp7 "3770-059",
-  :postal-c "3770-059",
-  :x -8.533664992327658,
-  :y 40.542804990216524,
-  :score 100,
-  :c 1}}
+ {:id #uuid "f5710f22-1339-3bcf-bc6b-0a73593983eb",
+  :address "Rua Agnelo Prazeres nº 45 R/C 3770-059 OIÃ",
+  :address-c
+  "Rua Engenheiro Agnelo Prazeres 45, 3770-054, Carris, Oliveira do Bairro, Aveiro",
+  :postal-c "3770-054",
+  :x -8.545361361389961,
+  :y 40.54260168668039,
+  :score 94.54,
+  :c 4}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Arazede, Nº 308 R/C Esq 3600-712 TOCHA",
   :name "Zita",
+  :href-id #uuid "b349eea5-df3c-32f0-9ea9-aef8bb1cdd98",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Zita1097.aspx",
@@ -94,6 +95,8 @@
   :nec 1069,
   :cp7 "3600-712",
   :id #uuid "12e1e495-4a33-3f05-8328-56a04b0f498f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/cantanhede/b349eea5-zita.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
  :geocode

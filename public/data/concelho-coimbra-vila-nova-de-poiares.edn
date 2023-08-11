@@ -89,6 +89,7 @@
    {:address
     "Urbanização Quinta de Vale Vaqueiro, Lote 2, Loja C, 3350-151 VILA NOVA DE POIARES",
     :name "A Poiarense",
+    :href-id #uuid "922a0328-3eef-3415-bca9-5a704c9b2094",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/APoiarense037.aspx",
@@ -96,6 +97,8 @@
     :nec 287,
     :cp7 "3350-151",
     :id #uuid "b2475434-5de1-385b-b936-2f90bb2ee2f3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/vila-nova-de-poiares/922a0328-a-poiarense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Vila%20Nova%20Poiares"},
    :geocode

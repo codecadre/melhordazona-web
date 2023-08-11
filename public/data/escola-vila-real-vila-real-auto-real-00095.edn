@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Misericórdia, nº 2 5000-653 VILA REAL",
   :name "Auto Real",
+  :href-id #uuid "71e0b335-ac62-31b4-b757-192195759d1a",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoReal173.aspx",
@@ -94,6 +95,8 @@
   :nec 95,
   :cp7 "5000-653",
   :id #uuid "dbee1129-6f8d-3d86-9015-eff207987d16",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/71e0b335-auto-real.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Praceta Henrique Pousão Lote 21/22 Loja 5-B 2745-123 QUELUZ",
   :name "Infante de Queluz",
+  :href-id #uuid "144ece28-57b6-3046-844e-7dffb42b2179",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeQueluz529.aspx",
@@ -95,6 +96,8 @@
   :nec 977,
   :cp7 "2745-123",
   :id #uuid "ba92e46c-1546-308f-9855-603e91343348",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/144ece28-infante-de-queluz.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

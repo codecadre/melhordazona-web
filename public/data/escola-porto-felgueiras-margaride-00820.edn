@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar de Quintã 4610-270 MARGARIDE(SANTA EULÁLIA)",
   :name "Margaride",
+  :href-id #uuid "56cac322-4586-3ed3-9450-0e0c0cc10e1f",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Margaride009.aspx",
@@ -94,5 +95,7 @@
   :nec 820,
   :cp7 "4610-270",
   :id #uuid "880f6bf7-2b7f-3f9f-8cec-7c6416c3f592",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/56cac322-margaride.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}

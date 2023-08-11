@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª João Paulo II, 42 B e 42 F 2970-649 SESIMBRA",
   :name "Jevi",
+  :href-id #uuid "ed310111-c319-38a4-8f62-1ff724390a7d",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Jevi575.aspx",
@@ -94,12 +95,17 @@
   :nec 799,
   :cp7 "2970-649",
   :id #uuid "588695ce-55f5-383b-9441-f06b5ef93cd1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/ed310111-jevi.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
  :geocode
- {:cp7 "2970-649",
-  :postal-c "2970-649",
-  :x -9.102590023122076,
-  :y 38.449479992710735,
-  :score 100,
-  :c 1}}
+ {:id #uuid "588695ce-55f5-383b-9441-f06b5ef93cd1",
+  :address "Avª João Paulo II, 42 B e 42 F 2970-649 SESIMBRA",
+  :address-c
+  "Avenida João Paulo II 42B, 2970-002, Cotovia, Sesimbra, Setúbal",
+  :postal-c "2970-002",
+  :x -9.100899979984803,
+  :y 38.4691000163877,
+  :score 89.8,
+  :c 7}}

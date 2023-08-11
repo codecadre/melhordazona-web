@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Chã - Bairros, 4550-060 CASTELO DE PAIVA",
   :name "Auto Vinhas",
+  :href-id #uuid "04bebe73-b065-3dc5-93ac-1403996e620a",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoVinhas178.aspx",
@@ -94,12 +95,16 @@
   :nec 809,
   :cp7 "4550-060",
   :id #uuid "4ce6cb2a-1385-3363-a35c-c52efe0a7df9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/04bebe73-auto-vinhas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
  :geocode
- {:cp7 "4550-060",
-  :postal-c "4550-060",
-  :x -8.252808204038445,
-  :y 41.039226726181454,
-  :score 100,
-  :c 1}}
+ {:id #uuid "4ce6cb2a-1385-3363-a35c-c52efe0a7df9",
+  :address "Chã - Bairros, 4550-060 CASTELO DE PAIVA",
+  :address-c "4550, Bairros, Castelo de Paiva, Aveiro",
+  :postal-c "4550",
+  :x -8.250140698624488,
+  :y 41.03655910663749,
+  :score 94.85,
+  :c 3}}

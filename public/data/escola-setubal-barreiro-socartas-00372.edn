@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Santa Maria 10 B – 2º A ; B; C 2830-007 BARREIRO",
   :name "Socartas",
+  :href-id #uuid "1b3831ef-d274-37d7-b312-111f455d3751",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Socartas979.aspx",
@@ -94,12 +95,16 @@
   :nec 372,
   :cp7 "2830-007",
   :id #uuid "2e41c7df-2b39-34f1-aab5-afb09d0aade9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/barreiro/1b3831ef-socartas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
  :geocode
- {:cp7 "2830-007",
+ {:id #uuid "2e41c7df-2b39-34f1-aab5-afb09d0aade9",
+  :address "Avª Santa Maria 10 B – 2º A ; B; C 2830-007 BARREIRO",
+  :address-c "Avenida Santa Maria 10B, 2830-007, Barreiro, Setúbal",
   :postal-c "2830-007",
-  :x -9.068305021649365,
-  :y 38.65658998892485,
-  :score 100,
-  :c 1}}
+  :x -9.068299992507463,
+  :y 38.656259993396816,
+  :score 89.69,
+  :c 2}}

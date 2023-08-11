@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Jardim n º 1339 4405-830 VILAR do PARAÍSO",
   :name "Vilar do Paraíso",
+  :href-id #uuid "1164ee54-b65d-3b3a-85b0-bc46d5f1361a",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VilardoParaiso1070.aspx",
@@ -94,12 +95,17 @@
   :nec 1092,
   :cp7 "4405-830",
   :id #uuid "be324a54-ca1b-33ef-98d3-17faea40f596",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/1164ee54-vilar-do-paraiso.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode
- {:cp7 "4405-830",
+ {:id #uuid "be324a54-ca1b-33ef-98d3-17faea40f596",
+  :address "Rua do Jardim n º 1339 4405-830 VILAR do PARAÍSO",
+  :address-c
+  "Rua do Jardim, 4405-830, Junqueira, Vila Nova de Gaia, Porto",
   :postal-c "4405-830",
-  :x -8.618914982592173,
-  :y 41.100944984285604,
-  :score 100,
-  :c 1}}
+  :x -8.618779950132037,
+  :y 41.099325034813646,
+  :score 92.83,
+  :c 18}}

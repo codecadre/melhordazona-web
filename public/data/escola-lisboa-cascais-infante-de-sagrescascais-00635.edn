@@ -88,6 +88,7 @@
  {:address
   "Avª da República, Gaveto Praça Maria Azevedo Gomes, Nº 433 A 2775-273 PAREDE",
   :name "Infante de Sagres -Cascais",
+  :href-id #uuid "e2ced67a-a07c-3e99-93bb-7717d21de090",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresCascais547.aspx",
@@ -95,12 +96,18 @@
   :nec 635,
   :cp7 "2775-273",
   :id #uuid "7c391833-07cc-3908-bf66-428aeee22f82",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/e2ced67a-infante-de-sagres-cascais.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode
- {:cp7 "2775-273",
-  :postal-c "2775-273",
-  :x -9.34521996851322,
-  :y 38.68909999667159,
-  :score 100,
+ {:id #uuid "7c391833-07cc-3908-bf66-428aeee22f82",
+  :address
+  "Avª da República, Gaveto Praça Maria Azevedo Gomes, Nº 433 A 2775-273 PAREDE",
+  :address-c
+  "Praça Mário de Azevedo Gomes 433A, 2775-240, Parede, Cascais, Lisboa",
+  :postal-c "2775-240",
+  :x -9.359099981076582,
+  :y 38.69128000395898,
+  :score 93.34,
   :c 1}}

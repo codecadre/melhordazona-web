@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Beato Nuno, Nº 111 e 113 2495 FÁTIMA",
   :name "Fátima",
+  :href-id #uuid "15f43af0-5452-3d01-856d-4dfe08fbcc2a",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fatima446.aspx",
@@ -94,15 +95,7 @@
   :nec 613,
   :cp7 "2495",
   :id #uuid "3b34efb2-a4a9-3d68-8cf3-7911800244d4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/15f43af0-fatima.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
- :geocode
- {:id #uuid "3b34efb2-a4a9-3d68-8cf3-7911800244d4",
-  :address "Avenida Beato Nuno, N 111 2495 FÁTIMA",
-  :address-c
-  "Avenida Beato Nuno 111, 2495-304, Fátima, Ourém, Santarém",
-  :postal-c "2495-304",
-  :x -8.665370004561424,
-  :y 39.630239992230315,
-  :score 100,
-  :c 1}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}

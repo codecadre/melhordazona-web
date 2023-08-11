@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Joaquim Valente de Almeida, nº 126 3750-154 ÁGUEDA",
   :name "Auto Fama",
+  :href-id #uuid "fb97d8f5-4527-37ff-a097-67481bf85e7f",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoFama157.aspx",
@@ -94,6 +95,8 @@
   :nec 394,
   :cp7 "3750-154",
   :id #uuid "608b5a19-dbad-3412-a2f2-197706131a8f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/fb97d8f5-auto-fama.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
  :geocode

@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua António Enes nº 3 8300-108 SILVES",
     :name "Silvense",
+    :href-id #uuid "cd6d41d6-f5e3-3fde-ba95-81a023c94527",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Silvense972.aspx",
@@ -95,15 +96,18 @@
     :nec 197,
     :cp7 "8300-108",
     :id #uuid "fa74d896-ba86-3fe1-bd45-98ec51735fee",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/cd6d41d6-silvense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
    :geocode
-   {:cp7 "8300-108",
-    :postal-c "8300-108",
-    :x -8.440135944839625,
-    :y 37.18650534152356,
-    :score 100,
-    :c 1}}]
+   {:address "Rua António Enes nº 3 8300-108 SILVES",
+    :address-c "Largo António Enes, 8300-131, Silves, Faro",
+    :postal-c "8300-131",
+    :x -8.440437394164,
+    :y 37.186670882634,
+    :score 88.96,
+    :c 2}}]
  ["f-guerreiro-00749"
   {:nec 749,
    :rates
@@ -195,6 +199,7 @@
    {:address
     "Rua Maria Eugénia Dias Ferreira nº 22 8375-121 S. BARTOLOMEU DE MESSINES",
     :name "F. Guerreiro",
+    :href-id #uuid "0df0e2a2-8967-3688-ab24-7a7698079dcf",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FGuerreiro439.aspx",
@@ -202,15 +207,21 @@
     :nec 749,
     :cp7 "8375-121",
     :id #uuid "3ebacb7b-2b49-3e3d-bcea-b3be3f0cc1dd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/0df0e2a2-f-guerreiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
    :geocode
-   {:cp7 "8375-121",
+   {:id #uuid "3ebacb7b-2b49-3e3d-bcea-b3be3f0cc1dd",
+    :address
+    "Rua Maria Eugénia Dias Ferreira nº 22 8375-121 S. BARTOLOMEU DE MESSINES",
+    :address-c
+    "Rua Maria Eugénia Masc. Newtel Dias 22, 8375-121, São Bartolomeu de Messines, Silves, Faro",
     :postal-c "8375-121",
-    :x -8.280439986046616,
-    :y 37.2562299935409,
-    :score 100,
-    :c 1}}]
+    :x -8.281887786875135,
+    :y 37.25597794462443,
+    :score 92.84,
+    :c 5}}]
  ["cunha-e-ferreira-00957"
   {:nec 957,
    :rates
@@ -302,6 +313,7 @@
    {:address
     "Rua José Prudêncio Vieira, Lote 17 - Loja C 8365-149 ARMAÇÃO DE PERA",
     :name "Cunha e Ferreira",
+    :href-id #uuid "727466fb-d2af-3555-8434-e92855ea3514",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cunha%20e%20Ferreira.aspx",
@@ -309,6 +321,8 @@
     :nec 957,
     :cp7 "8365-149",
     :id #uuid "5d682ecf-4e50-3545-be30-632dc5ef1aa4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/727466fb-cunha-e-ferreira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
    :geocode
@@ -413,6 +427,7 @@
    {:address
     "Urbanização Horta de Algoz, Lote 5 R/C Dtº 8365-062 ALGOZ",
     :name "Do Algoz",
+    :href-id #uuid "2527b010-0ec9-3cf0-9b1b-a1d785476953",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DoAlgoz388.aspx",
@@ -420,6 +435,8 @@
     :nec 1009,
     :cp7 "8365-062",
     :id #uuid "f2e1f182-0163-3cfb-97fd-d4241c8a1ed4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/2527b010-do-algoz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
    :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Luís de Camões, Nº 73-A 2540-113 BOMBARRAL",
   :name "Auto do Bombarral",
+  :href-id #uuid "ac1c6bfe-edbd-3c12-8ab8-1125cd9002f9",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutodoBombarral154.aspx",
@@ -94,6 +95,8 @@
   :nec 204,
   :cp7 "2540-113",
   :id #uuid "3fa99468-a6a2-342d-b25b-6058175d90bf",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/bombarral/ac1c6bfe-auto-do-bombarral.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Bombarral"},
  :geocode

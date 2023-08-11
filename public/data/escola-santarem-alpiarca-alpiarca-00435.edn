@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Silvestre Bernartdo Lima, 16, 2090-144 ALPIARÇA",
   :name "Alpiarça",
+  :href-id #uuid "1e953bfb-024d-37be-90fc-7161f63cb5e9",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alpiarca092.aspx",
@@ -94,6 +95,8 @@
   :nec 435,
   :cp7 "2090-144",
   :id #uuid "d0fcba1f-c5ba-3766-bbcc-acd6179941f0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/alpiarca/1e953bfb-alpiarca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"},
  :geocode

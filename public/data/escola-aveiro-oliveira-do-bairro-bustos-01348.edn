@@ -74,6 +74,7 @@
  {:address
   "Rua Frei Gil, n.º 3, Edifício Agra, loja A Lugar do Sobreiro 3770-018 BUSTOS",
   :name "Escola de Condução de Bustos",
+  :href-id #uuid "ed00f959-6ead-3074-b347-7994f0251ebf",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeCondu%c3%a7%c3%a3odeBustos.aspx",
@@ -81,12 +82,18 @@
   :nec 1348,
   :cp7 "3770-018",
   :id #uuid "75155584-cfba-3d5d-b3a0-6683ddce6e09",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/oliveira-do-bairro/ed00f959-escola-de-conducao-de-bustos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
  :geocode
- {:cp7 "3770-018",
-  :postal-c "3770-018",
-  :x -8.596960012147662,
-  :y 40.49558499385398,
-  :score 100,
-  :c 1}}
+ {:id #uuid "75155584-cfba-3d5d-b3a0-6683ddce6e09",
+  :address
+  "Rua Frei Gil, n.º 3, Edifício Agra, loja A Lugar do Sobreiro 3770-018 BUSTOS",
+  :address-c
+  "Rua de Frei Gil 3, 3770-017, Bustos, Oliveira do Bairro, Aveiro",
+  :postal-c "3770-017",
+  :x -8.587579991942079,
+  :y 40.50075998087448,
+  :score 89.23,
+  :c 2}}

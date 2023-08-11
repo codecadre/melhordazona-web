@@ -60,6 +60,7 @@
  {:address
   "Av. dos Descobrimentos, n.º 643, Edifício Brites, 3700-766 Nogueira do Cravo",
   :name "Novabela",
+  :href-id #uuid "726bf0e5-0fe0-3419-b108-1c2f2ef9a827",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Novabela.aspx",
@@ -67,12 +68,18 @@
   :nec 1408,
   :cp7 "3700-766",
   :id #uuid "c007ef8a-d9ad-39da-92b1-d091caa0aa80",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/oliveira-de-azemeis/726bf0e5-novabela.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20de%20Azem%C3%A9is"},
  :geocode
- {:cp7 "3700-766",
+ {:id #uuid "c007ef8a-d9ad-39da-92b1-d091caa0aa80",
+  :address
+  "Av. dos Descobrimentos, n.º 643, Edifício Brites, 3700-766 Nogueira do Cravo",
+  :address-c
+  "Avenida dos Descobrimentos 643, 3700-766, Nogueira do Cravo, Oliveira de Azeméis, Aveiro",
   :postal-c "3700-766",
-  :x -8.4575025776669,
-  :y 40.887092920433304,
-  :score 100,
-  :c 1}}
+  :x -8.457112859847054,
+  :y 40.88648326289085,
+  :score 94.21,
+  :c 2}}

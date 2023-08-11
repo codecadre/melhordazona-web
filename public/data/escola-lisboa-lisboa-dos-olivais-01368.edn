@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. Cidade de Luanda, n.º 58, 1.º B, 1800-096 Lisboa",
   :name "Olivais",
+  :href-id #uuid "9bf6f28d-fdb6-3071-9527-428011c99f07",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Olivais.aspx",
@@ -94,12 +95,16 @@
   :nec 1368,
   :cp7 "1800-096",
   :id #uuid "4ca150ea-ad85-3533-870e-215cd269af5d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/9bf6f28d-olivais.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode
- {:cp7 "1800-096",
-  :postal-c "1800-096",
-  :x -9.109565023849512,
-  :y 38.76219501195578,
-  :score 100,
+ {:id #uuid "4ca150ea-ad85-3533-870e-215cd269af5d",
+  :address "Av. Cidade de Luanda, n.º 58, 1.º B, 1800-096 Lisboa",
+  :address-c "Avenida Cidade de Luanda 58, 1800-097, Lisboa",
+  :postal-c "1800-097",
+  :x -9.110224009940724,
+  :y 38.76713096103382,
+  :score 93.69,
   :c 1}}

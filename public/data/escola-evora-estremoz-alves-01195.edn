@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua José Félix Ribeiro, Lote 59 Loja 7100-125 ESTREMOZ",
   :name "Alves",
+  :href-id #uuid "cbb3ee58-5564-3df0-8059-1ce73db83fa0",
   :distrito "Évora",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alves100.aspx",
@@ -94,6 +95,8 @@
   :nec 1195,
   :cp7 "7100-125",
   :id #uuid "b75b1f8d-0083-36ee-97e6-a440985a9eaa",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/estremoz/cbb3ee58-alves.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª D. Manuel II, nº 1148 4470-200 VERMOIM",
   :name "Oliveira",
+  :href-id #uuid "063127e4-a3d6-3ecc-993c-b9bb77cbcd02",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oliveira745.aspx",
@@ -94,6 +95,8 @@
   :nec 594,
   :cp7 "4470-200",
   :id #uuid "d9f6aad1-9e5f-3032-8767-c4fc9f5ad350",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/063127e4-oliveira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode

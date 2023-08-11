@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua General Humberto Delgado nº 20 –1º 4820-261 FAFE",
     :name "Fafense",
+    :href-id #uuid "6a28071e-e285-3577-8e7b-35a0d219e163",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fafense441.aspx",
@@ -95,6 +96,8 @@
     :nec 181,
     :cp7 "4820-261",
     :id #uuid "3554d66b-de71-3d4c-95a1-e0f4e1020ce5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/6a28071e-fafense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Rua João XXIII, 209 - 1º 4820-268 FAFE",
     :name "Mário Costa",
+    :href-id #uuid "27b27279-ad7a-385b-b9ff-ed63b427344d",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MarioCosta630.aspx",
@@ -204,6 +208,8 @@
     :nec 505,
     :cp7 "4820-268",
     :id #uuid "5732dbe9-8bda-3c0f-bde6-cfe29fbda381",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/27b27279-mario-costa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
    :geocode
@@ -305,6 +311,7 @@
    :imt-profile
    {:address "Urbanização S. Gemil, nº 7 4820-362 FAFE",
     :name "Trifafe",
+    :href-id #uuid "947920f8-08f2-321f-973d-97e24b8c55a1",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Trifafe1021.aspx",
@@ -312,6 +319,8 @@
     :nec 683,
     :cp7 "4820-362",
     :id #uuid "8f4b819e-3650-36bb-a485-3d69290bd2e6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/947920f8-trifafe.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
    :geocode
@@ -413,6 +422,7 @@
    :imt-profile
    {:address "Urbanização Dr. Leite Lage, 75 B 4820-365 FAFE",
     :name "Montelongo",
+    :href-id #uuid "fde9f67e-221c-3b85-88d9-77717aa923e4",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Montelongo673.aspx",
@@ -420,6 +430,8 @@
     :nec 751,
     :cp7 "4820-365",
     :id #uuid "715c45fe-362f-3ea0-b2dd-ff027a18d682",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/fde9f67e-montelongo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
    :geocode
@@ -522,6 +534,7 @@
    :imt-profile
    {:address "Rua dos Aliados, n.º 63, 4820-248 FAFE",
     :name "Fafecidade",
+    :href-id #uuid "51afa33c-6247-3338-8c21-6db296dbc64c",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fafecidade.aspx",
@@ -529,15 +542,19 @@
     :nec 783,
     :cp7 "4820-248",
     :id #uuid "e6fbe2c9-1129-3fd5-bbc1-37c72e035760",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/51afa33c-fafecidade.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
    :geocode
-   {:cp7 "4820-248",
+   {:id #uuid "e6fbe2c9-1129-3fd5-bbc1-37c72e035760",
+    :address "Rua dos Aliados, n.º 63, 4820-248 FAFE",
+    :address-c "Rua dos Aliados, 4820-248, Fafe, Braga",
     :postal-c "4820-248",
-    :x -8.181175034577564,
-    :y 41.4526500187128,
-    :score 100,
-    :c 1}}]
+    :x -8.180159122134187,
+    :y 41.45377193684216,
+    :score 95,
+    :c 2}}]
  ["aroes-01194"
   {:nec 1194,
    :rates
@@ -629,6 +646,7 @@
    {:address
     "Lugar de Porinhos-Loteamento do Telhado, Nº 1 4820 -748 Arões (Sº Romão)",
     :name "Arões",
+    :href-id #uuid "839ff9ac-e3c2-3315-bcdc-25885a9218fa",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aroes125.aspx",
@@ -636,6 +654,8 @@
     :nec 1194,
     :cp7 "4820-748",
     :id #uuid "8b8d9730-d9b0-3ed5-b581-bbc0f05f4475",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/839ff9ac-aroes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
    :geocode
@@ -693,6 +713,7 @@
    :imt-profile
    {:address "Rua da Cumieira, n.º 6, r/c, 4820-179 Fafe",
     :name "Nova Fafe",
+    :href-id #uuid "7c25eff0-7968-325d-98c8-970d5f493d17",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaFafe.aspx",
@@ -700,12 +721,16 @@
     :nec 1416,
     :cp7 "4820-179",
     :id #uuid "ce7acda1-c74a-3ab0-8c7f-9d8402fb9783",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/7c25eff0-nova-fafe.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
    :geocode
-   {:cp7 "4820-179",
+   {:id #uuid "ce7acda1-c74a-3ab0-8c7f-9d8402fb9783",
+    :address "Rua da Cumieira, n.º 6, r/c, 4820-179 Fafe",
+    :address-c "Rua da Cumieira 6, 4820-179, Fafe, Braga",
     :postal-c "4820-179",
-    :x -8.163010025472857,
-    :y 41.45875501980015,
-    :score 100,
+    :x -8.160179959684683,
+    :y 41.46124000263458,
+    :score 94.22,
     :c 1}}]]

@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua 14 de Outubro, 524 4430-047 MAFAMUDE",
     :name "Gaiense",
+    :href-id #uuid "be6f5cdf-d72a-3599-8e1b-020a27cf753d",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Gaiense479.aspx",
@@ -95,6 +96,8 @@
     :nec 406,
     :cp7 "4430-047",
     :id #uuid "1e3a61ba-a2d4-3a26-bc15-59cd34b5b975",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/be6f5cdf-gaiense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Avª Dr. Moreira de Sousa nº 2251 4415-385 PEDROSO",
     :name "Couto",
+    :href-id #uuid "11cf7189-5c93-3ee7-85a8-56690f8fb4dc",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Couto345.aspx",
@@ -204,6 +208,8 @@
     :nec 489,
     :cp7 "4415-385",
     :id #uuid "a43f67e8-8ec0-31f9-bca7-d3541d4656b8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/11cf7189-couto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -306,6 +312,7 @@
    :imt-profile
    {:address "Rua Delfim de Lima, nº 1955 - 1º 4410-227 CANELAS",
     :name "Nova Gaia",
+    :href-id #uuid "da4e7c9f-84cf-32ee-a42e-117c233ac946",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaGaia712.aspx",
@@ -313,6 +320,8 @@
     :nec 532,
     :cp7 "4410-227",
     :id #uuid "a254045b-ea5e-3988-babc-dae62f720b3e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/da4e7c9f-nova-gaia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -415,6 +424,7 @@
    :imt-profile
    {:address "Largo Soares dos Reis, n º 42 4400-309 MAFAMUDE",
     :name "Samuel Alves Pinto",
+    :href-id #uuid "1f45f91f-2a7f-3164-a560-fd540cae4311",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SamuelAlvesPinto915.aspx",
@@ -422,15 +432,20 @@
     :nec 541,
     :cp7 "4400-309",
     :id #uuid "7d1ba46d-d215-338e-b488-079b68953530",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/1f45f91f-samuel-alves-pinto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
-   {:cp7 "4400-309",
+   {:id #uuid "7d1ba46d-d215-338e-b488-079b68953530",
+    :address "Largo Soares dos Reis, n º 42 4400-309 MAFAMUDE",
+    :address-c
+    "Largo de Soares dos Reis 42, 4400-309, Vila Nova de Gaia, Porto",
     :postal-c "4400-309",
-    :x -8.61253995849404,
-    :y 41.12299001827975,
-    :score 100,
-    :c 1}}]
+    :x -8.612610031204582,
+    :y 41.12352000601754,
+    :score 92.43,
+    :c 3}}]
  ["nobreza-00551"
   {:nec 551,
    :rates
@@ -521,6 +536,7 @@
    :imt-profile
    {:address "Avª da República, nº 2306 s/loja Dtª 4430-196 MAFAMUDE",
     :name "Nobreza",
+    :href-id #uuid "73cca29c-1568-37a7-b97b-57ffa25d7dd3",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nobreza693.aspx",
@@ -528,14 +544,19 @@
     :nec 551,
     :cp7 "4430-196",
     :id #uuid "f3364ec7-ce80-3f2c-a073-24f6f1356da8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/73cca29c-nobreza.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
-   {:cp7 "4430-196",
+   {:id #uuid "f3364ec7-ce80-3f2c-a073-24f6f1356da8",
+    :address "Avª da República, nº 2306 s/loja Dtª 4430-196 MAFAMUDE",
+    :address-c
+    "Avenida da República 2306, 4430-196, Vila Nova de Gaia, Porto",
     :postal-c "4430-196",
-    :x -8.606774969308987,
-    :y 41.11746500298264,
-    :score 100,
+    :x -8.606819980129046,
+    :y 41.117679998799076,
+    :score 88.45,
     :c 1}}]
  ["cidade-gaia-00697"
   {:nec 697,
@@ -628,6 +649,7 @@
    {:address
     "Rua Barão do Corvo n º 11 r/c 4400-039 VILA NOVA DE GAIA",
     :name "Cidade de Gaia",
+    :href-id #uuid "c3603ad5-4bbc-35c5-8bb2-2a603b2ecb05",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadedeGaia310.aspx",
@@ -635,15 +657,20 @@
     :nec 697,
     :cp7 "4400-039",
     :id #uuid "e9667e60-5580-3af1-b983-f7bcfb5eb333",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/c3603ad5-cidade-de-gaia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
-   {:cp7 "4400-039",
+   {:address
+    "Rua Barão do Corvo n º 11 r/c 4400-039 VILA NOVA DE GAIA",
+    :address-c
+    "Rua Barão Corvo 11, 4400-039, Vila Nova de Gaia, Porto",
     :postal-c "4400-039",
-    :x -8.625544984184927,
-    :y 41.1265850165517,
-    :score 100,
-    :c 1}}]
+    :x -8.630846531095,
+    :y 41.124130872631,
+    :score 94.02,
+    :c 4}}]
  ["nova-de-gervide-00797"
   {:nec 797,
    :rates
@@ -735,6 +762,7 @@
    {:address
     "Rua Caetano de Melo, nº 448 - R/C 4430-267 OLIVEIRA do DOURO",
     :name "Nova de Gervide",
+    :href-id #uuid "153f8fc1-0eaf-3e8d-baa7-39eb809f5a16",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeGervide705.aspx",
@@ -742,6 +770,8 @@
     :nec 797,
     :cp7 "4430-267",
     :id #uuid "5c4f43a4-8508-32bb-88cb-b8eb25bc7a7d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/153f8fc1-nova-de-gervide.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -845,6 +875,7 @@
    :imt-profile
    {:address "Rua Pinhais Bastos, 62 4430-880 AVINTES",
     :name "Avintes",
+    :href-id #uuid "254ade38-7d6f-3dc9-81d7-1c26124867a9",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Avintes206.aspx",
@@ -852,6 +883,8 @@
     :nec 840,
     :cp7 "4430-880",
     :id #uuid "19d92a77-77f7-3b6a-b471-09234d590db7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/254ade38-avintes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -955,6 +988,7 @@
    {:address
     "Rua dos Combatentes do Ultramar, 389 4405-318 S. FÉLIX da MARINHA",
     :name "VIP",
+    :href-id #uuid "dc5a9a7a-554f-3a7a-8c64-bf49392ff030",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VIP1073.aspx",
@@ -962,19 +996,20 @@
     :nec 951,
     :cp7 "4405-318",
     :id #uuid "4c1f656b-8ea0-38fb-9cbd-58ba6a6403d8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/dc5a9a7a-vip.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
-   {:id #uuid "4c1f656b-8ea0-38fb-9cbd-58ba6a6403d8",
-    :address
+   {:address
     "Rua dos Combatentes do Ultramar, 389 4405-318 S. FÉLIX da MARINHA",
     :address-c
-    "Rua dos Combatentes de Ultramar 389, 4410-208, São Félix da Marinha, Vila Nova de Gaia, Porto",
+    "Rua dos Combatentes do Ultramar 389, 4410-208, São Félix da Marinha, Vila Nova de Gaia, Porto",
     :postal-c "4410-208",
-    :x -8.629641551147152,
-    :y 41.03948294856618,
-    :score 98.32,
-    :c 2}}]
+    :x -8.629650065959,
+    :y 41.039482774488,
+    :score 98.65,
+    :c 1}}]
  ["euro-2000-00970"
   {:nec 970,
    :rates
@@ -1065,6 +1100,7 @@
    :imt-profile
    {:address "Rua Delfim de Lima, nº 373 4405-278 CANELAS",
     :name "Euro 2000",
+    :href-id #uuid "a078a908-9278-3457-83be-233dac6ff8a3",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Euro2000430.aspx",
@@ -1072,8 +1108,19 @@
     :nec 970,
     :cp7 "4405-278",
     :id #uuid "3d563765-78e2-34c2-9f94-821affbaeb5d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/a078a908-euro-2000.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+   :geocode
+   {:address "Rua Delfim de Lima, nº 373 4405-278 CANELAS",
+    :address-c
+    "Rua Delfim de Lima 373, 4410-228, Boavista, Vila Nova de Gaia, Porto",
+    :postal-c "4410-228",
+    :x -8.598679978679,
+    :y 41.067220019674,
+    :score 93.86,
+    :c 1}}]
  ["freitas-00991"
   {:nec 991,
    :rates
@@ -1165,6 +1212,7 @@
    {:address
     "Rua Alexandre Herculano nº 181 4430-299 OLIVEIRA do DOURO",
     :name "Freitas",
+    :href-id #uuid "fafd490d-3a59-3ce8-b04d-08a941f62a77",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Freitas471.aspx",
@@ -1172,6 +1220,8 @@
     :nec 991,
     :cp7 "4430-299",
     :id #uuid "5e45440b-fd2a-384f-bf47-30b2bbff2a59",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/fafd490d-freitas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -1219,7 +1269,9 @@
    :imt-profile
    {:address
     "Praceta Padre João Moreira nº 41 4410-220 S. FÉLIX da MARINHA",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Onda",
+    :href-id #uuid "23368e8c-b62e-36c1-b7aa-398448589977",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Onda751.aspx",
@@ -1227,6 +1279,8 @@
     :nec 1016,
     :cp7 "4410-220",
     :id #uuid "61adc274-38ca-37dc-ad0e-d06073995542",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/23368e8c-onda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -1331,6 +1385,7 @@
    {:address
     "Av. João Paulo II, n.º 646; 4410-406 Arcozelo - Vila Nova de Gaia",
     :name "Euro Boavista",
+    :href-id #uuid "27206e3e-d1eb-3560-b17e-5ec7880dc8fa",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EuroBoavista431.aspx",
@@ -1338,6 +1393,8 @@
     :nec 1072,
     :cp7 "4410-406",
     :id #uuid "98305723-cf14-33ac-bead-c0cf895234d0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/27206e3e-euro-boavista.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -1441,6 +1498,7 @@
    :imt-profile
    {:address "Rua do Jardim n º 1339 4405-830 VILAR do PARAÍSO",
     :name "Vilar do Paraíso",
+    :href-id #uuid "1164ee54-b65d-3b3a-85b0-bc46d5f1361a",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VilardoParaiso1070.aspx",
@@ -1448,15 +1506,20 @@
     :nec 1092,
     :cp7 "4405-830",
     :id #uuid "be324a54-ca1b-33ef-98d3-17faea40f596",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/1164ee54-vilar-do-paraiso.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
-   {:cp7 "4405-830",
+   {:id #uuid "be324a54-ca1b-33ef-98d3-17faea40f596",
+    :address "Rua do Jardim n º 1339 4405-830 VILAR do PARAÍSO",
+    :address-c
+    "Rua do Jardim, 4405-830, Junqueira, Vila Nova de Gaia, Porto",
     :postal-c "4405-830",
-    :x -8.618914982592173,
-    :y 41.100944984285604,
-    :score 100,
-    :c 1}}]
+    :x -8.618779950132037,
+    :y 41.099325034813646,
+    :score 92.83,
+    :c 18}}]
  ["canidelo-01098"
   {:nec 1098,
    :rates
@@ -1547,6 +1610,7 @@
    :imt-profile
    {:address "Rua da Bélgica nº 1621 4400-052 CANIDELO",
     :name "De Canidelo",
+    :href-id #uuid "3b200578-62e6-3083-9f85-ccd5305a9b6e",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeCanidelo369.aspx",
@@ -1554,6 +1618,8 @@
     :nec 1098,
     :cp7 "4400-052",
     :id #uuid "983f1a6e-73dd-3fc1-ba6d-ffa94b1b746f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/3b200578-de-canidelo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -1656,6 +1722,7 @@
    :imt-profile
    {:address "Avª Dr. Moreira de Sousa nº 3997 R/C 4415-386 PEDROSO",
     :name "Estrada Real",
+    :href-id #uuid "669fcff0-3173-30ea-80d3-81fd519410e5",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstradaReal419.aspx",
@@ -1663,6 +1730,8 @@
     :nec 1109,
     :cp7 "4415-386",
     :id #uuid "5077952b-edf7-3b52-848d-0f71d0250176",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/669fcff0-estrada-real.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -1765,6 +1834,7 @@
    :imt-profile
    {:address "Rua do Meiral, n.º 231; 4400-501 Vila Nova de Gaia",
     :name "Via Arrábida",
+    :href-id #uuid "c927aeb2-f869-3a80-98e2-93955bcfb564",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaArrabida1048.aspx",
@@ -1772,6 +1842,8 @@
     :nec 1111,
     :cp7 "4400-501",
     :id #uuid "56f1d4e9-b0d2-32e9-ba8f-fed1c0e41454",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/c927aeb2-via-arrabida.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -1874,6 +1946,7 @@
    :imt-profile
    {:address "Rua Sociedade Columbófila, Nº 259 4415-803 SANDIM",
     :name "Sandinense",
+    :href-id #uuid "22858bd7-6c45-3073-957f-4a9abfa1fafc",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sandinense916.aspx",
@@ -1881,6 +1954,8 @@
     :nec 1127,
     :cp7 "4415-803",
     :id #uuid "4560a2b9-3f63-3c90-9000-6d46f3fe7b80",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/22858bd7-sandinense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
@@ -1983,6 +2058,7 @@
    :imt-profile
    {:address "Rua do Padrão n º 58 – 1.5 4415-284 PEDROSO",
     :name "Guerra",
+    :href-id #uuid "a3219426-445b-3753-bab6-78b6ad46b829",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Guerra503.aspx",
@@ -1990,15 +2066,20 @@
     :nec 1135,
     :cp7 "4415-284",
     :id #uuid "d4214fe0-7938-312a-a874-bf3ad9b7232c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/a3219426-guerra.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
-   {:cp7 "4415-284",
+   {:id #uuid "d4214fe0-7938-312a-a874-bf3ad9b7232c",
+    :address "Rua do Padrão n º 58 – 1.5 4415-284 PEDROSO",
+    :address-c
+    "Rua do Padrão 58, 4415-284, Carvalhos, Vila Nova de Gaia, Porto",
     :postal-c "4415-284",
-    :x -8.573254984139112,
-    :y 41.06606000618359,
-    :score 100,
-    :c 1}}]
+    :x -8.574778061016264,
+    :y 41.066195415953764,
+    :score 92.61,
+    :c 2}}]
  ["nova-atitude-01200"
   {:nec 1200,
    :rates
@@ -2089,6 +2170,7 @@
    :imt-profile
    {:address "Rua José Rocha, n.º 266 ; 4430-121 Vila Nova de Gaia",
     :name "Nova Atitude",
+    :href-id #uuid "df258cf9-8b48-3e68-b97e-31c1d902d95b",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaAtitude702.aspx",
@@ -2096,15 +2178,19 @@
     :nec 1200,
     :cp7 "4430-121",
     :id #uuid "8561af26-b438-3702-8001-20e95bad37e6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/df258cf9-nova-atitude.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode
-   {:cp7 "4430-121",
+   {:address "Rua José Rocha, n.º 266 ; 4430-121 Vila Nova de Gaia",
+    :address-c
+    "Rua de José Rocha 266, 4430-121, Vila Nova de Gaia, Porto",
     :postal-c "4430-121",
-    :x -8.600624999311123,
-    :y 41.123515018785156,
-    :score 100,
-    :c 1}}]
+    :x -8.600300032925,
+    :y 41.12270000443,
+    :score 94.96,
+    :c 2}}]
  ["prodigio-01385"
   {:nec 1385,
    :rates
@@ -2182,6 +2268,7 @@
    {:address
     "Travessa Conselheiro Veloso da Cruz, n.º 112, 4400-097 Vila Nova de Gaia",
     :name "Prodígio",
+    :href-id #uuid "861353be-c269-372f-94ba-fac2428619c2",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prodigio.aspx",
@@ -2189,6 +2276,8 @@
     :nec 1385,
     :cp7 "4400-097",
     :id #uuid "e1cd54dd-d11d-3fc2-ac7c-c7b432498b75",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/861353be-prodigio.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
    :geocode

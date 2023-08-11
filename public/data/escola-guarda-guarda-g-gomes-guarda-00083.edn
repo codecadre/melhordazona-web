@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo General Humberto Delgado, 39-1º 6300-712 GUARDA",
   :name "G. Gomes - Guarda",
+  :href-id #uuid "2301efad-a873-3708-b13b-bae262c4440d",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GGomesGuarda476.aspx",
@@ -94,6 +95,8 @@
   :nec 83,
   :cp7 "6300-712",
   :id #uuid "89d5d6e2-e4ef-3900-ad7c-86eb5ef294e4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/2301efad-g-gomes-guarda.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
  :geocode

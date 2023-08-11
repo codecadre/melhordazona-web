@@ -86,24 +86,24 @@
    :r/t-done 261.0}],
  :imt-profile
  {:address
-  "Rua da Circunvalação-Urb. do Mealheiro lote 2, loja B 2695-214 PÓVOA SANTA IRIA",
+  "Rua da Circunvalação, N.º 29-urb. Alto dos Mealheiros - Bº Estacal Novo -2690-214 Santa Iria da Azóia",
   :name "Salvaterra",
+  :href-id #uuid "5dd574f0-fd31-3cb2-b5d2-69d7c903c50c",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Salvaterra908.aspx",
-  :concelho "Vila Franca de Xira",
+  :concelho "Loures",
   :nec 598,
-  :cp7 "2695-214",
-  :id #uuid "ddc3db66-672a-32e6-bee6-a2f2ac6472ac",
+  :cp7 "2690-214",
+  :id #uuid "f3243f23-f34f-3e94-8b59-9ad070d30b78",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/5dd574f0-salvaterra.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode
- {:id #uuid "ddc3db66-672a-32e6-bee6-a2f2ac6472ac",
-  :address "Rua da Circunvalação 2695-214 PÓVOA SANTA IRIA",
-  :address-c
-  "Rua da Circunvalação, 2690-214, Bairro do Estacal Novo, Loures, Lisboa",
+ {:cp7 "2690-214",
   :postal-c "2690-214",
-  :x -9.093327485178767,
-  :y 38.83210426890922,
-  :score 82.23,
-  :c 6}}
+  :x -9.093345035377,
+  :y 38.831685012594,
+  :score 100,
+  :c 1}}

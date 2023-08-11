@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Urbanização de Brejo, Lote 32 3240-207 ANSIÃO",
   :name "Auto Ansião",
+  :href-id #uuid "129495d6-2511-33b0-a520-9e3727afb13c",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoAnsiao140.aspx",
@@ -94,6 +95,8 @@
   :nec 354,
   :cp7 "3240-207",
   :id #uuid "b66b6465-3f31-3444-b3aa-b22b62e3b51a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/ansiao/129495d6-auto-ansiao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Ansi%C3%A3o"},
  :geocode

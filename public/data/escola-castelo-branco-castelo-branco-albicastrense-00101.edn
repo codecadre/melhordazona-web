@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de S. Miguel, Nº 7-1 B 6000-181 CASTELO BRANCO",
   :name "Albicastrense",
+  :href-id #uuid "7c9f0a15-9319-39b2-8561-ea76a064ea05",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Albicastrense071.aspx",
@@ -94,6 +95,8 @@
   :nec 101,
   :cp7 "6000-181",
   :id #uuid "316b40e1-0463-3f4b-abf3-bdd62560bc0a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/7c9f0a15-albicastrense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
  :geocode

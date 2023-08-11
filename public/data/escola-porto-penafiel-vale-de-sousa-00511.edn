@@ -88,6 +88,7 @@
  {:address
   "Rua da Saudade, 120 A - Sala A/ Apartado 108 4560-531 PENAFIEL",
   :name "Vale de Sousa",
+  :href-id #uuid "1316892a-d03e-3060-98cf-ef1c4141d6d5",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ValedeSousa1030.aspx",
@@ -95,6 +96,8 @@
   :nec 511,
   :cp7 "4560-531",
   :id #uuid "1efbce52-140d-3272-b33f-6abde9e40fca",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/1316892a-vale-de-sousa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
  :geocode

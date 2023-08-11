@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Dr. Evaristo de Carvalho 3130-240 SOURE",
     :name "Soure",
+    :href-id #uuid "08e5071f-a8d9-3935-b4fb-27d2ee6089e3",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Soure983.aspx",
@@ -95,6 +96,8 @@
     :nec 246,
     :cp7 "3130-240",
     :id #uuid "c8928f9f-ec27-3d0b-a01c-1eb715999463",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/soure/08e5071f-soure.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Rua João Albuquerque –Cerca dos Anjos 3130-208 SOURE",
     :name "S. Mateus",
+    :href-id #uuid "c8e75357-80a7-3712-b5f2-6b457cb16635",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SMateus894.aspx",
@@ -204,6 +208,8 @@
     :nec 756,
     :cp7 "3130-208",
     :id #uuid "2632b21b-4085-34e5-a137-970cec6cd211",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/soure/c8e75357-s-mateus.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
    :geocode
@@ -303,6 +309,7 @@
    :imt-profile
    {:address "Rua do Comércio 3130-080 GRANJA DO ULMEIRO",
     :name "Granja do Ulmeiro",
+    :href-id #uuid "488d8aa3-6eb1-3aa6-9d49-d65443ee11bd",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GranjadoUlmeiro497.aspx",
@@ -310,6 +317,8 @@
     :nec 969,
     :cp7 "3130-080",
     :id #uuid "171bf96e-123a-35bb-bb87-6d39bf190fe1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/soure/488d8aa3-granja-do-ulmeiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
    :geocode

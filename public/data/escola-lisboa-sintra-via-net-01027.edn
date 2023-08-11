@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Pisa nº 11 loja Dtª 2605-842 CASAL DE CAMBRA",
   :name "Via Net",
+  :href-id #uuid "901c9695-489a-34da-a9d2-017bb81aa54b",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaNet1052.aspx",
@@ -94,15 +95,16 @@
   :nec 1027,
   :cp7 "2605-842",
   :id #uuid "f8dd7d09-0799-3027-ba0c-2e34307c62f3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/901c9695-via-net.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode
- {:id #uuid "f8dd7d09-0799-3027-ba0c-2e34307c62f3",
-  :address "Rua Pisa nº 11 loja Dtª 2605-842 CASAL DE CAMBRA",
+ {:address "Rua Pisa nº 11 loja Dtª 2605-842 CASAL DE CAMBRA",
   :address-c
   "Rua de Pisa 11, 2605-842, Casal de Cambra, Sintra, Lisboa",
   :postal-c "2605-842",
-  :x -9.229019968411421,
-  :y 38.80083001162896,
-  :score 96.66,
+  :x -9.229019968411,
+  :y 38.800830011629,
+  :score 98.48,
   :c 1}}

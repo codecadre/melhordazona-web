@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar de Santo António 4775-456 NINE",
   :name "Ases da Estrada",
+  :href-id #uuid "f15dd5c1-f0a3-3f0a-a903-b975093cf69c",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AsesdaEstrada131.aspx",
@@ -94,6 +95,8 @@
   :nec 1028,
   :cp7 "4775-456",
   :id #uuid "669140b2-8562-36b9-a6cd-d4cbfff22238",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/f15dd5c1-ases-da-estrada.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
  :geocode

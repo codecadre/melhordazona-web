@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
   :name "Do Mileu",
+  :href-id #uuid "f3e3ea0b-bf9c-38b2-bb1e-5ec5db9d5062",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DoMileu391.aspx",
@@ -94,14 +95,15 @@
   :nec 824,
   :cp7 "6300-617",
   :id #uuid "8c89d682-cf19-33e1-af3b-2f2adb1b0d9c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/f3e3ea0b-do-mileu.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
  :geocode
- {:id #uuid "8c89d682-cf19-33e1-af3b-2f2adb1b0d9c",
-  :address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
+ {:address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
   :address-c "Rua Vila de Manteigas 9A, 6300-617, Guarda",
   :postal-c "6300-617",
-  :x -7.256720013570373,
-  :y 40.544260004788754,
-  :score 96.82,
+  :x -7.25672001357,
+  :y 40.544260004789,
+  :score 97.05,
   :c 1}}

@@ -88,6 +88,7 @@
  {:address
   "Avª António Domingues dos Santos nº 301 4460 -237 SENHORA DA HORA",
   :name "Código & Norma",
+  :href-id #uuid "fd2177b8-c55b-33f4-81c3-ec338fc5d3d4",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CodigoNorma318.aspx",
@@ -95,12 +96,18 @@
   :nec 710,
   :cp7 "4460-237",
   :id #uuid "dc907f4c-0d69-3356-a2e7-065f2f6969b8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/fd2177b8-codigo-norma.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode
- {:cp7 "4460-237",
+ {:id #uuid "dc907f4c-0d69-3356-a2e7-065f2f6969b8",
+  :address
+  "Avª António Domingues dos Santos nº 301 4460 -237 SENHORA DA HORA",
+  :address-c
+  "Avenida António Domingues dos Santos 301, 4460-237, Senhora da Hora, Matosinhos, Porto",
   :postal-c "4460-237",
-  :x -8.65723997757641,
-  :y 41.18620000369205,
-  :score 100,
-  :c 1}}
+  :x -8.657910026916255,
+  :y 41.186219994531115,
+  :score 92.86,
+  :c 2}}

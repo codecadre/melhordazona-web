@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Gueimaia, n.º 407; 4470-054 Gueifães",
   :name "Gueifães",
+  :href-id #uuid "1d509b20-07c7-32fc-b6a9-ef5750f9cf65",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Gueif%c3%a3es.aspx",
@@ -94,12 +95,16 @@
   :nec 1304,
   :cp7 "4470-054",
   :id #uuid "c339e582-6354-38e5-ae13-f67341d019b0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/1d509b20-gueifaes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode
- {:cp7 "4470-054",
+ {:id #uuid "c339e582-6354-38e5-ae13-f67341d019b0",
+  :address "Rua de Gueimaia, n.º 407; 4470-054 Gueifães",
+  :address-c "Rua da Gueimaia 407, 4470-054, Gueifães, Maia, Porto",
   :postal-c "4470-054",
-  :x -8.60136998286535,
-  :y 41.21749501266399,
-  :score 100,
+  :x -8.602819968295677,
+  :y 41.21851001922903,
+  :score 94.92,
   :c 1}}

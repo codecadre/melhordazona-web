@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praça Duque da Terceira, n.º 24 - 1º Dto. 1250-152 LISBOA",
   :name "Cais do Sodré",
+  :href-id #uuid "f3557136-2544-3174-accd-c533d38f47a2",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CaisdoSodre.aspx",
@@ -94,6 +95,8 @@
   :nec 1275,
   :cp7 "1250-152",
   :id #uuid "d82cf438-fd7c-306a-92e7-1577c3bebff4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/f3557136-cais-do-sodre.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

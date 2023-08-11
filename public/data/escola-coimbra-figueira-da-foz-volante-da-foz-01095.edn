@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Timor nº 8 r/c 3080-143 FIGUEIRA DA FOZ",
   :name "Volante da Foz",
+  :href-id #uuid "04fd3d36-ac7b-35b6-b828-7f94e652822d",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolantedaFoz1080.aspx",
@@ -94,6 +95,8 @@
   :nec 1095,
   :cp7 "3080-143",
   :id #uuid "1e2acabd-e7ab-390d-ac8a-f1fc1bfd4055",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/04fd3d36-volante-da-foz.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
  :geocode

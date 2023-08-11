@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. Manuel Pacheco Nobre 31 –A –1º 2830 BARREIRO",
   :name "Barreirense",
+  :href-id #uuid "8f140bea-1dbc-35f3-9536-9e40f7787e05",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Barreirense221.aspx",
@@ -94,6 +95,8 @@
   :nec 164,
   :cp7 "2830",
   :id #uuid "90afbb92-6de8-3b7e-a3a2-de8f71487e81",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/barreiro/8f140bea-barreirense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
  :geocode

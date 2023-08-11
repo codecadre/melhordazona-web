@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. José Correia Lacerda, Bloco C, n.º 5 5000-440 Vila Real",
   :name "Auto Corgo",
+  :href-id #uuid "14c4d132-cc96-3d16-8cdb-27df074b44a0",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoCorgo.aspx",
@@ -95,6 +96,8 @@
   :nec 1278,
   :cp7 "5000-440",
   :id #uuid "0bcc7596-bf1e-375e-8e6f-204b130499b2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/14c4d132-auto-corgo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
  :geocode

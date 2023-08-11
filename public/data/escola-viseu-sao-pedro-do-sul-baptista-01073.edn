@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av.ª Sá Carneiro, n.º 891, 3660-428 S. PEDRO DO SUL",
   :name "Baptista",
+  :href-id #uuid "b10bbfbb-7a4e-3394-8ea8-cfa1cbb58d6d",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Baptista217.aspx",
@@ -94,6 +95,8 @@
   :nec 1073,
   :cp7 "3660-428",
   :id #uuid "60b44f2d-2b5a-3c6d-aeb8-ab696a5e0f7a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/sao-pedro-do-sul/b10bbfbb-baptista.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua de Aveiro, 61 –1º Esqº 4900 -495 VIANA DO CASTELO (Stª Mª Maior)",
   :name "Santa Luzia",
+  :href-id #uuid "26697077-0f12-30a6-a435-67975fea9c76",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaLuzia924.aspx",
@@ -95,6 +96,8 @@
   :nec 516,
   :cp7 "4900-495",
   :id #uuid "690f7b63-e466-36e6-a913-b41389f71e11",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/26697077-santa-luzia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
  :geocode

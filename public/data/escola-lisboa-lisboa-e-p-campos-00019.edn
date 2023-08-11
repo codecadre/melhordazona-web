@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Álvares Cabral, 24 1250-018 LISBOA",
   :name "Eduardo Pereira de Campos",
+  :href-id #uuid "dbd12418-69e4-3698-8be5-3953c73d4eb4",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EduardoPereiradeCampos401.aspx",
@@ -94,6 +95,8 @@
   :nec 19,
   :cp7 "1250-018",
   :id #uuid "eb9a9c5a-1886-303d-8c09-19753b64a276",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/dbd12418-eduardo-pereira-de-campos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

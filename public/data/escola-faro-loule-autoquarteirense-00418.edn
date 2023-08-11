@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Francisco Sá Carneiro Bloco B r/c 8125-130 QUARTEIRA",
   :name "Auto Quarteirense",
+  :href-id #uuid "dff236c9-fce5-3500-8791-cd1ab2b4fc23",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoQuarteirense171.aspx",
@@ -94,6 +95,8 @@
   :nec 418,
   :cp7 "8125-130",
   :id #uuid "6e17212c-d759-3296-8f00-decace85e45e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/dff236c9-auto-quarteirense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
  :geocode

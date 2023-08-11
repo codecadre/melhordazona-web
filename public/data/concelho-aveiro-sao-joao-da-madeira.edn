@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua do Dourado, Nº 265 a 283 3700-044 S.JOÃO DA MADEIRA",
     :name "Ribeiro",
+    :href-id #uuid "d4f8102c-418f-3a9e-9e54-e60079e2f6ad",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ribeiro850.aspx",
@@ -95,6 +96,8 @@
     :nec 99,
     :cp7 "3700-044",
     :id #uuid "23c524b6-355a-3986-bbc5-6b68899958a4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/sao-joao-da-madeira/d4f8102c-ribeiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=S.%20Jo%C3%A3o%20da%20Madeira"},
    :geocode
@@ -195,6 +198,7 @@
    {:address
     "Avª da Liberdade, nº 615 –1º 3700-166 S. JOÃO DA MADEIRA",
     :name "Sanjoanense",
+    :href-id #uuid "9a388851-bc76-32f0-9b44-ca4d93f4bae4",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sanjoanense917.aspx",
@@ -202,12 +206,18 @@
     :nec 531,
     :cp7 "3700-166",
     :id #uuid "199cba02-1f5a-38e8-bcc2-659da19a2569",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/sao-joao-da-madeira/9a388851-sanjoanense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=S.%20Jo%C3%A3o%20da%20Madeira"},
    :geocode
-   {:cp7 "3700-166",
+   {:id #uuid "199cba02-1f5a-38e8-bcc2-659da19a2569",
+    :address
+    "Avª da Liberdade, nº 615 –1º 3700-166 S. JOÃO DA MADEIRA",
+    :address-c
+    "Avenida da Liberdade 615, 3700-166, São João da Madeira, Aveiro",
     :postal-c "3700-166",
-    :x -8.485880013781554,
-    :y 40.89618498035529,
-    :score 100,
-    :c 1}}]]
+    :x -8.485829973819591,
+    :y 40.896160002283835,
+    :score 89.32,
+    :c 4}}]]

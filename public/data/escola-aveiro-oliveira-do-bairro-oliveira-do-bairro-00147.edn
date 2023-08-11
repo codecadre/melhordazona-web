@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Misericórdia, Nº 2 3770-215 OLIVEIRA DO BAIRRO",
   :name "Oliveira do Bairro",
+  :href-id #uuid "41cb77f0-dd6b-3422-962b-29006d7fc5f6",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OliveiradoBairro747.aspx",
@@ -94,6 +95,8 @@
   :nec 147,
   :cp7 "3770-215",
   :id #uuid "733245dc-866a-3c6c-917d-90ef0ae02c22",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/oliveira-do-bairro/41cb77f0-oliveira-do-bairro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
  :geocode

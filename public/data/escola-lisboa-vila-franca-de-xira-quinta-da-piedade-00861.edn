@@ -88,6 +88,7 @@
  {:address
   "Rua D.Vicente Afonso Valente, Nº 18-B 2625-215 PÓVOA DE SANTA IRIA",
   :name "Da Quinta da Piedade",
+  :href-id #uuid "97a027e3-4947-3a34-ba16-fd5bcd163e8c",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaQuintadaPiedade359.aspx",
@@ -95,12 +96,18 @@
   :nec 861,
   :cp7 "2625-215",
   :id #uuid "e5bfc242-a134-39f8-8348-d79e53d93e26",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/vila-franca-de-xira/97a027e3-da-quinta-da-piedade.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
  :geocode
- {:cp7 "2625-215",
+ {:id #uuid "e5bfc242-a134-39f8-8348-d79e53d93e26",
+  :address
+  "Rua D.Vicente Afonso Valente, Nº 18-B 2625-215 PÓVOA DE SANTA IRIA",
+  :address-c
+  "Avenida Dom Vicente Afonso Valente 18, 2625-215, Póvoa de Santa Iria, Vila Franca de Xira, Lisboa",
   :postal-c "2625-215",
-  :x -9.071084963656546,
-  :y 38.86354001651682,
-  :score 100,
+  :x -9.07454995861022,
+  :y 38.861410007281876,
+  :score 93.65,
   :c 1}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. Afonso Henriques nº 827 4435 -005 RIO TINTO",
   :name "Fénix",
+  :href-id #uuid "02c0bc63-e572-3325-9b93-47131135d83e",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fenix450.aspx",
@@ -94,12 +95,16 @@
   :nec 1032,
   :cp7 "4435-005",
   :id #uuid "524138f4-1e34-3196-9c7d-1aa15369727b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/02c0bc63-fenix.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode
- {:cp7 "4435-005",
-  :postal-c "4435-005",
-  :x -8.582855029303033,
-  :y 41.18303998428539,
-  :score 100,
-  :c 1}}
+ {:address "Rua D. Afonso Henriques nº 827 4435 -005 RIO TINTO",
+  :address-c
+  "Rua Dom Afonso Henriques 827, 4435-513, Areosa, Maia, Porto",
+  :postal-c "4435-513",
+  :x -8.580719990926,
+  :y 41.188079980755,
+  :score 96.26,
+  :c 2}}

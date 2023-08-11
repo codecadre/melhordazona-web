@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo da República nº 16 –1º 2050-158 AVEIRAS DE CIMA",
   :name "Estremadura",
+  :href-id #uuid "0a5959c7-75ba-38fc-8b21-509de1c926ed",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Estremadura428.aspx",
@@ -94,6 +95,8 @@
   :nec 392,
   :cp7 "2050-158",
   :id #uuid "11f2e166-17f1-3cc9-be32-86f29e92ebe8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/azambuja/0a5959c7-estremadura.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"},
  :geocode

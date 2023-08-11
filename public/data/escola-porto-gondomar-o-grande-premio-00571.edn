@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª D. João I, Nº 877 4435-208 RIO TINTO",
   :name "O Grande Prémio",
+  :href-id #uuid "4b83eee5-dbdf-36f5-b63c-b4a3e3b98ac5",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OGrandePremio732.aspx",
@@ -94,12 +95,17 @@
   :nec 571,
   :cp7 "4435-208",
   :id #uuid "b16b5342-a7c5-3270-b1b3-04ae9ad16790",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/4b83eee5-o-grande-premio.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode
- {:cp7 "4435-208",
+ {:id #uuid "b16b5342-a7c5-3270-b1b3-04ae9ad16790",
+  :address "Avª D. João I, Nº 877 4435-208 RIO TINTO",
+  :address-c
+  "Avenida Dom João I 877, 4435-208, Rio Tinto, Gondomar, Porto",
   :postal-c "4435-208",
-  :x -8.55375498931565,
-  :y 41.1677899915575,
-  :score 100,
-  :c 1}}
+  :x -8.55934999350427,
+  :y 41.16857001146701,
+  :score 89.06,
+  :c 2}}

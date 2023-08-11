@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua 25 de Abril, Nº 55 4590-206 FIGUEIRÓ",
   :name "Roda Livre",
+  :href-id #uuid "37e459f1-e9d5-3e48-a17e-5f65f2d27bd0",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RodaLivre862.aspx",
@@ -94,6 +95,8 @@
   :nec 908,
   :cp7 "4590-206",
   :id #uuid "c2f9d91f-32de-3d4a-a1ef-a4d16cfbaa4f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/37e459f1-roda-livre.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode

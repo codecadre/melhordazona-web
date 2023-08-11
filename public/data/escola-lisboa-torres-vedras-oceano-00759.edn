@@ -88,6 +88,7 @@
  {:address
   "Rua Dr.Aurélio Ricardo Belo, Nº 2-A 2560-324 TORRES VEDRAS",
   :name "Oceâno",
+  :href-id #uuid "df49d882-b068-3c58-a8e4-a8a5c5fb90f8",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oceano737.aspx",
@@ -95,6 +96,8 @@
   :nec 759,
   :cp7 "2560-324",
   :id #uuid "3de5aacc-fb5f-39ca-b3fc-30c15fe5dfb3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/df49d882-oceano.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
  :geocode

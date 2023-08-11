@@ -88,6 +88,7 @@
  {:address
   "Rua Conselheiro Frederico Arouca, n.º 94 R/C ; 2065-016 Alcoentre",
   :name "Granvia",
+  :href-id #uuid "8e19cd3a-32d4-366b-b79e-db47825fc9b8",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Granvia.aspx",
@@ -95,6 +96,8 @@
   :nec 1309,
   :cp7 "2065-016",
   :id #uuid "74a8b556-530a-3c22-983c-a5818a1815dc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/azambuja/8e19cd3a-granvia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"},
  :geocode

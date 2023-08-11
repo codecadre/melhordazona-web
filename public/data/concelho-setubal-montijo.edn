@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Miguel Pais, Nº 65 2070-356 Montijo",
     :name "Silvano Saraiva",
+    :href-id #uuid "6798f456-bd39-33c2-8395-9442f8219f9a",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SilvanoSaraiva971.aspx",
@@ -95,6 +96,8 @@
     :nec 416,
     :cp7 "2070-356",
     :id #uuid "8bae66fb-8043-33be-a6f0-f985a0e2c425",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/montijo/6798f456-silvano-saraiva.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Estrada Nacional nº 4 2870-184 MONTIJO",
     :name "Luz Verde",
+    :href-id #uuid "f4a5f474-8dea-3dd3-aaa6-773435be95c3",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LuzVerde612.aspx",
@@ -203,6 +207,8 @@
     :nec 706,
     :cp7 "2870-184",
     :id #uuid "216cbc33-7d82-3729-8fb7-446bbcd1d12c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/montijo/f4a5f474-luz-verde.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}]
  ["galaxia-00804"
@@ -295,6 +301,7 @@
    :imt-profile
    {:address "Rua Cristóvão Colombo, nº 77 2870 -260 MONTIJO",
     :name "Galáxia",
+    :href-id #uuid "599b8e9a-215b-3e07-98ba-735df1cc8785",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Galaxia481.aspx",
@@ -302,6 +309,8 @@
     :nec 804,
     :cp7 "2870-260",
     :id #uuid "7eeb73f1-590b-3397-ad6b-c2ca30880dc1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/montijo/599b8e9a-galaxia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
    :geocode
@@ -404,6 +413,7 @@
    {:address
     "Rua António Fortunato de Sousa, n.º 71, 2870-059 MONTIJO",
     :name "Net Rodas",
+    :href-id #uuid "13e6b19b-e5a0-3358-b19a-b12e1bb12608",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NetRodas.aspx",
@@ -411,16 +421,17 @@
     :nec 1273,
     :cp7 "2870-059",
     :id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/montijo/13e6b19b-net-rodas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
    :geocode
-   {:id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
-    :address
+   {:address
     "Rua António Fortunato de Sousa, n.º 71, 2870-059 MONTIJO",
     :address-c
-    "Rua António Fortunato de Sousa, 2870-054, Montijo, Setúbal",
+    "Rua António Fortunato de Sousa 71, 2870-054, Montijo, Setúbal",
     :postal-c "2870-054",
-    :x -8.978027344430592,
-    :y 38.705149808125164,
-    :score 95.29,
-    :c 2}}]]
+    :x -8.979779970357,
+    :y 38.705390015945,
+    :score 95.55,
+    :c 1}}]]

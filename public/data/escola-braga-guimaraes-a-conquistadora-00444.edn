@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praça Heróis da Fundação, Bloco 6-1º E 4810-421 GUIMARÃES",
   :name "A Conquistadora",
+  :href-id #uuid "f89b35e5-31a3-3641-b47a-5fd7b4c6d462",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AConquistadora007.aspx",
@@ -94,6 +95,8 @@
   :nec 444,
   :cp7 "4810-421",
   :id #uuid "7e1795a4-3352-353c-9d8a-1b9e0154b83a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/f89b35e5-a-conquistadora.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode

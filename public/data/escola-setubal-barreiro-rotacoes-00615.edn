@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Miguel Bombarda, Nº 87 R/C 2830-354 BARREIRO",
   :name "Rotações",
+  :href-id #uuid "7f95fe43-ac93-39b6-bfa1-e32b51586e5e",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rotacoes874.aspx",
@@ -94,6 +95,8 @@
   :nec 615,
   :cp7 "2830-354",
   :id #uuid "f449f3cf-d92a-33e5-a2a2-843ef38b31ce",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/barreiro/7f95fe43-rotacoes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
  :geocode

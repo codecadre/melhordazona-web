@@ -86,21 +86,17 @@
    :r/t-done 106.0}],
  :imt-profile
  {:address
-  "Rua da República - Edifício Pires Faria, n.º 17 R/c; 3050-428 Pampilhosa",
+  "Avenida das Laranjeiras, Edifício Panorama, Bloco B Anadia",
   :name "Via S",
+  :href-id #uuid "5417efe7-084f-3c70-badc-bbc800cd03b0",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Pampilhosa770.aspx",
-  :concelho "Mealhada",
+  :concelho "Anadia",
   :nec 1087,
-  :cp7 "3050-428",
-  :id #uuid "3495281b-780a-31de-a24d-50560146d538",
+  :cp7 nil,
+  :id #uuid "1626d6b0-c94d-3f52-a54b-be0024ce8efe",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/anadia/5417efe7-via-s.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"},
- :geocode
- {:cp7 "3050-428",
-  :postal-c "3050-428",
-  :x -8.43013499324681,
-  :y 40.33936999754019,
-  :score 100,
-  :c 1}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Anadia"}}

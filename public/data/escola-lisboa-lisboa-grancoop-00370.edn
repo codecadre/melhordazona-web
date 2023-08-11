@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª João Crisóstomo,Nº 66 –1º Dtª 1050-028 LISBOA",
   :name "Grancoop",
+  :href-id #uuid "145f5b46-e0ab-36c7-ad31-068cd277056e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Grancoop495.aspx",
@@ -94,6 +95,8 @@
   :nec 370,
   :cp7 "1050-028",
   :id #uuid "dd3fb57a-2439-3f1f-8c49-074321307a43",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/145f5b46-grancoop.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

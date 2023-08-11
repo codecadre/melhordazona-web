@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Maria Judite de Carvalho, n.º 15-B ; 2810-001 Almada",
   :name "Altamente",
+  :href-id #uuid "90ee55a5-22f6-3f6d-b7f4-6fba9e6565dd",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OsRodinhas756.aspx",
@@ -94,6 +95,8 @@
   :nec 1242,
   :cp7 "2810-001",
   :id #uuid "21af171f-3a1e-35c1-a871-642468bdba8a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/90ee55a5-altamente.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
  :geocode

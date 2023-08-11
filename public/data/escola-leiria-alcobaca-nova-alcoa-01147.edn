@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Costa Veiga, n.º 56 ; 2460-028 Alcobaça",
   :name "Nova Alcoa",
+  :href-id #uuid "bebe301a-7f2d-3e83-a41f-326a2310fdb2",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nova%20Alcoa.aspx",
@@ -94,6 +95,8 @@
   :nec 1147,
   :cp7 "2460-028",
   :id #uuid "ebe2b77a-2c89-3306-9e6c-84a1eec2489b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/bebe301a-nova-alcoa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
  :geocode

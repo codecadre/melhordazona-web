@@ -74,6 +74,7 @@
  {:address
   "Rua Comandante Palmiro Fernandes, n.º 10, loja A, 2540-040 Bombarral",
   :name "Nova do Bombarral",
+  :href-id #uuid "8c92a9a1-4804-3916-992c-dcea42740e90",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadoBombarral.aspx",
@@ -81,12 +82,17 @@
   :nec 1357,
   :cp7 "2540-040",
   :id #uuid "d5041235-2fe6-33d1-97de-c042687b337e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/bombarral/8c92a9a1-nova-do-bombarral.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Bombarral"},
  :geocode
- {:cp7 "2540-040",
+ {:address
+  "Rua Comandante Palmiro Fernandes, n.º 10, loja A, 2540-040 Bombarral",
+  :address-c
+  "Rua Comandante Palmiro Fernandes 10, 2540-040, Bombarral, Leiria",
   :postal-c "2540-040",
-  :x -9.16220496835291,
-  :y 39.264569994651055,
-  :score 100,
+  :x -9.162059961428,
+  :y 39.264580011025,
+  :score 97.3,
   :c 1}}

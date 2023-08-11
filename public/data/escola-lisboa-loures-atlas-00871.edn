@@ -88,6 +88,7 @@
  {:address
   "Rua Professor Egas Moniz,Nº 8-A-Bairro de S. Lourenço 2670-003 CAMARATE",
   :name "Atlas",
+  :href-id #uuid "6f6f50a0-49a4-3c86-86df-7046e2664091",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Atlas135.aspx",
@@ -95,5 +96,17 @@
   :nec 871,
   :cp7 "2670-003",
   :id #uuid "93931828-b627-389f-b467-227ed7c31c67",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/6f6f50a0-atlas.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+ :geocode
+ {:address
+  "Rua Professor Egas Moniz,Nº 8-A-Bairro de S. Lourenço 2670-003 CAMARATE",
+  :address-c
+  "Rua Professor Egas Moniz 8, 2680-510, Camarate, Loures, Lisboa",
+  :postal-c "2680-510",
+  :x -9.132789915625,
+  :y 38.80181105626,
+  :score 94.48,
+  :c 1}}

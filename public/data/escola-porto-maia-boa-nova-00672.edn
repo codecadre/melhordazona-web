@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. Afonso Henriques, Nº 4515 4425-057 ÁGUAS SANTAS",
   :name "Boa Nova",
+  :href-id #uuid "2bafc369-c2c6-36dc-a0f1-5dd4080b46a2",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BoaNova248.aspx",
@@ -94,12 +95,17 @@
   :nec 672,
   :cp7 "4425-057",
   :id #uuid "80297c79-ad95-3e22-adeb-7c29800e0dce",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/2bafc369-boa-nova.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode
- {:cp7 "4425-057",
-  :postal-c "4425-057",
-  :x -8.573450031025999,
-  :y 41.200679992884716,
-  :score 100,
-  :c 1}}
+ {:id #uuid "80297c79-ad95-3e22-adeb-7c29800e0dce",
+  :address "Rua D. Afonso Henriques, Nº 4515 4425-057 ÁGUAS SANTAS",
+  :address-c
+  "Rua Dom Afonso Henriques 4515, 4425-593, Gandra, Maia, Porto",
+  :postal-c "4425-593",
+  :x -8.559297989461289,
+  :y 41.21598076051066,
+  :score 94.22,
+  :c 13}}

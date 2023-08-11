@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª 25 de Abril, Nº 23 R/C 3620-304 MOIMENTA DA BEIRA",
     :name "Reis",
+    :href-id #uuid "40582b49-6a40-3e0e-9d7d-984a37b13f7b",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Reis842.aspx",
@@ -95,6 +96,8 @@
     :nec 337,
     :cp7 "3620-304",
     :id #uuid "4e268acb-e114-3f42-9943-ea22157b3a76",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/moimenta-da-beira/40582b49-reis.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Moimenta%20da%20Beira"},
    :geocode
@@ -198,6 +201,7 @@
    {:address
     "Avª Dr. João Lima Gomes – Lote 2 Dtº 3620-301 MOIMENTA DA BEIRA",
     :name "Moimenta da Beira",
+    :href-id #uuid "a06250b8-e9dd-3bae-b6c3-8eba9fd3f5fd",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MoimentadaBeira663.aspx",
@@ -205,12 +209,18 @@
     :nec 616,
     :cp7 "3620-301",
     :id #uuid "107a8dca-20bf-3677-a557-c56933e93d3c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/moimenta-da-beira/a06250b8-moimenta-da-beira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Moimenta%20da%20Beira"},
    :geocode
-   {:cp7 "3620-301",
-    :postal-c "3620-301",
-    :x -7.622825031924435,
-    :y 40.98659000871078,
-    :score 100,
-    :c 1}}]]
+   {:id #uuid "107a8dca-20bf-3677-a557-c56933e93d3c",
+    :address
+    "Avª Dr. João Lima Gomes – Lote 2 Dtº 3620-301 MOIMENTA DA BEIRA",
+    :address-c
+    "Avenida Doutor João Lima Gomes 2, 3620-368, Moimenta da Beira, Viseu",
+    :postal-c "3620-368",
+    :x -7.616872776460776,
+    :y 40.9850167922534,
+    :score 91.42,
+    :c 2}}]]

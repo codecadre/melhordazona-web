@@ -88,6 +88,7 @@
  {:address
   "Rua 17 de Setembro, n.º 4, Loja - Casal de S. Brás; 2700-232 Amadora",
   :name "A Rotunda",
+  :href-id #uuid "3497188e-6737-3339-99fe-1ce7acdfbd44",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ARotunda040.aspx",
@@ -95,6 +96,8 @@
   :nec 550,
   :cp7 "2700-232",
   :id #uuid "9c6ddef0-139d-332c-9026-be7cba1be711",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/3497188e-a-rotunda.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
  :geocode

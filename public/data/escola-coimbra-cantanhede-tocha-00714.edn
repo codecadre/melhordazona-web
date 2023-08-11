@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª D. João Garcia Bacelar, s/nº 3060-704 CANTANHEDE",
   :name "Da Tocha",
+  :href-id #uuid "933173bd-96f6-3d0e-be22-f3846d62df81",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaTocha361.aspx",
@@ -94,12 +95,17 @@
   :nec 714,
   :cp7 "3060-704",
   :id #uuid "ac94d928-bfcd-3f33-9100-9078b47cc32c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/cantanhede/933173bd-da-tocha.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
  :geocode
- {:cp7 "3060-704",
+ {:id #uuid "ac94d928-bfcd-3f33-9100-9078b47cc32c",
+  :address "Avª D. João Garcia Bacelar, s/nº 3060-704 CANTANHEDE",
+  :address-c
+  "Avenida Dom João Garcia Bacelar, 3060-704, Pereirões, Cantanhede, Coimbra",
   :postal-c "3060-704",
-  :x -8.755200034359092,
-  :y 40.31194998431576,
-  :score 100,
-  :c 1}}
+  :x -8.756414558677692,
+  :y 40.30776657125605,
+  :score 89.15,
+  :c 5}}

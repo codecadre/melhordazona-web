@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua General Humberto Delgado nº 274/276 2400-250 LEIRIA",
   :name "D. Dinis",
+  :href-id #uuid "1ec87935-ecd7-3303-a5b1-37807df2ab07",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DDinis354.aspx",
@@ -94,6 +95,8 @@
   :nec 869,
   :cp7 "2400-250",
   :id #uuid "0bd64c2d-15b9-3d43-af9f-90c0da7b1f62",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/leiria/1ec87935-d-dinis.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
  :geocode

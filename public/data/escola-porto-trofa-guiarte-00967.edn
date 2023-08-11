@@ -88,6 +88,7 @@
  {:address
   "Rua Infante D. Henrique, Ed. Ferreirinha II Loja nº 3 4785-187 S. MARTINHO (BOUGADO)",
   :name "Guiarte de José Manuel Moreira e Carvalho",
+  :href-id #uuid "2dc64be7-e2aa-3c7d-8b7c-5e763e410b1c",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GuiartedeJoseManuelMoreiraeCarvalho505.aspx",
@@ -95,6 +96,8 @@
   :nec 967,
   :cp7 "4785-187",
   :id #uuid "04b9f5e8-c50b-3e6f-a98b-3d294bb3d3fc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/trofa/2dc64be7-guiarte-de-jose-manuel-moreira-e-carvalho.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Dr. Mário Soares, Nº 2209 4770-260 JOANE",
   :name "Joanense",
+  :href-id #uuid "0fe381f5-09da-3e0b-af4b-0f0824f1c546",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Joanense576.aspx",
@@ -94,12 +95,17 @@
   :nec 506,
   :cp7 "4770-260",
   :id #uuid "fce3f4f9-6ccf-303c-9815-a96a9aad8055",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/0fe381f5-joanense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
  :geocode
- {:cp7 "4770-260",
+ {:id #uuid "fce3f4f9-6ccf-303c-9815-a96a9aad8055",
+  :address "Avª Dr. Mário Soares, Nº 2209 4770-260 JOANE",
+  :address-c
+  "Avenida Doutor Mário Soares 2209, 4770-260, Joane, Vila Nova de Famalicão, Braga",
   :postal-c "4770-260",
-  :x -8.409019973319488,
-  :y 41.438590004778746,
-  :score 100,
-  :c 1}}
+  :x -8.421233017469344,
+  :y 41.43235827103426,
+  :score 87.76,
+  :c 7}}

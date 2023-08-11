@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua de São Sebastião, Nº 4 8950-121 CASTRO MARIM",
     :name "O. Azul de Castro Marim",
+    :href-id #uuid "5561b603-44bb-3976-9b38-e7befa1a3121",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OAzuldeCastroMarim735.aspx",
@@ -95,6 +96,8 @@
     :nec 446,
     :cp7 "8950-121",
     :id #uuid "8d79e7f0-bb22-39fd-a4c5-71db7cc3ede5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/castro-marim/5561b603-o-azul-de-castro-marim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Castro%20Marim"},
    :geocode

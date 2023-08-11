@@ -84,6 +84,28 @@
    :r/k "do-juncal-01162",
    :r/total-passed 1.0,
    :r/t-done 1.0}],
- :imt-profile nil,
+ :imt-profile
+ {:address "Rua de Alpiarça Nº 45 - R/c 2080-091 Almeirim",
+  :name "Juncal",
+  :href-id #uuid "1bb04767-6002-3413-a5ed-479d9e209c0e",
+  :distrito "Santarém",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaSerra360.aspx",
+  :concelho "Almeirim",
+  :nec 1162,
+  :cp7 "2080-091",
+  :id #uuid "17bc7a38-f908-31fc-9991-8f7e7a54448c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/almeirim/1bb04767-juncal.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Almeirim"},
  :obs "license 1162 is 'Da Serra' in imt.pt",
- :overwrite/notes nil}
+ :overwrite/notes nil,
+ :geocode
+ {:address "Rua de Alpiarça Nº 45 - R/c 2080-091 Almeirim",
+  :address-c "Rua de Alpiarça 45, 2080-091, Almeirim, Santarém",
+  :postal-c "2080-091",
+  :x -8.624519961246,
+  :y 39.213080005354,
+  :score 97.84,
+  :c 1}}

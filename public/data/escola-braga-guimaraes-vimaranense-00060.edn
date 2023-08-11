@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. Afonso Henriques, 194 - 1º 4810-431 GUIMARÃES",
   :name "Vimaranense",
+  :href-id #uuid "87ef1043-74d0-3463-ac84-7c7c67df9f98",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vimaranense1072.aspx",
@@ -94,6 +95,8 @@
   :nec 60,
   :cp7 "4810-431",
   :id #uuid "e30d9b07-01c2-39ed-893e-2792f2ac0836",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/87ef1043-vimaranense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode

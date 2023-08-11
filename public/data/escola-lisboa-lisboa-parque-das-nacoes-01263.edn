@@ -88,6 +88,7 @@
  {:address
   "Alameda dos Oceanos, Páteo das Pirogas, Lote 4.43.01 A 1950-211 LISBOA",
   :name "Parque das Nações",
+  :href-id #uuid "00a5734d-8605-34cb-b98c-02a56f093f4f",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ParquedasNacoes773.aspx",
@@ -95,6 +96,8 @@
   :nec 1263,
   :cp7 "1950-211",
   :id #uuid "46b95be3-ad7e-3ccf-a3cf-51b2ee1df061",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/00a5734d-parque-das-nacoes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

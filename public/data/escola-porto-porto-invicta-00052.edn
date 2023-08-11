@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua João Pedro Ribeiro,713/ 715-1º 4000-307 PORTO",
   :name "Invicta",
+  :href-id #uuid "d4441df0-c1c7-3063-a504-22c64534e8d5",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Invicta568.aspx",
@@ -94,6 +95,8 @@
   :nec 52,
   :cp7 "4000-307",
   :id #uuid "37da4c62-d587-3b6c-bff4-d2c0f012ddc8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/d4441df0-invicta.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

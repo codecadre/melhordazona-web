@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª D. Nuno Álvares Pereira nº 76 A 2735 CACÉM",
   :name "Atlântida",
+  :href-id #uuid "44f613a8-532e-3744-b36f-a4f8cd164a7b",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Atlantida134.aspx",
@@ -94,15 +95,17 @@
   :nec 490,
   :cp7 "2735",
   :id #uuid "cc30a675-a38f-3719-9a97-423d856c48af",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/44f613a8-atlantida.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode
  {:id #uuid "cc30a675-a38f-3719-9a97-423d856c48af",
-  :address "Avª D. Nuno Álvares Pereira n 76 A 2735 CACÉM",
+  :address "Avª D. Nuno Álvares Pereira nº 76 A 2735 CACÉM",
   :address-c
   "Avenida Dom Nuno Álvares Pereira 76, 2735-146, Agualva, Sintra, Lisboa",
   :postal-c "2735-146",
   :x -9.292490002369732,
   :y 38.770170015641554,
-  :score 95.44,
-  :c 1}}
+  :score 86.47,
+  :c 50}}

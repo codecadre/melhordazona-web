@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Casal do Almirante, Lote 3, Bloco 4 2670-337 LOURES",
   :name "Almirante",
+  :href-id #uuid "5d8d4407-ba22-3232-961a-7bb288bf8712",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Almirante090.aspx",
@@ -94,6 +95,8 @@
   :nec 1247,
   :cp7 "2670-337",
   :id #uuid "998f2539-38e5-3fda-a449-2c1071fba580",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/5d8d4407-almirante.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode

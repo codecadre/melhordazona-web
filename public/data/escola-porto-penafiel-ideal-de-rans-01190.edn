@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. da Boa Viagem, Lugar de Ponte Nova, Nº 704",
   :name "Ideal de Rans",
+  :href-id #uuid "0de0dba4-2c2a-357b-96bf-8645ffb8fdd7",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ideal%20de%20Rans.aspx",
@@ -94,5 +95,7 @@
   :nec 1190,
   :cp7 nil,
   :id #uuid "dea4d14c-afc9-3799-87ed-5f70b801613d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/0de0dba4-ideal-de-rans.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}

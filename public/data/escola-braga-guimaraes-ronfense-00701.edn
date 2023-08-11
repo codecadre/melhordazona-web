@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de S. Tiago, Nº 784 4805-437 RONFE",
   :name "Ronfense",
+  :href-id #uuid "c63d8efb-117d-3934-b368-1cc5a2e98d1d",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ronfense869.aspx",
@@ -94,6 +95,8 @@
   :nec 701,
   :cp7 "4805-437",
   :id #uuid "7f083766-e5c0-3e18-b1e8-3052c3d72ba2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/c63d8efb-ronfense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode

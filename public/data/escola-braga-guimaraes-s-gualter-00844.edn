@@ -88,6 +88,7 @@
  {:address
   "Urb. Da Quintã - Rua Teixeira Pascoais nº 375 r/c 4800-073 AZURÉM",
   :name "S. Gualter",
+  :href-id #uuid "a4e300e1-db37-3bf3-9eef-2f8f7f929154",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SGualter885.aspx",
@@ -95,12 +96,18 @@
   :nec 844,
   :cp7 "4800-073",
   :id #uuid "5032fc78-49ab-3cf9-925f-43d2c8abc14f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/a4e300e1-s-gualter.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode
- {:cp7 "4800-073",
+ {:id #uuid "5032fc78-49ab-3cf9-925f-43d2c8abc14f",
+  :address
+  "Urb. Da Quintã - Rua Teixeira Pascoais nº 375 r/c 4800-073 AZURÉM",
+  :address-c
+  "Rua Teixeira de Pascoais 375, 4800-073, Guimarães, Braga",
   :postal-c "4800-073",
   :x -8.297950033237214,
-  :y 41.44853500716786,
-  :score 100,
+  :y 41.4486699977185,
+  :score 94.89,
   :c 1}}

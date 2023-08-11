@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. António Ferreira Gomes nº 166 4560-568 MILHUNDOS",
   :name "Sport",
+  :href-id #uuid "7fbac359-8dfa-3a58-ae60-d999ce86435c",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sport987.aspx",
@@ -94,6 +95,8 @@
   :nec 960,
   :cp7 "4560-568",
   :id #uuid "dfc3da07-a89c-31e8-8881-292eb1f2f04e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/7fbac359-sport.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
  :geocode

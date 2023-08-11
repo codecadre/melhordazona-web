@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua José dos Santos, Nº 27 6300-575 GUARDA",
   :name "Santos Pereira e Carvalho",
+  :href-id #uuid "9fe0cb8b-e05a-3e0c-8bae-e6c3a2675364",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantosPereiraeCarvalho944.aspx",
@@ -94,6 +95,8 @@
   :nec 716,
   :cp7 "6300-575",
   :id #uuid "a284bb33-d173-390f-88b0-e2b39be96541",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/9fe0cb8b-santos-pereira-e-carvalho.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
  :geocode

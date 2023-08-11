@@ -88,6 +88,7 @@
  {:address
   "Largo dos Combatentes da Grande Guerra, Nª 6 8400-338 LAGOA",
   :name "Infante de Sagres - Lagoa",
+  :href-id #uuid "5c275b16-275a-3b85-abbd-ffc96c40cf9d",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresLagoa535.aspx",
@@ -95,6 +96,8 @@
   :nec 207,
   :cp7 "8400-338",
   :id #uuid "2f9f52f9-27bd-3ca8-8d9c-6683799c5c70",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagoa/5c275b16-infante-de-sagres-lagoa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. Gomes Aciegas, Nº 165 R/C 4610-171 MARGARIDE (SANTA EULÁLIA)",
   :name "Quatro Rodas",
+  :href-id #uuid "de671940-ac62-323c-a50d-0ae5fc1c7422",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/QuatroRodas828.aspx",
@@ -95,12 +96,18 @@
   :nec 849,
   :cp7 "4610-171",
   :id #uuid "7baa8dd9-5ab7-362f-af59-c6840d6fbb05",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/de671940-quatro-rodas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
  :geocode
- {:cp7 "4610-171",
+ {:id #uuid "7baa8dd9-5ab7-362f-af59-c6840d6fbb05",
+  :address
+  "Rua Dr. Gomes Aciegas, Nº 165 R/C 4610-171 MARGARIDE (SANTA EULÁLIA)",
+  :address-c
+  "Rua Dr. Gomes de Aciegas 165, 4610-171, Felgueiras, Porto",
   :postal-c "4610-171",
-  :x -8.203620011081739,
-  :y 41.35899499122007,
-  :score 100,
-  :c 1}}
+  :x -8.203757204510826,
+  :y 41.35833599260305,
+  :score 93.14,
+  :c 6}}

@@ -45,6 +45,7 @@
  :imt-profile
  {:address "Rua Principal, n.º 258 r/c 4505-374 Fiães",
   :name "5 Estrelas",
+  :href-id #uuid "6c9142b7-70d3-3a1c-bd31-b986a192d484",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/5Estrelas.aspx",
@@ -52,12 +53,17 @@
   :nec 1404,
   :cp7 "4505-374",
   :id #uuid "d77154e6-ac4b-3963-8faf-5b83872d2919",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/6c9142b7-5-estrelas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode
- {:cp7 "4505-374",
-  :postal-c "4505-374",
-  :x -8.531934967512228,
-  :y 40.99786999681865,
-  :score 100,
-  :c 1}}
+ {:id #uuid "d77154e6-ac4b-3963-8faf-5b83872d2919",
+  :address "Rua Principal, n.º 258 r/c 4505-374 Fiães",
+  :address-c
+  "Rua Principal 258, 4505-515, Sub-Outeiro, Santa Maria da Feira, Aveiro",
+  :postal-c "4505-515",
+  :x -8.507609955674189,
+  :y 40.994949999128615,
+  :score 92.39,
+  :c 22}}

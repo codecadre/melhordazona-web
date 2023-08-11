@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua François Guichard, n.º 8, 4100-012 PORTO",
   :name "Porto Bessa",
+  :href-id #uuid "63245229-6d94-3353-b62a-9efdd559d330",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PortoBessa.aspx",
@@ -94,6 +95,8 @@
   :nec 1321,
   :cp7 "4100-012",
   :id #uuid "7516aea9-ea08-3a33-8266-96468bfe477e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/63245229-porto-bessa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

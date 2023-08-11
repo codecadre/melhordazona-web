@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Menino de Jesus, 35 7000-601 ÉVORA",
   :name "Diana",
+  :href-id #uuid "28019cbf-8f45-3a05-b9d8-3e66bc0b3d72",
   :distrito "Évora",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Diana384.aspx",
@@ -94,6 +95,8 @@
   :nec 194,
   :cp7 "7000-601",
   :id #uuid "4635399f-a4d4-374a-9aad-3e0c0989de90",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/evora/28019cbf-diana.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
  :geocode

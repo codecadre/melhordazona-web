@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Luís de Camões, Nº 26, Loja 2 3060-183 CANTANHEDE",
   :name "Marialvas",
+  :href-id #uuid "50271a46-9337-3642-b1a4-31da6e8f1720",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Marialvas628.aspx",
@@ -94,6 +95,8 @@
   :nec 564,
   :cp7 "3060-183",
   :id #uuid "a2931300-7251-3fca-b981-3a2905362480",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/cantanhede/50271a46-marialvas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
  :geocode

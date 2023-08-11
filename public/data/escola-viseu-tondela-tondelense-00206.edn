@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua António Marques da Costa, s/nª 3460-575 TONDELA",
   :name "Tondelense",
+  :href-id #uuid "a92e5dc2-c4d0-3d83-aa10-7f53c727a1f9",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tondelense1012.aspx",
@@ -94,6 +95,8 @@
   :nec 206,
   :cp7 "3460-575",
   :id #uuid "43b6d67f-4895-3c25-bf6f-03993465e73d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/tondela/a92e5dc2-tondelense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
  :geocode

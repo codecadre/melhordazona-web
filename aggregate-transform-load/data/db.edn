@@ -32337,7 +32337,9 @@
     :file-name
     "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/fadd5928-a-desportiva-espinho.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
+   :obs "archived and nec and href was reused.",
+   :overwrite/notes nil}]
  ["a-desportiva-palacio-00464"
   {:nec 464,
    :rates
@@ -32441,6 +32443,8 @@
     "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/7604ef07-a-desportiva-palacio.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :obs "archived and nec and href was reused.",
+   :overwrite/notes nil,
    :geocode
    {:id #uuid "dd02ded2-636f-3be7-8653-14164f72de37",
     :address "Rua do Rosário, 5 – 2º 4050-523 PORTO",
@@ -43982,6 +43986,8 @@
     "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/69435205-sampaio.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :obs "archived and nec and href was reused.",
+   :overwrite/notes nil,
    :geocode
    {:cp7 "4615-623",
     :postal-c "4615-623",
@@ -48741,6 +48747,8 @@
     "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/coimbra/c23366b4-siiimpletunas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
+   :obs "archived and nec and href was reused.",
+   :overwrite/notes nil,
    :geocode
    {:id #uuid "d4a52045-b061-3833-8636-b6836c732a5d",
     :address "Rua Bernardo de Albuquerque nº 25 r/c 3000-072 COIMBRA",
@@ -56216,6 +56224,8 @@
     "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/montemor-o-novo/80fdf6fc-pero-rodrigues.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Montemor%20o%20Novo"},
+   :obs "archived and nec and href was reused.",
+   :overwrite/notes nil,
    :geocode
    {:id #uuid "0f410351-2bb8-3c4d-bbb0-b46261df0759",
     :address "Rua Tomé Adelino Vidigal, 14 - 7050 - MONTEMOR-O-NOVO",
@@ -123446,6 +123456,8 @@
     "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/edc82326-75agv.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+   :obs "There's a new entry called AGV with same address and nec...",
+   :overwrite/notes nil,
    :geocode
    {:id #uuid "83e9ea82-92b0-3430-8160-eb2ed0e980e9",
     :address

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Meiral, n.º 231; 4400-501 Vila Nova de Gaia",
   :name "Via Arrábida",
+  :href-id #uuid "c927aeb2-f869-3a80-98e2-93955bcfb564",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaArrabida1048.aspx",
@@ -94,6 +95,8 @@
   :nec 1111,
   :cp7 "4400-501",
   :id #uuid "56f1d4e9-b0d2-32e9-ba8f-fed1c0e41454",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/c927aeb2-via-arrabida.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode

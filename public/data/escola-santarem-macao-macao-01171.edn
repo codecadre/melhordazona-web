@@ -84,6 +84,31 @@
    :r/k "macao-01171",
    :r/total-passed 63.0,
    :r/t-done 56.0}],
- :imt-profile nil,
- :obs "license 1171 is 'Abranjovem' in imt.pt",
- :overwrite/notes nil}
+ :imt-profile
+ {:address
+  "Rua Tenente Coronel Francisco Pedro Curado 5B, 6120-755 Mação",
+  :name "Mação",
+  :href-id #uuid "48b6f24e-7a08-3a71-adc2-3ffceb330cc4",
+  :distrito "Santarém",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Abranjovem049.aspx",
+  :concelho "Mação",
+  :nec 1171,
+  :cp7 "6120-755",
+  :id #uuid "34232526-f88a-3ad2-add4-c0d2a1f385e6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/macao/48b6f24e-macao.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Ma%C3%A7%C3%A3o"},
+ :obs "duplicate license 1171 is 'Abranjovem'",
+ :overwrite/notes nil,
+ :geocode
+ {:address
+  "Rua Tenente Coronel Francisco Pedro Curado 5B, 6120-755 Mação",
+  :address-c
+  "Rua Ten. Cor. Francisco Pedro Curado, 6120-755, Mação, Santarém",
+  :postal-c "6120-755",
+  :x -7.996505172177,
+  :y 39.55757005155,
+  :score 98.63,
+  :c 3}}

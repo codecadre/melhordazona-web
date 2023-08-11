@@ -88,6 +88,7 @@
  {:address
   "Urbanização Valbom, Lote 2, S/CV, S/Nº, A, B 3270-051 PEDRÓGÃO GRANDE",
   :name "Pedroguense",
+  :href-id #uuid "bc67b0c3-6a84-3cf1-bb12-341a06283364",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Pedroguense778.aspx",
@@ -95,6 +96,8 @@
   :nec 560,
   :cp7 "3270-051",
   :id #uuid "96f6f038-0cc4-38ea-aa7c-4daba2651456",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pedrogao-grande/bc67b0c3-pedroguense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pedrog%C3%A3o%20Grande"},
  :geocode

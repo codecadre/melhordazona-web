@@ -85,24 +85,18 @@
    :r/total-passed 111.0,
    :r/t-done 126.0}],
  :imt-profile
- {:address "Rua Francisco Sá Carneiro 5100-344 BRITIANDE",
+ {:address
+  "Rua Fernão de Magalhães, galerias Valmor, S. Domingos de Rana",
   :name "Egas Moniz",
-  :distrito "Viseu",
+  :href-id #uuid "1e755838-c65b-38fd-ba1d-d0516dc88235",
+  :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EgasMoniz402.aspx",
-  :concelho "Lamego",
+  :concelho "Cascais",
   :nec 873,
-  :cp7 "5100-344",
-  :id #uuid "b1b64999-0e41-3e55-bf6b-2a270a0e8460",
+  :cp7 nil,
+  :id #uuid "2a4a054a-49dd-3299-a42c-b98f07291369",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/1e755838-egas-moniz.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
- :geocode
- {:id #uuid "b1b64999-0e41-3e55-bf6b-2a270a0e8460",
-  :address "Rua Francisco Sá Carneiro 5100-344 BRITIANDE",
-  :address-c
-  "Rua de Francisco Sá Carneiro, 5100-344, Britiande, Lamego, Viseu",
-  :postal-c "5100-344",
-  :x -7.792150407794964,
-  :y 41.06321724842816,
-  :score 100,
-  :c 1}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"}}

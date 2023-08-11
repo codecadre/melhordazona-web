@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Pedro Álvares Cabral, Nº 292 R/C 6250-088 BELMONTE",
   :name "Belmontense",
+  :href-id #uuid "efa46edd-9739-3b0f-a508-7072ad88045b",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Belmontense240.aspx",
@@ -94,6 +95,8 @@
   :nec 421,
   :cp7 "6250-088",
   :id #uuid "cc09c2d3-567d-3c7a-81e0-7fd70cca0606",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/belmonte/efa46edd-belmontense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Belmonte"},
  :geocode

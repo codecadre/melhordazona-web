@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Soldado Herói Milhões, 21 5090-136 MURÇA",
   :name "Via Murça",
+  :href-id #uuid "9bc1687a-c050-3e81-a371-9ac8c3a09eac",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaMurca1051.aspx",
@@ -94,6 +95,8 @@
   :nec 786,
   :cp7 "5090-136",
   :id #uuid "68107909-9851-3714-a8e8-138b8faa21c0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/murca/9bc1687a-via-murca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mur%C3%A7a"},
  :geocode

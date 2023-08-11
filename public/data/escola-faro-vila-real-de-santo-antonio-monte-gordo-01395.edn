@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Av. da Catalunha, lote 7, 8900-401 MONTE GORDO",
   :name "Monte Gordo",
+  :href-id #uuid "fc0c06ac-eb8a-3335-b2ac-c82d123f7531",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MonteGordo.aspx",
@@ -80,6 +81,8 @@
   :nec 1395,
   :cp7 "8900-401",
   :id #uuid "65c2c3b9-f50b-313f-89ea-182ef6f38f11",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/vila-real-de-santo-antonio/fc0c06ac-monte-gordo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
  :geocode

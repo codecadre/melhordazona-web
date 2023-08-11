@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Alfredo Mirante, n.º 6 R/c Dtº, 7350-154 ELVAS",
   :name "Aqueduto",
+  :href-id #uuid "2cd13885-c9dc-36ab-872b-42725407daf7",
   :distrito "Portalegre",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aqueduto.aspx",
@@ -94,6 +95,8 @@
   :nec 1330,
   :cp7 "7350-154",
   :id #uuid "1b1a1029-2ccb-3890-88c3-92d0c8ec5637",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/elvas/2cd13885-aqueduto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Elvas"},
  :geocode

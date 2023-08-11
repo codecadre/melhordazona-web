@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Lugar da Feira 4640-147 CAMPELO",
     :name "Baião",
+    :href-id #uuid "205965ad-bb91-3491-a726-93be6507c073",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Baiao214.aspx",
@@ -95,6 +96,8 @@
     :nec 474,
     :cp7 "4640-147",
     :id #uuid "c4a53c51-11e8-3aea-ac37-08216798fd78",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/baiao/205965ad-baiao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"},
    :geocode
@@ -193,7 +196,9 @@
      :r/t-done 68.0}],
    :imt-profile
    {:address "Lugar da Portela, Fracções D e E 4640-264 GOVE",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Santa Marinhense",
+    :href-id #uuid "b0f42882-3bb8-39bf-b959-592f8dd6c60d",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMarinhense933.aspx",
@@ -201,6 +206,8 @@
     :nec 1047,
     :cp7 "4640-264",
     :id #uuid "59e83a39-71b8-3a3d-b578-fecaa629c872",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/baiao/b0f42882-santa-marinhense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"},
    :geocode

@@ -32,6 +32,7 @@
  {:address
   "Rua Sport Club de Freamunde, n.º208 r/c, 4590-397 Freamunde",
   :name "Ivo’s Driving Academy",
+  :href-id #uuid "414346bc-a21e-3523-bdfa-1a03864e57b3",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ivo%e2%80%99sDrivingAcademy.aspx",
@@ -39,12 +40,18 @@
   :nec 1435,
   :cp7 "4590-397",
   :id #uuid "101d49cd-5e8f-3718-ad0a-dfd5bc93dfb5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/414346bc-ivos-driving-academy.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode
- {:cp7 "4590-397",
+ {:id #uuid "101d49cd-5e8f-3718-ad0a-dfd5bc93dfb5",
+  :address
+  "Rua Sport Club de Freamunde, n.º208 r/c, 4590-397 Freamunde",
+  :address-c
+  "Rua do Sport Clube Freamunde 208, 4590-397, Praina, Paços de Ferreira, Porto",
   :postal-c "4590-397",
-  :x -8.338999984943769,
-  :y 41.277830005287115,
-  :score 100,
+  :x -8.339210035437361,
+  :y 41.277979999444426,
+  :score 92.46,
   :c 1}}

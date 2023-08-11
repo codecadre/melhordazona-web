@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Estrada Nacional 11, 1P 233 , 2835-175 Baixa da Banheira",
   :name "Escola de Condução BXB",
+  :href-id #uuid "a243b301-b789-3011-8b15-d1a4b333b790",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EC_BXB.aspx",
@@ -94,12 +95,16 @@
   :nec 1104,
   :cp7 "2835-175",
   :id #uuid "1f79b2ac-10f6-3338-bc8c-eba59570cabb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/moita/a243b301-escola-de-conducao-bxb.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
  :geocode
- {:cp7 "2835-175",
-  :postal-c "2835-175",
-  :x -9.037626334017887,
-  :y 38.65753944900703,
-  :score 100,
-  :c 1}}
+ {:id #uuid "1f79b2ac-10f6-3338-bc8c-eba59570cabb",
+  :address "Estrada Nacional 11, 1P 233 , 2835-175 Baixa da Banheira",
+  :address-c "N11 1P, 2860-027, Alhos Vedros, Moita, Setúbal",
+  :postal-c "2860-027",
+  :x -9.027659681904655,
+  :y 38.65504406879513,
+  :score 94.52,
+  :c 2}}

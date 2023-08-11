@@ -88,6 +88,7 @@
  {:address
   "Rua José Alves Leite, Bloco 1, Fracçâo C, D e E 4720-022 AMARES",
   :name "Lusíada",
+  :href-id #uuid "701d4690-1566-37dd-af02-4e3dd3e35e08",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lusiada610.aspx",
@@ -95,6 +96,8 @@
   :nec 1078,
   :cp7 "4720-022",
   :id #uuid "f10c8f4c-faac-31ca-93ef-4412ffb61a6e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/amares/701d4690-lusiada.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"},
  :geocode

@@ -56,6 +56,33 @@
    :r/k "malhoa-01314",
    :r/total-passed 84.0,
    :r/t-done 56.0}],
- :imt-profile nil,
- :obs "prob. same as nova-mira-01349. data until 2018",
- :overwrite/notes nil}
+ :imt-profile
+ {:address
+  "Rua General Amílcar Mota, n.º 21 ; 2500-209 Caldas da Rainha",
+  :archived-last-seen-at "2022-05-07T14:52:45Z",
+  :name "Malhoa",
+  :href-id #uuid "f4697013-6987-32c2-b329-ab4ab5e7e9cb",
+  :distrito "Leiria",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Malhoa.aspx",
+  :concelho "Caldas da Raínha",
+  :nec 1314,
+  :cp7 "2500-209",
+  :id #uuid "02713c1f-d2c3-3548-b74e-9251cc0754fc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/caldas-da-rainha/f4697013-malhoa.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+ :obs "duplicate nec with another name",
+ :overwrite/notes nil,
+ :geocode
+ {:id #uuid "02713c1f-d2c3-3548-b74e-9251cc0754fc",
+  :address
+  "Rua General Amílcar Mota, n.º 21 ; 2500-209 Caldas da Rainha",
+  :address-c
+  "Rua General Amílcar Mota, 2500-209, Caldas da Rainha, Leiria",
+  :postal-c "2500-209",
+  :x -9.133847300401449,
+  :y 39.398299597608826,
+  :score 96.96,
+  :c 4}}

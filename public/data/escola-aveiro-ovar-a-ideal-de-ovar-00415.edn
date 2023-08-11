@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Luís de Camões, 13 3880-240 OVAR",
   :name "Ideal de Ovar",
+  :href-id #uuid "c7b46675-548f-3e80-9420-e708a6138c00",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealdeOvar516.aspx",
@@ -94,6 +95,8 @@
   :nec 415,
   :cp7 "3880-240",
   :id #uuid "cd5e54c1-b14b-3627-aa47-3eae884ae992",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ovar/c7b46675-ideal-de-ovar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
  :geocode

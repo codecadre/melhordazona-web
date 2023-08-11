@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª da República nº 31 8700-308 OLHÃO",
     :name "Olhanense",
+    :href-id #uuid "af5e574a-4336-3032-bb1e-dc6b12f5ebcb",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Olhanense743.aspx",
@@ -95,15 +96,19 @@
     :nec 77,
     :cp7 "8700-308",
     :id #uuid "3d0f6fbb-dc5c-35ec-b9a4-1e497edbbfae",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/af5e574a-olhanense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
    :geocode
-   {:cp7 "8700-308",
+   {:id #uuid "3d0f6fbb-dc5c-35ec-b9a4-1e497edbbfae",
+    :address "Avª da República nº 31 8700-308 OLHÃO",
+    :address-c "Avenida da República 31, 8700-308, Olhão, Faro",
     :postal-c "8700-308",
-    :x -7.839844994172381,
-    :y 37.028220015125456,
-    :score 100,
-    :c 1}}]
+    :x -7.8397999833523215,
+    :y 37.02793000127558,
+    :score 89.32,
+    :c 3}}]
  ["infante-sagres-olhao-00607"
   {:nec 607,
    :rates
@@ -194,6 +199,7 @@
    :imt-profile
    {:address "Rua Caminhos de Ferro Bloco B r/c Esqº 8700-425 OLHÃO",
     :name "Infante de Sagres - Olhão",
+    :href-id #uuid "0fa6a6ca-4645-321d-b1d9-118bbbcf3836",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresOlhao539.aspx",
@@ -201,6 +207,8 @@
     :nec 607,
     :cp7 "8700-425",
     :id #uuid "94eabd2f-2fd5-381f-a4ac-e89dcba3e188",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/0fa6a6ca-infante-de-sagres-olhao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
    :geocode
@@ -301,6 +309,7 @@
    {:address
     "Avª dos Bombeiros Municipais nº 30 lote 3 r/c Esqº 8700 OLHÃO",
     :name "Ria Formosa",
+    :href-id #uuid "eaec8da0-c1ee-3d1b-88b4-f1481615acfc",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RiaFormosa845.aspx",
@@ -308,18 +317,10 @@
     :nec 667,
     :cp7 "8700",
     :id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/eaec8da0-ria-formosa.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
-   :geocode
-   {:id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
-    :address "Avenida dos Bombeiros Municipais n 30 8700 OLHÃO",
-    :address-c
-    "Avenida dos Bombeiros Municipais de Olhão 30, 8700-312, Olhão, Faro",
-    :postal-c "8700-312",
-    :x -7.8468500021132,
-    :y 37.030129999402035,
-    :score 97.61,
-    :c 1}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}]
  ["auto-quelfes-00727"
   {:nec 727,
    :rates
@@ -410,6 +411,7 @@
    :imt-profile
    {:address "Estrada de Quelfes nº 69 B r/c 8700-218 QUELFES",
     :name "Auto Quelfes",
+    :href-id #uuid "d93769cd-57e3-3803-8f2e-28ef93fc2df5",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoQuelfes172.aspx",
@@ -417,6 +419,8 @@
     :nec 727,
     :cp7 "8700-218",
     :id #uuid "6fb5395e-8a7d-3d0e-a9cb-d55fda862ec8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/d93769cd-auto-quelfes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
    :geocode
@@ -518,6 +522,7 @@
    :imt-profile
    {:address "E N 1330 – Sítio dos Murtais 8700-120 MONCARAPACHO",
     :name "Moncarapachense",
+    :href-id #uuid "e3363f1d-0fb8-3d5a-bf2d-84455c444792",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moncarapachense666.aspx",
@@ -525,6 +530,8 @@
     :nec 1083,
     :cp7 "8700-120",
     :id #uuid "f6edce3a-dad7-3762-a74f-c0a145382e06",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/e3363f1d-moncarapachense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
    :geocode

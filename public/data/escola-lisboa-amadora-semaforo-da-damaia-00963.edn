@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. João de Mascarenhas nº 9 2720-172 AMADORA",
   :name "Semáforo da Damaia",
+  :href-id #uuid "b28b7c07-adce-3242-9111-dd99ea8be049",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SemaforodaDamaia954.aspx",
@@ -94,6 +95,8 @@
   :nec 963,
   :cp7 "2720-172",
   :id #uuid "a0ac275a-6df4-3a18-9ecc-6f1ff37dd1cb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/b28b7c07-semaforo-da-damaia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
  :geocode

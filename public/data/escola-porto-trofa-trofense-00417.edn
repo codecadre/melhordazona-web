@@ -88,6 +88,7 @@
  {:address
   "Rua Gil Vicente, Nº 1-1º Dtº 4785-321 S. MARTINHO (BOUGADO)",
   :name "Trofense",
+  :href-id #uuid "36f04f48-7f6e-3132-ac97-a315f19624f7",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Trofense1025.aspx",
@@ -95,6 +96,8 @@
   :nec 417,
   :cp7 "4785-321",
   :id #uuid "42e5bfb8-234d-34c7-a93b-81e82628c9e0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/trofa/36f04f48-trofense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
  :geocode

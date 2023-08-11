@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua da Caridade, n.º 15-A 7860-244 MOURA",
     :name "Automobilista - Moura",
+    :href-id #uuid "55c628f5-4421-35f8-8855-5c33363f2ef7",
     :distrito "Beja",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomobilistaMoura182.aspx",
@@ -95,14 +96,18 @@
     :nec 267,
     :cp7 "7860-244",
     :id #uuid "2fe521a1-b370-33e2-9f02-99661f15af39",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/moura/55c628f5-automobilista-moura.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Moura"},
    :geocode
-   {:cp7 "7860-244",
-    :postal-c "7860-244",
-    :x -7.450014998880221,
-    :y 38.14145498356851,
-    :score 100,
+   {:id #uuid "2fe521a1-b370-33e2-9f02-99661f15af39",
+    :address "Rua da Caridade, n.º 15-A 7860-244 MOURA",
+    :address-c "Rua da Caridade 15A, 7860-020, Moura, Beja",
+    :postal-c "7860-020",
+    :x -7.446340037251986,
+    :y 38.138240020786526,
+    :score 93.89,
     :c 1}}]
  ["do-carmo-00627"
   {:nec 627,
@@ -194,6 +199,7 @@
    :imt-profile
    {:address "Rua de Santa Justa, Nº 9-A 7860-154 MOURA",
     :name "Carmo",
+    :href-id #uuid "389a80a3-6dc1-3b91-9072-f610ee94b4e8",
     :distrito "Beja",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carmo286.aspx",
@@ -201,6 +207,8 @@
     :nec 627,
     :cp7 "7860-154",
     :id #uuid "db7242c6-987e-30e9-8928-f2494625f83f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/moura/389a80a3-carmo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Moura"},
    :geocode

@@ -89,6 +89,7 @@
    {:address
     "Avª Dr. Tito Fontes -Edificio Bruxelas, Loja 15 - 1º 4930-673 VALENÇA",
     :name "Alto Minho",
+    :href-id #uuid "39900161-a259-38ac-93a0-a983cea102ff",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AltoMinho098.aspx",
@@ -96,6 +97,8 @@
     :nec 460,
     :cp7 "4930-673",
     :id #uuid "ea575bde-ced1-3cae-b389-86214e0047dc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/valenca/39900161-alto-minho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Valen%C3%A7a"},
    :geocode
@@ -195,6 +198,7 @@
    :imt-profile
    {:address "Largo S. Sebastião, lote 6 –Fracção A 4930-697 VALENÇA",
     :name "A Valenciana",
+    :href-id #uuid "4c78737e-56ff-3156-a730-a9c6dceb793e",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AValenciana043.aspx",
@@ -202,6 +206,8 @@
     :nec 558,
     :cp7 "4930-697",
     :id #uuid "0e02e6eb-f8d8-3142-ae9a-10bd97b4e5ec",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/valenca/4c78737e-a-valenciana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Valen%C3%A7a"},
    :geocode

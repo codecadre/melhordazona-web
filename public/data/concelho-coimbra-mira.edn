@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª Central, Nº 30 R/C - Lagoa 3070-141 MIRA",
     :name "Mirense",
+    :href-id #uuid "db4c5f5b-da94-3aea-9fe2-17758c882f6e",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mirense654.aspx",
@@ -95,6 +96,8 @@
     :nec 665,
     :cp7 "3070-141",
     :id #uuid "6fb54d8d-58dc-3f49-abb3-a6a698961776",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/mira/db4c5f5b-mirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Mira"},
    :geocode

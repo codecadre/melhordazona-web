@@ -89,6 +89,7 @@
    {:address
     "Caminho Novo ou Estremadura 5130-359 S. JOÃO DA PESQUEIRA",
     :name "Prodouro",
+    :href-id #uuid "0a84b541-974d-35fe-979a-beb6c9b71bfb",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prodouro818.aspx",
@@ -96,6 +97,8 @@
     :nec 1214,
     :cp7 "5130-359",
     :id #uuid "eb8711b8-6192-3aa8-88b6-e77893c0b944",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/sao-joao-da-pesqueira/0a84b541-prodouro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Jo%C3%A3o%20da%20Pesqueira"},
    :geocode

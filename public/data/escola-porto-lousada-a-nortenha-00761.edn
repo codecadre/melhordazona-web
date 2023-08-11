@@ -88,6 +88,7 @@
  {:address
   "Rua de Lagoas, n.º 208 (Edifício Valmésio, Loja 2), 4620 - 429 NEVOGILDE",
   :name "A Nortenha",
+  :href-id #uuid "3ff9effb-cf18-3006-b4c7-d7520e4dfcda",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ANortenha032.aspx",
@@ -95,6 +96,8 @@
   :nec 761,
   :cp7 "4620-429",
   :id #uuid "a7738306-458d-3134-a6fa-44e953ee10df",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/3ff9effb-a-nortenha.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
  :geocode

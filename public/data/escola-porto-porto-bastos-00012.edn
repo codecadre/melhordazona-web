@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Fernão de Magalhães, 15 4300-190 PORTO",
   :name "Bastos",
+  :href-id #uuid "f0f14d10-bc45-329c-a6ed-f3d725e79d76",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bastos222.aspx",
@@ -94,6 +95,8 @@
   :nec 12,
   :cp7 "4300-190",
   :id #uuid "ff973da4-bf2f-3d11-80b0-049f24b398bb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/f0f14d10-bastos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

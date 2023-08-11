@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Antero Ferreira Leal, nº 3003 4580-416 LORDELO",
   :name "Lord",
+  :href-id #uuid "f81d2ba4-a677-3a2e-b843-4e76c605c0af",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lord602.aspx",
@@ -94,6 +95,8 @@
   :nec 807,
   :cp7 "4580-416",
   :id #uuid "a529c39e-8d95-39cc-b34f-999e4cd06a39",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/f81d2ba4-lord.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :geocode

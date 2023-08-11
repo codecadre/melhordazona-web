@@ -88,6 +88,7 @@
  {:address
   "Rua Francisco Miguel, 4, 36 B, R/C 2835-123 BAIXA DA BANHEIRA",
   :name "Infante Sagres –Miradouro",
+  :href-id #uuid "6b30b2ed-6a47-37e9-abbc-772fd74305e9",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfanteSagres%e2%80%93Miradouro554.aspx",
@@ -95,6 +96,8 @@
   :nec 643,
   :cp7 "2835-123",
   :id #uuid "b8f946b3-988c-3941-b71e-f63658354dad",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/moita/6b30b2ed-infante-sagres-miradouro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar da Pereira Azeda 4560-021 ABRAGÃO",
   :name "Abragonense",
+  :href-id #uuid "4d907c40-ea28-39a7-a3c8-fdd1ca1cd969",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Abragonense048.aspx",
@@ -94,5 +95,17 @@
   :nec 1096,
   :cp7 "4560-021",
   :id #uuid "05a3a564-2c22-3c53-a951-5ecd223e883f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/4d907c40-abragonense.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+ :geocode
+ {:id #uuid "05a3a564-2c22-3c53-a951-5ecd223e883f",
+  :address "Lugar da Pereira Azeda 4560-021 ABRAGÃO",
+  :address-c
+  "Rua de Pereira Azeda, 4560-027, Abragão, Penafiel, Porto",
+  :postal-c "4560-027",
+  :x -8.23429472762795,
+  :y 41.161651729497066,
+  :score 86.03,
+  :c 10}}

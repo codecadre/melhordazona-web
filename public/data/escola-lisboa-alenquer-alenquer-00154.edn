@@ -88,6 +88,7 @@
  {:address
   "Avª dos Bombeiros Voluntários nº 67 – 1º 2580-289 ALENQUER",
   :name "Ideal de Alenquer",
+  :href-id #uuid "5e18abd2-bdf7-3da8-b622-d256b4568e36",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealdeAlenquer513.aspx",
@@ -95,12 +96,18 @@
   :nec 154,
   :cp7 "2580-289",
   :id #uuid "f8961c57-3b02-3164-88db-c42d20d8aeae",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/alenquer/5e18abd2-ideal-de-alenquer.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
  :geocode
- {:cp7 "2580-289",
+ {:id #uuid "f8961c57-3b02-3164-88db-c42d20d8aeae",
+  :address
+  "Avª dos Bombeiros Voluntários nº 67 – 1º 2580-289 ALENQUER",
+  :address-c
+  "Avenida Bombeiros Voluntários 67, 2580-289, Alenquer, Lisboa",
   :postal-c "2580-289",
-  :x -9.008269975431375,
-  :y 39.05487501949764,
-  :score 100,
-  :c 1}}
+  :x -9.007700006015455,
+  :y 39.05598000579326,
+  :score 90.19,
+  :c 5}}

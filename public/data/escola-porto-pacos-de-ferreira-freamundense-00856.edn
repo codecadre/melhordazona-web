@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Gaia nº 7 4590-336 FREAMUNDE",
   :name "Freamundense",
+  :href-id #uuid "f3fc85dd-e9eb-3c3c-a4b2-895a35d79f73",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Freamundense468.aspx",
@@ -94,6 +95,8 @@
   :nec 856,
   :cp7 "4590-336",
   :id #uuid "74474d32-8813-399f-9be8-8d2b2c286826",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/f3fc85dd-freamundense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Comércio,Nº 1094 - 1ºA 4505-473 SANTA MARIA FEIRA",
   :name "A Modelo - Lobão",
+  :href-id #uuid "a3e3ab0a-12eb-3e74-afa2-7f452381549a",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AModeloLobao027.aspx",
@@ -94,6 +95,8 @@
   :nec 399,
   :cp7 "4505-473",
   :id #uuid "3d5a4fc9-636e-34a2-834c-a27b41fc038e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/a3e3ab0a-a-modelo-lobao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

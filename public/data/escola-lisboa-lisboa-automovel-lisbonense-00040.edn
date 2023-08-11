@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Alameda D. Afonso Henriques, 27 A r/c Dtº 1900-180 LISBOA",
   :name "Automóvel Lisbonense",
+  :href-id #uuid "adb5da01-1579-315a-b23d-4b92e6a650ea",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomovelLisbonense201.aspx",
@@ -94,6 +95,8 @@
   :nec 40,
   :cp7 "1900-180",
   :id #uuid "dac33f39-79e7-3be3-8138-bcafcd7084ae",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/adb5da01-automovel-lisbonense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

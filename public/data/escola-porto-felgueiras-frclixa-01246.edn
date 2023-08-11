@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Alto da Lixa 4615-301 BORBA de GODIM",
   :name "FRC-Lixa",
+  :href-id #uuid "8f8719f1-bf1b-30e4-be61-1b73080bcf86",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FRCLixa467.aspx",
@@ -94,11 +95,7 @@
   :nec 1246,
   :cp7 "4615-301",
   :id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/8f8719f1-frc-lixa.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
- :geocode
- {:id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
-  :overwrite true,
-  :obs "Manual coords",
-  :x -8.140365830925857,
-  :y 41.3155012036505}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}

@@ -89,6 +89,7 @@
    {:address
     "Rua Bernardino Ribeiro, s/nª R/c 7580-033 ALCÁCER DO SAL",
     :name "Alcacerense",
+    :href-id #uuid "9a2300e6-b79d-35cf-aa1f-a74b66b22d2a",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alcacerense072.aspx",
@@ -96,15 +97,21 @@
     :nec 122,
     :cp7 "7580-033",
     :id #uuid "a9119789-0c22-3544-b071-9b4a53919c33",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/alcacer-do-sal/9a2300e6-alcacerense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcacer%20do%20Sal"},
    :geocode
-   {:cp7 "7580-033",
+   {:id #uuid "a9119789-0c22-3544-b071-9b4a53919c33",
+    :address
+    "Rua Bernardino Ribeiro, s/nª R/c 7580-033 ALCÁCER DO SAL",
+    :address-c
+    "Rua Bernardim Ribeiro, 7580-033, Alcácer do Sal, Setúbal",
     :postal-c "7580-033",
-    :x -8.504475014519159,
-    :y 38.371100019836376,
-    :score 100,
-    :c 1}}]
+    :x -8.504524555091463,
+    :y 38.371126611741815,
+    :score 90.23,
+    :c 3}}]
  ["a-ideal-de-alcacer-00646"
   {:nec 646,
    :rates
@@ -195,6 +202,7 @@
    :imt-profile
    {:address "Rua de S. Pedro nº 8 R/C 7580 -142 ALCÁCER DO SAL",
     :name "A Ideal de Alcácer",
+    :href-id #uuid "75ab13ce-73f8-37c7-9035-60157b1e7f5a",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AIdealdeAlcacer023.aspx",
@@ -202,6 +210,8 @@
     :nec 646,
     :cp7 "7580-142",
     :id #uuid "1a7b33d5-5e6e-33f2-9850-972731cda4c9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/alcacer-do-sal/75ab13ce-a-ideal-de-alcacer.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcacer%20do%20Sal"},
    :geocode

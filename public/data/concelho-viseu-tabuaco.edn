@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Dr. Luis de Freitas 5120-415 TABUAÇO",
     :name "Reis Tabuaço",
+    :href-id #uuid "3f87d4b7-dd88-3128-9167-0ef3fb8e7508",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Reis-Tabua%c3%a7o.aspx",
@@ -95,6 +96,8 @@
     :nec 577,
     :cp7 "5120-415",
     :id #uuid "8b1d98a1-50cb-3f43-9784-476c7c4b5672",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/tabuaco/3f87d4b7-reis-tabuaco.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tabua%C3%A7o"},
    :geocode

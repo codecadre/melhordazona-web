@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de S. Pedro nº 8 R/C 7580 -142 ALCÁCER DO SAL",
   :name "A Ideal de Alcácer",
+  :href-id #uuid "75ab13ce-73f8-37c7-9035-60157b1e7f5a",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AIdealdeAlcacer023.aspx",
@@ -94,6 +95,8 @@
   :nec 646,
   :cp7 "7580-142",
   :id #uuid "1a7b33d5-5e6e-33f2-9850-972731cda4c9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/alcacer-do-sal/75ab13ce-a-ideal-de-alcacer.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcacer%20do%20Sal"},
  :geocode

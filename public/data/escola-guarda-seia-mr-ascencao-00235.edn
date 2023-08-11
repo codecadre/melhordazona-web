@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 1º de Maio, Lote 1-2º 6270-479 SEIA",
   :name "M. R. Ascenção",
+  :href-id #uuid "38f646ae-fa3a-37fa-bbac-971991725850",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MRAscencao615.aspx",
@@ -94,6 +95,8 @@
   :nec 235,
   :cp7 "6270-479",
   :id #uuid "40e489b0-b991-325f-a8d9-0da587b72605",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/seia/38f646ae-m-r-ascencao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"},
  :geocode

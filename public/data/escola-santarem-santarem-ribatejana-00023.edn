@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Largo Infante Santo, nº 4-1ºEsq 2000 SANTARÉM",
   :name "Ribatejana",
+  :href-id #uuid "a4575859-0b41-33bf-b6b6-b2c8ad79df1b",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ribatejana847.aspx",
@@ -80,6 +81,8 @@
   :nec 23,
   :cp7 "2000",
   :id #uuid "88ad6878-8beb-31a5-8679-a25d4e888e96",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/a4575859-ribatejana.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
  :geocode

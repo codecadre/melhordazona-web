@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª da Liberdade, 362 - 1º 4710-250 BRAGA",
   :name "Ribeiro",
+  :href-id #uuid "4b120612-8ed5-3af8-a130-d87ffe504cb3",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ribeiro851.aspx",
@@ -94,6 +95,8 @@
   :nec 62,
   :cp7 "4710-250",
   :id #uuid "9de52979-12ba-3f95-8990-08de9e8e7e04",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/4b120612-ribeiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

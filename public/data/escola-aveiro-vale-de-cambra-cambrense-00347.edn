@@ -88,6 +88,7 @@
  {:address
   "Avª Camilo Tavares de Matos, nº 135 3730-240 VALE DE CAMBRA",
   :name "Cambrense",
+  :href-id #uuid "11257735-1e38-3d1d-98de-7a0eb9b013dc",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cambrense270.aspx",
@@ -95,6 +96,8 @@
   :nec 347,
   :cp7 "3730-240",
   :id #uuid "202d3509-0ba1-3b9b-ad7a-401c4ead17d6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/vale-de-cambra/11257735-cambrense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vale%20de%20Cambra"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua 1º de Maio, Bloco 1 - R/C 5300-236 BRAGANÇA (SÉ)",
   :name "Eurovia",
+  :href-id #uuid "85282504-f424-325d-a3ee-3c21668ad974",
   :distrito "Bragança",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Eurovia436.aspx",
@@ -94,12 +95,15 @@
   :nec 825,
   :cp7 "5300-236",
   :id #uuid "0464c37c-f17d-3b3b-8f3d-eefa069f84cb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/85282504-eurovia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
  :geocode
- {:cp7 "5300-236",
-  :postal-c "5300-236",
-  :x -6.763530004193797,
-  :y 41.809740006835085,
-  :score 100,
-  :c 1}}
+ {:address "Rua 1º de Maio, Bloco 1 - R/C 5300-236 BRAGANÇA (SÉ)",
+  :address-c "Rua 1 de Maio 1, 7480-153, Avis, Portalegre",
+  :postal-c "7480-153",
+  :x -7.892489967818,
+  :y 39.05468001452,
+  :score 93.69,
+  :c 3}}

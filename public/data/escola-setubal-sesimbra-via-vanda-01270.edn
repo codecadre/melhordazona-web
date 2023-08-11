@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Terra da Ucha, n.º 34-D, 2970-585 SESIMBRA",
   :name "Via Vanda",
+  :href-id #uuid "43e6b3a3-e12d-339a-93ed-64296c921fd9",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaVanda.aspx",
@@ -94,6 +95,8 @@
   :nec 1270,
   :cp7 "2970-585",
   :id #uuid "76ad1b26-76cf-3f01-ba1f-7db610e643fe",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/43e6b3a3-via-vanda.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
  :geocode

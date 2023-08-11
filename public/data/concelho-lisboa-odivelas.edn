@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª Bombeiros Voluntários loja 8 J D 1675 PONTINHA",
     :name "Coimbra da Pontinha",
+    :href-id #uuid "1c5eb944-ccad-348a-95f0-89a990492154",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CoimbradaPontinha320.aspx",
@@ -95,18 +96,20 @@
     :nec 493,
     :cp7 "1675",
     :id #uuid "fe4c5996-186a-320f-bfe8-210f853321d9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/1c5eb944-coimbra-da-pontinha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
    :geocode
    {:id #uuid "fe4c5996-186a-320f-bfe8-210f853321d9",
-    :address "Avenida Bombeiros Voluntários loja 8 1675 PONTINHA",
+    :address "Avª Bombeiros Voluntários loja 8 J D 1675 PONTINHA",
     :address-c
     "Avenida Bombeiros Voluntários 8, 1675-107, Pontinha, Odivelas, Lisboa",
     :postal-c "1675-107",
     :x -9.200189993344338,
     :y 38.763130013254994,
-    :score 98.1,
-    :c 1}}]
+    :score 87,
+    :c 49}}]
  ["colinas-do-cruzeiro-00563"
   {:nec 563,
    :rates
@@ -198,6 +201,7 @@
    {:address
     "Praça Cidade de Odivelas, Loja B, Lote 3- Colinas do Cruzeiro 2675-223 Odivelas",
     :name "Colinas do Cruzeiro",
+    :href-id #uuid "38670f28-39a4-3121-b3f0-2d0b0ad45cff",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ColinasdoCruzeiro326.aspx",
@@ -205,15 +209,21 @@
     :nec 563,
     :cp7 "2675-223",
     :id #uuid "db108d99-64d5-30d1-813d-5c7204e85209",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/38670f28-colinas-do-cruzeiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
    :geocode
-   {:cp7 "2675-223",
-    :postal-c "2675-223",
-    :x -9.186324984387653,
-    :y 38.79512499496113,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "db108d99-64d5-30d1-813d-5c7204e85209",
+    :address
+    "Praça Cidade de Odivelas, Loja B, Lote 3- Colinas do Cruzeiro 2675-223 Odivelas",
+    :address-c
+    "Praça Cidade de Odivelas 3, 2675-639, Colinas do Cruzeiro, Odivelas, Lisboa",
+    :postal-c "2675-639",
+    :x -9.190560024786066,
+    :y 38.78755999206916,
+    :score 93.79,
+    :c 43}}]
  ["jardim-de-radial-00940"
   {:nec 940,
    :rates
@@ -304,6 +314,7 @@
    :imt-profile
    {:address "Rua Álvaro Campos, nº 1, loja 1 P 2675-768 RAMADA",
     :name "Jardim do Radial",
+    :href-id #uuid "fc428bb3-98a4-3abe-aeca-a83b56f14030",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JardimdoRadial574.aspx",
@@ -311,128 +322,19 @@
     :nec 940,
     :cp7 "2675-768",
     :id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/fc428bb3-jardim-do-radial.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
    :geocode
-   {:y 38.80638000499755,
-    :address "Rua Álvaro Campos, nº 1 2675-768 RAMADA",
-    :postal-c "2620-258",
-    :obs "removed some bits of the address. easy to find.",
-    :overwrite true,
-    :c 1,
-    :id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
-    :score 93.84,
+   {:id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
+    :address "Rua Álvaro Campos, nº 1, loja 1 P 2675-768 RAMADA",
     :address-c
     "Rua Álvaro de Campos 1, 2620-258, Bons Dias, Odivelas, Lisboa",
-    :x -9.188270005019518}}]
- ["good-01052"
-  {:nec 1052,
-   :rates
-   [{:r/nec 1052,
-     :r/level-0 "2015",
-     :r/d-scheduled 94,
-     :r/t-rate 0.6282,
-     :r/total-rate 0.5906,
-     :r/d-done 93,
-     :r/total-scheduled 175,
-     :r/name-raw "Escola De Condução Good",
-     :r/total-done 171,
-     :r/d-rate 0.5591,
-     :r/t-scheduled 81.0,
-     :r/k "good-01052",
-     :r/total-passed 101.0,
-     :r/t-done 78.0}
-    {:r/nec 1052,
-     :r/level-0 "2016",
-     :r/d-scheduled 65,
-     :r/t-rate 0.5614,
-     :r/total-rate 0.575,
-     :r/d-done 63,
-     :r/total-scheduled 126,
-     :r/name-raw "Escola De Condução Good",
-     :r/total-done 120,
-     :r/d-rate 0.5873,
-     :r/t-scheduled 61.0,
-     :r/k "good-01052",
-     :r/total-passed 69.0,
-     :r/t-done 57.0}
-    {:r/nec 1052,
-     :r/level-0 "2017",
-     :r/d-scheduled 51,
-     :r/t-rate 0.6508,
-     :r/total-rate 0.6316,
-     :r/d-done 51,
-     :r/total-scheduled 117,
-     :r/name-raw "Escola De Condução Good",
-     :r/total-done 114,
-     :r/d-rate 0.6078,
-     :r/t-scheduled 66.0,
-     :r/k "good-01052",
-     :r/total-passed 72.0,
-     :r/t-done 63.0}
-    {:r/nec 1052,
-     :r/level-0 "2018",
-     :r/d-scheduled 72,
-     :r/t-rate 0.7143,
-     :r/total-rate 0.6875,
-     :r/d-done 72,
-     :r/total-scheduled 129,
-     :r/name-raw "Escola De Condução Good",
-     :r/total-done 128,
-     :r/d-rate 0.6667,
-     :r/t-scheduled 57.0,
-     :r/k "good-01052",
-     :r/total-passed 88.0,
-     :r/t-done 56.0}
-    {:r/nec 1052,
-     :r/level-0 "2019",
-     :r/d-scheduled 92,
-     :r/t-rate 0.6752,
-     :r/total-rate 0.7073,
-     :r/d-done 88,
-     :r/total-scheduled 213,
-     :r/name-raw "ESCOLA DE CONDUÇÃO GOOD",
-     :r/total-done 205,
-     :r/d-rate 0.75,
-     :r/t-scheduled 121.0,
-     :r/k "good-01052",
-     :r/total-passed 145.0,
-     :r/t-done 117.0}
-    {:r/nec 1052,
-     :r/level-0 "2020",
-     :r/d-scheduled 114,
-     :r/t-rate 0.6216,
-     :r/total-rate 0.6284,
-     :r/d-done 107,
-     :r/total-scheduled 233,
-     :r/name-raw "ESCOLA DE CONDUÇÃO GOOD",
-     :r/total-done 218,
-     :r/d-rate 0.6355,
-     :r/t-scheduled 119.0,
-     :r/k "good-01052",
-     :r/total-passed 137.0,
-     :r/t-done 111.0}],
-   :imt-profile
-   {:address "Praceta de S. Carlos nº 1 – loja B 1675-597 CANEÇAS",
-    :name "Good",
-    :distrito "Lisboa",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Good.aspx",
-    :concelho "Odivelas",
-    :nec 1052,
-    :cp7 "1675-597",
-    :id #uuid "205e7205-f7d6-3da4-b20e-23c7d842bbdb",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
-   :geocode
-   {:id #uuid "205e7205-f7d6-3da4-b20e-23c7d842bbdb",
-    :address "Praceta de S. Carlos nº 1 – loja B 1675-597 CANEÇAS",
-    :address-c
-    "Praceta de São Carlos 1, 1685-597, Caneças, Odivelas, Lisboa",
-    :postal-c "1685-597",
-    :x -9.224970000435121,
-    :y 38.81485000197537,
-    :score 96.66,
+    :postal-c "2620-258",
+    :x -9.188270005019518,
+    :y 38.80638000499755,
+    :score 94.14,
     :c 1}}]
  ["jante-integral-01153"
   {:nec 1153,
@@ -522,26 +424,28 @@
      :r/total-passed 385.0,
      :r/t-done 357.0}],
    :imt-profile
-   {:address "Rua Paiva de Andrade, Nº 12 – A 2675-424 ODIVELAS",
+   {:address "Av. Dom Dinis, nº 110 - 2775-486 Odivelas",
     :name "Jante Integral",
+    :href-id #uuid "54725e1b-de21-3925-940c-f6ba72964ca3",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JanteIntegral573.aspx",
     :concelho "Odivelas",
     :nec 1153,
-    :cp7 "2675-424",
-    :id #uuid "5850fcb8-0f0d-3cd2-a030-a014ce9a6dd0",
+    :cp7 "2775-486",
+    :id #uuid "99220c58-ca0c-3644-852f-3cf1258b8eb5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/54725e1b-jante-integral.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
    :geocode
-   {:id #uuid "5850fcb8-0f0d-3cd2-a030-a014ce9a6dd0",
-    :address "Rua Paiva de Andrade, Nº 12 – A 2675-424 ODIVELAS",
-    :address-c "Rua Paiva de Andrade 12A, 2675-424, Odivelas, Lisboa",
-    :postal-c "2675-424",
-    :x -9.181979973419573,
-    :y 38.78629000800956,
-    :score 98.45,
-    :c 1}}]
+   {:address "Av. Dom Dinis, nº 110 - 2775-486 Odivelas",
+    :address-c "Avenida Dom Dinis 110, 2675-329, Odivelas, Lisboa",
+    :postal-c "2675-329",
+    :x -9.18351218078,
+    :y 38.786174933595,
+    :score 94.93,
+    :c 3}}]
  ["ebenezer-01181"
   {:nec 1181,
    :rates
@@ -632,6 +536,7 @@
    :imt-profile
    {:address "Rua Artur Bual, Nº 1 R/C Loja 2 2675-604 ODIVELAS",
     :name "Ebenézer",
+    :href-id #uuid "1e5490c5-6d94-3c48-9226-45aa4ea6fe7f",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ebenezer399.aspx",
@@ -639,6 +544,8 @@
     :nec 1181,
     :cp7 "2675-604",
     :id #uuid "a7002f72-f6e5-3017-ba7b-eb3dea56072b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/1e5490c5-ebenezer.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
    :geocode
@@ -741,6 +648,7 @@
    :imt-profile
    {:address "Rua São José, n.º 3 A, 2620-077 PÓVOA DE SANTO ADRIÃO",
     :name "Póvoa de Santo Adrião",
+    :href-id #uuid "924487a5-3302-3dc9-9536-5ea59aaddc4b",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PovoadeSantoAdriao.aspx",
@@ -748,6 +656,8 @@
     :nec 1332,
     :cp7 "2620-077",
     :id #uuid "4319a823-6d72-364d-9afe-d48e337045a5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/924487a5-povoa-de-santo-adriao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
    :geocode
@@ -823,6 +733,7 @@
    {:address
     "Rua Professora Olga Passos, n.º 1, 2675-639 ODIVELAS, freguesia de Póvoa de Santo Adrião e Olival Basto ",
     :name "Ecodrive",
+    :href-id #uuid "3294707e-ed94-3d99-8a23-2eac27fe58e9",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ecodrive.aspx",
@@ -830,6 +741,8 @@
     :nec 1393,
     :cp7 "2675-639",
     :id #uuid "70ad66c8-a4bc-355a-a1c5-55fa9d953d97",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/3294707e-ecodrive.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
    :geocode

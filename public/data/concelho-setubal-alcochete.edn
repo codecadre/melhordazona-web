@@ -86,23 +86,28 @@
      :r/total-passed 232.0,
      :r/t-done 179.0}],
    :imt-profile
-   {:address "Av. D. Manuel I, Nº 3,5 2890 ALCOCHETE",
+   {:address
+    "Av Dr. José Grilo Evangelista, nº 54, 2890-007 Alcochete",
     :name "Infante de Sagres - Alcochete",
+    :href-id #uuid "65b4e898-21d7-3f28-960a-913f8e9faf4c",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresAlcochete530.aspx",
     :concelho "Alcochete",
     :nec 433,
-    :cp7 "2890",
-    :id #uuid "19ac1307-e61e-3028-a74f-d638f3101a23",
+    :cp7 "2890-007",
+    :id #uuid "1d52a9d4-7a3e-3c25-88ed-d1934746bc38",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/alcochete/65b4e898-infante-de-sagres-alcochete.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Alcochete"},
    :geocode
-   {:id #uuid "19ac1307-e61e-3028-a74f-d638f3101a23",
-    :address "Av. D. Manuel I, Nº 3,5 2890 ALCOCHETE",
-    :address-c "Avenida Dom Manuel I 3, 2890-014, Alcochete, Setúbal",
-    :postal-c "2890-014",
-    :x -8.963889977412236,
-    :y 38.75517998764067,
-    :score 97.9,
-    :c 4}}]]
+   {:address
+    "Av Dr. José Grilo Evangelista, nº 54, 2890-007 Alcochete",
+    :address-c
+    "Avenida Doutor José Grilo Evangelista 54, 2890-007, Alcochete, Setúbal",
+    :postal-c "2890-007",
+    :x -8.963150023,
+    :y 38.748659998527,
+    :score 98.55,
+    :c 1}}]]

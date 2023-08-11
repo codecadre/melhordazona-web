@@ -89,6 +89,7 @@
    {:address
     "Edifício dos Carvalhos, Ed 3, R/C - Castanheiro do Ouro - 3610-103 Tarouca",
     :name "Tarouca",
+    :href-id #uuid "9a85e166-bb79-3d86-aa5b-8c7737e5e3cf",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tarouca.aspx",
@@ -96,6 +97,8 @@
     :nec 565,
     :cp7 "3610-103",
     :id #uuid "cdd61f8e-91b1-321b-9b63-b26ecd2c46bd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/tarouca/9a85e166-tarouca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tarouca"},
    :geocode

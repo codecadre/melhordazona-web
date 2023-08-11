@@ -88,6 +88,7 @@
  {:address
   "Rua Professor Antero Fonseca, Nº 104 - Portela 3700-894 ROMARIZ",
   :name "Auto Romariz",
+  :href-id #uuid "50b30909-2adb-3ada-a2d5-ccd162b83256",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoRomariz174.aspx",
@@ -95,6 +96,8 @@
   :nec 1148,
   :cp7 "3700-894",
   :id #uuid "56984989-b540-3116-a1e3-a97d00d0ed6c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/50b30909-auto-romariz.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

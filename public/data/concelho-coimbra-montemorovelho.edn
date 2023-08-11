@@ -33,6 +33,7 @@
    {:address
     "Rua da Academia Musical Arazedense, n.º 22, R/C, 3140-998 ARAZADE",
     :name "Cantanhede",
+    :href-id #uuid "851afac5-4106-3fe0-a75a-3374c62411cd",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cantanhede279.aspx",
@@ -40,6 +41,8 @@
     :nec 85,
     :cp7 "3140-998",
     :id #uuid "1ae0f161-2a4e-3cf7-81d8-cade4b19bf76",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/montemor-o-velho/851afac5-cantanhede.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"},
    :geocode
@@ -139,6 +142,7 @@
    :imt-profile
    {:address "Estrada Nacional, nº 111 3140-261 MONTEMOR-O-VELHO",
     :name "Auto Montemor",
+    :href-id #uuid "dfce4308-281b-3d09-aa17-75e3f08eb299",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoMontemor167.aspx",
@@ -146,15 +150,19 @@
     :nec 359,
     :cp7 "3140-261",
     :id #uuid "e27666d5-760e-3404-b444-2bd6a2fb54b1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/montemor-o-velho/dfce4308-auto-montemor.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"},
    :geocode
-   {:cp7 "3140-261",
-    :postal-c "3140-261",
-    :x -8.680549966488286,
-    :y 40.17678001903778,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "e27666d5-760e-3404-b444-2bd6a2fb54b1",
+    :address "Estrada Nacional, nº 111 3140-261 MONTEMOR-O-VELHO",
+    :address-c "Estrada Nacional, 3140, Montemor-o-Velho, Coimbra",
+    :postal-c "3140",
+    :x -8.674672221922702,
+    :y 40.14110933594557,
+    :score 94.22,
+    :c 9}}]
  ["mondego-00713"
   {:nec 713,
    :rates
@@ -245,6 +253,7 @@
    :imt-profile
    {:address "Escadinhas 3140 MONTEMOR-O-VELHO",
     :name "Mondego",
+    :href-id #uuid "263ddb40-7a84-3b08-b6aa-f773f3e47f59",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mondego668.aspx",
@@ -252,6 +261,8 @@
     :nec 713,
     :cp7 "3140",
     :id #uuid "9f0f96c2-96ad-3b10-b289-6b147c298f66",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/montemor-o-velho/263ddb40-mondego.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"},
    :geocode

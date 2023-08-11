@@ -88,6 +88,7 @@
  {:address
   "Rua Eng.º Farinas de Almeida, n.º 339; 4510-260 São Pedro da Cova",
   :name "Dinâmica",
+  :href-id #uuid "ed1e490b-3461-3c3c-a838-fa8de3d52fb5",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Dinamica386.aspx",
@@ -95,12 +96,17 @@
   :nec 790,
   :cp7 "4510-260",
   :id #uuid "0e537316-4e44-3014-87e7-b515a101e58b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/ed1e490b-dinamica.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode
- {:cp7 "4510-260",
+ {:address
+  "Rua Eng.º Farinas de Almeida, n.º 339; 4510-260 São Pedro da Cova",
+  :address-c
+  "Rua Engenheiro Farinas de Almeida 339, 4510-260, São Pedro da Cova, Gondomar, Porto",
   :postal-c "4510-260",
-  :x -8.507325029236881,
-  :y 41.151860016934506,
-  :score 100,
-  :c 1}}
+  :x -8.508060038326,
+  :y 41.151769995294,
+  :score 96.49,
+  :c 2}}

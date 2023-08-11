@@ -60,6 +60,7 @@
  {:address
   "Estrada de São Pedro, Urbanização Peixe Frio, Fração K, 4950-457 MONÇÃO",
   :name "Monçanense",
+  :href-id #uuid "05524bbf-fd36-326f-b5fe-28ef547bc817",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moncanense.aspx",
@@ -67,6 +68,8 @@
   :nec 1380,
   :cp7 "4950-457",
   :id #uuid "0982e1f4-3e45-3e64-9b39-17a5e629efa9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/moncao/05524bbf-moncanense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Mon%C3%A7%C3%A3o"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª João Rodrigues Cabrilho, s/nº 3600-191 CASTRO DAIRE",
   :name "Castrense",
+  :href-id #uuid "98c19143-b4c4-3c3c-b343-303dacc4fb5d",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Castrense296.aspx",
@@ -94,12 +95,17 @@
   :nec 611,
   :cp7 "3600-191",
   :id #uuid "31187b4f-4137-3316-be51-7302752a52ad",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/castro-daire/98c19143-castrense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
  :geocode
- {:cp7 "3600-191",
+ {:id #uuid "31187b4f-4137-3316-be51-7302752a52ad",
+  :address "Avª João Rodrigues Cabrilho, s/nº 3600-191 CASTRO DAIRE",
+  :address-c
+  "Avenida João Rodrigues Cabrilho, 3600-191, Castro Daire, Viseu",
   :postal-c "3600-191",
-  :x -7.928765000742288,
-  :y 40.899420017795364,
-  :score 100,
-  :c 1}}
+  :x -7.925324472664346,
+  :y 40.89908756973898,
+  :score 89.91,
+  :c 2}}

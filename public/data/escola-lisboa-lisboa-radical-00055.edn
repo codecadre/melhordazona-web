@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª General Roçadas, 48 1170-164 LISBOA",
   :name "Radical",
+  :href-id #uuid "0ade4020-2331-30af-9bac-ff163deab906",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Radical833.aspx",
@@ -94,6 +95,8 @@
   :nec 55,
   :cp7 "1170-164",
   :id #uuid "243604ba-fe0c-3a48-a521-f7063fa931b7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/0ade4020-radical.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

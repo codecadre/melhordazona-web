@@ -86,7 +86,9 @@
    :r/t-done 282.0}],
  :imt-profile
  {:address "Rua Andrade Corvo, 59/60 4700-204 BRAGA(Maximinos)",
+  :archived-last-seen-at "2022-05-07T14:52:45Z",
   :name "Portas da Sé",
+  :href-id #uuid "66af12da-13a3-3c8b-95c2-33c6365d423c",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SMarcos892.aspx",
@@ -94,6 +96,8 @@
   :nec 525,
   :cp7 "4700-204",
   :id #uuid "6a3f386d-a2ed-3b5c-8355-2cb18916a007",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/66af12da-portas-da-se.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

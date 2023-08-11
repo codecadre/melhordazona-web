@@ -17,6 +17,7 @@
  :imt-profile
  {:address "Rua Aníbal Dias, n,.º 10 r/c, 3450-150 Mortágua",
   :name "Smart Road",
+  :href-id #uuid "451a594b-9b53-3f54-af68-07b0685a3194",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SmartRoad.aspx",
@@ -24,12 +25,16 @@
   :nec 1440,
   :cp7 "3450-150",
   :id #uuid "7cd6e868-46be-3b83-9fe0-f72734cf1fc6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/mortagua/451a594b-smart-road.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
  :geocode
- {:cp7 "3450-150",
+ {:id #uuid "7cd6e868-46be-3b83-9fe0-f72734cf1fc6",
+  :address "Rua Aníbal Dias, n,.º 10 r/c, 3450-150 Mortágua",
+  :address-c "Rua Dr. Aníbal Dias 10, 3450-150, Mortágua, Viseu",
   :postal-c "3450-150",
-  :x -8.229184983404906,
-  :y 40.398500007762806,
-  :score 100,
+  :x -8.230159966382274,
+  :y 40.39773000422758,
+  :score 93.88,
   :c 1}}

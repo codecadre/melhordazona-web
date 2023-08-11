@@ -60,6 +60,7 @@
  {:address
   "Rua Pôr do Sol - Bloco 10, loja 1 e 2 7500-190 SANTIAGO do CACÉM",
   :name "Novoensino",
+  :href-id #uuid "4aff30e0-1f88-3bf8-950b-71657cd8d0e6",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Novoensino728.aspx",
@@ -67,12 +68,18 @@
   :nec 803,
   :cp7 "7500-190",
   :id #uuid "2e64d810-1c31-3a9f-8296-e85f9979b5d5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/santiago-do-cacem/4aff30e0-novoensino.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
  :geocode
- {:cp7 "7500-190",
-  :postal-c "7500-190",
-  :x -8.791774971779319,
-  :y 38.06225999633887,
-  :score 100,
-  :c 1}}
+ {:id #uuid "2e64d810-1c31-3a9f-8296-e85f9979b5d5",
+  :address
+  "Rua Pôr do Sol - Bloco 10, loja 1 e 2 7500-190 SANTIAGO do CACÉM",
+  :address-c
+  "Rua do Pôr do Sol 10, 7540-119, Santiago do Cacém, Setúbal",
+  :postal-c "7540-119",
+  :x -8.702164301405942,
+  :y 38.01801407198242,
+  :score 92.09,
+  :c 2}}

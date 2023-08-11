@@ -88,6 +88,7 @@
  {:address
   "Rua Manuel José Cerqueira Afonso dos Santos, Lote 9-Loja Esq 2685-311 Prior Velho",
   :name "Prior Velho",
+  :href-id #uuid "70701535-c688-3d44-ae00-1d5ceb946fb0",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PriorVelho815.aspx",
@@ -95,6 +96,8 @@
   :nec 1226,
   :cp7 "2685-311",
   :id #uuid "8512b50d-49f3-34d0-a0d4-2f57f9d16b5a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/70701535-prior-velho.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode

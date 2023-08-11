@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Padre Joaquim das Neves, Nº 1084 4435-374 RIO TINTO",
   :name "Prova Real - Rio Tinto",
+  :href-id #uuid "7333258a-0289-36dd-8314-17b2e0ae1a78",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ProvaRealRioTinto824.aspx",
@@ -94,6 +95,8 @@
   :nec 787,
   :cp7 "4435-374",
   :id #uuid "13e656d7-c160-3459-a36b-b6a83a07bec4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/7333258a-prova-real-rio-tinto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode

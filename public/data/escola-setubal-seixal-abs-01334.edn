@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Foros da Amora, loja n.º 91-A, 2845-554 Amora",
   :name "ABS",
+  :href-id #uuid "bbacff0d-fe2f-3294-9eb7-f76ec31cce50",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ABS.aspx",
@@ -94,6 +95,8 @@
   :nec 1334,
   :cp7 "2845-554",
   :id #uuid "6ddbb550-377b-3cea-a3fc-6231366a6f29",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/bbacff0d-abs.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
  :geocode

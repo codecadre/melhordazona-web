@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Sidónio Pais 6150-422 PROENÇA-A-NOVA",
     :name "Proença – A - Nova",
+    :href-id #uuid "adcb5dbb-be83-3b58-8a8a-e3c2c0dd5623",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Proenca%e2%80%93ANova819.aspx",
@@ -95,6 +96,8 @@
     :nec 422,
     :cp7 "6150-422",
     :id #uuid "614a8a7d-239c-3516-b6ef-f9a716efbc04",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/proenca-a-nova/adcb5dbb-proenca-a-nova.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Proen%C3%A7a%20a%20Nova"},
    :geocode

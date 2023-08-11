@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Senhor do Andor 5070-059 ALIJÓ",
   :name "Requinte",
+  :href-id #uuid "831ae71a-64db-3f45-ab6b-54f9d1277060",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Requinte843.aspx",
@@ -94,6 +95,8 @@
   :nec 485,
   :cp7 "5070-059",
   :id #uuid "1fc4eb93-8a26-3a9b-add6-6fbbb8448dc3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/alijo/831ae71a-requinte.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Alij%C3%B3"},
  :geocode

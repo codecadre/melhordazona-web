@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Campo, nº 3 r/c 2450-000 VALADO dos FRADES",
   :name "Oceânica",
+  :href-id #uuid "e3b597ae-bfc3-3587-a650-b0343bb839dc",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oceanica736.aspx",
@@ -94,6 +95,8 @@
   :nec 539,
   :cp7 "2450-000",
   :id #uuid "605ce209-db27-3166-aee7-2efdf6126929",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/nazare/e3b597ae-oceanica.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Nazar%C3%A9"},
  :geocode

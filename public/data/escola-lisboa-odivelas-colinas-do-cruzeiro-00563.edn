@@ -88,6 +88,7 @@
  {:address
   "Praça Cidade de Odivelas, Loja B, Lote 3- Colinas do Cruzeiro 2675-223 Odivelas",
   :name "Colinas do Cruzeiro",
+  :href-id #uuid "38670f28-39a4-3121-b3f0-2d0b0ad45cff",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ColinasdoCruzeiro326.aspx",
@@ -95,12 +96,18 @@
   :nec 563,
   :cp7 "2675-223",
   :id #uuid "db108d99-64d5-30d1-813d-5c7204e85209",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/38670f28-colinas-do-cruzeiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
  :geocode
- {:cp7 "2675-223",
-  :postal-c "2675-223",
-  :x -9.186324984387653,
-  :y 38.79512499496113,
-  :score 100,
-  :c 1}}
+ {:id #uuid "db108d99-64d5-30d1-813d-5c7204e85209",
+  :address
+  "Praça Cidade de Odivelas, Loja B, Lote 3- Colinas do Cruzeiro 2675-223 Odivelas",
+  :address-c
+  "Praça Cidade de Odivelas 3, 2675-639, Colinas do Cruzeiro, Odivelas, Lisboa",
+  :postal-c "2675-639",
+  :x -9.190560024786066,
+  :y 38.78755999206916,
+  :score 93.79,
+  :c 43}}

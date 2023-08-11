@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Pedro Álvares Cabral, 33 A 2780-352 OEIRAS",
   :name "Cecaco",
+  :href-id #uuid "75a198a0-918f-37b6-a032-c1e47be6e387",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cecaco298.aspx",
@@ -94,6 +95,8 @@
   :nec 402,
   :cp7 "2780-352",
   :id #uuid "103e1562-6725-335b-94ce-56d13f251f44",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/75a198a0-cecaco.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
  :geocode

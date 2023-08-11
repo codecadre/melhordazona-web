@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Codixeira, Nº 66, 4495-025 PÓVOA DE VARZIM",
   :name "Aguçadourense",
+  :href-id #uuid "86fb6368-79d6-384d-8210-e73bee28d72a",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Agu%c3%a7adourense.aspx",
@@ -94,6 +95,8 @@
   :nec 660,
   :cp7 "4495-025",
   :id #uuid "684e0910-c636-3664-bfff-2987cdc8c19d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/86fb6368-agucadourense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
  :geocode

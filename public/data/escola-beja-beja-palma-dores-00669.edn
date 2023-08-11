@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Manuel da Fonseca nº 12 –Cave 7800-323 BEJA",
   :name "Palma e Dores",
+  :href-id #uuid "80003306-c8af-3d7e-9a79-1757385fcfa6",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PalmaeDores769.aspx",
@@ -94,6 +95,8 @@
   :nec 669,
   :cp7 "7800-323",
   :id #uuid "81b798ec-493d-3127-b5be-915d369a72ce",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/beja/80003306-palma-e-dores.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
  :geocode

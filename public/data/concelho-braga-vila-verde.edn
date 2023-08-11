@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª António Sérgio, 709 4730-711 VILA VERDE",
     :name "Bela Vista",
+    :href-id #uuid "4cc7aeac-359d-384c-a44f-70a37e1a4553",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BelaVista237.aspx",
@@ -95,6 +96,8 @@
     :nec 519,
     :cp7 "4730-711",
     :id #uuid "4cfbc6d2-42d5-38d1-8483-fbe6534d83ad",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/4cc7aeac-bela-vista.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Lugar Pontido - Quinta da Botica 4730-470 VILA de PRADO",
     :name "Verde Minho",
+    :href-id #uuid "6b089d79-0cf3-34aa-aefd-64e60bff8375",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VerdeMinho1045.aspx",
@@ -204,6 +208,8 @@
     :nec 599,
     :cp7 "4730-470",
     :id #uuid "098f1270-6e32-3d28-9f11-2507f42f0225",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/6b089d79-verde-minho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}]
  ["auto-vilaverdense-00929"
@@ -297,6 +303,7 @@
    {:address
     "Rua do Professor, n º 47- Largo da Feira 4730-072 BARBUDO",
     :name "Auto Vilaverdense",
+    :href-id #uuid "37e85a7b-0ff8-3367-9454-80e38c49a8fe",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoVilaverdense177.aspx",
@@ -304,14 +311,19 @@
     :nec 929,
     :cp7 "4730-072",
     :id #uuid "0f42be8e-32ea-3ccf-9be2-708ad80f1ac6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/37e85a7b-auto-vilaverdense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
    :geocode
-   {:cp7 "4730-072",
-    :postal-c "4730-072",
-    :x -8.437140001187629,
-    :y 41.65395998938658,
-    :score 100,
+   {:id #uuid "0f42be8e-32ea-3ccf-9be2-708ad80f1ac6",
+    :address
+    "Rua do Professor, n º 47- Largo da Feira 4730-072 BARBUDO",
+    :address-c "Rua do Professor 47, 4730-688, Vila Verde, Braga",
+    :postal-c "4730-688",
+    :x -8.436129981855004,
+    :y 41.65351998137939,
+    :score 89.8,
     :c 1}}]
  ["volante-do-minho-00936"
   {:nec 936,
@@ -403,6 +415,7 @@
    :imt-profile
    {:address "Lugar de Cerdeiras 4730-000 FREIRIZ",
     :name "Volante do Minho",
+    :href-id #uuid "fa812e4d-48c4-3dee-b5ba-ad5abacc82bd",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolantedoMinho1085.aspx",
@@ -410,6 +423,8 @@
     :nec 936,
     :cp7 "4730-000",
     :id #uuid "a87658ec-b0db-3a74-83d3-9dee772525f2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/fa812e4d-volante-do-minho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}]
  ["vila-verde-01128"
@@ -503,6 +518,7 @@
    {:address
     "AvªGeneral Humberto Delgado, Nº 491 Fracção E 4730-717 VILA VERDE",
     :name "Verde Vila",
+    :href-id #uuid "56be972b-782e-304a-8c3c-f6fd78a32533",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VerdeVila1046.aspx",
@@ -510,6 +526,8 @@
     :nec 1128,
     :cp7 "4730-717",
     :id #uuid "6b441cf8-02c3-31f7-b2f7-e8c5ddfa7a22",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/56be972b-verde-vila.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
    :geocode
@@ -553,6 +571,7 @@
    :imt-profile
    {:address "Lugar do Faial, Rua 1, n.º 56 B, 4730-458 Vila de Prado",
     :name "Verde Minho 2",
+    :href-id #uuid "b65ae048-6c0b-3afe-9af8-7cfc2662e809",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VerdeMinho1428.aspx",
@@ -560,5 +579,16 @@
     :nec 1428,
     :cp7 "4730-458",
     :id #uuid "10e0127f-7fc9-3c30-afed-eaedd7d74a42",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/b65ae048-verde-minho-2.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
+   :geocode
+   {:address "Lugar do Faial, Rua 1, n.º 56 B, 4730-458 Vila de Prado",
+    :address-c
+    "Lugar do Faial Rua 2 1, 4730-460, Ponte-Vila de Prado, Vila Verde, Braga",
+    :postal-c "4730-460",
+    :x -8.463430008135,
+    :y 41.60294001531,
+    :score 91.68,
+    :c 2}}]]

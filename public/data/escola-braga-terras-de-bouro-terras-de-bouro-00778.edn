@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Dr. Paulo Marcelino-Covas 4840-100 MOIMENTA",
   :name "Terras do Bouro",
+  :href-id #uuid "d669137b-cb40-3f07-9834-bde44aec81e3",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TerrasdoBouro1006.aspx",
@@ -94,12 +95,17 @@
   :nec 778,
   :cp7 "4840-100",
   :id #uuid "9f57b9bf-671f-3dfb-9be3-b86ba791eff5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/terras-de-bouro/d669137b-terras-do-bouro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Terras%20Bouro"},
  :geocode
- {:cp7 "4840-100",
+ {:id #uuid "9f57b9bf-671f-3dfb-9be3-b86ba791eff5",
+  :address "Avª Dr. Paulo Marcelino-Covas 4840-100 MOIMENTA",
+  :address-c
+  "Avenida Doutor Paulo Marcelino, 4840-100, Vila de Terras de Bouro, Terras de Bouro, Braga",
   :postal-c "4840-100",
-  :x -8.304169992126617,
-  :y 41.718335017430746,
-  :score 100,
+  :x -8.30812566760094,
+  :y 41.71874535658074,
+  :score 92.2,
   :c 1}}

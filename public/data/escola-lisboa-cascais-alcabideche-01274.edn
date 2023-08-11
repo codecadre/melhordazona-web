@@ -88,6 +88,7 @@
  {:address
   "Av. da República, Edifício República, Loja C - Alcoitão; 2750-091 Cascais",
   :name "Alcabideche",
+  :href-id #uuid "f09241dc-c488-3a48-a957-8ea1735aea7e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AltadeLisboa.aspx",
@@ -95,6 +96,8 @@
   :nec 1274,
   :cp7 "2750-091",
   :id #uuid "f6ceb836-9a4a-38bf-a438-178e3778da3b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/f09241dc-alcabideche.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode

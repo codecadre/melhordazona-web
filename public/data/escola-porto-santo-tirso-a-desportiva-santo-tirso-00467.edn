@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua S. João de Brito 4780-548 SANTO TIRSO",
   :name "A Desportiva- Santo Tirso",
+  :href-id #uuid "ca2eca74-db23-352c-bafa-18ce1b1082e8",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ADesportivaSantoTirso014.aspx",
@@ -94,6 +95,8 @@
   :nec 467,
   :cp7 "4780-548",
   :id #uuid "8dfc78cb-46ae-355d-b1b2-eb0a9cb20d82",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/santo-tirso/ca2eca74-a-desportiva-santo-tirso.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Prof. José Maria Castelão 3250-115 ALVAIAZERE",
   :name "Alvaiázere",
+  :href-id #uuid "ef69bc68-8900-36b1-8089-ddce56c3e457",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alvaiazere099.aspx",
@@ -94,6 +95,8 @@
   :nec 239,
   :cp7 "3250-115",
   :id #uuid "1a53b3cc-71f6-331e-9ba0-b10322dc2c0e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alvaiazere/ef69bc68-alvaiazere.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alvaiazere"},
  :geocode

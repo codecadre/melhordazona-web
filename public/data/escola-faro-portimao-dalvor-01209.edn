@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua 1º de Dezembro, Nº 30 8500 -001 ALVOR",
   :name "Dalvor",
+  :href-id #uuid "a4024319-bb4b-35ed-b468-ea4de033e1f0",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Dalvor363.aspx",
@@ -94,6 +95,8 @@
   :nec 1209,
   :cp7 "8500-001",
   :id #uuid "b13cae0a-036b-3fbc-aa96-ff529dc11e24",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/a4024319-dalvor.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Bairro do Vale-Rua 9 de Julho lote 35 loja D-Abraveses 3515-156 VISEU",
   :name "Auto Formadora",
+  :href-id #uuid "259bee8d-b142-3562-b355-5564fb7f688c",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoFormadora159.aspx",
@@ -95,12 +96,16 @@
   :nec 1001,
   :cp7 "3515-156",
   :id #uuid "29c07a16-bb08-3491-8b86-cbe3481a0562",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/259bee8d-auto-formadora.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
  :geocode
- {:cp7 "3515-156",
+ {:address
+  "Bairro do Vale-Rua 9 de Julho lote 35 loja D-Abraveses 3515-156 VISEU",
+  :address-c "Bairro do Vale 9, 3515-156, Abraveses, Viseu",
   :postal-c "3515-156",
-  :x -7.920770006217424,
-  :y 40.68056500548522,
-  :score 100,
-  :c 1}}
+  :x -7.920761776765,
+  :y 40.680331523488,
+  :score 88.92,
+  :c 3}}

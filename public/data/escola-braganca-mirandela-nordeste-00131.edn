@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª das Amoreiras Lote 2-1º 5370-204 MIRANDELA",
   :name "Nordeste",
+  :href-id #uuid "55f28a86-4eb9-3909-bc00-950f38920166",
   :distrito "Bragança",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nordeste694.aspx",
@@ -94,6 +95,8 @@
   :nec 131,
   :cp7 "5370-204",
   :id #uuid "94eb941d-67c3-3b04-9fd4-8d5798eb73de",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/mirandela/55f28a86-nordeste.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Mirandela"},
  :geocode

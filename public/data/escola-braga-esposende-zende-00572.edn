@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua 27 de Maio, Lote 1 4740-227 ESPOSENDE",
   :name "Zende",
+  :href-id #uuid "8503960a-3e9e-3829-9472-1dd8a8e12f25",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Zende1096.aspx",
@@ -94,6 +95,8 @@
   :nec 572,
   :cp7 "4740-227",
   :id #uuid "69eaf92a-8e3c-3c1a-acce-d11474849ae2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/esposende/8503960a-zende.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Casal Santa Catrina, n.º 1; 2500-074 Lourinhã",
   :name "Dinossauro",
+  :href-id #uuid "40fa1350-b1e8-3db7-b2fb-bb3461edbdef",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Dinossauro.aspx",
@@ -94,6 +95,8 @@
   :nec 1306,
   :cp7 "2500-074",
   :id #uuid "fbce1b6d-448d-3e66-9e8e-83aac7ecf798",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lourinha/40fa1350-dinossauro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"},
  :geocode

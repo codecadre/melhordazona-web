@@ -88,6 +88,7 @@
  {:address
   "Avª da República-Edificio Padroncelos, Fracção D 4615-594 VILA COVA da LIXA",
   :name "R.Y.S",
+  :href-id #uuid "d8871a2b-e769-3944-9e47-7764156c5784",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RYS832.aspx",
@@ -95,6 +96,8 @@
   :nec 968,
   :cp7 "4615-594",
   :id #uuid "8104e8c9-ba40-3c7b-94b9-9d4c9004d80f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/d8871a2b-rys.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
  :geocode

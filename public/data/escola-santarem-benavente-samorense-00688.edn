@@ -88,6 +88,7 @@
  {:address
   "Bairro Nossa Senhora de Oliveira, lote 1 R/C 2135-202 SAMORA CORREIA",
   :name "Samorense",
+  :href-id #uuid "26719b45-4df6-38a0-8472-fc7fbe3d0e89",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Samorense913.aspx",
@@ -95,6 +96,8 @@
   :nec 688,
   :cp7 "2135-202",
   :id #uuid "05fadca3-ff5a-3913-91cb-8cafa5df9244",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/benavente/26719b45-samorense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
  :geocode

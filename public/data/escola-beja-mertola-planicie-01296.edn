@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Cândido dos Reis, n.º 7 B 7750-337 Mértola",
   :name "Planície",
+  :href-id #uuid "1d26b950-96cf-36e7-a131-aac6e10341cf",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Plan%c3%adcie.aspx",
@@ -94,12 +95,16 @@
   :nec 1296,
   :cp7 "7750-337",
   :id #uuid "0ea7096a-5a9d-3691-98bd-da3cf93a8817",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/mertola/1d26b950-planicie.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=M%C3%A9rtola"},
  :geocode
- {:cp7 "7750-337",
-  :postal-c "7750-337",
-  :x -7.662944843835646,
-  :y 37.640039561148754,
-  :score 100,
-  :c 1}}
+ {:id #uuid "0ea7096a-5a9d-3691-98bd-da3cf93a8817",
+  :address "Rua Cândido dos Reis, n.º 7 B 7750-337 Mértola",
+  :address-c "Travessa Cândido dos Reis 7, 7750-365, Mértola, Beja",
+  :postal-c "7750-365",
+  :x -7.663079960114828,
+  :y 37.63968001941204,
+  :score 88.23,
+  :c 2}}

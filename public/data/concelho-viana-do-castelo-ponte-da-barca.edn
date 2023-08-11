@@ -89,6 +89,7 @@
    {:address
     "Largo Santo António Centro Comercial O Emigrante – Loja 24 4980-625 PONTE DA BARCA",
     :name "Barquense",
+    :href-id #uuid "0398b3ed-31ab-3053-b790-0bee7f2a9cc5",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Barquense220.aspx",
@@ -96,6 +97,8 @@
     :nec 605,
     :cp7 "4980-625",
     :id #uuid "1e6b563c-d550-303f-b5b7-b78a296ab60a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-da-barca/0398b3ed-barquense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20da%20Barca"},
    :geocode

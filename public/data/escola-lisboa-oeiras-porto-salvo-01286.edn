@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua Conde de Rio Maior, n.º 15.3, 2784-501 OEIRAS",
   :name "Porto Salvo",
+  :href-id #uuid "8a55dbb4-1bff-3851-83d1-f5d3e2d96173",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PortoSalvo.aspx",
@@ -80,5 +81,16 @@
   :nec 1286,
   :cp7 "2784-501",
   :id #uuid "c8946fe1-1fcc-3723-8d06-4ee4454bdbfb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/8a55dbb4-porto-salvo.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
+ :geocode
+ {:address "Rua Conde de Rio Maior, n.º 15.3, 2784-501 OEIRAS",
+  :address-c
+  "Rua Conde de Rio Maior 15, 2740-039, Porto Salvo, Oeiras, Lisboa",
+  :postal-c "2740-039",
+  :x -9.302430017526,
+  :y 38.717199991791,
+  :score 86.9,
+  :c 5}}

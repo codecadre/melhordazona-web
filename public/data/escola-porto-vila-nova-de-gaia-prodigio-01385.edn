@@ -74,6 +74,7 @@
  {:address
   "Travessa Conselheiro Veloso da Cruz, n.º 112, 4400-097 Vila Nova de Gaia",
   :name "Prodígio",
+  :href-id #uuid "861353be-c269-372f-94ba-fac2428619c2",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prodigio.aspx",
@@ -81,6 +82,8 @@
   :nec 1385,
   :cp7 "4400-097",
   :id #uuid "e1cd54dd-d11d-3fc2-ac7c-c7b432498b75",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/861353be-prodigio.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode

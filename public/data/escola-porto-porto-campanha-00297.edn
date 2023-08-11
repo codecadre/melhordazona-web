@@ -87,22 +87,23 @@
  :imt-profile
  {:address "Rua Pinto Bessa n.º 215, 4300-431 Porto",
   :name "Campanhã",
+  :href-id #uuid "0e9e39db-34de-30ac-8a29-8c6ac6e0ca49",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Campanh%c3%a3.aspx",
   :concelho "Porto",
-  :nec nil,
+  :nec 297,
   :cp7 "4300-431",
-  :id #uuid "7f7d57ec-c53d-3011-b080-285687e47e98",
+  :id #uuid "1cf69171-f786-3787-b9c1-7708d712da1f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/0e9e39db-campanha.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
- :obs "missing nec in imt.pt",
- :overwrite/notes
- ["https://www.google.pt/maps?hl=en&q=escola+conducao+campanha"],
  :geocode
- {:cp7 "4300-431",
+ {:address "Rua Pinto Bessa n.º 215, 4300-431 Porto",
+  :address-c "Rua de Pinto Bessa 215, 4300-431, Porto",
   :postal-c "4300-431",
-  :x -8.589050010120985,
-  :y 41.14946501383068,
-  :score 100,
-  :c 1}}
+  :x -8.588609960204,
+  :y 41.149350014119,
+  :score 95.15,
+  :c 2}}

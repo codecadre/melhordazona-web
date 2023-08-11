@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. João de Castro, Nº 587 4435-674 BAGUIM DO MONTE",
   :name "Baguim",
+  :href-id #uuid "35c0d812-9f86-399c-86be-03592995ea87",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Baguim211.aspx",
@@ -94,6 +95,8 @@
   :nec 730,
   :cp7 "4435-674",
   :id #uuid "1858f30e-6c33-3890-8807-8ce7e5d8d1fc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/35c0d812-baguim.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode

@@ -89,6 +89,7 @@
    {:address
     "Rua Francisco Xavier Ataíde de Oliveira, Lote 31, Loja D, 8600-775 LAGOS",
     :name "Infante D. Henrique",
+    :href-id #uuid "497bd240-cf30-3a18-8612-d79d8bf38960",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfanteDHenrique524.aspx",
@@ -96,6 +97,8 @@
     :nec 191,
     :cp7 "8600-775",
     :id #uuid "3a051498-3977-3fb0-bf52-adac2f479ab0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/497bd240-infante-d-henrique.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
    :geocode
@@ -200,6 +203,7 @@
    {:address
     "Rua Capitão Salgueiro Maia, Lote 15-Loja A 8600-620 LAGOS",
     :name "Infante de Sagres - Lagos",
+    :href-id #uuid "c123c8f4-235e-3340-97bc-10906b3bccfa",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresLagos536.aspx",
@@ -207,15 +211,20 @@
     :nec 636,
     :cp7 "8600-620",
     :id #uuid "24fcbbf2-edde-355c-a1b6-9a134f186e8b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/c123c8f4-infante-de-sagres-lagos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
    :geocode
-   {:cp7 "8600-620",
-    :postal-c "8600-620",
-    :x -8.67516501279323,
-    :y 37.09626501756546,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "24fcbbf2-edde-355c-a1b6-9a134f186e8b",
+    :address
+    "Rua Capitão Salgueiro Maia, Lote 15-Loja A 8600-620 LAGOS",
+    :address-c "Rua Salgueiro Maia 15, 8600, Lagos, Faro",
+    :postal-c "8600",
+    :x -8.67501832729877,
+    :y 37.09646167365638,
+    :score 88.92,
+    :c 2}}]
  ["novais-unipessoal-00973"
   {:nec 973,
    :rates
@@ -306,6 +315,7 @@
    :imt-profile
    {:address "Pedra Alçada Lote 7, Loja C 8600-546 LAGOS",
     :name "Novais Unipessoal",
+    :href-id #uuid "7889c2b1-c3a8-3a65-953b-2beebe1d0a68",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaisUnipessoal722.aspx",
@@ -313,6 +323,8 @@
     :nec 973,
     :cp7 "8600-546",
     :id #uuid "e63e6220-fb66-3f92-984c-2081f6ba302e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/7889c2b1-novais-unipessoal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
    :geocode
@@ -415,6 +427,7 @@
    {:address
     "Rua Palos de La Frontera, Lote 14, Loja A - 8600-707 LAGOS",
     :name "Hora de Ponta",
+    :href-id #uuid "d44628b2-9002-3b3a-b999-d4c04d85881c",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/HoradePonta.aspx",
@@ -422,6 +435,8 @@
     :nec 1277,
     :cp7 "8600-707",
     :id #uuid "6c709059-ec5f-32ca-9f97-5ecd2203561f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/d44628b2-hora-de-ponta.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
    :geocode

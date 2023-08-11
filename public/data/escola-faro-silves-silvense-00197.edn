@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua António Enes nº 3 8300-108 SILVES",
   :name "Silvense",
+  :href-id #uuid "cd6d41d6-f5e3-3fde-ba95-81a023c94527",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Silvense972.aspx",
@@ -94,12 +95,15 @@
   :nec 197,
   :cp7 "8300-108",
   :id #uuid "fa74d896-ba86-3fe1-bd45-98ec51735fee",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/cd6d41d6-silvense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
  :geocode
- {:cp7 "8300-108",
-  :postal-c "8300-108",
-  :x -8.440135944839625,
-  :y 37.18650534152356,
-  :score 100,
-  :c 1}}
+ {:address "Rua António Enes nº 3 8300-108 SILVES",
+  :address-c "Largo António Enes, 8300-131, Silves, Faro",
+  :postal-c "8300-131",
+  :x -8.440437394164,
+  :y 37.186670882634,
+  :score 88.96,
+  :c 2}}

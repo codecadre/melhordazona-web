@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. José Saudade e Silva, 59 2500-191 CALDAS DA RAINHA",
   :name "Bavi",
+  :href-id #uuid "d10ce026-4957-33fb-927d-4fe6ccbec450",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bavi231.aspx",
@@ -95,6 +96,8 @@
   :nec 148,
   :cp7 "2500-191",
   :id #uuid "7e77806d-d704-36ec-913d-e1f4a173640d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/caldas-da-rainha/d10ce026-bavi.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
  :geocode

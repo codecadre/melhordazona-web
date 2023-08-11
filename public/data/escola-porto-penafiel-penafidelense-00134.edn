@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Eng.º Matos, 253 ; 4560-465 Penafiel",
   :name "Penafidelense",
+  :href-id #uuid "7583b6e0-416b-3375-b833-20bc3600ad66",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Penafidelense780.aspx",
@@ -94,6 +95,8 @@
   :nec 134,
   :cp7 "4560-465",
   :id #uuid "89383d9a-e30e-3411-bd79-5e5f4c91498f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/7583b6e0-penafidelense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
  :geocode

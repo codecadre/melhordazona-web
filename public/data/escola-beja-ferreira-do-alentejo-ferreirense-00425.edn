@@ -88,6 +88,7 @@
  {:address
   "Ferragial da Cruz, Parque Industrial ; 7900-116 Ferreira do Alentejo",
   :name "Ferreirense",
+  :href-id #uuid "a16c9b91-600f-3867-a5fa-18e46c815f3a",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ferreirense453.aspx",
@@ -95,6 +96,8 @@
   :nec 425,
   :cp7 "7900-116",
   :id #uuid "02826e70-55b8-3833-8be5-b163cadbbea1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/ferreira-do-alentejo/a16c9b91-ferreirense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Ferreira%20do%20Alentejo"},
  :geocode

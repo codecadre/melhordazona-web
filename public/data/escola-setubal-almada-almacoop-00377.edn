@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Torcato José Clavine, nº 5 - Piso 1 2800 -710 ALMADA",
   :name "Almacoop",
+  :href-id #uuid "e3607b83-37bc-32d4-95df-fe3c91117dae",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Almacoop085.aspx",
@@ -94,6 +95,8 @@
   :nec 377,
   :cp7 "2800-710",
   :id #uuid "0c080967-05ae-3727-b9fd-f749f6353689",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/e3607b83-almacoop.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua São José, n.º 3 A, 2620-077 PÓVOA DE SANTO ADRIÃO",
   :name "Póvoa de Santo Adrião",
+  :href-id #uuid "924487a5-3302-3dc9-9536-5ea59aaddc4b",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PovoadeSantoAdriao.aspx",
@@ -94,6 +95,8 @@
   :nec 1332,
   :cp7 "2620-077",
   :id #uuid "4319a823-6d72-364d-9afe-d48e337045a5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/924487a5-povoa-de-santo-adriao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
  :geocode

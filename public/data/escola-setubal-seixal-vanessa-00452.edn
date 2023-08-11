@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Alentejo, Nº 1 e 1-A 2845-092 SEIXAL",
   :name "Vanessa",
+  :href-id #uuid "bd4854bf-8178-33b7-a875-6d5582698de1",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vanessa1038.aspx",
@@ -94,6 +95,8 @@
   :nec 452,
   :cp7 "2845-092",
   :id #uuid "ab04d5cf-027d-32bf-8f63-75c12d128d65",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/bd4854bf-vanessa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
  :geocode

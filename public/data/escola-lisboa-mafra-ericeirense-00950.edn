@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Prudêncio Franco da Trindade 9 B 2655-344 ERICEIRA",
   :name "Ericeirense",
+  :href-id #uuid "62c46bb0-972d-36c1-9936-b7857706a5ac",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ericeirense408.aspx",
@@ -94,6 +95,8 @@
   :nec 950,
   :cp7 "2655-344",
   :id #uuid "fa735fd1-91c3-301e-9ab8-4539da2056c4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/62c46bb0-ericeirense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
  :geocode

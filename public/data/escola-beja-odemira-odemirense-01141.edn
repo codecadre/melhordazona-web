@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª do Comércio nº 6 A 7630-33 BOAVISTA DOS PINHEIROS",
   :name "Odemirense",
+  :href-id #uuid "d59e7943-df15-3ac5-9aba-ea3a048dcdf8",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Odemirense738.aspx",
@@ -94,15 +95,17 @@
   :nec 1141,
   :cp7 "7630-33",
   :id #uuid "657b50ea-d151-3cb2-9485-ce36cff40de8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/odemira/d59e7943-odemirense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"},
  :geocode
  {:id #uuid "657b50ea-d151-3cb2-9485-ce36cff40de8",
-  :address "Avenida do Comércio nº 6 A 7630-33 BOAVISTA DOS PINHEIROS",
+  :address "Avª do Comércio nº 6 A 7630-33 BOAVISTA DOS PINHEIROS",
   :address-c
-  "Avenida do Comércio 6, 7630-033, Boavista dos Pinheiros, Odemira, Beja",
+  "Travessa do Comércio 6, 7630-033, Boavista dos Pinheiros, Odemira, Beja",
   :postal-c "7630-033",
-  :x -8.661343288814946,
-  :y 37.58082856149458,
-  :score 97.95,
-  :c 4}}
+  :x -8.658706171871598,
+  :y 37.58063778357882,
+  :score 88.36,
+  :c 6}}

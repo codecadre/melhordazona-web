@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª 5 de Outubro, Nº 2– 1º 2560-270 TORRES VEDRAS",
     :name "Estrela Torriense",
+    :href-id #uuid "efcc45fb-cf8d-3dad-871a-14f9e9e16391",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstrelaTorriense427.aspx",
@@ -95,15 +96,20 @@
     :nec 15,
     :cp7 "2560-270",
     :id #uuid "4edab0dc-ed0c-3bed-9a94-abb3d07f0ef4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/efcc45fb-estrela-torriense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
-   {:cp7 "2560-270",
+   {:id #uuid "4edab0dc-ed0c-3bed-9a94-abb3d07f0ef4",
+    :address "Avª 5 de Outubro, Nº 2– 1º 2560-270 TORRES VEDRAS",
+    :address-c
+    "Avenida 5 de Outubro 2, 2560-270, Torres Vedras, Lisboa",
     :postal-c "2560-270",
-    :x -9.256819975216331,
-    :y 39.09178498158781,
-    :score 100,
-    :c 1}}]
+    :x -9.255509967569026,
+    :y 39.092350005680856,
+    :score 88.24,
+    :c 3}}]
  ["m-silva-00025"
   {:nec 25,
    :rates
@@ -194,6 +200,7 @@
    :imt-profile
    {:address "Rua Dr. Carlos França nº 27 A 2560 TORRES VEDRAS",
     :name "M. Silva",
+    :href-id #uuid "db03feba-57a0-334a-b07f-d189df5b4473",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MSilva616.aspx",
@@ -201,6 +208,8 @@
     :nec 25,
     :cp7 "2560",
     :id #uuid "da18076d-e196-3d5e-947f-9ef902b4fc6a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/db03feba-m-silva.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
@@ -304,6 +313,7 @@
    {:address
     "Rua da Escola Preparatória nº 51 R/c Esqº 2350 TORRES NOVAS",
     :name "Nova Torres",
+    :href-id #uuid "8736c435-f458-33ef-be61-3d019fa59aab",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaTorres719.aspx",
@@ -311,6 +321,8 @@
     :nec 549,
     :cp7 "2350",
     :id #uuid "9085a1b9-326e-3bbc-a302-c6cc5b13b69f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/8736c435-nova-torres.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
@@ -415,6 +427,7 @@
    {:address
     "Urb. Vale Nogueira, Lote 20-Fracção A -R/C Esq-Silveira 2560-194 TORRES VEDRAS",
     :name "Novo Horizonte",
+    :href-id #uuid "fbd72489-3556-3fec-988a-adaf86aada3f",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovoHorizonte723.aspx",
@@ -422,6 +435,8 @@
     :nec 570,
     :cp7 "2560-194",
     :id #uuid "663ff945-b1cb-3045-a8ea-ba07c630b813",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/fbd72489-novo-horizonte.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
@@ -522,6 +537,7 @@
    {:address
     "Urbanização Hilário, Edifício Sol Nascente, Bloco A r/c 3 2560-374 TORRES VEDRAS",
     :name "de Torres Vedras",
+    :href-id #uuid "32affad8-72d8-3114-b216-e6e3267049e4",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/deTorresVedras380.aspx",
@@ -529,6 +545,8 @@
     :nec 677,
     :cp7 "2560-374",
     :id #uuid "94607160-cd65-3dcc-95d2-a3eaa6a5c451",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/32affad8-de-torres-vedras.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
@@ -626,26 +644,28 @@
      :r/total-passed 92.0,
      :r/t-done 86.0}],
    :imt-profile
-   {:address "Rua Francisco Antunes, Nº 1 2565 – 031 CAMPELOS",
+   {:address "Rua das Malhadinhas, Nº 1 - 2565-037 Campelos",
     :name "Campelos",
+    :href-id #uuid "89385186-ee57-360f-ab5e-6cd6dfd4d25f",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Campelos273.aspx",
     :concelho "Torres Vedras",
     :nec 758,
-    :cp7 "2565",
-    :id #uuid "dad8f8f3-6392-37f4-a686-001fadf0543f",
+    :cp7 "2565-037",
+    :id #uuid "aa9269aa-8b11-3738-b752-c0b2f234c1a6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/89385186-campelos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
-   {:id #uuid "dad8f8f3-6392-37f4-a686-001fadf0543f",
-    :address "Rua Francisco Antunes, Nº 1 2565 – 031 CAMPELOS",
+   {:address "Rua das Malhadinhas, Nº 1 - 2565-037 Campelos",
     :address-c
-    "Rua Francisco Antunes 1, 2565-065, Campelos, Torres Vedras, Lisboa",
-    :postal-c "2565-065",
-    :x -9.236929970438098,
-    :y 39.19747998434934,
-    :score 97.4,
+    "Rua das Malhadinhas 1, 2565-037, Campelos, Torres Vedras, Lisboa",
+    :postal-c "2565-037",
+    :x -9.231409984283,
+    :y 39.196910014933,
+    :score 98.43,
     :c 1}}]
  ["oceano-00759"
   {:nec 759,
@@ -738,6 +758,7 @@
    {:address
     "Rua Dr.Aurélio Ricardo Belo, Nº 2-A 2560-324 TORRES VEDRAS",
     :name "Oceâno",
+    :href-id #uuid "df49d882-b068-3c58-a8e4-a8a5c5fb90f8",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oceano737.aspx",
@@ -745,6 +766,8 @@
     :nec 759,
     :cp7 "2560-324",
     :id #uuid "3de5aacc-fb5f-39ca-b3fc-30c15fe5dfb3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/df49d882-oceano.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
@@ -849,6 +872,7 @@
    {:address
     "Várzea do Choupal -Edifício Choupal r/c Esqº -Corpo C 2560-230 TORRES VEDRAS",
     :name "Instromóvel",
+    :href-id #uuid "1cf64d79-e242-3194-8ff3-386d16bfcf48",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Instromovel559.aspx",
@@ -856,6 +880,8 @@
     :nec 796,
     :cp7 "2560-230",
     :id #uuid "03beee01-c345-370d-88ed-c783ae76b384",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/1cf64d79-instromovel.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
@@ -956,6 +982,7 @@
    {:address
     "Rua Monsenhor José Jorge Fialho–Edf. Azenha- Fracção A, Lj R/C 2560-016 A DOS CUNHADOS",
     :name "Da Vila de A-dos-Cunhados",
+    :href-id #uuid "26f7a866-1b5f-3b80-a3db-0f2f65c31c65",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaViladeAdosCunhados362.aspx",
@@ -963,6 +990,8 @@
     :nec 828,
     :cp7 "2560-016",
     :id #uuid "541e52ba-4c8e-35ee-9e87-90e30748672d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/26f7a866-da-vila-de-a-dos-cunhados.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
@@ -1067,6 +1096,7 @@
    {:address
     "Rua Amadeu Rodrigues Matias lote 16 Loja 2 2560-253 TORRES VEDRAS",
     :name "Alta Roda",
+    :href-id #uuid "735205c0-258b-3b93-8443-9f82c21c082c",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AltaRoda093.aspx",
@@ -1074,6 +1104,8 @@
     :nec 883,
     :cp7 "2560-253",
     :id #uuid "9a8bf619-e381-305f-84fb-008fe00acdde",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/735205c0-alta-roda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode
@@ -1178,6 +1210,7 @@
    {:address
     "Av. Padre Dr. Raul Sarreira, nº 95, R/c, 2560-127 Ponte do Rol",
     :name "Via Principal",
+    :href-id #uuid "f3721582-d9a9-3050-a210-c69b79eca0a7",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaPrincipal1053.aspx",
@@ -1185,6 +1218,8 @@
     :nec 1191,
     :cp7 "2560-127",
     :id #uuid "259ceb63-a1ac-390a-8cc1-d9ac54084f4e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/f3721582-via-principal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
    :geocode

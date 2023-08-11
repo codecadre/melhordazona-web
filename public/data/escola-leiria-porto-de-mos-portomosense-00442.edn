@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Adelino Amaro da Costa, nº 3 2480-317 PORTO DE MÓS",
   :name "Porto Mosense",
+  :href-id #uuid "dded71fa-6af5-3202-9930-7ef76210cdf4",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PortoMosense805.aspx",
@@ -94,6 +95,8 @@
   :nec 442,
   :cp7 "2480-317",
   :id #uuid "d300e863-7c49-3740-a9bd-85310e318631",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/porto-de-mos/dded71fa-porto-mosense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"},
  :geocode

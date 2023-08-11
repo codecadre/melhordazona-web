@@ -88,6 +88,7 @@
  {:address
   "Rua Almeida Garrett, Lote 19, Loja A - Buzano 2785-338 S. DOMINGOS DE RANA",
   :name "Francipaulo",
+  :href-id #uuid "9c6c5ac6-c964-304a-ae32-1878f1e340c4",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Francipaulo466.aspx",
@@ -95,6 +96,8 @@
   :nec 1241,
   :cp7 "2785-338",
   :id #uuid "541c1f30-bb4d-3b5f-8b0a-7777fd546a54",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/9c6c5ac6-francipaulo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode

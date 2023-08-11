@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Conde de Ericeira, Nº 21 Subcave 6200-086 COVILHÃ",
   :name "Saber Mais",
+  :href-id #uuid "4b9d754d-708e-3a37-b0fe-35e13f87bbc4",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SaberMais902.aspx",
@@ -94,6 +95,8 @@
   :nec 980,
   :cp7 "6200-086",
   :id #uuid "fae06809-3d5e-3281-8e7c-300ea5da30d2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/4b9d754d-saber-mais.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
  :geocode

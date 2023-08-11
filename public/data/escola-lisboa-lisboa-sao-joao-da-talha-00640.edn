@@ -57,21 +57,25 @@
    :r/total-passed 0.0,
    :r/t-done 1.0}],
  :imt-profile
- {:address "Quinta das Torres , lote 8 r/c 2695 -731 S. JOÃO DA TALHA",
+ {:address "Rua da Venezuela, Nº 29 C, 1500-618 Lisboa",
   :name "S. João da Talha",
+  :href-id #uuid "116a49dd-f5a1-3281-b89c-663ad451163e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SJoaodaTalha888.aspx",
-  :concelho "Loures",
+  :concelho "Lisboa",
   :nec 640,
-  :cp7 "2695-731",
-  :id #uuid "3903ba24-3be4-3286-b2f9-ddef02184f78",
+  :cp7 "1500-618",
+  :id #uuid "5de51a0c-4ecd-3633-b02c-79600ba06321",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/116a49dd-s-joao-da-talha.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode
- {:cp7 "2695-731",
-  :postal-c "2695-731",
-  :x -9.097385028888198,
-  :y 38.82128001135834,
-  :score 100,
+ {:address "Rua da Venezuela, Nº 29 C, 1500-618 Lisboa",
+  :address-c "Rua da Venezuela 29, 1500-618, Lisboa",
+  :postal-c "1500-618",
+  :x -9.200489981659,
+  :y 38.744889986117,
+  :score 98.07,
   :c 1}}

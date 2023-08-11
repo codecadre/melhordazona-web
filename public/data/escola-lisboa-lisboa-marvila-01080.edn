@@ -88,6 +88,7 @@
  {:address
   "Rua Luis Cristino da Silva, Lote 238, Loja D 1950-178 LISBOA",
   :name "Marvila",
+  :href-id #uuid "500f8e37-7dc5-3bf1-ae9e-c1999b81b8ab",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Marvila632.aspx",
@@ -95,6 +96,8 @@
   :nec 1080,
   :cp7 "1950-178",
   :id #uuid "155941b0-d538-321a-8c87-c282d0953362",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/500f8e37-marvila.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

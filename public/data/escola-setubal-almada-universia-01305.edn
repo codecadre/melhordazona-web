@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua António Jesus André, n.º 10, Loja 2825-146 CAPARICA",
   :name "Universia",
+  :href-id #uuid "4740aa02-d2b9-3b75-bdd9-97f6474c6d07",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Universia.aspx",
@@ -94,12 +95,16 @@
   :nec 1305,
   :cp7 "2825-146",
   :id #uuid "dd78b043-5805-3cb0-b9dd-ad66ff7a6473",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/4740aa02-universia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
  :geocode
- {:cp7 "2825-146",
+ {:address "Rua António Jesus André, n.º 10, Loja 2825-146 CAPARICA",
+  :address-c
+  "Rua António Jesus André 10, 2825-146, Torre, Almada, Setúbal",
   :postal-c "2825-146",
-  :x -9.19750996362302,
-  :y 38.66621501216022,
-  :score 100,
+  :x -9.198410012386,
+  :y 38.665749984172,
+  :score 93.05,
   :c 1}}

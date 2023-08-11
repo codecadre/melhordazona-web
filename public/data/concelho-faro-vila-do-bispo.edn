@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Roça da Veiga 8650-387 Sagres",
     :name "Infante de Sagres - Vila do Bispo",
+    :href-id #uuid "78737166-7ba3-34ea-9f35-19a044492be2",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresViladoBispo543.aspx",
@@ -95,6 +96,8 @@
     :nec 477,
     :cp7 "8650-387",
     :id #uuid "19e99ac7-aab8-3008-b595-20656668b8e1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/vila-do-bispo/78737166-infante-de-sagres-vila-do-bispo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Vila%20do%20Bispo"},
    :geocode

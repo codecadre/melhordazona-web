@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. Alexandre Herculano, n.º 355 ; 4480-878 Vila do Conde",
   :name "Formariz",
+  :href-id #uuid "56cc2ed1-31ac-3fd2-a867-ab3d73860abf",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JoseRegio581.aspx",
@@ -94,6 +95,8 @@
   :nec 678,
   :cp7 "4480-878",
   :id #uuid "50d2751f-35af-3588-8b2f-3b79811a922e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-do-conde/56cc2ed1-formariz.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
  :geocode

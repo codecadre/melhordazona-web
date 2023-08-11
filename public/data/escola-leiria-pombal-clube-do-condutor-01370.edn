@@ -59,6 +59,7 @@
  :imt-profile
  {:address "Rua Albergaria dos Doze, n.ºs 55/57, 3010-456 POMBAL",
   :name "Clube do Condutor",
+  :href-id #uuid "a43fbc56-d640-39e7-b66a-a98c06f5e3d2",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ClubedoCondutor.aspx",
@@ -66,14 +67,16 @@
   :nec 1370,
   :cp7 "3010-456",
   :id #uuid "9b55aa64-3328-37cd-a13a-558ad85b496e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/a43fbc56-clube-do-condutor.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
  :geocode
  {:id #uuid "9b55aa64-3328-37cd-a13a-558ad85b496e",
-  :address "Rua Albergaria dos Doze, n 55, 3010-456 POMBAL",
+  :address "Rua Albergaria dos Doze, n.ºs 55/57, 3010-456 POMBAL",
   :address-c "Rua Albergaria dos Doze 55, 3100-456, Pombal, Leiria",
   :postal-c "3100-456",
   :x -8.629164792890265,
   :y 39.910315042319866,
-  :score 98.06,
-  :c 4}}
+  :score 92.15,
+  :c 6}}

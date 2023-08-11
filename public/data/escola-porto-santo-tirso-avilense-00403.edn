@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. Afonso Henriques, Nº 12 4795-058 AVES",
   :name "Avilense",
+  :href-id #uuid "37e651e3-f589-3741-a078-ac9b75f59c6f",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Avilense205.aspx",
@@ -94,6 +95,8 @@
   :nec 403,
   :cp7 "4795-058",
   :id #uuid "ece76f2c-5d3b-305f-b175-53f64f5781b8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/santo-tirso/37e651e3-avilense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
  :geocode

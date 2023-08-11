@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Prior do Crato, 67 – 1º Esqº 1350-259 LISBOA",
   :name "Dokas",
+  :href-id #uuid "c03f2220-2a58-3182-b682-3610d8558992",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Dokas.aspx",
@@ -94,6 +95,8 @@
   :nec 24,
   :cp7 "1350-259",
   :id #uuid "5e6620b6-fa1b-37a4-8cfd-d57269484aa3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/c03f2220-dokas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

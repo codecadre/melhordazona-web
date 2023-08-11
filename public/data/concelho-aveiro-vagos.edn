@@ -75,6 +75,7 @@
    {:address
     "Rua S. João - Edif. S. João, Bloco A - S/Nº 3840-429 VAGOS",
     :name "Nova de Vagos",
+    :href-id #uuid "9fb19a1a-3e1e-34ab-9ef6-fd6bf1af8715",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeVagos707.aspx",
@@ -82,6 +83,8 @@
     :nec 1136,
     :cp7 "3840-429",
     :id #uuid "cc9150e7-b534-32f7-8ecf-343f85fb22d4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/vagos/9fb19a1a-nova-de-vagos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vagos"},
    :geocode
@@ -181,6 +184,7 @@
    :imt-profile
    {:address "Rua D. António Santos, n.º 48, Quintã, 3840-507 VAGOS",
     :name "Moliceiro",
+    :href-id #uuid "9006d4c9-3aaa-3b3f-b1fe-f9c98eaba2e7",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moliceiro.aspx",
@@ -188,6 +192,8 @@
     :nec 1311,
     :cp7 "3840-507",
     :id #uuid "47cde028-caad-3e66-b6c7-6628ac2c8787",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/vagos/9006d4c9-moliceiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vagos"},
    :geocode

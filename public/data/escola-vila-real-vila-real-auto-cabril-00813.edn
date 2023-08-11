@@ -88,6 +88,7 @@
  {:address
   "Avª da Europa lote E 12 r/c Dtº 5000-557 VILA REAL (N. S. da CONCEIÇÃO)",
   :name "Auto Cabril",
+  :href-id #uuid "417c2331-6a1a-33c4-ab6b-6701c57bf3ff",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoCabril143.aspx",
@@ -95,6 +96,8 @@
   :nec 813,
   :cp7 "5000-557",
   :id #uuid "bfed9b86-fc1e-3484-a8f5-2824d87ec528",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/417c2331-auto-cabril.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
  :geocode

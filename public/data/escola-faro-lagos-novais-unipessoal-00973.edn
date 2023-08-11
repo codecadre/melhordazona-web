@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Pedra Alçada Lote 7, Loja C 8600-546 LAGOS",
   :name "Novais Unipessoal",
+  :href-id #uuid "7889c2b1-c3a8-3a65-953b-2beebe1d0a68",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaisUnipessoal722.aspx",
@@ -94,6 +95,8 @@
   :nec 973,
   :cp7 "8600-546",
   :id #uuid "e63e6220-fb66-3f92-984c-2081f6ba302e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/7889c2b1-novais-unipessoal.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
  :geocode

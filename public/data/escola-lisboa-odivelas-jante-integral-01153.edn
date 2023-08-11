@@ -85,23 +85,25 @@
    :r/total-passed 385.0,
    :r/t-done 357.0}],
  :imt-profile
- {:address "Rua Paiva de Andrade, Nº 12 – A 2675-424 ODIVELAS",
+ {:address "Av. Dom Dinis, nº 110 - 2775-486 Odivelas",
   :name "Jante Integral",
+  :href-id #uuid "54725e1b-de21-3925-940c-f6ba72964ca3",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JanteIntegral573.aspx",
   :concelho "Odivelas",
   :nec 1153,
-  :cp7 "2675-424",
-  :id #uuid "5850fcb8-0f0d-3cd2-a030-a014ce9a6dd0",
+  :cp7 "2775-486",
+  :id #uuid "99220c58-ca0c-3644-852f-3cf1258b8eb5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/54725e1b-jante-integral.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
  :geocode
- {:id #uuid "5850fcb8-0f0d-3cd2-a030-a014ce9a6dd0",
-  :address "Rua Paiva de Andrade, Nº 12 – A 2675-424 ODIVELAS",
-  :address-c "Rua Paiva de Andrade 12A, 2675-424, Odivelas, Lisboa",
-  :postal-c "2675-424",
-  :x -9.181979973419573,
-  :y 38.78629000800956,
-  :score 98.45,
-  :c 1}}
+ {:address "Av. Dom Dinis, nº 110 - 2775-486 Odivelas",
+  :address-c "Avenida Dom Dinis 110, 2675-329, Odivelas, Lisboa",
+  :postal-c "2675-329",
+  :x -9.18351218078,
+  :y 38.786174933595,
+  :score 94.93,
+  :c 3}}

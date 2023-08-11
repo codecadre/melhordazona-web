@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua General Humberto Delgado nº 20 –1º 4820-261 FAFE",
   :name "Fafense",
+  :href-id #uuid "6a28071e-e285-3577-8e7b-35a0d219e163",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fafense441.aspx",
@@ -94,6 +95,8 @@
   :nec 181,
   :cp7 "4820-261",
   :id #uuid "3554d66b-de71-3d4c-95a1-e0f4e1020ce5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/6a28071e-fafense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
  :geocode

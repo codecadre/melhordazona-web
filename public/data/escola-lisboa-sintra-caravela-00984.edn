@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª de Fitares, Nº 9- B Rinchoa 2635-011 RIO de MOURO",
   :name "Caravela",
+  :href-id #uuid "b682fd6e-c29f-37e2-9b6b-f5efb9655880",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Caravela282.aspx",
@@ -94,12 +95,16 @@
   :nec 984,
   :cp7 "2635-011",
   :id #uuid "8de799ce-2681-33b0-9725-c135db841ce7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/b682fd6e-caravela.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode
- {:cp7 "2635-011",
-  :postal-c "2635-011",
-  :x -9.345709974572856,
-  :y 38.764560007846256,
-  :score 100,
+ {:id #uuid "8de799ce-2681-33b0-9725-c135db841ce7",
+  :address "Avª de Fitares, Nº 9- B Rinchoa 2635-011 RIO de MOURO",
+  :address-c "Avenida de Fitares 9, 2635-009, Fitares, Sintra, Lisboa",
+  :postal-c "2635-009",
+  :x -9.316840017827616,
+  :y 38.78675000685581,
+  :score 94.33,
   :c 1}}

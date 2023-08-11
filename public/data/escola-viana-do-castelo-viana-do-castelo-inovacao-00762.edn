@@ -88,6 +88,7 @@
  {:address
   "Rua de Valverde nº 364 4900-299 VIANA DO CASTELO (Stª Mª Maior)",
   :name "Inovação",
+  :href-id #uuid "f996a172-36d9-32e0-859c-be78552253f2",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Inovacao557.aspx",
@@ -95,12 +96,17 @@
   :nec 762,
   :cp7 "4900-299",
   :id #uuid "75c5e735-eb9d-30dc-b785-ee25b3ce3718",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/f996a172-inovacao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
  :geocode
- {:cp7 "4900-299",
-  :postal-c "4900-299",
-  :x -8.827490009752808,
-  :y 41.70132000544169,
-  :score 100,
+ {:id #uuid "75c5e735-eb9d-30dc-b785-ee25b3ce3718",
+  :address
+  "Rua de Valverde nº 364 4900-299 VIANA DO CASTELO (Stª Mª Maior)",
+  :address-c "Rua de Valverde 364, 4900-505, Viana do Castelo",
+  :postal-c "4900-505",
+  :x -8.827709618246987,
+  :y 41.70076236566507,
+  :score 94.87,
   :c 1}}

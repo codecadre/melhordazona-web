@@ -88,6 +88,7 @@
  {:address
   "Largo Poeta Ary dos Santos, lote 1, 1 B e 1 C 2700-662 AMADORA",
   :name "Colina do Sol",
+  :href-id #uuid "b96cb351-3600-3817-87d3-25f82c94bf9b",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ColinadoSol325.aspx",
@@ -95,6 +96,8 @@
   :nec 791,
   :cp7 "2700-662",
   :id #uuid "d3248ee3-6f52-388d-993e-74b55c20ddeb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/b96cb351-colina-do-sol.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
  :geocode

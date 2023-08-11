@@ -89,6 +89,7 @@
    {:address
     "Rua General Amilcar Mota, Nº 181 4970-459 ARCOS DE VALDEVEZ (SALVADOR)",
     :name "Arcuense",
+    :href-id #uuid "b4633aeb-75cf-3d4c-bc06-0884d1112341",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arcuense116.aspx",
@@ -96,6 +97,8 @@
     :nec 340,
     :cp7 "4970-459",
     :id #uuid "4cd7f3c9-4d40-30c9-afe2-879472687f9c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/arcos-de-valdevez/b4633aeb-arcuense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
    :geocode
@@ -200,6 +203,7 @@
    {:address
     "Praça D. Manuel I, Nº 72 4970-595 ARCOS DE VALDEVEZ (SÃO PAIO)",
     :name "Arcos de Valdevez",
+    :href-id #uuid "7ec5de02-b5dc-3996-8a0f-d04a9ee1ae14",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ArcosdeValdevez115.aspx",
@@ -207,6 +211,8 @@
     :nec 862,
     :cp7 "4970-595",
     :id #uuid "a775db6f-0b18-3674-a7dd-deabadd677ea",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/arcos-de-valdevez/7ec5de02-arcos-de-valdevez.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
    :geocode
@@ -281,21 +287,17 @@
      :r/t-done 57.0}],
    :imt-profile
    {:address
-    "Av Dr. António Caldas, loja 139, Faquelo 4970-592 Arcos de Valdevez",
+    "Av. dos Combatentes da Primeira Guerra Mundial Loja 28 (Faquelo)",
     :name "Mira-Vez",
+    :href-id #uuid "0040b255-acc5-3658-84d0-f5968c85a8cb",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mira-Vez.aspx",
     :concelho "Arcos de Valdevez",
     :nec 1381,
-    :cp7 "4970-592",
-    :id #uuid "4b3b4fe1-bbd3-33a0-9389-2a30b828b958",
+    :cp7 nil,
+    :id #uuid "580595c4-1fd5-36dc-9ce1-ea3157e659b2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/arcos-de-valdevez/0040b255-mira-vez.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
-   :geocode
-   {:cp7 "4970-592",
-    :postal-c "4970-592",
-    :x -8.415724992945655,
-    :y 41.84285502035303,
-    :score 100,
-    :c 1}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"}}]]

@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. Mário Sacramento/Estrada Nacional, Nº 109, Loja F R/C Dtº 3810-104 AVEIRO",
   :name "Aveirense",
+  :href-id #uuid "6013c3c6-54e9-375e-8388-dd95665dae00",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aveirense202.aspx",
@@ -95,6 +96,8 @@
   :nec 1143,
   :cp7 "3810-104",
   :id #uuid "dc6264d0-4c2a-3242-9d62-0cde4211de54",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/6013c3c6-aveirense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
  :geocode

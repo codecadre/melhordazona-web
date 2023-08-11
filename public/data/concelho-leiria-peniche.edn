@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Ramiro de Matos Bilhau, n.º 8-10 Peniche",
     :name "Supertubos",
+    :href-id #uuid "32f47405-3ec5-333c-9926-795230d166fb",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Supertubos.aspx",
@@ -95,6 +96,8 @@
     :nec 129,
     :cp7 nil,
     :id #uuid "522db535-7570-3cf1-9dd1-161527a8d5b5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/peniche/32f47405-supertubos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Porto de Lobos 2520-201 ATOUGUIA da BALEIA",
     :name "Baleia",
+    :href-id #uuid "3a4648c2-fc6c-3893-89b6-1c23be4cfd6d",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Baleia216.aspx",
@@ -203,14 +207,17 @@
     :nec 548,
     :cp7 "2520-201",
     :id #uuid "58becb87-10b4-394d-9f48-c56758d0453d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/peniche/3a4648c2-baleia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
    :geocode
-   {:cp7 "2520-201",
-    :postal-c "2520-201",
-    :x -9.385900026832672,
-    :y 39.356479993721706,
-    :score 100,
+   {:address "Porto de Lobos 2520-201 ATOUGUIA da BALEIA",
+    :address-c "Porto de Lobos, Atouguia da Baleia, Peniche, Leiria",
+    :postal-c "",
+    :x -9.33994,
+    :y 39.34561,
+    :score 91.08,
     :c 1}}]
  ["berlenga-01211"
   {:nec 1211,
@@ -302,6 +309,7 @@
    :imt-profile
    {:address "Avª Porto das Pescas, Lote 5 - 1º 2520-208 PENICHE",
     :name "Berlenga",
+    :href-id #uuid "e6be7319-e34b-3f4f-8d10-4ef5801ed4cb",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Berlenga246.aspx",
@@ -309,6 +317,8 @@
     :nec 1211,
     :cp7 "2520-208",
     :id #uuid "12351d34-c31a-39ec-84e6-f617831989e5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/peniche/e6be7319-berlenga.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
    :geocode
@@ -412,6 +422,7 @@
    {:address
     "Rua Arquiteto Paulino Montez, Nº 94, R/C Dtº, 2520-295 PENICHE",
     :name "Nova de Peniche",
+    :href-id #uuid "86511e68-5f7d-389d-96a6-7b2fbc9361b1",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadePeniche.aspx",
@@ -419,6 +430,8 @@
     :nec 1323,
     :cp7 "2520-295",
     :id #uuid "a1e9a87a-f8bd-3d41-991b-b6289a509012",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/peniche/86511e68-nova-de-peniche.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
    :geocode

@@ -56,6 +56,27 @@
    :r/k "nova-mafra-00378",
    :r/total-passed 417.0,
    :r/t-done 305.0}],
- :imt-profile nil,
- :obs "license 378 is 'Instrucoop' in imt.pt",
- :overwrite/notes nil}
+ :imt-profile
+ {:address "Av. Drº Francisco Sá Carneiro, nº 12, 2640-486 Mafra",
+  :name "Nova Mafra",
+  :href-id #uuid "2b1278c1-16b6-32b5-ba9d-10690e064411",
+  :distrito "Lisboa",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Instrucoop560.aspx",
+  :concelho "Mafra",
+  :nec 378,
+  :cp7 "2640-486",
+  :id #uuid "b356acea-dff4-3f3c-b7c7-8ff2078f4e3c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/2b1278c1-nova-mafra.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
+ :geocode
+ {:address "Av. Drº Francisco Sá Carneiro, nº 12, 2640-486 Mafra",
+  :address-c
+  "Avenida Francisco Sá Carneiro 12, 2640-486, Mafra, Lisboa",
+  :postal-c "2640-486",
+  :x -9.338048283087,
+  :y 38.942883513487,
+  :score 86.13,
+  :c 3}}

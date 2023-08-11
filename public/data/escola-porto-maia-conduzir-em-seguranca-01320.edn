@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Abel Salazar, n.º 344; 4425-005 Maia",
   :name "Conduzir em Segurança",
+  :href-id #uuid "9bb22186-4d23-3b37-bfd7-c7b56f79de82",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ConduziremSeguranca.aspx",
@@ -94,6 +95,8 @@
   :nec 1320,
   :cp7 "4425-005",
   :id #uuid "c4f982c7-b03e-3dfc-aca8-f2e241fb6b07",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/9bb22186-conduzir-em-seguranca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode

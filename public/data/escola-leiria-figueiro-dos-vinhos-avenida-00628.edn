@@ -85,21 +85,26 @@
    :r/total-passed 116.0,
    :r/t-done 88.0}],
  :imt-profile
- {:address "Av. General Craveiro Lopes, n.º 60, 7080-164 VENDAS NOVAS",
+ {:address "Rua Bombeiros Voluntários, n.º 26 B, 3260-023 Aguda",
   :name "Avenida",
-  :distrito "Évora",
+  :href-id #uuid "d108fccb-8fae-3b7c-81db-586f40d78911",
+  :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Avenida204.aspx",
-  :concelho "Vendas Novas",
+  :concelho "Figueiró dos Vinhos",
   :nec 628,
-  :cp7 "7080-164",
-  :id #uuid "e4aaf9bd-4f83-35b4-b0f1-265fc10f6288",
+  :cp7 "3260-023",
+  :id #uuid "386caf2a-b1ac-3520-934a-bac1ad4d0e4a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/figueiro-dos-vinhos/d108fccb-avenida.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Vendas%20Novas"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Figueir%C3%B3%20dos%20Vinhos"},
  :geocode
- {:cp7 "7080-164",
-  :postal-c "7080-164",
-  :x -8.466414971494316,
-  :y 38.67571501930976,
-  :score 100,
-  :c 1}}
+ {:address "Rua Bombeiros Voluntários, n.º 26 B, 3260-023 Aguda",
+  :address-c
+  "Rua Bombeiros Voluntários 26, 3260-419, Figueiró dos Vinhos, Leiria",
+  :postal-c "3260-419",
+  :x -8.273895653404,
+  :y 39.899980559469,
+  :score 93.91,
+  :c 3}}

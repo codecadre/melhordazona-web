@@ -88,6 +88,7 @@
  {:address
   "Edifício Sopé de S. Pedro-Lugar de Gração-Sobrado 4550-100 CASTELO DE PAIVA",
   :name "Carbar",
+  :href-id #uuid "c2e79972-e1ea-3d78-ad22-4e17752cad5b",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carbar283.aspx",
@@ -95,6 +96,8 @@
   :nec 985,
   :cp7 "4550-100",
   :id #uuid "0a463260-1868-3e53-9980-ed5f48af838f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/c2e79972-carbar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
  :geocode

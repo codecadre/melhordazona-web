@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Luís de Camões, nº26 -1º Dtº 6320-380 SABUGAL",
     :name "Sabugalense",
+    :href-id #uuid "88a741c5-fe15-3fe5-ab90-63b37d30ed49",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sabugalense905.aspx",
@@ -95,6 +96,8 @@
     :nec 295,
     :cp7 "6320-380",
     :id #uuid "430c148a-e451-3934-bdd7-9b657bdff2d6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/sabugal/88a741c5-sabugalense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Sabugal"},
    :geocode

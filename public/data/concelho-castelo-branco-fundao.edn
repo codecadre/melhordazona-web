@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Loteamento Boavista, Lote 23 R/C DTº 6230 -287 FUNDÃO",
     :name "Triunfo - Fundão",
+    :href-id #uuid "ebc71537-a194-3747-99fc-17080546ec0f",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TriunfoFundao1024.aspx",
@@ -95,6 +96,8 @@
     :nec 592,
     :cp7 "6230-287",
     :id #uuid "fd03f829-02ba-3cd4-986d-0877186cb4e3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/fundao/ebc71537-triunfo-fundao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"},
    :geocode
@@ -198,6 +201,7 @@
    {:address
     "Loteamento Quinta do Espírito Santo, lote 10 r/c Frente 6230-329 FUNDÃO",
     :name "A Cereja",
+    :href-id #uuid "035c3e16-af4a-38d1-9233-2173e6767f72",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ACereja005.aspx",
@@ -205,6 +209,8 @@
     :nec 668,
     :cp7 "6230-329",
     :id #uuid "2ab49907-1192-3122-9793-687bc6136515",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/fundao/035c3e16-a-cereja.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"},
    :geocode

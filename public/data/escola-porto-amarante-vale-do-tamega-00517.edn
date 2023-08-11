@@ -88,6 +88,7 @@
  {:address
   "Rua António Carneiro-Edificio Navarro, 43/45-2º 4600-049 CEPELOS",
   :name "Vale do Tâmega",
+  :href-id #uuid "cb613088-98ab-399f-aad8-47a4c0a92b88",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ValedoTamega1032.aspx",
@@ -95,6 +96,8 @@
   :nec 517,
   :cp7 "4600-049",
   :id #uuid "e7b327ba-fd03-3dcc-a0fa-90c949a5ed7c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/cb613088-vale-do-tamega.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
  :geocode

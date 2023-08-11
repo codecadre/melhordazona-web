@@ -89,6 +89,7 @@
    {:address
     "Rua de Acesso à Ribeira do Amioso, 1º-Esqº 6100-758 SERTÃ",
     :name "Moderna – Sertã",
+    :href-id #uuid "aec6b637-f478-3166-a7c3-c831f320c4a9",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moderna%e2%80%93Serta658.aspx",
@@ -96,6 +97,8 @@
     :nec 567,
     :cp7 "6100-758",
     :id #uuid "6586ae33-7597-3b10-b637-79550b0bdfd5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/aec6b637-moderna-serta.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
    :geocode
@@ -196,6 +199,7 @@
    {:address
     "Rua dos Pinheiros - Alto Ventoso 6100-205 CERNACHE BONJARDIM",
     :name "De Cernache de Bonjardim",
+    :href-id #uuid "af9ba30a-ec61-3104-8130-6685e9a5eb70",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeCernachedeBonjardim370.aspx",
@@ -203,15 +207,21 @@
     :nec 725,
     :cp7 "6100-205",
     :id #uuid "f478c154-509d-3b8b-9105-e78fd927d72b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/af9ba30a-de-cernache-de-bonjardim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
    :geocode
-   {:cp7 "6100-205",
-    :postal-c "6100-205",
-    :x -8.180419573644372,
-    :y 39.81933007008365,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "f478c154-509d-3b8b-9105-e78fd927d72b",
+    :address
+    "Rua dos Pinheiros - Alto Ventoso 6100-205 CERNACHE BONJARDIM",
+    :address-c
+    "Rua dos Pinheiros, 6100-266, Cernache do Bonjardim, Sertã, Castelo Branco",
+    :postal-c "6100-266",
+    :x -8.184912364618999,
+    :y 39.81760948105821,
+    :score 90.49,
+    :c 21}}]
  ["maia-e-ferreira-00921"
   {:nec 921,
    :rates
@@ -303,6 +313,7 @@
    {:address
     "Rua dos Pinheiros, lote 2 - Apartado 50 6100-266 CERNACHE BONJARDIM",
     :name "Maia e Ferreira",
+    :href-id #uuid "7099d867-b6cc-30f3-9c06-fa1bd8d05936",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MaiaeFerreira620.aspx",
@@ -310,6 +321,8 @@
     :nec 921,
     :cp7 "6100-266",
     :id #uuid "9abdd0d2-f7be-3327-a9b5-6611172e46cb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/7099d867-maia-e-ferreira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
    :geocode
@@ -413,6 +426,7 @@
    :imt-profile
    {:address "EN 2 Venda da Pedra - Sertã 6100-707 SERTÃ",
     :name "Silvino Lopes",
+    :href-id #uuid "9895821d-9b6d-3481-91e7-604c0d92a567",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SilvinoLopes973.aspx",
@@ -420,12 +434,16 @@
     :nec 1204,
     :cp7 "6100-707",
     :id #uuid "55873886-1cd1-32b9-a72b-e01bf76e49db",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/9895821d-silvino-lopes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
    :geocode
-   {:cp7 "6100-707",
+   {:id #uuid "55873886-1cd1-32b9-a72b-e01bf76e49db",
+    :address "EN 2 Venda da Pedra - Sertã 6100-707 SERTÃ",
+    :address-c "6100-707, Venda da Pedra, Sertã, Castelo Branco",
     :postal-c "6100-707",
-    :x -8.101676790091062,
-    :y 39.79396148575188,
-    :score 100,
-    :c 1}}]]
+    :x -8.102008203217265,
+    :y 39.79564508611097,
+    :score 88.2,
+    :c 2}}]]

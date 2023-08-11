@@ -86,7 +86,9 @@
    :r/t-done 123.0}],
  :imt-profile
  {:address "Rua 21, n.º 410; 4520-258 Espinho",
+  :archived-last-seen-at "2022-05-07T14:52:45Z",
   :name "A Desportiva - Espinho",
+  :href-id #uuid "fadd5928-adbb-36b4-9196-253b2360f09c",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ADesportivaEspinho011.aspx",
@@ -94,14 +96,9 @@
   :nec 463,
   :cp7 "4520-258",
   :id #uuid "1cd0898e-0cc2-32ea-a279-8440c41b9ea2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/fadd5928-a-desportiva-espinho.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
- :geocode
- {:id #uuid "1cd0898e-0cc2-32ea-a279-8440c41b9ea2",
-  :address "Rua 21, n 410; 4520-258 Espinho",
-  :address-c "Rua 21 410, 4500-267, Espinho, Aveiro",
-  :postal-c "4500-267",
-  :x -8.640883737503026,
-  :y 41.00811119885399,
-  :score 96.96,
-  :c 1}}
+ :obs "archived and nec and href was reused.",
+ :overwrite/notes nil}

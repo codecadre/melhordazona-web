@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Mainça, Nº 79 R/c 4465-197 SÃO MAMEDE de INFESTA",
   :name "S. Mamede",
+  :href-id #uuid "be53a517-e3f4-362b-bfad-c5c3dfadd8e3",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SMamede891.aspx",
@@ -94,6 +95,8 @@
   :nec 53,
   :cp7 "4465-197",
   :id #uuid "87bcb4b1-de3a-3d8b-a3f5-e67793a94667",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/be53a517-s-mamede.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode

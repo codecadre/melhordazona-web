@@ -32,6 +32,7 @@
    :imt-profile
    {:address "Rua Capitão João Francisco de Sousa nº 1 7800-451 BEJA",
     :name "Automobilista de Beja",
+    :href-id #uuid "0c960550-784c-330a-b24e-cf0ed84fdf55",
     :distrito "Beja",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomobilistadeBeja184.aspx",
@@ -39,6 +40,8 @@
     :nec 82,
     :cp7 "7800-451",
     :id #uuid "0c83dbb0-e12e-35ba-83a0-eff52668dbf8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/beja/0c960550-automobilista-de-beja.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
    :geocode
@@ -140,6 +143,7 @@
    :imt-profile
    {:address "Rua Cidade de S. Paulo, 14 A r/c Esqº 7800-453 BEJA",
     :name "Victória",
+    :href-id #uuid "48cd6062-5309-3d03-964c-35f7e36c43f4",
     :distrito "Beja",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Victoria1062.aspx",
@@ -147,6 +151,8 @@
     :nec 272,
     :cp7 "7800-453",
     :id #uuid "b212d470-d859-3d1b-b20f-790805fa1e01",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/beja/48cd6062-victoria.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
    :geocode
@@ -248,6 +254,7 @@
    :imt-profile
    {:address "Rua Manuel da Fonseca nº 12 –Cave 7800-323 BEJA",
     :name "Palma e Dores",
+    :href-id #uuid "80003306-c8af-3d7e-9a79-1757385fcfa6",
     :distrito "Beja",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PalmaeDores769.aspx",
@@ -255,6 +262,8 @@
     :nec 669,
     :cp7 "7800-323",
     :id #uuid "81b798ec-493d-3127-b5be-915d369a72ce",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/beja/80003306-palma-e-dores.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
    :geocode
@@ -356,6 +365,7 @@
    :imt-profile
    {:address "Rua Sousa Porto 49 r/c 7800 BEJA",
     :name "Bejense",
+    :href-id #uuid "da0f67de-580e-35df-89d1-4ffaa8d2d9d3",
     :distrito "Beja",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bejense236.aspx",
@@ -363,6 +373,8 @@
     :nec 812,
     :cp7 "7800",
     :id #uuid "e39f2c49-c0d9-3500-9f78-fac947032f06",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/beja/da0f67de-bejense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
    :geocode

@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Capelo da Lagoa n º 9 4420-402 VALBOM",
     :name "Carsil",
+    :href-id #uuid "64643985-c65f-39cf-80ba-6e95c253babf",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carsil290.aspx",
@@ -95,14 +96,18 @@
     :nec 14,
     :cp7 "4420-402",
     :id #uuid "f4b12565-04dc-3fa7-aa14-2a991a0b1e46",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/64643985-carsil.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
-   {:cp7 "4420-402",
+   {:address "Rua Capelo da Lagoa n º 9 4420-402 VALBOM",
+    :address-c
+    "Rua Capela da Lagoa 9, 4420-402, Lagoa, Gondomar, Porto",
     :postal-c "4420-402",
-    :x -8.559380000717653,
-    :y 41.14703501628108,
-    :score 100,
+    :x -8.556699970996,
+    :y 41.145259980646,
+    :score 93.27,
     :c 1}}]
  ["o-volante-de-gondomar-00387"
   {:nec 387,
@@ -194,6 +199,7 @@
    :imt-profile
    {:address "Travessa Infante D. Henrique, 19/21 4435-289 RIO TINTO",
     :name "O Volante de Gondomar",
+    :href-id #uuid "bef5e63d-effc-3c01-adc2-7e9a6c9a2e68",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OVolantedeGondomar734.aspx",
@@ -201,6 +207,8 @@
     :nec 387,
     :cp7 "4435-289",
     :id #uuid "bea02562-51b6-3780-a2a4-d588df182ab4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/bef5e63d-o-volante-de-gondomar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -304,6 +312,7 @@
    {:address
     "Rua Dr. Joaquim Manuel da Costa, n.º 830, 4420 - 437 Valbom, GONDOMAR",
     :name "Vitória",
+    :href-id #uuid "b7c58a5b-364d-3838-8131-71ffb060120c",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vitoria1077.aspx",
@@ -311,6 +320,8 @@
     :nec 411,
     :cp7 "4420-437",
     :id #uuid "b0e61e68-059d-3f78-b521-bdacb768ed5a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/b7c58a5b-vitoria.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -414,6 +425,7 @@
    :imt-profile
    {:address "Avª D. João I, Nº 877 4435-208 RIO TINTO",
     :name "O Grande Prémio",
+    :href-id #uuid "4b83eee5-dbdf-36f5-b63c-b4a3e3b98ac5",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OGrandePremio732.aspx",
@@ -421,15 +433,20 @@
     :nec 571,
     :cp7 "4435-208",
     :id #uuid "b16b5342-a7c5-3270-b1b3-04ae9ad16790",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/4b83eee5-o-grande-premio.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
-   {:cp7 "4435-208",
+   {:id #uuid "b16b5342-a7c5-3270-b1b3-04ae9ad16790",
+    :address "Avª D. João I, Nº 877 4435-208 RIO TINTO",
+    :address-c
+    "Avenida Dom João I 877, 4435-208, Rio Tinto, Gondomar, Porto",
     :postal-c "4435-208",
-    :x -8.55375498931565,
-    :y 41.1677899915575,
-    :score 100,
-    :c 1}}]
+    :x -8.55934999350427,
+    :y 41.16857001146701,
+    :score 89.06,
+    :c 2}}]
  ["baguim-00730"
   {:nec 730,
    :rates
@@ -520,6 +537,7 @@
    :imt-profile
    {:address "Rua D. João de Castro, Nº 587 4435-674 BAGUIM DO MONTE",
     :name "Baguim",
+    :href-id #uuid "35c0d812-9f86-399c-86be-03592995ea87",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Baguim211.aspx",
@@ -527,6 +545,8 @@
     :nec 730,
     :cp7 "4435-674",
     :id #uuid "1858f30e-6c33-3890-8807-8ce7e5d8d1fc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/35c0d812-baguim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -629,6 +649,7 @@
    :imt-profile
    {:address "Avª Santa Bárbara nº 582 4515-463 MELRES",
     :name "Rocha e Dias",
+    :href-id #uuid "0295ae83-a0d8-3e0d-8482-39f7e4d737cc",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RochaeDias861.aspx",
@@ -636,15 +657,19 @@
     :nec 750,
     :cp7 "4515-463",
     :id #uuid "093069b3-ee90-316e-9c52-ed6f63d307d0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/0295ae83-rocha-e-dias.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
-   {:cp7 "4515-463",
+   {:address "Avª Santa Bárbara nº 582 4515-463 MELRES",
+    :address-c
+    "Avenida de Santa Bárbara 582, 4515-463, Branzelo, Gondomar, Porto",
     :postal-c "4515-463",
-    :x -8.426189966698274,
-    :y 41.08308997986981,
-    :score 100,
-    :c 1}}]
+    :x -8.424439992953,
+    :y 41.080739987586,
+    :score 87.9,
+    :c 3}}]
  ["prova-real-rio-tinto-00787"
   {:nec 787,
    :rates
@@ -735,6 +760,7 @@
    :imt-profile
    {:address "Rua Padre Joaquim das Neves, Nº 1084 4435-374 RIO TINTO",
     :name "Prova Real - Rio Tinto",
+    :href-id #uuid "7333258a-0289-36dd-8314-17b2e0ae1a78",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ProvaRealRioTinto824.aspx",
@@ -742,6 +768,8 @@
     :nec 787,
     :cp7 "4435-374",
     :id #uuid "13e656d7-c160-3459-a36b-b6a83a07bec4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/7333258a-prova-real-rio-tinto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -845,6 +873,7 @@
    {:address
     "Rua Eng.º Farinas de Almeida, n.º 339; 4510-260 São Pedro da Cova",
     :name "Dinâmica",
+    :href-id #uuid "ed1e490b-3461-3c3c-a838-fa8de3d52fb5",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Dinamica386.aspx",
@@ -852,15 +881,20 @@
     :nec 790,
     :cp7 "4510-260",
     :id #uuid "0e537316-4e44-3014-87e7-b515a101e58b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/ed1e490b-dinamica.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
-   {:cp7 "4510-260",
+   {:address
+    "Rua Eng.º Farinas de Almeida, n.º 339; 4510-260 São Pedro da Cova",
+    :address-c
+    "Rua Engenheiro Farinas de Almeida 339, 4510-260, São Pedro da Cova, Gondomar, Porto",
     :postal-c "4510-260",
-    :x -8.507325029236881,
-    :y 41.151860016934506,
-    :score 100,
-    :c 1}}]
+    :x -8.508060038326,
+    :y 41.151769995294,
+    :score 96.49,
+    :c 2}}]
  ["s-pedro-00806"
   {:nec 806,
    :rates
@@ -951,6 +985,7 @@
    :imt-profile
    {:address "Rua de S. Pedro nº 882 – 1º 4510-431 SÃO PEDRO da COVA",
     :name "S. Pedro",
+    :href-id #uuid "f39dea0f-8825-30a7-aeb8-141a0c42a60f",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SPedro896.aspx",
@@ -958,15 +993,20 @@
     :nec 806,
     :cp7 "4510-431",
     :id #uuid "8783c347-5a94-3d03-a91f-f924f9c7c792",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/f39dea0f-s-pedro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
-   {:cp7 "4510-431",
-    :postal-c "4510-431",
-    :x -8.509655030681586,
-    :y 41.155540007704644,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "8783c347-5a94-3d03-a91f-f924f9c7c792",
+    :address "Rua de S. Pedro nº 882 – 1º 4510-431 SÃO PEDRO da COVA",
+    :address-c
+    "Travessa de São Pedro 882, 4510-432, São Pedro da Cova, Gondomar, Porto",
+    :postal-c "4510-432",
+    :x -8.507567814896158,
+    :y 41.15940974007158,
+    :score 88.39,
+    :c 6}}]
  ["d-fernando-00811"
   {:nec 811,
    :rates
@@ -1057,6 +1097,7 @@
    :imt-profile
    {:address "Rua Trás da Serra, Nº 110 4510-147 JOVIM GDM",
     :name "D. Fernando",
+    :href-id #uuid "f13a3aec-408a-332e-bdae-776bcc2d0af0",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DFernando355.aspx",
@@ -1064,6 +1105,8 @@
     :nec 811,
     :cp7 "4510-147",
     :id #uuid "8c5e7670-8f0a-3fdc-8e99-7ceb932f8dd8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/f13a3aec-d-fernando.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -1167,6 +1210,7 @@
    {:address
     "Avª General Humberto Delgado, Nº 405 - Fracção A 4420-155 S. COSME",
     :name "Gondomar Jovem",
+    :href-id #uuid "67be23a9-9ccb-3d0e-a69d-cb329ab450b6",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GondomarJovem494.aspx",
@@ -1174,6 +1218,8 @@
     :nec 935,
     :cp7 "4420-155",
     :id #uuid "a19af0d4-913a-31fc-a8ad-6d7e3f959009",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/67be23a9-gondomar-jovem.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -1273,6 +1319,7 @@
    :imt-profile
    {:address "Rua Padre Jerónimo, Nº 170 4515-552 MELRES",
     :name "Via Douro",
+    :href-id #uuid "689aea2c-467d-375d-b8dd-8ef624f3fb80",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaDouro1049.aspx",
@@ -1280,6 +1327,8 @@
     :nec 938,
     :cp7 "4515-552",
     :id #uuid "d809f5ac-fd2d-3d53-94f5-9214f64d3bbc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/689aea2c-via-douro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -1382,6 +1431,7 @@
    :imt-profile
    {:address "Rua D. Afonso Henriques nº 827 4435 -005 RIO TINTO",
     :name "Fénix",
+    :href-id #uuid "02c0bc63-e572-3325-9b93-47131135d83e",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fenix450.aspx",
@@ -1389,15 +1439,19 @@
     :nec 1032,
     :cp7 "4435-005",
     :id #uuid "524138f4-1e34-3196-9c7d-1aa15369727b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/02c0bc63-fenix.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
-   {:cp7 "4435-005",
-    :postal-c "4435-005",
-    :x -8.582855029303033,
-    :y 41.18303998428539,
-    :score 100,
-    :c 1}}]
+   {:address "Rua D. Afonso Henriques nº 827 4435 -005 RIO TINTO",
+    :address-c
+    "Rua Dom Afonso Henriques 827, 4435-513, Areosa, Maia, Porto",
+    :postal-c "4435-513",
+    :x -8.580719990926,
+    :y 41.188079980755,
+    :score 96.26,
+    :c 2}}]
  ["projecto-4-01051"
   {:nec 1051,
    :rates
@@ -1489,6 +1543,7 @@
    {:address
     "Avª General Humberto Delgado nº 1012 4420-155 GONDOMAR (S: COSME)",
     :name "Projecto 4",
+    :href-id #uuid "c4232c80-9980-34f3-b3d0-15d76e55d9f0",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Projecto4821.aspx",
@@ -1496,6 +1551,8 @@
     :nec 1051,
     :cp7 "4420-155",
     :id #uuid "f96dd77a-48a5-30fd-9f20-f530dba5d2cb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/c4232c80-projecto-4.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -1599,6 +1656,7 @@
    :imt-profile
    {:address "Rua Guerra Junqueiro, Nº 34-R/C 4510-575 FÂNZERES",
     :name "Via Única",
+    :href-id #uuid "b7cfdb79-87ba-3e4c-9d5f-4f427f0210c1",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaUnica1056.aspx",
@@ -1606,6 +1664,8 @@
     :nec 1076,
     :cp7 "4510-575",
     :id #uuid "17a10e09-7d1b-3d8a-84ba-1e13d9c42672",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/b7cfdb79-via-unica.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -1709,6 +1769,7 @@
    {:address
     "Rua Nossa Senhora do Amparo, Nº 155 R/C Dtº 4435-350 RIO TINTO",
     :name "Venda Nova",
+    :href-id #uuid "840c66aa-117a-3909-9446-c5efc729f1fe",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VendaNova1043.aspx",
@@ -1716,6 +1777,8 @@
     :nec 1166,
     :cp7 "4435-350",
     :id #uuid "862c9470-ac5a-3cd3-b411-ec4317c6ec1f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/840c66aa-venda-nova.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
@@ -1819,6 +1882,7 @@
    :imt-profile
    {:address "Largo do Mosteiro,Nº116 4435-346 RIO TINTO",
     :name "Rio Tinto",
+    :href-id #uuid "e6b9f06d-0f3c-376c-8b46-f0495be71512",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RioTinto859.aspx",
@@ -1826,12 +1890,16 @@
     :nec 1182,
     :cp7 "4435-346",
     :id #uuid "f63c8fc6-f721-3030-b151-850bb8487dc7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/e6b9f06d-rio-tinto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
    :geocode
-   {:cp7 "4435-346",
-    :postal-c "4435-346",
-    :x -8.559591308496692,
-    :y 41.17800761534738,
-    :score 100,
-    :c 1}}]]
+   {:id #uuid "f63c8fc6-f721-3030-b151-850bb8487dc7",
+    :address "Largo do Mosteiro,Nº116 4435-346 RIO TINTO",
+    :address-c "Rua do Mosteiro, 4435-345, Rio Tinto, Gondomar, Porto",
+    :postal-c "4435-345",
+    :x -8.561130001449119,
+    :y 41.17803939217308,
+    :score 86.53,
+    :c 2}}]]

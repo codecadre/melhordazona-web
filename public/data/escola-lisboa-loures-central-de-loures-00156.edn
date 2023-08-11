@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da República, 56 – 1º 2670-469 LOURES",
   :name "Central de Loures",
+  :href-id #uuid "44e2ae78-2e88-31b8-9a25-a5b260e3330f",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CentraldeLoures302.aspx",
@@ -94,6 +95,8 @@
   :nec 156,
   :cp7 "2670-469",
   :id #uuid "58b9769e-be6e-34c6-b6a4-fe03313632dc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/44e2ae78-central-de-loures.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode

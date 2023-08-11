@@ -88,6 +88,7 @@
  {:address
   "Av. António Farinha Pereira - Edificio Mamade, R/C B ; 2200-024 Abrantes",
   :name "Cidade Florida",
+  :href-id #uuid "7989ee26-2029-3d71-894f-2dd2f929b4f8",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadeFlorida312.aspx",
@@ -95,12 +96,18 @@
   :nec 1161,
   :cp7 "2200-024",
   :id #uuid "fac00a1d-c056-35fc-a008-4e7016337f34",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/7989ee26-cidade-florida.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
  :geocode
- {:cp7 "2200-024",
+ {:id #uuid "fac00a1d-c056-35fc-a008-4e7016337f34",
+  :address
+  "Av. António Farinha Pereira - Edificio Mamade, R/C B ; 2200-024 Abrantes",
+  :address-c
+  "Avenida António Farinha Pereira, 2200-024, Abrantes, Santarém",
   :postal-c "2200-024",
-  :x -8.18648999938111,
-  :y 39.47997501561417,
-  :score 100,
-  :c 1}}
+  :x -8.18669925107517,
+  :y 39.48233325063699,
+  :score 89.18,
+  :c 2}}

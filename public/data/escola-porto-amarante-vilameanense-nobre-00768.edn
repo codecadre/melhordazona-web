@@ -88,6 +88,7 @@
  {:address
   "Avª Nova - Edifício Feira lote 1 –Fracão W 4605-373 ATAÍDE (VILA MEÃ)",
   :name "Vilameanense Nobre",
+  :href-id #uuid "60eca73c-3390-36f5-b921-bfe6e5db3f67",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vilameanense1069.aspx",
@@ -95,5 +96,7 @@
   :nec 768,
   :cp7 "4605-373",
   :id #uuid "2855bcbf-1345-3339-ae9d-c38cb845d89a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/60eca73c-vilameanense-nobre.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"}}

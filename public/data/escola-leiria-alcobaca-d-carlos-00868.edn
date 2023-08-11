@@ -88,6 +88,7 @@
  {:address
   "Av. Marginal, Nº 23-Loja A S. Martinho do Porto 2460-001 ALCOBAÇA",
   :name "D. Carlos",
+  :href-id #uuid "92eace33-256a-3ce2-9b23-ee64e8e6bd34",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DCarlos352.aspx",
@@ -95,6 +96,8 @@
   :nec 868,
   :cp7 "2460-001",
   :id #uuid "1d5e15d7-8d46-3c5e-be77-7700a1535484",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/92eace33-d-carlos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
  :geocode

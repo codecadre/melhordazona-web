@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Urbanização Horta de Algoz, Lote 5 R/C Dtº 8365-062 ALGOZ",
   :name "Do Algoz",
+  :href-id #uuid "2527b010-0ec9-3cf0-9b1b-a1d785476953",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DoAlgoz388.aspx",
@@ -94,6 +95,8 @@
   :nec 1009,
   :cp7 "8365-062",
   :id #uuid "f2e1f182-0163-3cfb-97fd-d4241c8a1ed4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/2527b010-do-algoz.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
  :geocode

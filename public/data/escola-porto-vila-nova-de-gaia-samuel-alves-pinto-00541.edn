@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo Soares dos Reis, n º 42 4400-309 MAFAMUDE",
   :name "Samuel Alves Pinto",
+  :href-id #uuid "1f45f91f-2a7f-3164-a560-fd540cae4311",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SamuelAlvesPinto915.aspx",
@@ -94,12 +95,17 @@
   :nec 541,
   :cp7 "4400-309",
   :id #uuid "7d1ba46d-d215-338e-b488-079b68953530",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/1f45f91f-samuel-alves-pinto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode
- {:cp7 "4400-309",
+ {:id #uuid "7d1ba46d-d215-338e-b488-079b68953530",
+  :address "Largo Soares dos Reis, n º 42 4400-309 MAFAMUDE",
+  :address-c
+  "Largo de Soares dos Reis 42, 4400-309, Vila Nova de Gaia, Porto",
   :postal-c "4400-309",
-  :x -8.61253995849404,
-  :y 41.12299001827975,
-  :score 100,
-  :c 1}}
+  :x -8.612610031204582,
+  :y 41.12352000601754,
+  :score 92.43,
+  :c 3}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Estrada Nacional nº 356, Campos -Maceira 2405-009 MACEIRA",
   :name "Da Maceira",
+  :href-id #uuid "166f1f0c-312c-3244-9a9c-48c27ebf9531",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaMaceira357.aspx",
@@ -94,6 +95,8 @@
   :nec 694,
   :cp7 "2405-009",
   :id #uuid "26515c36-a601-3873-8816-900e45c7fd56",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/leiria/166f1f0c-da-maceira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
  :geocode

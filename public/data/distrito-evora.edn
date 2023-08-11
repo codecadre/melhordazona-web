@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Sarmento Vieira, n.º 11; 7080-075",
     :name "Destaque",
+    :href-id #uuid "2d1f1971-52ad-3136-bf21-5116ce1c3586",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oriental754.aspx",
@@ -95,6 +96,8 @@
     :nec 34,
     :cp7 "7080-075",
     :id #uuid "b4219ae3-60f2-3389-93ee-47efe5ba3973",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/vendas-novas/2d1f1971-destaque.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Vendas%20Novas"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Rua do Menino de Jesus, 35 7000-601 ÉVORA",
     :name "Diana",
+    :href-id #uuid "28019cbf-8f45-3a05-b9d8-3e66bc0b3d72",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Diana384.aspx",
@@ -203,6 +207,8 @@
     :nec 194,
     :cp7 "7000-601",
     :id #uuid "4635399f-a4d4-374a-9aad-3e0c0989de90",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/evora/28019cbf-diana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
    :geocode
@@ -311,6 +317,7 @@
    {:address
     "Rua Mouzinho de Albuquerque, 32 7200-390 REGUENGOS DE MONSARAZ",
     :name "Automobilística D. Nuno Álvares Pereira",
+    :href-id #uuid "5164b656-b220-3cea-87b7-1d0da6e88718",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomobilisticaDNunoAlvaresPereira187.aspx",
@@ -318,6 +325,8 @@
     :nec 229,
     :cp7 "7200-390",
     :id #uuid "c1f6c863-735a-30ad-902d-67e31249e130",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/reguengos-de-monsaraz/5164b656-automobilistica-d-nuno-alvares-pereira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"},
    :geocode
@@ -421,6 +430,7 @@
    :imt-profile
    {:address "Rua do Lagar, 4 7170-079 REDONDO",
     :name "Redondo",
+    :href-id #uuid "d7531123-15e2-3c1f-99c1-844ffcee1e6b",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Redondo840.aspx",
@@ -428,6 +438,8 @@
     :nec 301,
     :cp7 "7170-079",
     :id #uuid "f541f76c-2fc8-3e74-89da-45025bd1091f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/redondo/d7531123-redondo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Redondo"},
    :geocode
@@ -529,6 +541,7 @@
    :imt-profile
    {:address "Av. 9 de Abril, n.º 72, 7100-500 ESTREMOZ",
     :name "Estremocense",
+    :href-id #uuid "fdbe6f06-5ebe-3d90-933a-32d9e3007311",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Estremocense429.aspx",
@@ -536,15 +549,18 @@
     :nec 423,
     :cp7 "7100-500",
     :id #uuid "91182255-238a-3245-9325-bd6d8ceee07d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/estremoz/fdbe6f06-estremocense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
    :geocode
-   {:cp7 "7100-500",
+   {:address "Av. 9 de Abril, n.º 72, 7100-500 ESTREMOZ",
+    :address-c "Avenida 9 de Abril 72, 7100-500, Estremoz, Évora",
     :postal-c "7100-500",
-    :x -7.583364959612197,
-    :y 38.845689999333445,
-    :score 100,
-    :c 1}}]
+    :x -7.584129975915,
+    :y 38.846839996449,
+    :score 94.88,
+    :c 2}}]
  ["mora-00436"
   {:nec 436,
    :rates
@@ -635,6 +651,7 @@
    :imt-profile
    {:address "Rua dos Sinos, Nº 10 7490-245 MORA",
     :name "Mora",
+    :href-id #uuid "946ceadc-dad6-307f-9ee4-05a1287a221b",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mora677.aspx",
@@ -642,6 +659,8 @@
     :nec 436,
     :cp7 "7490-245",
     :id #uuid "a5545248-b808-350c-a974-c6a488a03188",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/mora/946ceadc-mora.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Mora"},
    :geocode
@@ -743,6 +762,7 @@
    :imt-profile
    {:address "Praça da República, 14 7040-026 ARRAIOLOS",
     :name "Arraiolense",
+    :href-id #uuid "54b7de03-0ac1-3968-bce2-beaf5ccd14a2",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arraiolense127.aspx",
@@ -750,6 +770,8 @@
     :nec 480,
     :cp7 "7040-026",
     :id #uuid "60878311-f2f3-3ffa-9754-720b83e9ab9c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/arraiolos/54b7de03-arraiolense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Arraiolos"},
    :geocode
@@ -852,6 +874,7 @@
    {:address
     "Rua Dr. Júlio Pereira Garrido, Nº 12 7090-270 VIANA DO ALENTEJO",
     :name "Senhora D´ Aires",
+    :href-id #uuid "1480e916-d990-358a-a949-db3655a27765",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoraD%c2%b4Aires956.aspx",
@@ -859,6 +882,8 @@
     :nec 524,
     :cp7 "7090-270",
     :id #uuid "adb1ca58-111b-33a8-9334-6e35a89c4a15",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/viana-do-alentejo/1480e916-senhora-d´-aires.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Viana%20do%20Alentejo"},
    :geocode
@@ -962,6 +987,7 @@
    :imt-profile
    {:address "Avª D. Dinis de Melo e Castro, Nº 2H 7150-105 BORBA",
     :name "Infante de Sagres – Borba",
+    :href-id #uuid "b50c2188-4282-3ff6-ad93-b1191effb2e3",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagres%e2%80%93Borba534.aspx",
@@ -969,6 +995,8 @@
     :nec 586,
     :cp7 "7150-105",
     :id #uuid "ad3bd4f5-71d3-352f-a5b9-218e97a02b7b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/borba/b50c2188-infante-de-sagres-borba.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Borba"},
    :geocode
@@ -1071,6 +1099,7 @@
    :imt-profile
    {:address "Bº Nossa Senhora da Conceição, 136 7160-231 VILA VIÇOSA",
     :name "Auto Nisse",
+    :href-id #uuid "468ac560-f064-3b72-9f7a-25f72294d315",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoNisse168.aspx",
@@ -1078,121 +1107,19 @@
     :nec 596,
     :cp7 "7160-231",
     :id #uuid "d2917096-c5d1-3577-9e64-5d2f1ece06d9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/vila-vicosa/468ac560-auto-nisse.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Vila%20Vi%C3%A7osa"},
    :geocode
-   {:cp7 "7160-231",
+   {:id #uuid "d2917096-c5d1-3577-9e64-5d2f1ece06d9",
+    :address "Bº Nossa Senhora da Conceição, 136 7160-231 VILA VIÇOSA",
+    :address-c
+    "Bairro Nossa Senhora da Conceição, 7160-231, Vila Viçosa, Évora",
     :postal-c "7160-231",
-    :x -7.41512038158956,
-    :y 38.770985868187154,
-    :score 100,
-    :c 1}}]
- ["avenida-00628"
-  {:nec 628,
-   :rates
-   [{:r/nec 628,
-     :r/level-0 "2015",
-     :r/d-scheduled 119,
-     :r/t-rate 0.608,
-     :r/total-rate 0.6721,
-     :r/d-done 119,
-     :r/total-scheduled 244,
-     :r/name-raw "Escola De Condução Avenida",
-     :r/total-done 244,
-     :r/d-rate 0.7395,
-     :r/t-scheduled 125.0,
-     :r/k "avenida-00628",
-     :r/total-passed 164.0,
-     :r/t-done 125.0}
-    {:r/nec 628,
-     :r/level-0 "2016",
-     :r/d-scheduled 137,
-     :r/t-rate 0.5938,
-     :r/total-rate 0.6705,
-     :r/d-done 136,
-     :r/total-scheduled 267,
-     :r/name-raw "Escola De Condução Avenida",
-     :r/total-done 264,
-     :r/d-rate 0.7426,
-     :r/t-scheduled 130.0,
-     :r/k "avenida-00628",
-     :r/total-passed 177.0,
-     :r/t-done 128.0}
-    {:r/nec 628,
-     :r/level-0 "2017",
-     :r/d-scheduled 133,
-     :r/t-rate 0.5969,
-     :r/total-rate 0.6484,
-     :r/d-done 127,
-     :r/total-scheduled 262,
-     :r/name-raw "Escola De Condução Avenida",
-     :r/total-done 256,
-     :r/d-rate 0.7008,
-     :r/t-scheduled 129.0,
-     :r/k "avenida-00628",
-     :r/total-passed 166.0,
-     :r/t-done 129.0}
-    {:r/nec 628,
-     :r/level-0 "2018",
-     :r/d-scheduled 140,
-     :r/t-rate 0.6058,
-     :r/total-rate 0.6255,
-     :r/d-done 139,
-     :r/total-scheduled 244,
-     :r/name-raw "Escola De Condução Avenida",
-     :r/total-done 243,
-     :r/d-rate 0.6403,
-     :r/t-scheduled 104.0,
-     :r/k "avenida-00628",
-     :r/total-passed 152.0,
-     :r/t-done 104.0}
-    {:r/nec 628,
-     :r/level-0 "2019",
-     :r/d-scheduled 116,
-     :r/t-rate 0.6975,
-     :r/total-rate 0.7265,
-     :r/d-done 115,
-     :r/total-scheduled 237,
-     :r/name-raw "ESCOLA DE CONDUÇÃO AVENIDA",
-     :r/total-done 234,
-     :r/d-rate 0.7565,
-     :r/t-scheduled 121.0,
-     :r/k "avenida-00628",
-     :r/total-passed 170.0,
-     :r/t-done 119.0}
-    {:r/nec 628,
-     :r/level-0 "2020",
-     :r/d-scheduled 94,
-     :r/t-rate 0.6136,
-     :r/total-rate 0.6629,
-     :r/d-done 87,
-     :r/total-scheduled 186,
-     :r/name-raw "ESCOLA DE CONDUÇÃO AVENIDA",
-     :r/total-done 175,
-     :r/d-rate 0.7126,
-     :r/t-scheduled 92.0,
-     :r/k "avenida-00628",
-     :r/total-passed 116.0,
-     :r/t-done 88.0}],
-   :imt-profile
-   {:address
-    "Av. General Craveiro Lopes, n.º 60, 7080-164 VENDAS NOVAS",
-    :name "Avenida",
-    :distrito "Évora",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Avenida204.aspx",
-    :concelho "Vendas Novas",
-    :nec 628,
-    :cp7 "7080-164",
-    :id #uuid "e4aaf9bd-4f83-35b4-b0f1-265fc10f6288",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Vendas%20Novas"},
-   :geocode
-   {:cp7 "7080-164",
-    :postal-c "7080-164",
-    :x -8.466414971494316,
-    :y 38.67571501930976,
-    :score 100,
+    :x -7.414637326768261,
+    :y 38.77055570909529,
+    :score 92.94,
     :c 1}}]
  ["pero-rodrigues-00705"
   {:nec 705,
@@ -1283,7 +1210,9 @@
      :r/t-done 47.0}],
    :imt-profile
    {:address "Rua Tomé Adelino Vidigal, 14 - 7050 - MONTEMOR-O-NOVO",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Pero Rodrigues",
+    :href-id #uuid "80fdf6fc-a57c-33cc-b13c-8328baaf5293",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PeroRodrigues787.aspx",
@@ -1291,8 +1220,12 @@
     :nec 705,
     :cp7 "7050",
     :id #uuid "0f410351-2bb8-3c4d-bbb0-b46261df0759",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/montemor-o-novo/80fdf6fc-pero-rodrigues.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Montemor%20o%20Novo"},
+   :obs "archived and nec and href was reused.",
+   :overwrite/notes nil,
    :geocode
    {:id #uuid "0f410351-2bb8-3c4d-bbb0-b46261df0759",
     :address "Rua Tomé Adelino Vidigal, 14 - 7050 - MONTEMOR-O-NOVO",
@@ -1393,6 +1326,7 @@
    :imt-profile
    {:address "Rua Sebastião da Gama s/nº 7100-100 ESTREMOZ",
     :name "Ramosauto",
+    :href-id #uuid "54265cd8-8a7a-31a3-bd26-7fc4d7dbecd7",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ramosauto837.aspx",
@@ -1400,6 +1334,8 @@
     :nec 753,
     :cp7 "7100-100",
     :id #uuid "b8e44c5b-64e9-3d40-be65-fdc30afe99cc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/estremoz/54265cd8-ramosauto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
    :geocode
@@ -1502,6 +1438,7 @@
    {:address
     "Zona Industrial - Horta das Figueiras- Rua C,Lote 3 7005-316 ÉVORA",
     :name "Giraldo",
+    :href-id #uuid "a58a5a98-3640-3942-9848-ed487de13fbd",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Giraldo487.aspx",
@@ -1509,17 +1446,19 @@
     :nec 800,
     :cp7 "7005-316",
     :id #uuid "f2ddda32-ed37-30c0-bae4-938e184aff5d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/evora/a58a5a98-giraldo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
    :geocode
    {:id #uuid "f2ddda32-ed37-30c0-bae4-938e184aff5d",
     :address
-    "Zona Industrial - Horta das Figueiras- Rua C 7005-316 ÉVORA",
+    "Zona Industrial - Horta das Figueiras- Rua C,Lote 3 7005-316 ÉVORA",
     :address-c "Zona Industrial Horta das Figueiras",
     :postal-c "7005-212",
     :x -7.914289999999937,
     :y 38.55876000000006,
-    :score 94.27,
+    :score 89.94,
     :c 1}}]
  ["infante-de-evora-00948"
   {:nec 948,
@@ -1611,6 +1550,7 @@
    :imt-profile
    {:address "Av. dos Salesianos, n.º 70 e 72 ; 7000-292 Évora",
     :name "Infante de Évora",
+    :href-id #uuid "1fba08cf-cdd6-3e7a-a770-6431a7dc0f39",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeEvora528.aspx",
@@ -1618,14 +1558,18 @@
     :nec 948,
     :cp7 "7000-292",
     :id #uuid "2dfffa7d-767f-3e1d-8ed6-67ceff7424e2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/evora/1fba08cf-infante-de-evora.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
    :geocode
-   {:cp7 "7000-292",
-    :postal-c "7000-292",
-    :x -7.919544991068335,
-    :y 38.56983498603563,
-    :score 100,
+   {:id #uuid "2dfffa7d-767f-3e1d-8ed6-67ceff7424e2",
+    :address "Av. dos Salesianos, n.º 70 e 72 ; 7000-292 Évora",
+    :address-c "Avenida dos Salesianos 70, 7000-726, Évora",
+    :postal-c "7000-726",
+    :x -7.919392010804848,
+    :y 38.569901269709206,
+    :score 92.8,
     :c 1}}]
  ["ferreira-honrado-01156"
   {:nec 1156,
@@ -1717,6 +1661,7 @@
    :imt-profile
    {:address "Rua de Mourão, Nº 31-A 7200-291 REGUENGOS DE MONSARAZ",
     :name "Ferreira e Honrado",
+    :href-id #uuid "e179074b-9302-3cef-b61b-41f33fb1eb2d",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FerreiraeHonrado452.aspx",
@@ -1724,6 +1669,8 @@
     :nec 1156,
     :cp7 "7200-291",
     :id #uuid "334a4964-18ec-3fb8-99c8-21230206d002",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/reguengos-de-monsaraz/e179074b-ferreira-e-honrado.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"},
    :geocode
@@ -1826,6 +1773,7 @@
    :imt-profile
    {:address "Rua 1.º de Maio, N.º 31 R/C 7220-426 PORTEL",
     :name "Vila Portel",
+    :href-id #uuid "759c818f-c375-3ec0-bf6d-3f19831a1414",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Trindade464.aspx",
@@ -1833,15 +1781,19 @@
     :nec 1159,
     :cp7 "7220-426",
     :id #uuid "598320e1-85f1-3e2d-9792-94675ecf909d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/portel/759c818f-vila-portel.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Portel"},
    :geocode
-   {:cp7 "7220-426",
+   {:id #uuid "598320e1-85f1-3e2d-9792-94675ecf909d",
+    :address "Rua 1.º de Maio, N.º 31 R/C 7220-426 PORTEL",
+    :address-c "Rua 1 de Maio 31, 7220-426, Portel, Évora",
     :postal-c "7220-426",
-    :x -7.699965027952544,
-    :y 38.30484501472901,
-    :score 100,
-    :c 1}}]
+    :x -7.69806996346361,
+    :y 38.30440001948941,
+    :score 93.73,
+    :c 3}}]
  ["vila-lusitano-01174"
   {:nec 1174,
    :rates
@@ -1933,6 +1885,7 @@
    {:address
     "Rua Sebastião do Couto, Nº 1-A vila Lusitano 7005-610 ÉVORA",
     :name "Vila Lusitano",
+    :href-id #uuid "dc081dc5-6299-3566-855f-76316df5ce39",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VilaLusitano1066.aspx",
@@ -1940,6 +1893,8 @@
     :nec 1174,
     :cp7 "7005-610",
     :id #uuid "21df166e-9b40-38e5-827f-59b7046245e7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/evora/dc081dc5-vila-lusitano.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
    :geocode
@@ -2042,6 +1997,7 @@
    :imt-profile
    {:address "Rua José Félix Ribeiro, Lote 59 Loja 7100-125 ESTREMOZ",
     :name "Alves",
+    :href-id #uuid "cbb3ee58-5564-3df0-8059-1ce73db83fa0",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alves100.aspx",
@@ -2049,6 +2005,8 @@
     :nec 1195,
     :cp7 "7100-125",
     :id #uuid "b75b1f8d-0083-36ee-97e6-a440985a9eaa",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/estremoz/cbb3ee58-alves.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
    :geocode
@@ -2094,6 +2052,7 @@
    :imt-profile
    {:address "Rua Chafariz D’El rei, n.º 39, r/c Esq. 7005-190 Évora",
     :name "D’El Rei",
+    :href-id #uuid "f90fecff-74d2-37f5-8f94-8fd33f73e845",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/D%e2%80%99ElRei.aspx",
@@ -2101,12 +2060,16 @@
     :nec 1429,
     :cp7 "7005-190",
     :id #uuid "a07e5afd-8770-3320-b0c3-b3bb075497fc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/evora/f90fecff-del-rei.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
    :geocode
-   {:cp7 "7005-190",
-    :postal-c "7005-190",
-    :x -7.901155011682391,
-    :y 38.565955003055734,
-    :score 100,
+   {:id #uuid "a07e5afd-8770-3320-b0c3-b3bb075497fc",
+    :address "Rua Chafariz D’El rei, n.º 39, r/c Esq. 7005-190 Évora",
+    :address-c "Rua Chafariz d'el Rei 39, 7005-323, Évora",
+    :postal-c "7005-323",
+    :x -7.90288000735589,
+    :y 38.5670099912989,
+    :score 92.78,
     :c 1}}]]

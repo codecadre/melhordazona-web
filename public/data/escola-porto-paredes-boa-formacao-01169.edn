@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar de Tourilhe 4580 -753 SABROSA",
   :name "Boa Formação",
+  :href-id #uuid "890d676d-c628-3b49-ba71-43a085eceb30",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BoaFormacao247.aspx",
@@ -94,12 +95,16 @@
   :nec 1169,
   :cp7 "4580-753",
   :id #uuid "077fc9e5-6ad0-31cb-9f6a-dfc6d46a7953",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/890d676d-boa-formacao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :geocode
- {:cp7 "4580-753",
+ {:id #uuid "077fc9e5-6ad0-31cb-9f6a-dfc6d46a7953",
+  :address "Lugar de Tourilhe 4580 -753 SABROSA",
+  :address-c "Travessa de Tourilhe, 4580-753, Sobrosa, Paredes, Porto",
   :postal-c "4580-753",
-  :x -8.362624965776973,
-  :y 41.25305498542872,
-  :score 100,
-  :c 1}}
+  :x -8.363000217102218,
+  :y 41.25309245415591,
+  :score 86.35,
+  :c 4}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Forno, Nº 36, Loja 2, 2710-043 SINTRA",
   :name "Nova Imagem",
+  :href-id #uuid "3536a652-387b-3270-910d-bf5fc8ec6cd4",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaImagem715.aspx",
@@ -94,6 +95,8 @@
   :nec 1265,
   :cp7 "2710-043",
   :id #uuid "925b717e-2861-3a1a-9870-07272cb59507",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/3536a652-nova-imagem.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

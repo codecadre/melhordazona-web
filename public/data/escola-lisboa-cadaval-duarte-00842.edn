@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Prof. Marcelo Caetano nº 15 r/c 2550 -429 PAINHO",
   :name "Duarte",
+  :href-id #uuid "6f35134c-39bb-33d3-b264-ab9e15f1e6e9",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Duarte398.aspx",
@@ -94,6 +95,8 @@
   :nec 842,
   :cp7 "2550-429",
   :id #uuid "86f595df-4cd8-35e8-aff8-e872362d37ad",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cadaval/6f35134c-duarte.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cadaval"},
  :geocode

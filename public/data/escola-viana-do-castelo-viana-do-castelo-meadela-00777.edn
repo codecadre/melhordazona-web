@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Igreja, Nº 49 4900 -204 MEADELA",
   :name "Meadela",
+  :href-id #uuid "5a837d0b-d6dd-3e9e-9445-b7949cb2395c",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Meadela637.aspx",
@@ -94,12 +95,16 @@
   :nec 777,
   :cp7 "4900-204",
   :id #uuid "1fc782e0-b0d4-3889-bd1c-8c4e0c780a7c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/5a837d0b-meadela.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
  :geocode
- {:cp7 "4900-204",
-  :postal-c "4900-204",
-  :x -8.806561990085328,
-  :y 41.70635602050757,
-  :score 100,
-  :c 1}}
+ {:id #uuid "1fc782e0-b0d4-3889-bd1c-8c4e0c780a7c",
+  :address "Rua da Igreja, Nº 49 4900 -204 MEADELA",
+  :address-c "Rua Igreja 49, 4900-717, Viana do Castelo",
+  :postal-c "4900-717",
+  :x -8.808310035992548,
+  :y 41.70570001085554,
+  :score 94.95,
+  :c 2}}

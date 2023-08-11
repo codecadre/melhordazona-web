@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de S. Tiago, 774 4590-064 CARVALHOSA",
   :name "Paços Nova",
+  :href-id #uuid "76eb6a97-d071-37b0-bf48-3b2e1fa9febb",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PacosNova764.aspx",
@@ -94,6 +95,8 @@
   :nec 939,
   :cp7 "4590-064",
   :id #uuid "1b5b61ca-bd8a-39f0-9505-02e6787be969",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/76eb6a97-pacos-nova.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode

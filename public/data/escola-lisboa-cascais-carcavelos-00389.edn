@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Estrada da Torre, lote B - 13 2775-688 CARCAVELOS",
   :name "Carcavelos",
+  :href-id #uuid "94352fc2-2333-3a44-88ce-b3e8f9990e64",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carcavelos284.aspx",
@@ -94,12 +95,16 @@
   :nec 389,
   :cp7 "2775-688",
   :id #uuid "6a0b6034-ac65-38e1-bebb-6370271cadab",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/94352fc2-carcavelos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode
- {:cp7 "2775-688",
+ {:id #uuid "6a0b6034-ac65-38e1-bebb-6370271cadab",
+  :address "Estrada da Torre, lote B - 13 2775-688 CARCAVELOS",
+  :address-c "Estrada da Torre, 2775-688, Carcavelos, Cascais, Lisboa",
   :postal-c "2775-688",
-  :x -9.333925018708186,
-  :y 38.69018499212814,
-  :score 100,
-  :c 1}}
+  :x -9.333539541346234,
+  :y 38.69020916019741,
+  :score 93.55,
+  :c 3}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. 1.º de Maio, n.º 87-A, 2845-601 Amora",
   :name "Helder Pereira",
+  :href-id #uuid "6454a219-93f6-3aa3-a6bc-76aa8d6a0202",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/HelderPereira.aspx",
@@ -94,12 +95,17 @@
   :nec 1283,
   :cp7 "2845-601",
   :id #uuid "1d23ad76-7d33-3992-86af-f4ecd81ba297",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/6454a219-helder-pereira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
  :geocode
- {:cp7 "2845-601",
+ {:id #uuid "1d23ad76-7d33-3992-86af-f4ecd81ba297",
+  :address "Av. 1.º de Maio, n.º 87-A, 2845-601 Amora",
+  :address-c
+  "Avenida 1 de Maio 87A, 2845-601, Fogueteiro, Seixal, Setúbal",
   :postal-c "2845-601",
-  :x -9.108909978116344,
-  :y 38.614624984848604,
-  :score 100,
-  :c 1}}
+  :x -9.109199991966221,
+  :y 38.61501000757096,
+  :score 93.11,
+  :c 4}}

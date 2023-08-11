@@ -45,6 +45,7 @@
  :imt-profile
  {:address "Rua Almirante Reis, n.º 40, 4490-463 Póvoa de Varzim",
   :name "Fim da Linha",
+  :href-id #uuid "180d8fa5-72c9-3c96-812b-756a5f76c426",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FimdaLinha.aspx",
@@ -52,6 +53,8 @@
   :nec 1411,
   :cp7 "4490-463",
   :id #uuid "1e662879-eab9-3387-8e18-d5fb33df8158",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/180d8fa5-fim-da-linha.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
  :geocode

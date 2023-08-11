@@ -59,6 +59,7 @@
  :imt-profile
  {:address "Rua da Igreja, n.º 74, 3860-133 Avanca",
   :name "Nobel",
+  :href-id #uuid "2a434de0-d04d-3d7f-b343-fc57719b83c6",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nobel.aspx",
@@ -66,12 +67,15 @@
   :nec 741,
   :cp7 "3860-133",
   :id #uuid "340962e9-7390-3181-8dfc-3443f7171b2e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/estarreja/2a434de0-nobel.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
  :geocode
- {:cp7 "3860-133",
-  :postal-c "3860-133",
-  :x -8.571320021791081,
-  :y 40.80595002081523,
-  :score 100,
-  :c 1}}
+ {:address "Rua da Igreja, n.º 74, 3860-133 Avanca",
+  :address-c "Rua da Igreja 74, 3860-617, Veiros, Estarreja, Aveiro",
+  :postal-c "3860-617",
+  :x -8.612532563905,
+  :y 40.750524136106,
+  :score 90.17,
+  :c 4}}

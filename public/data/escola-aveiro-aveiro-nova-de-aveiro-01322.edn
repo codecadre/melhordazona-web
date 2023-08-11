@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. 5 de Outubro, n.º 21, R/C Dtº, 3800 - 428 AVEIRO",
   :name "Nova de Aveiro",
+  :href-id #uuid "bc9a4d8c-fe8d-395b-8f4d-915ac422c45b",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeAveiro.aspx",
@@ -94,12 +95,16 @@
   :nec 1322,
   :cp7 "3800-428",
   :id #uuid "260d9054-3b7d-3fd9-b389-6a5e55ada146",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/bc9a4d8c-nova-de-aveiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
  :geocode
- {:cp7 "3800-428",
+ {:id #uuid "260d9054-3b7d-3fd9-b389-6a5e55ada146",
+  :address "Av. 5 de Outubro, n.º 21, R/C Dtº, 3800 - 428 AVEIRO",
+  :address-c "Avenida 5 de Outubro 21, 3800-428, Aveiro",
   :postal-c "3800-428",
-  :x -8.646899978000164,
-  :y 40.641615013890714,
-  :score 100,
+  :x -8.647020006853637,
+  :y 40.64163001749739,
+  :score 94.2,
   :c 1}}

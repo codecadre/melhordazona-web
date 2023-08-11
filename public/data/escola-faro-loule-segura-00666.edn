@@ -88,6 +88,7 @@
  {:address
   "Avª de Ceuta - Edifício Nova Avenida loja 5 8125-116 QUARTEIRA",
   :name "Segura",
+  :href-id #uuid "35bf4e52-1c3c-3395-90ba-384bf3bbbb3b",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Segura952.aspx",
@@ -95,12 +96,17 @@
   :nec 666,
   :cp7 "8125-116",
   :id #uuid "661c4037-2acb-3221-8648-bf400be0fa96",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/35bf4e52-segura.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
  :geocode
- {:cp7 "8125-116",
+ {:address
+  "Avª de Ceuta - Edifício Nova Avenida loja 5 8125-116 QUARTEIRA",
+  :address-c
+  "Edifício Ceuta, Avenida de Ceuta, 8125-116, Quarteira, Loulé, Faro",
   :postal-c "8125-116",
-  :x -8.097594970882682,
-  :y 37.07202501458676,
-  :score 100,
-  :c 1}}
+  :x -8.097179982856,
+  :y 37.072040018193,
+  :score 86.2,
+  :c 5}}

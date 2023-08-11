@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 25 de Abril nº 402 4440-502 VALONGO",
   :name "Valonguense",
+  :href-id #uuid "3c36f874-7b6a-316a-8deb-8b9555f5409c",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Valonguense1035.aspx",
@@ -94,6 +95,8 @@
   :nec 368,
   :cp7 "4440-502",
   :id #uuid "e85d1ff4-9497-3b37-a988-950936b6aba5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/valongo/3c36f874-valonguense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
  :geocode

@@ -87,15 +87,18 @@
  :imt-profile
  {:address "Estrada do Santuário, Nº 38 R/C Esq 6215-460 PAUL",
   :name "Senhora da Esperança",
+  :href-id #uuid "49c1efbd-aaa2-36aa-874a-64fbb105ffe5",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoradaEsperanca957.aspx",
-  :concelho "Belmonte",
+  :concelho "Covilhã",
   :nec 612,
   :cp7 "6215-460",
   :id #uuid "21af80cf-600a-3215-ae52-4424d3d6589a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/49c1efbd-senhora-da-esperanca.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Belmonte"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
  :geocode
  {:id #uuid "21af80cf-600a-3215-ae52-4424d3d6589a",
   :address "Estrada do Santuário, Nº 38 R/C Esq 6215-460 PAUL",

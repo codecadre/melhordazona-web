@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Humberto Cardoso, Lote 15 B2 2950 -210 PINHAL NOVO",
   :name "De Palmela",
+  :href-id #uuid "553e5c93-26bd-3b50-b558-8e3872074186",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DePalmela375.aspx",
@@ -94,6 +95,8 @@
   :nec 478,
   :cp7 "2950-210",
   :id #uuid "0d98042d-de94-3781-a516-fea5302e07f5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/palmela/553e5c93-de-palmela.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
  :geocode

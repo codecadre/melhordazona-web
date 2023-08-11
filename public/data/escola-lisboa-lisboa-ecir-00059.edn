@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Aristides de Sousa Mendes,Nº 2B 1600-413 LISBOA",
   :name "Instrutores Reunidos",
+  :href-id #uuid "112f1121-2596-3861-8861-4ec4fd1ff295",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InstrutoresReunidos566.aspx",
@@ -94,6 +95,8 @@
   :nec 59,
   :cp7 "1600-413",
   :id #uuid "d3edb76d-f68d-3f75-8f63-0a723b000b69",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/112f1121-instrutores-reunidos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

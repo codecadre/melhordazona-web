@@ -85,24 +85,26 @@
    :r/total-passed 157.0,
    :r/t-done 117.0}],
  :imt-profile
- {:address "Rua Central da Gandra nº 1479 4585-116 GANDRA",
+ {:address "Rua Central da Gandra nº 1261 4585-248 GANDRA",
   :name "Pinheiro Manso",
+  :href-id #uuid "0f2498c8-b37e-32e4-8de3-851824661dd2",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PinheiroManso792.aspx",
   :concelho "Paredes",
   :nec 692,
-  :cp7 "4585-116",
-  :id #uuid "6b055c93-4b3f-36be-a426-1b59a49dfd23",
+  :cp7 "4585-248",
+  :id #uuid "8e24ee07-b865-3853-a7d8-5e57a9e7d61e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/0f2498c8-pinheiro-manso.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :geocode
- {:id #uuid "6b055c93-4b3f-36be-a426-1b59a49dfd23",
-  :address "Rua Central da Gandra nº 1479 4585-116 GANDRA",
+ {:address "Rua Central da Gandra nº 1261 4585-248 GANDRA",
   :address-c
-  "Rua Central de Gandra 1479, 4585-248, Vilarinho de Cima, Paredes, Porto",
+  "Rua Central da Gandra 1261, 4585-248, Vilarinho de Cima, Paredes, Porto",
   :postal-c "4585-248",
-  :x -8.449562903517997,
-  :y 41.18497594011866,
-  :score 95.83,
-  :c 2}}
+  :x -8.444789996578,
+  :y 41.182670007079,
+  :score 97.29,
+  :c 1}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Capitão Silva Pereira, 65/67 3500-209 VISEU",
   :name "Grão Vasco",
+  :href-id #uuid "84f8d3bb-40de-36fb-8133-748a1e700c48",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GraoVasco498.aspx",
@@ -94,6 +95,8 @@
   :nec 105,
   :cp7 "3500-209",
   :id #uuid "073f7854-037a-3043-a420-a1feb71051e4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/84f8d3bb-grao-vasco.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
  :geocode

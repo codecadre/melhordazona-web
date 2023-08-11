@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo do Rossio nº 52 3530-000 MANGUALDE",
   :name "Azurara",
+  :href-id #uuid "098f1c5e-45f5-3e41-ac4e-7ff0874667e7",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Azurara208.aspx",
@@ -94,6 +95,8 @@
   :nec 100,
   :cp7 "3530-000",
   :id #uuid "bf2eddf4-b5d4-349a-a59a-05848eee10bd",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/mangualde/098f1c5e-azurara.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"},
  :geocode

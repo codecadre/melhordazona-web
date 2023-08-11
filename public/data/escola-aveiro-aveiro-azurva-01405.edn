@@ -45,6 +45,7 @@
  :imt-profile
  {:address "Rua da República, n.º 118 3810-158 Santa Joana",
   :name "Azurva",
+  :href-id #uuid "29691cb4-7fb9-3cf8-ac3c-d9acff09cdca",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Azurva.aspx",
@@ -52,6 +53,8 @@
   :nec 1405,
   :cp7 "3810-158",
   :id #uuid "c63649af-38fb-383c-8ac4-c0c713464cf0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/29691cb4-azurva.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
  :geocode

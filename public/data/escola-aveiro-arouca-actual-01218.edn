@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar do Cimo da Inha - Escariz 4544-001 AROUCA",
   :name "Actual",
+  :href-id #uuid "be8e88c9-8df4-346f-9236-c8bb356bfa33",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Actual057.aspx",
@@ -94,11 +95,7 @@
   :nec 1218,
   :cp7 "4544-001",
   :id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/arouca/be8e88c9-actual.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
- :geocode
- {:id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35",
-  :overwrite true,
-  :obs "Manual coords",
-  :x -8.422375527411608,
-  :y 40.94577167143348}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"}}

@@ -88,6 +88,7 @@
  {:address
   "Avª General Humberto Delgado, Nº 8 3440-325 SANTA COMBA DÃO",
   :name "O Emigrante",
+  :href-id #uuid "b3f0c31f-f19e-31fb-a405-4b5d25e2cb95",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OEmigrante731.aspx",
@@ -95,12 +96,18 @@
   :nec 545,
   :cp7 "3440-325",
   :id #uuid "6a9b9558-4563-3e27-9680-365958ffd160",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/santa-comba-dao/b3f0c31f-o-emigrante.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"},
  :geocode
- {:cp7 "3440-325",
+ {:id #uuid "6a9b9558-4563-3e27-9680-365958ffd160",
+  :address
+  "Avª General Humberto Delgado, Nº 8 3440-325 SANTA COMBA DÃO",
+  :address-c
+  "Avenida General Humberto Delgado 8, 3440-325, Santa Comba Dão, Viseu",
   :postal-c "3440-325",
-  :x -8.12993998086543,
-  :y 40.39968499932422,
-  :score 100,
-  :c 1}}
+  :x -8.129720039726095,
+  :y 40.39699998237052,
+  :score 92.38,
+  :c 2}}

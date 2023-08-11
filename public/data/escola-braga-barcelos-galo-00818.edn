@@ -88,6 +88,7 @@
  {:address
   "Rua Santa Clara,Edificio Santa Clara, Loja 1 e 2 4750 -132 ARCOZELO",
   :name "Galo",
+  :href-id #uuid "2bbd5a3e-7f3f-36fb-b683-d0eef6f66a83",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Galo482.aspx",
@@ -95,6 +96,8 @@
   :nec 818,
   :cp7 "4750-132",
   :id #uuid "96d8d3a7-0720-36a7-851a-25403475449c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/2bbd5a3e-galo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode

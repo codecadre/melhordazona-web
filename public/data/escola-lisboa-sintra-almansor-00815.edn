@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. Miguel Bombarda, Nº24 2745-172 QUELUZ",
   :name "Almansor",
+  :href-id #uuid "973c3ae8-3ecb-3621-97d9-36dd9c15547b",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Almansor088.aspx",
@@ -94,6 +95,8 @@
   :nec 815,
   :cp7 "2745-172",
   :id #uuid "b780525e-cab7-3014-8183-84949d5c52a6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/973c3ae8-almansor.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

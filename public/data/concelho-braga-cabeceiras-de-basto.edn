@@ -89,6 +89,7 @@
    {:address
     "Avª General Humberto Delgado, S/Nº 4860-351 REFOJOS de BASTO",
     :name "Cabeceirense",
+    :href-id #uuid "b153d2e2-5b34-3f1c-82c4-1407e82d173c",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cabeceirense268.aspx",
@@ -96,6 +97,8 @@
     :nec 299,
     :cp7 "4860-351",
     :id #uuid "62eb843c-0153-3845-b8bf-38233605dd2b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/cabeceiras-de-basto/b153d2e2-cabeceirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
    :geocode
@@ -195,6 +198,7 @@
    :imt-profile
    {:address "Lugar do Carvalhal 4860-069 ARCO de BAÚLHE",
     :name "Prova Real- Arco de Baúlhe",
+    :href-id #uuid "063fb188-5bce-3d95-a8a3-61843bbfc983",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ProvaRealArcodeBaulhe825.aspx",
@@ -202,6 +206,8 @@
     :nec 775,
     :cp7 "4860-069",
     :id #uuid "645149cf-5480-3708-94e8-99a4646996f3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/cabeceiras-de-basto/063fb188-prova-real-arco-de-baulhe.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
    :geocode
@@ -301,6 +307,7 @@
    :imt-profile
    {:address "Lugar da Ribeira 4860-407 REFOJOS de BASTO",
     :name "O Basto",
+    :href-id #uuid "72d58a08-f4ec-3f25-9b95-b4b450bef905",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OBasto730.aspx",
@@ -308,6 +315,8 @@
     :nec 1055,
     :cp7 "4860-407",
     :id #uuid "bd534af0-99de-3774-a68b-60c65e6a88a6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/cabeceiras-de-basto/72d58a08-o-basto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
    :geocode

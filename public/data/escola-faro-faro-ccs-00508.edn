@@ -87,19 +87,24 @@
  :imt-profile
  {:address "Estrada da Senhora da Saúde, n.º 49 ; 8005-147 Faro",
   :name "C.C.S.",
+  :href-id #uuid "5f049898-6977-37e4-a8f9-cde5a235ed88",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SaoCiro947.aspx",
-  :concelho "Alcoutim",
+  :concelho "Faro",
   :nec 508,
   :cp7 "8005-147",
   :id #uuid "3d0e5710-16af-378e-be17-6a4de330f591",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/5f049898-ccs.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Alcoutim"},
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
  :geocode
- {:cp7 "8005-147",
-  :postal-c "8005-147",
-  :x -7.9399799871910375,
-  :y 37.02639498143755,
-  :score 100,
-  :c 1}}
+ {:id #uuid "3d0e5710-16af-378e-be17-6a4de330f591",
+  :address "Estrada da Senhora da Saúde, n.º 49 ; 8005-147 Faro",
+  :address-c "Estrada Senhora da Saúde, 8005-500, Mar e Guerra, Faro",
+  :postal-c "8005-500",
+  :x -7.9375679144231635,
+  :y 37.04846518750698,
+  :score 94.89,
+  :c 4}}

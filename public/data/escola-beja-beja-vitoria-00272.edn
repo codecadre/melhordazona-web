@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Cidade de S. Paulo, 14 A r/c Esqº 7800-453 BEJA",
   :name "Victória",
+  :href-id #uuid "48cd6062-5309-3d03-964c-35f7e36c43f4",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Victoria1062.aspx",
@@ -94,6 +95,8 @@
   :nec 272,
   :cp7 "7800-453",
   :id #uuid "b212d470-d859-3d1b-b20f-790805fa1e01",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/beja/48cd6062-victoria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Beja"},
  :geocode

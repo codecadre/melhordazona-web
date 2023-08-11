@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Salgueiro Maia lote 33, Loja Dtª 2955-028 PINHAL NOVO",
   :name "Previsegur",
+  :href-id #uuid "dd3a3f58-37a2-312c-8f25-d531a5905828",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Previsegur811.aspx",
@@ -94,6 +95,8 @@
   :nec 1115,
   :cp7 "2955-028",
   :id #uuid "081c1ac1-cd27-3642-ac74-c2f7a4560f02",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/palmela/dd3a3f58-previsegur.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
  :geocode

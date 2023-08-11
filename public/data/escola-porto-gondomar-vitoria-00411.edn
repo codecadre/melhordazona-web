@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. Joaquim Manuel da Costa, n.º 830, 4420 - 437 Valbom, GONDOMAR",
   :name "Vitória",
+  :href-id #uuid "b7c58a5b-364d-3838-8131-71ffb060120c",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vitoria1077.aspx",
@@ -95,6 +96,8 @@
   :nec 411,
   :cp7 "4420-437",
   :id #uuid "b0e61e68-059d-3f78-b521-bdacb768ed5a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/b7c58a5b-vitoria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode

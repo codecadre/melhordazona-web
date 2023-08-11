@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Av. 9 de Abril, n.º 72, 7100-500 ESTREMOZ",
     :name "Estremocense",
+    :href-id #uuid "fdbe6f06-5ebe-3d90-933a-32d9e3007311",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Estremocense429.aspx",
@@ -95,15 +96,18 @@
     :nec 423,
     :cp7 "7100-500",
     :id #uuid "91182255-238a-3245-9325-bd6d8ceee07d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/estremoz/fdbe6f06-estremocense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
    :geocode
-   {:cp7 "7100-500",
+   {:address "Av. 9 de Abril, n.º 72, 7100-500 ESTREMOZ",
+    :address-c "Avenida 9 de Abril 72, 7100-500, Estremoz, Évora",
     :postal-c "7100-500",
-    :x -7.583364959612197,
-    :y 38.845689999333445,
-    :score 100,
-    :c 1}}]
+    :x -7.584129975915,
+    :y 38.846839996449,
+    :score 94.88,
+    :c 2}}]
  ["ramosauto-00753"
   {:nec 753,
    :rates
@@ -194,6 +198,7 @@
    :imt-profile
    {:address "Rua Sebastião da Gama s/nº 7100-100 ESTREMOZ",
     :name "Ramosauto",
+    :href-id #uuid "54265cd8-8a7a-31a3-bd26-7fc4d7dbecd7",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ramosauto837.aspx",
@@ -201,6 +206,8 @@
     :nec 753,
     :cp7 "7100-100",
     :id #uuid "b8e44c5b-64e9-3d40-be65-fdc30afe99cc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/estremoz/54265cd8-ramosauto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
    :geocode
@@ -302,6 +309,7 @@
    :imt-profile
    {:address "Rua José Félix Ribeiro, Lote 59 Loja 7100-125 ESTREMOZ",
     :name "Alves",
+    :href-id #uuid "cbb3ee58-5564-3df0-8059-1ce73db83fa0",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alves100.aspx",
@@ -309,6 +317,8 @@
     :nec 1195,
     :cp7 "7100-125",
     :id #uuid "b75b1f8d-0083-36ee-97e6-a440985a9eaa",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/estremoz/cbb3ee58-alves.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
    :geocode

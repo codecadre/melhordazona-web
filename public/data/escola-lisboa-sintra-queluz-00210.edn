@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D.Pedro IV nº 37 – 1º Dtº 2745-201 QUELUZ",
   :name "Queluz",
+  :href-id #uuid "b0a91a58-e82b-3a37-b2a6-76ef5ca9c328",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Queluz830.aspx",
@@ -94,6 +95,8 @@
   :nec 210,
   :cp7 "2745-201",
   :id #uuid "753416ec-702a-3072-bfcf-32d3d815a52c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/b0a91a58-queluz.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

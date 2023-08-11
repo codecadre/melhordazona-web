@@ -89,6 +89,7 @@
    {:address
     "Rua António Carneiro-Edificio Navarro, 43/45-2º 4600-049 CEPELOS",
     :name "Vale do Tâmega",
+    :href-id #uuid "cb613088-98ab-399f-aad8-47a4c0a92b88",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ValedoTamega1032.aspx",
@@ -96,6 +97,8 @@
     :nec 517,
     :cp7 "4600-049",
     :id #uuid "e7b327ba-fd03-3dcc-a0fa-90c949a5ed7c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/cb613088-vale-do-tamega.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
    :geocode
@@ -196,6 +199,7 @@
    {:address
     "Lugar de Ramos - Edifício Cristal Center, Fracção BH 4600-760 TELÕES",
     :name "S. Gonçalo",
+    :href-id #uuid "06ed124d-1774-3bae-a785-640e9c961bdf",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SGoncalo884.aspx",
@@ -203,6 +207,8 @@
     :nec 720,
     :cp7 "4600-760",
     :id #uuid "663b44b4-e665-3f0b-b9ed-7d6d8ab3e9b7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/06ed124d-s-goncalo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
    :geocode
@@ -303,6 +309,7 @@
    {:address
     "Avª Nova - Edifício Feira lote 1 –Fracão W 4605-373 ATAÍDE (VILA MEÃ)",
     :name "Vilameanense Nobre",
+    :href-id #uuid "60eca73c-3390-36f5-b921-bfe6e5db3f67",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vilameanense1069.aspx",
@@ -310,6 +317,8 @@
     :nec 768,
     :cp7 "4605-373",
     :id #uuid "2855bcbf-1345-3339-ae9d-c38cb845d89a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/60eca73c-vilameanense-nobre.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"}}]
  ["seven-01294"
@@ -400,25 +409,20 @@
      :r/total-passed 148.0,
      :r/t-done 98.0}],
    :imt-profile
-   {:address
-    "Travessa General Vitorino Laranjeiro, n.º 47; 4600-018 Amarante (São Gonçalo)",
+   {:address "Rua Mário Cal Brandão, Fracção B N.º 234",
     :name "Seven",
+    :href-id #uuid "08a6a819-e3a0-33eb-9c45-249429e3cb00",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Seven.aspx",
     :concelho "Amarante",
     :nec 1294,
-    :cp7 "4600-018",
-    :id #uuid "be2a7ab7-8871-3a27-a9a3-a0ecd60c1555",
+    :cp7 nil,
+    :id #uuid "e921bbf5-5e96-3125-96b0-2ceed73a123f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/08a6a819-seven.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
-   :geocode
-   {:cp7 "4600-018",
-    :postal-c "4600-018",
-    :x -8.077604969999555,
-    :y 41.275215019134436,
-    :score 100,
-    :c 1}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"}}]
  ["classe-01328"
   {:nec 1328,
    :rates
@@ -509,6 +513,7 @@
    :imt-profile
    {:address "Rua Ponte de Pego, n.º 375, 4600-754 TELÕES AMT",
     :name "Classe",
+    :href-id #uuid "335a0c68-079b-32c5-8609-e618d7f15429",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Classe.aspx",
@@ -516,15 +521,19 @@
     :nec 1328,
     :cp7 "4600-754",
     :id #uuid "4df99bde-65b3-3e41-9d40-e3d18b85897f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/335a0c68-classe.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
    :geocode
-   {:cp7 "4600-754",
+   {:id #uuid "4df99bde-65b3-3e41-9d40-e3d18b85897f",
+    :address "Rua Ponte de Pego, n.º 375, 4600-754 TELÕES AMT",
+    :address-c "Ponte de Pego 375, 4600-754, Penalta, Amarante, Porto",
     :postal-c "4600-754",
-    :x -8.09818497304721,
-    :y 41.2922050111425,
-    :score 100,
-    :c 1}}]
+    :x -8.09818002772434,
+    :y 41.2916899851019,
+    :score 91.2,
+    :c 5}}]
  ["crystal-01361"
   {:nec 1361,
    :rates
@@ -601,6 +610,7 @@
    :imt-profile
    {:address "Rua da Rampa Alta, n.º 502 r/c Esq. 4600-275 Amarante",
     :name "Crystal",
+    :href-id #uuid "eed44b46-a6f6-3728-9a6a-52dd3bee65c9",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Crystal.aspx",
@@ -608,12 +618,16 @@
     :nec 1361,
     :cp7 "4600-275",
     :id #uuid "f761d6b2-e665-39c3-8d14-870eadfc3d0b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/eed44b46-crystal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
    :geocode
-   {:cp7 "4600-275",
+   {:id #uuid "f761d6b2-e665-39c3-8d14-870eadfc3d0b",
+    :address "Rua da Rampa Alta, n.º 502 r/c Esq. 4600-275 Amarante",
+    :address-c "Rua da Rampa Alta, 4600-275, Amarante, Porto",
     :postal-c "4600-275",
-    :x -8.082760008090531,
-    :y 41.278094999156,
-    :score 100,
-    :c 1}}]]
+    :x -8.081984434463289,
+    :y 41.27908002283924,
+    :score 91.03,
+    :c 2}}]]

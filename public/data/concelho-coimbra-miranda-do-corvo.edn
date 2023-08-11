@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua 25 de Abril, 43 3220-185 MIRANDA DO CORVO",
     :name "Mirandense",
+    :href-id #uuid "7a05cb75-85d1-3d0f-a061-2c545a87543d",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mirandense653.aspx",
@@ -95,6 +96,8 @@
     :nec 334,
     :cp7 "3220-185",
     :id #uuid "ec8f51bf-9fa8-353c-85c2-fde13ec2789f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/miranda-do-corvo/7a05cb75-mirandense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Miranda%20do%20Corvo"},
    :geocode

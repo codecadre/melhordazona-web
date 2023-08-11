@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Manuel Pereira Soares 4630-296 FORNOS",
     :name "Marcoense",
+    :href-id #uuid "a72d99f6-d94c-3969-8b54-9d6fecece378",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Marcoense625.aspx",
@@ -95,6 +96,8 @@
     :nec 177,
     :cp7 "4630-296",
     :id #uuid "927174ef-105d-3335-afd2-7335e0cd19ea",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/a72d99f6-marcoense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
    :geocode
@@ -194,6 +197,7 @@
    :imt-profile
    {:address "Charneca - Rua São Nicolau, 224 4630-293 S. NICOLAU",
     :name "Madureira",
+    :href-id #uuid "8b29a49d-eda7-3fbb-bf81-bf0f60f8726a",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Madureira618.aspx",
@@ -201,6 +205,8 @@
     :nec 383,
     :cp7 "4630-293",
     :id #uuid "e86057b8-75f4-3cdf-8111-7ccfb8411893",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/8b29a49d-madureira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
    :geocode
@@ -304,6 +310,7 @@
    {:address
     "Avª F. C. Porto - Edificio Via Marco, Loja 68 4630-203 TUIAS",
     :name "Quatro Ases",
+    :href-id #uuid "441e6d5a-b536-3376-8211-f788c07e3166",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/QuatroAses827.aspx",
@@ -311,6 +318,8 @@
     :nec 662,
     :cp7 "4630-203",
     :id #uuid "70271f41-4321-3803-9843-66fa07f77437",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/441e6d5a-quatro-ases.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
    :geocode
@@ -355,6 +364,7 @@
    {:address
     "Lugar da Tapadinha - Edificio Tâmega Douro, Nº 1, Bloco B, Loja 48 e 49 4575-052 ALPENDURADA E MATOS",
     :name "Auto Alpendurada",
+    :href-id #uuid "776310c6-17db-3edb-bd2e-4d029818f265",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoAlpendurada139.aspx",
@@ -362,6 +372,8 @@
     :nec 737,
     :cp7 "4575-052",
     :id #uuid "44a1ea0f-5799-345b-b4be-b035613aa540",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/776310c6-auto-alpendurada.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
    :geocode
@@ -461,6 +473,7 @@
    :imt-profile
    {:address "Lugar de Memorial 4575 -032 ALPENDURADA e MATOS",
     :name "Memorial",
+    :href-id #uuid "ec28a94e-ecf8-34c9-8890-8588ab1bd9d5",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Memorial642.aspx",
@@ -468,6 +481,8 @@
     :nec 816,
     :cp7 "4575-032",
     :id #uuid "dd3a574a-a95f-328f-a6f1-3dca5f11fda4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/ec28a94e-memorial.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
    :geocode
@@ -567,6 +582,7 @@
    :imt-profile
    {:address "Lugar de Feira Nova 4625-049 ARIZ",
     :name "Feira Nova – Ensino da Condução Automóvel",
+    :href-id #uuid "4e0a25b5-c2a0-3c46-b580-387c4dcdd0cc",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FeiraNova%e2%80%93EnsinodaConducaoAutomovel448.aspx",
@@ -574,6 +590,8 @@
     :nec 817,
     :cp7 "4625-049",
     :id #uuid "0d3c6c37-a2cb-3b0c-8cbf-d0dbb9d70ab4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/4e0a25b5-feira-nova-ensino-da-conducao-automovel.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
    :geocode
@@ -673,6 +691,7 @@
    :imt-profile
    {:address "Lugar de Palheira 4575-011 ALPENDURADA e MATOS",
     :name "Santa Marinha - Autoagra",
+    :href-id #uuid "f2a7573b-c1d7-3667-a956-b1ea35d002d7",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMarinhaAutoagra932.aspx",
@@ -680,15 +699,20 @@
     :nec 944,
     :cp7 "4575-011",
     :id #uuid "dae8ab30-0234-397d-bbc1-8c3298567681",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/f2a7573b-santa-marinha-autoagra.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
    :geocode
-   {:cp7 "4575-011",
+   {:id #uuid "dae8ab30-0234-397d-bbc1-8c3298567681",
+    :address "Lugar de Palheira 4575-011 ALPENDURADA e MATOS",
+    :address-c
+    "Rua da Palheira, 4575-011, Alegre, Marco de Canaveses, Porto",
     :postal-c "4575-011",
-    :x -8.253195028869982,
-    :y 41.086829985066714,
-    :score 100,
-    :c 1}}]
+    :x -8.246971207776998,
+    :y 41.0865325729414,
+    :score 86.82,
+    :c 14}}]
  ["ariz-01154"
   {:nec 1154,
    :rates
@@ -780,6 +804,7 @@
    {:address
     "Lugar de Lamoso-Urbanizaçâo Lameu 4625-110 S.PAIO de FAVÕES",
     :name "Ariz",
+    :href-id #uuid "93349f72-301c-3e90-b6ab-e65d996a8b17",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ariz121.aspx",
@@ -787,6 +812,8 @@
     :nec 1154,
     :cp7 "4625-110",
     :id #uuid "6bb65a6a-0b22-3bbd-813b-7b111d83f694",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/93349f72-ariz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"}}]
  ["livracao-01167"
@@ -879,6 +906,7 @@
    :imt-profile
    {:address "Lugar da Livração 4635-518 TOUTOSA",
     :name "De Livração",
+    :href-id #uuid "216dc652-7bd8-38f5-ae16-420d1b4a88f1",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeLivracao372.aspx",
@@ -886,6 +914,8 @@
     :nec 1167,
     :cp7 "4635-518",
     :id #uuid "af6904de-569a-363a-887f-48d0ac8b7369",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/216dc652-de-livracao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
    :geocode
@@ -986,6 +1016,7 @@
    {:address
     "Rua da Serrinha n.º 815, Fracção E; 4575-049 ALPENDURADA",
     :name "Preferência",
+    :href-id #uuid "67ba8117-9072-3d13-90e0-145406143df7",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Preferencia809.aspx",
@@ -993,12 +1024,18 @@
     :nec 1228,
     :cp7 "4575-049",
     :id #uuid "af8fb6e2-9075-3b10-901e-27c8514a0575",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/67ba8117-preferencia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
    :geocode
-   {:cp7 "4575-049",
+   {:id #uuid "af8fb6e2-9075-3b10-901e-27c8514a0575",
+    :address
+    "Rua da Serrinha n.º 815, Fracção E; 4575-049 ALPENDURADA",
+    :address-c
+    "Rua da Serrinha 815, 4575-049, Malhadas de Cima, Marco de Canaveses, Porto",
     :postal-c "4575-049",
-    :x -8.243500016743099,
-    :y 41.098019993443984,
-    :score 100,
-    :c 1}}]]
+    :x -8.242970029005306,
+    :y 41.09970002020694,
+    :score 90.94,
+    :c 4}}]]

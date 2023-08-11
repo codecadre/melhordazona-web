@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª de Moscavide, 14 – 1º Esqº 1885-066 MOSCAVIDE",
   :name "Confiança",
+  :href-id #uuid "4c0e9727-fcef-3843-9a23-fa7a3380ce0d",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Confianca332.aspx",
@@ -94,12 +95,17 @@
   :nec 117,
   :cp7 "1885-066",
   :id #uuid "af36c14a-55ad-3633-911d-dfd37f0deb7c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/4c0e9727-confianca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode
- {:cp7 "1885-066",
-  :postal-c "1885-066",
-  :x -9.103459980852648,
-  :y 38.77966499364919,
-  :score 100,
-  :c 1}}
+ {:id #uuid "af36c14a-55ad-3633-911d-dfd37f0deb7c",
+  :address "Avª de Moscavide, 14 – 1º Esqº 1885-066 MOSCAVIDE",
+  :address-c
+  "Avenida de Moscavide 14, 1885-060, Moscavide, Loures, Lisboa",
+  :postal-c "1885-060",
+  :x -9.101069964981207,
+  :y 38.77598001564667,
+  :score 88.15,
+  :c 2}}

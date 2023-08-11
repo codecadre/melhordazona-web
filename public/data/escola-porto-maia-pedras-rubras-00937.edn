@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Teatro 45 4470-655 MOREIRA",
   :name "Pedras Rubras",
+  :href-id #uuid "21d28290-f1c4-38a5-a21c-7bece38a27ba",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PedrasRubras776.aspx",
@@ -94,6 +95,8 @@
   :nec 937,
   :cp7 "4470-655",
   :id #uuid "33446b7f-dc3c-3de7-b983-3a1d77143afb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/21d28290-pedras-rubras.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode

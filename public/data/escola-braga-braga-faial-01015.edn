@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Padre Manuel Guimarães n.º 163 C 4700-284 Braga",
   :name "Faial",
+  :href-id #uuid "0f536ed4-b2aa-33be-8065-7bf270ae37f1",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Faial442.aspx",
@@ -94,6 +95,8 @@
   :nec 1015,
   :cp7 "4700-284",
   :id #uuid "0bab389e-5570-39d6-8bc9-3500c7b681e2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/0f536ed4-faial.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Estrada de Quelfes nº 69 B r/c 8700-218 QUELFES",
   :name "Auto Quelfes",
+  :href-id #uuid "d93769cd-57e3-3803-8f2e-28ef93fc2df5",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoQuelfes172.aspx",
@@ -94,6 +95,8 @@
   :nec 727,
   :cp7 "8700-218",
   :id #uuid "6fb5395e-8a7d-3d0e-a9cb-d55fda862ec8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/d93769cd-auto-quelfes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
  :geocode

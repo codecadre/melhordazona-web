@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Dr. Antão de Carvalho, 51 5050-224 PESO DA RÉGUA",
   :name "Auto Meireles",
+  :href-id #uuid "3e5b4a02-40c1-32cf-bc60-6a9d6d3f3ef9",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoMeireles165.aspx",
@@ -94,6 +95,8 @@
   :nec 351,
   :cp7 "5050-224",
   :id #uuid "fa30aed6-dac7-360e-b1db-39713713003b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/peso-da-regua/3e5b4a02-auto-meireles.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
  :geocode

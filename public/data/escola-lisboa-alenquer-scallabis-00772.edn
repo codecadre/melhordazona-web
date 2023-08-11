@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Baco, 16 A 2580 -010 ABRIGADA",
   :name "Scallabis",
+  :href-id #uuid "b0f4850a-01b5-30a8-97cd-532825b99cc0",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Scallabis.aspx",
@@ -94,6 +95,8 @@
   :nec 772,
   :cp7 "2580-010",
   :id #uuid "aafde8e1-e3ae-3041-975c-53e1ba6effba",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/alenquer/b0f4850a-scallabis.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
  :geocode

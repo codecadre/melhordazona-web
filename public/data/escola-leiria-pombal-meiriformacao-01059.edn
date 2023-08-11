@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Comércio, Nº 7 B, Frcção B 3105-253 MEIRINHAS PBL",
   :name "Meiriformação",
+  :href-id #uuid "8619528c-17b5-380f-89af-28e5dae87e9e",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Meiriformacao639.aspx",
@@ -94,12 +95,17 @@
   :nec 1059,
   :cp7 "3105-253",
   :id #uuid "c22eef16-e98b-30f8-bd3a-f43e6016f44b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/8619528c-meiriformacao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
  :geocode
- {:cp7 "3105-253",
-  :postal-c "3105-253",
-  :x -8.707700040520962,
-  :y 39.84771500800164,
-  :score 100,
+ {:id #uuid "c22eef16-e98b-30f8-bd3a-f43e6016f44b",
+  :address "Rua do Comércio, Nº 7 B, Frcção B 3105-253 MEIRINHAS PBL",
+  :address-c
+  "Rua do Comércio 7B, 3105-235, Meirinhas de Cima, Pombal, Leiria",
+  :postal-c "3105-235",
+  :x -8.710920032444847,
+  :y 39.84148000359605,
+  :score 93.22,
   :c 1}}

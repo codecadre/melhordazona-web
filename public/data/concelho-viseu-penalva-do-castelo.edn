@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua D. Manuel I r/c Esq 3550-147 PENALVA DO CASTELO",
     :name "S. Cristóvão – Penalva do Castelo",
+    :href-id #uuid "0aed48fe-e4d7-3608-bcf4-eee76123f4ce",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SCristovao%e2%80%93PenalvadoCastelo881.aspx",
@@ -95,6 +96,8 @@
     :nec 501,
     :cp7 "3550-147",
     :id #uuid "c0e9533e-b7b6-3472-a4be-194bb20cd352",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/penalva-do-castelo/0aed48fe-s-cristovao-penalva-do-castelo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Penalva%20de%20Castelo"},
    :geocode

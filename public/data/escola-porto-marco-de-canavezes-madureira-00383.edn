@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Charneca - Rua São Nicolau, 224 4630-293 S. NICOLAU",
   :name "Madureira",
+  :href-id #uuid "8b29a49d-eda7-3fbb-bf81-bf0f60f8726a",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Madureira618.aspx",
@@ -94,6 +95,8 @@
   :nec 383,
   :cp7 "4630-293",
   :id #uuid "e86057b8-75f4-3cdf-8111-7ccfb8411893",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/8b29a49d-madureira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
  :geocode

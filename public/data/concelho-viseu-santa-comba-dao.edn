@@ -89,6 +89,7 @@
    {:address
     "Avª General Humberto Delgado, Nº 8 3440-325 SANTA COMBA DÃO",
     :name "O Emigrante",
+    :href-id #uuid "b3f0c31f-f19e-31fb-a405-4b5d25e2cb95",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OEmigrante731.aspx",
@@ -96,15 +97,21 @@
     :nec 545,
     :cp7 "3440-325",
     :id #uuid "6a9b9558-4563-3e27-9680-365958ffd160",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/santa-comba-dao/b3f0c31f-o-emigrante.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"},
    :geocode
-   {:cp7 "3440-325",
+   {:id #uuid "6a9b9558-4563-3e27-9680-365958ffd160",
+    :address
+    "Avª General Humberto Delgado, Nº 8 3440-325 SANTA COMBA DÃO",
+    :address-c
+    "Avenida General Humberto Delgado 8, 3440-325, Santa Comba Dão, Viseu",
     :postal-c "3440-325",
-    :x -8.12993998086543,
-    :y 40.39968499932422,
-    :score 100,
-    :c 1}}]
+    :x -8.129720039726095,
+    :y 40.39699998237052,
+    :score 92.38,
+    :c 2}}]
  ["novo-rumo-01023"
   {:nec 1023,
    :rates
@@ -196,6 +203,7 @@
    {:address
     "Avª Escola Secundária, Bloco 4-B, R/C Esq 3440-321 SANTA COMBA DÃO",
     :name "Novo Rumo",
+    :href-id #uuid "1010d5b3-d851-386b-8ecb-ea5a2bab5bf7",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovoRumo726.aspx",
@@ -203,12 +211,18 @@
     :nec 1023,
     :cp7 "3440-321",
     :id #uuid "a0c55e09-78cf-3370-a803-29f6facf2308",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/santa-comba-dao/1010d5b3-novo-rumo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Santa%20Comba%20D%C3%A3o"},
    :geocode
-   {:cp7 "3440-321",
+   {:id #uuid "a0c55e09-78cf-3370-a803-29f6facf2308",
+    :address
+    "Avª Escola Secundária, Bloco 4-B, R/C Esq 3440-321 SANTA COMBA DÃO",
+    :address-c
+    "Avenida da Escola Secundária 4, 3440-321, Santa Comba Dão, Viseu",
     :postal-c "3440-321",
-    :x -8.128904983461325,
-    :y 40.408625011522616,
-    :score 100,
+    :x -8.128770034820207,
+    :y 40.40838998295757,
+    :score 93.61,
     :c 1}}]]

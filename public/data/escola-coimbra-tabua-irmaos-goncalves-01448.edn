@@ -18,6 +18,7 @@
  {:address
   "Rua José dos Santos Gonçalves, Edifício Santo António, Loja 18 C, 3420-330 Tábua",
   :name "Irmãos Gonçalves",
+  :href-id #uuid "e761a04b-0281-3dbb-90e5-4e8c58658788",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IrmaosGoncalves.aspx",
@@ -25,6 +26,8 @@
   :nec 1448,
   :cp7 "3420-330",
   :id #uuid "bfb25e49-e4d6-3b23-9c92-9350c0a59e83",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/tabua/e761a04b-irmaos-goncalves.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
  :geocode

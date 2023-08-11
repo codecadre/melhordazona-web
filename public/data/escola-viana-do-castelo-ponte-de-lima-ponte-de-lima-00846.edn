@@ -88,6 +88,7 @@
  {:address
   "Rua Agostinho José Taveira –Edifício Baldrufa Loja P 4990-072 PONTE DE LIMA",
   :name "Ponte de Lima",
+  :href-id #uuid "bea470f7-6163-3a55-91d4-d2e610c811d1",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PontedeLima797.aspx",
@@ -95,12 +96,18 @@
   :nec 846,
   :cp7 "4990-072",
   :id #uuid "23c70346-630d-3458-a0a9-0d632ce803ac",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/bea470f7-ponte-de-lima.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
  :geocode
- {:cp7 "4990-072",
+ {:id #uuid "23c70346-630d-3458-a0a9-0d632ce803ac",
+  :address
+  "Rua Agostinho José Taveira –Edifício Baldrufa Loja P 4990-072 PONTE DE LIMA",
+  :address-c
+  "Rua Agostinho José Taveira, 4990-072, Ponte de Lima, Viana do Castelo",
   :postal-c "4990-072",
-  :x -8.590094981989864,
-  :y 41.76157499279901,
-  :score 100,
-  :c 1}}
+  :x -8.587238445563441,
+  :y 41.76405193578985,
+  :score 88.15,
+  :c 5}}

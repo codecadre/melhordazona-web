@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Pedro de Santarém, Nº 130-1º Esqº 2000-223 SANTARÉM",
   :name "Tomé",
+  :href-id #uuid "cc50d146-91cc-36c7-bc1b-085e09a21fc7",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tome1011.aspx",
@@ -94,6 +95,8 @@
   :nec 93,
   :cp7 "2000-223",
   :id #uuid "5af064a6-9b65-3bdc-9367-ea93f60db69c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/cc50d146-tome.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
  :geocode

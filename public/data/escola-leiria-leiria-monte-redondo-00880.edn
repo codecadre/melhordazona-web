@@ -88,6 +88,7 @@
  {:address
   "Estrada Nacional 109 – Prédio 4 A - Bregeira 2425-603 MONTE REDONDO LRA",
   :name "Monte Redondo",
+  :href-id #uuid "705fa908-c4bc-3d08-bf97-84f1fed31b83",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MonteRedondo672.aspx",
@@ -95,12 +96,17 @@
   :nec 880,
   :cp7 "2425-603",
   :id #uuid "b338f7fa-3d95-335c-826e-b4d79c737a06",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/leiria/705fa908-monte-redondo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
  :geocode
- {:cp7 "2425-603",
-  :postal-c "2425-603",
-  :x -8.835034979896164,
-  :y 39.890819992819246,
-  :score 100,
-  :c 1}}
+ {:id #uuid "b338f7fa-3d95-335c-826e-b4d79c737a06",
+  :address
+  "Estrada Nacional 109 – Prédio 4 A - Bregeira 2425-603 MONTE REDONDO LRA",
+  :address-c "N109, 2425-617, Monte Redondo, Leiria",
+  :postal-c "2425-617",
+  :x -8.830872534638612,
+  :y 39.8962927047759,
+  :score 86.68,
+  :c 14}}

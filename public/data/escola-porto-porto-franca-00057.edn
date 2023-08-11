@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Fernando Tomás, 415-1º 4000-216 PORTO",
   :name "França",
+  :href-id #uuid "e98cbb58-4a3b-30ab-934f-b81fd6fda0ad",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Franca465.aspx",
@@ -94,6 +95,8 @@
   :nec 57,
   :cp7 "4000-216",
   :id #uuid "7b8650fe-2048-30bd-b41b-308cf346d80f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/e98cbb58-franca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

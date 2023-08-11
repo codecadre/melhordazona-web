@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Carlos Seixas nº 163 3030-177 COIMBRA",
   :name "Briosa",
+  :href-id #uuid "51934e55-a889-3227-9e2e-ac05372873f0",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Briosa266.aspx",
@@ -94,6 +95,8 @@
   :nec 1112,
   :cp7 "3030-177",
   :id #uuid "238fb06f-2c49-3a7f-b775-6b3fb88a4fb2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/coimbra/51934e55-briosa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua João XXIII, 209 - 1º 4820-268 FAFE",
   :name "Mário Costa",
+  :href-id #uuid "27b27279-ad7a-385b-b9ff-ed63b427344d",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MarioCosta630.aspx",
@@ -94,6 +95,8 @@
   :nec 505,
   :cp7 "4820-268",
   :id #uuid "5732dbe9-8bda-3c0f-bde6-cfe29fbda381",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/27b27279-mario-costa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
  :geocode

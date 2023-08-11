@@ -88,6 +88,7 @@
  {:address
   "Rua dos Combatentes do Ultramar, 389 4405-318 S. FÉLIX da MARINHA",
   :name "VIP",
+  :href-id #uuid "dc5a9a7a-554f-3a7a-8c64-bf49392ff030",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VIP1073.aspx",
@@ -95,16 +96,17 @@
   :nec 951,
   :cp7 "4405-318",
   :id #uuid "4c1f656b-8ea0-38fb-9cbd-58ba6a6403d8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/dc5a9a7a-vip.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode
- {:id #uuid "4c1f656b-8ea0-38fb-9cbd-58ba6a6403d8",
-  :address
+ {:address
   "Rua dos Combatentes do Ultramar, 389 4405-318 S. FÉLIX da MARINHA",
   :address-c
-  "Rua dos Combatentes de Ultramar 389, 4410-208, São Félix da Marinha, Vila Nova de Gaia, Porto",
+  "Rua dos Combatentes do Ultramar 389, 4410-208, São Félix da Marinha, Vila Nova de Gaia, Porto",
   :postal-c "4410-208",
-  :x -8.629641551147152,
-  :y 41.03948294856618,
-  :score 98.32,
-  :c 2}}
+  :x -8.629650065959,
+  :y 41.039482774488,
+  :score 98.65,
+  :c 1}}

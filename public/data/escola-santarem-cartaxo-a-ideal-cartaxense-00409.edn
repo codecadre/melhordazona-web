@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua José Ribeiro Costa, Nº 91 - 2º 2070-099 CARTAXO",
   :name "Ideal Cartaxense",
+  :href-id #uuid "e4d6c2cb-4c98-34f9-a0dd-28adc8492169",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealCartaxense511.aspx",
@@ -94,6 +95,8 @@
   :nec 409,
   :cp7 "2070-099",
   :id #uuid "d91f4fd6-9558-3300-a6b0-2ab2bba98adc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/cartaxo/e4d6c2cb-ideal-cartaxense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"},
  :geocode

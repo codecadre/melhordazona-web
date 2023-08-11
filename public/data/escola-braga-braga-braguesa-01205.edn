@@ -88,6 +88,7 @@
  {:address
   "Rua Padre António Vieira, Nº 64 R/C 4710-412 S. VICTOR BRG",
   :name "Braguesa",
+  :href-id #uuid "5740e5db-0085-3bf7-9f54-a7db80bac7c3",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Braguesa263.aspx",
@@ -95,6 +96,8 @@
   :nec 1205,
   :cp7 "4710-412",
   :id #uuid "4a5a2c70-12ce-3db8-b713-ffb48afa0755",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/5740e5db-braguesa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

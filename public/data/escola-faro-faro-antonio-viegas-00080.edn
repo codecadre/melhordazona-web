@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua Conselheiro Bivar, 29 8000-255 FARO",
   :name "António Viegas",
+  :href-id #uuid "54542eee-be10-3a40-963e-f9118adfd85d",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AntonioViegas112.aspx",
@@ -80,6 +81,8 @@
   :nec 80,
   :cp7 "8000-255",
   :id #uuid "55d6802b-912e-3f06-8e09-fa2424319988",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/54542eee-antonio-viegas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
  :geocode

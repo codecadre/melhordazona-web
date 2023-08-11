@@ -89,6 +89,7 @@
    {:address
     "Bairro Nossa Senhora de Oliveira, lote 1 R/C 2135-202 SAMORA CORREIA",
     :name "Samorense",
+    :href-id #uuid "26719b45-4df6-38a0-8472-fc7fbe3d0e89",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Samorense913.aspx",
@@ -96,6 +97,8 @@
     :nec 688,
     :cp7 "2135-202",
     :id #uuid "05fadca3-ff5a-3913-91cb-8cafa5df9244",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/benavente/26719b45-samorense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
    :geocode
@@ -196,6 +199,7 @@
    {:address
     "Rua Joaquim Rodrigues Parracho, Lote 25 r/c Dtº 2130-060 BENAVENTE",
     :name "Nossa Senhora da Paz",
+    :href-id #uuid "f64c9ba7-bd59-3308-b5be-84e85f550b57",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NossaSenhoradaPaz696.aspx",
@@ -203,6 +207,8 @@
     :nec 932,
     :cp7 "2130-060",
     :id #uuid "6604871b-f598-373f-a4c8-cf8d86a816ae",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/benavente/f64c9ba7-nossa-senhora-da-paz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
    :geocode
@@ -307,6 +313,7 @@
    {:address
     "Rua dos Alámos, Lote 42 - R/C Dtº 2135 - 003 SAMORA CORREIA",
     :name "Leziria",
+    :href-id #uuid "9040601c-9e51-36a8-8db6-ccdd31530164",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Leziria596.aspx",
@@ -314,15 +321,18 @@
     :nec 1199,
     :cp7 "2135-003",
     :id #uuid "dd8e6f6d-c319-3ab3-8331-93029e586a23",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/benavente/9040601c-leziria.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
    :geocode
    {:id #uuid "dd8e6f6d-c319-3ab3-8331-93029e586a23",
-    :address "Rua dos Alámos, Lote 42 2135-003 SAMORA CORREIA",
+    :address
+    "Rua dos Alámos, Lote 42 - R/C Dtº 2135 - 003 SAMORA CORREIA",
     :address-c
     "Rua dos Álamos, 2135-092, Samora Correia, Benavente, Santarém",
     :postal-c "2135-092",
     :x -8.863726253832608,
     :y 38.93493511730475,
-    :score 92.98,
+    :score 89.61,
     :c 50}}]]

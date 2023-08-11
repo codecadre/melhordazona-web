@@ -89,6 +89,7 @@
    {:address
     "Rua João da Fonseca Achiolle, 27 - 1º 7300-189 PORTALEGRE",
     :name "Portalegrense",
+    :href-id #uuid "31d63b00-c0b0-35e1-abcb-a7ccd8839e1a",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Portalegrense800.aspx",
@@ -96,6 +97,8 @@
     :nec 78,
     :cp7 "7300-189",
     :id #uuid "282cbaa4-d3ba-3964-88f5-3fe7ac119f6d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/portalegre/31d63b00-portalegrense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
    :geocode
@@ -199,6 +202,7 @@
    {:address
     "Rua Manuel Marques Adegas, n.º 20, r/c 7400-293 PONTE DE SOR",
     :name "Ponte de Sor",
+    :href-id #uuid "71f27a86-f475-39ce-a626-ec7420ea8e3a",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PontedeSor798.aspx",
@@ -206,6 +210,8 @@
     :nec 139,
     :cp7 "7400-293",
     :id #uuid "c116607d-165f-380d-b9c3-09ef771c8c43",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/ponte-de-sor/71f27a86-ponte-de-sor.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Ponte%20de%20Sor"},
    :geocode
@@ -309,6 +315,7 @@
    :imt-profile
    {:address "Estrada Nacional - Crato 7430-131 CRATO",
     :name "Crato",
+    :href-id #uuid "76237836-753c-3c7f-b14b-e2f240c11d34",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Crato348.aspx",
@@ -316,6 +323,8 @@
     :nec 248,
     :cp7 "7430-131",
     :id #uuid "328aae9b-a2a8-38db-9ff4-9a3d1a669b0c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/crato/76237836-crato.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Crato"},
    :geocode
@@ -415,6 +424,7 @@
    :imt-profile
    {:address "Rua de Badajoz, 50 – ABC 7370-099 Campo Maior",
     :name "Campo Maior",
+    :href-id #uuid "eec16aef-4187-3d76-b29b-0fa4e14a2ddd",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CampoMaior277.aspx",
@@ -422,6 +432,8 @@
     :nec 268,
     :cp7 "7370-099",
     :id #uuid "f0af7cdf-c99c-3b1c-807e-f2434fcae135",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/campo-maior/eec16aef-campo-maior.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Campo%20Maior"},
    :geocode
@@ -524,6 +536,7 @@
    {:address
     "Tapada do Lago – Zona Industrial - Apt.36 7440-152 ALTER DO CHÃO",
     :name "Bom Sucesso",
+    :href-id #uuid "90c93b37-3986-37fd-96de-d440794b0426",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BomSucesso257.aspx",
@@ -531,8 +544,17 @@
     :nec 283,
     :cp7 "7440-152",
     :id #uuid "59f5a85d-38d9-3b10-b344-90a9f5d6ed5a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/alter-do-chao/90c93b37-bom-sucesso.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Alter%20do%20Ch%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Alter%20do%20Ch%C3%A3o"},
+   :geocode
+   {:cp7 "7440-152",
+    :postal-c "7440-152",
+    :x -7.688180323545,
+    :y 39.23449027782,
+    :score 100,
+    :c 1}}]
  ["sousel-00296"
   {:nec 296,
    :rates
@@ -623,6 +645,7 @@
    :imt-profile
    {:address "Rua de S. Pedro, Nº 8 7470 - 181 SOUSEL",
     :name "Sousel",
+    :href-id #uuid "0db3c7e7-fc84-3195-bafd-0d7004b4e3d9",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sousel985.aspx",
@@ -630,6 +653,8 @@
     :nec 296,
     :cp7 "7470-181",
     :id #uuid "294e0f4b-5044-3a03-91c5-154ee13af7bd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/sousel/0db3c7e7-sousel.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Sousel"},
    :geocode
@@ -731,6 +756,7 @@
    :imt-profile
    {:address "Rua D. Francisco de Portugal, Nº 11 7460-000 FRONTEIRA",
     :name "Fronteira",
+    :href-id #uuid "ec4524d3-9f58-3b28-bd66-2d0cc5f9b06b",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fronteira473.aspx",
@@ -738,6 +764,8 @@
     :nec 319,
     :cp7 "7460-000",
     :id #uuid "5cef4e9e-bd71-3cb2-bdf7-50eb68fb140c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/fronteira/ec4524d3-fronteira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Fronteira"},
    :geocode
@@ -840,7 +868,9 @@
    :imt-profile
    {:address
     "Rua Mestre João Serra, Lote A - Zona Industrial 7300-061 PORTALEGRE",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "SIIIMPLEAMAIA",
+    :href-id #uuid "82d134cc-adaf-3f96-979d-23c6ee7927ea",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SIIIMPLEAMAIA.aspx",
@@ -848,15 +878,21 @@
     :nec 434,
     :cp7 "7300-061",
     :id #uuid "0bf573bf-4604-34d7-9eaa-94b030f7ff4f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/portalegre/82d134cc-siiimpleamaia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
    :geocode
-   {:cp7 "7300-061",
-    :postal-c "7300-061",
-    :x -7.4369600170464025,
-    :y 39.266300019466456,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "0bf573bf-4604-34d7-9eaa-94b030f7ff4f",
+    :address
+    "Rua Mestre João Serra, Lote A - Zona Industrial 7300-061 PORTALEGRE",
+    :address-c
+    "Rua Mestre João Serra, 7300, Bairro dos Assentos, Portalegre",
+    :postal-c "7300",
+    :x -7.436841033061318,
+    :y 39.26639763180583,
+    :score 86.38,
+    :c 2}}]
  ["gaviao-00601"
   {:nec 601,
    :rates
@@ -947,6 +983,7 @@
    :imt-profile
    {:address "Avª José Marcelino lote 4 1º Dtº 6040-100 GAVIÃO",
     :name "Gavião",
+    :href-id #uuid "7afb917f-cfa4-3116-8dc0-35ee158633a7",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Gaviao483.aspx",
@@ -954,6 +991,8 @@
     :nec 601,
     :cp7 "6040-100",
     :id #uuid "a944ca6c-7a38-376f-8c6e-002750f00bf4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/gaviao/7afb917f-gaviao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Gavi%C3%A3o"},
    :geocode
@@ -1056,6 +1095,7 @@
    :imt-profile
    {:address "Rua 1.º de Maio, 81, Loja X, 7300-205 Portalegre",
     :name "Auto Portalegre",
+    :href-id #uuid "21cc3538-5e42-3577-b543-422776fab02c",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoPortalegre170.aspx",
@@ -1063,6 +1103,8 @@
     :nec 633,
     :cp7 "7300-205",
     :id #uuid "02f670ec-6e0e-3d17-98f1-22104019c771",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/portalegre/21cc3538-auto-portalegre.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
    :geocode
@@ -1164,6 +1206,7 @@
    :imt-profile
    {:address "Avª António Sardinha, lote 11 C 7350-091 ELVAS",
     :name "Sobre Rodas",
+    :href-id #uuid "552f2210-c47e-3bdd-bfc7-80cf85715548",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SobreRodas978.aspx",
@@ -1171,6 +1214,8 @@
     :nec 801,
     :cp7 "7350-091",
     :id #uuid "0cdd4f2c-e274-38fb-8a15-b557acc60a34",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/elvas/552f2210-sobre-rodas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Elvas"},
    :geocode
@@ -1273,6 +1318,7 @@
    :imt-profile
    {:address "Rua Alfredo Mirante, n.º 6 R/c Dtº, 7350-154 ELVAS",
     :name "Aqueduto",
+    :href-id #uuid "2cd13885-c9dc-36ab-872b-42725407daf7",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aqueduto.aspx",
@@ -1280,6 +1326,8 @@
     :nec 1330,
     :cp7 "7350-154",
     :id #uuid "1b1a1029-2ccb-3890-88c3-92d0c8ec5637",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/elvas/2cd13885-aqueduto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Elvas"},
    :geocode

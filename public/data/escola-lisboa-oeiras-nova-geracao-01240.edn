@@ -88,6 +88,7 @@
  {:address
   "Rua Marcelino Mesquita, Nº 11, Loja 1-A 2795-134 LINDA-A-VELHA",
   :name "Nova Geração",
+  :href-id #uuid "591f38b6-3cb9-3016-9e53-2eb959d033e6",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaGeracao713.aspx",
@@ -95,6 +96,8 @@
   :nec 1240,
   :cp7 "2795-134",
   :id #uuid "7fc2ddda-4172-3100-81ce-e16d95763083",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/591f38b6-nova-geracao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
  :geocode

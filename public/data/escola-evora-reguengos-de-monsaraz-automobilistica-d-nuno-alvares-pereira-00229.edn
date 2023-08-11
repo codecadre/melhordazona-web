@@ -94,6 +94,7 @@
  {:address
   "Rua Mouzinho de Albuquerque, 32 7200-390 REGUENGOS DE MONSARAZ",
   :name "Automobilística D. Nuno Álvares Pereira",
+  :href-id #uuid "5164b656-b220-3cea-87b7-1d0da6e88718",
   :distrito "Évora",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomobilisticaDNunoAlvaresPereira187.aspx",
@@ -101,6 +102,8 @@
   :nec 229,
   :cp7 "7200-390",
   :id #uuid "c1f6c863-735a-30ad-902d-67e31249e130",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/reguengos-de-monsaraz/5164b656-automobilistica-d-nuno-alvares-pereira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"},
  :geocode

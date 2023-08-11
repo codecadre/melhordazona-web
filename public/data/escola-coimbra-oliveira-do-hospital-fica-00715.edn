@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua António Nobre 16- A 3400-084 OLIVEIRA DO HOSPITAL",
   :name "Fica",
+  :href-id #uuid "3e2143ad-0ab9-3159-8ad2-142310889da2",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fica454.aspx",
@@ -94,6 +95,8 @@
   :nec 715,
   :cp7 "3400-084",
   :id #uuid "881ff11f-5e05-375e-8020-476092082152",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/oliveira-do-hospital/3e2143ad-fica.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Oliveira%20Hospital"},
  :geocode

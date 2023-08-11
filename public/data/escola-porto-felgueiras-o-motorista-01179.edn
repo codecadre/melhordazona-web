@@ -84,6 +84,28 @@
    :r/k "o-motorista-01179",
    :r/total-passed 57.0,
    :r/t-done 22.0}],
- :imt-profile nil,
+ :imt-profile
+ {:address "Praça dos Carvalhinhos n.º 18 4610-112 Felgueiras",
+  :name "O Motorista",
+  :href-id #uuid "33848bc2-c3eb-33b8-9bc0-c2fdf332b437",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OMotorista.aspx",
+  :concelho "Felgueiras",
+  :nec 1179,
+  :cp7 "4610-112",
+  :id #uuid "6ca11c48-7549-3da4-968e-cd6a1cbbf19b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/33848bc2-o-motorista.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
  :obs "license 1179 is 'Montenegrense' in imt.pt",
- :overwrite/notes nil}
+ :overwrite/notes nil,
+ :geocode
+ {:address "Praça dos Carvalhinhos n.º 18 4610-112 Felgueiras",
+  :address-c "Praça dos Carvalhinhos, 4610-112, Felgueiras, Porto",
+  :postal-c "4610-112",
+  :x -8.204111111465,
+  :y 41.369644497306,
+  :score 96.59,
+  :c 2}}

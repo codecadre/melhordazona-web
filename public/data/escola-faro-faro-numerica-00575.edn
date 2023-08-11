@@ -59,6 +59,7 @@
  :imt-profile
  {:address "Rua das Violetas Lote G Loja D 8005-200 Faro",
   :name "Escola de Condução Numérica",
+  :href-id #uuid "f31a00ff-c8dc-34b1-b069-1ae62504db79",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresGambelas548.aspx",
@@ -66,5 +67,16 @@
   :nec 575,
   :cp7 "8005-200",
   :id #uuid "9bf3840d-a43c-302a-b589-051dca5a4e5f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/f31a00ff-escola-de-conducao-numerica.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+ :geocode
+ {:id #uuid "9bf3840d-a43c-302a-b589-051dca5a4e5f",
+  :address "Rua das Violetas Lote G Loja D 8005-200 Faro",
+  :address-c "Rua das Violetas, 8005-408, Gambelas, Faro",
+  :postal-c "8005-408",
+  :x -7.968714195496956,
+  :y 37.042943264927494,
+  :score 88.58,
+  :c 2}}

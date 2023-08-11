@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. José Jardim, nº 22-1º 3080-008 FIGUEIRA DA FOZ",
   :name "Florbela",
+  :href-id #uuid "9b2a39b9-ff0a-3ad2-ab9c-acd325a58c3d",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Florbela461.aspx",
@@ -94,6 +95,8 @@
   :nec 450,
   :cp7 "3080-008",
   :id #uuid "96873bbc-38fe-3e2c-86c0-4659b82833c6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/9b2a39b9-florbela.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
  :geocode

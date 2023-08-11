@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 23 de Julho nº 388 – 1ª A 2810-288 COVA da PIEDADE",
   :name "Instrutejo",
+  :href-id #uuid "e0bab826-0640-30e5-8d5c-f54f92b9e281",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Instrutejo564.aspx",
@@ -94,6 +95,8 @@
   :nec 736,
   :cp7 "2810-288",
   :id #uuid "30ce7b22-7774-37da-859b-7685d33e9e5f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/e0bab826-instrutejo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
  :geocode

@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Praceta Prof. António de Oliveira Nº 4 2490-502 OURÉM",
     :name "Ouriense",
+    :href-id #uuid "812ca4a4-7a35-3d5f-a5ab-9ec1297e9f98",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ouriense757.aspx",
@@ -95,6 +96,8 @@
     :nec 20,
     :cp7 "2490-502",
     :id #uuid "694e8b90-f847-33c1-a144-14a596eb4424",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/812ca4a4-ouriense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode
@@ -180,6 +183,7 @@
    :imt-profile
    {:address "Largo Infante Santo, nº 4-1ºEsq 2000 SANTARÉM",
     :name "Ribatejana",
+    :href-id #uuid "a4575859-0b41-33bf-b6b6-b2c8ad79df1b",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ribatejana847.aspx",
@@ -187,6 +191,8 @@
     :nec 23,
     :cp7 "2000",
     :id #uuid "88ad6878-8beb-31a5-8679-a25d4e888e96",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/a4575859-ribatejana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
    :geocode
@@ -289,6 +295,7 @@
    {:address
     "Largo Movimento das Forças Armadas, Nº 3 2350-754 TORRES NOVAS",
     :name "Torrejana",
+    :href-id #uuid "09656f66-f232-3e4b-8e32-bd28ed297707",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Torrejana1016.aspx",
@@ -296,6 +303,8 @@
     :nec 39,
     :cp7 "2350-754",
     :id #uuid "30589f06-0ea4-36a3-89b6-3a4525381053",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/torres-novas/09656f66-torrejana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Torres%20Novas"},
    :geocode
@@ -395,6 +404,7 @@
    :imt-profile
    {:address "Rua João de Oliveira Casquinho, 25 2300-576 TOMAR",
     :name "Moderna-Tomar",
+    :href-id #uuid "4a83f6c4-284b-3aa6-9407-489f7766d70f",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ModernaTomar660.aspx",
@@ -402,6 +412,8 @@
     :nec 47,
     :cp7 "2300-576",
     :id #uuid "55ff0b2f-2a82-364d-b05e-a9ccd29254e7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/4a83f6c4-moderna-tomar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
    :geocode
@@ -504,6 +516,7 @@
    :imt-profile
    {:address "Rua Pedro de Santarém, Nº 130-1º Esqº 2000-223 SANTARÉM",
     :name "Tomé",
+    :href-id #uuid "cc50d146-91cc-36c7-bc1b-085e09a21fc7",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tome1011.aspx",
@@ -511,6 +524,8 @@
     :nec 93,
     :cp7 "2000-223",
     :id #uuid "5af064a6-9b65-3bdc-9367-ea93f60db69c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/cc50d146-tome.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
    :geocode
@@ -612,6 +627,7 @@
    :imt-profile
    {:address "Rua Almirante Reis, nº 44-1º Esq 2330-099 ENTRONCAMENTO",
     :name "Entroncamento",
+    :href-id #uuid "658865df-4ef9-32d7-8c57-dafd63fff7a5",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Entroncamento407.aspx",
@@ -619,6 +635,8 @@
     :nec 104,
     :cp7 "2330-099",
     :id #uuid "865be790-cae6-306e-9730-d655e4f08662",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/entroncamento/658865df-entroncamento.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"},
    :geocode
@@ -722,6 +740,7 @@
    {:address
     "Tapada do Chafariz, Rua Projectada à Av.25 de Abril,Lt 7 R/C Dtº 2200 ABRANTES",
     :name "Abrantina",
+    :href-id #uuid "70f1d641-6b3c-3fd6-b475-4591832d866b",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Abrantina050.aspx",
@@ -729,19 +748,20 @@
     :nec 107,
     :cp7 "2200",
     :id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/70f1d641-abrantina.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
    :geocode
-   {:y 39.46220999092898,
-    :address "Tapada do Chafariz, Lt 7  2200 ABRANTES",
-    :postal-c "2200-443",
-    :obs "removed some bits of the address. easy to find.",
-    :overwrite true,
-    :c 4,
-    :id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
-    :score 95.15,
-    :address-c "Travessa do Chafariz 7, 2200-443, Abrantes, Santarém",
-    :x -8.200040016416466}}]
+   {:id #uuid "404f2b45-7df8-3ec9-8a6f-e7330f1ebe3f",
+    :address
+    "Tapada do Chafariz, Rua Projectada à Av.25 de Abril,Lt 7 R/C Dtº 2200 ABRANTES",
+    :address-c "Avenida 25 de Abril 7, 2200-299, Abrantes, Santarém",
+    :postal-c "2200-299",
+    :x -8.20039663584211,
+    :y 39.459602627085495,
+    :score 93.16,
+    :c 1}}]
  ["jose-justino-00119"
   {:nec 119,
    :rates
@@ -832,6 +852,7 @@
    :imt-profile
    {:address "Rua Serpa Pinto, nº 3 –1ºDtº 2070-116 CARTAXO",
     :name "José Justino",
+    :href-id #uuid "0f417819-a18c-3ec5-8566-e70f31a70d0c",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JoseJustino580.aspx",
@@ -839,6 +860,8 @@
     :nec 119,
     :cp7 "2070-116",
     :id #uuid "eb22c28c-577a-3596-97ce-fe5c71757611",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/cartaxo/0f417819-jose-justino.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"},
    :geocode
@@ -940,6 +963,7 @@
    :imt-profile
    {:address "Rua Ernesto Alves, 23 – 2º 2040-411 RIO MAIOR",
     :name "Rio Maiorense",
+    :href-id #uuid "bda424e5-ffdf-341b-a025-628cc2ec57fc",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RioMaiorense856.aspx",
@@ -947,6 +971,8 @@
     :nec 144,
     :cp7 "2040-411",
     :id #uuid "3355fa7c-d17d-31be-bb04-c6a06e03c1ed",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/rio-maior/bda424e5-rio-maiorense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
    :geocode
@@ -1048,6 +1074,7 @@
    :imt-profile
    {:address "Avª Heróis do Ultramar nº 16 2230-224 SARDOAL",
     :name "Do Sardoal",
+    :href-id #uuid "1a99792f-8e24-3c03-bb77-ba99c140268d",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DoSardoal392.aspx",
@@ -1055,15 +1082,20 @@
     :nec 178,
     :cp7 "2230-224",
     :id #uuid "1c33ba96-5502-3915-81ec-85fe2ebad6d9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/sardoal/1a99792f-do-sardoal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Sardoal"},
    :geocode
-   {:cp7 "2230-224",
+   {:id #uuid "1c33ba96-5502-3915-81ec-85fe2ebad6d9",
+    :address "Avª Heróis do Ultramar nº 16 2230-224 SARDOAL",
+    :address-c
+    "Avenida Heróis do Ultramar 16, 2230-224, Sardoal, Santarém",
     :postal-c "2230-224",
-    :x -8.159760026335618,
-    :y 39.53742499907381,
-    :score 100,
-    :c 1}}]
+    :x -8.15963464075427,
+    :y 39.537517428105375,
+    :score 88.46,
+    :c 2}}]
  ["santarem-00201"
   {:nec 201,
    :rates
@@ -1155,6 +1187,7 @@
    {:address
     "Avª Marquês de Pombal, Lote 117 - Sº Domingos - Junto à rotunda c/a fonte, 2505-170 SANTARÉM",
     :name "Santarém",
+    :href-id #uuid "528b7f2f-1acd-39a0-a4d4-25b97ede45ab",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Santarem935.aspx",
@@ -1162,6 +1195,8 @@
     :nec 201,
     :cp7 "2505-170",
     :id #uuid "b626d387-0a24-36a7-8471-21946cd2151e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/528b7f2f-santarem.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}]
  ["rossioabrantes-00386"
@@ -1254,6 +1289,7 @@
    :imt-profile
    {:address "Rua General Godinho, Nº19 R/C 2205-055 ABRANTES",
     :name "Rossio-Abrantes",
+    :href-id #uuid "e9de7316-2773-37f6-900d-92c420232e5e",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RossioAbrantes870.aspx",
@@ -1261,6 +1297,8 @@
     :nec 386,
     :cp7 "2205-055",
     :id #uuid "1b318ac7-a406-3623-bbeb-36249e45d175",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/e9de7316-rossio-abrantes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
    :geocode
@@ -1321,6 +1359,7 @@
    :imt-profile
    {:address "Rua Diogo Arruda, 6 r/c Esqº 2300-482 TOMAR",
     :name "Estrela do Nabão",
+    :href-id #uuid "b072415d-13fa-39eb-9972-e3460583ef85",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladoNabao426.aspx",
@@ -1328,6 +1367,8 @@
     :nec 398,
     :cp7 "2300-482",
     :id #uuid "bb3357f8-483e-30ec-ae72-eed6d12fbde9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/b072415d-estrela-do-nabao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
    :geocode
@@ -1429,6 +1470,7 @@
    :imt-profile
    {:address "Rua José Ribeiro Costa, Nº 91 - 2º 2070-099 CARTAXO",
     :name "Ideal Cartaxense",
+    :href-id #uuid "e4d6c2cb-4c98-34f9-a0dd-28adc8492169",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealCartaxense511.aspx",
@@ -1436,6 +1478,8 @@
     :nec 409,
     :cp7 "2070-099",
     :id #uuid "d91f4fd6-9558-3300-a6b0-2ab2bba98adc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/cartaxo/e4d6c2cb-ideal-cartaxense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"},
    :geocode
@@ -1538,6 +1582,7 @@
    :imt-profile
    {:address "Rua 5 de Outubro, 6 –1º C 2100 CORUCHE",
     :name "Andrade",
+    :href-id #uuid "851d71c1-8a7e-3bbf-b1a0-8fcf70b066e6",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Andrade108.aspx",
@@ -1545,6 +1590,8 @@
     :nec 419,
     :cp7 "2100",
     :id #uuid "c0a62e89-0e70-3164-8091-f514c83d622f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/coruche/851d71c1-andrade.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Coruche"},
    :geocode
@@ -1646,6 +1693,7 @@
    :imt-profile
    {:address "Rua José Alves Anastácio, 36-1º 2380 ALCANENA",
     :name "Alcanena",
+    :href-id #uuid "b7dc9082-4f86-38ae-aa32-b1a834db5c1f",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alcanena075.aspx",
@@ -1653,6 +1701,8 @@
     :nec 429,
     :cp7 "2380",
     :id #uuid "f2b71ed1-eb52-3202-8a90-673b56cb804a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/alcanena/b7dc9082-alcanena.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"},
    :geocode
@@ -1755,6 +1805,7 @@
    :imt-profile
    {:address "Rua Silvestre Bernartdo Lima, 16, 2090-144 ALPIARÇA",
     :name "Alpiarça",
+    :href-id #uuid "1e953bfb-024d-37be-90fc-7161f63cb5e9",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alpiarca092.aspx",
@@ -1762,6 +1813,8 @@
     :nec 435,
     :cp7 "2090-144",
     :id #uuid "d0fcba1f-c5ba-3766-bbcc-acd6179941f0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/alpiarca/1e953bfb-alpiarca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"},
    :geocode
@@ -1864,6 +1917,7 @@
    :imt-profile
    {:address "Urb. Quinta do Adro 2240 FERREIRA DO ZÊZERE",
     :name "Ferreira do Zêzere",
+    :href-id #uuid "c9933531-6c61-36ee-8703-0c8f19de82b0",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FerreiradoZezere451.aspx",
@@ -1871,6 +1925,8 @@
     :nec 437,
     :cp7 "2240",
     :id #uuid "6e2ecea2-0665-351a-b75f-b60369f7b8c8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ferreira-do-zezere/c9933531-ferreira-do-zezere.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Ferreira%20do%20Z%C3%AAzere"}}]
  ["chamusca-00448"
@@ -1963,15 +2019,18 @@
    :imt-profile
    {:address "Trav. do Barão de S. Cosme,nº 7 2000-223 SANTARÉM",
     :name "Chamusca",
+    :href-id #uuid "8ef87a9a-8bd1-3a5c-a9e3-5031109418fe",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Chamusca307.aspx",
-    :concelho "Chamusca",
+    :concelho "Santarém",
     :nec 448,
     :cp7 "2000-223",
     :id #uuid "273a3b27-8e5c-3bcc-be10-5c21584f7cce",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/8ef87a9a-chamusca.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Chamusca"},
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
    :geocode
    {:cp7 "2000-223",
     :postal-c "2000-223",
@@ -2055,6 +2114,7 @@
    :imt-profile
    {:address "Rua Painel das Almas, nº 3-Minde 2380 ALCANENA",
     :name "Mindense",
+    :href-id #uuid "a561bb03-3184-3a73-9b2c-eca073ec2888",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mindense648.aspx",
@@ -2062,6 +2122,8 @@
     :nec 566,
     :cp7 "2380",
     :id #uuid "c96e9043-0c0b-3693-9848-39bab252f26f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/alcanena/a561bb03-mindense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"},
    :geocode
@@ -2164,6 +2226,7 @@
    :imt-profile
    {:address "Avª Beato Nuno, Nº 111 e 113 2495 FÁTIMA",
     :name "Fátima",
+    :href-id #uuid "15f43af0-5452-3d01-856d-4dfe08fbcc2a",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fatima446.aspx",
@@ -2171,18 +2234,10 @@
     :nec 613,
     :cp7 "2495",
     :id #uuid "3b34efb2-a4a9-3d68-8cf3-7911800244d4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/15f43af0-fatima.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
-   :geocode
-   {:id #uuid "3b34efb2-a4a9-3d68-8cf3-7911800244d4",
-    :address "Avenida Beato Nuno, N 111 2495 FÁTIMA",
-    :address-c
-    "Avenida Beato Nuno 111, 2495-304, Fátima, Ourém, Santarém",
-    :postal-c "2495-304",
-    :x -8.665370004561424,
-    :y 39.630239992230315,
-    :score 100,
-    :c 1}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}]
  ["jose-relvas-00625"
   {:nec 625,
    :rates
@@ -2232,6 +2287,7 @@
    {:address
     "Rua de Guilherme Nunes Godinho, Nº 372, Loja 3 2080 ALPIARÇA",
     :name "José Relvas",
+    :href-id #uuid "4272c60f-c4ea-38cf-be5c-b78046dd64fd",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JoseRelvas582.aspx",
@@ -2239,6 +2295,8 @@
     :nec 625,
     :cp7 "2080",
     :id #uuid "600f2917-3883-3dfd-8b0e-ea8ed552f378",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/alpiarca/4272c60f-jose-relvas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"},
    :geocode
@@ -2342,6 +2400,7 @@
    :imt-profile
    {:address "Rua Marquês de Pombal, Nº30 2120 SALVATERRA DE MAGOS",
     :name "Conde de Marialva",
+    :href-id #uuid "7d884f32-6174-32c4-a5fb-b7fb0075aec6",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CondedeMarialva328.aspx",
@@ -2349,6 +2408,8 @@
     :nec 629,
     :cp7 "2120",
     :id #uuid "7e587d06-78ce-3047-b758-cdc5879a0605",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/salvaterra-de-magos/7d884f32-conde-de-marialva.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Salvaterra%20Magos"},
    :geocode
@@ -2451,6 +2512,7 @@
    :imt-profile
    {:address "Rua do Comércio, nº 18 a 24 2100-330 COUÇO",
     :name "Sorraia",
+    :href-id #uuid "3b87fbba-a1d7-3771-b1cc-58a8bea09d14",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sorraia982.aspx",
@@ -2458,6 +2520,8 @@
     :nec 641,
     :cp7 "2100-330",
     :id #uuid "45d544f2-dcef-33e9-a41f-48e3eb68bcef",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/coruche/3b87fbba-sorraia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Coruche"},
    :geocode
@@ -2561,6 +2625,7 @@
    {:address
     "Rua da Junta de Freguesia - Shopping Parque, Loja 14 2330 -114 ENTRONCAMENTO",
     :name "Carmona",
+    :href-id #uuid "90bcc810-7c44-35f5-bd36-5fd02fb641ed",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carmona287.aspx",
@@ -2568,15 +2633,21 @@
     :nec 681,
     :cp7 "2330-114",
     :id #uuid "e274c5a9-3b8a-30be-bcc3-706b44c8186d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/entroncamento/90bcc810-carmona.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"},
    :geocode
-   {:cp7 "2330-114",
+   {:id #uuid "e274c5a9-3b8a-30be-bcc3-706b44c8186d",
+    :address
+    "Rua da Junta de Freguesia - Shopping Parque, Loja 14 2330 -114 ENTRONCAMENTO",
+    :address-c
+    "Rua da Junta de Freguesia, 2330-114, Entroncamento, Santarém",
     :postal-c "2330-114",
-    :x -8.467439994433647,
-    :y 39.46471001927961,
-    :score 100,
-    :c 1}}]
+    :x -8.46719786906745,
+    :y 39.464600460856424,
+    :score 88.52,
+    :c 2}}]
  ["samorense-00688"
   {:nec 688,
    :rates
@@ -2668,6 +2739,7 @@
    {:address
     "Bairro Nossa Senhora de Oliveira, lote 1 R/C 2135-202 SAMORA CORREIA",
     :name "Samorense",
+    :href-id #uuid "26719b45-4df6-38a0-8472-fc7fbe3d0e89",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Samorense913.aspx",
@@ -2675,6 +2747,8 @@
     :nec 688,
     :cp7 "2135-202",
     :id #uuid "05fadca3-ff5a-3913-91cb-8cafa5df9244",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/benavente/26719b45-samorense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
    :geocode
@@ -2773,27 +2847,26 @@
      :r/t-done 193.0}],
    :imt-profile
    {:address
-    "Rua Dr. Júlio Constantino nº 75 ED Primitivo 2495-447 FÁTIMA",
+    "Rua Dr. Júlio Constantino, Edificio Primitivo - N.º 73 E C/v -1 Nº 1 - 2495-447 Fátima",
     :name "Destinus",
+    :href-id #uuid "ac9d50ed-b615-3218-897d-b63491dfff65",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Destinus383.aspx",
     :concelho "Ourém",
     :nec 857,
     :cp7 "2495-447",
-    :id #uuid "8c8b1589-e57b-3487-8d57-e65225a6d008",
+    :id #uuid "194b7c17-988f-3c00-a052-9a10b66a7a6d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/ac9d50ed-destinus.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode
-   {:id #uuid "8c8b1589-e57b-3487-8d57-e65225a6d008",
-    :address
-    "Rua Dr. Júlio Constantino nº 75 ED Primitivo 2495-447 FÁTIMA",
-    :address-c
-    "Rua Doutor Júlio Ferreira Constantino 75, 2495-456, Fátima, Ourém, Santarém",
-    :postal-c "2495-456",
-    :x -8.677659970092435,
-    :y 39.6359699869696,
-    :score 95.06,
+   {:cp7 "2495-447",
+    :postal-c "2495-447",
+    :x -8.679640027079557,
+    :y 39.6344050018277,
+    :score 100,
     :c 1}}]
  ["jorge-justino-almeirim-00904"
   {:nec 904,
@@ -2885,6 +2958,7 @@
    :imt-profile
    {:address "Avª 25 de Abril, r/c, Loja 2 2080 -012 ALMEIRIM",
     :name "Jorge Justino-Almeirim",
+    :href-id #uuid "35015644-3144-3ab2-a516-bb46476ae9e1",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JorgeJustinoAlmeirim578.aspx",
@@ -2892,15 +2966,19 @@
     :nec 904,
     :cp7 "2080-012",
     :id #uuid "5eb2ffa3-b397-3680-b310-9a8ac057c230",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/almeirim/35015644-jorge-justino-almeirim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Almeirim"},
    :geocode
-   {:cp7 "2080-012",
+   {:id #uuid "5eb2ffa3-b397-3680-b310-9a8ac057c230",
+    :address "Avª 25 de Abril, r/c, Loja 2 2080 -012 ALMEIRIM",
+    :address-c "Avenida 25 de Abril, 2080-012, Almeirim, Santarém",
     :postal-c "2080-012",
-    :x -8.621619990384971,
-    :y 39.206979991498855,
-    :score 100,
-    :c 1}}]
+    :x -8.62027599677257,
+    :y 39.20790154427707,
+    :score 92.79,
+    :c 6}}]
  ["sao-bernardo-00925"
   {:nec 925,
    :rates
@@ -2992,6 +3070,7 @@
    {:address
     "Rua Dr. José Marques – Edifício Arrábida 2000 r/c Esqº 2530-565 TORRES NOVAS",
     :name "São Bernardo",
+    :href-id #uuid "f05a3829-8f1d-3c9b-a81c-f50e417ae664",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SaoBernardo946.aspx",
@@ -2999,19 +3078,10 @@
     :nec 925,
     :cp7 "2530-565",
     :id #uuid "a04be5b6-dded-3f24-bddd-2de2cfbcc539",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/torres-novas/f05a3829-sao-bernardo.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Torres%20Novas"},
-   :geocode
-   {:id #uuid "a04be5b6-dded-3f24-bddd-2de2cfbcc539",
-    :address
-    "Rua Dr. José Marques – Edifício Arrábida 2530-565 TORRES NOVAS",
-    :address-c
-    "Rua Dr. José Marques, 2350-565, Torres Novas, Santarém",
-    :postal-c "2350-565",
-    :x -8.549153278934792,
-    :y 39.475732677000444,
-    :score 83.9,
-    :c 4}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Torres%20Novas"}}]
  ["esco-2000-00928"
   {:nec 928,
    :rates
@@ -3102,6 +3172,7 @@
    :imt-profile
    {:address "Rua Francisco Sá Carneiro nº 60 2490-548 OURÉM",
     :name "Esco 2000",
+    :href-id #uuid "aabde627-6b2d-30a6-b18e-0a15f317eda3",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Esco2000410.aspx",
@@ -3109,6 +3180,8 @@
     :nec 928,
     :cp7 "2490-548",
     :id #uuid "ae4f5c7f-781c-3ee5-aa00-6d7b2e96f26c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/aabde627-esco-2000.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode
@@ -3212,6 +3285,7 @@
    {:address
     "Rua Joaquim Rodrigues Parracho, Lote 25 r/c Dtº 2130-060 BENAVENTE",
     :name "Nossa Senhora da Paz",
+    :href-id #uuid "f64c9ba7-bd59-3308-b5be-84e85f550b57",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NossaSenhoradaPaz696.aspx",
@@ -3219,6 +3293,8 @@
     :nec 932,
     :cp7 "2130-060",
     :id #uuid "6604871b-f598-373f-a4c8-cf8d86a816ae",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/benavente/f64c9ba7-nossa-senhora-da-paz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
    :geocode
@@ -3266,6 +3342,7 @@
    :imt-profile
    {:address "Rua do Comércio nº 9 A 2025-031 ALCANEDE",
     :name "Ideal Alcanedense",
+    :href-id #uuid "2d6c53dd-7f4b-313a-954d-4bff6552c57e",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealAlcanedense510.aspx",
@@ -3273,6 +3350,8 @@
     :nec 949,
     :cp7 "2025-031",
     :id #uuid "b24bccbc-3fc4-3a53-87d0-0469765aa6fc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/2d6c53dd-ideal-alcanedense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
    :geocode
@@ -3375,6 +3454,7 @@
    {:address
     "Urbanização Pá da Ribeira, Lote 10, R/C Esqº 2040-277 RIO MAIOR",
     :name "Via Maior",
+    :href-id #uuid "1aba788c-6294-38cb-833c-804392f7da65",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaMaior1050.aspx",
@@ -3382,6 +3462,8 @@
     :nec 1061,
     :cp7 "2040-277",
     :id #uuid "612d29f6-2caa-3280-8e4b-747eb1f7384a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/rio-maior/1aba788c-via-maior.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
    :geocode
@@ -3481,6 +3563,7 @@
    :imt-profile
    {:address "Praceta João Caetano Brás n º 9 2000 SANTARÉM",
     :name "S. Domingos",
+    :href-id #uuid "765b6421-425e-35c2-9f50-798220c0bcc3",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SDomingos883.aspx",
@@ -3488,8 +3571,19 @@
     :nec 1085,
     :cp7 "2000",
     :id #uuid "08527b9d-2f2d-3e71-b7a2-76263ff020da",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/765b6421-s-domingos.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+   :geocode
+   {:address "Praceta João Caetano Brás n º 9 2000 SANTARÉM",
+    :address-c
+    "Praceta João Caetano Brás, 2005, São Domingos, Santarém",
+    :postal-c "2005",
+    :x -8.698856006109,
+    :y 39.238214000313,
+    :score 95.41,
+    :c 1}}]
  ["caxariense-01089"
   {:nec 1089,
    :rates
@@ -3580,6 +3674,7 @@
    :imt-profile
    {:address "Avª 21 de Junho nº 32 r/c Dtº 2435-021 CAXARIAS",
     :name "Caxariense",
+    :href-id #uuid "52edf8fb-67bc-32d8-b21f-9a7d113e6206",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Caxariense297.aspx",
@@ -3587,15 +3682,20 @@
     :nec 1089,
     :cp7 "2435-021",
     :id #uuid "00204d1c-89d3-33ba-a239-ef3ef5790726",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/52edf8fb-caxariense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode
-   {:cp7 "2435-021",
-    :postal-c "2435-021",
-    :x -8.540564975021681,
-    :y 39.69680500202662,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "00204d1c-89d3-33ba-a239-ef3ef5790726",
+    :address "Avª 21 de Junho nº 32 r/c Dtº 2435-021 CAXARIAS",
+    :address-c
+    "Avenida 21 de Junho 32, 2435-087, Carvoeira, Ourém, Santarém",
+    :postal-c "2435-087",
+    :x -8.542159967376932,
+    :y 39.719480019863454,
+    :score 94.87,
+    :c 4}}]
  ["carreira-01108"
   {:nec 1108,
    :rates
@@ -3687,6 +3787,7 @@
    {:address
     "Rua Alfredo da Maia Pereira nº 6 r/c Esqº 2300-449 TOMAR",
     :name "Carreira",
+    :href-id #uuid "5e070fbc-892b-30ca-a726-72d67514fbab",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carreira289.aspx",
@@ -3694,6 +3795,8 @@
     :nec 1108,
     :cp7 "2300-449",
     :id #uuid "1fa8652b-71ed-307d-8605-c7d6e888ddb3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/5e070fbc-carreira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
    :geocode
@@ -3798,6 +3901,7 @@
    {:address
     "Rua Cidade Parthenay, Bloco E r/c Loja 7 2200-238 ABRANTES",
     :name "Traquina",
+    :href-id #uuid "ff582301-0eb1-34b1-a7ed-5996bb4fab43",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Traquina1018.aspx",
@@ -3805,6 +3909,8 @@
     :nec 1120,
     :cp7 "2200-238",
     :id #uuid "a104c4aa-f646-35f2-a16f-5ff61a3eddf6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/ff582301-traquina.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
    :geocode
@@ -3905,6 +4011,7 @@
    {:address
     "Estrada Principal de Fátima (Edifício Fátima) Loja 2 R/C 2495-552 FÁTIMA",
     :name "Fatimense",
+    :href-id #uuid "ee9e36af-1135-3124-93e5-ae2523230ad8",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fatimense447.aspx",
@@ -3912,6 +4019,8 @@
     :nec 1158,
     :cp7 "2495-552",
     :id #uuid "b3e3d8d3-fe3b-3e49-ae9a-5d7a8f981703",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/ee9e36af-fatimense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode
@@ -4012,6 +4121,7 @@
    {:address
     "Av. António Farinha Pereira - Edificio Mamade, R/C B ; 2200-024 Abrantes",
     :name "Cidade Florida",
+    :href-id #uuid "7989ee26-2029-3d71-894f-2dd2f929b4f8",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadeFlorida312.aspx",
@@ -4019,15 +4129,248 @@
     :nec 1161,
     :cp7 "2200-024",
     :id #uuid "fac00a1d-c056-35fc-a008-4e7016337f34",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/7989ee26-cidade-florida.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
    :geocode
-   {:cp7 "2200-024",
+   {:id #uuid "fac00a1d-c056-35fc-a008-4e7016337f34",
+    :address
+    "Av. António Farinha Pereira - Edificio Mamade, R/C B ; 2200-024 Abrantes",
+    :address-c
+    "Avenida António Farinha Pereira, 2200-024, Abrantes, Santarém",
     :postal-c "2200-024",
-    :x -8.18648999938111,
-    :y 39.47997501561417,
-    :score 100,
+    :x -8.18669925107517,
+    :y 39.48233325063699,
+    :score 89.18,
+    :c 2}}]
+ ["do-juncal-01162"
+  {:nec 1162,
+   :rates
+   [{:r/nec 1162,
+     :r/level-0 "2015",
+     :r/d-scheduled 144,
+     :r/t-rate 0.7041,
+     :r/total-rate 0.6625,
+     :r/d-done 142,
+     :r/total-scheduled 242,
+     :r/name-raw "Escola De Condução Do Juncal",
+     :r/total-done 240,
+     :r/d-rate 0.6338,
+     :r/t-scheduled 98.0,
+     :r/k "do-juncal-01162",
+     :r/total-passed 159.0,
+     :r/t-done 98.0}
+    {:r/nec 1162,
+     :r/level-0 "2016",
+     :r/d-scheduled 105,
+     :r/t-rate 0.6386,
+     :r/total-rate 0.6223,
+     :r/d-done 105,
+     :r/total-scheduled 188,
+     :r/name-raw "Escola De Condução Do Juncal",
+     :r/total-done 188,
+     :r/d-rate 0.6095,
+     :r/t-scheduled 83.0,
+     :r/k "do-juncal-01162",
+     :r/total-passed 117.0,
+     :r/t-done 83.0}
+    {:r/nec 1162,
+     :r/level-0 "2017",
+     :r/d-scheduled 125,
+     :r/t-rate 0.5897,
+     :r/total-rate 0.6058,
+     :r/d-done 124,
+     :r/total-scheduled 243,
+     :r/name-raw "Escola De Condução Do Juncal",
+     :r/total-done 241,
+     :r/d-rate 0.621,
+     :r/t-scheduled 118.0,
+     :r/k "do-juncal-01162",
+     :r/total-passed 146.0,
+     :r/t-done 117.0}
+    {:r/nec 1162,
+     :r/level-0 "2018",
+     :r/d-scheduled 121,
+     :r/t-rate 0.7794,
+     :r/total-rate 0.6952,
+     :r/d-done 119,
+     :r/total-scheduled 189,
+     :r/name-raw "Escola De Condução Do Juncal",
+     :r/total-done 187,
+     :r/d-rate 0.6471,
+     :r/t-scheduled 68.0,
+     :r/k "do-juncal-01162",
+     :r/total-passed 130.0,
+     :r/t-done 68.0}
+    {:r/nec 1162,
+     :r/level-0 "2019",
+     :r/d-scheduled 51,
+     :r/t-rate 0.6389,
+     :r/total-rate 0.6667,
+     :r/d-done 51,
+     :r/total-scheduled 88,
+     :r/name-raw "ESCOLA DE CONDUÇÃO DO JUNCAL",
+     :r/total-done 87,
+     :r/d-rate 0.6863,
+     :r/t-scheduled 37.0,
+     :r/k "do-juncal-01162",
+     :r/total-passed 58.0,
+     :r/t-done 36.0}
+    {:r/nec 1162,
+     :r/level-0 "2020",
+     :r/d-scheduled 1,
+     :r/t-rate 0.0,
+     :r/total-rate 0.5,
+     :r/d-done 1,
+     :r/total-scheduled 2,
+     :r/name-raw "ESCOLA DE CONDUÇÃO DO JUNCAL",
+     :r/total-done 2,
+     :r/d-rate 1.0,
+     :r/t-scheduled 1.0,
+     :r/k "do-juncal-01162",
+     :r/total-passed 1.0,
+     :r/t-done 1.0}],
+   :imt-profile
+   {:address "Rua de Alpiarça Nº 45 - R/c 2080-091 Almeirim",
+    :name "Juncal",
+    :href-id #uuid "1bb04767-6002-3413-a5ed-479d9e209c0e",
+    :distrito "Santarém",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaSerra360.aspx",
+    :concelho "Almeirim",
+    :nec 1162,
+    :cp7 "2080-091",
+    :id #uuid "17bc7a38-f908-31fc-9991-8f7e7a54448c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/almeirim/1bb04767-juncal.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Almeirim"},
+   :obs "license 1162 is 'Da Serra' in imt.pt",
+   :overwrite/notes nil,
+   :geocode
+   {:address "Rua de Alpiarça Nº 45 - R/c 2080-091 Almeirim",
+    :address-c "Rua de Alpiarça 45, 2080-091, Almeirim, Santarém",
+    :postal-c "2080-091",
+    :x -8.624519961246,
+    :y 39.213080005354,
+    :score 97.84,
     :c 1}}]
+ ["macao-01171"
+  {:nec 1171,
+   :rates
+   [{:r/nec 1171,
+     :r/level-0 "2015",
+     :r/d-scheduled 64,
+     :r/t-rate 0.7581,
+     :r/total-rate 0.7857,
+     :r/d-done 64,
+     :r/total-scheduled 127,
+     :r/name-raw "Escola De Condução Mação",
+     :r/total-done 126,
+     :r/d-rate 0.8125,
+     :r/t-scheduled 63.0,
+     :r/k "macao-01171",
+     :r/total-passed 99.0,
+     :r/t-done 62.0}
+    {:r/nec 1171,
+     :r/level-0 "2016",
+     :r/d-scheduled 68,
+     :r/t-rate 0.7458,
+     :r/total-rate 0.685,
+     :r/d-done 68,
+     :r/total-scheduled 127,
+     :r/name-raw "Escola De Condução Mação",
+     :r/total-done 127,
+     :r/d-rate 0.6324,
+     :r/t-scheduled 59.0,
+     :r/k "macao-01171",
+     :r/total-passed 87.0,
+     :r/t-done 59.0}
+    {:r/nec 1171,
+     :r/level-0 "2017",
+     :r/d-scheduled 76,
+     :r/t-rate 0.7308,
+     :r/total-rate 0.7266,
+     :r/d-done 76,
+     :r/total-scheduled 131,
+     :r/name-raw "Escola De Condução Mação",
+     :r/total-done 128,
+     :r/d-rate 0.7237,
+     :r/t-scheduled 55.0,
+     :r/k "macao-01171",
+     :r/total-passed 93.0,
+     :r/t-done 52.0}
+    {:r/nec 1171,
+     :r/level-0 "2018",
+     :r/d-scheduled 57,
+     :r/t-rate 0.7193,
+     :r/total-rate 0.7257,
+     :r/d-done 56,
+     :r/total-scheduled 114,
+     :r/name-raw "Escola De Condução Mação",
+     :r/total-done 113,
+     :r/d-rate 0.7321,
+     :r/t-scheduled 57.0,
+     :r/k "macao-01171",
+     :r/total-passed 82.0,
+     :r/t-done 57.0}
+    {:r/nec 1171,
+     :r/level-0 "2019",
+     :r/d-scheduled 64,
+     :r/t-rate 0.6167,
+     :r/total-rate 0.6885,
+     :r/d-done 62,
+     :r/total-scheduled 126,
+     :r/name-raw "ESCOLA DE CONDUÇÃO MAÇÃO",
+     :r/total-done 122,
+     :r/d-rate 0.7581,
+     :r/t-scheduled 62.0,
+     :r/k "macao-01171",
+     :r/total-passed 84.0,
+     :r/t-done 60.0}
+    {:r/nec 1171,
+     :r/level-0 "2020",
+     :r/d-scheduled 37,
+     :r/t-rate 0.5893,
+     :r/total-rate 0.6774,
+     :r/d-done 37,
+     :r/total-scheduled 104,
+     :r/name-raw "ESCOLA DE CONDUÇÃO MAÇÃO",
+     :r/total-done 93,
+     :r/d-rate 0.8108,
+     :r/t-scheduled 67.0,
+     :r/k "macao-01171",
+     :r/total-passed 63.0,
+     :r/t-done 56.0}],
+   :imt-profile
+   {:address
+    "Rua Tenente Coronel Francisco Pedro Curado 5B, 6120-755 Mação",
+    :name "Mação",
+    :href-id #uuid "48b6f24e-7a08-3a71-adc2-3ffceb330cc4",
+    :distrito "Santarém",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Abranjovem049.aspx",
+    :concelho "Mação",
+    :nec 1171,
+    :cp7 "6120-755",
+    :id #uuid "34232526-f88a-3ad2-add4-c0d2a1f385e6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/macao/48b6f24e-macao.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Ma%C3%A7%C3%A3o"},
+   :obs "duplicate license 1171 is 'Abranjovem'",
+   :overwrite/notes nil,
+   :geocode
+   {:address
+    "Rua Tenente Coronel Francisco Pedro Curado 5B, 6120-755 Mação",
+    :address-c
+    "Rua Ten. Cor. Francisco Pedro Curado, 6120-755, Mação, Santarém",
+    :postal-c "6120-755",
+    :x -7.996505172177,
+    :y 39.55757005155,
+    :score 98.63,
+    :c 3}}]
  ["todos-os-santos-01185"
   {:nec 1185,
    :rates
@@ -4118,6 +4461,7 @@
    :imt-profile
    {:address "Rua José Ribeiro da Costa, Nº 241-1º 2070-084 CARTAXO",
     :name "Todos os Santos",
+    :href-id #uuid "3d22127d-a0a3-31bb-bae0-8c60cac362ec",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TodososSantos1009.aspx",
@@ -4125,6 +4469,8 @@
     :nec 1185,
     :cp7 "2070-084",
     :id #uuid "5e6179f1-2529-3304-9c1a-09c5a8d64b0e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/cartaxo/3d22127d-todos-os-santos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"},
    :geocode
@@ -4228,6 +4574,7 @@
    {:address
     "Rua dos Alámos, Lote 42 - R/C Dtº 2135 - 003 SAMORA CORREIA",
     :name "Leziria",
+    :href-id #uuid "9040601c-9e51-36a8-8db6-ccdd31530164",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Leziria596.aspx",
@@ -4235,17 +4582,20 @@
     :nec 1199,
     :cp7 "2135-003",
     :id #uuid "dd8e6f6d-c319-3ab3-8331-93029e586a23",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/benavente/9040601c-leziria.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
    :geocode
    {:id #uuid "dd8e6f6d-c319-3ab3-8331-93029e586a23",
-    :address "Rua dos Alámos, Lote 42 2135-003 SAMORA CORREIA",
+    :address
+    "Rua dos Alámos, Lote 42 - R/C Dtº 2135 - 003 SAMORA CORREIA",
     :address-c
     "Rua dos Álamos, 2135-092, Samora Correia, Benavente, Santarém",
     :postal-c "2135-092",
     :x -8.863726253832608,
     :y 38.93493511730475,
-    :score 92.98,
+    :score 89.61,
     :c 50}}]
  ["porto-alto-01231"
   {:nec 1231,
@@ -4338,6 +4688,7 @@
    {:address
     "Praça da Comunidade Europeia, Nº 16 Cave, Lote 78 2330-134 ENTRONCAMENTO",
     :name "Porto Alto",
+    :href-id #uuid "8d30fa18-9de8-3415-90fb-5f76fbf55df8",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PortoAlto804.aspx",
@@ -4345,6 +4696,8 @@
     :nec 1231,
     :cp7 "2330-134",
     :id #uuid "749f27ba-a394-3ec1-8c43-24fc347744e0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/entroncamento/8d30fa18-porto-alto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"},
    :geocode
@@ -4420,6 +4773,7 @@
    :imt-profile
    {:address "Rua das Taipas, n.º 9, 2040-339 RIO MAIOR",
     :name "Torre da Marinha",
+    :href-id #uuid "15deeb2f-41af-3953-95c0-8714729a616f",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TorredaMarinha.aspx",
@@ -4427,15 +4781,19 @@
     :nec 1324,
     :cp7 "2040-339",
     :id #uuid "91e490de-9142-3b4f-96cc-b8ead2d74280",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/rio-maior/15deeb2f-torre-da-marinha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
    :geocode
-   {:cp7 "2040-339",
-    :postal-c "2040-339",
-    :x -8.938219979842302,
-    :y 39.33361998728179,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "91e490de-9142-3b4f-96cc-b8ead2d74280",
+    :address "Rua das Taipas, n.º 9, 2040-339 RIO MAIOR",
+    :address-c "Rua das Taipas, 2040-335, Rio Maior, Santarém",
+    :postal-c "2040-335",
+    :x -8.93829270910901,
+    :y 39.33320034372079,
+    :score 94.98,
+    :c 2}}]
  ["nova-de-tomar-01349"
   {:nec 1349,
    :rates
@@ -4470,6 +4828,7 @@
    :imt-profile
    {:address "Av. General Norton de Matos, n.º 30-32 r/c Esq. Tomar",
     :name "Nova de Tomar",
+    :href-id #uuid "c62b6c3b-34b8-3e86-a140-3760d5a59bd5",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeTomar.aspx",
@@ -4477,6 +4836,8 @@
     :nec 1349,
     :cp7 nil,
     :id #uuid "b780e95a-4c4a-3cb6-89c0-287311e007ac",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/c62b6c3b-nova-de-tomar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"}}]
  ["roda-segura-01359"
@@ -4554,22 +4915,25 @@
      :r/t-done 156.0}],
    :imt-profile
    {:address
-    "Av. Prof Dr. Veríssimo Serrão, n.º 16 (ex lote 8) Loja 3 2005-172 Santarém",
+    "Av. Prof. Drº Francisco da Luz Rebelo Gonçalves, Nº 7 -Traseira Loja -2005-173 Santarém",
     :name "Roda Segura",
+    :href-id #uuid "226216d5-a661-337b-a63c-0dc52563a52a",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RodaSegura.aspx",
     :concelho "Santarém",
     :nec 1359,
-    :cp7 "2005-172",
-    :id #uuid "91935f13-d068-3c26-98e4-54db1f0d4a43",
+    :cp7 "2005-173",
+    :id #uuid "6d760467-29bf-3b3a-9138-e5c1bbb9da77",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/226216d5-roda-segura.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
    :geocode
-   {:cp7 "2005-172",
-    :postal-c "2005-172",
-    :x -8.692710012520052,
-    :y 39.24203499650679,
+   {:cp7 "2005-173",
+    :postal-c "2005-173",
+    :x -8.69130503791,
+    :y 39.242054987346,
     :score 100,
     :c 1}}]
  ["gato-preto-01360"
@@ -4646,26 +5010,29 @@
      :r/total-passed 254.0,
      :r/t-done 203.0}],
    :imt-profile
-   {:address "Largo do Gato Preto, n.º2, 2040-212 RIO MAIOR",
+   {:address "Av. Dr. João Afonso Calado da Maia, nº 50 - B Rio Maior",
     :name "Gato Preto",
+    :href-id #uuid "de35aa2c-26da-3048-aa00-1759463c5f49",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeCondu%c3%a7%c3%a3oGatoPreto.aspx",
     :concelho "Rio Maior",
     :nec 1360,
-    :cp7 "2040-212",
-    :id #uuid "8e6e3fa7-1779-3467-8582-8e4d48d4614c",
+    :cp7 nil,
+    :id #uuid "7bbfcda4-ca41-3f84-9264-a69bf7c7c67e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/rio-maior/de35aa2c-gato-preto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
    :geocode
-   {:id #uuid "8e6e3fa7-1779-3467-8582-8e4d48d4614c",
-    :address "Largo do Gato Preto, n.º2, 2040-212 RIO MAIOR",
-    :address-c "Largo do Gato Preto, 2040, Rio Maior, Santarém",
-    :postal-c "2040",
-    :x -8.930525699824017,
-    :y 39.33536424760243,
-    :score 95.38,
-    :c 2}}]
+   {:address "Av. Dr. João Afonso Calado da Maia, nº 50 - B Rio Maior",
+    :address-c
+    "Avenida Doutor João Afonso Calado da Maia, 2040-335, Rio Maior, Santarém",
+    :postal-c "2040-335",
+    :x -8.933284514247,
+    :y 39.336434419401,
+    :score 95.51,
+    :c 1}}]
  ["origens-01403"
   {:nec 1403,
    :rates
@@ -4714,6 +5081,7 @@
    :imt-profile
    {:address "Av. Marquês de Pombal, n.º 382, 2380-014 Alcanena",
     :name "Origens",
+    :href-id #uuid "b030ecc9-6b41-3ece-b6b3-2b56bc9ada44",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Origens.aspx",
@@ -4721,6 +5089,8 @@
     :nec 1403,
     :cp7 "2380-014",
     :id #uuid "c1e67ec9-667c-3079-a63f-1ff86db12f67",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/alcanena/b030ecc9-origens.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"},
    :geocode
@@ -4782,6 +5152,7 @@
    {:address
     "Rua Nossa Senhora da Graça, n.º 866, 2240-028 Águas Belas FZZ",
     :name "NovaZêzere",
+    :href-id #uuid "6ef1dc39-950f-305d-a760-daa2ed5d5e10",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaZ%c3%aazere.aspx",
@@ -4789,6 +5160,8 @@
     :nec 1413,
     :cp7 "2240-028",
     :id #uuid "977b37ec-d7fb-3ca7-866f-51b04683aeb5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ferreira-do-zezere/6ef1dc39-novazezere.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Ferreira%20do%20Z%C3%AAzere"},
    :geocode
@@ -4832,6 +5205,7 @@
    :imt-profile
    {:address "Estrada do Barreiro, n.º 9 B, 2300-442, Tomar",
     :name "Tomar Drive",
+    :href-id #uuid "983cd44b-1c99-36ca-ade2-70705ace78c5",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TomarDrive.aspx",
@@ -4839,12 +5213,16 @@
     :nec 1433,
     :cp7 "2300-442",
     :id #uuid "f90e4428-0aa5-3e9e-8174-7db5a79944a7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/983cd44b-tomar-drive.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
    :geocode
-   {:cp7 "2300-442",
+   {:id #uuid "f90e4428-0aa5-3e9e-8174-7db5a79944a7",
+    :address "Estrada do Barreiro, n.º 9 B, 2300-442, Tomar",
+    :address-c "Estrada do Barreiro 9B, 2300-442, Tomar, Santarém",
     :postal-c "2300-442",
-    :x -8.400110010243992,
-    :y 39.606624985861885,
-    :score 100,
-    :c 1}}]]
+    :x -8.402300033905675,
+    :y 39.60640001558065,
+    :score 94.91,
+    :c 2}}]]

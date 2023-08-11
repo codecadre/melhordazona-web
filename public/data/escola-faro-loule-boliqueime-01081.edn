@@ -84,6 +84,31 @@
    :r/k "boliqueime-01081",
    :r/total-passed 52.0,
    :r/t-done 45.0}],
- :imt-profile nil,
- :obs "license 1081 is 'Linha de Sintra' in imt.pt",
- :overwrite/notes nil}
+ :imt-profile
+ {:address
+  "Estrada Nacional 125, Fonte de Boliqueime, Nº 66, 8100-069 BOLIQUEIME",
+  :name "Boliqueime",
+  :href-id #uuid "ede7f2ed-af02-398f-82d7-06ed12042f62",
+  :distrito "Faro",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Boliqueime.aspx",
+  :concelho "Loulé",
+  :nec 1081,
+  :cp7 "8100-069",
+  :id #uuid "8ca014b5-1108-3368-ae12-16be64246232",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/ede7f2ed-boliqueime.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+ :obs "duplicate with 1081 is 'Linha de Sintra'",
+ :overwrite/notes nil,
+ :geocode
+ {:id #uuid "6e3c4d0f-3263-34f5-b57c-f6cc10e5b93d",
+  :address
+  "Estrada Nacional 125, Fonte de Boliqueime, Nº 66, 8100-069 BOLIQUEIME",
+  :address-c "N125, 8100-069, Fonte de Boliqueime, Loulé, Faro",
+  :postal-c "8100-069",
+  :x -8.150371012319324,
+  :y 37.12831294539989,
+  :score 91.25,
+  :c 8}}

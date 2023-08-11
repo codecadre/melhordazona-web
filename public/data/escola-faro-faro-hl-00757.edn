@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. 5 de Outubro, nº 90 R/C Esqº 8000-076 FARO",
   :name "H.L.",
+  :href-id #uuid "8ac9525c-4a4a-3c4d-8d82-8e2afd711327",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/HL507.aspx",
@@ -94,6 +95,8 @@
   :nec 757,
   :cp7 "8000-076",
   :id #uuid "b86967d7-481c-3b20-82d6-e766a6bc9cdd",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/8ac9525c-hl.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
  :geocode

@@ -75,6 +75,7 @@
    {:address
     "Rua da Estrada Nacional 204-5, n.º 158 r/c, Landim 4765-080 Vila Nova de Famalicão ",
     :name "Landim",
+    :href-id #uuid "c1b6635a-c991-38f6-9d4e-a82378f3c9cf",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Landim.aspx",
@@ -82,15 +83,21 @@
     :nec 349,
     :cp7 "4765-080",
     :id #uuid "06297868-8303-39c4-b2e4-749b489240f3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/c1b6635a-landim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
-   {:cp7 "4765-080",
-    :postal-c "4765-080",
-    :x -8.43125003782626,
-    :y 41.38283500977923,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "06297868-8303-39c4-b2e4-749b489240f3",
+    :address
+    "Rua da Estrada Nacional 204-5, n.º 158 r/c, Landim 4765-080 Vila Nova de Famalicão ",
+    :address-c
+    "N204-5 158, 4765-614, Figueiras-Delães, Vila Nova de Famalicão, Braga",
+    :postal-c "4765-614",
+    :x -8.426441879691957,
+    :y 41.384287412564085,
+    :score 87.29,
+    :c 34}}]
  ["rolante-de-famalicao-00385"
   {:nec 385,
    :rates
@@ -182,6 +189,7 @@
    {:address
     "Rua Narciso Ferreira, 21-25 4760-105 VILA NOVA DE FAMALICÃO",
     :name "Rolante de Famalicão",
+    :href-id #uuid "ca70c2ac-4fcb-360d-b156-a780bd75079e",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RolantedeFamalicao866.aspx",
@@ -189,6 +197,8 @@
     :nec 385,
     :cp7 "4760-105",
     :id #uuid "6378a810-b3f6-35da-ad76-0cfecc3bfbb7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/ca70c2ac-rolante-de-famalicao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -292,6 +302,7 @@
    :imt-profile
    {:address "Avª Dr. Mário Soares, Nº 2209 4770-260 JOANE",
     :name "Joanense",
+    :href-id #uuid "0fe381f5-09da-3e0b-af4b-0f0824f1c546",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Joanense576.aspx",
@@ -299,15 +310,20 @@
     :nec 506,
     :cp7 "4770-260",
     :id #uuid "fce3f4f9-6ccf-303c-9815-a96a9aad8055",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/0fe381f5-joanense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
-   {:cp7 "4770-260",
+   {:id #uuid "fce3f4f9-6ccf-303c-9815-a96a9aad8055",
+    :address "Avª Dr. Mário Soares, Nº 2209 4770-260 JOANE",
+    :address-c
+    "Avenida Doutor Mário Soares 2209, 4770-260, Joane, Vila Nova de Famalicão, Braga",
     :postal-c "4770-260",
-    :x -8.409019973319488,
-    :y 41.438590004778746,
-    :score 100,
-    :c 1}}]
+    :x -8.421233017469344,
+    :y 41.43235827103426,
+    :score 87.76,
+    :c 7}}]
  ["opcao-00702"
   {:nec 702,
    :rates
@@ -398,6 +414,7 @@
    :imt-profile
    {:address "Avª de França, nº 975 A 4760-282 CALENDÁRIO VNF",
     :name "Opção",
+    :href-id #uuid "85224464-2d2b-3157-ab54-c2a4627e125f",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Opcao752.aspx",
@@ -405,6 +422,8 @@
     :nec 702,
     :cp7 "4760-282",
     :id #uuid "def928dc-c461-3155-bd1d-71a2b82b093e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/85224464-opcao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -504,6 +523,7 @@
    :imt-profile
    {:address "Av. do Loureiro, 65, Loja 2, 4765-620 DELÃES",
     :name "Desigual",
+    :href-id #uuid "d8a785ca-3813-34d8-b725-2ec2feaa0b2b",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Desigual382.aspx",
@@ -511,6 +531,8 @@
     :nec 784,
     :cp7 "4765-620",
     :id #uuid "21cb62bf-3dbd-34dc-b0af-4a55ed722000",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/d8a785ca-desigual.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -614,6 +636,7 @@
    {:address
     "Rua Ernesto Carvalho –Edifício Roma Loja 3 4760-143 VILA NOVA DE FAMALICÃO",
     :name "Via Verde",
+    :href-id #uuid "2c8d4312-5a2d-31c9-aa64-2324bd918328",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaVerde1057.aspx",
@@ -621,15 +644,21 @@
     :nec 794,
     :cp7 "4760-143",
     :id #uuid "85cf7bcc-d047-36ff-b68b-f7e3e8064d35",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/2c8d4312-via-verde.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
-   {:cp7 "4760-143",
+   {:id #uuid "85cf7bcc-d047-36ff-b68b-f7e3e8064d35",
+    :address
+    "Rua Ernesto Carvalho –Edifício Roma Loja 3 4760-143 VILA NOVA DE FAMALICÃO",
+    :address-c
+    "Rua Ernesto Carvalho, 4760-143, Vila Nova de Famalicão, Braga",
     :postal-c "4760-143",
-    :x -8.522834986691748,
-    :y 41.4089300117497,
-    :score 100,
-    :c 1}}]
+    :x -8.522858386713411,
+    :y 41.40899116017072,
+    :score 90.25,
+    :c 5}}]
  ["reta-segura-00833"
   {:nec 833,
    :rates
@@ -721,6 +750,7 @@
    {:address
     "Edifício Cimo de Vila, Loja 11 M, Pousada de Saramagos, 4760-175 Vila Nova de Famalicão",
     :name "Reta Segura",
+    :href-id #uuid "6bcd85b0-d161-3ec9-9220-59d4640652f3",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Recta%20Segura.aspx",
@@ -728,6 +758,8 @@
     :nec 833,
     :cp7 "4760-175",
     :id #uuid "cf7cebde-b656-34a5-8d5f-67d5f04194f6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/6bcd85b0-reta-segura.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -828,6 +860,7 @@
    {:address
     "Avª 3 de Julho –Urbanização S.José –Loja 10 4760-713 RIBEIRÃO",
     :name "Ribeirense",
+    :href-id #uuid "b33ae5ea-2840-30f8-90d9-55673489563b",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ribeirense849.aspx",
@@ -835,6 +868,8 @@
     :nec 890,
     :cp7 "4760-713",
     :id #uuid "d6b81280-7484-3cc9-800c-93d55dba7360",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/b33ae5ea-ribeirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -934,6 +969,7 @@
    :imt-profile
    {:address "Rua de S. Vicente, 457 4760-093 VILA NOVA DE FAMALICÃO",
     :name "Europeia",
+    :href-id #uuid "73c83007-060d-3105-b2a3-a18d2536bce1",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Europeia435.aspx",
@@ -941,6 +977,8 @@
     :nec 923,
     :cp7 "4760-093",
     :id #uuid "e8751bbc-ec6d-373d-88e3-06a78a5ecd94",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/73c83007-europeia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -1044,6 +1082,7 @@
    {:address
     "Avª Rebelo Mesquita, 563-Loja 6, Escritório Nº 8 4760-325 CALENDÁRIO",
     :name "A Citadina",
+    :href-id #uuid "f3eea1dd-e036-32d9-ba90-7a49c411143f",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ACitadina006.aspx",
@@ -1051,6 +1090,8 @@
     :nec 927,
     :cp7 "4760-325",
     :id #uuid "7423976a-5f6c-3e33-bf0e-8d24c7dab1c0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/f3eea1dd-a-citadina.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -1150,6 +1191,7 @@
    :imt-profile
    {:address "Lugar de Santo António 4775-456 NINE",
     :name "Ases da Estrada",
+    :href-id #uuid "f15dd5c1-f0a3-3f0a-a903-b975093cf69c",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AsesdaEstrada131.aspx",
@@ -1157,6 +1199,8 @@
     :nec 1028,
     :cp7 "4775-456",
     :id #uuid "669140b2-8562-36b9-a6cd-d4cbfff22238",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/f15dd5c1-ases-da-estrada.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -1256,6 +1300,7 @@
    :imt-profile
    {:address "Rua das Fontes, Nº 462 4770-252 JOANE",
     :name "Das Fontes",
+    :href-id #uuid "046801ba-5b26-3c7b-8bb6-d3daac17bcb6",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DasFontes367.aspx",
@@ -1263,15 +1308,20 @@
     :nec 1183,
     :cp7 "4770-252",
     :id #uuid "dbb28617-061e-3d35-96b7-7a865adeb1a0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/046801ba-das-fontes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
-   {:cp7 "4770-252",
+   {:id #uuid "dbb28617-061e-3d35-96b7-7a865adeb1a0",
+    :address "Rua das Fontes, Nº 462 4770-252 JOANE",
+    :address-c
+    "Rua das Pontes 462, 4770-252, Bairros-Joane, Vila Nova de Famalicão, Braga",
     :postal-c "4770-252",
-    :x -8.425214983720906,
-    :y 41.43748501848313,
-    :score 100,
-    :c 1}}]
+    :x -8.426879964967668,
+    :y 41.436869996337634,
+    :score 86.1,
+    :c 8}}]
  ["rio-ave-01186"
   {:nec 1186,
    :rates
@@ -1363,6 +1413,7 @@
    {:address
     "Rua 25 de Abril, Edifício Roma - Loja 3 4765-220 RIBA DE AVE",
     :name "Rio Ave",
+    :href-id #uuid "7870c99d-7bbd-3864-bc35-2853287f17f1",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RioAve852.aspx",
@@ -1370,6 +1421,8 @@
     :nec 1186,
     :cp7 "4765-220",
     :id #uuid "bbaaf8ea-5fb9-3033-80b9-a12d723304e1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/7870c99d-rio-ave.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -1470,6 +1523,7 @@
    {:address
     "Lugar Fonte dos Castanheiros, Nº 6, bloco 1, Loja 1 4760-624 LOUSADO",
     :name "Lagoncinha",
+    :href-id #uuid "39068fa7-e3b7-366e-b225-c1f885841cfc",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lagoncinha590.aspx",
@@ -1477,6 +1531,8 @@
     :nec 1203,
     :cp7 "4760-624",
     :id #uuid "15ea5479-851c-39ad-813c-a9c116c4aa83",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/39068fa7-lagoncinha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
@@ -1562,6 +1618,7 @@
    :imt-profile
    {:address "Av. da Cerqueda, n.º 731, 4765-791 Oliveira São Mateus",
     :name "Escola de Condução Positiva",
+    :href-id #uuid "4b5b9e7b-0869-33dd-8565-993d766175ac",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaoPositiva.aspx",
@@ -1569,8 +1626,20 @@
     :nec 1341,
     :cp7 "4765-791",
     :id #uuid "da467f43-8854-30e9-97f2-d225ca1a92b0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/4b5b9e7b-escola-de-conducao-positiva.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
+   :geocode
+   {:id #uuid "da467f43-8854-30e9-97f2-d225ca1a92b0",
+    :address "Av. da Cerqueda, n.º 731, 4765-791 Oliveira São Mateus",
+    :address-c
+    "Avenida da Cerqueda, 4765, Salgueirinhos, Vila Nova de Famalicão, Braga",
+    :postal-c "4765",
+    :x -8.407548880842233,
+    :y 41.38492021718116,
+    :score 92.56,
+    :c 16}}]
  ["macedo-01390"
   {:nec 1390,
    :rates
@@ -1634,6 +1703,7 @@
    {:address
     "Travessa do Outeiro, n.º 42 r/c, 4760-859 V. N. Famalicão",
     :name "Macedo",
+    :href-id #uuid "9309ca65-2326-38c2-bef2-d9bbe7143ae5",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Macedo.aspx",
@@ -1641,12 +1711,18 @@
     :nec 1390,
     :cp7 "4760-859",
     :id #uuid "7f859937-f420-3a67-92fe-0a8a9193eeff",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/9309ca65-macedo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
    :geocode
-   {:cp7 "4760-859",
+   {:id #uuid "7f859937-f420-3a67-92fe-0a8a9193eeff",
+    :address
+    "Travessa do Outeiro, n.º 42 r/c, 4760-859 V. N. Famalicão",
+    :address-c
+    "Travessa do Outeiro, 4760-859, Vila Nova de Famalicão, Braga",
     :postal-c "4760-859",
-    :x -8.533585028971345,
-    :y 41.39896501852152,
-    :score 100,
-    :c 1}}]]
+    :x -8.533684420875415,
+    :y 41.3989946869242,
+    :score 91.59,
+    :c 11}}]]

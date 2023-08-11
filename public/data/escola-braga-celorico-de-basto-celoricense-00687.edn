@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. Ernesto Faria de Leal, s/nº 4890-228 BRITELO",
   :name "Celoricense",
+  :href-id #uuid "98b82d39-7254-35c3-90bd-65addddf9252",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Celoricense300.aspx",
@@ -94,12 +95,17 @@
   :nec 687,
   :cp7 "4890-228",
   :id #uuid "0e85d0be-6450-3a24-bf6d-b271ace16a60",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/celorico-de-basto/98b82d39-celoricense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Celorico%20Basto"},
  :geocode
- {:cp7 "4890-228",
-  :postal-c "4890-228",
-  :x -7.9958008639494835,
-  :y 41.39257352398363,
-  :score 100,
+ {:id #uuid "0e85d0be-6450-3a24-bf6d-b271ace16a60",
+  :address "Rua Dr. Ernesto Faria de Leal, s/nº 4890-228 BRITELO",
+  :address-c
+  "Rua Dr. Ernesto Faria Leal, 4890-212, Celorico de Basto, Braga",
+  :postal-c "4890-212",
+  :x -8.000368386535317,
+  :y 41.385214583393605,
+  :score 92.32,
   :c 1}}

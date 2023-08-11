@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Edifício Mira Torre – Fracção Q R/C 4620-761 TORNO",
   :name "Senhora Aparecida",
+  :href-id #uuid "584210b0-e634-3738-9138-8363a04954ed",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoraAparecida955.aspx",
@@ -94,5 +95,7 @@
   :nec 822,
   :cp7 "4620-761",
   :id #uuid "6e758a56-d4d2-397d-8980-690f173dd281",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/584210b0-senhora-aparecida.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}

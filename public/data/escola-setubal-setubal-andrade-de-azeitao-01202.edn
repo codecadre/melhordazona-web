@@ -88,6 +88,7 @@
  {:address
   "Rua Sociedade Filarmónica Perpétua Azeitonense, Nº 5 2925-598 AZEITÃO",
   :name "Andrade de Azeitão",
+  :href-id #uuid "ac9a26fb-8086-3373-a721-4e920e071c48",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AndradedeAzeitao109.aspx",
@@ -95,6 +96,8 @@
   :nec 1202,
   :cp7 "2925-598",
   :id #uuid "c678678d-414a-3c20-a0b4-c12a47b08d37",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/ac9a26fb-andrade-de-azeitao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
  :geocode
