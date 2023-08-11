@@ -218,7 +218,7 @@
                     #_#_overwrite-code (imt-id->overwrite-geocode overwrite-geocodes (:id imt-profile))]
                 (cond
                   #_#_overwrite-code (conj acc [k (assoc s :geocode overwrite-code)])
-                  (and (:score address-code) (> (:score address-code) 87)) (conj acc [k (assoc s :geocode address-code)])
+                  (and (:score address-code) (> (:score address-code) 86)) (conj acc [k (assoc s :geocode address-code)])
                   (and (:score cp7-code) (> (:score cp7-code) 99)) (conj acc [k (assoc s :geocode cp7-code)])
                   :else (conj acc [k s])))
               (conj acc [k s]))) [] pass-rates-imt-profiles-merged-dataset))

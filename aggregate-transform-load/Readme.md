@@ -8,6 +8,7 @@ An ingestion workflow normally would look like this:
 - 1. imt-pass-rates or imt-school-addresses have incoming changes
 - 2. Run `bb produce-data simple-db` to produce `simple-db.txt` - a simplified view of the merge between the pass-rates data and the IMT profiles.
 - 3. Edit `overwrites.edn` and run 2. until you're happy with the git diff of `simple-db.txt`.
+- 4. `bb cp7-addresses-geocoding` to produce new batch of geocodes.
 - 4. `bb produce-data missing-geocode` and look at the git diff of `/no-geocode.txt`.
 - 5. Get full output `bb produce-data`.
 - 6. Copy the output and add it to `Changelog.edn`.
