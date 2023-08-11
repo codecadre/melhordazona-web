@@ -153,4 +153,16 @@
                     :overwrite/obs "license 651 is 'Miranda do Douro' in imt.pt"}
  "carlos-vaz-01007" {:address-id nil
                      :overwrite/obs "1007 is 'Auto Flor'. Carlos Vaz is archived."}
- }
+ "sampaio-00574" {:address-id #uuid "595ce2ab-5413-375f-869b-afcf48b13bbf"
+                  :overwrite/obs "archived and nec and href was reused."}
+ "siiimpletunas-00626" {:address-id #uuid "d4a52045-b061-3833-8636-b6836c732a5d"
+                        :overwrite/obs "archived and nec and href was reused."}
+ "pero-rodrigues-00705" {:address-id #uuid "0f410351-2bb8-3c4d-bbb0-b46261df0759"
+                          :overwrite/obs "archived and nec and href was reused."}
+ "75agv-01410" {:address-id #uuid "83e9ea82-92b0-3430-8160-eb2ed0e980e9"
+                :overwrite/obs "There's a new entry called AGV with same address and nec..."}
+ "a-desportiva-espinho-00463" {:address-id #uuid "1cd0898e-0cc2-32ea-a279-8440c41b9ea2"
+                               :overwrite/obs "archived and nec and href was reused."}
+ "a-desportiva-palacio-00464" {:address-id #uuid "dd02ded2-636f-3be7-8653-14164f72de37"
+                               :overwrite/obs "archived and nec and href was reused."}
+}
