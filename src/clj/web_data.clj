@@ -1,6 +1,9 @@
 ;; Not too happy with how this script is done. Needs to be refactored into functions so that if can be loaded in a REPL
 ;; safely
 
+;;outputs `public/data/*`, `places.cljc` and `sitemap.txt`
+;; don't forget to `rm public/data/*` first
+
 (ns recepies.web-data
   (:require [clojure.edn :as edn]
             [clojure.string :as clj-str]
