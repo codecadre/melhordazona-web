@@ -60,6 +60,6 @@ Apache2 and babashka
 
 Available at `/aggregate-transform-load`. This should get it's own project at some point, but for now it lives here.
 
-[Readme.md](aggregate-transform-load/Readme.md) has an outline of the steps taken to merge different data sources into one data set. This is the final output of the 1000+ schools across Continental Portugal:
+[Readme.md](aggregate-transform-load/Readme.md) has an outline of the steps taken to merge different data sources into one data set used by <https://passaprimeira.xyz>. The final output of the 1000+ schools across Continental Portugal can be found here as well:
 
  https://github.com/codecadre/melhordazona-web/tree/master/public/data
