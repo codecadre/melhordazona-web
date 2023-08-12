@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Padre Dr Fernando Maurício nº 2 r/c 2475-138 BENEDITA",
   :name "Beneditense",
+  :href-id #uuid "d4231e5c-c5a3-3ea3-9ddc-ec898d07ee79",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Beneditense242.aspx",
@@ -94,6 +95,8 @@
   :nec 528,
   :cp7 "2475-138",
   :id #uuid "6c81746d-b2d9-34fd-af6e-4cd8de5fc442",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/d4231e5c-beneditense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
  :geocode

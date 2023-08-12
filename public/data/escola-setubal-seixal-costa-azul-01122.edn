@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da República, lote 344 r/c 2865-065 FERNÃO FERRO",
   :name "Costa Azul",
+  :href-id #uuid "f1a3e8c7-4d82-334b-a62c-bc0dcdad4fad",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostaAzul339.aspx",
@@ -94,6 +95,8 @@
   :nec 1122,
   :cp7 "2865-065",
   :id #uuid "86f86840-b62b-3e0c-9a59-256cd6bd3ac0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/f1a3e8c7-costa-azul.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Estrada, Lote 8, Fracção A 4755-520 VÁRZEA",
   :name "S. Bento",
+  :href-id #uuid "784cb687-de2f-3842-bae2-07408185e790",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SBento877.aspx",
@@ -94,6 +95,8 @@
   :nec 1034,
   :cp7 "4755-520",
   :id #uuid "fd90a845-a814-327a-a864-c32c14a89230",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/784cb687-s-bento.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode

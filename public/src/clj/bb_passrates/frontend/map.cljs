@@ -4,8 +4,10 @@
 (def tile-server "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png")
 (def attribution "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors")
 
-(defn make-icon-js []
-  (clj->js {:icon (.divIcon js/L (clj->js {:className "custom-marker"}))} ))
+(defn make-icon-js [archived?]
+  (clj->js {:icon (.divIcon js/L (clj->js {:className (if archived?
+                                                        "custom-marker-black"
+                                                        "custom-marker")}))} ))
 
 (defn make-coord-js [lat long]
   (.latLng  js/L lat long))
@@ -13,15 +15,16 @@
 (defn solo-map []
   (let [el (.querySelector js/document "#map-solo")]
     (when el
-      (let [[lat long]
+      (let [[lat long archived?]
             [(js/parseFloat (oget el "attributes.lat.value"))
-             (js/parseFloat (oget el "attributes.long.value"))]
+             (js/parseFloat (oget el "attributes.long.value"))
+             (= "true" (oget el "attributes.archived.value"))]
             map (.. js/L
                     (map "map-solo")
                     (setView (.latLng  js/L (.latLng  js/L lat long)) 13)
                     (setMaxZoom 14))
             coord-js (make-coord-js lat long)
-            icon (make-icon-js)]
+            icon (make-icon-js archived?)]
         (.. js/L
             (tileLayer tile-server (clj->js {:attribution attribution}))
             (addTo map))
@@ -46,9 +49,10 @@
         (doseq [el schools]
           (let [lat (oget el "attributes" "?lat.value")
                 long (oget el "attributes" "?long.value")
+                archived? (= "true" (oget el "attributes" "?archived.value"))
                 coord-js (when (and lat long)
                            (make-coord-js lat long))
-                icon (make-icon-js)
+                icon (make-icon-js archived?)
                 popup-html-str (.. el
                                    (querySelector ".pop-up-wrapper")
                                    -outerHTML)

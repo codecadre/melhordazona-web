@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. 9 de Abril, n.º 72, 7100-500 ESTREMOZ",
   :name "Estremocense",
+  :href-id #uuid "fdbe6f06-5ebe-3d90-933a-32d9e3007311",
   :distrito "Évora",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Estremocense429.aspx",
@@ -94,12 +95,15 @@
   :nec 423,
   :cp7 "7100-500",
   :id #uuid "91182255-238a-3245-9325-bd6d8ceee07d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/estremoz/fdbe6f06-estremocense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Estremoz"},
  :geocode
- {:cp7 "7100-500",
+ {:address "Av. 9 de Abril, n.º 72, 7100-500 ESTREMOZ",
+  :address-c "Avenida 9 de Abril 72, 7100-500, Estremoz, Évora",
   :postal-c "7100-500",
-  :x -7.583364959612197,
-  :y 38.845689999333445,
-  :score 100,
-  :c 1}}
+  :x -7.584129975915,
+  :y 38.846839996449,
+  :score 94.88,
+  :c 2}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua João da Fonseca Achiolle, 27 - 1º 7300-189 PORTALEGRE",
   :name "Portalegrense",
+  :href-id #uuid "31d63b00-c0b0-35e1-abcb-a7ccd8839e1a",
   :distrito "Portalegre",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Portalegrense800.aspx",
@@ -94,6 +95,8 @@
   :nec 78,
   :cp7 "7300-189",
   :id #uuid "282cbaa4-d3ba-3964-88f5-3fe7ac119f6d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/portalegre/31d63b00-portalegrense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
  :geocode

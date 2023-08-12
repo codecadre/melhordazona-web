@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Porto de Lobos 2520-201 ATOUGUIA da BALEIA",
   :name "Baleia",
+  :href-id #uuid "3a4648c2-fc6c-3893-89b6-1c23be4cfd6d",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Baleia216.aspx",
@@ -94,12 +95,15 @@
   :nec 548,
   :cp7 "2520-201",
   :id #uuid "58becb87-10b4-394d-9f48-c56758d0453d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/peniche/3a4648c2-baleia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
  :geocode
- {:cp7 "2520-201",
-  :postal-c "2520-201",
-  :x -9.385900026832672,
-  :y 39.356479993721706,
-  :score 100,
+ {:address "Porto de Lobos 2520-201 ATOUGUIA da BALEIA",
+  :address-c "Porto de Lobos, Atouguia da Baleia, Peniche, Leiria",
+  :postal-c "",
+  :x -9.33994,
+  :y 39.34561,
+  :score 91.08,
   :c 1}}

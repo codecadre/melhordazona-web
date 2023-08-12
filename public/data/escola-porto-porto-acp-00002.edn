@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Estrada Exterior da Circunvalação, 8154 4200-163 PORTO",
   :name "Automóvel Clube de Portugal",
+  :href-id #uuid "4ea548e1-20ef-325d-b096-0b2636f6e558",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomovelClubedePortugal197.aspx",
@@ -94,12 +95,16 @@
   :nec 2,
   :cp7 "4200-163",
   :id #uuid "604b9605-6a1d-3fbc-850d-73b229d83c1f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/4ea548e1-automovel-clube-de-portugal.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode
- {:cp7 "4200-163",
-  :postal-c "4200-163",
-  :x -8.608410027161426,
-  :y 41.18449001162523,
-  :score 100,
-  :c 1}}
+ {:id #uuid "604b9605-6a1d-3fbc-850d-73b229d83c1f",
+  :address "Estrada Exterior da Circunvalação, 8154 4200-163 PORTO",
+  :address-c "Estrada Exterior da Circunvalação, 4300, Porto",
+  :postal-c "4300",
+  :x -8.577786926241231,
+  :y 41.14496437089091,
+  :score 87.82,
+  :c 4}}

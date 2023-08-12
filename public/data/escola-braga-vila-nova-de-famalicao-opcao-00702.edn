@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª de França, nº 975 A 4760-282 CALENDÁRIO VNF",
   :name "Opção",
+  :href-id #uuid "85224464-2d2b-3157-ab54-c2a4627e125f",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Opcao752.aspx",
@@ -94,6 +95,8 @@
   :nec 702,
   :cp7 "4760-282",
   :id #uuid "def928dc-c461-3155-bd1d-71a2b82b093e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/85224464-opcao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
  :geocode

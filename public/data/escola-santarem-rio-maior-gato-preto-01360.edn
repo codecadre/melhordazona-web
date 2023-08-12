@@ -71,23 +71,26 @@
    :r/total-passed 254.0,
    :r/t-done 203.0}],
  :imt-profile
- {:address "Largo do Gato Preto, n.º2, 2040-212 RIO MAIOR",
+ {:address "Av. Dr. João Afonso Calado da Maia, nº 50 - B Rio Maior",
   :name "Gato Preto",
+  :href-id #uuid "de35aa2c-26da-3048-aa00-1759463c5f49",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeCondu%c3%a7%c3%a3oGatoPreto.aspx",
   :concelho "Rio Maior",
   :nec 1360,
-  :cp7 "2040-212",
-  :id #uuid "8e6e3fa7-1779-3467-8582-8e4d48d4614c",
+  :cp7 nil,
+  :id #uuid "7bbfcda4-ca41-3f84-9264-a69bf7c7c67e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/rio-maior/de35aa2c-gato-preto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
  :geocode
- {:id #uuid "8e6e3fa7-1779-3467-8582-8e4d48d4614c",
-  :address "Largo do Gato Preto, n.º2, 2040-212 RIO MAIOR",
-  :address-c "Largo do Gato Preto, 2040, Rio Maior, Santarém",
-  :postal-c "2040",
-  :x -8.930525699824017,
-  :y 39.33536424760243,
-  :score 95.38,
-  :c 2}}
+ {:address "Av. Dr. João Afonso Calado da Maia, nº 50 - B Rio Maior",
+  :address-c
+  "Avenida Doutor João Afonso Calado da Maia, 2040-335, Rio Maior, Santarém",
+  :postal-c "2040-335",
+  :x -8.933284514247,
+  :y 39.336434419401,
+  :score 95.51,
+  :c 1}}

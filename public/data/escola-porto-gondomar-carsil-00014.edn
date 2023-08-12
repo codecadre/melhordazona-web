@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Capelo da Lagoa n º 9 4420-402 VALBOM",
   :name "Carsil",
+  :href-id #uuid "64643985-c65f-39cf-80ba-6e95c253babf",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carsil290.aspx",
@@ -94,12 +95,15 @@
   :nec 14,
   :cp7 "4420-402",
   :id #uuid "f4b12565-04dc-3fa7-aa14-2a991a0b1e46",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/64643985-carsil.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode
- {:cp7 "4420-402",
+ {:address "Rua Capelo da Lagoa n º 9 4420-402 VALBOM",
+  :address-c "Rua Capela da Lagoa 9, 4420-402, Lagoa, Gondomar, Porto",
   :postal-c "4420-402",
-  :x -8.559380000717653,
-  :y 41.14703501628108,
-  :score 100,
+  :x -8.556699970996,
+  :y 41.145259980646,
+  :score 93.27,
   :c 1}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua dos Benguiados 131 - A 4480-794 VILA DO CONDE",
   :name "Benguiados",
+  :href-id #uuid "a9ef7c80-f94b-3d59-a68e-4fdcf8df90c9",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Benguiados245.aspx",
@@ -94,6 +95,8 @@
   :nec 711,
   :cp7 "4480-794",
   :id #uuid "1f710f18-6e5b-30b4-a540-a9e8cb25a6e5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-do-conde/a9ef7c80-benguiados.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
  :geocode

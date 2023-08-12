@@ -32,6 +32,7 @@
    :imt-profile
    {:address "Av. Dr. Oliveira Salazar 5110-122 ARMAMAR",
     :name "Douro Sul",
+    :href-id #uuid "a0b1703e-3322-3e34-a7d6-a08e79e845cb",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EnsinodeConducaoDourosul406.aspx",
@@ -39,10 +40,10 @@
     :nec 830,
     :cp7 "5110-122",
     :id #uuid "3b79a161-8af9-3b64-83c3-66aec5238418",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/armamar/a0b1703e-douro-sul.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Armamar"},
-   :obs "duplicate nec in passrates",
-   :overwrite/notes nil,
    :geocode
    {:id #uuid "3b79a161-8af9-3b64-83c3-66aec5238418",
     :address "Av. Dr. Oliveira Salazar 5110-122 ARMAMAR",

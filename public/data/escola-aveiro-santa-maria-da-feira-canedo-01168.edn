@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Principal, Nº 1025 4525-189 CANEDO",
   :name "Canedo",
+  :href-id #uuid "b2418d7f-4627-33a7-b0b7-61b4b21336ac",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Canedo278.aspx",
@@ -94,6 +95,8 @@
   :nec 1168,
   :cp7 "4525-189",
   :id #uuid "62b92832-8af8-316d-98c2-aff4b01b3479",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/b2418d7f-canedo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

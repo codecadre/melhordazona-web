@@ -88,6 +88,7 @@
  {:address
   "Loteamento Santa Apolónia –Lote 1 r/c Esqº 5300-254 BRAGANÇA",
   :name "Terra Fria",
+  :href-id #uuid "58b408aa-039e-3d06-8e38-d95825b96b59",
   :distrito "Bragança",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TerraFria1004.aspx",
@@ -95,11 +96,7 @@
   :nec 722,
   :cp7 "5300-254",
   :id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/58b408aa-terra-fria.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
- :geocode
- {:id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
-  :overwrite true,
-  :obs "Manual coords",
-  :x -6.7631975537083715,
-  :y 41.797498753108506}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}

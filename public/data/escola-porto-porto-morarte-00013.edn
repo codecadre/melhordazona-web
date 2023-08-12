@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Guedes de Azevedo, 131 - 1º 4000-272 PORTO",
   :name "Morarte",
+  :href-id #uuid "b0c14ed0-0b56-368c-a089-4bebd1c253c4",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Morarte679.aspx",
@@ -94,6 +95,8 @@
   :nec 13,
   :cp7 "4000-272",
   :id #uuid "23daa2b3-9e42-301c-9c36-0fa565a39eab",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/b0c14ed0-morarte.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

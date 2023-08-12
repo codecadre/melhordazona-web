@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Frei Diogo de Murça 5090-135 MURÇA",
   :name "Murcense",
+  :href-id #uuid "dd5e0e2f-55b9-33cf-885b-1af8e04b21ca",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Murcense684.aspx",
@@ -94,6 +95,8 @@
   :nec 330,
   :cp7 "5090-135",
   :id #uuid "b1bba656-0bf5-30d4-98e4-9f69e485bf75",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/murca/dd5e0e2f-murcense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Mur%C3%A7a"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Pousada, 233 4620-596 Barrosas (Santa Eulália)",
   :name "Santa Eulália",
+  :href-id #uuid "5002d018-0014-3af1-a061-3312e78126e8",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaEulalia921.aspx",
@@ -94,6 +95,8 @@
   :nec 930,
   :cp7 "4620-596",
   :id #uuid "826923a2-bf12-38c8-b8f3-2ae08f0045ff",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vizela/5002d018-santa-eulalia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vizela"},
  :geocode

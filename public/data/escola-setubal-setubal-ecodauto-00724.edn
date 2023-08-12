@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Aljubarrota nº 22 B 2910-389 SETÚBAL",
   :name "Ecodauto",
+  :href-id #uuid "7b5376c9-abad-35cf-ac4f-4d69bb58353b",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ecodauto400.aspx",
@@ -94,6 +95,8 @@
   :nec 724,
   :cp7 "2910-389",
   :id #uuid "ef328f62-3dd8-3fbc-8511-f1ef93ff7a92",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/7b5376c9-ecodauto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
  :geocode

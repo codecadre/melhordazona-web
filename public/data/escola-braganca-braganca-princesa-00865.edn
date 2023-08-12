@@ -88,6 +88,7 @@
  {:address
   "Lugar do Campelo-Bairro do Pinhal, Lote 2 A-R/C 5300-167 BRAGANÇA (SÉ)",
   :name "Princesa",
+  :href-id #uuid "b75cb351-e97c-371e-8544-3bfa31d908b2",
   :distrito "Bragança",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Princesa813.aspx",
@@ -95,6 +96,8 @@
   :nec 865,
   :cp7 "5300-167",
   :id #uuid "accd42da-9485-3d57-a94c-f180f7c07fdc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/b75cb351-princesa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
  :geocode

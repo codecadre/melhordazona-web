@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Eng.º Matos, 253 ; 4560-465 Penafiel",
     :name "Penafidelense",
+    :href-id #uuid "7583b6e0-416b-3375-b833-20bc3600ad66",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Penafidelense780.aspx",
@@ -95,6 +96,8 @@
     :nec 134,
     :cp7 "4560-465",
     :id #uuid "89383d9a-e30e-3411-bd79-5e5f4c91498f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/7583b6e0-penafidelense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Av. Central de Guilhufe, 60, 4560-162 Penafiel",
     :name "Condutor Seguro",
+    :href-id #uuid "3c646c7d-733e-362e-be75-5a767411a2e8",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CondutorSeguro.aspx",
@@ -203,6 +207,8 @@
     :nec 510,
     :cp7 "4560-162",
     :id #uuid "5d453504-6041-358e-9c81-510d7dcea340",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/3c646c7d-condutor-seguro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
    :geocode
@@ -306,6 +312,7 @@
    {:address
     "Rua da Saudade, 120 A - Sala A/ Apartado 108 4560-531 PENAFIEL",
     :name "Vale de Sousa",
+    :href-id #uuid "1316892a-d03e-3060-98cf-ef1c4141d6d5",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ValedeSousa1030.aspx",
@@ -313,6 +320,8 @@
     :nec 511,
     :cp7 "4560-531",
     :id #uuid "1efbce52-140d-3272-b33f-6abde9e40fca",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/1316892a-vale-de-sousa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
    :geocode
@@ -415,6 +424,7 @@
    :imt-profile
    {:address "Av Zeferino de Oliveira, n.º 26, 4560-494 Penafiel",
     :name "Croca",
+    :href-id #uuid "bc286cd4-6b58-3452-98a3-f1e5aa21a133",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SameirodePenafiel911.aspx",
@@ -422,6 +432,8 @@
     :nec 731,
     :cp7 "4560-494",
     :id #uuid "51e18e6d-8bb5-3770-ae01-3108f1ac1e15",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/bc286cd4-croca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
    :geocode
@@ -523,6 +535,7 @@
    :imt-profile
    {:address "Avenida Central 4575-262 OLDRÕES",
     :name "Pais Neto",
+    :href-id #uuid "d6489375-3020-39a4-8abd-d243112ea1aa",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PaisNeto766.aspx",
@@ -530,6 +543,8 @@
     :nec 788,
     :cp7 "4575-262",
     :id #uuid "036ed107-970d-3dff-8ef2-961c00f33082",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/d6489375-pais-neto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
    :geocode
@@ -630,6 +645,7 @@
    {:address
     "Lugar de Aveleda - Edifício Termas de S. Vicente BL 3, Loja M 4575-352 PINHEIRO",
     :name "Termas de S. Vicente",
+    :href-id #uuid "757af06e-6680-30fe-9f7e-43bc1c9932bf",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TermasdeSVicente1003.aspx",
@@ -637,6 +653,8 @@
     :nec 866,
     :cp7 "4575-352",
     :id #uuid "03fbe711-6fe9-3483-b867-fd0830629892",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/757af06e-termas-de-s-vicente.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
    :geocode
@@ -736,6 +754,7 @@
    :imt-profile
    {:address "Rua D. António Ferreira Gomes nº 166 4560-568 MILHUNDOS",
     :name "Sport",
+    :href-id #uuid "7fbac359-8dfa-3a58-ae60-d999ce86435c",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sport987.aspx",
@@ -743,6 +762,8 @@
     :nec 960,
     :cp7 "4560-568",
     :id #uuid "dfc3da07-a89c-31e8-8881-292eb1f2f04e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/7fbac359-sport.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
    :geocode
@@ -845,6 +866,7 @@
    :imt-profile
    {:address "Lugar da Pereira Azeda 4560-021 ABRAGÃO",
     :name "Abragonense",
+    :href-id #uuid "4d907c40-ea28-39a7-a3c8-fdd1ca1cd969",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Abragonense048.aspx",
@@ -852,8 +874,20 @@
     :nec 1096,
     :cp7 "4560-021",
     :id #uuid "05a3a564-2c22-3c53-a951-5ecd223e883f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/4d907c40-abragonense.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
+   :geocode
+   {:id #uuid "05a3a564-2c22-3c53-a951-5ecd223e883f",
+    :address "Lugar da Pereira Azeda 4560-021 ABRAGÃO",
+    :address-c
+    "Rua de Pereira Azeda, 4560-027, Abragão, Penafiel, Porto",
+    :postal-c "4560-027",
+    :x -8.23429472762795,
+    :y 41.161651729497066,
+    :score 86.03,
+    :c 10}}]
  ["rio-de-moinhos-01129"
   {:nec 1129,
    :rates
@@ -945,6 +979,7 @@
    {:address
     "Av. da Agrela - Edificio Vila Rio 4575-471 RIO de MOINHOS",
     :name "Rio de Moinhos",
+    :href-id #uuid "9bfe552e-244a-3681-846e-54869ac9935a",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RiodeMoinhos853.aspx",
@@ -952,15 +987,21 @@
     :nec 1129,
     :cp7 "4575-471",
     :id #uuid "59b655d1-4328-3325-81cb-363fe20e8f0c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/9bfe552e-rio-de-moinhos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
    :geocode
-   {:cp7 "4575-471",
+   {:id #uuid "59b655d1-4328-3325-81cb-363fe20e8f0c",
+    :address
+    "Av. da Agrela - Edificio Vila Rio 4575-471 RIO de MOINHOS",
+    :address-c
+    "Avenida da Agrela, 4575-471, Rio de Moinhos, Penafiel, Porto",
     :postal-c "4575-471",
-    :x -8.268090006088869,
-    :y 41.10407998371127,
-    :score 100,
-    :c 1}}]
+    :x -8.265659557614011,
+    :y 41.106860719184326,
+    :score 88.07,
+    :c 4}}]
  ["ideal-de-rans-01190"
   {:nec 1190,
    :rates
@@ -1051,6 +1092,7 @@
    :imt-profile
    {:address "Av. da Boa Viagem, Lugar de Ponte Nova, Nº 704",
     :name "Ideal de Rans",
+    :href-id #uuid "0de0dba4-2c2a-357b-96bf-8645ffb8fdd7",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ideal%20de%20Rans.aspx",
@@ -1058,6 +1100,8 @@
     :nec 1190,
     :cp7 nil,
     :id #uuid "dea4d14c-afc9-3799-87ed-5f70b801613d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/0de0dba4-ideal-de-rans.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"}}]
  ["star-01371"
@@ -1123,6 +1167,7 @@
    {:address
     "Av. da Liberdade, n.º 1075, Lugar da Junqueira, 4560-371 Paço de Sousa, PENAFIEL",
     :name "Star",
+    :href-id #uuid "7f287741-5e23-372d-827b-6901ff2534c0",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Star.aspx",
@@ -1130,12 +1175,18 @@
     :nec 1371,
     :cp7 "4560-371",
     :id #uuid "199eb188-33a8-39fb-9c72-60487402e827",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/7f287741-star.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
    :geocode
-   {:cp7 "4560-371",
-    :postal-c "4560-371",
-    :x -8.33964002707026,
-    :y 41.16910498643719,
-    :score 100,
-    :c 1}}]]
+   {:id #uuid "199eb188-33a8-39fb-9c72-60487402e827",
+    :address
+    "Av. da Liberdade, n.º 1075, Lugar da Junqueira, 4560-371 Paço de Sousa, PENAFIEL",
+    :address-c
+    "Avenida da Liberdade 1075, 4560-383, Paço de Sousa, Penafiel, Porto",
+    :postal-c "4560-383",
+    :x -8.341177603388758,
+    :y 41.16969259975929,
+    :score 92.82,
+    :c 4}}]]

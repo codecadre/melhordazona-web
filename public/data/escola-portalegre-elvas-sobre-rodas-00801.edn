@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª António Sardinha, lote 11 C 7350-091 ELVAS",
   :name "Sobre Rodas",
+  :href-id #uuid "552f2210-c47e-3bdd-bfc7-80cf85715548",
   :distrito "Portalegre",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SobreRodas978.aspx",
@@ -94,6 +95,8 @@
   :nec 801,
   :cp7 "7350-091",
   :id #uuid "0cdd4f2c-e274-38fb-8a15-b557acc60a34",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/elvas/552f2210-sobre-rodas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Elvas"},
  :geocode

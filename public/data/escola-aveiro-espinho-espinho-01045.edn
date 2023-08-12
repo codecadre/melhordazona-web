@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Ponte de Anta, Nº 190 4500-088 ANTA",
   :name "Espinho",
+  :href-id #uuid "50f9b695-79bc-3978-bfc0-9810a91b2523",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Espinho411.aspx",
@@ -94,6 +95,8 @@
   :nec 1045,
   :cp7 "4500-088",
   :id #uuid "04b20b02-a34d-35b8-957e-2f6af065a771",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/50f9b695-espinho.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
  :geocode

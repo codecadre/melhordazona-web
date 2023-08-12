@@ -88,6 +88,7 @@
  {:address
   "Avª de Ovar - Edificio Santa Rita I 5050-223 PESO DA RÉGUA",
   :name "Reguense",
+  :href-id #uuid "336cfc96-19e5-371f-9b9a-202a80b27575",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Reguense841.aspx",
@@ -95,6 +96,8 @@
   :nec 568,
   :cp7 "5050-223",
   :id #uuid "c4213991-2ab7-3e57-bf6a-68993b258715",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/peso-da-regua/336cfc96-reguense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua 25 de Abril, Edifício Roma - Loja 3 4765-220 RIBA DE AVE",
   :name "Rio Ave",
+  :href-id #uuid "7870c99d-7bbd-3864-bc35-2853287f17f1",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RioAve852.aspx",
@@ -95,6 +96,8 @@
   :nec 1186,
   :cp7 "4765-220",
   :id #uuid "bbaaf8ea-5fb9-3033-80b9-a12d723304e1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/7870c99d-rio-ave.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
  :geocode

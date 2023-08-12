@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar da Sobreira 4620-074 CAIDE de REI",
   :name "Globo",
+  :href-id #uuid "87a5f9fd-b9f5-38eb-a7ff-c69a3a5e407f",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Globo489.aspx",
@@ -94,6 +95,8 @@
   :nec 1250,
   :cp7 "4620-074",
   :id #uuid "a84709ef-7403-3fb5-aae7-a97d83730cb6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/87a5f9fd-globo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
  :geocode

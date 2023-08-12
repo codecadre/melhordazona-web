@@ -88,6 +88,7 @@
  {:address
   "Urb. das Lameiras, Loja 1 – Rua Drº Eduardo dos Santos 3525-072 CANAS DE SENHORIM",
   :name "Santarense",
+  :href-id #uuid "f199609b-d607-344c-9c9a-b7413f86b099",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Santarense936.aspx",
@@ -95,6 +96,8 @@
   :nec 618,
   :cp7 "3525-072",
   :id #uuid "4a74faa6-e8fb-3c05-aaea-60d04fd6e173",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/nelas/f199609b-santarense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
  :geocode

@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Padre António, 81 – 1º Dtº 4470-136 MAIA",
     :name "Escola de Condução da Maia",
+    :href-id #uuid "4211b9ec-4e44-383a-a4d7-250a12ff9b0d",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Damaia365.aspx",
@@ -95,6 +96,8 @@
     :nec 420,
     :cp7 "4470-136",
     :id #uuid "a020238b-9dab-31f5-bb66-cc34ea9441cb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/4211b9ec-escola-de-conducao-da-maia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Avª D. Manuel II, nº 1148 4470-200 VERMOIM",
     :name "Oliveira",
+    :href-id #uuid "063127e4-a3d6-3ecc-993c-b9bb77cbcd02",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oliveira745.aspx",
@@ -203,6 +207,8 @@
     :nec 594,
     :cp7 "4470-200",
     :id #uuid "d9f6aad1-9e5f-3032-8767-c4fc9f5ad350",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/063127e4-oliveira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -305,6 +311,7 @@
    :imt-profile
    {:address "Rua D. Afonso Henriques, Nº 4515 4425-057 ÁGUAS SANTAS",
     :name "Boa Nova",
+    :href-id #uuid "2bafc369-c2c6-36dc-a0f1-5dd4080b46a2",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BoaNova248.aspx",
@@ -312,15 +319,20 @@
     :nec 672,
     :cp7 "4425-057",
     :id #uuid "80297c79-ad95-3e22-adeb-7c29800e0dce",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/2bafc369-boa-nova.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
-   {:cp7 "4425-057",
-    :postal-c "4425-057",
-    :x -8.573450031025999,
-    :y 41.200679992884716,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "80297c79-ad95-3e22-adeb-7c29800e0dce",
+    :address "Rua D. Afonso Henriques, Nº 4515 4425-057 ÁGUAS SANTAS",
+    :address-c
+    "Rua Dom Afonso Henriques 4515, 4425-593, Gandra, Maia, Porto",
+    :postal-c "4425-593",
+    :x -8.559297989461289,
+    :y 41.21598076051066,
+    :score 94.22,
+    :c 13}}]
  ["cidade-jardim-00704"
   {:nec 704,
    :rates
@@ -411,6 +423,7 @@
    :imt-profile
    {:address "Rua de S. Romão nº 200 4470-365 VERMOIM",
     :name "Cidade Jardim",
+    :href-id #uuid "e5b315b1-58ab-3180-918d-dd29691e84a2",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadeJardim313.aspx",
@@ -418,6 +431,8 @@
     :nec 704,
     :cp7 "4470-365",
     :id #uuid "025dcdbf-4249-3ba4-a53d-d855fa0d1367",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/e5b315b1-cidade-jardim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -519,6 +534,7 @@
    :imt-profile
    {:address "Rua da Agra nº 1288 1º Esqº 4475-304 MILHEIRÓS",
     :name "Moutinho",
+    :href-id #uuid "91359490-4cf6-3e87-a944-419355ad7643",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moutinho683.aspx",
@@ -526,6 +542,8 @@
     :nec 709,
     :cp7 "4475-304",
     :id #uuid "dbe24ae2-677c-38de-ab16-2100b9a2ca9d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/91359490-moutinho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -627,6 +645,7 @@
    :imt-profile
    {:address "Avª do Lidador nº 185 4425-116 ÁGUAS SANTAS",
     :name "Norteca",
+    :href-id #uuid "d6963fce-6534-3463-8ab8-c19608c721ca",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Norteca695.aspx",
@@ -634,6 +653,8 @@
     :nec 733,
     :cp7 "4425-116",
     :id #uuid "ba5db34b-a3a2-379a-bdc0-567310353ad3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/d6963fce-norteca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -733,6 +754,7 @@
    :imt-profile
    {:address "Rua D. Afonso Henriques, 2248 4425-57 ÁGUAS SANTAS",
     :name "Águas Santas",
+    :href-id #uuid "9e84464e-8cea-3066-8832-503a91fcfec3",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AguasSantas059.aspx",
@@ -740,6 +762,8 @@
     :nec 853,
     :cp7 "4425-57",
     :id #uuid "efe2dfe8-2b2e-33d6-b99b-4cec816cbdcf",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/9e84464e-aguas-santas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -842,6 +866,7 @@
    :imt-profile
    {:address "Rua do Teatro 45 4470-655 MOREIRA",
     :name "Pedras Rubras",
+    :href-id #uuid "21d28290-f1c4-38a5-a21c-7bece38a27ba",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PedrasRubras776.aspx",
@@ -849,6 +874,8 @@
     :nec 937,
     :cp7 "4470-655",
     :id #uuid "33446b7f-dc3c-3de7-b983-3a1d77143afb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/21d28290-pedras-rubras.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -951,6 +978,7 @@
    :imt-profile
    {:address "Travessa Nova da Giesta, Nº 333, 4425-672 MAIA",
     :name "AJS de Aurora e José Sereno",
+    :href-id #uuid "7904541a-45fb-3c70-8d58-6df6580dd219",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AJSdeAuroraeJoseSereno065.aspx",
@@ -958,6 +986,8 @@
     :nec 981,
     :cp7 "4425-672",
     :id #uuid "cfe56ea0-0615-3f2e-b0ed-a4949e84c3b1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/7904541a-ajs-de-aurora-e-jose-sereno.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -1061,6 +1091,7 @@
    {:address
     "Praça Evaristo da Silva Duarte nº 118-1º Dtº 4475-634 AVIOSO (SANTA MARIA)",
     :name "Lidador",
+    :href-id #uuid "474814e6-4311-3538-b783-3480396a349d",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lidador597.aspx",
@@ -1068,6 +1099,8 @@
     :nec 1004,
     :cp7 "4475-634",
     :id #uuid "3c1af742-c7e0-3e1f-a943-48b9b4eabe64",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/474814e6-lidador.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -1172,6 +1205,7 @@
    {:address
     "Rua da Igreja nº 18 – Sala 2 4475-641 AVIOSO (SANTA MARIA)",
     :name "Castêlo da Maia",
+    :href-id #uuid "02c5a5c9-94f0-3a42-a7a4-819f171f473e",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CastelodaMaia295.aspx",
@@ -1179,15 +1213,21 @@
     :nec 1049,
     :cp7 "4475-641",
     :id #uuid "fe078c58-492b-3a61-822f-e218ba2576f1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/02c5a5c9-castelo-da-maia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
-   {:cp7 "4475-641",
+   {:id #uuid "fe078c58-492b-3a61-822f-e218ba2576f1",
+    :address
+    "Rua da Igreja nº 18 – Sala 2 4475-641 AVIOSO (SANTA MARIA)",
+    :address-c
+    "Rua da Igreja 18, 4475-641, Santa Maria de Avioso, Maia, Porto",
     :postal-c "4475-641",
-    :x -8.60714503033418,
-    :y 41.26765001624247,
-    :score 100,
-    :c 1}}]
+    :x -8.611536768734574,
+    :y 41.2666356384004,
+    :score 94.68,
+    :c 5}}]
  ["miramaia-guardeiras-01155"
   {:nec 1155,
    :rates
@@ -1279,6 +1319,7 @@
    {:address
     "Rua Engº Frederico Ulrich, Nº 3659-2. 1 4470-650 MOREIRA",
     :name "Mira Maia Guardeiras",
+    :href-id #uuid "fba81024-d415-3210-bf44-d7a7b6db5474",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MiraMaiaGuardeiras.aspx",
@@ -1286,6 +1327,8 @@
     :nec 1155,
     :cp7 "4470-650",
     :id #uuid "007d9252-7716-3569-adc1-df271b6856eb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/fba81024-mira-maia-guardeiras.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -1389,6 +1432,7 @@
    :imt-profile
    {:address "Rua de Gueimaia, n.º 407; 4470-054 Gueifães",
     :name "Gueifães",
+    :href-id #uuid "1d509b20-07c7-32fc-b6a9-ef5750f9cf65",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Gueif%c3%a3es.aspx",
@@ -1396,14 +1440,18 @@
     :nec 1304,
     :cp7 "4470-054",
     :id #uuid "c339e582-6354-38e5-ae13-f67341d019b0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/1d509b20-gueifaes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
-   {:cp7 "4470-054",
+   {:id #uuid "c339e582-6354-38e5-ae13-f67341d019b0",
+    :address "Rua de Gueimaia, n.º 407; 4470-054 Gueifães",
+    :address-c "Rua da Gueimaia 407, 4470-054, Gueifães, Maia, Porto",
     :postal-c "4470-054",
-    :x -8.60136998286535,
-    :y 41.21749501266399,
-    :score 100,
+    :x -8.602819968295677,
+    :y 41.21851001922903,
+    :score 94.92,
     :c 1}}]
  ["conduzir-em-seguranca-01320"
   {:nec 1320,
@@ -1495,6 +1543,7 @@
    :imt-profile
    {:address "Rua Abel Salazar, n.º 344; 4425-005 Maia",
     :name "Conduzir em Segurança",
+    :href-id #uuid "9bb22186-4d23-3b37-bfd7-c7b56f79de82",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ConduziremSeguranca.aspx",
@@ -1502,6 +1551,8 @@
     :nec 1320,
     :cp7 "4425-005",
     :id #uuid "c4f982c7-b03e-3dfc-aca8-f2e241fb6b07",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/9bb22186-conduzir-em-seguranca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode
@@ -1591,6 +1642,7 @@
    {:address
     "Rua Ângela Adelaide Calheiro Carvalho de Menezes, n.º 275, 4470-135 Maia",
     :name "Segurança Activa",
+    :href-id #uuid "54fb6a7a-d89c-356d-9928-a199935a2a84",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Seguranca_Activa.aspx",
@@ -1598,6 +1650,8 @@
     :nec 1339,
     :cp7 "4470-135",
     :id #uuid "86fa6e76-0a62-3e36-80b4-316bbe87f099",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/54fb6a7a-seguranca-activa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
    :geocode

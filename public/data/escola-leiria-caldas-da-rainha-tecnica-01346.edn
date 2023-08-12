@@ -74,6 +74,7 @@
  {:address
   "Rua Marquês de Pombal, n.º 25 A cave Dtª 2500-235 CALDAS DA RAINHA",
   :name "E.C. Técnica",
+  :href-id #uuid "3af84be7-e533-3fc1-8659-80912f045c13",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ECT%c3%a9cnica.aspx",
@@ -81,6 +82,8 @@
   :nec 1346,
   :cp7 "2500-235",
   :id #uuid "6d927be2-5452-3cc0-ab69-a1c4315ed4a2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/caldas-da-rainha/3af84be7-ec-tecnica.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar da Seara 4750-383 CARAPEÇOS",
   :name "Carapeços",
+  :href-id #uuid "c84dbcc1-e78e-33be-b2ad-e8a665c4f5c2",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carapecos281.aspx",
@@ -94,6 +95,8 @@
   :nec 1103,
   :cp7 "4750-383",
   :id #uuid "f2ce67fd-a42a-3f7c-8ef6-87e67d9f63a3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/c84dbcc1-carapecos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode

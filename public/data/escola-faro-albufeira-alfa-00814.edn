@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Edifício Central ,Lagoas, Loja L 8200-171 ALBUFEIRA",
   :name "Alfa",
+  :href-id #uuid "3b9dc72a-b77d-3bf7-bae3-a3cb938cc28f",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alfa080.aspx",
@@ -94,12 +95,16 @@
   :nec 814,
   :cp7 "8200-171",
   :id #uuid "e4eba7bb-ce5c-3805-ace4-93380fa5f0eb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/3b9dc72a-alfa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
  :geocode
- {:cp7 "8200-171",
-  :postal-c "8200-171",
-  :x -8.257399978236009,
-  :y 37.08490498228227,
-  :score 100,
+ {:address "Edifício Central ,Lagoas, Loja L 8200-171 ALBUFEIRA",
+  :address-c
+  "Edifício Central, Avenida 12 de Julho, 8200-559, Ferreiras, Albufeira, Faro",
+  :postal-c "8200-559",
+  :x -8.242359994092,
+  :y 37.12655998167,
+  :score 92.57,
   :c 1}}

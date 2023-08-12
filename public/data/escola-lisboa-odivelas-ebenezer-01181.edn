@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Artur Bual, Nº 1 R/C Loja 2 2675-604 ODIVELAS",
   :name "Ebenézer",
+  :href-id #uuid "1e5490c5-6d94-3c48-9226-45aa4ea6fe7f",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ebenezer399.aspx",
@@ -94,6 +95,8 @@
   :nec 1181,
   :cp7 "2675-604",
   :id #uuid "a7002f72-f6e5-3017-ba7b-eb3dea56072b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/1e5490c5-ebenezer.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
  :geocode

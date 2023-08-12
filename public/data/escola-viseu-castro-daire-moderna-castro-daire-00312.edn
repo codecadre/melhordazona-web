@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª General Humberto Delgado 3600-187 CASTRO DAIRE",
   :name "Moderna - Castro Daire",
+  :href-id #uuid "3de5ac02-ffc9-318e-9d26-d0fbce23fc6d",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ModernaCastroDaire657.aspx",
@@ -94,6 +95,8 @@
   :nec 312,
   :cp7 "3600-187",
   :id #uuid "5715d5b7-48af-3264-94f7-8114efb5ca7f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/castro-daire/3de5ac02-moderna-castro-daire.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
  :geocode

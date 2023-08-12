@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua de Coimbra, n.º 6 A, 3200-222 Lousã",
   :name "Escola de Condução de Louzan",
+  :href-id #uuid "dc5022cd-ce26-3a27-852c-184e56739e4e",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaodeLouzan.aspx",
@@ -80,12 +81,16 @@
   :nec 1340,
   :cp7 "3200-222",
   :id #uuid "8b960e24-8992-35e5-89c5-338db7e2a8eb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/lousa/dc5022cd-escola-de-conducao-de-louzan.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Lous%C3%A3"},
  :geocode
- {:cp7 "3200-222",
+ {:id #uuid "8b960e24-8992-35e5-89c5-338db7e2a8eb",
+  :address "Rua de Coimbra, n.º 6 A, 3200-222 Lousã",
+  :address-c "Rua de Coimbra, 3200-222, Lousã, Coimbra",
   :postal-c "3200-222",
-  :x -8.249240027856672,
-  :y 40.12195000896321,
-  :score 100,
-  :c 1}}
+  :x -8.248841126290957,
+  :y 40.11915774411871,
+  :score 95,
+  :c 7}}

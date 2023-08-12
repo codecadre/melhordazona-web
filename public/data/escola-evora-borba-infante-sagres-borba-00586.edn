@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª D. Dinis de Melo e Castro, Nº 2H 7150-105 BORBA",
   :name "Infante de Sagres – Borba",
+  :href-id #uuid "b50c2188-4282-3ff6-ad93-b1191effb2e3",
   :distrito "Évora",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagres%e2%80%93Borba534.aspx",
@@ -94,6 +95,8 @@
   :nec 586,
   :cp7 "7150-105",
   :id #uuid "ad3bd4f5-71d3-352f-a5b9-218e97a02b7b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/borba/b50c2188-infante-de-sagres-borba.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Borba"},
  :geocode

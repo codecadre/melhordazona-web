@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua João de Oliveira Casquinho, 25 2300-576 TOMAR",
     :name "Moderna-Tomar",
+    :href-id #uuid "4a83f6c4-284b-3aa6-9407-489f7766d70f",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ModernaTomar660.aspx",
@@ -95,6 +96,8 @@
     :nec 47,
     :cp7 "2300-576",
     :id #uuid "55ff0b2f-2a82-364d-b05e-a9ccd29254e7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/4a83f6c4-moderna-tomar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
    :geocode
@@ -155,6 +158,7 @@
    :imt-profile
    {:address "Rua Diogo Arruda, 6 r/c Esqº 2300-482 TOMAR",
     :name "Estrela do Nabão",
+    :href-id #uuid "b072415d-13fa-39eb-9972-e3460583ef85",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladoNabao426.aspx",
@@ -162,6 +166,8 @@
     :nec 398,
     :cp7 "2300-482",
     :id #uuid "bb3357f8-483e-30ec-ae72-eed6d12fbde9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/b072415d-estrela-do-nabao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
    :geocode
@@ -264,6 +270,7 @@
    {:address
     "Rua Alfredo da Maia Pereira nº 6 r/c Esqº 2300-449 TOMAR",
     :name "Carreira",
+    :href-id #uuid "5e070fbc-892b-30ca-a726-72d67514fbab",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carreira289.aspx",
@@ -271,6 +278,8 @@
     :nec 1108,
     :cp7 "2300-449",
     :id #uuid "1fa8652b-71ed-307d-8605-c7d6e888ddb3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/5e070fbc-carreira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
    :geocode
@@ -318,6 +327,7 @@
    :imt-profile
    {:address "Av. General Norton de Matos, n.º 30-32 r/c Esq. Tomar",
     :name "Nova de Tomar",
+    :href-id #uuid "c62b6c3b-34b8-3e86-a140-3760d5a59bd5",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeTomar.aspx",
@@ -325,6 +335,8 @@
     :nec 1349,
     :cp7 nil,
     :id #uuid "b780e95a-4c4a-3cb6-89c0-287311e007ac",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/c62b6c3b-nova-de-tomar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"}}]
  ["tomar-drive-01433"
@@ -361,6 +373,7 @@
    :imt-profile
    {:address "Estrada do Barreiro, n.º 9 B, 2300-442, Tomar",
     :name "Tomar Drive",
+    :href-id #uuid "983cd44b-1c99-36ca-ade2-70705ace78c5",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TomarDrive.aspx",
@@ -368,12 +381,16 @@
     :nec 1433,
     :cp7 "2300-442",
     :id #uuid "f90e4428-0aa5-3e9e-8174-7db5a79944a7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/983cd44b-tomar-drive.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
    :geocode
-   {:cp7 "2300-442",
+   {:id #uuid "f90e4428-0aa5-3e9e-8174-7db5a79944a7",
+    :address "Estrada do Barreiro, n.º 9 B, 2300-442, Tomar",
+    :address-c "Estrada do Barreiro 9B, 2300-442, Tomar, Santarém",
     :postal-c "2300-442",
-    :x -8.400110010243992,
-    :y 39.606624985861885,
-    :score 100,
-    :c 1}}]]
+    :x -8.402300033905675,
+    :y 39.60640001558065,
+    :score 94.91,
+    :c 2}}]]

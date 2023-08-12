@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Silveira Campos, 25 r/c 4490-107 A VER-O-MAR",
   :name "Vermar",
+  :href-id #uuid "305b8e6e-86a2-3bdd-a797-c60ba371b165",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vermar1047.aspx",
@@ -94,6 +95,8 @@
   :nec 887,
   :cp7 "4490-107",
   :id #uuid "f7278ce9-fe68-3769-af8d-d336f02e93b3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/305b8e6e-vermar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
  :geocode

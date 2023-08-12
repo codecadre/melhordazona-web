@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Comércio, nº 8 r/c 3740-251 SEVER DO VOUGA",
   :name "Sever do Vouga",
+  :href-id #uuid "42872a83-40c1-324d-b74c-5742a7097de3",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SeverdoVouga970.aspx",
@@ -94,6 +95,8 @@
   :nec 459,
   :cp7 "3740-251",
   :id #uuid "8ec29d7a-ac3d-33d4-8d31-2ff07fc0d958",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/sever-do-vouga/42872a83-sever-do-vouga.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Sever%20do%20Vouga"},
  :geocode

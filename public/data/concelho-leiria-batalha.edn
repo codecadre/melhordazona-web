@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Mouratos - Golpilheira 2440-042 BATALHA",
     :name "Batalhense",
+    :href-id #uuid "fef99127-653a-3300-a62a-7c91e3e3a1e9",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Batalhense224.aspx",
@@ -95,15 +96,19 @@
     :nec 588,
     :cp7 "2440-042",
     :id #uuid "45c8c2ba-ac91-3c03-a7f6-27f1a3fc78c1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/batalha/fef99127-batalhense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"},
    :geocode
-   {:cp7 "2440-042",
-    :postal-c "2440-042",
-    :x -8.825865010184174,
-    :y 39.65310498590259,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "45c8c2ba-ac91-3c03-a7f6-27f1a3fc78c1",
+    :address "Mouratos - Golpilheira 2440-042 BATALHA",
+    :address-c "2440-234, Golpilheira, Batalha, Leiria",
+    :postal-c "2440-234",
+    :x -8.819146716990598,
+    :y 39.68652111221724,
+    :score 89.1,
+    :c 3}}]
  ["bagagem-01012"
   {:nec 1012,
    :rates
@@ -195,6 +200,7 @@
    {:address
     "Urbanização do Infante - Rua Ribeiro da Calva, Nº 4, Loja-C 2440-057 BATALHA",
     :name "Bagagem",
+    :href-id #uuid "ae5bf260-6285-3871-bb16-f9ac50993c3c",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bagagem210.aspx",
@@ -202,15 +208,21 @@
     :nec 1012,
     :cp7 "2440-057",
     :id #uuid "8c01b732-8798-3808-8beb-48fa510aea56",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/batalha/ae5bf260-bagagem.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"},
    :geocode
-   {:cp7 "2440-057",
-    :postal-c "2440-057",
-    :x -8.818805016958521,
-    :y 39.662270010291735,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "8c01b732-8798-3808-8beb-48fa510aea56",
+    :address
+    "Urbanização do Infante - Rua Ribeiro da Calva, Nº 4, Loja-C 2440-057 BATALHA",
+    :address-c
+    "Rua Ribeiro da Calva 4, 2440-035, Forneiros, Batalha, Leiria",
+    :postal-c "2440-035",
+    :x -8.81555887798219,
+    :y 39.66372500813391,
+    :score 94.81,
+    :c 3}}]
  ["riachense-01163"
   {:nec 1163,
    :rates
@@ -302,6 +314,7 @@
    {:address
     "Estrada do Vale de Ourém, 18, Fr. B - R/C Esq, 2495-032 São Mamede",
     :name "Riachense",
+    :href-id #uuid "59e08c2c-40c2-36ea-9702-1f94d66db6fe",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Riachense.aspx",
@@ -309,6 +322,8 @@
     :nec 1163,
     :cp7 "2495-032",
     :id #uuid "ff047d01-627d-3a91-8c82-e9047446b96f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/batalha/59e08c2c-riachense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"},
    :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo do Mercado, Nº 32-B 3830-097 ÍLHAVO",
   :name "Santa Margarida",
+  :href-id #uuid "39e911ea-55ef-3d20-82bb-e5898f36e157",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMargarida926.aspx",
@@ -94,6 +95,8 @@
   :nec 189,
   :cp7 "3830-097",
   :id #uuid "588f141e-b048-3e2a-95cd-8262e35a760e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ilhavo/39e911ea-santa-margarida.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
  :geocode

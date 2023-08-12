@@ -89,6 +89,7 @@
    {:address
     "Rua Dr. Carlos Campos - Apartado 1 3400-058 OLIVEIRA do HOSPITAL",
     :name "Oliveirense",
+    :href-id #uuid "8ab70478-b02b-3620-811d-0239eaa73d3b",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oliveirense749.aspx",
@@ -96,15 +97,21 @@
     :nec 192,
     :cp7 "3400-058",
     :id #uuid "e7c52af4-4db2-3e21-8caf-b03104b75886",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/oliveira-do-hospital/8ab70478-oliveirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Oliveira%20Hospital"},
    :geocode
-   {:cp7 "3400-058",
+   {:id #uuid "e7c52af4-4db2-3e21-8caf-b03104b75886",
+    :address
+    "Rua Dr. Carlos Campos - Apartado 1 3400-058 OLIVEIRA do HOSPITAL",
+    :address-c
+    "Avenida Doutor Carlos Campos, 3400-058, Oliveira do Hospital, Coimbra",
     :postal-c "3400-058",
-    :x -7.858539991014879,
-    :y 40.36190998291687,
-    :score 100,
-    :c 1}}]
+    :x -7.860091390353772,
+    :y 40.361960022878804,
+    :score 86.03,
+    :c 3}}]
  ["fica-00715"
   {:nec 715,
    :rates
@@ -195,6 +202,7 @@
    :imt-profile
    {:address "Rua António Nobre 16- A 3400-084 OLIVEIRA DO HOSPITAL",
     :name "Fica",
+    :href-id #uuid "3e2143ad-0ab9-3159-8ad2-142310889da2",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fica454.aspx",
@@ -202,6 +210,8 @@
     :nec 715,
     :cp7 "3400-084",
     :id #uuid "881ff11f-5e05-375e-8020-476092082152",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/oliveira-do-hospital/3e2143ad-fica.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Oliveira%20Hospital"},
    :geocode

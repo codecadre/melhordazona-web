@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua S. João de Deus, Nº 76 R/C e 1º 4620-660 SILVARES",
     :name "A Lousadense",
+    :href-id #uuid "0e064533-d509-300f-933d-f7780bbe0fb2",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ALousadense025.aspx",
@@ -95,6 +96,8 @@
     :nec 430,
     :cp7 "4620-660",
     :id #uuid "722870f9-acdb-32fb-8cf8-a740f3cd31ff",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/0e064533-a-lousadense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Rua Visconde de Alentem 4620-650 SILVARES",
     :name "Ideal de Lousada",
+    :href-id #uuid "d673913f-906a-3008-a049-8882b0d3e3a2",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealdeLousada515.aspx",
@@ -203,6 +207,8 @@
     :nec 553,
     :cp7 "4620-650",
     :id #uuid "00b0add3-1806-3a93-9452-a98aec17eef6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/d673913f-ideal-de-lousada.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
    :geocode
@@ -305,6 +311,7 @@
    {:address
     "Avª dos Combatentes da Grande Guerra, Nº 407 4620-131 CRISTELOS",
     :name "Santa Quitéria",
+    :href-id #uuid "00cddcb1-74af-3fc4-a504-0bbcbf8b067d",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaQuiteria934.aspx",
@@ -312,6 +319,8 @@
     :nec 719,
     :cp7 "4620-131",
     :id #uuid "b120e54a-66ec-378e-a253-f00c5886695a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/00cddcb1-santa-quiteria.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
    :geocode
@@ -416,6 +425,7 @@
    {:address
     "Rua de Lagoas, n.º 208 (Edifício Valmésio, Loja 2), 4620 - 429 NEVOGILDE",
     :name "A Nortenha",
+    :href-id #uuid "3ff9effb-cf18-3006-b4c7-d7520e4dfcda",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ANortenha032.aspx",
@@ -423,6 +433,8 @@
     :nec 761,
     :cp7 "4620-429",
     :id #uuid "a7738306-458d-3134-a6fa-44e953ee10df",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/3ff9effb-a-nortenha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
    :geocode
@@ -522,6 +534,7 @@
    :imt-profile
    {:address "Edifício Mira Torre – Fracção Q R/C 4620-761 TORNO",
     :name "Senhora Aparecida",
+    :href-id #uuid "584210b0-e634-3738-9138-8363a04954ed",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoraAparecida955.aspx",
@@ -529,6 +542,8 @@
     :nec 822,
     :cp7 "4620-761",
     :id #uuid "6e758a56-d4d2-397d-8980-690f173dd281",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/584210b0-senhora-aparecida.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"}}]
  ["volante-livre-00827"
@@ -622,6 +637,7 @@
    {:address
     "Avª dos Combatentes da Grande Guerra n º 342 4620-141 CRISTELO",
     :name "Volante Livre",
+    :href-id #uuid "651d4d2f-953d-390f-8d11-671a03417458",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolanteLivre1087.aspx",
@@ -629,6 +645,8 @@
     :nec 827,
     :cp7 "4620-141",
     :id #uuid "f62830a0-0f78-3291-badc-9de34a2be3dd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/651d4d2f-volante-livre.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
    :geocode
@@ -732,6 +750,7 @@
    :imt-profile
    {:address "Lugar do Corgo-Edificio Santiago 4620-294 LUSTOSA",
     :name "A Moderna de Lustosa",
+    :href-id #uuid "ad9945bd-bc1d-3e60-a58e-395cb0c5a725",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AModernadeLustosa028.aspx",
@@ -739,6 +758,8 @@
     :nec 896,
     :cp7 "4620-294",
     :id #uuid "67819a40-bf6d-31fe-b862-39748a0c9380",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/ad9945bd-a-moderna-de-lustosa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
    :geocode
@@ -838,6 +859,7 @@
    :imt-profile
    {:address "Lugar da Sobreira 4620-074 CAIDE de REI",
     :name "Globo",
+    :href-id #uuid "87a5f9fd-b9f5-38eb-a7ff-c69a3a5e407f",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Globo489.aspx",
@@ -845,6 +867,8 @@
     :nec 1250,
     :cp7 "4620-074",
     :id #uuid "a84709ef-7403-3fb5-aae7-a97d83730cb6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/lousada/87a5f9fd-globo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Lousada"},
    :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Diogo Botelho nº 137 r/c Esq 4150-262 PORTO",
   :name "Lordelo",
+  :href-id #uuid "c8100c56-cce7-34a5-bfb2-6cab7574c8ce",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lordelo603.aspx",
@@ -94,6 +95,8 @@
   :nec 1124,
   :cp7 "4150-262",
   :id #uuid "fc29fef5-42e3-37cc-8257-d98e296623f3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/c8100c56-lordelo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

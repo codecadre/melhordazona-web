@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua D. Carlos de Mascarenhas, 76-A 1070-083 LISBOA",
   :name "Campolide",
+  :href-id #uuid "6d397ffc-2b46-39f9-b0b3-335208fc90a3",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Automovel191.aspx",
@@ -80,6 +81,8 @@
   :nec 38,
   :cp7 "1070-083",
   :id #uuid "473206e9-8bdd-3096-8f6a-9cd2a22d6fed",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/6d397ffc-campolide.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

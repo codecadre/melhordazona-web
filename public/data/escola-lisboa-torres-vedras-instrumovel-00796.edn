@@ -88,6 +88,7 @@
  {:address
   "Várzea do Choupal -Edifício Choupal r/c Esqº -Corpo C 2560-230 TORRES VEDRAS",
   :name "Instromóvel",
+  :href-id #uuid "1cf64d79-e242-3194-8ff3-386d16bfcf48",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Instromovel559.aspx",
@@ -95,6 +96,8 @@
   :nec 796,
   :cp7 "2560-230",
   :id #uuid "03beee01-c345-370d-88ed-c783ae76b384",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/1cf64d79-instromovel.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
  :geocode

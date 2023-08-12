@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Ecilia Costa, Nº 7 – C 2825-001 CAPARICA",
   :name "Instrucosta",
+  :href-id #uuid "dee725a8-67b4-3608-b412-e6b8ae0d02b3",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Instrucosta561.aspx",
@@ -94,12 +95,17 @@
   :nec 1157,
   :cp7 "2825-001",
   :id #uuid "ba6faa26-de99-3ccf-a8c5-d3bd945b1a73",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/dee725a8-instrucosta.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
  :geocode
- {:cp7 "2825-001",
-  :postal-c "2825-001",
-  :x -9.185830033005146,
-  :y 38.66619497941164,
-  :score 100,
+ {:id #uuid "ba6faa26-de99-3ccf-a8c5-d3bd945b1a73",
+  :address "Rua Ecilia Costa, Nº 7 – C 2825-001 CAPARICA",
+  :address-c
+  "Rua Ercília Costa 7C, 2825-322, Costa da Caparica, Almada, Setúbal",
+  :postal-c "2825-322",
+  :x -9.232020019195971,
+  :y 38.64348999627097,
+  :score 93.2,
   :c 1}}

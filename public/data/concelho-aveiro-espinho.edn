@@ -87,7 +87,9 @@
      :r/t-done 123.0}],
    :imt-profile
    {:address "Rua 21, n.º 410; 4520-258 Espinho",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "A Desportiva - Espinho",
+    :href-id #uuid "fadd5928-adbb-36b4-9196-253b2360f09c",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ADesportivaEspinho011.aspx",
@@ -95,17 +97,12 @@
     :nec 463,
     :cp7 "4520-258",
     :id #uuid "1cd0898e-0cc2-32ea-a279-8440c41b9ea2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/fadd5928-a-desportiva-espinho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
-   :geocode
-   {:id #uuid "1cd0898e-0cc2-32ea-a279-8440c41b9ea2",
-    :address "Rua 21, n 410; 4520-258 Espinho",
-    :address-c "Rua 21 410, 4500-267, Espinho, Aveiro",
-    :postal-c "4500-267",
-    :x -8.640883737503026,
-    :y 41.00811119885399,
-    :score 96.96,
-    :c 1}}]
+   :obs "archived and nec and href was reused.",
+   :overwrite/notes nil}]
  ["costa-verde-00536"
   {:nec 536,
    :rates
@@ -196,6 +193,7 @@
    :imt-profile
    {:address "Rua 16, nº 1139 4500-807 ESPINHO",
     :name "Costa Verde",
+    :href-id #uuid "c4af91c9-3209-3538-8841-6a377b92a9bc",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostaVerde343.aspx",
@@ -203,6 +201,8 @@
     :nec 536,
     :cp7 "4500-807",
     :id #uuid "f5fc4eaa-33c6-36a0-a7d7-66e18fabef0b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/c4af91c9-costa-verde.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
    :geocode
@@ -304,6 +304,7 @@
    :imt-profile
    {:address "Rua da Ponte de Anta, Nº 190 4500-088 ANTA",
     :name "Espinho",
+    :href-id #uuid "50f9b695-79bc-3978-bfc0-9810a91b2523",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Espinho411.aspx",
@@ -311,6 +312,8 @@
     :nec 1045,
     :cp7 "4500-088",
     :id #uuid "04b20b02-a34d-35b8-957e-2f6af065a771",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/50f9b695-espinho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
    :geocode
@@ -412,6 +415,7 @@
    :imt-profile
    {:address "Rua 32, n.º 798, 4500-190 ESPINHO",
     :name "RPM32",
+    :href-id #uuid "a24414e7-0e25-3f51-aab4-db2524c0477f",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RPM32.aspx",
@@ -419,12 +423,16 @@
     :nec 1327,
     :cp7 "4500-190",
     :id #uuid "589c00ef-7af5-3997-980d-61d2c79a1777",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/a24414e7-rpm32.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
    :geocode
-   {:cp7 "4500-190",
+   {:id #uuid "589c00ef-7af5-3997-980d-61d2c79a1777",
+    :address "Rua 32, n.º 798, 4500-190 ESPINHO",
+    :address-c "Rua 32, 4500-190, Espinho, Aveiro",
     :postal-c "4500-190",
-    :x -8.633820018094895,
-    :y 41.006220006852516,
-    :score 100,
-    :c 1}}]]
+    :x -8.634032977913117,
+    :y 41.00967548976785,
+    :score 92.71,
+    :c 4}}]]

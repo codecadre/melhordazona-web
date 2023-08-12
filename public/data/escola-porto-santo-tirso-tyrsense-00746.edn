@@ -17,6 +17,7 @@
  :imt-profile
  {:address "Rua Jornal de Santo Tirso n.º 1",
   :name "Tyrsense",
+  :href-id #uuid "8780e5e0-e87f-3b5d-9b70-321f55b65dd3",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tyrsense.aspx",
@@ -24,5 +25,17 @@
   :nec 746,
   :cp7 nil,
   :id #uuid "86ae1097-0079-367e-bd01-9b0eaa6eb31f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/santo-tirso/8780e5e0-tyrsense.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
+ :geocode
+ {:id #uuid "86ae1097-0079-367e-bd01-9b0eaa6eb31f",
+  :address "Rua Jornal de Santo Tirso n.º 1",
+  :address-c
+  "Rua do Jornal de Santo Tirso 1, 4780-484, Santo Tirso, Porto",
+  :postal-c "4780-484",
+  :x -8.481380021423746,
+  :y 41.34730998955075,
+  :score 90.25,
+  :c 5}}

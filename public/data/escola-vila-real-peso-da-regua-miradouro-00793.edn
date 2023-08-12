@@ -88,6 +88,7 @@
  {:address
   "Avª Sacadura Cabral, Edificio Sialto Loja 1 R/C 5050-078 GODIM",
   :name "Miradouro",
+  :href-id #uuid "64452c99-7aff-32ce-84a5-2a25150c3362",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Miradouro651.aspx",
@@ -95,6 +96,8 @@
   :nec 793,
   :cp7 "5050-078",
   :id #uuid "e21931eb-87ce-3ce6-9fe1-09585ec2a6d6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/peso-da-regua/64452c99-miradouro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
  :geocode

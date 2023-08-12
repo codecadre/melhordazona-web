@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de S. Macário, Nº 780-A-Lazarim 2825-001 CAPARICA",
   :name "Lazarim",
+  :href-id #uuid "1d427e77-cbab-3f8d-b981-3d43fa7bf389",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lazarim593.aspx",
@@ -94,12 +95,16 @@
   :nec 1213,
   :cp7 "2825-001",
   :id #uuid "e776c98e-a8c0-3d53-8c02-b005abea99bc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/1d427e77-lazarim.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
  :geocode
- {:cp7 "2825-001",
-  :postal-c "2825-001",
-  :x -9.185830033005146,
-  :y 38.66619497941164,
-  :score 100,
+ {:id #uuid "e776c98e-a8c0-3d53-8c02-b005abea99bc",
+  :address "Rua de S. Macário, Nº 780-A-Lazarim 2825-001 CAPARICA",
+  :address-c "Rua São Macário 780A, 2825-159, Almada, Setúbal",
+  :postal-c "2825-159",
+  :x -9.199980026669778,
+  :y 38.64550001856196,
+  :score 94.69,
   :c 1}}

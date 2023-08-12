@@ -31,6 +31,7 @@
  :imt-profile
  {:address "Av. da República, nº24, r/c , Trancoso",
   :name "ABC da Estrada",
+  :href-id #uuid "bc02c95a-a0b3-34ad-8a80-545494d4e82b",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ABCdaEstrada.aspx",
@@ -38,6 +39,8 @@
   :nec 1438,
   :cp7 nil,
   :id #uuid "0a795374-d0d0-3e1b-841c-ad0fcc0c1182",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/trancoso/bc02c95a-abc-da-estrada.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"},
  :geocode

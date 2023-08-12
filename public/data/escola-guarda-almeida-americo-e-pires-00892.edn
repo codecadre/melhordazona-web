@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Bairro da Bela Vista 6355-201 VILAR FORMOSO",
   :name "Américo e Pires",
+  :href-id #uuid "4668ef0d-d995-39a2-b2be-f47eb66cd149",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AmericoePires103.aspx",
@@ -94,12 +95,17 @@
   :nec 892,
   :cp7 "6355-201",
   :id #uuid "e8ac3ae8-b81e-3d95-a0eb-691b1bb81a53",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/almeida/4668ef0d-americo-e-pires.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Almeida"},
  :geocode
- {:cp7 "6355-201",
+ {:id #uuid "e8ac3ae8-b81e-3d95-a0eb-691b1bb81a53",
+  :address "Bairro da Bela Vista 6355-201 VILAR FORMOSO",
+  :address-c
+  "Rua da Bela Vista, 6355-201, Vilar Formoso, Almeida, Guarda",
   :postal-c "6355-201",
-  :x -6.8358649904075435,
-  :y 40.615845020215886,
-  :score 100,
-  :c 1}}
+  :x -6.8360636426085755,
+  :y 40.615741830780664,
+  :score 87.94,
+  :c 2}}

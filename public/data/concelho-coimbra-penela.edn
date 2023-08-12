@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Bairro de S. Jorge 3230-257 PENELA",
     :name "Penelense",
+    :href-id #uuid "20843151-3467-38e5-b1b6-df3799c0992f",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Penelense784.aspx",
@@ -95,6 +96,8 @@
     :nec 482,
     :cp7 "3230-257",
     :id #uuid "50a55030-a87e-3c0e-8d8a-6947a7b3d714",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/penela/20843151-penelense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Penela"},
    :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praça da República,17-1º 3000-343 COIMBRA",
   :name "Albertino",
+  :href-id #uuid "4f7956ef-d9a6-3bcc-8213-516ea4b6d5c5",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Albertino070.aspx",
@@ -94,6 +95,8 @@
   :nec 64,
   :cp7 "3000-343",
   :id #uuid "687bbcba-e6ce-394b-8c8a-f2780124bfce",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/coimbra/4f7956ef-albertino.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
  :geocode

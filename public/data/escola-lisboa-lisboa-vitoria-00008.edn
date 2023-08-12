@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Palmira, 64 – 1º Esqº 1170 -286 LISBOA",
   :name "Victória",
+  :href-id #uuid "b92a2633-fb9e-3566-8b8e-fb85a58e5c52",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Victoria1061.aspx",
@@ -94,6 +95,8 @@
   :nec 8,
   :cp7 "1170-286",
   :id #uuid "40e8ceb3-f802-3e9c-9dc8-b1e441812c86",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/b92a2633-victoria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

@@ -89,6 +89,7 @@
    {:address
     "Rua Prof. Dr. Aristides Amorim Girão, Lote 22/23, Fracção G 3670-237 VOUZELA",
     :name "Vouzelense",
+    :href-id #uuid "db344c92-224a-3646-9a97-567b0a9f52b6",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vouzelense1090.aspx",
@@ -96,6 +97,8 @@
     :nec 344,
     :cp7 "3670-237",
     :id #uuid "b8875c50-2864-3fe9-bd02-c78f1153b93e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/vouzela/db344c92-vouzelense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Vouzela"},
    :geocode

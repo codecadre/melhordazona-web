@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Abranches Ferrão, n.º 21 A, 1600-296 Lisboa",
   :name "Laranjeiras",
+  :href-id #uuid "55a0b557-97f7-3d13-a9e9-3d06e73e48af",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Laranjeiras.aspx",
@@ -94,6 +95,8 @@
   :nec 1280,
   :cp7 "1600-296",
   :id #uuid "825f7686-298b-3ac9-9604-c4b4e34cb86d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/55a0b557-laranjeiras.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

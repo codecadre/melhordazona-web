@@ -88,6 +88,7 @@
  {:address
   "Urbanização Pá da Ribeira, Lote 10, R/C Esqº 2040-277 RIO MAIOR",
   :name "Via Maior",
+  :href-id #uuid "1aba788c-6294-38cb-833c-804392f7da65",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaMaior1050.aspx",
@@ -95,6 +96,8 @@
   :nec 1061,
   :cp7 "2040-277",
   :id #uuid "612d29f6-2caa-3280-8e4b-747eb1f7384a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/rio-maior/1aba788c-via-maior.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Rio%20Maior"},
  :geocode

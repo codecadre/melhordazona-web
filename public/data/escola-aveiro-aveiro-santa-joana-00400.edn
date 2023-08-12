@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Aviação Naval nº A e B -Glória 3810-055 AVEIRO",
   :name "Santa Joana",
+  :href-id #uuid "7828f368-ecce-359f-af49-848344b2e56d",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaJoana923.aspx",
@@ -94,12 +95,16 @@
   :nec 400,
   :cp7 "3810-055",
   :id #uuid "a229ee04-3cfa-336f-a536-756c15bb5a99",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/7828f368-santa-joana.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
  :geocode
- {:cp7 "3810-055",
+ {:id #uuid "a229ee04-3cfa-336f-a536-756c15bb5a99",
+  :address "Rua Aviação Naval nº A e B -Glória 3810-055 AVEIRO",
+  :address-c "Rua da Aviação Naval, 3810-055, Aveiro",
   :postal-c "3810-055",
-  :x -8.6475137847697,
-  :y 40.634390400086716,
-  :score 100,
-  :c 1}}
+  :x -8.647514932036884,
+  :y 40.634391462681116,
+  :score 90.13,
+  :c 3}}

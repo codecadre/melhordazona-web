@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. Fernando Aroso, Nº 1028 4455-665 LEÇA da PALMEIRA",
   :name "Global",
+  :href-id #uuid "b09e6f46-84e9-33e3-9255-3bf50abd6209",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Global488.aspx",
@@ -94,5 +95,17 @@
   :nec 1150,
   :cp7 "4455-665",
   :id #uuid "9b8b8d63-f388-30f7-841e-51dfbd847911",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/b09e6f46-global.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+ :geocode
+ {:id #uuid "9b8b8d63-f388-30f7-841e-51dfbd847911",
+  :address "Av. Fernando Aroso, Nº 1028 4455-665 LEÇA da PALMEIRA",
+  :address-c
+  "Avenida Doutor Fernando Aroso 1028, 4450-664, Amorosa, Matosinhos, Porto",
+  :postal-c "4450-664",
+  :x -8.696250025507169,
+  :y 41.19941998328986,
+  :score 93.84,
+  :c 1}}

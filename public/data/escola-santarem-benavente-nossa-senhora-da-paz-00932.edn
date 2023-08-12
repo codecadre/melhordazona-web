@@ -88,6 +88,7 @@
  {:address
   "Rua Joaquim Rodrigues Parracho, Lote 25 r/c Dtº 2130-060 BENAVENTE",
   :name "Nossa Senhora da Paz",
+  :href-id #uuid "f64c9ba7-bd59-3308-b5be-84e85f550b57",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NossaSenhoradaPaz696.aspx",
@@ -95,6 +96,8 @@
   :nec 932,
   :cp7 "2130-060",
   :id #uuid "6604871b-f598-373f-a4c8-cf8d86a816ae",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/benavente/f64c9ba7-nossa-senhora-da-paz.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Benavente"},
  :geocode

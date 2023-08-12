@@ -87,6 +87,7 @@
  :imt-profile
  {:address "EN 2 Venda da Pedra - Sertã 6100-707 SERTÃ",
   :name "Silvino Lopes",
+  :href-id #uuid "9895821d-9b6d-3481-91e7-604c0d92a567",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SilvinoLopes973.aspx",
@@ -94,12 +95,16 @@
   :nec 1204,
   :cp7 "6100-707",
   :id #uuid "55873886-1cd1-32b9-a72b-e01bf76e49db",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/9895821d-silvino-lopes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
  :geocode
- {:cp7 "6100-707",
+ {:id #uuid "55873886-1cd1-32b9-a72b-e01bf76e49db",
+  :address "EN 2 Venda da Pedra - Sertã 6100-707 SERTÃ",
+  :address-c "6100-707, Venda da Pedra, Sertã, Castelo Branco",
   :postal-c "6100-707",
-  :x -8.101676790091062,
-  :y 39.79396148575188,
-  :score 100,
-  :c 1}}
+  :x -8.102008203217265,
+  :y 39.79564508611097,
+  :score 88.2,
+  :c 2}}

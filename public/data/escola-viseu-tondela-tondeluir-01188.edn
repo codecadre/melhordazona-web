@@ -88,6 +88,7 @@
  {:address
   "Av. Eng. Adelino Amaro da Costa - Lote 1 Lj. 844 3460-009 TONDELA",
   :name "Tondeluir",
+  :href-id #uuid "4f022c81-f5f2-3cf3-9a9c-ae1f2bb7df39",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tondeluir1013.aspx",
@@ -95,12 +96,18 @@
   :nec 1188,
   :cp7 "3460-009",
   :id #uuid "59a34454-a3ea-3db4-8405-d22cc824bd55",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/tondela/4f022c81-tondeluir.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Tondela"},
  :geocode
- {:cp7 "3460-009",
-  :postal-c "3460-009",
-  :x -8.104160012725828,
-  :y 40.5331450144449,
-  :score 100,
-  :c 1}}
+ {:id #uuid "59a34454-a3ea-3db4-8405-d22cc824bd55",
+  :address
+  "Av. Eng. Adelino Amaro da Costa - Lote 1 Lj. 844 3460-009 TONDELA",
+  :address-c
+  "Avenida Eng. Adelino Amaro da Costa, 3460, Tondela, Viseu",
+  :postal-c "3460",
+  :x -8.07407666806543,
+  :y 40.52280843964321,
+  :score 91.25,
+  :c 5}}

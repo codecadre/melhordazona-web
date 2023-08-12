@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Major Neutel de Abreu 3260-427 FIGUEIRÓ DOS VINHOS",
   :name "Figueiroense",
+  :href-id #uuid "0dfa3b30-48e4-3a32-be07-adc4c4f6e4a9",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Figueiroense457.aspx",
@@ -94,6 +95,8 @@
   :nec 473,
   :cp7 "3260-427",
   :id #uuid "44f8c6a1-548d-3923-93b7-c47cd93182a5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/figueiro-dos-vinhos/0dfa3b30-figueiroense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Figueir%C3%B3%20dos%20Vinhos"},
  :geocode

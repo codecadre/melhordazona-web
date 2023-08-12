@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Carolina Michaelis, nº 12 cave 2780 OEIRAS",
   :name "Linda-A-Velha",
+  :href-id #uuid "ab535a55-344b-33bd-986a-3e543907593f",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LindaAVelha599.aspx",
@@ -94,6 +95,8 @@
   :nec 492,
   :cp7 "2780",
   :id #uuid "20a0bb83-15dc-3c6c-a223-4e70480c1800",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/ab535a55-linda-a-velha.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
  :geocode

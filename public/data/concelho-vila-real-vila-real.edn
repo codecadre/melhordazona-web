@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua da Misericórdia, nº 2 5000-653 VILA REAL",
     :name "Auto Real",
+    :href-id #uuid "71e0b335-ac62-31b4-b757-192195759d1a",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoReal173.aspx",
@@ -95,6 +96,8 @@
     :nec 95,
     :cp7 "5000-653",
     :id #uuid "dbee1129-6f8d-3d86-9015-eff207987d16",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/71e0b335-auto-real.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
    :geocode
@@ -197,6 +200,7 @@
    {:address
     "Largo do Pelourinho, 11 - 3º Esqº 5000-513 VILA REAL (SÃO DINIS)",
     :name "Auto Marão",
+    :href-id #uuid "244642f5-0d04-3195-b22b-1d7bb18a907f",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoMarao162.aspx",
@@ -204,6 +208,8 @@
     :nec 128,
     :cp7 "5000-513",
     :id #uuid "c6171a88-6085-30c7-be34-faee5b62c94f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/244642f5-auto-marao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
    :geocode
@@ -307,6 +313,7 @@
    {:address
     "Rua de Santo António – Entrada B (Pioledo) 5000-607 VILA REAL (S. PEDRO)",
     :name "Vilarealense",
+    :href-id #uuid "b090db9c-641c-31ad-bafb-688e69772ea9",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vilarealense1071.aspx",
@@ -314,15 +321,20 @@
     :nec 656,
     :cp7 "5000-607",
     :id #uuid "4b254680-477d-392f-9889-cce340d42504",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/b090db9c-vilarealense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
    :geocode
-   {:cp7 "5000-607",
+   {:id #uuid "4b254680-477d-392f-9889-cce340d42504",
+    :address
+    "Rua de Santo António – Entrada B (Pioledo) 5000-607 VILA REAL (S. PEDRO)",
+    :address-c "Rua de Santo António, 5000-607, Vila Real",
     :postal-c "5000-607",
-    :x -7.742784986152685,
-    :y 41.30246500545297,
-    :score 100,
-    :c 1}}]
+    :x -7.742369914307432,
+    :y 41.304030053459115,
+    :score 86.13,
+    :c 8}}]
  ["ip4-00760"
   {:nec 760,
    :rates
@@ -344,6 +356,7 @@
    {:address
     "Avª Cidade de Orense, lote 3, loja 41 5000-674 VILA REAL (S. DINIS)",
     :name "IP4",
+    :href-id #uuid "82a75865-d113-3442-b28a-0b08bfb4e059",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EC-Condu%c3%a7%c3%a3o-IP4.aspx",
@@ -351,6 +364,8 @@
     :nec 760,
     :cp7 "5000-674",
     :id #uuid "c01b2431-9092-3c31-be8c-5f76e1be8336",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/82a75865-ip4.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
    :geocode
@@ -454,6 +469,7 @@
    {:address
     "Avª da Europa lote E 12 r/c Dtº 5000-557 VILA REAL (N. S. da CONCEIÇÃO)",
     :name "Auto Cabril",
+    :href-id #uuid "417c2331-6a1a-33c4-ab6b-6701c57bf3ff",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoCabril143.aspx",
@@ -461,6 +477,8 @@
     :nec 813,
     :cp7 "5000-557",
     :id #uuid "bfed9b86-fc1e-3484-a8f5-2824d87ec528",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/417c2331-auto-cabril.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
    :geocode
@@ -559,7 +577,9 @@
      :r/t-done 41.0}],
    :imt-profile
    {:address "Avenida 25 de Abril, n.º 19 5430-420 Valpaços",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Ponto de Partida",
+    :href-id #uuid "c7d6eb8d-b69f-3d10-9d40-11dc8d90091e",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PontodePartida.aspx",
@@ -567,8 +587,12 @@
     :nec 1077,
     :cp7 "5430-420",
     :id #uuid "74d02e36-9dfb-3d9b-854b-071c7d8dcf81",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/c7d6eb8d-ponto-de-partida.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
+   :obs "two profiles with same name and nec and both archived.",
+   :overwrite/notes nil,
    :geocode
    {:id #uuid "74d02e36-9dfb-3d9b-854b-071c7d8dcf81",
     :address "Avenida 25 de Abril, n.º 19 5430-420 Valpaços",
@@ -669,6 +693,7 @@
    {:address
     "Quinta da Arancária, Lote 1 – Bloco A – loja 1 5000-000 VILA REAL (SÃO PEDRO)",
     :name "Stop Real",
+    :href-id #uuid "140e7fb6-53ba-317a-963a-f53ae4c098bb",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/StopReal992.aspx",
@@ -676,6 +701,8 @@
     :nec 1130,
     :cp7 "5000-000",
     :id #uuid "9cdf692d-dbf7-3d55-8608-6c0dce36e684",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/140e7fb6-stop-real.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}]
  ["j-l-01253"
@@ -769,6 +796,7 @@
    {:address
     "Rua Major António Fernandes Varão, Lote 15-Loja A-3 5000-414 VILA REAL",
     :name "J. L.",
+    :href-id #uuid "fdb63728-b32a-3166-b5af-c3cb29a58c0e",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JL571.aspx",
@@ -776,15 +804,21 @@
     :nec 1253,
     :cp7 "5000-414",
     :id #uuid "dcdcb58c-0af6-3b3a-a6e4-4d814bdfe075",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/fdb63728-j-l.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
    :geocode
-   {:cp7 "5000-414",
-    :postal-c "5000-414",
-    :x -7.731440583118911,
-    :y 41.30793960360248,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "dcdcb58c-0af6-3b3a-a6e4-4d814bdfe075",
+    :address
+    "Rua Major António Fernandes Varão, Lote 15-Loja A-3 5000-414 VILA REAL",
+    :address-c
+    "Rua Major António Fernandes Varão, 5000-055, Vila Real",
+    :postal-c "5000-055",
+    :x -7.738065913192889,
+    :y 41.30864693268354,
+    :score 91.13,
+    :c 3}}]
  ["aleu-01260"
   {:nec 1260,
    :rates
@@ -876,6 +910,7 @@
    {:address
     "Rua Actor Rui de Carvalho, Lote 5, Loja R/C 5000-262 VILA REAL",
     :name "Aléu",
+    :href-id #uuid "92c506f9-47ce-3405-a1ff-bc9dd4842cff",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aleu079.aspx",
@@ -883,15 +918,20 @@
     :nec 1260,
     :cp7 "5000-262",
     :id #uuid "89e14534-5919-3abf-96e0-9d1d8a42e552",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/92c506f9-aleu.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
    :geocode
-   {:cp7 "5000-262",
-    :postal-c "5000-262",
-    :x -7.722617121284173,
-    :y 41.309828465483065,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "89e14534-5919-3abf-96e0-9d1d8a42e552",
+    :address
+    "Rua Actor Rui de Carvalho, Lote 5, Loja R/C 5000-262 VILA REAL",
+    :address-c "Rua Actor Ruy de Carvalho, 5000-542, Vila Real",
+    :postal-c "5000-542",
+    :x -7.732777476127768,
+    :y 41.300262774587765,
+    :score 90.45,
+    :c 3}}]
  ["auto-corgo-01278"
   {:nec 1278,
    :rates
@@ -983,6 +1023,7 @@
    {:address
     "Rua Dr. José Correia Lacerda, Bloco C, n.º 5 5000-440 Vila Real",
     :name "Auto Corgo",
+    :href-id #uuid "14c4d132-cc96-3d16-8cdb-27df074b44a0",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoCorgo.aspx",
@@ -990,6 +1031,8 @@
     :nec 1278,
     :cp7 "5000-440",
     :id #uuid "0bcc7596-bf1e-375e-8e6f-204b130499b2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/14c4d132-auto-corgo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
    :geocode
@@ -1020,6 +1063,7 @@
    {:address
     "Lugar do Cano, Avenida de Osnabruck, Lote 17, fração B, 5000-448 Vila Real",
     :name "Circuito",
+    :href-id #uuid "7e879f11-afb5-3dbd-a4e4-0814c6635e12",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Circuito.aspx",
@@ -1027,6 +1071,8 @@
     :nec 1439,
     :cp7 "5000-448",
     :id #uuid "f674a64b-f087-31a4-ab96-ab2ca7a51237",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/7e879f11-circuito.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
    :geocode

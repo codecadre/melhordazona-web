@@ -88,6 +88,7 @@
  {:address
   "Rua General Ferreira Martins, n.º 30 - R/C Loja, 1495-137 Algés",
   :name "Miraflores",
+  :href-id #uuid "994bda9e-94d1-313a-a9f4-0e62449c8cf6",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Miraflores.aspx",
@@ -95,12 +96,18 @@
   :nec 1131,
   :cp7 "1495-137",
   :id #uuid "dfc5323d-ea80-3dda-a9b3-f87b2595d3e9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/994bda9e-miraflores.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
  :geocode
- {:cp7 "1495-137",
+ {:id #uuid "dfc5323d-ea80-3dda-a9b3-f87b2595d3e9",
+  :address
+  "Rua General Ferreira Martins, n.º 30 - R/C Loja, 1495-137 Algés",
+  :address-c
+  "Rua General Ferreira Martíns 30, 1495-137, Algés, Oeiras, Lisboa",
   :postal-c "1495-137",
-  :x -9.224355020199141,
-  :y 38.7075299996452,
-  :score 100,
+  :x -9.224141621482731,
+  :y 38.70753424396599,
+  :score 94.83,
   :c 1}}

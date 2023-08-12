@@ -88,6 +88,7 @@
  {:address
   "Rua Sargento Ajudante Manuel António, Nº 11 A 2720-356 AMADORA",
   :name "Cidade Nova",
+  :href-id #uuid "bfaa09d7-ede6-3bdd-8195-ce0767473bbc",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadeNova314.aspx",
@@ -95,6 +96,8 @@
   :nec 603,
   :cp7 "2720-356",
   :id #uuid "6045787b-fb62-33c0-8be0-eec3a67edf28",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/bfaa09d7-cidade-nova.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
  :geocode

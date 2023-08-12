@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua de S. Miguel, Nº 7-1 B 6000-181 CASTELO BRANCO",
     :name "Albicastrense",
+    :href-id #uuid "7c9f0a15-9319-39b2-8561-ea76a064ea05",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Albicastrense071.aspx",
@@ -95,6 +96,8 @@
     :nec 101,
     :cp7 "6000-181",
     :id #uuid "316b40e1-0463-3f4b-abf3-bdd62560bc0a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/7c9f0a15-albicastrense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -197,6 +200,7 @@
    {:address
     "Rua Marquês D'Ávila e Bolama, Lote 5, Nº 357 R/C DTº 6200-053 COVILHÃ",
     :name "Covilhanense",
+    :href-id #uuid "65739be8-69c8-3ac1-851f-3b1d36f52449",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Covilhanense347.aspx",
@@ -204,6 +208,8 @@
     :nec 230,
     :cp7 "6200-053",
     :id #uuid "3da294f2-fdd3-33f3-967f-74271550dd57",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/65739be8-covilhanense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
    :geocode
@@ -308,6 +314,7 @@
    {:address
     "Rua Dr. José Mendes Matos, Lote 10, Fracção A, 6200-559 COVILHÃ",
     :name "Pacense",
+    :href-id #uuid "0e9e783e-e25c-37fc-9865-9728a07817cb",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Pacense762.aspx",
@@ -315,6 +322,8 @@
     :nec 308,
     :cp7 "6200-559",
     :id #uuid "6954eecd-445d-3f94-a530-3a7260228d32",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/0e9e783e-pacense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
    :geocode
@@ -418,6 +427,7 @@
    :imt-profile
    {:address "Rua Pedro Álvares Cabral, Nº 292 R/C 6250-088 BELMONTE",
     :name "Belmontense",
+    :href-id #uuid "efa46edd-9739-3b0f-a508-7072ad88045b",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Belmontense240.aspx",
@@ -425,6 +435,8 @@
     :nec 421,
     :cp7 "6250-088",
     :id #uuid "cc09c2d3-567d-3c7a-81e0-7fd70cca0606",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/belmonte/efa46edd-belmontense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Belmonte"},
    :geocode
@@ -527,6 +539,7 @@
    :imt-profile
    {:address "Rua Sidónio Pais 6150-422 PROENÇA-A-NOVA",
     :name "Proença – A - Nova",
+    :href-id #uuid "adcb5dbb-be83-3b58-8a8a-e3c2c0dd5623",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Proenca%e2%80%93ANova819.aspx",
@@ -534,6 +547,8 @@
     :nec 422,
     :cp7 "6150-422",
     :id #uuid "614a8a7d-239c-3516-b6ef-f9a716efbc04",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/proenca-a-nova/adcb5dbb-proenca-a-nova.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Proen%C3%A7a%20a%20Nova"},
    :geocode
@@ -633,6 +648,7 @@
    :imt-profile
    {:address "Estrada S. Domingos, Nº 64 R/c 6005-010 ALCAINS",
     :name "Alcains",
+    :href-id #uuid "2914c746-34e5-39f7-9926-4b0300fcb161",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alcains074.aspx",
@@ -640,6 +656,8 @@
     :nec 456,
     :cp7 "6005-010",
     :id #uuid "a4cb6702-9df2-3957-a07e-270901486da5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/2914c746-alcains.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -743,6 +761,7 @@
    {:address
     "Rua de Olivença, No Prédio Moço, s/nº-1º 6200-156 COVILHÃ",
     :name "A .Gomes - Covilhã",
+    :href-id #uuid "46dd0ad5-50ff-3454-b83a-fc58a1bba093",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AGomesCovilha002.aspx",
@@ -750,15 +769,20 @@
     :nec 472,
     :cp7 "6200-156",
     :id #uuid "3e718da7-99eb-37b0-a469-51ab4c0a4d15",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/46dd0ad5-a-gomes-covilha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
    :geocode
-   {:cp7 "6200-156",
+   {:id #uuid "3e718da7-99eb-37b0-a469-51ab4c0a4d15",
+    :address
+    "Rua de Olivença, No Prédio Moço, s/nº-1º 6200-156 COVILHÃ",
+    :address-c "Rua de Olivença, 6200-156, Covilhã, Castelo Branco",
     :postal-c "6200-156",
-    :x -7.50595498248282,
-    :y 40.27969998320552,
-    :score 100,
-    :c 1}}]
+    :x -7.5060767202192675,
+    :y 40.27935772178058,
+    :score 86.48,
+    :c 2}}]
  ["tecnica-do-volante-00496"
   {:nec 496,
    :rates
@@ -849,6 +873,7 @@
    :imt-profile
    {:address "Avª 1º de Maio, 49- 5/L Dtº 6000-086 CASTELO BRANCO",
     :name "Técnica do Volante",
+    :href-id #uuid "519fb107-db1c-31e4-9a88-d6b2e4588edf",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TecnicadoVolante997.aspx",
@@ -856,6 +881,8 @@
     :nec 496,
     :cp7 "6000-086",
     :id #uuid "57f9fe91-c303-3b2a-bbe8-cd64cd0c861b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/519fb107-tecnica-do-volante.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -958,6 +985,7 @@
    {:address
     "Rua da Filarmónica Idanhense, Lote 69, R/C Dtº 6060-101 IDANHA-A-NOVA",
     :name "Idanhense",
+    :href-id #uuid "73e0c526-6f6d-3ba8-96ac-d5b18955ca6b",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Idanhense509.aspx",
@@ -965,6 +993,8 @@
     :nec 556,
     :cp7 "6060-101",
     :id #uuid "e7621c47-7cbe-3058-abfe-3a98bfa1122c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/idanha-a-nova/73e0c526-idanhense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Idanha%20a%20Nova"},
    :geocode
@@ -1069,6 +1099,7 @@
    {:address
     "Rua de Acesso à Ribeira do Amioso, 1º-Esqº 6100-758 SERTÃ",
     :name "Moderna – Sertã",
+    :href-id #uuid "aec6b637-f478-3166-a7c3-c831f320c4a9",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moderna%e2%80%93Serta658.aspx",
@@ -1076,6 +1107,8 @@
     :nec 567,
     :cp7 "6100-758",
     :id #uuid "6586ae33-7597-3b10-b637-79550b0bdfd5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/aec6b637-moderna-serta.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
    :geocode
@@ -1175,6 +1208,7 @@
    :imt-profile
    {:address "Rua do Ramalhal, nº20 6160-418 OLEIROS",
     :name "Oleirense",
+    :href-id #uuid "f767cfe8-8f16-3ba5-b77f-478d06a0ad12",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oleirense742.aspx",
@@ -1182,6 +1216,8 @@
     :nec 591,
     :cp7 "6160-418",
     :id #uuid "89df91ba-b8af-3589-8dd5-738de3ab1232",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/oleiros/f767cfe8-oleirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Oleiros"},
    :geocode
@@ -1283,6 +1319,7 @@
    :imt-profile
    {:address "Loteamento Boavista, Lote 23 R/C DTº 6230 -287 FUNDÃO",
     :name "Triunfo - Fundão",
+    :href-id #uuid "ebc71537-a194-3747-99fc-17080546ec0f",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TriunfoFundao1024.aspx",
@@ -1290,6 +1327,8 @@
     :nec 592,
     :cp7 "6230-287",
     :id #uuid "fd03f829-02ba-3cd4-986d-0877186cb4e3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/fundao/ebc71537-triunfo-fundao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"},
    :geocode
@@ -1392,15 +1431,18 @@
    :imt-profile
    {:address "Estrada do Santuário, Nº 38 R/C Esq 6215-460 PAUL",
     :name "Senhora da Esperança",
+    :href-id #uuid "49c1efbd-aaa2-36aa-874a-64fbb105ffe5",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoradaEsperanca957.aspx",
-    :concelho "Belmonte",
+    :concelho "Covilhã",
     :nec 612,
     :cp7 "6215-460",
     :id #uuid "21af80cf-600a-3215-ae52-4424d3d6589a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/49c1efbd-senhora-da-esperanca.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Belmonte"},
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
    :geocode
    {:id #uuid "21af80cf-600a-3215-ae52-4424d3d6589a",
     :address "Estrada do Santuário, Nº 38 R/C Esq 6215-460 PAUL",
@@ -1501,6 +1543,7 @@
    :imt-profile
    {:address "Avª 25 de Abril, nº 21 6090-522 PENAMACOR",
     :name "Penamacor",
+    :href-id #uuid "08b4cf5c-0706-3c2d-9b6c-3de72fa55975",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Penamacor782.aspx",
@@ -1508,15 +1551,20 @@
     :nec 621,
     :cp7 "6090-522",
     :id #uuid "9457b4df-dae7-33c3-8d5c-1221ee4c582d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/penamacor/08b4cf5c-penamacor.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Penamacor"},
    :geocode
-   {:cp7 "6090-522",
+   {:id #uuid "9457b4df-dae7-33c3-8d5c-1221ee4c582d",
+    :address "Avª 25 de Abril, nº 21 6090-522 PENAMACOR",
+    :address-c
+    "Rua 25 de Abril 21, 6090-522, Penamacor, Castelo Branco",
     :postal-c "6090-522",
-    :x -7.171555015804046,
-    :y 40.167549992989535,
-    :score 100,
-    :c 1}}]
+    :x -7.172149963291446,
+    :y 40.16753000215047,
+    :score 93.42,
+    :c 4}}]
  ["a-cereja-00668"
   {:nec 668,
    :rates
@@ -1608,6 +1656,7 @@
    {:address
     "Loteamento Quinta do Espírito Santo, lote 10 r/c Frente 6230-329 FUNDÃO",
     :name "A Cereja",
+    :href-id #uuid "035c3e16-af4a-38d1-9233-2173e6767f72",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ACereja005.aspx",
@@ -1615,6 +1664,8 @@
     :nec 668,
     :cp7 "6230-329",
     :id #uuid "2ab49907-1192-3122-9793-687bc6136515",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/fundao/035c3e16-a-cereja.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"},
    :geocode
@@ -1715,6 +1766,7 @@
    {:address
     "Rua dos Pinheiros - Alto Ventoso 6100-205 CERNACHE BONJARDIM",
     :name "De Cernache de Bonjardim",
+    :href-id #uuid "af9ba30a-ec61-3104-8130-6685e9a5eb70",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeCernachedeBonjardim370.aspx",
@@ -1722,15 +1774,21 @@
     :nec 725,
     :cp7 "6100-205",
     :id #uuid "f478c154-509d-3b8b-9105-e78fd927d72b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/af9ba30a-de-cernache-de-bonjardim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
    :geocode
-   {:cp7 "6100-205",
-    :postal-c "6100-205",
-    :x -8.180419573644372,
-    :y 39.81933007008365,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "f478c154-509d-3b8b-9105-e78fd927d72b",
+    :address
+    "Rua dos Pinheiros - Alto Ventoso 6100-205 CERNACHE BONJARDIM",
+    :address-c
+    "Rua dos Pinheiros, 6100-266, Cernache do Bonjardim, Sertã, Castelo Branco",
+    :postal-c "6100-266",
+    :x -8.184912364618999,
+    :y 39.81760948105821,
+    :score 90.49,
+    :c 21}}]
  ["nova-tecnica-00743"
   {:nec 743,
    :rates
@@ -1822,6 +1880,7 @@
    {:address
     "Rua Afonso de Paiva, n.º 33 - Cave, 6000-076 CASTELO BRANCO",
     :name "Nova Técnica",
+    :href-id #uuid "ae3ea269-5018-32b5-859b-3ac071c03a8b",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaTecnica718.aspx",
@@ -1829,15 +1888,19 @@
     :nec 743,
     :cp7 "6000-076",
     :id #uuid "1c7e0104-91e1-3470-bfcb-f0ee8b4693b2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/ae3ea269-nova-tecnica.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
-   {:cp7 "6000-076",
+   {:address
+    "Rua Afonso de Paiva, n.º 33 - Cave, 6000-076 CASTELO BRANCO",
+    :address-c "Avenida Afonso Paiva 33, 6000-076, Castelo Branco",
     :postal-c "6000-076",
-    :x -7.49981004162683,
-    :y 39.81947000595716,
-    :score 100,
-    :c 1}}]
+    :x -7.500310022151,
+    :y 39.819980002856,
+    :score 93.44,
+    :c 2}}]
  ["serrana-00859"
   {:nec 859,
    :rates
@@ -1928,6 +1991,7 @@
    :imt-profile
    {:address "Estrada do Sineiro, n.º 57, 6200-209 COVILHÃ",
     :name "Serrana",
+    :href-id #uuid "526dc91b-2521-33eb-92b1-7b614b56d8ef",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Serrana.aspx",
@@ -1935,6 +1999,8 @@
     :nec 859,
     :cp7 "6200-209",
     :id #uuid "7c39b34c-f706-3636-831c-a5ae401ecce6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/526dc91b-serrana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
    :geocode
@@ -2036,6 +2102,7 @@
    :imt-profile
    {:address "Avª Montes Hermínios 6 A 6200-759 TORTOSENDO",
     :name "Tortosendense",
+    :href-id #uuid "8b7f3da5-5b0b-38a4-a59d-c5ec0fb27077",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tortosendense1017.aspx",
@@ -2043,6 +2110,8 @@
     :nec 870,
     :cp7 "6200-759",
     :id #uuid "ca40cd91-78fa-37b8-b3ba-62490a6a4641",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/8b7f3da5-tortosendense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
    :geocode
@@ -2146,6 +2215,7 @@
    {:address
     "Quinta do Amieiro de Baixo, lote 1 A – nº 6 6000-129 CASTELO BRANCO",
     :name "Castelo Branco",
+    :href-id #uuid "a4572566-2c33-316b-b62f-8f447a4bf7ce",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CasteloBranco294.aspx",
@@ -2153,6 +2223,8 @@
     :nec 879,
     :cp7 "6000-129",
     :id #uuid "5cf1d626-e4bf-3a70-8c97-69113b7aabb4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/a4572566-castelo-branco.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -2257,6 +2329,7 @@
    {:address
     "Rua dos Pinheiros, lote 2 - Apartado 50 6100-266 CERNACHE BONJARDIM",
     :name "Maia e Ferreira",
+    :href-id #uuid "7099d867-b6cc-30f3-9c06-fa1bd8d05936",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MaiaeFerreira620.aspx",
@@ -2264,6 +2337,8 @@
     :nec 921,
     :cp7 "6100-266",
     :id #uuid "9abdd0d2-f7be-3327-a9b5-6611172e46cb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/7099d867-maia-e-ferreira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
    :geocode
@@ -2367,6 +2442,7 @@
    :imt-profile
    {:address "Rua Conde de Ericeira, Nº 21 Subcave 6200-086 COVILHÃ",
     :name "Saber Mais",
+    :href-id #uuid "4b9d754d-708e-3a37-b0fe-35e13f87bbc4",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SaberMais902.aspx",
@@ -2374,6 +2450,8 @@
     :nec 980,
     :cp7 "6200-086",
     :id #uuid "fae06809-3d5e-3281-8e7c-300ea5da30d2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/4b9d754d-saber-mais.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
    :geocode
@@ -2477,6 +2555,7 @@
    {:address
     "Avenida S. Salvador, Lote 5, R/C Dt.º ; 6200-638 Teixoso",
     :name "Teixoso",
+    :href-id #uuid "a514f30d-8279-3598-ad29-dece6cfb7daa",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Teixoso1000.aspx",
@@ -2484,6 +2563,8 @@
     :nec 1036,
     :cp7 "6200-638",
     :id #uuid "85a95d13-0e5c-3ee8-81a6-da44c2bf8c6b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/a514f30d-teixoso.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
    :geocode
@@ -2587,6 +2668,7 @@
    :imt-profile
    {:address "EN 2 Venda da Pedra - Sertã 6100-707 SERTÃ",
     :name "Silvino Lopes",
+    :href-id #uuid "9895821d-9b6d-3481-91e7-604c0d92a567",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SilvinoLopes973.aspx",
@@ -2594,15 +2676,19 @@
     :nec 1204,
     :cp7 "6100-707",
     :id #uuid "55873886-1cd1-32b9-a72b-e01bf76e49db",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/9895821d-silvino-lopes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
    :geocode
-   {:cp7 "6100-707",
+   {:id #uuid "55873886-1cd1-32b9-a72b-e01bf76e49db",
+    :address "EN 2 Venda da Pedra - Sertã 6100-707 SERTÃ",
+    :address-c "6100-707, Venda da Pedra, Sertã, Castelo Branco",
     :postal-c "6100-707",
-    :x -8.101676790091062,
-    :y 39.79396148575188,
-    :score 100,
-    :c 1}}]
+    :x -8.102008203217265,
+    :y 39.79564508611097,
+    :score 88.2,
+    :c 2}}]
  ["granja-parque-01233"
   {:nec 1233,
    :rates
@@ -2694,6 +2780,7 @@
    {:address
     "Rua Dr. Victor Santos Pinto, Lote 131 B ; 6000-478 Castelo Branco",
     :name "Granja Parque",
+    :href-id #uuid "fcd5a62a-6875-35bc-acc5-8ceabe1a0bbc",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Granja%20Parque.aspx",
@@ -2701,6 +2788,8 @@
     :nec 1233,
     :cp7 "6000-478",
     :id #uuid "939cca9e-7d29-32b6-b0a5-c061920266e8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/fcd5a62a-granja-parque.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -2749,6 +2838,7 @@
    {:address
     "Avenida da Carapalha, Lote 65, n.º 45 r/c Dtº 6000-129 CASTELO BRANCO",
     :name "Carapalha",
+    :href-id #uuid "a8271bb9-40a8-3dd1-b17d-508cc99e614a",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaoCarapalha.aspx",
@@ -2756,6 +2846,8 @@
     :nec 1420,
     :cp7 "6000-129",
     :id #uuid "49fb784a-9341-39ef-9823-0c7bee9ea578",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/a8271bb9-carapalha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode

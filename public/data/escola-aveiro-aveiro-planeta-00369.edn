@@ -88,6 +88,7 @@
  {:address
   "Rua Vicente de Almeida Eça,nº 38-44-Esgueira 3800 -276 AVEIRO",
   :name "Planeta",
+  :href-id #uuid "19a39504-3d9f-3faf-9a35-742273a83349",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Planeta793.aspx",
@@ -95,6 +96,8 @@
   :nec 369,
   :cp7 "3800-276",
   :id #uuid "98c89f77-4ab6-31e6-b042-b7e858818505",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/19a39504-planeta.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua José Lopes da Silva Granja, 50, Lomar, 4715-234 Braga",
   :name "Bom Jesus - Lomar",
+  :href-id #uuid "013cec6f-b9b8-348e-82cd-38a0bbc05d5c",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BomJesusLomar255.aspx",
@@ -94,6 +95,8 @@
   :nec 926,
   :cp7 "4715-234",
   :id #uuid "3f7e1144-d49b-3797-b83e-2d0ea1f0e6b6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/013cec6f-bom-jesus-lomar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

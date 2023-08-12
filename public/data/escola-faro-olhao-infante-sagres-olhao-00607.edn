@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Caminhos de Ferro Bloco B r/c Esqº 8700-425 OLHÃO",
   :name "Infante de Sagres - Olhão",
+  :href-id #uuid "0fa6a6ca-4645-321d-b1d9-118bbbcf3836",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresOlhao539.aspx",
@@ -94,6 +95,8 @@
   :nec 607,
   :cp7 "8700-425",
   :id #uuid "94eabd2f-2fd5-381f-a4ac-e89dcba3e188",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/0fa6a6ca-infante-de-sagres-olhao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
  :geocode

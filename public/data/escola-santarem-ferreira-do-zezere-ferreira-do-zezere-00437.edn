@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Urb. Quinta do Adro 2240 FERREIRA DO ZÊZERE",
   :name "Ferreira do Zêzere",
+  :href-id #uuid "c9933531-6c61-36ee-8703-0c8f19de82b0",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FerreiradoZezere451.aspx",
@@ -94,5 +95,7 @@
   :nec 437,
   :cp7 "2240",
   :id #uuid "6e2ecea2-0665-351a-b75f-b60369f7b8c8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ferreira-do-zezere/c9933531-ferreira-do-zezere.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Ferreira%20do%20Z%C3%AAzere"}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 5 de Outubro, Nº 257 3700-445 ARRIFANA",
   :name "Santa Maria -Arrifana",
+  :href-id #uuid "aaffa60f-5fe2-3385-91b1-a42d9b86e3fd",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMariaArrifana929.aspx",
@@ -94,6 +95,8 @@
   :nec 1046,
   :cp7 "3700-445",
   :id #uuid "dd5f1a3c-3373-3200-b18d-60c63329ec62",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/aaffa60f-santa-maria-arrifana.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

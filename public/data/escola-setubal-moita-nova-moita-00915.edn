@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Urbanização Nova Moita, lote 7 r/c Esqº 2860 MOITA",
   :name "Nova Moita",
+  :href-id #uuid "b1770fc4-f882-39de-a1fc-4d83c6a0ec43",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaMoita716.aspx",
@@ -94,5 +95,7 @@
   :nec 915,
   :cp7 "2860",
   :id #uuid "de0c73d7-483a-3e62-8a71-9b2b4e9a6ebc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/moita/b1770fc4-nova-moita.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}

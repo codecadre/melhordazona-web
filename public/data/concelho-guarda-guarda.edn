@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Largo General Humberto Delgado, 39-1º 6300-712 GUARDA",
     :name "G. Gomes - Guarda",
+    :href-id #uuid "2301efad-a873-3708-b13b-bae262c4440d",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GGomesGuarda476.aspx",
@@ -95,6 +96,8 @@
     :nec 83,
     :cp7 "6300-712",
     :id #uuid "89d5d6e2-e4ef-3900-ad7c-86eb5ef294e4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/2301efad-g-gomes-guarda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Rua Marquês de Pombal, 45 –1º 6300-728 GUARDA",
     :name "A Gomes",
+    :href-id #uuid "15faaf5f-1334-3424-b71d-def0471131a7",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AGomes020.aspx",
@@ -203,6 +207,8 @@
     :nec 216,
     :cp7 "6300-728",
     :id #uuid "efcd5978-30a0-3dca-b463-10cfd41058ec",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/15faaf5f-a-gomes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
    :geocode
@@ -304,6 +310,7 @@
    :imt-profile
    {:address "Rua José dos Santos, Nº 27 6300-575 GUARDA",
     :name "Santos Pereira e Carvalho",
+    :href-id #uuid "9fe0cb8b-e05a-3e0c-8bae-e6c3a2675364",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantosPereiraeCarvalho944.aspx",
@@ -311,6 +318,8 @@
     :nec 716,
     :cp7 "6300-575",
     :id #uuid "a284bb33-d173-390f-88b0-e2b39be96541",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/9fe0cb8b-santos-pereira-e-carvalho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
    :geocode
@@ -412,6 +421,7 @@
    :imt-profile
    {:address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
     :name "Do Mileu",
+    :href-id #uuid "f3e3ea0b-bf9c-38b2-bb1e-5ec5db9d5062",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DoMileu391.aspx",
@@ -419,14 +429,15 @@
     :nec 824,
     :cp7 "6300-617",
     :id #uuid "8c89d682-cf19-33e1-af3b-2f2adb1b0d9c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/f3e3ea0b-do-mileu.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
    :geocode
-   {:id #uuid "8c89d682-cf19-33e1-af3b-2f2adb1b0d9c",
-    :address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
+   {:address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
     :address-c "Rua Vila de Manteigas 9A, 6300-617, Guarda",
     :postal-c "6300-617",
-    :x -7.256720013570373,
-    :y 40.544260004788754,
-    :score 96.82,
+    :x -7.25672001357,
+    :y 40.544260004789,
+    :score 97.05,
     :c 1}}]]

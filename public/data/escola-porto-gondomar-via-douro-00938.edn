@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Padre Jerónimo, Nº 170 4515-552 MELRES",
   :name "Via Douro",
+  :href-id #uuid "689aea2c-467d-375d-b8dd-8ef624f3fb80",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaDouro1049.aspx",
@@ -94,6 +95,8 @@
   :nec 938,
   :cp7 "4515-552",
   :id #uuid "d809f5ac-fd2d-3d53-94f5-9214f64d3bbc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/689aea2c-via-douro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode

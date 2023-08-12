@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Almirante Reis, nº 44-1º Esq 2330-099 ENTRONCAMENTO",
   :name "Entroncamento",
+  :href-id #uuid "658865df-4ef9-32d7-8c57-dafd63fff7a5",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Entroncamento407.aspx",
@@ -94,6 +95,8 @@
   :nec 104,
   :cp7 "2330-099",
   :id #uuid "865be790-cae6-306e-9730-d655e4f08662",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/entroncamento/658865df-entroncamento.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Entroncamento"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua Comendador Martins Pereira, n.º 65, 3850-089 ALBERGARIA-A-VELHA",
   :name "Nova de Albergaria",
+  :href-id #uuid "ecc755fa-90f5-3c72-890b-44ca6511b136",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeAlbergaria.aspx",
@@ -95,6 +96,8 @@
   :nec 1331,
   :cp7 "3850-089",
   :id #uuid "80350540-3f0e-3ea8-958f-56d559fe541d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/albergaria-a-velha/ecc755fa-nova-de-albergaria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Urbanização das Urneiras, Lote B - 2C, 2670-524 LOURES",
   :name "Galáctica",
+  :href-id #uuid "20dafdc3-2085-3ed0-981c-aaa901ccbbfd",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Galactica480.aspx",
@@ -94,6 +95,8 @@
   :nec 717,
   :cp7 "2670-524",
   :id #uuid "33e29a9b-651c-3beb-995b-dfa4b9ec7661",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/20dafdc3-galactica.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode

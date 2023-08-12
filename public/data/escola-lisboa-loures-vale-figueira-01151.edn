@@ -86,25 +86,17 @@
    :r/t-done 173.0}],
  :imt-profile
  {:address
-  "Rua Alfredo Vitorino Costa, Nº 42 – B 2695-735 S. JOÃO da TALHA",
+  "Rua da Igreja Nº 6-A, Nº 28, Lojas 43/44 - 2695 São João da Talha",
   :name "Vale Figueira",
+  :href-id #uuid "6486d314-b98f-3f3f-909c-99cdab780b87",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ValeFigueira1034.aspx",
   :concelho "Loures",
   :nec 1151,
-  :cp7 "2695-735",
-  :id #uuid "14d60a98-8a6a-3e63-8f0e-e50c2f4d5758",
+  :cp7 "2695",
+  :id #uuid "7f1e567e-c289-3116-a106-4150dc9a8243",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/6486d314-vale-figueira.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
- :geocode
- {:id #uuid "14d60a98-8a6a-3e63-8f0e-e50c2f4d5758",
-  :address
-  "Rua Alfredo Vitorino Costa, Nº 42 – B 2695-735 S. JOÃO da TALHA",
-  :address-c
-  "Rua Alfredo Vitorino da Costa 42B, 2695-735, Bairro Mariana Gaita, Loures, Lisboa",
-  :postal-c "2695-735",
-  :x -9.101649992680933,
-  :y 38.82586000898195,
-  :score 97.39,
-  :c 2}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}

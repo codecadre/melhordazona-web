@@ -60,6 +60,7 @@
  {:address
   "Largo da República do Brasil, n.º 34, 4800-411 São Sebastião",
   :name "Inovaguima",
+  :href-id #uuid "f72d3bd3-fc1c-3851-9953-702011457208",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Inovaguima.aspx",
@@ -67,6 +68,8 @@
   :nec 1387,
   :cp7 "4800-411",
   :id #uuid "1f080992-1c4a-3f13-892c-c4c05483a3e3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/f72d3bd3-inovaguima.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode

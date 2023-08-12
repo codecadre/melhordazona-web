@@ -88,6 +88,7 @@
  {:address
   "Rua da Quinta, Lote 108, fração C, Urbanização de Stª Clara, 2400-845 Caldas da Rainha",
   :name "Leiridrive",
+  :href-id #uuid "c01a3742-b36a-3184-a043-cc6368eb2435",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Leiridrive.aspx",
@@ -95,12 +96,16 @@
   :nec 1335,
   :cp7 "2400-845",
   :id #uuid "4207f3b2-5147-34a4-9815-08ea68ff45d7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/leiria/c01a3742-leiridrive.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
  :geocode
- {:cp7 "2400-845",
+ {:address
+  "Rua da Quinta, Lote 108, fração C, Urbanização de Stª Clara, 2400-845 Caldas da Rainha",
+  :address-c "Rua da Quinta 108, 2400-845, Leiria",
   :postal-c "2400-845",
-  :x -8.824954986956413,
-  :y 39.73940501908743,
-  :score 100,
+  :x -8.824346266271,
+  :y 39.738327080845,
+  :score 92.78,
   :c 1}}

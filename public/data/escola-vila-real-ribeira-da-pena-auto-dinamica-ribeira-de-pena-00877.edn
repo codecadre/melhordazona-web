@@ -88,6 +88,7 @@
  {:address
   "Estrada da Variante – Edifício Novo 4870-163 RIBEIRA DE PENA (SALVADOR)",
   :name "Auto Dinâmica - Ribeira de Pena",
+  :href-id #uuid "f1aefc07-995f-32de-8108-54620587af6f",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoDinamicaRibeiradePena153.aspx",
@@ -95,6 +96,8 @@
   :nec 877,
   :cp7 "4870-163",
   :id #uuid "d145bebd-722f-3fad-b988-87fbfbf2a822",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/ribeira-da-pena/f1aefc07-auto-dinamica-ribeira-de-pena.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Ribeira%20de%20Pena"},
  :geocode

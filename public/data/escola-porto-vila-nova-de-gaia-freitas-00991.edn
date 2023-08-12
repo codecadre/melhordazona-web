@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Alexandre Herculano nº 181 4430-299 OLIVEIRA do DOURO",
   :name "Freitas",
+  :href-id #uuid "fafd490d-3a59-3ce8-b04d-08a941f62a77",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Freitas471.aspx",
@@ -94,6 +95,8 @@
   :nec 991,
   :cp7 "4430-299",
   :id #uuid "5e45440b-fd2a-384f-bf47-30b2bbff2a59",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/fafd490d-freitas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode

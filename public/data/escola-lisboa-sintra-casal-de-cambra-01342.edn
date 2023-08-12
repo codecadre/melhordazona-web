@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avenida de Lisboa, n.º 127, R/C, 2605-003 Casal de Cambra",
   :name "Escola de Condução Casal de Cambra",
+  :href-id #uuid "de91d440-7499-39b5-b53c-71429ca7410e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaoCasaldeCambra.aspx",
@@ -94,12 +95,17 @@
   :nec 1342,
   :cp7 "2605-003",
   :id #uuid "c6805408-447a-3bb1-950a-3d223881942e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/de91d440-escola-de-conducao-casal-de-cambra.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode
- {:cp7 "2605-003",
+ {:id #uuid "c6805408-447a-3bb1-950a-3d223881942e",
+  :address "Avenida de Lisboa, n.º 127, R/C, 2605-003 Casal de Cambra",
+  :address-c
+  "Avenida de Lisboa, 2605-003, Casal de Cambra, Sintra, Lisboa",
   :postal-c "2605-003",
-  :x -9.228035010969279,
-  :y 38.80568501949574,
-  :score 100,
-  :c 1}}
+  :x -9.227825233222214,
+  :y 38.80587111080674,
+  :score 94.17,
+  :c 2}}

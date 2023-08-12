@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Praceta Prof. António de Oliveira Nº 4 2490-502 OURÉM",
     :name "Ouriense",
+    :href-id #uuid "812ca4a4-7a35-3d5f-a5ab-9ec1297e9f98",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ouriense757.aspx",
@@ -95,6 +96,8 @@
     :nec 20,
     :cp7 "2490-502",
     :id #uuid "694e8b90-f847-33c1-a144-14a596eb4424",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/812ca4a4-ouriense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode
@@ -194,6 +197,7 @@
    :imt-profile
    {:address "Avª Beato Nuno, Nº 111 e 113 2495 FÁTIMA",
     :name "Fátima",
+    :href-id #uuid "15f43af0-5452-3d01-856d-4dfe08fbcc2a",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fatima446.aspx",
@@ -201,18 +205,10 @@
     :nec 613,
     :cp7 "2495",
     :id #uuid "3b34efb2-a4a9-3d68-8cf3-7911800244d4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/15f43af0-fatima.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
-   :geocode
-   {:id #uuid "3b34efb2-a4a9-3d68-8cf3-7911800244d4",
-    :address "Avenida Beato Nuno, N 111 2495 FÁTIMA",
-    :address-c
-    "Avenida Beato Nuno 111, 2495-304, Fátima, Ourém, Santarém",
-    :postal-c "2495-304",
-    :x -8.665370004561424,
-    :y 39.630239992230315,
-    :score 100,
-    :c 1}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"}}]
  ["destinus-00857"
   {:nec 857,
    :rates
@@ -302,27 +298,26 @@
      :r/t-done 193.0}],
    :imt-profile
    {:address
-    "Rua Dr. Júlio Constantino nº 75 ED Primitivo 2495-447 FÁTIMA",
+    "Rua Dr. Júlio Constantino, Edificio Primitivo - N.º 73 E C/v -1 Nº 1 - 2495-447 Fátima",
     :name "Destinus",
+    :href-id #uuid "ac9d50ed-b615-3218-897d-b63491dfff65",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Destinus383.aspx",
     :concelho "Ourém",
     :nec 857,
     :cp7 "2495-447",
-    :id #uuid "8c8b1589-e57b-3487-8d57-e65225a6d008",
+    :id #uuid "194b7c17-988f-3c00-a052-9a10b66a7a6d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/ac9d50ed-destinus.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode
-   {:id #uuid "8c8b1589-e57b-3487-8d57-e65225a6d008",
-    :address
-    "Rua Dr. Júlio Constantino nº 75 ED Primitivo 2495-447 FÁTIMA",
-    :address-c
-    "Rua Doutor Júlio Ferreira Constantino 75, 2495-456, Fátima, Ourém, Santarém",
-    :postal-c "2495-456",
-    :x -8.677659970092435,
-    :y 39.6359699869696,
-    :score 95.06,
+   {:cp7 "2495-447",
+    :postal-c "2495-447",
+    :x -8.679640027079557,
+    :y 39.6344050018277,
+    :score 100,
     :c 1}}]
  ["esco-2000-00928"
   {:nec 928,
@@ -414,6 +409,7 @@
    :imt-profile
    {:address "Rua Francisco Sá Carneiro nº 60 2490-548 OURÉM",
     :name "Esco 2000",
+    :href-id #uuid "aabde627-6b2d-30a6-b18e-0a15f317eda3",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Esco2000410.aspx",
@@ -421,6 +417,8 @@
     :nec 928,
     :cp7 "2490-548",
     :id #uuid "ae4f5c7f-781c-3ee5-aa00-6d7b2e96f26c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/aabde627-esco-2000.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode
@@ -523,6 +521,7 @@
    :imt-profile
    {:address "Avª 21 de Junho nº 32 r/c Dtº 2435-021 CAXARIAS",
     :name "Caxariense",
+    :href-id #uuid "52edf8fb-67bc-32d8-b21f-9a7d113e6206",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Caxariense297.aspx",
@@ -530,15 +529,20 @@
     :nec 1089,
     :cp7 "2435-021",
     :id #uuid "00204d1c-89d3-33ba-a239-ef3ef5790726",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/52edf8fb-caxariense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode
-   {:cp7 "2435-021",
-    :postal-c "2435-021",
-    :x -8.540564975021681,
-    :y 39.69680500202662,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "00204d1c-89d3-33ba-a239-ef3ef5790726",
+    :address "Avª 21 de Junho nº 32 r/c Dtº 2435-021 CAXARIAS",
+    :address-c
+    "Avenida 21 de Junho 32, 2435-087, Carvoeira, Ourém, Santarém",
+    :postal-c "2435-087",
+    :x -8.542159967376932,
+    :y 39.719480019863454,
+    :score 94.87,
+    :c 4}}]
  ["fatimense-01158"
   {:nec 1158,
    :rates
@@ -630,6 +634,7 @@
    {:address
     "Estrada Principal de Fátima (Edifício Fátima) Loja 2 R/C 2495-552 FÁTIMA",
     :name "Fatimense",
+    :href-id #uuid "ee9e36af-1135-3124-93e5-ae2523230ad8",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fatimense447.aspx",
@@ -637,6 +642,8 @@
     :nec 1158,
     :cp7 "2495-552",
     :id #uuid "b3e3d8d3-fe3b-3e49-ae9a-5d7a8f981703",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/ee9e36af-fatimense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
    :geocode

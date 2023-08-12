@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Estrada Nacional - Currelos 3430-000 CARREGAL DO SAL",
     :name "Automobilista do Carregal do Sal",
+    :href-id #uuid "1dd66cc3-eb57-3491-8b82-d691cb53a210",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomobilistadoCarregaldoSal185.aspx",
@@ -95,6 +96,8 @@
     :nec 311,
     :cp7 "3430-000",
     :id #uuid "f015f139-10ab-3d72-91a2-d7d115e1875d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/carregal-do-sal/1dd66cc3-automobilista-do-carregal-do-sal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Carregal%20do%20Sal"}}]
  ["saliscruz-00897"
@@ -188,6 +191,7 @@
    {:address
     "Rua Nossa Senhora das Febres- Edf Salylenda, Lt A, Nº 12 R/C Dtº 3430-039 CARREGAL DO SAL",
     :name "Salizcruz",
+    :href-id #uuid "a96366fd-b92c-3f19-b789-c3a6b34fceb9",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Salizcruz907.aspx",
@@ -195,6 +199,8 @@
     :nec 897,
     :cp7 "3430-039",
     :id #uuid "e2384fb3-9feb-3ee8-adea-ed2f567e149e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/carregal-do-sal/a96366fd-salizcruz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Carregal%20do%20Sal"},
    :geocode

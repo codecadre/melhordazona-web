@@ -88,6 +88,7 @@
  {:address
   "Rua dos Pinheiros, lote 2 - Apartado 50 6100-266 CERNACHE BONJARDIM",
   :name "Maia e Ferreira",
+  :href-id #uuid "7099d867-b6cc-30f3-9c06-fa1bd8d05936",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MaiaeFerreira620.aspx",
@@ -95,6 +96,8 @@
   :nec 921,
   :cp7 "6100-266",
   :id #uuid "9abdd0d2-f7be-3327-a9b5-6611172e46cb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/7099d867-maia-e-ferreira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
  :geocode

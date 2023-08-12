@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praceta Stª Eulália, Nº 6 4590-530 PAÇOS DE FERREIRA",
   :name "Citânia",
+  :href-id #uuid "b8dd3a3b-e1c7-3f0d-9700-ef9f9b7ff82f",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Citania317.aspx",
@@ -94,6 +95,8 @@
   :nec 546,
   :cp7 "4590-530",
   :id #uuid "a2bbbfde-e140-33f8-a179-5d1ca2307af1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/b8dd3a3b-citania.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode

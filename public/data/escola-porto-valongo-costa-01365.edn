@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua Fontes Pereira de Melo, n.º 43, 4445-441 Ermesinde",
   :name "Costa",
+  :href-id #uuid "63930f1c-c9b4-360d-8789-dff78359fccb",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/daCosta.aspx",
@@ -80,6 +81,8 @@
   :nec 1365,
   :cp7 "4445-441",
   :id #uuid "0a791303-70e0-3c8d-871b-2aa708a6607c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/valongo/63930f1c-costa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de S. Gens, 3289/3291, 4460-816 CUSTÓIAS MTS",
   :name "Senhora da Hora",
+  :href-id #uuid "3d568194-e5f7-3613-9d7e-136aceb7200d",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoradaHora960.aspx",
@@ -94,6 +95,8 @@
   :nec 499,
   :cp7 "4460-816",
   :id #uuid "c35fd1d4-da00-3cca-b4cf-2de7a4175826",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/3d568194-senhora-da-hora.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode

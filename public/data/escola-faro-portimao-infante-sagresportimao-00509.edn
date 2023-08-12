@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo 1º de Maio, nº 13 8500-543 PORTIMÃO",
   :name "Infante de Sagres - Portimão I",
+  :href-id #uuid "b6f52732-17bc-3957-907f-c1c232b6955c",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresPortimaoI540.aspx",
@@ -94,12 +95,15 @@
   :nec 509,
   :cp7 "8500-543",
   :id #uuid "418cc9c8-d520-31e3-984c-bdc69397b077",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/b6f52732-infante-de-sagres-portimao-i.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
  :geocode
- {:cp7 "8500-543",
+ {:address "Largo 1º de Maio, nº 13 8500-543 PORTIMÃO",
+  :address-c "Largo 1 de Maio 13, 8500-543, Portimão, Faro",
   :postal-c "8500-543",
-  :x -8.537565008056134,
-  :y 37.136834979586695,
-  :score 100,
-  :c 1}}
+  :x -8.537789978337,
+  :y 37.137350005627,
+  :score 98.38,
+  :c 5}}

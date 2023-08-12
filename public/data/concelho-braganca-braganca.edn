@@ -89,6 +89,7 @@
    {:address
     "Avª Dr.Francisco Sá Carneiro, Lote 29 r/c Dtº (Prédio S. Lucas) 5300-252 BRAGANÇA (SÉ)",
     :name "Carta - Auto",
+    :href-id #uuid "09b199a4-2474-372d-9c0c-e51bd36036e7",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CartaAuto291.aspx",
@@ -96,6 +97,8 @@
     :nec 555,
     :cp7 "5300-252",
     :id #uuid "51ce98ba-4ef3-315c-9b1e-f7ea5c8fa384",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/09b199a4-carta-auto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
@@ -200,6 +203,7 @@
    {:address
     "Loteamento Santa Apolónia –Lote 1 r/c Esqº 5300-254 BRAGANÇA",
     :name "Terra Fria",
+    :href-id #uuid "58b408aa-039e-3d06-8e38-d95825b96b59",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TerraFria1004.aspx",
@@ -207,14 +211,10 @@
     :nec 722,
     :cp7 "5300-254",
     :id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/58b408aa-terra-fria.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
-   :geocode
-   {:id #uuid "13aa4ed1-f159-3d12-b3e3-0c78faefee5d",
-    :overwrite true,
-    :obs "Manual coords",
-    :x -6.7631975537083715,
-    :y 41.797498753108506}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"}}]
  ["exito-00728"
   {:nec 728,
    :rates
@@ -306,6 +306,7 @@
    {:address
     "Av. Sá Carneiro - Edificio Supinorte, Lote 1, R/C Esq, 5300-252 BRAGANÇA",
     :name "Êxito",
+    :href-id #uuid "7d4a6bba-e117-3ae0-ab9b-635506ca6463",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Exito.aspx",
@@ -313,6 +314,8 @@
     :nec 728,
     :cp7 "5300-252",
     :id #uuid "26a4f448-5278-3767-9c43-fa2516ea2163",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/7d4a6bba-exito.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
@@ -412,6 +415,7 @@
    :imt-profile
    {:address "Rua 1º de Maio, Bloco 1 - R/C 5300-236 BRAGANÇA (SÉ)",
     :name "Eurovia",
+    :href-id #uuid "85282504-f424-325d-a3ee-3c21668ad974",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Eurovia436.aspx",
@@ -419,15 +423,18 @@
     :nec 825,
     :cp7 "5300-236",
     :id #uuid "0464c37c-f17d-3b3b-8f3d-eefa069f84cb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/85282504-eurovia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
-   {:cp7 "5300-236",
-    :postal-c "5300-236",
-    :x -6.763530004193797,
-    :y 41.809740006835085,
-    :score 100,
-    :c 1}}]
+   {:address "Rua 1º de Maio, Bloco 1 - R/C 5300-236 BRAGANÇA (SÉ)",
+    :address-c "Rua 1 de Maio 1, 7480-153, Avis, Portalegre",
+    :postal-c "7480-153",
+    :x -7.892489967818,
+    :y 39.05468001452,
+    :score 93.69,
+    :c 3}}]
  ["princesa-00865"
   {:nec 865,
    :rates
@@ -519,6 +526,7 @@
    {:address
     "Lugar do Campelo-Bairro do Pinhal, Lote 2 A-R/C 5300-167 BRAGANÇA (SÉ)",
     :name "Princesa",
+    :href-id #uuid "b75cb351-e97c-371e-8544-3bfa31d908b2",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Princesa813.aspx",
@@ -526,6 +534,8 @@
     :nec 865,
     :cp7 "5300-167",
     :id #uuid "accd42da-9485-3d57-a94c-f180f7c07fdc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/b75cb351-princesa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode
@@ -626,6 +636,7 @@
    {:address
     "Rua Padre António Vieira, Lote 1 R/C D - Loja E 5300-224 BRAGANÇA (SÉ)",
     :name "Cruzeiro",
+    :href-id #uuid "7b4fa9d8-0fc3-3e2f-8d4d-fdede8a4e751",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cruzeiro350.aspx",
@@ -633,6 +644,8 @@
     :nec 990,
     :cp7 "5300-224",
     :id #uuid "cf67a92b-bf81-357e-bf05-9bcef2ea81ed",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/7b4fa9d8-cruzeiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
    :geocode

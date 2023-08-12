@@ -89,6 +89,7 @@
    {:address
     "Rua Gil Vicente, Nº 1-1º Dtº 4785-321 S. MARTINHO (BOUGADO)",
     :name "Trofense",
+    :href-id #uuid "36f04f48-7f6e-3132-ac97-a315f19624f7",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Trofense1025.aspx",
@@ -96,6 +97,8 @@
     :nec 417,
     :cp7 "4785-321",
     :id #uuid "42e5bfb8-234d-34c7-a93b-81e82628c9e0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/trofa/36f04f48-trofense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
    :geocode
@@ -199,6 +202,7 @@
    {:address
     "Rua do Horizonte, 1567 R/C; 4745-524 São Romão (Coronado)",
     :name "S. Romão",
+    :href-id #uuid "ef20ab56-3410-364a-95bd-2c6c122c4fec",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SRomao897.aspx",
@@ -206,6 +210,8 @@
     :nec 947,
     :cp7 "4745-524",
     :id #uuid "6ee83229-82d8-3b1f-ad17-a5781c624611",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/trofa/ef20ab56-s-romao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
    :geocode
@@ -309,6 +315,7 @@
    {:address
     "Rua Infante D. Henrique, Ed. Ferreirinha II Loja nº 3 4785-187 S. MARTINHO (BOUGADO)",
     :name "Guiarte de José Manuel Moreira e Carvalho",
+    :href-id #uuid "2dc64be7-e2aa-3c7d-8b7c-5e763e410b1c",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GuiartedeJoseManuelMoreiraeCarvalho505.aspx",
@@ -316,6 +323,8 @@
     :nec 967,
     :cp7 "4785-187",
     :id #uuid "04b9f5e8-c50b-3e6f-a98b-3d294bb3d3fc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/trofa/2dc64be7-guiarte-de-jose-manuel-moreira-e-carvalho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
    :geocode
@@ -416,6 +425,7 @@
    {:address
     "Rua Dr. António Augusto Pires de Lima, Nº 327 4785-313 S. MARTINHO (BOUGADO)",
     :name "Máxima",
+    :href-id #uuid "0a695250-ce70-305e-a434-9928e92b5cce",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Maxima636.aspx",
@@ -423,6 +433,8 @@
     :nec 983,
     :cp7 "4785-313",
     :id #uuid "3a225b27-90d0-3504-8fd9-0fd0a6a5cfe4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/trofa/0a695250-maxima.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
    :geocode
@@ -526,6 +538,7 @@
    :imt-profile
    {:address "Praceta Água Viva, Nº 42 R/C 4745-615 TROFA",
     :name "Campeão",
+    :href-id #uuid "652f27b8-8c49-3be1-a1c6-fac6c19d43c8",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Campeao272.aspx",
@@ -533,12 +546,16 @@
     :nec 1224,
     :cp7 "4745-615",
     :id #uuid "37c64c6b-0d58-3833-a7de-a941340130e4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/trofa/652f27b8-campeao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Trofa"},
    :geocode
-   {:cp7 "4745-615",
+   {:id #uuid "37c64c6b-0d58-3833-a7de-a941340130e4",
+    :address "Praceta Água Viva, Nº 42 R/C 4745-615 TROFA",
+    :address-c "Praça Água Viva 42, 4745-615, Portela, Trofa, Porto",
     :postal-c "4745-615",
-    :x -8.551995041105897,
-    :y 41.27678000427633,
-    :score 100,
+    :x -8.552602519048346,
+    :y 41.27650302524291,
+    :score 92.31,
     :c 1}}]]

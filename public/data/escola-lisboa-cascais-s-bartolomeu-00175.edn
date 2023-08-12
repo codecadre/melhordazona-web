@@ -88,6 +88,7 @@
  {:address
   "Rua da Escola, R/C , S. Domingos de Rana - Aboboda 2750-011 CASCAIS",
   :name "S. Bartolomeu",
+  :href-id #uuid "334a7c56-1d13-3975-b721-b8b72c7b7a73",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SBartolomeu875.aspx",
@@ -95,12 +96,16 @@
   :nec 175,
   :cp7 "2750-011",
   :id #uuid "63b611e0-8daa-3013-887f-157613a718de",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/334a7c56-s-bartolomeu.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode
- {:cp7 "2750-011",
-  :postal-c "2750-011",
-  :x -9.448289968747787,
-  :y 38.72618501480957,
-  :score 100,
-  :c 1}}
+ {:address
+  "Rua da Escola, R/C , S. Domingos de Rana - Aboboda 2750-011 CASCAIS",
+  :address-c "Rua da Escola, 2785-023, Abóboda, Cascais, Lisboa",
+  :postal-c "2785-023",
+  :x -9.332885963606,
+  :y 38.724830793404,
+  :score 89.32,
+  :c 4}}

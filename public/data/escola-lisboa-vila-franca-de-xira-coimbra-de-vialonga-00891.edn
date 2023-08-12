@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Maria Barradas, Nº 6 Loja Dtª 2625 PÓVOA DE STª IRIA",
   :name "Coimbra de Vialonga",
+  :href-id #uuid "098f486c-267d-385a-8324-2580bbd2c959",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CoimbradeVialonga323.aspx",
@@ -94,15 +95,16 @@
   :nec 891,
   :cp7 "2625",
   :id #uuid "31d2d785-e3b1-3a43-abe6-48598fe5b6f8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/vila-franca-de-xira/098f486c-coimbra-de-vialonga.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
  :geocode
- {:id #uuid "31d2d785-e3b1-3a43-abe6-48598fe5b6f8",
-  :address "Rua Maria Barradas, Nº 6 Loja Dtª 2625 PÓVOA DE STª IRIA",
+ {:address "Rua Maria Barradas, Nº 6 Loja Dtª 2625 PÓVOA DE STª IRIA",
   :address-c
   "Rua Maria Barradas 6, 2625-696, Vialonga, Vila Franca de Xira, Lisboa",
   :postal-c "2625-696",
-  :x -9.080340009685756,
-  :y 38.873989986662735,
-  :score 95.4,
+  :x -9.080340009686,
+  :y 38.873989986663,
+  :score 95.63,
   :c 1}}

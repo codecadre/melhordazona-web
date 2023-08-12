@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. Fortunado Vieira das Neves, Loja 11 - Edf.Centro Comercial Jardim 3420-325 TÁBUA",
   :name "Automóvel de Tábua",
+  :href-id #uuid "f2d7406d-125a-3eb4-8091-5d2fd86f5051",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomoveldeTabua200.aspx",
@@ -95,12 +96,18 @@
   :nec 355,
   :cp7 "3420-325",
   :id #uuid "7e23686f-4695-3651-bcf4-30816bfed0a4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/tabua/f2d7406d-automovel-de-tabua.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
  :geocode
- {:cp7 "3420-325",
-  :postal-c "3420-325",
-  :x -8.029929962023118,
-  :y 40.359544987026396,
-  :score 100,
+ {:id #uuid "7e23686f-4695-3651-bcf4-30816bfed0a4",
+  :address
+  "Rua Dr. Fortunado Vieira das Neves, Loja 11 - Edf.Centro Comercial Jardim 3420-325 TÁBUA",
+  :address-c
+  "Rua Doutor Fortunato Vieira das Neves 11, 3420-324, Tábua, Coimbra",
+  :postal-c "3420-324",
+  :x -8.026950027806208,
+  :y 40.35735001804184,
+  :score 94.15,
   :c 1}}

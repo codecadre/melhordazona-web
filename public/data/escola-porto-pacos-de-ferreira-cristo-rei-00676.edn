@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª do Marco, Nº 127 4595-225 MEIXOMIL",
   :name "Cristo Rei",
+  :href-id #uuid "8e28bf13-c6d5-3e51-a861-673c1b8c365e",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CristoRei349.aspx",
@@ -94,6 +95,8 @@
   :nec 676,
   :cp7 "4595-225",
   :id #uuid "d5fcc173-7e05-3b22-a1e0-2ae3bec4291d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/8e28bf13-cristo-rei.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode

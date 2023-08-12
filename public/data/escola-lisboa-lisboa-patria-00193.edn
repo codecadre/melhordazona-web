@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua Ferreira da Silva nº 1 r/c Esqº 1900-228 LISBOA",
   :name "Pátria",
+  :href-id #uuid "50b4e387-66da-3e14-b02c-560b0532ff3e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Patria775.aspx",
@@ -80,6 +81,8 @@
   :nec 193,
   :cp7 "1900-228",
   :id #uuid "2fdde0bd-dc19-3f42-81c8-7491f04a310d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/50b4e387-patria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

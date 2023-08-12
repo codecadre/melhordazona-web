@@ -89,6 +89,7 @@
    {:address
     "Rua dos Bombeiros Voluntários nº 50 –1º Dtº 3860-367 ESTARREJA",
     :name "A Estarrejense",
+    :href-id #uuid "f7768540-e809-3890-a0ec-56458df7df32",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AEstarrejense016.aspx",
@@ -96,6 +97,8 @@
     :nec 87,
     :cp7 "3860-367",
     :id #uuid "67edabe5-9ca6-3a3a-91ad-fc9ee96d5c1c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/estarreja/f7768540-a-estarrejense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
    :geocode
@@ -200,6 +203,7 @@
    {:address
     "Rua Conselheiro José Luciano de Castro 3860-358 ESTARREJA",
     :name "A Nova de Estarreja",
+    :href-id #uuid "3c5d61a2-93a8-371b-9e59-67eaa25c80de",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ANovadeEstarreja034.aspx",
@@ -207,6 +211,8 @@
     :nec 534,
     :cp7 "3860-358",
     :id #uuid "8c40325d-acfc-3c8a-8e0b-a75bf6799a3c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/estarreja/3c5d61a2-a-nova-de-estarreja.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
    :geocode
@@ -282,6 +288,7 @@
    :imt-profile
    {:address "Rua da Igreja, n.º 74, 3860-133 Avanca",
     :name "Nobel",
+    :href-id #uuid "2a434de0-d04d-3d7f-b343-fc57719b83c6",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nobel.aspx",
@@ -289,12 +296,15 @@
     :nec 741,
     :cp7 "3860-133",
     :id #uuid "340962e9-7390-3181-8dfc-3443f7171b2e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/estarreja/2a434de0-nobel.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
    :geocode
-   {:cp7 "3860-133",
-    :postal-c "3860-133",
-    :x -8.571320021791081,
-    :y 40.80595002081523,
-    :score 100,
-    :c 1}}]]
+   {:address "Rua da Igreja, n.º 74, 3860-133 Avanca",
+    :address-c "Rua da Igreja 74, 3860-617, Veiros, Estarreja, Aveiro",
+    :postal-c "3860-617",
+    :x -8.612532563905,
+    :y 40.750524136106,
+    :score 90.17,
+    :c 4}}]]

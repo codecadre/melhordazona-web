@@ -88,6 +88,7 @@
  {:address
   "Rua Eleutério Teixeira – Urb. Jardins D´ Água Lt 27 2825 MONTE DA CAPARICA",
   :name "Madalena e Fonseca",
+  :href-id #uuid "b0c0a3c1-1bfb-30af-816d-36f4c205edb8",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MadalenaeFonseca617.aspx",
@@ -95,15 +96,18 @@
   :nec 1060,
   :cp7 "2825",
   :id #uuid "923cd579-9862-312d-9468-87ac4cc8dc92",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/b0c0a3c1-madalena-e-fonseca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
  :geocode
  {:id #uuid "923cd579-9862-312d-9468-87ac4cc8dc92",
-  :address "Rua Eleutério Teixeira Lt 27 2825 MONTE DA CAPARICA",
+  :address
+  "Rua Eleutério Teixeira – Urb. Jardins D´ Água Lt 27 2825 MONTE DA CAPARICA",
   :address-c
-  "Rua Eleutério Teixeira 27, 2825-152, Alcaniça, Almada, Setúbal",
+  "Rua Eleutério Teixeira, 2825-152, Alcaniça, Almada, Setúbal",
   :postal-c "2825-152",
-  :x -9.190076519027935,
-  :y 38.664687331877836,
-  :score 95.41,
-  :c 1}}
+  :x -9.186788268087364,
+  :y 38.66468874707133,
+  :score 86.97,
+  :c 45}}

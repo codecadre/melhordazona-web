@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª 22 de Dezembro, 52 2900-667 SETÙBAL",
     :name "Gonçalves e Delgado",
+    :href-id #uuid "dbb9e842-4e76-3b00-ada2-32c368622313",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GoncalveseDelgado493.aspx",
@@ -95,6 +96,8 @@
     :nec 45,
     :cp7 "2900-667",
     :id #uuid "244f11ca-0571-34f7-b05a-ab1d58e0f9c8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/dbb9e842-goncalves-e-delgado.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Av. Luísa Todi, n.º 289, Loja; 2900-964 Setúbal",
     :name "Cortes de Setúbal",
+    :href-id #uuid "161f16de-e2f3-393c-87a2-fef833a7453a",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CortesdeAlmeirim337.aspx",
@@ -203,16 +207,18 @@
     :nec 547,
     :cp7 "2900-964",
     :id #uuid "b93a80b3-8137-3127-9f8f-f44691637c0e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/161f16de-cortes-de-setubal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
    :geocode
    {:id #uuid "b93a80b3-8137-3127-9f8f-f44691637c0e",
-    :address "Av. Luísa Todi, n 289 2900-964 Setúbal",
+    :address "Av. Luísa Todi, n.º 289, Loja; 2900-964 Setúbal",
     :address-c "Avenida Luísa Todi 289, 2900-464, Setúbal",
     :postal-c "2900-464",
     :x -8.899719970719758,
     :y 38.52159998310805,
-    :score 98.93,
+    :score 92.76,
     :c 3}}]
  ["ecodauto-00724"
   {:nec 724,
@@ -304,6 +310,7 @@
    :imt-profile
    {:address "Rua de Aljubarrota nº 22 B 2910-389 SETÚBAL",
     :name "Ecodauto",
+    :href-id #uuid "7b5376c9-abad-35cf-ac4f-4d69bb58353b",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ecodauto400.aspx",
@@ -311,6 +318,8 @@
     :nec 724,
     :cp7 "2910-389",
     :id #uuid "ef328f62-3dd8-3fbc-8511-f1ef93ff7a92",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/7b5376c9-ecodauto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
    :geocode
@@ -413,6 +422,7 @@
    {:address
     "Avª Independência das Colónias, nº 30-C 2900-406 SETÚBAL",
     :name "Bonfim",
+    :href-id #uuid "ccda4edb-a0d2-3819-a3a4-9b8f1e91aeaa",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bonfim258.aspx",
@@ -420,14 +430,20 @@
     :nec 763,
     :cp7 "2900-406",
     :id #uuid "6f266680-45e2-3917-bfc2-8e389f7f5a22",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/ccda4edb-bonfim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
    :geocode
-   {:cp7 "2900-406",
+   {:id #uuid "6f266680-45e2-3917-bfc2-8e389f7f5a22",
+    :address
+    "Avª Independência das Colónias, nº 30-C 2900-406 SETÚBAL",
+    :address-c
+    "Avenida da Independência das Colónias 30C, 2900-406, Setúbal",
     :postal-c "2900-406",
-    :x -8.889400003892092,
-    :y 38.53157000547813,
-    :score 100,
+    :x -8.888879990619074,
+    :y 38.53283001507299,
+    :score 92.21,
     :c 1}}]
  ["manobras-00771"
   {:nec 771,
@@ -519,6 +535,7 @@
    :imt-profile
    {:address "Avª das Descobertas lote 5 letra A 2910-710 SETÚBAL",
     :name "Manobras",
+    :href-id #uuid "d06eb646-dbc8-36f3-884f-f68aeb65985d",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Manobras621.aspx",
@@ -526,6 +543,8 @@
     :nec 771,
     :cp7 "2910-710",
     :id #uuid "0aabfa3d-324b-3463-9503-bf39478e9d76",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/d06eb646-manobras.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
    :geocode
@@ -628,6 +647,7 @@
    {:address
     "Rua Fernando Motrena, Lote 1 R/C Dt, Loja A/C-Manteigadas 2910-238 SETÚBAL",
     :name "3 Ás",
+    :href-id #uuid "592b007e-202c-3642-a736-3d4c07710581",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/3As001.aspx",
@@ -635,6 +655,8 @@
     :nec 1144,
     :cp7 "2910-238",
     :id #uuid "309f9d74-e9a1-3d79-be85-12caf00509da",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/592b007e-3-as.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
    :geocode
@@ -709,6 +731,7 @@
    :imt-profile
    {:address "Av. D. João II, n.º 24 B, 2900-001 SETÚBAL",
     :name "Golfinho",
+    :href-id #uuid "41d1dc88-dbfa-3074-b4a3-e9ead4865d92",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Golfinho492.aspx",
@@ -716,15 +739,19 @@
     :nec 1176,
     :cp7 "2900-001",
     :id #uuid "7af795c0-6fe4-34d3-9a98-98d3089d71d8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/41d1dc88-golfinho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
    :geocode
-   {:cp7 "2900-001",
-    :postal-c "2900-001",
-    :x -8.903740015301736,
-    :y 38.51909999666694,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "7af795c0-6fe4-34d3-9a98-98d3089d71d8",
+    :address "Av. D. João II, n.º 24 B, 2900-001 SETÚBAL",
+    :address-c "Avenida Dom João II 24B, 2910-548, Setúbal",
+    :postal-c "2910-548",
+    :x -8.878170013836666,
+    :y 38.5302200161527,
+    :score 92.61,
+    :c 2}}]
  ["andrade-de-azeitao-01202"
   {:nec 1202,
    :rates
@@ -816,6 +843,7 @@
    {:address
     "Rua Sociedade Filarmónica Perpétua Azeitonense, Nº 5 2925-598 AZEITÃO",
     :name "Andrade de Azeitão",
+    :href-id #uuid "ac9a26fb-8086-3373-a721-4e920e071c48",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AndradedeAzeitao109.aspx",
@@ -823,6 +851,8 @@
     :nec 1202,
     :cp7 "2925-598",
     :id #uuid "c678678d-414a-3c20-a0b4-c12a47b08d37",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/ac9a26fb-andrade-de-azeitao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
    :geocode
@@ -835,4 +865,100 @@
     :x -9.025883940727644,
     :y 38.525931221812115,
     :score 95.89,
+    :c 1}}]
+ ["nova-de-setubal-01364"
+  {:nec 1364,
+   :rates
+   [{:r/nec 1364,
+     :r/level-0 "2015",
+     :r/d-scheduled 1,
+     :r/t-rate nil,
+     :r/total-rate 0.0,
+     :r/d-done 1,
+     :r/total-scheduled 1,
+     :r/name-raw "Escola De Condução Nova De Setúbal",
+     :r/total-done 1,
+     :r/d-rate 0.0,
+     :r/t-scheduled 0.0,
+     :r/k "nova-de-setubal-01364",
+     :r/total-passed 0.0,
+     :r/t-done 0.0}
+    {:r/nec 1364,
+     :r/level-0 "2017",
+     :r/d-scheduled 64,
+     :r/t-rate 0.7558,
+     :r/total-rate 0.7667,
+     :r/d-done 64,
+     :r/total-scheduled 154,
+     :r/name-raw "Escola De Condução Nova De Setúbal",
+     :r/total-done 150,
+     :r/d-rate 0.7813,
+     :r/t-scheduled 90.0,
+     :r/k "nova-de-setubal-01364",
+     :r/total-passed 115.0,
+     :r/t-done 86.0}
+    {:r/nec 1364,
+     :r/level-0 "2018",
+     :r/d-scheduled 93,
+     :r/t-rate 0.694,
+     :r/total-rate 0.722,
+     :r/d-done 89,
+     :r/total-scheduled 232,
+     :r/name-raw "Escola De Condução Nova De Setúbal",
+     :r/total-done 223,
+     :r/d-rate 0.764,
+     :r/t-scheduled 139.0,
+     :r/k "nova-de-setubal-01364",
+     :r/total-passed 161.0,
+     :r/t-done 134.0}
+    {:r/nec 1364,
+     :r/level-0 "2019",
+     :r/d-scheduled 227,
+     :r/t-rate 0.6463,
+     :r/total-rate 0.7038,
+     :r/d-done 226,
+     :r/total-scheduled 530,
+     :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DE SETÚBAL",
+     :r/total-done 520,
+     :r/d-rate 0.7788,
+     :r/t-scheduled 303.0,
+     :r/k "nova-de-setubal-01364",
+     :r/total-passed 366.0,
+     :r/t-done 294.0}
+    {:r/nec 1364,
+     :r/level-0 "2020",
+     :r/d-scheduled 218,
+     :r/t-rate 0.6796,
+     :r/total-rate 0.7178,
+     :r/d-done 208,
+     :r/total-scheduled 691,
+     :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DE SETÚBAL",
+     :r/total-done 645,
+     :r/d-rate 0.7981,
+     :r/t-scheduled 473.0,
+     :r/k "nova-de-setubal-01364",
+     :r/total-passed 463.0,
+     :r/t-done 437.0}],
+   :imt-profile
+   {:address "Rua António José Batista, nº 120 R/C 2910-398 Setúbal",
+    :name "Nova de Setúbal",
+    :href-id #uuid "116abfc2-e533-3aee-8d8e-52b0c8c4fdbc",
+    :distrito "Setúbal",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeSet%c3%babal.aspx",
+    :concelho "Setúbal",
+    :nec 1364,
+    :cp7 "2910-398",
+    :id #uuid "3b69f4bd-99b4-3fd5-a4a4-fd15b05bdfdf",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/116abfc2-nova-de-setubal.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
+   :geocode
+   {:address "Rua António José Batista, nº 120 R/C 2910-398 Setúbal",
+    :address-c "Rua António José Batista 120, 2910-398, Setúbal",
+    :postal-c "2910-398",
+    :x -8.884394576192,
+    :y 38.529723118973,
+    :score 98.06,
     :c 1}}]]

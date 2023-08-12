@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Dr. Bernardo Pinheiro de Aragão 5100-118 LAMEGO",
     :name "Lamego",
+    :href-id #uuid "63c50d1e-d3ce-3895-b0b0-1e963371d3e1",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lamego591.aspx",
@@ -95,6 +96,8 @@
     :nec 363,
     :cp7 "5100-118",
     :id #uuid "092fd767-d6d1-3bbe-ab82-418ca21bce85",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/lamego/63c50d1e-lamego.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Quinta do Paraíso, Bloco 3 r/c 5100-187 LAMEGO",
     :name "Senhora dos Remédios",
+    :href-id #uuid "c0509779-0e96-3242-b8eb-778745c9b16d",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoradosRemedios963.aspx",
@@ -204,6 +208,8 @@
     :nec 583,
     :cp7 "5100-187",
     :id #uuid "fe261eb8-2a89-33e9-9b4c-1581c9b2db0e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/lamego/c0509779-senhora-dos-remedios.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
    :geocode
@@ -290,6 +296,7 @@
    {:address
     "Lugar do Cerrado - Ortigosa - Bloco A - Subcave 5100-160 LAMEGO",
     :name "Realidade",
+    :href-id #uuid "98d91481-bf2c-3275-b889-2d6aaad3be22",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Realidade838.aspx",
@@ -297,6 +304,8 @@
     :nec 819,
     :cp7 "5100-160",
     :id #uuid "7c6b99ff-dd8a-3619-a1e2-b016536720ac",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/lamego/98d91481-realidade.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
    :geocode
@@ -304,114 +313,5 @@
     :postal-c "5100-160",
     :x -7.805919995441059,
     :y 41.09929001941313,
-    :score 100,
-    :c 1}}]
- ["egas-moniz-00873"
-  {:nec 873,
-   :rates
-   [{:r/nec 873,
-     :r/level-0 "2015",
-     :r/d-scheduled 129,
-     :r/t-rate 0.7459,
-     :r/total-rate 0.7189,
-     :r/d-done 127,
-     :r/total-scheduled 254,
-     :r/name-raw "Escola De Condução Egas Moniz",
-     :r/total-done 249,
-     :r/d-rate 0.6929,
-     :r/t-scheduled 125.0,
-     :r/k "egas-moniz-00873",
-     :r/total-passed 179.0,
-     :r/t-done 122.0}
-    {:r/nec 873,
-     :r/level-0 "2016",
-     :r/d-scheduled 113,
-     :r/t-rate 0.75,
-     :r/total-rate 0.7075,
-     :r/d-done 113,
-     :r/total-scheduled 255,
-     :r/name-raw "Escola De Condução Egas Moniz",
-     :r/total-done 253,
-     :r/d-rate 0.6549,
-     :r/t-scheduled 142.0,
-     :r/k "egas-moniz-00873",
-     :r/total-passed 179.0,
-     :r/t-done 140.0}
-    {:r/nec 873,
-     :r/level-0 "2017",
-     :r/d-scheduled 177,
-     :r/t-rate 0.6567,
-     :r/total-rate 0.6375,
-     :r/d-done 175,
-     :r/total-scheduled 318,
-     :r/name-raw "Escola De Condução Egas Moniz",
-     :r/total-done 309,
-     :r/d-rate 0.6229,
-     :r/t-scheduled 141.0,
-     :r/k "egas-moniz-00873",
-     :r/total-passed 197.0,
-     :r/t-done 134.0}
-    {:r/nec 873,
-     :r/level-0 "2018",
-     :r/d-scheduled 119,
-     :r/t-rate 0.6306,
-     :r/total-rate 0.6291,
-     :r/d-done 118,
-     :r/total-scheduled 284,
-     :r/name-raw "Escola De Condução Egas Moniz",
-     :r/total-done 275,
-     :r/d-rate 0.6271,
-     :r/t-scheduled 165.0,
-     :r/k "egas-moniz-00873",
-     :r/total-passed 173.0,
-     :r/t-done 157.0}
-    {:r/nec 873,
-     :r/level-0 "2019",
-     :r/d-scheduled 153,
-     :r/t-rate 0.6203,
-     :r/total-rate 0.6059,
-     :r/d-done 149,
-     :r/total-scheduled 321,
-     :r/name-raw "ESCOLA DE CONDUÇÃO EGAS MONIZ",
-     :r/total-done 307,
-     :r/d-rate 0.5906,
-     :r/t-scheduled 168.0,
-     :r/k "egas-moniz-00873",
-     :r/total-passed 186.0,
-     :r/t-done 158.0}
-    {:r/nec 873,
-     :r/level-0 "2020",
-     :r/d-scheduled 89,
-     :r/t-rate 0.4603,
-     :r/total-rate 0.5187,
-     :r/d-done 88,
-     :r/total-scheduled 231,
-     :r/name-raw "ESCOLA DE CONDUÇÃO EGAS MONIZ",
-     :r/total-done 214,
-     :r/d-rate 0.6023,
-     :r/t-scheduled 142.0,
-     :r/k "egas-moniz-00873",
-     :r/total-passed 111.0,
-     :r/t-done 126.0}],
-   :imt-profile
-   {:address "Rua Francisco Sá Carneiro 5100-344 BRITIANDE",
-    :name "Egas Moniz",
-    :distrito "Viseu",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EgasMoniz402.aspx",
-    :concelho "Lamego",
-    :nec 873,
-    :cp7 "5100-344",
-    :id #uuid "b1b64999-0e41-3e55-bf6b-2a270a0e8460",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
-   :geocode
-   {:id #uuid "b1b64999-0e41-3e55-bf6b-2a270a0e8460",
-    :address "Rua Francisco Sá Carneiro 5100-344 BRITIANDE",
-    :address-c
-    "Rua de Francisco Sá Carneiro, 5100-344, Britiande, Lamego, Viseu",
-    :postal-c "5100-344",
-    :x -7.792150407794964,
-    :y 41.06321724842816,
     :score 100,
     :c 1}}]]

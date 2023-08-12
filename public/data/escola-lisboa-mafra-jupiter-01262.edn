@@ -88,6 +88,7 @@
  {:address
   "Rua Padre Alfredo Fernandes de Brito, Nº 9 F 2665-527 VENDA do PINHEIRO",
   :name "Júpiter",
+  :href-id #uuid "d0026887-f933-34ef-8ba9-a5145a9c6900",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Jupiter585.aspx",
@@ -95,6 +96,8 @@
   :nec 1262,
   :cp7 "2665-527",
   :id #uuid "d0997a67-1252-31e0-baa8-9dbafcd000fb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/d0026887-jupiter.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
  :geocode

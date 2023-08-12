@@ -88,6 +88,7 @@
  {:address
   "Rua Cidade Parthenay, Bloco E r/c Loja 7 2200-238 ABRANTES",
   :name "Traquina",
+  :href-id #uuid "ff582301-0eb1-34b1-a7ed-5996bb4fab43",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Traquina1018.aspx",
@@ -95,6 +96,8 @@
   :nec 1120,
   :cp7 "2200-238",
   :id #uuid "a104c4aa-f646-35f2-a16f-5ff61a3eddf6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/abrantes/ff582301-traquina.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Abrantes"},
  :geocode

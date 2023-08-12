@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua do Lagar, 4 7170-079 REDONDO",
     :name "Redondo",
+    :href-id #uuid "d7531123-15e2-3c1f-99c1-844ffcee1e6b",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Redondo840.aspx",
@@ -95,6 +96,8 @@
     :nec 301,
     :cp7 "7170-079",
     :id #uuid "f541f76c-2fc8-3e74-89da-45025bd1091f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/redondo/d7531123-redondo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Redondo"},
    :geocode

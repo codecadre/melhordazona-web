@@ -31,7 +31,9 @@
  :imt-profile
  {:address
   "Praceta Padre João Moreira nº 41 4410-220 S. FÉLIX da MARINHA",
+  :archived-last-seen-at "2022-05-07T14:52:45Z",
   :name "Onda",
+  :href-id #uuid "23368e8c-b62e-36c1-b7aa-398448589977",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Onda751.aspx",
@@ -39,6 +41,8 @@
   :nec 1016,
   :cp7 "4410-220",
   :id #uuid "61adc274-38ca-37dc-ad0e-d06073995542",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/23368e8c-onda.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode

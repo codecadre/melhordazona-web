@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Quinta da Carreira Lote 7 r/c Loja A 3500-098 VISEU",
   :name "Estrada Segura",
+  :href-id #uuid "9d77ab83-851f-39ee-bf74-a5e1c0d5d33e",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstradaSegura420.aspx",
@@ -94,5 +95,16 @@
   :nec 1074,
   :cp7 "3500-098",
   :id #uuid "da925117-e8f9-369c-86a9-65f2f9c04763",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/9d77ab83-estrada-segura.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+ :geocode
+ {:id #uuid "da925117-e8f9-369c-86a9-65f2f9c04763",
+  :address "Quinta da Carreira Lote 7 r/c Loja A 3500-098 VISEU",
+  :address-c "Travessa Quinta das Carreiras 7, 3510-685, Viseu",
+  :postal-c "3510-685",
+  :x -7.94332998243317,
+  :y 40.667760013913636,
+  :score 87.45,
+  :c 8}}

@@ -89,6 +89,7 @@
    {:address
     "Largo dos Combatentes da Grande Guerra, Nª 6 8400-338 LAGOA",
     :name "Infante de Sagres - Lagoa",
+    :href-id #uuid "5c275b16-275a-3b85-abbd-ffc96c40cf9d",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresLagoa535.aspx",
@@ -96,6 +97,8 @@
     :nec 207,
     :cp7 "8400-338",
     :id #uuid "2f9f52f9-27bd-3ca8-8d9c-6683799c5c70",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagoa/5c275b16-infante-de-sagres-lagoa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"},
    :geocode
@@ -200,6 +203,7 @@
    {:address
     "Urbanização Quinta do Alto, Lote 20, Fracção A Cave Semi-enterrada Direita - 8400-142 ESTOMBAR",
     :name "Calipolense",
+    :href-id #uuid "55aa9a58-f62f-3a72-9d86-3f2ba8177ce8",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaooCalipolense.aspx",
@@ -207,6 +211,8 @@
     :nec 249,
     :cp7 "8400-142",
     :id #uuid "893a9595-f658-3aa9-a789-8432e516a8eb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagoa/55aa9a58-calipolense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"}}]
  ["lagoense-01086"
@@ -300,6 +306,7 @@
    {:address
     "Parque Empresarial do Algarve, lote 3 r/c 8400-431 LAGOA",
     :name "Lagoense",
+    :href-id #uuid "a7e2bb68-2e71-339e-8bb8-c18dc8e3a546",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lagoense589.aspx",
@@ -307,12 +314,17 @@
     :nec 1086,
     :cp7 "8400-431",
     :id #uuid "3734bb2d-a746-3cb1-975b-23d66bc845e7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagoa/a7e2bb68-lagoense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"},
    :geocode
-   {:cp7 "8400-431",
-    :postal-c "8400-431",
-    :x -8.447158470958072,
-    :y 37.131257325937625,
-    :score 100,
-    :c 1}}]]
+   {:id #uuid "3734bb2d-a746-3cb1-975b-23d66bc845e7",
+    :address
+    "Parque Empresarial do Algarve, lote 3 r/c 8400-431 LAGOA",
+    :address-c "Parque Empresarial do Algarve",
+    :postal-c "8400",
+    :x -8.447149999999965,
+    :y 37.130660000000034,
+    :score 90.8,
+    :c 2}}]]

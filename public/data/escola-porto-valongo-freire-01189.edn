@@ -88,6 +88,7 @@
  {:address
   "Av. Engº Duarte Pacheco - Edificio Paços da Formiga, Nº 921 4445-516 ERMESINDE",
   :name "Freire",
+  :href-id #uuid "9523d78d-1737-31f9-ae4d-215efa388db7",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Freire470.aspx",
@@ -95,6 +96,8 @@
   :nec 1189,
   :cp7 "4445-516",
   :id #uuid "b4c04c7d-fbe1-3a53-bf54-0170b1848570",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/valongo/9523d78d-freire.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
  :geocode

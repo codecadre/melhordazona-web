@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua São João de Brito, Nº 8 - A 2830-358 BARREIRO",
   :name "Cidade do Barreiro",
+  :href-id #uuid "f79cf83c-ea4b-31ae-8f96-ca4d8282bbf6",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadedoBarreiro311.aspx",
@@ -94,6 +95,8 @@
   :nec 942,
   :cp7 "2830-358",
   :id #uuid "51b36c9b-7b4a-34e5-bb7b-916b00164525",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/barreiro/f79cf83c-cidade-do-barreiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
  :geocode

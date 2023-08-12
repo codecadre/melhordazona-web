@@ -17,6 +17,7 @@
  :imt-profile
  {:address "Avª Heróis do Ultramar nº 128 r/c 3100-462 POMBAL",
   :name "Manuel Leal",
+  :href-id #uuid "c670b2f4-a3f8-37a4-95d4-a2f4b0b445ed",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ManuelLeal623.aspx",
@@ -24,12 +25,17 @@
   :nec 552,
   :cp7 "3100-462",
   :id #uuid "06a03764-8cdd-3100-8182-ac6cc0251985",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/pombal/c670b2f4-manuel-leal.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Pombal"},
  :geocode
- {:cp7 "3100-462",
+ {:id #uuid "06a03764-8cdd-3100-8182-ac6cc0251985",
+  :address "Avª Heróis do Ultramar nº 128 r/c 3100-462 POMBAL",
+  :address-c
+  "Avenida Heróis do Ultramar 128, 3100-462, Pombal, Leiria",
   :postal-c "3100-462",
-  :x -8.620164975812742,
-  :y 39.91799999024627,
-  :score 100,
-  :c 1}}
+  :x -8.617593743194647,
+  :y 39.91855298630827,
+  :score 88.71,
+  :c 2}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Mouratos - Golpilheira 2440-042 BATALHA",
   :name "Batalhense",
+  :href-id #uuid "fef99127-653a-3300-a62a-7c91e3e3a1e9",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Batalhense224.aspx",
@@ -94,12 +95,16 @@
   :nec 588,
   :cp7 "2440-042",
   :id #uuid "45c8c2ba-ac91-3c03-a7f6-27f1a3fc78c1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/batalha/fef99127-batalhense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Batalha"},
  :geocode
- {:cp7 "2440-042",
-  :postal-c "2440-042",
-  :x -8.825865010184174,
-  :y 39.65310498590259,
-  :score 100,
-  :c 1}}
+ {:id #uuid "45c8c2ba-ac91-3c03-a7f6-27f1a3fc78c1",
+  :address "Mouratos - Golpilheira 2440-042 BATALHA",
+  :address-c "2440-234, Golpilheira, Batalha, Leiria",
+  :postal-c "2440-234",
+  :x -8.819146716990598,
+  :y 39.68652111221724,
+  :score 89.1,
+  :c 3}}

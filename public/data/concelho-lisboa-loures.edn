@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª de Moscavide, 14 – 1º Esqº 1885-066 MOSCAVIDE",
     :name "Confiança",
+    :href-id #uuid "4c0e9727-fcef-3843-9a23-fa7a3380ce0d",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Confianca332.aspx",
@@ -95,15 +96,20 @@
     :nec 117,
     :cp7 "1885-066",
     :id #uuid "af36c14a-55ad-3633-911d-dfd37f0deb7c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/4c0e9727-confianca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
-   {:cp7 "1885-066",
-    :postal-c "1885-066",
-    :x -9.103459980852648,
-    :y 38.77966499364919,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "af36c14a-55ad-3633-911d-dfd37f0deb7c",
+    :address "Avª de Moscavide, 14 – 1º Esqº 1885-066 MOSCAVIDE",
+    :address-c
+    "Avenida de Moscavide 14, 1885-060, Moscavide, Loures, Lisboa",
+    :postal-c "1885-060",
+    :x -9.101069964981207,
+    :y 38.77598001564667,
+    :score 88.15,
+    :c 2}}]
  ["central-de-loures-00156"
   {:nec 156,
    :rates
@@ -194,6 +200,7 @@
    :imt-profile
    {:address "Rua da República, 56 – 1º 2670-469 LOURES",
     :name "Central de Loures",
+    :href-id #uuid "44e2ae78-2e88-31b8-9a25-a5b260e3330f",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CentraldeLoures302.aspx",
@@ -201,6 +208,8 @@
     :nec 156,
     :cp7 "2670-469",
     :id #uuid "58b9769e-be6e-34c6-b6a4-fe03313632dc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/44e2ae78-central-de-loures.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
@@ -302,6 +311,7 @@
    :imt-profile
    {:address "Travessa do Olival, 6 r/c Dtº 2685-86 SACAVÉM",
     :name "Sacavenense",
+    :href-id #uuid "f96c85e0-8585-32b2-a889-1ccdae37525f",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sacavenense906.aspx",
@@ -309,6 +319,8 @@
     :nec 395,
     :cp7 "2685-86",
     :id #uuid "6dfbb7bd-ec21-3a14-be58-80d3294fe277",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/f96c85e0-sacavenense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
@@ -410,6 +422,7 @@
    :imt-profile
    {:address "Rua Cidade de Lisboa, Bloco C - 1.º Esq. 2685 Camarate",
     :name "Rio Minho",
+    :href-id #uuid "f0244ce6-c0e8-3db3-8e23-30902ffa87a1",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RioMinho857.aspx",
@@ -417,8 +430,20 @@
     :nec 454,
     :cp7 "2685",
     :id #uuid "9deb3796-8cf6-3446-b257-63bb792eab20",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/f0244ce6-rio-minho.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+   :geocode
+   {:id #uuid "9deb3796-8cf6-3446-b257-63bb792eab20",
+    :address "Rua Cidade de Lisboa, Bloco C - 1.º Esq. 2685 Camarate",
+    :address-c
+    "Rua Cidade de Lisboa 1, 2680, Bairro de São Francisco, Loures, Lisboa",
+    :postal-c "2680",
+    :x -9.14128820592336,
+    :y 38.787581784572275,
+    :score 89.1,
+    :c 4}}]
  ["mais-00502"
   {:nec 502,
    :rates
@@ -509,6 +534,7 @@
    :imt-profile
    {:address "Praceta Antero de Quental, n.º 2 B ; 2695-021 Bobadela",
     :name "Mais",
+    :href-id #uuid "3fd97b90-55a6-3cd3-939a-1685ca5dd727",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Jovem583.aspx",
@@ -516,6 +542,8 @@
     :nec 502,
     :cp7 "2695-021",
     :id #uuid "a05f19af-09ad-3320-bd96-a76c217c0564",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/3fd97b90-mais.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
@@ -527,6 +555,116 @@
     :x -9.101719981572472,
     :y 38.80657999720731,
     :score 96.38,
+    :c 1}}]
+ ["salvaterra-00598"
+  {:nec 598,
+   :rates
+   [{:r/nec 598,
+     :r/level-0 "2015",
+     :r/d-scheduled 238,
+     :r/t-rate 0.7053,
+     :r/total-rate 0.6533,
+     :r/d-done 234,
+     :r/total-scheduled 433,
+     :r/name-raw "Escola De Condução Salvaterra",
+     :r/total-done 424,
+     :r/d-rate 0.6111,
+     :r/t-scheduled 195.0,
+     :r/k "salvaterra-00598",
+     :r/total-passed 277.0,
+     :r/t-done 190.0}
+    {:r/nec 598,
+     :r/level-0 "2016",
+     :r/d-scheduled 212,
+     :r/t-rate 0.6911,
+     :r/total-rate 0.6883,
+     :r/d-done 210,
+     :r/total-scheduled 406,
+     :r/name-raw "Escola De Condução Salvaterra",
+     :r/total-done 401,
+     :r/d-rate 0.6857,
+     :r/t-scheduled 194.0,
+     :r/k "salvaterra-00598",
+     :r/total-passed 276.0,
+     :r/t-done 191.0}
+    {:r/nec 598,
+     :r/level-0 "2017",
+     :r/d-scheduled 238,
+     :r/t-rate 0.7296,
+     :r/total-rate 0.7122,
+     :r/d-done 236,
+     :r/total-scheduled 476,
+     :r/name-raw "Escola De Condução Salvaterra",
+     :r/total-done 469,
+     :r/d-rate 0.6949,
+     :r/t-scheduled 238.0,
+     :r/k "salvaterra-00598",
+     :r/total-passed 334.0,
+     :r/t-done 233.0}
+    {:r/nec 598,
+     :r/level-0 "2018",
+     :r/d-scheduled 245,
+     :r/t-rate 0.7675,
+     :r/total-rate 0.7458,
+     :r/d-done 244,
+     :r/total-scheduled 477,
+     :r/name-raw "Escola De Condução Salvaterra",
+     :r/total-done 472,
+     :r/d-rate 0.7254,
+     :r/t-scheduled 232.0,
+     :r/k "salvaterra-00598",
+     :r/total-passed 352.0,
+     :r/t-done 228.0}
+    {:r/nec 598,
+     :r/level-0 "2019",
+     :r/d-scheduled 284,
+     :r/t-rate 0.6708,
+     :r/total-rate 0.685,
+     :r/d-done 284,
+     :r/total-scheduled 537,
+     :r/name-raw "ESCOLA DE CONDUÇÃO SALVATERRA",
+     :r/total-done 527,
+     :r/d-rate 0.6972,
+     :r/t-scheduled 253.0,
+     :r/k "salvaterra-00598",
+     :r/total-passed 361.0,
+     :r/t-done 243.0}
+    {:r/nec 598,
+     :r/level-0 "2020",
+     :r/d-scheduled 217,
+     :r/t-rate 0.6552,
+     :r/total-rate 0.6638,
+     :r/d-done 206,
+     :r/total-scheduled 500,
+     :r/name-raw "ESCOLA DE CONDUÇÃO SALVATERRA",
+     :r/total-done 467,
+     :r/d-rate 0.6748,
+     :r/t-scheduled 283.0,
+     :r/k "salvaterra-00598",
+     :r/total-passed 310.0,
+     :r/t-done 261.0}],
+   :imt-profile
+   {:address
+    "Rua da Circunvalação, N.º 29-urb. Alto dos Mealheiros - Bº Estacal Novo -2690-214 Santa Iria da Azóia",
+    :name "Salvaterra",
+    :href-id #uuid "5dd574f0-fd31-3cb2-b5d2-69d7c903c50c",
+    :distrito "Lisboa",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Salvaterra908.aspx",
+    :concelho "Loures",
+    :nec 598,
+    :cp7 "2690-214",
+    :id #uuid "f3243f23-f34f-3e94-8b59-9ad070d30b78",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/5dd574f0-salvaterra.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+   :geocode
+   {:cp7 "2690-214",
+    :postal-c "2690-214",
+    :x -9.093345035377,
+    :y 38.831685012594,
+    :score 100,
     :c 1}}]
  ["extra-00614"
   {:nec 614,
@@ -576,7 +714,9 @@
    :imt-profile
    {:address
     "Praceta Manuel Fialho, Torre 1, Loja Dtª 2660-460 SANTO ANTÓNIO dos CAVALEIROS",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Extra",
+    :href-id #uuid "8a08ba31-63e9-3b4c-8be7-bd0565d9c301",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Extra438.aspx",
@@ -584,6 +724,8 @@
     :nec 614,
     :cp7 "2660-460",
     :id #uuid "769fe2bc-1822-3bd5-b269-420dde91ab00",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/8a08ba31-extra.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
@@ -596,85 +738,6 @@
     :x -9.165545952107426,
     :y 38.81091276520639,
     :score 96.66,
-    :c 1}}]
- ["sao-joao-da-talha-00640"
-  {:nec 640,
-   :rates
-   [{:r/nec 640,
-     :r/level-0 "2015",
-     :r/d-scheduled 81,
-     :r/t-rate 0.6066,
-     :r/total-rate 0.5929,
-     :r/d-done 79,
-     :r/total-scheduled 146,
-     :r/name-raw "Escola De Condução São João Da Talha",
-     :r/total-done 140,
-     :r/d-rate 0.5823,
-     :r/t-scheduled 65.0,
-     :r/k "sao-joao-da-talha-00640",
-     :r/total-passed 83.0,
-     :r/t-done 61.0}
-    {:r/nec 640,
-     :r/level-0 "2016",
-     :r/d-scheduled 31,
-     :r/t-rate 0.625,
-     :r/total-rate 0.6182,
-     :r/d-done 31,
-     :r/total-scheduled 57,
-     :r/name-raw "Escola De Condução São João Da Talha",
-     :r/total-done 55,
-     :r/d-rate 0.6129,
-     :r/t-scheduled 26.0,
-     :r/k "sao-joao-da-talha-00640",
-     :r/total-passed 34.0,
-     :r/t-done 24.0}
-    {:r/nec 640,
-     :r/level-0 "2017",
-     :r/d-scheduled 5,
-     :r/t-rate 0.5,
-     :r/total-rate 0.6667,
-     :r/d-done 5,
-     :r/total-scheduled 10,
-     :r/name-raw "Escola De Condução São João Da Talha",
-     :r/total-done 9,
-     :r/d-rate 0.8,
-     :r/t-scheduled 5.0,
-     :r/k "sao-joao-da-talha-00640",
-     :r/total-passed 6.0,
-     :r/t-done 4.0}
-    {:r/nec 640,
-     :r/level-0 "2018",
-     :r/d-scheduled 0,
-     :r/t-rate 0.0,
-     :r/total-rate 0.0,
-     :r/d-done 0,
-     :r/total-scheduled 1,
-     :r/name-raw "ESCOLA DE CONDUÇÃO SÃO JOÃO DA TALHA",
-     :r/total-done 1,
-     :r/d-rate nil,
-     :r/t-scheduled 1.0,
-     :r/k "sao-joao-da-talha-00640",
-     :r/total-passed 0.0,
-     :r/t-done 1.0}],
-   :imt-profile
-   {:address
-    "Quinta das Torres , lote 8 r/c 2695 -731 S. JOÃO DA TALHA",
-    :name "S. João da Talha",
-    :distrito "Lisboa",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SJoaodaTalha888.aspx",
-    :concelho "Loures",
-    :nec 640,
-    :cp7 "2695-731",
-    :id #uuid "3903ba24-3be4-3286-b2f9-ddef02184f78",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
-   :geocode
-   {:cp7 "2695-731",
-    :postal-c "2695-731",
-    :x -9.097385028888198,
-    :y 38.82128001135834,
-    :score 100,
     :c 1}}]
  ["do-infantado-00686"
   {:nec 686,
@@ -767,6 +830,7 @@
    {:address
     "Rua Vasco da Gama, n.º 5 B, Urbanização do Infantado, 2670-395 LOURES",
     :name "Infantado",
+    :href-id #uuid "febaed79-19a6-350a-b510-2062b8d0957a",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Infantado855.aspx",
@@ -774,15 +838,21 @@
     :nec 686,
     :cp7 "2670-395",
     :id #uuid "255d453d-173a-38fe-b1ac-08352dc942f1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/febaed79-infantado.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
-   {:cp7 "2670-395",
+   {:id #uuid "255d453d-173a-38fe-b1ac-08352dc942f1",
+    :address
+    "Rua Vasco da Gama, n.º 5 B, Urbanização do Infantado, 2670-395 LOURES",
+    :address-c
+    "Rua Vasco da Gama 5B, 2670-395, Infantado, Loures, Lisboa",
     :postal-c "2670-395",
-    :x -9.159419997203827,
-    :y 38.83896498886821,
-    :score 100,
-    :c 1}}]
+    :x -9.159180023315912,
+    :y 38.83878000026513,
+    :score 92.3,
+    :c 5}}]
  ["galactica-00717"
   {:nec 717,
    :rates
@@ -873,6 +943,7 @@
    :imt-profile
    {:address "Urbanização das Urneiras, Lote B - 2C, 2670-524 LOURES",
     :name "Galáctica",
+    :href-id #uuid "20dafdc3-2085-3ed0-981c-aaa901ccbbfd",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Galactica480.aspx",
@@ -880,6 +951,8 @@
     :nec 717,
     :cp7 "2670-524",
     :id #uuid "33e29a9b-651c-3beb-995b-dfa4b9ec7661",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/20dafdc3-galactica.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
@@ -980,6 +1053,7 @@
    {:address
     "Rua Professor Egas Moniz,Nº 8-A-Bairro de S. Lourenço 2670-003 CAMARATE",
     :name "Atlas",
+    :href-id #uuid "6f6f50a0-49a4-3c86-86df-7046e2664091",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Atlas135.aspx",
@@ -987,8 +1061,20 @@
     :nec 871,
     :cp7 "2670-003",
     :id #uuid "93931828-b627-389f-b467-227ed7c31c67",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/6f6f50a0-atlas.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
+   :geocode
+   {:address
+    "Rua Professor Egas Moniz,Nº 8-A-Bairro de S. Lourenço 2670-003 CAMARATE",
+    :address-c
+    "Rua Professor Egas Moniz 8, 2680-510, Camarate, Loures, Lisboa",
+    :postal-c "2680-510",
+    :x -9.132789915625,
+    :y 38.80181105626,
+    :score 94.48,
+    :c 1}}]
  ["independente-00953"
   {:nec 953,
    :rates
@@ -1066,6 +1152,7 @@
    {:address
     "Avª Infante D. Henrique, Nº 14-C 2660-030 SANTO ANTÓNIO dos CAVALEIROS",
     :name "Independente",
+    :href-id #uuid "6948f6c3-daf8-39d9-bd1c-5930233caff0",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Independente522.aspx",
@@ -1073,15 +1160,21 @@
     :nec 953,
     :cp7 "2660-030",
     :id #uuid "de0ec4fd-26d9-3952-af2b-c29f26089fc8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/6948f6c3-independente.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
-   {:cp7 "2660-030",
-    :postal-c "2660-030",
-    :x -9.154369984359647,
-    :y 38.81669498459283,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "de0ec4fd-26d9-3952-af2b-c29f26089fc8",
+    :address
+    "Avª Infante D. Henrique, Nº 14-C 2660-030 SANTO ANTÓNIO dos CAVALEIROS",
+    :address-c
+    "Avenida Infante Dom Henrique 14, 2660-450, Conventinho, Loures, Lisboa",
+    :postal-c "2660-450",
+    :x -9.161589988116901,
+    :y 38.81634001099334,
+    :score 88.31,
+    :c 50}}]
  ["portela-01033"
   {:nec 1033,
    :rates
@@ -1172,6 +1265,7 @@
    :imt-profile
    {:address "Avª de Moscavide, Nº 99 -A 1885-066 MOSCAVIDE",
     :name "Portela",
+    :href-id #uuid "da645b57-22ee-373f-aedc-474f0acc78f6",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Portela802.aspx",
@@ -1179,6 +1273,8 @@
     :nec 1033,
     :cp7 "1885-066",
     :id #uuid "6749cf9c-0f3d-3ee7-a1fb-13159fb323ce",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/da645b57-portela.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
@@ -1280,28 +1376,20 @@
      :r/t-done 173.0}],
    :imt-profile
    {:address
-    "Rua Alfredo Vitorino Costa, Nº 42 – B 2695-735 S. JOÃO da TALHA",
+    "Rua da Igreja Nº 6-A, Nº 28, Lojas 43/44 - 2695 São João da Talha",
     :name "Vale Figueira",
+    :href-id #uuid "6486d314-b98f-3f3f-909c-99cdab780b87",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ValeFigueira1034.aspx",
     :concelho "Loures",
     :nec 1151,
-    :cp7 "2695-735",
-    :id #uuid "14d60a98-8a6a-3e63-8f0e-e50c2f4d5758",
+    :cp7 "2695",
+    :id #uuid "7f1e567e-c289-3116-a106-4150dc9a8243",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/6486d314-vale-figueira.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
-   :geocode
-   {:id #uuid "14d60a98-8a6a-3e63-8f0e-e50c2f4d5758",
-    :address
-    "Rua Alfredo Vitorino Costa, Nº 42 – B 2695-735 S. JOÃO da TALHA",
-    :address-c
-    "Rua Alfredo Vitorino da Costa 42B, 2695-735, Bairro Mariana Gaita, Loures, Lisboa",
-    :postal-c "2695-735",
-    :x -9.101649992680933,
-    :y 38.82586000898195,
-    :score 97.39,
-    :c 2}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"}}]
  ["pinheiro-de-loures-01193"
   {:nec 1193,
    :rates
@@ -1393,6 +1481,7 @@
    {:address
     "Rua dos Combatentes do Ultramar, Lote 1 - R/C Esq 2670-506 LOURES",
     :name "Pinheiro de Loures",
+    :href-id #uuid "4dbb66be-ecca-3f2e-a164-00ea32831ca5",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PinheirodeLoures791.aspx",
@@ -1400,6 +1489,8 @@
     :nec 1193,
     :cp7 "2670-506",
     :id #uuid "f1a24e48-b1af-33dc-bd8e-4aa7904aeb0c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/4dbb66be-pinheiro-de-loures.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
@@ -1504,6 +1595,7 @@
    {:address
     "Rua Manuel José Cerqueira Afonso dos Santos, Lote 9-Loja Esq 2685-311 Prior Velho",
     :name "Prior Velho",
+    :href-id #uuid "70701535-c688-3d44-ae00-1d5ceb946fb0",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PriorVelho815.aspx",
@@ -1511,6 +1603,8 @@
     :nec 1226,
     :cp7 "2685-311",
     :id #uuid "8512b50d-49f3-34d0-a0d4-2f57f9d16b5a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/70701535-prior-velho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
@@ -1614,6 +1708,7 @@
    :imt-profile
    {:address "Casal do Almirante, Lote 3, Bloco 4 2670-337 LOURES",
     :name "Almirante",
+    :href-id #uuid "5d8d4407-ba22-3232-961a-7bb288bf8712",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Almirante090.aspx",
@@ -1621,6 +1716,8 @@
     :nec 1247,
     :cp7 "2670-337",
     :id #uuid "998f2539-38e5-3fda-a449-2c1071fba580",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/5d8d4407-almirante.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode
@@ -1721,6 +1818,7 @@
    {:address
     "Rua S. Francisco Xavier, Nº 57-A 2695 Santa Iria de Azoia",
     :name "Coimbra de Santa Iria",
+    :href-id #uuid "4218fe1e-f47c-3399-bbf5-383de1e89c6d",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CoimbradeSantaIria322.aspx",
@@ -1728,6 +1826,8 @@
     :nec 1248,
     :cp7 "2695",
     :id #uuid "1d981fc1-2cbb-384a-b201-5528c3d755dd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/4218fe1e-coimbra-de-santa-iria.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
    :geocode

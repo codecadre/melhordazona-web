@@ -74,6 +74,7 @@
  {:address
   "Lugar do Cerrado - Ortigosa - Bloco A - Subcave 5100-160 LAMEGO",
   :name "Realidade",
+  :href-id #uuid "98d91481-bf2c-3275-b889-2d6aaad3be22",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Realidade838.aspx",
@@ -81,6 +82,8 @@
   :nec 819,
   :cp7 "5100-160",
   :id #uuid "7c6b99ff-dd8a-3619-a1e2-b016536720ac",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/lamego/98d91481-realidade.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
  :geocode

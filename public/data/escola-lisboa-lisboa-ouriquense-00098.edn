@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Campo de Ourique, 115 - 1º Esqº 1250-060 LISBOA",
   :name "Ouriquense",
+  :href-id #uuid "54277e6b-92e1-3e3b-9b69-970158f701d1",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ouriquense759.aspx",
@@ -94,6 +95,8 @@
   :nec 98,
   :cp7 "1250-060",
   :id #uuid "68461f40-7e42-3e6a-9985-33c133197c67",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/54277e6b-ouriquense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

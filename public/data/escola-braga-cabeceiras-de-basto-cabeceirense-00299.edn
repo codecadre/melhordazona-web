@@ -88,6 +88,7 @@
  {:address
   "Avª General Humberto Delgado, S/Nº 4860-351 REFOJOS de BASTO",
   :name "Cabeceirense",
+  :href-id #uuid "b153d2e2-5b34-3f1c-82c4-1407e82d173c",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cabeceirense268.aspx",
@@ -95,6 +96,8 @@
   :nec 299,
   :cp7 "4860-351",
   :id #uuid "62eb843c-0153-3845-b8bf-38233605dd2b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/cabeceiras-de-basto/b153d2e2-cabeceirense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua dos Quatro Caminhos - Edificio Quatro Caminhos, R/C - B 5050-067 GODIM",
   :name "Douriense",
+  :href-id #uuid "e599f144-e622-3d73-9f8c-317a70f79d65",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Douriense395.aspx",
@@ -95,6 +96,8 @@
   :nec 723,
   :cp7 "5050-067",
   :id #uuid "c01320f7-9078-3cc0-94db-9592cc3062e5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/peso-da-regua/e599f144-douriense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
  :geocode

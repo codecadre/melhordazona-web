@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Largo General Humberto Delgado, 39-1º 6300-712 GUARDA",
     :name "G. Gomes - Guarda",
+    :href-id #uuid "2301efad-a873-3708-b13b-bae262c4440d",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GGomesGuarda476.aspx",
@@ -95,6 +96,8 @@
     :nec 83,
     :cp7 "6300-712",
     :id #uuid "89d5d6e2-e4ef-3900-ad7c-86eb5ef294e4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/2301efad-g-gomes-guarda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Avª Terras de Sena, Nº 65 R/C Dtº 6270-485 SEIA",
     :name "Costa de Prata",
+    :href-id #uuid "060c3aed-c626-343d-9b3a-892b1940e29d",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostadePrata341.aspx",
@@ -203,14 +207,18 @@
     :nec 182,
     :cp7 "6270-485",
     :id #uuid "e4f2a166-fea3-3902-96a9-a543a8a1a36f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/seia/060c3aed-costa-de-prata.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"},
    :geocode
-   {:cp7 "6270-485",
+   {:id #uuid "e4f2a166-fea3-3902-96a9-a543a8a1a36f",
+    :address "Avª Terras de Sena, Nº 65 R/C Dtº 6270-485 SEIA",
+    :address-c "Avenida Terras de Serra 65, 6270-485, Seia, Guarda",
     :postal-c "6270-485",
-    :x -7.714579965786356,
-    :y 40.42548500021243,
-    :score 100,
+    :x -7.714780041815146,
+    :y 40.42469999307053,
+    :score 93.49,
     :c 1}}]
  ["s-cristovao-gouveia-00195"
   {:nec 195,
@@ -302,6 +310,7 @@
    :imt-profile
    {:address "Rua Barros Lobo, Nº 23 6290-512 GOUVEIA",
     :name "S. Cristóvão - Gouveia",
+    :href-id #uuid "5d577d33-f7fa-3dcc-a8ee-ec9ce32abe9f",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SCristovaoGouveia880.aspx",
@@ -309,6 +318,8 @@
     :nec 195,
     :cp7 "6290-512",
     :id #uuid "76277110-19da-3ed3-aee4-4f83d9998ca9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/gouveia/5d577d33-s-cristovao-gouveia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Gouveia"},
    :geocode
@@ -410,6 +421,7 @@
    :imt-profile
    {:address "Rua Marquês de Pombal, 45 –1º 6300-728 GUARDA",
     :name "A Gomes",
+    :href-id #uuid "15faaf5f-1334-3424-b71d-def0471131a7",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AGomes020.aspx",
@@ -417,6 +429,8 @@
     :nec 216,
     :cp7 "6300-728",
     :id #uuid "efcd5978-30a0-3dca-b463-10cfd41058ec",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/15faaf5f-a-gomes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
    :geocode
@@ -518,6 +532,7 @@
    :imt-profile
    {:address "Avª Fernando Pessoa, Nº 8 R/C Dtº 6420-018 TRANCOSO",
     :name "Reis Trancoso",
+    :href-id #uuid "9e4e32d9-3a29-33a1-9118-0638414b791a",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Reis%20Trancoso.aspx",
@@ -525,6 +540,8 @@
     :nec 220,
     :cp7 "6420-018",
     :id #uuid "bd12e40d-5892-3aa7-8aa4-00bc339e86e6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/trancoso/9e4e32d9-reis-trancoso.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"},
    :geocode
@@ -626,6 +643,7 @@
    :imt-profile
    {:address "Avª 1º de Maio, Lote 1-2º 6270-479 SEIA",
     :name "M. R. Ascenção",
+    :href-id #uuid "38f646ae-fa3a-37fa-bbac-971991725850",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MRAscencao615.aspx",
@@ -633,6 +651,8 @@
     :nec 235,
     :cp7 "6270-479",
     :id #uuid "40e489b0-b991-325f-a8d9-0da587b72605",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/seia/38f646ae-m-r-ascencao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"},
    :geocode
@@ -735,6 +755,7 @@
    :imt-profile
    {:address "Rua Luís de Camões, nº26 -1º Dtº 6320-380 SABUGAL",
     :name "Sabugalense",
+    :href-id #uuid "88a741c5-fe15-3fe5-ab90-63b37d30ed49",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sabugalense905.aspx",
@@ -742,6 +763,8 @@
     :nec 295,
     :cp7 "6320-380",
     :id #uuid "430c148a-e451-3934-bdd7-9b657bdff2d6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/sabugal/88a741c5-sabugalense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Sabugal"},
    :geocode
@@ -844,6 +867,7 @@
    {:address
     "Rua Artur Costa, Nº 12 r/c 6440-031 FIGUEIRA CASTELO RODRIGO",
     :name "Figueirense",
+    :href-id #uuid "8a8082c2-1c0f-3d09-af6d-73678aea0d42",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Figueirense456.aspx",
@@ -851,6 +875,8 @@
     :nec 322,
     :cp7 "6440-031",
     :id #uuid "ea61980c-87b7-3d32-a836-64d3913ab2d4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/figueira-de-castelo-rodrigo/8a8082c2-figueirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Figueira%20Castelo%20Rodrigo"},
    :geocode
@@ -953,7 +979,9 @@
      :r/t-done 27.0}],
    :imt-profile
    {:address "Rua do Colégio, nº 4 6260-000 MANTEIGAS",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Manteigas",
+    :href-id #uuid "0d7d4219-0cfb-3e15-850e-b03ed374fbfa",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Manteigas622.aspx",
@@ -961,6 +989,8 @@
     :nec 335,
     :cp7 "6260-000",
     :id #uuid "00cbaa05-25d5-318f-b2af-c0c5d692e4df",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/manteigas/0d7d4219-manteigas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Manteigas"}}]
  ["g-gomes-celorico-da-beira-00475"
@@ -1053,6 +1083,7 @@
    :imt-profile
    {:address "Rua Sacadura Cabral, Nº16 6360-350 CELORICO DA BEIRA",
     :name "G. Gomes – Celorico da Beira",
+    :href-id #uuid "1ff60e56-20c7-3088-b648-832e466737ef",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GGomes%e2%80%93CeloricodaBeira475.aspx",
@@ -1060,6 +1091,8 @@
     :nec 475,
     :cp7 "6360-350",
     :id #uuid "8cf5eec6-e199-356e-a41c-6b2289bda879",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/celorico-da-beira/1ff60e56-g-gomes-celorico-da-beira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Celorico%20da%20Beira"},
    :geocode
@@ -1162,6 +1195,7 @@
    :imt-profile
    {:address "Rua Conde Ferreira 6400-370 PINHEL",
     :name "G. Gomes – Pinhel",
+    :href-id #uuid "36bfe528-ed93-34ac-866e-b8127ecc6fd5",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GGomes%e2%80%93Pinhel477.aspx",
@@ -1169,6 +1203,8 @@
     :nec 476,
     :cp7 "6400-370",
     :id #uuid "f460634f-22c2-3fa5-9f74-2ae3233523a8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/pinhel/36bfe528-g-gomes-pinhel.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"},
    :geocode
@@ -1271,6 +1307,7 @@
    {:address
     "Estrada Nacional nº 16, nº 139, 6370-147 FORNOS DE ALGODRES",
     :name "Fornos de Algodres",
+    :href-id #uuid "e5ffa72b-a9f6-30ee-bff0-5c710c6bbccf",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FornosdeAlgodres463.aspx",
@@ -1278,6 +1315,8 @@
     :nec 495,
     :cp7 "6370-147",
     :id #uuid "267323ac-751a-361a-a9ac-6930cfb96673",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/fornos-de-algodres/e5ffa72b-fornos-de-algodres.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Fornos%20de%20Algodres"},
    :geocode
@@ -1381,6 +1420,7 @@
    :imt-profile
    {:address "Av. Carneiro de Gusmão,103-R/C Esqº 6400-337 PINHEL",
     :name "Auto Beira Côa",
+    :href-id #uuid "e75b0989-34a3-315d-a142-fab9e1bae1d3",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoBeiraCoa142.aspx",
@@ -1388,6 +1428,8 @@
     :nec 582,
     :cp7 "6400-337",
     :id #uuid "93b3d2d5-b0e2-3d81-a365-f1a91c3ebda9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/pinhel/e75b0989-auto-beira-coa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"},
    :geocode
@@ -1489,6 +1531,7 @@
    :imt-profile
    {:address "Rua José dos Santos, Nº 27 6300-575 GUARDA",
     :name "Santos Pereira e Carvalho",
+    :href-id #uuid "9fe0cb8b-e05a-3e0c-8bae-e6c3a2675364",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantosPereiraeCarvalho944.aspx",
@@ -1496,6 +1539,8 @@
     :nec 716,
     :cp7 "6300-575",
     :id #uuid "a284bb33-d173-390f-88b0-e2b39be96541",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/9fe0cb8b-santos-pereira-e-carvalho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
    :geocode
@@ -1597,6 +1642,7 @@
    :imt-profile
    {:address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
     :name "Do Mileu",
+    :href-id #uuid "f3e3ea0b-bf9c-38b2-bb1e-5ec5db9d5062",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DoMileu391.aspx",
@@ -1604,16 +1650,17 @@
     :nec 824,
     :cp7 "6300-617",
     :id #uuid "8c89d682-cf19-33e1-af3b-2f2adb1b0d9c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/guarda/f3e3ea0b-do-mileu.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Guarda"},
    :geocode
-   {:id #uuid "8c89d682-cf19-33e1-af3b-2f2adb1b0d9c",
-    :address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
+   {:address "Rua Vila Manteigas 9 A-Póvoa de Mileu 6300-617 GUARDA",
     :address-c "Rua Vila de Manteigas 9A, 6300-617, Guarda",
     :postal-c "6300-617",
-    :x -7.256720013570373,
-    :y 40.544260004788754,
-    :score 96.82,
+    :x -7.25672001357,
+    :y 40.544260004789,
+    :score 97.05,
     :c 1}}]
  ["alternativa-00884"
   {:nec 884,
@@ -1706,6 +1753,7 @@
    {:address
     "Avª Cidade Nova, Nº 14 R/C Esqº 5150-566 VILA NOVA FOZ CÔA",
     :name "Alternativa",
+    :href-id #uuid "f55c4ede-4934-309a-b705-26ea9495d9ff",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alternativa094.aspx",
@@ -1713,6 +1761,8 @@
     :nec 884,
     :cp7 "5150-566",
     :id #uuid "4ff4aa1f-3974-3af4-8a2f-b6fb88d31a9b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/vila-nova-de-foz-coa/f55c4ede-alternativa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Vila%20Nova%20Foz%20Coa"},
    :geocode
@@ -1812,6 +1862,7 @@
    :imt-profile
    {:address "Bairro da Bela Vista 6355-201 VILAR FORMOSO",
     :name "Américo e Pires",
+    :href-id #uuid "4668ef0d-d995-39a2-b2be-f47eb66cd149",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AmericoePires103.aspx",
@@ -1819,15 +1870,20 @@
     :nec 892,
     :cp7 "6355-201",
     :id #uuid "e8ac3ae8-b81e-3d95-a0eb-691b1bb81a53",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/almeida/4668ef0d-americo-e-pires.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Almeida"},
    :geocode
-   {:cp7 "6355-201",
+   {:id #uuid "e8ac3ae8-b81e-3d95-a0eb-691b1bb81a53",
+    :address "Bairro da Bela Vista 6355-201 VILAR FORMOSO",
+    :address-c
+    "Rua da Bela Vista, 6355-201, Vilar Formoso, Almeida, Guarda",
     :postal-c "6355-201",
-    :x -6.8358649904075435,
-    :y 40.615845020215886,
-    :score 100,
-    :c 1}}]
+    :x -6.8360636426085755,
+    :y 40.615741830780664,
+    :score 87.94,
+    :c 2}}]
  ["rota-da-estrela-01014"
   {:nec 1014,
    :rates
@@ -1904,6 +1960,7 @@
    :imt-profile
    {:address "Rua do Comércio nº 173 r/c 6270-133 SEIA",
     :name "Rota da Estrela",
+    :href-id #uuid "61696657-abf8-31ad-9c83-3f2d3679e85b",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RotadaEstrela871.aspx",
@@ -1911,6 +1968,8 @@
     :nec 1014,
     :cp7 "6270-133",
     :id #uuid "46db1c63-d0cf-3776-8722-8c76d5babb56",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/seia/61696657-rota-da-estrela.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"},
    :geocode
@@ -1985,6 +2044,7 @@
    {:address
     "Urbanização Mira Serra, Quinta de Barreiros, Lt. B, R/C Dt 6290-333 GOUVEIA",
     :name "Beatriz",
+    :href-id #uuid "dc1586f5-a64a-32ee-8d13-46e6e358ca35",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nelense689.aspx",
@@ -1992,6 +2052,8 @@
     :nec 1207,
     :cp7 "6290-333",
     :id #uuid "3638c76a-ddf8-3958-86e2-99e1414e2ece",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/gouveia/dc1586f5-beatriz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Gouveia"},
    :geocode
@@ -2077,6 +2139,7 @@
    :imt-profile
    {:address "Rua do Barreiro, n.º 31, r/c 3570-021 AGUIAR DA BEIRA",
     :name "Escola de Condução Olidrive",
+    :href-id #uuid "82e73ad0-3a2c-3ab4-a6b5-a6de8d9d955d",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeCondu%c3%a7%c3%a3oOlidrive.aspx",
@@ -2084,80 +2147,19 @@
     :nec 1347,
     :cp7 "3570-021",
     :id #uuid "71be6390-9780-3e13-9d83-a8253fe5adf5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/aguiar-da-beira/82e73ad0-escola-de-conducao-olidrive.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Aguiar%20da%20Beira"},
    :geocode
-   {:cp7 "3570-021",
+   {:id #uuid "71be6390-9780-3e13-9d83-a8253fe5adf5",
+    :address "Rua do Barreiro, n.º 31, r/c 3570-021 AGUIAR DA BEIRA",
+    :address-c "Rua do Barreiro, 3570-021, Aguiar da Beira, Guarda",
     :postal-c "3570-021",
-    :x -7.543779996942618,
-    :y 40.819519986780136,
-    :score 100,
-    :c 1}}]
- ["arede-01415"
-  {:nec 1415,
-   :rates
-   [{:r/nec 1415,
-     :r/level-0 "2018",
-     :r/d-scheduled 20,
-     :r/t-rate 0.7333,
-     :r/total-rate 0.74,
-     :r/d-done 20,
-     :r/total-scheduled 50,
-     :r/name-raw "Escola De Condução Arede",
-     :r/total-done 50,
-     :r/d-rate 0.75,
-     :r/t-scheduled 30.0,
-     :r/k "arede-01415",
-     :r/total-passed 37.0,
-     :r/t-done 30.0}
-    {:r/nec 1415,
-     :r/level-0 "2019",
-     :r/d-scheduled 47,
-     :r/t-rate 0.6863,
-     :r/total-rate 0.6837,
-     :r/d-done 47,
-     :r/total-scheduled 99,
-     :r/name-raw "Escola de Condução Arede",
-     :r/total-done 98,
-     :r/d-rate 0.6809,
-     :r/t-scheduled 52.0,
-     :r/k "arede-01415",
-     :r/total-passed 67.0,
-     :r/t-done 51.0}
-    {:r/nec 1415,
-     :r/level-0 "2020",
-     :r/d-scheduled 61,
-     :r/t-rate 0.7879,
-     :r/total-rate 0.7241,
-     :r/d-done 54,
-     :r/total-scheduled 94,
-     :r/name-raw "Escola de Condução Arede",
-     :r/total-done 87,
-     :r/d-rate 0.6852,
-     :r/t-scheduled 33.0,
-     :r/k "arede-01415",
-     :r/total-passed 63.0,
-     :r/t-done 33.0}],
-   :imt-profile
-   {:address
-    "Loteamento dos Quintais da Vila, lote 6 r/c, 6370-103 Fornos de Algodres",
-    :name "Arede",
-    :distrito "Guarda",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arede.aspx",
-    :concelho "Fornos de Algodres",
-    :nec 1415,
-    :cp7 "6370-103",
-    :id #uuid "ecaa395e-87d2-3a69-95af-09a6e51231b6",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Fornos%20de%20Algodres"},
-   :geocode
-   {:cp7 "6370-103",
-    :postal-c "6370-103",
-    :x -7.540605015838793,
-    :y 40.62143998249502,
-    :score 100,
-    :c 1}}]
+    :x -7.543822107061037,
+    :y 40.81904460097463,
+    :score 94.62,
+    :c 2}}]
  ["abc-da-estrada-01438"
   {:nec 1438,
    :rates
@@ -2192,6 +2194,7 @@
    :imt-profile
    {:address "Av. da República, nº24, r/c , Trancoso",
     :name "ABC da Estrada",
+    :href-id #uuid "bc02c95a-a0b3-34ad-8a80-545494d4e82b",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ABCdaEstrada.aspx",
@@ -2199,6 +2202,8 @@
     :nec 1438,
     :cp7 nil,
     :id #uuid "0a795374-d0d0-3e1b-841c-ad0fcc0c1182",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/trancoso/bc02c95a-abc-da-estrada.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Trancoso"},
    :geocode

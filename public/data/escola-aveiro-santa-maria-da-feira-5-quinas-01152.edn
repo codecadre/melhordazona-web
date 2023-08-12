@@ -88,6 +88,7 @@
  {:address
   "Rua Ferreira de Castro, Nº 71, 4520-227 SANTA MARIA da FEIRA",
   :name "5 Quinas",
+  :href-id #uuid "c1bdde1d-c91b-3cc1-800f-01f217b06a60",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/5Quinas.aspx",
@@ -95,6 +96,8 @@
   :nec 1152,
   :cp7 "4520-227",
   :id #uuid "b6240d9d-47f4-348d-b70f-2ab36a5fffd1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/c1bdde1d-5-quinas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

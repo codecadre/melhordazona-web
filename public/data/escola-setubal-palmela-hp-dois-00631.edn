@@ -88,6 +88,7 @@
  {:address
   "Rua Manuel Giraldes da Silva, Lote 13 R/C Dtº 2955-162 Pinhal Novo",
   :name "HP Dois",
+  :href-id #uuid "23a3e94a-550c-3bed-ba6c-cac8ed8243c2",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/HPDois.aspx",
@@ -95,6 +96,8 @@
   :nec 631,
   :cp7 "2955-162",
   :id #uuid "87776756-1be8-364e-bf52-bdfc85001498",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/palmela/23a3e94a-hp-dois.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Palmela"},
  :geocode

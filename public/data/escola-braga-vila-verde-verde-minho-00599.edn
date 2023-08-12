@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar Pontido - Quinta da Botica 4730-470 VILA de PRADO",
   :name "Verde Minho",
+  :href-id #uuid "6b089d79-0cf3-34aa-aefd-64e60bff8375",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VerdeMinho1045.aspx",
@@ -94,5 +95,7 @@
   :nec 599,
   :cp7 "4730-470",
   :id #uuid "098f1270-6e32-3d28-9f11-2507f42f0225",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/6b089d79-verde-minho.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Zambujal, nº 10 A 2725-472 MEM MARTINS",
   :name "Mem Martins-Algueirão",
+  :href-id #uuid "eb69a493-6d03-31e9-8744-64250a4e267c",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MemMartinsAlgueirao641.aspx",
@@ -94,6 +95,8 @@
   :nec 318,
   :cp7 "2725-472",
   :id #uuid "c2557ba1-63d5-3248-9426-4142b651ff61",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/eb69a493-mem-martins-algueirao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

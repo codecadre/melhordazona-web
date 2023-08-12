@@ -88,6 +88,7 @@
  {:address
   "Av. Sá Carneiro - Edificio Supinorte, Lote 1, R/C Esq, 5300-252 BRAGANÇA",
   :name "Êxito",
+  :href-id #uuid "7d4a6bba-e117-3ae0-ab9b-635506ca6463",
   :distrito "Bragança",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Exito.aspx",
@@ -95,6 +96,8 @@
   :nec 728,
   :cp7 "5300-252",
   :id #uuid "26a4f448-5278-3767-9c43-fa2516ea2163",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/7d4a6bba-exito.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
  :geocode

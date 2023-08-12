@@ -88,6 +88,7 @@
  {:address
   "Praça Evaristo da Silva Duarte nº 118-1º Dtº 4475-634 AVIOSO (SANTA MARIA)",
   :name "Lidador",
+  :href-id #uuid "474814e6-4311-3538-b783-3480396a349d",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lidador597.aspx",
@@ -95,6 +96,8 @@
   :nec 1004,
   :cp7 "4475-634",
   :id #uuid "3c1af742-c7e0-3e1f-a943-48b9b4eabe64",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/474814e6-lidador.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode

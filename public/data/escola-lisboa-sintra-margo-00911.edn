@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. Maria II nº 39 – A 2735-296 CACÉM",
   :name "Margô",
+  :href-id #uuid "34e83d68-8236-3e68-ad17-058de0f13640",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Margo627.aspx",
@@ -94,6 +95,8 @@
   :nec 911,
   :cp7 "2735-296",
   :id #uuid "0c1ac9df-4d97-3785-9c8b-40eb260bf5f5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/34e83d68-margo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

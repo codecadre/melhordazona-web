@@ -59,6 +59,7 @@
  :imt-profile
  {:address "Largo do Vilarinho, n.º 50 4485-373 Macieira da Maia",
   :name "Vila Drive",
+  :href-id #uuid "754b5377-edbb-3131-b721-20f340f3a7c2",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VilaDrive.aspx",
@@ -66,12 +67,17 @@
   :nec 1383,
   :cp7 "4485-373",
   :id #uuid "7f6ae041-e53e-38db-b0d7-5b1910ac3070",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-do-conde/754b5377-vila-drive.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
  :geocode
- {:cp7 "4485-373",
+ {:id #uuid "7f6ae041-e53e-38db-b0d7-5b1910ac3070",
+  :address "Largo do Vilarinho, n.º 50 4485-373 Macieira da Maia",
+  :address-c
+  "Largo do Vilarinho 50, 4485-373, Madalena, Vila do Conde, Porto",
   :postal-c "4485-373",
-  :x -8.681865003277494,
-  :y 41.338390010100966,
-  :score 100,
-  :c 1}}
+  :x -8.682055272479573,
+  :y 41.33813276949252,
+  :score 94.14,
+  :c 2}}

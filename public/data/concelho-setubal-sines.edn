@@ -89,6 +89,7 @@
    {:address
     "Bairro 1º de Maio, nº 109 A - 110 A e 111 7520-124 SINES",
     :name "Vasco da Gama",
+    :href-id #uuid "e09341ad-46bc-3bf4-8ff7-4101fa62be14",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VascodaGama1040.aspx",
@@ -96,15 +97,20 @@
     :nec 305,
     :cp7 "7520-124",
     :id #uuid "a108e401-d5e5-3dea-99d0-e9143d83201c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sines/e09341ad-vasco-da-gama.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"},
    :geocode
-   {:cp7 "7520-124",
+   {:id #uuid "a108e401-d5e5-3dea-99d0-e9143d83201c",
+    :address
+    "Bairro 1º de Maio, nº 109 A - 110 A e 111 7520-124 SINES",
+    :address-c "Bairro 1 de Maio 109, 7520-124, Sines, Setúbal",
     :postal-c "7520-124",
-    :x -8.861270001559177,
-    :y 37.95780999956551,
-    :score 100,
-    :c 1}}]
+    :x -8.860937225368016,
+    :y 37.95801612226851,
+    :score 87.01,
+    :c 3}}]
  ["sudoeste-01308"
   {:nec 1308,
    :rates
@@ -195,6 +201,7 @@
    :imt-profile
    {:address "Rua Zeca Afonso, n.º 4; 7520-246 Sines",
     :name "Sudoeste",
+    :href-id #uuid "f845a1fc-d95e-386c-8a04-84d11cd5e832",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeCondu%c3%a7aoSudoeste.aspx",
@@ -202,6 +209,8 @@
     :nec 1308,
     :cp7 "7520-246",
     :id #uuid "4db5989c-43be-3f0b-90d5-f298dd8ddaae",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sines/f845a1fc-sudoeste.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"},
    :geocode

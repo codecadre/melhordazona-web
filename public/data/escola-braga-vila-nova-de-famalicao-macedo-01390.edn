@@ -59,6 +59,7 @@
  :imt-profile
  {:address "Travessa do Outeiro, n.º 42 r/c, 4760-859 V. N. Famalicão",
   :name "Macedo",
+  :href-id #uuid "9309ca65-2326-38c2-bef2-d9bbe7143ae5",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Macedo.aspx",
@@ -66,12 +67,17 @@
   :nec 1390,
   :cp7 "4760-859",
   :id #uuid "7f859937-f420-3a67-92fe-0a8a9193eeff",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/9309ca65-macedo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
  :geocode
- {:cp7 "4760-859",
+ {:id #uuid "7f859937-f420-3a67-92fe-0a8a9193eeff",
+  :address "Travessa do Outeiro, n.º 42 r/c, 4760-859 V. N. Famalicão",
+  :address-c
+  "Travessa do Outeiro, 4760-859, Vila Nova de Famalicão, Braga",
   :postal-c "4760-859",
-  :x -8.533585028971345,
-  :y 41.39896501852152,
-  :score 100,
-  :c 1}}
+  :x -8.533684420875415,
+  :y 41.3989946869242,
+  :score 91.59,
+  :c 11}}

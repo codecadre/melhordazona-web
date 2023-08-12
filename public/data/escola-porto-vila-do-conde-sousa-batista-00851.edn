@@ -85,25 +85,29 @@
    :r/total-passed 169.0,
    :r/t-done 124.0}],
  :imt-profile
- {:address
-  "Rua dos Pescadores, 19 na Freguesia de VILA DO CONDE, Concelho de VILA DO CONDE e Distrito de PORTO",
-  :name "Escola de Condução SOUSA & BATISTA",
+ {:address "Rua 5 de Outubro n º 2423 4480-739 VILA DO CONDE",
+  :archived-last-seen-at "2022-05-07T14:52:45Z",
+  :name "Sousa e Batista",
+  :href-id #uuid "8b8abf51-c6ec-3efe-bbb2-8ddce8de3931",
   :distrito "Porto",
   :imt-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaoSOUSABATISTA.aspx",
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SousaeBatista984.aspx",
   :concelho "Vila do Conde",
   :nec 851,
-  :cp7 nil,
-  :id #uuid "026c05e4-1874-323b-bd17-c428a6f4c38e",
+  :cp7 "4480-739",
+  :id #uuid "9c2a8e84-8d15-3059-a1bf-7012779e109c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-do-conde/8b8abf51-sousa-e-batista.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
+ :obs "two profiles with same name and nec and both archived.",
+ :overwrite/notes nil,
  :geocode
- {:id #uuid "026c05e4-1874-323b-bd17-c428a6f4c38e",
-  :address
-  "Rua dos Pescadores, 19 na Freguesia de VILA DO CONDE, Concelho de VILA DO CONDE e Distrito de PORTO",
-  :address-c "Rua dos Pescadores 19, 4480-804, Vila do Conde, Porto",
-  :postal-c "4480-804",
-  :x -8.755514483244712,
-  :y 41.37343010393725,
-  :score 95.94,
-  :c 2}}
+ {:id #uuid "9c2a8e84-8d15-3059-a1bf-7012779e109c",
+  :address "Rua 5 de Outubro n º 2423 4480-739 VILA DO CONDE",
+  :address-c "Rua 5 de Outubro 2423, 4480-879, Vila do Conde, Porto",
+  :postal-c "4480-879",
+  :x -8.755270023250603,
+  :y 41.373150014026635,
+  :score 94.75,
+  :c 8}}

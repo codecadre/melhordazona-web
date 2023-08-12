@@ -89,6 +89,7 @@
    {:address
     "Rua Dr. Rogério Braúlio Martins (Edifício Eubasto), N.º 18 Loja 16 Boticas",
     :name "S. Cristóvão",
+    :href-id #uuid "afefdc95-df62-3879-9c78-fe73e58fc036",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SCristovao879.aspx",
@@ -96,15 +97,17 @@
     :nec 530,
     :cp7 nil,
     :id #uuid "32104b70-98c4-3f9c-8977-92b883f01b8a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/boticas/afefdc95-s-cristovao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Boticas"},
    :geocode
-   {:id #uuid "32104b70-98c4-3f9c-8977-92b883f01b8a",
-    :address "Rua Dr. Rogério Braúlio Martins  N 18 Loja 16 Boticas",
+   {:address
+    "Rua Dr. Rogério Braúlio Martins (Edifício Eubasto), N.º 18 Loja 16 Boticas",
     :address-c
-    "Rua Doutor Rogério Braúlio Martins 18, 5460-313, Boticas, Vila Real",
-    :postal-c "5460-313",
-    :x -7.6697903565943575,
-    :y 41.68896782349776,
-    :score 98.9,
+    "Rua Doutor Rogério Braúlio Martins 18, 5460-317, Boticas, Vila Real",
+    :postal-c "5460-317",
+    :x -7.669690012778,
+    :y 41.68896000911,
+    :score 92.22,
     :c 1}}]]

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Miguel de Almeida e Silva -E N 1 3750-181 ÁGUEDA",
   :name "Águeda",
+  :href-id #uuid "c8a65a50-5631-3e10-b832-9af73716a805",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Agueda061.aspx",
@@ -94,6 +95,8 @@
   :nec 67,
   :cp7 "3750-181",
   :id #uuid "92aba0f8-cf8f-3b8b-95c7-ab3dd8f3d167",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/c8a65a50-agueda.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
  :geocode

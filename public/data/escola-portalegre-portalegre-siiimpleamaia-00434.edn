@@ -87,7 +87,9 @@
  :imt-profile
  {:address
   "Rua Mestre João Serra, Lote A - Zona Industrial 7300-061 PORTALEGRE",
+  :archived-last-seen-at "2022-05-07T14:52:45Z",
   :name "SIIIMPLEAMAIA",
+  :href-id #uuid "82d134cc-adaf-3f96-979d-23c6ee7927ea",
   :distrito "Portalegre",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SIIIMPLEAMAIA.aspx",
@@ -95,12 +97,18 @@
   :nec 434,
   :cp7 "7300-061",
   :id #uuid "0bf573bf-4604-34d7-9eaa-94b030f7ff4f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/portalegre/82d134cc-siiimpleamaia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Portalegre"},
  :geocode
- {:cp7 "7300-061",
-  :postal-c "7300-061",
-  :x -7.4369600170464025,
-  :y 39.266300019466456,
-  :score 100,
-  :c 1}}
+ {:id #uuid "0bf573bf-4604-34d7-9eaa-94b030f7ff4f",
+  :address
+  "Rua Mestre João Serra, Lote A - Zona Industrial 7300-061 PORTALEGRE",
+  :address-c
+  "Rua Mestre João Serra, 7300, Bairro dos Assentos, Portalegre",
+  :postal-c "7300",
+  :x -7.436841033061318,
+  :y 39.26639763180583,
+  :score 86.38,
+  :c 2}}

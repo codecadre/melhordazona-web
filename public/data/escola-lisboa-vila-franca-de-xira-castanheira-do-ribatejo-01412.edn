@@ -46,6 +46,7 @@
  {:address
   "Rua Padre António Bianchi, n.º 18 2600-605 Castanheira do Ribatejo",
   :name "Castanheira do Ribatejo",
+  :href-id #uuid "e403e282-ca61-335b-a71b-9b14dd8e87b0",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CastanheiradoRibatejo.aspx",
@@ -53,6 +54,8 @@
   :nec 1412,
   :cp7 "2600-605",
   :id #uuid "20b89880-0ee2-3b1f-b402-d11f1bec6a8a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/vila-franca-de-xira/e403e282-castanheira-do-ribatejo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Barão do Corvo n º 11 r/c 4400-039 VILA NOVA DE GAIA",
   :name "Cidade de Gaia",
+  :href-id #uuid "c3603ad5-4bbc-35c5-8bb2-2a603b2ecb05",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadedeGaia310.aspx",
@@ -94,12 +95,15 @@
   :nec 697,
   :cp7 "4400-039",
   :id #uuid "e9667e60-5580-3af1-b983-f7bcfb5eb333",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/c3603ad5-cidade-de-gaia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode
- {:cp7 "4400-039",
+ {:address "Rua Barão do Corvo n º 11 r/c 4400-039 VILA NOVA DE GAIA",
+  :address-c "Rua Barão Corvo 11, 4400-039, Vila Nova de Gaia, Porto",
   :postal-c "4400-039",
-  :x -8.625544984184927,
-  :y 41.1265850165517,
-  :score 100,
-  :c 1}}
+  :x -8.630846531095,
+  :y 41.124130872631,
+  :score 94.02,
+  :c 4}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Dourado, Nº 265 a 283 3700-044 S.JOÃO DA MADEIRA",
   :name "Ribeiro",
+  :href-id #uuid "d4f8102c-418f-3a9e-9e54-e60079e2f6ad",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ribeiro850.aspx",
@@ -94,6 +95,8 @@
   :nec 99,
   :cp7 "3700-044",
   :id #uuid "23c524b6-355a-3986-bbc5-6b68899958a4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/sao-joao-da-madeira/d4f8102c-ribeiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=S.%20Jo%C3%A3o%20da%20Madeira"},
  :geocode

@@ -60,6 +60,7 @@
  {:address
   "Av. da Liberdade, n.º 1075, Lugar da Junqueira, 4560-371 Paço de Sousa, PENAFIEL",
   :name "Star",
+  :href-id #uuid "7f287741-5e23-372d-827b-6901ff2534c0",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Star.aspx",
@@ -67,12 +68,18 @@
   :nec 1371,
   :cp7 "4560-371",
   :id #uuid "199eb188-33a8-39fb-9c72-60487402e827",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/7f287741-star.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
  :geocode
- {:cp7 "4560-371",
-  :postal-c "4560-371",
-  :x -8.33964002707026,
-  :y 41.16910498643719,
-  :score 100,
-  :c 1}}
+ {:id #uuid "199eb188-33a8-39fb-9c72-60487402e827",
+  :address
+  "Av. da Liberdade, n.º 1075, Lugar da Junqueira, 4560-371 Paço de Sousa, PENAFIEL",
+  :address-c
+  "Avenida da Liberdade 1075, 4560-383, Paço de Sousa, Penafiel, Porto",
+  :postal-c "4560-383",
+  :x -8.341177603388758,
+  :y 41.16969259975929,
+  :score 92.82,
+  :c 4}}

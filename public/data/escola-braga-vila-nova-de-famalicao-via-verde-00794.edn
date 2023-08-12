@@ -88,6 +88,7 @@
  {:address
   "Rua Ernesto Carvalho –Edifício Roma Loja 3 4760-143 VILA NOVA DE FAMALICÃO",
   :name "Via Verde",
+  :href-id #uuid "2c8d4312-5a2d-31c9-aa64-2324bd918328",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaVerde1057.aspx",
@@ -95,12 +96,18 @@
   :nec 794,
   :cp7 "4760-143",
   :id #uuid "85cf7bcc-d047-36ff-b68b-f7e3e8064d35",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/2c8d4312-via-verde.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
  :geocode
- {:cp7 "4760-143",
+ {:id #uuid "85cf7bcc-d047-36ff-b68b-f7e3e8064d35",
+  :address
+  "Rua Ernesto Carvalho –Edifício Roma Loja 3 4760-143 VILA NOVA DE FAMALICÃO",
+  :address-c
+  "Rua Ernesto Carvalho, 4760-143, Vila Nova de Famalicão, Braga",
   :postal-c "4760-143",
-  :x -8.522834986691748,
-  :y 41.4089300117497,
-  :score 100,
-  :c 1}}
+  :x -8.522858386713411,
+  :y 41.40899116017072,
+  :score 90.25,
+  :c 5}}

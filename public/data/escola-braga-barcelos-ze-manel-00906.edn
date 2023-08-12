@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar da Costa-Martim 4755-304 BARCELOS",
   :name "Zé Manel",
+  :href-id #uuid "4ce5e520-9c1a-349f-b7e7-b4faae953019",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ZeManel1095.aspx",
@@ -94,12 +95,16 @@
   :nec 906,
   :cp7 "4755-304",
   :id #uuid "fd17fd5d-b8b1-305f-945a-6cc024d15b8a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/4ce5e520-ze-manel.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode
- {:cp7 "4755-304",
+ {:id #uuid "fd17fd5d-b8b1-305f-945a-6cc024d15b8a",
+  :address "Lugar da Costa-Martim 4755-304 BARCELOS",
+  :address-c "Costa-Martim, 4755-304, Barcelos, Braga",
   :postal-c "4755-304",
-  :x -8.506494969365406,
-  :y 41.53265000392341,
-  :score 100,
-  :c 1}}
+  :x -8.506098813283632,
+  :y 41.53286560043883,
+  :score 87.47,
+  :c 14}}

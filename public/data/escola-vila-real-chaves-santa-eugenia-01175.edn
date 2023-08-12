@@ -88,6 +88,7 @@
  {:address
   "Estrada Nacional n.º 2-Edificio Campilho, Piso 2, Loja 7 R/C 5400 VIDAGO",
   :name "Santa Eugénia",
+  :href-id #uuid "7fd7440f-0350-3e8a-95da-316e866582c1",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaEugenia.aspx",
@@ -95,5 +96,18 @@
   :nec 1175,
   :cp7 "5400",
   :id #uuid "b6acb363-fce8-3ac9-9f35-127d53b17b99",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/chaves/7fd7440f-santa-eugenia.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
+ :geocode
+ {:id #uuid "b6acb363-fce8-3ac9-9f35-127d53b17b99",
+  :address
+  "Estrada Nacional n.º 2-Edificio Campilho, Piso 2, Loja 7 R/C 5400 VIDAGO",
+  :address-c
+  "Estrada Nacional 2, 5400-764, Vila Nova da Veiga, Chaves, Vila Real",
+  :postal-c "5400-764",
+  :x -7.488301242055634,
+  :y 41.71661574608685,
+  :score 88.64,
+  :c 1}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de S. José nº 68 4535-404 SANTA MARIA LAMAS",
   :name "Boavista-Lamas",
+  :href-id #uuid "7ae2e2cd-1b34-3578-b76a-4553ea2bc89d",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BoavistaLamas252.aspx",
@@ -94,6 +95,8 @@
   :nec 1048,
   :cp7 "4535-404",
   :id #uuid "5d1e039d-d8ce-34f1-9222-d44d92337654",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/7ae2e2cd-boavista-lamas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

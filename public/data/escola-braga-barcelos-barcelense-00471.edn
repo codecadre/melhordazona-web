@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo da Porta Nova, 11-1º 4750-329 BARCELOS",
   :name "Barcelense",
+  :href-id #uuid "c71b6fc5-9982-386b-b3fe-659e213b003a",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Barcelense218.aspx",
@@ -94,6 +95,8 @@
   :nec 471,
   :cp7 "4750-329",
   :id #uuid "915aa89a-1d3e-3d9e-92c4-4597e5b0aad1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/c71b6fc5-barcelense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode

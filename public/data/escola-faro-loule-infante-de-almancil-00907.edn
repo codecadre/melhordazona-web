@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Duarte Pacheco nº 178 8135-104 ALMANCIL",
   :name "Infante de Almancil",
+  :href-id #uuid "1bb0fff1-298d-30a8-a56f-0e654550077b",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeAlmancil526.aspx",
@@ -94,12 +95,17 @@
   :nec 907,
   :cp7 "8135-104",
   :id #uuid "28ca5320-75ac-3af4-811a-83911e12e607",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/1bb0fff1-infante-de-almancil.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
  :geocode
- {:cp7 "8135-104",
+ {:id #uuid "28ca5320-75ac-3af4-811a-83911e12e607",
+  :address "Rua Duarte Pacheco nº 178 8135-104 ALMANCIL",
+  :address-c
+  "Avenida Duarte Pacheco 178, 8135-104, Almancil, Loulé, Faro",
   :postal-c "8135-104",
-  :x -8.024379968654529,
-  :y 37.08527998863033,
-  :score 100,
+  :x -8.02711003833781,
+  :y 37.085520004427764,
+  :score 93.75,
   :c 1}}

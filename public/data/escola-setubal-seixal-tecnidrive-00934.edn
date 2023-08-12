@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praceta João Azevedo nº 4/4 A 2855-587 CORROIOS",
   :name "Tecnidrive",
+  :href-id #uuid "1a65b18c-9c46-3b97-ae10-7e90b1f59b42",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tecnidrive999.aspx",
@@ -94,6 +95,8 @@
   :nec 934,
   :cp7 "2855-587",
   :id #uuid "a20173cb-fd2e-3604-a7f1-0cb97b954498",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/1a65b18c-tecnidrive.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
  :geocode

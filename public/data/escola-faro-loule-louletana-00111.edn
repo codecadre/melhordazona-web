@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Padre António Vieira, Nº 189 8100-611 LOULÉ",
   :name "Louletana",
+  :href-id #uuid "302b0179-94ec-3b76-9186-4ea42b828eb1",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Louletana604.aspx",
@@ -94,6 +95,8 @@
   :nec 111,
   :cp7 "8100-611",
   :id #uuid "82173650-1a46-3ff6-8924-21afc42fe9df",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/302b0179-louletana.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
  :geocode

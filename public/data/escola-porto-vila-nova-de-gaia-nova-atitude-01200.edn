@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua José Rocha, n.º 266 ; 4430-121 Vila Nova de Gaia",
   :name "Nova Atitude",
+  :href-id #uuid "df258cf9-8b48-3e68-b97e-31c1d902d95b",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaAtitude702.aspx",
@@ -94,12 +95,16 @@
   :nec 1200,
   :cp7 "4430-121",
   :id #uuid "8561af26-b438-3702-8001-20e95bad37e6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/df258cf9-nova-atitude.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode
- {:cp7 "4430-121",
+ {:address "Rua José Rocha, n.º 266 ; 4430-121 Vila Nova de Gaia",
+  :address-c
+  "Rua de José Rocha 266, 4430-121, Vila Nova de Gaia, Porto",
   :postal-c "4430-121",
-  :x -8.600624999311123,
-  :y 41.123515018785156,
-  :score 100,
-  :c 1}}
+  :x -8.600300032925,
+  :y 41.12270000443,
+  :score 94.96,
+  :c 2}}

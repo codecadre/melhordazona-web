@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua João Albuquerque –Cerca dos Anjos 3130-208 SOURE",
   :name "S. Mateus",
+  :href-id #uuid "c8e75357-80a7-3712-b5f2-6b457cb16635",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SMateus894.aspx",
@@ -94,6 +95,8 @@
   :nec 756,
   :cp7 "3130-208",
   :id #uuid "2632b21b-4085-34e5-a137-970cec6cd211",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/soure/c8e75357-s-mateus.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Soure"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Costa Veiga, Nº 56-58 Apartado 179 2460 –028 ALCOBAÇA",
   :name "Alcobacense",
+  :href-id #uuid "e1d6c2ba-c3a8-3381-8c71-c31cb070aed5",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alcobacense076.aspx",
@@ -94,6 +95,8 @@
   :nec 179,
   :cp7 "2460",
   :id #uuid "6d42f60d-44bc-3d21-8ae5-04a9932a7a8a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/e1d6c2ba-alcobacense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
  :geocode

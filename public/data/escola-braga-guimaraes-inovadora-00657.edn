@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua 19 de Junho, n.º 313/397, 4805-081 CALDAS das TAIPAS",
   :name "Inovadora",
+  :href-id #uuid "c23c369a-535b-39ad-ae73-828350af7ace",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Inovadora558.aspx",
@@ -94,12 +95,16 @@
   :nec 657,
   :cp7 "4805-081",
   :id #uuid "6c29493e-1e94-3cff-99bc-d1e204890ad2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/c23c369a-inovadora.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode
- {:cp7 "4805-081",
+ {:id #uuid "6c29493e-1e94-3cff-99bc-d1e204890ad2",
+  :address "Rua 19 de Junho, n.º 313/397, 4805-081 CALDAS das TAIPAS",
+  :address-c "Rua 19 de Junho, 4805-081, Caldelas, Guimarães, Braga",
   :postal-c "4805-081",
-  :x -8.34773501769999,
-  :y 41.48403999464776,
-  :score 100,
+  :x -8.347649899473254,
+  :y 41.48405504016395,
+  :score 90.09,
   :c 1}}

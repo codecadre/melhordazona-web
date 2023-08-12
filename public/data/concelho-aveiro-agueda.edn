@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Miguel de Almeida e Silva -E N 1 3750-181 ÁGUEDA",
     :name "Águeda",
+    :href-id #uuid "c8a65a50-5631-3e10-b832-9af73716a805",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Agueda061.aspx",
@@ -95,6 +96,8 @@
     :nec 67,
     :cp7 "3750-181",
     :id #uuid "92aba0f8-cf8f-3b8b-95c7-ab3dd8f3d167",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/c8a65a50-agueda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Rua Joaquim Valente de Almeida, nº 126 3750-154 ÁGUEDA",
     :name "Auto Fama",
+    :href-id #uuid "fb97d8f5-4527-37ff-a097-67481bf85e7f",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoFama157.aspx",
@@ -204,6 +208,8 @@
     :nec 394,
     :cp7 "3750-154",
     :id #uuid "608b5a19-dbad-3412-a2f2-197706131a8f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/fb97d8f5-auto-fama.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
    :geocode
@@ -306,6 +312,7 @@
    :imt-profile
    {:address "Rua Amaro Castela, nº 1, Fração B, 3550–124 Águeda",
     :name "Nova em Águeda",
+    :href-id #uuid "de891a4c-be0e-37fe-b607-4a7998fff4a5",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Novaem%c3%81gueda.aspx",
@@ -313,6 +320,8 @@
     :nec 622,
     :cp7 "3550-124",
     :id #uuid "ae16434b-d055-3313-9276-b71a0fb6703e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/de891a4c-nova-em-agueda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
    :geocode
@@ -413,6 +422,7 @@
    {:address
     "Rua da Miragaia-Edificio Miragaia, Loja A 3750-055 AGUADA DE CIMA",
     :name "Aguada de Cima",
+    :href-id #uuid "28527d65-ee2c-3848-a632-5f8796ae462e",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AguadadeCima058.aspx",
@@ -420,6 +430,8 @@
     :nec 1093,
     :cp7 "3750-055",
     :id #uuid "966d6906-0502-3f56-8e33-011bac7c8051",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/28527d65-aguada-de-cima.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
    :geocode

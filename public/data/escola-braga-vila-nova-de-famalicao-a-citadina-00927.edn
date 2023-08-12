@@ -88,6 +88,7 @@
  {:address
   "Avª Rebelo Mesquita, 563-Loja 6, Escritório Nº 8 4760-325 CALENDÁRIO",
   :name "A Citadina",
+  :href-id #uuid "f3eea1dd-e036-32d9-ba90-7a49c411143f",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ACitadina006.aspx",
@@ -95,6 +96,8 @@
   :nec 927,
   :cp7 "4760-325",
   :id #uuid "7423976a-5f6c-3e33-bf0e-8d24c7dab1c0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/f3eea1dd-a-citadina.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
  :geocode

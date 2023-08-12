@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua S. Francisco Xavier, Nº 57-A 2695 Santa Iria de Azoia",
   :name "Coimbra de Santa Iria",
+  :href-id #uuid "4218fe1e-f47c-3399-bbf5-383de1e89c6d",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CoimbradeSantaIria322.aspx",
@@ -94,6 +95,8 @@
   :nec 1248,
   :cp7 "2695",
   :id #uuid "1d981fc1-2cbb-384a-b201-5528c3d755dd",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/4218fe1e-coimbra-de-santa-iria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode

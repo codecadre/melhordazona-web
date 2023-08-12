@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praça Luís de Camões, nº 10 5450-016 VILA POUCA AGUIAR",
   :name "Aguiarense",
+  :href-id #uuid "f3a2b02b-8f4e-34aa-901b-32177e2cac06",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aguiarense064.aspx",
@@ -94,6 +95,8 @@
   :nec 240,
   :cp7 "5450-016",
   :id #uuid "95defcce-a420-39cb-9b0a-c571217ab3b1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-pouca-de-aguiar/f3a2b02b-aguiarense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Pouca%20Aguiar"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua António Fortunato de Sousa, n.º 71, 2870-059 MONTIJO",
   :name "Net Rodas",
+  :href-id #uuid "13e6b19b-e5a0-3358-b19a-b12e1bb12608",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NetRodas.aspx",
@@ -94,15 +95,16 @@
   :nec 1273,
   :cp7 "2870-059",
   :id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/montijo/13e6b19b-net-rodas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"},
  :geocode
- {:id #uuid "46bfc6db-b957-32c6-a8b3-b49fafac7b19",
-  :address "Rua António Fortunato de Sousa, n.º 71, 2870-059 MONTIJO",
+ {:address "Rua António Fortunato de Sousa, n.º 71, 2870-059 MONTIJO",
   :address-c
-  "Rua António Fortunato de Sousa, 2870-054, Montijo, Setúbal",
+  "Rua António Fortunato de Sousa 71, 2870-054, Montijo, Setúbal",
   :postal-c "2870-054",
-  :x -8.978027344430592,
-  :y 38.705149808125164,
-  :score 95.29,
-  :c 2}}
+  :x -8.979779970357,
+  :y 38.705390015945,
+  :score 95.55,
+  :c 1}}

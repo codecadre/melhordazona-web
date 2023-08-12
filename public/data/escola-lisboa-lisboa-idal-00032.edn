@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Alameda D. Afonso Henriques, 64 r/c Esqº 1900-119 LISBOA",
   :name "Instrutora de Automóveis",
+  :href-id #uuid "879b739d-314c-329d-aa64-d2ed107daed1",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InstrutoradeAutomoveis565.aspx",
@@ -94,6 +95,8 @@
   :nec 32,
   :cp7 "1900-119",
   :id #uuid "4018b02c-d99c-3742-9b52-3f0b0410fbbf",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/879b739d-instrutora-de-automoveis.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

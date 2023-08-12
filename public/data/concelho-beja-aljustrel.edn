@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua D. Sancho II , 6 A 7600-088 ALJUSTREL",
     :name "Aljustrelense",
+    :href-id #uuid "08893f19-1f9d-3e9e-a05e-1a6d9fa269ba",
     :distrito "Beja",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aljustrelense084.aspx",
@@ -95,6 +96,8 @@
     :nec 260,
     :cp7 "7600-088",
     :id #uuid "f6898fd6-4f84-3ba9-be93-fc5250690cda",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/aljustrel/08893f19-aljustrelense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Rua de Beja, nº 1 7600-010 ALJUSTREL",
     :name "Infante de Sagres - Aljustrel",
+    :href-id #uuid "3f59ccb8-81f7-332e-9299-0fb3de185780",
     :distrito "Beja",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresAljustrel532.aspx",
@@ -203,6 +207,8 @@
     :nec 634,
     :cp7 "7600-010",
     :id #uuid "e19e6147-c652-33d5-b791-50d5361c551f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/aljustrel/3f59ccb8-infante-de-sagres-aljustrel.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"},
    :geocode

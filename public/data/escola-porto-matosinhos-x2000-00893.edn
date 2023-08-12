@@ -88,6 +88,7 @@
  {:address
   "Rua Bernardino Ribeiro, n º 66 4465-040 SÃO MAMEDE de INFESTA",
   :name "X 2000",
+  :href-id #uuid "9a3cbff0-bc2b-34e3-8864-2d817fcc8498",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/X20001091.aspx",
@@ -95,12 +96,18 @@
   :nec 893,
   :cp7 "4465-040",
   :id #uuid "5cab0928-663b-38a2-b8d0-781699f84a77",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/9a3cbff0-x-2000.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode
- {:cp7 "4465-040",
+ {:id #uuid "5cab0928-663b-38a2-b8d0-781699f84a77",
+  :address
+  "Rua Bernardino Ribeiro, n º 66 4465-040 SÃO MAMEDE de INFESTA",
+  :address-c
+  "Rua Bernardim Ribeiro 66, 4465-040, Seixo, Matosinhos, Porto",
   :postal-c "4465-040",
-  :x -8.628459958652257,
-  :y 41.180390003686966,
-  :score 100,
+  :x -8.62919002241884,
+  :y 41.18055001421857,
+  :score 93.58,
   :c 1}}

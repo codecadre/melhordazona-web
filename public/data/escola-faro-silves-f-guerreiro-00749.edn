@@ -88,6 +88,7 @@
  {:address
   "Rua Maria Eugénia Dias Ferreira nº 22 8375-121 S. BARTOLOMEU DE MESSINES",
   :name "F. Guerreiro",
+  :href-id #uuid "0df0e2a2-8967-3688-ab24-7a7698079dcf",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FGuerreiro439.aspx",
@@ -95,12 +96,18 @@
   :nec 749,
   :cp7 "8375-121",
   :id #uuid "3ebacb7b-2b49-3e3d-bcea-b3be3f0cc1dd",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/0df0e2a2-f-guerreiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
  :geocode
- {:cp7 "8375-121",
+ {:id #uuid "3ebacb7b-2b49-3e3d-bcea-b3be3f0cc1dd",
+  :address
+  "Rua Maria Eugénia Dias Ferreira nº 22 8375-121 S. BARTOLOMEU DE MESSINES",
+  :address-c
+  "Rua Maria Eugénia Masc. Newtel Dias 22, 8375-121, São Bartolomeu de Messines, Silves, Faro",
   :postal-c "8375-121",
-  :x -8.280439986046616,
-  :y 37.2562299935409,
-  :score 100,
-  :c 1}}
+  :x -8.281887786875135,
+  :y 37.25597794462443,
+  :score 92.84,
+  :c 5}}

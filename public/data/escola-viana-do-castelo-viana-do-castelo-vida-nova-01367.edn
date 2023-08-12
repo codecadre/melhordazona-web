@@ -60,6 +60,7 @@
  {:address
   "Rua de Monserrate, Edifício Portas de Viana, loja n.º 176 E - 4900-355 Viana do Castelo",
   :name "Vida Nova",
+  :href-id #uuid "4f9d8894-90b9-30b1-9d7e-97d0e1a74323",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VidaNova.aspx",
@@ -67,6 +68,8 @@
   :nec 1367,
   :cp7 "4900-355",
   :id #uuid "cc5e52d4-69bb-317d-9583-403b1f86671d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/4f9d8894-vida-nova.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
  :geocode

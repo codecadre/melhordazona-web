@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Sociedade Columbófila, Nº 259 4415-803 SANDIM",
   :name "Sandinense",
+  :href-id #uuid "22858bd7-6c45-3073-957f-4a9abfa1fafc",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sandinense916.aspx",
@@ -94,6 +95,8 @@
   :nec 1127,
   :cp7 "4415-803",
   :id #uuid "4560a2b9-3f63-3c90-9000-6d46f3fe7b80",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/22858bd7-sandinense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode

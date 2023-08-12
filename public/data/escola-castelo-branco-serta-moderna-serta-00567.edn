@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Acesso à Ribeira do Amioso, 1º-Esqº 6100-758 SERTÃ",
   :name "Moderna – Sertã",
+  :href-id #uuid "aec6b637-f478-3166-a7c3-c831f320c4a9",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moderna%e2%80%93Serta658.aspx",
@@ -94,6 +95,8 @@
   :nec 567,
   :cp7 "6100-758",
   :id #uuid "6586ae33-7597-3b10-b637-79550b0bdfd5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/serta/aec6b637-moderna-serta.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Sert%C3%A3"},
  :geocode

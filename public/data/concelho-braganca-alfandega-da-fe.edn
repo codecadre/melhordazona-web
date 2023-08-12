@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Largo do Prado, 5350-016 ALFÂNDEGA DA FÉ",
     :name "O Prado",
+    :href-id #uuid "01e8c2fa-dc7c-399b-81e0-c71f57bbc30d",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OPrado.aspx",
@@ -95,6 +96,8 @@
     :nec 554,
     :cp7 "5350-016",
     :id #uuid "3669af95-40f0-3248-89de-9fbfa2a99afb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/alfandega-da-fe/01e8c2fa-o-prado.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Alfandega%20da%20F%C3%A9"},
    :geocode

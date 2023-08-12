@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. Hilário de Almeida Pereira, nº 162-1º 3560-172 SÁTÃO",
   :name "Sátão",
+  :href-id #uuid "0e49cc3c-015a-3590-9dd6-03bcd4df91fc",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Satao949.aspx",
@@ -95,6 +96,8 @@
   :nec 521,
   :cp7 "3560-172",
   :id #uuid "37a2d0ca-0655-32b8-8a2a-e76394df9bb2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/satao/0e49cc3c-satao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S%C3%A1t%C3%A3o"},
  :geocode

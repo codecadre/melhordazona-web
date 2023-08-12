@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Adelino Amaro da Costa, nº 3 2480-317 PORTO DE MÓS",
     :name "Porto Mosense",
+    :href-id #uuid "dded71fa-6af5-3202-9930-7ef76210cdf4",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PortoMosense805.aspx",
@@ -95,6 +96,8 @@
     :nec 442,
     :cp7 "2480-317",
     :id #uuid "d300e863-7c49-3740-a9bd-85310e318631",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/porto-de-mos/dded71fa-porto-mosense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Rua Principal, n.º 8, 2480-173 LEÕES",
     :name "A. Garcia",
+    :href-id #uuid "c809a0d8-ea86-3471-ad7c-bb7fb963148f",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AGarcia019.aspx",
@@ -204,15 +208,20 @@
     :nec 526,
     :cp7 "2480-173",
     :id #uuid "88ffa9a5-73e3-3ab2-a1b1-c567e07194d6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/porto-de-mos/c809a0d8-a-garcia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"},
    :geocode
-   {:cp7 "2480-173",
+   {:id #uuid "88ffa9a5-73e3-3ab2-a1b1-c567e07194d6",
+    :address "Rua Principal, n.º 8, 2480-173 LEÕES",
+    :address-c
+    "Rua Principal 8, 2480-173, Tourões, Porto de Mós, Leiria",
     :postal-c "2480-173",
-    :x -8.839080002549593,
-    :y 39.600994987227494,
-    :score 100,
-    :c 1}}]
+    :x -8.843979979326946,
+    :y 39.60240000374728,
+    :score 92.67,
+    :c 30}}]
  ["a-gruta-00958"
   {:nec 958,
    :rates
@@ -303,6 +312,7 @@
    :imt-profile
    {:address "Rua das Mangas,s/nº 2485-075 MIRA D'AIRE",
     :name "A Gruta",
+    :href-id #uuid "ae016f62-0857-3bce-9e95-c5be868943de",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AGruta021.aspx",
@@ -310,12 +320,16 @@
     :nec 958,
     :cp7 "2485-075",
     :id #uuid "6b36e0ee-6f52-3139-a4e2-c4d1d8fd95e1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/porto-de-mos/ae016f62-a-gruta.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Porto%20de%20M%C3%B3s"},
    :geocode
-   {:cp7 "2485-075",
-    :postal-c "2485-075",
-    :x -8.713829977770246,
-    :y 39.54446998869278,
-    :score 100,
+   {:address "Rua das Mangas,s/nº 2485-075 MIRA D'AIRE",
+    :address-c
+    "Rua das Mangas, 2485-007, Mira de Aire, Porto de Mós, Leiria",
+    :postal-c "2485-007",
+    :x -8.71267000619,
+    :y 39.544325375233,
+    :score 92.12,
     :c 1}}]]

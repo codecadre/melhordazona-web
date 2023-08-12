@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Luís de Camões, Nº 26, Loja 2 3060-183 CANTANHEDE",
     :name "Marialvas",
+    :href-id #uuid "50271a46-9337-3642-b1a4-31da6e8f1720",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Marialvas628.aspx",
@@ -95,6 +96,8 @@
     :nec 564,
     :cp7 "3060-183",
     :id #uuid "a2931300-7251-3fca-b981-3a2905362480",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/cantanhede/50271a46-marialvas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Avª D. João Garcia Bacelar, s/nº 3060-704 CANTANHEDE",
     :name "Da Tocha",
+    :href-id #uuid "933173bd-96f6-3d0e-be22-f3846d62df81",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DaTocha361.aspx",
@@ -203,15 +207,20 @@
     :nec 714,
     :cp7 "3060-704",
     :id #uuid "ac94d928-bfcd-3f33-9100-9078b47cc32c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/cantanhede/933173bd-da-tocha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
    :geocode
-   {:cp7 "3060-704",
+   {:id #uuid "ac94d928-bfcd-3f33-9100-9078b47cc32c",
+    :address "Avª D. João Garcia Bacelar, s/nº 3060-704 CANTANHEDE",
+    :address-c
+    "Avenida Dom João Garcia Bacelar, 3060-704, Pereirões, Cantanhede, Coimbra",
     :postal-c "3060-704",
-    :x -8.755200034359092,
-    :y 40.31194998431576,
-    :score 100,
-    :c 1}}]
+    :x -8.756414558677692,
+    :y 40.30776657125605,
+    :score 89.15,
+    :c 5}}]
  ["moleiro-amaro-e-oliveira-01017"
   {:nec 1017,
    :rates
@@ -302,6 +311,7 @@
    :imt-profile
    {:address "Rua Amadeu Castanheira Bloco 1 Loja D 3060-318 FEBRES",
     :name "Moleiro, Amaro e Oliveira",
+    :href-id #uuid "0446b539-87e3-3556-9326-8571b5c1bef8",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MoleiroAmaroeOliveira664.aspx",
@@ -309,6 +319,8 @@
     :nec 1017,
     :cp7 "3060-318",
     :id #uuid "6e6330ce-f76a-3718-a446-9166f448b7da",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/cantanhede/0446b539-moleiro-amaro-e-oliveira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
    :geocode
@@ -411,6 +423,7 @@
    :imt-profile
    {:address "Rua de Arazede, Nº 308 R/C Esq 3600-712 TOCHA",
     :name "Zita",
+    :href-id #uuid "b349eea5-df3c-32f0-9ea9-aef8bb1cdd98",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Zita1097.aspx",
@@ -418,6 +431,8 @@
     :nec 1069,
     :cp7 "3600-712",
     :id #uuid "12e1e495-4a33-3f05-8328-56a04b0f498f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/cantanhede/b349eea5-zita.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
    :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Serpa Pinto, nº 3 –1ºDtº 2070-116 CARTAXO",
   :name "José Justino",
+  :href-id #uuid "0f417819-a18c-3ec5-8566-e70f31a70d0c",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JoseJustino580.aspx",
@@ -94,6 +95,8 @@
   :nec 119,
   :cp7 "2070-116",
   :id #uuid "eb22c28c-577a-3596-97ce-fe5c71757611",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/cartaxo/0f417819-jose-justino.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Cartaxo"},
  :geocode

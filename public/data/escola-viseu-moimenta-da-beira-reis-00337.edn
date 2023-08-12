@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 25 de Abril, Nº 23 R/C 3620-304 MOIMENTA DA BEIRA",
   :name "Reis",
+  :href-id #uuid "40582b49-6a40-3e0e-9d7d-984a37b13f7b",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Reis842.aspx",
@@ -94,6 +95,8 @@
   :nec 337,
   :cp7 "3620-304",
   :id #uuid "4e268acb-e114-3f42-9943-ea22157b3a76",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/moimenta-da-beira/40582b49-reis.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Moimenta%20da%20Beira"},
  :geocode

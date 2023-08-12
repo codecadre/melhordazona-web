@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Miguel Bombarda, 79 4910-524 VILA PRAIA de ÂNCORA",
   :name "Âncora",
+  :href-id #uuid "b59840b9-2f35-3f74-8b14-802f9b0d430a",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ancora106.aspx",
@@ -94,6 +95,8 @@
   :nec 557,
   :cp7 "4910-524",
   :id #uuid "e8df18c7-7ab9-3981-a651-5d4c08004906",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/caminha/b59840b9-ancora.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Caminha"},
  :geocode

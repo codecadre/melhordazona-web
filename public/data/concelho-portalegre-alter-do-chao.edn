@@ -89,6 +89,7 @@
    {:address
     "Tapada do Lago – Zona Industrial - Apt.36 7440-152 ALTER DO CHÃO",
     :name "Bom Sucesso",
+    :href-id #uuid "90c93b37-3986-37fd-96de-d440794b0426",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BomSucesso257.aspx",
@@ -96,5 +97,14 @@
     :nec 283,
     :cp7 "7440-152",
     :id #uuid "59f5a85d-38d9-3b10-b344-90a9f5d6ed5a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/alter-do-chao/90c93b37-bom-sucesso.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Alter%20do%20Ch%C3%A3o"}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Alter%20do%20Ch%C3%A3o"},
+   :geocode
+   {:cp7 "7440-152",
+    :postal-c "7440-152",
+    :x -7.688180323545,
+    :y 39.23449027782,
+    :score 100,
+    :c 1}}]]

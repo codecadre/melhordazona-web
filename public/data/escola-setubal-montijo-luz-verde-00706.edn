@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Estrada Nacional nº 4 2870-184 MONTIJO",
   :name "Luz Verde",
+  :href-id #uuid "f4a5f474-8dea-3dd3-aaa6-773435be95c3",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LuzVerde612.aspx",
@@ -94,5 +95,7 @@
   :nec 706,
   :cp7 "2870-184",
   :id #uuid "216cbc33-7d82-3729-8fb7-446bbcd1d12c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/montijo/f4a5f474-luz-verde.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Montijo"}}

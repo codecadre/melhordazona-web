@@ -88,6 +88,7 @@
  {:address
   "Rua dos Combatentes do Ultramar, Lote 1 - R/C Esq 2670-506 LOURES",
   :name "Pinheiro de Loures",
+  :href-id #uuid "4dbb66be-ecca-3f2e-a164-00ea32831ca5",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PinheirodeLoures791.aspx",
@@ -95,6 +96,8 @@
   :nec 1193,
   :cp7 "2670-506",
   :id #uuid "f1a24e48-b1af-33dc-bd8e-4aa7904aeb0c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/4dbb66be-pinheiro-de-loures.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode

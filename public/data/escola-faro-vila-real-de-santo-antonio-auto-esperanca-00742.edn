@@ -88,6 +88,7 @@
  {:address
   "Urbanização Amendoeiras, Lote 15, R/C H, 8900-282 VILA REAL de SANTO ANTÓNIO",
   :name "Auto Esperança",
+  :href-id #uuid "8c6be4db-2c50-3803-99cf-91d1af34dc22",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoEsperanca155.aspx",
@@ -95,6 +96,8 @@
   :nec 742,
   :cp7 "8900-282",
   :id #uuid "34b5d8d8-b933-3b2a-ab48-b7e83a6aec1f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/vila-real-de-santo-antonio/8c6be4db-auto-esperanca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
  :geocode

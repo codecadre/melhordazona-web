@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Comércio nº 48 - Lj Esq 8135-125 LOULÉ",
   :name "Almancil",
+  :href-id #uuid "4c4fd2f6-40b0-3ddd-9746-f51ab8b9555a",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Almancil086.aspx",
@@ -94,6 +95,8 @@
   :nec 1042,
   :cp7 "8135-125",
   :id #uuid "2fa8a5b5-71a3-3627-b2ad-c84c2caff36b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/4c4fd2f6-almancil.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
  :geocode

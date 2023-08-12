@@ -88,6 +88,7 @@
  {:address
   "Avª Marquês de Pombal, Lote 117 - Sº Domingos - Junto à rotunda c/a fonte, 2505-170 SANTARÉM",
   :name "Santarém",
+  :href-id #uuid "528b7f2f-1acd-39a0-a4d4-25b97ede45ab",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Santarem935.aspx",
@@ -95,5 +96,7 @@
   :nec 201,
   :cp7 "2505-170",
   :id #uuid "b626d387-0a24-36a7-8471-21946cd2151e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/528b7f2f-santarem.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}

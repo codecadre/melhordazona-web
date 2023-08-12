@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª Dr. Antão de Carvalho, 51 5050-224 PESO DA RÉGUA",
     :name "Auto Meireles",
+    :href-id #uuid "3e5b4a02-40c1-32cf-bc60-6a9d6d3f3ef9",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoMeireles165.aspx",
@@ -95,6 +96,8 @@
     :nec 351,
     :cp7 "5050-224",
     :id #uuid "fa30aed6-dac7-360e-b1db-39713713003b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/peso-da-regua/3e5b4a02-auto-meireles.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
    :geocode
@@ -198,6 +201,7 @@
    {:address
     "Avª de Ovar - Edificio Santa Rita I 5050-223 PESO DA RÉGUA",
     :name "Reguense",
+    :href-id #uuid "336cfc96-19e5-371f-9b9a-202a80b27575",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Reguense841.aspx",
@@ -205,6 +209,8 @@
     :nec 568,
     :cp7 "5050-223",
     :id #uuid "c4213991-2ab7-3e57-bf6a-68993b258715",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/peso-da-regua/336cfc96-reguense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
    :geocode
@@ -305,6 +311,7 @@
    {:address
     "Rua dos Quatro Caminhos - Edificio Quatro Caminhos, R/C - B 5050-067 GODIM",
     :name "Douriense",
+    :href-id #uuid "e599f144-e622-3d73-9f8c-317a70f79d65",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Douriense395.aspx",
@@ -312,6 +319,8 @@
     :nec 723,
     :cp7 "5050-067",
     :id #uuid "c01320f7-9078-3cc0-94db-9592cc3062e5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/peso-da-regua/e599f144-douriense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
    :geocode
@@ -412,6 +421,7 @@
    {:address
     "Avª Sacadura Cabral, Edificio Sialto Loja 1 R/C 5050-078 GODIM",
     :name "Miradouro",
+    :href-id #uuid "64452c99-7aff-32ce-84a5-2a25150c3362",
     :distrito "Vila Real",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Miradouro651.aspx",
@@ -419,6 +429,8 @@
     :nec 793,
     :cp7 "5050-078",
     :id #uuid "e21931eb-87ce-3ce6-9fe1-09585ec2a6d6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/peso-da-regua/64452c99-miradouro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Peso%20da%20R%C3%A9gua"},
    :geocode

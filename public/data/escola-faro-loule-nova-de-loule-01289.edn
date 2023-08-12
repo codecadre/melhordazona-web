@@ -88,6 +88,7 @@
  {:address
   "Urbanização Hortas de Santo António,Lote 12, Lj B, 8100-712 LOULÉ",
   :name "Nova de Loulé",
+  :href-id #uuid "e93f56ca-a11f-3e0f-83c3-36d21e52fbbb",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeLoule.aspx",
@@ -95,6 +96,8 @@
   :nec 1289,
   :cp7 "8100-712",
   :id #uuid "d5dc9264-bf22-3d59-ada8-452087377a11",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/e93f56ca-nova-de-loule.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
  :geocode

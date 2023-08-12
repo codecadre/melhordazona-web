@@ -88,6 +88,7 @@
  {:address
   "Lugar de Santa Eulália - Edificio Multirefional r/c - Souselo 4690-666 SOUSELO",
   :name "Bateira",
+  :href-id #uuid "62b32134-112d-38ba-8bbe-40ac83ed369e",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bateira230.aspx",
@@ -95,6 +96,8 @@
   :nec 1062,
   :cp7 "4690-666",
   :id #uuid "b3c68e49-44fc-377d-a253-73e54db082a8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/cinfaes/62b32134-bateira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua Guilherme Gomes Fernandes, Lote 5, Loja 2645-048 ALCABIDECHE",
   :name "Sentido Obrigatório",
+  :href-id #uuid "dcfcf687-a05d-33f8-b784-4543f622eb24",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SentidoObrigatorio964.aspx",
@@ -95,6 +96,8 @@
   :nec 1252,
   :cp7 "2645-048",
   :id #uuid "eb654b9d-d227-302e-82a2-c544e8caf0e3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/dcfcf687-sentido-obrigatorio.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode

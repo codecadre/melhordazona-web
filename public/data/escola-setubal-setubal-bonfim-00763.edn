@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Independência das Colónias, nº 30-C 2900-406 SETÚBAL",
   :name "Bonfim",
+  :href-id #uuid "ccda4edb-a0d2-3819-a3a4-9b8f1e91aeaa",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bonfim258.aspx",
@@ -94,12 +95,17 @@
   :nec 763,
   :cp7 "2900-406",
   :id #uuid "6f266680-45e2-3917-bfc2-8e389f7f5a22",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/ccda4edb-bonfim.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
  :geocode
- {:cp7 "2900-406",
+ {:id #uuid "6f266680-45e2-3917-bfc2-8e389f7f5a22",
+  :address "Avª Independência das Colónias, nº 30-C 2900-406 SETÚBAL",
+  :address-c
+  "Avenida da Independência das Colónias 30C, 2900-406, Setúbal",
   :postal-c "2900-406",
-  :x -8.889400003892092,
-  :y 38.53157000547813,
-  :score 100,
+  :x -8.888879990619074,
+  :y 38.53283001507299,
+  :score 92.21,
   :c 1}}

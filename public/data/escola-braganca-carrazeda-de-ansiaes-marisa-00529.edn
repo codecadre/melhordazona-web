@@ -88,6 +88,7 @@
  {:address
   "Rua Bombeiros Voluntários, nº 60 5140-060 CARRAZEDA DE ANSIÃES",
   :name "Marisa",
+  :href-id #uuid "b7698fdc-b37d-39d5-a295-cb78439ae59e",
   :distrito "Bragança",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Marisa631.aspx",
@@ -95,6 +96,8 @@
   :nec 529,
   :cp7 "5140-060",
   :id #uuid "c582a01d-81e2-3f5e-b46c-b435f9dc72fc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/carrazeda-de-ansiaes/b7698fdc-marisa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"},
  :geocode

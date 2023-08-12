@@ -89,6 +89,7 @@
    {:address
     "Avenida Santo António, n.º 61; 4720-343 Ferreiros (Amares)",
     :name "Auto Dinâmica - Amares",
+    :href-id #uuid "0e01d5fe-45d4-3708-8141-2db7ccd33f0f",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoDinamicaRibeiradePena152.aspx",
@@ -96,6 +97,8 @@
     :nec 576,
     :cp7 "4720-343",
     :id #uuid "25a40fdf-1b40-37db-bfe0-cf44b4295369",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/amares/0e01d5fe-auto-dinamica-amares.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"},
    :geocode
@@ -200,6 +203,7 @@
    {:address
     "Rua José Alves Leite, Bloco 1, Fracçâo C, D e E 4720-022 AMARES",
     :name "Lusíada",
+    :href-id #uuid "701d4690-1566-37dd-af02-4e3dd3e35e08",
     :distrito "Braga",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lusiada610.aspx",
@@ -207,6 +211,8 @@
     :nec 1078,
     :cp7 "4720-022",
     :id #uuid "f10c8f4c-faac-31ca-93ef-4412ffb61a6e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/amares/701d4690-lusiada.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Amares"},
    :geocode

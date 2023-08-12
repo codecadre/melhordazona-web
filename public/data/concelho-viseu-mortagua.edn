@@ -18,6 +18,7 @@
    :imt-profile
    {:address "Rua Dr. José Assis e Santos, Nº 89 3450-123 MORTÁGUA",
     :name "Nova de Esgueira",
+    :href-id #uuid "85fe668b-07ea-31f0-a9f1-ddafd0ec3c3e",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nova%20de%20Esgueira.aspx",
@@ -25,15 +26,20 @@
     :nec 339,
     :cp7 "3450-123",
     :id #uuid "3ec263bb-8436-3778-9b94-fe1db90a4426",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/mortagua/85fe668b-nova-de-esgueira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
    :geocode
-   {:cp7 "3450-123",
-    :postal-c "3450-123",
-    :x -8.230805037650669,
-    :y 40.3965199926852,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "3ec263bb-8436-3778-9b94-fe1db90a4426",
+    :address "Rua Dr. José Assis e Santos, Nº 89 3450-123 MORTÁGUA",
+    :address-c
+    "Rua Dr. José Assis e Santos, 3450-222, Vale de Açores, Mortágua, Viseu",
+    :postal-c "3450-222",
+    :x -8.247121857522586,
+    :y 40.39216709808324,
+    :score 94.98,
+    :c 4}}]
  ["juiz-de-fora-00792"
   {:nec 792,
    :rates
@@ -125,6 +131,7 @@
    {:address
     "Avª Infante D. Henrique, Nº 61-B - Vale de Açores - Mortágua 3450-202VALE de AÇORES",
     :name "Juíz de Fora",
+    :href-id #uuid "d6eb9a8a-d4ef-3048-96cb-42355ef3b23d",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JuizdeFora.aspx",
@@ -132,15 +139,20 @@
     :nec 792,
     :cp7 "3450-202",
     :id #uuid "b6ea8497-b558-3cb6-8fbc-52015084b1b5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/mortagua/d6eb9a8a-juiz-de-fora.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
    :geocode
-   {:cp7 "3450-202",
+   {:address
+    "Avª Infante D. Henrique, Nº 61-B - Vale de Açores - Mortágua 3450-202VALE de AÇORES",
+    :address-c
+    "Avenida Infante Dom Henrique 61B, 3450-202, Vale de Açores, Mortágua, Viseu",
     :postal-c "3450-202",
-    :x -8.247604970004232,
-    :y 40.38981501496855,
-    :score 100,
-    :c 1}}]
+    :x -8.244329992796,
+    :y 40.389600019152,
+    :score 86.1,
+    :c 3}}]
  ["smart-road-01440"
   {:nec 1440,
    :rates
@@ -161,6 +173,7 @@
    :imt-profile
    {:address "Rua Aníbal Dias, n,.º 10 r/c, 3450-150 Mortágua",
     :name "Smart Road",
+    :href-id #uuid "451a594b-9b53-3f54-af68-07b0685a3194",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SmartRoad.aspx",
@@ -168,12 +181,16 @@
     :nec 1440,
     :cp7 "3450-150",
     :id #uuid "7cd6e868-46be-3b83-9fe0-f72734cf1fc6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/mortagua/451a594b-smart-road.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mort%C3%A1gua"},
    :geocode
-   {:cp7 "3450-150",
+   {:id #uuid "7cd6e868-46be-3b83-9fe0-f72734cf1fc6",
+    :address "Rua Aníbal Dias, n,.º 10 r/c, 3450-150 Mortágua",
+    :address-c "Rua Dr. Aníbal Dias 10, 3450-150, Mortágua, Viseu",
     :postal-c "3450-150",
-    :x -8.229184983404906,
-    :y 40.398500007762806,
-    :score 100,
+    :x -8.230159966382274,
+    :y 40.39773000422758,
+    :score 93.88,
     :c 1}}]]

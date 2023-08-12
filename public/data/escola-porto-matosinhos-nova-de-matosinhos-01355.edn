@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua da Cruz de Pau, n.º 116, 4450-103 Matosinhos",
   :name "Nova de Matosinhos",
+  :href-id #uuid "87d842d2-9742-30bd-bf7f-0c22a94573df",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeMatosinhos.aspx",
@@ -80,6 +81,8 @@
   :nec 1355,
   :cp7 "4450-103",
   :id #uuid "616b0129-2c05-39d8-95ff-d932bef29ab7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/87d842d2-nova-de-matosinhos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode

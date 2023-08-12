@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo de S. Pedro, Nº 8-1º 8000 -145 FARO",
   :name "Farense",
+  :href-id #uuid "9cd20e7d-2609-3f00-88cb-84b11394683e",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Farense444.aspx",
@@ -94,6 +95,8 @@
   :nec 79,
   :cp7 "8000-145",
   :id #uuid "878111f1-7a86-3c84-abe7-632cdb454887",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/9cd20e7d-farense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
  :geocode

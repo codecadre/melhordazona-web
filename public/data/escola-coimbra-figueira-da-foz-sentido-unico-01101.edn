@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Santo Amaro n º 7 r/c 3090-401 FIGUEIRA DA FOZ",
   :name "Sentido Único",
+  :href-id #uuid "6227c8fa-b9ec-3811-a62b-7e1d17223d20",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SentidoUnico965.aspx",
@@ -94,6 +95,8 @@
   :nec 1101,
   :cp7 "3090-401",
   :id #uuid "43b28bf0-7188-38c9-be94-91665d85ee57",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/6227c8fa-sentido-unico.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
  :geocode

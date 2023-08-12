@@ -89,6 +89,7 @@
    {:address
     "Edifício Multifuncional- Quintela em Paúves 4690-058 CINFÃES",
     :name "Cinfanense",
+    :href-id #uuid "46e46911-b669-340c-987f-434d0db77eb8",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cinfanense315.aspx",
@@ -96,6 +97,8 @@
     :nec 989,
     :cp7 "4690-058",
     :id #uuid "3e42559a-bb58-336b-adb5-1c2a24e0dd71",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/cinfaes/46e46911-cinfanense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
    :geocode
@@ -196,6 +199,7 @@
    {:address
     "Lugar de Santa Eulália - Edificio Multirefional r/c - Souselo 4690-666 SOUSELO",
     :name "Bateira",
+    :href-id #uuid "62b32134-112d-38ba-8bbe-40ac83ed369e",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bateira230.aspx",
@@ -203,6 +207,8 @@
     :nec 1062,
     :cp7 "4690-666",
     :id #uuid "b3c68e49-44fc-377d-a253-73e54db082a8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/cinfaes/62b32134-bateira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
    :geocode
@@ -303,6 +309,7 @@
    {:address
     "Edificio Multifuncional - Quintela – Bloco 2 r/c Dtº 4690-058 CINFÃES",
     :name "S. João",
+    :href-id #uuid "cde4b929-19de-3381-a96b-71a9f7edbaa2",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SJoao886.aspx",
@@ -310,6 +317,8 @@
     :nec 1070,
     :cp7 "4690-058",
     :id #uuid "f8fe6377-d045-37b2-ac2a-2778e7c7ddd1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/cinfaes/cde4b929-s-joao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Cinf%C3%A3es"},
    :geocode

@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Largo do Rossio nº 52 3530-000 MANGUALDE",
     :name "Azurara",
+    :href-id #uuid "098f1c5e-45f5-3e41-ac4e-7ff0874667e7",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Azurara208.aspx",
@@ -95,6 +96,8 @@
     :nec 100,
     :cp7 "3530-000",
     :id #uuid "bf2eddf4-b5d4-349a-a59a-05848eee10bd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/mangualde/098f1c5e-azurara.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Rua Luis de Camões, Nº 37 3530-214 MANGUALDE",
     :name "Miguel Ângelo",
+    :href-id #uuid "a9d25a89-0ca5-3bfb-a2f3-0239ef5b01f0",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MiguelAngelo645.aspx",
@@ -203,6 +207,8 @@
     :nec 982,
     :cp7 "3530-214",
     :id #uuid "710424a5-42fb-317e-a574-de3ebfe2b9a9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/mangualde/a9d25a89-miguel-angelo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Mangualde"},
    :geocode

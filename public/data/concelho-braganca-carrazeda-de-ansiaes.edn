@@ -89,6 +89,7 @@
    {:address
     "Rua Bombeiros Voluntários, nº 60 5140-060 CARRAZEDA DE ANSIÃES",
     :name "Marisa",
+    :href-id #uuid "b7698fdc-b37d-39d5-a295-cb78439ae59e",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Marisa631.aspx",
@@ -96,6 +97,8 @@
     :nec 529,
     :cp7 "5140-060",
     :id #uuid "c582a01d-81e2-3f5e-b46c-b435f9dc72fc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/carrazeda-de-ansiaes/b7698fdc-marisa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"},
    :geocode
@@ -186,6 +189,7 @@
    {:address
     "Rua Luis de Camões, n.º 319, r/c B 5140-080 Carrazeda de Ansiães",
     :name "Kéris",
+    :href-id #uuid "1b92ad42-195b-3d31-96e1-fb264fd42318",
     :distrito "Bragança",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/K%c3%a9ris.aspx",
@@ -193,12 +197,18 @@
     :nec 1356,
     :cp7 "5140-080",
     :id #uuid "05b941fb-4d7f-33ff-8d12-296b48bafdfb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/carrazeda-de-ansiaes/1b92ad42-keris.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Carrazeda%20Ans%C3%A3es"},
    :geocode
-   {:cp7 "5140-080",
+   {:id #uuid "05b941fb-4d7f-33ff-8d12-296b48bafdfb",
+    :address
+    "Rua Luis de Camões, n.º 319, r/c B 5140-080 Carrazeda de Ansiães",
+    :address-c
+    "Rua Luís de Camões, 5140-080, Carrazeda de Ansiães, Bragança",
     :postal-c "5140-080",
-    :x -7.3055499639853565,
-    :y 41.241729986500815,
-    :score 100,
-    :c 1}}]]
+    :x -7.301649322931634,
+    :y 41.24578181522291,
+    :score 94.17,
+    :c 6}}]]

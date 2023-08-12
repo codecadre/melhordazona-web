@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Padre António Vieira, Nº 189 8100-611 LOULÉ",
     :name "Louletana",
+    :href-id #uuid "302b0179-94ec-3b76-9186-4ea42b828eb1",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Louletana604.aspx",
@@ -95,6 +96,8 @@
     :nec 111,
     :cp7 "8100-611",
     :id #uuid "82173650-1a46-3ff6-8924-21afc42fe9df",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/302b0179-louletana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
@@ -197,6 +200,7 @@
    {:address
     "Avª Francisco Sá Carneiro Bloco B r/c 8125-130 QUARTEIRA",
     :name "Auto Quarteirense",
+    :href-id #uuid "dff236c9-fce5-3500-8791-cd1ab2b4fc23",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoQuarteirense171.aspx",
@@ -204,6 +208,8 @@
     :nec 418,
     :cp7 "8125-130",
     :id #uuid "6e17212c-d759-3296-8f00-decace85e45e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/dff236c9-auto-quarteirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
@@ -303,6 +309,7 @@
    :imt-profile
    {:address "Largo João XXIII, Lote 10, Loja 12 ; 8100-664 Loulé",
     :name "Loulé Trânsito",
+    :href-id #uuid "45b58f99-2eed-39c0-984c-76dcd321d637",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LouleTransito542.aspx",
@@ -310,6 +317,8 @@
     :nec 649,
     :cp7 "8100-664",
     :id #uuid "19ca57c2-aa63-3ce1-972d-301d8d8816e3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/45b58f99-loule-transito.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
@@ -412,6 +421,7 @@
    {:address
     "Avª de Ceuta - Edifício Nova Avenida loja 5 8125-116 QUARTEIRA",
     :name "Segura",
+    :href-id #uuid "35bf4e52-1c3c-3395-90ba-384bf3bbbb3b",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Segura952.aspx",
@@ -419,15 +429,20 @@
     :nec 666,
     :cp7 "8125-116",
     :id #uuid "661c4037-2acb-3221-8648-bf400be0fa96",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/35bf4e52-segura.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
-   {:cp7 "8125-116",
+   {:address
+    "Avª de Ceuta - Edifício Nova Avenida loja 5 8125-116 QUARTEIRA",
+    :address-c
+    "Edifício Ceuta, Avenida de Ceuta, 8125-116, Quarteira, Loulé, Faro",
     :postal-c "8125-116",
-    :x -8.097594970882682,
-    :y 37.07202501458676,
-    :score 100,
-    :c 1}}]
+    :x -8.097179982856,
+    :y 37.072040018193,
+    :score 86.2,
+    :c 5}}]
  ["infante-de-almancil-00907"
   {:nec 907,
    :rates
@@ -518,6 +533,7 @@
    :imt-profile
    {:address "Rua Duarte Pacheco nº 178 8135-104 ALMANCIL",
     :name "Infante de Almancil",
+    :href-id #uuid "1bb0fff1-298d-30a8-a56f-0e654550077b",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeAlmancil526.aspx",
@@ -525,14 +541,19 @@
     :nec 907,
     :cp7 "8135-104",
     :id #uuid "28ca5320-75ac-3af4-811a-83911e12e607",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/1bb0fff1-infante-de-almancil.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
-   {:cp7 "8135-104",
+   {:id #uuid "28ca5320-75ac-3af4-811a-83911e12e607",
+    :address "Rua Duarte Pacheco nº 178 8135-104 ALMANCIL",
+    :address-c
+    "Avenida Duarte Pacheco 178, 8135-104, Almancil, Loulé, Faro",
     :postal-c "8135-104",
-    :x -8.024379968654529,
-    :y 37.08527998863033,
-    :score 100,
+    :x -8.02711003833781,
+    :y 37.085520004427764,
+    :score 93.75,
     :c 1}}]
  ["almancil-01042"
   {:nec 1042,
@@ -624,6 +645,7 @@
    :imt-profile
    {:address "Rua do Comércio nº 48 - Lj Esq 8135-125 LOULÉ",
     :name "Almancil",
+    :href-id #uuid "4c4fd2f6-40b0-3ddd-9746-f51ab8b9555a",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Almancil086.aspx",
@@ -631,6 +653,8 @@
     :nec 1042,
     :cp7 "8135-125",
     :id #uuid "2fa8a5b5-71a3-3627-b2ad-c84c2caff36b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/4c4fd2f6-almancil.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
@@ -642,6 +666,121 @@
     :y 37.08852001330281,
     :score 96.96,
     :c 3}}]
+ ["boliqueime-01081"
+  {:nec 1081,
+   :rates
+   [{:r/nec 1081,
+     :r/level-0 "2015",
+     :r/d-scheduled 94,
+     :r/t-rate 0.6479,
+     :r/total-rate 0.5901,
+     :r/d-done 90,
+     :r/total-scheduled 173,
+     :r/name-raw "Escola De Condução Boliqueime",
+     :r/total-done 161,
+     :r/d-rate 0.5444,
+     :r/t-scheduled 79.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 95.0,
+     :r/t-done 71.0}
+    {:r/nec 1081,
+     :r/level-0 "2016",
+     :r/d-scheduled 76,
+     :r/t-rate 0.6909,
+     :r/total-rate 0.629,
+     :r/d-done 69,
+     :r/total-scheduled 133,
+     :r/name-raw "Escola De Condução Boliqueime",
+     :r/total-done 124,
+     :r/d-rate 0.5797,
+     :r/t-scheduled 57.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 78.0,
+     :r/t-done 55.0}
+    {:r/nec 1081,
+     :r/level-0 "2017",
+     :r/d-scheduled 77,
+     :r/t-rate 0.7358,
+     :r/total-rate 0.6357,
+     :r/d-done 76,
+     :r/total-scheduled 134,
+     :r/name-raw "Escola De Condução Boliqueime",
+     :r/total-done 129,
+     :r/d-rate 0.5658,
+     :r/t-scheduled 57.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 82.0,
+     :r/t-done 53.0}
+    {:r/nec 1081,
+     :r/level-0 "2018",
+     :r/d-scheduled 71,
+     :r/t-rate 0.65,
+     :r/total-rate 0.6875,
+     :r/d-done 68,
+     :r/total-scheduled 136,
+     :r/name-raw "Escola De Condução Boliqueime",
+     :r/total-done 128,
+     :r/d-rate 0.7206,
+     :r/t-scheduled 65.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 88.0,
+     :r/t-done 60.0}
+    {:r/nec 1081,
+     :r/level-0 "2019",
+     :r/d-scheduled 69,
+     :r/t-rate 0.6102,
+     :r/total-rate 0.5738,
+     :r/d-done 63,
+     :r/total-scheduled 133,
+     :r/name-raw "ESCOLA DE CONDUÇÃO BOLIQUEIME",
+     :r/total-done 122,
+     :r/d-rate 0.5397,
+     :r/t-scheduled 64.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 70.0,
+     :r/t-done 59.0}
+    {:r/nec 1081,
+     :r/level-0 "2020",
+     :r/d-scheduled 64,
+     :r/t-rate 0.5111,
+     :r/total-rate 0.5306,
+     :r/d-done 53,
+     :r/total-scheduled 118,
+     :r/name-raw "ESCOLA DE CONDUÇÃO BOLIQUEIME",
+     :r/total-done 98,
+     :r/d-rate 0.5472,
+     :r/t-scheduled 54.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 52.0,
+     :r/t-done 45.0}],
+   :imt-profile
+   {:address
+    "Estrada Nacional 125, Fonte de Boliqueime, Nº 66, 8100-069 BOLIQUEIME",
+    :name "Boliqueime",
+    :href-id #uuid "ede7f2ed-af02-398f-82d7-06ed12042f62",
+    :distrito "Faro",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Boliqueime.aspx",
+    :concelho "Loulé",
+    :nec 1081,
+    :cp7 "8100-069",
+    :id #uuid "8ca014b5-1108-3368-ae12-16be64246232",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/ede7f2ed-boliqueime.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+   :obs "duplicate with 1081 is 'Linha de Sintra'",
+   :overwrite/notes nil,
+   :geocode
+   {:id #uuid "6e3c4d0f-3263-34f5-b57c-f6cc10e5b93d",
+    :address
+    "Estrada Nacional 125, Fonte de Boliqueime, Nº 66, 8100-069 BOLIQUEIME",
+    :address-c "N125, 8100-069, Fonte de Boliqueime, Loulé, Faro",
+    :postal-c "8100-069",
+    :x -8.150371012319324,
+    :y 37.12831294539989,
+    :score 91.25,
+    :c 8}}]
  ["nova-de-loule-01289"
   {:nec 1289,
    :rates
@@ -733,6 +872,7 @@
    {:address
     "Urbanização Hortas de Santo António,Lote 12, Lj B, 8100-712 LOULÉ",
     :name "Nova de Loulé",
+    :href-id #uuid "e93f56ca-a11f-3e0f-83c3-36d21e52fbbb",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeLoule.aspx",
@@ -740,6 +880,8 @@
     :nec 1289,
     :cp7 "8100-712",
     :id #uuid "d5dc9264-bf22-3d59-ada8-452087377a11",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/e93f56ca-nova-de-loule.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode

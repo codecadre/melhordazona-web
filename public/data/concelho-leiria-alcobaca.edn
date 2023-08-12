@@ -89,6 +89,7 @@
    {:address
     "Rua Costa Veiga, Nº 56-58 Apartado 179 2460 –028 ALCOBAÇA",
     :name "Alcobacense",
+    :href-id #uuid "e1d6c2ba-c3a8-3381-8c71-c31cb070aed5",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alcobacense076.aspx",
@@ -96,6 +97,8 @@
     :nec 179,
     :cp7 "2460",
     :id #uuid "6d42f60d-44bc-3d21-8ae5-04a9932a7a8a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/e1d6c2ba-alcobacense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
    :geocode
@@ -199,6 +202,7 @@
    {:address
     "Rua Padre Dr Fernando Maurício nº 2 r/c 2475-138 BENEDITA",
     :name "Beneditense",
+    :href-id #uuid "d4231e5c-c5a3-3ea3-9ddc-ec898d07ee79",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Beneditense242.aspx",
@@ -206,6 +210,8 @@
     :nec 528,
     :cp7 "2475-138",
     :id #uuid "6c81746d-b2d9-34fd-af6e-4cd8de5fc442",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/d4231e5c-beneditense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
    :geocode
@@ -310,6 +316,7 @@
    {:address
     "Rua do Rei da Memória, S/N - Estrada Nacional 8/6 2475-149 BENEDITA",
     :name "Cister",
+    :href-id #uuid "caabcb9e-d9bd-33c9-b3ae-7873e373ea40",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cister316.aspx",
@@ -317,15 +324,21 @@
     :nec 867,
     :cp7 "2475-149",
     :id #uuid "f27c2f47-2b2a-3235-97b0-aeee2684f4e8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/caabcb9e-cister.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
    :geocode
-   {:cp7 "2475-149",
+   {:id #uuid "f27c2f47-2b2a-3235-97b0-aeee2684f4e8",
+    :address
+    "Rua do Rei da Memória, S/N - Estrada Nacional 8/6 2475-149 BENEDITA",
+    :address-c
+    "Rua Rei da Memória, 2475-149, Benedita, Alcobaça, Leiria",
     :postal-c "2475-149",
-    :x -8.979409993150938,
-    :y 39.42900499768044,
-    :score 100,
-    :c 1}}]
+    :x -8.980085435365964,
+    :y 39.42852086635912,
+    :score 86.96,
+    :c 10}}]
  ["d-carlos-00868"
   {:nec 868,
    :rates
@@ -417,6 +430,7 @@
    {:address
     "Av. Marginal, Nº 23-Loja A S. Martinho do Porto 2460-001 ALCOBAÇA",
     :name "D. Carlos",
+    :href-id #uuid "92eace33-256a-3ce2-9b23-ee64e8e6bd34",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DCarlos352.aspx",
@@ -424,6 +438,8 @@
     :nec 868,
     :cp7 "2460-001",
     :id #uuid "1d5e15d7-8d46-3c5e-be77-7700a1535484",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/92eace33-d-carlos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
    :geocode
@@ -528,6 +544,7 @@
    {:address
     "Rua Mercedes Carlos Campeão , Nº 12 R/C 2460-067 ALCOBAÇA",
     :name "Batalhense de Alcobaça",
+    :href-id #uuid "a884b915-9f3c-3aee-a7f7-866fab35129c",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BatalhensedeAlcobaca227.aspx",
@@ -535,6 +552,8 @@
     :nec 961,
     :cp7 "2460-067",
     :id #uuid "f46b3ee9-f3e6-37b9-bd49-04b3b10abcd9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/a884b915-batalhense-de-alcobaca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
    :geocode
@@ -638,6 +657,7 @@
    :imt-profile
    {:address "Rua Costa Veiga, n.º 56 ; 2460-028 Alcobaça",
     :name "Nova Alcoa",
+    :href-id #uuid "bebe301a-7f2d-3e83-a41f-326a2310fdb2",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nova%20Alcoa.aspx",
@@ -645,6 +665,8 @@
     :nec 1147,
     :cp7 "2460-028",
     :id #uuid "ebe2b77a-2c89-3306-9e6c-84a1eec2489b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/bebe301a-nova-alcoa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
    :geocode
@@ -719,6 +741,7 @@
    {:address
     "Estrada Nacional 8, n,º 1, fração A, loja C r/c 2460-711 São Vicente Aljubarrota ",
     :name "Aljubarrota",
+    :href-id #uuid "df8938ea-c02b-309c-bfa2-cf2b4e15a2f7",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aljubarrota.aspx",
@@ -726,15 +749,20 @@
     :nec 1375,
     :cp7 "2460-711",
     :id #uuid "7b3b61f7-003e-3d6d-81ee-c916fc7235a9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/df8938ea-aljubarrota.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
    :geocode
-   {:cp7 "2460-711",
+   {:address
+    "Estrada Nacional 8, n,º 1, fração A, loja C r/c 2460-711 São Vicente Aljubarrota ",
+    :address-c
+    "N8 1, 2460-711, Aljubarrota-Prazeres, Alcobaça, Leiria",
     :postal-c "2460-711",
-    :x -8.924229996709272,
-    :y 39.56796999534964,
-    :score 100,
-    :c 1}}]
+    :x -8.922844881822,
+    :y 39.568970088243,
+    :score 92.19,
+    :c 14}}]
  ["mar-a-vista-01389"
   {:nec 1389,
    :rates
@@ -797,6 +825,7 @@
    :imt-profile
    {:address "Av. Rainha Santa Isabel, n.º 234, 2445-206 Pataias",
     :name "Mar à Vista",
+    :href-id #uuid "353490d9-c5b1-3391-994e-df90cfd22dec",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mar-a-Vista.aspx",
@@ -804,6 +833,8 @@
     :nec 1389,
     :cp7 "2445-206",
     :id #uuid "a66f5115-de39-3938-b2a8-ea6d791fbf40",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/353490d9-mar-a-vista.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
    :geocode

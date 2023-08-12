@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Caires n.º 45, 4700-206 Braga",
   :name "Brigantina",
+  :href-id #uuid "6cec0847-3d48-39d5-a463-d5db1fc561c2",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Brigantina.aspx",
@@ -94,12 +95,16 @@
   :nec 165,
   :cp7 "4700-206",
   :id #uuid "18db0e53-8494-3764-a345-abaff1b2d869",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/6cec0847-brigantina.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode
- {:cp7 "4700-206",
+ {:id #uuid "18db0e53-8494-3764-a345-abaff1b2d869",
+  :address "Rua de Caires n.º 45, 4700-206 Braga",
+  :address-c "Rua do Caires 45, 4700-206, Braga",
   :postal-c "4700-206",
-  :x -8.433714987912083,
-  :y 41.5472900036477,
-  :score 100,
-  :c 1}}
+  :x -8.43391003479897,
+  :y 41.54566001684668,
+  :score 94.3,
+  :c 2}}

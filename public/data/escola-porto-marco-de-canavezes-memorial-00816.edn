@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar de Memorial 4575 -032 ALPENDURADA e MATOS",
   :name "Memorial",
+  :href-id #uuid "ec28a94e-ecf8-34c9-8890-8588ab1bd9d5",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Memorial642.aspx",
@@ -94,6 +95,8 @@
   :nec 816,
   :cp7 "4575-032",
   :id #uuid "dd3a574a-a95f-328f-a6f1-3dca5f11fda4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/ec28a94e-memorial.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
  :geocode

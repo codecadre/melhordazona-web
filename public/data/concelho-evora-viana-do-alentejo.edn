@@ -89,6 +89,7 @@
    {:address
     "Rua Dr. Júlio Pereira Garrido, Nº 12 7090-270 VIANA DO ALENTEJO",
     :name "Senhora D´ Aires",
+    :href-id #uuid "1480e916-d990-358a-a949-db3655a27765",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoraD%c2%b4Aires956.aspx",
@@ -96,6 +97,8 @@
     :nec 524,
     :cp7 "7090-270",
     :id #uuid "adb1ca58-111b-33a8-9334-6e35a89c4a15",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/viana-do-alentejo/1480e916-senhora-d´-aires.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Viana%20do%20Alentejo"},
    :geocode

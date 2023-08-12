@@ -89,6 +89,7 @@
    {:address
     "Rua Candido dos Reis, Nº 59 4900-532 VIANA DO CASTELO(MONSERRATE)",
     :name "Vianense",
+    :href-id #uuid "2fb34d2d-6e3c-33c9-9205-5bac341f006f",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vianense1059.aspx",
@@ -96,6 +97,8 @@
     :nec 86,
     :cp7 "4900-532",
     :id #uuid "9a1847e1-563f-33e8-b36f-6cfc7d3b8bf5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/2fb34d2d-vianense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
    :geocode
@@ -198,6 +201,7 @@
    :imt-profile
    {:address "Av. António Feijó, n.º 38, 4990-029 PONTE DE LIMA",
     :name "Limarense",
+    :href-id #uuid "ac781a6e-5a8a-3499-9a5e-709aedcfd9ca",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Limarense598.aspx",
@@ -205,6 +209,8 @@
     :nec 120,
     :cp7 "4990-029",
     :id #uuid "497723d6-aa2f-3d96-88cc-73b7ccae298b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/ac781a6e-limarense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
    :geocode
@@ -307,6 +313,7 @@
    :imt-profile
    {:address "Rua Eng.º Duarte Pacheco , Loja 8 4950-454 MONÇÃO",
     :name "Covas",
+    :href-id #uuid "9440167e-06cb-352b-bc5e-92c08424170e",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Covas346.aspx",
@@ -314,17 +321,18 @@
     :nec 266,
     :cp7 "4950-454",
     :id #uuid "41228446-f8ce-37aa-b922-d0c6de275ede",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/moncao/9440167e-covas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Mon%C3%A7%C3%A3o"},
    :geocode
-   {:id #uuid "41228446-f8ce-37aa-b922-d0c6de275ede",
-    :address "Rua Eng.º Duarte Pacheco , Loja 8 4950-454 MONÇÃO",
+   {:address "Rua Eng.º Duarte Pacheco , Loja 8 4950-454 MONÇÃO",
     :address-c
     "Rua Engenheiro Duarte Pacheco 8, 4950-454, Monção, Viana do Castelo",
     :postal-c "4950-454",
-    :x -8.482643561193365,
-    :y 42.077321005971505,
-    :score 96.58,
+    :x -8.482643645012,
+    :y 42.077320964062,
+    :score 96.86,
     :c 1}}]
  ["caminhense-00294"
   {:nec 294,
@@ -417,6 +425,7 @@
    {:address
     "Avenida Manuel Xavier, Fracção B - R/C ; 4910-105 Caminha",
     :name "Caminhense",
+    :href-id #uuid "b864444f-f602-3fd0-8df5-517e8fcddc3c",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Caminhense271.aspx",
@@ -424,14 +433,20 @@
     :nec 294,
     :cp7 "4910-105",
     :id #uuid "2232a683-6a0b-3cf6-b2ed-9250d3133c59",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/caminha/b864444f-caminhense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Caminha"},
    :geocode
-   {:cp7 "4910-105",
+   {:id #uuid "2232a683-6a0b-3cf6-b2ed-9250d3133c59",
+    :address
+    "Avenida Manuel Xavier, Fracção B - R/C ; 4910-105 Caminha",
+    :address-c
+    "Avenida Manuel Xavier, 4910-105, Caminha, Viana do Castelo",
     :postal-c "4910-105",
-    :x -8.836029995622141,
-    :y 41.87591500667665,
-    :score 100,
+    :x -8.836975753801642,
+    :y 41.87704786484722,
+    :score 91.86,
     :c 1}}]
  ["courense-00317"
   {:nec 317,
@@ -523,6 +538,7 @@
    :imt-profile
    {:address "Rua Pereira da Cunha, s/nº 4940-542 PAREDES DE COURA",
     :name "Courense",
+    :href-id #uuid "dcd7a353-1920-3a06-b8ad-6455f5b16eb8",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Courense344.aspx",
@@ -530,6 +546,8 @@
     :nec 317,
     :cp7 "4940-542",
     :id #uuid "31f11dd8-8ef7-33b5-b9a9-babba82a902a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/paredes-de-coura/dcd7a353-courense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Paredes%20de%20Coura"},
    :geocode
@@ -633,6 +651,7 @@
    {:address
     "Rua General Amilcar Mota, Nº 181 4970-459 ARCOS DE VALDEVEZ (SALVADOR)",
     :name "Arcuense",
+    :href-id #uuid "b4633aeb-75cf-3d4c-bc06-0884d1112341",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arcuense116.aspx",
@@ -640,6 +659,8 @@
     :nec 340,
     :cp7 "4970-459",
     :id #uuid "4cd7f3c9-4d40-30c9-afe2-879472687f9c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/arcos-de-valdevez/b4633aeb-arcuense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
    :geocode
@@ -744,6 +765,7 @@
    {:address
     "Avª Dr. Tito Fontes -Edificio Bruxelas, Loja 15 - 1º 4930-673 VALENÇA",
     :name "Alto Minho",
+    :href-id #uuid "39900161-a259-38ac-93a0-a983cea102ff",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AltoMinho098.aspx",
@@ -751,6 +773,8 @@
     :nec 460,
     :cp7 "4930-673",
     :id #uuid "ea575bde-ced1-3cae-b389-86214e0047dc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/valenca/39900161-alto-minho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Valen%C3%A7a"},
    :geocode
@@ -851,6 +875,7 @@
    {:address
     "Largo João Tomás da Costa, 12 - 1º 4900-509 VIANA DO CASTELO (Stª Mª Maior)",
     :name "Sónia",
+    :href-id #uuid "f3f0c988-2021-316c-9ab6-9c0dff9b1431",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sonia980.aspx",
@@ -858,6 +883,8 @@
     :nec 486,
     :cp7 "4900-509",
     :id #uuid "1ec1b64a-f1ea-3670-b4d6-c2facd57b775",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/f3f0c988-sonia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
    :geocode
@@ -962,6 +989,7 @@
    {:address
     "Edifício Ilha dos Amores, nº 5 4920-279 VILA NOVA CERVEIRA",
     :name "Cerveirense",
+    :href-id #uuid "c6bf0c56-5a68-3617-a430-671c72cbbe2b",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cerveirense305.aspx",
@@ -969,6 +997,8 @@
     :nec 512,
     :cp7 "4920-279",
     :id #uuid "e4562507-5e42-3015-9bf8-46f91cdc038a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/vila-nova-de-cerveira/c6bf0c56-cerveirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Vila%20Nova%20Cerveira"},
    :geocode
@@ -1069,6 +1099,7 @@
    {:address
     "Rua de Aveiro, 61 –1º Esqº 4900 -495 VIANA DO CASTELO (Stª Mª Maior)",
     :name "Santa Luzia",
+    :href-id #uuid "26697077-0f12-30a6-a435-67975fea9c76",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaLuzia924.aspx",
@@ -1076,6 +1107,8 @@
     :nec 516,
     :cp7 "4900-495",
     :id #uuid "690f7b63-e466-36e6-a913-b41389f71e11",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/26697077-santa-luzia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
    :geocode
@@ -1178,6 +1211,7 @@
    :imt-profile
    {:address "Rua Miguel Bombarda, 79 4910-524 VILA PRAIA de ÂNCORA",
     :name "Âncora",
+    :href-id #uuid "b59840b9-2f35-3f74-8b14-802f9b0d430a",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ancora106.aspx",
@@ -1185,6 +1219,8 @@
     :nec 557,
     :cp7 "4910-524",
     :id #uuid "e8df18c7-7ab9-3981-a651-5d4c08004906",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/caminha/b59840b9-ancora.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Caminha"},
    :geocode
@@ -1287,6 +1323,7 @@
    :imt-profile
    {:address "Largo S. Sebastião, lote 6 –Fracção A 4930-697 VALENÇA",
     :name "A Valenciana",
+    :href-id #uuid "4c78737e-56ff-3156-a730-a9c6dceb793e",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AValenciana043.aspx",
@@ -1294,6 +1331,8 @@
     :nec 558,
     :cp7 "4930-697",
     :id #uuid "0e02e6eb-f8d8-3142-ae9a-10bd97b4e5ec",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/valenca/4c78737e-a-valenciana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Valen%C3%A7a"},
    :geocode
@@ -1394,6 +1433,7 @@
    {:address
     "Urbanização do Sobral, Lote nº 3, 2ª Fase 4990-144 PONTE DE LIMA",
     :name "Volante do Lima",
+    :href-id #uuid "f1140344-75af-3d8f-a34e-7f2de86f19ba",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolantedoLima1084.aspx",
@@ -1401,6 +1441,8 @@
     :nec 590,
     :cp7 "4990-144",
     :id #uuid "6eeb2768-bc3a-358d-9b48-e265e8af54f1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/f1140344-volante-do-lima.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
    :geocode
@@ -1501,6 +1543,7 @@
    {:address
     "Largo Santo António Centro Comercial O Emigrante – Loja 24 4980-625 PONTE DA BARCA",
     :name "Barquense",
+    :href-id #uuid "0398b3ed-31ab-3053-b790-0bee7f2a9cc5",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Barquense220.aspx",
@@ -1508,6 +1551,8 @@
     :nec 605,
     :cp7 "4980-625",
     :id #uuid "1e6b563c-d550-303f-b5b7-b78a296ab60a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-da-barca/0398b3ed-barquense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20da%20Barca"},
    :geocode
@@ -1608,6 +1653,7 @@
    {:address
     "Rua Ramalho Ortigão nº 177 r/c Dtº 4900-422 VIANA DO CASTELO (Stª Mª Maior)",
     :name "Torre, Ldª",
+    :href-id #uuid "56e49513-71c4-3461-ab00-155501209f47",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TorreLd1015.aspx",
@@ -1615,6 +1661,8 @@
     :nec 671,
     :cp7 "4900-422",
     :id #uuid "b4698e21-2af8-37c5-97c1-916ca2a48c70",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/56e49513-torre-lda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
    :geocode
@@ -1718,6 +1766,7 @@
    {:address
     "Rua da Columbofilia –Edifício S. Sebastião - Fracção A 4905-353 BARROSELAS",
     :name "Volante do Neiva",
+    :href-id #uuid "461e1454-c91e-3ae0-9656-0b3642b8c300",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolantedoNeiva1086.aspx",
@@ -1725,6 +1774,8 @@
     :nec 674,
     :cp7 "4905-353",
     :id #uuid "a28707f8-5251-3ca6-adc6-e60d0d180d05",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/461e1454-volante-do-neiva.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
    :geocode
@@ -1824,6 +1875,7 @@
    :imt-profile
    {:address "Edificio de Merim - Fracção H, R/C 4990-343 FEITOSA",
     :name "Sucesso do Lima",
+    :href-id #uuid "b60d74fd-eff3-3d32-aa8e-a3b0258d9925",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SucessodoLima993.aspx",
@@ -1831,6 +1883,8 @@
     :nec 675,
     :cp7 "4990-343",
     :id #uuid "ccc148c8-fdaa-3899-8ef6-82a2e17b9022",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/b60d74fd-sucesso-do-lima.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
    :geocode
@@ -1931,6 +1985,7 @@
    {:address
     "Rua Fonte Pereira, Lote 1, Fracção H, Campos, 4920- 011 Vila Nova de Cerveira",
     :name "Alto das Cerejas",
+    :href-id #uuid "cedb0ec9-2bfe-3621-9db6-9e592d9276e7",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AltodasCerejas096.aspx",
@@ -1938,15 +1993,21 @@
     :nec 747,
     :cp7 "4920-011",
     :id #uuid "458b2968-93c8-3c65-9b3f-84243c7b6167",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/vila-nova-de-cerveira/cedb0ec9-alto-das-cerejas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Vila%20Nova%20Cerveira"},
    :geocode
-   {:cp7 "4920-011",
-    :postal-c "4920-011",
-    :x -8.688025031559192,
-    :y 41.97114000654366,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "458b2968-93c8-3c65-9b3f-84243c7b6167",
+    :address
+    "Rua Fonte Pereira, Lote 1, Fracção H, Campos, 4920- 011 Vila Nova de Cerveira",
+    :address-c
+    "Rua Fonte Pereira, 4920-008, Campos, Vila Nova de Cerveira, Viana do Castelo",
+    :postal-c "4920-008",
+    :x -8.696359538389682,
+    :y 41.97056483739014,
+    :score 91.21,
+    :c 10}}]
  ["inovacao-00762"
   {:nec 762,
    :rates
@@ -2038,6 +2099,7 @@
    {:address
     "Rua de Valverde nº 364 4900-299 VIANA DO CASTELO (Stª Mª Maior)",
     :name "Inovação",
+    :href-id #uuid "f996a172-36d9-32e0-859c-be78552253f2",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Inovacao557.aspx",
@@ -2045,14 +2107,19 @@
     :nec 762,
     :cp7 "4900-299",
     :id #uuid "75c5e735-eb9d-30dc-b785-ee25b3ce3718",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/f996a172-inovacao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
    :geocode
-   {:cp7 "4900-299",
-    :postal-c "4900-299",
-    :x -8.827490009752808,
-    :y 41.70132000544169,
-    :score 100,
+   {:id #uuid "75c5e735-eb9d-30dc-b785-ee25b3ce3718",
+    :address
+    "Rua de Valverde nº 364 4900-299 VIANA DO CASTELO (Stª Mª Maior)",
+    :address-c "Rua de Valverde 364, 4900-505, Viana do Castelo",
+    :postal-c "4900-505",
+    :x -8.827709618246987,
+    :y 41.70076236566507,
+    :score 94.87,
     :c 1}}]
  ["meadela-00777"
   {:nec 777,
@@ -2144,6 +2211,7 @@
    :imt-profile
    {:address "Rua da Igreja, Nº 49 4900 -204 MEADELA",
     :name "Meadela",
+    :href-id #uuid "5a837d0b-d6dd-3e9e-9445-b7949cb2395c",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Meadela637.aspx",
@@ -2151,15 +2219,19 @@
     :nec 777,
     :cp7 "4900-204",
     :id #uuid "1fc782e0-b0d4-3889-bd1c-8c4e0c780a7c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/5a837d0b-meadela.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
    :geocode
-   {:cp7 "4900-204",
-    :postal-c "4900-204",
-    :x -8.806561990085328,
-    :y 41.70635602050757,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "1fc782e0-b0d4-3889-bd1c-8c4e0c780a7c",
+    :address "Rua da Igreja, Nº 49 4900 -204 MEADELA",
+    :address-c "Rua Igreja 49, 4900-717, Viana do Castelo",
+    :postal-c "4900-717",
+    :x -8.808310035992548,
+    :y 41.70570001085554,
+    :score 94.95,
+    :c 2}}]
  ["ponte-de-lima-00846"
   {:nec 846,
    :rates
@@ -2251,6 +2323,7 @@
    {:address
     "Rua Agostinho José Taveira –Edifício Baldrufa Loja P 4990-072 PONTE DE LIMA",
     :name "Ponte de Lima",
+    :href-id #uuid "bea470f7-6163-3a55-91d4-d2e610c811d1",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PontedeLima797.aspx",
@@ -2258,15 +2331,21 @@
     :nec 846,
     :cp7 "4990-072",
     :id #uuid "23c70346-630d-3458-a0a9-0d632ce803ac",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/bea470f7-ponte-de-lima.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
    :geocode
-   {:cp7 "4990-072",
+   {:id #uuid "23c70346-630d-3458-a0a9-0d632ce803ac",
+    :address
+    "Rua Agostinho José Taveira –Edifício Baldrufa Loja P 4990-072 PONTE DE LIMA",
+    :address-c
+    "Rua Agostinho José Taveira, 4990-072, Ponte de Lima, Viana do Castelo",
     :postal-c "4990-072",
-    :x -8.590094981989864,
-    :y 41.76157499279901,
-    :score 100,
-    :c 1}}]
+    :x -8.587238445563441,
+    :y 41.76405193578985,
+    :score 88.15,
+    :c 5}}]
  ["arcos-de-valdevez-00862"
   {:nec 862,
    :rates
@@ -2358,6 +2437,7 @@
    {:address
     "Praça D. Manuel I, Nº 72 4970-595 ARCOS DE VALDEVEZ (SÃO PAIO)",
     :name "Arcos de Valdevez",
+    :href-id #uuid "7ec5de02-b5dc-3996-8a0f-d04a9ee1ae14",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ArcosdeValdevez115.aspx",
@@ -2365,6 +2445,8 @@
     :nec 862,
     :cp7 "4970-595",
     :id #uuid "a775db6f-0b18-3674-a7dd-deabadd677ea",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/arcos-de-valdevez/7ec5de02-arcos-de-valdevez.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
    :geocode
@@ -2468,6 +2550,7 @@
    :imt-profile
    {:address "Rua Dr. Afonso Viana, 60 4940-531 PAREDES DE COURA",
     :name "Soutelos",
+    :href-id #uuid "9793420f-a6c4-309a-98b7-72d5fa278109",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Soutelos986.aspx",
@@ -2475,6 +2558,8 @@
     :nec 899,
     :cp7 "4940-531",
     :id #uuid "06dab6ab-bf13-3cf4-b1d7-29e51d1494b1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/paredes-de-coura/9793420f-soutelos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Paredes%20de%20Coura"},
    :geocode
@@ -2578,6 +2663,7 @@
    {:address
     "Rua 5 de Outubro n.º 1150, C/v Esq. 4910-388 Vila Praia de Âncora ",
     :name "Ancorensis",
+    :href-id #uuid "2ff83f7c-64ad-371b-8335-f5bebcaa5ae7",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JorgeMatos579.aspx",
@@ -2585,15 +2671,21 @@
     :nec 902,
     :cp7 "4910-388",
     :id #uuid "e7d74a44-0a74-3ac8-bc09-1a8f89520c78",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/caminha/2ff83f7c-ancorensis.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Caminha"},
    :geocode
-   {:cp7 "4910-388",
+   {:id #uuid "e7d74a44-0a74-3ac8-bc09-1a8f89520c78",
+    :address
+    "Rua 5 de Outubro n.º 1150, C/v Esq. 4910-388 Vila Praia de Âncora ",
+    :address-c
+    "Rua 5 de Outubro 1150, 4910-388, Vila Praia de Âncora, Caminha, Viana do Castelo",
     :postal-c "4910-388",
-    :x -8.870959984544186,
-    :y 41.82221999011105,
-    :score 100,
-    :c 1}}]
+    :x -8.870729985121045,
+    :y 41.822100003167094,
+    :score 94.61,
+    :c 2}}]
  ["santa-luzia-darque-00917"
   {:nec 917,
    :rates
@@ -2684,6 +2776,7 @@
    :imt-profile
    {:address "Lugar da Areia, lote 14-r/c 4900-119 DARQUE",
     :name "Santa Luzia –Darque",
+    :href-id #uuid "214e71b9-5b2f-3855-a08e-3e6dd475ca04",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaLuzia%e2%80%93Darque925.aspx",
@@ -2691,6 +2784,8 @@
     :nec 917,
     :cp7 "4900-119",
     :id #uuid "3592f53a-9ed7-3408-bbe4-64fce1921fd4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/214e71b9-santa-luzia-darque.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"}}]
  ["volantiarte-00918"
@@ -2783,6 +2878,7 @@
    :imt-profile
    {:address "Avª Salgueiro Maia, 173 4960-570 VILA",
     :name "Volantiarte",
+    :href-id #uuid "6c3d632a-25c9-39b5-9f2c-2c36a73497ee",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Volantiarte1088.aspx",
@@ -2790,6 +2886,8 @@
     :nec 918,
     :cp7 "4960-570",
     :id #uuid "cdbd1757-2a14-3d01-87ed-3ed58581f173",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/melgaco/6c3d632a-volantiarte.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Melga%C3%A7o"},
    :geocode
@@ -2892,6 +2990,7 @@
    :imt-profile
    {:address "Lugar do Gadunho Freixo EN 308 4990-450 FREIXO",
     :name "S. Cristóvão do Freixo",
+    :href-id #uuid "1cea50d8-9416-34f4-ac11-5bb0e92766e0",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SCristovaodoFreixo882.aspx",
@@ -2899,6 +2998,8 @@
     :nec 952,
     :cp7 "4990-450",
     :id #uuid "e4ef76d5-8b11-306d-891f-59f836c4ac9d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/1cea50d8-s-cristovao-do-freixo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
    :geocode
@@ -2998,6 +3099,7 @@
    :imt-profile
    {:address "Largo Capitão Gaspar de Castro 4925-411 LANHESES",
     :name "Lanheses",
+    :href-id #uuid "f1b7d4ac-120e-3834-8b5c-b88a6a6b5185",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lanheses592.aspx",
@@ -3005,6 +3107,8 @@
     :nec 1018,
     :cp7 "4925-411",
     :id #uuid "791866c8-badf-37c6-b81b-97a3a2ce6401",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/f1b7d4ac-lanheses.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
    :geocode
@@ -3080,6 +3184,7 @@
    {:address
     "Rua de Monserrate, Edifício Portas de Viana, loja n.º 176 E - 4900-355 Viana do Castelo",
     :name "Vida Nova",
+    :href-id #uuid "4f9d8894-90b9-30b1-9d7e-97d0e1a74323",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VidaNova.aspx",
@@ -3087,6 +3192,8 @@
     :nec 1367,
     :cp7 "4900-355",
     :id #uuid "cc5e52d4-69bb-317d-9583-403b1f86671d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/4f9d8894-vida-nova.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
    :geocode
@@ -3159,6 +3266,7 @@
    {:address
     "Estrada de São Pedro, Urbanização Peixe Frio, Fração K, 4950-457 MONÇÃO",
     :name "Monçanense",
+    :href-id #uuid "05524bbf-fd36-326f-b5fe-28ef547bc817",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moncanense.aspx",
@@ -3166,6 +3274,8 @@
     :nec 1380,
     :cp7 "4950-457",
     :id #uuid "0982e1f4-3e45-3e64-9b39-17a5e629efa9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/moncao/05524bbf-moncanense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Mon%C3%A7%C3%A3o"},
    :geocode
@@ -3236,21 +3346,17 @@
      :r/t-done 57.0}],
    :imt-profile
    {:address
-    "Av Dr. António Caldas, loja 139, Faquelo 4970-592 Arcos de Valdevez",
+    "Av. dos Combatentes da Primeira Guerra Mundial Loja 28 (Faquelo)",
     :name "Mira-Vez",
+    :href-id #uuid "0040b255-acc5-3658-84d0-f5968c85a8cb",
     :distrito "Viana do Castelo",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mira-Vez.aspx",
     :concelho "Arcos de Valdevez",
     :nec 1381,
-    :cp7 "4970-592",
-    :id #uuid "4b3b4fe1-bbd3-33a0-9389-2a30b828b958",
+    :cp7 nil,
+    :id #uuid "580595c4-1fd5-36dc-9ce1-ea3157e659b2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/arcos-de-valdevez/0040b255-mira-vez.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"},
-   :geocode
-   {:cp7 "4970-592",
-    :postal-c "4970-592",
-    :x -8.415724992945655,
-    :y 41.84285502035303,
-    :score 100,
-    :c 1}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Arcos%20Valdevez"}}]]

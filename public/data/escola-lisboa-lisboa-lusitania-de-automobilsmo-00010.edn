@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Rovisco Pais, 14 e 14 C 1000-268 LISBOA",
   :name "Lusitânea de Automobilismo",
+  :href-id #uuid "3068a012-ee79-3770-a5d6-e10623827f83",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LusitaneadeAutomobilismo611.aspx",
@@ -94,6 +95,8 @@
   :nec 10,
   :cp7 "1000-268",
   :id #uuid "6b088d8b-fa3a-38a3-b344-5b8c7982aeaf",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/3068a012-lusitanea-de-automobilismo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar da Ribeira 4860-407 REFOJOS de BASTO",
   :name "O Basto",
+  :href-id #uuid "72d58a08-f4ec-3f25-9b95-b4b450bef905",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OBasto730.aspx",
@@ -94,6 +95,8 @@
   :nec 1055,
   :cp7 "4860-407",
   :id #uuid "bd534af0-99de-3774-a68b-60c65e6a88a6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/cabeceiras-de-basto/72d58a08-o-basto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Cabeiras%20Basto"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua Arqueólogo Mário Cardoso, n.º 565 ; 4835-076 Guimarães",
   :name "Guimaraescidade",
+  :href-id #uuid "62dcb2cb-0b61-3316-b442-5bbe8c2d705d",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Guimaraescidade.aspx",
@@ -95,6 +96,8 @@
   :nec 1312,
   :cp7 "4835-076",
   :id #uuid "9211fefb-dfc7-3dbb-86fb-f8a423fab0d1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/62dcb2cb-guimaraescidade.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode

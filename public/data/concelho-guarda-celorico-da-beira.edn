@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Sacadura Cabral, Nº16 6360-350 CELORICO DA BEIRA",
     :name "G. Gomes – Celorico da Beira",
+    :href-id #uuid "1ff60e56-20c7-3088-b648-832e466737ef",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GGomes%e2%80%93CeloricodaBeira475.aspx",
@@ -95,6 +96,8 @@
     :nec 475,
     :cp7 "6360-350",
     :id #uuid "8cf5eec6-e199-356e-a41c-6b2289bda879",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/celorico-da-beira/1ff60e56-g-gomes-celorico-da-beira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Celorico%20da%20Beira"},
    :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Santa Justa, Nº 9-A 7860-154 MOURA",
   :name "Carmo",
+  :href-id #uuid "389a80a3-6dc1-3b91-9072-f610ee94b4e8",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carmo286.aspx",
@@ -94,6 +95,8 @@
   :nec 627,
   :cp7 "7860-154",
   :id #uuid "db7242c6-987e-30e9-8928-f2494625f83f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/moura/389a80a3-carmo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Moura"},
  :geocode

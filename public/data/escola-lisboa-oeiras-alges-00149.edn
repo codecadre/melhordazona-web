@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Damião de Góis, Nº 28 C/V Esqº /Dtº 1495-043 ALGÉS",
   :name "Algés",
+  :href-id #uuid "36c65943-d33a-30bd-9b48-c33131f46e05",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alges082.aspx",
@@ -94,6 +95,8 @@
   :nec 149,
   :cp7 "1495-043",
   :id #uuid "8320f8fc-2140-310e-981d-ae4e3310d0ff",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/36c65943-alges.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
  :geocode

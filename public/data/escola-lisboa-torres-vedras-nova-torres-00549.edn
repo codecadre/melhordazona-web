@@ -88,6 +88,7 @@
  {:address
   "Rua da Escola Preparatória nº 51 R/c Esqº 2350 TORRES NOVAS",
   :name "Nova Torres",
+  :href-id #uuid "8736c435-f458-33ef-be61-3d019fa59aab",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaTorres719.aspx",
@@ -95,6 +96,8 @@
   :nec 549,
   :cp7 "2350",
   :id #uuid "9085a1b9-326e-3bbc-a302-c6cc5b13b69f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/8736c435-nova-torres.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
  :geocode

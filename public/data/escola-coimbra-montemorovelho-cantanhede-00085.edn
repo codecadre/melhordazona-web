@@ -32,6 +32,7 @@
  {:address
   "Rua da Academia Musical Arazedense, n.º 22, R/C, 3140-998 ARAZADE",
   :name "Cantanhede",
+  :href-id #uuid "851afac5-4106-3fe0-a75a-3374c62411cd",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cantanhede279.aspx",
@@ -39,6 +40,8 @@
   :nec 85,
   :cp7 "3140-998",
   :id #uuid "1ae0f161-2a4e-3cf7-81d8-cade4b19bf76",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/montemor-o-velho/851afac5-cantanhede.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Montemor%20o%20Velho"},
  :geocode

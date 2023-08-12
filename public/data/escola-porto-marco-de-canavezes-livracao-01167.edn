@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar da Livração 4635-518 TOUTOSA",
   :name "De Livração",
+  :href-id #uuid "216dc652-7bd8-38f5-ae16-420d1b4a88f1",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeLivracao372.aspx",
@@ -94,6 +95,8 @@
   :nec 1167,
   :cp7 "4635-518",
   :id #uuid "af6904de-569a-363a-887f-48d0ac8b7369",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/216dc652-de-livracao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
  :geocode

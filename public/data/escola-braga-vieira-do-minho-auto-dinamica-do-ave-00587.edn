@@ -32,6 +32,7 @@
  {:address
   "Rua Padre José Carlos Alves Vieira, Nº 232-1º 4850-537 VIEIRA DO MINHO",
   :name "Auto Dinâmica do Ave",
+  :href-id #uuid "6bf5aabc-eb5a-3320-b56d-f1495492c306",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Auto%20Din%c3%a2mica%20do%20Ave.aspx",
@@ -39,6 +40,8 @@
   :nec 587,
   :cp7 "4850-537",
   :id #uuid "88a55330-30ec-32d7-8d84-b601c03eb5cb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vieira-do-minho/6bf5aabc-auto-dinamica-do-ave.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"},
  :geocode

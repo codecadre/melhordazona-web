@@ -89,6 +89,7 @@
    {:address
     "Avª Mouzinho de Albuquerque, nº 149 4490-409 PÓVOA DE VARZIM",
     :name "Ala Arriba",
+    :href-id #uuid "ef6ed97b-47dc-366c-9310-9d2126e1bd26",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AlaArriba066.aspx",
@@ -96,14 +97,20 @@
     :nec 390,
     :cp7 "4490-409",
     :id #uuid "3429221d-75ae-3765-829a-36edbfb4ae58",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/ef6ed97b-ala-arriba.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
    :geocode
-   {:cp7 "4490-409",
+   {:id #uuid "3429221d-75ae-3765-829a-36edbfb4ae58",
+    :address
+    "Avª Mouzinho de Albuquerque, nº 149 4490-409 PÓVOA DE VARZIM",
+    :address-c
+    "Avenida Mouzinho de Albuquerque 149, 4490-409, Póvoa de Varzim, Porto",
     :postal-c "4490-409",
-    :x -8.763855019939996,
-    :y 41.38147001684712,
-    :score 100,
+    :x -8.76070867234932,
+    :y 41.38256624855353,
+    :score 92.49,
     :c 1}}]
  ["guedes-vieira-povoa-de-varzim-00479"
   {:nec 479,
@@ -195,6 +202,7 @@
    :imt-profile
    {:address "Av. Vasco da Gama n.º 76 r/c, 4490-410, PÓVOA de VARZIM",
     :name "Guedes Vieira - Póvoa do Varzim",
+    :href-id #uuid "f08a8072-c286-3dfe-84d0-836f9f244b8f",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GuedesVieiraPovoadoVarzim501.aspx",
@@ -202,15 +210,20 @@
     :nec 479,
     :cp7 "4490-410",
     :id #uuid "eb289911-51dc-387c-9fa3-2c2886d8e10a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/f08a8072-guedes-vieira-povoa-do-varzim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
    :geocode
-   {:cp7 "4490-410",
+   {:id #uuid "eb289911-51dc-387c-9fa3-2c2886d8e10a",
+    :address "Av. Vasco da Gama n.º 76 r/c, 4490-410, PÓVOA de VARZIM",
+    :address-c
+    "Avenida Vasco da Gama, 4490-410, Póvoa de Varzim, Porto",
     :postal-c "4490-410",
-    :x -8.76909999585203,
-    :y 41.38723999326456,
-    :score 100,
-    :c 1}}]
+    :x -8.771173586939042,
+    :y 41.3864027759153,
+    :score 94.62,
+    :c 3}}]
  ["agucadourense-00660"
   {:nec 660,
    :rates
@@ -301,6 +314,7 @@
    :imt-profile
    {:address "Rua da Codixeira, Nº 66, 4495-025 PÓVOA DE VARZIM",
     :name "Aguçadourense",
+    :href-id #uuid "86fb6368-79d6-384d-8210-e73bee28d72a",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Agu%c3%a7adourense.aspx",
@@ -308,6 +322,8 @@
     :nec 660,
     :cp7 "4495-025",
     :id #uuid "684e0910-c636-3664-bfff-2987cdc8c19d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/86fb6368-agucadourense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
    :geocode
@@ -410,6 +426,7 @@
    :imt-profile
    {:address "Rua José Ferreira Coelho n º 115 4490-097 A VER-O-MAR",
     :name "Universal",
+    :href-id #uuid "200359bb-ebe7-3417-896c-9e576f8a4d94",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Universal1028.aspx",
@@ -417,6 +434,8 @@
     :nec 696,
     :cp7 "4490-097",
     :id #uuid "7efe270a-2ea7-3feb-acde-ff77b81c9cd1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/200359bb-universal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
    :geocode
@@ -520,6 +539,7 @@
    {:address
     "Rua do Vale Maior, Nº 2, 4570-477 Rates, PÓVOA do VARZIM",
     :name "Rosinha",
+    :href-id #uuid "07fddc75-89eb-3884-b338-8d9f33753d98",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rosinha.aspx",
@@ -527,15 +547,21 @@
     :nec 838,
     :cp7 "4570-477",
     :id #uuid "03204dcc-a46a-3b07-b085-35160ebc171e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/07fddc75-rosinha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
    :geocode
-   {:cp7 "4570-477",
-    :postal-c "4570-477",
-    :x -8.666039970082238,
-    :y 41.43110500715258,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "03204dcc-a46a-3b07-b085-35160ebc171e",
+    :address
+    "Rua do Vale Maior, Nº 2, 4570-477 Rates, PÓVOA do VARZIM",
+    :address-c
+    "Rua do Vale Maior 2, 4570, Serra do Monte, Póvoa de Varzim, Porto",
+    :postal-c "4570",
+    :x -8.66608790788222,
+    :y 41.431070463104895,
+    :score 94.82,
+    :c 26}}]
  ["vermar-00887"
   {:nec 887,
    :rates
@@ -626,6 +652,7 @@
    :imt-profile
    {:address "Rua Silveira Campos, 25 r/c 4490-107 A VER-O-MAR",
     :name "Vermar",
+    :href-id #uuid "305b8e6e-86a2-3bdd-a797-c60ba371b165",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vermar1047.aspx",
@@ -633,6 +660,8 @@
     :nec 887,
     :cp7 "4490-107",
     :id #uuid "f7278ce9-fe68-3769-af8d-d336f02e93b3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/305b8e6e-vermar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
    :geocode
@@ -736,6 +765,7 @@
    {:address
     "Rua Comendador Francisco Lima Amorim nº 58, Amorim 4495-137 Póvoa de Varzim",
     :name "Lobos do Mar",
+    :href-id #uuid "99dc6154-3f2d-3290-91db-f5c14f3b3144",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LobosdoMar601.aspx",
@@ -743,95 +773,20 @@
     :nec 1220,
     :cp7 "4495-137",
     :id #uuid "3d55855f-574c-3bc6-a83d-31fb22ff8040",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/99dc6154-lobos-do-mar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
    :geocode
-   {:cp7 "4495-137",
-    :postal-c "4495-137",
-    :x -8.743569976065118,
-    :y 41.40516498657183,
-    :score 100,
-    :c 1}}]
- ["a-sebastiana-01400"
-  {:nec 1400,
-   :rates
-   [{:r/nec 1400,
-     :r/level-0 "2017",
-     :r/d-scheduled 1,
-     :r/t-rate 1.0,
-     :r/total-rate 1.0,
-     :r/d-done 1,
-     :r/total-scheduled 5,
-     :r/name-raw "Escola De Condução A Sebastiana",
-     :r/total-done 5,
-     :r/d-rate 1.0,
-     :r/t-scheduled 4.0,
-     :r/k "a-sebastiana-01400",
-     :r/total-passed 5.0,
-     :r/t-done 4.0}
-    {:r/nec 1400,
-     :r/level-0 "2018",
-     :r/d-scheduled 79,
-     :r/t-rate 0.7374,
-     :r/total-rate 0.7175,
-     :r/d-done 78,
-     :r/total-scheduled 178,
-     :r/name-raw "Escola De Condução A Sebastiana",
-     :r/total-done 177,
-     :r/d-rate 0.6923,
-     :r/t-scheduled 99.0,
-     :r/k "a-sebastiana-01400",
-     :r/total-passed 127.0,
-     :r/t-done 99.0}
-    {:r/nec 1400,
-     :r/level-0 "2019",
-     :r/d-scheduled 116,
-     :r/t-rate 0.7528,
-     :r/total-rate 0.7586,
-     :r/d-done 114,
-     :r/total-scheduled 205,
-     :r/name-raw "Escola de Condução A Sebastiana",
-     :r/total-done 203,
-     :r/d-rate 0.7632,
-     :r/t-scheduled 89.0,
-     :r/k "a-sebastiana-01400",
-     :r/total-passed 154.0,
-     :r/t-done 89.0}
-    {:r/nec 1400,
-     :r/level-0 "2020",
-     :r/d-scheduled 70,
-     :r/t-rate 0.7463,
-     :r/total-rate 0.7407,
-     :r/d-done 68,
-     :r/total-scheduled 143,
-     :r/name-raw "Escola de Condução A Sebastiana",
-     :r/total-done 135,
-     :r/d-rate 0.7353,
-     :r/t-scheduled 73.0,
-     :r/k "a-sebastiana-01400",
-     :r/total-passed 100.0,
-     :r/t-done 67.0}],
-   :imt-profile
-   {:address "Praceta do leigal, n.º 128 freguesia de Freamunde",
-    :name "A Sebastiana",
-    :distrito "Porto",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ASebastiana.aspx",
-    :concelho "Póvoa de Varzim",
-    :nec 1400,
-    :cp7 nil,
-    :id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
-   :geocode
-   {:id #uuid "2d345168-b282-3ff8-bf77-0a3d2414d737",
-    :address "Praceta do leigal, n.º 128 freguesia de Freamunde",
+   {:id #uuid "3d55855f-574c-3bc6-a83d-31fb22ff8040",
+    :address
+    "Rua Comendador Francisco Lima Amorim nº 58, Amorim 4495-137 Póvoa de Varzim",
     :address-c
-    "Praceta de Leigal 128, 4590-384, Freamunde, Paços de Ferreira, Porto",
-    :postal-c "4590-384",
-    :x -8.33390999042146,
-    :y 41.285260017628445,
-    :score 92.37,
+    "Rua Comendador Francisco Lima, 4495-137, Amorim, Póvoa de Varzim, Porto",
+    :postal-c "4495-137",
+    :x -8.742825923899202,
+    :y 41.40582431343227,
+    :score 94.35,
     :c 3}}]
  ["fim-da-linha-01411"
   {:nec 1411,
@@ -881,6 +836,7 @@
    :imt-profile
    {:address "Rua Almirante Reis, n.º 40, 4490-463 Póvoa de Varzim",
     :name "Fim da Linha",
+    :href-id #uuid "180d8fa5-72c9-3c96-812b-756a5f76c426",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FimdaLinha.aspx",
@@ -888,6 +844,8 @@
     :nec 1411,
     :cp7 "4490-463",
     :id #uuid "1e662879-eab9-3387-8e18-d5fb33df8158",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/180d8fa5-fim-da-linha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
    :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Travessa Horácio Queirós, n.º 154 ; 4740-444 Forjães",
   :name "Rio Neiva",
+  :href-id #uuid "2b5f7297-8928-3cee-936c-378ac88a562a",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RioNeiva858.aspx",
@@ -94,12 +95,17 @@
   :nec 1125,
   :cp7 "4740-444",
   :id #uuid "4e156ec9-5711-310a-a6e1-7fa9c996c986",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/esposende/2b5f7297-rio-neiva.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
  :geocode
- {:cp7 "4740-444",
+ {:id #uuid "4e156ec9-5711-310a-a6e1-7fa9c996c986",
+  :address "Travessa Horácio Queirós, n.º 154 ; 4740-444 Forjães",
+  :address-c
+  "Travessa Horácio Queiroz 154, 4740-444, Monte Branco, Esposende, Braga",
   :postal-c "4740-444",
-  :x -8.744645038966382,
-  :y 41.61297499742963,
-  :score 100,
-  :c 1}}
+  :x -8.738793166656006,
+  :y 41.61504276564313,
+  :score 92.38,
+  :c 2}}

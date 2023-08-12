@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Zeca Afonso, n.º 4; 7520-246 Sines",
   :name "Sudoeste",
+  :href-id #uuid "f845a1fc-d95e-386c-8a04-84d11cd5e832",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeCondu%c3%a7aoSudoeste.aspx",
@@ -94,6 +95,8 @@
   :nec 1308,
   :cp7 "7520-246",
   :id #uuid "4db5989c-43be-3f0b-90d5-f298dd8ddaae",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sines/f845a1fc-sudoeste.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sines"},
  :geocode

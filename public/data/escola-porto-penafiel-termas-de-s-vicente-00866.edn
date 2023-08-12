@@ -88,6 +88,7 @@
  {:address
   "Lugar de Aveleda - Edifício Termas de S. Vicente BL 3, Loja M 4575-352 PINHEIRO",
   :name "Termas de S. Vicente",
+  :href-id #uuid "757af06e-6680-30fe-9f7e-43bc1c9932bf",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TermasdeSVicente1003.aspx",
@@ -95,6 +96,8 @@
   :nec 866,
   :cp7 "4575-352",
   :id #uuid "03fbe711-6fe9-3483-b867-fd0830629892",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/757af06e-termas-de-s-vicente.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
  :geocode

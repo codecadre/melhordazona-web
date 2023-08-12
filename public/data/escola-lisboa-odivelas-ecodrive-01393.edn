@@ -60,6 +60,7 @@
  {:address
   "Rua Professora Olga Passos, n.º 1, 2675-639 ODIVELAS, freguesia de Póvoa de Santo Adrião e Olival Basto ",
   :name "Ecodrive",
+  :href-id #uuid "3294707e-ed94-3d99-8a23-2eac27fe58e9",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ecodrive.aspx",
@@ -67,6 +68,8 @@
   :nec 1393,
   :cp7 "2675-639",
   :id #uuid "70ad66c8-a4bc-355a-a1c5-55fa9d953d97",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/3294707e-ecodrive.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
  :geocode

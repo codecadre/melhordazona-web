@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Fernão de Magalhães nº 1851 4350-171 PORTO",
   :name "Estádio",
+  :href-id #uuid "5cb19806-3a27-301e-91ea-a3a2de416c9d",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Estadio414.aspx",
@@ -94,12 +95,16 @@
   :nec 1106,
   :cp7 "4350-171",
   :id #uuid "2928cbe1-9a5b-3839-8b11-4b1f006f5dc2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/5cb19806-estadio.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode
- {:cp7 "4350-171",
+ {:id #uuid "2928cbe1-9a5b-3839-8b11-4b1f006f5dc2",
+  :address "Avª Fernão de Magalhães nº 1851 4350-171 PORTO",
+  :address-c "Avenida de Fernão de Magalhães 1851, 4350-171, Porto",
   :postal-c "4350-171",
-  :x -8.589165009832556,
-  :y 41.16566999869684,
-  :score 100,
-  :c 1}}
+  :x -8.589159980690653,
+  :y 41.16537998484699,
+  :score 91.11,
+  :c 5}}

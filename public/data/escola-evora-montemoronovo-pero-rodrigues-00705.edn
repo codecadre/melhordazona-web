@@ -86,7 +86,9 @@
    :r/t-done 47.0}],
  :imt-profile
  {:address "Rua Tomé Adelino Vidigal, 14 - 7050 - MONTEMOR-O-NOVO",
+  :archived-last-seen-at "2022-05-07T14:52:45Z",
   :name "Pero Rodrigues",
+  :href-id #uuid "80fdf6fc-a57c-33cc-b13c-8328baaf5293",
   :distrito "Évora",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PeroRodrigues787.aspx",
@@ -94,8 +96,12 @@
   :nec 705,
   :cp7 "7050",
   :id #uuid "0f410351-2bb8-3c4d-bbb0-b46261df0759",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/montemor-o-novo/80fdf6fc-pero-rodrigues.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Montemor%20o%20Novo"},
+ :obs "archived and nec and href was reused.",
+ :overwrite/notes nil,
  :geocode
  {:id #uuid "0f410351-2bb8-3c4d-bbb0-b46261df0759",
   :address "Rua Tomé Adelino Vidigal, 14 - 7050 - MONTEMOR-O-NOVO",

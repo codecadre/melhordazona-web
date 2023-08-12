@@ -46,6 +46,7 @@
  {:address
   "Rua Ernesto veiga de Oliveira, n.º 6 Loja B, 2780-052 Oeiras",
   :name "Lombos",
+  :href-id #uuid "722f2195-e802-3719-bd3b-beec7f4ece3a",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lombos.aspx",
@@ -53,6 +54,8 @@
   :nec 1414,
   :cp7 "2780-052",
   :id #uuid "5091f35e-7136-3574-b2e6-4e70d936bb34",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/722f2195-lombos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
  :geocode

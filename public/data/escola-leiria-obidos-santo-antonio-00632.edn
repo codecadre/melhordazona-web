@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Professor Roque Duarte, 13 B, 2510-554 ÓBIDOS",
   :name "Santo António",
+  :href-id #uuid "d851f236-9de1-3ad8-a91b-9dae7f83e278",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantoAntonio941.aspx",
@@ -94,6 +95,8 @@
   :nec 632,
   :cp7 "2510-554",
   :id #uuid "7e61d596-7155-3bb1-be16-2876f55c07ae",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/obidos/d851f236-santo-antonio.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=%C3%93bidos"},
  :geocode

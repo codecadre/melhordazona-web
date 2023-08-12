@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Dr. Moreira de Sousa nº 3997 R/C 4415-386 PEDROSO",
   :name "Estrada Real",
+  :href-id #uuid "669fcff0-3173-30ea-80d3-81fd519410e5",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstradaReal419.aspx",
@@ -94,6 +95,8 @@
   :nec 1109,
   :cp7 "4415-386",
   :id #uuid "5077952b-edf7-3b52-848d-0f71d0250176",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/669fcff0-estrada-real.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. Edgardo Sá Malheiro, Nº 122 4705-267 FERREIROS",
   :name "Zé Ferreira",
+  :href-id #uuid "a720effd-1075-3685-8e9e-c4054fad4ecc",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ZeFerreira1094.aspx",
@@ -94,6 +95,8 @@
   :nec 839,
   :cp7 "4705-267",
   :id #uuid "d123f6fe-c9f3-3ad9-bc25-7af61beb91c6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/a720effd-ze-ferreira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Cidade de S. Salvador nº 17 loja C 2735-651 CACÉM",
   :name "Triângulo Azul",
+  :href-id #uuid "a1efda25-9c3d-3706-ac8b-e9681d7e4d3d",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TrianguloAzul1020.aspx",
@@ -94,6 +95,8 @@
   :nec 971,
   :cp7 "2735-651",
   :id #uuid "96ebf7ec-6dd2-3fc9-b4c5-09a9059fe696",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/a1efda25-triangulo-azul.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

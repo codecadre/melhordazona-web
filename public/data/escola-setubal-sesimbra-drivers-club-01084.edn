@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Luísa Tody, lote 2157 2975-288 QUINTA DO CONDE",
   :name "Driver´s Club",
+  :href-id #uuid "f8eaca6b-c2b6-390f-bd7b-9b019f1be4fc",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Driver%c2%b4sClub397.aspx",
@@ -94,6 +95,8 @@
   :nec 1084,
   :cp7 "2975-288",
   :id #uuid "91f7d46b-25e0-3db0-9cf9-8c49e2fc25c3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/f8eaca6b-driver´s-club.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"},
  :geocode

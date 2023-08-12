@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Capitão Cabral, Nº 6 e 8 3050-345 MEALHADA",
   :name "Saturno, Ldª",
+  :href-id #uuid "3e78abd8-cf83-3b94-8ed9-e57462d6cbb7",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SaturnoLd950.aspx",
@@ -94,6 +95,8 @@
   :nec 559,
   :cp7 "3050-345",
   :id #uuid "2123a0ef-d1ae-33d6-b5f4-1ec98b889d00",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/mealhada/3e78abd8-saturno-lda.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"},
  :geocode

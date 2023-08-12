@@ -88,6 +88,7 @@
  {:address
   "Avª General Humberto Delgado nº 1012 4420-155 GONDOMAR (S: COSME)",
   :name "Projecto 4",
+  :href-id #uuid "c4232c80-9980-34f3-b3d0-15d76e55d9f0",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Projecto4821.aspx",
@@ -95,6 +96,8 @@
   :nec 1051,
   :cp7 "4420-155",
   :id #uuid "f96dd77a-48a5-30fd-9f20-f530dba5d2cb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/c4232c80-projecto-4.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode

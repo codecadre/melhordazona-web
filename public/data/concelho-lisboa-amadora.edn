@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua 1º de Dezembro, Nº 2 –2º Esqº 2700-671 AMADORA",
     :name "Amadora",
+    :href-id #uuid "c7c9bf6a-fe79-3c6f-b37a-4e99d0adf132",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Amadora101.aspx",
@@ -95,15 +96,18 @@
     :nec 237,
     :cp7 "2700-671",
     :id #uuid "18ae75d2-7291-3375-8aa1-061a9e9e982c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/c7c9bf6a-amadora.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
-   {:cp7 "2700-671",
+   {:address "Rua 1º de Dezembro, Nº 2 –2º Esqº 2700-671 AMADORA",
+    :address-c "Rua 1 de Dezembro 2, 2700-671, Amadora, Lisboa",
     :postal-c "2700-671",
-    :x -9.239010023530113,
-    :y 38.758780015054526,
-    :score 100,
-    :c 1}}]
+    :x -9.237749972026,
+    :y 38.759080003369,
+    :score 96.92,
+    :c 2}}]
  ["apolo-00323"
   {:nec 323,
    :rates
@@ -194,6 +198,7 @@
    :imt-profile
    {:address "Avenida Elias Garcia n.º 313 loja A",
     :name "Apolo",
+    :href-id #uuid "8ed5448a-2478-343f-8c31-5544e3d735be",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Apolo113.aspx",
@@ -201,6 +206,8 @@
     :nec 323,
     :cp7 nil,
     :id #uuid "59adedad-a16e-334c-9cbd-093a8e730858",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/8ed5448a-apolo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}]
  ["nova-rota-00455"
@@ -293,6 +300,7 @@
    :imt-profile
    {:address "Rua Fonte dos Passarinhos, nº 7 A 2700-398 AMADORA",
     :name "Nova Rota",
+    :href-id #uuid "0cf25cd0-d150-39fe-ba08-9c2a8f517d27",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaRota717.aspx",
@@ -300,6 +308,8 @@
     :nec 455,
     :cp7 "2700-398",
     :id #uuid "7eb5bbc2-f222-3d73-915c-ed7d9ba813e0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/0cf25cd0-nova-rota.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
@@ -403,6 +413,7 @@
    {:address
     "Praceta Torcato Ferreira, Lote 4 c/v Dtª 2700 -821 AMADORA",
     :name "Restauração",
+    :href-id #uuid "962729e8-153d-3793-a414-c56649fa76ca",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Restauracao844.aspx",
@@ -410,6 +421,8 @@
     :nec 498,
     :cp7 "2700-821",
     :id #uuid "2033fe75-91f1-3e10-9f82-38c725e7f909",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/962729e8-restauracao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
@@ -514,6 +527,7 @@
    {:address
     "Rua Fontes Pereira de Melo, Nº 24-A Damaia 2720 -233 AMADORA",
     :name "Damaia",
+    :href-id #uuid "5b80f9f7-87a8-33ba-ac37-c691a815110c",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Damaia364.aspx",
@@ -521,6 +535,8 @@
     :nec 540,
     :cp7 "2720-233",
     :id #uuid "ccc557e9-823d-3765-997a-78987091537e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/5b80f9f7-damaia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
@@ -625,6 +641,7 @@
    {:address
     "Rua 17 de Setembro, n.º 4, Loja - Casal de S. Brás; 2700-232 Amadora",
     :name "A Rotunda",
+    :href-id #uuid "3497188e-6737-3339-99fe-1ce7acdfbd44",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ARotunda040.aspx",
@@ -632,6 +649,8 @@
     :nec 550,
     :cp7 "2700-232",
     :id #uuid "9c6ddef0-139d-332c-9026-be7cba1be711",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/3497188e-a-rotunda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
@@ -736,6 +755,7 @@
    {:address
     "Rua Sargento Ajudante Manuel António, Nº 11 A 2720-356 AMADORA",
     :name "Cidade Nova",
+    :href-id #uuid "bfaa09d7-ede6-3bdd-8195-ce0767473bbc",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadeNova314.aspx",
@@ -743,6 +763,8 @@
     :nec 603,
     :cp7 "2720-356",
     :id #uuid "6045787b-fb62-33c0-8be0-eec3a67edf28",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/bfaa09d7-cidade-nova.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
@@ -846,6 +868,7 @@
    :imt-profile
    {:address "Rua Manuel Lemos Peixoto, 2 A 2610-110 AMADORA",
     :name "De Alfragide",
+    :href-id #uuid "d64d7310-5dfa-3518-a767-273cf9d14254",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeAlfragide368.aspx",
@@ -853,6 +876,8 @@
     :nec 770,
     :cp7 "2610-110",
     :id #uuid "4c4803a4-eb4c-35b8-ba0a-ca28b6fc657a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/d64d7310-de-alfragide.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
@@ -956,6 +981,7 @@
    {:address
     "Largo Poeta Ary dos Santos, lote 1, 1 B e 1 C 2700-662 AMADORA",
     :name "Colina do Sol",
+    :href-id #uuid "b96cb351-3600-3817-87d3-25f82c94bf9b",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ColinadoSol325.aspx",
@@ -963,6 +989,8 @@
     :nec 791,
     :cp7 "2700-662",
     :id #uuid "d3248ee3-6f52-388d-993e-74b55c20ddeb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/b96cb351-colina-do-sol.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
@@ -1066,6 +1094,7 @@
    :imt-profile
    {:address "Rua D. João de Mascarenhas nº 9 2720-172 AMADORA",
     :name "Semáforo da Damaia",
+    :href-id #uuid "b28b7c07-adce-3242-9111-dd99ea8be049",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SemaforodaDamaia954.aspx",
@@ -1073,6 +1102,8 @@
     :nec 963,
     :cp7 "2720-172",
     :id #uuid "a0ac275a-6df4-3a18-9ecc-6f1ff37dd1cb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/b28b7c07-semaforo-da-damaia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
@@ -1175,6 +1206,7 @@
    :imt-profile
    {:address "Rua Joaquim Tim Tim Sitima, N.º 20 A; 2650-224 Brandoa",
     :name "Eco Brandoa",
+    :href-id #uuid "c0d9b338-2fec-37a7-8bb2-fb2a97e75973",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EcoBrandoa.aspx",
@@ -1182,6 +1214,8 @@
     :nec 1310,
     :cp7 "2650-224",
     :id #uuid "24c4fc92-24d0-3762-8df6-238f8032ba33",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/c0d9b338-eco-brandoa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode
@@ -1229,6 +1263,7 @@
    {:address
     "Rua de Santo António de Lisboa, n.º 20, Loja C, 2650-115 Amadora",
     :name "Volante Dourado",
+    :href-id #uuid "124c0a40-22fa-38ef-b61b-e164aa327e84",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolanteDourado.aspx",
@@ -1236,6 +1271,8 @@
     :nec 1443,
     :cp7 "2650-115",
     :id #uuid "3af627ff-b62c-37ec-8eb8-0f8bada14468",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/124c0a40-volante-dourado.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
    :geocode

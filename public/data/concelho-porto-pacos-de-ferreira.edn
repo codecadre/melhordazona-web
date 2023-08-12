@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Praceta Stª Eulália, Nº 6 4590-530 PAÇOS DE FERREIRA",
     :name "Citânia",
+    :href-id #uuid "b8dd3a3b-e1c7-3f0d-9700-ef9f9b7ff82f",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Citania317.aspx",
@@ -95,6 +96,8 @@
     :nec 546,
     :cp7 "4590-530",
     :id #uuid "a2bbbfde-e140-33f8-a179-5d1ca2307af1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/b8dd3a3b-citania.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
@@ -194,6 +197,7 @@
    :imt-profile
    {:address "Avª do Marco, Nº 127 4595-225 MEIXOMIL",
     :name "Cristo Rei",
+    :href-id #uuid "8e28bf13-c6d5-3e51-a861-673c1b8c365e",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CristoRei349.aspx",
@@ -201,6 +205,8 @@
     :nec 676,
     :cp7 "4595-225",
     :id #uuid "d5fcc173-7e05-3b22-a1e0-2ae3bec4291d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/8e28bf13-cristo-rei.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
@@ -303,6 +309,7 @@
    :imt-profile
    {:address "Rua de Gaia nº 7 4590-336 FREAMUNDE",
     :name "Freamundense",
+    :href-id #uuid "f3fc85dd-e9eb-3c3c-a4b2-895a35d79f73",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Freamundense468.aspx",
@@ -310,6 +317,8 @@
     :nec 856,
     :cp7 "4590-336",
     :id #uuid "74474d32-8813-399f-9be8-8d2b2c286826",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/f3fc85dd-freamundense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
@@ -342,6 +351,7 @@
    :imt-profile
    {:address "Rua do Leigal, 155 4590-384 FREAMUNDE",
     :name "Freamundus",
+    :href-id #uuid "a6622608-ef72-3a77-a56d-a6cfdf93bcd2",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Freamundus469.aspx",
@@ -349,6 +359,8 @@
     :nec 903,
     :cp7 "4590-384",
     :id #uuid "3e7eca21-2db3-37c6-b600-3c74d3a6745d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/a6622608-freamundus.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
@@ -451,6 +463,7 @@
    :imt-profile
    {:address "Rua 25 de Abril, Nº 55 4590-206 FIGUEIRÓ",
     :name "Roda Livre",
+    :href-id #uuid "37e459f1-e9d5-3e48-a17e-5f65f2d27bd0",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RodaLivre862.aspx",
@@ -458,6 +471,8 @@
     :nec 908,
     :cp7 "4590-206",
     :id #uuid "c2f9d91f-32de-3d4a-a1ef-a4d16cfbaa4f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/37e459f1-roda-livre.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
@@ -560,6 +575,7 @@
    :imt-profile
    {:address "Rua de S. Tiago, 774 4590-064 CARVALHOSA",
     :name "Paços Nova",
+    :href-id #uuid "76eb6a97-d071-37b0-bf48-3b2e1fa9febb",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PacosNova764.aspx",
@@ -567,6 +583,8 @@
     :nec 939,
     :cp7 "4590-064",
     :id #uuid "1b5b61ca-bd8a-39f0-9505-02e6787be969",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/76eb6a97-pacos-nova.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
@@ -669,6 +687,7 @@
    :imt-profile
    {:address "Rua do Estádio, Nº 162 R/C 4590-571 FRAZÃO",
     :name "Dois Volantes",
+    :href-id #uuid "6eef27ae-c6fa-3d47-94c8-6699559f64ad",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DoisVolantes393.aspx",
@@ -676,6 +695,8 @@
     :nec 1172,
     :cp7 "4590-571",
     :id #uuid "9916cdc8-9f99-379a-80ae-4d8cabecfd29",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/6eef27ae-dois-volantes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
@@ -751,6 +772,7 @@
    {:address
     "Rua Dr. Queirós Ribeiro, n.º 155, 4590-590 Paços de Ferreira",
     :name "Ferrara",
+    :href-id #uuid "4e377b48-9bfe-349a-8ee9-ccf175e529f0",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ferrara.aspx",
@@ -758,6 +780,8 @@
     :nec 1397,
     :cp7 "4590-590",
     :id #uuid "e772d8d9-9676-3223-ba06-7df2c699695d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/4e377b48-ferrara.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
@@ -771,6 +795,89 @@
     :y 41.27555659641529,
     :score 97.12,
     :c 2}}]
+ ["a-sebastiana-01400"
+  {:nec 1400,
+   :rates
+   [{:r/nec 1400,
+     :r/level-0 "2017",
+     :r/d-scheduled 1,
+     :r/t-rate 1.0,
+     :r/total-rate 1.0,
+     :r/d-done 1,
+     :r/total-scheduled 5,
+     :r/name-raw "Escola De Condução A Sebastiana",
+     :r/total-done 5,
+     :r/d-rate 1.0,
+     :r/t-scheduled 4.0,
+     :r/k "a-sebastiana-01400",
+     :r/total-passed 5.0,
+     :r/t-done 4.0}
+    {:r/nec 1400,
+     :r/level-0 "2018",
+     :r/d-scheduled 79,
+     :r/t-rate 0.7374,
+     :r/total-rate 0.7175,
+     :r/d-done 78,
+     :r/total-scheduled 178,
+     :r/name-raw "Escola De Condução A Sebastiana",
+     :r/total-done 177,
+     :r/d-rate 0.6923,
+     :r/t-scheduled 99.0,
+     :r/k "a-sebastiana-01400",
+     :r/total-passed 127.0,
+     :r/t-done 99.0}
+    {:r/nec 1400,
+     :r/level-0 "2019",
+     :r/d-scheduled 116,
+     :r/t-rate 0.7528,
+     :r/total-rate 0.7586,
+     :r/d-done 114,
+     :r/total-scheduled 205,
+     :r/name-raw "Escola de Condução A Sebastiana",
+     :r/total-done 203,
+     :r/d-rate 0.7632,
+     :r/t-scheduled 89.0,
+     :r/k "a-sebastiana-01400",
+     :r/total-passed 154.0,
+     :r/t-done 89.0}
+    {:r/nec 1400,
+     :r/level-0 "2020",
+     :r/d-scheduled 70,
+     :r/t-rate 0.7463,
+     :r/total-rate 0.7407,
+     :r/d-done 68,
+     :r/total-scheduled 143,
+     :r/name-raw "Escola de Condução A Sebastiana",
+     :r/total-done 135,
+     :r/d-rate 0.7353,
+     :r/t-scheduled 73.0,
+     :r/k "a-sebastiana-01400",
+     :r/total-passed 100.0,
+     :r/t-done 67.0}],
+   :imt-profile
+   {:address "Praceta do leigal, n.º 128 4590-384 Freamunde",
+    :name "A Sebastiana",
+    :href-id #uuid "54622ac3-a07c-3863-a581-a372ed8f7235",
+    :distrito "Porto",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ASebastiana.aspx",
+    :concelho "Paços de Ferreira",
+    :nec 1400,
+    :cp7 "4590-384",
+    :id #uuid "88aec4cc-1c09-3132-99fb-de6d13f1ba31",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/54622ac3-a-sebastiana.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
+   :geocode
+   {:address "Praceta do leigal, n.º 128 4590-384 Freamunde",
+    :address-c
+    "Praceta de Leigal 128, 4590-384, Freamunde, Paços de Ferreira, Porto",
+    :postal-c "4590-384",
+    :x -8.333909990421,
+    :y 41.285260017628,
+    :score 94.47,
+    :c 3}}]
  ["santa-luzia-pacos-de-ferreira-01423"
   {:nec 1423,
    :rates
@@ -805,6 +912,7 @@
    :imt-profile
    {:address "Rua Casal de Rei I, n.º 16, 4590-545 Paços de Ferreira",
     :name "Santa Luzia - Paços de Ferreira",
+    :href-id #uuid "925685ef-c1b1-31e4-b1c3-8aab9a9de97f",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Santa-Luzia-Pa%c3%a7os-Ferreira.aspx",
@@ -812,6 +920,8 @@
     :nec 1423,
     :cp7 "4590-545",
     :id #uuid "2cec90e9-fba9-33a5-ab12-13353431b2f1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/925685ef-santa-luzia-pacos-de-ferreira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
@@ -859,6 +969,7 @@
    {:address
     "Rua Sport Club de Freamunde, n.º208 r/c, 4590-397 Freamunde",
     :name "Ivo’s Driving Academy",
+    :href-id #uuid "414346bc-a21e-3523-bdfa-1a03864e57b3",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ivo%e2%80%99sDrivingAcademy.aspx",
@@ -866,12 +977,18 @@
     :nec 1435,
     :cp7 "4590-397",
     :id #uuid "101d49cd-5e8f-3718-ad0a-dfd5bc93dfb5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/414346bc-ivos-driving-academy.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
    :geocode
-   {:cp7 "4590-397",
+   {:id #uuid "101d49cd-5e8f-3718-ad0a-dfd5bc93dfb5",
+    :address
+    "Rua Sport Club de Freamunde, n.º208 r/c, 4590-397 Freamunde",
+    :address-c
+    "Rua do Sport Clube Freamunde 208, 4590-397, Praina, Paços de Ferreira, Porto",
     :postal-c "4590-397",
-    :x -8.338999984943769,
-    :y 41.277830005287115,
-    :score 100,
+    :x -8.339210035437361,
+    :y 41.277979999444426,
+    :score 92.46,
     :c 1}}]]

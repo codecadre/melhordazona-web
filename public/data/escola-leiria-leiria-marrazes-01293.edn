@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua José Diogo Oliveira Júnior, Lote 4; 2415-423 Leiria",
   :name "Marrazes",
+  :href-id #uuid "7efc74eb-18de-3a50-91ce-507b6ff54d3d",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Marrazes.aspx",
@@ -94,6 +95,8 @@
   :nec 1293,
   :cp7 "2415-423",
   :id #uuid "38e392cf-f794-3969-8544-671f39fb2a67",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/leiria/7efc74eb-marrazes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
  :geocode

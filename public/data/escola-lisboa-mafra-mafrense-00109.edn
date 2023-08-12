@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr.Carlos Galrão, Nº 5 2640-467 MAFRA",
   :name "Mafrense",
+  :href-id #uuid "34959d52-c8da-3ab3-b55c-cad18be614f4",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mafrense619.aspx",
@@ -94,6 +95,8 @@
   :nec 109,
   :cp7 "2640-467",
   :id #uuid "4edac723-4bc7-327b-a45b-6feb8e6734e4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/34959d52-mafrense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
  :geocode

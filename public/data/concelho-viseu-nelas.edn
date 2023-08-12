@@ -89,6 +89,7 @@
    {:address
     "Av. Prof. Dr. Fortunato de Almeida-Edf. do Areal 3520-056 NELAS",
     :name "Nelas",
+    :href-id #uuid "753a4e96-0c9a-364a-8f34-3d3fbc004c53",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nelas688.aspx",
@@ -96,15 +97,21 @@
     :nec 367,
     :cp7 "3520-056",
     :id #uuid "f5b05aa0-1e8d-3e90-aaf7-5c88e76a3fb7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/nelas/753a4e96-nelas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
    :geocode
-   {:cp7 "3520-056",
+   {:id #uuid "f5b05aa0-1e8d-3e90-aaf7-5c88e76a3fb7",
+    :address
+    "Av. Prof. Dr. Fortunato de Almeida-Edf. do Areal 3520-056 NELAS",
+    :address-c
+    "Avenida Prof. Doutor Fortunato de Almeida, 3520-056, Nelas, Viseu",
     :postal-c "3520-056",
-    :x -7.850475007598504,
-    :y 40.53960498913173,
-    :score 100,
-    :c 1}}]
+    :x -7.8518339437162235,
+    :y 40.53955430898248,
+    :score 92.71,
+    :c 2}}]
  ["santarense-00618"
   {:nec 618,
    :rates
@@ -196,6 +203,7 @@
    {:address
     "Urb. das Lameiras, Loja 1 – Rua Drº Eduardo dos Santos 3525-072 CANAS DE SENHORIM",
     :name "Santarense",
+    :href-id #uuid "f199609b-d607-344c-9c9a-b7413f86b099",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Santarense936.aspx",
@@ -203,6 +211,8 @@
     :nec 618,
     :cp7 "3525-072",
     :id #uuid "4a74faa6-e8fb-3c05-aaea-60d04fd6e173",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/nelas/f199609b-santarense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
    :geocode
@@ -246,6 +256,7 @@
    :imt-profile
    {:address "Rua António Joaquim Henriques, n.º 66, 3520-035 Nelas",
     :name "Vitor Arede",
+    :href-id #uuid "b085501f-99f5-36ff-845c-fa72edca840f",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VitorArede.aspx",
@@ -253,12 +264,17 @@
     :nec 1434,
     :cp7 "3520-035",
     :id #uuid "59aa636f-e671-39e6-a2f5-9deb51d0a893",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/nelas/b085501f-vitor-arede.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Nelas"},
    :geocode
-   {:cp7 "3520-035",
+   {:id #uuid "59aa636f-e671-39e6-a2f5-9deb51d0a893",
+    :address "Rua António Joaquim Henriques, n.º 66, 3520-035 Nelas",
+    :address-c
+    "Avenida António Joaquim Henriques 66, 3520-035, Nelas, Viseu",
     :postal-c "3520-035",
-    :x -7.851809993317261,
-    :y 40.5299249806115,
-    :score 100,
+    :x -7.852959990432936,
+    :y 40.52912999900482,
+    :score 94.62,
     :c 1}}]]

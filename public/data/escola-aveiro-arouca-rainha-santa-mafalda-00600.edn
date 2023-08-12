@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. Figueiredo Sobrinho, Nº 11 R/c Esq.º 4540-133 AROUCA",
   :name "Rainha Santa Mafalda",
+  :href-id #uuid "1ef8369b-8f7f-353b-bf10-751810a584fc",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RainhaSantaMafalda836.aspx",
@@ -95,16 +96,17 @@
   :nec 600,
   :cp7 "4540-133",
   :id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/arouca/1ef8369b-rainha-santa-mafalda.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
  :geocode
- {:id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
-  :address
+ {:address
   "Rua Dr. Figueiredo Sobrinho, Nº 11 R/c Esq.º 4540-133 AROUCA",
   :address-c
   "Rua Dr. Figueiredo Sobrinho 11, 4540-133, Arouca, Aveiro",
   :postal-c "4540-133",
-  :x -8.246469976495234,
-  :y 40.930909989835186,
-  :score 97.28,
+  :x -8.246469976495,
+  :y 40.930909989835,
+  :score 98.14,
   :c 1}}

@@ -88,6 +88,7 @@
  {:address
   "Avª Dr. Joaquim Albuquerque lote 1 –r/c- C 2540-004 BOMBARRAL",
   :name "Cordeiro",
+  :href-id #uuid "61eeda3c-ebf2-31b8-a03e-d477b077204c",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cordeiro335.aspx",
@@ -95,6 +96,8 @@
   :nec 573,
   :cp7 "2540-004",
   :id #uuid "b2926ae6-79d4-3408-9381-9a92a15830f1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/bombarral/61eeda3c-cordeiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Bombarral"},
  :geocode

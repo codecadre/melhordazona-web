@@ -1,4 +1,115 @@
-[["estremadura-00392"
+[["azambuja-00233"
+  {:nec 233,
+   :rates
+   [{:r/nec 233,
+     :r/level-0 "2015",
+     :r/d-scheduled 246,
+     :r/t-rate 0.6815,
+     :r/total-rate 0.7327,
+     :r/d-done 242,
+     :r/total-scheduled 507,
+     :r/name-raw "Escola De Condução Azambuja",
+     :r/total-done 490,
+     :r/d-rate 0.7851,
+     :r/t-scheduled 261.0,
+     :r/k "azambuja-00233",
+     :r/total-passed 359.0,
+     :r/t-done 248.0}
+    {:r/nec 233,
+     :r/level-0 "2016",
+     :r/d-scheduled 229,
+     :r/t-rate 0.6796,
+     :r/total-rate 0.7525,
+     :r/d-done 223,
+     :r/total-scheduled 428,
+     :r/name-raw "Escola De Condução Azambuja",
+     :r/total-done 404,
+     :r/d-rate 0.8117,
+     :r/t-scheduled 199.0,
+     :r/k "azambuja-00233",
+     :r/total-passed 304.0,
+     :r/t-done 181.0}
+    {:r/nec 233,
+     :r/level-0 "2017",
+     :r/d-scheduled 207,
+     :r/t-rate 0.6497,
+     :r/total-rate 0.7025,
+     :r/d-done 203,
+     :r/total-scheduled 417,
+     :r/name-raw "Escola De Condução Azambuja",
+     :r/total-done 400,
+     :r/d-rate 0.7537,
+     :r/t-scheduled 210.0,
+     :r/k "azambuja-00233",
+     :r/total-passed 281.0,
+     :r/t-done 197.0}
+    {:r/nec 233,
+     :r/level-0 "2018",
+     :r/d-scheduled 180,
+     :r/t-rate 0.6647,
+     :r/total-rate 0.7564,
+     :r/d-done 176,
+     :r/total-scheduled 372,
+     :r/name-raw "Escola De Condução Azambuja",
+     :r/total-done 349,
+     :r/d-rate 0.8466,
+     :r/t-scheduled 192.0,
+     :r/k "azambuja-00233",
+     :r/total-passed 264.0,
+     :r/t-done 173.0}
+    {:r/nec 233,
+     :r/level-0 "2019",
+     :r/d-scheduled 180,
+     :r/t-rate 0.7516,
+     :r/total-rate 0.7354,
+     :r/d-done 172,
+     :r/total-scheduled 341,
+     :r/name-raw "ESCOLA DE CONDUÇÃO AZAMBUJA",
+     :r/total-done 325,
+     :r/d-rate 0.7209,
+     :r/t-scheduled 161.0,
+     :r/k "azambuja-00233",
+     :r/total-passed 239.0,
+     :r/t-done 153.0}
+    {:r/nec 233,
+     :r/level-0 "2020",
+     :r/d-scheduled 195,
+     :r/t-rate 0.7101,
+     :r/total-rate 0.711,
+     :r/d-done 184,
+     :r/total-scheduled 378,
+     :r/name-raw "ESCOLA DE CONDUÇÃO AZAMBUJA",
+     :r/total-done 353,
+     :r/d-rate 0.712,
+     :r/t-scheduled 183.0,
+     :r/k "azambuja-00233",
+     :r/total-passed 251.0,
+     :r/t-done 169.0}],
+   :imt-profile
+   {:address "Rua Engº Moniz da Maia, Nº 68 Loja 30 2050-356 AZAMBUJA",
+    :name "Azambuja",
+    :href-id #uuid "636d3554-69f6-39d1-9031-4da642718d2b",
+    :distrito "Lisboa",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Azambuja207.aspx",
+    :concelho "Azambuja",
+    :nec 233,
+    :cp7 "2050-356",
+    :id #uuid "4673afd0-c798-3089-9a6b-0dfe354b491c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/azambuja/636d3554-azambuja.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"},
+   :geocode
+   {:id #uuid "4673afd0-c798-3089-9a6b-0dfe354b491c",
+    :address "Rua Engº Moniz da Maia, Nº 68 Loja 30 2050-356 AZAMBUJA",
+    :address-c "Rua Eng. Moniz da Maia 68, 2050-356, Azambuja, Lisboa",
+    :postal-c "2050-356",
+    :x -8.870328795591826,
+    :y 39.06826403592679,
+    :score 98.54,
+    :c 1}}]
+ ["estremadura-00392"
   {:nec 392,
    :rates
    [{:r/nec 392,
@@ -88,6 +199,7 @@
    :imt-profile
    {:address "Largo da República nº 16 –1º 2050-158 AVEIRAS DE CIMA",
     :name "Estremadura",
+    :href-id #uuid "0a5959c7-75ba-38fc-8b21-509de1c926ed",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Estremadura428.aspx",
@@ -95,6 +207,8 @@
     :nec 392,
     :cp7 "2050-158",
     :id #uuid "11f2e166-17f1-3cc9-be32-86f29e92ebe8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/azambuja/0a5959c7-estremadura.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"},
    :geocode
@@ -198,6 +312,7 @@
    {:address
     "Rua Conselheiro Frederico Arouca, n.º 94 R/C ; 2065-016 Alcoentre",
     :name "Granvia",
+    :href-id #uuid "8e19cd3a-32d4-366b-b79e-db47825fc9b8",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Granvia.aspx",
@@ -205,6 +320,8 @@
     :nec 1309,
     :cp7 "2065-016",
     :id #uuid "74a8b556-530a-3c22-983c-a5818a1815dc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/azambuja/8e19cd3a-granvia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Azambuja"},
    :geocode

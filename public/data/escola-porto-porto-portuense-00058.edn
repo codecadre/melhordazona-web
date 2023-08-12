@@ -88,6 +88,7 @@
  {:address
   "Rua Alexandre Herculano n.º 341 1º Fracção E - Sala 3 e 4, 4000-055 Porto",
   :name "Portuense",
+  :href-id #uuid "f252e0cc-a990-3878-b378-de64de509f32",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Portuense806.aspx",
@@ -95,12 +96,17 @@
   :nec 58,
   :cp7 "4000-055",
   :id #uuid "9f016bf4-1d09-354e-a580-ad93f9355f86",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/f252e0cc-portuense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode
- {:cp7 "4000-055",
+ {:id #uuid "9f016bf4-1d09-354e-a580-ad93f9355f86",
+  :address
+  "Rua Alexandre Herculano n.º 341 1º Fracção E - Sala 3 e 4, 4000-055 Porto",
+  :address-c "Rua Alexandre Herculano 341, 4000-055, Porto",
   :postal-c "4000-055",
-  :x -8.605739971904882,
-  :y 41.14421500877674,
-  :score 100,
+  :x -8.60578003740207,
+  :y 41.14423001238342,
+  :score 94.08,
   :c 1}}

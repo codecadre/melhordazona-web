@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua 13 de Janeiro – Palheirinho 8670-130 ALJEZUR",
     :name "Costa Vicentina",
+    :href-id #uuid "f119ec61-d834-3267-80f6-5acbd32a04aa",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostaVicentina.aspx",
@@ -95,12 +96,17 @@
     :nec 453,
     :cp7 "8670-130",
     :id #uuid "d3beb77c-a277-3cec-b876-f0c015c079af",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/aljezur/f119ec61-costa-vicentina.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Aljezur"},
    :geocode
-   {:cp7 "8670-130",
+   {:id #uuid "d3beb77c-a277-3cec-b876-f0c015c079af",
+    :address "Rua 13 de Janeiro – Palheirinho 8670-130 ALJEZUR",
+    :address-c
+    "Rua 13 de Janeiro, 8670-130, Igreja Nova, Aljezur, Faro",
     :postal-c "8670-130",
-    :x -8.794790026170574,
-    :y 37.31588500426891,
-    :score 100,
-    :c 1}}]]
+    :x -8.796903406404073,
+    :y 37.3159458650427,
+    :score 90.13,
+    :c 5}}]]

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Vale Formoso, Nº 280-R/C 4200-509 PORTO",
   :name "Paranhos",
+  :href-id #uuid "5a576e83-c0e1-316a-a83d-6e461a40d211",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Paranhos772.aspx",
@@ -94,6 +95,8 @@
   :nec 1146,
   :cp7 "4200-509",
   :id #uuid "fea1d289-a1a6-38d3-b66b-b4050707a2b5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/5a576e83-paranhos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua Comendador Francisco Lima Amorim nº 58, Amorim 4495-137 Póvoa de Varzim",
   :name "Lobos do Mar",
+  :href-id #uuid "99dc6154-3f2d-3290-91db-f5c14f3b3144",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LobosdoMar601.aspx",
@@ -95,12 +96,18 @@
   :nec 1220,
   :cp7 "4495-137",
   :id #uuid "3d55855f-574c-3bc6-a83d-31fb22ff8040",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/99dc6154-lobos-do-mar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
  :geocode
- {:cp7 "4495-137",
+ {:id #uuid "3d55855f-574c-3bc6-a83d-31fb22ff8040",
+  :address
+  "Rua Comendador Francisco Lima Amorim nº 58, Amorim 4495-137 Póvoa de Varzim",
+  :address-c
+  "Rua Comendador Francisco Lima, 4495-137, Amorim, Póvoa de Varzim, Porto",
   :postal-c "4495-137",
-  :x -8.743569976065118,
-  :y 41.40516498657183,
-  :score 100,
-  :c 1}}
+  :x -8.742825923899202,
+  :y 41.40582431343227,
+  :score 94.35,
+  :c 3}}

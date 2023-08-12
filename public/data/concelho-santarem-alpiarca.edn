@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Silvestre Bernartdo Lima, 16, 2090-144 ALPIARÇA",
     :name "Alpiarça",
+    :href-id #uuid "1e953bfb-024d-37be-90fc-7161f63cb5e9",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alpiarca092.aspx",
@@ -95,6 +96,8 @@
     :nec 435,
     :cp7 "2090-144",
     :id #uuid "d0fcba1f-c5ba-3766-bbcc-acd6179941f0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/alpiarca/1e953bfb-alpiarca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"},
    :geocode
@@ -156,6 +159,7 @@
    {:address
     "Rua de Guilherme Nunes Godinho, Nº 372, Loja 3 2080 ALPIARÇA",
     :name "José Relvas",
+    :href-id #uuid "4272c60f-c4ea-38cf-be5c-b78046dd64fd",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JoseRelvas582.aspx",
@@ -163,6 +167,8 @@
     :nec 625,
     :cp7 "2080",
     :id #uuid "600f2917-3883-3dfd-8b0e-ea8ed552f378",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/alpiarca/4272c60f-jose-relvas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alpiar%C3%A7a"},
    :geocode

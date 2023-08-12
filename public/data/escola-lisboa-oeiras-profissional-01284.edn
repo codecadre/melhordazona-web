@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Macau, n.º 1 e n.º 4, 2730-117 BARCARENA",
   :name "Profissional",
+  :href-id #uuid "01212594-153f-3dee-9748-d1ab4850d687",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Profissional.aspx",
@@ -94,12 +95,15 @@
   :nec 1284,
   :cp7 "2730-117",
   :id #uuid "54e4629c-6a72-390d-8b97-967e5a1d61b8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/01212594-profissional.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
  :geocode
- {:cp7 "2730-117",
+ {:address "Rua de Macau, n.º 1 e n.º 4, 2730-117 BARCARENA",
+  :address-c "Rua de Macau 1, 2730-117, Tercena, Oeiras, Lisboa",
   :postal-c "2730-117",
-  :x -9.281769967303518,
-  :y 38.750484990305495,
-  :score 100,
-  :c 1}}
+  :x -9.281950010584,
+  :y 38.750260020024,
+  :score 90.96,
+  :c 3}}

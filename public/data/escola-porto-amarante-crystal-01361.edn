@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua da Rampa Alta, n.º 502 r/c Esq. 4600-275 Amarante",
   :name "Crystal",
+  :href-id #uuid "eed44b46-a6f6-3728-9a6a-52dd3bee65c9",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Crystal.aspx",
@@ -80,12 +81,16 @@
   :nec 1361,
   :cp7 "4600-275",
   :id #uuid "f761d6b2-e665-39c3-8d14-870eadfc3d0b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/amarante/eed44b46-crystal.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Amarante"},
  :geocode
- {:cp7 "4600-275",
+ {:id #uuid "f761d6b2-e665-39c3-8d14-870eadfc3d0b",
+  :address "Rua da Rampa Alta, n.º 502 r/c Esq. 4600-275 Amarante",
+  :address-c "Rua da Rampa Alta, 4600-275, Amarante, Porto",
   :postal-c "4600-275",
-  :x -8.082760008090531,
-  :y 41.278094999156,
-  :score 100,
-  :c 1}}
+  :x -8.081984434463289,
+  :y 41.27908002283924,
+  :score 91.03,
+  :c 2}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Adelino Arantes nº 22 4700-357 BRAGA (S. VICENTE)",
   :name "Quinta das Fontes",
+  :href-id #uuid "07812447-923e-3fbf-8fd8-41fac143bcb9",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/QuintadasFontes831.aspx",
@@ -94,6 +95,8 @@
   :nec 1054,
   :cp7 "4700-357",
   :id #uuid "f2fca5d2-43ea-319a-b27d-03c57294f105",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/07812447-quinta-das-fontes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

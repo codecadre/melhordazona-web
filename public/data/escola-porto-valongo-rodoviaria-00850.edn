@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. João I, Nº 188 4440-367 SOBRADO",
   :name "Rodoviária",
+  :href-id #uuid "97b7f79f-41c6-32e1-8ba5-da4677903917",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rodoviaria865.aspx",
@@ -94,6 +95,8 @@
   :nec 850,
   :cp7 "4440-367",
   :id #uuid "007ee1c1-0fe3-3c42-a8bb-6b1b4fd20bb3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/valongo/97b7f79f-rodoviaria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
  :geocode

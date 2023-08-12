@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. António Santos, n.º 48, Quintã, 3840-507 VAGOS",
   :name "Moliceiro",
+  :href-id #uuid "9006d4c9-3aaa-3b3f-b1fe-f9c98eaba2e7",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moliceiro.aspx",
@@ -94,6 +95,8 @@
   :nec 1311,
   :cp7 "3840-507",
   :id #uuid "47cde028-caad-3e66-b6c7-6628ac2c8787",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/vagos/9006d4c9-moliceiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vagos"},
  :geocode

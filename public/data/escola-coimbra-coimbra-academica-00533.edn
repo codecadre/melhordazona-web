@@ -88,6 +88,7 @@
  {:address
   "Urbanização da Pedrulha, lote 24 r/c –sala 1 e 2 3020-306 COIMBRA",
   :name "Académica",
+  :href-id #uuid "914ddbdd-dc69-3e9d-b6e6-e5bb12be07f1",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Academica054.aspx",
@@ -95,6 +96,8 @@
   :nec 533,
   :cp7 "3020-306",
   :id #uuid "258b153e-7055-3b77-9ead-3e81162b7826",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/coimbra/914ddbdd-academica.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
  :geocode

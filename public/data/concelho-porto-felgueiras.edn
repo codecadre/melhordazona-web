@@ -88,7 +88,9 @@
    :imt-profile
    {:address
     "Largo Dr. Eduardo de Freitas - Edificio Jradim 4615-623 VILA COVA da LIXA",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Sampaio",
+    :href-id #uuid "69435205-0e03-37c8-a572-751073cc99d0",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sampaio914.aspx",
@@ -96,8 +98,12 @@
     :nec 574,
     :cp7 "4615-623",
     :id #uuid "595ce2ab-5413-375f-869b-afcf48b13bbf",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/69435205-sampaio.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :obs "archived and nec and href was reused.",
+   :overwrite/notes nil,
    :geocode
    {:cp7 "4615-623",
     :postal-c "4615-623",
@@ -195,6 +201,7 @@
    :imt-profile
    {:address "Lugar da Piedade (Longra) 4650-464 SERNANDE",
     :name "De Longra",
+    :href-id #uuid "1fb4df0f-5f2a-3b03-8d0c-ef9a8261d743",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeLongra374.aspx",
@@ -202,6 +209,8 @@
     :nec 698,
     :cp7 "4650-464",
     :id #uuid "cd878394-5004-3c80-9e5d-fd068e44e033",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/1fb4df0f-de-longra.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
    :geocode
@@ -301,6 +310,7 @@
    :imt-profile
    {:address "Lugar de Quintã 4610-270 MARGARIDE(SANTA EULÁLIA)",
     :name "Margaride",
+    :href-id #uuid "56cac322-4586-3ed3-9450-0e0c0cc10e1f",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Margaride009.aspx",
@@ -308,6 +318,8 @@
     :nec 820,
     :cp7 "4610-270",
     :id #uuid "880f6bf7-2b7f-3f9f-8cec-7c6416c3f592",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/56cac322-margaride.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]
  ["quatro-rodas-00849"
@@ -401,6 +413,7 @@
    {:address
     "Rua Dr. Gomes Aciegas, Nº 165 R/C 4610-171 MARGARIDE (SANTA EULÁLIA)",
     :name "Quatro Rodas",
+    :href-id #uuid "de671940-ac62-323c-a50d-0ae5fc1c7422",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/QuatroRodas828.aspx",
@@ -408,15 +421,21 @@
     :nec 849,
     :cp7 "4610-171",
     :id #uuid "7baa8dd9-5ab7-362f-af59-c6840d6fbb05",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/de671940-quatro-rodas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
    :geocode
-   {:cp7 "4610-171",
+   {:id #uuid "7baa8dd9-5ab7-362f-af59-c6840d6fbb05",
+    :address
+    "Rua Dr. Gomes Aciegas, Nº 165 R/C 4610-171 MARGARIDE (SANTA EULÁLIA)",
+    :address-c
+    "Rua Dr. Gomes de Aciegas 165, 4610-171, Felgueiras, Porto",
     :postal-c "4610-171",
-    :x -8.203620011081739,
-    :y 41.35899499122007,
-    :score 100,
-    :c 1}}]
+    :x -8.203757204510826,
+    :y 41.35833599260305,
+    :score 93.14,
+    :c 6}}]
  ["rys-00968"
   {:nec 968,
    :rates
@@ -508,6 +527,7 @@
    {:address
     "Avª da República-Edificio Padroncelos, Fracção D 4615-594 VILA COVA da LIXA",
     :name "R.Y.S",
+    :href-id #uuid "d8871a2b-e769-3944-9e47-7764156c5784",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RYS832.aspx",
@@ -515,6 +535,8 @@
     :nec 968,
     :cp7 "4615-594",
     :id #uuid "8104e8c9-ba40-3c7b-94b9-9d4c9004d80f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/d8871a2b-rys.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
    :geocode
@@ -614,6 +636,7 @@
    :imt-profile
    {:address "Lugar da Cachada 4610-250 MARGARIDE (SANTA EULÁLIA)",
     :name "Valverde",
+    :href-id #uuid "548f6e15-9d66-3637-8813-ee8ba56a9429",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Valverde1037.aspx",
@@ -621,6 +644,8 @@
     :nec 1102,
     :cp7 "4610-250",
     :id #uuid "ba279c39-db1f-32e7-b6ff-e459629825b2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/548f6e15-valverde.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
    :geocode
@@ -630,6 +655,118 @@
     :y 41.37058498401689,
     :score 100,
     :c 1}}]
+ ["o-motorista-01179"
+  {:nec 1179,
+   :rates
+   [{:r/nec 1179,
+     :r/level-0 "2015",
+     :r/d-scheduled 43,
+     :r/t-rate 0.6486,
+     :r/total-rate 0.6375,
+     :r/d-done 43,
+     :r/total-scheduled 80,
+     :r/name-raw "Escola De Condução O Motorista",
+     :r/total-done 80,
+     :r/d-rate 0.6279,
+     :r/t-scheduled 37.0,
+     :r/k "o-motorista-01179",
+     :r/total-passed 51.0,
+     :r/t-done 37.0}
+    {:r/nec 1179,
+     :r/level-0 "2016",
+     :r/d-scheduled 32,
+     :r/t-rate 0.6786,
+     :r/total-rate 0.7018,
+     :r/d-done 29,
+     :r/total-scheduled 62,
+     :r/name-raw "Escola De Condução O Motorista",
+     :r/total-done 57,
+     :r/d-rate 0.7241,
+     :r/t-scheduled 30.0,
+     :r/k "o-motorista-01179",
+     :r/total-passed 40.0,
+     :r/t-done 28.0}
+    {:r/nec 1179,
+     :r/level-0 "2017",
+     :r/d-scheduled 33,
+     :r/t-rate 0.5556,
+     :r/total-rate 0.6377,
+     :r/d-done 33,
+     :r/total-scheduled 72,
+     :r/name-raw "Escola De Condução O Motorista",
+     :r/total-done 69,
+     :r/d-rate 0.7273,
+     :r/t-scheduled 39.0,
+     :r/k "o-motorista-01179",
+     :r/total-passed 44.0,
+     :r/t-done 36.0}
+    {:r/nec 1179,
+     :r/level-0 "2018",
+     :r/d-scheduled 14,
+     :r/t-rate 0.8,
+     :r/total-rate 0.8333,
+     :r/d-done 14,
+     :r/total-scheduled 24,
+     :r/name-raw "Escola De Condução O Motorista",
+     :r/total-done 24,
+     :r/d-rate 0.8571,
+     :r/t-scheduled 10.0,
+     :r/k "o-motorista-01179",
+     :r/total-passed 20.0,
+     :r/t-done 10.0}
+    {:r/nec 1179,
+     :r/level-0 "2019",
+     :r/d-scheduled 51,
+     :r/t-rate 1.0,
+     :r/total-rate 0.9326,
+     :r/d-done 51,
+     :r/total-scheduled 90,
+     :r/name-raw "ESCOLA DE CONDUÇÃO O MOTORISTA",
+     :r/total-done 89,
+     :r/d-rate 0.8824,
+     :r/t-scheduled 39.0,
+     :r/k "o-motorista-01179",
+     :r/total-passed 83.0,
+     :r/t-done 38.0}
+    {:r/nec 1179,
+     :r/level-0 "2020",
+     :r/d-scheduled 44,
+     :r/t-rate 0.9545,
+     :r/total-rate 0.8769,
+     :r/d-done 43,
+     :r/total-scheduled 68,
+     :r/name-raw "ESCOLA DE CONDUÇÃO O MOTORISTA",
+     :r/total-done 65,
+     :r/d-rate 0.8372,
+     :r/t-scheduled 24.0,
+     :r/k "o-motorista-01179",
+     :r/total-passed 57.0,
+     :r/t-done 22.0}],
+   :imt-profile
+   {:address "Praça dos Carvalhinhos n.º 18 4610-112 Felgueiras",
+    :name "O Motorista",
+    :href-id #uuid "33848bc2-c3eb-33b8-9bc0-c2fdf332b437",
+    :distrito "Porto",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OMotorista.aspx",
+    :concelho "Felgueiras",
+    :nec 1179,
+    :cp7 "4610-112",
+    :id #uuid "6ca11c48-7549-3da4-968e-cd6a1cbbf19b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/33848bc2-o-motorista.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
+   :obs "license 1179 is 'Montenegrense' in imt.pt",
+   :overwrite/notes nil,
+   :geocode
+   {:address "Praça dos Carvalhinhos n.º 18 4610-112 Felgueiras",
+    :address-c "Praça dos Carvalhinhos, 4610-112, Felgueiras, Porto",
+    :postal-c "4610-112",
+    :x -8.204111111465,
+    :y 41.369644497306,
+    :score 96.59,
+    :c 2}}]
  ["frclixa-01246"
   {:nec 1246,
    :rates
@@ -720,6 +857,7 @@
    :imt-profile
    {:address "Alto da Lixa 4615-301 BORBA de GODIM",
     :name "FRC-Lixa",
+    :href-id #uuid "8f8719f1-bf1b-30e4-be61-1b73080bcf86",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FRCLixa467.aspx",
@@ -727,11 +865,7 @@
     :nec 1246,
     :cp7 "4615-301",
     :id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/felgueiras/8f8719f1-frc-lixa.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"},
-   :geocode
-   {:id #uuid "664f5ebb-ec9a-3921-8d63-530eb2dd26e0",
-    :overwrite true,
-    :obs "Manual coords",
-    :x -8.140365830925857,
-    :y 41.3155012036505}}]]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Felgueiras"}}]]

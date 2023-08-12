@@ -74,6 +74,7 @@
    :imt-profile
    {:address "Largo Infante Santo, nº 4-1ºEsq 2000 SANTARÉM",
     :name "Ribatejana",
+    :href-id #uuid "a4575859-0b41-33bf-b6b6-b2c8ad79df1b",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ribatejana847.aspx",
@@ -81,6 +82,8 @@
     :nec 23,
     :cp7 "2000",
     :id #uuid "88ad6878-8beb-31a5-8679-a25d4e888e96",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/a4575859-ribatejana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
    :geocode
@@ -182,6 +185,7 @@
    :imt-profile
    {:address "Rua Pedro de Santarém, Nº 130-1º Esqº 2000-223 SANTARÉM",
     :name "Tomé",
+    :href-id #uuid "cc50d146-91cc-36c7-bc1b-085e09a21fc7",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tome1011.aspx",
@@ -189,6 +193,8 @@
     :nec 93,
     :cp7 "2000-223",
     :id #uuid "5af064a6-9b65-3bdc-9367-ea93f60db69c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/cc50d146-tome.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
    :geocode
@@ -291,6 +297,7 @@
    {:address
     "Avª Marquês de Pombal, Lote 117 - Sº Domingos - Junto à rotunda c/a fonte, 2505-170 SANTARÉM",
     :name "Santarém",
+    :href-id #uuid "528b7f2f-1acd-39a0-a4d4-25b97ede45ab",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Santarem935.aspx",
@@ -298,8 +305,119 @@
     :nec 201,
     :cp7 "2505-170",
     :id #uuid "b626d387-0a24-36a7-8471-21946cd2151e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/528b7f2f-santarem.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}]
+ ["chamusca-00448"
+  {:nec 448,
+   :rates
+   [{:r/nec 448,
+     :r/level-0 "2015",
+     :r/d-scheduled 53,
+     :r/t-rate 0.5652,
+     :r/total-rate 0.6803,
+     :r/d-done 53,
+     :r/total-scheduled 123,
+     :r/name-raw "Escola De Condução Chamusca",
+     :r/total-done 122,
+     :r/d-rate 0.8302,
+     :r/t-scheduled 70.0,
+     :r/k "chamusca-00448",
+     :r/total-passed 83.0,
+     :r/t-done 69.0}
+    {:r/nec 448,
+     :r/level-0 "2016",
+     :r/d-scheduled 73,
+     :r/t-rate 0.8158,
+     :r/total-rate 0.8054,
+     :r/d-done 73,
+     :r/total-scheduled 152,
+     :r/name-raw "Escola De Condução Chamusca",
+     :r/total-done 149,
+     :r/d-rate 0.7945,
+     :r/t-scheduled 79.0,
+     :r/k "chamusca-00448",
+     :r/total-passed 120.0,
+     :r/t-done 76.0}
+    {:r/nec 448,
+     :r/level-0 "2017",
+     :r/d-scheduled 67,
+     :r/t-rate 0.8136,
+     :r/total-rate 0.84,
+     :r/d-done 66,
+     :r/total-scheduled 132,
+     :r/name-raw "Escola De Condução Chamusca",
+     :r/total-done 125,
+     :r/d-rate 0.8636,
+     :r/t-scheduled 65.0,
+     :r/k "chamusca-00448",
+     :r/total-passed 105.0,
+     :r/t-done 59.0}
+    {:r/nec 448,
+     :r/level-0 "2018",
+     :r/d-scheduled 69,
+     :r/t-rate 0.7791,
+     :r/total-rate 0.8194,
+     :r/d-done 69,
+     :r/total-scheduled 156,
+     :r/name-raw "Escola De Condução Chamusca",
+     :r/total-done 155,
+     :r/d-rate 0.8696,
+     :r/t-scheduled 87.0,
+     :r/k "chamusca-00448",
+     :r/total-passed 127.0,
+     :r/t-done 86.0}
+    {:r/nec 448,
+     :r/level-0 "2019",
+     :r/d-scheduled 79,
+     :r/t-rate 0.7467,
+     :r/total-rate 0.8255,
+     :r/d-done 74,
+     :r/total-scheduled 158,
+     :r/name-raw "ESCOLA DE CONDUÇÃO CHAMUSCA",
+     :r/total-done 149,
+     :r/d-rate 0.9054,
+     :r/t-scheduled 79.0,
+     :r/k "chamusca-00448",
+     :r/total-passed 123.0,
+     :r/t-done 75.0}
+    {:r/nec 448,
+     :r/level-0 "2020",
+     :r/d-scheduled 67,
+     :r/t-rate 0.7436,
+     :r/total-rate 0.7883,
+     :r/d-done 59,
+     :r/total-scheduled 151,
+     :r/name-raw "ESCOLA DE CONDUÇÃO CHAMUSCA",
+     :r/total-done 137,
+     :r/d-rate 0.8475,
+     :r/t-scheduled 84.0,
+     :r/k "chamusca-00448",
+     :r/total-passed 108.0,
+     :r/t-done 78.0}],
+   :imt-profile
+   {:address "Trav. do Barão de S. Cosme,nº 7 2000-223 SANTARÉM",
+    :name "Chamusca",
+    :href-id #uuid "8ef87a9a-8bd1-3a5c-a9e3-5031109418fe",
+    :distrito "Santarém",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Chamusca307.aspx",
+    :concelho "Santarém",
+    :nec 448,
+    :cp7 "2000-223",
+    :id #uuid "273a3b27-8e5c-3bcc-be10-5c21584f7cce",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/8ef87a9a-chamusca.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+   :geocode
+   {:cp7 "2000-223",
+    :postal-c "2000-223",
+    :x -8.686225017852252,
+    :y 39.231694996930514,
+    :score 100,
+    :c 1}}]
  ["ideal-alcanedense-00949"
   {:nec 949,
    :rates
@@ -334,6 +452,7 @@
    :imt-profile
    {:address "Rua do Comércio nº 9 A 2025-031 ALCANEDE",
     :name "Ideal Alcanedense",
+    :href-id #uuid "2d6c53dd-7f4b-313a-954d-4bff6552c57e",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealAlcanedense510.aspx",
@@ -341,6 +460,8 @@
     :nec 949,
     :cp7 "2025-031",
     :id #uuid "b24bccbc-3fc4-3a53-87d0-0469765aa6fc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/2d6c53dd-ideal-alcanedense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
    :geocode
@@ -442,6 +563,7 @@
    :imt-profile
    {:address "Praceta João Caetano Brás n º 9 2000 SANTARÉM",
     :name "S. Domingos",
+    :href-id #uuid "765b6421-425e-35c2-9f50-798220c0bcc3",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SDomingos883.aspx",
@@ -449,8 +571,19 @@
     :nec 1085,
     :cp7 "2000",
     :id #uuid "08527b9d-2f2d-3e71-b7a2-76263ff020da",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/765b6421-s-domingos.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
+   :geocode
+   {:address "Praceta João Caetano Brás n º 9 2000 SANTARÉM",
+    :address-c
+    "Praceta João Caetano Brás, 2005, São Domingos, Santarém",
+    :postal-c "2005",
+    :x -8.698856006109,
+    :y 39.238214000313,
+    :score 95.41,
+    :c 1}}]
  ["roda-segura-01359"
   {:nec 1359,
    :rates
@@ -526,21 +659,24 @@
      :r/t-done 156.0}],
    :imt-profile
    {:address
-    "Av. Prof Dr. Veríssimo Serrão, n.º 16 (ex lote 8) Loja 3 2005-172 Santarém",
+    "Av. Prof. Drº Francisco da Luz Rebelo Gonçalves, Nº 7 -Traseira Loja -2005-173 Santarém",
     :name "Roda Segura",
+    :href-id #uuid "226216d5-a661-337b-a63c-0dc52563a52a",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RodaSegura.aspx",
     :concelho "Santarém",
     :nec 1359,
-    :cp7 "2005-172",
-    :id #uuid "91935f13-d068-3c26-98e4-54db1f0d4a43",
+    :cp7 "2005-173",
+    :id #uuid "6d760467-29bf-3b3a-9138-e5c1bbb9da77",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/226216d5-roda-segura.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
    :geocode
-   {:cp7 "2005-172",
-    :postal-c "2005-172",
-    :x -8.692710012520052,
-    :y 39.24203499650679,
+   {:cp7 "2005-173",
+    :postal-c "2005-173",
+    :x -8.69130503791,
+    :y 39.242054987346,
     :score 100,
     :c 1}}]]

@@ -88,6 +88,7 @@
  {:address
   "Avenida Centenario da Independência, Nº 18, 7555-101 CERCAL DO ALENTEJO",
   :name "Cercal do Alentejo",
+  :href-id #uuid "08c199a6-4329-3298-8bc9-ee1b84b231a0",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CercaldoAlentejo.aspx",
@@ -95,12 +96,18 @@
   :nec 1088,
   :cp7 "7555-101",
   :id #uuid "31cd77ec-4c68-3dd2-aba3-f2d51bfd4aec",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/santiago-do-cacem/08c199a6-cercal-do-alentejo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Santiago%20do%20Cac%C3%A9m"},
  :geocode
- {:cp7 "7555-101",
+ {:id #uuid "31cd77ec-4c68-3dd2-aba3-f2d51bfd4aec",
+  :address
+  "Avenida Centenario da Independência, Nº 18, 7555-101 CERCAL DO ALENTEJO",
+  :address-c
+  "Rua Centenários da Independêcia 18, 7555-101, Cercal, Santiago do Cacém, Setúbal",
   :postal-c "7555-101",
-  :x -8.674179971532055,
-  :y 37.80041499892269,
-  :score 100,
-  :c 1}}
+  :x -8.673709998221,
+  :y 37.80120000606459,
+  :score 86.05,
+  :c 3}}

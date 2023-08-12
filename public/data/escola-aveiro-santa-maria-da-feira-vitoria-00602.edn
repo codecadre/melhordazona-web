@@ -88,6 +88,7 @@
  {:address
   "Avª Principal nº 1159-Edificio Nacional 1 4535-014 LOUROSA",
   :name "Vitória",
+  :href-id #uuid "a863f020-fa36-3168-b9c5-d892279e87a4",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vitoria1078.aspx",
@@ -95,6 +96,8 @@
   :nec 602,
   :cp7 "4535-014",
   :id #uuid "549aeba9-0357-3a55-85ec-f949c90afbdb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/a863f020-vitoria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

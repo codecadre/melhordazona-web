@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avenida Manuel Xavier, Fracção B - R/C ; 4910-105 Caminha",
   :name "Caminhense",
+  :href-id #uuid "b864444f-f602-3fd0-8df5-517e8fcddc3c",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Caminhense271.aspx",
@@ -94,12 +95,17 @@
   :nec 294,
   :cp7 "4910-105",
   :id #uuid "2232a683-6a0b-3cf6-b2ed-9250d3133c59",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/caminha/b864444f-caminhense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Caminha"},
  :geocode
- {:cp7 "4910-105",
+ {:id #uuid "2232a683-6a0b-3cf6-b2ed-9250d3133c59",
+  :address "Avenida Manuel Xavier, Fracção B - R/C ; 4910-105 Caminha",
+  :address-c
+  "Avenida Manuel Xavier, 4910-105, Caminha, Viana do Castelo",
   :postal-c "4910-105",
-  :x -8.836029995622141,
-  :y 41.87591500667665,
-  :score 100,
+  :x -8.836975753801642,
+  :y 41.87704786484722,
+  :score 91.86,
   :c 1}}

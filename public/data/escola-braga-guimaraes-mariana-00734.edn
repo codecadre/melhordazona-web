@@ -88,6 +88,7 @@
  {:address
   "Urbanização Quinta do Monte, lote 3, Loja 76 4805-158 CALDELAS",
   :name "Mariana",
+  :href-id #uuid "9a8ac7fb-84d4-3c9d-ae44-262968fda681",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mariana629.aspx",
@@ -95,12 +96,17 @@
   :nec 734,
   :cp7 "4805-158",
   :id #uuid "73242be2-47cf-385e-b1a9-5fbbf3472ac4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/9a8ac7fb-mariana.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode
- {:cp7 "4805-158",
-  :postal-c "4805-158",
-  :x -8.344749970522116,
-  :y 41.4916200011464,
-  :score 100,
+ {:id #uuid "73242be2-47cf-385e-b1a9-5fbbf3472ac4",
+  :address
+  "Urbanização Quinta do Monte, lote 3, Loja 76 4805-158 CALDELAS",
+  :address-c "Rua do Monte 3, 4805, Caldelas, Guimarães, Braga",
+  :postal-c "4805",
+  :x -8.350721790140799,
+  :y 41.49339140050589,
+  :score 92.96,
   :c 1}}

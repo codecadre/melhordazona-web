@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Estrada Nacional - Crato 7430-131 CRATO",
     :name "Crato",
+    :href-id #uuid "76237836-753c-3c7f-b14b-e2f240c11d34",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Crato348.aspx",
@@ -95,6 +96,8 @@
     :nec 248,
     :cp7 "7430-131",
     :id #uuid "328aae9b-a2a8-38db-9ff4-9a3d1a669b0c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/crato/76237836-crato.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Crato"},
    :geocode

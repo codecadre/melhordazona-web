@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. Serpa Pinto, n.º 481 - Loja B ; 4450-282 Matosinhos",
   :name "Oficina do Condutor",
+  :href-id #uuid "b5d6c6ca-771c-3db3-8c90-ee716a65e5cd",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OficinadoCondutor.aspx",
@@ -94,12 +95,15 @@
   :nec 457,
   :cp7 "4450-282",
   :id #uuid "d7068da6-89f0-3086-b531-7f214e89881b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/b5d6c6ca-oficina-do-condutor.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode
- {:cp7 "4450-282",
+ {:address "Av. Serpa Pinto, n.º 481 - Loja B ; 4450-282 Matosinhos",
+  :address-c "Avenida Serpa Pinto 481, 4450-282, Matosinhos, Porto",
   :postal-c "4450-282",
-  :x -8.692644968951413,
-  :y 41.18237001876457,
-  :score 100,
+  :x -8.692814881938,
+  :y 41.182446650856,
+  :score 95.58,
   :c 1}}

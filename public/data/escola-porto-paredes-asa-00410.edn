@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo Nuno Álvares Pereira, nº4 4580-170 PAREDES",
   :name "Asa",
+  :href-id #uuid "9c30240d-1137-3b2a-a807-b44f377437e6",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Asa130.aspx",
@@ -94,6 +95,8 @@
   :nec 410,
   :cp7 "4580-170",
   :id #uuid "ead61692-23e8-37dd-8fc5-5832aed24c8f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/9c30240d-asa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :geocode

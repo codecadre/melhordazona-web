@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª da Liberdade, nº 155 –1ºB 2430-229 MARINHA GRANDE",
     :name "Auto Marinhense",
+    :href-id #uuid "7f49c925-6d36-32dc-ae49-536017848513",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoMarinhense164.aspx",
@@ -95,15 +96,20 @@
     :nec 113,
     :cp7 "2430-229",
     :id #uuid "701c10a4-6148-3d9c-b6ed-d1939343f6b5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/marinha-grande/7f49c925-auto-marinhense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
    :geocode
-   {:cp7 "2430-229",
+   {:id #uuid "701c10a4-6148-3d9c-b6ed-d1939343f6b5",
+    :address "Avª da Liberdade, nº 155 –1ºB 2430-229 MARINHA GRANDE",
+    :address-c
+    "Avenida da Liberdade 155, 2430-229, Marinha Grande, Leiria",
     :postal-c "2430-229",
-    :x -8.930090036676319,
-    :y 39.743130020677626,
-    :score 100,
-    :c 1}}]
+    :x -8.93089000551538,
+    :y 39.74564999795783,
+    :score 88.16,
+    :c 13}}]
  ["stop-00413"
   {:nec 413,
    :rates
@@ -195,6 +201,7 @@
    {:address
     "Avª Dr. José Henriques Vareda, Nº 56 2430-308 MARINHA GRANDE",
     :name "Stop",
+    :href-id #uuid "1939c57c-a8e2-3ae8-b6e6-c3a42611961a",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Stop991.aspx",
@@ -202,15 +209,21 @@
     :nec 413,
     :cp7 "2430-308",
     :id #uuid "0c9f95d5-5394-3262-85de-091b651cb36c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/marinha-grande/1939c57c-stop.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
    :geocode
-   {:cp7 "2430-308",
-    :postal-c "2430-308",
-    :x -8.935090009558536,
-    :y 39.7429050084869,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "0c9f95d5-5394-3262-85de-091b651cb36c",
+    :address
+    "Avª Dr. José Henriques Vareda, Nº 56 2430-308 MARINHA GRANDE",
+    :address-c
+    "Avenida Doutor José Henriques Vareda 56, 2430-031, Ordem, Marinha Grande, Leiria",
+    :postal-c "2430-031",
+    :x -8.934799995708659,
+    :y 39.74031998763806,
+    :score 91.37,
+    :c 3}}]
  ["batalhense-da-marinha-grande-00855"
   {:nec 855,
    :rates
@@ -301,6 +314,7 @@
    :imt-profile
    {:address "Rua Alfredo Gândara, n.º 22, 2430-053 MARINHA GRANDE",
     :name "Batalhense da Marinha Grande",
+    :href-id #uuid "f874e897-630b-341e-9f7a-4c7a04e737aa",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BatalhensedaMarinhaGrande226.aspx",
@@ -308,17 +322,18 @@
     :nec 855,
     :cp7 "2430-053",
     :id #uuid "131d0cdd-8526-3a94-8c30-a7ab1a018101",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/marinha-grande/f874e897-batalhense-da-marinha-grande.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
    :geocode
-   {:id #uuid "131d0cdd-8526-3a94-8c30-a7ab1a018101",
-    :address "Rua Alfredo Gândara, n.º 22, 2430-053 MARINHA GRANDE",
+   {:address "Rua Alfredo Gândara, n.º 22, 2430-053 MARINHA GRANDE",
     :address-c
     "Rua Alfredo Gândara 22, 2430-282, Marinha Grande, Leiria",
     :postal-c "2430-282",
-    :x -8.932730000900449,
-    :y 39.75549999147444,
-    :score 95.34,
+    :x -8.9327300009,
+    :y 39.755499991474,
+    :score 95.76,
     :c 1}}]
  ["esteves-da-vieira-01170"
   {:nec 1170,
@@ -411,6 +426,7 @@
    {:address
     "Campo de Futebol Albano Tomé Feteira -Rua de Leiria, S/N 2430-593 VIEIRA DE LEIRIA",
     :name "Esteves da Vieira",
+    :href-id #uuid "c6e8561a-c5fc-3067-9db9-5c22c1f8b09b",
     :distrito "Leiria",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstevesdaVieira416.aspx",
@@ -418,6 +434,8 @@
     :nec 1170,
     :cp7 "2430-593",
     :id #uuid "4c1582b5-b0d2-3a38-9a3d-ef0cf5929a92",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/marinha-grande/c6e8561a-esteves-da-vieira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
    :geocode

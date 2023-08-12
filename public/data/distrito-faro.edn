@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª da República nº 31 8700-308 OLHÃO",
     :name "Olhanense",
+    :href-id #uuid "af5e574a-4336-3032-bb1e-dc6b12f5ebcb",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Olhanense743.aspx",
@@ -95,15 +96,19 @@
     :nec 77,
     :cp7 "8700-308",
     :id #uuid "3d0f6fbb-dc5c-35ec-b9a4-1e497edbbfae",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/af5e574a-olhanense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
    :geocode
-   {:cp7 "8700-308",
+   {:id #uuid "3d0f6fbb-dc5c-35ec-b9a4-1e497edbbfae",
+    :address "Avª da República nº 31 8700-308 OLHÃO",
+    :address-c "Avenida da República 31, 8700-308, Olhão, Faro",
     :postal-c "8700-308",
-    :x -7.839844994172381,
-    :y 37.028220015125456,
-    :score 100,
-    :c 1}}]
+    :x -7.8397999833523215,
+    :y 37.02793000127558,
+    :score 89.32,
+    :c 3}}]
  ["farense-00079"
   {:nec 79,
    :rates
@@ -194,6 +199,7 @@
    :imt-profile
    {:address "Largo de S. Pedro, Nº 8-1º 8000 -145 FARO",
     :name "Farense",
+    :href-id #uuid "9cd20e7d-2609-3f00-88cb-84b11394683e",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Farense444.aspx",
@@ -201,6 +207,8 @@
     :nec 79,
     :cp7 "8000-145",
     :id #uuid "878111f1-7a86-3c84-abe7-632cdb454887",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/9cd20e7d-farense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
    :geocode
@@ -288,6 +296,7 @@
    :imt-profile
    {:address "Rua Conselheiro Bivar, 29 8000-255 FARO",
     :name "António Viegas",
+    :href-id #uuid "54542eee-be10-3a40-963e-f9118adfd85d",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AntonioViegas112.aspx",
@@ -295,6 +304,8 @@
     :nec 80,
     :cp7 "8000-255",
     :id #uuid "55d6802b-912e-3f06-8e09-fa2424319988",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/54542eee-antonio-viegas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
    :geocode
@@ -396,6 +407,7 @@
    :imt-profile
    {:address "Rua Padre António Vieira, Nº 189 8100-611 LOULÉ",
     :name "Louletana",
+    :href-id #uuid "302b0179-94ec-3b76-9186-4ea42b828eb1",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Louletana604.aspx",
@@ -403,6 +415,8 @@
     :nec 111,
     :cp7 "8100-611",
     :id #uuid "82173650-1a46-3ff6-8924-21afc42fe9df",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/302b0179-louletana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
@@ -504,6 +518,7 @@
    :imt-profile
    {:address "Rua Maria Campina, Lote 13 A, 8800-418 TAVIRA",
     :name "Tavirense",
+    :href-id #uuid "3427cc12-5021-3a05-b884-3eba6c53df78",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tavirense995.aspx",
@@ -511,6 +526,8 @@
     :nec 112,
     :cp7 "8800-418",
     :id #uuid "7581c06f-9ff6-3920-9230-57ac94dfbf78",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/tavira/3427cc12-tavirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Tavira"},
    :geocode
@@ -612,6 +629,7 @@
    :imt-profile
    {:address "Largo Gil Eanes, Loja 5 8500-536 PORTIMÃO",
     :name "Portimonense",
+    :href-id #uuid "c589321e-7528-38bb-bd12-e58805e2c632",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Portimonense803.aspx",
@@ -619,6 +637,8 @@
     :nec 133,
     :cp7 "8500-536",
     :id #uuid "9d851331-6285-324e-8d77-1f1eb4d2d4ae",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/c589321e-portimonense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
    :geocode
@@ -721,6 +741,7 @@
    {:address
     "Rua Francisco Xavier Ataíde de Oliveira, Lote 31, Loja D, 8600-775 LAGOS",
     :name "Infante D. Henrique",
+    :href-id #uuid "497bd240-cf30-3a18-8612-d79d8bf38960",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfanteDHenrique524.aspx",
@@ -728,6 +749,8 @@
     :nec 191,
     :cp7 "8600-775",
     :id #uuid "3a051498-3977-3fb0-bf52-adac2f479ab0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/497bd240-infante-d-henrique.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
    :geocode
@@ -831,6 +854,7 @@
    :imt-profile
    {:address "Rua António Enes nº 3 8300-108 SILVES",
     :name "Silvense",
+    :href-id #uuid "cd6d41d6-f5e3-3fde-ba95-81a023c94527",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Silvense972.aspx",
@@ -838,15 +862,18 @@
     :nec 197,
     :cp7 "8300-108",
     :id #uuid "fa74d896-ba86-3fe1-bd45-98ec51735fee",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/cd6d41d6-silvense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
    :geocode
-   {:cp7 "8300-108",
-    :postal-c "8300-108",
-    :x -8.440135944839625,
-    :y 37.18650534152356,
-    :score 100,
-    :c 1}}]
+   {:address "Rua António Enes nº 3 8300-108 SILVES",
+    :address-c "Largo António Enes, 8300-131, Silves, Faro",
+    :postal-c "8300-131",
+    :x -8.440437394164,
+    :y 37.186670882634,
+    :score 88.96,
+    :c 2}}]
  ["infante-sagres-lagoa-00207"
   {:nec 207,
    :rates
@@ -938,6 +965,7 @@
    {:address
     "Largo dos Combatentes da Grande Guerra, Nª 6 8400-338 LAGOA",
     :name "Infante de Sagres - Lagoa",
+    :href-id #uuid "5c275b16-275a-3b85-abbd-ffc96c40cf9d",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresLagoa535.aspx",
@@ -945,6 +973,8 @@
     :nec 207,
     :cp7 "8400-338",
     :id #uuid "2f9f52f9-27bd-3ca8-8d9c-6683799c5c70",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagoa/5c275b16-infante-de-sagres-lagoa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"},
    :geocode
@@ -1049,6 +1079,7 @@
    {:address
     "Urbanização Quinta do Alto, Lote 20, Fracção A Cave Semi-enterrada Direita - 8400-142 ESTOMBAR",
     :name "Calipolense",
+    :href-id #uuid "55aa9a58-f62f-3a72-9d86-3f2ba8177ce8",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaooCalipolense.aspx",
@@ -1056,6 +1087,8 @@
     :nec 249,
     :cp7 "8400-142",
     :id #uuid "893a9595-f658-3aa9-a789-8432e516a8eb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagoa/55aa9a58-calipolense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"}}]
  ["sambrasense-00259"
@@ -1149,6 +1182,7 @@
    {:address
     "R. Dr. José Dias Sancho, 111 8150-141 SÃO BRÁS DE ALPORTEL",
     :name "Sambrasense",
+    :href-id #uuid "67cf8448-5f0c-3758-90fd-0f58d1abc1a5",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sambrasense910.aspx",
@@ -1156,6 +1190,8 @@
     :nec 259,
     :cp7 "8150-141",
     :id #uuid "da91c99a-0066-3ad9-9b6e-0d1a43783cfa",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/sao-bras-de-alportel/67cf8448-sambrasense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=S.%20Braz%20Alportel"},
    :geocode
@@ -1260,6 +1296,7 @@
    {:address
     "Rua da Figueira, Fracção A, Lote L, Caliços, 8200-131 ALBUFEIRA",
     :name "Figueirinha FHR",
+    :href-id #uuid "e502ea18-b3fc-3263-a212-e7452c6fc7b1",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FigueirinhaFHR.aspx",
@@ -1267,15 +1304,20 @@
     :nec 342,
     :cp7 "8200-131",
     :id #uuid "82f34b76-6be9-3808-b082-b9d0319a574f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/e502ea18-figueirinha-fhr.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
-   {:cp7 "8200-131",
+   {:id #uuid "82f34b76-6be9-3808-b082-b9d0319a574f",
+    :address
+    "Rua da Figueira, Fracção A, Lote L, Caliços, 8200-131 ALBUFEIRA",
+    :address-c "Rua da Figueira, 8200-131, Caliços, Albufeira, Faro",
     :postal-c "8200-131",
-    :x -8.247559959184173,
-    :y 37.09719000249039,
-    :score 100,
-    :c 1}}]
+    :x -8.246788550546839,
+    :y 37.09687217765912,
+    :score 90.71,
+    :c 3}}]
  ["penha-00388"
   {:nec 388,
    :rates
@@ -1366,6 +1408,7 @@
    :imt-profile
    {:address "Rua Dr. Arnaldo Vilhena, 27 c/v 8000-317 FARO",
     :name "da Penha",
+    :href-id #uuid "05c0394a-a1f0-35dd-a7b2-9e7e11c5079f",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/daPenha358.aspx",
@@ -1373,6 +1416,8 @@
     :nec 388,
     :cp7 "8000-317",
     :id #uuid "7284cb62-f269-3970-bf66-f6b29d0bf4d6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/05c0394a-da-penha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
    :geocode
@@ -1475,6 +1520,7 @@
    {:address
     "Avª Francisco Sá Carneiro Bloco B r/c 8125-130 QUARTEIRA",
     :name "Auto Quarteirense",
+    :href-id #uuid "dff236c9-fce5-3500-8791-cd1ab2b4fc23",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoQuarteirense171.aspx",
@@ -1482,6 +1528,8 @@
     :nec 418,
     :cp7 "8125-130",
     :id #uuid "6e17212c-d759-3296-8f00-decace85e45e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/dff236c9-auto-quarteirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
@@ -1582,6 +1630,7 @@
    {:address
     "Rua Fernão de Magalhães, lote 16 Fracções D e E 8200 ALBUFEIRA",
     :name "Infante de Sagres –Albufeira",
+    :href-id #uuid "09a94a6d-507d-3d3a-9a76-9839ac75be02",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagres%e2%80%93Albufeira545.aspx",
@@ -1589,6 +1638,8 @@
     :nec 445,
     :cp7 "8200",
     :id #uuid "64d08f67-feea-393e-98ac-cd4bebf284e0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/09a94a6d-infante-de-sagres-albufeira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
@@ -1691,6 +1742,7 @@
    :imt-profile
    {:address "Rua de São Sebastião, Nº 4 8950-121 CASTRO MARIM",
     :name "O. Azul de Castro Marim",
+    :href-id #uuid "5561b603-44bb-3976-9b38-e7befa1a3121",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OAzuldeCastroMarim735.aspx",
@@ -1698,6 +1750,8 @@
     :nec 446,
     :cp7 "8950-121",
     :id #uuid "8d79e7f0-bb22-39fd-a4c5-71db7cc3ede5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/castro-marim/5561b603-o-azul-de-castro-marim.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Castro%20Marim"},
    :geocode
@@ -1790,6 +1844,7 @@
    :imt-profile
    {:address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
     :name "Infante de Sagres - Vila Real de Stº António",
+    :href-id #uuid "d4ccadd9-dfd6-3445-90b2-2b4d282bb1d2",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresVilaRealdeStAntonio544.aspx",
@@ -1797,17 +1852,18 @@
     :nec 447,
     :cp7 "8900",
     :id #uuid "076f5935-fa1e-3139-91ca-dbc4ad80dfbd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/vila-real-de-santo-antonio/d4ccadd9-infante-de-sagres-vila-real-de-sto-antonio.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
    :geocode
-   {:id #uuid "076f5935-fa1e-3139-91ca-dbc4ad80dfbd",
-    :address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
+   {:address "Rua Teófilo Braga, 85 8900 VILA REAL DE STº ANTÓNIO",
     :address-c
     "Rua Doutor Teófilo Braga 85, 8900-303, Vila Real de Santo António, Faro",
     :postal-c "8900-303",
-    :x -7.419097368803119,
-    :y 37.19405562927124,
-    :score 95.24,
+    :x -7.419097452622,
+    :y 37.194055587362,
+    :score 100,
     :c 1}}]
  ["costa-vicentina-00453"
   {:nec 453,
@@ -1899,6 +1955,7 @@
    :imt-profile
    {:address "Rua 13 de Janeiro – Palheirinho 8670-130 ALJEZUR",
     :name "Costa Vicentina",
+    :href-id #uuid "f119ec61-d834-3267-80f6-5acbd32a04aa",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostaVicentina.aspx",
@@ -1906,15 +1963,20 @@
     :nec 453,
     :cp7 "8670-130",
     :id #uuid "d3beb77c-a277-3cec-b876-f0c015c079af",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/aljezur/f119ec61-costa-vicentina.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Aljezur"},
    :geocode
-   {:cp7 "8670-130",
+   {:id #uuid "d3beb77c-a277-3cec-b876-f0c015c079af",
+    :address "Rua 13 de Janeiro – Palheirinho 8670-130 ALJEZUR",
+    :address-c
+    "Rua 13 de Janeiro, 8670-130, Igreja Nova, Aljezur, Faro",
     :postal-c "8670-130",
-    :x -8.794790026170574,
-    :y 37.31588500426891,
-    :score 100,
-    :c 1}}]
+    :x -8.796903406404073,
+    :y 37.3159458650427,
+    :score 90.13,
+    :c 5}}]
  ["infante-sagres-vila-do-bispo-00477"
   {:nec 477,
    :rates
@@ -2005,6 +2067,7 @@
    :imt-profile
    {:address "Roça da Veiga 8650-387 Sagres",
     :name "Infante de Sagres - Vila do Bispo",
+    :href-id #uuid "78737166-7ba3-34ea-9f35-19a044492be2",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresViladoBispo543.aspx",
@@ -2012,6 +2075,8 @@
     :nec 477,
     :cp7 "8650-387",
     :id #uuid "19e99ac7-aab8-3008-b595-20656668b8e1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/vila-do-bispo/78737166-infante-de-sagres-vila-do-bispo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Vila%20do%20Bispo"},
    :geocode
@@ -2114,22 +2179,28 @@
    :imt-profile
    {:address "Estrada da Senhora da Saúde, n.º 49 ; 8005-147 Faro",
     :name "C.C.S.",
+    :href-id #uuid "5f049898-6977-37e4-a8f9-cde5a235ed88",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SaoCiro947.aspx",
-    :concelho "Alcoutim",
+    :concelho "Faro",
     :nec 508,
     :cp7 "8005-147",
     :id #uuid "3d0e5710-16af-378e-be17-6a4de330f591",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/5f049898-ccs.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Alcoutim"},
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
    :geocode
-   {:cp7 "8005-147",
-    :postal-c "8005-147",
-    :x -7.9399799871910375,
-    :y 37.02639498143755,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "3d0e5710-16af-378e-be17-6a4de330f591",
+    :address "Estrada da Senhora da Saúde, n.º 49 ; 8005-147 Faro",
+    :address-c
+    "Estrada Senhora da Saúde, 8005-500, Mar e Guerra, Faro",
+    :postal-c "8005-500",
+    :x -7.9375679144231635,
+    :y 37.04846518750698,
+    :score 94.89,
+    :c 4}}]
  ["infante-sagresportimao-00509"
   {:nec 509,
    :rates
@@ -2220,6 +2291,7 @@
    :imt-profile
    {:address "Largo 1º de Maio, nº 13 8500-543 PORTIMÃO",
     :name "Infante de Sagres - Portimão I",
+    :href-id #uuid "b6f52732-17bc-3957-907f-c1c232b6955c",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresPortimaoI540.aspx",
@@ -2227,15 +2299,18 @@
     :nec 509,
     :cp7 "8500-543",
     :id #uuid "418cc9c8-d520-31e3-984c-bdc69397b077",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/b6f52732-infante-de-sagres-portimao-i.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
    :geocode
-   {:cp7 "8500-543",
+   {:address "Largo 1º de Maio, nº 13 8500-543 PORTIMÃO",
+    :address-c "Largo 1 de Maio 13, 8500-543, Portimão, Faro",
     :postal-c "8500-543",
-    :x -8.537565008056134,
-    :y 37.136834979586695,
-    :score 100,
-    :c 1}}]
+    :x -8.537789978337,
+    :y 37.137350005627,
+    :score 98.38,
+    :c 5}}]
  ["numerica-00575"
   {:nec 575,
    :rates
@@ -2298,6 +2373,7 @@
    :imt-profile
    {:address "Rua das Violetas Lote G Loja D 8005-200 Faro",
     :name "Escola de Condução Numérica",
+    :href-id #uuid "f31a00ff-c8dc-34b1-b069-1ae62504db79",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresGambelas548.aspx",
@@ -2305,8 +2381,19 @@
     :nec 575,
     :cp7 "8005-200",
     :id #uuid "9bf3840d-a43c-302a-b589-051dca5a4e5f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/f31a00ff-escola-de-conducao-numerica.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+   :geocode
+   {:id #uuid "9bf3840d-a43c-302a-b589-051dca5a4e5f",
+    :address "Rua das Violetas Lote G Loja D 8005-200 Faro",
+    :address-c "Rua das Violetas, 8005-408, Gambelas, Faro",
+    :postal-c "8005-408",
+    :x -7.968714195496956,
+    :y 37.042943264927494,
+    :score 88.58,
+    :c 2}}]
  ["infante-de-sagres-portimao-ii-00584"
   {:nec 584,
    :rates
@@ -2397,6 +2484,7 @@
    :imt-profile
    {:address "Qtª do Amparo, lote 34/35 r/c 8500-547 PORTIMÃO",
     :name "Infante de Sagres - Portimão II",
+    :href-id #uuid "d6def33a-00e0-3275-b4c9-7959876551df",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresPortimaoII541.aspx",
@@ -2404,15 +2492,19 @@
     :nec 584,
     :cp7 "8500-547",
     :id #uuid "4a81bf8e-19a3-316a-858d-6ba6b6dee5de",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/d6def33a-infante-de-sagres-portimao-ii.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
    :geocode
-   {:cp7 "8500-547",
+   {:id #uuid "4a81bf8e-19a3-316a-858d-6ba6b6dee5de",
+    :address "Qtª do Amparo, lote 34/35 r/c 8500-547 PORTIMÃO",
+    :address-c "Praceta Quinta do Amparo 34, 8500-547, Portimão, Faro",
     :postal-c "8500-547",
-    :x -8.539895009500867,
-    :y 37.13166497979856,
-    :score 100,
-    :c 1}}]
+    :x -8.539819991467425,
+    :y 37.131440009517334,
+    :score 92,
+    :c 3}}]
  ["infante-sagres-olhao-00607"
   {:nec 607,
    :rates
@@ -2503,6 +2595,7 @@
    :imt-profile
    {:address "Rua Caminhos de Ferro Bloco B r/c Esqº 8700-425 OLHÃO",
     :name "Infante de Sagres - Olhão",
+    :href-id #uuid "0fa6a6ca-4645-321d-b1d9-118bbbcf3836",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresOlhao539.aspx",
@@ -2510,6 +2603,8 @@
     :nec 607,
     :cp7 "8700-425",
     :id #uuid "94eabd2f-2fd5-381f-a4ac-e89dcba3e188",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/0fa6a6ca-infante-de-sagres-olhao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
    :geocode
@@ -2609,6 +2704,7 @@
    :imt-profile
    {:address "Rua 4 de Outubro,20 r/c 8800-362 TAVIRA",
     :name "Infante de Sagres –Tavira",
+    :href-id #uuid "a5d96c8b-b711-3a8d-ba19-451235ef6097",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagres%e2%80%93Tavira551.aspx",
@@ -2616,6 +2712,8 @@
     :nec 609,
     :cp7 "8800-362",
     :id #uuid "cc6fa89b-8dca-3629-b19d-e59c3ac65add",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/tavira/a5d96c8b-infante-de-sagres-tavira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Tavira"},
    :geocode
@@ -2718,6 +2816,7 @@
    {:address
     "Rua Capitão Salgueiro Maia, Lote 15-Loja A 8600-620 LAGOS",
     :name "Infante de Sagres - Lagos",
+    :href-id #uuid "c123c8f4-235e-3340-97bc-10906b3bccfa",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresLagos536.aspx",
@@ -2725,15 +2824,20 @@
     :nec 636,
     :cp7 "8600-620",
     :id #uuid "24fcbbf2-edde-355c-a1b6-9a134f186e8b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/c123c8f4-infante-de-sagres-lagos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
    :geocode
-   {:cp7 "8600-620",
-    :postal-c "8600-620",
-    :x -8.67516501279323,
-    :y 37.09626501756546,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "24fcbbf2-edde-355c-a1b6-9a134f186e8b",
+    :address
+    "Rua Capitão Salgueiro Maia, Lote 15-Loja A 8600-620 LAGOS",
+    :address-c "Rua Salgueiro Maia 15, 8600, Lagos, Faro",
+    :postal-c "8600",
+    :x -8.67501832729877,
+    :y 37.09646167365638,
+    :score 88.92,
+    :c 2}}]
  ["academia-albufeira-00637"
   {:nec 637,
    :rates
@@ -2825,6 +2929,7 @@
    {:address
     "Sitio da Correeira, Lt 128-A Montechoro 8200-360 ALBUFEIRA",
     :name "Academia Albufeira",
+    :href-id #uuid "55f974f5-e33e-3750-a46e-228f230d478b",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EuropaAlbufeira434.aspx",
@@ -2832,6 +2937,8 @@
     :nec 637,
     :cp7 "8200-360",
     :id #uuid "86a15372-a5ac-3c1a-a0ed-118611586ca3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/55f974f5-academia-albufeira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
@@ -2931,6 +3038,7 @@
    :imt-profile
    {:address "Largo João XXIII, Lote 10, Loja 12 ; 8100-664 Loulé",
     :name "Loulé Trânsito",
+    :href-id #uuid "45b58f99-2eed-39c0-984c-76dcd321d637",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LouleTransito542.aspx",
@@ -2938,6 +3046,8 @@
     :nec 649,
     :cp7 "8100-664",
     :id #uuid "19ca57c2-aa63-3ce1-972d-301d8d8816e3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/45b58f99-loule-transito.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
@@ -3040,6 +3150,7 @@
    {:address
     "Avª de Ceuta - Edifício Nova Avenida loja 5 8125-116 QUARTEIRA",
     :name "Segura",
+    :href-id #uuid "35bf4e52-1c3c-3395-90ba-384bf3bbbb3b",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Segura952.aspx",
@@ -3047,15 +3158,20 @@
     :nec 666,
     :cp7 "8125-116",
     :id #uuid "661c4037-2acb-3221-8648-bf400be0fa96",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/35bf4e52-segura.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
-   {:cp7 "8125-116",
+   {:address
+    "Avª de Ceuta - Edifício Nova Avenida loja 5 8125-116 QUARTEIRA",
+    :address-c
+    "Edifício Ceuta, Avenida de Ceuta, 8125-116, Quarteira, Loulé, Faro",
     :postal-c "8125-116",
-    :x -8.097594970882682,
-    :y 37.07202501458676,
-    :score 100,
-    :c 1}}]
+    :x -8.097179982856,
+    :y 37.072040018193,
+    :score 86.2,
+    :c 5}}]
  ["ria-formosa-00667"
   {:nec 667,
    :rates
@@ -3147,6 +3263,7 @@
    {:address
     "Avª dos Bombeiros Municipais nº 30 lote 3 r/c Esqº 8700 OLHÃO",
     :name "Ria Formosa",
+    :href-id #uuid "eaec8da0-c1ee-3d1b-88b4-f1481615acfc",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RiaFormosa845.aspx",
@@ -3154,18 +3271,10 @@
     :nec 667,
     :cp7 "8700",
     :id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/eaec8da0-ria-formosa.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
-   :geocode
-   {:id #uuid "43b1e9cd-0bf8-327b-bdcb-aca4d602fe23",
-    :address "Avenida dos Bombeiros Municipais n 30 8700 OLHÃO",
-    :address-c
-    "Avenida dos Bombeiros Municipais de Olhão 30, 8700-312, Olhão, Faro",
-    :postal-c "8700-312",
-    :x -7.8468500021132,
-    :y 37.030129999402035,
-    :score 97.61,
-    :c 1}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"}}]
  ["auto-quelfes-00727"
   {:nec 727,
    :rates
@@ -3256,6 +3365,7 @@
    :imt-profile
    {:address "Estrada de Quelfes nº 69 B r/c 8700-218 QUELFES",
     :name "Auto Quelfes",
+    :href-id #uuid "d93769cd-57e3-3803-8f2e-28ef93fc2df5",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoQuelfes172.aspx",
@@ -3263,6 +3373,8 @@
     :nec 727,
     :cp7 "8700-218",
     :id #uuid "6fb5395e-8a7d-3d0e-a9cb-d55fda862ec8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/d93769cd-auto-quelfes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
    :geocode
@@ -3365,6 +3477,7 @@
    {:address
     "Urbanização Amendoeiras, Lote 15, R/C H, 8900-282 VILA REAL de SANTO ANTÓNIO",
     :name "Auto Esperança",
+    :href-id #uuid "8c6be4db-2c50-3803-99cf-91d1af34dc22",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoEsperanca155.aspx",
@@ -3372,6 +3485,8 @@
     :nec 742,
     :cp7 "8900-282",
     :id #uuid "34b5d8d8-b933-3b2a-ab48-b7e83a6aec1f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/vila-real-de-santo-antonio/8c6be4db-auto-esperanca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
    :geocode
@@ -3472,6 +3587,7 @@
    {:address
     "Rua Maria Eugénia Dias Ferreira nº 22 8375-121 S. BARTOLOMEU DE MESSINES",
     :name "F. Guerreiro",
+    :href-id #uuid "0df0e2a2-8967-3688-ab24-7a7698079dcf",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FGuerreiro439.aspx",
@@ -3479,15 +3595,21 @@
     :nec 749,
     :cp7 "8375-121",
     :id #uuid "3ebacb7b-2b49-3e3d-bcea-b3be3f0cc1dd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/0df0e2a2-f-guerreiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
    :geocode
-   {:cp7 "8375-121",
+   {:id #uuid "3ebacb7b-2b49-3e3d-bcea-b3be3f0cc1dd",
+    :address
+    "Rua Maria Eugénia Dias Ferreira nº 22 8375-121 S. BARTOLOMEU DE MESSINES",
+    :address-c
+    "Rua Maria Eugénia Masc. Newtel Dias 22, 8375-121, São Bartolomeu de Messines, Silves, Faro",
     :postal-c "8375-121",
-    :x -8.280439986046616,
-    :y 37.2562299935409,
-    :score 100,
-    :c 1}}]
+    :x -8.281887786875135,
+    :y 37.25597794462443,
+    :score 92.84,
+    :c 5}}]
  ["hl-00757"
   {:nec 757,
    :rates
@@ -3578,6 +3700,7 @@
    :imt-profile
    {:address "Av. 5 de Outubro, nº 90 R/C Esqº 8000-076 FARO",
     :name "H.L.",
+    :href-id #uuid "8ac9525c-4a4a-3c4d-8d82-8e2afd711327",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/HL507.aspx",
@@ -3585,6 +3708,8 @@
     :nec 757,
     :cp7 "8000-076",
     :id #uuid "b86967d7-481c-3b20-82d6-e766a6bc9cdd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/8ac9525c-hl.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
    :geocode
@@ -3687,6 +3812,7 @@
    {:address
     "Urbanização Vila Paraíso, Lote 105, Loja B - Vale Lagar 8500-784 PORTIMÃO",
     :name "A Mourinha",
+    :href-id #uuid "f86ae018-3a8c-38a8-bf2c-5e2e32e9f128",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AMourinha029.aspx",
@@ -3694,6 +3820,8 @@
     :nec 781,
     :cp7 "8500-784",
     :id #uuid "bc79baca-b5b8-3d78-b68a-036d02562856",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/f86ae018-a-mourinha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
    :geocode
@@ -3797,6 +3925,7 @@
    :imt-profile
    {:address "Edifício Central ,Lagoas, Loja L 8200-171 ALBUFEIRA",
     :name "Alfa",
+    :href-id #uuid "3b9dc72a-b77d-3bf7-bae3-a3cb938cc28f",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alfa080.aspx",
@@ -3804,14 +3933,18 @@
     :nec 814,
     :cp7 "8200-171",
     :id #uuid "e4eba7bb-ce5c-3805-ace4-93380fa5f0eb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/3b9dc72a-alfa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
-   {:cp7 "8200-171",
-    :postal-c "8200-171",
-    :x -8.257399978236009,
-    :y 37.08490498228227,
-    :score 100,
+   {:address "Edifício Central ,Lagoas, Loja L 8200-171 ALBUFEIRA",
+    :address-c
+    "Edifício Central, Avenida 12 de Julho, 8200-559, Ferreiras, Albufeira, Faro",
+    :postal-c "8200-559",
+    :x -8.242359994092,
+    :y 37.12655998167,
+    :score 92.57,
     :c 1}}]
  ["infante-de-almancil-00907"
   {:nec 907,
@@ -3903,6 +4036,7 @@
    :imt-profile
    {:address "Rua Duarte Pacheco nº 178 8135-104 ALMANCIL",
     :name "Infante de Almancil",
+    :href-id #uuid "1bb0fff1-298d-30a8-a56f-0e654550077b",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeAlmancil526.aspx",
@@ -3910,14 +4044,19 @@
     :nec 907,
     :cp7 "8135-104",
     :id #uuid "28ca5320-75ac-3af4-811a-83911e12e607",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/1bb0fff1-infante-de-almancil.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
-   {:cp7 "8135-104",
+   {:id #uuid "28ca5320-75ac-3af4-811a-83911e12e607",
+    :address "Rua Duarte Pacheco nº 178 8135-104 ALMANCIL",
+    :address-c
+    "Avenida Duarte Pacheco 178, 8135-104, Almancil, Loulé, Faro",
     :postal-c "8135-104",
-    :x -8.024379968654529,
-    :y 37.08527998863033,
-    :score 100,
+    :x -8.02711003833781,
+    :y 37.085520004427764,
+    :score 93.75,
     :c 1}}]
  ["terceiro-milenio-00943"
   {:nec 943,
@@ -4010,6 +4149,7 @@
    {:address
     "Urbanização S. Sebastião lote 1 Loja A - Quinta da Malata 8500 PORTIMÃO",
     :name "Terceiro Milénio",
+    :href-id #uuid "03ad6a12-83c2-3bb5-aabe-247de17fa9c0",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TerceiroMilenio1002.aspx",
@@ -4017,6 +4157,8 @@
     :nec 943,
     :cp7 "8500",
     :id #uuid "a86c89ea-c5e3-33c2-9451-36fb1c2ef67b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/03ad6a12-terceiro-milenio.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"}}]
  ["cunha-e-ferreira-00957"
@@ -4110,6 +4252,7 @@
    {:address
     "Rua José Prudêncio Vieira, Lote 17 - Loja C 8365-149 ARMAÇÃO DE PERA",
     :name "Cunha e Ferreira",
+    :href-id #uuid "727466fb-d2af-3555-8434-e92855ea3514",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cunha%20e%20Ferreira.aspx",
@@ -4117,6 +4260,8 @@
     :nec 957,
     :cp7 "8365-149",
     :id #uuid "5d682ecf-4e50-3545-be30-632dc5ef1aa4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/727466fb-cunha-e-ferreira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
    :geocode
@@ -4220,6 +4365,7 @@
    :imt-profile
    {:address "Pedra Alçada Lote 7, Loja C 8600-546 LAGOS",
     :name "Novais Unipessoal",
+    :href-id #uuid "7889c2b1-c3a8-3a65-953b-2beebe1d0a68",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaisUnipessoal722.aspx",
@@ -4227,6 +4373,8 @@
     :nec 973,
     :cp7 "8600-546",
     :id #uuid "e63e6220-fb66-3f92-984c-2081f6ba302e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/7889c2b1-novais-unipessoal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
    :geocode
@@ -4329,6 +4477,7 @@
    {:address
     "Urbanização Horta de Algoz, Lote 5 R/C Dtº 8365-062 ALGOZ",
     :name "Do Algoz",
+    :href-id #uuid "2527b010-0ec9-3cf0-9b1b-a1d785476953",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DoAlgoz388.aspx",
@@ -4336,6 +4485,8 @@
     :nec 1009,
     :cp7 "8365-062",
     :id #uuid "f2e1f182-0163-3cfb-97fd-d4241c8a1ed4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/2527b010-do-algoz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
    :geocode
@@ -4435,6 +4586,7 @@
    :imt-profile
    {:address "Rua do Comércio nº 48 - Lj Esq 8135-125 LOULÉ",
     :name "Almancil",
+    :href-id #uuid "4c4fd2f6-40b0-3ddd-9746-f51ab8b9555a",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Almancil086.aspx",
@@ -4442,6 +4594,8 @@
     :nec 1042,
     :cp7 "8135-125",
     :id #uuid "2fa8a5b5-71a3-3627-b2ad-c84c2caff36b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/4c4fd2f6-almancil.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
@@ -4544,6 +4698,7 @@
    {:address
     "Parque das Amoreiras I, Av. 25 de Abril, Lote 10/11 - Edificio Júpiter, Bloco B, Loja D 8000-546 FARO",
     :name "Academia do Volante",
+    :href-id #uuid "c00fa6f6-4dc3-3ebb-a2fd-73c323498cfa",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AcademiadoVolante053.aspx",
@@ -4551,20 +4706,125 @@
     :nec 1050,
     :cp7 "8000-546",
     :id #uuid "999d90d2-1b82-30ae-87ec-7429780aa84b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/c00fa6f6-academia-do-volante.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"}}]
+ ["boliqueime-01081"
+  {:nec 1081,
+   :rates
+   [{:r/nec 1081,
+     :r/level-0 "2015",
+     :r/d-scheduled 94,
+     :r/t-rate 0.6479,
+     :r/total-rate 0.5901,
+     :r/d-done 90,
+     :r/total-scheduled 173,
+     :r/name-raw "Escola De Condução Boliqueime",
+     :r/total-done 161,
+     :r/d-rate 0.5444,
+     :r/t-scheduled 79.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 95.0,
+     :r/t-done 71.0}
+    {:r/nec 1081,
+     :r/level-0 "2016",
+     :r/d-scheduled 76,
+     :r/t-rate 0.6909,
+     :r/total-rate 0.629,
+     :r/d-done 69,
+     :r/total-scheduled 133,
+     :r/name-raw "Escola De Condução Boliqueime",
+     :r/total-done 124,
+     :r/d-rate 0.5797,
+     :r/t-scheduled 57.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 78.0,
+     :r/t-done 55.0}
+    {:r/nec 1081,
+     :r/level-0 "2017",
+     :r/d-scheduled 77,
+     :r/t-rate 0.7358,
+     :r/total-rate 0.6357,
+     :r/d-done 76,
+     :r/total-scheduled 134,
+     :r/name-raw "Escola De Condução Boliqueime",
+     :r/total-done 129,
+     :r/d-rate 0.5658,
+     :r/t-scheduled 57.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 82.0,
+     :r/t-done 53.0}
+    {:r/nec 1081,
+     :r/level-0 "2018",
+     :r/d-scheduled 71,
+     :r/t-rate 0.65,
+     :r/total-rate 0.6875,
+     :r/d-done 68,
+     :r/total-scheduled 136,
+     :r/name-raw "Escola De Condução Boliqueime",
+     :r/total-done 128,
+     :r/d-rate 0.7206,
+     :r/t-scheduled 65.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 88.0,
+     :r/t-done 60.0}
+    {:r/nec 1081,
+     :r/level-0 "2019",
+     :r/d-scheduled 69,
+     :r/t-rate 0.6102,
+     :r/total-rate 0.5738,
+     :r/d-done 63,
+     :r/total-scheduled 133,
+     :r/name-raw "ESCOLA DE CONDUÇÃO BOLIQUEIME",
+     :r/total-done 122,
+     :r/d-rate 0.5397,
+     :r/t-scheduled 64.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 70.0,
+     :r/t-done 59.0}
+    {:r/nec 1081,
+     :r/level-0 "2020",
+     :r/d-scheduled 64,
+     :r/t-rate 0.5111,
+     :r/total-rate 0.5306,
+     :r/d-done 53,
+     :r/total-scheduled 118,
+     :r/name-raw "ESCOLA DE CONDUÇÃO BOLIQUEIME",
+     :r/total-done 98,
+     :r/d-rate 0.5472,
+     :r/t-scheduled 54.0,
+     :r/k "boliqueime-01081",
+     :r/total-passed 52.0,
+     :r/t-done 45.0}],
+   :imt-profile
+   {:address
+    "Estrada Nacional 125, Fonte de Boliqueime, Nº 66, 8100-069 BOLIQUEIME",
+    :name "Boliqueime",
+    :href-id #uuid "ede7f2ed-af02-398f-82d7-06ed12042f62",
+    :distrito "Faro",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Boliqueime.aspx",
+    :concelho "Loulé",
+    :nec 1081,
+    :cp7 "8100-069",
+    :id #uuid "8ca014b5-1108-3368-ae12-16be64246232",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/ede7f2ed-boliqueime.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
+   :obs "duplicate with 1081 is 'Linha de Sintra'",
+   :overwrite/notes nil,
    :geocode
-   {:y 37.030079036750756,
+   {:id #uuid "6e3c4d0f-3263-34f5-b57c-f6cc10e5b93d",
     :address
-    "Parque das Amoreiras I, Av. 25 de Abril, Lote 10/11 8000-546 FARO",
-    :postal-c "8005-102",
-    :obs "manually removed a bit of the address.",
-    :overwrite true,
-    :c 1,
-    :id #uuid "999d90d2-1b82-30ae-87ec-7429780aa84b",
-    :score 94.07,
-    :address-c "Avenida 25 de Abril 10, 8005-102, Faro",
-    :x -7.9303512395930404}}]
+    "Estrada Nacional 125, Fonte de Boliqueime, Nº 66, 8100-069 BOLIQUEIME",
+    :address-c "N125, 8100-069, Fonte de Boliqueime, Loulé, Faro",
+    :postal-c "8100-069",
+    :x -8.150371012319324,
+    :y 37.12831294539989,
+    :score 91.25,
+    :c 8}}]
  ["moncarapachense-01083"
   {:nec 1083,
    :rates
@@ -4655,6 +4915,7 @@
    :imt-profile
    {:address "E N 1330 – Sítio dos Murtais 8700-120 MONCARAPACHO",
     :name "Moncarapachense",
+    :href-id #uuid "e3363f1d-0fb8-3d5a-bf2d-84455c444792",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moncarapachense666.aspx",
@@ -4662,6 +4923,8 @@
     :nec 1083,
     :cp7 "8700-120",
     :id #uuid "f6edce3a-dad7-3762-a74f-c0a145382e06",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/olhao/e3363f1d-moncarapachense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Olh%C3%A3o"},
    :geocode
@@ -4762,6 +5025,7 @@
    {:address
     "Parque Empresarial do Algarve, lote 3 r/c 8400-431 LAGOA",
     :name "Lagoense",
+    :href-id #uuid "a7e2bb68-2e71-339e-8bb8-c18dc8e3a546",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lagoense589.aspx",
@@ -4769,15 +5033,20 @@
     :nec 1086,
     :cp7 "8400-431",
     :id #uuid "3734bb2d-a746-3cb1-975b-23d66bc845e7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagoa/a7e2bb68-lagoense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagoa"},
    :geocode
-   {:cp7 "8400-431",
-    :postal-c "8400-431",
-    :x -8.447158470958072,
-    :y 37.131257325937625,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "3734bb2d-a746-3cb1-975b-23d66bc845e7",
+    :address
+    "Parque Empresarial do Algarve, lote 3 r/c 8400-431 LAGOA",
+    :address-c "Parque Empresarial do Algarve",
+    :postal-c "8400",
+    :x -8.447149999999965,
+    :y 37.130660000000034,
+    :score 90.8,
+    :c 2}}]
  ["a-soberana-de-portimao-01140"
   {:nec 1140,
    :rates
@@ -4869,6 +5138,7 @@
    {:address
     "Urbanização Vila Rosa Lote 16/16 A – Loja D 4 8500 PORTIMÃO",
     :name "A Soberana de Portimão",
+    :href-id #uuid "6341aa12-4fb1-3e4f-b843-d8c4b08253e7",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ASoberanadePortimao041.aspx",
@@ -4876,6 +5146,8 @@
     :nec 1140,
     :cp7 "8500",
     :id #uuid "38af49e3-95e7-35b3-931f-851dbda926ee",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/6341aa12-a-soberana-de-portimao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
    :geocode
@@ -4978,6 +5250,7 @@
    :imt-profile
    {:address "Rua 1º de Dezembro, Nº 30 8500 -001 ALVOR",
     :name "Dalvor",
+    :href-id #uuid "a4024319-bb4b-35ed-b468-ea4de033e1f0",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Dalvor363.aspx",
@@ -4985,6 +5258,8 @@
     :nec 1209,
     :cp7 "8500-001",
     :id #uuid "b13cae0a-036b-3fbc-aa96-ff529dc11e24",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/a4024319-dalvor.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
    :geocode
@@ -5086,6 +5361,7 @@
    :imt-profile
    {:address "Rua Elias Garcia, Nº 20 8000-650 Estói",
     :name "Estói",
+    :href-id #uuid "710d5879-7027-3ddd-ad18-567ab4a15ea2",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Estoi417.aspx",
@@ -5093,6 +5369,8 @@
     :nec 1251,
     :cp7 "8000-650",
     :id #uuid "51abbe54-e570-31a0-860a-e43628715315",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/710d5879-estoi.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
    :geocode
@@ -5195,6 +5473,7 @@
    {:address
     "Rua Camilo Castelo Branco, Nº 60 Edificio Areias do Mar, cave, Parte B, Loja 9 8200-276 Albufeira",
     :name "Areias Mar",
+    :href-id #uuid "0f2e4c41-a6e2-37b1-afe1-a81b9740b4df",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AreiasMar117.aspx",
@@ -5202,15 +5481,21 @@
     :nec 1261,
     :cp7 "8200-276",
     :id #uuid "108770e5-745f-330d-8b4b-f2abf86768e9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/0f2e4c41-areias-mar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
    :geocode
-   {:cp7 "8200-276",
+   {:id #uuid "108770e5-745f-330d-8b4b-f2abf86768e9",
+    :address
+    "Rua Camilo Castelo Branco, Nº 60 Edificio Areias do Mar, cave, Parte B, Loja 9 8200-276 Albufeira",
+    :address-c
+    "Rua Camilo Castelo Branco 60, 8200-276, Forte de São João, Albufeira, Faro",
     :postal-c "8200-276",
-    :x -8.232615025822355,
-    :y 37.09141499693105,
-    :score 100,
-    :c 1}}]
+    :x -8.233480038230056,
+    :y 37.089859986253956,
+    :score 94.96,
+    :c 3}}]
  ["hora-de-ponta-01277"
   {:nec 1277,
    :rates
@@ -5302,6 +5587,7 @@
    {:address
     "Rua Palos de La Frontera, Lote 14, Loja A - 8600-707 LAGOS",
     :name "Hora de Ponta",
+    :href-id #uuid "d44628b2-9002-3b3a-b999-d4c04d85881c",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/HoradePonta.aspx",
@@ -5309,6 +5595,8 @@
     :nec 1277,
     :cp7 "8600-707",
     :id #uuid "6c709059-ec5f-32ca-9f97-5ecd2203561f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/d44628b2-hora-de-ponta.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
    :geocode
@@ -5412,6 +5700,7 @@
    {:address
     "Urbanização Hortas de Santo António,Lote 12, Lj B, 8100-712 LOULÉ",
     :name "Nova de Loulé",
+    :href-id #uuid "e93f56ca-a11f-3e0f-83c3-36d21e52fbbb",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeLoule.aspx",
@@ -5419,6 +5708,8 @@
     :nec 1289,
     :cp7 "8100-712",
     :id #uuid "d5dc9264-bf22-3d59-ada8-452087377a11",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/loule/e93f56ca-nova-de-loule.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Loul%C3%A9"},
    :geocode
@@ -5504,6 +5795,7 @@
    :imt-profile
    {:address "Rua Moto Clube de Faro, lote B 8000-123 Faro ",
     :name "Faro em Movimento",
+    :href-id #uuid "2526f026-e047-3162-983e-4edcb052421c",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FaroemMovimento.aspx",
@@ -5511,14 +5803,18 @@
     :nec 1351,
     :cp7 "8000-123",
     :id #uuid "fdb01b30-9e7b-358c-90f1-7e17304c2057",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/2526f026-faro-em-movimento.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
    :geocode
-   {:cp7 "8000-123",
+   {:id #uuid "fdb01b30-9e7b-358c-90f1-7e17304c2057",
+    :address "Rua Moto Clube de Faro, lote B 8000-123 Faro ",
+    :address-c "Rua Moto Clube de Faro, 8000-123, Faro",
     :postal-c "8000-123",
-    :x -7.9230799749135485,
-    :y 37.023734984464824,
-    :score 100,
+    :x -7.91952925711453,
+    :y 37.02458940133938,
+    :score 94.85,
     :c 1}}]
  ["estrela-do-mar-01358"
   {:nec 1358,
@@ -5596,6 +5892,7 @@
    :imt-profile
    {:address "Rua General Gomes Freire, n.º18, 8000-359 Faro",
     :name "Estrela do Mar",
+    :href-id #uuid "63ef2584-2d7c-3e48-b4a0-e292b6cb1f1b",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladoMar.aspx",
@@ -5603,6 +5900,8 @@
     :nec 1358,
     :cp7 "8000-359",
     :id #uuid "5697ae1c-9b1a-3e46-8ae1-2231e0416061",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/faro/63ef2584-estrela-do-mar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Faro"},
    :geocode
@@ -5688,6 +5987,7 @@
    :imt-profile
    {:address "Av. da Catalunha, lote 7, 8900-401 MONTE GORDO",
     :name "Monte Gordo",
+    :href-id #uuid "fc0c06ac-eb8a-3335-b2ac-c82d123f7531",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MonteGordo.aspx",
@@ -5695,6 +5995,8 @@
     :nec 1395,
     :cp7 "8900-401",
     :id #uuid "65c2c3b9-f50b-313f-89ea-182ef6f38f11",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/vila-real-de-santo-antonio/fc0c06ac-monte-gordo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=V.%20R.%20St%C2%BA%20Ant%C3%B3nio"},
    :geocode

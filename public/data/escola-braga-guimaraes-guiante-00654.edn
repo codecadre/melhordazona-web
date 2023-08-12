@@ -88,6 +88,7 @@
  {:address
   "Rua Padre da Silva Gonçalves nº 206 4805-161 CALDAS das TAIPAS",
   :name "Guiante de Gonçalves e Antunes",
+  :href-id #uuid "cebfcdc5-f1a2-34f4-8040-c39ea4d671da",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GuiantedeGoncalveseAntunes504.aspx",
@@ -95,6 +96,8 @@
   :nec 654,
   :cp7 "4805-161",
   :id #uuid "4599b482-85c9-3d47-96da-bfb3b6047697",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/cebfcdc5-guiante-de-goncalves-e-antunes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª de Covedêlo, Nº 7 R/C Esq 4700-586 CELEIRÓS",
   :name "Celeirós",
+  :href-id #uuid "671b93fc-77e9-3624-a772-d2458929d538",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Celeiros299.aspx",
@@ -94,14 +95,16 @@
   :nec 1210,
   :cp7 "4700-586",
   :id #uuid "f92827bd-c161-315b-a674-179dc87d2b30",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/671b93fc-celeiros.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode
  {:id #uuid "f92827bd-c161-315b-a674-179dc87d2b30",
-  :address "Avenida de Covedêlo, N 7 4700-586 CELEIRÓS",
+  :address "Avª de Covedêlo, Nº 7 R/C Esq 4700-586 CELEIRÓS",
   :address-c "Avenida do Covedêlo 7, 4705-401, Celeirós, Braga",
   :postal-c "4705-401",
   :x -8.452660016926302,
   :y 41.512549990561126,
-  :score 97.94,
+  :score 87.74,
   :c 1}}

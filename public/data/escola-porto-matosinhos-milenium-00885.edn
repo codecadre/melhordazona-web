@@ -88,6 +88,7 @@
  {:address
   "Estrada Exterior da Circunvalação nº 12692 4460-284 SENHORA da HORA",
   :name "Milénium",
+  :href-id #uuid "bf59f9b4-a3cc-3387-a5b7-6e9b7cf8496d",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Milenium646.aspx",
@@ -95,6 +96,8 @@
   :nec 885,
   :cp7 "4460-284",
   :id #uuid "2b9e311d-8e1f-391d-a3d9-67d025d75b72",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/bf59f9b4-milenium.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode

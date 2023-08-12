@@ -88,6 +88,7 @@
  {:address
   "Rua Dr. Joaquim Sotto Mayor, n.º 101, 3080-300 FIGUEIRA DA FOZ",
   :name "Abadias",
+  :href-id #uuid "f2bafa9c-92d4-3ecd-8d57-e69324d9a423",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Abadias047.aspx",
@@ -95,12 +96,18 @@
   :nec 673,
   :cp7 "3080-300",
   :id #uuid "519e7f07-28fb-39b2-b206-be2e61d7dd6e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/f2bafa9c-abadias.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
  :geocode
- {:cp7 "3080-300",
-  :postal-c "3080-300",
-  :x -8.862770026951466,
-  :y 40.157734993918666,
-  :score 100,
-  :c 1}}
+ {:id #uuid "519e7f07-28fb-39b2-b206-be2e61d7dd6e",
+  :address
+  "Rua Dr. Joaquim Sotto Mayor, n.º 101, 3080-300 FIGUEIRA DA FOZ",
+  :address-c
+  "Rua Joaquim Sottomayor 101, 3080-209, Figueira da Foz, Coimbra",
+  :postal-c "3080-209",
+  :x -8.861420037626033,
+  :y 40.16091999139681,
+  :score 89.73,
+  :c 2}}

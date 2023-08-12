@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua de S. Miguel, Nº 7-1 B 6000-181 CASTELO BRANCO",
     :name "Albicastrense",
+    :href-id #uuid "7c9f0a15-9319-39b2-8561-ea76a064ea05",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Albicastrense071.aspx",
@@ -95,6 +96,8 @@
     :nec 101,
     :cp7 "6000-181",
     :id #uuid "316b40e1-0463-3f4b-abf3-bdd62560bc0a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/7c9f0a15-albicastrense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Estrada S. Domingos, Nº 64 R/c 6005-010 ALCAINS",
     :name "Alcains",
+    :href-id #uuid "2914c746-34e5-39f7-9926-4b0300fcb161",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alcains074.aspx",
@@ -203,6 +207,8 @@
     :nec 456,
     :cp7 "6005-010",
     :id #uuid "a4cb6702-9df2-3957-a07e-270901486da5",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/2914c746-alcains.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -305,6 +311,7 @@
    :imt-profile
    {:address "Avª 1º de Maio, 49- 5/L Dtº 6000-086 CASTELO BRANCO",
     :name "Técnica do Volante",
+    :href-id #uuid "519fb107-db1c-31e4-9a88-d6b2e4588edf",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TecnicadoVolante997.aspx",
@@ -312,6 +319,8 @@
     :nec 496,
     :cp7 "6000-086",
     :id #uuid "57f9fe91-c303-3b2a-bbe8-cd64cd0c861b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/519fb107-tecnica-do-volante.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -414,6 +423,7 @@
    {:address
     "Rua Afonso de Paiva, n.º 33 - Cave, 6000-076 CASTELO BRANCO",
     :name "Nova Técnica",
+    :href-id #uuid "ae3ea269-5018-32b5-859b-3ac071c03a8b",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaTecnica718.aspx",
@@ -421,15 +431,19 @@
     :nec 743,
     :cp7 "6000-076",
     :id #uuid "1c7e0104-91e1-3470-bfcb-f0ee8b4693b2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/ae3ea269-nova-tecnica.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
-   {:cp7 "6000-076",
+   {:address
+    "Rua Afonso de Paiva, n.º 33 - Cave, 6000-076 CASTELO BRANCO",
+    :address-c "Avenida Afonso Paiva 33, 6000-076, Castelo Branco",
     :postal-c "6000-076",
-    :x -7.49981004162683,
-    :y 39.81947000595716,
-    :score 100,
-    :c 1}}]
+    :x -7.500310022151,
+    :y 39.819980002856,
+    :score 93.44,
+    :c 2}}]
  ["castelo-branco-00879"
   {:nec 879,
    :rates
@@ -521,6 +535,7 @@
    {:address
     "Quinta do Amieiro de Baixo, lote 1 A – nº 6 6000-129 CASTELO BRANCO",
     :name "Castelo Branco",
+    :href-id #uuid "a4572566-2c33-316b-b62f-8f447a4bf7ce",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CasteloBranco294.aspx",
@@ -528,6 +543,8 @@
     :nec 879,
     :cp7 "6000-129",
     :id #uuid "5cf1d626-e4bf-3a70-8c97-69113b7aabb4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/a4572566-castelo-branco.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -632,6 +649,7 @@
    {:address
     "Rua Dr. Victor Santos Pinto, Lote 131 B ; 6000-478 Castelo Branco",
     :name "Granja Parque",
+    :href-id #uuid "fcd5a62a-6875-35bc-acc5-8ceabe1a0bbc",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Granja%20Parque.aspx",
@@ -639,6 +657,8 @@
     :nec 1233,
     :cp7 "6000-478",
     :id #uuid "939cca9e-7d29-32b6-b0a5-c061920266e8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/fcd5a62a-granja-parque.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode
@@ -687,6 +707,7 @@
    {:address
     "Avenida da Carapalha, Lote 65, n.º 45 r/c Dtº 6000-129 CASTELO BRANCO",
     :name "Carapalha",
+    :href-id #uuid "a8271bb9-40a8-3dd1-b17d-508cc99e614a",
     :distrito "Castelo Branco",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaoCarapalha.aspx",
@@ -694,6 +715,8 @@
     :nec 1420,
     :cp7 "6000-129",
     :id #uuid "49fb784a-9341-39ef-9823-0c7bee9ea578",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/a8271bb9-carapalha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
    :geocode

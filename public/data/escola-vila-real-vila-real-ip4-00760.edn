@@ -18,6 +18,7 @@
  {:address
   "Avª Cidade de Orense, lote 3, loja 41 5000-674 VILA REAL (S. DINIS)",
   :name "IP4",
+  :href-id #uuid "82a75865-d113-3442-b28a-0b08bfb4e059",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EC-Condu%c3%a7%c3%a3o-IP4.aspx",
@@ -25,6 +26,8 @@
   :nec 760,
   :cp7 "5000-674",
   :id #uuid "c01b2431-9092-3c31-be8c-5f76e1be8336",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/82a75865-ip4.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
  :geocode

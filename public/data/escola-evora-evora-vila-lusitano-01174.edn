@@ -88,6 +88,7 @@
  {:address
   "Rua Sebastião do Couto, Nº 1-A vila Lusitano 7005-610 ÉVORA",
   :name "Vila Lusitano",
+  :href-id #uuid "dc081dc5-6299-3566-855f-76316df5ce39",
   :distrito "Évora",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VilaLusitano1066.aspx",
@@ -95,6 +96,8 @@
   :nec 1174,
   :cp7 "7005-610",
   :id #uuid "21df166e-9b40-38e5-827f-59b7046245e7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/evora/dc081dc5-vila-lusitano.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
  :geocode

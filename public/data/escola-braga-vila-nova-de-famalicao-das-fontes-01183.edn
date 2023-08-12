@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua das Fontes, Nº 462 4770-252 JOANE",
   :name "Das Fontes",
+  :href-id #uuid "046801ba-5b26-3c7b-8bb6-d3daac17bcb6",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DasFontes367.aspx",
@@ -94,12 +95,17 @@
   :nec 1183,
   :cp7 "4770-252",
   :id #uuid "dbb28617-061e-3d35-96b7-7a865adeb1a0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-nova-de-famalicao/046801ba-das-fontes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Nova%20Famalic%C3%A3o"},
  :geocode
- {:cp7 "4770-252",
+ {:id #uuid "dbb28617-061e-3d35-96b7-7a865adeb1a0",
+  :address "Rua das Fontes, Nº 462 4770-252 JOANE",
+  :address-c
+  "Rua das Pontes 462, 4770-252, Bairros-Joane, Vila Nova de Famalicão, Braga",
   :postal-c "4770-252",
-  :x -8.425214983720906,
-  :y 41.43748501848313,
-  :score 100,
-  :c 1}}
+  :x -8.426879964967668,
+  :y 41.436869996337634,
+  :score 86.1,
+  :c 8}}

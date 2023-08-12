@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua João Ortigão Ramos n º 1 –1ºEsq 1500-361 LISBOA",
   :name "Benficartas",
+  :href-id #uuid "c4910c5b-56db-3272-a314-df36917a5d76",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Benficartas244.aspx",
@@ -94,12 +95,15 @@
   :nec 405,
   :cp7 "1500-361",
   :id #uuid "7aea9218-3cab-3ce5-ba7b-92f351729b3e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/c4910c5b-benficartas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode
- {:cp7 "1500-361",
+ {:address "Rua João Ortigão Ramos n º 1 –1ºEsq 1500-361 LISBOA",
+  :address-c "Rua João Ortigão Ramos 1, 1500-361, Lisboa",
   :postal-c "1500-361",
-  :x -9.201385001280045,
-  :y 38.756630014980516,
-  :score 100,
+  :x -9.201109991037,
+  :y 38.756669996659,
+  :score 94.97,
   :c 1}}

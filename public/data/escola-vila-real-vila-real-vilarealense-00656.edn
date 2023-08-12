@@ -88,6 +88,7 @@
  {:address
   "Rua de Santo António – Entrada B (Pioledo) 5000-607 VILA REAL (S. PEDRO)",
   :name "Vilarealense",
+  :href-id #uuid "b090db9c-641c-31ad-bafb-688e69772ea9",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vilarealense1071.aspx",
@@ -95,12 +96,17 @@
   :nec 656,
   :cp7 "5000-607",
   :id #uuid "4b254680-477d-392f-9889-cce340d42504",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/b090db9c-vilarealense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"},
  :geocode
- {:cp7 "5000-607",
+ {:id #uuid "4b254680-477d-392f-9889-cce340d42504",
+  :address
+  "Rua de Santo António – Entrada B (Pioledo) 5000-607 VILA REAL (S. PEDRO)",
+  :address-c "Rua de Santo António, 5000-607, Vila Real",
   :postal-c "5000-607",
-  :x -7.742784986152685,
-  :y 41.30246500545297,
-  :score 100,
-  :c 1}}
+  :x -7.742369914307432,
+  :y 41.304030053459115,
+  :score 86.13,
+  :c 8}}

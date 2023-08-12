@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Casal do Marco, Nº 73 C e 73 D, 2840-732 SEIXAL",
   :name "Rio Sul",
+  :href-id #uuid "d7b61b23-aa00-3288-9f47-ef9f72eaee8d",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rio%20Sul.aspx",
@@ -94,6 +95,8 @@
   :nec 1236,
   :cp7 "2840-732",
   :id #uuid "84744ece-ecab-32be-badc-9bce5e9532f6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/d7b61b23-rio-sul.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
  :geocode

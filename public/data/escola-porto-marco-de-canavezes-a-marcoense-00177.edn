@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Manuel Pereira Soares 4630-296 FORNOS",
   :name "Marcoense",
+  :href-id #uuid "a72d99f6-d94c-3969-8b54-9d6fecece378",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Marcoense625.aspx",
@@ -94,6 +95,8 @@
   :nec 177,
   :cp7 "4630-296",
   :id #uuid "927174ef-105d-3335-afd2-7335e0cd19ea",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/a72d99f6-marcoense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avenida Elias Garcia n.º 313 loja A",
   :name "Apolo",
+  :href-id #uuid "8ed5448a-2478-343f-8c31-5544e3d735be",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Apolo113.aspx",
@@ -94,5 +95,7 @@
   :nec 323,
   :cp7 nil,
   :id #uuid "59adedad-a16e-334c-9cbd-093a8e730858",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/8ed5448a-apolo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"}}

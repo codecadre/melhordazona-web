@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua dos Celeiros, nº 11 7780-160 CASTO VERDE",
   :name "Ana Paula",
+  :href-id #uuid "7ee9ab3c-d1b4-35f0-88fb-28a9ce9d1bb1",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AnaPaula105.aspx",
@@ -94,6 +95,8 @@
   :nec 327,
   :cp7 "7780-160",
   :id #uuid "fc920c81-cc8c-348d-93b8-be9adb3c5ceb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/castro-verde/7ee9ab3c-ana-paula.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Castro%20Verde"},
  :geocode

@@ -89,6 +89,7 @@
    {:address
     "Rua Dr. Fortunado Vieira das Neves, Loja 11 - Edf.Centro Comercial Jardim 3420-325 TÁBUA",
     :name "Automóvel de Tábua",
+    :href-id #uuid "f2d7406d-125a-3eb4-8091-5d2fd86f5051",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomoveldeTabua200.aspx",
@@ -96,14 +97,20 @@
     :nec 355,
     :cp7 "3420-325",
     :id #uuid "7e23686f-4695-3651-bcf4-30816bfed0a4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/tabua/f2d7406d-automovel-de-tabua.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
    :geocode
-   {:cp7 "3420-325",
-    :postal-c "3420-325",
-    :x -8.029929962023118,
-    :y 40.359544987026396,
-    :score 100,
+   {:id #uuid "7e23686f-4695-3651-bcf4-30816bfed0a4",
+    :address
+    "Rua Dr. Fortunado Vieira das Neves, Loja 11 - Edf.Centro Comercial Jardim 3420-325 TÁBUA",
+    :address-c
+    "Rua Doutor Fortunato Vieira das Neves 11, 3420-324, Tábua, Coimbra",
+    :postal-c "3420-324",
+    :x -8.026950027806208,
+    :y 40.35735001804184,
+    :score 94.15,
     :c 1}}]
  ["nossa-senhora-de-fatima-00959"
   {:nec 959,
@@ -196,6 +203,7 @@
    {:address
     "Avª Dr. Castanheira Figueiredo, Bloco 2 r/c 3420-301 TÁBUA",
     :name "Nossa Senhora de Fátima",
+    :href-id #uuid "328ac9ce-4bd5-3035-ac62-e355120bb6df",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NossaSenhoradeFatima698.aspx",
@@ -203,15 +211,90 @@
     :nec 959,
     :cp7 "3420-301",
     :id #uuid "9928bd7d-4423-3446-84fb-e23bdb2e5c2d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/tabua/328ac9ce-nossa-senhora-de-fatima.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
    :geocode
-   {:cp7 "3420-301",
-    :postal-c "3420-301",
-    :x -8.026434959856061,
-    :y 40.36207498068086,
-    :score 100,
+   {:address
+    "Avª Dr. Castanheira Figueiredo, Bloco 2 r/c 3420-301 TÁBUA",
+    :address-c
+    "Avenida Castanheira Figueiredo 2, 3420-302, Tábua, Coimbra",
+    :postal-c "3420-302",
+    :x -8.025450002414,
+    :y 40.361410002392,
+    :score 95.91,
     :c 1}}]
+ ["arede-01415"
+  {:nec 1415,
+   :rates
+   [{:r/nec 1415,
+     :r/level-0 "2018",
+     :r/d-scheduled 20,
+     :r/t-rate 0.7333,
+     :r/total-rate 0.74,
+     :r/d-done 20,
+     :r/total-scheduled 50,
+     :r/name-raw "Escola De Condução Arede",
+     :r/total-done 50,
+     :r/d-rate 0.75,
+     :r/t-scheduled 30.0,
+     :r/k "arede-01415",
+     :r/total-passed 37.0,
+     :r/t-done 30.0}
+    {:r/nec 1415,
+     :r/level-0 "2019",
+     :r/d-scheduled 47,
+     :r/t-rate 0.6863,
+     :r/total-rate 0.6837,
+     :r/d-done 47,
+     :r/total-scheduled 99,
+     :r/name-raw "Escola de Condução Arede",
+     :r/total-done 98,
+     :r/d-rate 0.6809,
+     :r/t-scheduled 52.0,
+     :r/k "arede-01415",
+     :r/total-passed 67.0,
+     :r/t-done 51.0}
+    {:r/nec 1415,
+     :r/level-0 "2020",
+     :r/d-scheduled 61,
+     :r/t-rate 0.7879,
+     :r/total-rate 0.7241,
+     :r/d-done 54,
+     :r/total-scheduled 94,
+     :r/name-raw "Escola de Condução Arede",
+     :r/total-done 87,
+     :r/d-rate 0.6852,
+     :r/t-scheduled 33.0,
+     :r/k "arede-01415",
+     :r/total-passed 63.0,
+     :r/t-done 33.0}],
+   :imt-profile
+   {:address
+    "Edifício Milénio, Rua da Indústria/Avenida de Coimbra, n.º 3, 3420-314 Tábua",
+    :name "Arede",
+    :href-id #uuid "e21a9cab-c572-38ed-8013-3673ba522cd0",
+    :distrito "Coimbra",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arede.aspx",
+    :concelho "Tábua",
+    :nec 1415,
+    :cp7 "3420-314",
+    :id #uuid "9cff1b95-2cb5-3d32-90c5-82e1672ad19f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/tabua/e21a9cab-arede.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
+   :geocode
+   {:address
+    "Edifício Milénio, Rua da Indústria/Avenida de Coimbra, n.º 3, 3420-314 Tábua",
+    :address-c "Avenida de Coimbra 3, 3420-341, Tábua, Coimbra",
+    :postal-c "3420-341",
+    :x -8.021440016116,
+    :y 40.362950009463,
+    :score 89.08,
+    :c 3}}]
  ["irmaos-goncalves-01448"
   {:nec 1448,
    :rates
@@ -233,6 +316,7 @@
    {:address
     "Rua José dos Santos Gonçalves, Edifício Santo António, Loja 18 C, 3420-330 Tábua",
     :name "Irmãos Gonçalves",
+    :href-id #uuid "e761a04b-0281-3dbb-90e5-4e8c58658788",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IrmaosGoncalves.aspx",
@@ -240,6 +324,8 @@
     :nec 1448,
     :cp7 "3420-330",
     :id #uuid "bfb25e49-e4d6-3b23-9c92-9350c0a59e83",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/tabua/e761a04b-irmaos-goncalves.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=T%C3%A1bua"},
    :geocode

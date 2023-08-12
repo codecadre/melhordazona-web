@@ -88,6 +88,7 @@
  {:address
   "Rua Pedro Costa, n.ºs 1290,1290A,1290B e Rua das Quintinhas, n.º 2, 2820-185 CHARNECA DA CAPARICA",
   :name "Charneca",
+  :href-id #uuid "50e525d2-465a-3522-aa46-d0b671f9027b",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Charneca.aspx",
@@ -95,12 +96,18 @@
   :nec 1285,
   :cp7 "2820-185",
   :id #uuid "49c78c0f-a279-33c2-bf98-a5baea589f35",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/50e525d2-charneca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
  :geocode
- {:cp7 "2820-185",
+ {:id #uuid "49c78c0f-a279-33c2-bf98-a5baea589f35",
+  :address
+  "Rua Pedro Costa, n.ºs 1290,1290A,1290B e Rua das Quintinhas, n.º 2, 2820-185 CHARNECA DA CAPARICA",
+  :address-c
+  "Rua de Pedro Costa 1290, 2820-185, Poço Novo, Almada, Setúbal",
   :postal-c "2820-185",
-  :x -9.187205000402031,
-  :y 38.6056200129006,
-  :score 100,
-  :c 1}}
+  :x -9.18636404205076,
+  :y 38.603572712468804,
+  :score 87.44,
+  :c 42}}

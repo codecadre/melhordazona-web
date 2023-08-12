@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Amadeu Castanheira Bloco 1 Loja D 3060-318 FEBRES",
   :name "Moleiro, Amaro e Oliveira",
+  :href-id #uuid "0446b539-87e3-3556-9326-8571b5c1bef8",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MoleiroAmaroeOliveira664.aspx",
@@ -94,6 +95,8 @@
   :nec 1017,
   :cp7 "3060-318",
   :id #uuid "6e6330ce-f76a-3718-a446-9166f448b7da",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/cantanhede/0446b539-moleiro-amaro-e-oliveira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Cantanhede"},
  :geocode

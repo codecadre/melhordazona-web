@@ -88,6 +88,7 @@
  {:address
   "Rua da Columbofilia –Edifício S. Sebastião - Fracção A 4905-353 BARROSELAS",
   :name "Volante do Neiva",
+  :href-id #uuid "461e1454-c91e-3ae0-9656-0b3642b8c300",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolantedoNeiva1086.aspx",
@@ -95,6 +96,8 @@
   :nec 674,
   :cp7 "4905-353",
   :id #uuid "a28707f8-5251-3ca6-adc6-e60d0d180d05",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/461e1454-volante-do-neiva.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
  :geocode

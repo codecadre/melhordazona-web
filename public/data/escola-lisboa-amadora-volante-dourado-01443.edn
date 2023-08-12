@@ -32,6 +32,7 @@
  {:address
   "Rua de Santo António de Lisboa, n.º 20, Loja C, 2650-115 Amadora",
   :name "Volante Dourado",
+  :href-id #uuid "124c0a40-22fa-38ef-b61b-e164aa327e84",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolanteDourado.aspx",
@@ -39,6 +40,8 @@
   :nec 1443,
   :cp7 "2650-115",
   :id #uuid "3af627ff-b62c-37ec-8eb8-0f8bada14468",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/amadora/124c0a40-volante-dourado.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Amadora"},
  :geocode

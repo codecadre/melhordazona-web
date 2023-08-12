@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua D. Vasco Magalhães, Lote 2 R/C 4660-055 CÁRQUERE",
   :name "Max",
+  :href-id #uuid "06c513d6-252a-393b-b458-ad70b4535e83",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Max635.aspx",
@@ -94,6 +95,8 @@
   :nec 1264,
   :cp7 "4660-055",
   :id #uuid "4e40a3c4-a3f0-3290-8483-52342222a6f5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/resende/06c513d6-max.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Resende"},
  :geocode

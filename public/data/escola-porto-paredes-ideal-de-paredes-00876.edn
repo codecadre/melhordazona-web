@@ -88,6 +88,7 @@
  {:address
   "Rua D. Rosalina Guimarães nº 125 4580-195 CASTELÕES de CEPEDA",
   :name "Ideal de Paredes",
+  :href-id #uuid "d494f8f5-b4a9-3896-8354-08bfc244a0a8",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealdeParedes517.aspx",
@@ -95,12 +96,17 @@
   :nec 876,
   :cp7 "4580-195",
   :id #uuid "604d04cf-f6cb-39cc-a544-f01da11840c1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/d494f8f5-ideal-de-paredes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :geocode
- {:cp7 "4580-195",
+ {:address
+  "Rua D. Rosalina Guimarães nº 125 4580-195 CASTELÕES de CEPEDA",
+  :address-c
+  "Rua Doutora Rosalina Guimarães 125, 4580-195, Paredes, Porto",
   :postal-c "4580-195",
-  :x -8.329655001093471,
-  :y 41.20440499447491,
-  :score 100,
+  :x -8.330873601836,
+  :y 41.203152481241,
+  :score 94.34,
   :c 1}}

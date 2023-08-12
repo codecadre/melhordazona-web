@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. Francisco Xavier Araújo 4840-100 MOIMENTA",
   :name "Gerês",
+  :href-id #uuid "e1713cad-7f1a-3001-8371-eba73917da5d",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Geres485.aspx",
@@ -94,6 +95,8 @@
   :nec 829,
   :cp7 "4840-100",
   :id #uuid "333cd72f-eac1-3e92-bb57-694aa34be572",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/terras-de-bouro/e1713cad-geres.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Terras%20Bouro"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Estrada Nacional, Nº 10, Quinta da Bolonha, Lote 3B C/V Esq 2625-215 PÓVOA DE STª IRIA",
   :name "Coimbra da Póvoa de Santa Iria",
+  :href-id #uuid "7977ddf4-a7e7-3f28-bea4-1169f47e7e3e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CoimbradaPovoa321.aspx",
@@ -95,6 +96,8 @@
   :nec 889,
   :cp7 "2625-215",
   :id #uuid "84e30016-7dd8-3adb-80df-24b76ae65c26",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/vila-franca-de-xira/7977ddf4-coimbra-da-povoa-de-santa-iria.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
  :geocode

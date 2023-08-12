@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de São João Batista, n.º 960; 4805-676 Brito",
   :name "Britense",
+  :href-id #uuid "fbb60518-be2c-3e0e-a371-2f803cc41185",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Britense267.aspx",
@@ -94,12 +95,17 @@
   :nec 1071,
   :cp7 "4805-676",
   :id #uuid "01481a0a-c6f5-3e70-a719-a9986423a4d9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/fbb60518-britense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode
- {:cp7 "4805-676",
+ {:id #uuid "01481a0a-c6f5-3e70-a719-a9986423a4d9",
+  :address "Rua de São João Batista, n.º 960; 4805-676 Brito",
+  :address-c
+  "Rua de São João Baptista 960, 4805-676, Brito, Guimarães, Braga",
   :postal-c "4805-676",
-  :x -8.364070005884429,
-  :y 41.45278500926344,
-  :score 100,
-  :c 1}}
+  :x -8.367099218073891,
+  :y 41.453156315127934,
+  :score 93.55,
+  :c 16}}

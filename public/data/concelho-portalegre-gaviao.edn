@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Avª José Marcelino lote 4 1º Dtº 6040-100 GAVIÃO",
     :name "Gavião",
+    :href-id #uuid "7afb917f-cfa4-3116-8dc0-35ee158633a7",
     :distrito "Portalegre",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Gaviao483.aspx",
@@ -95,6 +96,8 @@
     :nec 601,
     :cp7 "6040-100",
     :id #uuid "a944ca6c-7a38-376f-8c6e-002750f00bf4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/portalegre/gaviao/7afb917f-gaviao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Portalegre&Concelho=Gavi%C3%A3o"},
    :geocode

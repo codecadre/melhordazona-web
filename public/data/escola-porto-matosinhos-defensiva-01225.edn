@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Fonte Velha, Nº 1252 R/C 4460-732 CUSTÓIAS MTS",
   :name "Defensiva",
+  :href-id #uuid "a8671aa1-05b3-3c00-9306-cec260b73e7a",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Defensiva381.aspx",
@@ -94,6 +95,8 @@
   :nec 1225,
   :cp7 "4460-732",
   :id #uuid "eb943b75-fb4e-39f2-b2dd-539a4a103e0d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/a8671aa1-defensiva.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode

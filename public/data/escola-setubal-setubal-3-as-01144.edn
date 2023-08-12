@@ -88,6 +88,7 @@
  {:address
   "Rua Fernando Motrena, Lote 1 R/C Dt, Loja A/C-Manteigadas 2910-238 SETÚBAL",
   :name "3 Ás",
+  :href-id #uuid "592b007e-202c-3642-a736-3d4c07710581",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/3As001.aspx",
@@ -95,6 +96,8 @@
   :nec 1144,
   :cp7 "2910-238",
   :id #uuid "309f9d74-e9a1-3d79-be85-12caf00509da",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/592b007e-3-as.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
  :geocode

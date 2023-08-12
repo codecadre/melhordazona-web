@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avenida S. Salvador, Lote 5, R/C Dt.º ; 6200-638 Teixoso",
   :name "Teixoso",
+  :href-id #uuid "a514f30d-8279-3598-ad29-dece6cfb7daa",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Teixoso1000.aspx",
@@ -94,6 +95,8 @@
   :nec 1036,
   :cp7 "6200-638",
   :id #uuid "85a95d13-0e5c-3ee8-81a6-da44c2bf8c6b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/a514f30d-teixoso.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
  :geocode

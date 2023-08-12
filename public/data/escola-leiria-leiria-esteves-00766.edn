@@ -88,6 +88,7 @@
  {:address
   "Rua António Alves Espirito Santo,Lote 1, Loja 92 2415-440 LEIRIA",
   :name "Esteves",
+  :href-id #uuid "f856c634-3e37-3f29-bbe0-c090ccffdea2",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Esteves415.aspx",
@@ -95,6 +96,8 @@
   :nec 766,
   :cp7 "2415-440",
   :id #uuid "2ee3f490-87c0-3035-938f-65c7d88e60b7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/leiria/f856c634-esteves.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
  :geocode

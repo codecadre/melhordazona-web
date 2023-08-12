@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lama Boa-Granja 5070-000 ALIJÓ",
   :name "Belita",
+  :href-id #uuid "cd8c17a5-42f9-3f4a-8f32-990287c4f3aa",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Belita239.aspx",
@@ -94,5 +95,16 @@
   :nec 732,
   :cp7 "5070-000",
   :id #uuid "8e6f4e4e-b11b-311f-b2de-fcd8a0b78d7a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/alijo/cd8c17a5-belita.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Alij%C3%B3"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Alij%C3%B3"},
+ :geocode
+ {:id #uuid "8e6f4e4e-b11b-311f-b2de-fcd8a0b78d7a",
+  :address "Lama Boa-Granja 5070-000 ALIJÓ",
+  :address-c "5070-082, Granja, Alijó, Vila Real",
+  :postal-c "5070-082",
+  :x -7.481201177390939,
+  :y 41.26635081526155,
+  :score 87.62,
+  :c 14}}

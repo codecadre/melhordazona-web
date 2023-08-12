@@ -95,6 +95,7 @@
    {:address
     "Rua Mouzinho de Albuquerque, 32 7200-390 REGUENGOS DE MONSARAZ",
     :name "Automobilística D. Nuno Álvares Pereira",
+    :href-id #uuid "5164b656-b220-3cea-87b7-1d0da6e88718",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomobilisticaDNunoAlvaresPereira187.aspx",
@@ -102,6 +103,8 @@
     :nec 229,
     :cp7 "7200-390",
     :id #uuid "c1f6c863-735a-30ad-902d-67e31249e130",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/reguengos-de-monsaraz/5164b656-automobilistica-d-nuno-alvares-pereira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"},
    :geocode
@@ -205,6 +208,7 @@
    :imt-profile
    {:address "Rua de Mourão, Nº 31-A 7200-291 REGUENGOS DE MONSARAZ",
     :name "Ferreira e Honrado",
+    :href-id #uuid "e179074b-9302-3cef-b61b-41f33fb1eb2d",
     :distrito "Évora",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FerreiraeHonrado452.aspx",
@@ -212,6 +216,8 @@
     :nec 1156,
     :cp7 "7200-291",
     :id #uuid "334a4964-18ec-3fb8-99c8-21230206d002",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/reguengos-de-monsaraz/e179074b-ferreira-e-honrado.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Reguengos%20Monsaraz"},
    :geocode

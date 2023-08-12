@@ -88,6 +88,7 @@
  {:address
   "Rua Casimiro Neto da Silva, n.º 304, R/C, 4580-191 CRISTELO PRD",
   :name "Bruno Neves",
+  :href-id #uuid "5ba2029d-1aaa-3ef2-a2e7-0a67a9e2256a",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BrunoNeves.aspx",
@@ -95,12 +96,18 @@
   :nec 1325,
   :cp7 "4580-191",
   :id #uuid "29ffd1e7-2e7a-3861-b0f0-42a7821273d4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/5ba2029d-bruno-neves.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
  :geocode
- {:cp7 "4580-191",
+ {:id #uuid "29ffd1e7-2e7a-3861-b0f0-42a7821273d4",
+  :address
+  "Rua Casimiro Neto da Silva, n.º 304, R/C, 4580-191 CRISTELO PRD",
+  :address-c
+  "Rua Casimiro Neto da Silva, 4580-191, Perletieiro, Paredes, Porto",
   :postal-c "4580-191",
-  :x -8.358510038051065,
-  :y 41.233335007556406,
-  :score 100,
+  :x -8.359489924441789,
+  :y 41.2329550349307,
+  :score 89.34,
   :c 1}}

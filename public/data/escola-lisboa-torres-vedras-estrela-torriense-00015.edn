@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 5 de Outubro, Nº 2– 1º 2560-270 TORRES VEDRAS",
   :name "Estrela Torriense",
+  :href-id #uuid "efcc45fb-cf8d-3dad-871a-14f9e9e16391",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstrelaTorriense427.aspx",
@@ -94,12 +95,16 @@
   :nec 15,
   :cp7 "2560-270",
   :id #uuid "4edab0dc-ed0c-3bed-9a94-abb3d07f0ef4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/torres-vedras/efcc45fb-estrela-torriense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Torres%20Vedras"},
  :geocode
- {:cp7 "2560-270",
+ {:id #uuid "4edab0dc-ed0c-3bed-9a94-abb3d07f0ef4",
+  :address "Avª 5 de Outubro, Nº 2– 1º 2560-270 TORRES VEDRAS",
+  :address-c "Avenida 5 de Outubro 2, 2560-270, Torres Vedras, Lisboa",
   :postal-c "2560-270",
-  :x -9.256819975216331,
-  :y 39.09178498158781,
-  :score 100,
-  :c 1}}
+  :x -9.255509967569026,
+  :y 39.092350005680856,
+  :score 88.24,
+  :c 3}}

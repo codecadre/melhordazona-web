@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua dos Castelos, 23 – 1º 4250-117 PORTO",
   :name "Carvalhido",
+  :href-id #uuid "753e4714-c627-343b-b3a3-7387eebb6636",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carvalhido292.aspx",
@@ -94,6 +95,8 @@
   :nec 42,
   :cp7 "4250-117",
   :id #uuid "2900b077-b0c7-36e9-931f-c5e9ee370d7b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/753e4714-carvalhido.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

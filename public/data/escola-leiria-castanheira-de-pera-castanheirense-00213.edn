@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª S. Domingos,Nº 51-1º 3280-013 CASTANHEIRA de PERA",
   :name "Castanheirense",
+  :href-id #uuid "d8380063-a599-357a-aa57-2b596e7ca01b",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Castanheirense293.aspx",
@@ -94,6 +95,8 @@
   :nec 213,
   :cp7 "3280-013",
   :id #uuid "b9d779e0-2979-316c-b79e-457826fc308a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/castanheira-de-pera/d8380063-castanheirense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Castanheira%20Pera"},
  :geocode

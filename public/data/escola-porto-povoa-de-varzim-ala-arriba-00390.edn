@@ -88,6 +88,7 @@
  {:address
   "Avª Mouzinho de Albuquerque, nº 149 4490-409 PÓVOA DE VARZIM",
   :name "Ala Arriba",
+  :href-id #uuid "ef6ed97b-47dc-366c-9310-9d2126e1bd26",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AlaArriba066.aspx",
@@ -95,12 +96,18 @@
   :nec 390,
   :cp7 "4490-409",
   :id #uuid "3429221d-75ae-3765-829a-36edbfb4ae58",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/ef6ed97b-ala-arriba.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
  :geocode
- {:cp7 "4490-409",
+ {:id #uuid "3429221d-75ae-3765-829a-36edbfb4ae58",
+  :address
+  "Avª Mouzinho de Albuquerque, nº 149 4490-409 PÓVOA DE VARZIM",
+  :address-c
+  "Avenida Mouzinho de Albuquerque 149, 4490-409, Póvoa de Varzim, Porto",
   :postal-c "4490-409",
-  :x -8.763855019939996,
-  :y 41.38147001684712,
-  :score 100,
+  :x -8.76070867234932,
+  :y 41.38256624855353,
+  :score 92.49,
   :c 1}}

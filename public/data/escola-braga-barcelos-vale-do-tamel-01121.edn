@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar do Seixomil 4750-367 CAMPO",
   :name "Vale do Tamel",
+  :href-id #uuid "5ca07df7-20f5-3812-b342-f06408ec15ef",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ValedoTamel1033.aspx",
@@ -94,6 +95,8 @@
   :nec 1121,
   :cp7 "4750-367",
   :id #uuid "a13b65f5-133a-35d8-a478-69a71cc4e9f7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/5ca07df7-vale-do-tamel.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode

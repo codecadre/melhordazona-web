@@ -46,6 +46,7 @@
  {:address
   "Urbanização Malva Rosa, Lote 43, Verdelha, 2615-150 ALVERCA DO RIBATEJO",
   :name "Malvarosa",
+  :href-id #uuid "691695a8-28fa-3bbd-974d-1ba1230d06ac",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Malvarosa.aspx",
@@ -53,6 +54,8 @@
   :nec 1272,
   :cp7 "2615-150",
   :id #uuid "aa28df5c-8b3a-3240-96be-71f1d7dbf2bd",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/vila-franca-de-xira/691695a8-malvarosa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
  :geocode

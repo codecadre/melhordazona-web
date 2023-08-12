@@ -88,6 +88,7 @@
  {:address
   "Urbanização Vila Rosa Lote 16/16 A – Loja D 4 8500 PORTIMÃO",
   :name "A Soberana de Portimão",
+  :href-id #uuid "6341aa12-4fb1-3e4f-b843-d8c4b08253e7",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ASoberanadePortimao041.aspx",
@@ -95,6 +96,8 @@
   :nec 1140,
   :cp7 "8500",
   :id #uuid "38af49e3-95e7-35b3-931f-851dbda926ee",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/portimao/6341aa12-a-soberana-de-portimao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Portim%C3%A3o"},
  :geocode

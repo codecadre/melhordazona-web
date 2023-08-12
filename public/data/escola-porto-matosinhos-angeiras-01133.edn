@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Quinta de Calvelhe nº 212 4455-196 LAVRA",
   :name "Angeiras",
+  :href-id #uuid "329075f4-b3d0-3136-8afd-616a5eda469e",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Angeiras110.aspx",
@@ -94,6 +95,8 @@
   :nec 1133,
   :cp7 "4455-196",
   :id #uuid "73ad5315-17dc-33cd-b31f-a06eeef0dd6a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/329075f4-angeiras.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Estrada S. Domingos, Nº 64 R/c 6005-010 ALCAINS",
   :name "Alcains",
+  :href-id #uuid "2914c746-34e5-39f7-9926-4b0300fcb161",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alcains074.aspx",
@@ -94,6 +95,8 @@
   :nec 456,
   :cp7 "6005-010",
   :id #uuid "a4cb6702-9df2-3957-a07e-270901486da5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/castelo-branco/2914c746-alcains.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Castelo%20Branco"},
  :geocode

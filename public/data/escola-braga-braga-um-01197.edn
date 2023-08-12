@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Universidade, Nº 46 4710 - 057 BRAGA",
   :name "Um",
+  :href-id #uuid "357c5177-ad6b-3d29-90f4-fbb92d84adad",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Um1026.aspx",
@@ -94,6 +95,8 @@
   :nec 1197,
   :cp7 "4710-057",
   :id #uuid "b564b2d2-1c6c-3abb-9a98-081d7828580a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/357c5177-um.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

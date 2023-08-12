@@ -17,6 +17,7 @@
  :imt-profile
  {:address "Rua Padre Diamantino Gomes, n.º 189, 4250-541 Porto",
   :name "A1 Norte",
+  :href-id #uuid "207a3b32-ca55-3001-9489-8e0c79ee6229",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/A1Norte.aspx",
@@ -24,12 +25,16 @@
   :nec 1444,
   :cp7 "4250-541",
   :id #uuid "20918938-6157-3e59-94d9-4362878961e1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/207a3b32-a1-norte.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode
- {:cp7 "4250-541",
-  :postal-c "4250-541",
-  :x -8.637089966161682,
-  :y 41.17505500613481,
-  :score 100,
+ {:id #uuid "20918938-6157-3e59-94d9-4362878961e1",
+  :address "Rua Padre Diamantino Gomes, n.º 189, 4250-541 Porto",
+  :address-c "Rua Padre Diamantino Gomes, 4250-001, Porto",
+  :postal-c "4250-001",
+  :x -8.635147933147577,
+  :y 41.17401113817744,
+  :score 94.21,
   :c 1}}

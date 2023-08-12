@@ -88,6 +88,7 @@
  {:address
   "Rua Associação dos Reformados de Corroios nº 19 Loja A Dtº 2855-109 CORROIOS",
   :name "Corroios PMR",
+  :href-id #uuid "5fe720f4-2086-3be9-b372-a891a003990e",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CorroiosPMR336.aspx",
@@ -95,6 +96,8 @@
   :nec 1013,
   :cp7 "2855-109",
   :id #uuid "2879e60e-15c7-3f49-a160-cc16ee35d4fb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/5fe720f4-corroios-pmr.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
  :geocode

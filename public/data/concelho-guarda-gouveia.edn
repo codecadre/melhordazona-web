@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Barros Lobo, Nº 23 6290-512 GOUVEIA",
     :name "S. Cristóvão - Gouveia",
+    :href-id #uuid "5d577d33-f7fa-3dcc-a8ee-ec9ce32abe9f",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SCristovaoGouveia880.aspx",
@@ -95,6 +96,8 @@
     :nec 195,
     :cp7 "6290-512",
     :id #uuid "76277110-19da-3ed3-aee4-4f83d9998ca9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/gouveia/5d577d33-s-cristovao-gouveia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Gouveia"},
    :geocode
@@ -169,6 +172,7 @@
    {:address
     "Urbanização Mira Serra, Quinta de Barreiros, Lt. B, R/C Dt 6290-333 GOUVEIA",
     :name "Beatriz",
+    :href-id #uuid "dc1586f5-a64a-32ee-8d13-46e6e358ca35",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nelense689.aspx",
@@ -176,6 +180,8 @@
     :nec 1207,
     :cp7 "6290-333",
     :id #uuid "3638c76a-ddf8-3958-86e2-99e1414e2ece",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/gouveia/dc1586f5-beatriz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Gouveia"},
    :geocode

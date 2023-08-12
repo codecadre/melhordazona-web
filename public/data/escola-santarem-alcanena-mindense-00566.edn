@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua Painel das Almas, nº 3-Minde 2380 ALCANENA",
   :name "Mindense",
+  :href-id #uuid "a561bb03-3184-3a73-9b2c-eca073ec2888",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mindense648.aspx",
@@ -80,6 +81,8 @@
   :nec 566,
   :cp7 "2380",
   :id #uuid "c96e9043-0c0b-3693-9848-39bab252f26f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/alcanena/a561bb03-mindense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Alcanena"},
  :geocode

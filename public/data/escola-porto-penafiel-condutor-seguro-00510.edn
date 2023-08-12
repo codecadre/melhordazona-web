@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. Central de Guilhufe, 60, 4560-162 Penafiel",
   :name "Condutor Seguro",
+  :href-id #uuid "3c646c7d-733e-362e-be75-5a767411a2e8",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CondutorSeguro.aspx",
@@ -94,6 +95,8 @@
   :nec 510,
   :cp7 "4560-162",
   :id #uuid "5d453504-6041-358e-9c81-510d7dcea340",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/penafiel/3c646c7d-condutor-seguro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Penafiel"},
  :geocode

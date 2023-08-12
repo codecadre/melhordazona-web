@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Nova, Nº 67 B 3040-300 COIMBRA",
   :name "S. Martinho do Bispo",
+  :href-id #uuid "48e1c204-6cb3-3335-8c5b-180fd545dd2a",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SMartinhodoBispo893.aspx",
@@ -94,6 +95,8 @@
   :nec 845,
   :cp7 "3040-300",
   :id #uuid "7596380e-26ed-34d8-b496-27d1db9bd9e9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/coimbra/48e1c204-s-martinho-do-bispo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
  :geocode

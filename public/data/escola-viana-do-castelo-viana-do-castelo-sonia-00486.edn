@@ -88,6 +88,7 @@
  {:address
   "Largo João Tomás da Costa, 12 - 1º 4900-509 VIANA DO CASTELO (Stª Mª Maior)",
   :name "Sónia",
+  :href-id #uuid "f3f0c988-2021-316c-9ab6-9c0dff9b1431",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sonia980.aspx",
@@ -95,6 +96,8 @@
   :nec 486,
   :cp7 "4900-509",
   :id #uuid "1ec1b64a-f1ea-3670-b4d6-c2facd57b775",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/viana-do-castelo/f3f0c988-sonia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Viana%20Castelo"},
  :geocode

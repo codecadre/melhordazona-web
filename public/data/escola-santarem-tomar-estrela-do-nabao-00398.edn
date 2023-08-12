@@ -45,6 +45,7 @@
  :imt-profile
  {:address "Rua Diogo Arruda, 6 r/c Esqº 2300-482 TOMAR",
   :name "Estrela do Nabão",
+  :href-id #uuid "b072415d-13fa-39eb-9972-e3460583ef85",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladoNabao426.aspx",
@@ -52,6 +53,8 @@
   :nec 398,
   :cp7 "2300-482",
   :id #uuid "bb3357f8-483e-30ec-ae72-eed6d12fbde9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/b072415d-estrela-do-nabao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
  :geocode

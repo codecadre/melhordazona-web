@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Conde Ferreira 6400-370 PINHEL",
   :name "G. Gomes – Pinhel",
+  :href-id #uuid "36bfe528-ed93-34ac-866e-b8127ecc6fd5",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GGomes%e2%80%93Pinhel477.aspx",
@@ -94,6 +95,8 @@
   :nec 476,
   :cp7 "6400-370",
   :id #uuid "f460634f-22c2-3fa5-9f74-2ae3233523a8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/pinhel/36bfe528-g-gomes-pinhel.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"},
  :geocode

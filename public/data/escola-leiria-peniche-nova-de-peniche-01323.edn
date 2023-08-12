@@ -88,6 +88,7 @@
  {:address
   "Rua Arquiteto Paulino Montez, Nº 94, R/C Dtº, 2520-295 PENICHE",
   :name "Nova de Peniche",
+  :href-id #uuid "86511e68-5f7d-389d-96a6-7b2fbc9361b1",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadePeniche.aspx",
@@ -95,6 +96,8 @@
   :nec 1323,
   :cp7 "2520-295",
   :id #uuid "a1e9a87a-f8bd-3d41-991b-b6289a509012",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/peniche/86511e68-nova-de-peniche.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
  :geocode

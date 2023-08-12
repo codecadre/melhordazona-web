@@ -88,6 +88,7 @@
  {:address
   "Rua Pêro da Covilhã, lote 98 -Urbanização Barrada 2580-497 ALENQUER",
   :name "Carregado",
+  :href-id #uuid "113ad5c5-714f-39d6-8e6b-88f3eb1a4a6e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovoHorizonte.aspx",
@@ -95,6 +96,8 @@
   :nec 832,
   :cp7 "2580-497",
   :id #uuid "33db7ae3-ed4a-32f1-a4ea-3f7c0bc977af",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/alenquer/113ad5c5-carregado.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
  :geocode

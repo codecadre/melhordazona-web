@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª João XXI, 9 - 1º Dtº 1000-298 LISBOA",
   :name "S. Cristóvão",
+  :href-id #uuid "c3f9a9bc-9ae6-3f2a-a7cc-66b56804ee4c",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SCristovao878.aspx",
@@ -94,6 +95,8 @@
   :nec 21,
   :cp7 "1000-298",
   :id #uuid "b5bbfd47-873a-30df-bde2-4f473d1b009c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/c3f9a9bc-s-cristovao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

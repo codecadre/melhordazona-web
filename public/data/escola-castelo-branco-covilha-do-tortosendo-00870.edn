@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Montes Hermínios 6 A 6200-759 TORTOSENDO",
   :name "Tortosendense",
+  :href-id #uuid "8b7f3da5-5b0b-38a4-a59d-c5ec0fb27077",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Tortosendense1017.aspx",
@@ -94,6 +95,8 @@
   :nec 870,
   :cp7 "6200-759",
   :id #uuid "ca40cd91-78fa-37b8-b3ba-62490a6a4641",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/covilha/8b7f3da5-tortosendense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Covilh%C3%A3"},
  :geocode

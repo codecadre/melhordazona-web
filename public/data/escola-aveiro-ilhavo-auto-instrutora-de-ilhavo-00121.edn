@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 25 de Abril, Nº 120 Porta D-2º Andar 3830-044 ÍLHAVO",
   :name "Auto Instrutora do Ílhavo",
+  :href-id #uuid "9d6e770a-2a34-307b-a92d-f91640bd40f7",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoInstrutoradoIlhavo160.aspx",
@@ -94,6 +95,8 @@
   :nec 121,
   :cp7 "3830-044",
   :id #uuid "6cad1e89-1ab1-3f91-8f8f-3ddce439b521",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ilhavo/9d6e770a-auto-instrutora-do-ilhavo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
  :geocode

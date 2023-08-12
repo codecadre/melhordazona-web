@@ -88,6 +88,7 @@
  {:address
   "Avª Dr. José Henriques Vareda, Nº 56 2430-308 MARINHA GRANDE",
   :name "Stop",
+  :href-id #uuid "1939c57c-a8e2-3ae8-b6e6-c3a42611961a",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Stop991.aspx",
@@ -95,12 +96,18 @@
   :nec 413,
   :cp7 "2430-308",
   :id #uuid "0c9f95d5-5394-3262-85de-091b651cb36c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/marinha-grande/1939c57c-stop.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Marinha%20Grande"},
  :geocode
- {:cp7 "2430-308",
-  :postal-c "2430-308",
-  :x -8.935090009558536,
-  :y 39.7429050084869,
-  :score 100,
-  :c 1}}
+ {:id #uuid "0c9f95d5-5394-3262-85de-091b651cb36c",
+  :address
+  "Avª Dr. José Henriques Vareda, Nº 56 2430-308 MARINHA GRANDE",
+  :address-c
+  "Avenida Doutor José Henriques Vareda 56, 2430-031, Ordem, Marinha Grande, Leiria",
+  :postal-c "2430-031",
+  :x -8.934799995708659,
+  :y 39.74031998763806,
+  :score 91.37,
+  :c 3}}

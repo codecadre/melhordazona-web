@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Francisco Sá Carneiro nº 60 2490-548 OURÉM",
   :name "Esco 2000",
+  :href-id #uuid "aabde627-6b2d-30a6-b18e-0a15f317eda3",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Esco2000410.aspx",
@@ -94,6 +95,8 @@
   :nec 928,
   :cp7 "2490-548",
   :id #uuid "ae4f5c7f-781c-3ee5-aa00-6d7b2e96f26c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/aabde627-esco-2000.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
  :geocode

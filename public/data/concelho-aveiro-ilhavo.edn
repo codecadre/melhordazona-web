@@ -89,6 +89,7 @@
    {:address
     "Avª 25 de Abril, Nº 120 Porta D-2º Andar 3830-044 ÍLHAVO",
     :name "Auto Instrutora do Ílhavo",
+    :href-id #uuid "9d6e770a-2a34-307b-a92d-f91640bd40f7",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoInstrutoradoIlhavo160.aspx",
@@ -96,6 +97,8 @@
     :nec 121,
     :cp7 "3830-044",
     :id #uuid "6cad1e89-1ab1-3f91-8f8f-3ddce439b521",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ilhavo/9d6e770a-auto-instrutora-do-ilhavo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
    :geocode
@@ -195,6 +198,7 @@
    :imt-profile
    {:address "Largo do Mercado, Nº 32-B 3830-097 ÍLHAVO",
     :name "Santa Margarida",
+    :href-id #uuid "39e911ea-55ef-3d20-82bb-e5898f36e157",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMargarida926.aspx",
@@ -202,6 +206,8 @@
     :nec 189,
     :cp7 "3830-097",
     :id #uuid "588f141e-b048-3e2a-95cd-8262e35a760e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ilhavo/39e911ea-santa-margarida.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
    :geocode
@@ -289,6 +295,7 @@
    :imt-profile
    {:address "Rua Coronel Cândido Teles, n.º 7 3830-126 Ílhavo",
     :name "Ílhavo",
+    :href-id #uuid "cbb5c5a9-3e63-3e05-90a4-98aa02dbf62e",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/%c3%8dlhavo.aspx",
@@ -296,6 +303,8 @@
     :nec 1362,
     :cp7 "3830-126",
     :id #uuid "e69a7728-d0f3-3b7c-adb1-226ddb686bfc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ilhavo/cbb5c5a9-ilhavo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
    :geocode

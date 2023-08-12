@@ -88,6 +88,7 @@
  {:address
   "Rua Maria do Carmo Carmona-Edificio Terra Quente, Nº 10 5430-469 VALPAÇOS",
   :name "Nossa Senhora da Saúde",
+  :href-id #uuid "62640512-7dce-3169-8b91-4383f32c8144",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NossaSenhoradaSaude697.aspx",
@@ -95,6 +96,8 @@
   :nec 703,
   :cp7 "5430-469",
   :id #uuid "60cff1e8-641d-3db8-863a-76199bed9093",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/valpacos/62640512-nossa-senhora-da-saude.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Valpa%C3%A7os"},
  :geocode

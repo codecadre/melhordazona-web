@@ -89,6 +89,7 @@
    {:address
     "R. Dr. José Dias Sancho, 111 8150-141 SÃO BRÁS DE ALPORTEL",
     :name "Sambrasense",
+    :href-id #uuid "67cf8448-5f0c-3758-90fd-0f58d1abc1a5",
     :distrito "Faro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sambrasense910.aspx",
@@ -96,6 +97,8 @@
     :nec 259,
     :cp7 "8150-141",
     :id #uuid "da91c99a-0066-3ad9-9b6e-0d1a43783cfa",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/sao-bras-de-alportel/67cf8448-sambrasense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=S.%20Braz%20Alportel"},
    :geocode

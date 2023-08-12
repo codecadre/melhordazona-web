@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª das Descobertas lote 5 letra A 2910-710 SETÚBAL",
   :name "Manobras",
+  :href-id #uuid "d06eb646-dbc8-36f3-884f-f68aeb65985d",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Manobras621.aspx",
@@ -94,6 +95,8 @@
   :nec 771,
   :cp7 "2910-710",
   :id #uuid "0aabfa3d-324b-3463-9503-bf39478e9d76",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/setubal/d06eb646-manobras.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Set%C3%BAbal"},
  :geocode

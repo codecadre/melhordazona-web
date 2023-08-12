@@ -88,6 +88,7 @@
  {:address
   "Av. Dr. Francisco Sá Carneiro, Ed. Alta Vista, loja 448, 2415-376 Leiria",
   :name "Via Dinâmica",
+  :href-id #uuid "6a82d8f1-6319-3486-ae7c-d3e57c186109",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaDinamica.aspx",
@@ -95,12 +96,17 @@
   :nec 1337,
   :cp7 "2415-376",
   :id #uuid "56cd4099-f7a4-3eb6-8b57-b2b82984962f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/leiria/6a82d8f1-via-dinamica.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
  :geocode
- {:cp7 "2415-376",
-  :postal-c "2415-376",
-  :x -8.792920023572123,
-  :y 39.75810500316234,
-  :score 100,
-  :c 1}}
+ {:id #uuid "56cd4099-f7a4-3eb6-8b57-b2b82984962f",
+  :address
+  "Av. Dr. Francisco Sá Carneiro, Ed. Alta Vista, loja 448, 2415-376 Leiria",
+  :address-c "Avenida Doutor Francisco Sá Carneiro, 2415, Leiria",
+  :postal-c "2415",
+  :x -8.799562565635485,
+  :y 39.75290451160243,
+  :score 87.02,
+  :c 4}}

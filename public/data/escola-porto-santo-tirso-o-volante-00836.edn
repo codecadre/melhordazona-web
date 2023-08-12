@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Ferreira de Lemos, 302 4780-468 SANTO TIRSO",
   :name "O Volante",
+  :href-id #uuid "6b33cd9b-355d-32b4-8e87-2de4c0aaffd6",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OVolante733.aspx",
@@ -94,6 +95,8 @@
   :nec 836,
   :cp7 "4780-468",
   :id #uuid "f56a27a0-bb92-3161-8285-b44e17a2a171",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/santo-tirso/6b33cd9b-o-volante.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
  :geocode

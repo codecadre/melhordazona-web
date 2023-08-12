@@ -32,6 +32,7 @@
  {:address
   "Rua Luís de Camões nº 60 r/c Dtº 2600-180 VILA FRANCA DE XIRA",
   :name "Nova Xira",
+  :href-id #uuid "40e377b6-ddd1-30b8-bb91-aac132f4e925",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaXira721.aspx",
@@ -39,6 +40,8 @@
   :nec 468,
   :cp7 "2600-180",
   :id #uuid "94e416ff-9c8d-3191-843e-3938158f59dd",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/vila-franca-de-xira/40e377b6-nova-xira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar do Gadunho Freixo EN 308 4990-450 FREIXO",
   :name "S. Cristóvão do Freixo",
+  :href-id #uuid "1cea50d8-9416-34f4-ac11-5bb0e92766e0",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SCristovaodoFreixo882.aspx",
@@ -94,6 +95,8 @@
   :nec 952,
   :cp7 "4990-450",
   :id #uuid "e4ef76d5-8b11-306d-891f-59f836c4ac9d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/1cea50d8-s-cristovao-do-freixo.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
  :geocode

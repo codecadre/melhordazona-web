@@ -45,6 +45,7 @@
  :imt-profile
  {:address "Estação de Comboios dos Foros da Amora loja 18",
   :name "Forus",
+  :href-id #uuid "144bea86-0843-34e0-86bd-1d69a250c914",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Forus.aspx",
@@ -52,14 +53,7 @@
   :nec 1392,
   :cp7 nil,
   :id #uuid "d77c278d-0ade-3a68-8077-689dada9eb81",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/seixal/144bea86-forus.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"},
- :geocode
- {:id #uuid "d77c278d-0ade-3a68-8077-689dada9eb81",
-  :address "Estação de Comboios dos Foros da Amora ",
-  :address-c "Comboio-Foros de Amora",
-  :postal-c "2845",
-  :x -9.127749999999935,
-  :y 38.620940000000076,
-  :score 84.08,
-  :c 6}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Seixal"}}

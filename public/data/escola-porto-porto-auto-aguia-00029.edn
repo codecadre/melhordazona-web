@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Chaves de Oliveira, Nº 60 4350-102 PORTO",
   :name "Auto Águia",
+  :href-id #uuid "91c66671-8fa0-3b92-9468-b668d5d7b393",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoAguia138.aspx",
@@ -94,6 +95,8 @@
   :nec 29,
   :cp7 "4350-102",
   :id #uuid "1a733a73-7d22-3db1-ae12-e51ecb793ee1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/91c66671-auto-aguia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
  :geocode

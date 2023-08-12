@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª da Liberdade, 666 – 2º Dtº 4710-249 BRAGA",
   :name "Bracarense",
+  :href-id #uuid "4e8beda1-f792-3460-a865-07c18c0bff26",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Bracarense261.aspx",
@@ -94,12 +95,16 @@
   :nec 97,
   :cp7 "4710-249",
   :id #uuid "17d50bde-bfd1-3742-b934-6731cc355005",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/4e8beda1-bracarense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode
- {:cp7 "4710-249",
+ {:id #uuid "17d50bde-bfd1-3742-b934-6731cc355005",
+  :address "Avª da Liberdade, 666 – 2º Dtº 4710-249 BRAGA",
+  :address-c "Avenida da Liberdade 666, 4710-249, Braga",
   :postal-c "4710-249",
-  :x -8.421802459481086,
-  :y 41.549310000403466,
-  :score 100,
-  :c 1}}
+  :x -8.422049977081855,
+  :y 41.55003000588624,
+  :score 89.24,
+  :c 2}}

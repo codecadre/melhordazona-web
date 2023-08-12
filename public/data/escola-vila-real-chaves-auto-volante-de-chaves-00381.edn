@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. 5 de Outubro, 4 5400-017 SANTA MARIA MAIOR",
   :name "Auto Volante de Chaves",
+  :href-id #uuid "dabdda50-5394-3d23-882f-2e7a9a0d19dd",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoVolantedeChaves180.aspx",
@@ -94,6 +95,8 @@
   :nec 381,
   :cp7 "5400-017",
   :id #uuid "b5e6e1bd-408e-3e72-ad76-fe3f00d95fc6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/chaves/dabdda50-auto-volante-de-chaves.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Chaves"},
  :geocode

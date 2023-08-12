@@ -88,6 +88,7 @@
  {:address
   "Sitio da Correeira, Lt 128-A Montechoro 8200-360 ALBUFEIRA",
   :name "Academia Albufeira",
+  :href-id #uuid "55f974f5-e33e-3750-a46e-228f230d478b",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EuropaAlbufeira434.aspx",
@@ -95,6 +96,8 @@
   :nec 637,
   :cp7 "8200-360",
   :id #uuid "86a15372-a5ac-3c1a-a0ed-118611586ca3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/55f974f5-academia-albufeira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
  :geocode

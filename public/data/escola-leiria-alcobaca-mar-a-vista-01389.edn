@@ -59,6 +59,7 @@
  :imt-profile
  {:address "Av. Rainha Santa Isabel, n.º 234, 2445-206 Pataias",
   :name "Mar à Vista",
+  :href-id #uuid "353490d9-c5b1-3391-994e-df90cfd22dec",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mar-a-Vista.aspx",
@@ -66,6 +67,8 @@
   :nec 1389,
   :cp7 "2445-206",
   :id #uuid "a66f5115-de39-3938-b2a8-ea6d791fbf40",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/alcobaca/353490d9-mar-a-vista.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Alcoba%C3%A7a"},
  :geocode

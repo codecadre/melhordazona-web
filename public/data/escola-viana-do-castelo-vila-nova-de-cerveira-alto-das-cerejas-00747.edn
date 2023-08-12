@@ -88,6 +88,7 @@
  {:address
   "Rua Fonte Pereira, Lote 1, Fracção H, Campos, 4920- 011 Vila Nova de Cerveira",
   :name "Alto das Cerejas",
+  :href-id #uuid "cedb0ec9-2bfe-3621-9db6-9e592d9276e7",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AltodasCerejas096.aspx",
@@ -95,12 +96,18 @@
   :nec 747,
   :cp7 "4920-011",
   :id #uuid "458b2968-93c8-3c65-9b3f-84243c7b6167",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/vila-nova-de-cerveira/cedb0ec9-alto-das-cerejas.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Vila%20Nova%20Cerveira"},
  :geocode
- {:cp7 "4920-011",
-  :postal-c "4920-011",
-  :x -8.688025031559192,
-  :y 41.97114000654366,
-  :score 100,
-  :c 1}}
+ {:id #uuid "458b2968-93c8-3c65-9b3f-84243c7b6167",
+  :address
+  "Rua Fonte Pereira, Lote 1, Fracção H, Campos, 4920- 011 Vila Nova de Cerveira",
+  :address-c
+  "Rua Fonte Pereira, 4920-008, Campos, Vila Nova de Cerveira, Viana do Castelo",
+  :postal-c "4920-008",
+  :x -8.696359538389682,
+  :y 41.97056483739014,
+  :score 91.21,
+  :c 10}}

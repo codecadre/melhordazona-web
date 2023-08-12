@@ -88,6 +88,7 @@
  {:address
   "Estrada Principal de Fátima (Edifício Fátima) Loja 2 R/C 2495-552 FÁTIMA",
   :name "Fatimense",
+  :href-id #uuid "ee9e36af-1135-3124-93e5-ae2523230ad8",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Fatimense447.aspx",
@@ -95,6 +96,8 @@
   :nec 1158,
   :cp7 "2495-552",
   :id #uuid "b3e3d8d3-fe3b-3e49-ae9a-5d7a8f981703",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ourem/ee9e36af-fatimense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Our%C3%A9m"},
  :geocode

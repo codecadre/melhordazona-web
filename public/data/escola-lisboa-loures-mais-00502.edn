@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Praceta Antero de Quental, n.º 2 B ; 2695-021 Bobadela",
   :name "Mais",
+  :href-id #uuid "3fd97b90-55a6-3cd3-939a-1685ca5dd727",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Jovem583.aspx",
@@ -94,6 +95,8 @@
   :nec 502,
   :cp7 "2695-021",
   :id #uuid "a05f19af-09ad-3320-bd96-a76c217c0564",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/3fd97b90-mais.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode

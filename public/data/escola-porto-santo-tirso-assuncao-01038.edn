@@ -88,6 +88,7 @@
  {:address
   "Rua do Barreiro, Nº 19 R/C, Fracção N/Bloco 1 4780-406 SANTO TIRSO",
   :name "Assunção",
+  :href-id #uuid "1a01bd01-b1b1-330f-8749-50891517bed7",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Assuncao132.aspx",
@@ -95,6 +96,8 @@
   :nec 1038,
   :cp7 "4780-406",
   :id #uuid "6a1ebfa7-4c27-3cb0-93ed-35b289d05f4d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/santo-tirso/1a01bd01-assuncao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de S. Romão nº 200 4470-365 VERMOIM",
   :name "Cidade Jardim",
+  :href-id #uuid "e5b315b1-58ab-3180-918d-dd29691e84a2",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CidadeJardim313.aspx",
@@ -94,6 +95,8 @@
   :nec 704,
   :cp7 "4470-365",
   :id #uuid "025dcdbf-4249-3ba4-a53d-d855fa0d1367",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/e5b315b1-cidade-jardim.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Terras de Santa Maria nº 1413 3700-564 ARRIFANA",
   :name "Arrifanense",
+  :href-id #uuid "c93b4c80-c7c1-376c-abaa-d320cd106061",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arrifanense129.aspx",
@@ -94,6 +95,8 @@
   :nec 1123,
   :cp7 "3700-564",
   :id #uuid "b965f83d-4ffe-3267-80c5-0850f7ed4328",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/c93b4c80-arrifanense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Urbanização Jardins da Penha - Rua Dr. Francisco Sá Carneiro, Bloco 12 B 4810-008 COSTA",
   :name "Loureiro e Loureiro",
+  :href-id #uuid "5213b83e-25c0-3659-8fdd-275e48e17cc4",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LoureiroeLoureiro605.aspx",
@@ -95,12 +96,18 @@
   :nec 670,
   :cp7 "4810-008",
   :id #uuid "e8863fd4-f18e-31bc-bcd5-4cc6b0464d81",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/5213b83e-loureiro-e-loureiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode
- {:cp7 "4810-008",
+ {:id #uuid "e8863fd4-f18e-31bc-bcd5-4cc6b0464d81",
+  :address
+  "Urbanização Jardins da Penha - Rua Dr. Francisco Sá Carneiro, Bloco 12 B 4810-008 COSTA",
+  :address-c
+  "Rua Dr. Francisco Sá Carneiro 12, 4810-008, Guimarães, Braga",
   :postal-c "4810-008",
-  :x -8.279429966713963,
-  :y 41.45129998747785,
-  :score 100,
-  :c 1}}
+  :x -8.279813608559182,
+  :y 41.45084591326767,
+  :score 94.41,
+  :c 2}}

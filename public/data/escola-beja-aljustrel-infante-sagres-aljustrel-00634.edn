@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua de Beja, nº 1 7600-010 ALJUSTREL",
   :name "Infante de Sagres - Aljustrel",
+  :href-id #uuid "3f59ccb8-81f7-332e-9299-0fb3de185780",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresAljustrel532.aspx",
@@ -94,6 +95,8 @@
   :nec 634,
   :cp7 "7600-010",
   :id #uuid "e19e6147-c652-33d5-b791-50d5361c551f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/aljustrel/3f59ccb8-infante-de-sagres-aljustrel.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Aljustrel"},
  :geocode

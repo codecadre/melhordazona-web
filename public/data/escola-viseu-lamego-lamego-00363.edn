@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. Bernardo Pinheiro de Aragão 5100-118 LAMEGO",
   :name "Lamego",
+  :href-id #uuid "63c50d1e-d3ce-3895-b0b0-1e963371d3e1",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lamego591.aspx",
@@ -94,6 +95,8 @@
   :nec 363,
   :cp7 "5100-118",
   :id #uuid "092fd767-d6d1-3bbe-ab82-418ca21bce85",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/lamego/63c50d1e-lamego.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Rua Padre António Vieira, Lote 1 R/C D - Loja E 5300-224 BRAGANÇA (SÉ)",
   :name "Cruzeiro",
+  :href-id #uuid "7b4fa9d8-0fc3-3e2f-8d4d-fdede8a4e751",
   :distrito "Bragança",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cruzeiro350.aspx",
@@ -95,6 +96,8 @@
   :nec 990,
   :cp7 "5300-224",
   :id #uuid "cf67a92b-bf81-357e-bf05-9bcef2ea81ed",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braganca/braganca/7b4fa9d8-cruzeiro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braganca&Concelho=Bragan%C3%A7a"},
  :geocode

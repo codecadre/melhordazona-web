@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. Xanana Gusmão, nº 296, 4460-840 CUSTÓIAS MTS",
   :name "Aliança",
+  :href-id #uuid "46d5a9d9-293f-3a0e-ba6e-1865f0ad2eaa",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alianca083.aspx",
@@ -94,6 +95,8 @@
   :nec 647,
   :cp7 "4460-840",
   :id #uuid "c9ba0e7f-4ed2-3cf8-b22f-25a9f3f9dc44",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/46d5a9d9-alianca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode

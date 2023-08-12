@@ -45,6 +45,7 @@
  :imt-profile
  {:address "Rua da Cumieira, n.º 6, r/c, 4820-179 Fafe",
   :name "Nova Fafe",
+  :href-id #uuid "7c25eff0-7968-325d-98c8-970d5f493d17",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaFafe.aspx",
@@ -52,12 +53,16 @@
   :nec 1416,
   :cp7 "4820-179",
   :id #uuid "ce7acda1-c74a-3ab0-8c7f-9d8402fb9783",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/fafe/7c25eff0-nova-fafe.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Fafe"},
  :geocode
- {:cp7 "4820-179",
+ {:id #uuid "ce7acda1-c74a-3ab0-8c7f-9d8402fb9783",
+  :address "Rua da Cumieira, n.º 6, r/c, 4820-179 Fafe",
+  :address-c "Rua da Cumieira 6, 4820-179, Fafe, Braga",
   :postal-c "4820-179",
-  :x -8.163010025472857,
-  :y 41.45875501980015,
-  :score 100,
+  :x -8.160179959684683,
+  :y 41.46124000263458,
+  :score 94.22,
   :c 1}}

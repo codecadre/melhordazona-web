@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª da República, nº 2306 s/loja Dtª 4430-196 MAFAMUDE",
   :name "Nobreza",
+  :href-id #uuid "73cca29c-1568-37a7-b97b-57ffa25d7dd3",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nobreza693.aspx",
@@ -94,12 +95,17 @@
   :nec 551,
   :cp7 "4430-196",
   :id #uuid "f3364ec7-ce80-3f2c-a073-24f6f1356da8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/73cca29c-nobreza.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode
- {:cp7 "4430-196",
+ {:id #uuid "f3364ec7-ce80-3f2c-a073-24f6f1356da8",
+  :address "Avª da República, nº 2306 s/loja Dtª 4430-196 MAFAMUDE",
+  :address-c
+  "Avenida da República 2306, 4430-196, Vila Nova de Gaia, Porto",
   :postal-c "4430-196",
-  :x -8.606774969308987,
-  :y 41.11746500298264,
-  :score 100,
+  :x -8.606819980129046,
+  :y 41.117679998799076,
+  :score 88.45,
   :c 1}}

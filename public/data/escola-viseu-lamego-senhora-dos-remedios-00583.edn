@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Quinta do Paraíso, Bloco 3 r/c 5100-187 LAMEGO",
   :name "Senhora dos Remédios",
+  :href-id #uuid "c0509779-0e96-3242-b8eb-778745c9b16d",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoradosRemedios963.aspx",
@@ -94,6 +95,8 @@
   :nec 583,
   :cp7 "5100-187",
   :id #uuid "fe261eb8-2a89-33e9-9b4c-1581c9b2db0e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/lamego/c0509779-senhora-dos-remedios.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Lamego"},
  :geocode

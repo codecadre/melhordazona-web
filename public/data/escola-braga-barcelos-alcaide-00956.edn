@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar da Mota - Edifício Terra Nova 4755-233 GILMONDE",
   :name "Alcaide",
+  :href-id #uuid "ec1e2876-4132-3298-977f-3a6f4db082ae",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alcaide073.aspx",
@@ -94,6 +95,8 @@
   :nec 956,
   :cp7 "4755-233",
   :id #uuid "0e0123b5-ec02-35f6-9f3e-97eeeb77c3b6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/barcelos/ec1e2876-alcaide.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Barcelos"},
  :geocode

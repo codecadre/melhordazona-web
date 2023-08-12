@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. Vasco da Gama n.º 76 r/c, 4490-410, PÓVOA de VARZIM",
   :name "Guedes Vieira - Póvoa do Varzim",
+  :href-id #uuid "f08a8072-c286-3dfe-84d0-836f9f244b8f",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/GuedesVieiraPovoadoVarzim501.aspx",
@@ -94,12 +95,16 @@
   :nec 479,
   :cp7 "4490-410",
   :id #uuid "eb289911-51dc-387c-9fa3-2c2886d8e10a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/povoa-de-varzim/f08a8072-guedes-vieira-povoa-do-varzim.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=P%C3%B3voa%20de%20Varzim"},
  :geocode
- {:cp7 "4490-410",
+ {:id #uuid "eb289911-51dc-387c-9fa3-2c2886d8e10a",
+  :address "Av. Vasco da Gama n.º 76 r/c, 4490-410, PÓVOA de VARZIM",
+  :address-c "Avenida Vasco da Gama, 4490-410, Póvoa de Varzim, Porto",
   :postal-c "4490-410",
-  :x -8.76909999585203,
-  :y 41.38723999326456,
-  :score 100,
-  :c 1}}
+  :x -8.771173586939042,
+  :y 41.3864027759153,
+  :score 94.62,
+  :c 3}}

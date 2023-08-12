@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua de Coimbra, nº 14 3080-047 FIGUEIRA DA FOZ",
     :name "Academia Boa Viagem",
+    :href-id #uuid "53e96dd0-6a08-39ec-b841-7a85122293f5",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AcademiaBoaViagem.aspx",
@@ -95,6 +96,8 @@
     :nec 407,
     :cp7 "3080-047",
     :id #uuid "8e333ae7-0d68-3249-8aa4-f16f5c0902dc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/53e96dd0-academia-boa-viagem.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
    :geocode
@@ -196,6 +199,7 @@
    :imt-profile
    {:address "Rua Dr. José Jardim, nº 22-1º 3080-008 FIGUEIRA DA FOZ",
     :name "Florbela",
+    :href-id #uuid "9b2a39b9-ff0a-3ad2-ab9c-acd325a58c3d",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Florbela461.aspx",
@@ -203,6 +207,8 @@
     :nec 450,
     :cp7 "3080-008",
     :id #uuid "96873bbc-38fe-3e2c-86c0-4659b82833c6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/9b2a39b9-florbela.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
    :geocode
@@ -306,6 +312,7 @@
    {:address
     "Rua Dr. Joaquim Sotto Mayor, n.º 101, 3080-300 FIGUEIRA DA FOZ",
     :name "Abadias",
+    :href-id #uuid "f2bafa9c-92d4-3ecd-8d57-e69324d9a423",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Abadias047.aspx",
@@ -313,15 +320,21 @@
     :nec 673,
     :cp7 "3080-300",
     :id #uuid "519e7f07-28fb-39b2-b206-be2e61d7dd6e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/f2bafa9c-abadias.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
    :geocode
-   {:cp7 "3080-300",
-    :postal-c "3080-300",
-    :x -8.862770026951466,
-    :y 40.157734993918666,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "519e7f07-28fb-39b2-b206-be2e61d7dd6e",
+    :address
+    "Rua Dr. Joaquim Sotto Mayor, n.º 101, 3080-300 FIGUEIRA DA FOZ",
+    :address-c
+    "Rua Joaquim Sottomayor 101, 3080-209, Figueira da Foz, Coimbra",
+    :postal-c "3080-209",
+    :x -8.861420037626033,
+    :y 40.16091999139681,
+    :score 89.73,
+    :c 2}}]
  ["paionense-00841"
   {:nec 841,
    :rates
@@ -412,6 +425,7 @@
    :imt-profile
    {:address "Rua dos Santinhos, nº 44 A 3090-495 PAIÃO",
     :name "Paionense",
+    :href-id #uuid "fe71b9c9-8d35-38d1-aa7e-a6ab80ea24df",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Paionense765.aspx",
@@ -419,6 +433,8 @@
     :nec 841,
     :cp7 "3090-495",
     :id #uuid "0e5f6bcc-43e9-3c03-8603-ed192c8f9c30",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/fe71b9c9-paionense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
    :geocode
@@ -521,6 +537,7 @@
    :imt-profile
    {:address "Rua de Timor nº 8 r/c 3080-143 FIGUEIRA DA FOZ",
     :name "Volante da Foz",
+    :href-id #uuid "04fd3d36-ac7b-35b6-b828-7f94e652822d",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolantedaFoz1080.aspx",
@@ -528,6 +545,8 @@
     :nec 1095,
     :cp7 "3080-143",
     :id #uuid "1e2acabd-e7ab-390d-ac8a-f1fc1bfd4055",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/04fd3d36-volante-da-foz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
    :geocode
@@ -630,6 +649,7 @@
    {:address
     "Largo Caras Direitas nº 51 – Bloco H 3080-254 FIGUEIRA DA FOZ",
     :name "Praia da Claridade",
+    :href-id #uuid "00ff8f85-dbeb-37db-b730-36403bd2107b",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PraiadaClaridade808.aspx",
@@ -637,6 +657,8 @@
     :nec 1100,
     :cp7 "3080-254",
     :id #uuid "31ab2f30-a24d-3e32-9500-a603b7af4b44",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/00ff8f85-praia-da-claridade.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
    :geocode
@@ -736,6 +758,7 @@
    :imt-profile
    {:address "Rua de Santo Amaro n º 7 r/c 3090-401 FIGUEIRA DA FOZ",
     :name "Sentido Único",
+    :href-id #uuid "6227c8fa-b9ec-3811-a62b-7e1d17223d20",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SentidoUnico965.aspx",
@@ -743,6 +766,8 @@
     :nec 1101,
     :cp7 "3090-401",
     :id #uuid "43b28bf0-7188-38c9-be94-91665d85ee57",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/6227c8fa-sentido-unico.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
    :geocode
@@ -832,6 +857,7 @@
    {:address
     "Rua dos Alentejeiros, n.º 22, 3090-485 Marinha das Ondas",
     :name "Marinha das Ondas",
+    :href-id #uuid "3ed97702-793c-3aaa-970b-4196eea6675f",
     :distrito "Coimbra",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MarinhadasOndas.aspx",
@@ -839,6 +865,8 @@
     :nec 1366,
     :cp7 "3090-485",
     :id #uuid "a95b520b-a6b5-36f7-9307-efba2c7bb19a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/figueira-da-foz/3ed97702-marinha-das-ondas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Figueira%20da%20Foz"},
    :geocode

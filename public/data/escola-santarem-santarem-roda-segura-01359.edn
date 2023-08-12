@@ -72,21 +72,24 @@
    :r/t-done 156.0}],
  :imt-profile
  {:address
-  "Av. Prof Dr. Veríssimo Serrão, n.º 16 (ex lote 8) Loja 3 2005-172 Santarém",
+  "Av. Prof. Drº Francisco da Luz Rebelo Gonçalves, Nº 7 -Traseira Loja -2005-173 Santarém",
   :name "Roda Segura",
+  :href-id #uuid "226216d5-a661-337b-a63c-0dc52563a52a",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RodaSegura.aspx",
   :concelho "Santarém",
   :nec 1359,
-  :cp7 "2005-172",
-  :id #uuid "91935f13-d068-3c26-98e4-54db1f0d4a43",
+  :cp7 "2005-173",
+  :id #uuid "6d760467-29bf-3b3a-9138-e5c1bbb9da77",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/santarem/226216d5-roda-segura.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Santar%C3%A9m"},
  :geocode
- {:cp7 "2005-172",
-  :postal-c "2005-172",
-  :x -8.692710012520052,
-  :y 39.24203499650679,
+ {:cp7 "2005-173",
+  :postal-c "2005-173",
+  :x -8.69130503791,
+  :y 39.242054987346,
   :score 100,
   :c 1}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua do Estádio, Nº 162 R/C 4590-571 FRAZÃO",
   :name "Dois Volantes",
+  :href-id #uuid "6eef27ae-c6fa-3d47-94c8-6699559f64ad",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DoisVolantes393.aspx",
@@ -94,6 +95,8 @@
   :nec 1172,
   :cp7 "4590-571",
   :id #uuid "9916cdc8-9f99-379a-80ae-4d8cabecfd29",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/pacos-de-ferreira/6eef27ae-dois-volantes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Pa%C3%A7os%20de%20Ferreira"},
  :geocode

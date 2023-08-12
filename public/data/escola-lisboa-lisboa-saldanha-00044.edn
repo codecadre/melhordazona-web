@@ -88,6 +88,7 @@
  {:address
   "Av.ª Fontes Pereira de Melo, n.º 31 – Galeria Esquerda ; 1050-117 Lisboa",
   :name "Saldanha",
+  :href-id #uuid "7a74fe42-c4e2-30a6-bdcd-e5f0a8ff5193",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Internacional567.aspx",
@@ -95,6 +96,8 @@
   :nec 44,
   :cp7 "1050-117",
   :id #uuid "784518db-48bd-364d-8ea8-6912e00ab463",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/7a74fe42-saldanha.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

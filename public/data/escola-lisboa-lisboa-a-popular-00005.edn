@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Victor Hugo, 8 c/v Esqº 1000-001 LISBOA",
   :name "A Popular",
+  :href-id #uuid "10ba3ed0-ca26-38af-a2f4-4b32d7416410",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/APopular038.aspx",
@@ -94,12 +95,16 @@
   :nec 5,
   :cp7 "1000-001",
   :id #uuid "6168a0d9-edc4-3b4f-8c1c-43bfde8715b6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/10ba3ed0-a-popular.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode
- {:cp7 "1000-001",
-  :postal-c "1000-001",
-  :x -9.13877000526469,
-  :y 38.73311500471695,
-  :score 100,
+ {:id #uuid "6168a0d9-edc4-3b4f-8c1c-43bfde8715b6",
+  :address "Rua Victor Hugo, 8 c/v Esqº 1000-001 LISBOA",
+  :address-c "Rua Vitor Hugo 8C, 1000-294, Lisboa",
+  :postal-c "1000-294",
+  :x -9.13312999025598,
+  :y 38.74478001554718,
+  :score 95,
   :c 1}}

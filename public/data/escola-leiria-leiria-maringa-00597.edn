@@ -73,6 +73,7 @@
  :imt-profile
  {:address "Rua Wenceslau de Morais, n.º 16 2400-258 Leiria",
   :name "Maringá",
+  :href-id #uuid "af9cb967-1076-37e2-ae2d-8ef8535208d4",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Maringa.aspx",
@@ -80,12 +81,16 @@
   :nec 597,
   :cp7 "2400-258",
   :id #uuid "07117e21-6d6d-3e21-b216-30e028b0843c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/leiria/af9cb967-maringa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Leiria"},
  :geocode
- {:cp7 "2400-258",
-  :postal-c "2400-258",
-  :x -8.803524975107763,
-  :y 39.747294988365525,
-  :score 100,
+ {:id #uuid "07117e21-6d6d-3e21-b216-30e028b0843c",
+  :address "Rua Wenceslau de Morais, n.º 16 2400-258 Leiria",
+  :address-c "Rua Venceslau de Morais 16, 2400, Leiria",
+  :postal-c "2400",
+  :x -8.803631707052393,
+  :y 39.747432157822935,
+  :score 93.22,
   :c 1}}

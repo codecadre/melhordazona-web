@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar da Feira 4640-147 CAMPELO",
   :name "Baião",
+  :href-id #uuid "205965ad-bb91-3491-a726-93be6507c073",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Baiao214.aspx",
@@ -94,6 +95,8 @@
   :nec 474,
   :cp7 "4640-147",
   :id #uuid "c4a53c51-11e8-3aea-ac37-08216798fd78",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/baiao/205965ad-baiao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"},
  :geocode

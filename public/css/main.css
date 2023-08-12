@@ -649,6 +649,13 @@ there.
 .leaflet-popup-close-button {
   color: #b1a9b1 !important;
 }
+.custom-marker-black {
+  background-color: #151315;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  border-radius: 50%;
+  opacity: 0.5;
+}
 .custom-marker {
   background-color: #d05353;
   width: 2.5rem !important;
@@ -1020,6 +1027,10 @@ body {
 }
 .field {
   margin-bottom: 1rem;
+}
+.archived-school {
+  color: #151315;
+  opacity: 0.4;
 }
 .source {
   display: flex;

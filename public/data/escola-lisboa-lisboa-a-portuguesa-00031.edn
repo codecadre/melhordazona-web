@@ -85,23 +85,25 @@
    :r/total-passed 454.0,
    :r/t-done 292.0}],
  :imt-profile
- {:address "Rua Carlos Mardel, 132 - 1º 1900-127 LISBOA",
+ {:address "Av. Afonso Costa, Lote 25-26 Loja F - 1900-032 Lisboa",
   :name "A Portuguesa",
+  :href-id #uuid "38087396-ea6d-3f40-823f-7d89e9484a42",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/APortuguesa039.aspx",
   :concelho "Lisboa",
   :nec 31,
-  :cp7 "1900-127",
-  :id #uuid "fa71fdd9-5080-34c2-9cf8-7ec157f4300e",
+  :cp7 "1900-032",
+  :id #uuid "c947e528-4b5b-31cd-a233-c9004dad00d8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/38087396-a-portuguesa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode
- {:id #uuid "fa71fdd9-5080-34c2-9cf8-7ec157f4300e",
-  :address "Rua Carlos Mardel, 132 - 1º 1900-127 LISBOA",
-  :address-c "Rua Carlos Mardel 132, 1900-127, Lisboa",
-  :postal-c "1900-127",
-  :x -9.13249003194855,
-  :y 38.740899990657766,
-  :score 99.39,
+ {:address "Av. Afonso Costa, Lote 25-26 Loja F - 1900-032 Lisboa",
+  :address-c "Avenida Afonso Costa 25, 1900-035, Lisboa",
+  :postal-c "1900-035",
+  :x -9.12977709133,
+  :y 38.741651190217,
+  :score 97.87,
   :c 2}}

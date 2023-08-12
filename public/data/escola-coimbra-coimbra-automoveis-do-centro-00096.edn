@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo da Conchada, Nº 11 3000-118 COIMBRA",
   :name "Automóveis do Centro",
+  :href-id #uuid "5eb0fe8c-fdd6-3cb5-855e-34606e72420d",
   :distrito "Coimbra",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomoveisdoCentro189.aspx",
@@ -94,6 +95,8 @@
   :nec 96,
   :cp7 "3000-118",
   :id #uuid "5d5d5c7f-5736-38fa-a1b2-ce61c6df7014",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/coimbra/coimbra/5eb0fe8c-automoveis-do-centro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Coimbra&Concelho=Coimbra"},
  :geocode

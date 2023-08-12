@@ -86,26 +86,27 @@
      :r/total-passed 115.0,
      :r/t-done 77.0}],
    :imt-profile
-   {:address "Avª de Angola, 63 2530 LOURINHÃ",
+   {:address "Avª de Angola Nº 67 B - 2530-114 Lourinhâ",
     :name "A Figueiredo",
+    :href-id #uuid "dbe39dcc-d607-3115-9806-e44638195d59",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AFigueiredo018.aspx",
     :concelho "Lourinhã",
     :nec 151,
-    :cp7 "2530",
-    :id #uuid "e7e11e90-1372-304f-8831-eec4c753595a",
+    :cp7 "2530-114",
+    :id #uuid "b6bee063-389b-3457-a2de-3d6fada7a06e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lourinha/dbe39dcc-a-figueiredo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"},
    :geocode
-   {:id #uuid "e7e11e90-1372-304f-8831-eec4c753595a",
-    :address "Avª de Angola, 63 2530 LOURINHÃ",
-    :address-c "Avenida de Angola 63, 2530-114, Lourinhã, Lisboa",
+   {:cp7 "2530-114",
     :postal-c "2530-114",
-    :x -9.294767762916221,
-    :y 39.230532447356886,
-    :score 96.15,
-    :c 2}}]
+    :x -9.307895018397,
+    :y 39.235749994049,
+    :score 100,
+    :c 1}}]
  ["lourinha-00543"
   {:nec 543,
    :rates
@@ -196,6 +197,7 @@
    :imt-profile
    {:address "Avª António José de Almeida, 10 r/c 2530-059 LOURINHÃ",
     :name "Lourinhã",
+    :href-id #uuid "096b2669-f30b-3edc-8ca5-deb61f8658ae",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lourinha607.aspx",
@@ -203,6 +205,8 @@
     :nec 543,
     :cp7 "2530-059",
     :id #uuid "2d5d3aeb-2cf1-308b-8688-ba8f99710940",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lourinha/096b2669-lourinha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"},
    :geocode
@@ -305,6 +309,7 @@
    :imt-profile
    {:address "Rua Casal Santa Catrina, n.º 1; 2500-074 Lourinhã",
     :name "Dinossauro",
+    :href-id #uuid "40fa1350-b1e8-3db7-b2fb-bb3461edbdef",
     :distrito "Lisboa",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Dinossauro.aspx",
@@ -312,6 +317,8 @@
     :nec 1306,
     :cp7 "2500-074",
     :id #uuid "fbce1b6d-448d-3e66-9e8e-83aac7ecf798",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lourinha/40fa1350-dinossauro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lourinh%C3%A3"},
    :geocode

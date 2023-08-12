@@ -74,6 +74,7 @@
  {:address
   "Rua Eng. Adelino Amaro da Costa, 31, Bairro da Regadinho, 3600-127 Castro Daire",
   :name "Castro Daire",
+  :href-id #uuid "eebd5b12-3a33-3a8b-bdce-83e378b56d43",
   :distrito "Viseu",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CastroDaire.aspx",
@@ -81,6 +82,8 @@
   :nec 1343,
   :cp7 "3600-127",
   :id #uuid "b97c5e06-d13c-39a2-a325-4625e7264cb7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/castro-daire/eebd5b12-castro-daire.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Castro%20Daire"},
  :geocode

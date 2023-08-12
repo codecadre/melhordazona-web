@@ -57,6 +57,7 @@
  [:c "viseu" "Lamego"]
  [:c "portalegre" "Campo Maior"]
  [:c "braga" "Fafe"]
+ [:c "braganca" "Torre de Moncorvo"]
  [:c "guarda" "Guarda"]
  [:c "setubal" "Grândola"]
  [:c "porto" "Matosinhos"]
@@ -128,7 +129,6 @@
  [:c "leiria" "Figueiró dos Vinhos"]
  [:c "aveiro" "Sever do Vouga"]
  [:c "viana-do-castelo" "Paredes de Coura"]
- [:c "santarem" "Chamusca"]
  [:c "vila-real" "Mesão Frio"]
  [:c "braga" "Amares"]
  [:c "setubal" "Santiago do Cacém"]
@@ -145,7 +145,6 @@
  [:c "santarem" "Rio Maior"]
  [:c "leiria" "Caldas da Raínha"]
  [:c "lisboa" "Sobral do Monte Agraço"]
- [:c "faro" "Alcoutim"]
  [:c "setubal" "Barreiro"]
  [:c "santarem" "Torres Novas"]
  [:c "santarem" "Ferreira do Zêzere"]
@@ -156,6 +155,7 @@
  [:c "setubal" "Moita"]
  [:c "santarem" "Ourém"]
  [:c "vila-real" "Murça"]
+ [:c "braganca" "Vimioso"]
  [:c "aveiro" "Ovar"]
  [:c "braganca" "Carrazeda de Ansiâes"]
  [:c "aveiro" "Ílhavo"]
@@ -180,6 +180,7 @@
  [:c "viseu" "Cinfães"]
  [:c "santarem" "Tomar"]
  [:c "braga" "Vila Nova de Famalicão"]
+ [:c "santarem" "Mação"]
  [:c "braga" "Esposende"]
  [:c "evora" "Portel"]
  [:c "viseu" "Penedono"]
@@ -460,7 +461,7 @@
  [:s "Covilhanense" ["castelo-branco" "covilha" "covilhanense-00230"]]
  [:s "Automóvel Ajar" ["coimbra" "lousa" "automovel-ajar-00231"]]
  [:s "Arganilense" ["coimbra" "arganil" "arganilense-00232"]]
- [:s "Azambuja" ["lisboa" "lisboa" "azambuja-00233"]]
+ [:s "Azambuja" ["lisboa" "azambuja" "azambuja-00233"]]
  [:s "M. R. Ascenção" ["guarda" "seia" "mr-ascencao-00235"]]
  [:s "Amadora" ["lisboa" "amadora" "amadora-00237"]]
  [:s "Alvaiázere" ["leiria" "alvaiazere" "alvaiazere-00239"]]
@@ -538,8 +539,8 @@
  [:s "Morais" ["leiria" "leiria" "morais-00336"]]
  [:s "Reis" ["viseu" "moimenta-da-beira" "reis-00337"]]
  [:s "Escola De Condução Nelmar" [nil "nelmar-00338"]]
- [:s "Nova de Esgueira" ["viseu" "mortagua" "nova-de-esgueira-00339"]]
  [:s "Escola De Condução Mortaguense" [nil "mortaguense-00339"]]
+ [:s "Nova de Esgueira" ["viseu" "mortagua" "nova-de-esgueira-00339"]]
  [:s
   "Arcuense"
   ["viana-do-castelo" "arcos-de-valdevez" "arcuense-00340"]]
@@ -576,7 +577,7 @@
  [:s "Escola De Condução Alverca" [nil "alverca-00375"]]
  [:s "Rainha Santa" ["coimbra" "coimbra" "rainha-santa-00376"]]
  [:s "Almacoop" ["setubal" "almada" "almacoop-00377"]]
- [:s "Escola De Condução Nova Mafra" [nil "nova-mafra-00378"]]
+ [:s "Nova Mafra" ["lisboa" "mafra" "nova-mafra-00378"]]
  [:s "Escola De Condução Leiriense" [nil "leiriense-00380"]]
  [:s
   "Auto Volante de Chaves"
@@ -671,13 +672,13 @@
  [:s
   "O. Azul de Castro Marim"
   ["faro" "castro-marim" "o-azul-de-castro-marim-00446"]]
- [:s "ESCOLA DE CONDUÇÃO VR" [nil "vr-00447"]]
  [:s
   "Infante de Sagres - Vila Real de Stº António"
   ["faro"
    "vila-real-de-santo-antonio"
    "infante-sagresvila-real-de-santo-antonio-00447"]]
- [:s "Chamusca" ["santarem" "chamusca" "chamusca-00448"]]
+ [:s "ESCOLA DE CONDUÇÃO VR" [nil "vr-00447"]]
+ [:s "Chamusca" ["santarem" "santarem" "chamusca-00448"]]
  [:s "Escola De Condução A3" [nil "a3-00449"]]
  [:s "Florbela" ["coimbra" "figueira-da-foz" "florbela-00450"]]
  [:s "Ourique" ["beja" "ourique" "ourique-00451"]]
@@ -782,7 +783,7 @@
  [:s "Mário Costa" ["braga" "fafe" "mario-costa-00505"]]
  [:s "Joanense" ["braga" "vila-nova-de-famalicao" "joanense-00506"]]
  [:s "Vizelense" ["braga" "vizela" "vizelense-00507"]]
- [:s "C.C.S." ["faro" "alcoutim" "ccs-00508"]]
+ [:s "C.C.S." ["faro" "faro" "ccs-00508"]]
  [:s
   "Infante de Sagres - Portimão I"
   ["faro" "portimao" "infante-sagresportimao-00509"]]
@@ -900,11 +901,11 @@
   "Infante de Sagres – Borba"
   ["evora" "borba" "infante-sagres-borba-00586"]]
  [:s
-  "Auto Dinâmica do Ave"
-  ["braga" "vieira-do-minho" "auto-dinamica-do-ave-00587"]]
- [:s
   "Escola De Condução Nascente Do Ave"
   [nil "nascente-do-ave-00587"]]
+ [:s
+  "Auto Dinâmica do Ave"
+  ["braga" "vieira-do-minho" "auto-dinamica-do-ave-00587"]]
  [:s "Batalhense" ["leiria" "batalha" "batalhense-00588"]]
  [:s
   "Volante do Lima"
@@ -917,10 +918,10 @@
   "Escola De Condução Infante Sagres - Meda"
   [nil "infante-sagres-meda-00593"]]
  [:s "Oliveira" ["porto" "maia" "oliveira-00594"]]
- [:s "Escola De Condução S Bartolomeu" [nil "s-bartolomeu-00595"]]
+ [:s "S. Bartolomeu" ["braganca" "vimioso" "s-bartolomeu-00595"]]
  [:s "Auto Nisse" ["evora" "vila-vicosa" "autonisse-00596"]]
  [:s "Maringá" ["leiria" "leiria" "maringa-00597"]]
- [:s "Salvaterra" ["lisboa" "vila-franca-de-xira" "salvaterra-00598"]]
+ [:s "Salvaterra" ["lisboa" "loures" "salvaterra-00598"]]
  [:s "Verde Minho" ["braga" "vila-verde" "verde-minho-00599"]]
  [:s
   "Rainha Santa Mafalda"
@@ -947,7 +948,7 @@
  [:s "Castrense" ["viseu" "castro-daire" "castrense-00611"]]
  [:s
   "Senhora da Esperança"
-  ["castelo-branco" "belmonte" "sra-esperanca-00612"]]
+  ["castelo-branco" "covilha" "sra-esperanca-00612"]]
  [:s "Fátima" ["santarem" "ourem" "fatima-00613"]]
  [:s "Extra" ["lisboa" "loures" "extra-00614"]]
  [:s "Rotações" ["setubal" "barreiro" "rotacoes-00615"]]
@@ -964,10 +965,10 @@
  [:s "Estoril" ["lisboa" "cascais" "estoril-00623"]]
  [:s "Escola De Condução J.C.Drive" [nil "jcdrive-00624"]]
  [:s "José Relvas" ["santarem" "alpiarca" "jose-relvas-00625"]]
+ [:s "Celas" ["coimbra" "coimbra" "celas-00626"]]
  [:s "Siiimpletunas" ["coimbra" "coimbra" "siiimpletunas-00626"]]
- [:s "ESCOLA DE CONDUÇÃO CELAS" [nil "celas-00626"]]
  [:s "Carmo" ["beja" "moura" "do-carmo-00627"]]
- [:s "Avenida" ["evora" "vendas-novas" "avenida-00628"]]
+ [:s "Avenida" ["leiria" "figueiro-dos-vinhos" "avenida-00628"]]
  [:s
   "Conde de Marialva"
   ["santarem" "salvaterra-de-magos" "conde-de-marialva-00629"]]
@@ -989,7 +990,7 @@
  [:s
   "Academia Albufeira"
   ["faro" "albufeira" "academia-albufeira-00637"]]
- [:s "S. João da Talha" ["lisboa" "loures" "sao-joao-da-talha-00640"]]
+ [:s "S. João da Talha" ["lisboa" "lisboa" "sao-joao-da-talha-00640"]]
  [:s "Sorraia" ["santarem" "coruche" "sorraia-00641"]]
  [:s
   "Infante Sagres –Miradouro"
@@ -1129,10 +1130,10 @@
   "Nova Técnica"
   ["castelo-branco" "castelo-branco" "nova-tecnica-00743"]]
  [:s "De Lobão" ["aveiro" "santa-maria-da-feira" "lobao-00744"]]
+ [:s "Tyrsense" ["porto" "santo-tirso" "tyrsense-00746"]]
  [:s
   "Escola De Condução Dinâmica Do Vez"
   [nil "dinamica-do-vez-00746"]]
- [:s "Tyrsense" ["porto" "santo-tirso" "tyrsense-00746"]]
  [:s
   "Alto das Cerejas"
   ["viana-do-castelo"
@@ -1148,8 +1149,8 @@
  [:s "H.L." ["faro" "faro" "hl-00757"]]
  [:s "Campelos" ["lisboa" "torres-vedras" "campelos-00758"]]
  [:s "Oceâno" ["lisboa" "torres-vedras" "oceano-00759"]]
- [:s "Escola De Condução Auto Stop" [nil "auto-stop-00760"]]
  [:s "IP4" ["vila-real" "vila-real" "ip4-00760"]]
+ [:s "Escola De Condução Auto Stop" [nil "auto-stop-00760"]]
  [:s "A Nortenha" ["porto" "lousada" "a-nortenha-00761"]]
  [:s
   "Inovação"
@@ -1241,8 +1242,8 @@
   "Da Vila de A-dos-Cunhados"
   ["lisboa" "torres-vedras" "vila-de-adoscunhados-00828"]]
  [:s "Gerês" ["braga" "terras-de-bouro" "geres-00829"]]
- [:s "Escola De Condução Reis Armamar" [nil "reis-armamar-00830"]]
  [:s "Douro Sul" ["viseu" "armamar" "douro-sul-00830"]]
+ [:s "Escola De Condução Reis Armamar" [nil "reis-armamar-00830"]]
  [:s
   "Dinâmica Drive"
   ["braga" "povoa-de-lanhoso" "dinamica-drive-00831"]]
@@ -1272,9 +1273,7 @@
   [nil "sargaco-sargaco-00848"]]
  [:s "Quatro Rodas" ["porto" "felgueiras" "quatro-rodas-00849"]]
  [:s "Rodoviária" ["porto" "valongo" "rodoviaria-00850"]]
- [:s
-  "Escola de Condução SOUSA & BATISTA"
-  ["porto" "vila-do-conde" "sousa-batista-00851"]]
+ [:s "Sousa e Batista" ["porto" "vila-do-conde" "sousa-batista-00851"]]
  [:s "Campo" ["porto" "valongo" "campo-00852"]]
  [:s "Águas Santas" ["porto" "maia" "aguas-santas-00853"]]
  [:s
@@ -1309,7 +1308,7 @@
  [:s
   "Batalhense de Leiria"
   ["leiria" "leiria" "batalhense-de-leiria-00872"]]
- [:s "Egas Moniz" ["viseu" "lamego" "egas-moniz-00873"]]
+ [:s "Egas Moniz" ["lisboa" "cascais" "egas-moniz-00873"]]
  [:s "Escola De Condução Algarve" [nil "algarve-00874"]]
  [:s "Ermesindense" ["porto" "valongo" "ermesindense-00875"]]
  [:s "Ideal de Paredes" ["porto" "paredes" "ideal-de-paredes-00876"]]
@@ -1358,11 +1357,11 @@
   "Soutelos"
   ["viana-do-castelo" "paredes-de-coura" "soutelos-00899"]]
  [:s
-  "Escola de Condução Grand Tour"
-  ["viseu" "tondela" "grand-tour-00900"]]
- [:s
   "Escola De Condução Armando Machado Da Cruz"
   [nil "armando-machado-da-cruz-00900"]]
+ [:s
+  "Escola de Condução Grand Tour"
+  ["viseu" "tondela" "grand-tour-00900"]]
  [:s "Armando Cruz" ["viseu" "viseu" "armando-cruz-00901"]]
  [:s "Ancorensis" ["viana-do-castelo" "caminha" "ancorensis-00902"]]
  [:s "Freamundus" ["porto" "pacos-de-ferreira" "freamundus-00903"]]
@@ -1538,11 +1537,11 @@
  [:s "Castêlo da Maia" ["porto" "maia" "castelo-da-maia-01049"]]
  [:s "Academia do Volante" ["faro" "faro" "academia-do-volante-01050"]]
  [:s "Projecto 4" ["porto" "gondomar" "projecto-4-01051"]]
- [:s "Good" ["lisboa" "odivelas" "good-01052"]]
+ [:s "Good" ["lisboa" "mafra" "good-01052"]]
  [:s "Olho Azul" ["beja" "odemira" "olho-azul-01053"]]
  [:s "Quinta das Fontes" ["braga" "braga" "quinta-das-fontes-01054"]]
  [:s "O Basto" ["braga" "cabeceiras-de-basto" "o-basto-01055"]]
- [:s "Escola De Condução D Chama" [nil "d-chama-01057"]]
+ [:s "D. Chama" ["vila-real" "valpacos" "d-chama-01057"]]
  [:s "Escola De Condução S Verissimo" [nil "s-verissimo-01058"]]
  [:s "Meiriformação" ["leiria" "pombal" "meiriformacao-01059"]]
  [:s
@@ -1551,7 +1550,7 @@
  [:s "Via Maior" ["santarem" "rio-maior" "via-maior-01061"]]
  [:s "Bateira" ["viseu" "cinfaes" "bateira-01062"]]
  [:s "Júlio Dinis" ["aveiro" "ovar" "julio-dinis-01063"]]
- [:s "Oeste" ["leiria" "obidos" "oeste-01064"]]
+ [:s "Oeste" ["leiria" "caldas-da-rainha" "oeste-01064"]]
  [:s "Escola De Condução S Tiago" [nil "s-tiago-01067"]]
  [:s "Visiense" ["viseu" "viseu" "visiense-01068"]]
  [:s "Zita" ["coimbra" "cantanhede" "zita-01069"]]
@@ -1562,17 +1561,17 @@
   ["porto" "vila-nova-de-gaia" "euro-boavista-01072"]]
  [:s "Baptista" ["viseu" "sao-pedro-do-sul" "baptista-01073"]]
  [:s "Estrada Segura" ["viseu" "viseu" "estrada-segura-01074"]]
- [:s "De Repeses" ["viseu" "viseu" "repeses-01075"]]
  [:s "Escola De Condução Auto Dão" [nil "auto-dao-01075"]]
+ [:s "De Repeses" ["viseu" "viseu" "repeses-01075"]]
  [:s "Via Única" ["porto" "gondomar" "via-unica-01076"]]
  [:s
   "Ponto de Partida"
   ["vila-real" "vila-real" "ponto-de-partida-01077"]]
  [:s "Lusíada" ["braga" "amares" "lusiada-01078"]]
- [:s "Escola De Condução Prestige" [nil "prestige-01079"]]
  [:s "Mota Galiza" ["porto" "porto" "mota-galiza-01079"]]
+ [:s "Escola De Condução Prestige" [nil "prestige-01079"]]
  [:s "Marvila" ["lisboa" "lisboa" "marvila-01080"]]
- [:s "Escola De Condução Boliqueime" [nil "boliqueime-01081"]]
+ [:s "Boliqueime" ["faro" "loule" "boliqueime-01081"]]
  [:s
   "Estrela de Albergaria dos Doze"
   ["leiria" "pombal" "estrela-de-albergaria-dos-doze-01082"]]
@@ -1580,7 +1579,7 @@
  [:s "Driver´s Club" ["setubal" "sesimbra" "drivers-club-01084"]]
  [:s "S. Domingos" ["santarem" "santarem" "s-domingos-01085"]]
  [:s "Lagoense" ["faro" "lagoa" "lagoense-01086"]]
- [:s "Via S" ["aveiro" "mealhada" "via-s-01087"]]
+ [:s "Via S" ["aveiro" "anadia" "via-s-01087"]]
  [:s
   "Cercal do Alentejo"
   ["setubal" "santiago-do-cacem" "cercal-do-alentejo-01088"]]
@@ -1681,7 +1680,7 @@
  [:s "Fatimense" ["santarem" "ourem" "fatimense-01158"]]
  [:s "Vila Portel" ["evora" "portel" "vila-portel-01159"]]
  [:s "Cidade Florida" ["santarem" "abrantes" "cidade-florida-01161"]]
- [:s "Escola De Condução Do Juncal" [nil "do-juncal-01162"]]
+ [:s "Juncal" ["santarem" "almeirim" "do-juncal-01162"]]
  [:s "Riachense" ["leiria" "batalha" "riachense-01163"]]
  [:s "Freixieiro" ["porto" "matosinhos" "freixieiro-01164"]]
  [:s "Rodovia" ["viseu" "oliveira-de-frades" "rodovia-01165"]]
@@ -1692,7 +1691,7 @@
  [:s
   "Esteves da Vieira"
   ["leiria" "marinha-grande" "esteves-da-vieira-01170"]]
- [:s "Escola De Condução Mação" [nil "macao-01171"]]
+ [:s "Mação" ["santarem" "macao" "macao-01171"]]
  [:s
   "Dois Volantes"
   ["porto" "pacos-de-ferreira" "dois-volantes-01172"]]
@@ -1703,7 +1702,7 @@
  [:s
   "S. Vicente de Alfena"
   ["porto" "valongo" "s-vicente-de-alfena-01177"]]
- [:s "Escola De Condução O Motorista" [nil "o-motorista-01179"]]
+ [:s "O Motorista" ["porto" "felgueiras" "o-motorista-01179"]]
  [:s "Vila de Oeiras" ["lisboa" "oeiras" "vila-de-oeiras-01180"]]
  [:s "Ebenézer" ["lisboa" "odivelas" "ebenezer-01181"]]
  [:s "Rio Tinto" ["porto" "gondomar" "rio-tinto-01182"]]
@@ -1731,7 +1730,9 @@
  [:s "Sinal Vertical" ["aveiro" "aveiro" "sinal-vertical-01198"]]
  [:s "Leziria" ["santarem" "benavente" "leziria-01199"]]
  [:s "Nova Atitude" ["porto" "vila-nova-de-gaia" "nova-atitude-01200"]]
- [:s "Escola De Condução Moncorvense" [nil "moncorvense-01201"]]
+ [:s
+  "Moncorvense"
+  ["braganca" "torre-de-moncorvo" "moncorvense-01201"]]
  [:s
   "Andrade de Azeitão"
   ["setubal" "setubal" "andrade-de-azeitao-01202"]]
@@ -1751,11 +1752,11 @@
  [:s "Prodouro" ["viseu" "sao-joao-da-pesqueira" "prodouro-01214"]]
  [:s "Nova Asseiceira" ["setubal" "almada" "nova-asseiceira-01215"]]
  [:s
-  "Escola De Condução Estrela Do Caima"
-  [nil "estrela-do-caima-01216"]]
- [:s
   "ESCOLA DE CONDUÇÃO CALOIRA DE ESTARREJA"
   [nil "caloira-de-estarreja-01216"]]
+ [:s
+  "Escola De Condução Estrela Do Caima"
+  [nil "estrela-do-caima-01216"]]
  [:s "Actual" ["aveiro" "arouca" "actual-01218"]]
  [:s "Maré" ["aveiro" "ovar" "mare-01219"]]
  [:s "Lobos do Mar" ["porto" "povoa-de-varzim" "lobos-do-mar-01220"]]
@@ -1804,8 +1805,8 @@
  [:s "Nova Expo" ["lisboa" "lisboa" "nova-expo-01254"]]
  [:s "Fidalguinhos" ["setubal" "barreiro" "fidalguinhos-01255"]]
  [:s "Campo Grande" ["lisboa" "lisboa" "campo-grande-01256"]]
- [:s "ESCOLA DE CONDUÇÃO SIIIMPLETEJO" [nil "siiimpletejo-01257"]]
  [:s "Escola De Condução Inicios" [nil "inicios-01257"]]
+ [:s "ESCOLA DE CONDUÇÃO SIIIMPLETEJO" [nil "siiimpletejo-01257"]]
  [:s "Escola De Condução Espiral" [nil "espiral-01258"]]
  [:s "Topdrive" ["setubal" "seixal" "topdrive-01259"]]
  [:s "Aléu" ["vila-real" "vila-real" "aleu-01260"]]
@@ -1840,7 +1841,7 @@
  [:s "Profissional" ["lisboa" "oeiras" "profissional-01284"]]
  [:s "Charneca" ["setubal" "almada" "charneca-01285"]]
  [:s "Porto Salvo" ["lisboa" "oeiras" "porto-salvo-01286"]]
- [:s "Montejunto" ["lisboa" "cadaval" "montejunto-01287"]]
+ [:s "Montejunto" ["lisboa" "alenquer" "montejunto-01287"]]
  [:s "Escola De Condução X-Perfeito" [nil "xperfeito-01288"]]
  [:s "Nova de Loulé" ["faro" "loule" "nova-de-loule-01289"]]
  [:s "Escola De Condução Conduza Mais" [nil "conduza-mais-01290"]]
@@ -1863,8 +1864,8 @@
  [:s "Moliceiro" ["aveiro" "vagos" "moliceiro-01311"]]
  [:s "Guimaraescidade" ["braga" "guimaraes" "guimaraescidade-01312"]]
  [:s "Via Drive" ["viseu" "satao" "via-drive-01313"]]
- [:s "Prestige" ["aveiro" "aveiro" "prestige-01314"]]
- [:s "Escola De Condução Malhoa" [nil "malhoa-01314"]]
+ [:s "Malhoa" ["leiria" "caldas-da-rainha" "malhoa-01314"]]
+ [:s "Prestige" ["leiria" "caldas-da-rainha" "prestige-01314"]]
  [:s "Solum" ["coimbra" "coimbra" "solum-01315"]]
  [:s "Escola De Condução De Barrosas" [nil "barrosas-01316"]]
  [:s "Taveiro" ["coimbra" "coimbra" "taveiro-01318"]]
@@ -1915,8 +1916,8 @@
  [:s
   "Escola de Condução de Bustos"
   ["aveiro" "oliveira-do-bairro" "bustos-01348"]]
- [:s "Escola De Condução Nova Mira" [nil "nova-mira-01349"]]
  [:s "Nova de Tomar" ["santarem" "tomar" "nova-de-tomar-01349"]]
+ [:s "Escola De Condução Nova Mira" [nil "nova-mira-01349"]]
  [:s "Carristur" ["lisboa" "lisboa" "carristur-01350"]]
  [:s "Faro em Movimento" ["faro" "faro" "faro-em-movimento-01351"]]
  [:s "Ramalde" ["porto" "porto" "ramalde-01352"]]
@@ -1935,7 +1936,7 @@
  [:s "Crystal" ["porto" "amarante" "crystal-01361"]]
  [:s "Ílhavo" ["aveiro" "ilhavo" "ilhavo-01362"]]
  [:s "Linha de Cascais" ["lisboa" "cascais" "linha-de-cascais-01363"]]
- [:s "Nova de Setúbal" ["setubal" "seixal" "nova-de-setubal-01364"]]
+ [:s "Nova de Setúbal" ["setubal" "setubal" "nova-de-setubal-01364"]]
  [:s "Costa" ["porto" "valongo" "costa-01365"]]
  [:s
   "Marinha das Ondas"
@@ -1985,7 +1986,7 @@
  [:s "Ferrara" ["porto" "pacos-de-ferreira" "ferrara-01397"]]
  [:s "Estação" ["lisboa" "sintra" "estacao-01398"]]
  [:s "Escola De Condução Arca D'Água" [nil "arca-dagua-01399"]]
- [:s "A Sebastiana" ["porto" "povoa-de-varzim" "a-sebastiana-01400"]]
+ [:s "A Sebastiana" ["porto" "pacos-de-ferreira" "a-sebastiana-01400"]]
  [:s
   "Alverca Rio"
   ["lisboa" "vila-franca-de-xira" "alverca-rio-01401"]]
@@ -2002,7 +2003,7 @@
   ["lisboa" "vila-franca-de-xira" "castanheira-do-ribatejo-01412"]]
  [:s "NovaZêzere" ["santarem" "ferreira-do-zezere" "novazezere-01413"]]
  [:s "Lombos" ["lisboa" "oeiras" "dos-lombos-01414"]]
- [:s "Arede" ["guarda" "fornos-de-algodres" "arede-01415"]]
+ [:s "Arede" ["coimbra" "tabua" "arede-01415"]]
  [:s "Nova Fafe" ["braga" "fafe" "nova-fafe-01416"]]
  [:s "Royal" ["porto" "paredes" "royal-01417"]]
  [:s "Escola de Condução Nova Caldense" [nil "nova-caldense-01418"]]

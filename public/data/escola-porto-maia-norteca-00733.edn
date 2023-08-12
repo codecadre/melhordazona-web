@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª do Lidador nº 185 4425-116 ÁGUAS SANTAS",
   :name "Norteca",
+  :href-id #uuid "d6963fce-6534-3463-8ab8-c19608c721ca",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Norteca695.aspx",
@@ -94,6 +95,8 @@
   :nec 733,
   :cp7 "4425-116",
   :id #uuid "ba5db34b-a3a2-379a-bdc0-567310353ad3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/d6963fce-norteca.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode

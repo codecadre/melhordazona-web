@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua José Moreira Rato, Nº 6-A 2780-634 PAÇO DE ARCOS",
   :name "Paço D’ Arcos",
+  :href-id #uuid "68a05863-1890-3008-8fca-3259b9ee161d",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PacoD%e2%80%99Arcos763.aspx",
@@ -94,6 +95,8 @@
   :nec 585,
   :cp7 "2780-634",
   :id #uuid "594079db-16c1-3425-9788-ad7662563aa2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/68a05863-paco-d-arcos.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"},
  :geocode

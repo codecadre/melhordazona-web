@@ -88,6 +88,7 @@
  {:address
   "Rua José Prudêncio Vieira, Lote 17 - Loja C 8365-149 ARMAÇÃO DE PERA",
   :name "Cunha e Ferreira",
+  :href-id #uuid "727466fb-d2af-3555-8434-e92855ea3514",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cunha%20e%20Ferreira.aspx",
@@ -95,6 +96,8 @@
   :nec 957,
   :cp7 "8365-149",
   :id #uuid "5d682ecf-4e50-3545-be30-632dc5ef1aa4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/silves/727466fb-cunha-e-ferreira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Silves"},
  :geocode

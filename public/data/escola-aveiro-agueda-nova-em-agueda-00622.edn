@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Amaro Castela, nº 1, Fração B, 3550–124 Águeda",
   :name "Nova em Águeda",
+  :href-id #uuid "de891a4c-be0e-37fe-b607-4a7998fff4a5",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Novaem%c3%81gueda.aspx",
@@ -94,6 +95,8 @@
   :nec 622,
   :cp7 "3550-124",
   :id #uuid "ae16434b-d055-3313-9276-b71a0fb6703e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/de891a4c-nova-em-agueda.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
  :geocode

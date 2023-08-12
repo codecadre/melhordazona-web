@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Nuno Tristão, 1 B, 2830-095 Barreiro",
   :name "Seixalinho",
+  :href-id #uuid "b89184f6-737b-3165-93af-196d40c6a93b",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Seixalinho.aspx",
@@ -94,6 +95,8 @@
   :nec 1279,
   :cp7 "2830-095",
   :id #uuid "204fd63b-ef82-3f11-a166-e882e0eb13ef",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/barreiro/b89184f6-seixalinho.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Barreiro"},
  :geocode

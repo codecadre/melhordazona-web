@@ -88,6 +88,7 @@
  {:address
   "Quinta da Arancária, Lote 1 – Bloco A – loja 1 5000-000 VILA REAL (SÃO PEDRO)",
   :name "Stop Real",
+  :href-id #uuid "140e7fb6-53ba-317a-963a-f53ae4c098bb",
   :distrito "Vila Real",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/StopReal992.aspx",
@@ -95,5 +96,7 @@
   :nec 1130,
   :cp7 "5000-000",
   :id #uuid "9cdf692d-dbf7-3d55-8608-6c0dce36e684",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/vila-real/vila-real/140e7fb6-stop-real.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=vilareal&Concelho=Vila%20Real"}}

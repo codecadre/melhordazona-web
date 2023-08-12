@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Delfim de Lima, nº 373 4405-278 CANELAS",
   :name "Euro 2000",
+  :href-id #uuid "a078a908-9278-3457-83be-233dac6ff8a3",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Euro2000430.aspx",
@@ -94,5 +95,16 @@
   :nec 970,
   :cp7 "4405-278",
   :id #uuid "3d563765-78e2-34c2-9f94-821affbaeb5d",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/a078a908-euro-2000.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
+ :geocode
+ {:address "Rua Delfim de Lima, nº 373 4405-278 CANELAS",
+  :address-c
+  "Rua Delfim de Lima 373, 4410-228, Boavista, Vila Nova de Gaia, Porto",
+  :postal-c "4410-228",
+  :x -8.598679978679,
+  :y 41.067220019674,
+  :score 93.86,
+  :c 1}}

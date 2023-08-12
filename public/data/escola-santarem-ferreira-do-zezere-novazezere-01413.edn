@@ -46,6 +46,7 @@
  {:address
   "Rua Nossa Senhora da Graça, n.º 866, 2240-028 Águas Belas FZZ",
   :name "NovaZêzere",
+  :href-id #uuid "6ef1dc39-950f-305d-a760-daa2ed5d5e10",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaZ%c3%aazere.aspx",
@@ -53,6 +54,8 @@
   :nec 1413,
   :cp7 "2240-028",
   :id #uuid "977b37ec-d7fb-3ca7-866f-51b04683aeb5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/ferreira-do-zezere/6ef1dc39-novazezere.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Ferreira%20do%20Z%C3%AAzere"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Urbanização do Sobral, Lote nº 3, 2ª Fase 4990-144 PONTE DE LIMA",
   :name "Volante do Lima",
+  :href-id #uuid "f1140344-75af-3d8f-a34e-7f2de86f19ba",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolantedoLima1084.aspx",
@@ -95,6 +96,8 @@
   :nec 590,
   :cp7 "4990-144",
   :id #uuid "6eeb2768-bc3a-358d-9b48-e265e8af54f1",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/f1140344-volante-do-lima.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
  :geocode

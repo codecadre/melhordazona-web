@@ -89,6 +89,7 @@
    {:address
     "Rua Artur Costa, Nº 12 r/c 6440-031 FIGUEIRA CASTELO RODRIGO",
     :name "Figueirense",
+    :href-id #uuid "8a8082c2-1c0f-3d09-af6d-73678aea0d42",
     :distrito "Guarda",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Figueirense456.aspx",
@@ -96,6 +97,8 @@
     :nec 322,
     :cp7 "6440-031",
     :id #uuid "ea61980c-87b7-3d32-a836-64d3913ab2d4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/figueira-de-castelo-rodrigo/8a8082c2-figueirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Figueira%20Castelo%20Rodrigo"},
    :geocode

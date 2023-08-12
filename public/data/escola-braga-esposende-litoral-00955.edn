@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar de Cepães - Edifício S. Miguel 4740-571 MARINHAS",
   :name "Litoral",
+  :href-id #uuid "2df14b9a-f96b-30e7-8f6f-258306ac8b8f",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Litoral600.aspx",
@@ -94,6 +95,8 @@
   :nec 955,
   :cp7 "4740-571",
   :id #uuid "ec0bd522-749b-394c-811f-a19042e994f7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/esposende/2df14b9a-litoral.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Esposende"},
  :geocode

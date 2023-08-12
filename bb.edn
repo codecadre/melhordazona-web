@@ -1,4 +1,4 @@
-{:paths ["public/src/clj/" "public/config_files" "src/clj/" "recepies" "test/"]
+{:paths ["public/src/clj/" "public/config_files" "src/clj/" "recepies" "test/" "aggregate-transform-load/src/clj"]
  :pods {tzzh/mail {:version "0.0.2"}
         retrogradeorbit/bootleg {:version "0.1.9"}}
  :deps {com.github.askonomm/clarktown {:mvn/version "1.1.2"}
@@ -29,4 +29,11 @@
                      (run 'md-to-html))
                    (run 'beautify)))}
   sitemap {:doc "builds sitemap.txt"
-           :task (shell "bb src/clj/sitemap.clj")}}}
+           :task (shell "bb src/clj/sitemap.clj")}
+  cp7-addresses-geocoding {:doc "geocodes addresses with esri. Pass n or nil to control the number of cp7 done."
+                          :task cp7/-main}
+  produce-data {:doc "Produces a lot of things... TODO complete description"
+                :task produce-full-dataset/-main}
+  web-data {:doc "propagates data changes from last step to web components"
+            :task (shell "bb src/clj/web_data.clj")}}
+ }

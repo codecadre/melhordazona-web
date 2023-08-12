@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. José Sabino Louro 1 r/c Dtº 2665-240 MAFRA",
   :name "Automóvel Capote",
+  :href-id #uuid "d980c8cf-f5d2-3c63-ab6a-bf5159871d20",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutomovelCapote194.aspx",
@@ -94,6 +95,8 @@
   :nec 440,
   :cp7 "2665-240",
   :id #uuid "ad1c101b-192e-3f0f-9162-a512b049d9ee",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/d980c8cf-automovel-capote.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
  :geocode

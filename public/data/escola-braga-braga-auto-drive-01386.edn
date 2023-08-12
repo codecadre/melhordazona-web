@@ -59,6 +59,7 @@
  :imt-profile
  {:address "Rua de Santo Adrião, n.º 110, 4715-048 Braga",
   :name "Auto Drive",
+  :href-id #uuid "0f0a5f7e-634b-3a8c-bd4e-a98e22355960",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoDrive.aspx",
@@ -66,6 +67,8 @@
   :nec 1386,
   :cp7 "4715-048",
   :id #uuid "e0f20bd8-c481-3f85-a506-77541d94c80a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/0f0a5f7e-auto-drive.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode

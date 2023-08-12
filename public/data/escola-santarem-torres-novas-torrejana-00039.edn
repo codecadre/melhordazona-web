@@ -88,6 +88,7 @@
  {:address
   "Largo Movimento das Forças Armadas, Nº 3 2350-754 TORRES NOVAS",
   :name "Torrejana",
+  :href-id #uuid "09656f66-f232-3e4b-8e32-bd28ed297707",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Torrejana1016.aspx",
@@ -95,6 +96,8 @@
   :nec 39,
   :cp7 "2350-754",
   :id #uuid "30589f06-0ea4-36a3-89b6-3a4525381053",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/torres-novas/09656f66-torrejana.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Torres%20Novas"},
  :geocode

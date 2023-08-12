@@ -88,6 +88,7 @@
  {:address
   "Rua Palos de La Frontera, Lote 14, Loja A - 8600-707 LAGOS",
   :name "Hora de Ponta",
+  :href-id #uuid "d44628b2-9002-3b3a-b999-d4c04d85881c",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/HoradePonta.aspx",
@@ -95,6 +96,8 @@
   :nec 1277,
   :cp7 "8600-707",
   :id #uuid "6c709059-ec5f-32ca-9f97-5ecd2203561f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/lagos/d44628b2-hora-de-ponta.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Lagos"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Conde Alto Mearim 1416 4450-031 MATOSINHOS",
   :name "Europa",
+  :href-id #uuid "709f2342-547a-3afe-b33b-cb4226399403",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Europa433.aspx",
@@ -94,6 +95,8 @@
   :nec 707,
   :cp7 "4450-031",
   :id #uuid "14287a15-a5ca-3d48-872e-75a4975599e0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/709f2342-europa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode

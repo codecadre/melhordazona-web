@@ -59,6 +59,7 @@
  :imt-profile
  {:address "Rua Afonso Albuquerque, n.º 10, 2765-515 Estoril",
   :name "São João",
+  :href-id #uuid "751690cf-f4a4-33ed-b944-bf554355c91e",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/S%c3%a3oJo%c3%a3o.aspx",
@@ -66,6 +67,8 @@
   :nec 1391,
   :cp7 "2765-515",
   :id #uuid "0f5caa24-93e8-37b4-a3f7-8234a91dd443",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/cascais/751690cf-sao-joao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Cascais"},
  :geocode

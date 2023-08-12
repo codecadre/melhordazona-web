@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar de Feira Nova 4625-049 ARIZ",
   :name "Feira Nova – Ensino da Condução Automóvel",
+  :href-id #uuid "4e0a25b5-c2a0-3c46-b580-387c4dcdd0cc",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/FeiraNova%e2%80%93EnsinodaConducaoAutomovel448.aspx",
@@ -94,6 +95,8 @@
   :nec 817,
   :cp7 "4625-049",
   :id #uuid "0d3c6c37-a2cb-3b0c-8cbf-d0dbb9d70ab4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/4e0a25b5-feira-nova-ensino-da-conducao-automovel.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
  :geocode

@@ -88,6 +88,7 @@
  {:address
   "Avª Comandante Augusto Martins Pereira-Edf Sobreiral 3740-255 SEVER DO VOUGA",
   :name "Convida",
+  :href-id #uuid "65bff1e6-0eb0-307a-adec-f61e019eec10",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Convida334.aspx",
@@ -95,6 +96,8 @@
   :nec 1196,
   :cp7 "3740-255",
   :id #uuid "99abaedd-12d2-36c9-bebd-d0231fd202e2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/sever-do-vouga/65bff1e6-convida.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Sever%20do%20Vouga"},
  :geocode

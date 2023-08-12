@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua da Mainça, Nº 79 R/c 4465-197 SÃO MAMEDE de INFESTA",
     :name "S. Mamede",
+    :href-id #uuid "be53a517-e3f4-362b-bfad-c5c3dfadd8e3",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SMamede891.aspx",
@@ -95,6 +96,8 @@
     :nec 53,
     :cp7 "4465-197",
     :id #uuid "87bcb4b1-de3a-3d8b-a3f5-e67793a94667",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/be53a517-s-mamede.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Av. Serpa Pinto, n.º 481 - Loja B ; 4450-282 Matosinhos",
     :name "Oficina do Condutor",
+    :href-id #uuid "b5d6c6ca-771c-3db3-8c90-ee716a65e5cd",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OficinadoCondutor.aspx",
@@ -204,14 +208,17 @@
     :nec 457,
     :cp7 "4450-282",
     :id #uuid "d7068da6-89f0-3086-b531-7f214e89881b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/b5d6c6ca-oficina-do-condutor.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
-   {:cp7 "4450-282",
+   {:address "Av. Serpa Pinto, n.º 481 - Loja B ; 4450-282 Matosinhos",
+    :address-c "Avenida Serpa Pinto 481, 4450-282, Matosinhos, Porto",
     :postal-c "4450-282",
-    :x -8.692644968951413,
-    :y 41.18237001876457,
-    :score 100,
+    :x -8.692814881938,
+    :y 41.182446650856,
+    :score 95.58,
     :c 1}}]
  ["senhora-da-hora-00499"
   {:nec 499,
@@ -303,6 +310,7 @@
    :imt-profile
    {:address "Rua de S. Gens, 3289/3291, 4460-816 CUSTÓIAS MTS",
     :name "Senhora da Hora",
+    :href-id #uuid "3d568194-e5f7-3613-9d7e-136aceb7200d",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SenhoradaHora960.aspx",
@@ -310,6 +318,8 @@
     :nec 499,
     :cp7 "4460-816",
     :id #uuid "c35fd1d4-da00-3cca-b4cf-2de7a4175826",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/3d568194-senhora-da-hora.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -413,6 +423,7 @@
    {:address
     "Avª do Conde, nº 6263 – 1º Dtº 4465-099 SÃO MAMEDE DE INFESTA",
     :name "Brilhante",
+    :href-id #uuid "c552dc23-04fb-3569-b173-251541066cbd",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Brilhante265.aspx",
@@ -420,15 +431,21 @@
     :nec 500,
     :cp7 "4465-099",
     :id #uuid "91a1fcc7-a0fc-342d-800b-90e66f350950",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/c552dc23-brilhante.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
-   {:cp7 "4465-099",
+   {:id #uuid "91a1fcc7-a0fc-342d-800b-90e66f350950",
+    :address
+    "Avª do Conde, nº 6263 – 1º Dtº 4465-099 SÃO MAMEDE DE INFESTA",
+    :address-c
+    "Avenida do Conde 6263, 4465-099, São Mamede de Infesta, Matosinhos, Porto",
     :postal-c "4465-099",
-    :x -8.609479977101785,
-    :y 41.19364501964006,
-    :score 100,
-    :c 1}}]
+    :x -8.609908760382995,
+    :y 41.19343650968534,
+    :score 86.85,
+    :c 3}}]
  ["beira-mar-00515"
   {:nec 515,
    :rates
@@ -519,6 +536,7 @@
    :imt-profile
    {:address "Rua Dr. Afonso Cordeiro 154 4450-001 MATOSINHOS",
     :name "Beira Mar",
+    :href-id #uuid "c77e47b6-327b-37b5-8c2a-aa6fb91d1df7",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BeiraMar235.aspx",
@@ -526,6 +544,8 @@
     :nec 515,
     :cp7 "4450-001",
     :id #uuid "da4ed34d-0ff2-35e8-ab53-b7e76f5e6e5f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/c77e47b6-beira-mar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -628,6 +648,7 @@
    :imt-profile
    {:address "Av. Xanana Gusmão, nº 296, 4460-840 CUSTÓIAS MTS",
     :name "Aliança",
+    :href-id #uuid "46d5a9d9-293f-3a0e-ba6e-1865f0ad2eaa",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alianca083.aspx",
@@ -635,6 +656,8 @@
     :nec 647,
     :cp7 "4460-840",
     :id #uuid "c9ba0e7f-4ed2-3cf8-b22f-25a9f3f9dc44",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/46d5a9d9-alianca.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -737,6 +760,7 @@
    :imt-profile
    {:address "Rua Conde Alto Mearim 1416 4450-031 MATOSINHOS",
     :name "Europa",
+    :href-id #uuid "709f2342-547a-3afe-b33b-cb4226399403",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Europa433.aspx",
@@ -744,6 +768,8 @@
     :nec 707,
     :cp7 "4450-031",
     :id #uuid "14287a15-a5ca-3d48-872e-75a4975599e0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/709f2342-europa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -847,6 +873,7 @@
    {:address
     "Avª António Domingues dos Santos nº 301 4460 -237 SENHORA DA HORA",
     :name "Código & Norma",
+    :href-id #uuid "fd2177b8-c55b-33f4-81c3-ec338fc5d3d4",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CodigoNorma318.aspx",
@@ -854,15 +881,21 @@
     :nec 710,
     :cp7 "4460-237",
     :id #uuid "dc907f4c-0d69-3356-a2e7-065f2f6969b8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/fd2177b8-codigo-norma.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
-   {:cp7 "4460-237",
+   {:id #uuid "dc907f4c-0d69-3356-a2e7-065f2f6969b8",
+    :address
+    "Avª António Domingues dos Santos nº 301 4460 -237 SENHORA DA HORA",
+    :address-c
+    "Avenida António Domingues dos Santos 301, 4460-237, Senhora da Hora, Matosinhos, Porto",
     :postal-c "4460-237",
-    :x -8.65723997757641,
-    :y 41.18620000369205,
-    :score 100,
-    :c 1}}]
+    :x -8.657910026916255,
+    :y 41.186219994531115,
+    :score 92.86,
+    :c 2}}]
  ["milenium-00885"
   {:nec 885,
    :rates
@@ -954,6 +987,7 @@
    {:address
     "Estrada Exterior da Circunvalação nº 12692 4460-284 SENHORA da HORA",
     :name "Milénium",
+    :href-id #uuid "bf59f9b4-a3cc-3387-a5b7-6e9b7cf8496d",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Milenium646.aspx",
@@ -961,6 +995,8 @@
     :nec 885,
     :cp7 "4460-284",
     :id #uuid "2b9e311d-8e1f-391d-a3d9-67d025d75b72",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/bf59f9b4-milenium.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -1061,6 +1097,7 @@
    {:address
     "Rua Bernardino Ribeiro, n º 66 4465-040 SÃO MAMEDE de INFESTA",
     :name "X 2000",
+    :href-id #uuid "9a3cbff0-bc2b-34e3-8864-2d817fcc8498",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/X20001091.aspx",
@@ -1068,14 +1105,20 @@
     :nec 893,
     :cp7 "4465-040",
     :id #uuid "5cab0928-663b-38a2-b8d0-781699f84a77",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/9a3cbff0-x-2000.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
-   {:cp7 "4465-040",
+   {:id #uuid "5cab0928-663b-38a2-b8d0-781699f84a77",
+    :address
+    "Rua Bernardino Ribeiro, n º 66 4465-040 SÃO MAMEDE de INFESTA",
+    :address-c
+    "Rua Bernardim Ribeiro 66, 4465-040, Seixo, Matosinhos, Porto",
     :postal-c "4465-040",
-    :x -8.628459958652257,
-    :y 41.180390003686966,
-    :score 100,
+    :x -8.62919002241884,
+    :y 41.18055001421857,
+    :score 93.58,
     :c 1}}]
  ["sentido-reversivel-01117"
   {:nec 1117,
@@ -1167,6 +1210,7 @@
    :imt-profile
    {:address "Avª Dr. Fernando Aroso 1242 4450-664 LEÇA da PALMEIRA",
     :name "Sentido Reversível",
+    :href-id #uuid "1892aa60-54b6-3af8-9264-87a03db1b210",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sentido%20Revers%c3%advel.aspx",
@@ -1174,15 +1218,20 @@
     :nec 1117,
     :cp7 "4450-664",
     :id #uuid "12c7a572-fa46-380f-b507-955eebacac8a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/1892aa60-sentido-reversivel.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
-   {:cp7 "4450-664",
+   {:id #uuid "12c7a572-fa46-380f-b507-955eebacac8a",
+    :address "Avª Dr. Fernando Aroso 1242 4450-664 LEÇA da PALMEIRA",
+    :address-c
+    "Avenida Doutor Fernando Aroso 1242, 4450-664, Amorosa, Matosinhos, Porto",
     :postal-c "4450-664",
-    :x -8.696224963616686,
-    :y 41.20020000319937,
-    :score 100,
-    :c 1}}]
+    :x -8.696209960010009,
+    :y 41.200890001468764,
+    :score 94.11,
+    :c 3}}]
  ["angeiras-01133"
   {:nec 1133,
    :rates
@@ -1273,6 +1322,7 @@
    :imt-profile
    {:address "Rua Quinta de Calvelhe nº 212 4455-196 LAVRA",
     :name "Angeiras",
+    :href-id #uuid "329075f4-b3d0-3136-8afd-616a5eda469e",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Angeiras110.aspx",
@@ -1280,6 +1330,8 @@
     :nec 1133,
     :cp7 "4455-196",
     :id #uuid "73ad5315-17dc-33cd-b31f-a06eeef0dd6a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/329075f4-angeiras.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -1383,6 +1435,7 @@
    {:address
     "Av. Joaquim Neves dos Santos, n.º 697 ; 4460-125 Guifões",
     :name "Guifões",
+    :href-id #uuid "c7400ec6-a61a-324a-b573-1455a9ed6c84",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Guifoes506.aspx",
@@ -1390,6 +1443,8 @@
     :nec 1137,
     :cp7 "4460-125",
     :id #uuid "fc305155-01d6-38ec-af89-03ce41307985",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/c7400ec6-guifoes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -1493,6 +1548,7 @@
    :imt-profile
    {:address "Av. Fernando Aroso, Nº 1028 4455-665 LEÇA da PALMEIRA",
     :name "Global",
+    :href-id #uuid "b09e6f46-84e9-33e3-9255-3bf50abd6209",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Global488.aspx",
@@ -1500,8 +1556,20 @@
     :nec 1150,
     :cp7 "4455-665",
     :id #uuid "9b8b8d63-f388-30f7-841e-51dfbd847911",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/b09e6f46-global.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
+   :geocode
+   {:id #uuid "9b8b8d63-f388-30f7-841e-51dfbd847911",
+    :address "Av. Fernando Aroso, Nº 1028 4455-665 LEÇA da PALMEIRA",
+    :address-c
+    "Avenida Doutor Fernando Aroso 1028, 4450-664, Amorosa, Matosinhos, Porto",
+    :postal-c "4450-664",
+    :x -8.696250025507169,
+    :y 41.19941998328986,
+    :score 93.84,
+    :c 1}}]
  ["freixieiro-01164"
   {:nec 1164,
    :rates
@@ -1592,6 +1660,7 @@
    :imt-profile
    {:address "Rua das Oliveiras, Nº 171 R/C Dtº 4455-515 PERAFITA",
     :name "Freixieiro",
+    :href-id #uuid "b5db0758-84fa-3a22-b06f-0cab4dff56db",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Freixieiro472.aspx",
@@ -1599,6 +1668,8 @@
     :nec 1164,
     :cp7 "4455-515",
     :id #uuid "76b5016f-655d-3ec5-9c27-140faa6e8d1b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/b5db0758-freixieiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -1701,6 +1772,7 @@
    :imt-profile
    {:address "Rua Fonte Velha, Nº 1252 R/C 4460-732 CUSTÓIAS MTS",
     :name "Defensiva",
+    :href-id #uuid "a8671aa1-05b3-3c00-9306-cec260b73e7a",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Defensiva381.aspx",
@@ -1708,6 +1780,8 @@
     :nec 1225,
     :cp7 "4460-732",
     :id #uuid "eb943b75-fb4e-39f2-b2dd-539a4a103e0d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/a8671aa1-defensiva.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode
@@ -1796,6 +1870,7 @@
    :imt-profile
    {:address "Rua da Cruz de Pau, n.º 116, 4450-103 Matosinhos",
     :name "Nova de Matosinhos",
+    :href-id #uuid "87d842d2-9742-30bd-bf7f-0c22a94573df",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeMatosinhos.aspx",
@@ -1803,6 +1878,8 @@
     :nec 1355,
     :cp7 "4450-103",
     :id #uuid "616b0129-2c05-39d8-95ff-d932bef29ab7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/87d842d2-nova-de-matosinhos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
    :geocode

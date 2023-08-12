@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Edificio de Merim - Fracção H, R/C 4990-343 FEITOSA",
   :name "Sucesso do Lima",
+  :href-id #uuid "b60d74fd-eff3-3d32-aa8e-a3b0258d9925",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SucessodoLima993.aspx",
@@ -94,6 +95,8 @@
   :nec 675,
   :cp7 "4990-343",
   :id #uuid "ccc148c8-fdaa-3899-8ef6-82a2e17b9022",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/b60d74fd-sucesso-do-lima.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
  :geocode

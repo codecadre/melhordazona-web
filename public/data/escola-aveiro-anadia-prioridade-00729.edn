@@ -88,6 +88,7 @@
  {:address
   "Av. Eng. Tavares da Silva, Fr. F, Bl. 2, Lj R/chão 3780-203 ANADIA",
   :name "Prioridade",
+  :href-id #uuid "894d3987-e661-34ec-badf-f921e74aece8",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prioridade816.aspx",
@@ -95,12 +96,18 @@
   :nec 729,
   :cp7 "3780-203",
   :id #uuid "02f251ad-1f7d-3cda-bd44-79e1a76f5df0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/anadia/894d3987-prioridade.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Anadia"},
  :geocode
- {:cp7 "3780-203",
+ {:id #uuid "02f251ad-1f7d-3cda-bd44-79e1a76f5df0",
+  :address
+  "Av. Eng. Tavares da Silva, Fr. F, Bl. 2, Lj R/chão 3780-203 ANADIA",
+  :address-c
+  "Avenida Engenheiro Tavares da Silva, 3780-203, Anadia, Aveiro",
   :postal-c "3780-203",
-  :x -8.437445018644183,
-  :y 40.43863000368637,
-  :score 100,
-  :c 1}}
+  :x -8.438649525599047,
+  :y 40.437667006914985,
+  :score 89.89,
+  :c 2}}

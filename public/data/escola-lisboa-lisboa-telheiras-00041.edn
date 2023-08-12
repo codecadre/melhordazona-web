@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Prof. Fernando da Fonseca, Nº 28-B 1600-620 LISBOA",
   :name "Telheiras",
+  :href-id #uuid "6e877a0c-f811-3545-af32-caa9782f8c2b",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Telheiras1001.aspx",
@@ -94,6 +95,8 @@
   :nec 41,
   :cp7 "1600-620",
   :id #uuid "0fb39c61-449c-3bfa-8fd5-5af024479eb9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/6e877a0c-telheiras.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

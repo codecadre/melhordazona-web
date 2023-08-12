@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Edifício Casa D' Alves - Barril 2640 -202 ENCARNAÇÃO",
   :name "Viazul",
+  :href-id #uuid "7381c21b-f77e-3fd6-8d4b-32e3502633b2",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Viazul1060.aspx",
@@ -94,6 +95,8 @@
   :nec 835,
   :cp7 "2640-202",
   :id #uuid "2eb18307-f01f-3628-a09d-90bab76e8fe9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/mafra/7381c21b-viazul.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Mafra"},
  :geocode

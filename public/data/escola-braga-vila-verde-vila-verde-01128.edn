@@ -88,6 +88,7 @@
  {:address
   "AvªGeneral Humberto Delgado, Nº 491 Fracção E 4730-717 VILA VERDE",
   :name "Verde Vila",
+  :href-id #uuid "56be972b-782e-304a-8c3c-f6fd78a32533",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VerdeVila1046.aspx",
@@ -95,6 +96,8 @@
   :nec 1128,
   :cp7 "4730-717",
   :id #uuid "6b441cf8-02c3-31f7-b2f7-e8c5ddfa7a22",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/56be972b-verde-vila.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"},
  :geocode

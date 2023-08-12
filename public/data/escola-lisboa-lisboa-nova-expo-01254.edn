@@ -86,14 +86,26 @@
    :r/t-done 511.0}],
  :imt-profile
  {:address
-  "Avª D. João II, Edificio Gil Eanes, Lote 1,13,03, Fracção H 1900-123 LISBOA",
+  "Av. D. João II Lote 1.06.2.1 Fração AR, 1990-095 de Lisboa",
   :name "Nova Expo",
+  :href-id #uuid "6692fa27-e97e-392d-9e87-a2d9a3498f8d",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaExpo711.aspx",
   :concelho "Lisboa",
   :nec 1254,
-  :cp7 "1900-123",
-  :id #uuid "89723612-1f5f-364e-ac0e-fd32cf62ca49",
+  :cp7 "1990-095",
+  :id #uuid "6b8c1966-cb87-3067-87dc-dff637b13ead",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/6692fa27-nova-expo.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
+ :geocode
+ {:address
+  "Av. D. João II Lote 1.06.2.1 Fração AR, 1990-095 de Lisboa",
+  :address-c "Avenida Dom João II 1, 1990, Lisboa",
+  :postal-c "1990",
+  :x -9.097682348032,
+  :y 38.770747927287,
+  :score 95.59,
+  :c 2}}

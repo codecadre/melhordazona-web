@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Trindade nº 45 4795-489 CAMPO (SÃO MARTINHO)",
   :name "Campense",
+  :href-id #uuid "e4c88cc0-d278-39c9-bd5a-222cb99a2b23",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Campense274.aspx",
@@ -94,6 +95,8 @@
   :nec 986,
   :cp7 "4795-489",
   :id #uuid "f20cfae7-da67-3063-9bb1-69a3c75b41c4",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/santo-tirso/e4c88cc0-campense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
  :geocode

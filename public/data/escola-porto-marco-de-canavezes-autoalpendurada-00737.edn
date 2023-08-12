@@ -32,6 +32,7 @@
  {:address
   "Lugar da Tapadinha - Edificio Tâmega Douro, Nº 1, Bloco B, Loja 48 e 49 4575-052 ALPENDURADA E MATOS",
   :name "Auto Alpendurada",
+  :href-id #uuid "776310c6-17db-3edb-bd2e-4d029818f265",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoAlpendurada139.aspx",
@@ -39,6 +40,8 @@
   :nec 737,
   :cp7 "4575-052",
   :id #uuid "44a1ea0f-5799-345b-b4be-b035613aa540",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/776310c6-auto-alpendurada.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
  :geocode

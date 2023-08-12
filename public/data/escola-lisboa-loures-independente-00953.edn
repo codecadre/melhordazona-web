@@ -74,6 +74,7 @@
  {:address
   "Avª Infante D. Henrique, Nº 14-C 2660-030 SANTO ANTÓNIO dos CAVALEIROS",
   :name "Independente",
+  :href-id #uuid "6948f6c3-daf8-39d9-bd1c-5930233caff0",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Independente522.aspx",
@@ -81,12 +82,18 @@
   :nec 953,
   :cp7 "2660-030",
   :id #uuid "de0ec4fd-26d9-3952-af2b-c29f26089fc8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/loures/6948f6c3-independente.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Loures"},
  :geocode
- {:cp7 "2660-030",
-  :postal-c "2660-030",
-  :x -9.154369984359647,
-  :y 38.81669498459283,
-  :score 100,
-  :c 1}}
+ {:id #uuid "de0ec4fd-26d9-3952-af2b-c29f26089fc8",
+  :address
+  "Avª Infante D. Henrique, Nº 14-C 2660-030 SANTO ANTÓNIO dos CAVALEIROS",
+  :address-c
+  "Avenida Infante Dom Henrique 14, 2660-450, Conventinho, Loures, Lisboa",
+  :postal-c "2660-450",
+  :x -9.161589988116901,
+  :y 38.81634001099334,
+  :score 88.31,
+  :c 50}}

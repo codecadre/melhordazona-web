@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Largo Nuno Álvares Pereira, nº4 4580-170 PAREDES",
     :name "Asa",
+    :href-id #uuid "9c30240d-1137-3b2a-a807-b44f377437e6",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Asa130.aspx",
@@ -95,6 +96,8 @@
     :nec 410,
     :cp7 "4580-170",
     :id #uuid "ead61692-23e8-37dd-8fc5-5832aed24c8f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/9c30240d-asa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
@@ -194,27 +197,29 @@
      :r/total-passed 157.0,
      :r/t-done 117.0}],
    :imt-profile
-   {:address "Rua Central da Gandra nº 1479 4585-116 GANDRA",
+   {:address "Rua Central da Gandra nº 1261 4585-248 GANDRA",
     :name "Pinheiro Manso",
+    :href-id #uuid "0f2498c8-b37e-32e4-8de3-851824661dd2",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PinheiroManso792.aspx",
     :concelho "Paredes",
     :nec 692,
-    :cp7 "4585-116",
-    :id #uuid "6b055c93-4b3f-36be-a426-1b59a49dfd23",
+    :cp7 "4585-248",
+    :id #uuid "8e24ee07-b865-3853-a7d8-5e57a9e7d61e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/0f2498c8-pinheiro-manso.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
-   {:id #uuid "6b055c93-4b3f-36be-a426-1b59a49dfd23",
-    :address "Rua Central da Gandra nº 1479 4585-116 GANDRA",
+   {:address "Rua Central da Gandra nº 1261 4585-248 GANDRA",
     :address-c
-    "Rua Central de Gandra 1479, 4585-248, Vilarinho de Cima, Paredes, Porto",
+    "Rua Central da Gandra 1261, 4585-248, Vilarinho de Cima, Paredes, Porto",
     :postal-c "4585-248",
-    :x -8.449562903517997,
-    :y 41.18497594011866,
-    :score 95.83,
-    :c 2}}]
+    :x -8.444789996578,
+    :y 41.182670007079,
+    :score 97.29,
+    :c 1}}]
  ["lord-00807"
   {:nec 807,
    :rates
@@ -305,6 +310,7 @@
    :imt-profile
    {:address "Rua Antero Ferreira Leal, nº 3003 4580-416 LORDELO",
     :name "Lord",
+    :href-id #uuid "f81d2ba4-a677-3a2e-b843-4e76c605c0af",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lord602.aspx",
@@ -312,6 +318,8 @@
     :nec 807,
     :cp7 "4580-416",
     :id #uuid "a529c39e-8d95-39cc-b34f-999e4cd06a39",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/f81d2ba4-lord.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
@@ -414,6 +422,7 @@
    :imt-profile
    {:address "R. São Miguel 142 4585-457 REBORDOSA",
     :name "Via Pública",
+    :href-id #uuid "3b63b5d3-eb1b-3f4b-b37f-63e5e0f8c980",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeGranda371.aspx",
@@ -421,6 +430,8 @@
     :nec 808,
     :cp7 "4585-457",
     :id #uuid "6696f39b-6f48-39ab-b4a8-7b8a32754352",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/3b63b5d3-via-publica.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
@@ -524,6 +535,7 @@
    {:address
     "Avª Campo das Laranjeiras – Edifício Europa 6 r/c 4580-058 CASTELÕES de CEPEDA",
     :name "A Paredense",
+    :href-id #uuid "af14a81d-5fbb-36df-bcfa-08a521c3bd55",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AParedense036.aspx",
@@ -531,6 +543,8 @@
     :nec 821,
     :cp7 "4580-058",
     :id #uuid "2f461648-ad86-36d7-ba54-db96e281ed95",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/af14a81d-a-paredense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
@@ -630,6 +644,7 @@
    :imt-profile
    {:address "Rua das Searas, Nº 14, loja E 4585-517 REBORDOSA",
     :name "Atlântica",
+    :href-id #uuid "c0a3edec-fc30-3d84-95ea-c19e89f467e8",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Atlantica133.aspx",
@@ -637,6 +652,8 @@
     :nec 858,
     :cp7 "4585-517",
     :id #uuid "4c958885-1542-317a-a99a-7751f1b4577d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/c0a3edec-atlantica.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
@@ -740,6 +757,7 @@
    {:address
     "Lugar dos Moinhos - Estrada Nacional 209 - Edificio Mariano, 4676-Loja 3 4580-497 PAREDES",
     :name "Portugália",
+    :href-id #uuid "ceae26b9-41a7-364d-8de9-7cb23431d531",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Portugalia807.aspx",
@@ -747,6 +765,8 @@
     :nec 863,
     :cp7 "4580-497",
     :id #uuid "356c7abd-18dd-3558-99a3-d147e187b016",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/ceae26b9-portugalia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}]
  ["ideal-de-paredes-00876"
@@ -840,6 +860,7 @@
    {:address
     "Rua D. Rosalina Guimarães nº 125 4580-195 CASTELÕES de CEPEDA",
     :name "Ideal de Paredes",
+    :href-id #uuid "d494f8f5-b4a9-3896-8354-08bfc244a0a8",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealdeParedes517.aspx",
@@ -847,14 +868,19 @@
     :nec 876,
     :cp7 "4580-195",
     :id #uuid "604d04cf-f6cb-39cc-a544-f01da11840c1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/d494f8f5-ideal-de-paredes.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
-   {:cp7 "4580-195",
+   {:address
+    "Rua D. Rosalina Guimarães nº 125 4580-195 CASTELÕES de CEPEDA",
+    :address-c
+    "Rua Doutora Rosalina Guimarães 125, 4580-195, Paredes, Porto",
     :postal-c "4580-195",
-    :x -8.329655001093471,
-    :y 41.20440499447491,
-    :score 100,
+    :x -8.330873601836,
+    :y 41.203152481241,
+    :score 94.34,
     :c 1}}]
  ["recarei-00972"
   {:nec 972,
@@ -947,6 +973,7 @@
    {:address
     "Lugar da Costa - Rua Nuno Álvares, Nº 115 4585-588 RECAREI",
     :name "Recarei",
+    :href-id #uuid "a14d18c3-1e11-32c7-b05e-27a5450d4760",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Recarei839.aspx",
@@ -954,6 +981,8 @@
     :nec 972,
     :cp7 "4585-588",
     :id #uuid "b169d2c4-6408-3f9e-bd1c-586e18f36446",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/a14d18c3-recarei.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
@@ -1058,6 +1087,7 @@
    {:address
     "Avª dos Bombeiros Voluntários – Edifício Sol 4580-059 BALTAR",
     :name "Ideal de Baltar",
+    :href-id #uuid "bd3dbbe0-dcba-3817-b1ae-887397c2584d",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealdeBaltar514.aspx",
@@ -1065,6 +1095,8 @@
     :nec 1118,
     :cp7 "4580-059",
     :id #uuid "c6c9e1ca-c0cc-399d-8170-880cd308a2fe",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/bd3dbbe0-ideal-de-baltar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
@@ -1164,6 +1196,7 @@
    :imt-profile
    {:address "Lugar de Tourilhe 4580 -753 SABROSA",
     :name "Boa Formação",
+    :href-id #uuid "890d676d-c628-3b49-ba71-43a085eceb30",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BoaFormacao247.aspx",
@@ -1171,15 +1204,20 @@
     :nec 1169,
     :cp7 "4580-753",
     :id #uuid "077fc9e5-6ad0-31cb-9f6a-dfc6d46a7953",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/890d676d-boa-formacao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
-   {:cp7 "4580-753",
+   {:id #uuid "077fc9e5-6ad0-31cb-9f6a-dfc6d46a7953",
+    :address "Lugar de Tourilhe 4580 -753 SABROSA",
+    :address-c
+    "Travessa de Tourilhe, 4580-753, Sobrosa, Paredes, Porto",
     :postal-c "4580-753",
-    :x -8.362624965776973,
-    :y 41.25305498542872,
-    :score 100,
-    :c 1}}]
+    :x -8.363000217102218,
+    :y 41.25309245415591,
+    :score 86.35,
+    :c 4}}]
  ["bruno-neves-01325"
   {:nec 1325,
    :rates
@@ -1271,6 +1309,7 @@
    {:address
     "Rua Casimiro Neto da Silva, n.º 304, R/C, 4580-191 CRISTELO PRD",
     :name "Bruno Neves",
+    :href-id #uuid "5ba2029d-1aaa-3ef2-a2e7-0a67a9e2256a",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BrunoNeves.aspx",
@@ -1278,14 +1317,20 @@
     :nec 1325,
     :cp7 "4580-191",
     :id #uuid "29ffd1e7-2e7a-3861-b0f0-42a7821273d4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/5ba2029d-bruno-neves.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
    :geocode
-   {:cp7 "4580-191",
+   {:id #uuid "29ffd1e7-2e7a-3861-b0f0-42a7821273d4",
+    :address
+    "Rua Casimiro Neto da Silva, n.º 304, R/C, 4580-191 CRISTELO PRD",
+    :address-c
+    "Rua Casimiro Neto da Silva, 4580-191, Perletieiro, Paredes, Porto",
     :postal-c "4580-191",
-    :x -8.358510038051065,
-    :y 41.233335007556406,
-    :score 100,
+    :x -8.359489924441789,
+    :y 41.2329550349307,
+    :score 89.34,
     :c 1}}]
  ["royal-01417"
   {:nec 1417,
@@ -1336,21 +1381,26 @@
    {:address
     "Urbanização Quinta do Carregoso, n.º 323 r/c Esq. 4580-294 Bitarães",
     :name "Royal",
+    :href-id #uuid "bceb0203-f9cd-34c4-8eb3-31d18fe15bfd",
     :distrito "Porto",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Royal.aspx",
     :concelho "Paredes",
-    :nec nil,
+    :nec 1417,
     :cp7 "4580-294",
-    :id #uuid "85b9c656-e409-38cc-a8fa-9d1a39713ae0",
+    :id #uuid "f537c45d-d0aa-3cb4-843b-33af227d7919",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/bceb0203-royal.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"},
-   :obs nil,
-   :overwrite/notes ["https://g.page/escoladeconducaoroyal?share"],
    :geocode
-   {:cp7 "4580-294",
+   {:id #uuid "85b9c656-e409-38cc-a8fa-9d1a39713ae0",
+    :address
+    "Urbanização Quinta do Carregoso, n.º 323 r/c Esq. 4580-294 Bitarães",
+    :address-c
+    "Urbanização Quinta de Carregoso 323, 4580-294, Paço, Paredes, Porto",
     :postal-c "4580-294",
-    :x -8.324744966032341,
-    :y 41.21861001533392,
-    :score 100,
-    :c 1}}]]
+    :x -8.32108794700586,
+    :y 41.21948176896229,
+    :score 93.59,
+    :c 2}}]]

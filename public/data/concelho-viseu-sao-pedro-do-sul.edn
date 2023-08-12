@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Largo Luís de Camões, nº 56 1º 3660-482 S. PEDRO DO SUL",
     :name "Beira Alta",
+    :href-id #uuid "1159bd5c-99b6-305e-8153-9d943ca7010d",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BeiraAlta233.aspx",
@@ -95,6 +96,8 @@
     :nec 137,
     :cp7 "3660-482",
     :id #uuid "7e8eb95a-d15b-3608-bfbc-ef3ac2f698f7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/sao-pedro-do-sul/1159bd5c-beira-alta.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"},
    :geocode
@@ -197,6 +200,7 @@
    :imt-profile
    {:address "Av.ª Sá Carneiro, n.º 891, 3660-428 S. PEDRO DO SUL",
     :name "Baptista",
+    :href-id #uuid "b10bbfbb-7a4e-3394-8ea8-cfa1cbb58d6d",
     :distrito "Viseu",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Baptista217.aspx",
@@ -204,6 +208,8 @@
     :nec 1073,
     :cp7 "3660-428",
     :id #uuid "60b44f2d-2b5a-3c6d-aeb8-ab696a5e0f7a",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/sao-pedro-do-sul/b10bbfbb-baptista.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=S.%20Pedro%20do%20Sul"},
    :geocode

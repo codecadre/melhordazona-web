@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Álvaro Campos, nº 1, loja 1 P 2675-768 RAMADA",
   :name "Jardim do Radial",
+  :href-id #uuid "fc428bb3-98a4-3abe-aeca-a83b56f14030",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JardimdoRadial574.aspx",
@@ -94,17 +95,17 @@
   :nec 940,
   :cp7 "2675-768",
   :id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/odivelas/fc428bb3-jardim-do-radial.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Odivelas"},
  :geocode
- {:y 38.80638000499755,
-  :address "Rua Álvaro Campos, nº 1 2675-768 RAMADA",
-  :postal-c "2620-258",
-  :obs "removed some bits of the address. easy to find.",
-  :overwrite true,
-  :c 1,
-  :id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
-  :score 93.84,
+ {:id #uuid "b9516ee7-f41e-3875-bc88-209305e90c62",
+  :address "Rua Álvaro Campos, nº 1, loja 1 P 2675-768 RAMADA",
   :address-c
   "Rua Álvaro de Campos 1, 2620-258, Bons Dias, Odivelas, Lisboa",
-  :x -9.188270005019518}}
+  :postal-c "2620-258",
+  :x -9.188270005019518,
+  :y 38.80638000499755,
+  :score 94.14,
+  :c 1}}

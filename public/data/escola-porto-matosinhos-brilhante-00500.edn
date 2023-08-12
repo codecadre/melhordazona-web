@@ -88,6 +88,7 @@
  {:address
   "Avª do Conde, nº 6263 – 1º Dtº 4465-099 SÃO MAMEDE DE INFESTA",
   :name "Brilhante",
+  :href-id #uuid "c552dc23-04fb-3569-b173-251541066cbd",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Brilhante265.aspx",
@@ -95,12 +96,18 @@
   :nec 500,
   :cp7 "4465-099",
   :id #uuid "91a1fcc7-a0fc-342d-800b-90e66f350950",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/c552dc23-brilhante.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode
- {:cp7 "4465-099",
+ {:id #uuid "91a1fcc7-a0fc-342d-800b-90e66f350950",
+  :address
+  "Avª do Conde, nº 6263 – 1º Dtº 4465-099 SÃO MAMEDE DE INFESTA",
+  :address-c
+  "Avenida do Conde 6263, 4465-099, São Mamede de Infesta, Matosinhos, Porto",
   :postal-c "4465-099",
-  :x -8.609479977101785,
-  :y 41.19364501964006,
-  :score 100,
-  :c 1}}
+  :x -8.609908760382995,
+  :y 41.19343650968534,
+  :score 86.85,
+  :c 3}}

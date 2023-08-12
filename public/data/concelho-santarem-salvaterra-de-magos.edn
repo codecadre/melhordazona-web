@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Marquês de Pombal, Nº30 2120 SALVATERRA DE MAGOS",
     :name "Conde de Marialva",
+    :href-id #uuid "7d884f32-6174-32c4-a5fb-b7fb0075aec6",
     :distrito "Santarém",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CondedeMarialva328.aspx",
@@ -95,6 +96,8 @@
     :nec 629,
     :cp7 "2120",
     :id #uuid "7e587d06-78ce-3047-b758-cdc5879a0605",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/salvaterra-de-magos/7d884f32-conde-de-marialva.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Salvaterra%20Magos"},
    :geocode

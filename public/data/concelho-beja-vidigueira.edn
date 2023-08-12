@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua do Matadouro nº 26 7960-263 VIDIGUEIRA",
     :name "Vasco da Gama",
+    :href-id #uuid "c904d802-f994-32ad-935b-192a55ecbcfc",
     :distrito "Beja",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VascodaGama1041.aspx",
@@ -95,6 +96,8 @@
     :nec 288,
     :cp7 "7960-263",
     :id #uuid "b80278f4-eaf6-383d-a2ae-7f126f64ced0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/vidigueira/c904d802-vasco-da-gama.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Vidigueira"},
    :geocode

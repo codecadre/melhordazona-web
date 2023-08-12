@@ -31,6 +31,7 @@
  :imt-profile
  {:address "Rua Chafariz D’El rei, n.º 39, r/c Esq. 7005-190 Évora",
   :name "D’El Rei",
+  :href-id #uuid "f90fecff-74d2-37f5-8f94-8fd33f73e845",
   :distrito "Évora",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/D%e2%80%99ElRei.aspx",
@@ -38,12 +39,16 @@
   :nec 1429,
   :cp7 "7005-190",
   :id #uuid "a07e5afd-8770-3320-b0c3-b3bb075497fc",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/evora/f90fecff-del-rei.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=%C3%89vora"},
  :geocode
- {:cp7 "7005-190",
-  :postal-c "7005-190",
-  :x -7.901155011682391,
-  :y 38.565955003055734,
-  :score 100,
+ {:id #uuid "a07e5afd-8770-3320-b0c3-b3bb075497fc",
+  :address "Rua Chafariz D’El rei, n.º 39, r/c Esq. 7005-190 Évora",
+  :address-c "Rua Chafariz d'el Rei 39, 7005-323, Évora",
+  :postal-c "7005-323",
+  :x -7.90288000735589,
+  :y 38.5670099912989,
+  :score 92.78,
   :c 1}}

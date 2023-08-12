@@ -45,6 +45,7 @@
  :imt-profile
  {:address "Rua do Mercado, Nº 17 2601-906 CASTANHEIRA DO RIBATEJO",
   :name "Trinca",
+  :href-id #uuid "9184ce90-5846-3949-b97a-04d33421c761",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Trinca1022.aspx",
@@ -52,5 +53,17 @@
   :nec 864,
   :cp7 "2601-906",
   :id #uuid "2c67bfe5-5e8b-37d3-8768-008d90c38e3a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/vila-franca-de-xira/9184ce90-trinca.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Vila%20Franca%20Xira"},
+ :geocode
+ {:id #uuid "2c67bfe5-5e8b-37d3-8768-008d90c38e3a",
+  :address "Rua do Mercado, Nº 17 2601-906 CASTANHEIRA DO RIBATEJO",
+  :address-c
+  "Rua do Mercado, 2600-651, Castanheira do Ribatejo, Vila Franca de Xira, Lisboa",
+  :postal-c "2600-651",
+  :x -8.970984923174129,
+  :y 38.99418503232029,
+  :score 91.25,
+  :c 2}}

@@ -88,6 +88,7 @@
  {:address
   "Rua Professor João Manuel Valadares, Nº 5-A 1750-230 LUMIAR",
   :name "Lumiar",
+  :href-id #uuid "ee697450-8948-3f46-9abe-07a64836a48c",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Lumiar609.aspx",
@@ -95,6 +96,8 @@
   :nec 1234,
   :cp7 "1750-230",
   :id #uuid "04abca15-05eb-3c05-ab1f-c87317ee0cb6",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/ee697450-lumiar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode

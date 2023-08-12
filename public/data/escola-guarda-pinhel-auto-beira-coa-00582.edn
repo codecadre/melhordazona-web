@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. Carneiro de Gusmão,103-R/C Esqº 6400-337 PINHEL",
   :name "Auto Beira Côa",
+  :href-id #uuid "e75b0989-34a3-315d-a142-fab9e1bae1d3",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoBeiraCoa142.aspx",
@@ -94,6 +95,8 @@
   :nec 582,
   :cp7 "6400-337",
   :id #uuid "93b3d2d5-b0e2-3d81-a365-f1a91c3ebda9",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/pinhel/e75b0989-auto-beira-coa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Pinhel"},
  :geocode

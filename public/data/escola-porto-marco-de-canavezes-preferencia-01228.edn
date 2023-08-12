@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Serrinha n.º 815, Fracção E; 4575-049 ALPENDURADA",
   :name "Preferência",
+  :href-id #uuid "67ba8117-9072-3d13-90e0-145406143df7",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Preferencia809.aspx",
@@ -94,12 +95,17 @@
   :nec 1228,
   :cp7 "4575-049",
   :id #uuid "af8fb6e2-9075-3b10-901e-27c8514a0575",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/marco-de-canavezes/67ba8117-preferencia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Marco%20Canavezes"},
  :geocode
- {:cp7 "4575-049",
+ {:id #uuid "af8fb6e2-9075-3b10-901e-27c8514a0575",
+  :address "Rua da Serrinha n.º 815, Fracção E; 4575-049 ALPENDURADA",
+  :address-c
+  "Rua da Serrinha 815, 4575-049, Malhadas de Cima, Marco de Canaveses, Porto",
   :postal-c "4575-049",
-  :x -8.243500016743099,
-  :y 41.098019993443984,
-  :score 100,
-  :c 1}}
+  :x -8.242970029005306,
+  :y 41.09970002020694,
+  :score 90.94,
+  :c 4}}

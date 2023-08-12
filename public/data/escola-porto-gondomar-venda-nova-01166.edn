@@ -88,6 +88,7 @@
  {:address
   "Rua Nossa Senhora do Amparo, Nº 155 R/C Dtº 4435-350 RIO TINTO",
   :name "Venda Nova",
+  :href-id #uuid "840c66aa-117a-3909-9446-c5efc729f1fe",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VendaNova1043.aspx",
@@ -95,6 +96,8 @@
   :nec 1166,
   :cp7 "4435-350",
   :id #uuid "862c9470-ac5a-3cd3-b411-ec4317c6ec1f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/840c66aa-venda-nova.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode

@@ -60,6 +60,7 @@
  {:address
   "Urbanização Mira Serra, Quinta de Barreiros, Lt. B, R/C Dt 6290-333 GOUVEIA",
   :name "Beatriz",
+  :href-id #uuid "dc1586f5-a64a-32ee-8d13-46e6e358ca35",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nelense689.aspx",
@@ -67,6 +68,8 @@
   :nec 1207,
   :cp7 "6290-333",
   :id #uuid "3638c76a-ddf8-3958-86e2-99e1414e2ece",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/gouveia/dc1586f5-beatriz.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Gouveia"},
  :geocode

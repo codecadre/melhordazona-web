@@ -74,6 +74,7 @@
  {:address
   "Rua Ângela Adelaide Calheiro Carvalho de Menezes, n.º 275, 4470-135 Maia",
   :name "Segurança Activa",
+  :href-id #uuid "54fb6a7a-d89c-356d-9928-a199935a2a84",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Seguranca_Activa.aspx",
@@ -81,6 +82,8 @@
   :nec 1339,
   :cp7 "4470-135",
   :id #uuid "86fa6e76-0a62-3e36-80b4-316bbe87f099",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/maia/54fb6a7a-seguranca-activa.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Maia"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Av. António Feijó, n.º 38, 4990-029 PONTE DE LIMA",
   :name "Limarense",
+  :href-id #uuid "ac781a6e-5a8a-3499-9a5e-709aedcfd9ca",
   :distrito "Viana do Castelo",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Limarense598.aspx",
@@ -94,6 +95,8 @@
   :nec 120,
   :cp7 "4990-029",
   :id #uuid "497723d6-aa2f-3d96-88cc-73b7ccae298b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/ponte-de-lima/ac781a6e-limarense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Ponte%20de%20Lima"},
  :geocode

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua 16, nº 1139 4500-807 ESPINHO",
   :name "Costa Verde",
+  :href-id #uuid "c4af91c9-3209-3538-8841-6a377b92a9bc",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostaVerde343.aspx",
@@ -94,6 +95,8 @@
   :nec 536,
   :cp7 "4500-807",
   :id #uuid "f5fc4eaa-33c6-36a0-a7d7-66e18fabef0b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/c4af91c9-costa-verde.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
  :geocode

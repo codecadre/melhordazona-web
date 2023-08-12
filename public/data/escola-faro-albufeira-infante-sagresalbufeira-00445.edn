@@ -88,6 +88,7 @@
  {:address
   "Rua Fernão de Magalhães, lote 16 Fracções D e E 8200 ALBUFEIRA",
   :name "Infante de Sagres –Albufeira",
+  :href-id #uuid "09a94a6d-507d-3d3a-9a76-9839ac75be02",
   :distrito "Faro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagres%e2%80%93Albufeira545.aspx",
@@ -95,6 +96,8 @@
   :nec 445,
   :cp7 "8200",
   :id #uuid "64d08f67-feea-393e-98ac-cd4bebf284e0",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/faro/albufeira/09a94a6d-infante-de-sagres-albufeira.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Faro&Concelho=Albufeira"},
  :geocode

@@ -60,6 +60,7 @@
  {:address
   "Rua Robert Smith, n.º 41, 4715-249 BRAGA, freguesia de Nogueira, Fraião e Lamaçães",
   :name "Minhota de Fraião",
+  :href-id #uuid "298777eb-aab2-331a-9cf7-8239afd7486b",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/MinhotadeFraiao.aspx",
@@ -67,12 +68,16 @@
   :nec 1374,
   :cp7 "4715-249",
   :id #uuid "67a6dec4-7fd5-3a2b-9660-5c2ecf2c377a",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/braga/298777eb-minhota-de-fraiao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Braga"},
  :geocode
- {:cp7 "4715-249",
-  :postal-c "4715-249",
-  :x -8.402915014141655,
-  :y 41.541289985897606,
-  :score 100,
-  :c 1}}
+ {:address
+  "Rua Robert Smith, n.º 41, 4715-249 BRAGA, freguesia de Nogueira, Fraião e Lamaçães",
+  :address-c "Avenida Robert Smith 41, 4715-105, Braga",
+  :postal-c "4715-105",
+  :x -8.406080020781,
+  :y 41.541000013957,
+  :score 88,
+  :c 3}}

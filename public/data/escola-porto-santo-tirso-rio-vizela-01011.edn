@@ -88,6 +88,7 @@
  {:address
   "Rua Manuel Sousa Oliveira nº 846 4795-476 CAMPO (SÃO MARTINHO)",
   :name "Rio Vizela",
+  :href-id #uuid "a4f8e72d-f7e8-3e25-b41f-0db8689ebea0",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RioVizela860.aspx",
@@ -95,6 +96,8 @@
   :nec 1011,
   :cp7 "4795-476",
   :id #uuid "a0cc4be9-e889-3baf-aff6-bab08a66ddf5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/santo-tirso/a4f8e72d-rio-vizela.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Santo%20Tirso"},
  :geocode

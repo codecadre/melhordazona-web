@@ -88,6 +88,7 @@
  {:address
   "Lugar dos Moinhos - Estrada Nacional 209 - Edificio Mariano, 4676-Loja 3 4580-497 PAREDES",
   :name "Portugália",
+  :href-id #uuid "ceae26b9-41a7-364d-8de9-7cb23431d531",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Portugalia807.aspx",
@@ -95,5 +96,7 @@
   :nec 863,
   :cp7 "4580-497",
   :id #uuid "356c7abd-18dd-3558-99a3-d147e187b016",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/paredes/ceae26b9-portugalia.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Paredes"}}

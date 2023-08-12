@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª 25 de Abril, Nº 48-B 4540-102 AROUCA",
   :name "Arouquense",
+  :href-id #uuid "85b15a60-0021-3050-87d0-e92efedb6e72",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arouquense126.aspx",
@@ -94,6 +95,8 @@
   :nec 290,
   :cp7 "4540-102",
   :id #uuid "257f8f97-1a55-36f8-8b83-ee7f31179915",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/arouca/85b15a60-arouquense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
  :geocode

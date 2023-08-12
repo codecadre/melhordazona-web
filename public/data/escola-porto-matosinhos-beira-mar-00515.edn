@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Dr. Afonso Cordeiro 154 4450-001 MATOSINHOS",
   :name "Beira Mar",
+  :href-id #uuid "c77e47b6-327b-37b5-8c2a-aa6fb91d1df7",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BeiraMar235.aspx",
@@ -94,6 +95,8 @@
   :nec 515,
   :cp7 "4450-001",
   :id #uuid "da4ed34d-0ff2-35e8-ab53-b7e76f5e6e5f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/matosinhos/c77e47b6-beira-mar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Matosinhos"},
  :geocode

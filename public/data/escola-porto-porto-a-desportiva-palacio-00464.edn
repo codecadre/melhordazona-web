@@ -86,7 +86,9 @@
    :r/t-done 126.0}],
  :imt-profile
  {:address "Rua do Rosário, 5 – 2º 4050-523 PORTO",
+  :archived-last-seen-at "2022-05-07T14:52:45Z",
   :name "A Desportiva – Palácio",
+  :href-id #uuid "7604ef07-4e78-3dfb-81e0-0be3c6ee9fbf",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ADesportiva%e2%80%93Palacio013.aspx",
@@ -94,8 +96,12 @@
   :nec 464,
   :cp7 "4050-523",
   :id #uuid "dd02ded2-636f-3be7-8653-14164f72de37",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/7604ef07-a-desportiva-palacio.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :obs "archived and nec and href was reused.",
+ :overwrite/notes nil,
  :geocode
  {:id #uuid "dd02ded2-636f-3be7-8653-14164f72de37",
   :address "Rua do Rosário, 5 – 2º 4050-523 PORTO",

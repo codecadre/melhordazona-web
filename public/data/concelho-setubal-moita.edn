@@ -89,6 +89,7 @@
    {:address
     "Estrada Nacional nº 11, nº 219 r/c 2835-024 BAIXA DA BANHEIRA",
     :name "Além Rio",
+    :href-id #uuid "96cd635e-9cff-3f4b-ad11-70f158f7c4dc",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AlemRio077.aspx",
@@ -96,6 +97,8 @@
     :nec 190,
     :cp7 "2835-024",
     :id #uuid "593bb178-21cd-3ce3-9c0f-e317357384df",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/moita/96cd635e-alem-rio.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}]
  ["infante-sagres-miradouro-00643"
@@ -189,6 +192,7 @@
    {:address
     "Rua Francisco Miguel, 4, 36 B, R/C 2835-123 BAIXA DA BANHEIRA",
     :name "Infante Sagres –Miradouro",
+    :href-id #uuid "6b30b2ed-6a47-37e9-abbc-772fd74305e9",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfanteSagres%e2%80%93Miradouro554.aspx",
@@ -196,6 +200,8 @@
     :nec 643,
     :cp7 "2835-123",
     :id #uuid "b8f946b3-988c-3941-b71e-f63658354dad",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/moita/6b30b2ed-infante-sagres-miradouro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
    :geocode
@@ -298,7 +304,9 @@
      :r/t-done 195.0}],
    :imt-profile
    {:address "Rua Envolvente à Praça de Touros 14 A 2860-293 MOITA",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "Siiimplesado",
+    :href-id #uuid "f9ab8fd8-4480-3b31-92f1-c02e24d64a8d",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Siiimplesado.aspx",
@@ -306,6 +314,8 @@
     :nec 802,
     :cp7 "2860-293",
     :id #uuid "1f2a7313-8eff-3592-98f5-e36d2b645979",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/moita/f9ab8fd8-siiimplesado.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
    :geocode
@@ -405,6 +415,7 @@
    :imt-profile
    {:address "Urbanização Nova Moita, lote 7 r/c Esqº 2860 MOITA",
     :name "Nova Moita",
+    :href-id #uuid "b1770fc4-f882-39de-a1fc-4d83c6a0ec43",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaMoita716.aspx",
@@ -412,6 +423,8 @@
     :nec 915,
     :cp7 "2860",
     :id #uuid "de0c73d7-483a-3e62-8a71-9b2b4e9a6ebc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/moita/b1770fc4-nova-moita.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"}}]
  ["bxb-01104"
@@ -505,6 +518,7 @@
    {:address
     "Estrada Nacional 11, 1P 233 , 2835-175 Baixa da Banheira",
     :name "Escola de Condução BXB",
+    :href-id #uuid "a243b301-b789-3011-8b15-d1a4b333b790",
     :distrito "Setúbal",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EC_BXB.aspx",
@@ -512,12 +526,17 @@
     :nec 1104,
     :cp7 "2835-175",
     :id #uuid "1f79b2ac-10f6-3338-bc8c-eba59570cabb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/moita/a243b301-escola-de-conducao-bxb.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
    :geocode
-   {:cp7 "2835-175",
-    :postal-c "2835-175",
-    :x -9.037626334017887,
-    :y 38.65753944900703,
-    :score 100,
-    :c 1}}]]
+   {:id #uuid "1f79b2ac-10f6-3338-bc8c-eba59570cabb",
+    :address
+    "Estrada Nacional 11, 1P 233 , 2835-175 Baixa da Banheira",
+    :address-c "N11 1P, 2860-027, Alhos Vedros, Moita, Setúbal",
+    :postal-c "2860-027",
+    :x -9.027659681904655,
+    :y 38.65504406879513,
+    :score 94.52,
+    :c 2}}]]

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Dr. Moreira de Sousa nº 2251 4415-385 PEDROSO",
   :name "Couto",
+  :href-id #uuid "11cf7189-5c93-3ee7-85a8-56690f8fb4dc",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Couto345.aspx",
@@ -94,6 +95,8 @@
   :nec 489,
   :cp7 "4415-385",
   :id #uuid "a43f67e8-8ec0-31f9-bca7-d3541d4656b8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-nova-de-gaia/11cf7189-couto.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Nova%20Gaia"},
  :geocode

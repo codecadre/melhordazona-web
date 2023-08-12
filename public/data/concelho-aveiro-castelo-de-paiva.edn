@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Chã - Bairros, 4550-060 CASTELO DE PAIVA",
     :name "Auto Vinhas",
+    :href-id #uuid "04bebe73-b065-3dc5-93ac-1403996e620a",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoVinhas178.aspx",
@@ -95,15 +96,19 @@
     :nec 809,
     :cp7 "4550-060",
     :id #uuid "4ce6cb2a-1385-3363-a35c-c52efe0a7df9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/04bebe73-auto-vinhas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
    :geocode
-   {:cp7 "4550-060",
-    :postal-c "4550-060",
-    :x -8.252808204038445,
-    :y 41.039226726181454,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "4ce6cb2a-1385-3363-a35c-c52efe0a7df9",
+    :address "Chã - Bairros, 4550-060 CASTELO DE PAIVA",
+    :address-c "4550, Bairros, Castelo de Paiva, Aveiro",
+    :postal-c "4550",
+    :x -8.250140698624488,
+    :y 41.03655910663749,
+    :score 94.85,
+    :c 3}}]
  ["via-rapida-00882"
   {:nec 882,
    :rates
@@ -195,6 +200,7 @@
    {:address
     "Rua Brites de Arrochela - Sobrado 4550-208 CASTELO DE PAIVA",
     :name "Via Rápida",
+    :href-id #uuid "e465a8a1-0344-3a4b-b5be-c9af0c96bada",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaRapida1054.aspx",
@@ -202,8 +208,21 @@
     :nec 882,
     :cp7 "4550-208",
     :id #uuid "e14e227a-da94-389b-b05e-b2a20e2d6bf3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/e465a8a1-via-rapida.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
+   :geocode
+   {:id #uuid "e14e227a-da94-389b-b05e-b2a20e2d6bf3",
+    :address
+    "Rua Brites de Arrochela - Sobrado 4550-208 CASTELO DE PAIVA",
+    :address-c
+    "Rua Dona Brites de Arrochela, 4550, Castelo de Paiva, Aveiro",
+    :postal-c "4550",
+    :x -8.267874420576286,
+    :y 41.045904700814944,
+    :score 89.44,
+    :c 3}}]
  ["carbar-00985"
   {:nec 985,
    :rates
@@ -295,6 +314,7 @@
    {:address
     "Edifício Sopé de S. Pedro-Lugar de Gração-Sobrado 4550-100 CASTELO DE PAIVA",
     :name "Carbar",
+    :href-id #uuid "c2e79972-e1ea-3d78-ad22-4e17752cad5b",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carbar283.aspx",
@@ -302,6 +322,8 @@
     :nec 985,
     :cp7 "4550-100",
     :id #uuid "0a463260-1868-3e53-9980-ed5f48af838f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/c2e79972-carbar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
    :geocode
@@ -402,6 +424,7 @@
    {:address
     "Avª Jean Tyssen-Oliveira do Arda-Raiva 4550-100 CASTELO DE PAIVA",
     :name "Estrela do Arda",
+    :href-id #uuid "3520c7e9-461c-34da-8503-cc8fa73e294b",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladoArda425.aspx",
@@ -409,6 +432,8 @@
     :nec 1026,
     :cp7 "4550-100",
     :id #uuid "abc1fe12-88a5-321e-b94e-eda6f2d6d67b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/3520c7e9-estrela-do-arda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
    :geocode

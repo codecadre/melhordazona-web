@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Lugar de Cerdeiras 4730-000 FREIRIZ",
   :name "Volante do Minho",
+  :href-id #uuid "fa812e4d-48c4-3dee-b5ba-ad5abacc82bd",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/VolantedoMinho1085.aspx",
@@ -94,5 +95,7 @@
   :nec 936,
   :cp7 "4730-000",
   :id #uuid "a87658ec-b0db-3a74-83d3-9dee772525f2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vila-verde/fa812e4d-volante-do-minho.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vila%20Verde"}}

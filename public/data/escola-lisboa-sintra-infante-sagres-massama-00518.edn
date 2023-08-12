@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua da Milharada nº 17 - Loja 2745-822 QUELUZ",
   :name "Infante de Sagres - Massamá",
+  :href-id #uuid "458db68b-253c-327f-950b-5b0ecb12c4bf",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/InfantedeSagresMassama538.aspx",
@@ -94,6 +95,8 @@
   :nec 518,
   :cp7 "2745-822",
   :id #uuid "46493b91-ab7c-3498-869c-56ac57dde3cb",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/sintra/458db68b-infante-de-sagres-massama.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Sintra"},
  :geocode

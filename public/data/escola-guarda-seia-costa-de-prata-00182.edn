@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Terras de Sena, Nº 65 R/C Dtº 6270-485 SEIA",
   :name "Costa de Prata",
+  :href-id #uuid "060c3aed-c626-343d-9b3a-892b1940e29d",
   :distrito "Guarda",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostadePrata341.aspx",
@@ -94,12 +95,16 @@
   :nec 182,
   :cp7 "6270-485",
   :id #uuid "e4f2a166-fea3-3902-96a9-a543a8a1a36f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/guarda/seia/060c3aed-costa-de-prata.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Guarda&Concelho=Seia"},
  :geocode
- {:cp7 "6270-485",
+ {:id #uuid "e4f2a166-fea3-3902-96a9-a543a8a1a36f",
+  :address "Avª Terras de Sena, Nº 65 R/C Dtº 6270-485 SEIA",
+  :address-c "Avenida Terras de Serra 65, 6270-485, Seia, Guarda",
   :postal-c "6270-485",
-  :x -7.714579965786356,
-  :y 40.42548500021243,
-  :score 100,
+  :x -7.714780041815146,
+  :y 40.42469999307053,
+  :score 93.49,
   :c 1}}

@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Jorge Cunha e Carmo, lote 35 R/c, 2580-531 Alenquer",
   :name "Nova Paredes",
+  :href-id #uuid "366b0a8b-1343-3a11-b9af-ac061906a89d",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaParedes.aspx",
@@ -94,6 +95,8 @@
   :nec 1336,
   :cp7 "2580-531",
   :id #uuid "2f2303a8-cf54-3604-9cd4-5771033d6eea",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/alenquer/366b0a8b-nova-paredes.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Alenquer"},
  :geocode

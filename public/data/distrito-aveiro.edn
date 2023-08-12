@@ -88,6 +88,7 @@
    :imt-profile
    {:address "Rua Miguel de Almeida e Silva -E N 1 3750-181 ÁGUEDA",
     :name "Águeda",
+    :href-id #uuid "c8a65a50-5631-3e10-b832-9af73716a805",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Agueda061.aspx",
@@ -95,6 +96,8 @@
     :nec 67,
     :cp7 "3750-181",
     :id #uuid "92aba0f8-cf8f-3b8b-95c7-ab3dd8f3d167",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/c8a65a50-agueda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
    :geocode
@@ -198,6 +201,7 @@
    {:address
     "Rua dos Bombeiros Voluntários nº 50 –1º Dtº 3860-367 ESTARREJA",
     :name "A Estarrejense",
+    :href-id #uuid "f7768540-e809-3890-a0ec-56458df7df32",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AEstarrejense016.aspx",
@@ -205,6 +209,8 @@
     :nec 87,
     :cp7 "3860-367",
     :id #uuid "67edabe5-9ca6-3a3a-91ad-fc9ee96d5c1c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/estarreja/f7768540-a-estarrejense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
    :geocode
@@ -308,6 +314,7 @@
    :imt-profile
    {:address "Rua do Dourado, Nº 265 a 283 3700-044 S.JOÃO DA MADEIRA",
     :name "Ribeiro",
+    :href-id #uuid "d4f8102c-418f-3a9e-9e54-e60079e2f6ad",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ribeiro850.aspx",
@@ -315,6 +322,8 @@
     :nec 99,
     :cp7 "3700-044",
     :id #uuid "23c524b6-355a-3986-bbc5-6b68899958a4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/sao-joao-da-madeira/d4f8102c-ribeiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=S.%20Jo%C3%A3o%20da%20Madeira"},
    :geocode
@@ -414,6 +423,7 @@
    :imt-profile
    {:address "Rua do Magistério Primário, Nº 20/22 3800-212 AVEIRO",
     :name "Santos e Gamelas",
+    :href-id #uuid "f9c32956-9ef8-3e0c-9ff2-b7c3853e8ab7",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantoseGamelas942.aspx",
@@ -421,6 +431,8 @@
     :nec 108,
     :cp7 "3800-212",
     :id #uuid "0a0ff539-d0b5-34b2-ac5b-a5db1e769383",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/f9c32956-santos-e-gamelas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
    :geocode
@@ -523,6 +535,7 @@
    {:address
     "Avª 25 de Abril, Nº 120 Porta D-2º Andar 3830-044 ÍLHAVO",
     :name "Auto Instrutora do Ílhavo",
+    :href-id #uuid "9d6e770a-2a34-307b-a92d-f91640bd40f7",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoInstrutoradoIlhavo160.aspx",
@@ -530,6 +543,8 @@
     :nec 121,
     :cp7 "3830-044",
     :id #uuid "6cad1e89-1ab1-3f91-8f8f-3ddce439b521",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ilhavo/9d6e770a-auto-instrutora-do-ilhavo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
    :geocode
@@ -629,6 +644,7 @@
    :imt-profile
    {:address "Rua da Misericórdia, Nº 2 3770-215 OLIVEIRA DO BAIRRO",
     :name "Oliveira do Bairro",
+    :href-id #uuid "41cb77f0-dd6b-3422-962b-29006d7fc5f6",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/OliveiradoBairro747.aspx",
@@ -636,6 +652,8 @@
     :nec 147,
     :cp7 "3770-215",
     :id #uuid "733245dc-866a-3c6c-917d-90ef0ae02c22",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/oliveira-do-bairro/41cb77f0-oliveira-do-bairro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
    :geocode
@@ -738,6 +756,7 @@
    :imt-profile
    {:address "Rotunda S. Cristóvão, Nº 179-1º Dt 3880-070 OVAR",
     :name "Ovarense",
+    :href-id #uuid "22c2f0d0-7a73-3f62-8a14-b602cae05171",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ovarense761.aspx",
@@ -745,6 +764,8 @@
     :nec 172,
     :cp7 "3880-070",
     :id #uuid "552ba8be-8e39-303f-8164-f7084ea91c14",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ovar/22c2f0d0-ovarense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
    :geocode
@@ -844,6 +865,7 @@
    :imt-profile
    {:address "Largo do Mercado, Nº 32-B 3830-097 ÍLHAVO",
     :name "Santa Margarida",
+    :href-id #uuid "39e911ea-55ef-3d20-82bb-e5898f36e157",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMargarida926.aspx",
@@ -851,6 +873,8 @@
     :nec 189,
     :cp7 "3830-097",
     :id #uuid "588f141e-b048-3e2a-95cd-8262e35a760e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ilhavo/39e911ea-santa-margarida.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
    :geocode
@@ -952,6 +976,7 @@
    :imt-profile
    {:address "Avª 25 de Abril, Bloco A-R/C 3050-344 MEALHADA",
     :name "Mealhada",
+    :href-id #uuid "ae27e626-9101-31ef-ae67-3b2e97cf3479",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mealhada638.aspx",
@@ -959,15 +984,19 @@
     :nec 243,
     :cp7 "3050-344",
     :id #uuid "6bf8c662-26e7-3081-9358-396541118ffa",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/mealhada/ae27e626-mealhada.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"},
    :geocode
-   {:cp7 "3050-344",
-    :postal-c "3050-344",
-    :x -8.451795004518601,
-    :y 40.37485998141341,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "6bf8c662-26e7-3081-9358-396541118ffa",
+    :address "Avª 25 de Abril, Bloco A-R/C 3050-344 MEALHADA",
+    :address-c "Avenida 25 de Abril, 3050-334, Mealhada, Aveiro",
+    :postal-c "3050-334",
+    :x -8.45193547560101,
+    :y 40.37961988686303,
+    :score 90.55,
+    :c 12}}]
  ["arouquense-00290"
   {:nec 290,
    :rates
@@ -1058,6 +1087,7 @@
    :imt-profile
    {:address "Avª 25 de Abril, Nº 48-B 4540-102 AROUCA",
     :name "Arouquense",
+    :href-id #uuid "85b15a60-0021-3050-87d0-e92efedb6e72",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arouquense126.aspx",
@@ -1065,6 +1095,8 @@
     :nec 290,
     :cp7 "4540-102",
     :id #uuid "257f8f97-1a55-36f8-8b83-ee7f31179915",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/arouca/85b15a60-arouquense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
    :geocode
@@ -1167,6 +1199,7 @@
    {:address
     "Avª Camilo Tavares de Matos, nº 135 3730-240 VALE DE CAMBRA",
     :name "Cambrense",
+    :href-id #uuid "11257735-1e38-3d1d-98de-7a0eb9b013dc",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cambrense270.aspx",
@@ -1174,6 +1207,8 @@
     :nec 347,
     :cp7 "3730-240",
     :id #uuid "202d3509-0ba1-3b9b-ad7a-401c4ead17d6",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/vale-de-cambra/11257735-cambrense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vale%20de%20Cambra"},
    :geocode
@@ -1278,6 +1313,7 @@
    {:address
     "Rua Vicente de Almeida Eça,nº 38-44-Esgueira 3800 -276 AVEIRO",
     :name "Planeta",
+    :href-id #uuid "19a39504-3d9f-3faf-9a35-742273a83349",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Planeta793.aspx",
@@ -1285,6 +1321,8 @@
     :nec 369,
     :cp7 "3800-276",
     :id #uuid "98c89f77-4ab6-31e6-b042-b7e858818505",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/19a39504-planeta.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
    :geocode
@@ -1388,6 +1426,7 @@
    :imt-profile
    {:address "Rua Joaquim Valente de Almeida, nº 126 3750-154 ÁGUEDA",
     :name "Auto Fama",
+    :href-id #uuid "fb97d8f5-4527-37ff-a097-67481bf85e7f",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoFama157.aspx",
@@ -1395,6 +1434,8 @@
     :nec 394,
     :cp7 "3750-154",
     :id #uuid "608b5a19-dbad-3412-a2f2-197706131a8f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/fb97d8f5-auto-fama.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
    :geocode
@@ -1498,6 +1539,7 @@
    {:address
     "Rua do Comércio,Nº 1094 - 1ºA 4505-473 SANTA MARIA FEIRA",
     :name "A Modelo - Lobão",
+    :href-id #uuid "a3e3ab0a-12eb-3e74-afa2-7f452381549a",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AModeloLobao027.aspx",
@@ -1505,6 +1547,8 @@
     :nec 399,
     :cp7 "4505-473",
     :id #uuid "3d5a4fc9-636e-34a2-834c-a27b41fc038e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/a3e3ab0a-a-modelo-lobao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -1608,6 +1652,7 @@
    :imt-profile
    {:address "Rua Aviação Naval nº A e B -Glória 3810-055 AVEIRO",
     :name "Santa Joana",
+    :href-id #uuid "7828f368-ecce-359f-af49-848344b2e56d",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaJoana923.aspx",
@@ -1615,15 +1660,19 @@
     :nec 400,
     :cp7 "3810-055",
     :id #uuid "a229ee04-3cfa-336f-a536-756c15bb5a99",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/7828f368-santa-joana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
    :geocode
-   {:cp7 "3810-055",
+   {:id #uuid "a229ee04-3cfa-336f-a536-756c15bb5a99",
+    :address "Rua Aviação Naval nº A e B -Glória 3810-055 AVEIRO",
+    :address-c "Rua da Aviação Naval, 3810-055, Aveiro",
     :postal-c "3810-055",
-    :x -8.6475137847697,
-    :y 40.634390400086716,
-    :score 100,
-    :c 1}}]
+    :x -8.647514932036884,
+    :y 40.634391462681116,
+    :score 90.13,
+    :c 3}}]
  ["santa-maria-00412"
   {:nec 412,
    :rates
@@ -1714,6 +1763,7 @@
    :imt-profile
    {:address "Rua do Alecrim, Nº 360-1ºEsq 4535-263 MOZELOS VFR",
     :name "Santa Maria",
+    :href-id #uuid "c1f4b871-e1de-39dc-846a-2d45b3287738",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMaria927.aspx",
@@ -1721,15 +1771,20 @@
     :nec 412,
     :cp7 "4535-263",
     :id #uuid "8c6ea07f-17e2-3de4-901d-a520ee65279e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/c1f4b871-santa-maria.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
-   {:cp7 "4535-263",
-    :postal-c "4535-263",
-    :x -8.552580014128495,
-    :y 41.00689500151523,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "8c6ea07f-17e2-3de4-901d-a520ee65279e",
+    :address "Rua do Alecrim, Nº 360-1ºEsq 4535-263 MOZELOS VFR",
+    :address-c
+    "Rua do Alecrim 360, 4535-194, Ermilhe, Santa Maria da Feira, Aveiro",
+    :postal-c "4535-194",
+    :x -8.549410328689776,
+    :y 41.00532931932162,
+    :score 92.81,
+    :c 3}}]
  ["a-ideal-de-ovar-00415"
   {:nec 415,
    :rates
@@ -1820,6 +1875,7 @@
    :imt-profile
    {:address "Rua Luís de Camões, 13 3880-240 OVAR",
     :name "Ideal de Ovar",
+    :href-id #uuid "c7b46675-548f-3e80-9420-e708a6138c00",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/IdealdeOvar516.aspx",
@@ -1827,6 +1883,8 @@
     :nec 415,
     :cp7 "3880-240",
     :id #uuid "cd5e54c1-b14b-3627-aa47-3eae884ae992",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ovar/c7b46675-ideal-de-ovar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
    :geocode
@@ -1928,6 +1986,7 @@
    :imt-profile
    {:address "Rua Guerra Junqueira - Monte 3870-133 MURTOSA",
     :name "Murtosa",
+    :href-id #uuid "ad65fc29-5feb-318a-9796-77df1c8fb37d",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Murtosa685.aspx",
@@ -1935,6 +1994,8 @@
     :nec 458,
     :cp7 "3870-133",
     :id #uuid "f1049702-4c7d-3e96-8653-97c500f1396c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/murtosa/ad65fc29-murtosa.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Murtosa"},
    :geocode
@@ -2036,6 +2097,7 @@
    :imt-profile
    {:address "Rua do Comércio, nº 8 r/c 3740-251 SEVER DO VOUGA",
     :name "Sever do Vouga",
+    :href-id #uuid "42872a83-40c1-324d-b74c-5742a7097de3",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SeverdoVouga970.aspx",
@@ -2043,6 +2105,8 @@
     :nec 459,
     :cp7 "3740-251",
     :id #uuid "8ec29d7a-ac3d-33d4-8d31-2ff07fc0d958",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/sever-do-vouga/42872a83-sever-do-vouga.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Sever%20do%20Vouga"},
    :geocode
@@ -2146,6 +2210,7 @@
    :imt-profile
    {:address "Rua 1º de Maio, 1º F 3850-003 ALBERGARIA A VELHA",
     :name "Alto Nível de Albergaria-a-Velha",
+    :href-id #uuid "83f5b5aa-f048-3bb1-ae24-2de24b08f239",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Alto%20N%c3%advel%20de%20Albergaria-a-Velha.aspx",
@@ -2153,6 +2218,8 @@
     :nec 461,
     :cp7 "3850-003",
     :id #uuid "317f17b2-2e8a-3109-85ce-fcf09f3a65a3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/albergaria-a-velha/83f5b5aa-alto-nivel-de-albergaria-a-velha.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"},
    :geocode
@@ -2254,7 +2321,9 @@
      :r/t-done 123.0}],
    :imt-profile
    {:address "Rua 21, n.º 410; 4520-258 Espinho",
+    :archived-last-seen-at "2022-05-07T14:52:45Z",
     :name "A Desportiva - Espinho",
+    :href-id #uuid "fadd5928-adbb-36b4-9196-253b2360f09c",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ADesportivaEspinho011.aspx",
@@ -2262,17 +2331,12 @@
     :nec 463,
     :cp7 "4520-258",
     :id #uuid "1cd0898e-0cc2-32ea-a279-8440c41b9ea2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/fadd5928-a-desportiva-espinho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
-   :geocode
-   {:id #uuid "1cd0898e-0cc2-32ea-a279-8440c41b9ea2",
-    :address "Rua 21, n 410; 4520-258 Espinho",
-    :address-c "Rua 21 410, 4500-267, Espinho, Aveiro",
-    :postal-c "4500-267",
-    :x -8.640883737503026,
-    :y 41.00811119885399,
-    :score 96.96,
-    :c 1}}]
+   :obs "archived and nec and href was reused.",
+   :overwrite/notes nil}]
  ["boavista-feira-00470"
   {:nec 470,
    :rates
@@ -2364,6 +2428,7 @@
    {:address
     "Rua Comendador Sá Couto, 59-A 4520-192 SANTA MARIA FEIRA",
     :name "Boavista - Feira",
+    :href-id #uuid "af94a481-2dff-3052-b656-7a976cd809f6",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BoavistaFeira250.aspx",
@@ -2371,6 +2436,8 @@
     :nec 470,
     :cp7 "4520-192",
     :id #uuid "62cd4847-2119-3b00-8326-b85264a6a562",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/af94a481-boavista-feira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -2475,6 +2542,7 @@
    {:address
     "Avª da Liberdade, nº 615 –1º 3700-166 S. JOÃO DA MADEIRA",
     :name "Sanjoanense",
+    :href-id #uuid "9a388851-bc76-32f0-9b44-ca4d93f4bae4",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Sanjoanense917.aspx",
@@ -2482,15 +2550,21 @@
     :nec 531,
     :cp7 "3700-166",
     :id #uuid "199cba02-1f5a-38e8-bcc2-659da19a2569",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/sao-joao-da-madeira/9a388851-sanjoanense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=S.%20Jo%C3%A3o%20da%20Madeira"},
    :geocode
-   {:cp7 "3700-166",
+   {:id #uuid "199cba02-1f5a-38e8-bcc2-659da19a2569",
+    :address
+    "Avª da Liberdade, nº 615 –1º 3700-166 S. JOÃO DA MADEIRA",
+    :address-c
+    "Avenida da Liberdade 615, 3700-166, São João da Madeira, Aveiro",
     :postal-c "3700-166",
-    :x -8.485880013781554,
-    :y 40.89618498035529,
-    :score 100,
-    :c 1}}]
+    :x -8.485829973819591,
+    :y 40.896160002283835,
+    :score 89.32,
+    :c 4}}]
  ["a-nova-de-estarreja-00534"
   {:nec 534,
    :rates
@@ -2582,6 +2656,7 @@
    {:address
     "Rua Conselheiro José Luciano de Castro 3860-358 ESTARREJA",
     :name "A Nova de Estarreja",
+    :href-id #uuid "3c5d61a2-93a8-371b-9e59-67eaa25c80de",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ANovadeEstarreja034.aspx",
@@ -2589,6 +2664,8 @@
     :nec 534,
     :cp7 "3860-358",
     :id #uuid "8c40325d-acfc-3c8a-8e0b-a75bf6799a3c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/estarreja/3c5d61a2-a-nova-de-estarreja.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
    :geocode
@@ -2692,6 +2769,7 @@
    :imt-profile
    {:address "Rua 16, nº 1139 4500-807 ESPINHO",
     :name "Costa Verde",
+    :href-id #uuid "c4af91c9-3209-3538-8841-6a377b92a9bc",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/CostaVerde343.aspx",
@@ -2699,6 +2777,8 @@
     :nec 536,
     :cp7 "4500-807",
     :id #uuid "f5fc4eaa-33c6-36a0-a7d7-66e18fabef0b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/c4af91c9-costa-verde.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
    :geocode
@@ -2800,6 +2880,7 @@
    :imt-profile
    {:address "Rua Capitão Cabral, Nº 6 e 8 3050-345 MEALHADA",
     :name "Saturno, Ldª",
+    :href-id #uuid "3e78abd8-cf83-3b94-8ed9-e57462d6cbb7",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SaturnoLd950.aspx",
@@ -2807,6 +2888,8 @@
     :nec 559,
     :cp7 "3050-345",
     :id #uuid "2123a0ef-d1ae-33d6-b5f4-1ec98b889d00",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/mealhada/3e78abd8-saturno-lda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"},
    :geocode
@@ -2909,6 +2992,7 @@
    {:address
     "Rua Dr. Figueiredo Sobrinho, Nº 11 R/c Esq.º 4540-133 AROUCA",
     :name "Rainha Santa Mafalda",
+    :href-id #uuid "1ef8369b-8f7f-353b-bf10-751810a584fc",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RainhaSantaMafalda836.aspx",
@@ -2916,18 +3000,19 @@
     :nec 600,
     :cp7 "4540-133",
     :id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/arouca/1ef8369b-rainha-santa-mafalda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
    :geocode
-   {:id #uuid "c4b5bef4-259e-3efd-aebd-edc9db3cf333",
-    :address
+   {:address
     "Rua Dr. Figueiredo Sobrinho, Nº 11 R/c Esq.º 4540-133 AROUCA",
     :address-c
     "Rua Dr. Figueiredo Sobrinho 11, 4540-133, Arouca, Aveiro",
     :postal-c "4540-133",
-    :x -8.246469976495234,
-    :y 40.930909989835186,
-    :score 97.28,
+    :x -8.246469976495,
+    :y 40.930909989835,
+    :score 98.14,
     :c 1}}]
  ["vitoria-00602"
   {:nec 602,
@@ -3020,6 +3105,7 @@
    {:address
     "Avª Principal nº 1159-Edificio Nacional 1 4535-014 LOUROSA",
     :name "Vitória",
+    :href-id #uuid "a863f020-fa36-3168-b9c5-d892279e87a4",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vitoria1078.aspx",
@@ -3027,6 +3113,8 @@
     :nec 602,
     :cp7 "4535-014",
     :id #uuid "549aeba9-0357-3a55-85ec-f949c90afbdb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/a863f020-vitoria.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -3130,6 +3218,7 @@
    :imt-profile
    {:address "Rua Amaro Castela, nº 1, Fração B, 3550–124 Águeda",
     :name "Nova em Águeda",
+    :href-id #uuid "de891a4c-be0e-37fe-b607-4a7998fff4a5",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Novaem%c3%81gueda.aspx",
@@ -3137,6 +3226,8 @@
     :nec 622,
     :cp7 "3550-124",
     :id #uuid "ae16434b-d055-3313-9276-b71a0fb6703e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/de891a4c-nova-em-agueda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
    :geocode
@@ -3237,6 +3328,7 @@
    {:address
     "Av. Eng. Tavares da Silva, Fr. F, Bl. 2, Lj R/chão 3780-203 ANADIA",
     :name "Prioridade",
+    :href-id #uuid "894d3987-e661-34ec-badf-f921e74aece8",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prioridade816.aspx",
@@ -3244,15 +3336,21 @@
     :nec 729,
     :cp7 "3780-203",
     :id #uuid "02f251ad-1f7d-3cda-bd44-79e1a76f5df0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/anadia/894d3987-prioridade.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Anadia"},
    :geocode
-   {:cp7 "3780-203",
+   {:id #uuid "02f251ad-1f7d-3cda-bd44-79e1a76f5df0",
+    :address
+    "Av. Eng. Tavares da Silva, Fr. F, Bl. 2, Lj R/chão 3780-203 ANADIA",
+    :address-c
+    "Avenida Engenheiro Tavares da Silva, 3780-203, Anadia, Aveiro",
     :postal-c "3780-203",
-    :x -8.437445018644183,
-    :y 40.43863000368637,
-    :score 100,
-    :c 1}}]
+    :x -8.438649525599047,
+    :y 40.437667006914985,
+    :score 89.89,
+    :c 2}}]
  ["nobel-00741"
   {:nec 741,
    :rates
@@ -3315,6 +3413,7 @@
    :imt-profile
    {:address "Rua da Igreja, n.º 74, 3860-133 Avanca",
     :name "Nobel",
+    :href-id #uuid "2a434de0-d04d-3d7f-b343-fc57719b83c6",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nobel.aspx",
@@ -3322,15 +3421,18 @@
     :nec 741,
     :cp7 "3860-133",
     :id #uuid "340962e9-7390-3181-8dfc-3443f7171b2e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/estarreja/2a434de0-nobel.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Estarreja"},
    :geocode
-   {:cp7 "3860-133",
-    :postal-c "3860-133",
-    :x -8.571320021791081,
-    :y 40.80595002081523,
-    :score 100,
-    :c 1}}]
+   {:address "Rua da Igreja, n.º 74, 3860-133 Avanca",
+    :address-c "Rua da Igreja 74, 3860-617, Veiros, Estarreja, Aveiro",
+    :postal-c "3860-617",
+    :x -8.612532563905,
+    :y 40.750524136106,
+    :score 90.17,
+    :c 4}}]
  ["lobao-00744"
   {:nec 744,
    :rates
@@ -3421,6 +3523,7 @@
    :imt-profile
    {:address "Rua Santiago, Nº 1911 4505-525 LOBÃO",
     :name "De Lobão",
+    :href-id #uuid "0a71ef73-06f8-3f31-86f4-a3590e63c015",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DeLobao373.aspx",
@@ -3428,6 +3531,8 @@
     :nec 744,
     :cp7 "4505-525",
     :id #uuid "8bd2b622-5425-32f4-b293-93634e88b827",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/0a71ef73-de-lobao.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -3527,6 +3632,7 @@
    :imt-profile
    {:address "Chã - Bairros, 4550-060 CASTELO DE PAIVA",
     :name "Auto Vinhas",
+    :href-id #uuid "04bebe73-b065-3dc5-93ac-1403996e620a",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoVinhas178.aspx",
@@ -3534,15 +3640,19 @@
     :nec 809,
     :cp7 "4550-060",
     :id #uuid "4ce6cb2a-1385-3363-a35c-c52efe0a7df9",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/04bebe73-auto-vinhas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
    :geocode
-   {:cp7 "4550-060",
-    :postal-c "4550-060",
-    :x -8.252808204038445,
-    :y 41.039226726181454,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "4ce6cb2a-1385-3363-a35c-c52efe0a7df9",
+    :address "Chã - Bairros, 4550-060 CASTELO DE PAIVA",
+    :address-c "4550, Bairros, Castelo de Paiva, Aveiro",
+    :postal-c "4550",
+    :x -8.250140698624488,
+    :y 41.03655910663749,
+    :score 94.85,
+    :c 3}}]
  ["via-rapida-00882"
   {:nec 882,
    :rates
@@ -3634,6 +3744,7 @@
    {:address
     "Rua Brites de Arrochela - Sobrado 4550-208 CASTELO DE PAIVA",
     :name "Via Rápida",
+    :href-id #uuid "e465a8a1-0344-3a4b-b5be-c9af0c96bada",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaRapida1054.aspx",
@@ -3641,8 +3752,21 @@
     :nec 882,
     :cp7 "4550-208",
     :id #uuid "e14e227a-da94-389b-b05e-b2a20e2d6bf3",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/e465a8a1-via-rapida.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
+   :geocode
+   {:id #uuid "e14e227a-da94-389b-b05e-b2a20e2d6bf3",
+    :address
+    "Rua Brites de Arrochela - Sobrado 4550-208 CASTELO DE PAIVA",
+    :address-c
+    "Rua Dona Brites de Arrochela, 4550, Castelo de Paiva, Aveiro",
+    :postal-c "4550",
+    :x -8.267874420576286,
+    :y 41.045904700814944,
+    :score 89.44,
+    :c 3}}]
  ["nova-de-esmoriz-00909"
   {:nec 909,
    :rates
@@ -3734,6 +3858,7 @@
    {:address
     "Avª 29 de Março, 190 B-A, 1º Esqº - Edifício Miramar 3885-402 ESMORIZ",
     :name "Nova de Esmoriz",
+    :href-id #uuid "a63037ce-d013-3a1e-a12e-5a0639ff1175",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeEsmoriz704.aspx",
@@ -3741,6 +3866,8 @@
     :nec 909,
     :cp7 "3885-402",
     :id #uuid "fb13b2a3-01c9-3a04-bdbe-928516ec41d1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ovar/a63037ce-nova-de-esmoriz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
    :geocode
@@ -3841,6 +3968,7 @@
    {:address
     "Rua Marquês de Pombal -Edificio Sol Mar, Nº 3 3850-115 ALBERGARIA A VELHA",
     :name "Vouga",
+    :href-id #uuid "04841d2e-b577-3583-aca4-fa93501b96cd",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Vouga1089.aspx",
@@ -3848,15 +3976,21 @@
     :nec 976,
     :cp7 "3850-115",
     :id #uuid "1b56e136-876e-3cb6-a0ee-a29a7a2f0654",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/albergaria-a-velha/04841d2e-vouga.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"},
    :geocode
-   {:cp7 "3850-115",
+   {:id #uuid "1b56e136-876e-3cb6-a0ee-a29a7a2f0654",
+    :address
+    "Rua Marquês de Pombal -Edificio Sol Mar, Nº 3 3850-115 ALBERGARIA A VELHA",
+    :address-c
+    "Rua Marquês de Pombal, 3850-115, Albergaria-a-Velha, Aveiro",
     :postal-c "3850-115",
-    :x -8.486879974830373,
-    :y 40.698420009901014,
-    :score 100,
-    :c 1}}]
+    :x -8.486813660882035,
+    :y 40.698837481853666,
+    :score 89.74,
+    :c 7}}]
  ["carbar-00985"
   {:nec 985,
    :rates
@@ -3948,6 +4082,7 @@
    {:address
     "Edifício Sopé de S. Pedro-Lugar de Gração-Sobrado 4550-100 CASTELO DE PAIVA",
     :name "Carbar",
+    :href-id #uuid "c2e79972-e1ea-3d78-ad22-4e17752cad5b",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Carbar283.aspx",
@@ -3955,6 +4090,8 @@
     :nec 985,
     :cp7 "4550-100",
     :id #uuid "0a463260-1868-3e53-9980-ed5f48af838f",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/c2e79972-carbar.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
    :geocode
@@ -4055,6 +4192,7 @@
    {:address
     "Avª Jean Tyssen-Oliveira do Arda-Raiva 4550-100 CASTELO DE PAIVA",
     :name "Estrela do Arda",
+    :href-id #uuid "3520c7e9-461c-34da-8503-cc8fa73e294b",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EstreladoArda425.aspx",
@@ -4062,6 +4200,8 @@
     :nec 1026,
     :cp7 "4550-100",
     :id #uuid "abc1fe12-88a5-321e-b94e-eda6f2d6d67b",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/3520c7e9-estrela-do-arda.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
    :geocode
@@ -4165,6 +4305,7 @@
    :imt-profile
    {:address "Rua Agnelo Prazeres nº 45 R/C 3770-059 OIÃ",
     :name "Oiã",
+    :href-id #uuid "343ca06d-a02f-314f-9530-989d7bd54d36",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Oia741.aspx",
@@ -4172,15 +4313,20 @@
     :nec 1029,
     :cp7 "3770-059",
     :id #uuid "f5710f22-1339-3bcf-bc6b-0a73593983eb",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/oliveira-do-bairro/343ca06d-oia.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
    :geocode
-   {:cp7 "3770-059",
-    :postal-c "3770-059",
-    :x -8.533664992327658,
-    :y 40.542804990216524,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "f5710f22-1339-3bcf-bc6b-0a73593983eb",
+    :address "Rua Agnelo Prazeres nº 45 R/C 3770-059 OIÃ",
+    :address-c
+    "Rua Engenheiro Agnelo Prazeres 45, 3770-054, Carris, Oliveira do Bairro, Aveiro",
+    :postal-c "3770-054",
+    :x -8.545361361389961,
+    :y 40.54260168668039,
+    :score 94.54,
+    :c 4}}]
  ["aguia-de-aveiro-01035"
   {:nec 1035,
    :rates
@@ -4272,6 +4418,7 @@
    {:address
     "Rua Nossa Senhora das Necessidades, Nº 5 - Esgueira 3800-317 AVEIRO",
     :name "Águia de Aveiro",
+    :href-id #uuid "b875f677-ee44-3695-bf2c-8ac1f00718a4",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AguiadeAveiro062.aspx",
@@ -4279,6 +4426,8 @@
     :nec 1035,
     :cp7 "3800-317",
     :id #uuid "3fe81eb9-caba-388f-ad88-c5da4ec9882e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/b875f677-aguia-de-aveiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
    :geocode
@@ -4381,6 +4530,7 @@
    :imt-profile
    {:address "Rua Frei Luís de Sousa nº 24 3700-511 ARRIFANA",
     :name "Impacto",
+    :href-id #uuid "e0cebeda-46a4-35e2-9889-28418eea0ad2",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Impacto519.aspx",
@@ -4388,6 +4538,8 @@
     :nec 1040,
     :cp7 "3700-511",
     :id #uuid "c70de70d-f125-30da-bcf8-465c99a52a3e",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/e0cebeda-impacto.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -4490,6 +4642,7 @@
    :imt-profile
    {:address "Rua da Ponte de Anta, Nº 190 4500-088 ANTA",
     :name "Espinho",
+    :href-id #uuid "50f9b695-79bc-3978-bfc0-9810a91b2523",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Espinho411.aspx",
@@ -4497,6 +4650,8 @@
     :nec 1045,
     :cp7 "4500-088",
     :id #uuid "04b20b02-a34d-35b8-957e-2f6af065a771",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/50f9b695-espinho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
    :geocode
@@ -4598,6 +4753,7 @@
    :imt-profile
    {:address "Avª 5 de Outubro, Nº 257 3700-445 ARRIFANA",
     :name "Santa Maria -Arrifana",
+    :href-id #uuid "aaffa60f-5fe2-3385-91b1-a42d9b86e3fd",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SantaMariaArrifana929.aspx",
@@ -4605,6 +4761,8 @@
     :nec 1046,
     :cp7 "3700-445",
     :id #uuid "dd5f1a3c-3373-3200-b18d-60c63329ec62",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/aaffa60f-santa-maria-arrifana.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -4707,6 +4865,7 @@
    :imt-profile
    {:address "Rua de S. José nº 68 4535-404 SANTA MARIA LAMAS",
     :name "Boavista-Lamas",
+    :href-id #uuid "7ae2e2cd-1b34-3578-b76a-4553ea2bc89d",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BoavistaLamas252.aspx",
@@ -4714,6 +4873,8 @@
     :nec 1048,
     :cp7 "4535-404",
     :id #uuid "5d1e039d-d8ce-34f1-9222-d44d92337654",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/7ae2e2cd-boavista-lamas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -4816,6 +4977,7 @@
    :imt-profile
    {:address "Rua Dr. Albino Borges Pinho nº 84 r/c 3880-001 OVAR",
     :name "Júlio Dinis",
+    :href-id #uuid "d2212cd6-9eb2-34de-bcfa-efd638224702",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/JulioDinis584.aspx",
@@ -4823,6 +4985,8 @@
     :nec 1063,
     :cp7 "3880-001",
     :id #uuid "d8934337-9da3-39ca-9f58-ee40c61b556c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ovar/d2212cd6-julio-dinis.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
    :geocode
@@ -4924,24 +5088,20 @@
      :r/t-done 106.0}],
    :imt-profile
    {:address
-    "Rua da República - Edifício Pires Faria, n.º 17 R/c; 3050-428 Pampilhosa",
+    "Avenida das Laranjeiras, Edifício Panorama, Bloco B Anadia",
     :name "Via S",
+    :href-id #uuid "5417efe7-084f-3c70-badc-bbc800cd03b0",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Pampilhosa770.aspx",
-    :concelho "Mealhada",
+    :concelho "Anadia",
     :nec 1087,
-    :cp7 "3050-428",
-    :id #uuid "3495281b-780a-31de-a24d-50560146d538",
+    :cp7 nil,
+    :id #uuid "1626d6b0-c94d-3f52-a54b-be0024ce8efe",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/anadia/5417efe7-via-s.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Mealhada"},
-   :geocode
-   {:cp7 "3050-428",
-    :postal-c "3050-428",
-    :x -8.43013499324681,
-    :y 40.33936999754019,
-    :score 100,
-    :c 1}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Anadia"}}]
  ["aguada-de-cima-01093"
   {:nec 1093,
    :rates
@@ -5033,6 +5193,7 @@
    {:address
     "Rua da Miragaia-Edificio Miragaia, Loja A 3750-055 AGUADA DE CIMA",
     :name "Aguada de Cima",
+    :href-id #uuid "28527d65-ee2c-3848-a632-5f8796ae462e",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AguadadeCima058.aspx",
@@ -5040,6 +5201,8 @@
     :nec 1093,
     :cp7 "3750-055",
     :id #uuid "966d6906-0502-3f56-8e33-011bac7c8051",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/28527d65-aguada-de-cima.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
    :geocode
@@ -5139,6 +5302,7 @@
    :imt-profile
    {:address "Rua Terras de Santa Maria nº 1413 3700-564 ARRIFANA",
     :name "Arrifanense",
+    :href-id #uuid "c93b4c80-c7c1-376c-abaa-d320cd106061",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Arrifanense129.aspx",
@@ -5146,6 +5310,8 @@
     :nec 1123,
     :cp7 "3700-564",
     :id #uuid "b965f83d-4ffe-3267-80c5-0850f7ed4328",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/c93b4c80-arrifanense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -5248,6 +5414,7 @@
    :imt-profile
    {:address "Avª 25 de Abril nº 695 - Valos 4505-240 FIÃES",
     :name "Nova da Feira",
+    :href-id #uuid "ef06c947-da72-3577-acad-c7fb65dc6395",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadaFeira703.aspx",
@@ -5255,6 +5422,8 @@
     :nec 1126,
     :cp7 "4505-240",
     :id #uuid "12016643-1524-3b9c-b238-276bc7a54ac7",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/ef06c947-nova-da-feira.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -5341,6 +5510,7 @@
    {:address
     "Rua S. João - Edif. S. João, Bloco A - S/Nº 3840-429 VAGOS",
     :name "Nova de Vagos",
+    :href-id #uuid "9fb19a1a-3e1e-34ab-9ef6-fd6bf1af8715",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeVagos707.aspx",
@@ -5348,6 +5518,8 @@
     :nec 1136,
     :cp7 "3840-429",
     :id #uuid "cc9150e7-b534-32f7-8ecf-343f85fb22d4",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/vagos/9fb19a1a-nova-de-vagos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vagos"},
    :geocode
@@ -5448,6 +5620,7 @@
    {:address
     "Rua Dr. Mário Sacramento/Estrada Nacional, Nº 109, Loja F R/C Dtº 3810-104 AVEIRO",
     :name "Aveirense",
+    :href-id #uuid "6013c3c6-54e9-375e-8388-dd95665dae00",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aveirense202.aspx",
@@ -5455,6 +5628,8 @@
     :nec 1143,
     :cp7 "3810-104",
     :id #uuid "dc6264d0-4c2a-3242-9d62-0cde4211de54",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/6013c3c6-aveirense.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
    :geocode
@@ -5555,6 +5730,7 @@
    {:address
     "Rua Professor Antero Fonseca, Nº 104 - Portela 3700-894 ROMARIZ",
     :name "Auto Romariz",
+    :href-id #uuid "50b30909-2adb-3ada-a2d5-ccd162b83256",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoRomariz174.aspx",
@@ -5562,6 +5738,8 @@
     :nec 1148,
     :cp7 "3700-894",
     :id #uuid "56984989-b540-3116-a1e3-a97d00d0ed6c",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/50b30909-auto-romariz.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -5666,6 +5844,7 @@
    {:address
     "Rua Ferreira de Castro, Nº 71, 4520-227 SANTA MARIA da FEIRA",
     :name "5 Quinas",
+    :href-id #uuid "c1bdde1d-c91b-3cc1-800f-01f217b06a60",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/5Quinas.aspx",
@@ -5673,6 +5852,8 @@
     :nec 1152,
     :cp7 "4520-227",
     :id #uuid "b6240d9d-47f4-348d-b70f-2ab36a5fffd1",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/c1bdde1d-5-quinas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -5776,6 +5957,7 @@
    :imt-profile
    {:address "Rua Principal, Nº 1025 4525-189 CANEDO",
     :name "Canedo",
+    :href-id #uuid "b2418d7f-4627-33a7-b0b7-61b4b21336ac",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Canedo278.aspx",
@@ -5783,6 +5965,8 @@
     :nec 1168,
     :cp7 "4525-189",
     :id #uuid "62b92832-8af8-316d-98c2-aff4b01b3479",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/b2418d7f-canedo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -5886,6 +6070,7 @@
    {:address
     "Avª Comandante Augusto Martins Pereira-Edf Sobreiral 3740-255 SEVER DO VOUGA",
     :name "Convida",
+    :href-id #uuid "65bff1e6-0eb0-307a-adec-f61e019eec10",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Convida334.aspx",
@@ -5893,6 +6078,8 @@
     :nec 1196,
     :cp7 "3740-255",
     :id #uuid "99abaedd-12d2-36c9-bebd-d0231fd202e2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/sever-do-vouga/65bff1e6-convida.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Sever%20do%20Vouga"},
    :geocode
@@ -5992,6 +6179,7 @@
    :imt-profile
    {:address "Rua do Cónego Maio, Bloco 2, Nº8 - R/C 3800-089 AVEIRO",
     :name "Sinal Vertical",
+    :href-id #uuid "51bc60b8-75bf-3166-94fa-065f0458a301",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SinalVertical974.aspx",
@@ -5999,6 +6187,8 @@
     :nec 1198,
     :cp7 "3800-089",
     :id #uuid "aed706cb-a0cd-35e4-a29d-06766524c1f8",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/51bc60b8-sinal-vertical.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
    :geocode
@@ -6100,6 +6290,7 @@
    :imt-profile
    {:address "Lugar do Cimo da Inha - Escariz 4544-001 AROUCA",
     :name "Actual",
+    :href-id #uuid "be8e88c9-8df4-346f-9236-c8bb356bfa33",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Actual057.aspx",
@@ -6107,14 +6298,10 @@
     :nec 1218,
     :cp7 "4544-001",
     :id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/arouca/be8e88c9-actual.edn",
     :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"},
-   :geocode
-   {:id #uuid "7a39c2a7-c4a3-3cb9-b572-ec7c02558b35",
-    :overwrite true,
-    :obs "Manual coords",
-    :x -8.422375527411608,
-    :y 40.94577167143348}}]
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Arouca"}}]
  ["mare-01219"
   {:nec 1219,
    :rates
@@ -6205,6 +6392,7 @@
    :imt-profile
    {:address "Rua da Estrada Nova, Nº 1280 3885-401 ESMORIZ",
     :name "Maré",
+    :href-id #uuid "5fb1ddf6-a3cd-3eea-a936-74a7a5c0efb1",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Mare626.aspx",
@@ -6212,6 +6400,8 @@
     :nec 1219,
     :cp7 "3885-401",
     :id #uuid "aa4390c4-06f1-366d-964c-e1c481ced530",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ovar/5fb1ddf6-mare.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
    :geocode
@@ -6314,6 +6504,7 @@
    :imt-profile
    {:address "Estrada Nacional 1, Nª 612 4520-602 S. JOÃO de VER",
     :name "A Sul Parque",
+    :href-id #uuid "8d7d15d3-32cd-3a38-b86a-9c35f653b71c",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ASulParque042.aspx",
@@ -6321,15 +6512,19 @@
     :nec 1238,
     :cp7 "4520-602",
     :id #uuid "3dc59a5e-10b3-3dc0-b299-8c8ecd44edc2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/8d7d15d3-a-sul-parque.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
-   {:cp7 "4520-602",
+   {:id #uuid "3dc59a5e-10b3-3dc0-b299-8c8ecd44edc2",
+    :address "Estrada Nacional 1, Nª 612 4520-602 S. JOÃO de VER",
+    :address-c "N1, 4520-602, Albarrada, Santa Maria da Feira, Aveiro",
     :postal-c "4520-602",
-    :x -8.535220003004753,
-    :y 40.9608449931074,
-    :score 100,
-    :c 1}}]
+    :x -8.531920487391135,
+    :y 40.95664236868414,
+    :score 93.67,
+    :c 9}}]
  ["moliceiro-01311"
   {:nec 1311,
    :rates
@@ -6420,6 +6615,7 @@
    :imt-profile
    {:address "Rua D. António Santos, n.º 48, Quintã, 3840-507 VAGOS",
     :name "Moliceiro",
+    :href-id #uuid "9006d4c9-3aaa-3b3f-b1fe-f9c98eaba2e7",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Moliceiro.aspx",
@@ -6427,6 +6623,8 @@
     :nec 1311,
     :cp7 "3840-507",
     :id #uuid "47cde028-caad-3e66-b6c7-6628ac2c8787",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/vagos/9006d4c9-moliceiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Vagos"},
    :geocode
@@ -6439,43 +6637,6 @@
     :y 40.53229001841149,
     :score 96.42,
     :c 17}}]
- ["prestige-01314"
-  {:nec 1314,
-   :rates
-   [{:r/nec 1314,
-     :r/level-0 "2019",
-     :r/d-scheduled 21,
-     :r/t-rate 0.3333,
-     :r/total-rate 0.5556,
-     :r/d-done 21,
-     :r/total-scheduled 27,
-     :r/name-raw "ESCOLA DE CONDUÇÃO PRESTIGE",
-     :r/total-done 27,
-     :r/d-rate 0.619,
-     :r/t-scheduled 6.0,
-     :r/k "prestige-01314",
-     :r/total-passed 15.0,
-     :r/t-done 6.0}],
-   :imt-profile
-   {:address
-    "Rua Aveiro 1-B, Mamodeiro 3810-732 NOSSA SENHORA DE FÁTIMA",
-    :name "Prestige",
-    :distrito "Aveiro",
-    :imt-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prestige.aspx",
-    :concelho "Aveiro",
-    :nec 1314,
-    :cp7 "3810-732",
-    :id #uuid "351af02c-cc4f-3980-8f70-da518e9b8dbb",
-    :concelho-href
-    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
-   :geocode
-   {:cp7 "3810-732",
-    :postal-c "3810-732",
-    :x -8.577019967407466,
-    :y 40.57677001253552,
-    :score 100,
-    :c 1}}]
  ["medieval-01319"
   {:nec 1319,
    :rates
@@ -6567,17 +6728,18 @@
    {:address
     "Rua Dr. Cândido Pinto, n.º 28 C, Fração D ; 4520-707 Souto VFR",
     :name "Medieval",
+    :href-id #uuid "eb531160-ce4f-3055-b886-876a2ab64a65",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Medieval.aspx",
     :concelho "Santa Maria da Feira",
-    :nec 1318,
+    :nec 1319,
     :cp7 "4520-707",
-    :id #uuid "7e57acad-4b71-3006-a0bb-dc2c8d594ac0",
+    :id #uuid "923df706-2e3d-38c3-a748-397ccee622dd",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/eb531160-medieval.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
-   :obs "nec is 1318 in imt.pt",
-   :overwrite/notes nil,
    :geocode
    {:cp7 "4520-707",
     :postal-c "4520-707",
@@ -6675,6 +6837,7 @@
    :imt-profile
    {:address "Av. 5 de Outubro, n.º 21, R/C Dtº, 3800 - 428 AVEIRO",
     :name "Nova de Aveiro",
+    :href-id #uuid "bc9a4d8c-fe8d-395b-8f4d-915ac422c45b",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeAveiro.aspx",
@@ -6682,14 +6845,18 @@
     :nec 1322,
     :cp7 "3800-428",
     :id #uuid "260d9054-3b7d-3fd9-b389-6a5e55ada146",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/bc9a4d8c-nova-de-aveiro.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
    :geocode
-   {:cp7 "3800-428",
+   {:id #uuid "260d9054-3b7d-3fd9-b389-6a5e55ada146",
+    :address "Av. 5 de Outubro, n.º 21, R/C Dtº, 3800 - 428 AVEIRO",
+    :address-c "Avenida 5 de Outubro 21, 3800-428, Aveiro",
     :postal-c "3800-428",
-    :x -8.646899978000164,
-    :y 40.641615013890714,
-    :score 100,
+    :x -8.647020006853637,
+    :y 40.64163001749739,
+    :score 94.2,
     :c 1}}]
  ["rpm32-01327"
   {:nec 1327,
@@ -6781,6 +6948,7 @@
    :imt-profile
    {:address "Rua 32, n.º 798, 4500-190 ESPINHO",
     :name "RPM32",
+    :href-id #uuid "a24414e7-0e25-3f51-aab4-db2524c0477f",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/RPM32.aspx",
@@ -6788,15 +6956,19 @@
     :nec 1327,
     :cp7 "4500-190",
     :id #uuid "589c00ef-7af5-3997-980d-61d2c79a1777",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/espinho/a24414e7-rpm32.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Espinho"},
    :geocode
-   {:cp7 "4500-190",
+   {:id #uuid "589c00ef-7af5-3997-980d-61d2c79a1777",
+    :address "Rua 32, n.º 798, 4500-190 ESPINHO",
+    :address-c "Rua 32, 4500-190, Espinho, Aveiro",
     :postal-c "4500-190",
-    :x -8.633820018094895,
-    :y 41.006220006852516,
-    :score 100,
-    :c 1}}]
+    :x -8.634032977913117,
+    :y 41.00967548976785,
+    :score 92.71,
+    :c 4}}]
  ["novo-engenho-01329"
   {:nec 1329,
    :rates
@@ -6887,6 +7059,7 @@
    :imt-profile
    {:address "Avenida Monte de Cima, n.º10, 4535-268 PAÇOS DE BRANDÃO",
     :name "Novo Engenho",
+    :href-id #uuid "a5ca880f-6bdc-343d-b0d5-f03b41730428",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovoEngenho.aspx",
@@ -6894,6 +7067,8 @@
     :nec 1329,
     :cp7 "4535-268",
     :id #uuid "70fc58a2-7210-3440-a959-f29ca88d402d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/a5ca880f-novo-engenho.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
@@ -6997,6 +7172,7 @@
    {:address
     "Rua Comendador Martins Pereira, n.º 65, 3850-089 ALBERGARIA-A-VELHA",
     :name "Nova de Albergaria",
+    :href-id #uuid "ecc755fa-90f5-3c72-890b-44ca6511b136",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadeAlbergaria.aspx",
@@ -7004,6 +7180,8 @@
     :nec 1331,
     :cp7 "3850-089",
     :id #uuid "80350540-3f0e-3ea8-958f-56d559fe541d",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/albergaria-a-velha/ecc755fa-nova-de-albergaria.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Albergaria%20a%20Velha"},
    :geocode
@@ -7094,6 +7272,7 @@
    {:address
     "Rua Frei Gil, n.º 3, Edifício Agra, loja A Lugar do Sobreiro 3770-018 BUSTOS",
     :name "Escola de Condução de Bustos",
+    :href-id #uuid "ed00f959-6ead-3074-b347-7994f0251ebf",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeCondu%c3%a7%c3%a3odeBustos.aspx",
@@ -7101,15 +7280,21 @@
     :nec 1348,
     :cp7 "3770-018",
     :id #uuid "75155584-cfba-3d5d-b3a0-6683ddce6e09",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/oliveira-do-bairro/ed00f959-escola-de-conducao-de-bustos.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20Bairro"},
    :geocode
-   {:cp7 "3770-018",
-    :postal-c "3770-018",
-    :x -8.596960012147662,
-    :y 40.49558499385398,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "75155584-cfba-3d5d-b3a0-6683ddce6e09",
+    :address
+    "Rua Frei Gil, n.º 3, Edifício Agra, loja A Lugar do Sobreiro 3770-018 BUSTOS",
+    :address-c
+    "Rua de Frei Gil 3, 3770-017, Bustos, Oliveira do Bairro, Aveiro",
+    :postal-c "3770-017",
+    :x -8.587579991942079,
+    :y 40.50075998087448,
+    :score 89.23,
+    :c 2}}]
  ["ilhavo-01362"
   {:nec 1362,
    :rates
@@ -7186,6 +7371,7 @@
    :imt-profile
    {:address "Rua Coronel Cândido Teles, n.º 7 3830-126 Ílhavo",
     :name "Ílhavo",
+    :href-id #uuid "cbb5c5a9-3e63-3e05-90a4-98aa02dbf62e",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/%c3%8dlhavo.aspx",
@@ -7193,6 +7379,8 @@
     :nec 1362,
     :cp7 "3830-126",
     :id #uuid "e69a7728-d0f3-3b7c-adb1-226ddb686bfc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ilhavo/cbb5c5a9-ilhavo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
    :geocode
@@ -7266,6 +7454,7 @@
    :imt-profile
    {:address "Estrada de Vilar, n.º 53 r/c 3810-195 Aveiro",
     :name "São Bernardo",
+    :href-id #uuid "71962007-95ce-365a-b744-a3f7356921b0",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/S%c3%a3oBernardo.aspx",
@@ -7273,15 +7462,19 @@
     :nec 1379,
     :cp7 "3810-195",
     :id #uuid "142db53f-b1d7-3fd9-a5a0-2167c11170bc",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/71962007-sao-bernardo.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
    :geocode
-   {:cp7 "3810-195",
+   {:id #uuid "142db53f-b1d7-3fd9-a5a0-2167c11170bc",
+    :address "Estrada de Vilar, n.º 53 r/c 3810-195 Aveiro",
+    :address-c "Estrada de Vilar 53, 3810-195, Aveiro",
     :postal-c "3810-195",
-    :x -8.64413998492256,
-    :y 40.631004991303655,
-    :score 100,
-    :c 1}}]
+    :x -8.644007527890356,
+    :y 40.63098312499592,
+    :score 93.85,
+    :c 4}}]
  ["via-azemeis-01384"
   {:nec 1384,
    :rates
@@ -7345,6 +7538,7 @@
    {:address
     "Travessa Domingos Pinho, n.º 57 A 3720-133 Oliveira de Azeméis",
     :name "Via Azeméis",
+    :href-id #uuid "bc0a21f9-1480-37f0-97f4-258847804307",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaAzem%c3%a9is.aspx",
@@ -7352,6 +7546,8 @@
     :nec 1384,
     :cp7 "3720-133",
     :id #uuid "1e5b06fa-e185-3efd-9ab7-844752382224",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/oliveira-de-azemeis/bc0a21f9-via-azemeis.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20de%20Azem%C3%A9is"},
    :geocode
@@ -7409,6 +7605,7 @@
    :imt-profile
    {:address "Rua Principal, n.º 258 r/c 4505-374 Fiães",
     :name "5 Estrelas",
+    :href-id #uuid "6c9142b7-70d3-3a1c-bd31-b986a192d484",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/5Estrelas.aspx",
@@ -7416,15 +7613,20 @@
     :nec 1404,
     :cp7 "4505-374",
     :id #uuid "d77154e6-ac4b-3963-8faf-5b83872d2919",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/santa-maria-da-feira/6c9142b7-5-estrelas.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Santa%20Maria%20da%20Feira"},
    :geocode
-   {:cp7 "4505-374",
-    :postal-c "4505-374",
-    :x -8.531934967512228,
-    :y 40.99786999681865,
-    :score 100,
-    :c 1}}]
+   {:id #uuid "d77154e6-ac4b-3963-8faf-5b83872d2919",
+    :address "Rua Principal, n.º 258 r/c 4505-374 Fiães",
+    :address-c
+    "Rua Principal 258, 4505-515, Sub-Outeiro, Santa Maria da Feira, Aveiro",
+    :postal-c "4505-515",
+    :x -8.507609955674189,
+    :y 40.994949999128615,
+    :score 92.39,
+    :c 22}}]
  ["azurva-01405"
   {:nec 1405,
    :rates
@@ -7473,6 +7675,7 @@
    :imt-profile
    {:address "Rua da República, n.º 118 3810-158 Santa Joana",
     :name "Azurva",
+    :href-id #uuid "29691cb4-7fb9-3cf8-ac3c-d9acff09cdca",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Azurva.aspx",
@@ -7480,6 +7683,8 @@
     :nec 1405,
     :cp7 "3810-158",
     :id #uuid "c63649af-38fb-383c-8ac4-c0c713464cf0",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/aveiro/29691cb4-azurva.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Aveiro"},
    :geocode
@@ -7552,6 +7757,7 @@
    {:address
     "Av. dos Descobrimentos, n.º 643, Edifício Brites, 3700-766 Nogueira do Cravo",
     :name "Novabela",
+    :href-id #uuid "726bf0e5-0fe0-3419-b108-1c2f2ef9a827",
     :distrito "Aveiro",
     :imt-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Novabela.aspx",
@@ -7559,12 +7765,18 @@
     :nec 1408,
     :cp7 "3700-766",
     :id #uuid "c007ef8a-d9ad-39da-92b1-d091caa0aa80",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/oliveira-de-azemeis/726bf0e5-novabela.edn",
     :concelho-href
     "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Oliveira%20de%20Azem%C3%A9is"},
    :geocode
-   {:cp7 "3700-766",
+   {:id #uuid "c007ef8a-d9ad-39da-92b1-d091caa0aa80",
+    :address
+    "Av. dos Descobrimentos, n.º 643, Edifício Brites, 3700-766 Nogueira do Cravo",
+    :address-c
+    "Avenida dos Descobrimentos 643, 3700-766, Nogueira do Cravo, Oliveira de Azeméis, Aveiro",
     :postal-c "3700-766",
-    :x -8.4575025776669,
-    :y 40.887092920433304,
-    :score 100,
-    :c 1}}]]
+    :x -8.457112859847054,
+    :y 40.88648326289085,
+    :score 94.21,
+    :c 2}}]]

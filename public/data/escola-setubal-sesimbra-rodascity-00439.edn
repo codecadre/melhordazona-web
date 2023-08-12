@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Largo Alípio Loureiro - Santana 2970 SESIMBRA",
   :name "Rodascity",
+  :href-id #uuid "7a765fd7-a5aa-33c9-bf23-d7520541072a",
   :distrito "Setúbal",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rodascity863.aspx",
@@ -94,5 +95,7 @@
   :nec 439,
   :cp7 "2970",
   :id #uuid "03a466df-780f-3c09-8696-79a459660753",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/sesimbra/7a765fd7-rodascity.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Sesimbra"}}

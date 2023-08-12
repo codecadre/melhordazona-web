@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rotunda S. Cristóvão, Nº 179-1º Dt 3880-070 OVAR",
   :name "Ovarense",
+  :href-id #uuid "22c2f0d0-7a73-3f62-8a14-b602cae05171",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Ovarense761.aspx",
@@ -94,6 +95,8 @@
   :nec 172,
   :cp7 "3880-070",
   :id #uuid "552ba8be-8e39-303f-8164-f7084ea91c14",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ovar/22c2f0d0-ovarense.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ovar"},
  :geocode

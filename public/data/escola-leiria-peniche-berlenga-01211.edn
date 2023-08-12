@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Avª Porto das Pescas, Lote 5 - 1º 2520-208 PENICHE",
   :name "Berlenga",
+  :href-id #uuid "e6be7319-e34b-3f4f-8d10-4ef5801ed4cb",
   :distrito "Leiria",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Berlenga246.aspx",
@@ -94,6 +95,8 @@
   :nec 1211,
   :cp7 "2520-208",
   :id #uuid "12351d34-c31a-39ec-84e6-f617831989e5",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/peniche/e6be7319-berlenga.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Peniche"},
  :geocode

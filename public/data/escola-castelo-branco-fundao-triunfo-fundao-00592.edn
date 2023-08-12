@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Loteamento Boavista, Lote 23 R/C DTº 6230 -287 FUNDÃO",
   :name "Triunfo - Fundão",
+  :href-id #uuid "ebc71537-a194-3747-99fc-17080546ec0f",
   :distrito "Castelo Branco",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/TriunfoFundao1024.aspx",
@@ -94,6 +95,8 @@
   :nec 592,
   :cp7 "6230-287",
   :id #uuid "fd03f829-02ba-3cd4-986d-0877186cb4e3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/castelo-branco/fundao/ebc71537-triunfo-fundao.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=CasteloBranco&Concelho=Fund%C3%A3o"},
  :geocode

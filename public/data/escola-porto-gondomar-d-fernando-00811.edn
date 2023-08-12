@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Trás da Serra, Nº 110 4510-147 JOVIM GDM",
   :name "D. Fernando",
+  :href-id #uuid "f13a3aec-408a-332e-bdae-776bcc2d0af0",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/DFernando355.aspx",
@@ -94,6 +95,8 @@
   :nec 811,
   :cp7 "4510-147",
   :id #uuid "8c5e7670-8f0a-3fdc-8e99-7ceb932f8dd8",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/gondomar/f13a3aec-d-fernando.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Gondomar"},
  :geocode

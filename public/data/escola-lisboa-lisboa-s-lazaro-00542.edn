@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Nova do Desterro, n.º 1, 1050-151 LISBOA",
   :name "S. Lázaro",
+  :href-id #uuid "cd3bd2fb-d47a-356d-a40b-28535de19f41",
   :distrito "Lisboa",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/SLazaro.aspx",
@@ -94,12 +95,16 @@
   :nec 542,
   :cp7 "1050-151",
   :id #uuid "ef678ad5-ec72-389a-ba40-7db3ed5b0f84",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/lisboa/cd3bd2fb-s-lazaro.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Lisboa"},
  :geocode
- {:cp7 "1050-151",
-  :postal-c "1050-151",
-  :x -9.152524959832675,
-  :y 38.73882500861717,
-  :score 100,
-  :c 1}}
+ {:id #uuid "ef678ad5-ec72-389a-ba40-7db3ed5b0f84",
+  :address "Rua Nova do Desterro, n.º 1, 1050-151 LISBOA",
+  :address-c "Rua Nova do Desterro 1, 1150-240, Lisboa",
+  :postal-c "1150-240",
+  :x -9.13594999776032,
+  :y 38.720000008456395,
+  :score 94.64,
+  :c 2}}

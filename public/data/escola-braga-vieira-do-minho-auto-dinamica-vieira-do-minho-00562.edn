@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua Luís de Camões 4850-536 VIEIRA DO MINHO",
   :name "Auto Dinâmica",
+  :href-id #uuid "bac98d2f-bfb6-3a8e-86ce-3f9f061445fc",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AutoDinamica150.aspx",
@@ -94,6 +95,8 @@
   :nec 562,
   :cp7 "4850-536",
   :id #uuid "e078ba5f-c08e-3e2d-a434-163e5dd16e1c",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/vieira-do-minho/bac98d2f-auto-dinamica.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Vieira%20do%20Minho"},
  :geocode

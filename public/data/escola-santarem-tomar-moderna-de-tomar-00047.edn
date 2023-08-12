@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua João de Oliveira Casquinho, 25 2300-576 TOMAR",
   :name "Moderna-Tomar",
+  :href-id #uuid "4a83f6c4-284b-3aa6-9407-489f7766d70f",
   :distrito "Santarém",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ModernaTomar660.aspx",
@@ -94,6 +95,8 @@
   :nec 47,
   :cp7 "2300-576",
   :id #uuid "55ff0b2f-2a82-364d-b05e-a9ccd29254e7",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/santarem/tomar/4a83f6c4-moderna-tomar.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Santarem&Concelho=Tomar"},
  :geocode

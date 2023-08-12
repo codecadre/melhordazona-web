@@ -88,6 +88,7 @@
  {:address
   "Rua Brites de Arrochela - Sobrado 4550-208 CASTELO DE PAIVA",
   :name "Via Rápida",
+  :href-id #uuid "e465a8a1-0344-3a4b-b5be-c9af0c96bada",
   :distrito "Aveiro",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ViaRapida1054.aspx",
@@ -95,5 +96,18 @@
   :nec 882,
   :cp7 "4550-208",
   :id #uuid "e14e227a-da94-389b-b05e-b2a20e2d6bf3",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/castelo-de-paiva/e465a8a1-via-rapida.edn",
   :concelho-href
-  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"}}
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Castelo%20de%20Paiva"},
+ :geocode
+ {:id #uuid "e14e227a-da94-389b-b05e-b2a20e2d6bf3",
+  :address
+  "Rua Brites de Arrochela - Sobrado 4550-208 CASTELO DE PAIVA",
+  :address-c
+  "Rua Dona Brites de Arrochela, 4550, Castelo de Paiva, Aveiro",
+  :postal-c "4550",
+  :x -8.267874420576286,
+  :y 41.045904700814944,
+  :score 89.44,
+  :c 3}}

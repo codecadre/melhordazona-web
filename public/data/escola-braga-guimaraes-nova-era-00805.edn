@@ -88,6 +88,7 @@
  {:address
   "Urbanização Vila das Trofas, Lote 21 Fracção E 4810-517 URGEZES GMR",
   :name "Nova Era",
+  :href-id #uuid "441b8dde-c197-3dbe-ace2-8ec2fdb0754e",
   :distrito "Braga",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaEra710.aspx",
@@ -95,6 +96,8 @@
   :nec 805,
   :cp7 "4810-517",
   :id #uuid "4262cf4a-c261-3717-bdd4-6e8a39656f80",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/braga/guimaraes/441b8dde-nova-era.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Braga&Concelho=Guimar%C3%A3es"},
  :geocode

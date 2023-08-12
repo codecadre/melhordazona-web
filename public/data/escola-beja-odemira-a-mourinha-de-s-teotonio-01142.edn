@@ -87,6 +87,7 @@
  :imt-profile
  {:address "Rua das Escolas nº 1 e 3 r/c 7630 -623 S. TEOTÓNIO",
   :name "A Mourinha de Stº Teotónio",
+  :href-id #uuid "03e574bd-9a4d-30ee-8440-e121b839307f",
   :distrito "Beja",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AMourinhadeStTeotonio030.aspx",
@@ -94,12 +95,16 @@
   :nec 1142,
   :cp7 "7630-623",
   :id #uuid "5606fabe-5e1b-3bc8-9b26-93dc838eb813",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/beja/odemira/03e574bd-a-mourinha-de-sto-teotonio.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Beja&Concelho=Odemira"},
  :geocode
- {:cp7 "7630-623",
-  :postal-c "7630-623",
-  :x -8.703310018732822,
-  :y 37.51112999744301,
-  :score 100,
-  :c 1}}
+ {:address "Rua das Escolas nº 1 e 3 r/c 7630 -623 S. TEOTÓNIO",
+  :address-c
+  "Rua da Escola 1, 7630-574, Cabo Sardão-Cavaleiro, Odemira, Beja",
+  :postal-c "7630-574",
+  :x -8.804440027477,
+  :y 37.598490006103,
+  :score 93.93,
+  :c 10}}

@@ -88,6 +88,7 @@
  {:address
   "Rua da Independência da Guiné –113 R/C 2 4480-755 VILA DO CONDE",
   :name "Nascimento",
+  :href-id #uuid "c52ce30d-e69a-3873-8874-3bf4347ad85e",
   :distrito "Porto",
   :imt-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Nascimento687.aspx",
@@ -95,6 +96,8 @@
   :nec 795,
   :cp7 "4480-755",
   :id #uuid "4e1bbf96-9719-3b5b-af7c-ae7b13d1a28e",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/vila-do-conde/c52ce30d-nascimento.edn",
   :concelho-href
   "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Vila%20Conde"},
  :geocode
