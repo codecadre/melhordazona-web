@@ -194,6 +194,8 @@
                      :en ["Free access to government data focused on user privacy. Done by " " for " "."]}
    :footer/data-sources {:pt "Origem dos dados"
                          :en "Data sources"}
+   :footer/changelog {:pt "Data Changelog"
+                      :en "Data Changelog"}
 
    ;;
    ;; Directory

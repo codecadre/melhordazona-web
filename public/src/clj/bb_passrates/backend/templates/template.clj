@@ -28,6 +28,8 @@
       [:p.top-level-item (copy [:project lang])]
       [:p.item [:a {:href "https://github.com/codecadre"} "Open Source"]]
       [:p.item [:a {:href (copy-m :href/data-sources)} (copy-m :footer/data-sources)]]
+      [:p.item [:a {:href "https://github.com/codecadre/melhordazona-web/blob/master/aggregate-transform-load/Changelog.md"}
+                (copy-m :footer/changelog)]]
       #_[:p.item "About"]]
      #_[:div.columns.two
       [:p.top-level-item "Legal"]
