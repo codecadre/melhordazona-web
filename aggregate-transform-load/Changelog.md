@@ -4,10 +4,10 @@ Merges imt-profiles batch from [[DATA FETCH] 24-07-2023]( https://github.com/cod
 
 Data changes summary:
 
-1225 School entries from pass rates pdf.
-74 Manual imt-profile overwrites
-1084 Schools WITH imt profile
-45 imt profiles with no geocoding.
+- 1225 School entries from pass rates pdf.
+- 74 Manual imt-profile overwrites
+- 1084 Schools WITH imt profile
+- 45 imt profiles with no geocoding.
 
 ## Schools that now have imt-profile
 
