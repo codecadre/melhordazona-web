@@ -22,6 +22,10 @@
             :en "2015-2020 Data"}
    :project {:pt "Projecto" :en "Project"}
 
+   :archived {:pt "(Desativada*)" :en "(Archived*)"}
+   :archived-long {:pt "*Escola já não se encontra no site do IMT. Vista pela última vez em %s."
+                   :en "*School no longer available at IMT website. Last seen at %s."}
+
    ;;
    ;;href
    ;;

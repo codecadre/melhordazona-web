@@ -4,8 +4,9 @@
             [bb-passrates.shared.svg :as svg]
             [bb-passrates.shared.main :refer [get-place-list string->keywordize
                                               address->human]]
-            [bb-passrates.shared.copy :refer [copy]]
-            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs no-info-breadcrumbs]]))
+            [bb-passrates.shared.copy :refer [copy copy-m]]
+            [bb-passrates.backend.pages.breadcrumbs :refer [breadcrumbs no-info-breadcrumbs]]
+            [bb-passrates.backend.util :as util]))
 
 (def config
   (merge
@@ -43,7 +44,9 @@
         concelho-key (if concelho (string->keywordize concelho) "no-info")
         district (:distrito imt-profile)
         district-key (if district (string->keywordize district) "no-info")
-        name (:name imt-profile)]
+        name (:name imt-profile)
+        archived? (boolean (and imt-profile (:archived-last-seen-at imt-profile)))
+        last-seen-at (when archived? (:archived-last-seen-at imt-profile))]
     (into
      [:html {:lang (clojure.core/name lang)}]
      (tmp/header
@@ -53,9 +56,12 @@
         [:div.container
          [:div.row
           [:p.label (copy [:school/title lang])]
-          (if imt-profile
-            [:h4.name (:name imt-profile)]
-            [:h4.name (-> rates first :r/name-raw address->human)])
+          (cond archived?
+
+                [:h4.name.archived-school (str (:name imt-profile) " " (copy-m :archived))]
+                imt-profile [:h4.name (:name imt-profile)]
+                :else [:h4.name (-> rates first :r/name-raw address->human)])
+
           (if imt-profile
             (breadcrumbs {:district district
                           :district-key district-key
@@ -74,7 +80,9 @@
               [:p.field (:concelho imt-profile)]
               [:p.label (copy [:cp7 lang])]
               [:p.field (:cp7 imt-profile)]
-              [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "IMT"]]
+              (if archived?
+                [:p.source (format (copy-m :archived-long) (util/->dd-yy-year last-seen-at))]
+                [:p.source (copy [:list/pop-up-source lang]) [:a {:href (:imt-href imt-profile)} "IMT"]])
               [:p.label (copy [:school/coords lang])]
               (if lat
                 [:p.field lat " " long]
@@ -82,7 +90,7 @@
               [:p.source (copy [:list/pop-up-source lang]) [:a {:href esri-href} "ESRI"]]])
            (when geocode
              [:div.six.columns
-              [:div#map-solo {:lat lat :long long}]])]
+              [:div#map-solo {:lat lat :long long :archived (str archived?)}]])]
           [:div.row
            [:div.six.columns
             [:div.driving

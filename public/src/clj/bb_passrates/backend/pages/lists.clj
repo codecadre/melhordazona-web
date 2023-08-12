@@ -5,8 +5,9 @@
             [clojure.edn :as edn]
             [bb-passrates.shared.svg :as svg]
             [bb-passrates.shared.main :refer [get-place-list k->human address->human string->keywordize]]
-            [bb-passrates.shared.copy :refer [copy]]
-            [bb-passrates.backend.pages.breadcrumbs :refer [no-info-breadcrumbs breadcrumbs]]))
+            [bb-passrates.shared.copy :refer [copy copy-m]]
+            [bb-passrates.backend.pages.breadcrumbs :refer [no-info-breadcrumbs breadcrumbs]]
+            [bb-passrates.backend.util :as util]))
 
 (def config
   (merge
@@ -36,13 +37,19 @@
 
 
 (defn pop-up [k svg {:keys [name] :as imt-profile} lang]
-  [:div.pop-up-wrapper
-   [:h5.name name]
-   [:div svg]
-   [:div.source [:span (copy [:list/pop-up-source lang])]
-    [:a {:href taxa-aprovacao-href} "IMT"]
-    [:a {:href esri-href} "ESRI"]]
-   [:a.ver-mais {:href (str "#" k)} (copy [:list/pop-up-more lang])]])
+  (let [archived? (and imt-profile (:archived-last-seen-at imt-profile))
+        last-seen-at (when archived? (:archived-last-seen-at imt-profile))]
+    [:div.pop-up-wrapper
+     (if archived?
+       [:h5.name.archived-school (str (:name imt-profile) " " (copy-m :archived))]
+       [:h5.name name])
+     [:div svg]
+     [:div.source [:span (copy [:list/pop-up-source lang])]
+      [:a {:href taxa-aprovacao-href} "IMT"]
+      [:a {:href esri-href} "ESRI"]]
+     (when archived?
+       [:p.source (format (copy-m :archived-long) (util/->dd-yy-year last-seen-at))])
+     [:a.ver-mais {:href (str "#" k)} (copy [:list/pop-up-more lang])]]))
 
 (def year-selector
   #{"2018" "2019" "2020"})
@@ -59,15 +66,21 @@
         href-school (:imt-href imt-profile)
         district (:distrito imt-profile)
         district-key (if district (string->keywordize district) "no-info")
-        municipality-key (if concelho (string->keywordize concelho) "no-info")]
-    [(keyword (str "div#" k)) {:class "school-card" :lat lat :long long}
+        municipality-key (if concelho (string->keywordize concelho) "no-info")
+        archived? (boolean (and imt-profile (:archived-last-seen-at imt-profile)))
+        last-seen-at (when archived? (:archived-last-seen-at imt-profile))]
+    [(keyword (str "div#" k)) {:class "school-card" :lat lat :long long :archived (str archived?)}
      (pop-up k svg imt-profile lang)
-     [:h4.name name]
+     (if (:archived-last-seen-at imt-profile)
+       [:h4.name.archived-school (str (:name imt-profile) " " (copy-m :archived))]
+       [:h4.name name])
      [:p.label (copy [:list/scard-license lang])]
      [:p.field nec]
      [:p.label  [:span (copy [:list/scard-address lang])] (when (nil? geocode) [:span.no-coord [:sup.strong "†"]])]
      [:p.field (address->human address)]
-     [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href href-school} "IMT"]]
+     (if archived?
+       [:p.source (format (copy-m :archived-long) (util/->dd-yy-year last-seen-at))]
+       [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href href-school} "IMT"]])
      [:div.ratings
       svg]
      [:div.source [:span (copy [:list/pop-up-source lang])] [:a {:href taxa-aprovacao-href} "IMT"]]

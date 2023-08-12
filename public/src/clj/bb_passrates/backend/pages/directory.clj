@@ -19,6 +19,7 @@
   {:title (format (copy [:directory-list/meta-title lang]) district-human)
    :subtitle (format (copy [:directory-list/subtitle lang]) district-human)})
 
+;;TODO automate
 (def districts
   {"Setúbal" 72,
    "Évora" 20,
@@ -38,7 +39,7 @@
    "Guarda" 22,
    "Aveiro" 73,
    "Viseu" 54
-   nil 151})
+   nil 141})
 
 (defn index [{:keys [lang] :as req}]
   (let [h (->> districts
