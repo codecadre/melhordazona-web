@@ -1,5 +1,9 @@
 # 11/08/2023
 
+Merges imt-profiles batch from [[DATA FETCH] 24-07-2023]( https://github.com/codecadre/imt-school-addresses/pull/2).
+
+Data changes summary:
+
 1225 School entries from pass rates pdf.
 74 Manual imt-profile overwrites
 1084 Schools WITH imt profile
@@ -10,6 +14,7 @@
 They show up on the map:
 
 ```
+|                    | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 |
 | moncorvense-01201  | true | true | true | true | true | true |
 | nova-mafra-00378   | true |      |      | true | true | true |
 | d-chama-01057      | true | true | true | true | true | true |
