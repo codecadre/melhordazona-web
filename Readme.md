@@ -29,7 +29,6 @@ Available recipes:
     less-watch
     list
     logs
-    pages
     release
     server
     shadow-build
@@ -59,6 +58,8 @@ Apache2 and babashka
 
 ## Aggregate Transform Load
 
-available at `/aggregate-transform-load`. This should get it's own project at some point, but for now it lives here.
+Available at `/aggregate-transform-load`. This should get it's own project at some point, but for now it lives here.
 
-[Readme.md](aggregate-transform-load/Readme.md)
+[Readme.md](aggregate-transform-load/Readme.md) has an outline of the steps taken to merge different data sources into one data set. This is the final output:
+
+ https://github.com/codecadre/melhordazona-web/tree/master/public/data
