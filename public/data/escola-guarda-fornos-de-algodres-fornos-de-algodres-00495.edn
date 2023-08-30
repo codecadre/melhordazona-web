@@ -83,7 +83,21 @@
    :r/t-scheduled 44.0,
    :r/k "fornos-de-algodres-00495",
    :r/total-passed 40.0,
-   :r/t-done 41.0}],
+   :r/t-done 41.0}
+  {:r/nec 495,
+   :r/level-0 "2021",
+   :r/d-scheduled 39,
+   :r/t-rate 0.5833,
+   :r/total-rate 0.5085,
+   :r/d-done 35,
+   :r/total-scheduled 65,
+   :r/name-raw "ESCOLA DE CONDUÇÃO FORNOS DE ALGODRES",
+   :r/total-done 59,
+   :r/d-rate 0.4571,
+   :r/t-scheduled 26.0,
+   :r/k "fornos-de-algodres-00495",
+   :r/total-passed nil,
+   :r/t-done 24.0}],
  :imt-profile
  {:address
   "Estrada Nacional nº 16, nº 139, 6370-147 FORNOS DE ALGODRES",

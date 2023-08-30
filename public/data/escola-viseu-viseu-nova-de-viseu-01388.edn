@@ -55,7 +55,21 @@
    :r/t-scheduled 178.0,
    :r/k "nova-de-viseu-01388",
    :r/total-passed 205.0,
-   :r/t-done 166.0}],
+   :r/t-done 166.0}
+  {:r/nec 1388,
+   :r/level-0 "2021",
+   :r/d-scheduled 185,
+   :r/t-rate 0.6812,
+   :r/total-rate 0.6007,
+   :r/d-done 160,
+   :r/total-scheduled 344,
+   :r/name-raw "Escola de Condução Nova de Viseu",
+   :r/total-done 298,
+   :r/d-rate 0.5313,
+   :r/t-scheduled 159.0,
+   :r/k "nova-de-viseu-01388",
+   :r/total-passed nil,
+   :r/t-done 138.0}],
  :imt-profile
  {:address
   "Rua Camilo Castelo Branco, n.º 8, Quinta das Mesuras, freguesia da União das freguesias de VISEU",

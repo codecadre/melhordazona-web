@@ -41,7 +41,21 @@
    :r/t-scheduled 33.0,
    :r/k "arede-01415",
    :r/total-passed 63.0,
-   :r/t-done 33.0}],
+   :r/t-done 33.0}
+  {:r/nec 1415,
+   :r/level-0 "2021",
+   :r/d-scheduled 18,
+   :r/t-rate 0.4167,
+   :r/total-rate 0.5333,
+   :r/d-done 18,
+   :r/total-scheduled 31,
+   :r/name-raw "Escola de Condução Arede",
+   :r/total-done 30,
+   :r/d-rate 0.6111,
+   :r/t-scheduled 13.0,
+   :r/k "arede-01415",
+   :r/total-passed nil,
+   :r/t-done 12.0}],
  :imt-profile
  {:address
   "Edifício Milénio, Rua da Indústria/Avenida de Coimbra, n.º 3, 3420-314 Tábua",

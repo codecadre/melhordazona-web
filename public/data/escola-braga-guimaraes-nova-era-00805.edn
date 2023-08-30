@@ -83,7 +83,21 @@
    :r/t-scheduled 123.0,
    :r/k "nova-era-00805",
    :r/total-passed 141.0,
-   :r/t-done 116.0}],
+   :r/t-done 116.0}
+  {:r/nec 805,
+   :r/level-0 "2021",
+   :r/d-scheduled 104,
+   :r/t-rate 0.7087,
+   :r/total-rate 0.7313,
+   :r/d-done 98,
+   :r/total-scheduled 210,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA ERA",
+   :r/total-done 201,
+   :r/d-rate 0.7551,
+   :r/t-scheduled 106.0,
+   :r/k "nova-era-00805",
+   :r/total-passed nil,
+   :r/t-done 103.0}],
  :imt-profile
  {:address
   "Urbanização Vila das Trofas, Lote 21 Fracção E 4810-517 URGEZES GMR",

@@ -69,7 +69,21 @@
    :r/t-scheduled 29.0,
    :r/k "nova-do-bombarral-01357",
    :r/total-passed 27.0,
-   :r/t-done 28.0}],
+   :r/t-done 28.0}
+  {:r/nec 1357,
+   :r/level-0 "2021",
+   :r/d-scheduled 20,
+   :r/t-rate nil,
+   :r/total-rate 0.4,
+   :r/d-done 20,
+   :r/total-scheduled 20,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DO BOMBARRAL",
+   :r/total-done 20,
+   :r/d-rate 0.4,
+   :r/t-scheduled 0.0,
+   :r/k "nova-do-bombarral-01357",
+   :r/total-passed nil,
+   :r/t-done 0.0}],
  :imt-profile
  {:address
   "Rua Comandante Palmiro Fernandes, n.º 10, loja A, 2540-040 Bombarral",

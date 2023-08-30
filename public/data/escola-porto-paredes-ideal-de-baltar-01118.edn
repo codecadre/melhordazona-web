@@ -83,7 +83,21 @@
    :r/t-scheduled 430.0,
    :r/k "ideal-de-baltar-01118",
    :r/total-passed 578.0,
-   :r/t-done 393.0}],
+   :r/t-done 393.0}
+  {:r/nec 1118,
+   :r/level-0 "2021",
+   :r/d-scheduled 421,
+   :r/t-rate 0.6647,
+   :r/total-rate 0.6506,
+   :r/d-done 390,
+   :r/total-scheduled 793,
+   :r/name-raw "ESCOLA DE CONDUÇÃO IDEAL DE BALTAR",
+   :r/total-done 727,
+   :r/d-rate 0.6385,
+   :r/t-scheduled 372.0,
+   :r/k "ideal-de-baltar-01118",
+   :r/total-passed nil,
+   :r/t-done 337.0}],
  :imt-profile
  {:address
   "Avª dos Bombeiros Voluntários – Edifício Sol 4580-059 BALTAR",

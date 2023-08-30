@@ -83,7 +83,21 @@
    :r/t-scheduled 197.0,
    :r/k "stop-real-01130",
    :r/total-passed 256.0,
-   :r/t-done 191.0}],
+   :r/t-done 191.0}
+  {:r/nec 1130,
+   :r/level-0 "2021",
+   :r/d-scheduled 219,
+   :r/t-rate 0.6667,
+   :r/total-rate 0.7301,
+   :r/d-done 175,
+   :r/total-scheduled 355,
+   :r/name-raw "ESCOLA DE CONDUÇÃO STOP REAL",
+   :r/total-done 289,
+   :r/d-rate 0.7714,
+   :r/t-scheduled 136.0,
+   :r/k "stop-real-01130",
+   :r/total-passed nil,
+   :r/t-done 114.0}],
  :imt-profile
  {:address
   "Quinta da Arancária, Lote 1 – Bloco A – loja 1 5000-000 VILA REAL (SÃO PEDRO)",

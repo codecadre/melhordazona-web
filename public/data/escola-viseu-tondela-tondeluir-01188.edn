@@ -83,7 +83,21 @@
    :r/t-scheduled 5.0,
    :r/k "tondeluir-01188",
    :r/total-passed 10.0,
-   :r/t-done 5.0}],
+   :r/t-done 5.0}
+  {:r/nec 1188,
+   :r/level-0 "2021",
+   :r/d-scheduled 1,
+   :r/t-rate 0.0,
+   :r/total-rate 0.5,
+   :r/d-done 1,
+   :r/total-scheduled 3,
+   :r/name-raw "ESCOLA DE CONDUÇÃO TONDELUIR",
+   :r/total-done 2,
+   :r/d-rate 1.0,
+   :r/t-scheduled 2.0,
+   :r/k "tondeluir-01188",
+   :r/total-passed nil,
+   :r/t-done 1.0}],
  :imt-profile
  {:address
   "Av. Eng. Adelino Amaro da Costa - Lote 1 Lj. 844 3460-009 TONDELA",

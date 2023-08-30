@@ -83,7 +83,21 @@
    :r/t-scheduled 71.0,
    :r/k "nova-geracao-01094",
    :r/total-passed 83.0,
-   :r/t-done 64.0}],
+   :r/t-done 64.0}
+  {:r/nec 1094,
+   :r/level-0 "2021",
+   :r/d-scheduled 111,
+   :r/t-rate 0.6262,
+   :r/total-rate 0.622,
+   :r/d-done 102,
+   :r/total-scheduled 222,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA GERAÇÃO",
+   :r/total-done 209,
+   :r/d-rate 0.6176,
+   :r/t-scheduled 111.0,
+   :r/k "nova-geracao-01094",
+   :r/total-passed nil,
+   :r/t-done 107.0}],
  :imt-profile
  {:address
   "Rua Nova do Agrelo, n.º 196 ; 4765-550 Serzedelo (Guimarães)",

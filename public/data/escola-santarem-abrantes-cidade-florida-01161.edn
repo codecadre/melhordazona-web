@@ -83,7 +83,21 @@
    :r/t-scheduled 133.0,
    :r/k "cidade-florida-01161",
    :r/total-passed 194.0,
-   :r/t-done 126.0}],
+   :r/t-done 126.0}
+  {:r/nec 1161,
+   :r/level-0 "2021",
+   :r/d-scheduled 176,
+   :r/t-rate 0.7239,
+   :r/total-rate 0.7162,
+   :r/d-done 162,
+   :r/total-scheduled 317,
+   :r/name-raw "ESCOLA DE CONDUÇÃO CIDADE FLORIDA",
+   :r/total-done 296,
+   :r/d-rate 0.7099,
+   :r/t-scheduled 141.0,
+   :r/k "cidade-florida-01161",
+   :r/total-passed nil,
+   :r/t-done 134.0}],
  :imt-profile
  {:address
   "Av. António Farinha Pereira - Edificio Mamade, R/C B ; 2200-024 Abrantes",

@@ -83,7 +83,21 @@
    :r/t-scheduled 105.0,
    :r/k "rota-do-sol-da-caranguejeira-01114",
    :r/total-passed 136.0,
-   :r/t-done 101.0}],
+   :r/t-done 101.0}
+  {:r/nec 1114,
+   :r/level-0 "2021",
+   :r/d-scheduled 127,
+   :r/t-rate 0.6964,
+   :r/total-rate 0.7167,
+   :r/d-done 121,
+   :r/total-scheduled 246,
+   :r/name-raw "ESCOLA DE CONDUÇÃO ROTA DO SOL DA CARANGUEJEIRA",
+   :r/total-done 233,
+   :r/d-rate 0.7355,
+   :r/t-scheduled 119.0,
+   :r/k "rota-do-sol-da-caranguejeira-01114",
+   :r/total-passed nil,
+   :r/t-done 112.0}],
  :imt-profile
  {:address
   "Rua de São Cristóvão nº 16 r/c Esqº 2420-104 CARANGUEJEIRA",

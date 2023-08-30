@@ -84,7 +84,21 @@
      :r/t-scheduled 151.0,
      :r/k "baiao-00474",
      :r/total-passed 213.0,
-     :r/t-done 145.0}],
+     :r/t-done 145.0}
+    {:r/nec 474,
+     :r/level-0 "2021",
+     :r/d-scheduled 119,
+     :r/t-rate 0.6875,
+     :r/total-rate 0.6195,
+     :r/d-done 114,
+     :r/total-scheduled 240,
+     :r/name-raw "ESCOLA DE CONDUÇÃO DE BAIÃO",
+     :r/total-done 226,
+     :r/d-rate 0.5526,
+     :r/t-scheduled 121.0,
+     :r/k "baiao-00474",
+     :r/total-passed nil,
+     :r/t-done 112.0}],
    :imt-profile
    {:address "Lugar da Feira 4640-147 CAMPELO",
     :name "Baião",
@@ -107,6 +121,38 @@
     :y 41.164185018820774,
     :score 100,
     :c 1}}]
+ ["dominante-01043"
+  {:nec 1043,
+   :rates
+   [{:r/nec 1043,
+     :r/level-0 "2021",
+     :r/d-scheduled 168,
+     :r/t-rate 0.6878,
+     :r/total-rate 0.7049,
+     :r/d-done 161,
+     :r/total-scheduled 380,
+     :r/name-raw "ESCOLA DE CONDUÇÃO DOMINANTE",
+     :r/total-done 366,
+     :r/d-rate 0.7267,
+     :r/t-scheduled 212.0,
+     :r/k "dominante-01043",
+     :r/total-passed nil,
+     :r/t-done 205.0}],
+   :imt-profile
+   {:address "RUA ABEL RIBEIRO, FRACÇÃO G ",
+    :name "Dominante",
+    :href-id #uuid "baaf8775-b578-3385-a2f2-7c95d0a52a72",
+    :distrito "Porto",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaoDominante.aspx",
+    :concelho "Baião",
+    :nec 1043,
+    :cp7 nil,
+    :id #uuid "822982a7-9290-3af9-bae5-eb9ba1b2afae",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/baiao/baaf8775-dominante.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"}}]
  ["santa-marinhense-01047"
   {:nec 1047,
    :rates
@@ -193,7 +239,21 @@
      :r/t-scheduled 71.0,
      :r/k "santa-marinhense-01047",
      :r/total-passed 93.0,
-     :r/t-done 68.0}],
+     :r/t-done 68.0}
+    {:r/nec 1047,
+     :r/level-0 "2021",
+     :r/d-scheduled 74,
+     :r/t-rate 0.8205,
+     :r/total-rate 0.7339,
+     :r/d-done 70,
+     :r/total-scheduled 113,
+     :r/name-raw "ESCOLA DE CONDUÇÃO SANTA MARINHENSE",
+     :r/total-done 109,
+     :r/d-rate 0.6857,
+     :r/t-scheduled 39.0,
+     :r/k "santa-marinhense-01047",
+     :r/total-passed nil,
+     :r/t-done 39.0}],
    :imt-profile
    {:address "Lugar da Portela, Fracções D e E 4640-264 GOVE",
     :archived-last-seen-at "2022-05-07T14:52:45Z",

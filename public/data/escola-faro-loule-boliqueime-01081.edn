@@ -83,7 +83,21 @@
    :r/t-scheduled 54.0,
    :r/k "boliqueime-01081",
    :r/total-passed 52.0,
-   :r/t-done 45.0}],
+   :r/t-done 45.0}
+  {:r/nec 1081,
+   :r/level-0 "2021",
+   :r/d-scheduled 49,
+   :r/t-rate 0.5082,
+   :r/total-rate 0.5149,
+   :r/d-done 40,
+   :r/total-scheduled 132,
+   :r/name-raw "ESCOLA DE CONDUÇÃO BOLIQUEIME",
+   :r/total-done 101,
+   :r/d-rate 0.525,
+   :r/t-scheduled 83.0,
+   :r/k "boliqueime-01081",
+   :r/total-passed nil,
+   :r/t-done 61.0}],
  :imt-profile
  {:address
   "Estrada Nacional 125, Fonte de Boliqueime, Nº 66, 8100-069 BOLIQUEIME",

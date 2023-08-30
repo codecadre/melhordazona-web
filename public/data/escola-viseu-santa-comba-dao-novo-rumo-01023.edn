@@ -83,7 +83,21 @@
    :r/t-scheduled 139.0,
    :r/k "novo-rumo-01023",
    :r/total-passed 227.0,
-   :r/t-done 133.0}],
+   :r/t-done 133.0}
+  {:r/nec 1023,
+   :r/level-0 "2021",
+   :r/d-scheduled 140,
+   :r/t-rate 0.8333,
+   :r/total-rate 0.876,
+   :r/d-done 132,
+   :r/total-scheduled 278,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVO RUMO",
+   :r/total-done 258,
+   :r/d-rate 0.9167,
+   :r/t-scheduled 138.0,
+   :r/k "novo-rumo-01023",
+   :r/total-passed nil,
+   :r/t-done 126.0}],
  :imt-profile
  {:address
   "Avª Escola Secundária, Bloco 4-B, R/C Esq 3440-321 SANTA COMBA DÃO",

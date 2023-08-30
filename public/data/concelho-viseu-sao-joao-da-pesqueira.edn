@@ -84,7 +84,21 @@
      :r/t-scheduled 76.0,
      :r/k "prodouro-01214",
      :r/total-passed 101.0,
-     :r/t-done 70.0}],
+     :r/t-done 70.0}
+    {:r/nec 1214,
+     :r/level-0 "2021",
+     :r/d-scheduled 45,
+     :r/t-rate 0.5156,
+     :r/total-rate 0.6204,
+     :r/d-done 44,
+     :r/total-scheduled 111,
+     :r/name-raw "ESCOLA DE CONDUÇÃO PRODOURO",
+     :r/total-done 108,
+     :r/d-rate 0.7727,
+     :r/t-scheduled 66.0,
+     :r/k "prodouro-01214",
+     :r/total-passed nil,
+     :r/t-done 64.0}],
    :imt-profile
    {:address
     "Caminho Novo ou Estremadura 5130-359 S. JOÃO DA PESQUEIRA",

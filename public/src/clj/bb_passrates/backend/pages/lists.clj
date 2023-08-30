@@ -52,7 +52,7 @@
      [:a.ver-mais {:href (str "#" k)} (copy [:list/pop-up-more lang])]]))
 
 (def year-selector
-  #{"2018" "2019" "2020"})
+  #{"2019" "2020" "2021"})
 
 (defn hiccup-school [lang [k {:keys [rates geocode imt-profile]}]]
   (let [svg (svg/pop-up-svg lang (svg/parse-d-smart rates :d year-selector) (count year-selector))

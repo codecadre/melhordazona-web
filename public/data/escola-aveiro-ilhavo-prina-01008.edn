@@ -1,0 +1,41 @@
+{:nec 1008,
+ :rates
+ [{:r/nec 1008,
+   :r/level-0 "2021",
+   :r/d-scheduled 119,
+   :r/t-rate 0.6552,
+   :r/total-rate 0.6396,
+   :r/d-done 109,
+   :r/total-scheduled 315,
+   :r/name-raw "ESCOLA DE CONDUÇÃO PRINA",
+   :r/total-done 283,
+   :r/d-rate 0.6147,
+   :r/t-scheduled 196.0,
+   :r/k "prina-01008",
+   :r/total-passed nil,
+   :r/t-done 174.0}],
+ :imt-profile
+ {:address "Avª José Estevão, 361-A 3830-555 GAFANHA da NAZARÉ",
+  :name "Prina",
+  :href-id #uuid "2e6951a3-b218-3dd3-a0ef-0e77d3782254",
+  :distrito "Aveiro",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Prina.aspx",
+  :concelho "Ílhavo",
+  :nec 1008,
+  :cp7 "3830-555",
+  :id #uuid "933caaaa-0b0e-3645-9f63-7529508a4faf",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/ilhavo/2e6951a3-prina.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=Ilhavo"},
+ :geocode
+ {:id #uuid "933caaaa-0b0e-3645-9f63-7529508a4faf",
+  :address "Avª José Estevão, 361-A 3830-555 GAFANHA da NAZARÉ",
+  :address-c
+  "Avenida José Estevão 361A, 3830-554, Gafanha da Nazaré, Ílhavo, Aveiro",
+  :postal-c "3830-554",
+  :x -8.706981879056883,
+  :y 40.63682257693114,
+  :score 96.64,
+  :c 1}}

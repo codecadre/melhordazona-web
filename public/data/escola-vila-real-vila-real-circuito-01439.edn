@@ -13,7 +13,21 @@
    :r/t-scheduled 87.0,
    :r/k "circuito-01439",
    :r/total-passed 97.0,
-   :r/t-done 83.0}],
+   :r/t-done 83.0}
+  {:r/nec 1439,
+   :r/level-0 "2021",
+   :r/d-scheduled 133,
+   :r/t-rate 0.7833,
+   :r/total-rate 0.789,
+   :r/d-done 117,
+   :r/total-scheduled 273,
+   :r/name-raw "Escola de Condução Circuito",
+   :r/total-done 237,
+   :r/d-rate 0.7949,
+   :r/t-scheduled 140.0,
+   :r/k "circuito-01439",
+   :r/total-passed nil,
+   :r/t-done 120.0}],
  :imt-profile
  {:address
   "Lugar do Cano, Avenida de Osnabruck, Lote 17, fração B, 5000-448 Vila Real",

@@ -83,7 +83,21 @@
    :r/t-scheduled 163.0,
    :r/k "ponte-de-sor-00139",
    :r/total-passed 209.0,
-   :r/t-done 158.0}],
+   :r/t-done 158.0}
+  {:r/nec 139,
+   :r/level-0 "2021",
+   :r/d-scheduled 211,
+   :r/t-rate 0.5874,
+   :r/total-rate 0.7087,
+   :r/d-done 190,
+   :r/total-scheduled 358,
+   :r/name-raw "ESCOLA DE CONDUÇÃO PONTE DE SOR",
+   :r/total-done 333,
+   :r/d-rate 0.8,
+   :r/t-scheduled 147.0,
+   :r/k "ponte-de-sor-00139",
+   :r/total-passed nil,
+   :r/t-done 143.0}],
  :imt-profile
  {:address
   "Rua Manuel Marques Adegas, n.º 20, r/c 7400-293 PONTE DE SOR",

@@ -41,7 +41,21 @@
    :r/t-scheduled 46.0,
    :r/k "dos-lombos-01414",
    :r/total-passed 52.0,
-   :r/t-done 42.0}],
+   :r/t-done 42.0}
+  {:r/nec 1414,
+   :r/level-0 "2021",
+   :r/d-scheduled 73,
+   :r/t-rate 0.7204,
+   :r/total-rate 0.7468,
+   :r/d-done 65,
+   :r/total-scheduled 182,
+   :r/name-raw "Escola de Condução dos Lombos",
+   :r/total-done 158,
+   :r/d-rate 0.7846,
+   :r/t-scheduled 109.0,
+   :r/k "dos-lombos-01414",
+   :r/total-passed nil,
+   :r/t-done 93.0}],
  :imt-profile
  {:address
   "Rua Ernesto veiga de Oliveira, n.º 6 Loja B, 2780-052 Oeiras",

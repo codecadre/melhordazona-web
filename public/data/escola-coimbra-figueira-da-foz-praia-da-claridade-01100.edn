@@ -83,7 +83,21 @@
    :r/t-scheduled 228.0,
    :r/k "praia-da-claridade-01100",
    :r/total-passed 318.0,
-   :r/t-done 208.0}],
+   :r/t-done 208.0}
+  {:r/nec 1100,
+   :r/level-0 "2021",
+   :r/d-scheduled 253,
+   :r/t-rate 0.7227,
+   :r/total-rate 0.7709,
+   :r/d-done 234,
+   :r/total-scheduled 490,
+   :r/name-raw "ESCOLA DE CONDUÇÃO PRAIA DA CLARIDADE",
+   :r/total-done 454,
+   :r/d-rate 0.8162,
+   :r/t-scheduled 237.0,
+   :r/k "praia-da-claridade-01100",
+   :r/total-passed nil,
+   :r/t-done 220.0}],
  :imt-profile
  {:address
   "Largo Caras Direitas nº 51 – Bloco H 3080-254 FIGUEIRA DA FOZ",

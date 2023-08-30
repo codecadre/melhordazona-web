@@ -55,7 +55,21 @@
    :r/t-scheduled 252.0,
    :r/k "alverca-rio-01401",
    :r/total-passed 297.0,
-   :r/t-done 225.0}],
+   :r/t-done 225.0}
+  {:r/nec 1401,
+   :r/level-0 "2021",
+   :r/d-scheduled 276,
+   :r/t-rate 0.7418,
+   :r/total-rate 0.6667,
+   :r/d-done 253,
+   :r/total-scheduled 597,
+   :r/name-raw "Escola de Condução Alverca Rio",
+   :r/total-done 528,
+   :r/d-rate 0.585,
+   :r/t-scheduled 321.0,
+   :r/k "alverca-rio-01401",
+   :r/total-passed nil,
+   :r/t-done 275.0}],
  :imt-profile
  {:address
   "Rua da Juventude n.º 9, loja 12, com entrada pela Sociedade Filarmónica Recreio Alverquense",

@@ -83,7 +83,21 @@
    :r/t-scheduled 85.0,
    :r/k "via-maior-01061",
    :r/total-passed 83.0,
-   :r/t-done 74.0}],
+   :r/t-done 74.0}
+  {:r/nec 1061,
+   :r/level-0 "2021",
+   :r/d-scheduled 75,
+   :r/t-rate 0.6349,
+   :r/total-rate 0.6172,
+   :r/d-done 65,
+   :r/total-scheduled 149,
+   :r/name-raw "ESCOLA DE CONDUÇÃO VIA MAIOR",
+   :r/total-done 128,
+   :r/d-rate 0.6,
+   :r/t-scheduled 74.0,
+   :r/k "via-maior-01061",
+   :r/total-passed nil,
+   :r/t-done 63.0}],
  :imt-profile
  {:address
   "Urbanização Pá da Ribeira, Lote 10, R/C Esqº 2040-277 RIO MAIOR",

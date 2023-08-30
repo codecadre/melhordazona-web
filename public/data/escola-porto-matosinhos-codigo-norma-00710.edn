@@ -83,7 +83,21 @@
    :r/t-scheduled 167.0,
    :r/k "codigo-norma-00710",
    :r/total-passed 211.0,
-   :r/t-done 154.0}],
+   :r/t-done 154.0}
+  {:r/nec 710,
+   :r/level-0 "2021",
+   :r/d-scheduled 172,
+   :r/t-rate 0.6593,
+   :r/total-rate 0.6483,
+   :r/d-done 155,
+   :r/total-scheduled 327,
+   :r/name-raw "ESCOLA DE CONDUÇÃO CÓDIGO & NORMA",
+   :r/total-done 290,
+   :r/d-rate 0.6387,
+   :r/t-scheduled 155.0,
+   :r/k "codigo-norma-00710",
+   :r/total-passed nil,
+   :r/t-done 135.0}],
  :imt-profile
  {:address
   "Avª António Domingues dos Santos nº 301 4460 -237 SENHORA DA HORA",

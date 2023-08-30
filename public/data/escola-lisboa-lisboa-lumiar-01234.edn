@@ -83,7 +83,21 @@
    :r/t-scheduled 1359.0,
    :r/k "lumiar-01234",
    :r/total-passed 1663.0,
-   :r/t-done 1267.0}],
+   :r/t-done 1267.0}
+  {:r/nec 1234,
+   :r/level-0 "2021",
+   :r/d-scheduled 1374,
+   :r/t-rate 0.6673,
+   :r/total-rate 0.6466,
+   :r/d-done 1304,
+   :r/total-scheduled 2595,
+   :r/name-raw "ESCOLA DE CONDUÇÃO LUMIAR",
+   :r/total-done 2422,
+   :r/d-rate 0.6288,
+   :r/t-scheduled 1221.0,
+   :r/k "lumiar-01234",
+   :r/total-passed nil,
+   :r/t-done 1118.0}],
  :imt-profile
  {:address
   "Rua Professor João Manuel Valadares, Nº 5-A 1750-230 LUMIAR",

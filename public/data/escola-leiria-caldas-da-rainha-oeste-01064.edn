@@ -83,7 +83,21 @@
    :r/t-scheduled 89.0,
    :r/k "oeste-01064",
    :r/total-passed 96.0,
-   :r/t-done 87.0}],
+   :r/t-done 87.0}
+  {:r/nec 1064,
+   :r/level-0 "2021",
+   :r/d-scheduled 141,
+   :r/t-rate 0.3878,
+   :r/total-rate 0.4416,
+   :r/d-done 133,
+   :r/total-scheduled 253,
+   :r/name-raw "ESCOLA DE CONDUÇÃO OESTE",
+   :r/total-done 231,
+   :r/d-rate 0.4812,
+   :r/t-scheduled 112.0,
+   :r/k "oeste-01064",
+   :r/total-passed nil,
+   :r/t-done 98.0}],
  :imt-profile
  {:address
   "Rua Cidade de Abrantes, 23 - Santo Onofre, 2500-146 Caldas da Rainha",

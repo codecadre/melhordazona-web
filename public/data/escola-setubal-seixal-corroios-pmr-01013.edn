@@ -83,7 +83,21 @@
    :r/t-scheduled 515.0,
    :r/k "corroios-pmr-01013",
    :r/total-passed 673.0,
-   :r/t-done 479.0}],
+   :r/t-done 479.0}
+  {:r/nec 1013,
+   :r/level-0 "2021",
+   :r/d-scheduled 385,
+   :r/t-rate 0.6743,
+   :r/total-rate 0.6883,
+   :r/d-done 347,
+   :r/total-scheduled 890,
+   :r/name-raw "ESCOLA DE CONDUÇÃO CORROIOS PMR",
+   :r/total-done 786,
+   :r/d-rate 0.7061,
+   :r/t-scheduled 505.0,
+   :r/k "corroios-pmr-01013",
+   :r/total-passed nil,
+   :r/t-done 439.0}],
  :imt-profile
  {:address
   "Rua Associação dos Reformados de Corroios nº 19 Loja A Dtº 2855-109 CORROIOS",

@@ -83,7 +83,21 @@
    :r/t-scheduled 72.0,
    :r/k "traquina-01120",
    :r/total-passed 92.0,
-   :r/t-done 68.0}],
+   :r/t-done 68.0}
+  {:r/nec 1120,
+   :r/level-0 "2021",
+   :r/d-scheduled 71,
+   :r/t-rate 0.7128,
+   :r/total-rate 0.7205,
+   :r/d-done 67,
+   :r/total-scheduled 175,
+   :r/name-raw "ESCOLA DE CONDUÇÃO TRAQUINA",
+   :r/total-done 161,
+   :r/d-rate 0.7313,
+   :r/t-scheduled 104.0,
+   :r/k "traquina-01120",
+   :r/total-passed nil,
+   :r/t-done 94.0}],
  :imt-profile
  {:address
   "Rua Cidade Parthenay, Bloco E r/c Loja 7 2200-238 ABRANTES",

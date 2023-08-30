@@ -83,7 +83,21 @@
    :r/t-scheduled 68.0,
    :r/k "nova-de-peniche-01323",
    :r/total-passed 102.0,
-   :r/t-done 67.0}],
+   :r/t-done 67.0}
+  {:r/nec 1323,
+   :r/level-0 "2021",
+   :r/d-scheduled 83,
+   :r/t-rate 0.7105,
+   :r/total-rate 0.7351,
+   :r/d-done 75,
+   :r/total-scheduled 166,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DE PENICHE",
+   :r/total-done 151,
+   :r/d-rate 0.76,
+   :r/t-scheduled 83.0,
+   :r/k "nova-de-peniche-01323",
+   :r/total-passed nil,
+   :r/t-done 76.0}],
  :imt-profile
  {:address
   "Rua Arquiteto Paulino Montez, Nº 94, R/C Dtº, 2520-295 PENICHE",

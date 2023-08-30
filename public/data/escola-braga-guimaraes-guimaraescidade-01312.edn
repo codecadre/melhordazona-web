@@ -83,7 +83,21 @@
    :r/t-scheduled 89.0,
    :r/k "guimaraescidade-01312",
    :r/total-passed 119.0,
-   :r/t-done 86.0}],
+   :r/t-done 86.0}
+  {:r/nec 1312,
+   :r/level-0 "2021",
+   :r/d-scheduled 81,
+   :r/t-rate 0.7115,
+   :r/total-rate 0.7054,
+   :r/d-done 77,
+   :r/total-scheduled 143,
+   :r/name-raw "ESCOLA DE CONDUÇÃO GUIMARAESCIDADE",
+   :r/total-done 129,
+   :r/d-rate 0.7013,
+   :r/t-scheduled 62.0,
+   :r/k "guimaraescidade-01312",
+   :r/total-passed nil,
+   :r/t-done 52.0}],
  :imt-profile
  {:address
   "Rua Arqueólogo Mário Cardoso, n.º 565 ; 4835-076 Guimarães",

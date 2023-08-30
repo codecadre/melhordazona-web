@@ -83,7 +83,21 @@
    :r/t-scheduled 115.0,
    :r/k "aguia-de-aveiro-01035",
    :r/total-passed 131.0,
-   :r/t-done 106.0}],
+   :r/t-done 106.0}
+  {:r/nec 1035,
+   :r/level-0 "2021",
+   :r/d-scheduled 108,
+   :r/t-rate 0.4654,
+   :r/total-rate 0.5116,
+   :r/d-done 99,
+   :r/total-scheduled 289,
+   :r/name-raw "ESCOLA DE CONDUÇÃO ÁGUIA DE AVEIRO",
+   :r/total-done 258,
+   :r/d-rate 0.5859,
+   :r/t-scheduled 181.0,
+   :r/k "aguia-de-aveiro-01035",
+   :r/total-passed nil,
+   :r/t-done 159.0}],
  :imt-profile
  {:address
   "Rua Nossa Senhora das Necessidades, Nº 5 - Esgueira 3800-317 AVEIRO",

@@ -83,7 +83,21 @@
    :r/t-scheduled 125.0,
    :r/k "nossa-senhora-de-fatima-00959",
    :r/total-passed 186.0,
-   :r/t-done 122.0}],
+   :r/t-done 122.0}
+  {:r/nec 959,
+   :r/level-0 "2021",
+   :r/d-scheduled 120,
+   :r/t-rate 0.7831,
+   :r/total-rate 0.8,
+   :r/d-done 112,
+   :r/total-scheduled 204,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOSSA SENHORA DE FÁTIMA",
+   :r/total-done 195,
+   :r/d-rate 0.8125,
+   :r/t-scheduled 84.0,
+   :r/k "nossa-senhora-de-fatima-00959",
+   :r/total-passed nil,
+   :r/t-done 83.0}],
  :imt-profile
  {:address
   "Avª Dr. Castanheira Figueiredo, Bloco 2 r/c 3420-301 TÁBUA",

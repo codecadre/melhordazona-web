@@ -1,0 +1,32 @@
+{:nec 1258,
+ :rates
+ [{:r/nec 1258,
+   :r/level-0 "2021",
+   :r/d-scheduled 48,
+   :r/t-rate 0.6629,
+   :r/total-rate 0.6423,
+   :r/d-done 48,
+   :r/total-scheduled 145,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA MALVEIRA",
+   :r/total-done 137,
+   :r/d-rate 0.6042,
+   :r/t-scheduled 97.0,
+   :r/k "nova-malveira-01258",
+   :r/total-passed nil,
+   :r/t-done 89.0}],
+ :imt-profile
+ {:address
+  "Av. Eng.º Bonneville de Franco, n.º 4ª e 4B – Paço D’Arcos",
+  :name "Nova Malveira",
+  :href-id #uuid "01cd8709-bd9f-398f-bd52-6f459e05e8d5",
+  :distrito "Lisboa",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovaMalveira.aspx",
+  :concelho "Oeiras",
+  :nec 1258,
+  :cp7 nil,
+  :id #uuid "f080e994-4946-3e31-b402-07873fd78f04",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/lisboa/oeiras/01cd8709-nova-malveira.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Lisboa&Concelho=Oeiras"}}

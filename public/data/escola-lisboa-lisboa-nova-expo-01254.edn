@@ -83,7 +83,21 @@
    :r/t-scheduled 555.0,
    :r/k "nova-expo-01254",
    :r/total-passed 614.0,
-   :r/t-done 511.0}],
+   :r/t-done 511.0}
+  {:r/nec 1254,
+   :r/level-0 "2021",
+   :r/d-scheduled 437,
+   :r/t-rate 0.664,
+   :r/total-rate 0.6211,
+   :r/d-done 395,
+   :r/total-scheduled 862,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA EXPO",
+   :r/total-done 776,
+   :r/d-rate 0.5797,
+   :r/t-scheduled 425.0,
+   :r/k "nova-expo-01254",
+   :r/total-passed nil,
+   :r/t-done 381.0}],
  :imt-profile
  {:address
   "Av. D. João II Lote 1.06.2.1 Fração AR, 1990-095 de Lisboa",

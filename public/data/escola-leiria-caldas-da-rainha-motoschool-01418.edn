@@ -1,0 +1,43 @@
+{:nec 1418,
+ :rates
+ [{:r/nec 1418,
+   :r/level-0 "2021",
+   :r/d-scheduled 41,
+   :r/t-rate 0.7647,
+   :r/total-rate 0.764,
+   :r/d-done 38,
+   :r/total-scheduled 95,
+   :r/name-raw "ESCOLA DE CONDUÇÃO MOTOSCHOOL",
+   :r/total-done 89,
+   :r/d-rate 0.7632,
+   :r/t-scheduled 54.0,
+   :r/k "motoschool-01418",
+   :r/total-passed nil,
+   :r/t-done 51.0}],
+ :imt-profile
+ {:address
+  "Rua Capitão Filipe de Sousa, 128 a 130 A, 2500-066 Caldas da Rainha",
+  :name "Motoschool",
+  :href-id #uuid "4fe5662c-1111-3bc8-88a6-617e3ab2a083",
+  :distrito "Leiria",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Motoschool.aspx",
+  :concelho "Caldas da Raínha",
+  :nec 1418,
+  :cp7 "2500-066",
+  :id #uuid "344bce00-51cd-35fe-ba8b-c0912cdfe678",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/caldas-da-rainha/4fe5662c-motoschool.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+ :geocode
+ {:id #uuid "344bce00-51cd-35fe-ba8b-c0912cdfe678",
+  :address
+  "Rua Capitão Filipe de Sousa, 128 a 130 A, 2500-066 Caldas da Rainha",
+  :address-c
+  "Rua Capitão Filipe de Sousa 128, 2500-140, Caldas da Rainha, Leiria",
+  :postal-c "2500-140",
+  :x -9.13331003353619,
+  :y 39.407630013026136,
+  :score 97.98,
+  :c 1}}

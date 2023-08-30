@@ -13,7 +13,21 @@
    :r/t-scheduled 63.0,
    :r/k "ip4-00760",
    :r/total-passed 71.0,
-   :r/t-done 58.0}],
+   :r/t-done 58.0}
+  {:r/nec 760,
+   :r/level-0 "2021",
+   :r/d-scheduled 117,
+   :r/t-rate 0.7071,
+   :r/total-rate 0.6881,
+   :r/d-done 103,
+   :r/total-scheduled 241,
+   :r/name-raw "ESCOLA DE CONDUÇÃO IP4",
+   :r/total-done 202,
+   :r/d-rate 0.6699,
+   :r/t-scheduled 124.0,
+   :r/k "ip4-00760",
+   :r/total-passed nil,
+   :r/t-done 99.0}],
  :imt-profile
  {:address
   "Avª Cidade de Orense, lote 3, loja 41 5000-674 VILA REAL (S. DINIS)",

@@ -83,7 +83,21 @@
    :r/t-scheduled 26.0,
    :r/k "lobos-do-mar-01220",
    :r/total-passed 37.0,
-   :r/t-done 24.0}],
+   :r/t-done 24.0}
+  {:r/nec 1220,
+   :r/level-0 "2021",
+   :r/d-scheduled 32,
+   :r/t-rate 0.8846,
+   :r/total-rate 0.7544,
+   :r/d-done 31,
+   :r/total-scheduled 58,
+   :r/name-raw "ESCOLA DE CONDUÇÃO LOBOS DO MAR",
+   :r/total-done 57,
+   :r/d-rate 0.6452,
+   :r/t-scheduled 26.0,
+   :r/k "lobos-do-mar-01220",
+   :r/total-passed nil,
+   :r/t-done 26.0}],
  :imt-profile
  {:address
   "Rua Comendador Francisco Lima Amorim nº 58, Amorim 4495-137 Póvoa de Varzim",

@@ -83,7 +83,21 @@
    :r/t-scheduled 58.0,
    :r/k "cerveirense-00512",
    :r/total-passed 69.0,
-   :r/t-done 52.0}],
+   :r/t-done 52.0}
+  {:r/nec 512,
+   :r/level-0 "2021",
+   :r/d-scheduled 35,
+   :r/t-rate 0.7833,
+   :r/total-rate 0.8478,
+   :r/d-done 32,
+   :r/total-scheduled 107,
+   :r/name-raw "ESCOLA DE CONDUÇÃO CERVEIRENSE",
+   :r/total-done 92,
+   :r/d-rate 0.9688,
+   :r/t-scheduled 72.0,
+   :r/k "cerveirense-00512",
+   :r/total-passed nil,
+   :r/t-done 60.0}],
  :imt-profile
  {:address
   "Edifício Ilha dos Amores, nº 5 4920-279 VILA NOVA CERVEIRA",

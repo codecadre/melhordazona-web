@@ -83,7 +83,21 @@
    :r/t-scheduled 131.0,
    :r/k "ponte-de-lima-00846",
    :r/total-passed 159.0,
-   :r/t-done 119.0}],
+   :r/t-done 119.0}
+  {:r/nec 846,
+   :r/level-0 "2021",
+   :r/d-scheduled 92,
+   :r/t-rate 0.6292,
+   :r/total-rate 0.7941,
+   :r/d-done 81,
+   :r/total-scheduled 204,
+   :r/name-raw "ESCOLA DE CONDUÇÃO PONTE DE LIMA",
+   :r/total-done 170,
+   :r/d-rate 0.9753,
+   :r/t-scheduled 112.0,
+   :r/k "ponte-de-lima-00846",
+   :r/total-passed nil,
+   :r/t-done 89.0}],
  :imt-profile
  {:address
   "Rua Agostinho José Taveira –Edifício Baldrufa Loja P 4990-072 PONTE DE LIMA",

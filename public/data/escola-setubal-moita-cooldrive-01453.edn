@@ -1,0 +1,40 @@
+{:nec 1453,
+ :rates
+ [{:r/nec 1453,
+   :r/level-0 "2021",
+   :r/d-scheduled 95,
+   :r/t-rate 0.5606,
+   :r/total-rate 0.5446,
+   :r/d-done 81,
+   :r/total-scheduled 243,
+   :r/name-raw "Escola de Condução Cooldrive",
+   :r/total-done 213,
+   :r/d-rate 0.5185,
+   :r/t-scheduled 148.0,
+   :r/k "cooldrive-01453",
+   :r/total-passed nil,
+   :r/t-done 132.0}],
+ :imt-profile
+ {:address "Rua Bento Gonçalves, n.º 23 2860-439 Moita",
+  :name "Cooldrive",
+  :href-id #uuid "18ff0e24-46b9-3ed5-a9cf-77af4125703f",
+  :distrito "Setúbal",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Cooldrive.aspx",
+  :concelho "Moita",
+  :nec 1453,
+  :cp7 "2860-439",
+  :id #uuid "0f3fd915-a030-3fe1-8d0b-25f219844f4b",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/moita/18ff0e24-cooldrive.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Moita"},
+ :geocode
+ {:id #uuid "0f3fd915-a030-3fe1-8d0b-25f219844f4b",
+  :address "Rua Bento Gonçalves, n.º 23 2860-439 Moita",
+  :address-c "Rua Bento Gonçalves 23, 2860-439, Moita, Setúbal",
+  :postal-c "2860-439",
+  :x -8.993420009032548,
+  :y 38.652200009046226,
+  :score 96.77,
+  :c 2}}

@@ -83,7 +83,21 @@
    :r/t-scheduled 187.0,
    :r/k "nova-rainha-01333",
    :r/total-passed 248.0,
-   :r/t-done 169.0}],
+   :r/t-done 169.0}
+  {:r/nec 1333,
+   :r/level-0 "2021",
+   :r/d-scheduled 173,
+   :r/t-rate 0.6357,
+   :r/total-rate 0.6224,
+   :r/d-done 165,
+   :r/total-scheduled 310,
+   :r/name-raw "Escola de condução Nova Rainha",
+   :r/total-done 294,
+   :r/d-rate 0.6121,
+   :r/t-scheduled 137.0,
+   :r/k "nova-rainha-01333",
+   :r/total-passed nil,
+   :r/t-done 129.0}],
  :imt-profile
  {:address
   "Rua Cardeal Alpedrinha, n.º 72 A, 2500-843 Caldas da Rainha",
