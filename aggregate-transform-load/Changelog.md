@@ -4,10 +4,10 @@ Merges 2021 data from [[PDF SCRAPING] 2021](https://github.com/codecadre/imt-pas
 
 Data changes summary:
 
-1249 School entries from pass rates pdf.
-78 Manual imt-profile overwrites
-1101 Schools WITH imt profile
-47 imt profiles with no geocoding.
+- 1249 School entries from pass rates pdf.
+- 78 Manual imt-profile overwrites
+- 1101 Schools WITH imt profile
+- 47 imt profiles with no geocoding.
 
 
 
