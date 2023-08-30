@@ -19,7 +19,7 @@ The original files in PDF are in a tabular format, and the main columns for our 
 
 The PDF extraction was done using a Python script, and the source code can be [found on GitHub](https://github.com/codecadre/imt-pass-rates/blob/master/parse.ipynb).
 
-We have made the code public for transparency purposes. We have taken all precautions to ensure that the extraction was done correctly, and by making the code available, we want others to be able to reproduce and verify it.
+We have made the code public for transparency purposes. We have [taken all precautions to ensure that the extraction was done correctly](https://github.com/codecadre/imt-pass-rates/blob/master/quality-control.ipynb), and by making the code available, we want others to be able to reproduce and verify it.
 
 Additionally, the database can be [imported into a Jupyter Notebook](https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb) to facilitate other uses, such as statistical analysis:
 

@@ -21,7 +21,7 @@ Os ficheiros originais em PDF estão num formato tabular em que as principais co
 
 A extração dos PDFs foi realizada num script Python e o código fonte pode ser [consultado no GitHub](https://github.com/codecadre/imt-pass-rates/blob/master/parse.ipynb).
 
-Publicámos o código por uma questão de transparência. Tomámos todos os cuidados para verificar que a extração foi feita corretamente e ao tornar o código público, queremos que outros possam reproduzir e verificar.
+Publicámos o código por uma questão de transparência. Tomámos todos os cuidados para [verificar que a extração foi feita corretamente](https://github.com/codecadre/imt-pass-rates/blob/master/quality-control.ipynb) e ao tornar o código público, queremos que outros possam reproduzir e verificar.
 
 Adicionalmente, a base de dados pode ser [importada num Jupyter Notebook](https://github.com/codecadre/imt-pass-rates/blob/master/demo.ipynb) para facilitar outros usos, como por exemplo, análise estatística:
 
