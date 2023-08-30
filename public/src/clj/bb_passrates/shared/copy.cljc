@@ -18,8 +18,8 @@
             :en "School"}
    :cp7 {:pt "Codigo Postal"
          :en "Post Code"}
-   :ribbon {:pt "Dados 2015-2020"
-            :en "2015-2020 Data"}
+   :ribbon {:pt "Dados 2015-2021"
+            :en "2015-2021 Data"}
    :project {:pt "Projecto" :en "Project"}
 
    :archived {:pt "(Desativada*)" :en "(Archived*)"}
@@ -155,8 +155,8 @@
                      :en "Pass Rates for %s Driving schools in %s | Passa à Primeira"}
    :home/meta-title {:pt "Pesquisa: Escolas de condução por Concelho | Passa à Primeira"
                      :en "Search: Driving schools in Portugal | Passa à Primeira"}
-   :home/meta-subtitle {:en "Government pass rates for driving schools across Portugal. Official government data from 2015-2020."
-                        :pt "Quantos alunos passaram à primeira na tua futura escola de condução?. Dados oficiais do IMT de 2015 - 2020."}
+   :home/meta-subtitle {:en "Government pass rates for driving schools across Portugal. Official government data from 2015-2021."
+                        :pt "Quantos alunos passaram à primeira na tua futura escola de condução?. Dados oficiais do IMT de 2015 - 2021."}
 
    :meta/subtitle-list {:pt
                         "Dados oficiais do IMT, para as escolas de condução do concelho de %s. Dados referentes aos exames de condução nos últimos três anos. Contabilizando todas as categorias (condução, mota, etc) e apenas pasagem à primeira."

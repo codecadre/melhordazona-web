@@ -29,7 +29,7 @@ If you know the school name, you can also search directly.
 
 #### Data source
 
-From 2015 to 2020, including all categories (driving, motorcycle, etc.) and only first-time passes. The approval rate is the number of approved exams over the total number of exams done.
+From 2015 to 2021, including all categories (driving, motorcycle, etc.) and only first-time passes. The approval rate is the number of approved exams over the total number of exams done.
 
 The Portuguese law says that ([decreto-lei n.º 14/2014, de 18 de março](https://www.imt-ip.pt/sites/imtt/portugues/ensinoconducao/indicadoresdesempenho_escolasconducao/Paginas/IndicadoresdeDesempenho_EscolasdeConducao.aspx)) IMT should publish approval rates regularly. Since the initial publication in 2015, these data have not been updated, despite freedom of information acts and a complaint to the Ombudsman.
 
