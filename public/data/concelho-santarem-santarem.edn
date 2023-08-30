@@ -14,7 +14,7 @@
      :r/t-scheduled 61.0,
      :r/k "ribatejana-00023",
      :r/total-passed 79.0,
-     :r/t-done 60.0}
+     :r/t-done 60}
     {:r/nec 23,
      :r/level-0 "2016",
      :r/d-scheduled 53,
@@ -28,7 +28,7 @@
      :r/t-scheduled 57.0,
      :r/k "ribatejana-00023",
      :r/total-passed 64.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 23,
      :r/level-0 "2017",
      :r/d-scheduled 56,
@@ -42,7 +42,7 @@
      :r/t-scheduled 70.0,
      :r/k "ribatejana-00023",
      :r/total-passed 84.0,
-     :r/t-done 66.0}
+     :r/t-done 66}
     {:r/nec 23,
      :r/level-0 "2018",
      :r/d-scheduled 54,
@@ -56,7 +56,7 @@
      :r/t-scheduled 104.0,
      :r/k "ribatejana-00023",
      :r/total-passed 117.0,
-     :r/t-done 100.0}
+     :r/t-done 100}
     {:r/nec 23,
      :r/level-0 "2019",
      :r/d-scheduled 11,
@@ -70,7 +70,7 @@
      :r/t-scheduled 1.0,
      :r/k "ribatejana-00023",
      :r/total-passed 11.0,
-     :r/t-done 1.0}],
+     :r/t-done 1}],
    :imt-profile
    {:address "Largo Infante Santo, nº 4-1ºEsq 2000 SANTARÉM",
     :name "Ribatejana",
@@ -111,7 +111,7 @@
      :r/t-scheduled 458.0,
      :r/k "tome-00093",
      :r/total-passed 703.0,
-     :r/t-done 444.0}
+     :r/t-done 444}
     {:r/nec 93,
      :r/level-0 "2016",
      :r/d-scheduled 490,
@@ -125,7 +125,7 @@
      :r/t-scheduled 94.0,
      :r/k "tome-00093",
      :r/total-passed 436.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 93,
      :r/level-0 "2017",
      :r/d-scheduled 438,
@@ -139,7 +139,7 @@
      :r/t-scheduled 403.0,
      :r/k "tome-00093",
      :r/total-passed 657.0,
-     :r/t-done 388.0}
+     :r/t-done 388}
     {:r/nec 93,
      :r/level-0 "2018",
      :r/d-scheduled 368,
@@ -153,7 +153,7 @@
      :r/t-scheduled 398.0,
      :r/k "tome-00093",
      :r/total-passed 604.0,
-     :r/t-done 388.0}
+     :r/t-done 388}
     {:r/nec 93,
      :r/level-0 "2019",
      :r/d-scheduled 505,
@@ -167,7 +167,7 @@
      :r/t-scheduled 437.0,
      :r/k "tome-00093",
      :r/total-passed 699.0,
-     :r/t-done 430.0}
+     :r/t-done 430}
     {:r/nec 93,
      :r/level-0 "2020",
      :r/d-scheduled 399,
@@ -181,7 +181,7 @@
      :r/t-scheduled 327.0,
      :r/k "tome-00093",
      :r/total-passed 529.0,
-     :r/t-done 308.0}
+     :r/t-done 308}
     {:r/nec 93,
      :r/level-0 "2021",
      :r/d-scheduled 274,
@@ -195,7 +195,7 @@
      :r/t-scheduled 335.0,
      :r/k "tome-00093",
      :r/total-passed nil,
-     :r/t-done 315.0}],
+     :r/t-done 315}],
    :imt-profile
    {:address "Rua Pedro de Santarém, Nº 130-1º Esqº 2000-223 SANTARÉM",
     :name "Tomé",
@@ -236,7 +236,7 @@
      :r/t-scheduled 199.0,
      :r/k "santarem-00201",
      :r/total-passed 307.0,
-     :r/t-done 198.0}
+     :r/t-done 198}
     {:r/nec 201,
      :r/level-0 "2016",
      :r/d-scheduled 179,
@@ -250,7 +250,7 @@
      :r/t-scheduled 150.0,
      :r/k "santarem-00201",
      :r/total-passed 251.0,
-     :r/t-done 147.0}
+     :r/t-done 147}
     {:r/nec 201,
      :r/level-0 "2017",
      :r/d-scheduled 188,
@@ -264,7 +264,7 @@
      :r/t-scheduled 189.0,
      :r/k "santarem-00201",
      :r/total-passed 294.0,
-     :r/t-done 186.0}
+     :r/t-done 186}
     {:r/nec 201,
      :r/level-0 "2018",
      :r/d-scheduled 175,
@@ -278,7 +278,7 @@
      :r/t-scheduled 138.0,
      :r/k "santarem-00201",
      :r/total-passed 252.0,
-     :r/t-done 134.0}
+     :r/t-done 134}
     {:r/nec 201,
      :r/level-0 "2019",
      :r/d-scheduled 200,
@@ -292,7 +292,7 @@
      :r/t-scheduled 166.0,
      :r/k "santarem-00201",
      :r/total-passed 273.0,
-     :r/t-done 162.0}
+     :r/t-done 162}
     {:r/nec 201,
      :r/level-0 "2020",
      :r/d-scheduled 180,
@@ -306,7 +306,7 @@
      :r/t-scheduled 165.0,
      :r/k "santarem-00201",
      :r/total-passed 252.0,
-     :r/t-done 155.0}
+     :r/t-done 155}
     {:r/nec 201,
      :r/level-0 "2021",
      :r/d-scheduled 172,
@@ -320,7 +320,7 @@
      :r/t-scheduled 204.0,
      :r/k "santarem-00201",
      :r/total-passed nil,
-     :r/t-done 182.0}],
+     :r/t-done 182}],
    :imt-profile
    {:address
     "Avª Marquês de Pombal, Lote 117 - Sº Domingos - Junto à rotunda c/a fonte, 2505-170 SANTARÉM",
@@ -353,7 +353,7 @@
      :r/t-scheduled 70.0,
      :r/k "chamusca-00448",
      :r/total-passed 83.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 448,
      :r/level-0 "2016",
      :r/d-scheduled 73,
@@ -367,7 +367,7 @@
      :r/t-scheduled 79.0,
      :r/k "chamusca-00448",
      :r/total-passed 120.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 448,
      :r/level-0 "2017",
      :r/d-scheduled 67,
@@ -381,7 +381,7 @@
      :r/t-scheduled 65.0,
      :r/k "chamusca-00448",
      :r/total-passed 105.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 448,
      :r/level-0 "2018",
      :r/d-scheduled 69,
@@ -395,7 +395,7 @@
      :r/t-scheduled 87.0,
      :r/k "chamusca-00448",
      :r/total-passed 127.0,
-     :r/t-done 86.0}
+     :r/t-done 86}
     {:r/nec 448,
      :r/level-0 "2019",
      :r/d-scheduled 79,
@@ -409,7 +409,7 @@
      :r/t-scheduled 79.0,
      :r/k "chamusca-00448",
      :r/total-passed 123.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 448,
      :r/level-0 "2020",
      :r/d-scheduled 67,
@@ -423,7 +423,7 @@
      :r/t-scheduled 84.0,
      :r/k "chamusca-00448",
      :r/total-passed 108.0,
-     :r/t-done 78.0}
+     :r/t-done 78}
     {:r/nec 448,
      :r/level-0 "2021",
      :r/d-scheduled 68,
@@ -437,7 +437,7 @@
      :r/t-scheduled 90.0,
      :r/k "chamusca-00448",
      :r/total-passed nil,
-     :r/t-done 89.0}],
+     :r/t-done 89}],
    :imt-profile
    {:address "Trav. do Barão de S. Cosme,nº 7 2000-223 SANTARÉM",
     :name "Chamusca",
@@ -476,7 +476,7 @@
      :r/t-scheduled 97.0,
      :r/k "ideal-alcanedense-00949",
      :r/total-passed 78.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 949,
      :r/level-0 "2016",
      :r/d-scheduled 51,
@@ -490,7 +490,7 @@
      :r/t-scheduled 56.0,
      :r/k "ideal-alcanedense-00949",
      :r/total-passed 65.0,
-     :r/t-done 54.0}],
+     :r/t-done 54}],
    :imt-profile
    {:address "Rua do Comércio nº 9 A 2025-031 ALCANEDE",
     :name "Ideal Alcanedense",
@@ -531,7 +531,7 @@
      :r/t-scheduled 100.0,
      :r/k "s-domingos-01085",
      :r/total-passed 154.0,
-     :r/t-done 96.0}
+     :r/t-done 96}
     {:r/nec 1085,
      :r/level-0 "2016",
      :r/d-scheduled 124,
@@ -545,7 +545,7 @@
      :r/t-scheduled 103.0,
      :r/k "s-domingos-01085",
      :r/total-passed 159.0,
-     :r/t-done 91.0}
+     :r/t-done 91}
     {:r/nec 1085,
      :r/level-0 "2017",
      :r/d-scheduled 103,
@@ -559,7 +559,7 @@
      :r/t-scheduled 114.0,
      :r/k "s-domingos-01085",
      :r/total-passed 152.0,
-     :r/t-done 109.0}
+     :r/t-done 109}
     {:r/nec 1085,
      :r/level-0 "2018",
      :r/d-scheduled 82,
@@ -573,7 +573,7 @@
      :r/t-scheduled 102.0,
      :r/k "s-domingos-01085",
      :r/total-passed 140.0,
-     :r/t-done 95.0}
+     :r/t-done 95}
     {:r/nec 1085,
      :r/level-0 "2019",
      :r/d-scheduled 85,
@@ -587,7 +587,7 @@
      :r/t-scheduled 105.0,
      :r/k "s-domingos-01085",
      :r/total-passed 153.0,
-     :r/t-done 96.0}
+     :r/t-done 96}
     {:r/nec 1085,
      :r/level-0 "2020",
      :r/d-scheduled 68,
@@ -601,7 +601,7 @@
      :r/t-scheduled 86.0,
      :r/k "s-domingos-01085",
      :r/total-passed 98.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 1085,
      :r/level-0 "2021",
      :r/d-scheduled 64,
@@ -615,7 +615,7 @@
      :r/t-scheduled 105.0,
      :r/k "s-domingos-01085",
      :r/total-passed nil,
-     :r/t-done 95.0}],
+     :r/t-done 95}],
    :imt-profile
    {:address "Praceta João Caetano Brás n º 9 2000 SANTARÉM",
     :name "S. Domingos",
@@ -656,7 +656,7 @@
      :r/t-scheduled 18.0,
      :r/k "roda-segura-01359",
      :r/total-passed 18.0,
-     :r/t-done 18.0}
+     :r/t-done 18}
     {:r/nec 1359,
      :r/level-0 "2017",
      :r/d-scheduled 83,
@@ -670,7 +670,7 @@
      :r/t-scheduled 134.0,
      :r/k "roda-segura-01359",
      :r/total-passed 168.0,
-     :r/t-done 132.0}
+     :r/t-done 132}
     {:r/nec 1359,
      :r/level-0 "2018",
      :r/d-scheduled 123,
@@ -684,7 +684,7 @@
      :r/t-scheduled 135.0,
      :r/k "roda-segura-01359",
      :r/total-passed 198.0,
-     :r/t-done 133.0}
+     :r/t-done 133}
     {:r/nec 1359,
      :r/level-0 "2019",
      :r/d-scheduled 129,
@@ -698,7 +698,7 @@
      :r/t-scheduled 145.0,
      :r/k "roda-segura-01359",
      :r/total-passed 213.0,
-     :r/t-done 140.0}
+     :r/t-done 140}
     {:r/nec 1359,
      :r/level-0 "2020",
      :r/d-scheduled 135,
@@ -712,7 +712,7 @@
      :r/t-scheduled 187.0,
      :r/k "roda-segura-01359",
      :r/total-passed 202.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 1359,
      :r/level-0 "2021",
      :r/d-scheduled 137,
@@ -726,7 +726,7 @@
      :r/t-scheduled 235.0,
      :r/k "roda-segura-01359",
      :r/total-passed nil,
-     :r/t-done 213.0}],
+     :r/t-done 213}],
    :imt-profile
    {:address
     "Av. Prof. Drº Francisco da Luz Rebelo Gonçalves, Nº 7 -Traseira Loja -2005-173 Santarém",

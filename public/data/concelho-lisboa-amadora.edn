@@ -14,7 +14,7 @@
      :r/t-scheduled 222.0,
      :r/k "amadora-00237",
      :r/total-passed 239.0,
-     :r/t-done 217.0}
+     :r/t-done 217}
     {:r/nec 237,
      :r/level-0 "2016",
      :r/d-scheduled 193,
@@ -28,7 +28,7 @@
      :r/t-scheduled 192.0,
      :r/k "amadora-00237",
      :r/total-passed 233.0,
-     :r/t-done 188.0}
+     :r/t-done 188}
     {:r/nec 237,
      :r/level-0 "2017",
      :r/d-scheduled 213,
@@ -42,7 +42,7 @@
      :r/t-scheduled 237.0,
      :r/k "amadora-00237",
      :r/total-passed 259.0,
-     :r/t-done 228.0}
+     :r/t-done 228}
     {:r/nec 237,
      :r/level-0 "2018",
      :r/d-scheduled 199,
@@ -56,7 +56,7 @@
      :r/t-scheduled 246.0,
      :r/k "amadora-00237",
      :r/total-passed 267.0,
-     :r/t-done 238.0}
+     :r/t-done 238}
     {:r/nec 237,
      :r/level-0 "2019",
      :r/d-scheduled 269,
@@ -70,7 +70,7 @@
      :r/t-scheduled 221.0,
      :r/k "amadora-00237",
      :r/total-passed 266.0,
-     :r/t-done 215.0}
+     :r/t-done 215}
     {:r/nec 237,
      :r/level-0 "2020",
      :r/d-scheduled 242,
@@ -84,7 +84,7 @@
      :r/t-scheduled 243.0,
      :r/k "amadora-00237",
      :r/total-passed 243.0,
-     :r/t-done 225.0}
+     :r/t-done 225}
     {:r/nec 237,
      :r/level-0 "2021",
      :r/d-scheduled 150,
@@ -98,7 +98,7 @@
      :r/t-scheduled 188.0,
      :r/k "amadora-00237",
      :r/total-passed nil,
-     :r/t-done 149.0}],
+     :r/t-done 149}],
    :imt-profile
    {:address "Rua 1º de Dezembro, Nº 2 –2º Esqº 2700-671 AMADORA",
     :name "Amadora",
@@ -138,7 +138,7 @@
      :r/t-scheduled 223.0,
      :r/k "apolo-00323",
      :r/total-passed 224.0,
-     :r/t-done 220.0}
+     :r/t-done 220}
     {:r/nec 323,
      :r/level-0 "2016",
      :r/d-scheduled 371,
@@ -152,7 +152,7 @@
      :r/t-scheduled 470.0,
      :r/k "apolo-00323",
      :r/total-passed 548.0,
-     :r/t-done 461.0}
+     :r/t-done 461}
     {:r/nec 323,
      :r/level-0 "2017",
      :r/d-scheduled 425,
@@ -166,7 +166,7 @@
      :r/t-scheduled 543.0,
      :r/k "apolo-00323",
      :r/total-passed 610.0,
-     :r/t-done 525.0}
+     :r/t-done 525}
     {:r/nec 323,
      :r/level-0 "2018",
      :r/d-scheduled 469,
@@ -180,7 +180,7 @@
      :r/t-scheduled 628.0,
      :r/k "apolo-00323",
      :r/total-passed 635.0,
-     :r/t-done 607.0}
+     :r/t-done 607}
     {:r/nec 323,
      :r/level-0 "2019",
      :r/d-scheduled 507,
@@ -194,7 +194,7 @@
      :r/t-scheduled 495.0,
      :r/k "apolo-00323",
      :r/total-passed 536.0,
-     :r/t-done 479.0}
+     :r/t-done 479}
     {:r/nec 323,
      :r/level-0 "2020",
      :r/d-scheduled 464,
@@ -208,7 +208,7 @@
      :r/t-scheduled 656.0,
      :r/k "apolo-00323",
      :r/total-passed 558.0,
-     :r/t-done 589.0}
+     :r/t-done 589}
     {:r/nec 323,
      :r/level-0 "2021",
      :r/d-scheduled 357,
@@ -222,7 +222,7 @@
      :r/t-scheduled 480.0,
      :r/k "apolo-00323",
      :r/total-passed nil,
-     :r/t-done 392.0}],
+     :r/t-done 392}],
    :imt-profile
    {:address "Avenida Elias Garcia n.º 313 loja A",
     :name "Apolo",
@@ -254,7 +254,7 @@
      :r/t-scheduled 66.0,
      :r/k "nova-rota-00455",
      :r/total-passed 98.0,
-     :r/t-done 66.0}
+     :r/t-done 66}
     {:r/nec 455,
      :r/level-0 "2016",
      :r/d-scheduled 46,
@@ -268,7 +268,7 @@
      :r/t-scheduled 51.0,
      :r/k "nova-rota-00455",
      :r/total-passed 65.0,
-     :r/t-done 50.0}
+     :r/t-done 50}
     {:r/nec 455,
      :r/level-0 "2017",
      :r/d-scheduled 42,
@@ -282,7 +282,7 @@
      :r/t-scheduled 37.0,
      :r/k "nova-rota-00455",
      :r/total-passed 52.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 455,
      :r/level-0 "2018",
      :r/d-scheduled 41,
@@ -296,7 +296,7 @@
      :r/t-scheduled 50.0,
      :r/k "nova-rota-00455",
      :r/total-passed 69.0,
-     :r/t-done 50.0}
+     :r/t-done 50}
     {:r/nec 455,
      :r/level-0 "2019",
      :r/d-scheduled 53,
@@ -310,7 +310,7 @@
      :r/t-scheduled 64.0,
      :r/k "nova-rota-00455",
      :r/total-passed 85.0,
-     :r/t-done 64.0}
+     :r/t-done 64}
     {:r/nec 455,
      :r/level-0 "2020",
      :r/d-scheduled 48,
@@ -324,7 +324,7 @@
      :r/t-scheduled 91.0,
      :r/k "nova-rota-00455",
      :r/total-passed 61.0,
-     :r/t-done 81.0}
+     :r/t-done 81}
     {:r/nec 455,
      :r/level-0 "2021",
      :r/d-scheduled 79,
@@ -338,7 +338,7 @@
      :r/t-scheduled 120.0,
      :r/k "nova-rota-00455",
      :r/total-passed nil,
-     :r/t-done 109.0}],
+     :r/t-done 109}],
    :imt-profile
    {:address "Rua Fonte dos Passarinhos, nº 7 A 2700-398 AMADORA",
     :name "Nova Rota",
@@ -380,7 +380,7 @@
      :r/t-scheduled 299.0,
      :r/k "restauracao-00498",
      :r/total-passed 373.0,
-     :r/t-done 295.0}
+     :r/t-done 295}
     {:r/nec 498,
      :r/level-0 "2016",
      :r/d-scheduled 272,
@@ -394,7 +394,7 @@
      :r/t-scheduled 277.0,
      :r/k "restauracao-00498",
      :r/total-passed 352.0,
-     :r/t-done 271.0}
+     :r/t-done 271}
     {:r/nec 498,
      :r/level-0 "2017",
      :r/d-scheduled 270,
@@ -408,7 +408,7 @@
      :r/t-scheduled 292.0,
      :r/k "restauracao-00498",
      :r/total-passed 368.0,
-     :r/t-done 277.0}
+     :r/t-done 277}
     {:r/nec 498,
      :r/level-0 "2018",
      :r/d-scheduled 351,
@@ -422,7 +422,7 @@
      :r/t-scheduled 342.0,
      :r/k "restauracao-00498",
      :r/total-passed 480.0,
-     :r/t-done 338.0}
+     :r/t-done 338}
     {:r/nec 498,
      :r/level-0 "2019",
      :r/d-scheduled 383,
@@ -436,7 +436,7 @@
      :r/t-scheduled 396.0,
      :r/k "restauracao-00498",
      :r/total-passed 556.0,
-     :r/t-done 379.0}
+     :r/t-done 379}
     {:r/nec 498,
      :r/level-0 "2020",
      :r/d-scheduled 459,
@@ -450,7 +450,7 @@
      :r/t-scheduled 478.0,
      :r/k "restauracao-00498",
      :r/total-passed 605.0,
-     :r/t-done 433.0}
+     :r/t-done 433}
     {:r/nec 498,
      :r/level-0 "2021",
      :r/d-scheduled 439,
@@ -464,7 +464,7 @@
      :r/t-scheduled 503.0,
      :r/k "restauracao-00498",
      :r/total-passed nil,
-     :r/t-done 452.0}],
+     :r/t-done 452}],
    :imt-profile
    {:address
     "Praceta Torcato Ferreira, Lote 4 c/v Dtª 2700 -821 AMADORA",
@@ -508,7 +508,7 @@
      :r/t-scheduled 156.0,
      :r/k "damaia-00540",
      :r/total-passed 219.0,
-     :r/t-done 152.0}
+     :r/t-done 152}
     {:r/nec 540,
      :r/level-0 "2016",
      :r/d-scheduled 132,
@@ -522,7 +522,7 @@
      :r/t-scheduled 158.0,
      :r/k "damaia-00540",
      :r/total-passed 178.0,
-     :r/t-done 151.0}
+     :r/t-done 151}
     {:r/nec 540,
      :r/level-0 "2017",
      :r/d-scheduled 151,
@@ -536,7 +536,7 @@
      :r/t-scheduled 155.0,
      :r/k "damaia-00540",
      :r/total-passed 209.0,
-     :r/t-done 149.0}
+     :r/t-done 149}
     {:r/nec 540,
      :r/level-0 "2018",
      :r/d-scheduled 163,
@@ -550,7 +550,7 @@
      :r/t-scheduled 196.0,
      :r/k "damaia-00540",
      :r/total-passed 256.0,
-     :r/t-done 189.0}
+     :r/t-done 189}
     {:r/nec 540,
      :r/level-0 "2019",
      :r/d-scheduled 168,
@@ -564,7 +564,7 @@
      :r/t-scheduled 151.0,
      :r/k "damaia-00540",
      :r/total-passed 197.0,
-     :r/t-done 146.0}
+     :r/t-done 146}
     {:r/nec 540,
      :r/level-0 "2020",
      :r/d-scheduled 197,
@@ -578,7 +578,7 @@
      :r/t-scheduled 136.0,
      :r/k "damaia-00540",
      :r/total-passed 178.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 540,
      :r/level-0 "2021",
      :r/d-scheduled 163,
@@ -592,7 +592,7 @@
      :r/t-scheduled 187.0,
      :r/k "damaia-00540",
      :r/total-passed nil,
-     :r/t-done 160.0}],
+     :r/t-done 160}],
    :imt-profile
    {:address
     "Rua Fontes Pereira de Melo, Nº 24-A Damaia 2720 -233 AMADORA",
@@ -636,7 +636,7 @@
      :r/t-scheduled 286.0,
      :r/k "a-rotunda-00550",
      :r/total-passed 403.0,
-     :r/t-done 283.0}
+     :r/t-done 283}
     {:r/nec 550,
      :r/level-0 "2016",
      :r/d-scheduled 254,
@@ -650,7 +650,7 @@
      :r/t-scheduled 235.0,
      :r/k "a-rotunda-00550",
      :r/total-passed 344.0,
-     :r/t-done 232.0}
+     :r/t-done 232}
     {:r/nec 550,
      :r/level-0 "2017",
      :r/d-scheduled 260,
@@ -664,7 +664,7 @@
      :r/t-scheduled 284.0,
      :r/k "a-rotunda-00550",
      :r/total-passed 373.0,
-     :r/t-done 271.0}
+     :r/t-done 271}
     {:r/nec 550,
      :r/level-0 "2018",
      :r/d-scheduled 289,
@@ -678,7 +678,7 @@
      :r/t-scheduled 262.0,
      :r/k "a-rotunda-00550",
      :r/total-passed 397.0,
-     :r/t-done 249.0}
+     :r/t-done 249}
     {:r/nec 550,
      :r/level-0 "2019",
      :r/d-scheduled 316,
@@ -692,7 +692,7 @@
      :r/t-scheduled 305.0,
      :r/k "a-rotunda-00550",
      :r/total-passed 440.0,
-     :r/t-done 290.0}
+     :r/t-done 290}
     {:r/nec 550,
      :r/level-0 "2020",
      :r/d-scheduled 297,
@@ -706,7 +706,7 @@
      :r/t-scheduled 320.0,
      :r/k "a-rotunda-00550",
      :r/total-passed 385.0,
-     :r/t-done 284.0}
+     :r/t-done 284}
     {:r/nec 550,
      :r/level-0 "2021",
      :r/d-scheduled 266,
@@ -720,7 +720,7 @@
      :r/t-scheduled 381.0,
      :r/k "a-rotunda-00550",
      :r/total-passed nil,
-     :r/t-done 353.0}],
+     :r/t-done 353}],
    :imt-profile
    {:address
     "Rua 17 de Setembro, n.º 4, Loja - Casal de S. Brás; 2700-232 Amadora",
@@ -764,7 +764,7 @@
      :r/t-scheduled 130.0,
      :r/k "cidade-nova-00603",
      :r/total-passed 153.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 603,
      :r/level-0 "2016",
      :r/d-scheduled 127,
@@ -778,7 +778,7 @@
      :r/t-scheduled 111.0,
      :r/k "cidade-nova-00603",
      :r/total-passed 170.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 603,
      :r/level-0 "2017",
      :r/d-scheduled 111,
@@ -792,7 +792,7 @@
      :r/t-scheduled 115.0,
      :r/k "cidade-nova-00603",
      :r/total-passed 158.0,
-     :r/t-done 114.0}
+     :r/t-done 114}
     {:r/nec 603,
      :r/level-0 "2018",
      :r/d-scheduled 86,
@@ -806,7 +806,7 @@
      :r/t-scheduled 108.0,
      :r/k "cidade-nova-00603",
      :r/total-passed 132.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 603,
      :r/level-0 "2019",
      :r/d-scheduled 127,
@@ -820,7 +820,7 @@
      :r/t-scheduled 117.0,
      :r/k "cidade-nova-00603",
      :r/total-passed 160.0,
-     :r/t-done 112.0}
+     :r/t-done 112}
     {:r/nec 603,
      :r/level-0 "2020",
      :r/d-scheduled 117,
@@ -834,7 +834,7 @@
      :r/t-scheduled 126.0,
      :r/k "cidade-nova-00603",
      :r/total-passed 161.0,
-     :r/t-done 123.0}
+     :r/t-done 123}
     {:r/nec 603,
      :r/level-0 "2021",
      :r/d-scheduled 144,
@@ -848,7 +848,7 @@
      :r/t-scheduled 171.0,
      :r/k "cidade-nova-00603",
      :r/total-passed nil,
-     :r/t-done 160.0}],
+     :r/t-done 160}],
    :imt-profile
    {:address
     "Rua Sargento Ajudante Manuel António, Nº 11 A 2720-356 AMADORA",
@@ -892,7 +892,7 @@
      :r/t-scheduled 155.0,
      :r/k "alfragide-00770",
      :r/total-passed 199.0,
-     :r/t-done 148.0}
+     :r/t-done 148}
     {:r/nec 770,
      :r/level-0 "2016",
      :r/d-scheduled 124,
@@ -906,7 +906,7 @@
      :r/t-scheduled 146.0,
      :r/k "alfragide-00770",
      :r/total-passed 187.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 770,
      :r/level-0 "2017",
      :r/d-scheduled 160,
@@ -920,7 +920,7 @@
      :r/t-scheduled 173.0,
      :r/k "alfragide-00770",
      :r/total-passed 254.0,
-     :r/t-done 171.0}
+     :r/t-done 171}
     {:r/nec 770,
      :r/level-0 "2018",
      :r/d-scheduled 176,
@@ -934,7 +934,7 @@
      :r/t-scheduled 205.0,
      :r/k "alfragide-00770",
      :r/total-passed 280.0,
-     :r/t-done 204.0}
+     :r/t-done 204}
     {:r/nec 770,
      :r/level-0 "2019",
      :r/d-scheduled 181,
@@ -948,7 +948,7 @@
      :r/t-scheduled 208.0,
      :r/k "alfragide-00770",
      :r/total-passed 280.0,
-     :r/t-done 206.0}
+     :r/t-done 206}
     {:r/nec 770,
      :r/level-0 "2020",
      :r/d-scheduled 191,
@@ -962,7 +962,7 @@
      :r/t-scheduled 191.0,
      :r/k "alfragide-00770",
      :r/total-passed 265.0,
-     :r/t-done 179.0}
+     :r/t-done 179}
     {:r/nec 770,
      :r/level-0 "2021",
      :r/d-scheduled 149,
@@ -976,7 +976,7 @@
      :r/t-scheduled 188.0,
      :r/k "alfragide-00770",
      :r/total-passed nil,
-     :r/t-done 182.0}],
+     :r/t-done 182}],
    :imt-profile
    {:address "Rua Manuel Lemos Peixoto, 2 A 2610-110 AMADORA",
     :name "De Alfragide",
@@ -1018,7 +1018,7 @@
      :r/t-scheduled 133.0,
      :r/k "colina-do-sol-00791",
      :r/total-passed 151.0,
-     :r/t-done 127.0}
+     :r/t-done 127}
     {:r/nec 791,
      :r/level-0 "2016",
      :r/d-scheduled 89,
@@ -1032,7 +1032,7 @@
      :r/t-scheduled 112.0,
      :r/k "colina-do-sol-00791",
      :r/total-passed 117.0,
-     :r/t-done 103.0}
+     :r/t-done 103}
     {:r/nec 791,
      :r/level-0 "2017",
      :r/d-scheduled 160,
@@ -1046,7 +1046,7 @@
      :r/t-scheduled 161.0,
      :r/k "colina-do-sol-00791",
      :r/total-passed 197.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 791,
      :r/level-0 "2018",
      :r/d-scheduled 156,
@@ -1060,7 +1060,7 @@
      :r/t-scheduled 168.0,
      :r/k "colina-do-sol-00791",
      :r/total-passed 195.0,
-     :r/t-done 164.0}
+     :r/t-done 164}
     {:r/nec 791,
      :r/level-0 "2019",
      :r/d-scheduled 171,
@@ -1074,7 +1074,7 @@
      :r/t-scheduled 192.0,
      :r/k "colina-do-sol-00791",
      :r/total-passed 223.0,
-     :r/t-done 181.0}
+     :r/t-done 181}
     {:r/nec 791,
      :r/level-0 "2020",
      :r/d-scheduled 156,
@@ -1088,7 +1088,7 @@
      :r/t-scheduled 184.0,
      :r/k "colina-do-sol-00791",
      :r/total-passed 188.0,
-     :r/t-done 171.0}
+     :r/t-done 171}
     {:r/nec 791,
      :r/level-0 "2021",
      :r/d-scheduled 149,
@@ -1102,7 +1102,7 @@
      :r/t-scheduled 177.0,
      :r/k "colina-do-sol-00791",
      :r/total-passed nil,
-     :r/t-done 158.0}],
+     :r/t-done 158}],
    :imt-profile
    {:address
     "Largo Poeta Ary dos Santos, lote 1, 1 B e 1 C 2700-662 AMADORA",
@@ -1146,7 +1146,7 @@
      :r/t-scheduled 208.0,
      :r/k "semaforo-da-damaia-00963",
      :r/total-passed 216.0,
-     :r/t-done 192.0}
+     :r/t-done 192}
     {:r/nec 963,
      :r/level-0 "2016",
      :r/d-scheduled 222,
@@ -1160,7 +1160,7 @@
      :r/t-scheduled 224.0,
      :r/k "semaforo-da-damaia-00963",
      :r/total-passed 262.0,
-     :r/t-done 214.0}
+     :r/t-done 214}
     {:r/nec 963,
      :r/level-0 "2017",
      :r/d-scheduled 205,
@@ -1174,7 +1174,7 @@
      :r/t-scheduled 228.0,
      :r/k "semaforo-da-damaia-00963",
      :r/total-passed 235.0,
-     :r/t-done 210.0}
+     :r/t-done 210}
     {:r/nec 963,
      :r/level-0 "2018",
      :r/d-scheduled 232,
@@ -1188,7 +1188,7 @@
      :r/t-scheduled 259.0,
      :r/k "semaforo-da-damaia-00963",
      :r/total-passed 291.0,
-     :r/t-done 238.0}
+     :r/t-done 238}
     {:r/nec 963,
      :r/level-0 "2019",
      :r/d-scheduled 252,
@@ -1202,7 +1202,7 @@
      :r/t-scheduled 327.0,
      :r/k "semaforo-da-damaia-00963",
      :r/total-passed 335.0,
-     :r/t-done 314.0}
+     :r/t-done 314}
     {:r/nec 963,
      :r/level-0 "2020",
      :r/d-scheduled 294,
@@ -1216,7 +1216,7 @@
      :r/t-scheduled 386.0,
      :r/k "semaforo-da-damaia-00963",
      :r/total-passed 366.0,
-     :r/t-done 345.0}
+     :r/t-done 345}
     {:r/nec 963,
      :r/level-0 "2021",
      :r/d-scheduled 333,
@@ -1230,7 +1230,7 @@
      :r/t-scheduled 359.0,
      :r/k "semaforo-da-damaia-00963",
      :r/total-passed nil,
-     :r/t-done 308.0}],
+     :r/t-done 308}],
    :imt-profile
    {:address "Rua D. João de Mascarenhas nº 9 2720-172 AMADORA",
     :name "Semáforo da Damaia",
@@ -1272,7 +1272,7 @@
      :r/t-scheduled 202.0,
      :r/k "eco-brandoa-01310",
      :r/total-passed 220.0,
-     :r/t-done 194.0}
+     :r/t-done 194}
     {:r/nec 1310,
      :r/level-0 "2016",
      :r/d-scheduled 213,
@@ -1286,7 +1286,7 @@
      :r/t-scheduled 228.0,
      :r/k "eco-brandoa-01310",
      :r/total-passed 271.0,
-     :r/t-done 219.0}
+     :r/t-done 219}
     {:r/nec 1310,
      :r/level-0 "2017",
      :r/d-scheduled 208,
@@ -1300,7 +1300,7 @@
      :r/t-scheduled 212.0,
      :r/k "eco-brandoa-01310",
      :r/total-passed 228.0,
-     :r/t-done 203.0}
+     :r/t-done 203}
     {:r/nec 1310,
      :r/level-0 "2018",
      :r/d-scheduled 147,
@@ -1314,7 +1314,7 @@
      :r/t-scheduled 150.0,
      :r/k "eco-brandoa-01310",
      :r/total-passed 165.0,
-     :r/t-done 147.0}
+     :r/t-done 147}
     {:r/nec 1310,
      :r/level-0 "2019",
      :r/d-scheduled 221,
@@ -1328,7 +1328,7 @@
      :r/t-scheduled 214.0,
      :r/k "eco-brandoa-01310",
      :r/total-passed 264.0,
-     :r/t-done 209.0}
+     :r/t-done 209}
     {:r/nec 1310,
      :r/level-0 "2020",
      :r/d-scheduled 303,
@@ -1342,7 +1342,7 @@
      :r/t-scheduled 251.0,
      :r/k "eco-brandoa-01310",
      :r/total-passed 314.0,
-     :r/t-done 226.0}
+     :r/t-done 226}
     {:r/nec 1310,
      :r/level-0 "2021",
      :r/d-scheduled 208,
@@ -1356,7 +1356,7 @@
      :r/t-scheduled 299.0,
      :r/k "eco-brandoa-01310",
      :r/total-passed nil,
-     :r/t-done 263.0}],
+     :r/t-done 263}],
    :imt-profile
    {:address "Rua Joaquim Tim Tim Sitima, N.º 20 A; 2650-224 Brandoa",
     :name "Eco Brandoa",
@@ -1398,7 +1398,7 @@
      :r/t-scheduled 1.0,
      :r/k "volante-dourado-01443",
      :r/total-passed 1.0,
-     :r/t-done 1.0}
+     :r/t-done 1}
     {:r/nec 1443,
      :r/level-0 "2020",
      :r/d-scheduled 17,
@@ -1412,7 +1412,7 @@
      :r/t-scheduled 30.0,
      :r/k "volante-dourado-01443",
      :r/total-passed 34.0,
-     :r/t-done 30.0}],
+     :r/t-done 30}],
    :imt-profile
    {:address
     "Rua de Santo António de Lisboa, n.º 20, Loja C, 2650-115 Amadora",

@@ -13,7 +13,7 @@
    :r/t-scheduled 4.0,
    :r/k "circular-de-braga-00443",
    :r/total-passed 4.0,
-   :r/t-done 4.0}
+   :r/t-done 4}
   {:r/nec 443,
    :r/level-0 "2016",
    :r/d-scheduled 42,
@@ -27,7 +27,7 @@
    :r/t-scheduled 37.0,
    :r/k "circular-de-braga-00443",
    :r/total-passed 46.0,
-   :r/t-done 37.0}
+   :r/t-done 37}
   {:r/nec 443,
    :r/level-0 "2017",
    :r/d-scheduled 17,
@@ -41,7 +41,7 @@
    :r/t-scheduled 18.0,
    :r/k "circular-de-braga-00443",
    :r/total-passed 16.0,
-   :r/t-done 15.0}
+   :r/t-done 15}
   {:r/nec 443,
    :r/level-0 "2019",
    :r/d-scheduled 3,
@@ -55,7 +55,7 @@
    :r/t-scheduled 10.0,
    :r/k "circular-de-braga-00443",
    :r/total-passed 9.0,
-   :r/t-done 9.0}
+   :r/t-done 9}
   {:r/nec 443,
    :r/level-0 "2020",
    :r/d-scheduled 25,
@@ -69,7 +69,7 @@
    :r/t-scheduled 35.0,
    :r/k "circular-de-braga-00443",
    :r/total-passed 47.0,
-   :r/t-done 33.0}
+   :r/t-done 33}
   {:r/nec 443,
    :r/level-0 "2021",
    :r/d-scheduled 31,
@@ -83,7 +83,7 @@
    :r/t-scheduled 59.0,
    :r/k "circular-de-braga-00443",
    :r/total-passed nil,
-   :r/t-done 55.0}],
+   :r/t-done 55}],
  :imt-profile nil,
  :obs "license 443 is 'Pampicar' in imt.pt",
  :overwrite/notes nil}

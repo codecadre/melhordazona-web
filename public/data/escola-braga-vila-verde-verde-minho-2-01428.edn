@@ -13,7 +13,7 @@
    :r/t-scheduled 17.0,
    :r/k "verde-minho-2-01428",
    :r/total-passed 12.0,
-   :r/t-done 15.0}
+   :r/t-done 15}
   {:r/nec 1428,
    :r/level-0 "2020",
    :r/d-scheduled 29,
@@ -27,7 +27,7 @@
    :r/t-scheduled 41.0,
    :r/k "verde-minho-2-01428",
    :r/total-passed 47.0,
-   :r/t-done 38.0}
+   :r/t-done 38}
   {:r/nec 1428,
    :r/level-0 "2021",
    :r/d-scheduled 75,
@@ -41,7 +41,7 @@
    :r/t-scheduled 75.0,
    :r/k "verde-minho-2-01428",
    :r/total-passed nil,
-   :r/t-done 72.0}],
+   :r/t-done 72}],
  :imt-profile
  {:address "Lugar do Faial, Rua 1, n.º 56 B, 4730-458 Vila de Prado",
   :name "Verde Minho 2",

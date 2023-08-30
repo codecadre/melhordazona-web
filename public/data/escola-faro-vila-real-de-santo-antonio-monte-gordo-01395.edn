@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "monte-gordo-01395",
    :r/total-passed 0.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 1395,
    :r/level-0 "2017",
    :r/d-scheduled 15,
@@ -27,7 +27,7 @@
    :r/t-scheduled 33.0,
    :r/k "monte-gordo-01395",
    :r/total-passed 38.0,
-   :r/t-done 32.0}
+   :r/t-done 32}
   {:r/nec 1395,
    :r/level-0 "2018",
    :r/d-scheduled 143,
@@ -41,7 +41,7 @@
    :r/t-scheduled 150.0,
    :r/k "monte-gordo-01395",
    :r/total-passed 215.0,
-   :r/t-done 145.0}
+   :r/t-done 145}
   {:r/nec 1395,
    :r/level-0 "2019",
    :r/d-scheduled 229,
@@ -55,7 +55,7 @@
    :r/t-scheduled 215.0,
    :r/k "monte-gordo-01395",
    :r/total-passed 300.0,
-   :r/t-done 213.0}
+   :r/t-done 213}
   {:r/nec 1395,
    :r/level-0 "2020",
    :r/d-scheduled 193,
@@ -69,7 +69,7 @@
    :r/t-scheduled 226.0,
    :r/k "monte-gordo-01395",
    :r/total-passed 272.0,
-   :r/t-done 199.0}
+   :r/t-done 199}
   {:r/nec 1395,
    :r/level-0 "2021",
    :r/d-scheduled 204,
@@ -83,7 +83,7 @@
    :r/t-scheduled 329.0,
    :r/k "monte-gordo-01395",
    :r/total-passed nil,
-   :r/t-done 265.0}],
+   :r/t-done 265}],
  :imt-profile
  {:address "Av. da Catalunha, lote 7, 8900-401 MONTE GORDO",
   :name "Monte Gordo",

@@ -14,7 +14,7 @@
      :r/t-scheduled 207.0,
      :r/k "vila-franca-00056",
      :r/total-passed 279.0,
-     :r/t-done 205.0}
+     :r/t-done 205}
     {:r/nec 56,
      :r/level-0 "2016",
      :r/d-scheduled 314,
@@ -28,7 +28,7 @@
      :r/t-scheduled 450.0,
      :r/k "vila-franca-00056",
      :r/total-passed 527.0,
-     :r/t-done 442.0}
+     :r/t-done 442}
     {:r/nec 56,
      :r/level-0 "2017",
      :r/d-scheduled 434,
@@ -42,7 +42,7 @@
      :r/t-scheduled 561.0,
      :r/k "vila-franca-00056",
      :r/total-passed 652.0,
-     :r/t-done 551.0}
+     :r/t-done 551}
     {:r/nec 56,
      :r/level-0 "2018",
      :r/d-scheduled 535,
@@ -56,7 +56,7 @@
      :r/t-scheduled 572.0,
      :r/k "vila-franca-00056",
      :r/total-passed 708.0,
-     :r/t-done 544.0}
+     :r/t-done 544}
     {:r/nec 56,
      :r/level-0 "2019",
      :r/d-scheduled 403,
@@ -70,7 +70,7 @@
      :r/t-scheduled 436.0,
      :r/k "vila-franca-00056",
      :r/total-passed 504.0,
-     :r/t-done 415.0}
+     :r/t-done 415}
     {:r/nec 56,
      :r/level-0 "2020",
      :r/d-scheduled 376,
@@ -84,7 +84,7 @@
      :r/t-scheduled 537.0,
      :r/k "vila-franca-00056",
      :r/total-passed 506.0,
-     :r/t-done 495.0}
+     :r/t-done 495}
     {:r/nec 56,
      :r/level-0 "2021",
      :r/d-scheduled 410,
@@ -98,7 +98,7 @@
      :r/t-scheduled 680.0,
      :r/k "vila-franca-00056",
      :r/total-passed nil,
-     :r/t-done 601.0}],
+     :r/t-done 601}],
    :imt-profile
    {:address "Rua Alves Redol, 115 e 117 2600 - 100 VILA FRANCA XIRA ",
     :name "Vila Franca",
@@ -140,7 +140,7 @@
      :r/t-scheduled 179.0,
      :r/k "nova-xira-00468",
      :r/total-passed 230.0,
-     :r/t-done 174.0}
+     :r/t-done 174}
     {:r/nec 468,
      :r/level-0 "2016",
      :r/d-scheduled 51,
@@ -154,7 +154,7 @@
      :r/t-scheduled 2.0,
      :r/k "nova-xira-00468",
      :r/total-passed 42.0,
-     :r/t-done 2.0}],
+     :r/t-done 2}],
    :imt-profile
    {:address
     "Rua Luís de Camões nº 60 r/c Dtº 2600-180 VILA FRANCA DE XIRA",
@@ -198,7 +198,7 @@
      :r/t-scheduled 139.0,
      :r/k "alhandra-rio-00726",
      :r/total-passed 221.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 726,
      :r/level-0 "2016",
      :r/d-scheduled 170,
@@ -212,7 +212,7 @@
      :r/t-scheduled 147.0,
      :r/k "alhandra-rio-00726",
      :r/total-passed 241.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 726,
      :r/level-0 "2017",
      :r/d-scheduled 212,
@@ -226,7 +226,7 @@
      :r/t-scheduled 176.0,
      :r/k "alhandra-rio-00726",
      :r/total-passed 278.0,
-     :r/t-done 171.0}
+     :r/t-done 171}
     {:r/nec 726,
      :r/level-0 "2018",
      :r/d-scheduled 244,
@@ -240,7 +240,7 @@
      :r/t-scheduled 247.0,
      :r/k "alhandra-rio-00726",
      :r/total-passed 352.0,
-     :r/t-done 240.0}
+     :r/t-done 240}
     {:r/nec 726,
      :r/level-0 "2019",
      :r/d-scheduled 223,
@@ -254,7 +254,7 @@
      :r/t-scheduled 222.0,
      :r/k "alhandra-rio-00726",
      :r/total-passed 334.0,
-     :r/t-done 206.0}
+     :r/t-done 206}
     {:r/nec 726,
      :r/level-0 "2020",
      :r/d-scheduled 245,
@@ -268,7 +268,7 @@
      :r/t-scheduled 248.0,
      :r/k "alhandra-rio-00726",
      :r/total-passed 371.0,
-     :r/t-done 229.0}
+     :r/t-done 229}
     {:r/nec 726,
      :r/level-0 "2021",
      :r/d-scheduled 267,
@@ -282,7 +282,7 @@
      :r/t-scheduled 377.0,
      :r/k "alhandra-rio-00726",
      :r/total-passed nil,
-     :r/t-done 334.0}],
+     :r/t-done 334}],
    :imt-profile
    {:address
     "Rua Dr. Augusto Assis, Lote 02, Loja Dt.ª, 2615-072 Alhandra",
@@ -326,7 +326,7 @@
      :r/t-scheduled 215.0,
      :r/k "quinta-da-piedade-00861",
      :r/total-passed 317.0,
-     :r/t-done 210.0}
+     :r/t-done 210}
     {:r/nec 861,
      :r/level-0 "2016",
      :r/d-scheduled 231,
@@ -340,7 +340,7 @@
      :r/t-scheduled 200.0,
      :r/k "quinta-da-piedade-00861",
      :r/total-passed 339.0,
-     :r/t-done 197.0}
+     :r/t-done 197}
     {:r/nec 861,
      :r/level-0 "2017",
      :r/d-scheduled 228,
@@ -354,7 +354,7 @@
      :r/t-scheduled 235.0,
      :r/k "quinta-da-piedade-00861",
      :r/total-passed 350.0,
-     :r/t-done 233.0}
+     :r/t-done 233}
     {:r/nec 861,
      :r/level-0 "2018",
      :r/d-scheduled 256,
@@ -368,7 +368,7 @@
      :r/t-scheduled 242.0,
      :r/k "quinta-da-piedade-00861",
      :r/total-passed 402.0,
-     :r/t-done 241.0}
+     :r/t-done 241}
     {:r/nec 861,
      :r/level-0 "2019",
      :r/d-scheduled 274,
@@ -382,7 +382,7 @@
      :r/t-scheduled 238.0,
      :r/k "quinta-da-piedade-00861",
      :r/total-passed 396.0,
-     :r/t-done 232.0}
+     :r/t-done 232}
     {:r/nec 861,
      :r/level-0 "2020",
      :r/d-scheduled 300,
@@ -396,7 +396,7 @@
      :r/t-scheduled 269.0,
      :r/k "quinta-da-piedade-00861",
      :r/total-passed 413.0,
-     :r/t-done 249.0}
+     :r/t-done 249}
     {:r/nec 861,
      :r/level-0 "2021",
      :r/d-scheduled 313,
@@ -410,7 +410,7 @@
      :r/t-scheduled 319.0,
      :r/k "quinta-da-piedade-00861",
      :r/total-passed nil,
-     :r/t-done 296.0}],
+     :r/t-done 296}],
    :imt-profile
    {:address
     "Rua D.Vicente Afonso Valente, Nº 18-B 2625-215 PÓVOA DE SANTA IRIA",
@@ -454,7 +454,7 @@
      :r/t-scheduled 29.0,
      :r/k "trinca-00864",
      :r/total-passed 25.0,
-     :r/t-done 29.0}
+     :r/t-done 29}
     {:r/nec 864,
      :r/level-0 "2016",
      :r/d-scheduled 107,
@@ -468,7 +468,7 @@
      :r/t-scheduled 101.0,
      :r/k "trinca-00864",
      :r/total-passed 165.0,
-     :r/t-done 98.0}
+     :r/t-done 98}
     {:r/nec 864,
      :r/level-0 "2017",
      :r/d-scheduled 11,
@@ -482,7 +482,7 @@
      :r/t-scheduled 4.0,
      :r/k "trinca-00864",
      :r/total-passed 10.0,
-     :r/t-done 3.0}],
+     :r/t-done 3}],
    :imt-profile
    {:address "Rua do Mercado, Nº 17 2601-906 CASTANHEIRA DO RIBATEJO",
     :name "Trinca",
@@ -524,7 +524,7 @@
      :r/t-scheduled 114.0,
      :r/k "coimbra-do-forte-00881",
      :r/total-passed 171.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 881,
      :r/level-0 "2016",
      :r/d-scheduled 115,
@@ -538,7 +538,7 @@
      :r/t-scheduled 106.0,
      :r/k "coimbra-do-forte-00881",
      :r/total-passed 150.0,
-     :r/t-done 104.0}
+     :r/t-done 104}
     {:r/nec 881,
      :r/level-0 "2017",
      :r/d-scheduled 104,
@@ -552,7 +552,7 @@
      :r/t-scheduled 120.0,
      :r/k "coimbra-do-forte-00881",
      :r/total-passed 171.0,
-     :r/t-done 117.0}
+     :r/t-done 117}
     {:r/nec 881,
      :r/level-0 "2018",
      :r/d-scheduled 148,
@@ -566,7 +566,7 @@
      :r/t-scheduled 117.0,
      :r/k "coimbra-do-forte-00881",
      :r/total-passed 174.0,
-     :r/t-done 115.0}
+     :r/t-done 115}
     {:r/nec 881,
      :r/level-0 "2019",
      :r/d-scheduled 129,
@@ -580,7 +580,7 @@
      :r/t-scheduled 137.0,
      :r/k "coimbra-do-forte-00881",
      :r/total-passed 181.0,
-     :r/t-done 135.0}
+     :r/t-done 135}
     {:r/nec 881,
      :r/level-0 "2020",
      :r/d-scheduled 114,
@@ -594,7 +594,7 @@
      :r/t-scheduled 109.0,
      :r/k "coimbra-do-forte-00881",
      :r/total-passed 140.0,
-     :r/t-done 101.0}
+     :r/t-done 101}
     {:r/nec 881,
      :r/level-0 "2021",
      :r/d-scheduled 122,
@@ -608,7 +608,7 @@
      :r/t-scheduled 141.0,
      :r/k "coimbra-do-forte-00881",
      :r/total-passed nil,
-     :r/t-done 128.0}],
+     :r/t-done 128}],
    :imt-profile
    {:address "Rua Padre Américo nº 12 loja 2625-391 FORTE DA CASA",
     :name "Coimbra do Forte",
@@ -650,7 +650,7 @@
      :r/t-scheduled 70.0,
      :r/k "coimbra-da-povoa-00889",
      :r/total-passed 84.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 889,
      :r/level-0 "2016",
      :r/d-scheduled 89,
@@ -664,7 +664,7 @@
      :r/t-scheduled 87.0,
      :r/k "coimbra-da-povoa-00889",
      :r/total-passed 125.0,
-     :r/t-done 86.0}
+     :r/t-done 86}
     {:r/nec 889,
      :r/level-0 "2017",
      :r/d-scheduled 79,
@@ -678,7 +678,7 @@
      :r/t-scheduled 68.0,
      :r/k "coimbra-da-povoa-00889",
      :r/total-passed 106.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 889,
      :r/level-0 "2018",
      :r/d-scheduled 99,
@@ -692,7 +692,7 @@
      :r/t-scheduled 94.0,
      :r/k "coimbra-da-povoa-00889",
      :r/total-passed 134.0,
-     :r/t-done 92.0}
+     :r/t-done 92}
     {:r/nec 889,
      :r/level-0 "2019",
      :r/d-scheduled 78,
@@ -706,7 +706,7 @@
      :r/t-scheduled 56.0,
      :r/k "coimbra-da-povoa-00889",
      :r/total-passed 103.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 889,
      :r/level-0 "2020",
      :r/d-scheduled 4,
@@ -760,7 +760,7 @@
      :r/t-scheduled 259.0,
      :r/k "coimbra-de-vialonga-00891",
      :r/total-passed 297.0,
-     :r/t-done 248.0}
+     :r/t-done 248}
     {:r/nec 891,
      :r/level-0 "2016",
      :r/d-scheduled 230,
@@ -774,7 +774,7 @@
      :r/t-scheduled 234.0,
      :r/k "coimbra-de-vialonga-00891",
      :r/total-passed 283.0,
-     :r/t-done 225.0}
+     :r/t-done 225}
     {:r/nec 891,
      :r/level-0 "2017",
      :r/d-scheduled 205,
@@ -788,7 +788,7 @@
      :r/t-scheduled 228.0,
      :r/k "coimbra-de-vialonga-00891",
      :r/total-passed 268.0,
-     :r/t-done 225.0}
+     :r/t-done 225}
     {:r/nec 891,
      :r/level-0 "2018",
      :r/d-scheduled 215,
@@ -802,7 +802,7 @@
      :r/t-scheduled 217.0,
      :r/k "coimbra-de-vialonga-00891",
      :r/total-passed 261.0,
-     :r/t-done 208.0}
+     :r/t-done 208}
     {:r/nec 891,
      :r/level-0 "2019",
      :r/d-scheduled 180,
@@ -816,7 +816,7 @@
      :r/t-scheduled 209.0,
      :r/k "coimbra-de-vialonga-00891",
      :r/total-passed 243.0,
-     :r/t-done 202.0}
+     :r/t-done 202}
     {:r/nec 891,
      :r/level-0 "2020",
      :r/d-scheduled 131,
@@ -830,7 +830,7 @@
      :r/t-scheduled 216.0,
      :r/k "coimbra-de-vialonga-00891",
      :r/total-passed 206.0,
-     :r/t-done 198.0}
+     :r/t-done 198}
     {:r/nec 891,
      :r/level-0 "2021",
      :r/d-scheduled 197,
@@ -844,7 +844,7 @@
      :r/t-scheduled 265.0,
      :r/k "coimbra-de-vialonga-00891",
      :r/total-passed nil,
-     :r/t-done 247.0}],
+     :r/t-done 247}],
    :imt-profile
    {:address
     "Rua Maria Barradas, Nº 6 Loja Dtª 2625 PÓVOA DE STª IRIA",
@@ -887,7 +887,7 @@
      :r/t-scheduled 146.0,
      :r/k "viaensinauto-01184",
      :r/total-passed 214.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 1184,
      :r/level-0 "2016",
      :r/d-scheduled 153,
@@ -901,7 +901,7 @@
      :r/t-scheduled 133.0,
      :r/k "viaensinauto-01184",
      :r/total-passed 200.0,
-     :r/t-done 133.0}
+     :r/t-done 133}
     {:r/nec 1184,
      :r/level-0 "2017",
      :r/d-scheduled 124,
@@ -915,7 +915,7 @@
      :r/t-scheduled 122.0,
      :r/k "viaensinauto-01184",
      :r/total-passed 172.0,
-     :r/t-done 122.0}
+     :r/t-done 122}
     {:r/nec 1184,
      :r/level-0 "2018",
      :r/d-scheduled 144,
@@ -929,7 +929,7 @@
      :r/t-scheduled 118.0,
      :r/k "viaensinauto-01184",
      :r/total-passed 185.0,
-     :r/t-done 118.0}
+     :r/t-done 118}
     {:r/nec 1184,
      :r/level-0 "2019",
      :r/d-scheduled 135,
@@ -943,7 +943,7 @@
      :r/t-scheduled 125.0,
      :r/k "viaensinauto-01184",
      :r/total-passed 168.0,
-     :r/t-done 122.0}
+     :r/t-done 122}
     {:r/nec 1184,
      :r/level-0 "2020",
      :r/d-scheduled 132,
@@ -957,7 +957,7 @@
      :r/t-scheduled 131.0,
      :r/k "viaensinauto-01184",
      :r/total-passed 163.0,
-     :r/t-done 122.0}
+     :r/t-done 122}
     {:r/nec 1184,
      :r/level-0 "2021",
      :r/d-scheduled 132,
@@ -971,7 +971,7 @@
      :r/t-scheduled 135.0,
      :r/k "viaensinauto-01184",
      :r/total-passed nil,
-     :r/t-done 124.0}],
+     :r/t-done 124}],
    :imt-profile
    {:address
     "Rua Adriano Correia de Oliveira, Nº 6 R/C Frente 2625-387 FORTE da CASA",
@@ -1015,7 +1015,7 @@
      :r/t-scheduled 85.0,
      :r/k "malvarosa-01272",
      :r/total-passed 109.0,
-     :r/t-done 85.0}
+     :r/t-done 85}
     {:r/nec 1272,
      :r/level-0 "2019",
      :r/d-scheduled 20,
@@ -1029,7 +1029,7 @@
      :r/t-scheduled 16.0,
      :r/k "malvarosa-01272",
      :r/total-passed 29.0,
-     :r/t-done 15.0}
+     :r/t-done 15}
     {:r/nec 1272,
      :r/level-0 "2020",
      :r/d-scheduled 3,
@@ -1043,7 +1043,7 @@
      :r/t-scheduled 8.0,
      :r/k "malvarosa-01272",
      :r/total-passed 9.0,
-     :r/t-done 8.0}],
+     :r/t-done 8}],
    :imt-profile
    {:address
     "Urbanização Malva Rosa, Lote 43, Verdelha, 2615-150 ALVERCA DO RIBATEJO",
@@ -1083,7 +1083,7 @@
      :r/t-scheduled 3.0,
      :r/k "alverca-rio-01401",
      :r/total-passed 3.0,
-     :r/t-done 3.0}
+     :r/t-done 3}
     {:r/nec 1401,
      :r/level-0 "2018",
      :r/d-scheduled 87,
@@ -1097,7 +1097,7 @@
      :r/t-scheduled 135.0,
      :r/k "alverca-rio-01401",
      :r/total-passed 169.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 1401,
      :r/level-0 "2019",
      :r/d-scheduled 207,
@@ -1111,7 +1111,7 @@
      :r/t-scheduled 203.0,
      :r/k "alverca-rio-01401",
      :r/total-passed 275.0,
-     :r/t-done 193.0}
+     :r/t-done 193}
     {:r/nec 1401,
      :r/level-0 "2020",
      :r/d-scheduled 243,
@@ -1125,7 +1125,7 @@
      :r/t-scheduled 252.0,
      :r/k "alverca-rio-01401",
      :r/total-passed 297.0,
-     :r/t-done 225.0}
+     :r/t-done 225}
     {:r/nec 1401,
      :r/level-0 "2021",
      :r/d-scheduled 276,
@@ -1139,7 +1139,7 @@
      :r/t-scheduled 321.0,
      :r/k "alverca-rio-01401",
      :r/total-passed nil,
-     :r/t-done 275.0}],
+     :r/t-done 275}],
    :imt-profile
    {:address
     "Rua da Juventude n.º 9, loja 12, com entrada pela Sociedade Filarmónica Recreio Alverquense",
@@ -1172,7 +1172,7 @@
      :r/t-scheduled 29.0,
      :r/k "castanheira-do-ribatejo-01412",
      :r/total-passed 30.0,
-     :r/t-done 29.0}
+     :r/t-done 29}
     {:r/nec 1412,
      :r/level-0 "2019",
      :r/d-scheduled 83,
@@ -1186,7 +1186,7 @@
      :r/t-scheduled 76.0,
      :r/k "castanheira-do-ribatejo-01412",
      :r/total-passed 103.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 1412,
      :r/level-0 "2020",
      :r/d-scheduled 66,
@@ -1200,7 +1200,7 @@
      :r/t-scheduled 90.0,
      :r/k "castanheira-do-ribatejo-01412",
      :r/total-passed 120.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 1412,
      :r/level-0 "2021",
      :r/d-scheduled 91,
@@ -1214,7 +1214,7 @@
      :r/t-scheduled 79.0,
      :r/k "castanheira-do-ribatejo-01412",
      :r/total-passed nil,
-     :r/t-done 75.0}],
+     :r/t-done 75}],
    :imt-profile
    {:address
     "Rua Padre António Bianchi, n.º 18 2600-605 Castanheira do Ribatejo",

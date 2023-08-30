@@ -14,7 +14,7 @@
      :r/t-scheduled 83.0,
      :r/k "albicastrense-00101",
      :r/total-passed 117.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 101,
      :r/level-0 "2016",
      :r/d-scheduled 141,
@@ -28,7 +28,7 @@
      :r/t-scheduled 114.0,
      :r/k "albicastrense-00101",
      :r/total-passed 163.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 101,
      :r/level-0 "2017",
      :r/d-scheduled 183,
@@ -42,7 +42,7 @@
      :r/t-scheduled 136.0,
      :r/k "albicastrense-00101",
      :r/total-passed 193.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 101,
      :r/level-0 "2018",
      :r/d-scheduled 179,
@@ -56,7 +56,7 @@
      :r/t-scheduled 143.0,
      :r/k "albicastrense-00101",
      :r/total-passed 193.0,
-     :r/t-done 132.0}
+     :r/t-done 132}
     {:r/nec 101,
      :r/level-0 "2019",
      :r/d-scheduled 155,
@@ -70,7 +70,7 @@
      :r/t-scheduled 156.0,
      :r/k "albicastrense-00101",
      :r/total-passed 179.0,
-     :r/t-done 141.0}
+     :r/t-done 141}
     {:r/nec 101,
      :r/level-0 "2020",
      :r/d-scheduled 153,
@@ -84,7 +84,7 @@
      :r/t-scheduled 131.0,
      :r/k "albicastrense-00101",
      :r/total-passed 165.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 101,
      :r/level-0 "2021",
      :r/d-scheduled 105,
@@ -98,7 +98,7 @@
      :r/t-scheduled 61.0,
      :r/k "albicastrense-00101",
      :r/total-passed nil,
-     :r/t-done 54.0}],
+     :r/t-done 54}],
    :imt-profile
    {:address "Rua de S. Miguel, Nº 7-1 B 6000-181 CASTELO BRANCO",
     :name "Albicastrense",
@@ -139,7 +139,7 @@
      :r/t-scheduled 199.0,
      :r/k "covilhanense-00230",
      :r/total-passed 307.0,
-     :r/t-done 198.0}
+     :r/t-done 198}
     {:r/nec 230,
      :r/level-0 "2016",
      :r/d-scheduled 265,
@@ -153,7 +153,7 @@
      :r/t-scheduled 172.0,
      :r/k "covilhanense-00230",
      :r/total-passed 275.0,
-     :r/t-done 168.0}
+     :r/t-done 168}
     {:r/nec 230,
      :r/level-0 "2017",
      :r/d-scheduled 249,
@@ -167,7 +167,7 @@
      :r/t-scheduled 179.0,
      :r/k "covilhanense-00230",
      :r/total-passed 276.0,
-     :r/t-done 177.0}
+     :r/t-done 177}
     {:r/nec 230,
      :r/level-0 "2018",
      :r/d-scheduled 242,
@@ -181,7 +181,7 @@
      :r/t-scheduled 140.0,
      :r/k "covilhanense-00230",
      :r/total-passed 210.0,
-     :r/t-done 135.0}
+     :r/t-done 135}
     {:r/nec 230,
      :r/level-0 "2019",
      :r/d-scheduled 233,
@@ -195,7 +195,7 @@
      :r/t-scheduled 155.0,
      :r/k "covilhanense-00230",
      :r/total-passed 241.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 230,
      :r/level-0 "2020",
      :r/d-scheduled 200,
@@ -209,7 +209,7 @@
      :r/t-scheduled 140.0,
      :r/k "covilhanense-00230",
      :r/total-passed 233.0,
-     :r/t-done 133.0}
+     :r/t-done 133}
     {:r/nec 230,
      :r/level-0 "2021",
      :r/d-scheduled 177,
@@ -223,7 +223,7 @@
      :r/t-scheduled 147.0,
      :r/k "covilhanense-00230",
      :r/total-passed nil,
-     :r/t-done 134.0}],
+     :r/t-done 134}],
    :imt-profile
    {:address
     "Rua Marquês D'Ávila e Bolama, Lote 5, Nº 357 R/C DTº 6200-053 COVILHÃ",
@@ -267,7 +267,7 @@
      :r/t-scheduled 106.0,
      :r/k "pero-da-covilha-00308",
      :r/total-passed 133.0,
-     :r/t-done 104.0}
+     :r/t-done 104}
     {:r/nec 308,
      :r/level-0 "2016",
      :r/d-scheduled 144,
@@ -281,7 +281,7 @@
      :r/t-scheduled 111.0,
      :r/k "pero-da-covilha-00308",
      :r/total-passed 158.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 308,
      :r/level-0 "2017",
      :r/d-scheduled 179,
@@ -295,7 +295,7 @@
      :r/t-scheduled 142.0,
      :r/k "pero-da-covilha-00308",
      :r/total-passed 187.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 308,
      :r/level-0 "2018",
      :r/d-scheduled 244,
@@ -309,7 +309,7 @@
      :r/t-scheduled 188.0,
      :r/k "pero-da-covilha-00308",
      :r/total-passed 249.0,
-     :r/t-done 179.0}
+     :r/t-done 179}
     {:r/nec 308,
      :r/level-0 "2019",
      :r/d-scheduled 280,
@@ -323,7 +323,7 @@
      :r/t-scheduled 156.0,
      :r/k "pero-da-covilha-00308",
      :r/total-passed 246.0,
-     :r/t-done 151.0}
+     :r/t-done 151}
     {:r/nec 308,
      :r/level-0 "2020",
      :r/d-scheduled 235,
@@ -337,7 +337,7 @@
      :r/t-scheduled 175.0,
      :r/k "pero-da-covilha-00308",
      :r/total-passed 231.0,
-     :r/t-done 160.0}
+     :r/t-done 160}
     {:r/nec 308,
      :r/level-0 "2021",
      :r/d-scheduled 309,
@@ -351,7 +351,7 @@
      :r/t-scheduled 212.0,
      :r/k "pero-da-covilha-00308",
      :r/total-passed nil,
-     :r/t-done 184.0}],
+     :r/t-done 184}],
    :imt-profile
    {:address
     "Rua Dr. José Mendes Matos, Lote 10, Fracção A, 6200-559 COVILHÃ",
@@ -395,7 +395,7 @@
      :r/t-scheduled 109.0,
      :r/k "belmontense-00421",
      :r/total-passed 158.0,
-     :r/t-done 108.0}
+     :r/t-done 108}
     {:r/nec 421,
      :r/level-0 "2016",
      :r/d-scheduled 126,
@@ -409,7 +409,7 @@
      :r/t-scheduled 75.0,
      :r/k "belmontense-00421",
      :r/total-passed 130.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 421,
      :r/level-0 "2017",
      :r/d-scheduled 126,
@@ -423,7 +423,7 @@
      :r/t-scheduled 116.0,
      :r/k "belmontense-00421",
      :r/total-passed 159.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 421,
      :r/level-0 "2018",
      :r/d-scheduled 184,
@@ -437,7 +437,7 @@
      :r/t-scheduled 108.0,
      :r/k "belmontense-00421",
      :r/total-passed 174.0,
-     :r/t-done 103.0}
+     :r/t-done 103}
     {:r/nec 421,
      :r/level-0 "2019",
      :r/d-scheduled 153,
@@ -451,7 +451,7 @@
      :r/t-scheduled 95.0,
      :r/k "belmontense-00421",
      :r/total-passed 147.0,
-     :r/t-done 94.0}
+     :r/t-done 94}
     {:r/nec 421,
      :r/level-0 "2020",
      :r/d-scheduled 115,
@@ -465,7 +465,7 @@
      :r/t-scheduled 109.0,
      :r/k "belmontense-00421",
      :r/total-passed 125.0,
-     :r/t-done 98.0}
+     :r/t-done 98}
     {:r/nec 421,
      :r/level-0 "2021",
      :r/d-scheduled 172,
@@ -479,7 +479,7 @@
      :r/t-scheduled 90.0,
      :r/k "belmontense-00421",
      :r/total-passed nil,
-     :r/t-done 86.0}],
+     :r/t-done 86}],
    :imt-profile
    {:address "Rua Pedro Álvares Cabral, Nº 292 R/C 6250-088 BELMONTE",
     :name "Belmontense",
@@ -521,7 +521,7 @@
      :r/t-scheduled 110.0,
      :r/k "proencaanova-00422",
      :r/total-passed 151.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 422,
      :r/level-0 "2016",
      :r/d-scheduled 194,
@@ -535,7 +535,7 @@
      :r/t-scheduled 122.0,
      :r/k "proencaanova-00422",
      :r/total-passed 188.0,
-     :r/t-done 116.0}
+     :r/t-done 116}
     {:r/nec 422,
      :r/level-0 "2017",
      :r/d-scheduled 145,
@@ -549,7 +549,7 @@
      :r/t-scheduled 100.0,
      :r/k "proencaanova-00422",
      :r/total-passed 164.0,
-     :r/t-done 98.0}
+     :r/t-done 98}
     {:r/nec 422,
      :r/level-0 "2018",
      :r/d-scheduled 142,
@@ -563,7 +563,7 @@
      :r/t-scheduled 102.0,
      :r/k "proencaanova-00422",
      :r/total-passed 164.0,
-     :r/t-done 95.0}
+     :r/t-done 95}
     {:r/nec 422,
      :r/level-0 "2019",
      :r/d-scheduled 171,
@@ -577,7 +577,7 @@
      :r/t-scheduled 128.0,
      :r/k "proencaanova-00422",
      :r/total-passed 207.0,
-     :r/t-done 125.0}
+     :r/t-done 125}
     {:r/nec 422,
      :r/level-0 "2020",
      :r/d-scheduled 144,
@@ -591,7 +591,7 @@
      :r/t-scheduled 105.0,
      :r/k "proencaanova-00422",
      :r/total-passed 183.0,
-     :r/t-done 96.0}
+     :r/t-done 96}
     {:r/nec 422,
      :r/level-0 "2021",
      :r/d-scheduled 158,
@@ -605,7 +605,7 @@
      :r/t-scheduled 148.0,
      :r/k "proencaanova-00422",
      :r/total-passed nil,
-     :r/t-done 139.0}],
+     :r/t-done 139}],
    :imt-profile
    {:address "Rua Sidónio Pais 6150-422 PROENÇA-A-NOVA",
     :name "Proença – A - Nova",
@@ -644,7 +644,7 @@
      :r/t-scheduled 116.0,
      :r/k "alcains-00456",
      :r/total-passed 162.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 456,
      :r/level-0 "2016",
      :r/d-scheduled 198,
@@ -658,7 +658,7 @@
      :r/t-scheduled 95.0,
      :r/k "alcains-00456",
      :r/total-passed 156.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 456,
      :r/level-0 "2017",
      :r/d-scheduled 136,
@@ -672,7 +672,7 @@
      :r/t-scheduled 94.0,
      :r/k "alcains-00456",
      :r/total-passed 127.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 456,
      :r/level-0 "2018",
      :r/d-scheduled 104,
@@ -686,7 +686,7 @@
      :r/t-scheduled 92.0,
      :r/k "alcains-00456",
      :r/total-passed 118.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 456,
      :r/level-0 "2019",
      :r/d-scheduled 157,
@@ -700,7 +700,7 @@
      :r/t-scheduled 107.0,
      :r/k "alcains-00456",
      :r/total-passed 137.0,
-     :r/t-done 101.0}
+     :r/t-done 101}
     {:r/nec 456,
      :r/level-0 "2020",
      :r/d-scheduled 151,
@@ -714,7 +714,7 @@
      :r/t-scheduled 88.0,
      :r/k "alcains-00456",
      :r/total-passed 137.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 456,
      :r/level-0 "2021",
      :r/d-scheduled 108,
@@ -728,7 +728,7 @@
      :r/t-scheduled 83.0,
      :r/k "alcains-00456",
      :r/total-passed nil,
-     :r/t-done 77.0}],
+     :r/t-done 77}],
    :imt-profile
    {:address "Estrada S. Domingos, Nº 64 R/c 6005-010 ALCAINS",
     :name "Alcains",
@@ -770,7 +770,7 @@
      :r/t-scheduled 29.0,
      :r/k "a-gomescovilha-00472",
      :r/total-passed 47.0,
-     :r/t-done 29.0}
+     :r/t-done 29}
     {:r/nec 472,
      :r/level-0 "2016",
      :r/d-scheduled 34,
@@ -784,7 +784,7 @@
      :r/t-scheduled 21.0,
      :r/k "a-gomescovilha-00472",
      :r/total-passed 28.0,
-     :r/t-done 21.0}
+     :r/t-done 21}
     {:r/nec 472,
      :r/level-0 "2017",
      :r/d-scheduled 24,
@@ -798,7 +798,7 @@
      :r/t-scheduled 28.0,
      :r/k "a-gomescovilha-00472",
      :r/total-passed 32.0,
-     :r/t-done 26.0}
+     :r/t-done 26}
     {:r/nec 472,
      :r/level-0 "2018",
      :r/d-scheduled 36,
@@ -812,7 +812,7 @@
      :r/t-scheduled 30.0,
      :r/k "a-gomescovilha-00472",
      :r/total-passed 32.0,
-     :r/t-done 28.0}
+     :r/t-done 28}
     {:r/nec 472,
      :r/level-0 "2019",
      :r/d-scheduled 34,
@@ -826,7 +826,7 @@
      :r/t-scheduled 38.0,
      :r/k "a-gomescovilha-00472",
      :r/total-passed 48.0,
-     :r/t-done 36.0}
+     :r/t-done 36}
     {:r/nec 472,
      :r/level-0 "2020",
      :r/d-scheduled 29,
@@ -840,7 +840,7 @@
      :r/t-scheduled 25.0,
      :r/k "a-gomescovilha-00472",
      :r/total-passed 36.0,
-     :r/t-done 23.0}
+     :r/t-done 23}
     {:r/nec 472,
      :r/level-0 "2021",
      :r/d-scheduled 32,
@@ -854,7 +854,7 @@
      :r/t-scheduled 25.0,
      :r/k "a-gomescovilha-00472",
      :r/total-passed nil,
-     :r/t-done 22.0}],
+     :r/t-done 22}],
    :imt-profile
    {:address
     "Rua de Olivença, No Prédio Moço, s/nº-1º 6200-156 COVILHÃ",
@@ -897,7 +897,7 @@
      :r/t-scheduled 200.0,
      :r/k "tecnica-do-volante-00496",
      :r/total-passed 340.0,
-     :r/t-done 198.0}
+     :r/t-done 198}
     {:r/nec 496,
      :r/level-0 "2016",
      :r/d-scheduled 282,
@@ -911,7 +911,7 @@
      :r/t-scheduled 197.0,
      :r/k "tecnica-do-volante-00496",
      :r/total-passed 328.0,
-     :r/t-done 186.0}
+     :r/t-done 186}
     {:r/nec 496,
      :r/level-0 "2017",
      :r/d-scheduled 325,
@@ -925,7 +925,7 @@
      :r/t-scheduled 265.0,
      :r/k "tecnica-do-volante-00496",
      :r/total-passed 383.0,
-     :r/t-done 262.0}
+     :r/t-done 262}
     {:r/nec 496,
      :r/level-0 "2018",
      :r/d-scheduled 301,
@@ -939,7 +939,7 @@
      :r/t-scheduled 253.0,
      :r/k "tecnica-do-volante-00496",
      :r/total-passed 351.0,
-     :r/t-done 248.0}
+     :r/t-done 248}
     {:r/nec 496,
      :r/level-0 "2019",
      :r/d-scheduled 295,
@@ -953,7 +953,7 @@
      :r/t-scheduled 229.0,
      :r/k "tecnica-do-volante-00496",
      :r/total-passed 327.0,
-     :r/t-done 223.0}
+     :r/t-done 223}
     {:r/nec 496,
      :r/level-0 "2020",
      :r/d-scheduled 243,
@@ -967,7 +967,7 @@
      :r/t-scheduled 240.0,
      :r/k "tecnica-do-volante-00496",
      :r/total-passed 316.0,
-     :r/t-done 212.0}
+     :r/t-done 212}
     {:r/nec 496,
      :r/level-0 "2021",
      :r/d-scheduled 254,
@@ -981,7 +981,7 @@
      :r/t-scheduled 193.0,
      :r/k "tecnica-do-volante-00496",
      :r/total-passed nil,
-     :r/t-done 188.0}],
+     :r/t-done 188}],
    :imt-profile
    {:address "Avª 1º de Maio, 49- 5/L Dtº 6000-086 CASTELO BRANCO",
     :name "Técnica do Volante",
@@ -1022,7 +1022,7 @@
      :r/t-scheduled 68.0,
      :r/k "idanhense-00556",
      :r/total-passed 77.0,
-     :r/t-done 67.0}
+     :r/t-done 67}
     {:r/nec 556,
      :r/level-0 "2016",
      :r/d-scheduled 66,
@@ -1036,7 +1036,7 @@
      :r/t-scheduled 52.0,
      :r/k "idanhense-00556",
      :r/total-passed 69.0,
-     :r/t-done 46.0}
+     :r/t-done 46}
     {:r/nec 556,
      :r/level-0 "2017",
      :r/d-scheduled 67,
@@ -1050,7 +1050,7 @@
      :r/t-scheduled 67.0,
      :r/k "idanhense-00556",
      :r/total-passed 76.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 556,
      :r/level-0 "2018",
      :r/d-scheduled 71,
@@ -1064,7 +1064,7 @@
      :r/t-scheduled 79.0,
      :r/k "idanhense-00556",
      :r/total-passed 89.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 556,
      :r/level-0 "2019",
      :r/d-scheduled 69,
@@ -1078,7 +1078,7 @@
      :r/t-scheduled 57.0,
      :r/k "idanhense-00556",
      :r/total-passed 84.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 556,
      :r/level-0 "2020",
      :r/d-scheduled 86,
@@ -1092,7 +1092,7 @@
      :r/t-scheduled 58.0,
      :r/k "idanhense-00556",
      :r/total-passed 76.0,
-     :r/t-done 49.0}
+     :r/t-done 49}
     {:r/nec 556,
      :r/level-0 "2021",
      :r/d-scheduled 72,
@@ -1106,7 +1106,7 @@
      :r/t-scheduled 90.0,
      :r/k "idanhense-00556",
      :r/total-passed nil,
-     :r/t-done 84.0}],
+     :r/t-done 84}],
    :imt-profile
    {:address
     "Rua da Filarmónica Idanhense, Lote 69, R/C Dtº 6060-101 IDANHA-A-NOVA",
@@ -1150,7 +1150,7 @@
      :r/t-scheduled 30.0,
      :r/k "moderna-serta-00567",
      :r/total-passed 44.0,
-     :r/t-done 30.0}
+     :r/t-done 30}
     {:r/nec 567,
      :r/level-0 "2016",
      :r/d-scheduled 53,
@@ -1164,7 +1164,7 @@
      :r/t-scheduled 29.0,
      :r/k "moderna-serta-00567",
      :r/total-passed 48.0,
-     :r/t-done 29.0}
+     :r/t-done 29}
     {:r/nec 567,
      :r/level-0 "2017",
      :r/d-scheduled 49,
@@ -1178,7 +1178,7 @@
      :r/t-scheduled 44.0,
      :r/k "moderna-serta-00567",
      :r/total-passed 58.0,
-     :r/t-done 43.0}
+     :r/t-done 43}
     {:r/nec 567,
      :r/level-0 "2018",
      :r/d-scheduled 72,
@@ -1192,7 +1192,7 @@
      :r/t-scheduled 70.0,
      :r/k "moderna-serta-00567",
      :r/total-passed 74.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 567,
      :r/level-0 "2019",
      :r/d-scheduled 82,
@@ -1206,7 +1206,7 @@
      :r/t-scheduled 63.0,
      :r/k "moderna-serta-00567",
      :r/total-passed 86.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 567,
      :r/level-0 "2020",
      :r/d-scheduled 57,
@@ -1220,7 +1220,7 @@
      :r/t-scheduled 47.0,
      :r/k "moderna-serta-00567",
      :r/total-passed 65.0,
-     :r/t-done 47.0}
+     :r/t-done 47}
     {:r/nec 567,
      :r/level-0 "2021",
      :r/d-scheduled 42,
@@ -1234,7 +1234,7 @@
      :r/t-scheduled 61.0,
      :r/k "moderna-serta-00567",
      :r/total-passed nil,
-     :r/t-done 53.0}],
+     :r/t-done 53}],
    :imt-profile
    {:address
     "Rua de Acesso à Ribeira do Amioso, 1º-Esqº 6100-758 SERTÃ",
@@ -1274,7 +1274,7 @@
      :r/t-scheduled 37.0,
      :r/k "oleirense-00591",
      :r/total-passed 57.0,
-     :r/t-done 36.0}
+     :r/t-done 36}
     {:r/nec 591,
      :r/level-0 "2016",
      :r/d-scheduled 62,
@@ -1288,7 +1288,7 @@
      :r/t-scheduled 24.0,
      :r/k "oleirense-00591",
      :r/total-passed 44.0,
-     :r/t-done 22.0}
+     :r/t-done 22}
     {:r/nec 591,
      :r/level-0 "2017",
      :r/d-scheduled 54,
@@ -1302,7 +1302,7 @@
      :r/t-scheduled 37.0,
      :r/k "oleirense-00591",
      :r/total-passed 40.0,
-     :r/t-done 35.0}
+     :r/t-done 35}
     {:r/nec 591,
      :r/level-0 "2018",
      :r/d-scheduled 55,
@@ -1316,7 +1316,7 @@
      :r/t-scheduled 44.0,
      :r/k "oleirense-00591",
      :r/total-passed 58.0,
-     :r/t-done 43.0}
+     :r/t-done 43}
     {:r/nec 591,
      :r/level-0 "2019",
      :r/d-scheduled 54,
@@ -1330,7 +1330,7 @@
      :r/t-scheduled 39.0,
      :r/k "oleirense-00591",
      :r/total-passed 54.0,
-     :r/t-done 38.0}
+     :r/t-done 38}
     {:r/nec 591,
      :r/level-0 "2020",
      :r/d-scheduled 40,
@@ -1344,7 +1344,7 @@
      :r/t-scheduled 39.0,
      :r/k "oleirense-00591",
      :r/total-passed 35.0,
-     :r/t-done 36.0}
+     :r/t-done 36}
     {:r/nec 591,
      :r/level-0 "2021",
      :r/d-scheduled 54,
@@ -1358,7 +1358,7 @@
      :r/t-scheduled 44.0,
      :r/k "oleirense-00591",
      :r/total-passed nil,
-     :r/t-done 44.0}],
+     :r/t-done 44}],
    :imt-profile
    {:address "Rua do Ramalhal, nº20 6160-418 OLEIROS",
     :name "Oleirense",
@@ -1399,7 +1399,7 @@
      :r/t-scheduled 185.0,
      :r/k "triunfo-fundao-00592",
      :r/total-passed 324.0,
-     :r/t-done 183.0}
+     :r/t-done 183}
     {:r/nec 592,
      :r/level-0 "2016",
      :r/d-scheduled 297,
@@ -1413,7 +1413,7 @@
      :r/t-scheduled 197.0,
      :r/k "triunfo-fundao-00592",
      :r/total-passed 319.0,
-     :r/t-done 197.0}
+     :r/t-done 197}
     {:r/nec 592,
      :r/level-0 "2017",
      :r/d-scheduled 295,
@@ -1427,7 +1427,7 @@
      :r/t-scheduled 208.0,
      :r/k "triunfo-fundao-00592",
      :r/total-passed 356.0,
-     :r/t-done 208.0}
+     :r/t-done 208}
     {:r/nec 592,
      :r/level-0 "2018",
      :r/d-scheduled 271,
@@ -1441,7 +1441,7 @@
      :r/t-scheduled 223.0,
      :r/k "triunfo-fundao-00592",
      :r/total-passed 340.0,
-     :r/t-done 214.0}
+     :r/t-done 214}
     {:r/nec 592,
      :r/level-0 "2019",
      :r/d-scheduled 325,
@@ -1455,7 +1455,7 @@
      :r/t-scheduled 252.0,
      :r/k "triunfo-fundao-00592",
      :r/total-passed 407.0,
-     :r/t-done 245.0}
+     :r/t-done 245}
     {:r/nec 592,
      :r/level-0 "2020",
      :r/d-scheduled 319,
@@ -1469,7 +1469,7 @@
      :r/t-scheduled 256.0,
      :r/k "triunfo-fundao-00592",
      :r/total-passed 384.0,
-     :r/t-done 239.0}
+     :r/t-done 239}
     {:r/nec 592,
      :r/level-0 "2021",
      :r/d-scheduled 288,
@@ -1483,7 +1483,7 @@
      :r/t-scheduled 254.0,
      :r/k "triunfo-fundao-00592",
      :r/total-passed nil,
-     :r/t-done 239.0}],
+     :r/t-done 239}],
    :imt-profile
    {:address "Loteamento Boavista, Lote 23 R/C DTº 6230 -287 FUNDÃO",
     :name "Triunfo - Fundão",
@@ -1525,7 +1525,7 @@
      :r/t-scheduled 56.0,
      :r/k "sra-esperanca-00612",
      :r/total-passed 73.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 612,
      :r/level-0 "2016",
      :r/d-scheduled 82,
@@ -1539,7 +1539,7 @@
      :r/t-scheduled 55.0,
      :r/k "sra-esperanca-00612",
      :r/total-passed 80.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 612,
      :r/level-0 "2017",
      :r/d-scheduled 61,
@@ -1553,7 +1553,7 @@
      :r/t-scheduled 63.0,
      :r/k "sra-esperanca-00612",
      :r/total-passed 84.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 612,
      :r/level-0 "2018",
      :r/d-scheduled 73,
@@ -1567,7 +1567,7 @@
      :r/t-scheduled 65.0,
      :r/k "sra-esperanca-00612",
      :r/total-passed 86.0,
-     :r/t-done 64.0}
+     :r/t-done 64}
     {:r/nec 612,
      :r/level-0 "2019",
      :r/d-scheduled 85,
@@ -1581,7 +1581,7 @@
      :r/t-scheduled 54.0,
      :r/k "sra-esperanca-00612",
      :r/total-passed 87.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 612,
      :r/level-0 "2020",
      :r/d-scheduled 69,
@@ -1595,7 +1595,7 @@
      :r/t-scheduled 55.0,
      :r/k "sra-esperanca-00612",
      :r/total-passed 76.0,
-     :r/t-done 50.0}
+     :r/t-done 50}
     {:r/nec 612,
      :r/level-0 "2021",
      :r/d-scheduled 81,
@@ -1609,7 +1609,7 @@
      :r/t-scheduled 36.0,
      :r/k "sra-esperanca-00612",
      :r/total-passed nil,
-     :r/t-done 36.0}],
+     :r/t-done 36}],
    :imt-profile
    {:address "Estrada do Santuário, Nº 38 R/C Esq 6215-460 PAUL",
     :name "Senhora da Esperança",
@@ -1651,7 +1651,7 @@
      :r/t-scheduled 43.0,
      :r/k "penamacor-00621",
      :r/total-passed 68.0,
-     :r/t-done 43.0}
+     :r/t-done 43}
     {:r/nec 621,
      :r/level-0 "2016",
      :r/d-scheduled 75,
@@ -1665,7 +1665,7 @@
      :r/t-scheduled 57.0,
      :r/k "penamacor-00621",
      :r/total-passed 72.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 621,
      :r/level-0 "2017",
      :r/d-scheduled 72,
@@ -1679,7 +1679,7 @@
      :r/t-scheduled 59.0,
      :r/k "penamacor-00621",
      :r/total-passed 84.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 621,
      :r/level-0 "2018",
      :r/d-scheduled 99,
@@ -1693,7 +1693,7 @@
      :r/t-scheduled 43.0,
      :r/k "penamacor-00621",
      :r/total-passed 78.0,
-     :r/t-done 39.0}
+     :r/t-done 39}
     {:r/nec 621,
      :r/level-0 "2019",
      :r/d-scheduled 65,
@@ -1707,7 +1707,7 @@
      :r/t-scheduled 44.0,
      :r/k "penamacor-00621",
      :r/total-passed 61.0,
-     :r/t-done 40.0}
+     :r/t-done 40}
     {:r/nec 621,
      :r/level-0 "2020",
      :r/d-scheduled 67,
@@ -1721,7 +1721,7 @@
      :r/t-scheduled 54.0,
      :r/k "penamacor-00621",
      :r/total-passed 68.0,
-     :r/t-done 50.0}
+     :r/t-done 50}
     {:r/nec 621,
      :r/level-0 "2021",
      :r/d-scheduled 58,
@@ -1735,7 +1735,7 @@
      :r/t-scheduled 53.0,
      :r/k "penamacor-00621",
      :r/total-passed nil,
-     :r/t-done 53.0}],
+     :r/t-done 53}],
    :imt-profile
    {:address "Avª 25 de Abril, nº 21 6090-522 PENAMACOR",
     :name "Penamacor",
@@ -1777,7 +1777,7 @@
      :r/t-scheduled 185.0,
      :r/k "a-cereja-00668",
      :r/total-passed 293.0,
-     :r/t-done 177.0}
+     :r/t-done 177}
     {:r/nec 668,
      :r/level-0 "2016",
      :r/d-scheduled 246,
@@ -1791,7 +1791,7 @@
      :r/t-scheduled 195.0,
      :r/k "a-cereja-00668",
      :r/total-passed 321.0,
-     :r/t-done 190.0}
+     :r/t-done 190}
     {:r/nec 668,
      :r/level-0 "2017",
      :r/d-scheduled 200,
@@ -1805,7 +1805,7 @@
      :r/t-scheduled 191.0,
      :r/k "a-cereja-00668",
      :r/total-passed 255.0,
-     :r/t-done 178.0}
+     :r/t-done 178}
     {:r/nec 668,
      :r/level-0 "2018",
      :r/d-scheduled 170,
@@ -1819,7 +1819,7 @@
      :r/t-scheduled 176.0,
      :r/k "a-cereja-00668",
      :r/total-passed 214.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 668,
      :r/level-0 "2019",
      :r/d-scheduled 204,
@@ -1833,7 +1833,7 @@
      :r/t-scheduled 147.0,
      :r/k "a-cereja-00668",
      :r/total-passed 215.0,
-     :r/t-done 136.0}
+     :r/t-done 136}
     {:r/nec 668,
      :r/level-0 "2020",
      :r/d-scheduled 171,
@@ -1847,7 +1847,7 @@
      :r/t-scheduled 149.0,
      :r/k "a-cereja-00668",
      :r/total-passed 206.0,
-     :r/t-done 133.0}
+     :r/t-done 133}
     {:r/nec 668,
      :r/level-0 "2021",
      :r/d-scheduled 151,
@@ -1861,7 +1861,7 @@
      :r/t-scheduled 104.0,
      :r/k "a-cereja-00668",
      :r/total-passed nil,
-     :r/t-done 90.0}],
+     :r/t-done 90}],
    :imt-profile
    {:address
     "Loteamento Quinta do Espírito Santo, lote 10 r/c Frente 6230-329 FUNDÃO",
@@ -1901,7 +1901,7 @@
      :r/t-scheduled 105.0,
      :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 194.0,
-     :r/t-done 101.0}
+     :r/t-done 101}
     {:r/nec 725,
      :r/level-0 "2016",
      :r/d-scheduled 182,
@@ -1915,7 +1915,7 @@
      :r/t-scheduled 144.0,
      :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 246.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 725,
      :r/level-0 "2017",
      :r/d-scheduled 180,
@@ -1929,7 +1929,7 @@
      :r/t-scheduled 116.0,
      :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 226.0,
-     :r/t-done 112.0}
+     :r/t-done 112}
     {:r/nec 725,
      :r/level-0 "2018",
      :r/d-scheduled 151,
@@ -1943,7 +1943,7 @@
      :r/t-scheduled 119.0,
      :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 201.0,
-     :r/t-done 110.0}
+     :r/t-done 110}
     {:r/nec 725,
      :r/level-0 "2019",
      :r/d-scheduled 173,
@@ -1957,7 +1957,7 @@
      :r/t-scheduled 135.0,
      :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 244.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 725,
      :r/level-0 "2020",
      :r/d-scheduled 172,
@@ -1971,7 +1971,7 @@
      :r/t-scheduled 122.0,
      :r/k "cernache-do-bonjardim-00725",
      :r/total-passed 207.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 725,
      :r/level-0 "2021",
      :r/d-scheduled 148,
@@ -1985,7 +1985,7 @@
      :r/t-scheduled 137.0,
      :r/k "cernache-do-bonjardim-00725",
      :r/total-passed nil,
-     :r/t-done 122.0}],
+     :r/t-done 122}],
    :imt-profile
    {:address
     "Rua dos Pinheiros - Alto Ventoso 6100-205 CERNACHE BONJARDIM",
@@ -2029,7 +2029,7 @@
      :r/t-scheduled 191.0,
      :r/k "nova-tecnica-00743",
      :r/total-passed 271.0,
-     :r/t-done 188.0}
+     :r/t-done 188}
     {:r/nec 743,
      :r/level-0 "2016",
      :r/d-scheduled 297,
@@ -2043,7 +2043,7 @@
      :r/t-scheduled 178.0,
      :r/k "nova-tecnica-00743",
      :r/total-passed 294.0,
-     :r/t-done 169.0}
+     :r/t-done 169}
     {:r/nec 743,
      :r/level-0 "2017",
      :r/d-scheduled 230,
@@ -2057,7 +2057,7 @@
      :r/t-scheduled 175.0,
      :r/k "nova-tecnica-00743",
      :r/total-passed 254.0,
-     :r/t-done 168.0}
+     :r/t-done 168}
     {:r/nec 743,
      :r/level-0 "2018",
      :r/d-scheduled 240,
@@ -2071,7 +2071,7 @@
      :r/t-scheduled 185.0,
      :r/k "nova-tecnica-00743",
      :r/total-passed 278.0,
-     :r/t-done 168.0}
+     :r/t-done 168}
     {:r/nec 743,
      :r/level-0 "2019",
      :r/d-scheduled 286,
@@ -2085,7 +2085,7 @@
      :r/t-scheduled 212.0,
      :r/k "nova-tecnica-00743",
      :r/total-passed 334.0,
-     :r/t-done 205.0}
+     :r/t-done 205}
     {:r/nec 743,
      :r/level-0 "2020",
      :r/d-scheduled 273,
@@ -2099,7 +2099,7 @@
      :r/t-scheduled 187.0,
      :r/k "nova-tecnica-00743",
      :r/total-passed 302.0,
-     :r/t-done 167.0}
+     :r/t-done 167}
     {:r/nec 743,
      :r/level-0 "2021",
      :r/d-scheduled 321,
@@ -2113,7 +2113,7 @@
      :r/t-scheduled 150.0,
      :r/k "nova-tecnica-00743",
      :r/total-passed nil,
-     :r/t-done 134.0}],
+     :r/t-done 134}],
    :imt-profile
    {:address
     "Rua Afonso de Paiva, n.º 33 - Cave, 6000-076 CASTELO BRANCO",
@@ -2155,7 +2155,7 @@
      :r/t-scheduled 63.0,
      :r/k "serrana-00859",
      :r/total-passed 106.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 859,
      :r/level-0 "2016",
      :r/d-scheduled 133,
@@ -2169,7 +2169,7 @@
      :r/t-scheduled 75.0,
      :r/k "serrana-00859",
      :r/total-passed 133.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 859,
      :r/level-0 "2017",
      :r/d-scheduled 128,
@@ -2183,7 +2183,7 @@
      :r/t-scheduled 73.0,
      :r/k "serrana-00859",
      :r/total-passed 121.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 859,
      :r/level-0 "2018",
      :r/d-scheduled 134,
@@ -2197,7 +2197,7 @@
      :r/t-scheduled 87.0,
      :r/k "serrana-00859",
      :r/total-passed 133.0,
-     :r/t-done 85.0}
+     :r/t-done 85}
     {:r/nec 859,
      :r/level-0 "2019",
      :r/d-scheduled 143,
@@ -2211,7 +2211,7 @@
      :r/t-scheduled 72.0,
      :r/k "serrana-00859",
      :r/total-passed 120.0,
-     :r/t-done 70.0}
+     :r/t-done 70}
     {:r/nec 859,
      :r/level-0 "2020",
      :r/d-scheduled 110,
@@ -2225,7 +2225,7 @@
      :r/t-scheduled 63.0,
      :r/k "serrana-00859",
      :r/total-passed 95.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 859,
      :r/level-0 "2021",
      :r/d-scheduled 120,
@@ -2239,7 +2239,7 @@
      :r/t-scheduled 58.0,
      :r/k "serrana-00859",
      :r/total-passed nil,
-     :r/t-done 57.0}],
+     :r/t-done 57}],
    :imt-profile
    {:address "Estrada do Sineiro, n.º 57, 6200-209 COVILHÃ",
     :name "Serrana",
@@ -2280,7 +2280,7 @@
      :r/t-scheduled 80.0,
      :r/k "do-tortosendo-00870",
      :r/total-passed 137.0,
-     :r/t-done 79.0}
+     :r/t-done 79}
     {:r/nec 870,
      :r/level-0 "2016",
      :r/d-scheduled 116,
@@ -2294,7 +2294,7 @@
      :r/t-scheduled 94.0,
      :r/k "do-tortosendo-00870",
      :r/total-passed 129.0,
-     :r/t-done 93.0}
+     :r/t-done 93}
     {:r/nec 870,
      :r/level-0 "2017",
      :r/d-scheduled 144,
@@ -2308,7 +2308,7 @@
      :r/t-scheduled 122.0,
      :r/k "do-tortosendo-00870",
      :r/total-passed 167.0,
-     :r/t-done 122.0}
+     :r/t-done 122}
     {:r/nec 870,
      :r/level-0 "2018",
      :r/d-scheduled 137,
@@ -2322,7 +2322,7 @@
      :r/t-scheduled 111.0,
      :r/k "do-tortosendo-00870",
      :r/total-passed 146.0,
-     :r/t-done 106.0}
+     :r/t-done 106}
     {:r/nec 870,
      :r/level-0 "2019",
      :r/d-scheduled 157,
@@ -2336,7 +2336,7 @@
      :r/t-scheduled 115.0,
      :r/k "do-tortosendo-00870",
      :r/total-passed 141.0,
-     :r/t-done 108.0}
+     :r/t-done 108}
     {:r/nec 870,
      :r/level-0 "2020",
      :r/d-scheduled 135,
@@ -2350,7 +2350,7 @@
      :r/t-scheduled 113.0,
      :r/k "do-tortosendo-00870",
      :r/total-passed 140.0,
-     :r/t-done 108.0}
+     :r/t-done 108}
     {:r/nec 870,
      :r/level-0 "2021",
      :r/d-scheduled 124,
@@ -2364,7 +2364,7 @@
      :r/t-scheduled 132.0,
      :r/k "do-tortosendo-00870",
      :r/total-passed nil,
-     :r/t-done 124.0}],
+     :r/t-done 124}],
    :imt-profile
    {:address "Avª Montes Hermínios 6 A 6200-759 TORTOSENDO",
     :name "Tortosendense",
@@ -2406,7 +2406,7 @@
      :r/t-scheduled 169.0,
      :r/k "castelo-branco-00879",
      :r/total-passed 229.0,
-     :r/t-done 166.0}
+     :r/t-done 166}
     {:r/nec 879,
      :r/level-0 "2016",
      :r/d-scheduled 237,
@@ -2420,7 +2420,7 @@
      :r/t-scheduled 168.0,
      :r/k "castelo-branco-00879",
      :r/total-passed 214.0,
-     :r/t-done 152.0}
+     :r/t-done 152}
     {:r/nec 879,
      :r/level-0 "2017",
      :r/d-scheduled 211,
@@ -2434,7 +2434,7 @@
      :r/t-scheduled 190.0,
      :r/k "castelo-branco-00879",
      :r/total-passed 242.0,
-     :r/t-done 178.0}
+     :r/t-done 178}
     {:r/nec 879,
      :r/level-0 "2018",
      :r/d-scheduled 206,
@@ -2448,7 +2448,7 @@
      :r/t-scheduled 181.0,
      :r/k "castelo-branco-00879",
      :r/total-passed 230.0,
-     :r/t-done 174.0}
+     :r/t-done 174}
     {:r/nec 879,
      :r/level-0 "2019",
      :r/d-scheduled 236,
@@ -2462,7 +2462,7 @@
      :r/t-scheduled 175.0,
      :r/k "castelo-branco-00879",
      :r/total-passed 226.0,
-     :r/t-done 171.0}
+     :r/t-done 171}
     {:r/nec 879,
      :r/level-0 "2020",
      :r/d-scheduled 193,
@@ -2476,7 +2476,7 @@
      :r/t-scheduled 152.0,
      :r/k "castelo-branco-00879",
      :r/total-passed 194.0,
-     :r/t-done 124.0}
+     :r/t-done 124}
     {:r/nec 879,
      :r/level-0 "2021",
      :r/d-scheduled 166,
@@ -2490,7 +2490,7 @@
      :r/t-scheduled 102.0,
      :r/k "castelo-branco-00879",
      :r/total-passed nil,
-     :r/t-done 93.0}],
+     :r/t-done 93}],
    :imt-profile
    {:address
     "Quinta do Amieiro de Baixo, lote 1 A – nº 6 6000-129 CASTELO BRANCO",
@@ -2534,7 +2534,7 @@
      :r/t-scheduled 42.0,
      :r/k "maia-e-ferreira-00921",
      :r/total-passed 69.0,
-     :r/t-done 41.0}
+     :r/t-done 41}
     {:r/nec 921,
      :r/level-0 "2016",
      :r/d-scheduled 57,
@@ -2548,7 +2548,7 @@
      :r/t-scheduled 47.0,
      :r/k "maia-e-ferreira-00921",
      :r/total-passed 67.0,
-     :r/t-done 46.0}
+     :r/t-done 46}
     {:r/nec 921,
      :r/level-0 "2017",
      :r/d-scheduled 41,
@@ -2562,7 +2562,7 @@
      :r/t-scheduled 36.0,
      :r/k "maia-e-ferreira-00921",
      :r/total-passed 55.0,
-     :r/t-done 35.0}
+     :r/t-done 35}
     {:r/nec 921,
      :r/level-0 "2018",
      :r/d-scheduled 48,
@@ -2576,7 +2576,7 @@
      :r/t-scheduled 32.0,
      :r/k "maia-e-ferreira-00921",
      :r/total-passed 60.0,
-     :r/t-done 32.0}
+     :r/t-done 32}
     {:r/nec 921,
      :r/level-0 "2019",
      :r/d-scheduled 52,
@@ -2590,7 +2590,7 @@
      :r/t-scheduled 43.0,
      :r/k "maia-e-ferreira-00921",
      :r/total-passed 78.0,
-     :r/t-done 43.0}
+     :r/t-done 43}
     {:r/nec 921,
      :r/level-0 "2020",
      :r/d-scheduled 42,
@@ -2604,7 +2604,7 @@
      :r/t-scheduled 44.0,
      :r/k "maia-e-ferreira-00921",
      :r/total-passed 63.0,
-     :r/t-done 43.0}
+     :r/t-done 43}
     {:r/nec 921,
      :r/level-0 "2021",
      :r/d-scheduled 61,
@@ -2618,7 +2618,7 @@
      :r/t-scheduled 35.0,
      :r/k "maia-e-ferreira-00921",
      :r/total-passed nil,
-     :r/t-done 35.0}],
+     :r/t-done 35}],
    :imt-profile
    {:address
     "Rua dos Pinheiros, lote 2 - Apartado 50 6100-266 CERNACHE BONJARDIM",
@@ -2662,7 +2662,7 @@
      :r/t-scheduled 143.0,
      :r/k "saber-mais-00980",
      :r/total-passed 267.0,
-     :r/t-done 143.0}
+     :r/t-done 143}
     {:r/nec 980,
      :r/level-0 "2016",
      :r/d-scheduled 151,
@@ -2676,7 +2676,7 @@
      :r/t-scheduled 121.0,
      :r/k "saber-mais-00980",
      :r/total-passed 203.0,
-     :r/t-done 120.0}
+     :r/t-done 120}
     {:r/nec 980,
      :r/level-0 "2017",
      :r/d-scheduled 141,
@@ -2690,7 +2690,7 @@
      :r/t-scheduled 103.0,
      :r/k "saber-mais-00980",
      :r/total-passed 169.0,
-     :r/t-done 103.0}
+     :r/t-done 103}
     {:r/nec 980,
      :r/level-0 "2018",
      :r/d-scheduled 192,
@@ -2704,7 +2704,7 @@
      :r/t-scheduled 193.0,
      :r/k "saber-mais-00980",
      :r/total-passed 274.0,
-     :r/t-done 187.0}
+     :r/t-done 187}
     {:r/nec 980,
      :r/level-0 "2019",
      :r/d-scheduled 269,
@@ -2718,7 +2718,7 @@
      :r/t-scheduled 215.0,
      :r/k "saber-mais-00980",
      :r/total-passed 338.0,
-     :r/t-done 207.0}
+     :r/t-done 207}
     {:r/nec 980,
      :r/level-0 "2020",
      :r/d-scheduled 196,
@@ -2732,7 +2732,7 @@
      :r/t-scheduled 213.0,
      :r/k "saber-mais-00980",
      :r/total-passed 287.0,
-     :r/t-done 195.0}
+     :r/t-done 195}
     {:r/nec 980,
      :r/level-0 "2021",
      :r/d-scheduled 216,
@@ -2746,7 +2746,7 @@
      :r/t-scheduled 158.0,
      :r/k "saber-mais-00980",
      :r/total-passed nil,
-     :r/t-done 142.0}],
+     :r/t-done 142}],
    :imt-profile
    {:address "Rua Conde de Ericeira, Nº 21 Subcave 6200-086 COVILHÃ",
     :name "Saber Mais",
@@ -2788,7 +2788,7 @@
      :r/t-scheduled 103.0,
      :r/k "teixoso-01036",
      :r/total-passed 163.0,
-     :r/t-done 103.0}
+     :r/t-done 103}
     {:r/nec 1036,
      :r/level-0 "2016",
      :r/d-scheduled 141,
@@ -2802,7 +2802,7 @@
      :r/t-scheduled 75.0,
      :r/k "teixoso-01036",
      :r/total-passed 163.0,
-     :r/t-done 74.0}
+     :r/t-done 74}
     {:r/nec 1036,
      :r/level-0 "2017",
      :r/d-scheduled 95,
@@ -2816,7 +2816,7 @@
      :r/t-scheduled 75.0,
      :r/k "teixoso-01036",
      :r/total-passed 127.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 1036,
      :r/level-0 "2018",
      :r/d-scheduled 129,
@@ -2830,7 +2830,7 @@
      :r/t-scheduled 85.0,
      :r/k "teixoso-01036",
      :r/total-passed 148.0,
-     :r/t-done 80.0}
+     :r/t-done 80}
     {:r/nec 1036,
      :r/level-0 "2019",
      :r/d-scheduled 96,
@@ -2844,7 +2844,7 @@
      :r/t-scheduled 83.0,
      :r/k "teixoso-01036",
      :r/total-passed 135.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 1036,
      :r/level-0 "2020",
      :r/d-scheduled 112,
@@ -2858,7 +2858,7 @@
      :r/t-scheduled 67.0,
      :r/k "teixoso-01036",
      :r/total-passed 109.0,
-     :r/t-done 67.0}
+     :r/t-done 67}
     {:r/nec 1036,
      :r/level-0 "2021",
      :r/d-scheduled 116,
@@ -2872,7 +2872,7 @@
      :r/t-scheduled 79.0,
      :r/k "teixoso-01036",
      :r/total-passed nil,
-     :r/t-done 73.0}],
+     :r/t-done 73}],
    :imt-profile
    {:address
     "Avenida S. Salvador, Lote 5, R/C Dt.º ; 6200-638 Teixoso",
@@ -2916,7 +2916,7 @@
      :r/t-scheduled 59.0,
      :r/k "silvino-lopes-01204",
      :r/total-passed 115.0,
-     :r/t-done 58.0}
+     :r/t-done 58}
     {:r/nec 1204,
      :r/level-0 "2016",
      :r/d-scheduled 49,
@@ -2930,7 +2930,7 @@
      :r/t-scheduled 57.0,
      :r/k "silvino-lopes-01204",
      :r/total-passed 84.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 1204,
      :r/level-0 "2017",
      :r/d-scheduled 59,
@@ -2944,7 +2944,7 @@
      :r/t-scheduled 68.0,
      :r/k "silvino-lopes-01204",
      :r/total-passed 108.0,
-     :r/t-done 67.0}
+     :r/t-done 67}
     {:r/nec 1204,
      :r/level-0 "2018",
      :r/d-scheduled 78,
@@ -2958,7 +2958,7 @@
      :r/t-scheduled 72.0,
      :r/k "silvino-lopes-01204",
      :r/total-passed 125.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 1204,
      :r/level-0 "2019",
      :r/d-scheduled 72,
@@ -2972,7 +2972,7 @@
      :r/t-scheduled 75.0,
      :r/k "silvino-lopes-01204",
      :r/total-passed 124.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 1204,
      :r/level-0 "2020",
      :r/d-scheduled 49,
@@ -2986,7 +2986,7 @@
      :r/t-scheduled 36.0,
      :r/k "silvino-lopes-01204",
      :r/total-passed 77.0,
-     :r/t-done 33.0}
+     :r/t-done 33}
     {:r/nec 1204,
      :r/level-0 "2021",
      :r/d-scheduled 57,
@@ -3000,7 +3000,7 @@
      :r/t-scheduled 52.0,
      :r/k "silvino-lopes-01204",
      :r/total-passed nil,
-     :r/t-done 52.0}],
+     :r/t-done 52}],
    :imt-profile
    {:address "EN 2 Venda da Pedra - Sertã 6100-707 SERTÃ",
     :name "Silvino Lopes",
@@ -3041,7 +3041,7 @@
      :r/t-scheduled 85.0,
      :r/k "granja-parque-01233",
      :r/total-passed 116.0,
-     :r/t-done 83.0}
+     :r/t-done 83}
     {:r/nec 1233,
      :r/level-0 "2016",
      :r/d-scheduled 117,
@@ -3055,7 +3055,7 @@
      :r/t-scheduled 91.0,
      :r/k "granja-parque-01233",
      :r/total-passed 139.0,
-     :r/t-done 85.0}
+     :r/t-done 85}
     {:r/nec 1233,
      :r/level-0 "2017",
      :r/d-scheduled 107,
@@ -3069,7 +3069,7 @@
      :r/t-scheduled 113.0,
      :r/k "granja-parque-01233",
      :r/total-passed 163.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 1233,
      :r/level-0 "2018",
      :r/d-scheduled 136,
@@ -3083,7 +3083,7 @@
      :r/t-scheduled 123.0,
      :r/k "granja-parque-01233",
      :r/total-passed 187.0,
-     :r/t-done 117.0}
+     :r/t-done 117}
     {:r/nec 1233,
      :r/level-0 "2019",
      :r/d-scheduled 186,
@@ -3097,7 +3097,7 @@
      :r/t-scheduled 153.0,
      :r/k "granja-parque-01233",
      :r/total-passed 240.0,
-     :r/t-done 152.0}
+     :r/t-done 152}
     {:r/nec 1233,
      :r/level-0 "2020",
      :r/d-scheduled 174,
@@ -3111,7 +3111,7 @@
      :r/t-scheduled 147.0,
      :r/k "granja-parque-01233",
      :r/total-passed 212.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 1233,
      :r/level-0 "2021",
      :r/d-scheduled 139,
@@ -3125,7 +3125,7 @@
      :r/t-scheduled 137.0,
      :r/k "granja-parque-01233",
      :r/total-passed nil,
-     :r/t-done 132.0}],
+     :r/t-done 132}],
    :imt-profile
    {:address
     "Rua Dr. Victor Santos Pinto, Lote 131 B ; 6000-478 Castelo Branco",
@@ -3169,7 +3169,7 @@
      :r/t-scheduled 35.0,
      :r/k "carapalha-01420",
      :r/total-passed 52.0,
-     :r/t-done 35.0}
+     :r/t-done 35}
     {:r/nec 1420,
      :r/level-0 "2020",
      :r/d-scheduled 58,
@@ -3183,7 +3183,7 @@
      :r/t-scheduled 43.0,
      :r/k "carapalha-01420",
      :r/total-passed 54.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 1420,
      :r/level-0 "2021",
      :r/d-scheduled 62,
@@ -3197,7 +3197,7 @@
      :r/t-scheduled 65.0,
      :r/k "carapalha-01420",
      :r/total-passed nil,
-     :r/t-done 64.0}],
+     :r/t-done 64}],
    :imt-profile
    {:address
     "Avenida da Carapalha, Lote 65, n.º 45 r/c Dtº 6000-129 CASTELO BRANCO",

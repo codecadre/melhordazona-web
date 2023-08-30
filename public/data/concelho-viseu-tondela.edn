@@ -14,7 +14,7 @@
      :r/t-scheduled 116.0,
      :r/k "tondelense-00206",
      :r/total-passed 195.0,
-     :r/t-done 115.0}
+     :r/t-done 115}
     {:r/nec 206,
      :r/level-0 "2016",
      :r/d-scheduled 146,
@@ -28,7 +28,7 @@
      :r/t-scheduled 140.0,
      :r/k "tondelense-00206",
      :r/total-passed 211.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 206,
      :r/level-0 "2017",
      :r/d-scheduled 169,
@@ -42,7 +42,7 @@
      :r/t-scheduled 177.0,
      :r/k "tondelense-00206",
      :r/total-passed 261.0,
-     :r/t-done 170.0}
+     :r/t-done 170}
     {:r/nec 206,
      :r/level-0 "2018",
      :r/d-scheduled 241,
@@ -56,7 +56,7 @@
      :r/t-scheduled 210.0,
      :r/k "tondelense-00206",
      :r/total-passed 335.0,
-     :r/t-done 205.0}
+     :r/t-done 205}
     {:r/nec 206,
      :r/level-0 "2019",
      :r/d-scheduled 249,
@@ -70,7 +70,7 @@
      :r/t-scheduled 250.0,
      :r/k "tondelense-00206",
      :r/total-passed 349.0,
-     :r/t-done 247.0}
+     :r/t-done 247}
     {:r/nec 206,
      :r/level-0 "2020",
      :r/d-scheduled 235,
@@ -84,7 +84,7 @@
      :r/t-scheduled 226.0,
      :r/k "tondelense-00206",
      :r/total-passed 337.0,
-     :r/t-done 212.0}
+     :r/t-done 212}
     {:r/nec 206,
      :r/level-0 "2021",
      :r/d-scheduled 193,
@@ -98,7 +98,7 @@
      :r/t-scheduled 198.0,
      :r/k "tondelense-00206",
      :r/total-passed nil,
-     :r/t-done 180.0}],
+     :r/t-done 180}],
    :imt-profile
    {:address "Rua António Marques da Costa, s/nª 3460-575 TONDELA",
     :name "Tondelense",
@@ -140,7 +140,7 @@
      :r/t-scheduled 138.0,
      :r/k "grand-tour-00900",
      :r/total-passed 177.0,
-     :r/t-done 134.0}
+     :r/t-done 134}
     {:r/nec 900,
      :r/level-0 "2020",
      :r/d-scheduled 190,
@@ -154,7 +154,7 @@
      :r/t-scheduled 147.0,
      :r/k "grand-tour-00900",
      :r/total-passed 222.0,
-     :r/t-done 141.0}
+     :r/t-done 141}
     {:r/nec 900,
      :r/level-0 "2021",
      :r/d-scheduled 151,
@@ -168,7 +168,7 @@
      :r/t-scheduled 165.0,
      :r/k "grand-tour-00900",
      :r/total-passed nil,
-     :r/t-done 155.0}],
+     :r/t-done 155}],
    :imt-profile
    {:address
     "Edf. Avenida - Fracção D - Av. dos Bombeiros Voluntários, 172, R/C Post Esq. - 3460-572 Tondela",
@@ -208,7 +208,7 @@
      :r/t-scheduled 55.0,
      :r/k "tondeluir-01188",
      :r/total-passed 79.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 1188,
      :r/level-0 "2016",
      :r/d-scheduled 75,
@@ -222,7 +222,7 @@
      :r/t-scheduled 62.0,
      :r/k "tondeluir-01188",
      :r/total-passed 101.0,
-     :r/t-done 62.0}
+     :r/t-done 62}
     {:r/nec 1188,
      :r/level-0 "2017",
      :r/d-scheduled 63,
@@ -236,7 +236,7 @@
      :r/t-scheduled 46.0,
      :r/k "tondeluir-01188",
      :r/total-passed 77.0,
-     :r/t-done 45.0}
+     :r/t-done 45}
     {:r/nec 1188,
      :r/level-0 "2018",
      :r/d-scheduled 71,
@@ -250,7 +250,7 @@
      :r/t-scheduled 78.0,
      :r/k "tondeluir-01188",
      :r/total-passed 88.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 1188,
      :r/level-0 "2019",
      :r/d-scheduled 47,
@@ -264,7 +264,7 @@
      :r/t-scheduled 38.0,
      :r/k "tondeluir-01188",
      :r/total-passed 57.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 1188,
      :r/level-0 "2020",
      :r/d-scheduled 10,
@@ -278,7 +278,7 @@
      :r/t-scheduled 5.0,
      :r/k "tondeluir-01188",
      :r/total-passed 10.0,
-     :r/t-done 5.0}
+     :r/t-done 5}
     {:r/nec 1188,
      :r/level-0 "2021",
      :r/d-scheduled 1,
@@ -292,7 +292,7 @@
      :r/t-scheduled 2.0,
      :r/k "tondeluir-01188",
      :r/total-passed nil,
-     :r/t-done 1.0}],
+     :r/t-done 1}],
    :imt-profile
    {:address
     "Av. Eng. Adelino Amaro da Costa - Lote 1 Lj. 844 3460-009 TONDELA",

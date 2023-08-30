@@ -14,7 +14,7 @@
      :r/t-scheduled 237.0,
      :r/k "a-lousadense-00430",
      :r/total-passed 412.0,
-     :r/t-done 236.0}
+     :r/t-done 236}
     {:r/nec 430,
      :r/level-0 "2016",
      :r/d-scheduled 443,
@@ -28,7 +28,7 @@
      :r/t-scheduled 237.0,
      :r/k "a-lousadense-00430",
      :r/total-passed 454.0,
-     :r/t-done 231.0}
+     :r/t-done 231}
     {:r/nec 430,
      :r/level-0 "2017",
      :r/d-scheduled 421,
@@ -42,7 +42,7 @@
      :r/t-scheduled 268.0,
      :r/k "a-lousadense-00430",
      :r/total-passed 480.0,
-     :r/t-done 261.0}
+     :r/t-done 261}
     {:r/nec 430,
      :r/level-0 "2018",
      :r/d-scheduled 482,
@@ -56,7 +56,7 @@
      :r/t-scheduled 318.0,
      :r/k "a-lousadense-00430",
      :r/total-passed 542.0,
-     :r/t-done 309.0}
+     :r/t-done 309}
     {:r/nec 430,
      :r/level-0 "2019",
      :r/d-scheduled 437,
@@ -70,7 +70,7 @@
      :r/t-scheduled 348.0,
      :r/k "a-lousadense-00430",
      :r/total-passed 533.0,
-     :r/t-done 340.0}
+     :r/t-done 340}
     {:r/nec 430,
      :r/level-0 "2020",
      :r/d-scheduled 476,
@@ -84,7 +84,7 @@
      :r/t-scheduled 305.0,
      :r/k "a-lousadense-00430",
      :r/total-passed 518.0,
-     :r/t-done 287.0}
+     :r/t-done 287}
     {:r/nec 430,
      :r/level-0 "2021",
      :r/d-scheduled 400,
@@ -98,7 +98,7 @@
      :r/t-scheduled 326.0,
      :r/k "a-lousadense-00430",
      :r/total-passed nil,
-     :r/t-done 304.0}],
+     :r/t-done 304}],
    :imt-profile
    {:address "Rua S. João de Deus, Nº 76 R/C e 1º 4620-660 SILVARES",
     :name "A Lousadense",
@@ -139,7 +139,7 @@
      :r/t-scheduled 136.0,
      :r/k "ideal-de-lousada-00553",
      :r/total-passed 177.0,
-     :r/t-done 136.0}
+     :r/t-done 136}
     {:r/nec 553,
      :r/level-0 "2016",
      :r/d-scheduled 208,
@@ -153,7 +153,7 @@
      :r/t-scheduled 255.0,
      :r/k "ideal-de-lousada-00553",
      :r/total-passed 298.0,
-     :r/t-done 250.0}
+     :r/t-done 250}
     {:r/nec 553,
      :r/level-0 "2017",
      :r/d-scheduled 292,
@@ -167,7 +167,7 @@
      :r/t-scheduled 256.0,
      :r/k "ideal-de-lousada-00553",
      :r/total-passed 337.0,
-     :r/t-done 252.0}
+     :r/t-done 252}
     {:r/nec 553,
      :r/level-0 "2018",
      :r/d-scheduled 226,
@@ -181,7 +181,7 @@
      :r/t-scheduled 145.0,
      :r/k "ideal-de-lousada-00553",
      :r/total-passed 242.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 553,
      :r/level-0 "2019",
      :r/d-scheduled 113,
@@ -195,7 +195,7 @@
      :r/t-scheduled 104.0,
      :r/k "ideal-de-lousada-00553",
      :r/total-passed 130.0,
-     :r/t-done 104.0}
+     :r/t-done 104}
     {:r/nec 553,
      :r/level-0 "2020",
      :r/d-scheduled 85,
@@ -209,7 +209,7 @@
      :r/t-scheduled 70.0,
      :r/k "ideal-de-lousada-00553",
      :r/total-passed 84.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 553,
      :r/level-0 "2021",
      :r/d-scheduled 49,
@@ -223,7 +223,7 @@
      :r/t-scheduled 15.0,
      :r/k "ideal-de-lousada-00553",
      :r/total-passed nil,
-     :r/t-done 14.0}],
+     :r/t-done 14}],
    :imt-profile
    {:address "Rua Visconde de Alentem 4620-650 SILVARES",
     :name "Ideal de Lousada",
@@ -264,7 +264,7 @@
      :r/t-scheduled 158.0,
      :r/k "santa-quiteria-00719",
      :r/total-passed 218.0,
-     :r/t-done 155.0}
+     :r/t-done 155}
     {:r/nec 719,
      :r/level-0 "2016",
      :r/d-scheduled 138,
@@ -278,7 +278,7 @@
      :r/t-scheduled 116.0,
      :r/k "santa-quiteria-00719",
      :r/total-passed 151.0,
-     :r/t-done 116.0}
+     :r/t-done 116}
     {:r/nec 719,
      :r/level-0 "2017",
      :r/d-scheduled 118,
@@ -292,7 +292,7 @@
      :r/t-scheduled 120.0,
      :r/k "santa-quiteria-00719",
      :r/total-passed 161.0,
-     :r/t-done 119.0}
+     :r/t-done 119}
     {:r/nec 719,
      :r/level-0 "2018",
      :r/d-scheduled 146,
@@ -306,7 +306,7 @@
      :r/t-scheduled 129.0,
      :r/k "santa-quiteria-00719",
      :r/total-passed 168.0,
-     :r/t-done 129.0}
+     :r/t-done 129}
     {:r/nec 719,
      :r/level-0 "2019",
      :r/d-scheduled 152,
@@ -320,7 +320,7 @@
      :r/t-scheduled 167.0,
      :r/k "santa-quiteria-00719",
      :r/total-passed 198.0,
-     :r/t-done 162.0}
+     :r/t-done 162}
     {:r/nec 719,
      :r/level-0 "2020",
      :r/d-scheduled 149,
@@ -334,7 +334,7 @@
      :r/t-scheduled 135.0,
      :r/k "santa-quiteria-00719",
      :r/total-passed 193.0,
-     :r/t-done 127.0}
+     :r/t-done 127}
     {:r/nec 719,
      :r/level-0 "2021",
      :r/d-scheduled 139,
@@ -348,7 +348,7 @@
      :r/t-scheduled 211.0,
      :r/k "santa-quiteria-00719",
      :r/total-passed nil,
-     :r/t-done 194.0}],
+     :r/t-done 194}],
    :imt-profile
    {:address
     "Avª dos Combatentes da Grande Guerra, Nº 407 4620-131 CRISTELOS",
@@ -392,7 +392,7 @@
      :r/t-scheduled 99.0,
      :r/k "a-nortenha-00761",
      :r/total-passed 143.0,
-     :r/t-done 96.0}
+     :r/t-done 96}
     {:r/nec 761,
      :r/level-0 "2016",
      :r/d-scheduled 130,
@@ -406,7 +406,7 @@
      :r/t-scheduled 118.0,
      :r/k "a-nortenha-00761",
      :r/total-passed 167.0,
-     :r/t-done 118.0}
+     :r/t-done 118}
     {:r/nec 761,
      :r/level-0 "2017",
      :r/d-scheduled 151,
@@ -420,7 +420,7 @@
      :r/t-scheduled 133.0,
      :r/k "a-nortenha-00761",
      :r/total-passed 193.0,
-     :r/t-done 133.0}
+     :r/t-done 133}
     {:r/nec 761,
      :r/level-0 "2018",
      :r/d-scheduled 191,
@@ -434,7 +434,7 @@
      :r/t-scheduled 184.0,
      :r/k "a-nortenha-00761",
      :r/total-passed 259.0,
-     :r/t-done 180.0}
+     :r/t-done 180}
     {:r/nec 761,
      :r/level-0 "2019",
      :r/d-scheduled 211,
@@ -448,7 +448,7 @@
      :r/t-scheduled 195.0,
      :r/k "a-nortenha-00761",
      :r/total-passed 290.0,
-     :r/t-done 191.0}
+     :r/t-done 191}
     {:r/nec 761,
      :r/level-0 "2020",
      :r/d-scheduled 190,
@@ -462,7 +462,7 @@
      :r/t-scheduled 160.0,
      :r/k "a-nortenha-00761",
      :r/total-passed 264.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 761,
      :r/level-0 "2021",
      :r/d-scheduled 173,
@@ -476,7 +476,7 @@
      :r/t-scheduled 186.0,
      :r/k "a-nortenha-00761",
      :r/total-passed nil,
-     :r/t-done 179.0}],
+     :r/t-done 179}],
    :imt-profile
    {:address
     "Rua de Lagoas, n.º 208 (Edifício Valmésio, Loja 2), 4620 - 429 NEVOGILDE",
@@ -516,7 +516,7 @@
      :r/t-scheduled 35.0,
      :r/k "senhora-aparecida-00822",
      :r/total-passed 45.0,
-     :r/t-done 34.0}
+     :r/t-done 34}
     {:r/nec 822,
      :r/level-0 "2016",
      :r/d-scheduled 38,
@@ -530,7 +530,7 @@
      :r/t-scheduled 24.0,
      :r/k "senhora-aparecida-00822",
      :r/total-passed 44.0,
-     :r/t-done 23.0}
+     :r/t-done 23}
     {:r/nec 822,
      :r/level-0 "2017",
      :r/d-scheduled 40,
@@ -544,7 +544,7 @@
      :r/t-scheduled 35.0,
      :r/k "senhora-aparecida-00822",
      :r/total-passed 51.0,
-     :r/t-done 35.0}
+     :r/t-done 35}
     {:r/nec 822,
      :r/level-0 "2018",
      :r/d-scheduled 33,
@@ -558,7 +558,7 @@
      :r/t-scheduled 23.0,
      :r/k "senhora-aparecida-00822",
      :r/total-passed 45.0,
-     :r/t-done 23.0}
+     :r/t-done 23}
     {:r/nec 822,
      :r/level-0 "2019",
      :r/d-scheduled 44,
@@ -572,7 +572,7 @@
      :r/t-scheduled 30.0,
      :r/k "senhora-aparecida-00822",
      :r/total-passed 51.0,
-     :r/t-done 28.0}
+     :r/t-done 28}
     {:r/nec 822,
      :r/level-0 "2020",
      :r/d-scheduled 18,
@@ -586,7 +586,7 @@
      :r/t-scheduled 32.0,
      :r/k "senhora-aparecida-00822",
      :r/total-passed 30.0,
-     :r/t-done 29.0}
+     :r/t-done 29}
     {:r/nec 822,
      :r/level-0 "2021",
      :r/d-scheduled 28,
@@ -600,7 +600,7 @@
      :r/t-scheduled 20.0,
      :r/k "senhora-aparecida-00822",
      :r/total-passed nil,
-     :r/t-done 20.0}],
+     :r/t-done 20}],
    :imt-profile
    {:address "Edifício Mira Torre – Fracção Q R/C 4620-761 TORNO",
     :name "Senhora Aparecida",
@@ -632,7 +632,7 @@
      :r/t-scheduled 107.0,
      :r/k "volante-livre-00827",
      :r/total-passed 146.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 827,
      :r/level-0 "2016",
      :r/d-scheduled 119,
@@ -646,7 +646,7 @@
      :r/t-scheduled 81.0,
      :r/k "volante-livre-00827",
      :r/total-passed 121.0,
-     :r/t-done 79.0}
+     :r/t-done 79}
     {:r/nec 827,
      :r/level-0 "2017",
      :r/d-scheduled 100,
@@ -660,7 +660,7 @@
      :r/t-scheduled 96.0,
      :r/k "volante-livre-00827",
      :r/total-passed 130.0,
-     :r/t-done 95.0}
+     :r/t-done 95}
     {:r/nec 827,
      :r/level-0 "2018",
      :r/d-scheduled 148,
@@ -674,7 +674,7 @@
      :r/t-scheduled 115.0,
      :r/k "volante-livre-00827",
      :r/total-passed 162.0,
-     :r/t-done 115.0}
+     :r/t-done 115}
     {:r/nec 827,
      :r/level-0 "2019",
      :r/d-scheduled 132,
@@ -688,7 +688,7 @@
      :r/t-scheduled 111.0,
      :r/k "volante-livre-00827",
      :r/total-passed 161.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 827,
      :r/level-0 "2020",
      :r/d-scheduled 125,
@@ -702,7 +702,7 @@
      :r/t-scheduled 130.0,
      :r/k "volante-livre-00827",
      :r/total-passed 156.0,
-     :r/t-done 120.0}
+     :r/t-done 120}
     {:r/nec 827,
      :r/level-0 "2021",
      :r/d-scheduled 135,
@@ -716,7 +716,7 @@
      :r/t-scheduled 149.0,
      :r/k "volante-livre-00827",
      :r/total-passed nil,
-     :r/t-done 144.0}],
+     :r/t-done 144}],
    :imt-profile
    {:address
     "Avª dos Combatentes da Grande Guerra n º 342 4620-141 CRISTELO",
@@ -760,7 +760,7 @@
      :r/t-scheduled 110.0,
      :r/k "a-moderna-de-lustosa-00896",
      :r/total-passed 185.0,
-     :r/t-done 109.0}
+     :r/t-done 109}
     {:r/nec 896,
      :r/level-0 "2016",
      :r/d-scheduled 141,
@@ -774,7 +774,7 @@
      :r/t-scheduled 128.0,
      :r/k "a-moderna-de-lustosa-00896",
      :r/total-passed 176.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 896,
      :r/level-0 "2017",
      :r/d-scheduled 178,
@@ -788,7 +788,7 @@
      :r/t-scheduled 176.0,
      :r/k "a-moderna-de-lustosa-00896",
      :r/total-passed 231.0,
-     :r/t-done 173.0}
+     :r/t-done 173}
     {:r/nec 896,
      :r/level-0 "2018",
      :r/d-scheduled 199,
@@ -802,7 +802,7 @@
      :r/t-scheduled 164.0,
      :r/k "a-moderna-de-lustosa-00896",
      :r/total-passed 249.0,
-     :r/t-done 161.0}
+     :r/t-done 161}
     {:r/nec 896,
      :r/level-0 "2019",
      :r/d-scheduled 187,
@@ -816,7 +816,7 @@
      :r/t-scheduled 135.0,
      :r/k "a-moderna-de-lustosa-00896",
      :r/total-passed 199.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 896,
      :r/level-0 "2020",
      :r/d-scheduled 173,
@@ -830,7 +830,7 @@
      :r/t-scheduled 160.0,
      :r/k "a-moderna-de-lustosa-00896",
      :r/total-passed 210.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 896,
      :r/level-0 "2021",
      :r/d-scheduled 182,
@@ -844,7 +844,7 @@
      :r/t-scheduled 170.0,
      :r/k "a-moderna-de-lustosa-00896",
      :r/total-passed nil,
-     :r/t-done 164.0}],
+     :r/t-done 164}],
    :imt-profile
    {:address "Lugar do Corgo-Edificio Santiago 4620-294 LUSTOSA",
     :name "A Moderna de Lustosa",
@@ -883,7 +883,7 @@
      :r/t-scheduled 94.0,
      :r/k "globo-01250",
      :r/total-passed 128.0,
-     :r/t-done 93.0}
+     :r/t-done 93}
     {:r/nec 1250,
      :r/level-0 "2016",
      :r/d-scheduled 113,
@@ -897,7 +897,7 @@
      :r/t-scheduled 61.0,
      :r/k "globo-01250",
      :r/total-passed 115.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 1250,
      :r/level-0 "2017",
      :r/d-scheduled 125,
@@ -911,7 +911,7 @@
      :r/t-scheduled 91.0,
      :r/k "globo-01250",
      :r/total-passed 139.0,
-     :r/t-done 91.0}
+     :r/t-done 91}
     {:r/nec 1250,
      :r/level-0 "2018",
      :r/d-scheduled 192,
@@ -925,7 +925,7 @@
      :r/t-scheduled 110.0,
      :r/k "globo-01250",
      :r/total-passed 179.0,
-     :r/t-done 110.0}
+     :r/t-done 110}
     {:r/nec 1250,
      :r/level-0 "2019",
      :r/d-scheduled 110,
@@ -939,7 +939,7 @@
      :r/t-scheduled 117.0,
      :r/k "globo-01250",
      :r/total-passed 146.0,
-     :r/t-done 117.0}
+     :r/t-done 117}
     {:r/nec 1250,
      :r/level-0 "2020",
      :r/d-scheduled 118,
@@ -953,7 +953,7 @@
      :r/t-scheduled 114.0,
      :r/k "globo-01250",
      :r/total-passed 140.0,
-     :r/t-done 108.0}
+     :r/t-done 108}
     {:r/nec 1250,
      :r/level-0 "2021",
      :r/d-scheduled 116,
@@ -967,7 +967,7 @@
      :r/t-scheduled 103.0,
      :r/k "globo-01250",
      :r/total-passed nil,
-     :r/t-done 90.0}],
+     :r/t-done 90}],
    :imt-profile
    {:address "Lugar da Sobreira 4620-074 CAIDE de REI",
     :name "Globo",

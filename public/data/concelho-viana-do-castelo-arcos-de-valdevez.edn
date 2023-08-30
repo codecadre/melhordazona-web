@@ -14,7 +14,7 @@
      :r/t-scheduled 131.0,
      :r/k "arcuense-00340",
      :r/total-passed 174.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 340,
      :r/level-0 "2016",
      :r/d-scheduled 161,
@@ -28,7 +28,7 @@
      :r/t-scheduled 120.0,
      :r/k "arcuense-00340",
      :r/total-passed 190.0,
-     :r/t-done 120.0}
+     :r/t-done 120}
     {:r/nec 340,
      :r/level-0 "2017",
      :r/d-scheduled 126,
@@ -42,7 +42,7 @@
      :r/t-scheduled 107.0,
      :r/k "arcuense-00340",
      :r/total-passed 181.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 340,
      :r/level-0 "2018",
      :r/d-scheduled 121,
@@ -56,7 +56,7 @@
      :r/t-scheduled 120.0,
      :r/k "arcuense-00340",
      :r/total-passed 193.0,
-     :r/t-done 116.0}
+     :r/t-done 116}
     {:r/nec 340,
      :r/level-0 "2019",
      :r/d-scheduled 109,
@@ -70,7 +70,7 @@
      :r/t-scheduled 126.0,
      :r/k "arcuense-00340",
      :r/total-passed 187.0,
-     :r/t-done 125.0}
+     :r/t-done 125}
     {:r/nec 340,
      :r/level-0 "2020",
      :r/d-scheduled 166,
@@ -84,7 +84,7 @@
      :r/t-scheduled 165.0,
      :r/k "arcuense-00340",
      :r/total-passed 229.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 340,
      :r/level-0 "2021",
      :r/d-scheduled 189,
@@ -98,7 +98,7 @@
      :r/t-scheduled 238.0,
      :r/k "arcuense-00340",
      :r/total-passed nil,
-     :r/t-done 211.0}],
+     :r/t-done 211}],
    :imt-profile
    {:address
     "Rua General Amilcar Mota, Nº 181 4970-459 ARCOS DE VALDEVEZ (SALVADOR)",
@@ -142,7 +142,7 @@
      :r/t-scheduled 41.0,
      :r/k "arcos-de-valdevez-00862",
      :r/total-passed 40.0,
-     :r/t-done 41.0}
+     :r/t-done 41}
     {:r/nec 862,
      :r/level-0 "2016",
      :r/d-scheduled 19,
@@ -156,7 +156,7 @@
      :r/t-scheduled 22.0,
      :r/k "arcos-de-valdevez-00862",
      :r/total-passed 32.0,
-     :r/t-done 22.0}
+     :r/t-done 22}
     {:r/nec 862,
      :r/level-0 "2017",
      :r/d-scheduled 14,
@@ -170,7 +170,7 @@
      :r/t-scheduled 26.0,
      :r/k "arcos-de-valdevez-00862",
      :r/total-passed 30.0,
-     :r/t-done 26.0}
+     :r/t-done 26}
     {:r/nec 862,
      :r/level-0 "2018",
      :r/d-scheduled 14,
@@ -184,7 +184,7 @@
      :r/t-scheduled 32.0,
      :r/k "arcos-de-valdevez-00862",
      :r/total-passed 29.0,
-     :r/t-done 31.0}
+     :r/t-done 31}
     {:r/nec 862,
      :r/level-0 "2019",
      :r/d-scheduled 16,
@@ -198,7 +198,7 @@
      :r/t-scheduled 25.0,
      :r/k "arcos-de-valdevez-00862",
      :r/total-passed 26.0,
-     :r/t-done 24.0}
+     :r/t-done 24}
     {:r/nec 862,
      :r/level-0 "2020",
      :r/d-scheduled 5,
@@ -212,7 +212,7 @@
      :r/t-scheduled 2.0,
      :r/k "arcos-de-valdevez-00862",
      :r/total-passed 6.0,
-     :r/t-done 2.0}],
+     :r/t-done 2}],
    :imt-profile
    {:address
     "Praça D. Manuel I, Nº 72 4970-595 ARCOS DE VALDEVEZ (SÃO PAIO)",
@@ -256,7 +256,7 @@
      :r/t-scheduled 39.0,
      :r/k "miravez-01381",
      :r/total-passed 43.0,
-     :r/t-done 39.0}
+     :r/t-done 39}
     {:r/nec 1381,
      :r/level-0 "2018",
      :r/d-scheduled 55,
@@ -270,7 +270,7 @@
      :r/t-scheduled 78.0,
      :r/k "miravez-01381",
      :r/total-passed 106.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 1381,
      :r/level-0 "2019",
      :r/d-scheduled 51,
@@ -284,7 +284,7 @@
      :r/t-scheduled 75.0,
      :r/k "miravez-01381",
      :r/total-passed 98.0,
-     :r/t-done 70.0}
+     :r/t-done 70}
     {:r/nec 1381,
      :r/level-0 "2020",
      :r/d-scheduled 43,
@@ -298,7 +298,7 @@
      :r/t-scheduled 72.0,
      :r/k "miravez-01381",
      :r/total-passed 70.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 1381,
      :r/level-0 "2021",
      :r/d-scheduled 49,
@@ -312,7 +312,7 @@
      :r/t-scheduled 90.0,
      :r/k "miravez-01381",
      :r/total-passed nil,
-     :r/t-done 80.0}],
+     :r/t-done 80}],
    :imt-profile
    {:address
     "Av. dos Combatentes da Primeira Guerra Mundial Loja 28 (Faquelo)",

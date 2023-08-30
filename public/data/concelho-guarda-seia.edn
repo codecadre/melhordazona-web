@@ -14,7 +14,7 @@
      :r/t-scheduled 78.0,
      :r/k "costa-de-prata-00182",
      :r/total-passed 112.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 182,
      :r/level-0 "2016",
      :r/d-scheduled 95,
@@ -28,7 +28,7 @@
      :r/t-scheduled 89.0,
      :r/k "costa-de-prata-00182",
      :r/total-passed 135.0,
-     :r/t-done 85.0}
+     :r/t-done 85}
     {:r/nec 182,
      :r/level-0 "2017",
      :r/d-scheduled 96,
@@ -42,7 +42,7 @@
      :r/t-scheduled 82.0,
      :r/k "costa-de-prata-00182",
      :r/total-passed 130.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 182,
      :r/level-0 "2018",
      :r/d-scheduled 155,
@@ -56,7 +56,7 @@
      :r/t-scheduled 119.0,
      :r/k "costa-de-prata-00182",
      :r/total-passed 209.0,
-     :r/t-done 115.0}
+     :r/t-done 115}
     {:r/nec 182,
      :r/level-0 "2019",
      :r/d-scheduled 171,
@@ -70,7 +70,7 @@
      :r/t-scheduled 170.0,
      :r/k "costa-de-prata-00182",
      :r/total-passed 250.0,
-     :r/t-done 169.0}
+     :r/t-done 169}
     {:r/nec 182,
      :r/level-0 "2020",
      :r/d-scheduled 189,
@@ -84,7 +84,7 @@
      :r/t-scheduled 116.0,
      :r/k "costa-de-prata-00182",
      :r/total-passed 222.0,
-     :r/t-done 114.0}
+     :r/t-done 114}
     {:r/nec 182,
      :r/level-0 "2021",
      :r/d-scheduled 192,
@@ -98,7 +98,7 @@
      :r/t-scheduled 162.0,
      :r/k "costa-de-prata-00182",
      :r/total-passed nil,
-     :r/t-done 158.0}],
+     :r/t-done 158}],
    :imt-profile
    {:address "Avª Terras de Sena, Nº 65 R/C Dtº 6270-485 SEIA",
     :name "Costa de Prata",
@@ -139,7 +139,7 @@
      :r/t-scheduled 154.0,
      :r/k "mr-ascencao-00235",
      :r/total-passed 269.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 235,
      :r/level-0 "2016",
      :r/d-scheduled 152,
@@ -153,7 +153,7 @@
      :r/t-scheduled 129.0,
      :r/k "mr-ascencao-00235",
      :r/total-passed 239.0,
-     :r/t-done 128.0}
+     :r/t-done 128}
     {:r/nec 235,
      :r/level-0 "2017",
      :r/d-scheduled 135,
@@ -167,7 +167,7 @@
      :r/t-scheduled 134.0,
      :r/k "mr-ascencao-00235",
      :r/total-passed 226.0,
-     :r/t-done 128.0}
+     :r/t-done 128}
     {:r/nec 235,
      :r/level-0 "2018",
      :r/d-scheduled 137,
@@ -181,7 +181,7 @@
      :r/t-scheduled 123.0,
      :r/k "mr-ascencao-00235",
      :r/total-passed 202.0,
-     :r/t-done 119.0}
+     :r/t-done 119}
     {:r/nec 235,
      :r/level-0 "2019",
      :r/d-scheduled 159,
@@ -195,7 +195,7 @@
      :r/t-scheduled 158.0,
      :r/k "mr-ascencao-00235",
      :r/total-passed 244.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 235,
      :r/level-0 "2020",
      :r/d-scheduled 114,
@@ -209,7 +209,7 @@
      :r/t-scheduled 130.0,
      :r/k "mr-ascencao-00235",
      :r/total-passed 199.0,
-     :r/t-done 123.0}
+     :r/t-done 123}
     {:r/nec 235,
      :r/level-0 "2021",
      :r/d-scheduled 153,
@@ -223,7 +223,7 @@
      :r/t-scheduled 111.0,
      :r/k "mr-ascencao-00235",
      :r/total-passed nil,
-     :r/t-done 106.0}],
+     :r/t-done 106}],
    :imt-profile
    {:address "Avª 1º de Maio, Lote 1-2º 6270-479 SEIA",
     :name "M. R. Ascenção",
@@ -265,7 +265,7 @@
      :r/t-scheduled 79.0,
      :r/k "rota-da-estrela-01014",
      :r/total-passed 141.0,
-     :r/t-done 78.0}
+     :r/t-done 78}
     {:r/nec 1014,
      :r/level-0 "2016",
      :r/d-scheduled 98,
@@ -279,7 +279,7 @@
      :r/t-scheduled 114.0,
      :r/k "rota-da-estrela-01014",
      :r/total-passed 164.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 1014,
      :r/level-0 "2017",
      :r/d-scheduled 98,
@@ -293,7 +293,7 @@
      :r/t-scheduled 76.0,
      :r/k "rota-da-estrela-01014",
      :r/total-passed 118.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 1014,
      :r/level-0 "2018",
      :r/d-scheduled 47,
@@ -307,7 +307,7 @@
      :r/t-scheduled 37.0,
      :r/k "rota-da-estrela-01014",
      :r/total-passed 53.0,
-     :r/t-done 33.0}
+     :r/t-done 33}
     {:r/nec 1014,
      :r/level-0 "2019",
      :r/d-scheduled 19,
@@ -321,7 +321,7 @@
      :r/t-scheduled 6.0,
      :r/k "rota-da-estrela-01014",
      :r/total-passed 11.0,
-     :r/t-done 5.0}],
+     :r/t-done 5}],
    :imt-profile
    {:address "Rua do Comércio nº 173 r/c 6270-133 SEIA",
     :name "Rota da Estrela",

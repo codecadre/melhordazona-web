@@ -13,7 +13,7 @@
    :r/t-scheduled 125.0,
    :r/k "avenida-00628",
    :r/total-passed 164.0,
-   :r/t-done 125.0}
+   :r/t-done 125}
   {:r/nec 628,
    :r/level-0 "2016",
    :r/d-scheduled 137,
@@ -27,7 +27,7 @@
    :r/t-scheduled 130.0,
    :r/k "avenida-00628",
    :r/total-passed 177.0,
-   :r/t-done 128.0}
+   :r/t-done 128}
   {:r/nec 628,
    :r/level-0 "2017",
    :r/d-scheduled 133,
@@ -41,7 +41,7 @@
    :r/t-scheduled 129.0,
    :r/k "avenida-00628",
    :r/total-passed 166.0,
-   :r/t-done 129.0}
+   :r/t-done 129}
   {:r/nec 628,
    :r/level-0 "2018",
    :r/d-scheduled 140,
@@ -55,7 +55,7 @@
    :r/t-scheduled 104.0,
    :r/k "avenida-00628",
    :r/total-passed 152.0,
-   :r/t-done 104.0}
+   :r/t-done 104}
   {:r/nec 628,
    :r/level-0 "2019",
    :r/d-scheduled 116,
@@ -69,7 +69,7 @@
    :r/t-scheduled 121.0,
    :r/k "avenida-00628",
    :r/total-passed 170.0,
-   :r/t-done 119.0}
+   :r/t-done 119}
   {:r/nec 628,
    :r/level-0 "2020",
    :r/d-scheduled 94,
@@ -83,7 +83,7 @@
    :r/t-scheduled 92.0,
    :r/k "avenida-00628",
    :r/total-passed 116.0,
-   :r/t-done 88.0}
+   :r/t-done 88}
   {:r/nec 628,
    :r/level-0 "2021",
    :r/d-scheduled 101,
@@ -97,7 +97,7 @@
    :r/t-scheduled 133.0,
    :r/k "avenida-00628",
    :r/total-passed nil,
-   :r/t-done 128.0}],
+   :r/t-done 128}],
  :imt-profile
  {:address "Rua Bombeiros Voluntários, n.º 26 B, 3260-023 Aguda",
   :name "Avenida",

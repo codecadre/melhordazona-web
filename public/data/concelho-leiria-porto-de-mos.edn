@@ -14,7 +14,7 @@
      :r/t-scheduled 121.0,
      :r/k "portomosense-00442",
      :r/total-passed 175.0,
-     :r/t-done 121.0}
+     :r/t-done 121}
     {:r/nec 442,
      :r/level-0 "2016",
      :r/d-scheduled 111,
@@ -28,7 +28,7 @@
      :r/t-scheduled 123.0,
      :r/k "portomosense-00442",
      :r/total-passed 157.0,
-     :r/t-done 120.0}
+     :r/t-done 120}
     {:r/nec 442,
      :r/level-0 "2017",
      :r/d-scheduled 145,
@@ -42,7 +42,7 @@
      :r/t-scheduled 145.0,
      :r/k "portomosense-00442",
      :r/total-passed 200.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 442,
      :r/level-0 "2018",
      :r/d-scheduled 185,
@@ -56,7 +56,7 @@
      :r/t-scheduled 169.0,
      :r/k "portomosense-00442",
      :r/total-passed 250.0,
-     :r/t-done 168.0}
+     :r/t-done 168}
     {:r/nec 442,
      :r/level-0 "2019",
      :r/d-scheduled 178,
@@ -70,7 +70,7 @@
      :r/t-scheduled 135.0,
      :r/k "portomosense-00442",
      :r/total-passed 203.0,
-     :r/t-done 133.0}
+     :r/t-done 133}
     {:r/nec 442,
      :r/level-0 "2020",
      :r/d-scheduled 140,
@@ -84,7 +84,7 @@
      :r/t-scheduled 140.0,
      :r/k "portomosense-00442",
      :r/total-passed 183.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 442,
      :r/level-0 "2021",
      :r/d-scheduled 119,
@@ -98,7 +98,7 @@
      :r/t-scheduled 119.0,
      :r/k "portomosense-00442",
      :r/total-passed nil,
-     :r/t-done 106.0}],
+     :r/t-done 106}],
    :imt-profile
    {:address "Rua Adelino Amaro da Costa, nº 3 2480-317 PORTO DE MÓS",
     :name "Porto Mosense",
@@ -140,7 +140,7 @@
      :r/t-scheduled 186.0,
      :r/k "a-garcia-00526",
      :r/total-passed 289.0,
-     :r/t-done 184.0}
+     :r/t-done 184}
     {:r/nec 526,
      :r/level-0 "2016",
      :r/d-scheduled 275,
@@ -154,7 +154,7 @@
      :r/t-scheduled 184.0,
      :r/k "a-garcia-00526",
      :r/total-passed 328.0,
-     :r/t-done 180.0}
+     :r/t-done 180}
     {:r/nec 526,
      :r/level-0 "2017",
      :r/d-scheduled 262,
@@ -168,7 +168,7 @@
      :r/t-scheduled 224.0,
      :r/k "a-garcia-00526",
      :r/total-passed 372.0,
-     :r/t-done 222.0}
+     :r/t-done 222}
     {:r/nec 526,
      :r/level-0 "2018",
      :r/d-scheduled 252,
@@ -182,7 +182,7 @@
      :r/t-scheduled 162.0,
      :r/k "a-garcia-00526",
      :r/total-passed 294.0,
-     :r/t-done 160.0}
+     :r/t-done 160}
     {:r/nec 526,
      :r/level-0 "2019",
      :r/d-scheduled 226,
@@ -196,7 +196,7 @@
      :r/t-scheduled 170.0,
      :r/k "a-garcia-00526",
      :r/total-passed 268.0,
-     :r/t-done 168.0}
+     :r/t-done 168}
     {:r/nec 526,
      :r/level-0 "2020",
      :r/d-scheduled 189,
@@ -210,7 +210,7 @@
      :r/t-scheduled 175.0,
      :r/k "a-garcia-00526",
      :r/total-passed 249.0,
-     :r/t-done 169.0}
+     :r/t-done 169}
     {:r/nec 526,
      :r/level-0 "2021",
      :r/d-scheduled 274,
@@ -224,7 +224,7 @@
      :r/t-scheduled 191.0,
      :r/k "a-garcia-00526",
      :r/total-passed nil,
-     :r/t-done 183.0}],
+     :r/t-done 183}],
    :imt-profile
    {:address "Rua Principal, n.º 8, 2480-173 LEÕES",
     :name "A. Garcia",
@@ -266,7 +266,7 @@
      :r/t-scheduled 93.0,
      :r/k "a-gruta-00958",
      :r/total-passed 150.0,
-     :r/t-done 93.0}
+     :r/t-done 93}
     {:r/nec 958,
      :r/level-0 "2016",
      :r/d-scheduled 87,
@@ -280,7 +280,7 @@
      :r/t-scheduled 82.0,
      :r/k "a-gruta-00958",
      :r/total-passed 119.0,
-     :r/t-done 81.0}
+     :r/t-done 81}
     {:r/nec 958,
      :r/level-0 "2017",
      :r/d-scheduled 118,
@@ -294,7 +294,7 @@
      :r/t-scheduled 91.0,
      :r/k "a-gruta-00958",
      :r/total-passed 151.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 958,
      :r/level-0 "2018",
      :r/d-scheduled 113,
@@ -308,7 +308,7 @@
      :r/t-scheduled 86.0,
      :r/k "a-gruta-00958",
      :r/total-passed 139.0,
-     :r/t-done 86.0}
+     :r/t-done 86}
     {:r/nec 958,
      :r/level-0 "2019",
      :r/d-scheduled 122,
@@ -322,7 +322,7 @@
      :r/t-scheduled 74.0,
      :r/k "a-gruta-00958",
      :r/total-passed 123.0,
-     :r/t-done 74.0}
+     :r/t-done 74}
     {:r/nec 958,
      :r/level-0 "2020",
      :r/d-scheduled 106,
@@ -336,7 +336,7 @@
      :r/t-scheduled 79.0,
      :r/k "a-gruta-00958",
      :r/total-passed 100.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 958,
      :r/level-0 "2021",
      :r/d-scheduled 92,
@@ -350,7 +350,7 @@
      :r/t-scheduled 113.0,
      :r/k "a-gruta-00958",
      :r/total-passed nil,
-     :r/t-done 108.0}],
+     :r/t-done 108}],
    :imt-profile
    {:address "Rua das Mangas,s/nº 2485-075 MIRA D'AIRE",
     :name "A Gruta",

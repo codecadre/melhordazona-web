@@ -14,7 +14,7 @@
      :r/t-scheduled 178.0,
      :r/k "ouriense-00020",
      :r/total-passed 322.0,
-     :r/t-done 177.0}
+     :r/t-done 177}
     {:r/nec 20,
      :r/level-0 "2016",
      :r/d-scheduled 320,
@@ -28,7 +28,7 @@
      :r/t-scheduled 239.0,
      :r/k "ouriense-00020",
      :r/total-passed 432.0,
-     :r/t-done 237.0}
+     :r/t-done 237}
     {:r/nec 20,
      :r/level-0 "2017",
      :r/d-scheduled 264,
@@ -42,7 +42,7 @@
      :r/t-scheduled 195.0,
      :r/k "ouriense-00020",
      :r/total-passed 365.0,
-     :r/t-done 188.0}
+     :r/t-done 188}
     {:r/nec 20,
      :r/level-0 "2018",
      :r/d-scheduled 251,
@@ -56,7 +56,7 @@
      :r/t-scheduled 187.0,
      :r/k "ouriense-00020",
      :r/total-passed 350.0,
-     :r/t-done 185.0}
+     :r/t-done 185}
     {:r/nec 20,
      :r/level-0 "2019",
      :r/d-scheduled 277,
@@ -70,7 +70,7 @@
      :r/t-scheduled 225.0,
      :r/k "ouriense-00020",
      :r/total-passed 379.0,
-     :r/t-done 223.0}
+     :r/t-done 223}
     {:r/nec 20,
      :r/level-0 "2020",
      :r/d-scheduled 309,
@@ -84,7 +84,7 @@
      :r/t-scheduled 203.0,
      :r/k "ouriense-00020",
      :r/total-passed 365.0,
-     :r/t-done 192.0}
+     :r/t-done 192}
     {:r/nec 20,
      :r/level-0 "2021",
      :r/d-scheduled 319,
@@ -98,7 +98,7 @@
      :r/t-scheduled 262.0,
      :r/k "ouriense-00020",
      :r/total-passed nil,
-     :r/t-done 224.0}],
+     :r/t-done 224}],
    :imt-profile
    {:address "Praceta Prof. António de Oliveira Nº 4 2490-502 OURÉM",
     :name "Ouriense",
@@ -137,7 +137,7 @@
      :r/t-scheduled 84.0,
      :r/k "fatima-00613",
      :r/total-passed 111.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 613,
      :r/level-0 "2016",
      :r/d-scheduled 95,
@@ -151,7 +151,7 @@
      :r/t-scheduled 62.0,
      :r/k "fatima-00613",
      :r/total-passed 116.0,
-     :r/t-done 60.0}
+     :r/t-done 60}
     {:r/nec 613,
      :r/level-0 "2017",
      :r/d-scheduled 86,
@@ -165,7 +165,7 @@
      :r/t-scheduled 68.0,
      :r/k "fatima-00613",
      :r/total-passed 105.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 613,
      :r/level-0 "2018",
      :r/d-scheduled 94,
@@ -179,7 +179,7 @@
      :r/t-scheduled 76.0,
      :r/k "fatima-00613",
      :r/total-passed 119.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 613,
      :r/level-0 "2019",
      :r/d-scheduled 96,
@@ -193,7 +193,7 @@
      :r/t-scheduled 63.0,
      :r/k "fatima-00613",
      :r/total-passed 101.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 613,
      :r/level-0 "2020",
      :r/d-scheduled 90,
@@ -207,7 +207,7 @@
      :r/t-scheduled 71.0,
      :r/k "fatima-00613",
      :r/total-passed 107.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 613,
      :r/level-0 "2021",
      :r/d-scheduled 98,
@@ -221,7 +221,7 @@
      :r/t-scheduled 110.0,
      :r/k "fatima-00613",
      :r/total-passed nil,
-     :r/t-done 103.0}],
+     :r/t-done 103}],
    :imt-profile
    {:address "Avª Beato Nuno, Nº 111 e 113 2495 FÁTIMA",
     :name "Fátima",
@@ -253,7 +253,7 @@
      :r/t-scheduled 203.0,
      :r/k "destinus-00857",
      :r/total-passed 310.0,
-     :r/t-done 203.0}
+     :r/t-done 203}
     {:r/nec 857,
      :r/level-0 "2016",
      :r/d-scheduled 242,
@@ -267,7 +267,7 @@
      :r/t-scheduled 187.0,
      :r/k "destinus-00857",
      :r/total-passed 309.0,
-     :r/t-done 184.0}
+     :r/t-done 184}
     {:r/nec 857,
      :r/level-0 "2017",
      :r/d-scheduled 242,
@@ -281,7 +281,7 @@
      :r/t-scheduled 162.0,
      :r/k "destinus-00857",
      :r/total-passed 286.0,
-     :r/t-done 161.0}
+     :r/t-done 161}
     {:r/nec 857,
      :r/level-0 "2018",
      :r/d-scheduled 228,
@@ -295,7 +295,7 @@
      :r/t-scheduled 189.0,
      :r/k "destinus-00857",
      :r/total-passed 284.0,
-     :r/t-done 188.0}
+     :r/t-done 188}
     {:r/nec 857,
      :r/level-0 "2019",
      :r/d-scheduled 200,
@@ -309,7 +309,7 @@
      :r/t-scheduled 180.0,
      :r/k "destinus-00857",
      :r/total-passed 260.0,
-     :r/t-done 178.0}
+     :r/t-done 178}
     {:r/nec 857,
      :r/level-0 "2020",
      :r/d-scheduled 188,
@@ -323,7 +323,7 @@
      :r/t-scheduled 205.0,
      :r/k "destinus-00857",
      :r/total-passed 266.0,
-     :r/t-done 193.0}
+     :r/t-done 193}
     {:r/nec 857,
      :r/level-0 "2021",
      :r/d-scheduled 232,
@@ -337,7 +337,7 @@
      :r/t-scheduled 212.0,
      :r/k "destinus-00857",
      :r/total-passed nil,
-     :r/t-done 200.0}],
+     :r/t-done 200}],
    :imt-profile
    {:address
     "Rua Dr. Júlio Constantino, Edificio Primitivo - N.º 73 E C/v -1 Nº 1 - 2495-447 Fátima",
@@ -377,7 +377,7 @@
      :r/t-scheduled 132.0,
      :r/k "esco-2000-00928",
      :r/total-passed 210.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 928,
      :r/level-0 "2016",
      :r/d-scheduled 137,
@@ -391,7 +391,7 @@
      :r/t-scheduled 110.0,
      :r/k "esco-2000-00928",
      :r/total-passed 186.0,
-     :r/t-done 110.0}
+     :r/t-done 110}
     {:r/nec 928,
      :r/level-0 "2017",
      :r/d-scheduled 116,
@@ -405,7 +405,7 @@
      :r/t-scheduled 106.0,
      :r/k "esco-2000-00928",
      :r/total-passed 157.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 928,
      :r/level-0 "2018",
      :r/d-scheduled 131,
@@ -419,7 +419,7 @@
      :r/t-scheduled 97.0,
      :r/k "esco-2000-00928",
      :r/total-passed 168.0,
-     :r/t-done 97.0}
+     :r/t-done 97}
     {:r/nec 928,
      :r/level-0 "2019",
      :r/d-scheduled 113,
@@ -433,7 +433,7 @@
      :r/t-scheduled 102.0,
      :r/k "esco-2000-00928",
      :r/total-passed 154.0,
-     :r/t-done 100.0}
+     :r/t-done 100}
     {:r/nec 928,
      :r/level-0 "2020",
      :r/d-scheduled 111,
@@ -447,7 +447,7 @@
      :r/t-scheduled 103.0,
      :r/k "esco-2000-00928",
      :r/total-passed 149.0,
-     :r/t-done 93.0}
+     :r/t-done 93}
     {:r/nec 928,
      :r/level-0 "2021",
      :r/d-scheduled 136,
@@ -461,7 +461,7 @@
      :r/t-scheduled 113.0,
      :r/k "esco-2000-00928",
      :r/total-passed nil,
-     :r/t-done 106.0}],
+     :r/t-done 106}],
    :imt-profile
    {:address "Rua Francisco Sá Carneiro nº 60 2490-548 OURÉM",
     :name "Esco 2000",
@@ -503,7 +503,7 @@
      :r/t-scheduled 95.0,
      :r/k "caxariense-01089",
      :r/total-passed 131.0,
-     :r/t-done 94.0}
+     :r/t-done 94}
     {:r/nec 1089,
      :r/level-0 "2016",
      :r/d-scheduled 86,
@@ -517,7 +517,7 @@
      :r/t-scheduled 93.0,
      :r/k "caxariense-01089",
      :r/total-passed 133.0,
-     :r/t-done 92.0}
+     :r/t-done 92}
     {:r/nec 1089,
      :r/level-0 "2017",
      :r/d-scheduled 81,
@@ -531,7 +531,7 @@
      :r/t-scheduled 67.0,
      :r/k "caxariense-01089",
      :r/total-passed 113.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 1089,
      :r/level-0 "2018",
      :r/d-scheduled 85,
@@ -545,7 +545,7 @@
      :r/t-scheduled 106.0,
      :r/k "caxariense-01089",
      :r/total-passed 134.0,
-     :r/t-done 102.0}
+     :r/t-done 102}
     {:r/nec 1089,
      :r/level-0 "2019",
      :r/d-scheduled 100,
@@ -559,7 +559,7 @@
      :r/t-scheduled 89.0,
      :r/k "caxariense-01089",
      :r/total-passed 138.0,
-     :r/t-done 85.0}
+     :r/t-done 85}
     {:r/nec 1089,
      :r/level-0 "2020",
      :r/d-scheduled 95,
@@ -573,7 +573,7 @@
      :r/t-scheduled 90.0,
      :r/k "caxariense-01089",
      :r/total-passed 125.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 1089,
      :r/level-0 "2021",
      :r/d-scheduled 74,
@@ -587,7 +587,7 @@
      :r/t-scheduled 65.0,
      :r/k "caxariense-01089",
      :r/total-passed nil,
-     :r/t-done 53.0}],
+     :r/t-done 53}],
    :imt-profile
    {:address "Avª 21 de Junho nº 32 r/c Dtº 2435-021 CAXARIAS",
     :name "Caxariense",
@@ -629,7 +629,7 @@
      :r/t-scheduled 75.0,
      :r/k "fatimense-01158",
      :r/total-passed 105.0,
-     :r/t-done 74.0}
+     :r/t-done 74}
     {:r/nec 1158,
      :r/level-0 "2016",
      :r/d-scheduled 71,
@@ -643,7 +643,7 @@
      :r/t-scheduled 49.0,
      :r/k "fatimense-01158",
      :r/total-passed 87.0,
-     :r/t-done 49.0}
+     :r/t-done 49}
     {:r/nec 1158,
      :r/level-0 "2017",
      :r/d-scheduled 55,
@@ -657,7 +657,7 @@
      :r/t-scheduled 38.0,
      :r/k "fatimense-01158",
      :r/total-passed 76.0,
-     :r/t-done 38.0}
+     :r/t-done 38}
     {:r/nec 1158,
      :r/level-0 "2018",
      :r/d-scheduled 65,
@@ -671,7 +671,7 @@
      :r/t-scheduled 53.0,
      :r/k "fatimense-01158",
      :r/total-passed 88.0,
-     :r/t-done 53.0}
+     :r/t-done 53}
     {:r/nec 1158,
      :r/level-0 "2019",
      :r/d-scheduled 67,
@@ -685,7 +685,7 @@
      :r/t-scheduled 54.0,
      :r/k "fatimense-01158",
      :r/total-passed 90.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 1158,
      :r/level-0 "2020",
      :r/d-scheduled 76,
@@ -699,7 +699,7 @@
      :r/t-scheduled 47.0,
      :r/k "fatimense-01158",
      :r/total-passed 97.0,
-     :r/t-done 46.0}
+     :r/t-done 46}
     {:r/nec 1158,
      :r/level-0 "2021",
      :r/d-scheduled 47,
@@ -713,7 +713,7 @@
      :r/t-scheduled 60.0,
      :r/k "fatimense-01158",
      :r/total-passed nil,
-     :r/t-done 56.0}],
+     :r/t-done 56}],
    :imt-profile
    {:address
     "Estrada Principal de Fátima (Edifício Fátima) Loja 2 R/C 2495-552 FÁTIMA",

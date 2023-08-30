@@ -14,7 +14,7 @@
      :r/t-scheduled 20.0,
      :r/k "alcacerense-00122",
      :r/total-passed 44.0,
-     :r/t-done 20.0}
+     :r/t-done 20}
     {:r/nec 122,
      :r/level-0 "2016",
      :r/d-scheduled 10,
@@ -28,7 +28,7 @@
      :r/t-scheduled 13.0,
      :r/k "alcacerense-00122",
      :r/total-passed 20.0,
-     :r/t-done 13.0}
+     :r/t-done 13}
     {:r/nec 122,
      :r/level-0 "2017",
      :r/d-scheduled 20,
@@ -42,7 +42,7 @@
      :r/t-scheduled 30.0,
      :r/k "alcacerense-00122",
      :r/total-passed 34.0,
-     :r/t-done 29.0}
+     :r/t-done 29}
     {:r/nec 122,
      :r/level-0 "2018",
      :r/d-scheduled 18,
@@ -56,7 +56,7 @@
      :r/t-scheduled 25.0,
      :r/k "alcacerense-00122",
      :r/total-passed 35.0,
-     :r/t-done 25.0}
+     :r/t-done 25}
     {:r/nec 122,
      :r/level-0 "2019",
      :r/d-scheduled 10,
@@ -70,7 +70,7 @@
      :r/t-scheduled 18.0,
      :r/k "alcacerense-00122",
      :r/total-passed 22.0,
-     :r/t-done 18.0}
+     :r/t-done 18}
     {:r/nec 122,
      :r/level-0 "2020",
      :r/d-scheduled 30,
@@ -84,7 +84,7 @@
      :r/t-scheduled 25.0,
      :r/k "alcacerense-00122",
      :r/total-passed 44.0,
-     :r/t-done 25.0}
+     :r/t-done 25}
     {:r/nec 122,
      :r/level-0 "2021",
      :r/d-scheduled 17,
@@ -98,7 +98,7 @@
      :r/t-scheduled 46.0,
      :r/k "alcacerense-00122",
      :r/total-passed nil,
-     :r/t-done 45.0}],
+     :r/t-done 45}],
    :imt-profile
    {:address
     "Rua Bernardino Ribeiro, s/nª R/c 7580-033 ALCÁCER DO SAL",
@@ -142,7 +142,7 @@
      :r/t-scheduled 118.0,
      :r/k "a-ideal-de-alcacer-00646",
      :r/total-passed 133.0,
-     :r/t-done 112.0}
+     :r/t-done 112}
     {:r/nec 646,
      :r/level-0 "2016",
      :r/d-scheduled 114,
@@ -156,7 +156,7 @@
      :r/t-scheduled 144.0,
      :r/k "a-ideal-de-alcacer-00646",
      :r/total-passed 189.0,
-     :r/t-done 139.0}
+     :r/t-done 139}
     {:r/nec 646,
      :r/level-0 "2017",
      :r/d-scheduled 140,
@@ -170,7 +170,7 @@
      :r/t-scheduled 147.0,
      :r/k "a-ideal-de-alcacer-00646",
      :r/total-passed 193.0,
-     :r/t-done 142.0}
+     :r/t-done 142}
     {:r/nec 646,
      :r/level-0 "2018",
      :r/d-scheduled 121,
@@ -184,7 +184,7 @@
      :r/t-scheduled 117.0,
      :r/k "a-ideal-de-alcacer-00646",
      :r/total-passed 166.0,
-     :r/t-done 114.0}
+     :r/t-done 114}
     {:r/nec 646,
      :r/level-0 "2019",
      :r/d-scheduled 98,
@@ -198,7 +198,7 @@
      :r/t-scheduled 129.0,
      :r/k "a-ideal-de-alcacer-00646",
      :r/total-passed 170.0,
-     :r/t-done 122.0}
+     :r/t-done 122}
     {:r/nec 646,
      :r/level-0 "2020",
      :r/d-scheduled 106,
@@ -212,7 +212,7 @@
      :r/t-scheduled 120.0,
      :r/k "a-ideal-de-alcacer-00646",
      :r/total-passed 184.0,
-     :r/t-done 118.0}
+     :r/t-done 118}
     {:r/nec 646,
      :r/level-0 "2021",
      :r/d-scheduled 116,
@@ -226,7 +226,7 @@
      :r/t-scheduled 132.0,
      :r/k "a-ideal-de-alcacer-00646",
      :r/total-passed nil,
-     :r/t-done 128.0}],
+     :r/t-done 128}],
    :imt-profile
    {:address "Rua de S. Pedro nº 8 R/C 7580 -142 ALCÁCER DO SAL",
     :name "A Ideal de Alcácer",

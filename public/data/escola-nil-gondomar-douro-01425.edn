@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "gondomar-douro-01425",
    :r/total-passed 0.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 1425,
    :r/level-0 "2019",
    :r/d-scheduled 34,
@@ -27,7 +27,7 @@
    :r/t-scheduled 37.0,
    :r/k "gondomar-douro-01425",
    :r/total-passed 56.0,
-   :r/t-done 36.0}
+   :r/t-done 36}
   {:r/nec 1425,
    :r/level-0 "2020",
    :r/d-scheduled 41,
@@ -41,7 +41,7 @@
    :r/t-scheduled 52.0,
    :r/k "gondomar-douro-01425",
    :r/total-passed 71.0,
-   :r/t-done 52.0}
+   :r/t-done 52}
   {:r/nec 1425,
    :r/level-0 "2021",
    :r/d-scheduled 93,
@@ -55,5 +55,5 @@
    :r/t-scheduled 65.0,
    :r/k "gondomar-douro-01425",
    :r/total-passed nil,
-   :r/t-done 64.0}],
+   :r/t-done 64}],
  :imt-profile nil}

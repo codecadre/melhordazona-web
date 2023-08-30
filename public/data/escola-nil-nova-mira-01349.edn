@@ -13,7 +13,7 @@
    :r/t-scheduled 20.0,
    :r/k "nova-mira-01349",
    :r/total-passed 15.0,
-   :r/t-done 20.0}
+   :r/t-done 20}
   {:r/nec 1349,
    :r/level-0 "2017",
    :r/d-scheduled 71,
@@ -27,7 +27,7 @@
    :r/t-scheduled 63.0,
    :r/k "nova-mira-01349",
    :r/total-passed 83.0,
-   :r/t-done 60.0}
+   :r/t-done 60}
   {:r/nec 1349,
    :r/level-0 "2018",
    :r/d-scheduled 1,
@@ -41,7 +41,7 @@
    :r/t-scheduled 141.0,
    :r/k "nova-mira-01349",
    :r/total-passed 86.0,
-   :r/t-done 139.0}],
+   :r/t-done 139}],
  :imt-profile nil,
  :obs "prob. same as nova-de-tomar-01349. data until 2018",
  :overwrite/notes nil}

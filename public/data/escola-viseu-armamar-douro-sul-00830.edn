@@ -13,7 +13,7 @@
    :r/t-scheduled 25.0,
    :r/k "douro-sul-00830",
    :r/total-passed 43.0,
-   :r/t-done 25.0}
+   :r/t-done 25}
   {:r/nec 830,
    :r/level-0 "2020",
    :r/d-scheduled 37,
@@ -27,7 +27,7 @@
    :r/t-scheduled 79.0,
    :r/k "douro-sul-00830",
    :r/total-passed 81.0,
-   :r/t-done 77.0}
+   :r/t-done 77}
   {:r/nec 830,
    :r/level-0 "2021",
    :r/d-scheduled 96,
@@ -41,7 +41,7 @@
    :r/t-scheduled 78.0,
    :r/k "douro-sul-00830",
    :r/total-passed nil,
-   :r/t-done 75.0}],
+   :r/t-done 75}],
  :imt-profile
  {:address "Av. Dr. Oliveira Salazar 5110-122 ARMAMAR",
   :name "Douro Sul",

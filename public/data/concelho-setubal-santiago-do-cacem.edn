@@ -14,7 +14,7 @@
      :r/t-scheduled 24.0,
      :r/k "santiaguense-00414",
      :r/total-passed 17.0,
-     :r/t-done 23.0}
+     :r/t-done 23}
     {:r/nec 414,
      :r/level-0 "2016",
      :r/d-scheduled 30,
@@ -28,7 +28,7 @@
      :r/t-scheduled 27.0,
      :r/k "santiaguense-00414",
      :r/total-passed 26.0,
-     :r/t-done 23.0}
+     :r/t-done 23}
     {:r/nec 414,
      :r/level-0 "2017",
      :r/d-scheduled 18,
@@ -42,7 +42,7 @@
      :r/t-scheduled 34.0,
      :r/k "santiaguense-00414",
      :r/total-passed 33.0,
-     :r/t-done 33.0}
+     :r/t-done 33}
     {:r/nec 414,
      :r/level-0 "2018",
      :r/d-scheduled 24,
@@ -56,7 +56,7 @@
      :r/t-scheduled 23.0,
      :r/k "santiaguense-00414",
      :r/total-passed 31.0,
-     :r/t-done 23.0}
+     :r/t-done 23}
     {:r/nec 414,
      :r/level-0 "2019",
      :r/d-scheduled 19,
@@ -70,7 +70,7 @@
      :r/t-scheduled 32.0,
      :r/k "santiaguense-00414",
      :r/total-passed 23.0,
-     :r/t-done 31.0}
+     :r/t-done 31}
     {:r/nec 414,
      :r/level-0 "2020",
      :r/d-scheduled 10,
@@ -84,7 +84,7 @@
      :r/t-scheduled 22.0,
      :r/k "santiaguense-00414",
      :r/total-passed 18.0,
-     :r/t-done 21.0}
+     :r/t-done 21}
     {:r/nec 414,
      :r/level-0 "2021",
      :r/d-scheduled 26,
@@ -98,7 +98,7 @@
      :r/t-scheduled 48.0,
      :r/k "santiaguense-00414",
      :r/total-passed nil,
-     :r/t-done 40.0}],
+     :r/t-done 40}],
    :imt-profile
    {:address
     "Rua Padre Jorge de Oliveira, Nº 14 7540-201 SANTIAGO CACÉM",
@@ -142,7 +142,7 @@
      :r/t-scheduled 42.0,
      :r/k "novoensino-00803",
      :r/total-passed 50.0,
-     :r/t-done 42.0}
+     :r/t-done 42}
     {:r/nec 803,
      :r/level-0 "2016",
      :r/d-scheduled 59,
@@ -156,7 +156,7 @@
      :r/t-scheduled 46.0,
      :r/k "novoensino-00803",
      :r/total-passed 63.0,
-     :r/t-done 45.0}
+     :r/t-done 45}
     {:r/nec 803,
      :r/level-0 "2017",
      :r/d-scheduled 39,
@@ -170,7 +170,7 @@
      :r/t-scheduled 45.0,
      :r/k "novoensino-00803",
      :r/total-passed 53.0,
-     :r/t-done 43.0}
+     :r/t-done 43}
     {:r/nec 803,
      :r/level-0 "2018",
      :r/d-scheduled 33,
@@ -184,7 +184,7 @@
      :r/t-scheduled 67.0,
      :r/k "novoensino-00803",
      :r/total-passed 54.0,
-     :r/t-done 59.0}],
+     :r/t-done 59}],
    :imt-profile
    {:address
     "Rua Pôr do Sol - Bloco 10, loja 1 e 2 7500-190 SANTIAGO do CACÉM",
@@ -228,7 +228,7 @@
      :r/t-scheduled 87.0,
      :r/k "mirobriga-00920",
      :r/total-passed 128.0,
-     :r/t-done 78.0}
+     :r/t-done 78}
     {:r/nec 920,
      :r/level-0 "2016",
      :r/d-scheduled 77,
@@ -242,7 +242,7 @@
      :r/t-scheduled 101.0,
      :r/k "mirobriga-00920",
      :r/total-passed 150.0,
-     :r/t-done 98.0}
+     :r/t-done 98}
     {:r/nec 920,
      :r/level-0 "2017",
      :r/d-scheduled 79,
@@ -256,7 +256,7 @@
      :r/t-scheduled 101.0,
      :r/k "mirobriga-00920",
      :r/total-passed 148.0,
-     :r/t-done 98.0}
+     :r/t-done 98}
     {:r/nec 920,
      :r/level-0 "2018",
      :r/d-scheduled 77,
@@ -270,7 +270,7 @@
      :r/t-scheduled 86.0,
      :r/k "mirobriga-00920",
      :r/total-passed 132.0,
-     :r/t-done 85.0}
+     :r/t-done 85}
     {:r/nec 920,
      :r/level-0 "2019",
      :r/d-scheduled 70,
@@ -284,7 +284,7 @@
      :r/t-scheduled 94.0,
      :r/k "mirobriga-00920",
      :r/total-passed 132.0,
-     :r/t-done 93.0}
+     :r/t-done 93}
     {:r/nec 920,
      :r/level-0 "2020",
      :r/d-scheduled 58,
@@ -298,7 +298,7 @@
      :r/t-scheduled 100.0,
      :r/k "mirobriga-00920",
      :r/total-passed 117.0,
-     :r/t-done 91.0}
+     :r/t-done 91}
     {:r/nec 920,
      :r/level-0 "2021",
      :r/d-scheduled 72,
@@ -312,7 +312,7 @@
      :r/t-scheduled 79.0,
      :r/k "mirobriga-00920",
      :r/total-passed nil,
-     :r/t-done 79.0}],
+     :r/t-done 79}],
    :imt-profile
    {:address
     "Bairro Pôr do Sol, Bloco 14 B r/c 7500-190 VILA NOVA DE SANTO ANDRÉ",
@@ -352,7 +352,7 @@
      :r/t-scheduled 107.0,
      :r/k "j-guerreio-e-batista-00931",
      :r/total-passed 143.0,
-     :r/t-done 103.0}
+     :r/t-done 103}
     {:r/nec 931,
      :r/level-0 "2016",
      :r/d-scheduled 85,
@@ -366,7 +366,7 @@
      :r/t-scheduled 99.0,
      :r/k "j-guerreio-e-batista-00931",
      :r/total-passed 144.0,
-     :r/t-done 99.0}
+     :r/t-done 99}
     {:r/nec 931,
      :r/level-0 "2017",
      :r/d-scheduled 111,
@@ -380,7 +380,7 @@
      :r/t-scheduled 106.0,
      :r/k "j-guerreio-e-batista-00931",
      :r/total-passed 161.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 931,
      :r/level-0 "2018",
      :r/d-scheduled 90,
@@ -394,7 +394,7 @@
      :r/t-scheduled 99.0,
      :r/k "j-guerreio-e-batista-00931",
      :r/total-passed 134.0,
-     :r/t-done 96.0}
+     :r/t-done 96}
     {:r/nec 931,
      :r/level-0 "2019",
      :r/d-scheduled 109,
@@ -408,7 +408,7 @@
      :r/t-scheduled 122.0,
      :r/k "j-guerreio-e-batista-00931",
      :r/total-passed 171.0,
-     :r/t-done 120.0}
+     :r/t-done 120}
     {:r/nec 931,
      :r/level-0 "2020",
      :r/d-scheduled 104,
@@ -422,7 +422,7 @@
      :r/t-scheduled 106.0,
      :r/k "j-guerreio-e-batista-00931",
      :r/total-passed 152.0,
-     :r/t-done 99.0}
+     :r/t-done 99}
     {:r/nec 931,
      :r/level-0 "2021",
      :r/d-scheduled 88,
@@ -436,7 +436,7 @@
      :r/t-scheduled 132.0,
      :r/k "j-guerreio-e-batista-00931",
      :r/total-passed nil,
-     :r/t-done 122.0}],
+     :r/t-done 122}],
    :imt-profile
    {:address "Rua José Maria Pinela 7540 -113 SANTIAGO DO CACÉM",
     :name "J. Guerreiro e Batista",
@@ -478,7 +478,7 @@
      :r/t-scheduled 32.0,
      :r/k "cercal-do-alentejo-01088",
      :r/total-passed 46.0,
-     :r/t-done 31.0}
+     :r/t-done 31}
     {:r/nec 1088,
      :r/level-0 "2016",
      :r/d-scheduled 40,
@@ -492,7 +492,7 @@
      :r/t-scheduled 31.0,
      :r/k "cercal-do-alentejo-01088",
      :r/total-passed 45.0,
-     :r/t-done 31.0}
+     :r/t-done 31}
     {:r/nec 1088,
      :r/level-0 "2017",
      :r/d-scheduled 44,
@@ -506,7 +506,7 @@
      :r/t-scheduled 62.0,
      :r/k "cercal-do-alentejo-01088",
      :r/total-passed 77.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 1088,
      :r/level-0 "2018",
      :r/d-scheduled 49,
@@ -520,7 +520,7 @@
      :r/t-scheduled 52.0,
      :r/k "cercal-do-alentejo-01088",
      :r/total-passed 74.0,
-     :r/t-done 51.0}
+     :r/t-done 51}
     {:r/nec 1088,
      :r/level-0 "2019",
      :r/d-scheduled 55,
@@ -534,7 +534,7 @@
      :r/t-scheduled 40.0,
      :r/k "cercal-do-alentejo-01088",
      :r/total-passed 67.0,
-     :r/t-done 40.0}
+     :r/t-done 40}
     {:r/nec 1088,
      :r/level-0 "2020",
      :r/d-scheduled 29,
@@ -548,7 +548,7 @@
      :r/t-scheduled 26.0,
      :r/k "cercal-do-alentejo-01088",
      :r/total-passed 41.0,
-     :r/t-done 26.0}
+     :r/t-done 26}
     {:r/nec 1088,
      :r/level-0 "2021",
      :r/d-scheduled 24,
@@ -562,7 +562,7 @@
      :r/t-scheduled 39.0,
      :r/k "cercal-do-alentejo-01088",
      :r/total-passed nil,
-     :r/t-done 38.0}],
+     :r/t-done 38}],
    :imt-profile
    {:address
     "Avenida Centenario da Independência, Nº 18, 7555-101 CERCAL DO ALENTEJO",

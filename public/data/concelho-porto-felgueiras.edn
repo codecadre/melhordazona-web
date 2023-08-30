@@ -14,7 +14,7 @@
      :r/t-scheduled 37.0,
      :r/k "a-nova-lixa-00574",
      :r/total-passed nil,
-     :r/t-done 35.0}],
+     :r/t-done 35}],
    :imt-profile
    {:address
     "Largo Dr. Eduardo de Freitas - Edificio Jradim 4615-623 VILA COVA da LIXA",
@@ -54,7 +54,7 @@
      :r/t-scheduled 53.0,
      :r/k "sampaio-00574",
      :r/total-passed 89.0,
-     :r/t-done 52.0}
+     :r/t-done 52}
     {:r/nec 574,
      :r/level-0 "2016",
      :r/d-scheduled 70,
@@ -68,7 +68,7 @@
      :r/t-scheduled 42.0,
      :r/k "sampaio-00574",
      :r/total-passed 65.0,
-     :r/t-done 40.0}
+     :r/t-done 40}
     {:r/nec 574,
      :r/level-0 "2017",
      :r/d-scheduled 45,
@@ -82,7 +82,7 @@
      :r/t-scheduled 29.0,
      :r/k "sampaio-00574",
      :r/total-passed 45.0,
-     :r/t-done 29.0}
+     :r/t-done 29}
     {:r/nec 574,
      :r/level-0 "2018",
      :r/d-scheduled 52,
@@ -96,7 +96,7 @@
      :r/t-scheduled 51.0,
      :r/k "sampaio-00574",
      :r/total-passed 73.0,
-     :r/t-done 51.0}
+     :r/t-done 51}
     {:r/nec 574,
      :r/level-0 "2019",
      :r/d-scheduled 78,
@@ -110,7 +110,7 @@
      :r/t-scheduled 54.0,
      :r/k "sampaio-00574",
      :r/total-passed 82.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 574,
      :r/level-0 "2020",
      :r/d-scheduled 63,
@@ -124,7 +124,7 @@
      :r/t-scheduled 61.0,
      :r/k "sampaio-00574",
      :r/total-passed 67.0,
-     :r/t-done 56.0}],
+     :r/t-done 56}],
    :imt-profile
    {:address
     "Largo Dr. Eduardo de Freitas - Edificio Jradim 4615-623 VILA COVA da LIXA",
@@ -167,7 +167,7 @@
      :r/t-scheduled 257.0,
      :r/k "longra-00698",
      :r/total-passed 414.0,
-     :r/t-done 256.0}
+     :r/t-done 256}
     {:r/nec 698,
      :r/level-0 "2016",
      :r/d-scheduled 285,
@@ -181,7 +181,7 @@
      :r/t-scheduled 217.0,
      :r/k "longra-00698",
      :r/total-passed 348.0,
-     :r/t-done 214.0}
+     :r/t-done 214}
     {:r/nec 698,
      :r/level-0 "2017",
      :r/d-scheduled 270,
@@ -195,7 +195,7 @@
      :r/t-scheduled 192.0,
      :r/k "longra-00698",
      :r/total-passed 353.0,
-     :r/t-done 189.0}
+     :r/t-done 189}
     {:r/nec 698,
      :r/level-0 "2018",
      :r/d-scheduled 249,
@@ -209,7 +209,7 @@
      :r/t-scheduled 218.0,
      :r/k "longra-00698",
      :r/total-passed 334.0,
-     :r/t-done 215.0}
+     :r/t-done 215}
     {:r/nec 698,
      :r/level-0 "2019",
      :r/d-scheduled 245,
@@ -223,7 +223,7 @@
      :r/t-scheduled 189.0,
      :r/k "longra-00698",
      :r/total-passed 323.0,
-     :r/t-done 183.0}
+     :r/t-done 183}
     {:r/nec 698,
      :r/level-0 "2020",
      :r/d-scheduled 171,
@@ -237,7 +237,7 @@
      :r/t-scheduled 208.0,
      :r/k "longra-00698",
      :r/total-passed 293.0,
-     :r/t-done 195.0}
+     :r/t-done 195}
     {:r/nec 698,
      :r/level-0 "2021",
      :r/d-scheduled 209,
@@ -251,7 +251,7 @@
      :r/t-scheduled 232.0,
      :r/k "longra-00698",
      :r/total-passed nil,
-     :r/t-done 219.0}],
+     :r/t-done 219}],
    :imt-profile
    {:address "Lugar da Piedade (Longra) 4650-464 SERNANDE",
     :name "De Longra",
@@ -290,7 +290,7 @@
      :r/t-scheduled 183.0,
      :r/k "margaride-00820",
      :r/total-passed 249.0,
-     :r/t-done 178.0}
+     :r/t-done 178}
     {:r/nec 820,
      :r/level-0 "2016",
      :r/d-scheduled 200,
@@ -304,7 +304,7 @@
      :r/t-scheduled 187.0,
      :r/k "margaride-00820",
      :r/total-passed 266.0,
-     :r/t-done 175.0}
+     :r/t-done 175}
     {:r/nec 820,
      :r/level-0 "2017",
      :r/d-scheduled 139,
@@ -318,7 +318,7 @@
      :r/t-scheduled 146.0,
      :r/k "margaride-00820",
      :r/total-passed 207.0,
-     :r/t-done 133.0}
+     :r/t-done 133}
     {:r/nec 820,
      :r/level-0 "2018",
      :r/d-scheduled 148,
@@ -332,7 +332,7 @@
      :r/t-scheduled 196.0,
      :r/k "margaride-00820",
      :r/total-passed 256.0,
-     :r/t-done 184.0}
+     :r/t-done 184}
     {:r/nec 820,
      :r/level-0 "2019",
      :r/d-scheduled 228,
@@ -346,7 +346,7 @@
      :r/t-scheduled 275.0,
      :r/k "margaride-00820",
      :r/total-passed 354.0,
-     :r/t-done 263.0}
+     :r/t-done 263}
     {:r/nec 820,
      :r/level-0 "2020",
      :r/d-scheduled 185,
@@ -360,7 +360,7 @@
      :r/t-scheduled 185.0,
      :r/k "margaride-00820",
      :r/total-passed 255.0,
-     :r/t-done 166.0}
+     :r/t-done 166}
     {:r/nec 820,
      :r/level-0 "2021",
      :r/d-scheduled 181,
@@ -374,7 +374,7 @@
      :r/t-scheduled 236.0,
      :r/k "margaride-00820",
      :r/total-passed nil,
-     :r/t-done 214.0}],
+     :r/t-done 214}],
    :imt-profile
    {:address "Lugar de Quintã 4610-270 MARGARIDE(SANTA EULÁLIA)",
     :name "Margaride",
@@ -406,7 +406,7 @@
      :r/t-scheduled 161.0,
      :r/k "quatro-rodas-00849",
      :r/total-passed 252.0,
-     :r/t-done 158.0}
+     :r/t-done 158}
     {:r/nec 849,
      :r/level-0 "2016",
      :r/d-scheduled 338,
@@ -420,7 +420,7 @@
      :r/t-scheduled 0.0,
      :r/k "quatro-rodas-00849",
      :r/total-passed 170.0,
-     :r/t-done 0.0}
+     :r/t-done 0}
     {:r/nec 849,
      :r/level-0 "2017",
      :r/d-scheduled 385,
@@ -434,7 +434,7 @@
      :r/t-scheduled 247.0,
      :r/k "quatro-rodas-00849",
      :r/total-passed 351.0,
-     :r/t-done 245.0}
+     :r/t-done 245}
     {:r/nec 849,
      :r/level-0 "2018",
      :r/d-scheduled 346,
@@ -448,7 +448,7 @@
      :r/t-scheduled 223.0,
      :r/k "quatro-rodas-00849",
      :r/total-passed 319.0,
-     :r/t-done 216.0}
+     :r/t-done 216}
     {:r/nec 849,
      :r/level-0 "2019",
      :r/d-scheduled 283,
@@ -462,7 +462,7 @@
      :r/t-scheduled 214.0,
      :r/k "quatro-rodas-00849",
      :r/total-passed 293.0,
-     :r/t-done 211.0}
+     :r/t-done 211}
     {:r/nec 849,
      :r/level-0 "2020",
      :r/d-scheduled 262,
@@ -476,7 +476,7 @@
      :r/t-scheduled 153.0,
      :r/k "quatro-rodas-00849",
      :r/total-passed 215.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 849,
      :r/level-0 "2021",
      :r/d-scheduled 199,
@@ -490,7 +490,7 @@
      :r/t-scheduled 153.0,
      :r/k "quatro-rodas-00849",
      :r/total-passed nil,
-     :r/t-done 138.0}],
+     :r/t-done 138}],
    :imt-profile
    {:address
     "Rua Dr. Gomes Aciegas, Nº 165 R/C 4610-171 MARGARIDE (SANTA EULÁLIA)",
@@ -534,7 +534,7 @@
      :r/t-scheduled 148.0,
      :r/k "rys-00968",
      :r/total-passed 217.0,
-     :r/t-done 146.0}
+     :r/t-done 146}
     {:r/nec 968,
      :r/level-0 "2016",
      :r/d-scheduled 185,
@@ -548,7 +548,7 @@
      :r/t-scheduled 119.0,
      :r/k "rys-00968",
      :r/total-passed 168.0,
-     :r/t-done 112.0}
+     :r/t-done 112}
     {:r/nec 968,
      :r/level-0 "2017",
      :r/d-scheduled 146,
@@ -562,7 +562,7 @@
      :r/t-scheduled 123.0,
      :r/k "rys-00968",
      :r/total-passed 181.0,
-     :r/t-done 118.0}
+     :r/t-done 118}
     {:r/nec 968,
      :r/level-0 "2018",
      :r/d-scheduled 171,
@@ -576,7 +576,7 @@
      :r/t-scheduled 130.0,
      :r/k "rys-00968",
      :r/total-passed 198.0,
-     :r/t-done 127.0}
+     :r/t-done 127}
     {:r/nec 968,
      :r/level-0 "2019",
      :r/d-scheduled 167,
@@ -590,7 +590,7 @@
      :r/t-scheduled 114.0,
      :r/k "rys-00968",
      :r/total-passed 186.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 968,
      :r/level-0 "2020",
      :r/d-scheduled 154,
@@ -604,7 +604,7 @@
      :r/t-scheduled 116.0,
      :r/k "rys-00968",
      :r/total-passed 172.0,
-     :r/t-done 114.0}
+     :r/t-done 114}
     {:r/nec 968,
      :r/level-0 "2021",
      :r/d-scheduled 145,
@@ -618,7 +618,7 @@
      :r/t-scheduled 133.0,
      :r/k "rys-00968",
      :r/total-passed nil,
-     :r/t-done 128.0}],
+     :r/t-done 128}],
    :imt-profile
    {:address
     "Avª da República-Edificio Padroncelos, Fracção D 4615-594 VILA COVA da LIXA",
@@ -658,7 +658,7 @@
      :r/t-scheduled 421.0,
      :r/k "valverde-01102",
      :r/total-passed 653.0,
-     :r/t-done 418.0}
+     :r/t-done 418}
     {:r/nec 1102,
      :r/level-0 "2016",
      :r/d-scheduled 518,
@@ -672,7 +672,7 @@
      :r/t-scheduled 363.0,
      :r/k "valverde-01102",
      :r/total-passed 560.0,
-     :r/t-done 363.0}
+     :r/t-done 363}
     {:r/nec 1102,
      :r/level-0 "2017",
      :r/d-scheduled 432,
@@ -686,7 +686,7 @@
      :r/t-scheduled 333.0,
      :r/k "valverde-01102",
      :r/total-passed 504.0,
-     :r/t-done 330.0}
+     :r/t-done 330}
     {:r/nec 1102,
      :r/level-0 "2018",
      :r/d-scheduled 409,
@@ -700,7 +700,7 @@
      :r/t-scheduled 318.0,
      :r/k "valverde-01102",
      :r/total-passed 511.0,
-     :r/t-done 312.0}
+     :r/t-done 312}
     {:r/nec 1102,
      :r/level-0 "2019",
      :r/d-scheduled 386,
@@ -714,7 +714,7 @@
      :r/t-scheduled 316.0,
      :r/k "valverde-01102",
      :r/total-passed 483.0,
-     :r/t-done 315.0}
+     :r/t-done 315}
     {:r/nec 1102,
      :r/level-0 "2020",
      :r/d-scheduled 347,
@@ -728,7 +728,7 @@
      :r/t-scheduled 313.0,
      :r/k "valverde-01102",
      :r/total-passed 437.0,
-     :r/t-done 295.0}
+     :r/t-done 295}
     {:r/nec 1102,
      :r/level-0 "2021",
      :r/d-scheduled 423,
@@ -742,7 +742,7 @@
      :r/t-scheduled 324.0,
      :r/k "valverde-01102",
      :r/total-passed nil,
-     :r/t-done 301.0}],
+     :r/t-done 301}],
    :imt-profile
    {:address "Lugar da Cachada 4610-250 MARGARIDE (SANTA EULÁLIA)",
     :name "Valverde",
@@ -781,7 +781,7 @@
      :r/t-scheduled 37.0,
      :r/k "o-motorista-01179",
      :r/total-passed 51.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 1179,
      :r/level-0 "2016",
      :r/d-scheduled 32,
@@ -795,7 +795,7 @@
      :r/t-scheduled 30.0,
      :r/k "o-motorista-01179",
      :r/total-passed 40.0,
-     :r/t-done 28.0}
+     :r/t-done 28}
     {:r/nec 1179,
      :r/level-0 "2017",
      :r/d-scheduled 33,
@@ -809,7 +809,7 @@
      :r/t-scheduled 39.0,
      :r/k "o-motorista-01179",
      :r/total-passed 44.0,
-     :r/t-done 36.0}
+     :r/t-done 36}
     {:r/nec 1179,
      :r/level-0 "2018",
      :r/d-scheduled 14,
@@ -823,7 +823,7 @@
      :r/t-scheduled 10.0,
      :r/k "o-motorista-01179",
      :r/total-passed 20.0,
-     :r/t-done 10.0}
+     :r/t-done 10}
     {:r/nec 1179,
      :r/level-0 "2019",
      :r/d-scheduled 51,
@@ -837,7 +837,7 @@
      :r/t-scheduled 39.0,
      :r/k "o-motorista-01179",
      :r/total-passed 83.0,
-     :r/t-done 38.0}
+     :r/t-done 38}
     {:r/nec 1179,
      :r/level-0 "2020",
      :r/d-scheduled 44,
@@ -851,7 +851,7 @@
      :r/t-scheduled 24.0,
      :r/k "o-motorista-01179",
      :r/total-passed 57.0,
-     :r/t-done 22.0}
+     :r/t-done 22}
     {:r/nec 1179,
      :r/level-0 "2021",
      :r/d-scheduled 78,
@@ -865,7 +865,7 @@
      :r/t-scheduled 60.0,
      :r/k "o-motorista-01179",
      :r/total-passed nil,
-     :r/t-done 58.0}],
+     :r/t-done 58}],
    :imt-profile
    {:address "Praça dos Carvalhinhos n.º 18 4610-112 Felgueiras",
     :name "O Motorista",
@@ -907,7 +907,7 @@
      :r/t-scheduled 182.0,
      :r/k "frclixa-01246",
      :r/total-passed 237.0,
-     :r/t-done 181.0}
+     :r/t-done 181}
     {:r/nec 1246,
      :r/level-0 "2016",
      :r/d-scheduled 194,
@@ -921,7 +921,7 @@
      :r/t-scheduled 158.0,
      :r/k "frclixa-01246",
      :r/total-passed 209.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 1246,
      :r/level-0 "2017",
      :r/d-scheduled 163,
@@ -935,7 +935,7 @@
      :r/t-scheduled 132.0,
      :r/k "frclixa-01246",
      :r/total-passed 193.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 1246,
      :r/level-0 "2018",
      :r/d-scheduled 183,
@@ -949,7 +949,7 @@
      :r/t-scheduled 156.0,
      :r/k "frclixa-01246",
      :r/total-passed 222.0,
-     :r/t-done 154.0}
+     :r/t-done 154}
     {:r/nec 1246,
      :r/level-0 "2019",
      :r/d-scheduled 163,
@@ -963,7 +963,7 @@
      :r/t-scheduled 113.0,
      :r/k "frclixa-01246",
      :r/total-passed 165.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 1246,
      :r/level-0 "2020",
      :r/d-scheduled 143,
@@ -977,7 +977,7 @@
      :r/t-scheduled 131.0,
      :r/k "frclixa-01246",
      :r/total-passed 187.0,
-     :r/t-done 127.0}
+     :r/t-done 127}
     {:r/nec 1246,
      :r/level-0 "2021",
      :r/d-scheduled 191,
@@ -991,7 +991,7 @@
      :r/t-scheduled 161.0,
      :r/k "frclixa-01246",
      :r/total-passed nil,
-     :r/t-done 145.0}],
+     :r/t-done 145}],
    :imt-profile
    {:address "Alto da Lixa 4615-301 BORBA de GODIM",
     :name "FRC-Lixa",

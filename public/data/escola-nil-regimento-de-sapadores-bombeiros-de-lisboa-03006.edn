@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
    :r/total-passed 0.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 3006,
    :r/level-0 "2016",
    :r/d-scheduled 4,
@@ -27,7 +27,7 @@
    :r/t-scheduled 10.0,
    :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
    :r/total-passed 13.0,
-   :r/t-done 10.0}
+   :r/t-done 10}
   {:r/nec 3006,
    :r/level-0 "2017",
    :r/d-scheduled 5,
@@ -41,7 +41,7 @@
    :r/t-scheduled 1.0,
    :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
    :r/total-passed 5.0,
-   :r/t-done 1.0}
+   :r/t-done 1}
   {:r/nec 3006,
    :r/level-0 "2018",
    :r/d-scheduled 21,
@@ -55,7 +55,7 @@
    :r/t-scheduled 27.0,
    :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
    :r/total-passed 45.0,
-   :r/t-done 25.0}
+   :r/t-done 25}
   {:r/nec 3006,
    :r/level-0 "2019",
    :r/d-scheduled 15,
@@ -69,5 +69,5 @@
    :r/t-scheduled 4.0,
    :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
    :r/total-passed 18.0,
-   :r/t-done 4.0}],
+   :r/t-done 4}],
  :imt-profile nil}

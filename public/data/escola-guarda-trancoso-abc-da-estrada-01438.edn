@@ -13,7 +13,7 @@
    :r/t-scheduled 25.0,
    :r/k "abc-da-estrada-01438",
    :r/total-passed 31.0,
-   :r/t-done 25.0}
+   :r/t-done 25}
   {:r/nec 1438,
    :r/level-0 "2020",
    :r/d-scheduled 106,
@@ -27,7 +27,7 @@
    :r/t-scheduled 115.0,
    :r/k "abc-da-estrada-01438",
    :r/total-passed 163.0,
-   :r/t-done 108.0}
+   :r/t-done 108}
   {:r/nec 1438,
    :r/level-0 "2021",
    :r/d-scheduled 128,
@@ -41,7 +41,7 @@
    :r/t-scheduled 101.0,
    :r/k "abc-da-estrada-01438",
    :r/total-passed nil,
-   :r/t-done 97.0}],
+   :r/t-done 97}],
  :imt-profile
  {:address "Av. da República, nº24, r/c , Trancoso",
   :name "ABC da Estrada",

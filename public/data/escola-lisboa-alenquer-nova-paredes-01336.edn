@@ -13,7 +13,7 @@
    :r/t-scheduled 3.0,
    :r/k "nova-paredes-01336",
    :r/total-passed 3.0,
-   :r/t-done 3.0}
+   :r/t-done 3}
   {:r/nec 1336,
    :r/level-0 "2016",
    :r/d-scheduled 35,
@@ -27,7 +27,7 @@
    :r/t-scheduled 55.0,
    :r/k "nova-paredes-01336",
    :r/total-passed 75.0,
-   :r/t-done 55.0}
+   :r/t-done 55}
   {:r/nec 1336,
    :r/level-0 "2017",
    :r/d-scheduled 123,
@@ -41,7 +41,7 @@
    :r/t-scheduled 148.0,
    :r/k "nova-paredes-01336",
    :r/total-passed 199.0,
-   :r/t-done 148.0}
+   :r/t-done 148}
   {:r/nec 1336,
    :r/level-0 "2018",
    :r/d-scheduled 186,
@@ -55,7 +55,7 @@
    :r/t-scheduled 155.0,
    :r/k "nova-paredes-01336",
    :r/total-passed 258.0,
-   :r/t-done 154.0}
+   :r/t-done 154}
   {:r/nec 1336,
    :r/level-0 "2019",
    :r/d-scheduled 187,
@@ -69,7 +69,7 @@
    :r/t-scheduled 173.0,
    :r/k "nova-paredes-01336",
    :r/total-passed 276.0,
-   :r/t-done 170.0}
+   :r/t-done 170}
   {:r/nec 1336,
    :r/level-0 "2020",
    :r/d-scheduled 192,
@@ -83,7 +83,7 @@
    :r/t-scheduled 240.0,
    :r/k "nova-paredes-01336",
    :r/total-passed 329.0,
-   :r/t-done 228.0}
+   :r/t-done 228}
   {:r/nec 1336,
    :r/level-0 "2021",
    :r/d-scheduled 268,
@@ -97,7 +97,7 @@
    :r/t-scheduled 253.0,
    :r/k "nova-paredes-01336",
    :r/total-passed nil,
-   :r/t-done 236.0}],
+   :r/t-done 236}],
  :imt-profile
  {:address "Rua Jorge Cunha e Carmo, lote 35 R/c, 2580-531 Alenquer",
   :name "Nova Paredes",

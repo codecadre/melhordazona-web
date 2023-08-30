@@ -14,7 +14,7 @@
      :r/t-scheduled 207.0,
      :r/k "nova-de-vagos-01136",
      :r/total-passed 255.0,
-     :r/t-done 190.0}
+     :r/t-done 190}
     {:r/nec 1136,
      :r/level-0 "2016",
      :r/d-scheduled 127,
@@ -28,7 +28,7 @@
      :r/t-scheduled 115.0,
      :r/k "nova-de-vagos-01136",
      :r/total-passed 144.0,
-     :r/t-done 106.0}
+     :r/t-done 106}
     {:r/nec 1136,
      :r/level-0 "2017",
      :r/d-scheduled 115,
@@ -42,7 +42,7 @@
      :r/t-scheduled 75.0,
      :r/k "nova-de-vagos-01136",
      :r/total-passed 107.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 1136,
      :r/level-0 "2018",
      :r/d-scheduled 58,
@@ -56,7 +56,7 @@
      :r/t-scheduled 62.0,
      :r/k "nova-de-vagos-01136",
      :r/total-passed 73.0,
-     :r/t-done 62.0}
+     :r/t-done 62}
     {:r/nec 1136,
      :r/level-0 "2019",
      :r/d-scheduled 37,
@@ -70,7 +70,7 @@
      :r/t-scheduled 11.0,
      :r/k "nova-de-vagos-01136",
      :r/total-passed 31.0,
-     :r/t-done 9.0}],
+     :r/t-done 9}],
    :imt-profile
    {:address
     "Rua S. João - Edif. S. João, Bloco A - S/Nº 3840-429 VAGOS",
@@ -110,7 +110,7 @@
      :r/t-scheduled 157.0,
      :r/k "moliceiro-01311",
      :r/total-passed 284.0,
-     :r/t-done 154.0}
+     :r/t-done 154}
     {:r/nec 1311,
      :r/level-0 "2016",
      :r/d-scheduled 240,
@@ -124,7 +124,7 @@
      :r/t-scheduled 141.0,
      :r/k "moliceiro-01311",
      :r/total-passed 261.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 1311,
      :r/level-0 "2017",
      :r/d-scheduled 219,
@@ -138,7 +138,7 @@
      :r/t-scheduled 137.0,
      :r/k "moliceiro-01311",
      :r/total-passed 228.0,
-     :r/t-done 128.0}
+     :r/t-done 128}
     {:r/nec 1311,
      :r/level-0 "2018",
      :r/d-scheduled 154,
@@ -152,7 +152,7 @@
      :r/t-scheduled 112.0,
      :r/k "moliceiro-01311",
      :r/total-passed 167.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 1311,
      :r/level-0 "2019",
      :r/d-scheduled 162,
@@ -166,7 +166,7 @@
      :r/t-scheduled 140.0,
      :r/k "moliceiro-01311",
      :r/total-passed 193.0,
-     :r/t-done 137.0}
+     :r/t-done 137}
     {:r/nec 1311,
      :r/level-0 "2020",
      :r/d-scheduled 160,
@@ -180,7 +180,7 @@
      :r/t-scheduled 118.0,
      :r/k "moliceiro-01311",
      :r/total-passed 142.0,
-     :r/t-done 109.0}
+     :r/t-done 109}
     {:r/nec 1311,
      :r/level-0 "2021",
      :r/d-scheduled 139,
@@ -194,7 +194,7 @@
      :r/t-scheduled 102.0,
      :r/k "moliceiro-01311",
      :r/total-passed nil,
-     :r/t-done 84.0}],
+     :r/t-done 84}],
    :imt-profile
    {:address "Rua D. António Santos, n.º 48, Quintã, 3840-507 VAGOS",
     :name "Moliceiro",

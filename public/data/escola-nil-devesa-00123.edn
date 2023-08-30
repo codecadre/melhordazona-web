@@ -13,7 +13,7 @@
    :r/t-scheduled 14.0,
    :r/k "devesa-00123",
    :r/total-passed 34.0,
-   :r/t-done 14.0}
+   :r/t-done 14}
   {:r/nec 123,
    :r/level-0 "2016",
    :r/d-scheduled 43,
@@ -27,7 +27,7 @@
    :r/t-scheduled 48.0,
    :r/k "devesa-00123",
    :r/total-passed 58.0,
-   :r/t-done 48.0}
+   :r/t-done 48}
   {:r/nec 123,
    :r/level-0 "2017",
    :r/d-scheduled 96,
@@ -41,7 +41,7 @@
    :r/t-scheduled 103.0,
    :r/k "devesa-00123",
    :r/total-passed 148.0,
-   :r/t-done 101.0}
+   :r/t-done 101}
   {:r/nec 123,
    :r/level-0 "2018",
    :r/d-scheduled 178,
@@ -55,7 +55,7 @@
    :r/t-scheduled 170.0,
    :r/k "devesa-00123",
    :r/total-passed 247.0,
-   :r/t-done 168.0}
+   :r/t-done 168}
   {:r/nec 123,
    :r/level-0 "2019",
    :r/d-scheduled 201,
@@ -69,7 +69,7 @@
    :r/t-scheduled 158.0,
    :r/k "devesa-00123",
    :r/total-passed 262.0,
-   :r/t-done 157.0}
+   :r/t-done 157}
   {:r/nec 123,
    :r/level-0 "2020",
    :r/d-scheduled 176,
@@ -83,7 +83,7 @@
    :r/t-scheduled 133.0,
    :r/k "devesa-00123",
    :r/total-passed 222.0,
-   :r/t-done 127.0}
+   :r/t-done 127}
   {:r/nec 123,
    :r/level-0 "2021",
    :r/d-scheduled 168,
@@ -97,7 +97,7 @@
    :r/t-scheduled 114.0,
    :r/k "devesa-00123",
    :r/total-passed nil,
-   :r/t-done 102.0}],
+   :r/t-done 102}],
  :imt-profile nil,
  :obs "license 123 is 'Famalicense' in imt.pt",
  :overwrite/notes nil}

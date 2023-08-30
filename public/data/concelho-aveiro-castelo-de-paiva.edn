@@ -14,7 +14,7 @@
      :r/t-scheduled 58.0,
      :r/k "auto-vinhas-00809",
      :r/total-passed 85.0,
-     :r/t-done 58.0}
+     :r/t-done 58}
     {:r/nec 809,
      :r/level-0 "2016",
      :r/d-scheduled 61,
@@ -28,7 +28,7 @@
      :r/t-scheduled 62.0,
      :r/k "auto-vinhas-00809",
      :r/total-passed 75.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 809,
      :r/level-0 "2017",
      :r/d-scheduled 79,
@@ -42,7 +42,7 @@
      :r/t-scheduled 69.0,
      :r/k "auto-vinhas-00809",
      :r/total-passed 91.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 809,
      :r/level-0 "2018",
      :r/d-scheduled 90,
@@ -56,7 +56,7 @@
      :r/t-scheduled 56.0,
      :r/k "auto-vinhas-00809",
      :r/total-passed 79.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 809,
      :r/level-0 "2019",
      :r/d-scheduled 96,
@@ -70,7 +70,7 @@
      :r/t-scheduled 76.0,
      :r/k "auto-vinhas-00809",
      :r/total-passed 112.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 809,
      :r/level-0 "2020",
      :r/d-scheduled 80,
@@ -84,7 +84,7 @@
      :r/t-scheduled 74.0,
      :r/k "auto-vinhas-00809",
      :r/total-passed 93.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 809,
      :r/level-0 "2021",
      :r/d-scheduled 96,
@@ -98,7 +98,7 @@
      :r/t-scheduled 63.0,
      :r/k "auto-vinhas-00809",
      :r/total-passed nil,
-     :r/t-done 62.0}],
+     :r/t-done 62}],
    :imt-profile
    {:address "Chã - Bairros, 4550-060 CASTELO DE PAIVA",
     :name "Auto Vinhas",
@@ -139,7 +139,7 @@
      :r/t-scheduled 167.0,
      :r/k "via-rapida-00882",
      :r/total-passed 259.0,
-     :r/t-done 167.0}
+     :r/t-done 167}
     {:r/nec 882,
      :r/level-0 "2016",
      :r/d-scheduled 183,
@@ -153,7 +153,7 @@
      :r/t-scheduled 176.0,
      :r/k "via-rapida-00882",
      :r/total-passed 254.0,
-     :r/t-done 174.0}
+     :r/t-done 174}
     {:r/nec 882,
      :r/level-0 "2017",
      :r/d-scheduled 175,
@@ -167,7 +167,7 @@
      :r/t-scheduled 129.0,
      :r/k "via-rapida-00882",
      :r/total-passed 219.0,
-     :r/t-done 129.0}
+     :r/t-done 129}
     {:r/nec 882,
      :r/level-0 "2018",
      :r/d-scheduled 155,
@@ -181,7 +181,7 @@
      :r/t-scheduled 143.0,
      :r/k "via-rapida-00882",
      :r/total-passed 218.0,
-     :r/t-done 143.0}
+     :r/t-done 143}
     {:r/nec 882,
      :r/level-0 "2019",
      :r/d-scheduled 173,
@@ -195,7 +195,7 @@
      :r/t-scheduled 142.0,
      :r/k "via-rapida-00882",
      :r/total-passed 224.0,
-     :r/t-done 141.0}
+     :r/t-done 141}
     {:r/nec 882,
      :r/level-0 "2020",
      :r/d-scheduled 184,
@@ -209,7 +209,7 @@
      :r/t-scheduled 137.0,
      :r/k "via-rapida-00882",
      :r/total-passed 233.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 882,
      :r/level-0 "2021",
      :r/d-scheduled 184,
@@ -223,7 +223,7 @@
      :r/t-scheduled 164.0,
      :r/k "via-rapida-00882",
      :r/total-passed nil,
-     :r/t-done 151.0}],
+     :r/t-done 151}],
    :imt-profile
    {:address
     "Rua Brites de Arrochela - Sobrado 4550-208 CASTELO DE PAIVA",
@@ -267,7 +267,7 @@
      :r/t-scheduled 84.0,
      :r/k "carbar-00985",
      :r/total-passed 119.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 985,
      :r/level-0 "2016",
      :r/d-scheduled 116,
@@ -281,7 +281,7 @@
      :r/t-scheduled 68.0,
      :r/k "carbar-00985",
      :r/total-passed 108.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 985,
      :r/level-0 "2017",
      :r/d-scheduled 102,
@@ -295,7 +295,7 @@
      :r/t-scheduled 77.0,
      :r/k "carbar-00985",
      :r/total-passed 110.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 985,
      :r/level-0 "2018",
      :r/d-scheduled 98,
@@ -309,7 +309,7 @@
      :r/t-scheduled 75.0,
      :r/k "carbar-00985",
      :r/total-passed 109.0,
-     :r/t-done 71.0}
+     :r/t-done 71}
     {:r/nec 985,
      :r/level-0 "2019",
      :r/d-scheduled 105,
@@ -323,7 +323,7 @@
      :r/t-scheduled 77.0,
      :r/k "carbar-00985",
      :r/total-passed 118.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 985,
      :r/level-0 "2020",
      :r/d-scheduled 103,
@@ -337,7 +337,7 @@
      :r/t-scheduled 74.0,
      :r/k "carbar-00985",
      :r/total-passed 106.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 985,
      :r/level-0 "2021",
      :r/d-scheduled 94,
@@ -351,7 +351,7 @@
      :r/t-scheduled 58.0,
      :r/k "carbar-00985",
      :r/total-passed nil,
-     :r/t-done 53.0}],
+     :r/t-done 53}],
    :imt-profile
    {:address
     "Edifício Sopé de S. Pedro-Lugar de Gração-Sobrado 4550-100 CASTELO DE PAIVA",
@@ -391,7 +391,7 @@
      :r/t-scheduled 69.0,
      :r/k "estrela-do-arda-01026",
      :r/total-passed 89.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 1026,
      :r/level-0 "2016",
      :r/d-scheduled 81,
@@ -405,7 +405,7 @@
      :r/t-scheduled 67.0,
      :r/k "estrela-do-arda-01026",
      :r/total-passed 92.0,
-     :r/t-done 67.0}
+     :r/t-done 67}
     {:r/nec 1026,
      :r/level-0 "2017",
      :r/d-scheduled 112,
@@ -419,7 +419,7 @@
      :r/t-scheduled 85.0,
      :r/k "estrela-do-arda-01026",
      :r/total-passed 138.0,
-     :r/t-done 83.0}
+     :r/t-done 83}
     {:r/nec 1026,
      :r/level-0 "2018",
      :r/d-scheduled 110,
@@ -433,7 +433,7 @@
      :r/t-scheduled 89.0,
      :r/k "estrela-do-arda-01026",
      :r/total-passed 125.0,
-     :r/t-done 88.0}
+     :r/t-done 88}
     {:r/nec 1026,
      :r/level-0 "2019",
      :r/d-scheduled 120,
@@ -447,7 +447,7 @@
      :r/t-scheduled 94.0,
      :r/k "estrela-do-arda-01026",
      :r/total-passed 144.0,
-     :r/t-done 94.0}
+     :r/t-done 94}
     {:r/nec 1026,
      :r/level-0 "2020",
      :r/d-scheduled 161,
@@ -461,7 +461,7 @@
      :r/t-scheduled 120.0,
      :r/k "estrela-do-arda-01026",
      :r/total-passed 188.0,
-     :r/t-done 118.0}
+     :r/t-done 118}
     {:r/nec 1026,
      :r/level-0 "2021",
      :r/d-scheduled 124,
@@ -475,7 +475,7 @@
      :r/t-scheduled 99.0,
      :r/k "estrela-do-arda-01026",
      :r/total-passed nil,
-     :r/t-done 84.0}],
+     :r/t-done 84}],
    :imt-profile
    {:address
     "Avª Jean Tyssen-Oliveira do Arda-Raiva 4550-100 CASTELO DE PAIVA",

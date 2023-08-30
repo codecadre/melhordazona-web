@@ -14,7 +14,7 @@
      :r/t-scheduled 243.0,
      :r/k "ovarense-00172",
      :r/total-passed 357.0,
-     :r/t-done 239.0}
+     :r/t-done 239}
     {:r/nec 172,
      :r/level-0 "2016",
      :r/d-scheduled 235,
@@ -28,7 +28,7 @@
      :r/t-scheduled 251.0,
      :r/k "ovarense-00172",
      :r/total-passed 334.0,
-     :r/t-done 247.0}
+     :r/t-done 247}
     {:r/nec 172,
      :r/level-0 "2017",
      :r/d-scheduled 275,
@@ -42,7 +42,7 @@
      :r/t-scheduled 260.0,
      :r/k "ovarense-00172",
      :r/total-passed 394.0,
-     :r/t-done 256.0}
+     :r/t-done 256}
     {:r/nec 172,
      :r/level-0 "2018",
      :r/d-scheduled 217,
@@ -56,7 +56,7 @@
      :r/t-scheduled 286.0,
      :r/k "ovarense-00172",
      :r/total-passed 369.0,
-     :r/t-done 278.0}
+     :r/t-done 278}
     {:r/nec 172,
      :r/level-0 "2019",
      :r/d-scheduled 211,
@@ -70,7 +70,7 @@
      :r/t-scheduled 241.0,
      :r/k "ovarense-00172",
      :r/total-passed 325.0,
-     :r/t-done 233.0}
+     :r/t-done 233}
     {:r/nec 172,
      :r/level-0 "2020",
      :r/d-scheduled 179,
@@ -84,7 +84,7 @@
      :r/t-scheduled 288.0,
      :r/k "ovarense-00172",
      :r/total-passed 315.0,
-     :r/t-done 266.0}
+     :r/t-done 266}
     {:r/nec 172,
      :r/level-0 "2021",
      :r/d-scheduled 263,
@@ -98,7 +98,7 @@
      :r/t-scheduled 245.0,
      :r/k "ovarense-00172",
      :r/total-passed nil,
-     :r/t-done 233.0}],
+     :r/t-done 233}],
    :imt-profile
    {:address "Rotunda S. Cristóvão, Nº 179-1º Dt 3880-070 OVAR",
     :name "Ovarense",
@@ -137,7 +137,7 @@
      :r/t-scheduled 97.0,
      :r/k "a-ideal-de-ovar-00415",
      :r/total-passed 138.0,
-     :r/t-done 92.0}
+     :r/t-done 92}
     {:r/nec 415,
      :r/level-0 "2016",
      :r/d-scheduled 97,
@@ -151,7 +151,7 @@
      :r/t-scheduled 130.0,
      :r/k "a-ideal-de-ovar-00415",
      :r/total-passed 147.0,
-     :r/t-done 116.0}
+     :r/t-done 116}
     {:r/nec 415,
      :r/level-0 "2017",
      :r/d-scheduled 103,
@@ -165,7 +165,7 @@
      :r/t-scheduled 130.0,
      :r/k "a-ideal-de-ovar-00415",
      :r/total-passed 168.0,
-     :r/t-done 128.0}
+     :r/t-done 128}
     {:r/nec 415,
      :r/level-0 "2018",
      :r/d-scheduled 86,
@@ -179,7 +179,7 @@
      :r/t-scheduled 100.0,
      :r/k "a-ideal-de-ovar-00415",
      :r/total-passed 131.0,
-     :r/t-done 99.0}
+     :r/t-done 99}
     {:r/nec 415,
      :r/level-0 "2019",
      :r/d-scheduled 71,
@@ -193,7 +193,7 @@
      :r/t-scheduled 101.0,
      :r/k "a-ideal-de-ovar-00415",
      :r/total-passed 119.0,
-     :r/t-done 101.0}
+     :r/t-done 101}
     {:r/nec 415,
      :r/level-0 "2020",
      :r/d-scheduled 65,
@@ -207,7 +207,7 @@
      :r/t-scheduled 108.0,
      :r/k "a-ideal-de-ovar-00415",
      :r/total-passed 111.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 415,
      :r/level-0 "2021",
      :r/d-scheduled 87,
@@ -221,7 +221,7 @@
      :r/t-scheduled 195.0,
      :r/k "a-ideal-de-ovar-00415",
      :r/total-passed nil,
-     :r/t-done 187.0}],
+     :r/t-done 187}],
    :imt-profile
    {:address "Rua Luís de Camões, 13 3880-240 OVAR",
     :name "Ideal de Ovar",
@@ -262,7 +262,7 @@
      :r/t-scheduled 127.0,
      :r/k "nova-de-esmoriz-00909",
      :r/total-passed 197.0,
-     :r/t-done 125.0}
+     :r/t-done 125}
     {:r/nec 909,
      :r/level-0 "2016",
      :r/d-scheduled 78,
@@ -276,7 +276,7 @@
      :r/t-scheduled 81.0,
      :r/k "nova-de-esmoriz-00909",
      :r/total-passed 130.0,
-     :r/t-done 78.0}
+     :r/t-done 78}
     {:r/nec 909,
      :r/level-0 "2017",
      :r/d-scheduled 96,
@@ -290,7 +290,7 @@
      :r/t-scheduled 100.0,
      :r/k "nova-de-esmoriz-00909",
      :r/total-passed 152.0,
-     :r/t-done 99.0}
+     :r/t-done 99}
     {:r/nec 909,
      :r/level-0 "2018",
      :r/d-scheduled 65,
@@ -304,7 +304,7 @@
      :r/t-scheduled 91.0,
      :r/k "nova-de-esmoriz-00909",
      :r/total-passed 125.0,
-     :r/t-done 86.0}
+     :r/t-done 86}
     {:r/nec 909,
      :r/level-0 "2019",
      :r/d-scheduled 59,
@@ -318,7 +318,7 @@
      :r/t-scheduled 111.0,
      :r/k "nova-de-esmoriz-00909",
      :r/total-passed 116.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 909,
      :r/level-0 "2020",
      :r/d-scheduled 62,
@@ -332,7 +332,7 @@
      :r/t-scheduled 77.0,
      :r/k "nova-de-esmoriz-00909",
      :r/total-passed 110.0,
-     :r/t-done 74.0}
+     :r/t-done 74}
     {:r/nec 909,
      :r/level-0 "2021",
      :r/d-scheduled 56,
@@ -346,7 +346,7 @@
      :r/t-scheduled 77.0,
      :r/k "nova-de-esmoriz-00909",
      :r/total-passed nil,
-     :r/t-done 70.0}],
+     :r/t-done 70}],
    :imt-profile
    {:address
     "Avª 29 de Março, 190 B-A, 1º Esqº - Edifício Miramar 3885-402 ESMORIZ",
@@ -386,7 +386,7 @@
      :r/t-scheduled 176.0,
      :r/k "julio-dinis-01063",
      :r/total-passed 228.0,
-     :r/t-done 171.0}
+     :r/t-done 171}
     {:r/nec 1063,
      :r/level-0 "2016",
      :r/d-scheduled 176,
@@ -400,7 +400,7 @@
      :r/t-scheduled 129.0,
      :r/k "julio-dinis-01063",
      :r/total-passed 199.0,
-     :r/t-done 123.0}
+     :r/t-done 123}
     {:r/nec 1063,
      :r/level-0 "2017",
      :r/d-scheduled 150,
@@ -414,7 +414,7 @@
      :r/t-scheduled 131.0,
      :r/k "julio-dinis-01063",
      :r/total-passed 183.0,
-     :r/t-done 128.0}
+     :r/t-done 128}
     {:r/nec 1063,
      :r/level-0 "2018",
      :r/d-scheduled 145,
@@ -428,7 +428,7 @@
      :r/t-scheduled 136.0,
      :r/k "julio-dinis-01063",
      :r/total-passed 171.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 1063,
      :r/level-0 "2019",
      :r/d-scheduled 122,
@@ -442,7 +442,7 @@
      :r/t-scheduled 124.0,
      :r/k "julio-dinis-01063",
      :r/total-passed 156.0,
-     :r/t-done 117.0}
+     :r/t-done 117}
     {:r/nec 1063,
      :r/level-0 "2020",
      :r/d-scheduled 127,
@@ -456,7 +456,7 @@
      :r/t-scheduled 157.0,
      :r/k "julio-dinis-01063",
      :r/total-passed 164.0,
-     :r/t-done 143.0}
+     :r/t-done 143}
     {:r/nec 1063,
      :r/level-0 "2021",
      :r/d-scheduled 153,
@@ -470,7 +470,7 @@
      :r/t-scheduled 135.0,
      :r/k "julio-dinis-01063",
      :r/total-passed nil,
-     :r/t-done 112.0}],
+     :r/t-done 112}],
    :imt-profile
    {:address "Rua Dr. Albino Borges Pinho nº 84 r/c 3880-001 OVAR",
     :name "Júlio Dinis",
@@ -512,7 +512,7 @@
      :r/t-scheduled 231.0,
      :r/k "mare-01219",
      :r/total-passed 263.0,
-     :r/t-done 221.0}
+     :r/t-done 221}
     {:r/nec 1219,
      :r/level-0 "2016",
      :r/d-scheduled 184,
@@ -526,7 +526,7 @@
      :r/t-scheduled 227.0,
      :r/k "mare-01219",
      :r/total-passed 305.0,
-     :r/t-done 222.0}
+     :r/t-done 222}
     {:r/nec 1219,
      :r/level-0 "2017",
      :r/d-scheduled 216,
@@ -540,7 +540,7 @@
      :r/t-scheduled 237.0,
      :r/k "mare-01219",
      :r/total-passed 303.0,
-     :r/t-done 225.0}
+     :r/t-done 225}
     {:r/nec 1219,
      :r/level-0 "2018",
      :r/d-scheduled 195,
@@ -554,7 +554,7 @@
      :r/t-scheduled 254.0,
      :r/k "mare-01219",
      :r/total-passed 329.0,
-     :r/t-done 246.0}
+     :r/t-done 246}
     {:r/nec 1219,
      :r/level-0 "2019",
      :r/d-scheduled 214,
@@ -568,7 +568,7 @@
      :r/t-scheduled 243.0,
      :r/k "mare-01219",
      :r/total-passed 332.0,
-     :r/t-done 237.0}
+     :r/t-done 237}
     {:r/nec 1219,
      :r/level-0 "2020",
      :r/d-scheduled 160,
@@ -582,7 +582,7 @@
      :r/t-scheduled 197.0,
      :r/k "mare-01219",
      :r/total-passed 273.0,
-     :r/t-done 190.0}
+     :r/t-done 190}
     {:r/nec 1219,
      :r/level-0 "2021",
      :r/d-scheduled 214,
@@ -596,7 +596,7 @@
      :r/t-scheduled 295.0,
      :r/k "mare-01219",
      :r/total-passed nil,
-     :r/t-done 274.0}],
+     :r/t-done 274}],
    :imt-profile
    {:address "Rua da Estrada Nova, Nº 1280 3885-401 ESMORIZ",
     :name "Maré",

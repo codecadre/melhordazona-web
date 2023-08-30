@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "condutor-seguro-00510",
    :r/total-passed 2.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 510,
    :r/level-0 "2016",
    :r/d-scheduled 155,
@@ -27,7 +27,7 @@
    :r/t-scheduled 111.0,
    :r/k "condutor-seguro-00510",
    :r/total-passed 152.0,
-   :r/t-done 109.0}
+   :r/t-done 109}
   {:r/nec 510,
    :r/level-0 "2017",
    :r/d-scheduled 150,
@@ -41,7 +41,7 @@
    :r/t-scheduled 123.0,
    :r/k "condutor-seguro-00510",
    :r/total-passed 162.0,
-   :r/t-done 123.0}
+   :r/t-done 123}
   {:r/nec 510,
    :r/level-0 "2018",
    :r/d-scheduled 153,
@@ -55,7 +55,7 @@
    :r/t-scheduled 115.0,
    :r/k "condutor-seguro-00510",
    :r/total-passed 175.0,
-   :r/t-done 113.0}
+   :r/t-done 113}
   {:r/nec 510,
    :r/level-0 "2019",
    :r/d-scheduled 155,
@@ -69,7 +69,7 @@
    :r/t-scheduled 100.0,
    :r/k "condutor-seguro-00510",
    :r/total-passed 158.0,
-   :r/t-done 99.0}
+   :r/t-done 99}
   {:r/nec 510,
    :r/level-0 "2020",
    :r/d-scheduled 176,
@@ -83,7 +83,7 @@
    :r/t-scheduled 128.0,
    :r/k "condutor-seguro-00510",
    :r/total-passed 198.0,
-   :r/t-done 122.0}
+   :r/t-done 122}
   {:r/nec 510,
    :r/level-0 "2021",
    :r/d-scheduled 182,
@@ -97,7 +97,7 @@
    :r/t-scheduled 144.0,
    :r/k "condutor-seguro-00510",
    :r/total-passed nil,
-   :r/t-done 140.0}],
+   :r/t-done 140}],
  :imt-profile
  {:address "Av. Central de Guilhufe, 60, 4560-162 Penafiel",
   :name "Condutor Seguro",

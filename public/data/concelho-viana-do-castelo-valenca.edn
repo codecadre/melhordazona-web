@@ -14,7 +14,7 @@
      :r/t-scheduled 185.0,
      :r/k "alto-minho-00460",
      :r/total-passed 276.0,
-     :r/t-done 184.0}
+     :r/t-done 184}
     {:r/nec 460,
      :r/level-0 "2016",
      :r/d-scheduled 142,
@@ -28,7 +28,7 @@
      :r/t-scheduled 164.0,
      :r/k "alto-minho-00460",
      :r/total-passed 246.0,
-     :r/t-done 163.0}
+     :r/t-done 163}
     {:r/nec 460,
      :r/level-0 "2017",
      :r/d-scheduled 116,
@@ -42,7 +42,7 @@
      :r/t-scheduled 161.0,
      :r/k "alto-minho-00460",
      :r/total-passed 220.0,
-     :r/t-done 155.0}
+     :r/t-done 155}
     {:r/nec 460,
      :r/level-0 "2018",
      :r/d-scheduled 149,
@@ -56,7 +56,7 @@
      :r/t-scheduled 216.0,
      :r/k "alto-minho-00460",
      :r/total-passed 279.0,
-     :r/t-done 209.0}
+     :r/t-done 209}
     {:r/nec 460,
      :r/level-0 "2019",
      :r/d-scheduled 161,
@@ -70,7 +70,7 @@
      :r/t-scheduled 188.0,
      :r/k "alto-minho-00460",
      :r/total-passed 269.0,
-     :r/t-done 181.0}
+     :r/t-done 181}
     {:r/nec 460,
      :r/level-0 "2020",
      :r/d-scheduled 128,
@@ -84,7 +84,7 @@
      :r/t-scheduled 180.0,
      :r/k "alto-minho-00460",
      :r/total-passed 206.0,
-     :r/t-done 147.0}
+     :r/t-done 147}
     {:r/nec 460,
      :r/level-0 "2021",
      :r/d-scheduled 150,
@@ -98,7 +98,7 @@
      :r/t-scheduled 262.0,
      :r/k "alto-minho-00460",
      :r/total-passed nil,
-     :r/t-done 217.0}],
+     :r/t-done 217}],
    :imt-profile
    {:address
     "Avª Dr. Tito Fontes -Edificio Bruxelas, Loja 15 - 1º 4930-673 VALENÇA",
@@ -138,7 +138,7 @@
      :r/t-scheduled 74.0,
      :r/k "a-valenciana-00558",
      :r/total-passed 102.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 558,
      :r/level-0 "2016",
      :r/d-scheduled 55,
@@ -152,7 +152,7 @@
      :r/t-scheduled 50.0,
      :r/k "a-valenciana-00558",
      :r/total-passed 86.0,
-     :r/t-done 50.0}
+     :r/t-done 50}
     {:r/nec 558,
      :r/level-0 "2017",
      :r/d-scheduled 55,
@@ -166,7 +166,7 @@
      :r/t-scheduled 78.0,
      :r/k "a-valenciana-00558",
      :r/total-passed 98.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 558,
      :r/level-0 "2018",
      :r/d-scheduled 58,
@@ -180,7 +180,7 @@
      :r/t-scheduled 68.0,
      :r/k "a-valenciana-00558",
      :r/total-passed 96.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 558,
      :r/level-0 "2019",
      :r/d-scheduled 80,
@@ -194,7 +194,7 @@
      :r/t-scheduled 72.0,
      :r/k "a-valenciana-00558",
      :r/total-passed 132.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 558,
      :r/level-0 "2020",
      :r/d-scheduled 40,
@@ -208,7 +208,7 @@
      :r/t-scheduled 46.0,
      :r/k "a-valenciana-00558",
      :r/total-passed 71.0,
-     :r/t-done 43.0}
+     :r/t-done 43}
     {:r/nec 558,
      :r/level-0 "2021",
      :r/d-scheduled 62,
@@ -222,7 +222,7 @@
      :r/t-scheduled 91.0,
      :r/k "a-valenciana-00558",
      :r/total-passed nil,
-     :r/t-done 74.0}],
+     :r/t-done 74}],
    :imt-profile
    {:address "Largo S. Sebastião, lote 6 –Fracção A 4930-697 VALENÇA",
     :name "A Valenciana",

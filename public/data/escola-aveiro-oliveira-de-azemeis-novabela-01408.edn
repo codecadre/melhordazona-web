@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "novabela-01408",
    :r/total-passed 0.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 1408,
    :r/level-0 "2018",
    :r/d-scheduled 57,
@@ -27,7 +27,7 @@
    :r/t-scheduled 66.0,
    :r/k "novabela-01408",
    :r/total-passed 86.0,
-   :r/t-done 66.0}
+   :r/t-done 66}
   {:r/nec 1408,
    :r/level-0 "2019",
    :r/d-scheduled 170,
@@ -41,7 +41,7 @@
    :r/t-scheduled 172.0,
    :r/k "novabela-01408",
    :r/total-passed 248.0,
-   :r/t-done 172.0}
+   :r/t-done 172}
   {:r/nec 1408,
    :r/level-0 "2020",
    :r/d-scheduled 171,
@@ -55,7 +55,7 @@
    :r/t-scheduled 221.0,
    :r/k "novabela-01408",
    :r/total-passed 276.0,
-   :r/t-done 205.0}
+   :r/t-done 205}
   {:r/nec 1408,
    :r/level-0 "2021",
    :r/d-scheduled 317,
@@ -69,7 +69,7 @@
    :r/t-scheduled 295.0,
    :r/k "novabela-01408",
    :r/total-passed nil,
-   :r/t-done 279.0}],
+   :r/t-done 279}],
  :imt-profile
  {:address
   "Av. dos Descobrimentos, n.º 643, Edifício Brites, 3700-766 Nogueira do Cravo",

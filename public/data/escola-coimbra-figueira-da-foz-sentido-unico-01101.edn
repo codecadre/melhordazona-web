@@ -13,7 +13,7 @@
    :r/t-scheduled 63.0,
    :r/k "sentido-unico-01101",
    :r/total-passed 84.0,
-   :r/t-done 60.0}
+   :r/t-done 60}
   {:r/nec 1101,
    :r/level-0 "2016",
    :r/d-scheduled 84,
@@ -27,7 +27,7 @@
    :r/t-scheduled 70.0,
    :r/k "sentido-unico-01101",
    :r/total-passed 97.0,
-   :r/t-done 69.0}
+   :r/t-done 69}
   {:r/nec 1101,
    :r/level-0 "2017",
    :r/d-scheduled 115,
@@ -41,7 +41,7 @@
    :r/t-scheduled 86.0,
    :r/k "sentido-unico-01101",
    :r/total-passed 117.0,
-   :r/t-done 83.0}
+   :r/t-done 83}
   {:r/nec 1101,
    :r/level-0 "2018",
    :r/d-scheduled 68,
@@ -55,7 +55,7 @@
    :r/t-scheduled 56.0,
    :r/k "sentido-unico-01101",
    :r/total-passed 76.0,
-   :r/t-done 55.0}
+   :r/t-done 55}
   {:r/nec 1101,
    :r/level-0 "2019",
    :r/d-scheduled 67,
@@ -69,7 +69,7 @@
    :r/t-scheduled 55.0,
    :r/k "sentido-unico-01101",
    :r/total-passed 77.0,
-   :r/t-done 55.0}
+   :r/t-done 55}
   {:r/nec 1101,
    :r/level-0 "2020",
    :r/d-scheduled 68,
@@ -83,7 +83,7 @@
    :r/t-scheduled 66.0,
    :r/k "sentido-unico-01101",
    :r/total-passed 81.0,
-   :r/t-done 62.0}
+   :r/t-done 62}
   {:r/nec 1101,
    :r/level-0 "2021",
    :r/d-scheduled 67,
@@ -97,7 +97,7 @@
    :r/t-scheduled 56.0,
    :r/k "sentido-unico-01101",
    :r/total-passed nil,
-   :r/t-done 56.0}],
+   :r/t-done 56}],
  :imt-profile
  {:address "Rua de Santo Amaro n º 7 r/c 3090-401 FIGUEIRA DA FOZ",
   :name "Sentido Único",

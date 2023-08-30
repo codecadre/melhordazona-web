@@ -14,7 +14,7 @@
      :r/t-scheduled 99.0,
      :r/k "rodascity-00439",
      :r/total-passed 132.0,
-     :r/t-done 99.0}
+     :r/t-done 99}
     {:r/nec 439,
      :r/level-0 "2016",
      :r/d-scheduled 90,
@@ -28,7 +28,7 @@
      :r/t-scheduled 76.0,
      :r/k "rodascity-00439",
      :r/total-passed 114.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 439,
      :r/level-0 "2017",
      :r/d-scheduled 102,
@@ -42,7 +42,7 @@
      :r/t-scheduled 88.0,
      :r/k "rodascity-00439",
      :r/total-passed 137.0,
-     :r/t-done 85.0}
+     :r/t-done 85}
     {:r/nec 439,
      :r/level-0 "2018",
      :r/d-scheduled 94,
@@ -56,7 +56,7 @@
      :r/t-scheduled 103.0,
      :r/k "rodascity-00439",
      :r/total-passed 130.0,
-     :r/t-done 101.0}
+     :r/t-done 101}
     {:r/nec 439,
      :r/level-0 "2019",
      :r/d-scheduled 78,
@@ -70,7 +70,7 @@
      :r/t-scheduled 88.0,
      :r/k "rodascity-00439",
      :r/total-passed 110.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 439,
      :r/level-0 "2020",
      :r/d-scheduled 76,
@@ -84,7 +84,7 @@
      :r/t-scheduled 103.0,
      :r/k "rodascity-00439",
      :r/total-passed 127.0,
-     :r/t-done 102.0}
+     :r/t-done 102}
     {:r/nec 439,
      :r/level-0 "2021",
      :r/d-scheduled 157,
@@ -98,7 +98,7 @@
      :r/t-scheduled 164.0,
      :r/k "rodascity-00439",
      :r/total-passed nil,
-     :r/t-done 150.0}],
+     :r/t-done 150}],
    :imt-profile
    {:address "Largo Alípio Loureiro - Santana 2970 SESIMBRA",
     :name "Rodascity",
@@ -130,7 +130,7 @@
      :r/t-scheduled 143.0,
      :r/k "jevi-00799",
      :r/total-passed 210.0,
-     :r/t-done 143.0}
+     :r/t-done 143}
     {:r/nec 799,
      :r/level-0 "2016",
      :r/d-scheduled 126,
@@ -144,7 +144,7 @@
      :r/t-scheduled 106.0,
      :r/k "jevi-00799",
      :r/total-passed 182.0,
-     :r/t-done 106.0}
+     :r/t-done 106}
     {:r/nec 799,
      :r/level-0 "2017",
      :r/d-scheduled 123,
@@ -158,7 +158,7 @@
      :r/t-scheduled 137.0,
      :r/k "jevi-00799",
      :r/total-passed 193.0,
-     :r/t-done 135.0}
+     :r/t-done 135}
     {:r/nec 799,
      :r/level-0 "2018",
      :r/d-scheduled 133,
@@ -172,7 +172,7 @@
      :r/t-scheduled 157.0,
      :r/k "jevi-00799",
      :r/total-passed 219.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 799,
      :r/level-0 "2019",
      :r/d-scheduled 136,
@@ -186,7 +186,7 @@
      :r/t-scheduled 151.0,
      :r/k "jevi-00799",
      :r/total-passed 230.0,
-     :r/t-done 149.0}
+     :r/t-done 149}
     {:r/nec 799,
      :r/level-0 "2020",
      :r/d-scheduled 164,
@@ -200,7 +200,7 @@
      :r/t-scheduled 172.0,
      :r/k "jevi-00799",
      :r/total-passed 236.0,
-     :r/t-done 163.0}
+     :r/t-done 163}
     {:r/nec 799,
      :r/level-0 "2021",
      :r/d-scheduled 104,
@@ -214,7 +214,7 @@
      :r/t-scheduled 164.0,
      :r/k "jevi-00799",
      :r/total-passed nil,
-     :r/t-done 145.0}],
+     :r/t-done 145}],
    :imt-profile
    {:address "Avª João Paulo II, 42 B e 42 F 2970-649 SESIMBRA",
     :name "Jevi",
@@ -256,7 +256,7 @@
      :r/t-scheduled 133.0,
      :r/k "palma-cordeiro-01037",
      :r/total-passed 180.0,
-     :r/t-done 132.0}
+     :r/t-done 132}
     {:r/nec 1037,
      :r/level-0 "2016",
      :r/d-scheduled 111,
@@ -270,7 +270,7 @@
      :r/t-scheduled 158.0,
      :r/k "palma-cordeiro-01037",
      :r/total-passed 162.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 1037,
      :r/level-0 "2017",
      :r/d-scheduled 155,
@@ -284,7 +284,7 @@
      :r/t-scheduled 187.0,
      :r/k "palma-cordeiro-01037",
      :r/total-passed 203.0,
-     :r/t-done 186.0}
+     :r/t-done 186}
     {:r/nec 1037,
      :r/level-0 "2018",
      :r/d-scheduled 266,
@@ -298,7 +298,7 @@
      :r/t-scheduled 359.0,
      :r/k "palma-cordeiro-01037",
      :r/total-passed 415.0,
-     :r/t-done 349.0}
+     :r/t-done 349}
     {:r/nec 1037,
      :r/level-0 "2019",
      :r/d-scheduled 402,
@@ -312,7 +312,7 @@
      :r/t-scheduled 379.0,
      :r/k "palma-cordeiro-01037",
      :r/total-passed 530.0,
-     :r/t-done 364.0}
+     :r/t-done 364}
     {:r/nec 1037,
      :r/level-0 "2020",
      :r/d-scheduled 309,
@@ -326,7 +326,7 @@
      :r/t-scheduled 416.0,
      :r/k "palma-cordeiro-01037",
      :r/total-passed 498.0,
-     :r/t-done 387.0}
+     :r/t-done 387}
     {:r/nec 1037,
      :r/level-0 "2021",
      :r/d-scheduled 375,
@@ -340,7 +340,7 @@
      :r/t-scheduled 336.0,
      :r/k "palma-cordeiro-01037",
      :r/total-passed nil,
-     :r/t-done 307.0}],
+     :r/t-done 307}],
    :imt-profile
    {:address
     "Rua Jaime Cortesão nº 53 r/c Dtº - Cova dos Vidros 2975-323 QUINTA DO CONDE",
@@ -384,7 +384,7 @@
      :r/t-scheduled 196.0,
      :r/k "drivers-club-01084",
      :r/total-passed 278.0,
-     :r/t-done 196.0}
+     :r/t-done 196}
     {:r/nec 1084,
      :r/level-0 "2016",
      :r/d-scheduled 154,
@@ -398,7 +398,7 @@
      :r/t-scheduled 159.0,
      :r/k "drivers-club-01084",
      :r/total-passed 230.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 1084,
      :r/level-0 "2017",
      :r/d-scheduled 152,
@@ -412,7 +412,7 @@
      :r/t-scheduled 145.0,
      :r/k "drivers-club-01084",
      :r/total-passed 219.0,
-     :r/t-done 141.0}
+     :r/t-done 141}
     {:r/nec 1084,
      :r/level-0 "2018",
      :r/d-scheduled 146,
@@ -426,7 +426,7 @@
      :r/t-scheduled 136.0,
      :r/k "drivers-club-01084",
      :r/total-passed 197.0,
-     :r/t-done 132.0}
+     :r/t-done 132}
     {:r/nec 1084,
      :r/level-0 "2019",
      :r/d-scheduled 154,
@@ -440,7 +440,7 @@
      :r/t-scheduled 165.0,
      :r/k "drivers-club-01084",
      :r/total-passed 237.0,
-     :r/t-done 160.0}
+     :r/t-done 160}
     {:r/nec 1084,
      :r/level-0 "2020",
      :r/d-scheduled 149,
@@ -454,7 +454,7 @@
      :r/t-scheduled 136.0,
      :r/k "drivers-club-01084",
      :r/total-passed 203.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 1084,
      :r/level-0 "2021",
      :r/d-scheduled 157,
@@ -468,7 +468,7 @@
      :r/t-scheduled 173.0,
      :r/k "drivers-club-01084",
      :r/total-passed nil,
-     :r/t-done 163.0}],
+     :r/t-done 163}],
    :imt-profile
    {:address "Rua Luísa Tody, lote 2157 2975-288 QUINTA DO CONDE",
     :name "Driver´s Club",
@@ -510,7 +510,7 @@
      :r/t-scheduled 97.0,
      :r/k "via-vanda-01270",
      :r/total-passed 123.0,
-     :r/t-done 95.0}
+     :r/t-done 95}
     {:r/nec 1270,
      :r/level-0 "2016",
      :r/d-scheduled 119,
@@ -524,7 +524,7 @@
      :r/t-scheduled 112.0,
      :r/k "via-vanda-01270",
      :r/total-passed 160.0,
-     :r/t-done 108.0}
+     :r/t-done 108}
     {:r/nec 1270,
      :r/level-0 "2017",
      :r/d-scheduled 71,
@@ -538,7 +538,7 @@
      :r/t-scheduled 109.0,
      :r/k "via-vanda-01270",
      :r/total-passed 128.0,
-     :r/t-done 98.0}
+     :r/t-done 98}
     {:r/nec 1270,
      :r/level-0 "2018",
      :r/d-scheduled 91,
@@ -552,7 +552,7 @@
      :r/t-scheduled 94.0,
      :r/k "via-vanda-01270",
      :r/total-passed 148.0,
-     :r/t-done 92.0}
+     :r/t-done 92}
     {:r/nec 1270,
      :r/level-0 "2019",
      :r/d-scheduled 114,
@@ -566,7 +566,7 @@
      :r/t-scheduled 145.0,
      :r/k "via-vanda-01270",
      :r/total-passed 176.0,
-     :r/t-done 140.0}
+     :r/t-done 140}
     {:r/nec 1270,
      :r/level-0 "2020",
      :r/d-scheduled 110,
@@ -580,7 +580,7 @@
      :r/t-scheduled 132.0,
      :r/k "via-vanda-01270",
      :r/total-passed 178.0,
-     :r/t-done 127.0}
+     :r/t-done 127}
     {:r/nec 1270,
      :r/level-0 "2021",
      :r/d-scheduled 156,
@@ -594,7 +594,7 @@
      :r/t-scheduled 189.0,
      :r/k "via-vanda-01270",
      :r/total-passed nil,
-     :r/t-done 171.0}],
+     :r/t-done 171}],
    :imt-profile
    {:address "Rua Terra da Ucha, n.º 34-D, 2970-585 SESIMBRA",
     :name "Via Vanda",
@@ -633,7 +633,7 @@
      :r/t-scheduled 63.0,
      :r/k "quinta-do-conde-01406",
      :r/total-passed 59.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 1406,
      :r/level-0 "2019",
      :r/d-scheduled 144,
@@ -647,7 +647,7 @@
      :r/t-scheduled 233.0,
      :r/k "quinta-do-conde-01406",
      :r/total-passed 250.0,
-     :r/t-done 224.0}
+     :r/t-done 224}
     {:r/nec 1406,
      :r/level-0 "2020",
      :r/d-scheduled 195,
@@ -661,7 +661,7 @@
      :r/t-scheduled 238.0,
      :r/k "quinta-do-conde-01406",
      :r/total-passed 305.0,
-     :r/t-done 229.0}
+     :r/t-done 229}
     {:r/nec 1406,
      :r/level-0 "2021",
      :r/d-scheduled 221,
@@ -675,7 +675,7 @@
      :r/t-scheduled 305.0,
      :r/k "quinta-do-conde-01406",
      :r/total-passed nil,
-     :r/t-done 281.0}],
+     :r/t-done 281}],
    :imt-profile
    {:address
     "Av. Principal, n.º 1152 r/c, Quinta do Conde 1, 2975-246 Quinta do Conde",

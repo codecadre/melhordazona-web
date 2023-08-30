@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "capas-negras-01378",
    :r/total-passed 0.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 1378,
    :r/level-0 "2019",
    :r/d-scheduled 47,
@@ -27,7 +27,7 @@
    :r/t-scheduled 79.0,
    :r/k "capas-negras-01378",
    :r/total-passed 88.0,
-   :r/t-done 78.0}
+   :r/t-done 78}
   {:r/nec 1378,
    :r/level-0 "2020",
    :r/d-scheduled 118,
@@ -41,7 +41,7 @@
    :r/t-scheduled 140.0,
    :r/k "capas-negras-01378",
    :r/total-passed 182.0,
-   :r/t-done 139.0}
+   :r/t-done 139}
   {:r/nec 1378,
    :r/level-0 "2021",
    :r/d-scheduled 201,
@@ -55,7 +55,7 @@
    :r/t-scheduled 249.0,
    :r/k "capas-negras-01378",
    :r/total-passed nil,
-   :r/t-done 235.0}],
+   :r/t-done 235}],
  :imt-profile
  {:address
   "Largo da Portagem n.º 39, escritório n.º 402, 4º andar 3000-337 Coimbra",

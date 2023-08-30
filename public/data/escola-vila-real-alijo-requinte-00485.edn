@@ -13,7 +13,7 @@
    :r/t-scheduled 8.0,
    :r/k "requinte-00485",
    :r/total-passed 18.0,
-   :r/t-done 8.0}
+   :r/t-done 8}
   {:r/nec 485,
    :r/level-0 "2016",
    :r/d-scheduled 5,
@@ -27,7 +27,7 @@
    :r/t-scheduled 2.0,
    :r/k "requinte-00485",
    :r/total-passed 7.0,
-   :r/t-done 2.0}
+   :r/t-done 2}
   {:r/nec 485,
    :r/level-0 "2017",
    :r/d-scheduled 18,
@@ -41,7 +41,7 @@
    :r/t-scheduled 6.0,
    :r/k "requinte-00485",
    :r/total-passed 17.0,
-   :r/t-done 6.0}
+   :r/t-done 6}
   {:r/nec 485,
    :r/level-0 "2018",
    :r/d-scheduled 14,
@@ -55,7 +55,7 @@
    :r/t-scheduled 6.0,
    :r/k "requinte-00485",
    :r/total-passed 14.0,
-   :r/t-done 6.0}
+   :r/t-done 6}
   {:r/nec 485,
    :r/level-0 "2019",
    :r/d-scheduled 14,
@@ -69,7 +69,7 @@
    :r/t-scheduled 9.0,
    :r/k "requinte-00485",
    :r/total-passed 18.0,
-   :r/t-done 8.0}
+   :r/t-done 8}
   {:r/nec 485,
    :r/level-0 "2020",
    :r/d-scheduled 17,
@@ -83,7 +83,7 @@
    :r/t-scheduled 12.0,
    :r/k "requinte-00485",
    :r/total-passed 23.0,
-   :r/t-done 12.0}
+   :r/t-done 12}
   {:r/nec 485,
    :r/level-0 "2021",
    :r/d-scheduled 15,
@@ -97,7 +97,7 @@
    :r/t-scheduled 10.0,
    :r/k "requinte-00485",
    :r/total-passed nil,
-   :r/t-done 10.0}],
+   :r/t-done 10}],
  :imt-profile
  {:address "Rua Senhor do Andor 5070-059 ALIJÓ",
   :name "Requinte",

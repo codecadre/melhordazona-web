@@ -13,7 +13,7 @@
    :r/t-scheduled 1.0,
    :r/k "via-dinamica-01337",
    :r/total-passed 1.0,
-   :r/t-done 1.0}
+   :r/t-done 1}
   {:r/nec 1337,
    :r/level-0 "2016",
    :r/d-scheduled 42,
@@ -27,7 +27,7 @@
    :r/t-scheduled 41.0,
    :r/k "via-dinamica-01337",
    :r/total-passed 60.0,
-   :r/t-done 41.0}
+   :r/t-done 41}
   {:r/nec 1337,
    :r/level-0 "2017",
    :r/d-scheduled 77,
@@ -41,7 +41,7 @@
    :r/t-scheduled 78.0,
    :r/k "via-dinamica-01337",
    :r/total-passed 100.0,
-   :r/t-done 77.0}
+   :r/t-done 77}
   {:r/nec 1337,
    :r/level-0 "2018",
    :r/d-scheduled 131,
@@ -55,7 +55,7 @@
    :r/t-scheduled 109.0,
    :r/k "via-dinamica-01337",
    :r/total-passed 168.0,
-   :r/t-done 108.0}
+   :r/t-done 108}
   {:r/nec 1337,
    :r/level-0 "2019",
    :r/d-scheduled 132,
@@ -69,7 +69,7 @@
    :r/t-scheduled 97.0,
    :r/k "via-dinamica-01337",
    :r/total-passed 156.0,
-   :r/t-done 95.0}
+   :r/t-done 95}
   {:r/nec 1337,
    :r/level-0 "2020",
    :r/d-scheduled 159,
@@ -83,7 +83,7 @@
    :r/t-scheduled 140.0,
    :r/k "via-dinamica-01337",
    :r/total-passed 191.0,
-   :r/t-done 135.0}
+   :r/t-done 135}
   {:r/nec 1337,
    :r/level-0 "2021",
    :r/d-scheduled 167,
@@ -97,7 +97,7 @@
    :r/t-scheduled 182.0,
    :r/k "via-dinamica-01337",
    :r/total-passed nil,
-   :r/t-done 158.0}],
+   :r/t-done 158}],
  :imt-profile
  {:address
   "Av. Dr. Francisco Sá Carneiro, Ed. Alta Vista, loja 448, 2415-376 Leiria",

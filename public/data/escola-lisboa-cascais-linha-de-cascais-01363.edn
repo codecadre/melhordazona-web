@@ -13,7 +13,7 @@
    :r/t-scheduled 8.0,
    :r/k "linha-de-cascais-01363",
    :r/total-passed 8.0,
-   :r/t-done 8.0}
+   :r/t-done 8}
   {:r/nec 1363,
    :r/level-0 "2017",
    :r/d-scheduled 83,
@@ -27,7 +27,7 @@
    :r/t-scheduled 91.0,
    :r/k "linha-de-cascais-01363",
    :r/total-passed 127.0,
-   :r/t-done 88.0}
+   :r/t-done 88}
   {:r/nec 1363,
    :r/level-0 "2018",
    :r/d-scheduled 154,
@@ -41,7 +41,7 @@
    :r/t-scheduled 168.0,
    :r/k "linha-de-cascais-01363",
    :r/total-passed 263.0,
-   :r/t-done 166.0}
+   :r/t-done 166}
   {:r/nec 1363,
    :r/level-0 "2019",
    :r/d-scheduled 167,
@@ -55,7 +55,7 @@
    :r/t-scheduled 160.0,
    :r/k "linha-de-cascais-01363",
    :r/total-passed 246.0,
-   :r/t-done 153.0}
+   :r/t-done 153}
   {:r/nec 1363,
    :r/level-0 "2020",
    :r/d-scheduled 175,
@@ -69,7 +69,7 @@
    :r/t-scheduled 264.0,
    :r/k "linha-de-cascais-01363",
    :r/total-passed 303.0,
-   :r/t-done 236.0}
+   :r/t-done 236}
   {:r/nec 1363,
    :r/level-0 "2021",
    :r/d-scheduled 234,
@@ -83,7 +83,7 @@
    :r/t-scheduled 256.0,
    :r/k "linha-de-cascais-01363",
    :r/total-passed nil,
-   :r/t-done 226.0}],
+   :r/t-done 226}],
  :imt-profile
  {:address "Rua Athilio Santini, n.º 160, 2750-100 Cascais",
   :name "Linha de Cascais",

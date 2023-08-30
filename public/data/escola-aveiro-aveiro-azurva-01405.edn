@@ -13,7 +13,7 @@
    :r/t-scheduled 36.0,
    :r/k "azurva-01405",
    :r/total-passed 35.0,
-   :r/t-done 35.0}
+   :r/t-done 35}
   {:r/nec 1405,
    :r/level-0 "2019",
    :r/d-scheduled 59,
@@ -27,7 +27,7 @@
    :r/t-scheduled 87.0,
    :r/k "azurva-01405",
    :r/total-passed 79.0,
-   :r/t-done 86.0}
+   :r/t-done 86}
   {:r/nec 1405,
    :r/level-0 "2020",
    :r/d-scheduled 72,
@@ -41,7 +41,7 @@
    :r/t-scheduled 121.0,
    :r/k "azurva-01405",
    :r/total-passed 110.0,
-   :r/t-done 113.0}
+   :r/t-done 113}
   {:r/nec 1405,
    :r/level-0 "2021",
    :r/d-scheduled 129,
@@ -55,7 +55,7 @@
    :r/t-scheduled 118.0,
    :r/k "azurva-01405",
    :r/total-passed nil,
-   :r/t-done 110.0}],
+   :r/t-done 110}],
  :imt-profile
  {:address "Rua da República, n.º 118 3810-158 Santa Joana",
   :name "Azurva",

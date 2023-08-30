@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "prodigio-01385",
    :r/total-passed 0.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 1385,
    :r/level-0 "2017",
    :r/d-scheduled 74,
@@ -27,7 +27,7 @@
    :r/t-scheduled 71.0,
    :r/k "prodigio-01385",
    :r/total-passed 97.0,
-   :r/t-done 70.0}
+   :r/t-done 70}
   {:r/nec 1385,
    :r/level-0 "2018",
    :r/d-scheduled 274,
@@ -41,7 +41,7 @@
    :r/t-scheduled 239.0,
    :r/k "prodigio-01385",
    :r/total-passed 346.0,
-   :r/t-done 227.0}
+   :r/t-done 227}
   {:r/nec 1385,
    :r/level-0 "2019",
    :r/d-scheduled 314,
@@ -55,7 +55,7 @@
    :r/t-scheduled 262.0,
    :r/k "prodigio-01385",
    :r/total-passed 401.0,
-   :r/t-done 246.0}
+   :r/t-done 246}
   {:r/nec 1385,
    :r/level-0 "2020",
    :r/d-scheduled 280,
@@ -69,7 +69,7 @@
    :r/t-scheduled 281.0,
    :r/k "prodigio-01385",
    :r/total-passed 343.0,
-   :r/t-done 251.0}
+   :r/t-done 251}
   {:r/nec 1385,
    :r/level-0 "2021",
    :r/d-scheduled 365,
@@ -83,7 +83,7 @@
    :r/t-scheduled 400.0,
    :r/k "prodigio-01385",
    :r/total-passed nil,
-   :r/t-done 320.0}],
+   :r/t-done 320}],
  :imt-profile
  {:address
   "Travessa Conselheiro Veloso da Cruz, n.º 112, 4400-097 Vila Nova de Gaia",

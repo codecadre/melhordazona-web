@@ -13,7 +13,7 @@
    :r/t-scheduled 29.0,
    :r/k "forus-01392",
    :r/total-passed 36.0,
-   :r/t-done 28.0}
+   :r/t-done 28}
   {:r/nec 1392,
    :r/level-0 "2019",
    :r/d-scheduled 75,
@@ -27,7 +27,7 @@
    :r/t-scheduled 72.0,
    :r/k "forus-01392",
    :r/total-passed 91.0,
-   :r/t-done 69.0}
+   :r/t-done 69}
   {:r/nec 1392,
    :r/level-0 "2020",
    :r/d-scheduled 95,
@@ -41,7 +41,7 @@
    :r/t-scheduled 99.0,
    :r/k "forus-01392",
    :r/total-passed 111.0,
-   :r/t-done 86.0}
+   :r/t-done 86}
   {:r/nec 1392,
    :r/level-0 "2021",
    :r/d-scheduled 146,
@@ -55,7 +55,7 @@
    :r/t-scheduled 181.0,
    :r/k "forus-01392",
    :r/total-passed nil,
-   :r/t-done 156.0}],
+   :r/t-done 156}],
  :imt-profile
  {:address "Estação de Comboios dos Foros da Amora loja 18",
   :name "Forus",

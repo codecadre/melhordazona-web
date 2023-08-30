@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "75agv-01410",
    :r/total-passed 0.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 1410,
    :r/level-0 "2018",
    :r/d-scheduled 133,
@@ -27,7 +27,7 @@
    :r/t-scheduled 135.0,
    :r/k "75agv-01410",
    :r/total-passed 182.0,
-   :r/t-done 132.0}
+   :r/t-done 132}
   {:r/nec 1410,
    :r/level-0 "2019",
    :r/d-scheduled 292,
@@ -41,7 +41,7 @@
    :r/t-scheduled 207.0,
    :r/k "75agv-01410",
    :r/total-passed 306.0,
-   :r/t-done 201.0}
+   :r/t-done 201}
   {:r/nec 1410,
    :r/level-0 "2020",
    :r/d-scheduled 288,
@@ -55,7 +55,7 @@
    :r/t-scheduled 202.0,
    :r/k "75agv-01410",
    :r/total-passed 324.0,
-   :r/t-done 187.0}],
+   :r/t-done 187}],
  :imt-profile
  {:address
   "Rua Diogo Botelho, n.º 1916 – Frações C e D, 4150-261 Porto",

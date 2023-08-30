@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "estacao-01398",
    :r/total-passed 0.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 1398,
    :r/level-0 "2018",
    :r/d-scheduled 72,
@@ -27,7 +27,7 @@
    :r/t-scheduled 114.0,
    :r/k "estacao-01398",
    :r/total-passed 115.0,
-   :r/t-done 109.0}
+   :r/t-done 109}
   {:r/nec 1398,
    :r/level-0 "2019",
    :r/d-scheduled 254,
@@ -41,7 +41,7 @@
    :r/t-scheduled 283.0,
    :r/k "estacao-01398",
    :r/total-passed 330.0,
-   :r/t-done 270.0}
+   :r/t-done 270}
   {:r/nec 1398,
    :r/level-0 "2020",
    :r/d-scheduled 346,
@@ -55,7 +55,7 @@
    :r/t-scheduled 389.0,
    :r/k "estacao-01398",
    :r/total-passed 421.0,
-   :r/t-done 364.0}
+   :r/t-done 364}
   {:r/nec 1398,
    :r/level-0 "2021",
    :r/d-scheduled 335,
@@ -69,7 +69,7 @@
    :r/t-scheduled 374.0,
    :r/k "estacao-01398",
    :r/total-passed nil,
-   :r/t-done 341.0}],
+   :r/t-done 341}],
  :imt-profile
  {:address "Rua Miguel Torga, n.º 22 loja Drtº, 2725-563 Men Martins",
   :name "Estação",

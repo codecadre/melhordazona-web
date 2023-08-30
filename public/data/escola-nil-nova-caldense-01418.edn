@@ -13,7 +13,7 @@
    :r/t-scheduled 6.0,
    :r/k "nova-caldense-01418",
    :r/total-passed 10.0,
-   :r/t-done 6.0}
+   :r/t-done 6}
   {:r/nec 1418,
    :r/level-0 "2020",
    :r/d-scheduled 2,
@@ -27,7 +27,7 @@
    :r/t-scheduled 4.0,
    :r/k "nova-caldense-01418",
    :r/total-passed 4.0,
-   :r/t-done 3.0}],
+   :r/t-done 3}],
  :imt-profile nil,
  :obs "license 1418 is 'Motoschool' in imt.pt",
  :overwrite/notes nil}

@@ -13,7 +13,7 @@
    :r/t-scheduled 0.0,
    :r/k "casal-de-cambra-01342",
    :r/total-passed 0.0,
-   :r/t-done 0.0}
+   :r/t-done 0}
   {:r/nec 1342,
    :r/level-0 "2016",
    :r/d-scheduled 28,
@@ -27,7 +27,7 @@
    :r/t-scheduled 71.0,
    :r/k "casal-de-cambra-01342",
    :r/total-passed 66.0,
-   :r/t-done 70.0}
+   :r/t-done 70}
   {:r/nec 1342,
    :r/level-0 "2017",
    :r/d-scheduled 88,
@@ -41,7 +41,7 @@
    :r/t-scheduled 191.0,
    :r/k "casal-de-cambra-01342",
    :r/total-passed 158.0,
-   :r/t-done 183.0}
+   :r/t-done 183}
   {:r/nec 1342,
    :r/level-0 "2018",
    :r/d-scheduled 174,
@@ -55,7 +55,7 @@
    :r/t-scheduled 150.0,
    :r/k "casal-de-cambra-01342",
    :r/total-passed 202.0,
-   :r/t-done 145.0}
+   :r/t-done 145}
   {:r/nec 1342,
    :r/level-0 "2019",
    :r/d-scheduled 129,
@@ -69,7 +69,7 @@
    :r/t-scheduled 125.0,
    :r/k "casal-de-cambra-01342",
    :r/total-passed 169.0,
-   :r/t-done 124.0}
+   :r/t-done 124}
   {:r/nec 1342,
    :r/level-0 "2020",
    :r/d-scheduled 106,
@@ -83,7 +83,7 @@
    :r/t-scheduled 108.0,
    :r/k "casal-de-cambra-01342",
    :r/total-passed 125.0,
-   :r/t-done 96.0}
+   :r/t-done 96}
   {:r/nec 1342,
    :r/level-0 "2021",
    :r/d-scheduled 103,
@@ -97,7 +97,7 @@
    :r/t-scheduled 161.0,
    :r/k "casal-de-cambra-01342",
    :r/total-passed nil,
-   :r/t-done 140.0}],
+   :r/t-done 140}],
  :imt-profile
  {:address "Avenida de Lisboa, n.º 127, R/C, 2605-003 Casal de Cambra",
   :name "Escola de Condução Casal de Cambra",

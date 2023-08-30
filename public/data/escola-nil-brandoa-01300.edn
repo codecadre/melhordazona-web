@@ -13,7 +13,7 @@
    :r/t-scheduled 209.0,
    :r/k "brandoa-01300",
    :r/total-passed 246.0,
-   :r/t-done 200.0}
+   :r/t-done 200}
   {:r/nec 1300,
    :r/level-0 "2016",
    :r/d-scheduled 171,
@@ -27,7 +27,7 @@
    :r/t-scheduled 161.0,
    :r/k "brandoa-01300",
    :r/total-passed 214.0,
-   :r/t-done 153.0}
+   :r/t-done 153}
   {:r/nec 1300,
    :r/level-0 "2017",
    :r/d-scheduled 142,
@@ -41,7 +41,7 @@
    :r/t-scheduled 163.0,
    :r/k "brandoa-01300",
    :r/total-passed 202.0,
-   :r/t-done 161.0}
+   :r/t-done 161}
   {:r/nec 1300,
    :r/level-0 "2018",
    :r/d-scheduled 152,
@@ -55,7 +55,7 @@
    :r/t-scheduled 142.0,
    :r/k "brandoa-01300",
    :r/total-passed 207.0,
-   :r/t-done 140.0}
+   :r/t-done 140}
   {:r/nec 1300,
    :r/level-0 "2019",
    :r/d-scheduled 2,
@@ -69,5 +69,5 @@
    :r/t-scheduled nil,
    :r/k "brandoa-01300",
    :r/total-passed 2.0,
-   :r/t-done 0.0}],
+   :r/t-done 0}],
  :imt-profile nil}

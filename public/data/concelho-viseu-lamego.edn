@@ -14,7 +14,7 @@
      :r/t-scheduled 121.0,
      :r/k "lamego-00363",
      :r/total-passed 178.0,
-     :r/t-done 120.0}
+     :r/t-done 120}
     {:r/nec 363,
      :r/level-0 "2016",
      :r/d-scheduled 162,
@@ -28,7 +28,7 @@
      :r/t-scheduled 129.0,
      :r/k "lamego-00363",
      :r/total-passed 191.0,
-     :r/t-done 125.0}
+     :r/t-done 125}
     {:r/nec 363,
      :r/level-0 "2017",
      :r/d-scheduled 265,
@@ -42,7 +42,7 @@
      :r/t-scheduled 273.0,
      :r/k "lamego-00363",
      :r/total-passed 349.0,
-     :r/t-done 259.0}
+     :r/t-done 259}
     {:r/nec 363,
      :r/level-0 "2018",
      :r/d-scheduled 294,
@@ -56,7 +56,7 @@
      :r/t-scheduled 240.0,
      :r/k "lamego-00363",
      :r/total-passed 364.0,
-     :r/t-done 239.0}
+     :r/t-done 239}
     {:r/nec 363,
      :r/level-0 "2019",
      :r/d-scheduled 329,
@@ -70,7 +70,7 @@
      :r/t-scheduled 264.0,
      :r/k "lamego-00363",
      :r/total-passed 386.0,
-     :r/t-done 257.0}
+     :r/t-done 257}
     {:r/nec 363,
      :r/level-0 "2020",
      :r/d-scheduled 344,
@@ -84,7 +84,7 @@
      :r/t-scheduled 310.0,
      :r/k "lamego-00363",
      :r/total-passed 409.0,
-     :r/t-done 280.0}
+     :r/t-done 280}
     {:r/nec 363,
      :r/level-0 "2021",
      :r/d-scheduled 320,
@@ -98,7 +98,7 @@
      :r/t-scheduled 281.0,
      :r/k "lamego-00363",
      :r/total-passed nil,
-     :r/t-done 256.0}],
+     :r/t-done 256}],
    :imt-profile
    {:address "Rua Dr. Bernardo Pinheiro de Aragão 5100-118 LAMEGO",
     :name "Lamego",
@@ -140,7 +140,7 @@
      :r/t-scheduled 358.0,
      :r/k "senhora-dos-remedios-00583",
      :r/total-passed 491.0,
-     :r/t-done 344.0}
+     :r/t-done 344}
     {:r/nec 583,
      :r/level-0 "2016",
      :r/d-scheduled 382,
@@ -154,7 +154,7 @@
      :r/t-scheduled 370.0,
      :r/k "senhora-dos-remedios-00583",
      :r/total-passed 529.0,
-     :r/t-done 360.0}
+     :r/t-done 360}
     {:r/nec 583,
      :r/level-0 "2017",
      :r/d-scheduled 386,
@@ -168,7 +168,7 @@
      :r/t-scheduled 333.0,
      :r/k "senhora-dos-remedios-00583",
      :r/total-passed 494.0,
-     :r/t-done 322.0}
+     :r/t-done 322}
     {:r/nec 583,
      :r/level-0 "2018",
      :r/d-scheduled 333,
@@ -182,7 +182,7 @@
      :r/t-scheduled 295.0,
      :r/k "senhora-dos-remedios-00583",
      :r/total-passed 425.0,
-     :r/t-done 276.0}
+     :r/t-done 276}
     {:r/nec 583,
      :r/level-0 "2019",
      :r/d-scheduled 313,
@@ -196,7 +196,7 @@
      :r/t-scheduled 320.0,
      :r/k "senhora-dos-remedios-00583",
      :r/total-passed 452.0,
-     :r/t-done 305.0}
+     :r/t-done 305}
     {:r/nec 583,
      :r/level-0 "2020",
      :r/d-scheduled 297,
@@ -210,7 +210,7 @@
      :r/t-scheduled 239.0,
      :r/k "senhora-dos-remedios-00583",
      :r/total-passed 359.0,
-     :r/t-done 231.0}
+     :r/t-done 231}
     {:r/nec 583,
      :r/level-0 "2021",
      :r/d-scheduled 245,
@@ -224,7 +224,7 @@
      :r/t-scheduled 295.0,
      :r/k "senhora-dos-remedios-00583",
      :r/total-passed nil,
-     :r/t-done 270.0}],
+     :r/t-done 270}],
    :imt-profile
    {:address "Quinta do Paraíso, Bloco 3 r/c 5100-187 LAMEGO",
     :name "Senhora dos Remédios",
@@ -263,7 +263,7 @@
      :r/t-scheduled 109.0,
      :r/k "a-realidade-00819",
      :r/total-passed 138.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 819,
      :r/level-0 "2016",
      :r/d-scheduled 127,
@@ -277,7 +277,7 @@
      :r/t-scheduled 76.0,
      :r/k "a-realidade-00819",
      :r/total-passed 105.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 819,
      :r/level-0 "2017",
      :r/d-scheduled 34,
@@ -291,7 +291,7 @@
      :r/t-scheduled 48.0,
      :r/k "a-realidade-00819",
      :r/total-passed 48.0,
-     :r/t-done 39.0}
+     :r/t-done 39}
     {:r/nec 819,
      :r/level-0 "2018",
      :r/d-scheduled 31,
@@ -305,7 +305,7 @@
      :r/t-scheduled 34.0,
      :r/k "a-realidade-00819",
      :r/total-passed 39.0,
-     :r/t-done 33.0}
+     :r/t-done 33}
     {:r/nec 819,
      :r/level-0 "2019",
      :r/d-scheduled 21,
@@ -319,7 +319,7 @@
      :r/t-scheduled 13.0,
      :r/k "a-realidade-00819",
      :r/total-passed 20.0,
-     :r/t-done 13.0}],
+     :r/t-done 13}],
    :imt-profile
    {:address
     "Lugar do Cerrado - Ortigosa - Bloco A - Subcave 5100-160 LAMEGO",

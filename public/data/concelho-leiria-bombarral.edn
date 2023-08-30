@@ -14,7 +14,7 @@
      :r/t-scheduled 118.0,
      :r/k "auto-do-bombarral-00204",
      :r/total-passed 132.0,
-     :r/t-done 118.0}
+     :r/t-done 118}
     {:r/nec 204,
      :r/level-0 "2016",
      :r/d-scheduled 110,
@@ -28,7 +28,7 @@
      :r/t-scheduled 91.0,
      :r/k "auto-do-bombarral-00204",
      :r/total-passed 145.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 204,
      :r/level-0 "2017",
      :r/d-scheduled 92,
@@ -42,7 +42,7 @@
      :r/t-scheduled 68.0,
      :r/k "auto-do-bombarral-00204",
      :r/total-passed 92.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 204,
      :r/level-0 "2018",
      :r/d-scheduled 135,
@@ -56,7 +56,7 @@
      :r/t-scheduled 105.0,
      :r/k "auto-do-bombarral-00204",
      :r/total-passed 148.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 204,
      :r/level-0 "2019",
      :r/d-scheduled 136,
@@ -70,7 +70,7 @@
      :r/t-scheduled 97.0,
      :r/k "auto-do-bombarral-00204",
      :r/total-passed 151.0,
-     :r/t-done 94.0}
+     :r/t-done 94}
     {:r/nec 204,
      :r/level-0 "2020",
      :r/d-scheduled 124,
@@ -84,7 +84,7 @@
      :r/t-scheduled 123.0,
      :r/k "auto-do-bombarral-00204",
      :r/total-passed 155.0,
-     :r/t-done 121.0}
+     :r/t-done 121}
     {:r/nec 204,
      :r/level-0 "2021",
      :r/d-scheduled 163,
@@ -98,7 +98,7 @@
      :r/t-scheduled 149.0,
      :r/k "auto-do-bombarral-00204",
      :r/total-passed nil,
-     :r/t-done 134.0}],
+     :r/t-done 134}],
    :imt-profile
    {:address "Rua Luís de Camões, Nº 73-A 2540-113 BOMBARRAL",
     :name "Auto do Bombarral",
@@ -139,7 +139,7 @@
      :r/t-scheduled 49.0,
      :r/k "cordeiro-00573",
      :r/total-passed 74.0,
-     :r/t-done 49.0}
+     :r/t-done 49}
     {:r/nec 573,
      :r/level-0 "2016",
      :r/d-scheduled 69,
@@ -153,7 +153,7 @@
      :r/t-scheduled 47.0,
      :r/k "cordeiro-00573",
      :r/total-passed 76.0,
-     :r/t-done 47.0}
+     :r/t-done 47}
     {:r/nec 573,
      :r/level-0 "2017",
      :r/d-scheduled 48,
@@ -167,7 +167,7 @@
      :r/t-scheduled 31.0,
      :r/k "cordeiro-00573",
      :r/total-passed 49.0,
-     :r/t-done 31.0}
+     :r/t-done 31}
     {:r/nec 573,
      :r/level-0 "2018",
      :r/d-scheduled 23,
@@ -181,7 +181,7 @@
      :r/t-scheduled 21.0,
      :r/k "cordeiro-00573",
      :r/total-passed 29.0,
-     :r/t-done 21.0}
+     :r/t-done 21}
     {:r/nec 573,
      :r/level-0 "2019",
      :r/d-scheduled 40,
@@ -195,7 +195,7 @@
      :r/t-scheduled 39.0,
      :r/k "cordeiro-00573",
      :r/total-passed 61.0,
-     :r/t-done 39.0}
+     :r/t-done 39}
     {:r/nec 573,
      :r/level-0 "2020",
      :r/d-scheduled 68,
@@ -209,7 +209,7 @@
      :r/t-scheduled 53.0,
      :r/k "cordeiro-00573",
      :r/total-passed 75.0,
-     :r/t-done 48.0}
+     :r/t-done 48}
     {:r/nec 573,
      :r/level-0 "2021",
      :r/d-scheduled 47,
@@ -223,7 +223,7 @@
      :r/t-scheduled 88.0,
      :r/k "cordeiro-00573",
      :r/total-passed nil,
-     :r/t-done 87.0}],
+     :r/t-done 87}],
    :imt-profile
    {:address
     "Avª Dr. Joaquim Albuquerque lote 1 –r/c- C 2540-004 BOMBARRAL",
@@ -267,7 +267,7 @@
      :r/t-scheduled 7.0,
      :r/k "nova-do-bombarral-01357",
      :r/total-passed 6.0,
-     :r/t-done 7.0}
+     :r/t-done 7}
     {:r/nec 1357,
      :r/level-0 "2017",
      :r/d-scheduled 42,
@@ -281,7 +281,7 @@
      :r/t-scheduled 76.0,
      :r/k "nova-do-bombarral-01357",
      :r/total-passed 63.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 1357,
      :r/level-0 "2018",
      :r/d-scheduled 83,
@@ -295,7 +295,7 @@
      :r/t-scheduled 74.0,
      :r/k "nova-do-bombarral-01357",
      :r/total-passed 96.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 1357,
      :r/level-0 "2019",
      :r/d-scheduled 75,
@@ -309,7 +309,7 @@
      :r/t-scheduled 49.0,
      :r/k "nova-do-bombarral-01357",
      :r/total-passed 80.0,
-     :r/t-done 49.0}
+     :r/t-done 49}
     {:r/nec 1357,
      :r/level-0 "2020",
      :r/d-scheduled 35,
@@ -323,7 +323,7 @@
      :r/t-scheduled 29.0,
      :r/k "nova-do-bombarral-01357",
      :r/total-passed 27.0,
-     :r/t-done 28.0}
+     :r/t-done 28}
     {:r/nec 1357,
      :r/level-0 "2021",
      :r/d-scheduled 20,
@@ -337,7 +337,7 @@
      :r/t-scheduled 0.0,
      :r/k "nova-do-bombarral-01357",
      :r/total-passed nil,
-     :r/t-done 0.0}],
+     :r/t-done 0}],
    :imt-profile
    {:address
     "Rua Comandante Palmiro Fernandes, n.º 10, loja A, 2540-040 Bombarral",

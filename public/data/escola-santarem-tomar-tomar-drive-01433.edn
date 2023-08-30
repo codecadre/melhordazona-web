@@ -13,7 +13,7 @@
    :r/t-scheduled 85.0,
    :r/k "tomar-drive-01433",
    :r/total-passed 100.0,
-   :r/t-done 84.0}
+   :r/t-done 84}
   {:r/nec 1433,
    :r/level-0 "2020",
    :r/d-scheduled 194,
@@ -27,7 +27,7 @@
    :r/t-scheduled 295.0,
    :r/k "tomar-drive-01433",
    :r/total-passed 373.0,
-   :r/t-done 271.0}
+   :r/t-done 271}
   {:r/nec 1433,
    :r/level-0 "2021",
    :r/d-scheduled 212,
@@ -41,7 +41,7 @@
    :r/t-scheduled 235.0,
    :r/k "tomar-drive-01433",
    :r/total-passed nil,
-   :r/t-done 210.0}],
+   :r/t-done 210}],
  :imt-profile
  {:address "Estrada do Barreiro, n.º 9 B, 2300-442, Tomar",
   :name "Tomar Drive",

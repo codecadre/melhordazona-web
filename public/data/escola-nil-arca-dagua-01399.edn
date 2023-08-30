@@ -13,7 +13,7 @@
    :r/t-scheduled 1.0,
    :r/k "arca-dagua-01399",
    :r/total-passed 1.0,
-   :r/t-done 1.0}
+   :r/t-done 1}
   {:r/nec 1399,
    :r/level-0 "2018",
    :r/d-scheduled 65,
@@ -27,7 +27,7 @@
    :r/t-scheduled 78.0,
    :r/k "arca-dagua-01399",
    :r/total-passed 114.0,
-   :r/t-done 77.0}
+   :r/t-done 77}
   {:r/nec 1399,
    :r/level-0 "2019",
    :r/d-scheduled 168,
@@ -41,7 +41,7 @@
    :r/t-scheduled 160.0,
    :r/k "arca-dagua-01399",
    :r/total-passed 223.0,
-   :r/t-done 154.0}
+   :r/t-done 154}
   {:r/nec 1399,
    :r/level-0 "2020",
    :r/d-scheduled 189,
@@ -55,7 +55,7 @@
    :r/t-scheduled 148.0,
    :r/k "arca-dagua-01399",
    :r/total-passed 195.0,
-   :r/t-done 122.0}],
+   :r/t-done 122}],
  :imt-profile nil,
  :obs "license 1399 is 'Nova do Porto' in imt.pt",
  :overwrite/notes nil}

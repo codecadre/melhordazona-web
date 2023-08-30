@@ -13,7 +13,7 @@
    :r/t-scheduled 10.0,
    :r/k "faro-em-movimento-01351",
    :r/total-passed 14.0,
-   :r/t-done 10.0}
+   :r/t-done 10}
   {:r/nec 1351,
    :r/level-0 "2017",
    :r/d-scheduled 60,
@@ -27,7 +27,7 @@
    :r/t-scheduled 76.0,
    :r/k "faro-em-movimento-01351",
    :r/total-passed 95.0,
-   :r/t-done 76.0}
+   :r/t-done 76}
   {:r/nec 1351,
    :r/level-0 "2018",
    :r/d-scheduled 126,
@@ -41,7 +41,7 @@
    :r/t-scheduled 121.0,
    :r/k "faro-em-movimento-01351",
    :r/total-passed 152.0,
-   :r/t-done 120.0}
+   :r/t-done 120}
   {:r/nec 1351,
    :r/level-0 "2019",
    :r/d-scheduled 130,
@@ -55,7 +55,7 @@
    :r/t-scheduled 123.0,
    :r/k "faro-em-movimento-01351",
    :r/total-passed 160.0,
-   :r/t-done 119.0}
+   :r/t-done 119}
   {:r/nec 1351,
    :r/level-0 "2020",
    :r/d-scheduled 122,
@@ -69,7 +69,7 @@
    :r/t-scheduled 117.0,
    :r/k "faro-em-movimento-01351",
    :r/total-passed 148.0,
-   :r/t-done 106.0}
+   :r/t-done 106}
   {:r/nec 1351,
    :r/level-0 "2021",
    :r/d-scheduled 209,
@@ -83,7 +83,7 @@
    :r/t-scheduled 204.0,
    :r/k "faro-em-movimento-01351",
    :r/total-passed nil,
-   :r/t-done 186.0}],
+   :r/t-done 186}],
  :imt-profile
  {:address "Rua Moto Clube de Faro, lote B 8000-123 Faro ",
   :name "Faro em Movimento",

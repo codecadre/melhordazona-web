@@ -14,7 +14,7 @@
      :r/t-scheduled 180.0,
      :r/k "jose-justino-00119",
      :r/total-passed 240.0,
-     :r/t-done 177.0}
+     :r/t-done 177}
     {:r/nec 119,
      :r/level-0 "2016",
      :r/d-scheduled 186,
@@ -28,7 +28,7 @@
      :r/t-scheduled 148.0,
      :r/k "jose-justino-00119",
      :r/total-passed 223.0,
-     :r/t-done 145.0}
+     :r/t-done 145}
     {:r/nec 119,
      :r/level-0 "2017",
      :r/d-scheduled 116,
@@ -42,7 +42,7 @@
      :r/t-scheduled 141.0,
      :r/k "jose-justino-00119",
      :r/total-passed 179.0,
-     :r/t-done 136.0}
+     :r/t-done 136}
     {:r/nec 119,
      :r/level-0 "2018",
      :r/d-scheduled 131,
@@ -56,7 +56,7 @@
      :r/t-scheduled 141.0,
      :r/k "jose-justino-00119",
      :r/total-passed 199.0,
-     :r/t-done 140.0}
+     :r/t-done 140}
     {:r/nec 119,
      :r/level-0 "2019",
      :r/d-scheduled 120,
@@ -70,7 +70,7 @@
      :r/t-scheduled 109.0,
      :r/k "jose-justino-00119",
      :r/total-passed 166.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 119,
      :r/level-0 "2020",
      :r/d-scheduled 106,
@@ -84,7 +84,7 @@
      :r/t-scheduled 110.0,
      :r/k "jose-justino-00119",
      :r/total-passed 133.0,
-     :r/t-done 102.0}
+     :r/t-done 102}
     {:r/nec 119,
      :r/level-0 "2021",
      :r/d-scheduled 104,
@@ -98,7 +98,7 @@
      :r/t-scheduled 153.0,
      :r/k "jose-justino-00119",
      :r/total-passed nil,
-     :r/t-done 132.0}],
+     :r/t-done 132}],
    :imt-profile
    {:address "Rua Serpa Pinto, nº 3 –1ºDtº 2070-116 CARTAXO",
     :name "José Justino",
@@ -139,7 +139,7 @@
      :r/t-scheduled 79.0,
      :r/k "a-ideal-cartaxense-00409",
      :r/total-passed 122.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 409,
      :r/level-0 "2016",
      :r/d-scheduled 70,
@@ -153,7 +153,7 @@
      :r/t-scheduled 80.0,
      :r/k "a-ideal-cartaxense-00409",
      :r/total-passed 125.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 409,
      :r/level-0 "2017",
      :r/d-scheduled 80,
@@ -167,7 +167,7 @@
      :r/t-scheduled 85.0,
      :r/k "a-ideal-cartaxense-00409",
      :r/total-passed 130.0,
-     :r/t-done 83.0}
+     :r/t-done 83}
     {:r/nec 409,
      :r/level-0 "2018",
      :r/d-scheduled 76,
@@ -181,7 +181,7 @@
      :r/t-scheduled 92.0,
      :r/k "a-ideal-cartaxense-00409",
      :r/total-passed 118.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 409,
      :r/level-0 "2019",
      :r/d-scheduled 93,
@@ -195,7 +195,7 @@
      :r/t-scheduled 95.0,
      :r/k "a-ideal-cartaxense-00409",
      :r/total-passed 133.0,
-     :r/t-done 92.0}
+     :r/t-done 92}
     {:r/nec 409,
      :r/level-0 "2020",
      :r/d-scheduled 84,
@@ -209,7 +209,7 @@
      :r/t-scheduled 106.0,
      :r/k "a-ideal-cartaxense-00409",
      :r/total-passed 130.0,
-     :r/t-done 96.0}
+     :r/t-done 96}
     {:r/nec 409,
      :r/level-0 "2021",
      :r/d-scheduled 102,
@@ -223,7 +223,7 @@
      :r/t-scheduled 125.0,
      :r/k "a-ideal-cartaxense-00409",
      :r/total-passed nil,
-     :r/t-done 114.0}],
+     :r/t-done 114}],
    :imt-profile
    {:address "Rua José Ribeiro Costa, Nº 91 - 2º 2070-099 CARTAXO",
     :name "Ideal Cartaxense",
@@ -265,7 +265,7 @@
      :r/t-scheduled 66.0,
      :r/k "todos-os-santos-01185",
      :r/total-passed 84.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 1185,
      :r/level-0 "2016",
      :r/d-scheduled 59,
@@ -279,7 +279,7 @@
      :r/t-scheduled 65.0,
      :r/k "todos-os-santos-01185",
      :r/total-passed 88.0,
-     :r/t-done 64.0}
+     :r/t-done 64}
     {:r/nec 1185,
      :r/level-0 "2017",
      :r/d-scheduled 57,
@@ -293,7 +293,7 @@
      :r/t-scheduled 58.0,
      :r/k "todos-os-santos-01185",
      :r/total-passed 83.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 1185,
      :r/level-0 "2018",
      :r/d-scheduled 53,
@@ -307,7 +307,7 @@
      :r/t-scheduled 56.0,
      :r/k "todos-os-santos-01185",
      :r/total-passed 79.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 1185,
      :r/level-0 "2019",
      :r/d-scheduled 40,
@@ -321,7 +321,7 @@
      :r/t-scheduled 47.0,
      :r/k "todos-os-santos-01185",
      :r/total-passed 75.0,
-     :r/t-done 47.0}
+     :r/t-done 47}
     {:r/nec 1185,
      :r/level-0 "2020",
      :r/d-scheduled 49,
@@ -335,7 +335,7 @@
      :r/t-scheduled 74.0,
      :r/k "todos-os-santos-01185",
      :r/total-passed 91.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 1185,
      :r/level-0 "2021",
      :r/d-scheduled 58,
@@ -349,7 +349,7 @@
      :r/t-scheduled 71.0,
      :r/k "todos-os-santos-01185",
      :r/total-passed nil,
-     :r/t-done 66.0}],
+     :r/t-done 66}],
    :imt-profile
    {:address "Rua José Ribeiro da Costa, Nº 241-1º 2070-084 CARTAXO",
     :name "Todos os Santos",

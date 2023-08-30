@@ -13,7 +13,7 @@
    :r/t-scheduled 21.0,
    :r/k "torre-da-marinha-01324",
    :r/total-passed 26.0,
-   :r/t-done 21.0}
+   :r/t-done 21}
   {:r/nec 1324,
    :r/level-0 "2017",
    :r/d-scheduled 0,
@@ -27,7 +27,7 @@
    :r/t-scheduled 1.0,
    :r/k "torre-da-marinha-01324",
    :r/total-passed 1.0,
-   :r/t-done 1.0}
+   :r/t-done 1}
   {:r/nec 1324,
    :r/level-0 "2019",
    :r/d-scheduled nil,
@@ -41,7 +41,7 @@
    :r/t-scheduled 5.0,
    :r/k "torre-da-marinha-01324",
    :r/total-passed 3.0,
-   :r/t-done 5.0}
+   :r/t-done 5}
   {:r/nec 1324,
    :r/level-0 "2020",
    :r/d-scheduled 17,
@@ -55,7 +55,7 @@
    :r/t-scheduled 42.0,
    :r/k "torre-da-marinha-01324",
    :r/total-passed 37.0,
-   :r/t-done 41.0}
+   :r/t-done 41}
   {:r/nec 1324,
    :r/level-0 "2021",
    :r/d-scheduled 58,
@@ -69,7 +69,7 @@
    :r/t-scheduled 82.0,
    :r/k "torre-da-marinha-01324",
    :r/total-passed nil,
-   :r/t-done 74.0}],
+   :r/t-done 74}],
  :imt-profile
  {:address "Rua das Taipas, n.º 9, 2040-339 RIO MAIOR",
   :name "Torre da Marinha",

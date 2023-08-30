@@ -14,7 +14,7 @@
      :r/t-scheduled 90.0,
      :r/k "louletana-00111",
      :r/total-passed 108.0,
-     :r/t-done 85.0}
+     :r/t-done 85}
     {:r/nec 111,
      :r/level-0 "2016",
      :r/d-scheduled 96,
@@ -28,7 +28,7 @@
      :r/t-scheduled 89.0,
      :r/k "louletana-00111",
      :r/total-passed 98.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 111,
      :r/level-0 "2017",
      :r/d-scheduled 112,
@@ -42,7 +42,7 @@
      :r/t-scheduled 126.0,
      :r/k "louletana-00111",
      :r/total-passed 142.0,
-     :r/t-done 119.0}
+     :r/t-done 119}
     {:r/nec 111,
      :r/level-0 "2018",
      :r/d-scheduled 108,
@@ -56,7 +56,7 @@
      :r/t-scheduled 73.0,
      :r/k "louletana-00111",
      :r/total-passed 106.0,
-     :r/t-done 71.0}
+     :r/t-done 71}
     {:r/nec 111,
      :r/level-0 "2019",
      :r/d-scheduled 69,
@@ -70,7 +70,7 @@
      :r/t-scheduled 74.0,
      :r/k "louletana-00111",
      :r/total-passed 76.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 111,
      :r/level-0 "2020",
      :r/d-scheduled 71,
@@ -84,7 +84,7 @@
      :r/t-scheduled 91.0,
      :r/k "louletana-00111",
      :r/total-passed 67.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 111,
      :r/level-0 "2021",
      :r/d-scheduled 63,
@@ -98,7 +98,7 @@
      :r/t-scheduled 108.0,
      :r/k "louletana-00111",
      :r/total-passed nil,
-     :r/t-done 78.0}],
+     :r/t-done 78}],
    :imt-profile
    {:address "Rua Padre António Vieira, Nº 189 8100-611 LOULÉ",
     :name "Louletana",
@@ -139,7 +139,7 @@
      :r/t-scheduled 244.0,
      :r/k "autoquarteirense-00418",
      :r/total-passed 266.0,
-     :r/t-done 233.0}
+     :r/t-done 233}
     {:r/nec 418,
      :r/level-0 "2016",
      :r/d-scheduled 199,
@@ -153,7 +153,7 @@
      :r/t-scheduled 212.0,
      :r/k "autoquarteirense-00418",
      :r/total-passed 244.0,
-     :r/t-done 200.0}
+     :r/t-done 200}
     {:r/nec 418,
      :r/level-0 "2017",
      :r/d-scheduled 212,
@@ -167,7 +167,7 @@
      :r/t-scheduled 220.0,
      :r/k "autoquarteirense-00418",
      :r/total-passed 267.0,
-     :r/t-done 212.0}
+     :r/t-done 212}
     {:r/nec 418,
      :r/level-0 "2018",
      :r/d-scheduled 210,
@@ -181,7 +181,7 @@
      :r/t-scheduled 226.0,
      :r/k "autoquarteirense-00418",
      :r/total-passed 272.0,
-     :r/t-done 219.0}
+     :r/t-done 219}
     {:r/nec 418,
      :r/level-0 "2019",
      :r/d-scheduled 217,
@@ -195,7 +195,7 @@
      :r/t-scheduled 200.0,
      :r/k "autoquarteirense-00418",
      :r/total-passed 256.0,
-     :r/t-done 195.0}
+     :r/t-done 195}
     {:r/nec 418,
      :r/level-0 "2020",
      :r/d-scheduled 190,
@@ -209,7 +209,7 @@
      :r/t-scheduled 178.0,
      :r/k "autoquarteirense-00418",
      :r/total-passed 183.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 418,
      :r/level-0 "2021",
      :r/d-scheduled 192,
@@ -223,7 +223,7 @@
      :r/t-scheduled 282.0,
      :r/k "autoquarteirense-00418",
      :r/total-passed nil,
-     :r/t-done 220.0}],
+     :r/t-done 220}],
    :imt-profile
    {:address
     "Avª Francisco Sá Carneiro Bloco B r/c 8125-130 QUARTEIRA",
@@ -263,7 +263,7 @@
      :r/t-scheduled 269.0,
      :r/k "loule-transito-00649",
      :r/total-passed 394.0,
-     :r/t-done 266.0}
+     :r/t-done 266}
     {:r/nec 649,
      :r/level-0 "2016",
      :r/d-scheduled 281,
@@ -277,7 +277,7 @@
      :r/t-scheduled 239.0,
      :r/k "loule-transito-00649",
      :r/total-passed 382.0,
-     :r/t-done 233.0}
+     :r/t-done 233}
     {:r/nec 649,
      :r/level-0 "2017",
      :r/d-scheduled 304,
@@ -291,7 +291,7 @@
      :r/t-scheduled 298.0,
      :r/k "loule-transito-00649",
      :r/total-passed 410.0,
-     :r/t-done 281.0}
+     :r/t-done 281}
     {:r/nec 649,
      :r/level-0 "2018",
      :r/d-scheduled 269,
@@ -305,7 +305,7 @@
      :r/t-scheduled 225.0,
      :r/k "loule-transito-00649",
      :r/total-passed 328.0,
-     :r/t-done 213.0}
+     :r/t-done 213}
     {:r/nec 649,
      :r/level-0 "2019",
      :r/d-scheduled 234,
@@ -319,7 +319,7 @@
      :r/t-scheduled 212.0,
      :r/k "loule-transito-00649",
      :r/total-passed 290.0,
-     :r/t-done 206.0}
+     :r/t-done 206}
     {:r/nec 649,
      :r/level-0 "2020",
      :r/d-scheduled 252,
@@ -333,7 +333,7 @@
      :r/t-scheduled 147.0,
      :r/k "loule-transito-00649",
      :r/total-passed 242.0,
-     :r/t-done 135.0}
+     :r/t-done 135}
     {:r/nec 649,
      :r/level-0 "2021",
      :r/d-scheduled 229,
@@ -347,7 +347,7 @@
      :r/t-scheduled 334.0,
      :r/k "loule-transito-00649",
      :r/total-passed nil,
-     :r/t-done 294.0}],
+     :r/t-done 294}],
    :imt-profile
    {:address "Largo João XXIII, Lote 10, Loja 12 ; 8100-664 Loulé",
     :name "Loulé Trânsito",
@@ -388,7 +388,7 @@
      :r/t-scheduled 173.0,
      :r/k "segura-00666",
      :r/total-passed 207.0,
-     :r/t-done 170.0}
+     :r/t-done 170}
     {:r/nec 666,
      :r/level-0 "2016",
      :r/d-scheduled 189,
@@ -402,7 +402,7 @@
      :r/t-scheduled 158.0,
      :r/k "segura-00666",
      :r/total-passed 228.0,
-     :r/t-done 151.0}
+     :r/t-done 151}
     {:r/nec 666,
      :r/level-0 "2017",
      :r/d-scheduled 181,
@@ -416,7 +416,7 @@
      :r/t-scheduled 181.0,
      :r/k "segura-00666",
      :r/total-passed 208.0,
-     :r/t-done 175.0}
+     :r/t-done 175}
     {:r/nec 666,
      :r/level-0 "2018",
      :r/d-scheduled 191,
@@ -430,7 +430,7 @@
      :r/t-scheduled 177.0,
      :r/k "segura-00666",
      :r/total-passed 245.0,
-     :r/t-done 171.0}
+     :r/t-done 171}
     {:r/nec 666,
      :r/level-0 "2019",
      :r/d-scheduled 201,
@@ -444,7 +444,7 @@
      :r/t-scheduled 212.0,
      :r/k "segura-00666",
      :r/total-passed 258.0,
-     :r/t-done 201.0}
+     :r/t-done 201}
     {:r/nec 666,
      :r/level-0 "2020",
      :r/d-scheduled 138,
@@ -458,7 +458,7 @@
      :r/t-scheduled 195.0,
      :r/k "segura-00666",
      :r/total-passed 178.0,
-     :r/t-done 161.0}
+     :r/t-done 161}
     {:r/nec 666,
      :r/level-0 "2021",
      :r/d-scheduled 142,
@@ -472,7 +472,7 @@
      :r/t-scheduled 205.0,
      :r/k "segura-00666",
      :r/total-passed nil,
-     :r/t-done 167.0}],
+     :r/t-done 167}],
    :imt-profile
    {:address
     "Avª de Ceuta - Edifício Nova Avenida loja 5 8125-116 QUARTEIRA",
@@ -515,7 +515,7 @@
      :r/t-scheduled 35.0,
      :r/k "infante-de-almancil-00907",
      :r/total-passed 40.0,
-     :r/t-done 34.0}
+     :r/t-done 34}
     {:r/nec 907,
      :r/level-0 "2016",
      :r/d-scheduled 49,
@@ -529,7 +529,7 @@
      :r/t-scheduled 52.0,
      :r/k "infante-de-almancil-00907",
      :r/total-passed 64.0,
-     :r/t-done 49.0}
+     :r/t-done 49}
     {:r/nec 907,
      :r/level-0 "2017",
      :r/d-scheduled 43,
@@ -543,7 +543,7 @@
      :r/t-scheduled 41.0,
      :r/k "infante-de-almancil-00907",
      :r/total-passed 50.0,
-     :r/t-done 36.0}
+     :r/t-done 36}
     {:r/nec 907,
      :r/level-0 "2018",
      :r/d-scheduled 60,
@@ -557,7 +557,7 @@
      :r/t-scheduled 49.0,
      :r/k "infante-de-almancil-00907",
      :r/total-passed 69.0,
-     :r/t-done 44.0}
+     :r/t-done 44}
     {:r/nec 907,
      :r/level-0 "2019",
      :r/d-scheduled 61,
@@ -571,7 +571,7 @@
      :r/t-scheduled 64.0,
      :r/k "infante-de-almancil-00907",
      :r/total-passed 88.0,
-     :r/t-done 62.0}
+     :r/t-done 62}
     {:r/nec 907,
      :r/level-0 "2020",
      :r/d-scheduled 63,
@@ -585,7 +585,7 @@
      :r/t-scheduled 76.0,
      :r/k "infante-de-almancil-00907",
      :r/total-passed 83.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 907,
      :r/level-0 "2021",
      :r/d-scheduled 84,
@@ -599,7 +599,7 @@
      :r/t-scheduled 64.0,
      :r/k "infante-de-almancil-00907",
      :r/total-passed nil,
-     :r/t-done 54.0}],
+     :r/t-done 54}],
    :imt-profile
    {:address "Rua Duarte Pacheco nº 178 8135-104 ALMANCIL",
     :name "Infante de Almancil",
@@ -641,7 +641,7 @@
      :r/t-scheduled 197.0,
      :r/k "almancil-01042",
      :r/total-passed 219.0,
-     :r/t-done 193.0}
+     :r/t-done 193}
     {:r/nec 1042,
      :r/level-0 "2016",
      :r/d-scheduled 213,
@@ -655,7 +655,7 @@
      :r/t-scheduled 202.0,
      :r/k "almancil-01042",
      :r/total-passed 270.0,
-     :r/t-done 198.0}
+     :r/t-done 198}
     {:r/nec 1042,
      :r/level-0 "2017",
      :r/d-scheduled 190,
@@ -669,7 +669,7 @@
      :r/t-scheduled 215.0,
      :r/k "almancil-01042",
      :r/total-passed 255.0,
-     :r/t-done 205.0}
+     :r/t-done 205}
     {:r/nec 1042,
      :r/level-0 "2018",
      :r/d-scheduled 212,
@@ -683,7 +683,7 @@
      :r/t-scheduled 248.0,
      :r/k "almancil-01042",
      :r/total-passed 301.0,
-     :r/t-done 235.0}
+     :r/t-done 235}
     {:r/nec 1042,
      :r/level-0 "2019",
      :r/d-scheduled 266,
@@ -697,7 +697,7 @@
      :r/t-scheduled 248.0,
      :r/k "almancil-01042",
      :r/total-passed 306.0,
-     :r/t-done 243.0}
+     :r/t-done 243}
     {:r/nec 1042,
      :r/level-0 "2020",
      :r/d-scheduled 211,
@@ -711,7 +711,7 @@
      :r/t-scheduled 205.0,
      :r/k "almancil-01042",
      :r/total-passed 250.0,
-     :r/t-done 196.0}
+     :r/t-done 196}
     {:r/nec 1042,
      :r/level-0 "2021",
      :r/d-scheduled 213,
@@ -725,7 +725,7 @@
      :r/t-scheduled 345.0,
      :r/k "almancil-01042",
      :r/total-passed nil,
-     :r/t-done 294.0}],
+     :r/t-done 294}],
    :imt-profile
    {:address "Rua do Comércio nº 48 - Lj Esq 8135-125 LOULÉ",
     :name "Almancil",
@@ -766,7 +766,7 @@
      :r/t-scheduled 79.0,
      :r/k "boliqueime-01081",
      :r/total-passed 95.0,
-     :r/t-done 71.0}
+     :r/t-done 71}
     {:r/nec 1081,
      :r/level-0 "2016",
      :r/d-scheduled 76,
@@ -780,7 +780,7 @@
      :r/t-scheduled 57.0,
      :r/k "boliqueime-01081",
      :r/total-passed 78.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 1081,
      :r/level-0 "2017",
      :r/d-scheduled 77,
@@ -794,7 +794,7 @@
      :r/t-scheduled 57.0,
      :r/k "boliqueime-01081",
      :r/total-passed 82.0,
-     :r/t-done 53.0}
+     :r/t-done 53}
     {:r/nec 1081,
      :r/level-0 "2018",
      :r/d-scheduled 71,
@@ -808,7 +808,7 @@
      :r/t-scheduled 65.0,
      :r/k "boliqueime-01081",
      :r/total-passed 88.0,
-     :r/t-done 60.0}
+     :r/t-done 60}
     {:r/nec 1081,
      :r/level-0 "2019",
      :r/d-scheduled 69,
@@ -822,7 +822,7 @@
      :r/t-scheduled 64.0,
      :r/k "boliqueime-01081",
      :r/total-passed 70.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 1081,
      :r/level-0 "2020",
      :r/d-scheduled 64,
@@ -836,7 +836,7 @@
      :r/t-scheduled 54.0,
      :r/k "boliqueime-01081",
      :r/total-passed 52.0,
-     :r/t-done 45.0}
+     :r/t-done 45}
     {:r/nec 1081,
      :r/level-0 "2021",
      :r/d-scheduled 49,
@@ -850,7 +850,7 @@
      :r/t-scheduled 83.0,
      :r/k "boliqueime-01081",
      :r/total-passed nil,
-     :r/t-done 61.0}],
+     :r/t-done 61}],
    :imt-profile
    {:address
     "Estrada Nacional 125, Fonte de Boliqueime, Nº 66, 8100-069 BOLIQUEIME",
@@ -895,7 +895,7 @@
      :r/t-scheduled 111.0,
      :r/k "nova-de-loule-01289",
      :r/total-passed 172.0,
-     :r/t-done 104.0}
+     :r/t-done 104}
     {:r/nec 1289,
      :r/level-0 "2016",
      :r/d-scheduled 133,
@@ -909,7 +909,7 @@
      :r/t-scheduled 99.0,
      :r/k "nova-de-loule-01289",
      :r/total-passed 154.0,
-     :r/t-done 97.0}
+     :r/t-done 97}
     {:r/nec 1289,
      :r/level-0 "2017",
      :r/d-scheduled 234,
@@ -923,7 +923,7 @@
      :r/t-scheduled 210.0,
      :r/k "nova-de-loule-01289",
      :r/total-passed 293.0,
-     :r/t-done 203.0}
+     :r/t-done 203}
     {:r/nec 1289,
      :r/level-0 "2018",
      :r/d-scheduled 303,
@@ -937,7 +937,7 @@
      :r/t-scheduled 256.0,
      :r/k "nova-de-loule-01289",
      :r/total-passed 371.0,
-     :r/t-done 252.0}
+     :r/t-done 252}
     {:r/nec 1289,
      :r/level-0 "2019",
      :r/d-scheduled 289,
@@ -951,7 +951,7 @@
      :r/t-scheduled 246.0,
      :r/k "nova-de-loule-01289",
      :r/total-passed 361.0,
-     :r/t-done 235.0}
+     :r/t-done 235}
     {:r/nec 1289,
      :r/level-0 "2020",
      :r/d-scheduled 273,
@@ -965,7 +965,7 @@
      :r/t-scheduled 217.0,
      :r/k "nova-de-loule-01289",
      :r/total-passed 300.0,
-     :r/t-done 192.0}
+     :r/t-done 192}
     {:r/nec 1289,
      :r/level-0 "2021",
      :r/d-scheduled 311,
@@ -979,7 +979,7 @@
      :r/t-scheduled 334.0,
      :r/k "nova-de-loule-01289",
      :r/total-passed nil,
-     :r/t-done 294.0}],
+     :r/t-done 294}],
    :imt-profile
    {:address
     "Urbanização Hortas de Santo António,Lote 12, Lj B, 8100-712 LOULÉ",

@@ -14,7 +14,7 @@
      :r/t-scheduled 86.0,
      :r/k "cerveirense-00512",
      :r/total-passed 101.0,
-     :r/t-done 83.0}
+     :r/t-done 83}
     {:r/nec 512,
      :r/level-0 "2016",
      :r/d-scheduled 59,
@@ -28,7 +28,7 @@
      :r/t-scheduled 93.0,
      :r/k "cerveirense-00512",
      :r/total-passed 110.0,
-     :r/t-done 88.0}
+     :r/t-done 88}
     {:r/nec 512,
      :r/level-0 "2017",
      :r/d-scheduled 39,
@@ -42,7 +42,7 @@
      :r/t-scheduled 44.0,
      :r/k "cerveirense-00512",
      :r/total-passed 69.0,
-     :r/t-done 40.0}
+     :r/t-done 40}
     {:r/nec 512,
      :r/level-0 "2018",
      :r/d-scheduled 29,
@@ -56,7 +56,7 @@
      :r/t-scheduled 54.0,
      :r/k "cerveirense-00512",
      :r/total-passed 57.0,
-     :r/t-done 51.0}
+     :r/t-done 51}
     {:r/nec 512,
      :r/level-0 "2019",
      :r/d-scheduled 35,
@@ -70,7 +70,7 @@
      :r/t-scheduled 51.0,
      :r/k "cerveirense-00512",
      :r/total-passed 72.0,
-     :r/t-done 51.0}
+     :r/t-done 51}
     {:r/nec 512,
      :r/level-0 "2020",
      :r/d-scheduled 46,
@@ -84,7 +84,7 @@
      :r/t-scheduled 58.0,
      :r/k "cerveirense-00512",
      :r/total-passed 69.0,
-     :r/t-done 52.0}
+     :r/t-done 52}
     {:r/nec 512,
      :r/level-0 "2021",
      :r/d-scheduled 35,
@@ -98,7 +98,7 @@
      :r/t-scheduled 72.0,
      :r/k "cerveirense-00512",
      :r/total-passed nil,
-     :r/t-done 60.0}],
+     :r/t-done 60}],
    :imt-profile
    {:address
     "Edifício Ilha dos Amores, nº 5 4920-279 VILA NOVA CERVEIRA",
@@ -138,7 +138,7 @@
      :r/t-scheduled 62.0,
      :r/k "alto-das-cerejas-00747",
      :r/total-passed 103.0,
-     :r/t-done 60.0}
+     :r/t-done 60}
     {:r/nec 747,
      :r/level-0 "2016",
      :r/d-scheduled 74,
@@ -152,7 +152,7 @@
      :r/t-scheduled 63.0,
      :r/k "alto-das-cerejas-00747",
      :r/total-passed 114.0,
-     :r/t-done 62.0}
+     :r/t-done 62}
     {:r/nec 747,
      :r/level-0 "2017",
      :r/d-scheduled 64,
@@ -166,7 +166,7 @@
      :r/t-scheduled 51.0,
      :r/k "alto-das-cerejas-00747",
      :r/total-passed 87.0,
-     :r/t-done 50.0}
+     :r/t-done 50}
     {:r/nec 747,
      :r/level-0 "2018",
      :r/d-scheduled 74,
@@ -180,7 +180,7 @@
      :r/t-scheduled 44.0,
      :r/k "alto-das-cerejas-00747",
      :r/total-passed 97.0,
-     :r/t-done 43.0}
+     :r/t-done 43}
     {:r/nec 747,
      :r/level-0 "2019",
      :r/d-scheduled 143,
@@ -194,7 +194,7 @@
      :r/t-scheduled 38.0,
      :r/k "alto-das-cerejas-00747",
      :r/total-passed 157.0,
-     :r/t-done 38.0}
+     :r/t-done 38}
     {:r/nec 747,
      :r/level-0 "2020",
      :r/d-scheduled 105,
@@ -208,7 +208,7 @@
      :r/t-scheduled 41.0,
      :r/k "alto-das-cerejas-00747",
      :r/total-passed 108.0,
-     :r/t-done 39.0}
+     :r/t-done 39}
     {:r/nec 747,
      :r/level-0 "2021",
      :r/d-scheduled 130,
@@ -222,7 +222,7 @@
      :r/t-scheduled 48.0,
      :r/k "alto-das-cerejas-00747",
      :r/total-passed nil,
-     :r/t-done 42.0}],
+     :r/t-done 42}],
    :imt-profile
    {:address
     "Rua Fonte Pereira, Lote 1, Fracção H, Campos, 4920- 011 Vila Nova de Cerveira",

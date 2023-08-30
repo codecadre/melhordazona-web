@@ -13,7 +13,7 @@
    :r/t-scheduled 15.0,
    :r/k "nova-de-tomar-01349",
    :r/total-passed 14.0,
-   :r/t-done 15.0}
+   :r/t-done 15}
   {:r/nec 1349,
    :r/level-0 "2020",
    :r/d-scheduled 78,
@@ -27,7 +27,7 @@
    :r/t-scheduled 97.0,
    :r/k "nova-de-tomar-01349",
    :r/total-passed 118.0,
-   :r/t-done 89.0}
+   :r/t-done 89}
   {:r/nec 1349,
    :r/level-0 "2021",
    :r/d-scheduled 35,
@@ -41,7 +41,7 @@
    :r/t-scheduled 37.0,
    :r/k "nova-de-tomar-01349",
    :r/total-passed nil,
-   :r/t-done 28.0}],
+   :r/t-done 28}],
  :imt-profile
  {:address "Av. General Norton de Matos, n.º 30-32 r/c Esq. Tomar",
   :name "Nova de Tomar",

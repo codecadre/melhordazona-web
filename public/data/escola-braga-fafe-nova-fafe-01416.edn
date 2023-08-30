@@ -13,7 +13,7 @@
    :r/t-scheduled 33.0,
    :r/k "nova-fafe-01416",
    :r/total-passed 51.0,
-   :r/t-done 33.0}
+   :r/t-done 33}
   {:r/nec 1416,
    :r/level-0 "2019",
    :r/d-scheduled 76,
@@ -27,7 +27,7 @@
    :r/t-scheduled 80.0,
    :r/k "nova-fafe-01416",
    :r/total-passed 134.0,
-   :r/t-done 75.0}
+   :r/t-done 75}
   {:r/nec 1416,
    :r/level-0 "2020",
    :r/d-scheduled 105,
@@ -41,7 +41,7 @@
    :r/t-scheduled 90.0,
    :r/k "nova-fafe-01416",
    :r/total-passed 150.0,
-   :r/t-done 84.0}
+   :r/t-done 84}
   {:r/nec 1416,
    :r/level-0 "2021",
    :r/d-scheduled 118,
@@ -55,7 +55,7 @@
    :r/t-scheduled 123.0,
    :r/k "nova-fafe-01416",
    :r/total-passed nil,
-   :r/t-done 111.0}],
+   :r/t-done 111}],
  :imt-profile
  {:address "Rua da Cumieira, n.º 6, r/c, 4820-179 Fafe",
   :name "Nova Fafe",

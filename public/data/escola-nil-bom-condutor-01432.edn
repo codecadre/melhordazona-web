@@ -13,7 +13,7 @@
    :r/t-scheduled 90.0,
    :r/k "bom-condutor-01432",
    :r/total-passed 92.0,
-   :r/t-done 90.0}
+   :r/t-done 90}
   {:r/nec 1432,
    :r/level-0 "2020",
    :r/d-scheduled 157,
@@ -27,7 +27,7 @@
    :r/t-scheduled 183.0,
    :r/k "bom-condutor-01432",
    :r/total-passed 178.0,
-   :r/t-done 166.0}
+   :r/t-done 166}
   {:r/nec 1432,
    :r/level-0 "2021",
    :r/d-scheduled 242,
@@ -41,5 +41,5 @@
    :r/t-scheduled 303.0,
    :r/k "bom-condutor-01432",
    :r/total-passed nil,
-   :r/t-done 250.0}],
+   :r/t-done 250}],
  :imt-profile nil}

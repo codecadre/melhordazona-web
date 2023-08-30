@@ -13,7 +13,7 @@
    :r/t-scheduled 20.0,
    :r/k "rpm32-01327",
    :r/total-passed 31.0,
-   :r/t-done 20.0}
+   :r/t-done 20}
   {:r/nec 1327,
    :r/level-0 "2016",
    :r/d-scheduled 62,
@@ -27,7 +27,7 @@
    :r/t-scheduled 60.0,
    :r/k "rpm32-01327",
    :r/total-passed 104.0,
-   :r/t-done 60.0}
+   :r/t-done 60}
   {:r/nec 1327,
    :r/level-0 "2017",
    :r/d-scheduled 91,
@@ -41,7 +41,7 @@
    :r/t-scheduled 71.0,
    :r/k "rpm32-01327",
    :r/total-passed 124.0,
-   :r/t-done 71.0}
+   :r/t-done 71}
   {:r/nec 1327,
    :r/level-0 "2018",
    :r/d-scheduled 107,
@@ -55,7 +55,7 @@
    :r/t-scheduled 117.0,
    :r/k "rpm32-01327",
    :r/total-passed 156.0,
-   :r/t-done 116.0}
+   :r/t-done 116}
   {:r/nec 1327,
    :r/level-0 "2019",
    :r/d-scheduled 150,
@@ -69,7 +69,7 @@
    :r/t-scheduled 141.0,
    :r/k "rpm32-01327",
    :r/total-passed 197.0,
-   :r/t-done 139.0}
+   :r/t-done 139}
   {:r/nec 1327,
    :r/level-0 "2020",
    :r/d-scheduled 133,
@@ -83,7 +83,7 @@
    :r/t-scheduled 146.0,
    :r/k "rpm32-01327",
    :r/total-passed 197.0,
-   :r/t-done 138.0}
+   :r/t-done 138}
   {:r/nec 1327,
    :r/level-0 "2021",
    :r/d-scheduled 200,
@@ -97,7 +97,7 @@
    :r/t-scheduled 205.0,
    :r/k "rpm32-01327",
    :r/total-passed nil,
-   :r/t-done 192.0}],
+   :r/t-done 192}],
  :imt-profile
  {:address "Rua 32, n.º 798, 4500-190 ESPINHO",
   :name "RPM32",

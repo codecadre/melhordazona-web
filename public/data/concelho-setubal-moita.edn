@@ -14,7 +14,7 @@
      :r/t-scheduled 125.0,
      :r/k "alem-rio-00190",
      :r/total-passed 151.0,
-     :r/t-done 125.0}
+     :r/t-done 125}
     {:r/nec 190,
      :r/level-0 "2016",
      :r/d-scheduled 121,
@@ -28,7 +28,7 @@
      :r/t-scheduled 136.0,
      :r/k "alem-rio-00190",
      :r/total-passed 164.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 190,
      :r/level-0 "2017",
      :r/d-scheduled 133,
@@ -42,7 +42,7 @@
      :r/t-scheduled 159.0,
      :r/k "alem-rio-00190",
      :r/total-passed 196.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 190,
      :r/level-0 "2018",
      :r/d-scheduled 120,
@@ -56,7 +56,7 @@
      :r/t-scheduled 146.0,
      :r/k "alem-rio-00190",
      :r/total-passed 190.0,
-     :r/t-done 146.0}
+     :r/t-done 146}
     {:r/nec 190,
      :r/level-0 "2019",
      :r/d-scheduled 132,
@@ -70,7 +70,7 @@
      :r/t-scheduled 118.0,
      :r/k "alem-rio-00190",
      :r/total-passed 164.0,
-     :r/t-done 112.0}
+     :r/t-done 112}
     {:r/nec 190,
      :r/level-0 "2020",
      :r/d-scheduled 103,
@@ -84,7 +84,7 @@
      :r/t-scheduled 140.0,
      :r/k "alem-rio-00190",
      :r/total-passed 161.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 190,
      :r/level-0 "2021",
      :r/d-scheduled 101,
@@ -98,7 +98,7 @@
      :r/t-scheduled 111.0,
      :r/k "alem-rio-00190",
      :r/total-passed nil,
-     :r/t-done 94.0}],
+     :r/t-done 94}],
    :imt-profile
    {:address
     "Estrada Nacional nº 11, nº 219 r/c 2835-024 BAIXA DA BANHEIRA",
@@ -131,7 +131,7 @@
      :r/t-scheduled 150.0,
      :r/k "infante-sagres-miradouro-00643",
      :r/total-passed 211.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 643,
      :r/level-0 "2016",
      :r/d-scheduled 140,
@@ -145,7 +145,7 @@
      :r/t-scheduled 150.0,
      :r/k "infante-sagres-miradouro-00643",
      :r/total-passed 211.0,
-     :r/t-done 148.0}
+     :r/t-done 148}
     {:r/nec 643,
      :r/level-0 "2017",
      :r/d-scheduled 133,
@@ -159,7 +159,7 @@
      :r/t-scheduled 152.0,
      :r/k "infante-sagres-miradouro-00643",
      :r/total-passed 187.0,
-     :r/t-done 146.0}
+     :r/t-done 146}
     {:r/nec 643,
      :r/level-0 "2018",
      :r/d-scheduled 123,
@@ -173,7 +173,7 @@
      :r/t-scheduled 146.0,
      :r/k "infante-sagres-miradouro-00643",
      :r/total-passed 199.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 643,
      :r/level-0 "2019",
      :r/d-scheduled 120,
@@ -187,7 +187,7 @@
      :r/t-scheduled 146.0,
      :r/k "infante-sagres-miradouro-00643",
      :r/total-passed 186.0,
-     :r/t-done 135.0}
+     :r/t-done 135}
     {:r/nec 643,
      :r/level-0 "2020",
      :r/d-scheduled 131,
@@ -201,7 +201,7 @@
      :r/t-scheduled 135.0,
      :r/k "infante-sagres-miradouro-00643",
      :r/total-passed 166.0,
-     :r/t-done 127.0}
+     :r/t-done 127}
     {:r/nec 643,
      :r/level-0 "2021",
      :r/d-scheduled 116,
@@ -215,7 +215,7 @@
      :r/t-scheduled 163.0,
      :r/k "infante-sagres-miradouro-00643",
      :r/total-passed nil,
-     :r/t-done 149.0}],
+     :r/t-done 149}],
    :imt-profile
    {:address
     "Rua Francisco Miguel, 4, 36 B, R/C 2835-123 BAIXA DA BANHEIRA",
@@ -259,7 +259,7 @@
      :r/t-scheduled 69.0,
      :r/k "siiimplesado-00802",
      :r/total-passed 131.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 802,
      :r/level-0 "2016",
      :r/d-scheduled 60,
@@ -273,7 +273,7 @@
      :r/t-scheduled 83.0,
      :r/k "siiimplesado-00802",
      :r/total-passed 96.0,
-     :r/t-done 81.0}
+     :r/t-done 81}
     {:r/nec 802,
      :r/level-0 "2017",
      :r/d-scheduled 138,
@@ -287,7 +287,7 @@
      :r/t-scheduled 173.0,
      :r/k "siiimplesado-00802",
      :r/total-passed 211.0,
-     :r/t-done 170.0}
+     :r/t-done 170}
     {:r/nec 802,
      :r/level-0 "2018",
      :r/d-scheduled 156,
@@ -301,7 +301,7 @@
      :r/t-scheduled 194.0,
      :r/k "siiimplesado-00802",
      :r/total-passed 209.0,
-     :r/t-done 186.0}
+     :r/t-done 186}
     {:r/nec 802,
      :r/level-0 "2019",
      :r/d-scheduled 204,
@@ -315,7 +315,7 @@
      :r/t-scheduled 283.0,
      :r/k "siiimplesado-00802",
      :r/total-passed 267.0,
-     :r/t-done 250.0}
+     :r/t-done 250}
     {:r/nec 802,
      :r/level-0 "2020",
      :r/d-scheduled 133,
@@ -329,7 +329,7 @@
      :r/t-scheduled 260.0,
      :r/k "siiimplesado-00802",
      :r/total-passed 193.0,
-     :r/t-done 195.0}
+     :r/t-done 195}
     {:r/nec 802,
      :r/level-0 "2021",
      :r/d-scheduled 6,
@@ -343,7 +343,7 @@
      :r/t-scheduled 1.0,
      :r/k "siiimplesado-00802",
      :r/total-passed nil,
-     :r/t-done 0.0}],
+     :r/t-done 0}],
    :imt-profile
    {:address "Rua Envolvente à Praça de Touros 14 A 2860-293 MOITA",
     :archived-last-seen-at "2022-05-07T14:52:45Z",
@@ -383,7 +383,7 @@
      :r/t-scheduled 151.0,
      :r/k "nova-moita-00915",
      :r/total-passed 222.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 915,
      :r/level-0 "2016",
      :r/d-scheduled 158,
@@ -397,7 +397,7 @@
      :r/t-scheduled 185.0,
      :r/k "nova-moita-00915",
      :r/total-passed 256.0,
-     :r/t-done 183.0}
+     :r/t-done 183}
     {:r/nec 915,
      :r/level-0 "2017",
      :r/d-scheduled 156,
@@ -411,7 +411,7 @@
      :r/t-scheduled 147.0,
      :r/k "nova-moita-00915",
      :r/total-passed 205.0,
-     :r/t-done 143.0}
+     :r/t-done 143}
     {:r/nec 915,
      :r/level-0 "2018",
      :r/d-scheduled 139,
@@ -425,7 +425,7 @@
      :r/t-scheduled 161.0,
      :r/k "nova-moita-00915",
      :r/total-passed 201.0,
-     :r/t-done 155.0}
+     :r/t-done 155}
     {:r/nec 915,
      :r/level-0 "2019",
      :r/d-scheduled 139,
@@ -439,7 +439,7 @@
      :r/t-scheduled 155.0,
      :r/k "nova-moita-00915",
      :r/total-passed 183.0,
-     :r/t-done 154.0}
+     :r/t-done 154}
     {:r/nec 915,
      :r/level-0 "2020",
      :r/d-scheduled 110,
@@ -453,7 +453,7 @@
      :r/t-scheduled 133.0,
      :r/k "nova-moita-00915",
      :r/total-passed 176.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 915,
      :r/level-0 "2021",
      :r/d-scheduled 144,
@@ -467,7 +467,7 @@
      :r/t-scheduled 157.0,
      :r/k "nova-moita-00915",
      :r/total-passed nil,
-     :r/t-done 138.0}],
+     :r/t-done 138}],
    :imt-profile
    {:address "Urbanização Nova Moita, lote 7 r/c Esqº 2860 MOITA",
     :name "Nova Moita",
@@ -499,7 +499,7 @@
      :r/t-scheduled 88.0,
      :r/k "bxb-01104",
      :r/total-passed 86.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 1104,
      :r/level-0 "2016",
      :r/d-scheduled 181,
@@ -513,7 +513,7 @@
      :r/t-scheduled 227.0,
      :r/k "bxb-01104",
      :r/total-passed 258.0,
-     :r/t-done 215.0}
+     :r/t-done 215}
     {:r/nec 1104,
      :r/level-0 "2017",
      :r/d-scheduled 295,
@@ -527,7 +527,7 @@
      :r/t-scheduled 393.0,
      :r/k "bxb-01104",
      :r/total-passed 456.0,
-     :r/t-done 371.0}
+     :r/t-done 371}
     {:r/nec 1104,
      :r/level-0 "2018",
      :r/d-scheduled 362,
@@ -541,7 +541,7 @@
      :r/t-scheduled 444.0,
      :r/k "bxb-01104",
      :r/total-passed 529.0,
-     :r/t-done 424.0}
+     :r/t-done 424}
     {:r/nec 1104,
      :r/level-0 "2019",
      :r/d-scheduled 367,
@@ -555,7 +555,7 @@
      :r/t-scheduled 441.0,
      :r/k "bxb-01104",
      :r/total-passed 490.0,
-     :r/t-done 421.0}
+     :r/t-done 421}
     {:r/nec 1104,
      :r/level-0 "2020",
      :r/d-scheduled 238,
@@ -569,7 +569,7 @@
      :r/t-scheduled 288.0,
      :r/k "bxb-01104",
      :r/total-passed 325.0,
-     :r/t-done 253.0}
+     :r/t-done 253}
     {:r/nec 1104,
      :r/level-0 "2021",
      :r/d-scheduled 266,
@@ -583,7 +583,7 @@
      :r/t-scheduled 261.0,
      :r/k "bxb-01104",
      :r/total-passed nil,
-     :r/t-done 225.0}],
+     :r/t-done 225}],
    :imt-profile
    {:address
     "Estrada Nacional 11, 1P 233 , 2835-175 Baixa da Banheira",
@@ -626,7 +626,7 @@
      :r/t-scheduled 148.0,
      :r/k "cooldrive-01453",
      :r/total-passed nil,
-     :r/t-done 132.0}],
+     :r/t-done 132}],
    :imt-profile
    {:address "Rua Bento Gonçalves, n.º 23 2860-439 Moita",
     :name "Cooldrive",

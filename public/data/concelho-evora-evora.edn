@@ -14,7 +14,7 @@
      :r/t-scheduled 214.0,
      :r/k "diana-00194",
      :r/total-passed 351.0,
-     :r/t-done 211.0}
+     :r/t-done 211}
     {:r/nec 194,
      :r/level-0 "2016",
      :r/d-scheduled 238,
@@ -28,7 +28,7 @@
      :r/t-scheduled 218.0,
      :r/k "diana-00194",
      :r/total-passed 324.0,
-     :r/t-done 209.0}
+     :r/t-done 209}
     {:r/nec 194,
      :r/level-0 "2017",
      :r/d-scheduled 267,
@@ -42,7 +42,7 @@
      :r/t-scheduled 259.0,
      :r/k "diana-00194",
      :r/total-passed 372.0,
-     :r/t-done 250.0}
+     :r/t-done 250}
     {:r/nec 194,
      :r/level-0 "2018",
      :r/d-scheduled 287,
@@ -56,7 +56,7 @@
      :r/t-scheduled 279.0,
      :r/k "diana-00194",
      :r/total-passed 403.0,
-     :r/t-done 273.0}
+     :r/t-done 273}
     {:r/nec 194,
      :r/level-0 "2019",
      :r/d-scheduled 274,
@@ -70,7 +70,7 @@
      :r/t-scheduled 269.0,
      :r/k "diana-00194",
      :r/total-passed 370.0,
-     :r/t-done 255.0}
+     :r/t-done 255}
     {:r/nec 194,
      :r/level-0 "2020",
      :r/d-scheduled 212,
@@ -84,7 +84,7 @@
      :r/t-scheduled 247.0,
      :r/k "diana-00194",
      :r/total-passed 307.0,
-     :r/t-done 212.0}
+     :r/t-done 212}
     {:r/nec 194,
      :r/level-0 "2021",
      :r/d-scheduled 191,
@@ -98,7 +98,7 @@
      :r/t-scheduled 368.0,
      :r/k "diana-00194",
      :r/total-passed nil,
-     :r/t-done 326.0}],
+     :r/t-done 326}],
    :imt-profile
    {:address "Rua do Menino de Jesus, 35 7000-601 ÉVORA",
     :name "Diana",
@@ -139,7 +139,7 @@
      :r/t-scheduled 268.0,
      :r/k "giraldo-00800",
      :r/total-passed 403.0,
-     :r/t-done 260.0}
+     :r/t-done 260}
     {:r/nec 800,
      :r/level-0 "2016",
      :r/d-scheduled 418,
@@ -153,7 +153,7 @@
      :r/t-scheduled 260.0,
      :r/k "giraldo-00800",
      :r/total-passed 517.0,
-     :r/t-done 256.0}
+     :r/t-done 256}
     {:r/nec 800,
      :r/level-0 "2017",
      :r/d-scheduled 363,
@@ -167,7 +167,7 @@
      :r/t-scheduled 340.0,
      :r/k "giraldo-00800",
      :r/total-passed 548.0,
-     :r/t-done 330.0}
+     :r/t-done 330}
     {:r/nec 800,
      :r/level-0 "2018",
      :r/d-scheduled 352,
@@ -181,7 +181,7 @@
      :r/t-scheduled 320.0,
      :r/k "giraldo-00800",
      :r/total-passed 517.0,
-     :r/t-done 309.0}
+     :r/t-done 309}
     {:r/nec 800,
      :r/level-0 "2019",
      :r/d-scheduled 394,
@@ -195,7 +195,7 @@
      :r/t-scheduled 368.0,
      :r/k "giraldo-00800",
      :r/total-passed 588.0,
-     :r/t-done 353.0}
+     :r/t-done 353}
     {:r/nec 800,
      :r/level-0 "2020",
      :r/d-scheduled 319,
@@ -209,7 +209,7 @@
      :r/t-scheduled 260.0,
      :r/k "giraldo-00800",
      :r/total-passed 429.0,
-     :r/t-done 245.0}
+     :r/t-done 245}
     {:r/nec 800,
      :r/level-0 "2021",
      :r/d-scheduled 386,
@@ -223,7 +223,7 @@
      :r/t-scheduled 524.0,
      :r/k "giraldo-00800",
      :r/total-passed nil,
-     :r/t-done 482.0}],
+     :r/t-done 482}],
    :imt-profile
    {:address
     "Zona Industrial - Horta das Figueiras- Rua C,Lote 3 7005-316 ÉVORA",
@@ -266,7 +266,7 @@
      :r/t-scheduled 62.0,
      :r/k "infante-de-evora-00948",
      :r/total-passed 82.0,
-     :r/t-done 62.0}
+     :r/t-done 62}
     {:r/nec 948,
      :r/level-0 "2016",
      :r/d-scheduled 71,
@@ -280,7 +280,7 @@
      :r/t-scheduled 82.0,
      :r/k "infante-de-evora-00948",
      :r/total-passed 111.0,
-     :r/t-done 81.0}
+     :r/t-done 81}
     {:r/nec 948,
      :r/level-0 "2017",
      :r/d-scheduled 79,
@@ -294,7 +294,7 @@
      :r/t-scheduled 88.0,
      :r/k "infante-de-evora-00948",
      :r/total-passed 108.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 948,
      :r/level-0 "2018",
      :r/d-scheduled 77,
@@ -308,7 +308,7 @@
      :r/t-scheduled 82.0,
      :r/k "infante-de-evora-00948",
      :r/total-passed 120.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 948,
      :r/level-0 "2019",
      :r/d-scheduled 87,
@@ -322,7 +322,7 @@
      :r/t-scheduled 69.0,
      :r/k "infante-de-evora-00948",
      :r/total-passed 110.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 948,
      :r/level-0 "2020",
      :r/d-scheduled 70,
@@ -336,7 +336,7 @@
      :r/t-scheduled 55.0,
      :r/k "infante-de-evora-00948",
      :r/total-passed 79.0,
-     :r/t-done 49.0}
+     :r/t-done 49}
     {:r/nec 948,
      :r/level-0 "2021",
      :r/d-scheduled 46,
@@ -350,7 +350,7 @@
      :r/t-scheduled 111.0,
      :r/k "infante-de-evora-00948",
      :r/total-passed nil,
-     :r/t-done 98.0}],
+     :r/t-done 98}],
    :imt-profile
    {:address "Av. dos Salesianos, n.º 70 e 72 ; 7000-292 Évora",
     :name "Infante de Évora",
@@ -391,7 +391,7 @@
      :r/t-scheduled 248.0,
      :r/k "vila-lusitano-01174",
      :r/total-passed 396.0,
-     :r/t-done 243.0}
+     :r/t-done 243}
     {:r/nec 1174,
      :r/level-0 "2016",
      :r/d-scheduled 275,
@@ -405,7 +405,7 @@
      :r/t-scheduled 238.0,
      :r/k "vila-lusitano-01174",
      :r/total-passed 413.0,
-     :r/t-done 231.0}
+     :r/t-done 231}
     {:r/nec 1174,
      :r/level-0 "2017",
      :r/d-scheduled 313,
@@ -419,7 +419,7 @@
      :r/t-scheduled 319.0,
      :r/k "vila-lusitano-01174",
      :r/total-passed 506.0,
-     :r/t-done 311.0}
+     :r/t-done 311}
     {:r/nec 1174,
      :r/level-0 "2018",
      :r/d-scheduled 325,
@@ -433,7 +433,7 @@
      :r/t-scheduled 287.0,
      :r/k "vila-lusitano-01174",
      :r/total-passed 496.0,
-     :r/t-done 281.0}
+     :r/t-done 281}
     {:r/nec 1174,
      :r/level-0 "2019",
      :r/d-scheduled 367,
@@ -447,7 +447,7 @@
      :r/t-scheduled 340.0,
      :r/k "vila-lusitano-01174",
      :r/total-passed 541.0,
-     :r/t-done 329.0}
+     :r/t-done 329}
     {:r/nec 1174,
      :r/level-0 "2020",
      :r/d-scheduled 277,
@@ -461,7 +461,7 @@
      :r/t-scheduled 366.0,
      :r/k "vila-lusitano-01174",
      :r/total-passed 472.0,
-     :r/t-done 336.0}
+     :r/t-done 336}
     {:r/nec 1174,
      :r/level-0 "2021",
      :r/d-scheduled 282,
@@ -475,7 +475,7 @@
      :r/t-scheduled 415.0,
      :r/k "vila-lusitano-01174",
      :r/total-passed nil,
-     :r/t-done 350.0}],
+     :r/t-done 350}],
    :imt-profile
    {:address
     "Rua Sebastião do Couto, Nº 1-A vila Lusitano 7005-610 ÉVORA",
@@ -518,7 +518,7 @@
      :r/t-scheduled 96.0,
      :r/k "del-rei-01429",
      :r/total-passed 119.0,
-     :r/t-done 96.0}
+     :r/t-done 96}
     {:r/nec 1429,
      :r/level-0 "2020",
      :r/d-scheduled 134,
@@ -532,7 +532,7 @@
      :r/t-scheduled 265.0,
      :r/k "del-rei-01429",
      :r/total-passed 267.0,
-     :r/t-done 237.0}
+     :r/t-done 237}
     {:r/nec 1429,
      :r/level-0 "2021",
      :r/d-scheduled 261,
@@ -546,7 +546,7 @@
      :r/t-scheduled 463.0,
      :r/k "del-rei-01429",
      :r/total-passed nil,
-     :r/t-done 396.0}],
+     :r/t-done 396}],
    :imt-profile
    {:address "Rua Chafariz D’El rei, n.º 39, r/c Esq. 7005-190 Évora",
     :name "D’El Rei",

@@ -13,7 +13,7 @@
    :r/t-scheduled 20.0,
    :r/k "via-principal-01191",
    :r/total-passed 32.0,
-   :r/t-done 20.0}
+   :r/t-done 20}
   {:r/nec 1191,
    :r/level-0 "2016",
    :r/d-scheduled 28,
@@ -27,7 +27,7 @@
    :r/t-scheduled 25.0,
    :r/k "via-principal-01191",
    :r/total-passed 45.0,
-   :r/t-done 25.0}
+   :r/t-done 25}
   {:r/nec 1191,
    :r/level-0 "2017",
    :r/d-scheduled 40,
@@ -41,7 +41,7 @@
    :r/t-scheduled 55.0,
    :r/k "via-principal-01191",
    :r/total-passed 77.0,
-   :r/t-done 55.0}
+   :r/t-done 55}
   {:r/nec 1191,
    :r/level-0 "2018",
    :r/d-scheduled 77,
@@ -55,7 +55,7 @@
    :r/t-scheduled 76.0,
    :r/k "via-principal-01191",
    :r/total-passed 121.0,
-   :r/t-done 76.0}
+   :r/t-done 76}
   {:r/nec 1191,
    :r/level-0 "2019",
    :r/d-scheduled 98,
@@ -69,7 +69,7 @@
    :r/t-scheduled 108.0,
    :r/k "via-principal-01191",
    :r/total-passed 154.0,
-   :r/t-done 106.0}
+   :r/t-done 106}
   {:r/nec 1191,
    :r/level-0 "2020",
    :r/d-scheduled 95,
@@ -83,7 +83,7 @@
    :r/t-scheduled 84.0,
    :r/k "via-principal-01191",
    :r/total-passed 150.0,
-   :r/t-done 80.0}
+   :r/t-done 80}
   {:r/nec 1191,
    :r/level-0 "2021",
    :r/d-scheduled 81,
@@ -97,7 +97,7 @@
    :r/t-scheduled 131.0,
    :r/k "via-principal-01191",
    :r/total-passed nil,
-   :r/t-done 117.0}],
+   :r/t-done 117}],
  :imt-profile
  {:address
   "Av. Padre Dr. Raul Sarreira, nº 95, R/c, 2560-127 Ponte do Rol",

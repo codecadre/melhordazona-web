@@ -13,7 +13,7 @@
    :r/t-scheduled 44.0,
    :r/k "go-driving-01024",
    :r/total-passed 66.0,
-   :r/t-done 43.0}
+   :r/t-done 43}
   {:r/nec 1024,
    :r/level-0 "2016",
    :r/d-scheduled 81,
@@ -27,7 +27,7 @@
    :r/t-scheduled 63.0,
    :r/k "go-driving-01024",
    :r/total-passed 77.0,
-   :r/t-done 61.0}
+   :r/t-done 61}
   {:r/nec 1024,
    :r/level-0 "2017",
    :r/d-scheduled 88,
@@ -41,7 +41,7 @@
    :r/t-scheduled 37.0,
    :r/k "go-driving-01024",
    :r/total-passed 74.0,
-   :r/t-done 35.0}
+   :r/t-done 35}
   {:r/nec 1024,
    :r/level-0 "2018",
    :r/d-scheduled 96,
@@ -55,7 +55,7 @@
    :r/t-scheduled 91.0,
    :r/k "go-driving-01024",
    :r/total-passed 128.0,
-   :r/t-done 91.0}
+   :r/t-done 91}
   {:r/nec 1024,
    :r/level-0 "2019",
    :r/d-scheduled 166,
@@ -69,7 +69,7 @@
    :r/t-scheduled 145.0,
    :r/k "go-driving-01024",
    :r/total-passed 226.0,
-   :r/t-done 144.0}
+   :r/t-done 144}
   {:r/nec 1024,
    :r/level-0 "2020",
    :r/d-scheduled 152,
@@ -83,7 +83,7 @@
    :r/t-scheduled 151.0,
    :r/k "go-driving-01024",
    :r/total-passed 240.0,
-   :r/t-done 144.0}
+   :r/t-done 144}
   {:r/nec 1024,
    :r/level-0 "2021",
    :r/d-scheduled 180,
@@ -97,7 +97,7 @@
    :r/t-scheduled 162.0,
    :r/k "go-driving-01024",
    :r/total-passed nil,
-   :r/t-done 158.0}],
+   :r/t-done 158}],
  :imt-profile nil,
  :obs "license 1024 is 'Egitaniense' in imt.pt",
  :overwrite/notes nil}

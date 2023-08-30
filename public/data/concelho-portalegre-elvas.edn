@@ -14,7 +14,7 @@
      :r/t-scheduled 212.0,
      :r/k "sobre-rodas-00801",
      :r/total-passed 242.0,
-     :r/t-done 212.0}
+     :r/t-done 212}
     {:r/nec 801,
      :r/level-0 "2016",
      :r/d-scheduled 163,
@@ -28,7 +28,7 @@
      :r/t-scheduled 181.0,
      :r/k "sobre-rodas-00801",
      :r/total-passed 251.0,
-     :r/t-done 177.0}
+     :r/t-done 177}
     {:r/nec 801,
      :r/level-0 "2017",
      :r/d-scheduled 141,
@@ -42,7 +42,7 @@
      :r/t-scheduled 152.0,
      :r/k "sobre-rodas-00801",
      :r/total-passed 212.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 801,
      :r/level-0 "2018",
      :r/d-scheduled 140,
@@ -56,7 +56,7 @@
      :r/t-scheduled 154.0,
      :r/k "sobre-rodas-00801",
      :r/total-passed 229.0,
-     :r/t-done 151.0}
+     :r/t-done 151}
     {:r/nec 801,
      :r/level-0 "2019",
      :r/d-scheduled 151,
@@ -70,7 +70,7 @@
      :r/t-scheduled 206.0,
      :r/k "sobre-rodas-00801",
      :r/total-passed 253.0,
-     :r/t-done 190.0}
+     :r/t-done 190}
     {:r/nec 801,
      :r/level-0 "2020",
      :r/d-scheduled 120,
@@ -84,7 +84,7 @@
      :r/t-scheduled 185.0,
      :r/k "sobre-rodas-00801",
      :r/total-passed 214.0,
-     :r/t-done 172.0}
+     :r/t-done 172}
     {:r/nec 801,
      :r/level-0 "2021",
      :r/d-scheduled 122,
@@ -98,7 +98,7 @@
      :r/t-scheduled 213.0,
      :r/k "sobre-rodas-00801",
      :r/total-passed nil,
-     :r/t-done 201.0}],
+     :r/t-done 201}],
    :imt-profile
    {:address "Avª António Sardinha, lote 11 C 7350-091 ELVAS",
     :name "Sobre Rodas",
@@ -140,7 +140,7 @@
      :r/t-scheduled 41.0,
      :r/k "aqueduto-01330",
      :r/total-passed 48.0,
-     :r/t-done 41.0}
+     :r/t-done 41}
     {:r/nec 1330,
      :r/level-0 "2016",
      :r/d-scheduled 143,
@@ -154,7 +154,7 @@
      :r/t-scheduled 136.0,
      :r/k "aqueduto-01330",
      :r/total-passed 186.0,
-     :r/t-done 134.0}
+     :r/t-done 134}
     {:r/nec 1330,
      :r/level-0 "2017",
      :r/d-scheduled 145,
@@ -168,7 +168,7 @@
      :r/t-scheduled 146.0,
      :r/k "aqueduto-01330",
      :r/total-passed 214.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 1330,
      :r/level-0 "2018",
      :r/d-scheduled 163,
@@ -182,7 +182,7 @@
      :r/t-scheduled 171.0,
      :r/k "aqueduto-01330",
      :r/total-passed 248.0,
-     :r/t-done 165.0}
+     :r/t-done 165}
     {:r/nec 1330,
      :r/level-0 "2019",
      :r/d-scheduled 169,
@@ -196,7 +196,7 @@
      :r/t-scheduled 182.0,
      :r/k "aqueduto-01330",
      :r/total-passed 237.0,
-     :r/t-done 182.0}
+     :r/t-done 182}
     {:r/nec 1330,
      :r/level-0 "2020",
      :r/d-scheduled 149,
@@ -210,7 +210,7 @@
      :r/t-scheduled 173.0,
      :r/k "aqueduto-01330",
      :r/total-passed 204.0,
-     :r/t-done 160.0}
+     :r/t-done 160}
     {:r/nec 1330,
      :r/level-0 "2021",
      :r/d-scheduled 101,
@@ -224,7 +224,7 @@
      :r/t-scheduled 197.0,
      :r/k "aqueduto-01330",
      :r/total-passed nil,
-     :r/t-done 188.0}],
+     :r/t-done 188}],
    :imt-profile
    {:address "Rua Alfredo Mirante, n.º 6 R/c Dtº, 7350-154 ELVAS",
     :name "Aqueduto",

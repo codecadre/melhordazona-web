@@ -14,7 +14,7 @@
      :r/t-scheduled 175.0,
      :r/k "moderna-de-tomar-00047",
      :r/total-passed 301.0,
-     :r/t-done 171.0}
+     :r/t-done 171}
     {:r/nec 47,
      :r/level-0 "2016",
      :r/d-scheduled 179,
@@ -28,7 +28,7 @@
      :r/t-scheduled 173.0,
      :r/k "moderna-de-tomar-00047",
      :r/total-passed 241.0,
-     :r/t-done 165.0}
+     :r/t-done 165}
     {:r/nec 47,
      :r/level-0 "2017",
      :r/d-scheduled 269,
@@ -42,7 +42,7 @@
      :r/t-scheduled 236.0,
      :r/k "moderna-de-tomar-00047",
      :r/total-passed 375.0,
-     :r/t-done 234.0}
+     :r/t-done 234}
     {:r/nec 47,
      :r/level-0 "2018",
      :r/d-scheduled 266,
@@ -56,7 +56,7 @@
      :r/t-scheduled 267.0,
      :r/k "moderna-de-tomar-00047",
      :r/total-passed 374.0,
-     :r/t-done 250.0}
+     :r/t-done 250}
     {:r/nec 47,
      :r/level-0 "2019",
      :r/d-scheduled 319,
@@ -70,7 +70,7 @@
      :r/t-scheduled 283.0,
      :r/k "moderna-de-tomar-00047",
      :r/total-passed 437.0,
-     :r/t-done 268.0}
+     :r/t-done 268}
     {:r/nec 47,
      :r/level-0 "2020",
      :r/d-scheduled 222,
@@ -84,7 +84,7 @@
      :r/t-scheduled 211.0,
      :r/k "moderna-de-tomar-00047",
      :r/total-passed 315.0,
-     :r/t-done 200.0}
+     :r/t-done 200}
     {:r/nec 47,
      :r/level-0 "2021",
      :r/d-scheduled 257,
@@ -98,7 +98,7 @@
      :r/t-scheduled 304.0,
      :r/k "moderna-de-tomar-00047",
      :r/total-passed nil,
-     :r/t-done 280.0}],
+     :r/t-done 280}],
    :imt-profile
    {:address "Rua João de Oliveira Casquinho, 25 2300-576 TOMAR",
     :name "Moderna-Tomar",
@@ -140,7 +140,7 @@
      :r/t-scheduled 242.0,
      :r/k "estrela-do-nabao-00398",
      :r/total-passed 358.0,
-     :r/t-done 223.0}
+     :r/t-done 223}
     {:r/nec 398,
      :r/level-0 "2016",
      :r/d-scheduled 235,
@@ -154,7 +154,7 @@
      :r/t-scheduled 186.0,
      :r/k "estrela-do-nabao-00398",
      :r/total-passed 353.0,
-     :r/t-done 185.0}
+     :r/t-done 185}
     {:r/nec 398,
      :r/level-0 "2017",
      :r/d-scheduled 133,
@@ -168,7 +168,7 @@
      :r/t-scheduled 138.0,
      :r/k "estrela-do-nabao-00398",
      :r/total-passed 186.0,
-     :r/t-done 127.0}],
+     :r/t-done 127}],
    :imt-profile
    {:address "Rua Diogo Arruda, 6 r/c Esqº 2300-482 TOMAR",
     :name "Estrela do Nabão",
@@ -209,7 +209,7 @@
      :r/t-scheduled 204.0,
      :r/k "carreira-01108",
      :r/total-passed 349.0,
-     :r/t-done 200.0}
+     :r/t-done 200}
     {:r/nec 1108,
      :r/level-0 "2016",
      :r/d-scheduled 240,
@@ -223,7 +223,7 @@
      :r/t-scheduled 214.0,
      :r/k "carreira-01108",
      :r/total-passed 373.0,
-     :r/t-done 205.0}
+     :r/t-done 205}
     {:r/nec 1108,
      :r/level-0 "2017",
      :r/d-scheduled 304,
@@ -237,7 +237,7 @@
      :r/t-scheduled 231.0,
      :r/k "carreira-01108",
      :r/total-passed 443.0,
-     :r/t-done 227.0}
+     :r/t-done 227}
     {:r/nec 1108,
      :r/level-0 "2018",
      :r/d-scheduled 308,
@@ -251,7 +251,7 @@
      :r/t-scheduled 301.0,
      :r/k "carreira-01108",
      :r/total-passed 497.0,
-     :r/t-done 292.0}
+     :r/t-done 292}
     {:r/nec 1108,
      :r/level-0 "2019",
      :r/d-scheduled 380,
@@ -265,7 +265,7 @@
      :r/t-scheduled 329.0,
      :r/k "carreira-01108",
      :r/total-passed 554.0,
-     :r/t-done 317.0}
+     :r/t-done 317}
     {:r/nec 1108,
      :r/level-0 "2020",
      :r/d-scheduled 300,
@@ -279,7 +279,7 @@
      :r/t-scheduled 204.0,
      :r/k "carreira-01108",
      :r/total-passed 391.0,
-     :r/t-done 190.0}
+     :r/t-done 190}
     {:r/nec 1108,
      :r/level-0 "2021",
      :r/d-scheduled 305,
@@ -293,7 +293,7 @@
      :r/t-scheduled 320.0,
      :r/k "carreira-01108",
      :r/total-passed nil,
-     :r/t-done 298.0}],
+     :r/t-done 298}],
    :imt-profile
    {:address
     "Rua Alfredo da Maia Pereira nº 6 r/c Esqº 2300-449 TOMAR",
@@ -337,7 +337,7 @@
      :r/t-scheduled 15.0,
      :r/k "nova-de-tomar-01349",
      :r/total-passed 14.0,
-     :r/t-done 15.0}
+     :r/t-done 15}
     {:r/nec 1349,
      :r/level-0 "2020",
      :r/d-scheduled 78,
@@ -351,7 +351,7 @@
      :r/t-scheduled 97.0,
      :r/k "nova-de-tomar-01349",
      :r/total-passed 118.0,
-     :r/t-done 89.0}
+     :r/t-done 89}
     {:r/nec 1349,
      :r/level-0 "2021",
      :r/d-scheduled 35,
@@ -365,7 +365,7 @@
      :r/t-scheduled 37.0,
      :r/k "nova-de-tomar-01349",
      :r/total-passed nil,
-     :r/t-done 28.0}],
+     :r/t-done 28}],
    :imt-profile
    {:address "Av. General Norton de Matos, n.º 30-32 r/c Esq. Tomar",
     :name "Nova de Tomar",
@@ -397,7 +397,7 @@
      :r/t-scheduled 85.0,
      :r/k "tomar-drive-01433",
      :r/total-passed 100.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 1433,
      :r/level-0 "2020",
      :r/d-scheduled 194,
@@ -411,7 +411,7 @@
      :r/t-scheduled 295.0,
      :r/k "tomar-drive-01433",
      :r/total-passed 373.0,
-     :r/t-done 271.0}
+     :r/t-done 271}
     {:r/nec 1433,
      :r/level-0 "2021",
      :r/d-scheduled 212,
@@ -425,7 +425,7 @@
      :r/t-scheduled 235.0,
      :r/k "tomar-drive-01433",
      :r/total-passed nil,
-     :r/t-done 210.0}],
+     :r/t-done 210}],
    :imt-profile
    {:address "Estrada do Barreiro, n.º 9 B, 2300-442, Tomar",
     :name "Tomar Drive",

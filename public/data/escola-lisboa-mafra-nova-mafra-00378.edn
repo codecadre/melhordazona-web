@@ -13,7 +13,7 @@
    :r/t-scheduled 23.0,
    :r/k "nova-mafra-00378",
    :r/total-passed 48.0,
-   :r/t-done 20.0}
+   :r/t-done 20}
   {:r/nec 378,
    :r/level-0 "2018",
    :r/d-scheduled 0,
@@ -27,7 +27,7 @@
    :r/t-scheduled 2.0,
    :r/k "nova-mafra-00378",
    :r/total-passed 2.0,
-   :r/t-done 2.0}
+   :r/t-done 2}
   {:r/nec 378,
    :r/level-0 "2019",
    :r/d-scheduled 81,
@@ -41,7 +41,7 @@
    :r/t-scheduled 123.0,
    :r/k "nova-mafra-00378",
    :r/total-passed 146.0,
-   :r/t-done 117.0}
+   :r/t-done 117}
   {:r/nec 378,
    :r/level-0 "2020",
    :r/d-scheduled 264,
@@ -55,7 +55,7 @@
    :r/t-scheduled 349.0,
    :r/k "nova-mafra-00378",
    :r/total-passed 417.0,
-   :r/t-done 305.0}
+   :r/t-done 305}
   {:r/nec 378,
    :r/level-0 "2021",
    :r/d-scheduled 323,
@@ -69,7 +69,7 @@
    :r/t-scheduled 445.0,
    :r/k "nova-mafra-00378",
    :r/total-passed nil,
-   :r/t-done 403.0}],
+   :r/t-done 403}],
  :imt-profile
  {:address "Av. Drº Francisco Sá Carneiro, nº 12, 2640-486 Mafra",
   :name "Nova Mafra",

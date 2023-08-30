@@ -13,7 +13,7 @@
    :r/t-scheduled 30.0,
    :r/k "arede-01415",
    :r/total-passed 37.0,
-   :r/t-done 30.0}
+   :r/t-done 30}
   {:r/nec 1415,
    :r/level-0 "2019",
    :r/d-scheduled 47,
@@ -27,7 +27,7 @@
    :r/t-scheduled 52.0,
    :r/k "arede-01415",
    :r/total-passed 67.0,
-   :r/t-done 51.0}
+   :r/t-done 51}
   {:r/nec 1415,
    :r/level-0 "2020",
    :r/d-scheduled 61,
@@ -41,7 +41,7 @@
    :r/t-scheduled 33.0,
    :r/k "arede-01415",
    :r/total-passed 63.0,
-   :r/t-done 33.0}
+   :r/t-done 33}
   {:r/nec 1415,
    :r/level-0 "2021",
    :r/d-scheduled 18,
@@ -55,7 +55,7 @@
    :r/t-scheduled 13.0,
    :r/k "arede-01415",
    :r/total-passed nil,
-   :r/t-done 12.0}],
+   :r/t-done 12}],
  :imt-profile
  {:address
   "Edifício Milénio, Rua da Indústria/Avenida de Coimbra, n.º 3, 3420-314 Tábua",

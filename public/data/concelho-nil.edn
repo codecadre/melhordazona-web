@@ -14,7 +14,7 @@
      :r/t-scheduled 1445.0,
      :r/k "sind-xxxxx",
      :r/total-passed 936.0,
-     :r/t-done 1295.0}
+     :r/t-done 1295}
     {:r/nec nil,
      :r/level-0 "2016",
      :r/d-scheduled 0,
@@ -28,7 +28,7 @@
      :r/t-scheduled 1613.0,
      :r/k "sind-xxxxx",
      :r/total-passed 853.0,
-     :r/t-done 1396.0}
+     :r/t-done 1396}
     {:r/nec nil,
      :r/level-0 "2017",
      :r/d-scheduled 0,
@@ -42,7 +42,7 @@
      :r/t-scheduled 1603.0,
      :r/k "sind-xxxxx",
      :r/total-passed 925.0,
-     :r/t-done 1448.0}
+     :r/t-done 1448}
     {:r/nec nil,
      :r/level-0 "2018",
      :r/d-scheduled 0,
@@ -56,7 +56,7 @@
      :r/t-scheduled 1458.0,
      :r/k "sind-xxxxx",
      :r/total-passed 728.0,
-     :r/t-done 1302.0}],
+     :r/t-done 1302}],
    :imt-profile nil,
    :obs "not really a school",
    :overwrite/notes nil}]
@@ -76,7 +76,7 @@
      :r/t-scheduled 231.0,
      :r/k "a-desportiva-boavista-00007",
      :r/total-passed 272.0,
-     :r/t-done 226.0}
+     :r/t-done 226}
     {:r/nec 7,
      :r/level-0 "2016",
      :r/d-scheduled 193,
@@ -90,7 +90,7 @@
      :r/t-scheduled 217.0,
      :r/k "a-desportiva-boavista-00007",
      :r/total-passed 282.0,
-     :r/t-done 209.0}
+     :r/t-done 209}
     {:r/nec 7,
      :r/level-0 "2017",
      :r/d-scheduled 179,
@@ -104,7 +104,7 @@
      :r/t-scheduled 140.0,
      :r/k "a-desportiva-boavista-00007",
      :r/total-passed 217.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 7,
      :r/level-0 "2018",
      :r/d-scheduled 98,
@@ -118,7 +118,7 @@
      :r/t-scheduled 114.0,
      :r/k "a-desportiva-boavista-00007",
      :r/total-passed 143.0,
-     :r/t-done 104.0}
+     :r/t-done 104}
     {:r/nec 7,
      :r/level-0 "2019",
      :r/d-scheduled 113,
@@ -132,7 +132,7 @@
      :r/t-scheduled 97.0,
      :r/k "a-desportiva-boavista-00007",
      :r/total-passed 154.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 7,
      :r/level-0 "2020",
      :r/d-scheduled 24,
@@ -146,7 +146,7 @@
      :r/t-scheduled 5.0,
      :r/k "a-desportiva-boavista-00007",
      :r/total-passed 19.0,
-     :r/t-done 5.0}],
+     :r/t-done 5}],
    :imt-profile nil}]
  ["enal-00009"
   {:nec 9,
@@ -164,7 +164,7 @@
      :r/t-scheduled 47.0,
      :r/k "enal-00009",
      :r/total-passed 38.0,
-     :r/t-done 45.0}
+     :r/t-done 45}
     {:r/nec 9,
      :r/level-0 "2016",
      :r/d-scheduled 14,
@@ -178,7 +178,7 @@
      :r/t-scheduled 19.0,
      :r/k "enal-00009",
      :r/total-passed 16.0,
-     :r/t-done 19.0}
+     :r/t-done 19}
     {:r/nec 9,
      :r/level-0 "2017",
      :r/d-scheduled 13,
@@ -192,7 +192,7 @@
      :r/t-scheduled 12.0,
      :r/k "enal-00009",
      :r/total-passed 16.0,
-     :r/t-done 12.0}
+     :r/t-done 12}
     {:r/nec 9,
      :r/level-0 "2018",
      :r/d-scheduled 7,
@@ -206,7 +206,7 @@
      :r/t-scheduled 6.0,
      :r/k "enal-00009",
      :r/total-passed 7.0,
-     :r/t-done 6.0}
+     :r/t-done 6}
     {:r/nec 9,
      :r/level-0 "2019",
      :r/d-scheduled 4,
@@ -220,7 +220,7 @@
      :r/t-scheduled 5.0,
      :r/k "enal-00009",
      :r/total-passed 9.0,
-     :r/t-done 5.0}
+     :r/t-done 5}
     {:r/nec 9,
      :r/level-0 "2020",
      :r/d-scheduled 2,
@@ -252,7 +252,7 @@
      :r/t-scheduled 129.0,
      :r/k "rodaqui-00011",
      :r/total-passed 176.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 11,
      :r/level-0 "2016",
      :r/d-scheduled 86,
@@ -266,7 +266,7 @@
      :r/t-scheduled 70.0,
      :r/k "rodaqui-00011",
      :r/total-passed 92.0,
-     :r/t-done 67.0}
+     :r/t-done 67}
     {:r/nec 11,
      :r/level-0 "2017",
      :r/d-scheduled 29,
@@ -280,7 +280,7 @@
      :r/t-scheduled 10.0,
      :r/k "rodaqui-00011",
      :r/total-passed 19.0,
-     :r/t-done 9.0}
+     :r/t-done 9}
     {:r/nec 11,
      :r/level-0 "2018",
      :r/d-scheduled 185,
@@ -294,7 +294,7 @@
      :r/t-scheduled 231.0,
      :r/k "rodaqui-00011",
      :r/total-passed 272.0,
-     :r/t-done 227.0}
+     :r/t-done 227}
     {:r/nec 11,
      :r/level-0 "2019",
      :r/d-scheduled 191,
@@ -308,7 +308,7 @@
      :r/t-scheduled 240.0,
      :r/k "rodaqui-00011",
      :r/total-passed 296.0,
-     :r/t-done 240.0}
+     :r/t-done 240}
     {:r/nec 11,
      :r/level-0 "2020",
      :r/d-scheduled 154,
@@ -322,7 +322,7 @@
      :r/t-scheduled 137.0,
      :r/k "rodaqui-00011",
      :r/total-passed 210.0,
-     :r/t-done 133.0}
+     :r/t-done 133}
     {:r/nec 11,
      :r/level-0 "2021",
      :r/d-scheduled 151,
@@ -336,7 +336,7 @@
      :r/t-scheduled 233.0,
      :r/k "rodaqui-00011",
      :r/total-passed nil,
-     :r/t-done 215.0}],
+     :r/t-done 215}],
    :imt-profile nil,
    :obs "license 11 is Montemorense in imt.pt",
    :overwrite/notes nil}]
@@ -356,7 +356,7 @@
      :r/t-scheduled 78.0,
      :r/k "alkantara-00027",
      :r/total-passed 99.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 27,
      :r/level-0 "2016",
      :r/d-scheduled 47,
@@ -370,7 +370,7 @@
      :r/t-scheduled 51.0,
      :r/k "alkantara-00027",
      :r/total-passed 76.0,
-     :r/t-done 51.0}
+     :r/t-done 51}
     {:r/nec 27,
      :r/level-0 "2017",
      :r/d-scheduled 55,
@@ -384,7 +384,7 @@
      :r/t-scheduled 70.0,
      :r/k "alkantara-00027",
      :r/total-passed 84.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 27,
      :r/level-0 "2018",
      :r/d-scheduled 113,
@@ -398,7 +398,7 @@
      :r/t-scheduled 130.0,
      :r/k "alkantara-00027",
      :r/total-passed 153.0,
-     :r/t-done 125.0}
+     :r/t-done 125}
     {:r/nec 27,
      :r/level-0 "2019",
      :r/d-scheduled 149,
@@ -412,7 +412,7 @@
      :r/t-scheduled 208.0,
      :r/k "alkantara-00027",
      :r/total-passed 216.0,
-     :r/t-done 204.0}
+     :r/t-done 204}
     {:r/nec 27,
      :r/level-0 "2020",
      :r/d-scheduled 153,
@@ -426,7 +426,7 @@
      :r/t-scheduled 46.0,
      :r/k "alkantara-00027",
      :r/total-passed 124.0,
-     :r/t-done 44.0}],
+     :r/t-done 44}],
    :imt-profile nil,
    :obs "license 27 is Vencedora Alcanterense in imt.pt",
    :overwrite/notes nil}]
@@ -446,7 +446,7 @@
      :r/t-scheduled 32.0,
      :r/k "a-imperio-00033",
      :r/total-passed 38.0,
-     :r/t-done 31.0}
+     :r/t-done 31}
     {:r/nec 33,
      :r/level-0 "2016",
      :r/d-scheduled 32,
@@ -460,7 +460,7 @@
      :r/t-scheduled 22.0,
      :r/k "a-imperio-00033",
      :r/total-passed 32.0,
-     :r/t-done 21.0}
+     :r/t-done 21}
     {:r/nec 33,
      :r/level-0 "2017",
      :r/d-scheduled 38,
@@ -474,7 +474,7 @@
      :r/t-scheduled 35.0,
      :r/k "a-imperio-00033",
      :r/total-passed 38.0,
-     :r/t-done 32.0}
+     :r/t-done 32}
     {:r/nec 33,
      :r/level-0 "2018",
      :r/d-scheduled 2,
@@ -488,7 +488,7 @@
      :r/t-scheduled 4.0,
      :r/k "a-imperio-00033",
      :r/total-passed 3.0,
-     :r/t-done 4.0}],
+     :r/t-done 4}],
    :imt-profile nil}]
  ["a-capital-00068"
   {:nec 68,
@@ -506,7 +506,7 @@
      :r/t-scheduled 31.0,
      :r/k "a-capital-00068",
      :r/total-passed 37.0,
-     :r/t-done 31.0}
+     :r/t-done 31}
     {:r/nec 68,
      :r/level-0 "2016",
      :r/d-scheduled 30,
@@ -520,7 +520,7 @@
      :r/t-scheduled 23.0,
      :r/k "a-capital-00068",
      :r/total-passed 39.0,
-     :r/t-done 21.0}
+     :r/t-done 21}
     {:r/nec 68,
      :r/level-0 "2017",
      :r/d-scheduled 32,
@@ -534,7 +534,7 @@
      :r/t-scheduled 39.0,
      :r/k "a-capital-00068",
      :r/total-passed 43.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 68,
      :r/level-0 "2018",
      :r/d-scheduled 53,
@@ -548,7 +548,7 @@
      :r/t-scheduled 44.0,
      :r/k "a-capital-00068",
      :r/total-passed 68.0,
-     :r/t-done 42.0}],
+     :r/t-done 42}],
    :imt-profile nil}]
  ["oliveira-de-azemeis-00073"
   {:nec 73,
@@ -566,7 +566,7 @@
      :r/t-scheduled 147.0,
      :r/k "oliveira-de-azemeis-00073",
      :r/total-passed 199.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 73,
      :r/level-0 "2016",
      :r/d-scheduled 124,
@@ -580,7 +580,7 @@
      :r/t-scheduled 109.0,
      :r/k "oliveira-de-azemeis-00073",
      :r/total-passed 149.0,
-     :r/t-done 106.0}
+     :r/t-done 106}
     {:r/nec 73,
      :r/level-0 "2017",
      :r/d-scheduled 131,
@@ -594,7 +594,7 @@
      :r/t-scheduled 147.0,
      :r/k "oliveira-de-azemeis-00073",
      :r/total-passed 201.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 73,
      :r/level-0 "2018",
      :r/d-scheduled 124,
@@ -608,7 +608,7 @@
      :r/t-scheduled 108.0,
      :r/k "oliveira-de-azemeis-00073",
      :r/total-passed 165.0,
-     :r/t-done 108.0}
+     :r/t-done 108}
     {:r/nec 73,
      :r/level-0 "2019",
      :r/d-scheduled 121,
@@ -622,7 +622,7 @@
      :r/t-scheduled 140.0,
      :r/k "oliveira-de-azemeis-00073",
      :r/total-passed 180.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 73,
      :r/level-0 "2020",
      :r/d-scheduled 123,
@@ -636,7 +636,7 @@
      :r/t-scheduled 116.0,
      :r/k "oliveira-de-azemeis-00073",
      :r/total-passed 158.0,
-     :r/t-done 104.0}
+     :r/t-done 104}
     {:r/nec 73,
      :r/level-0 "2021",
      :r/d-scheduled 131,
@@ -650,7 +650,7 @@
      :r/t-scheduled 110.0,
      :r/k "oliveira-de-azemeis-00073",
      :r/total-passed nil,
-     :r/t-done 110.0}],
+     :r/t-done 110}],
    :imt-profile nil}]
  ["fundanense-00081"
   {:nec 81,
@@ -668,7 +668,7 @@
      :r/t-scheduled 31.0,
      :r/k "fundanense-00081",
      :r/total-passed 42.0,
-     :r/t-done 30.0}],
+     :r/t-done 30}],
    :imt-profile nil}]
  ["iberica-00088"
   {:nec 88,
@@ -686,7 +686,7 @@
      :r/t-scheduled 38.0,
      :r/k "iberica-00088",
      :r/total-passed 69.0,
-     :r/t-done 36.0}
+     :r/t-done 36}
     {:r/nec 88,
      :r/level-0 "2016",
      :r/d-scheduled 24,
@@ -700,7 +700,7 @@
      :r/t-scheduled 224.0,
      :r/k "iberica-00088",
      :r/total-passed 161.0,
-     :r/t-done 216.0}],
+     :r/t-done 216}],
    :imt-profile nil}]
  ["entre-linhas-00092"
   {:nec 92,
@@ -718,7 +718,7 @@
      :r/t-scheduled 209.0,
      :r/k "entre-linhas-00092",
      :r/total-passed 256.0,
-     :r/t-done 199.0}
+     :r/t-done 199}
     {:r/nec 92,
      :r/level-0 "2016",
      :r/d-scheduled 272,
@@ -732,7 +732,7 @@
      :r/t-scheduled 352.0,
      :r/k "entre-linhas-00092",
      :r/total-passed 372.0,
-     :r/t-done 329.0}
+     :r/t-done 329}
     {:r/nec 92,
      :r/level-0 "2017",
      :r/d-scheduled 180,
@@ -746,7 +746,7 @@
      :r/t-scheduled 164.0,
      :r/k "entre-linhas-00092",
      :r/total-passed 202.0,
-     :r/t-done 162.0}
+     :r/t-done 162}
     {:r/nec 92,
      :r/level-0 "2018",
      :r/d-scheduled 182,
@@ -760,7 +760,7 @@
      :r/t-scheduled 135.0,
      :r/k "entre-linhas-00092",
      :r/total-passed 193.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 92,
      :r/level-0 "2019",
      :r/d-scheduled 126,
@@ -774,7 +774,7 @@
      :r/t-scheduled 94.0,
      :r/k "entre-linhas-00092",
      :r/total-passed 143.0,
-     :r/t-done 93.0}
+     :r/t-done 93}
     {:r/nec 92,
      :r/level-0 "2020",
      :r/d-scheduled 101,
@@ -788,7 +788,7 @@
      :r/t-scheduled 120.0,
      :r/k "entre-linhas-00092",
      :r/total-passed 129.0,
-     :r/t-done 101.0}
+     :r/t-done 101}
     {:r/nec 92,
      :r/level-0 "2021",
      :r/d-scheduled 174,
@@ -802,7 +802,7 @@
      :r/t-scheduled 189.0,
      :r/k "entre-linhas-00092",
      :r/total-passed nil,
-     :r/t-done 177.0}],
+     :r/t-done 177}],
    :imt-profile nil,
    :obs "license 92 is 'Automobilismo da Beira' in imt.pt",
    :overwrite/notes nil}]
@@ -822,7 +822,7 @@
      :r/t-scheduled 20.0,
      :r/k "setubalense-00094",
      :r/total-passed 23.0,
-     :r/t-done 18.0}],
+     :r/t-done 18}],
    :imt-profile nil}]
  ["devesa-00123"
   {:nec 123,
@@ -840,7 +840,7 @@
      :r/t-scheduled 14.0,
      :r/k "devesa-00123",
      :r/total-passed 34.0,
-     :r/t-done 14.0}
+     :r/t-done 14}
     {:r/nec 123,
      :r/level-0 "2016",
      :r/d-scheduled 43,
@@ -854,7 +854,7 @@
      :r/t-scheduled 48.0,
      :r/k "devesa-00123",
      :r/total-passed 58.0,
-     :r/t-done 48.0}
+     :r/t-done 48}
     {:r/nec 123,
      :r/level-0 "2017",
      :r/d-scheduled 96,
@@ -868,7 +868,7 @@
      :r/t-scheduled 103.0,
      :r/k "devesa-00123",
      :r/total-passed 148.0,
-     :r/t-done 101.0}
+     :r/t-done 101}
     {:r/nec 123,
      :r/level-0 "2018",
      :r/d-scheduled 178,
@@ -882,7 +882,7 @@
      :r/t-scheduled 170.0,
      :r/k "devesa-00123",
      :r/total-passed 247.0,
-     :r/t-done 168.0}
+     :r/t-done 168}
     {:r/nec 123,
      :r/level-0 "2019",
      :r/d-scheduled 201,
@@ -896,7 +896,7 @@
      :r/t-scheduled 158.0,
      :r/k "devesa-00123",
      :r/total-passed 262.0,
-     :r/t-done 157.0}
+     :r/t-done 157}
     {:r/nec 123,
      :r/level-0 "2020",
      :r/d-scheduled 176,
@@ -910,7 +910,7 @@
      :r/t-scheduled 133.0,
      :r/k "devesa-00123",
      :r/total-passed 222.0,
-     :r/t-done 127.0}
+     :r/t-done 127}
     {:r/nec 123,
      :r/level-0 "2021",
      :r/d-scheduled 168,
@@ -924,7 +924,7 @@
      :r/t-scheduled 114.0,
      :r/k "devesa-00123",
      :r/total-passed nil,
-     :r/t-done 102.0}],
+     :r/t-done 102}],
    :imt-profile nil,
    :obs "license 123 is 'Famalicense' in imt.pt",
    :overwrite/notes nil}]
@@ -944,7 +944,7 @@
      :r/t-scheduled 67.0,
      :r/k "sertagenense-00142",
      :r/total-passed 92.0,
-     :r/t-done 64.0}
+     :r/t-done 64}
     {:r/nec 142,
      :r/level-0 "2016",
      :r/d-scheduled 101,
@@ -958,7 +958,7 @@
      :r/t-scheduled 60.0,
      :r/k "sertagenense-00142",
      :r/total-passed 89.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 142,
      :r/level-0 "2017",
      :r/d-scheduled 64,
@@ -972,7 +972,7 @@
      :r/t-scheduled 31.0,
      :r/k "sertagenense-00142",
      :r/total-passed 54.0,
-     :r/t-done 31.0}
+     :r/t-done 31}
     {:r/nec 142,
      :r/level-0 "2018",
      :r/d-scheduled 46,
@@ -986,7 +986,7 @@
      :r/t-scheduled 30.0,
      :r/k "sertagenense-00142",
      :r/total-passed 42.0,
-     :r/t-done 29.0}],
+     :r/t-done 29}],
    :imt-profile nil}]
  ["benavente-00143"
   {:nec 143,
@@ -1004,7 +1004,7 @@
      :r/t-scheduled 3.0,
      :r/k "benavente-00143",
      :r/total-passed 4.0,
-     :r/t-done 3.0}],
+     :r/t-done 3}],
    :imt-profile nil}]
  ["victoria-seixalense-00185"
   {:nec 185,
@@ -1022,7 +1022,7 @@
      :r/t-scheduled 33.0,
      :r/k "victoria-seixalense-00185",
      :r/total-passed 48.0,
-     :r/t-done 32.0}
+     :r/t-done 32}
     {:r/nec 185,
      :r/level-0 "2016",
      :r/d-scheduled 24,
@@ -1036,7 +1036,7 @@
      :r/t-scheduled 29.0,
      :r/k "victoria-seixalense-00185",
      :r/total-passed 35.0,
-     :r/t-done 28.0}
+     :r/t-done 28}
     {:r/nec 185,
      :r/level-0 "2017",
      :r/d-scheduled 38,
@@ -1050,7 +1050,7 @@
      :r/t-scheduled 35.0,
      :r/k "victoria-seixalense-00185",
      :r/total-passed 52.0,
-     :r/t-done 35.0}],
+     :r/t-done 35}],
    :imt-profile nil}]
  ["costa-00203"
   {:nec 203,
@@ -1068,7 +1068,7 @@
      :r/t-scheduled 6.0,
      :r/k "costa-00203",
      :r/total-passed 6.0,
-     :r/t-done 6.0}],
+     :r/t-done 6}],
    :imt-profile nil}]
  ["almeirinense-00209"
   {:nec 209,
@@ -1086,7 +1086,7 @@
      :r/t-scheduled 145.0,
      :r/k "almeirinense-00209",
      :r/total-passed 222.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 209,
      :r/level-0 "2016",
      :r/d-scheduled 21,
@@ -1100,7 +1100,7 @@
      :r/t-scheduled 2.0,
      :r/k "almeirinense-00209",
      :r/total-passed 22.0,
-     :r/t-done 2.0}],
+     :r/t-done 2}],
    :imt-profile nil}]
  ["nisense-00241"
   {:nec 241,
@@ -1118,7 +1118,7 @@
      :r/t-scheduled 85.0,
      :r/k "nisense-00241",
      :r/total-passed 140.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 241,
      :r/level-0 "2016",
      :r/d-scheduled 80,
@@ -1132,7 +1132,7 @@
      :r/t-scheduled 92.0,
      :r/k "nisense-00241",
      :r/total-passed 139.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 241,
      :r/level-0 "2017",
      :r/d-scheduled 63,
@@ -1146,7 +1146,7 @@
      :r/t-scheduled 55.0,
      :r/k "nisense-00241",
      :r/total-passed 96.0,
-     :r/t-done 55.0}],
+     :r/t-done 55}],
    :imt-profile nil}]
  ["elvense-00245"
   {:nec 245,
@@ -1164,7 +1164,7 @@
      :r/t-scheduled 14.0,
      :r/k "elvense-00245",
      :r/total-passed 17.0,
-     :r/t-done 14.0}],
+     :r/t-done 14}],
    :imt-profile nil}]
  ["siiimpleavis-00269"
   {:nec 269,
@@ -1182,7 +1182,7 @@
      :r/t-scheduled 61.0,
      :r/k "siiimpleavis-00269",
      :r/total-passed 83.0,
-     :r/t-done 60.0}
+     :r/t-done 60}
     {:r/nec 269,
      :r/level-0 "2016",
      :r/d-scheduled 52,
@@ -1196,7 +1196,7 @@
      :r/t-scheduled 40.0,
      :r/k "siiimpleavis-00269",
      :r/total-passed 55.0,
-     :r/t-done 40.0}
+     :r/t-done 40}
     {:r/nec 269,
      :r/level-0 "2017",
      :r/d-scheduled 43,
@@ -1210,7 +1210,7 @@
      :r/t-scheduled 53.0,
      :r/k "siiimpleavis-00269",
      :r/total-passed 59.0,
-     :r/t-done 51.0}
+     :r/t-done 51}
     {:r/nec 269,
      :r/level-0 "2018",
      :r/d-scheduled 36,
@@ -1224,7 +1224,7 @@
      :r/t-scheduled 38.0,
      :r/k "siiimpleavis-00269",
      :r/total-passed 49.0,
-     :r/t-done 38.0}
+     :r/t-done 38}
     {:r/nec 269,
      :r/level-0 "2019",
      :r/d-scheduled 34,
@@ -1238,7 +1238,7 @@
      :r/t-scheduled 35.0,
      :r/k "siiimpleavis-00269",
      :r/total-passed 47.0,
-     :r/t-done 31.0}
+     :r/t-done 31}
     {:r/nec 269,
      :r/level-0 "2020",
      :r/d-scheduled 31,
@@ -1252,7 +1252,7 @@
      :r/t-scheduled 20.0,
      :r/k "siiimpleavis-00269",
      :r/total-passed 35.0,
-     :r/t-done 20.0}
+     :r/t-done 20}
     {:r/nec 269,
      :r/level-0 "2021",
      :r/d-scheduled 1,
@@ -1266,7 +1266,7 @@
      :r/t-scheduled 1.0,
      :r/k "siiimpleavis-00269",
      :r/total-passed nil,
-     :r/t-done 1.0}],
+     :r/t-done 1}],
    :imt-profile nil,
    :obs "license 269 is 'Alentejana' in imt.pt",
    :overwrite/notes nil}]
@@ -1286,7 +1286,7 @@
      :r/t-scheduled 474.0,
      :r/k "unidos-do-volante-00300",
      :r/total-passed 612.0,
-     :r/t-done 439.0}
+     :r/t-done 439}
     {:r/nec 300,
      :r/level-0 "2016",
      :r/d-scheduled 423,
@@ -1300,7 +1300,7 @@
      :r/t-scheduled 382.0,
      :r/k "unidos-do-volante-00300",
      :r/total-passed 580.0,
-     :r/t-done 352.0}
+     :r/t-done 352}
     {:r/nec 300,
      :r/level-0 "2017",
      :r/d-scheduled 318,
@@ -1314,7 +1314,7 @@
      :r/t-scheduled 319.0,
      :r/k "unidos-do-volante-00300",
      :r/total-passed 448.0,
-     :r/t-done 301.0}
+     :r/t-done 301}
     {:r/nec 300,
      :r/level-0 "2018",
      :r/d-scheduled 255,
@@ -1328,7 +1328,7 @@
      :r/t-scheduled 201.0,
      :r/k "unidos-do-volante-00300",
      :r/total-passed 354.0,
-     :r/t-done 195.0}],
+     :r/t-done 195}],
    :imt-profile nil}]
  ["siiimplemarinhais-00302"
   {:nec 302,
@@ -1346,7 +1346,7 @@
      :r/t-scheduled 132.0,
      :r/k "siiimplemarinhais-00302",
      :r/total-passed 225.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 302,
      :r/level-0 "2016",
      :r/d-scheduled 154,
@@ -1360,7 +1360,7 @@
      :r/t-scheduled 168.0,
      :r/k "siiimplemarinhais-00302",
      :r/total-passed 259.0,
-     :r/t-done 163.0}
+     :r/t-done 163}
     {:r/nec 302,
      :r/level-0 "2017",
      :r/d-scheduled 175,
@@ -1374,7 +1374,7 @@
      :r/t-scheduled 172.0,
      :r/k "siiimplemarinhais-00302",
      :r/total-passed 294.0,
-     :r/t-done 167.0}
+     :r/t-done 167}
     {:r/nec 302,
      :r/level-0 "2018",
      :r/d-scheduled 128,
@@ -1388,7 +1388,7 @@
      :r/t-scheduled 128.0,
      :r/k "siiimplemarinhais-00302",
      :r/total-passed 217.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 302,
      :r/level-0 "2019",
      :r/d-scheduled 154,
@@ -1402,7 +1402,7 @@
      :r/t-scheduled 149.0,
      :r/k "siiimplemarinhais-00302",
      :r/total-passed 249.0,
-     :r/t-done 148.0}
+     :r/t-done 148}
     {:r/nec 302,
      :r/level-0 "2020",
      :r/d-scheduled 157,
@@ -1416,7 +1416,7 @@
      :r/t-scheduled 151.0,
      :r/k "siiimplemarinhais-00302",
      :r/total-passed 211.0,
-     :r/t-done 145.0}
+     :r/t-done 145}
     {:r/nec 302,
      :r/level-0 "2021",
      :r/d-scheduled 8,
@@ -1430,7 +1430,7 @@
      :r/t-scheduled 7.0,
      :r/k "siiimplemarinhais-00302",
      :r/total-passed nil,
-     :r/t-done 2.0}],
+     :r/t-done 2}],
    :imt-profile nil,
    :obs "license 302 is 'Salvaterra de Magos' in imt.pt",
    :overwrite/notes nil}]
@@ -1450,7 +1450,7 @@
      :r/t-scheduled 128.0,
      :r/k "o-farol-00333",
      :r/total-passed 167.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 333,
      :r/level-0 "2016",
      :r/d-scheduled 119,
@@ -1464,7 +1464,7 @@
      :r/t-scheduled 136.0,
      :r/k "o-farol-00333",
      :r/total-passed 175.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 333,
      :r/level-0 "2017",
      :r/d-scheduled 169,
@@ -1478,7 +1478,7 @@
      :r/t-scheduled 189.0,
      :r/k "o-farol-00333",
      :r/total-passed 248.0,
-     :r/t-done 186.0}
+     :r/t-done 186}
     {:r/nec 333,
      :r/level-0 "2018",
      :r/d-scheduled 222,
@@ -1492,7 +1492,7 @@
      :r/t-scheduled 231.0,
      :r/k "o-farol-00333",
      :r/total-passed 295.0,
-     :r/t-done 218.0}
+     :r/t-done 218}
     {:r/nec 333,
      :r/level-0 "2019",
      :r/d-scheduled 243,
@@ -1506,7 +1506,7 @@
      :r/t-scheduled 239.0,
      :r/k "o-farol-00333",
      :r/total-passed 317.0,
-     :r/t-done 225.0}
+     :r/t-done 225}
     {:r/nec 333,
      :r/level-0 "2020",
      :r/d-scheduled 214,
@@ -1520,7 +1520,7 @@
      :r/t-scheduled 200.0,
      :r/k "o-farol-00333",
      :r/total-passed 273.0,
-     :r/t-done 187.0}
+     :r/t-done 187}
     {:r/nec 333,
      :r/level-0 "2021",
      :r/d-scheduled 188,
@@ -1534,7 +1534,7 @@
      :r/t-scheduled 148.0,
      :r/k "o-farol-00333",
      :r/total-passed nil,
-     :r/t-done 117.0}],
+     :r/t-done 117}],
    :imt-profile nil,
    :obs "license 333 is 'Estrela de Almeida' in imt.pt",
    :overwrite/notes nil}]
@@ -1554,7 +1554,7 @@
      :r/t-scheduled 98.0,
      :r/k "nelmar-00338",
      :r/total-passed 123.0,
-     :r/t-done 98.0}
+     :r/t-done 98}
     {:r/nec 338,
      :r/level-0 "2016",
      :r/d-scheduled 80,
@@ -1568,7 +1568,7 @@
      :r/t-scheduled 79.0,
      :r/k "nelmar-00338",
      :r/total-passed 116.0,
-     :r/t-done 78.0}
+     :r/t-done 78}
     {:r/nec 338,
      :r/level-0 "2017",
      :r/d-scheduled 106,
@@ -1582,7 +1582,7 @@
      :r/t-scheduled 100.0,
      :r/k "nelmar-00338",
      :r/total-passed 146.0,
-     :r/t-done 99.0}
+     :r/t-done 99}
     {:r/nec 338,
      :r/level-0 "2018",
      :r/d-scheduled 83,
@@ -1596,7 +1596,7 @@
      :r/t-scheduled 76.0,
      :r/k "nelmar-00338",
      :r/total-passed 115.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 338,
      :r/level-0 "2019",
      :r/d-scheduled 54,
@@ -1610,7 +1610,7 @@
      :r/t-scheduled 69.0,
      :r/k "nelmar-00338",
      :r/total-passed 96.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 338,
      :r/level-0 "2020",
      :r/d-scheduled 59,
@@ -1624,7 +1624,7 @@
      :r/t-scheduled 67.0,
      :r/k "nelmar-00338",
      :r/total-passed 75.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 338,
      :r/level-0 "2021",
      :r/d-scheduled 55,
@@ -1638,7 +1638,7 @@
      :r/t-scheduled 38.0,
      :r/k "nelmar-00338",
      :r/total-passed nil,
-     :r/t-done 37.0}],
+     :r/t-done 37}],
    :imt-profile nil,
    :obs
    "license 338 is 'Automóvel de Macedo' in imt.pt.There's a Nelmar 527",
@@ -1659,7 +1659,7 @@
      :r/t-scheduled 57.0,
      :r/k "mortaguense-00339",
      :r/total-passed 89.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 339,
      :r/level-0 "2016",
      :r/d-scheduled 56,
@@ -1673,7 +1673,7 @@
      :r/t-scheduled 56.0,
      :r/k "mortaguense-00339",
      :r/total-passed 76.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 339,
      :r/level-0 "2017",
      :r/d-scheduled 49,
@@ -1687,7 +1687,7 @@
      :r/t-scheduled 27.0,
      :r/k "mortaguense-00339",
      :r/total-passed 46.0,
-     :r/t-done 26.0}
+     :r/t-done 26}
     {:r/nec 339,
      :r/level-0 "2018",
      :r/d-scheduled 35,
@@ -1701,7 +1701,7 @@
      :r/t-scheduled 38.0,
      :r/k "mortaguense-00339",
      :r/total-passed 46.0,
-     :r/t-done 34.0}],
+     :r/t-done 34}],
    :imt-profile nil,
    :obs "Dup nova-de-esgueira-00339. Data stops @ 2018.",
    :overwrite/notes nil}]
@@ -1721,7 +1721,7 @@
      :r/t-scheduled 61.0,
      :r/k "nova-cuba-00343",
      :r/total-passed 94.0,
-     :r/t-done 60.0}
+     :r/t-done 60}
     {:r/nec 343,
      :r/level-0 "2016",
      :r/d-scheduled 112,
@@ -1735,7 +1735,7 @@
      :r/t-scheduled 66.0,
      :r/k "nova-cuba-00343",
      :r/total-passed 119.0,
-     :r/t-done 66.0}
+     :r/t-done 66}
     {:r/nec 343,
      :r/level-0 "2017",
      :r/d-scheduled 128,
@@ -1749,7 +1749,7 @@
      :r/t-scheduled 77.0,
      :r/k "nova-cuba-00343",
      :r/total-passed 136.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 343,
      :r/level-0 "2018",
      :r/d-scheduled 101,
@@ -1763,7 +1763,7 @@
      :r/t-scheduled 61.0,
      :r/k "nova-cuba-00343",
      :r/total-passed 104.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 343,
      :r/level-0 "2019",
      :r/d-scheduled 102,
@@ -1777,7 +1777,7 @@
      :r/t-scheduled 77.0,
      :r/k "nova-cuba-00343",
      :r/total-passed 112.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 343,
      :r/level-0 "2020",
      :r/d-scheduled 75,
@@ -1791,7 +1791,7 @@
      :r/t-scheduled 57.0,
      :r/k "nova-cuba-00343",
      :r/total-passed 89.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 343,
      :r/level-0 "2021",
      :r/d-scheduled 97,
@@ -1805,7 +1805,7 @@
      :r/t-scheduled 79.0,
      :r/k "nova-cuba-00343",
      :r/total-passed nil,
-     :r/t-done 73.0}],
+     :r/t-done 73}],
    :imt-profile nil}]
  ["cinochaves-00353"
   {:nec 353,
@@ -1823,7 +1823,7 @@
      :r/t-scheduled 19.0,
      :r/k "cinochaves-00353",
      :r/total-passed 28.0,
-     :r/t-done 19.0}
+     :r/t-done 19}
     {:r/nec 353,
      :r/level-0 "2016",
      :r/d-scheduled 52,
@@ -1837,7 +1837,7 @@
      :r/t-scheduled 58.0,
      :r/k "cinochaves-00353",
      :r/total-passed 73.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 353,
      :r/level-0 "2017",
      :r/d-scheduled 73,
@@ -1851,7 +1851,7 @@
      :r/t-scheduled 69.0,
      :r/k "cinochaves-00353",
      :r/total-passed 95.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 353,
      :r/level-0 "2018",
      :r/d-scheduled 59,
@@ -1865,7 +1865,7 @@
      :r/t-scheduled 71.0,
      :r/k "cinochaves-00353",
      :r/total-passed 90.0,
-     :r/t-done 66.0}
+     :r/t-done 66}
     {:r/nec 353,
      :r/level-0 "2019",
      :r/d-scheduled 64,
@@ -1879,7 +1879,7 @@
      :r/t-scheduled 80.0,
      :r/k "cinochaves-00353",
      :r/total-passed 92.0,
-     :r/t-done 79.0}
+     :r/t-done 79}
     {:r/nec 353,
      :r/level-0 "2020",
      :r/d-scheduled 91,
@@ -1893,7 +1893,7 @@
      :r/t-scheduled 83.0,
      :r/k "cinochaves-00353",
      :r/total-passed 115.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 353,
      :r/level-0 "2021",
      :r/d-scheduled 93,
@@ -1907,7 +1907,7 @@
      :r/t-scheduled 84.0,
      :r/k "cinochaves-00353",
      :r/total-passed nil,
-     :r/t-done 77.0}],
+     :r/t-done 77}],
    :imt-profile nil,
    :obs "license 353 is 'Valpacense in imt.pt",
    :overwrite/notes nil}]
@@ -1927,7 +1927,7 @@
      :r/t-scheduled 786.0,
      :r/k "alverca-00375",
      :r/total-passed 1051.0,
-     :r/t-done 774.0}
+     :r/t-done 774}
     {:r/nec 375,
      :r/level-0 "2016",
      :r/d-scheduled 744,
@@ -1941,7 +1941,7 @@
      :r/t-scheduled 702.0,
      :r/k "alverca-00375",
      :r/total-passed 956.0,
-     :r/t-done 686.0}
+     :r/t-done 686}
     {:r/nec 375,
      :r/level-0 "2017",
      :r/d-scheduled 711,
@@ -1955,7 +1955,7 @@
      :r/t-scheduled 736.0,
      :r/k "alverca-00375",
      :r/total-passed 969.0,
-     :r/t-done 703.0}
+     :r/t-done 703}
     {:r/nec 375,
      :r/level-0 "2018",
      :r/d-scheduled 747,
@@ -1969,7 +1969,7 @@
      :r/t-scheduled 655.0,
      :r/k "alverca-00375",
      :r/total-passed 931.0,
-     :r/t-done 643.0}
+     :r/t-done 643}
     {:r/nec 375,
      :r/level-0 "2019",
      :r/d-scheduled 664,
@@ -1983,7 +1983,7 @@
      :r/t-scheduled 636.0,
      :r/k "alverca-00375",
      :r/total-passed 890.0,
-     :r/t-done 609.0}
+     :r/t-done 609}
     {:r/nec 375,
      :r/level-0 "2020",
      :r/d-scheduled 597,
@@ -1997,7 +1997,7 @@
      :r/t-scheduled 602.0,
      :r/k "alverca-00375",
      :r/total-passed 759.0,
-     :r/t-done 563.0}
+     :r/t-done 563}
     {:r/nec 375,
      :r/level-0 "2021",
      :r/d-scheduled 586,
@@ -2011,7 +2011,7 @@
      :r/t-scheduled 599.0,
      :r/k "alverca-00375",
      :r/total-passed nil,
-     :r/t-done 539.0}],
+     :r/t-done 539}],
    :imt-profile nil,
    :obs "license 375 is 'Infante D. Pedro' in imt.pt",
    :overwrite/notes nil}]
@@ -2031,7 +2031,7 @@
      :r/t-scheduled 17.0,
      :r/k "leiriense-00380",
      :r/total-passed 37.0,
-     :r/t-done 17.0}],
+     :r/t-done 17}],
    :imt-profile nil}]
  ["montalegrense-00382"
   {:nec 382,
@@ -2049,7 +2049,7 @@
      :r/t-scheduled 83.0,
      :r/k "montalegrense-00382",
      :r/total-passed 109.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 382,
      :r/level-0 "2016",
      :r/d-scheduled 69,
@@ -2063,7 +2063,7 @@
      :r/t-scheduled 78.0,
      :r/k "montalegrense-00382",
      :r/total-passed 99.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 382,
      :r/level-0 "2017",
      :r/d-scheduled 55,
@@ -2077,7 +2077,7 @@
      :r/t-scheduled 66.0,
      :r/k "montalegrense-00382",
      :r/total-passed 86.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 382,
      :r/level-0 "2018",
      :r/d-scheduled 46,
@@ -2091,7 +2091,7 @@
      :r/t-scheduled 61.0,
      :r/k "montalegrense-00382",
      :r/total-passed 76.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 382,
      :r/level-0 "2019",
      :r/d-scheduled 48,
@@ -2105,7 +2105,7 @@
      :r/t-scheduled 78.0,
      :r/k "montalegrense-00382",
      :r/total-passed 90.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 382,
      :r/level-0 "2020",
      :r/d-scheduled 71,
@@ -2119,7 +2119,7 @@
      :r/t-scheduled 54.0,
      :r/k "montalegrense-00382",
      :r/total-passed 84.0,
-     :r/t-done 51.0}
+     :r/t-done 51}
     {:r/nec 382,
      :r/level-0 "2021",
      :r/d-scheduled 57,
@@ -2133,7 +2133,7 @@
      :r/t-scheduled 69.0,
      :r/k "montalegrense-00382",
      :r/total-passed nil,
-     :r/t-done 67.0}],
+     :r/t-done 67}],
    :imt-profile nil}]
  ["amarantina-00428"
   {:nec 428,
@@ -2151,7 +2151,7 @@
      :r/t-scheduled 20.0,
      :r/k "amarantina-00428",
      :r/total-passed 33.0,
-     :r/t-done 20.0}],
+     :r/t-done 20}],
    :imt-profile nil}]
  ["circular-de-braga-00443"
   {:nec 443,
@@ -2169,7 +2169,7 @@
      :r/t-scheduled 4.0,
      :r/k "circular-de-braga-00443",
      :r/total-passed 4.0,
-     :r/t-done 4.0}
+     :r/t-done 4}
     {:r/nec 443,
      :r/level-0 "2016",
      :r/d-scheduled 42,
@@ -2183,7 +2183,7 @@
      :r/t-scheduled 37.0,
      :r/k "circular-de-braga-00443",
      :r/total-passed 46.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 443,
      :r/level-0 "2017",
      :r/d-scheduled 17,
@@ -2197,7 +2197,7 @@
      :r/t-scheduled 18.0,
      :r/k "circular-de-braga-00443",
      :r/total-passed 16.0,
-     :r/t-done 15.0}
+     :r/t-done 15}
     {:r/nec 443,
      :r/level-0 "2019",
      :r/d-scheduled 3,
@@ -2211,7 +2211,7 @@
      :r/t-scheduled 10.0,
      :r/k "circular-de-braga-00443",
      :r/total-passed 9.0,
-     :r/t-done 9.0}
+     :r/t-done 9}
     {:r/nec 443,
      :r/level-0 "2020",
      :r/d-scheduled 25,
@@ -2225,7 +2225,7 @@
      :r/t-scheduled 35.0,
      :r/k "circular-de-braga-00443",
      :r/total-passed 47.0,
-     :r/t-done 33.0}
+     :r/t-done 33}
     {:r/nec 443,
      :r/level-0 "2021",
      :r/d-scheduled 31,
@@ -2239,7 +2239,7 @@
      :r/t-scheduled 59.0,
      :r/k "circular-de-braga-00443",
      :r/total-passed nil,
-     :r/t-done 55.0}],
+     :r/t-done 55}],
    :imt-profile nil,
    :obs "license 443 is 'Pampicar' in imt.pt",
    :overwrite/notes nil}]
@@ -2259,7 +2259,7 @@
      :r/t-scheduled 110.0,
      :r/k "vr-00447",
      :r/total-passed 131.0,
-     :r/t-done 103.0}
+     :r/t-done 103}
     {:r/nec 447,
      :r/level-0 "2021",
      :r/d-scheduled 202,
@@ -2273,7 +2273,7 @@
      :r/t-scheduled 279.0,
      :r/k "vr-00447",
      :r/total-passed nil,
-     :r/t-done 223.0}],
+     :r/t-done 223}],
    :imt-profile nil,
    :obs
    "Most recent from duplicate pair but name differs a lot from imp.pt.",
@@ -2294,7 +2294,7 @@
      :r/t-scheduled 48.0,
      :r/k "a3-00449",
      :r/total-passed 67.0,
-     :r/t-done 48.0}],
+     :r/t-done 48}],
    :imt-profile nil}]
  ["a-desportiva-gondomar-00465"
   {:nec 465,
@@ -2312,7 +2312,7 @@
      :r/t-scheduled 160.0,
      :r/k "a-desportiva-gondomar-00465",
      :r/total-passed 197.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 465,
      :r/level-0 "2016",
      :r/d-scheduled 125,
@@ -2326,7 +2326,7 @@
      :r/t-scheduled 166.0,
      :r/k "a-desportiva-gondomar-00465",
      :r/total-passed 197.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 465,
      :r/level-0 "2017",
      :r/d-scheduled 176,
@@ -2340,7 +2340,7 @@
      :r/t-scheduled 154.0,
      :r/k "a-desportiva-gondomar-00465",
      :r/total-passed 202.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 465,
      :r/level-0 "2018",
      :r/d-scheduled 115,
@@ -2354,7 +2354,7 @@
      :r/t-scheduled 100.0,
      :r/k "a-desportiva-gondomar-00465",
      :r/total-passed 132.0,
-     :r/t-done 95.0}
+     :r/t-done 95}
     {:r/nec 465,
      :r/level-0 "2019",
      :r/d-scheduled 75,
@@ -2368,7 +2368,7 @@
      :r/t-scheduled 53.0,
      :r/k "a-desportiva-gondomar-00465",
      :r/total-passed 88.0,
-     :r/t-done 51.0}
+     :r/t-done 51}
     {:r/nec 465,
      :r/level-0 "2020",
      :r/d-scheduled 17,
@@ -2382,7 +2382,7 @@
      :r/t-scheduled 9.0,
      :r/k "a-desportiva-gondomar-00465",
      :r/total-passed 15.0,
-     :r/t-done 8.0}],
+     :r/t-done 8}],
    :imt-profile nil,
    :obs "license 465 is 'Gondomar Centro' in imt.pt",
    :overwrite/notes nil}]
@@ -2402,7 +2402,7 @@
      :r/t-scheduled 181.0,
      :r/k "a-desportiva-vngaia-00466",
      :r/total-passed 227.0,
-     :r/t-done 172.0}
+     :r/t-done 172}
     {:r/nec 466,
      :r/level-0 "2016",
      :r/d-scheduled 194,
@@ -2416,7 +2416,7 @@
      :r/t-scheduled 214.0,
      :r/k "a-desportiva-vngaia-00466",
      :r/total-passed 268.0,
-     :r/t-done 206.0}
+     :r/t-done 206}
     {:r/nec 466,
      :r/level-0 "2017",
      :r/d-scheduled 264,
@@ -2430,7 +2430,7 @@
      :r/t-scheduled 224.0,
      :r/k "a-desportiva-vngaia-00466",
      :r/total-passed 302.0,
-     :r/t-done 217.0}
+     :r/t-done 217}
     {:r/nec 466,
      :r/level-0 "2018",
      :r/d-scheduled 220,
@@ -2444,7 +2444,7 @@
      :r/t-scheduled 203.0,
      :r/k "a-desportiva-vngaia-00466",
      :r/total-passed 279.0,
-     :r/t-done 194.0}
+     :r/t-done 194}
     {:r/nec 466,
      :r/level-0 "2019",
      :r/d-scheduled 174,
@@ -2458,7 +2458,7 @@
      :r/t-scheduled 145.0,
      :r/k "a-desportiva-vngaia-00466",
      :r/total-passed 190.0,
-     :r/t-done 135.0}
+     :r/t-done 135}
     {:r/nec 466,
      :r/level-0 "2020",
      :r/d-scheduled 29,
@@ -2472,7 +2472,7 @@
      :r/t-scheduled 7.0,
      :r/k "a-desportiva-vngaia-00466",
      :r/total-passed 16.0,
-     :r/t-done 5.0}],
+     :r/t-done 5}],
    :imt-profile nil}]
  ["via-odivelas-00481"
   {:nec 481,
@@ -2490,7 +2490,7 @@
      :r/t-scheduled 147.0,
      :r/k "via-odivelas-00481",
      :r/total-passed 171.0,
-     :r/t-done 143.0}
+     :r/t-done 143}
     {:r/nec 481,
      :r/level-0 "2016",
      :r/d-scheduled 186,
@@ -2504,7 +2504,7 @@
      :r/t-scheduled 183.0,
      :r/k "via-odivelas-00481",
      :r/total-passed 233.0,
-     :r/t-done 180.0}
+     :r/t-done 180}
     {:r/nec 481,
      :r/level-0 "2017",
      :r/d-scheduled 202,
@@ -2518,7 +2518,7 @@
      :r/t-scheduled 171.0,
      :r/k "via-odivelas-00481",
      :r/total-passed 258.0,
-     :r/t-done 169.0}
+     :r/t-done 169}
     {:r/nec 481,
      :r/level-0 "2018",
      :r/d-scheduled 161,
@@ -2532,7 +2532,7 @@
      :r/t-scheduled 126.0,
      :r/k "via-odivelas-00481",
      :r/total-passed 193.0,
-     :r/t-done 123.0}
+     :r/t-done 123}
     {:r/nec 481,
      :r/level-0 "2019",
      :r/d-scheduled 186,
@@ -2546,7 +2546,7 @@
      :r/t-scheduled 144.0,
      :r/k "via-odivelas-00481",
      :r/total-passed 207.0,
-     :r/t-done 137.0}
+     :r/t-done 137}
     {:r/nec 481,
      :r/level-0 "2020",
      :r/d-scheduled 183,
@@ -2560,7 +2560,7 @@
      :r/t-scheduled 268.0,
      :r/k "via-odivelas-00481",
      :r/total-passed 278.0,
-     :r/t-done 256.0}
+     :r/t-done 256}
     {:r/nec 481,
      :r/level-0 "2021",
      :r/d-scheduled 211,
@@ -2574,7 +2574,7 @@
      :r/t-scheduled 215.0,
      :r/k "via-odivelas-00481",
      :r/total-passed nil,
-     :r/t-done 203.0}],
+     :r/t-done 203}],
    :imt-profile nil,
    :obs "license 481 is 'Chuabo de Odivelas' in imt.pt",
    :overwrite/notes nil}]
@@ -2594,7 +2594,7 @@
      :r/t-scheduled 136.0,
      :r/k "mogadourense-00494",
      :r/total-passed 195.0,
-     :r/t-done 135.0}
+     :r/t-done 135}
     {:r/nec 494,
      :r/level-0 "2016",
      :r/d-scheduled 166,
@@ -2608,7 +2608,7 @@
      :r/t-scheduled 120.0,
      :r/k "mogadourense-00494",
      :r/total-passed 189.0,
-     :r/t-done 119.0}
+     :r/t-done 119}
     {:r/nec 494,
      :r/level-0 "2017",
      :r/d-scheduled 143,
@@ -2622,7 +2622,7 @@
      :r/t-scheduled 129.0,
      :r/k "mogadourense-00494",
      :r/total-passed 181.0,
-     :r/t-done 128.0}
+     :r/t-done 128}
     {:r/nec 494,
      :r/level-0 "2018",
      :r/d-scheduled 137,
@@ -2636,7 +2636,7 @@
      :r/t-scheduled 82.0,
      :r/k "mogadourense-00494",
      :r/total-passed 147.0,
-     :r/t-done 79.0}
+     :r/t-done 79}
     {:r/nec 494,
      :r/level-0 "2019",
      :r/d-scheduled 148,
@@ -2650,7 +2650,7 @@
      :r/t-scheduled 111.0,
      :r/k "mogadourense-00494",
      :r/total-passed 183.0,
-     :r/t-done 110.0}
+     :r/t-done 110}
     {:r/nec 494,
      :r/level-0 "2020",
      :r/d-scheduled 118,
@@ -2664,7 +2664,7 @@
      :r/t-scheduled 85.0,
      :r/k "mogadourense-00494",
      :r/total-passed 145.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 494,
      :r/level-0 "2021",
      :r/d-scheduled 119,
@@ -2678,7 +2678,7 @@
      :r/t-scheduled 105.0,
      :r/k "mogadourense-00494",
      :r/total-passed nil,
-     :r/t-done 104.0}],
+     :r/t-done 104}],
    :imt-profile nil,
    :obs "There's a mogadourense under 1201",
    :overwrite/notes nil}]
@@ -2698,7 +2698,7 @@
      :r/t-scheduled 126.0,
      :r/k "bom-sucesso-00497",
      :r/total-passed 154.0,
-     :r/t-done 122.0}
+     :r/t-done 122}
     {:r/nec 497,
      :r/level-0 "2016",
      :r/d-scheduled 29,
@@ -2712,7 +2712,7 @@
      :r/t-scheduled 29.0,
      :r/k "bom-sucesso-00497",
      :r/total-passed 38.0,
-     :r/t-done 25.0}],
+     :r/t-done 25}],
    :imt-profile nil}]
  ["urbe-00513"
   {:nec 513,
@@ -2730,7 +2730,7 @@
      :r/t-scheduled 76.0,
      :r/k "urbe-00513",
      :r/total-passed 115.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 513,
      :r/level-0 "2016",
      :r/d-scheduled 80,
@@ -2744,7 +2744,7 @@
      :r/t-scheduled 87.0,
      :r/k "urbe-00513",
      :r/total-passed 128.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 513,
      :r/level-0 "2017",
      :r/d-scheduled 102,
@@ -2758,7 +2758,7 @@
      :r/t-scheduled 128.0,
      :r/k "urbe-00513",
      :r/total-passed 177.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 513,
      :r/level-0 "2018",
      :r/d-scheduled 101,
@@ -2772,7 +2772,7 @@
      :r/t-scheduled 130.0,
      :r/k "urbe-00513",
      :r/total-passed 183.0,
-     :r/t-done 124.0}
+     :r/t-done 124}
     {:r/nec 513,
      :r/level-0 "2019",
      :r/d-scheduled 114,
@@ -2786,7 +2786,7 @@
      :r/t-scheduled 112.0,
      :r/k "urbe-00513",
      :r/total-passed 179.0,
-     :r/t-done 109.0}
+     :r/t-done 109}
     {:r/nec 513,
      :r/level-0 "2020",
      :r/d-scheduled 119,
@@ -2800,7 +2800,7 @@
      :r/t-scheduled 125.0,
      :r/k "urbe-00513",
      :r/total-passed 170.0,
-     :r/t-done 114.0}
+     :r/t-done 114}
     {:r/nec 513,
      :r/level-0 "2021",
      :r/d-scheduled 99,
@@ -2814,7 +2814,7 @@
      :r/t-scheduled 105.0,
      :r/k "urbe-00513",
      :r/total-passed nil,
-     :r/t-done 104.0}],
+     :r/t-done 104}],
    :imt-profile nil,
    :obs "license 513 is 'Barcelinhos' in imt.pt",
    :overwrite/notes nil}]
@@ -2834,7 +2834,7 @@
      :r/t-scheduled 159.0,
      :r/k "la-salette-00514",
      :r/total-passed 237.0,
-     :r/t-done 157.0}
+     :r/t-done 157}
     {:r/nec 514,
      :r/level-0 "2016",
      :r/d-scheduled 180,
@@ -2848,7 +2848,7 @@
      :r/t-scheduled 150.0,
      :r/k "la-salette-00514",
      :r/total-passed 259.0,
-     :r/t-done 149.0}
+     :r/t-done 149}
     {:r/nec 514,
      :r/level-0 "2017",
      :r/d-scheduled 192,
@@ -2862,7 +2862,7 @@
      :r/t-scheduled 183.0,
      :r/k "la-salette-00514",
      :r/total-passed 287.0,
-     :r/t-done 175.0}
+     :r/t-done 175}
     {:r/nec 514,
      :r/level-0 "2018",
      :r/d-scheduled 203,
@@ -2876,7 +2876,7 @@
      :r/t-scheduled 152.0,
      :r/k "la-salette-00514",
      :r/total-passed 287.0,
-     :r/t-done 148.0}
+     :r/t-done 148}
     {:r/nec 514,
      :r/level-0 "2019",
      :r/d-scheduled 191,
@@ -2890,7 +2890,7 @@
      :r/t-scheduled 167.0,
      :r/k "la-salette-00514",
      :r/total-passed 280.0,
-     :r/t-done 167.0}
+     :r/t-done 167}
     {:r/nec 514,
      :r/level-0 "2020",
      :r/d-scheduled 202,
@@ -2904,7 +2904,7 @@
      :r/t-scheduled 218.0,
      :r/k "la-salette-00514",
      :r/total-passed 304.0,
-     :r/t-done 200.0}
+     :r/t-done 200}
     {:r/nec 514,
      :r/level-0 "2021",
      :r/d-scheduled 217,
@@ -2918,7 +2918,7 @@
      :r/t-scheduled 180.0,
      :r/k "la-salette-00514",
      :r/total-passed nil,
-     :r/t-done 177.0}],
+     :r/t-done 177}],
    :imt-profile nil}]
  ["miranda-do-douro-00527"
   {:nec 527,
@@ -2936,7 +2936,7 @@
      :r/t-scheduled 52.0,
      :r/k "miranda-do-douro-00527",
      :r/total-passed 57.0,
-     :r/t-done 52.0}
+     :r/t-done 52}
     {:r/nec 527,
      :r/level-0 "2016",
      :r/d-scheduled 101,
@@ -2950,7 +2950,7 @@
      :r/t-scheduled 38.0,
      :r/k "miranda-do-douro-00527",
      :r/total-passed 92.0,
-     :r/t-done 34.0}
+     :r/t-done 34}
     {:r/nec 527,
      :r/level-0 "2017",
      :r/d-scheduled 70,
@@ -2964,7 +2964,7 @@
      :r/t-scheduled 59.0,
      :r/k "miranda-do-douro-00527",
      :r/total-passed 65.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 527,
      :r/level-0 "2018",
      :r/d-scheduled 148,
@@ -2978,7 +2978,7 @@
      :r/t-scheduled 60.0,
      :r/k "miranda-do-douro-00527",
      :r/total-passed 138.0,
-     :r/t-done 53.0}
+     :r/t-done 53}
     {:r/nec 527,
      :r/level-0 "2019",
      :r/d-scheduled 196,
@@ -2992,7 +2992,7 @@
      :r/t-scheduled 82.0,
      :r/k "miranda-do-douro-00527",
      :r/total-passed 180.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 527,
      :r/level-0 "2020",
      :r/d-scheduled 176,
@@ -3006,7 +3006,7 @@
      :r/t-scheduled 61.0,
      :r/k "miranda-do-douro-00527",
      :r/total-passed 117.0,
-     :r/t-done 52.0}
+     :r/t-done 52}
     {:r/nec 527,
      :r/level-0 "2021",
      :r/d-scheduled 257,
@@ -3020,7 +3020,7 @@
      :r/t-scheduled 39.0,
      :r/k "miranda-do-douro-00527",
      :r/total-passed nil,
-     :r/t-done 32.0}],
+     :r/t-done 32}],
    :imt-profile nil,
    :obs "license 527 is 'Nelmar' in imt.pt",
    :overwrite/notes nil}]
@@ -3040,7 +3040,7 @@
      :r/t-scheduled 165.0,
      :r/k "terra-nova-00544",
      :r/total-passed 233.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 544,
      :r/level-0 "2016",
      :r/d-scheduled 118,
@@ -3054,7 +3054,7 @@
      :r/t-scheduled 150.0,
      :r/k "terra-nova-00544",
      :r/total-passed 201.0,
-     :r/t-done 141.0}
+     :r/t-done 141}
     {:r/nec 544,
      :r/level-0 "2017",
      :r/d-scheduled 78,
@@ -3068,7 +3068,7 @@
      :r/t-scheduled 88.0,
      :r/k "terra-nova-00544",
      :r/total-passed 131.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 544,
      :r/level-0 "2018",
      :r/d-scheduled 58,
@@ -3082,7 +3082,7 @@
      :r/t-scheduled 79.0,
      :r/k "terra-nova-00544",
      :r/total-passed 111.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 544,
      :r/level-0 "2019",
      :r/d-scheduled 51,
@@ -3096,7 +3096,7 @@
      :r/t-scheduled 60.0,
      :r/k "terra-nova-00544",
      :r/total-passed 80.0,
-     :r/t-done 56.0}],
+     :r/t-done 56}],
    :imt-profile nil,
    :obs "license 544 is 'Deu-la-Deu' in imt.pt",
    :overwrite/notes nil}]
@@ -3116,7 +3116,7 @@
      :r/t-scheduled 74.0,
      :r/k "auto-penaguiao-00561",
      :r/total-passed 99.0,
-     :r/t-done 71.0}
+     :r/t-done 71}
     {:r/nec 561,
      :r/level-0 "2016",
      :r/d-scheduled 65,
@@ -3130,7 +3130,7 @@
      :r/t-scheduled 71.0,
      :r/k "auto-penaguiao-00561",
      :r/total-passed 109.0,
-     :r/t-done 70.0}
+     :r/t-done 70}
     {:r/nec 561,
      :r/level-0 "2017",
      :r/d-scheduled 58,
@@ -3144,7 +3144,7 @@
      :r/t-scheduled 66.0,
      :r/k "auto-penaguiao-00561",
      :r/total-passed 87.0,
-     :r/t-done 58.0}
+     :r/t-done 58}
     {:r/nec 561,
      :r/level-0 "2018",
      :r/d-scheduled 73,
@@ -3158,7 +3158,7 @@
      :r/t-scheduled 88.0,
      :r/k "auto-penaguiao-00561",
      :r/total-passed 124.0,
-     :r/t-done 79.0}
+     :r/t-done 79}
     {:r/nec 561,
      :r/level-0 "2019",
      :r/d-scheduled 59,
@@ -3172,7 +3172,7 @@
      :r/t-scheduled 87.0,
      :r/k "auto-penaguiao-00561",
      :r/total-passed 112.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 561,
      :r/level-0 "2020",
      :r/d-scheduled 41,
@@ -3186,7 +3186,7 @@
      :r/t-scheduled 66.0,
      :r/k "auto-penaguiao-00561",
      :r/total-passed 74.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 561,
      :r/level-0 "2021",
      :r/d-scheduled 56,
@@ -3200,7 +3200,7 @@
      :r/t-scheduled 59.0,
      :r/k "auto-penaguiao-00561",
      :r/total-passed nil,
-     :r/t-done 49.0}],
+     :r/t-done 49}],
    :imt-profile nil}]
  ["moderna-vila-franca-das-naves-00581"
   {:nec 581,
@@ -3218,7 +3218,7 @@
      :r/t-scheduled 41.0,
      :r/k "moderna-vila-franca-das-naves-00581",
      :r/total-passed 66.0,
-     :r/t-done 41.0}
+     :r/t-done 41}
     {:r/nec 581,
      :r/level-0 "2016",
      :r/d-scheduled 4,
@@ -3232,7 +3232,7 @@
      :r/t-scheduled 2.0,
      :r/k "moderna-vila-franca-das-naves-00581",
      :r/total-passed 6.0,
-     :r/t-done 2.0}],
+     :r/t-done 2}],
    :imt-profile nil}]
  ["nascente-do-ave-00587"
   {:nec 587,
@@ -3250,7 +3250,7 @@
      :r/t-scheduled 131.0,
      :r/k "nascente-do-ave-00587",
      :r/total-passed 122.0,
-     :r/t-done 124.0}
+     :r/t-done 124}
     {:r/nec 587,
      :r/level-0 "2016",
      :r/d-scheduled 110,
@@ -3264,7 +3264,7 @@
      :r/t-scheduled 138.0,
      :r/k "nascente-do-ave-00587",
      :r/total-passed 161.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 587,
      :r/level-0 "2017",
      :r/d-scheduled 88,
@@ -3278,7 +3278,7 @@
      :r/t-scheduled 107.0,
      :r/k "nascente-do-ave-00587",
      :r/total-passed 146.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 587,
      :r/level-0 "2018",
      :r/d-scheduled 97,
@@ -3292,7 +3292,7 @@
      :r/t-scheduled 114.0,
      :r/k "nascente-do-ave-00587",
      :r/total-passed 143.0,
-     :r/t-done 112.0}],
+     :r/t-done 112}],
    :imt-profile nil,
    :obs "prob. same as auto-dinamica-do-ave-00587. data until 2018",
    :overwrite/notes nil}]
@@ -3312,7 +3312,7 @@
      :r/t-scheduled 24.0,
      :r/k "infante-sagres-meda-00593",
      :r/total-passed 34.0,
-     :r/t-done 24.0}
+     :r/t-done 24}
     {:r/nec 593,
      :r/level-0 "2016",
      :r/d-scheduled 23,
@@ -3326,7 +3326,7 @@
      :r/t-scheduled 17.0,
      :r/k "infante-sagres-meda-00593",
      :r/total-passed 19.0,
-     :r/t-done 16.0}
+     :r/t-done 16}
     {:r/nec 593,
      :r/level-0 "2017",
      :r/d-scheduled 24,
@@ -3340,7 +3340,7 @@
      :r/t-scheduled 19.0,
      :r/k "infante-sagres-meda-00593",
      :r/total-passed 26.0,
-     :r/t-done 19.0}
+     :r/t-done 19}
     {:r/nec 593,
      :r/level-0 "2018",
      :r/d-scheduled 7,
@@ -3354,7 +3354,7 @@
      :r/t-scheduled 2.0,
      :r/k "infante-sagres-meda-00593",
      :r/total-passed 6.0,
-     :r/t-done 2.0}],
+     :r/t-done 2}],
    :imt-profile nil}]
  ["auto-sao-braz-00606"
   {:nec 606,
@@ -3372,7 +3372,7 @@
      :r/t-scheduled 92.0,
      :r/k "auto-sao-braz-00606",
      :r/total-passed 127.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 606,
      :r/level-0 "2016",
      :r/d-scheduled 83,
@@ -3386,7 +3386,7 @@
      :r/t-scheduled 93.0,
      :r/k "auto-sao-braz-00606",
      :r/total-passed 118.0,
-     :r/t-done 85.0}
+     :r/t-done 85}
     {:r/nec 606,
      :r/level-0 "2017",
      :r/d-scheduled 2,
@@ -3400,7 +3400,7 @@
      :r/t-scheduled 0.0,
      :r/k "auto-sao-braz-00606",
      :r/total-passed 2.0,
-     :r/t-done 0.0}],
+     :r/t-done 0}],
    :imt-profile nil}]
  ["europa-00617"
   {:nec 617,
@@ -3418,7 +3418,7 @@
      :r/t-scheduled 76.0,
      :r/k "europa-00617",
      :r/total-passed 110.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 617,
      :r/level-0 "2016",
      :r/d-scheduled 85,
@@ -3432,7 +3432,7 @@
      :r/t-scheduled 74.0,
      :r/k "europa-00617",
      :r/total-passed 121.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 617,
      :r/level-0 "2017",
      :r/d-scheduled 82,
@@ -3446,7 +3446,7 @@
      :r/t-scheduled 94.0,
      :r/k "europa-00617",
      :r/total-passed 115.0,
-     :r/t-done 88.0}
+     :r/t-done 88}
     {:r/nec 617,
      :r/level-0 "2018",
      :r/d-scheduled 86,
@@ -3460,7 +3460,7 @@
      :r/t-scheduled 75.0,
      :r/k "europa-00617",
      :r/total-passed 111.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 617,
      :r/level-0 "2019",
      :r/d-scheduled 39,
@@ -3474,7 +3474,7 @@
      :r/t-scheduled 8.0,
      :r/k "europa-00617",
      :r/total-passed 41.0,
-     :r/t-done 8.0}],
+     :r/t-done 8}],
    :imt-profile nil}]
  ["jcdrive-00624"
   {:nec 624,
@@ -3492,7 +3492,7 @@
      :r/t-scheduled 72.0,
      :r/k "jcdrive-00624",
      :r/total-passed 112.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 624,
      :r/level-0 "2016",
      :r/d-scheduled 99,
@@ -3506,7 +3506,7 @@
      :r/t-scheduled 73.0,
      :r/k "jcdrive-00624",
      :r/total-passed 136.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 624,
      :r/level-0 "2017",
      :r/d-scheduled 84,
@@ -3520,7 +3520,7 @@
      :r/t-scheduled 71.0,
      :r/k "jcdrive-00624",
      :r/total-passed 129.0,
-     :r/t-done 71.0}
+     :r/t-done 71}
     {:r/nec 624,
      :r/level-0 "2018",
      :r/d-scheduled 106,
@@ -3534,7 +3534,7 @@
      :r/t-scheduled 89.0,
      :r/k "jcdrive-00624",
      :r/total-passed 152.0,
-     :r/t-done 88.0}
+     :r/t-done 88}
     {:r/nec 624,
      :r/level-0 "2019",
      :r/d-scheduled 99,
@@ -3548,7 +3548,7 @@
      :r/t-scheduled 75.0,
      :r/k "jcdrive-00624",
      :r/total-passed 144.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 624,
      :r/level-0 "2020",
      :r/d-scheduled 108,
@@ -3562,7 +3562,7 @@
      :r/t-scheduled 85.0,
      :r/k "jcdrive-00624",
      :r/total-passed 149.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 624,
      :r/level-0 "2021",
      :r/d-scheduled 104,
@@ -3576,7 +3576,7 @@
      :r/t-scheduled 101.0,
      :r/k "jcdrive-00624",
      :r/total-passed nil,
-     :r/t-done 91.0}],
+     :r/t-done 91}],
    :imt-profile nil,
    :obs "license 624 is 'do Fanqueiro - Loures' in imt.pt",
    :overwrite/notes nil}]
@@ -3596,7 +3596,7 @@
      :r/t-scheduled 39.0,
      :r/k "cavaleira-00630",
      :r/total-passed 52.0,
-     :r/t-done 34.0}
+     :r/t-done 34}
     {:r/nec 630,
      :r/level-0 "2016",
      :r/d-scheduled 34,
@@ -3610,7 +3610,7 @@
      :r/t-scheduled 39.0,
      :r/k "cavaleira-00630",
      :r/total-passed 47.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 630,
      :r/level-0 "2017",
      :r/d-scheduled 67,
@@ -3624,7 +3624,7 @@
      :r/t-scheduled 61.0,
      :r/k "cavaleira-00630",
      :r/total-passed 87.0,
-     :r/t-done 60.0}
+     :r/t-done 60}
     {:r/nec 630,
      :r/level-0 "2018",
      :r/d-scheduled 89,
@@ -3638,7 +3638,7 @@
      :r/t-scheduled 112.0,
      :r/k "cavaleira-00630",
      :r/total-passed 150.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 630,
      :r/level-0 "2019",
      :r/d-scheduled 65,
@@ -3652,7 +3652,7 @@
      :r/t-scheduled 25.0,
      :r/k "cavaleira-00630",
      :r/total-passed 67.0,
-     :r/t-done 22.0}],
+     :r/t-done 22}],
    :imt-profile nil,
    :obs "license 630 is 'De Pernes - Loures' in imt.pt",
    :overwrite/notes nil}]
@@ -3672,7 +3672,7 @@
      :r/t-scheduled 72.0,
      :r/k "infante-de-sagresloule-00645",
      :r/total-passed 97.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 645,
      :r/level-0 "2016",
      :r/d-scheduled 15,
@@ -3686,7 +3686,7 @@
      :r/t-scheduled 22.0,
      :r/k "infante-de-sagresloule-00645",
      :r/total-passed 27.0,
-     :r/t-done 21.0}],
+     :r/t-done 21}],
    :imt-profile nil}]
  ["automovel-de-macedo-00650"
   {:nec 650,
@@ -3704,7 +3704,7 @@
      :r/t-scheduled 46.0,
      :r/k "automovel-de-macedo-00650",
      :r/total-passed 70.0,
-     :r/t-done 44.0}
+     :r/t-done 44}
     {:r/nec 650,
      :r/level-0 "2016",
      :r/d-scheduled 75,
@@ -3718,7 +3718,7 @@
      :r/t-scheduled 70.0,
      :r/k "automovel-de-macedo-00650",
      :r/total-passed 98.0,
-     :r/t-done 66.0}
+     :r/t-done 66}
     {:r/nec 650,
      :r/level-0 "2017",
      :r/d-scheduled 85,
@@ -3732,7 +3732,7 @@
      :r/t-scheduled 83.0,
      :r/k "automovel-de-macedo-00650",
      :r/total-passed 113.0,
-     :r/t-done 83.0}
+     :r/t-done 83}
     {:r/nec 650,
      :r/level-0 "2018",
      :r/d-scheduled 50,
@@ -3746,7 +3746,7 @@
      :r/t-scheduled 51.0,
      :r/k "automovel-de-macedo-00650",
      :r/total-passed 59.0,
-     :r/t-done 47.0}
+     :r/t-done 47}
     {:r/nec 650,
      :r/level-0 "2019",
      :r/d-scheduled 58,
@@ -3760,7 +3760,7 @@
      :r/t-scheduled 57.0,
      :r/k "automovel-de-macedo-00650",
      :r/total-passed 71.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 650,
      :r/level-0 "2020",
      :r/d-scheduled 72,
@@ -3774,7 +3774,7 @@
      :r/t-scheduled 49.0,
      :r/k "automovel-de-macedo-00650",
      :r/total-passed 81.0,
-     :r/t-done 49.0}
+     :r/t-done 49}
     {:r/nec 650,
      :r/level-0 "2021",
      :r/d-scheduled 58,
@@ -3788,7 +3788,7 @@
      :r/t-scheduled 32.0,
      :r/k "automovel-de-macedo-00650",
      :r/total-passed nil,
-     :r/t-done 31.0}],
+     :r/t-done 31}],
    :imt-profile nil,
    :obs "automovel macedo is 338",
    :overwrite/notes nil}]
@@ -3808,7 +3808,7 @@
      :r/t-scheduled 104.0,
      :r/k "auto-mira-00651",
      :r/total-passed 151.0,
-     :r/t-done 101.0}
+     :r/t-done 101}
     {:r/nec 651,
      :r/level-0 "2016",
      :r/d-scheduled 83,
@@ -3822,7 +3822,7 @@
      :r/t-scheduled 63.0,
      :r/k "auto-mira-00651",
      :r/total-passed 102.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 651,
      :r/level-0 "2017",
      :r/d-scheduled 85,
@@ -3836,7 +3836,7 @@
      :r/t-scheduled 60.0,
      :r/k "auto-mira-00651",
      :r/total-passed 103.0,
-     :r/t-done 58.0}
+     :r/t-done 58}
     {:r/nec 651,
      :r/level-0 "2018",
      :r/d-scheduled 66,
@@ -3850,7 +3850,7 @@
      :r/t-scheduled 61.0,
      :r/k "auto-mira-00651",
      :r/total-passed 86.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 651,
      :r/level-0 "2019",
      :r/d-scheduled 75,
@@ -3864,7 +3864,7 @@
      :r/t-scheduled 65.0,
      :r/k "auto-mira-00651",
      :r/total-passed 101.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 651,
      :r/level-0 "2020",
      :r/d-scheduled 71,
@@ -3878,7 +3878,7 @@
      :r/t-scheduled 45.0,
      :r/k "auto-mira-00651",
      :r/total-passed 74.0,
-     :r/t-done 44.0}
+     :r/t-done 44}
     {:r/nec 651,
      :r/level-0 "2021",
      :r/d-scheduled 63,
@@ -3892,7 +3892,7 @@
      :r/t-scheduled 44.0,
      :r/k "auto-mira-00651",
      :r/total-passed nil,
-     :r/t-done 41.0}],
+     :r/t-done 41}],
    :imt-profile nil,
    :obs "license 651 is 'Miranda do Douro' in imt.pt",
    :overwrite/notes nil}]
@@ -3912,7 +3912,7 @@
      :r/t-scheduled 23.0,
      :r/k "autoflor-00652",
      :r/total-passed 29.0,
-     :r/t-done 23.0}
+     :r/t-done 23}
     {:r/nec 652,
      :r/level-0 "2016",
      :r/d-scheduled 32,
@@ -3926,7 +3926,7 @@
      :r/t-scheduled 16.0,
      :r/k "autoflor-00652",
      :r/total-passed 37.0,
-     :r/t-done 16.0}
+     :r/t-done 16}
     {:r/nec 652,
      :r/level-0 "2017",
      :r/d-scheduled 15,
@@ -3940,7 +3940,7 @@
      :r/t-scheduled 18.0,
      :r/k "autoflor-00652",
      :r/total-passed 24.0,
-     :r/t-done 18.0}
+     :r/t-done 18}
     {:r/nec 652,
      :r/level-0 "2018",
      :r/d-scheduled 32,
@@ -3954,7 +3954,7 @@
      :r/t-scheduled 24.0,
      :r/k "autoflor-00652",
      :r/total-passed 37.0,
-     :r/t-done 24.0}
+     :r/t-done 24}
     {:r/nec 652,
      :r/level-0 "2019",
      :r/d-scheduled 30,
@@ -3968,7 +3968,7 @@
      :r/t-scheduled 30.0,
      :r/k "autoflor-00652",
      :r/total-passed 41.0,
-     :r/t-done 28.0}
+     :r/t-done 28}
     {:r/nec 652,
      :r/level-0 "2020",
      :r/d-scheduled 70,
@@ -3982,7 +3982,7 @@
      :r/t-scheduled 59.0,
      :r/k "autoflor-00652",
      :r/total-passed 81.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 652,
      :r/level-0 "2021",
      :r/d-scheduled 86,
@@ -3996,7 +3996,7 @@
      :r/t-scheduled 73.0,
      :r/k "autoflor-00652",
      :r/total-passed nil,
-     :r/t-done 70.0}],
+     :r/t-done 70}],
    :imt-profile nil,
    :obs "there's an auto floor but it's 1007",
    :overwrite/notes nil}]
@@ -4016,7 +4016,7 @@
      :r/t-scheduled 62.0,
      :r/k "volante-de-cristal-00682",
      :r/total-passed 81.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 682,
      :r/level-0 "2016",
      :r/d-scheduled 33,
@@ -4030,7 +4030,7 @@
      :r/t-scheduled 24.0,
      :r/k "volante-de-cristal-00682",
      :r/total-passed 28.0,
-     :r/t-done 24.0}],
+     :r/t-done 24}],
    :imt-profile nil}]
  ["azurem-00684"
   {:nec 684,
@@ -4048,7 +4048,7 @@
      :r/t-scheduled 128.0,
      :r/k "azurem-00684",
      :r/total-passed 186.0,
-     :r/t-done 121.0}
+     :r/t-done 121}
     {:r/nec 684,
      :r/level-0 "2016",
      :r/d-scheduled 129,
@@ -4062,7 +4062,7 @@
      :r/t-scheduled 142.0,
      :r/k "azurem-00684",
      :r/total-passed 185.0,
-     :r/t-done 142.0}
+     :r/t-done 142}
     {:r/nec 684,
      :r/level-0 "2017",
      :r/d-scheduled 134,
@@ -4076,7 +4076,7 @@
      :r/t-scheduled 143.0,
      :r/k "azurem-00684",
      :r/total-passed 184.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 684,
      :r/level-0 "2018",
      :r/d-scheduled 130,
@@ -4090,7 +4090,7 @@
      :r/t-scheduled 113.0,
      :r/k "azurem-00684",
      :r/total-passed 174.0,
-     :r/t-done 110.0}
+     :r/t-done 110}
     {:r/nec 684,
      :r/level-0 "2019",
      :r/d-scheduled 144,
@@ -4104,7 +4104,7 @@
      :r/t-scheduled 112.0,
      :r/k "azurem-00684",
      :r/total-passed 198.0,
-     :r/t-done 106.0}
+     :r/t-done 106}
     {:r/nec 684,
      :r/level-0 "2020",
      :r/d-scheduled 130,
@@ -4118,7 +4118,7 @@
      :r/t-scheduled 110.0,
      :r/k "azurem-00684",
      :r/total-passed 175.0,
-     :r/t-done 106.0}
+     :r/t-done 106}
     {:r/nec 684,
      :r/level-0 "2021",
      :r/d-scheduled 103,
@@ -4132,7 +4132,7 @@
      :r/t-scheduled 99.0,
      :r/k "azurem-00684",
      :r/total-passed nil,
-     :r/t-done 92.0}],
+     :r/t-done 92}],
    :imt-profile nil,
    :obs "license 684 is 'Moreirense' in imt.pt",
    :overwrite/notes nil}]
@@ -4152,7 +4152,7 @@
      :r/t-scheduled 3.0,
      :r/k "senhora-da-graca-00685",
      :r/total-passed 11.0,
-     :r/t-done 3.0}],
+     :r/t-done 3}],
    :imt-profile nil}]
  ["cubista-00691"
   {:nec 691,
@@ -4170,7 +4170,7 @@
      :r/t-scheduled 149.0,
      :r/k "cubista-00691",
      :r/total-passed 166.0,
-     :r/t-done 148.0}
+     :r/t-done 148}
     {:r/nec 691,
      :r/level-0 "2016",
      :r/d-scheduled 164,
@@ -4184,7 +4184,7 @@
      :r/t-scheduled 151.0,
      :r/k "cubista-00691",
      :r/total-passed 195.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 691,
      :r/level-0 "2017",
      :r/d-scheduled 198,
@@ -4198,7 +4198,7 @@
      :r/t-scheduled 160.0,
      :r/k "cubista-00691",
      :r/total-passed 207.0,
-     :r/t-done 157.0}
+     :r/t-done 157}
     {:r/nec 691,
      :r/level-0 "2018",
      :r/d-scheduled 227,
@@ -4212,7 +4212,7 @@
      :r/t-scheduled 188.0,
      :r/k "cubista-00691",
      :r/total-passed 240.0,
-     :r/t-done 181.0}
+     :r/t-done 181}
     {:r/nec 691,
      :r/level-0 "2019",
      :r/d-scheduled 230,
@@ -4226,7 +4226,7 @@
      :r/t-scheduled 231.0,
      :r/k "cubista-00691",
      :r/total-passed 260.0,
-     :r/t-done 226.0}
+     :r/t-done 226}
     {:r/nec 691,
      :r/level-0 "2020",
      :r/d-scheduled 251,
@@ -4240,7 +4240,7 @@
      :r/t-scheduled 221.0,
      :r/k "cubista-00691",
      :r/total-passed 272.0,
-     :r/t-done 206.0}
+     :r/t-done 206}
     {:r/nec 691,
      :r/level-0 "2021",
      :r/d-scheduled 311,
@@ -4254,7 +4254,7 @@
      :r/t-scheduled 347.0,
      :r/k "cubista-00691",
      :r/total-passed nil,
-     :r/t-done 309.0}],
+     :r/t-done 309}],
    :imt-profile nil,
    :obs "license 691 is 'Baía de Monte Gordo' in imt.pt",
    :overwrite/notes nil}]
@@ -4274,7 +4274,7 @@
      :r/t-scheduled 309.0,
      :r/k "faciforma-gaia-centro-00700",
      :r/total-passed 425.0,
-     :r/t-done 277.0}
+     :r/t-done 277}
     {:r/nec 700,
      :r/level-0 "2016",
      :r/d-scheduled 263,
@@ -4288,7 +4288,7 @@
      :r/t-scheduled 221.0,
      :r/k "faciforma-gaia-centro-00700",
      :r/total-passed 330.0,
-     :r/t-done 213.0}
+     :r/t-done 213}
     {:r/nec 700,
      :r/level-0 "2017",
      :r/d-scheduled 315,
@@ -4302,7 +4302,7 @@
      :r/t-scheduled 311.0,
      :r/k "faciforma-gaia-centro-00700",
      :r/total-passed 401.0,
-     :r/t-done 292.0}
+     :r/t-done 292}
     {:r/nec 700,
      :r/level-0 "2018",
      :r/d-scheduled 295,
@@ -4316,7 +4316,7 @@
      :r/t-scheduled 256.0,
      :r/k "faciforma-gaia-centro-00700",
      :r/total-passed 358.0,
-     :r/t-done 241.0}
+     :r/t-done 241}
     {:r/nec 700,
      :r/level-0 "2019",
      :r/d-scheduled 276,
@@ -4330,7 +4330,7 @@
      :r/t-scheduled 244.0,
      :r/k "faciforma-gaia-centro-00700",
      :r/total-passed 329.0,
-     :r/t-done 232.0}
+     :r/t-done 232}
     {:r/nec 700,
      :r/level-0 "2020",
      :r/d-scheduled 245,
@@ -4344,7 +4344,7 @@
      :r/t-scheduled 196.0,
      :r/k "faciforma-gaia-centro-00700",
      :r/total-passed 268.0,
-     :r/t-done 179.0}
+     :r/t-done 179}
     {:r/nec 700,
      :r/level-0 "2021",
      :r/d-scheduled 190,
@@ -4358,7 +4358,7 @@
      :r/t-scheduled 322.0,
      :r/k "faciforma-gaia-centro-00700",
      :r/total-passed nil,
-     :r/t-done 266.0}],
+     :r/t-done 266}],
    :imt-profile nil,
    :obs "license 700 is 'Monte da Virgem' in imt.pt",
    :overwrite/notes nil}]
@@ -4378,7 +4378,7 @@
      :r/t-scheduled 79.0,
      :r/k "santa-helena-00718",
      :r/total-passed 110.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 718,
      :r/level-0 "2016",
      :r/d-scheduled 56,
@@ -4392,7 +4392,7 @@
      :r/t-scheduled 63.0,
      :r/k "santa-helena-00718",
      :r/total-passed 97.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 718,
      :r/level-0 "2017",
      :r/d-scheduled 77,
@@ -4406,7 +4406,7 @@
      :r/t-scheduled 88.0,
      :r/k "santa-helena-00718",
      :r/total-passed 104.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 718,
      :r/level-0 "2018",
      :r/d-scheduled 52,
@@ -4420,7 +4420,7 @@
      :r/t-scheduled 54.0,
      :r/k "santa-helena-00718",
      :r/total-passed 84.0,
-     :r/t-done 51.0}
+     :r/t-done 51}
     {:r/nec 718,
      :r/level-0 "2019",
      :r/d-scheduled 30,
@@ -4434,7 +4434,7 @@
      :r/t-scheduled 30.0,
      :r/k "santa-helena-00718",
      :r/total-passed 45.0,
-     :r/t-done 27.0}
+     :r/t-done 27}
     {:r/nec 718,
      :r/level-0 "2020",
      :r/d-scheduled 12,
@@ -4448,7 +4448,7 @@
      :r/t-scheduled 5.0,
      :r/k "santa-helena-00718",
      :r/total-passed 10.0,
-     :r/t-done 4.0}],
+     :r/t-done 4}],
    :imt-profile nil}]
  ["dinamica-do-vez-00746"
   {:nec 746,
@@ -4466,7 +4466,7 @@
      :r/t-scheduled 203.0,
      :r/k "dinamica-do-vez-00746",
      :r/total-passed 269.0,
-     :r/t-done 195.0}
+     :r/t-done 195}
     {:r/nec 746,
      :r/level-0 "2016",
      :r/d-scheduled 224,
@@ -4480,7 +4480,7 @@
      :r/t-scheduled 187.0,
      :r/k "dinamica-do-vez-00746",
      :r/total-passed 289.0,
-     :r/t-done 184.0}
+     :r/t-done 184}
     {:r/nec 746,
      :r/level-0 "2017",
      :r/d-scheduled 153,
@@ -4494,7 +4494,7 @@
      :r/t-scheduled 169.0,
      :r/k "dinamica-do-vez-00746",
      :r/total-passed 202.0,
-     :r/t-done 151.0}
+     :r/t-done 151}
     {:r/nec 746,
      :r/level-0 "2018",
      :r/d-scheduled 153,
@@ -4508,7 +4508,7 @@
      :r/t-scheduled 154.0,
      :r/k "dinamica-do-vez-00746",
      :r/total-passed 212.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 746,
      :r/level-0 "2019",
      :r/d-scheduled 108,
@@ -4522,7 +4522,7 @@
      :r/t-scheduled 114.0,
      :r/k "dinamica-do-vez-00746",
      :r/total-passed 168.0,
-     :r/t-done 114.0}],
+     :r/t-done 114}],
    :imt-profile nil,
    :obs "Dup tyrsense-00746. Data stops @ 2019.",
    :overwrite/notes nil}]
@@ -4542,7 +4542,7 @@
      :r/t-scheduled 159.0,
      :r/k "miralima-00754",
      :r/total-passed 192.0,
-     :r/t-done 158.0}
+     :r/t-done 158}
     {:r/nec 754,
      :r/level-0 "2016",
      :r/d-scheduled 106,
@@ -4556,7 +4556,7 @@
      :r/t-scheduled 119.0,
      :r/k "miralima-00754",
      :r/total-passed 181.0,
-     :r/t-done 119.0}
+     :r/t-done 119}
     {:r/nec 754,
      :r/level-0 "2017",
      :r/d-scheduled 72,
@@ -4570,7 +4570,7 @@
      :r/t-scheduled 91.0,
      :r/k "miralima-00754",
      :r/total-passed 132.0,
-     :r/t-done 88.0}
+     :r/t-done 88}
     {:r/nec 754,
      :r/level-0 "2018",
      :r/d-scheduled 70,
@@ -4584,7 +4584,7 @@
      :r/t-scheduled 108.0,
      :r/k "miralima-00754",
      :r/total-passed 144.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 754,
      :r/level-0 "2019",
      :r/d-scheduled 81,
@@ -4598,7 +4598,7 @@
      :r/t-scheduled 88.0,
      :r/k "miralima-00754",
      :r/total-passed 134.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 754,
      :r/level-0 "2020",
      :r/d-scheduled 44,
@@ -4612,7 +4612,7 @@
      :r/t-scheduled 69.0,
      :r/k "miralima-00754",
      :r/total-passed 83.0,
-     :r/t-done 62.0}
+     :r/t-done 62}
     {:r/nec 754,
      :r/level-0 "2021",
      :r/d-scheduled 60,
@@ -4626,7 +4626,7 @@
      :r/t-scheduled 70.0,
      :r/k "miralima-00754",
      :r/total-passed nil,
-     :r/t-done 61.0}],
+     :r/t-done 61}],
    :imt-profile nil}]
  ["auto-stop-00760"
   {:nec 760,
@@ -4644,7 +4644,7 @@
      :r/t-scheduled 52.0,
      :r/k "auto-stop-00760",
      :r/total-passed 69.0,
-     :r/t-done 52.0}
+     :r/t-done 52}
     {:r/nec 760,
      :r/level-0 "2016",
      :r/d-scheduled 42,
@@ -4658,7 +4658,7 @@
      :r/t-scheduled 48.0,
      :r/k "auto-stop-00760",
      :r/total-passed 60.0,
-     :r/t-done 47.0}
+     :r/t-done 47}
     {:r/nec 760,
      :r/level-0 "2017",
      :r/d-scheduled 56,
@@ -4672,7 +4672,7 @@
      :r/t-scheduled 55.0,
      :r/k "auto-stop-00760",
      :r/total-passed 81.0,
-     :r/t-done 53.0}
+     :r/t-done 53}
     {:r/nec 760,
      :r/level-0 "2018",
      :r/d-scheduled 49,
@@ -4686,7 +4686,7 @@
      :r/t-scheduled 37.0,
      :r/k "auto-stop-00760",
      :r/total-passed 64.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 760,
      :r/level-0 "2019",
      :r/d-scheduled 48,
@@ -4700,7 +4700,7 @@
      :r/t-scheduled 43.0,
      :r/k "auto-stop-00760",
      :r/total-passed 75.0,
-     :r/t-done 42.0}],
+     :r/t-done 42}],
    :imt-profile nil,
    :obs "Duplicate pair of ip4-00760. Data stops @ 2019",
    :overwrite/notes nil}]
@@ -4720,7 +4720,7 @@
      :r/t-scheduled 61.0,
      :r/k "do-livramento-00769",
      :r/total-passed 94.0,
-     :r/t-done 59.0}
+     :r/t-done 59}
     {:r/nec 769,
      :r/level-0 "2016",
      :r/d-scheduled 76,
@@ -4734,7 +4734,7 @@
      :r/t-scheduled 55.0,
      :r/k "do-livramento-00769",
      :r/total-passed 89.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 769,
      :r/level-0 "2017",
      :r/d-scheduled 54,
@@ -4748,7 +4748,7 @@
      :r/t-scheduled 65.0,
      :r/k "do-livramento-00769",
      :r/total-passed 87.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 769,
      :r/level-0 "2018",
      :r/d-scheduled 9,
@@ -4762,7 +4762,7 @@
      :r/t-scheduled 11.0,
      :r/k "do-livramento-00769",
      :r/total-passed 16.0,
-     :r/t-done 11.0}],
+     :r/t-done 11}],
    :imt-profile nil}]
  ["prioritaria-00773"
   {:nec 773,
@@ -4780,7 +4780,7 @@
      :r/t-scheduled 26.0,
      :r/k "prioritaria-00773",
      :r/total-passed 38.0,
-     :r/t-done 24.0}],
+     :r/t-done 24}],
    :imt-profile nil}]
  ["reis-aguiar-da-beira-00776"
   {:nec 776,
@@ -4798,7 +4798,7 @@
      :r/t-scheduled 57.0,
      :r/k "reis-aguiar-da-beira-00776",
      :r/total-passed 82.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 776,
      :r/level-0 "2016",
      :r/d-scheduled 60,
@@ -4812,7 +4812,7 @@
      :r/t-scheduled 39.0,
      :r/k "reis-aguiar-da-beira-00776",
      :r/total-passed 68.0,
-     :r/t-done 39.0}
+     :r/t-done 39}
     {:r/nec 776,
      :r/level-0 "2017",
      :r/d-scheduled 28,
@@ -4826,7 +4826,7 @@
      :r/t-scheduled 33.0,
      :r/k "reis-aguiar-da-beira-00776",
      :r/total-passed 42.0,
-     :r/t-done 33.0}
+     :r/t-done 33}
     {:r/nec 776,
      :r/level-0 "2018",
      :r/d-scheduled 28,
@@ -4840,7 +4840,7 @@
      :r/t-scheduled 20.0,
      :r/k "reis-aguiar-da-beira-00776",
      :r/total-passed 26.0,
-     :r/t-done 20.0}
+     :r/t-done 20}
     {:r/nec 776,
      :r/level-0 "2019",
      :r/d-scheduled 7,
@@ -4854,7 +4854,7 @@
      :r/t-scheduled 7.0,
      :r/k "reis-aguiar-da-beira-00776",
      :r/total-passed 8.0,
-     :r/t-done 7.0}],
+     :r/t-done 7}],
    :imt-profile nil}]
  ["reis-armamar-00830"
   {:nec 830,
@@ -4872,7 +4872,7 @@
      :r/t-scheduled 53.0,
      :r/k "reis-armamar-00830",
      :r/total-passed 60.0,
-     :r/t-done 52.0}
+     :r/t-done 52}
     {:r/nec 830,
      :r/level-0 "2016",
      :r/d-scheduled 52,
@@ -4886,7 +4886,7 @@
      :r/t-scheduled 38.0,
      :r/k "reis-armamar-00830",
      :r/total-passed 50.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 830,
      :r/level-0 "2017",
      :r/d-scheduled 43,
@@ -4900,7 +4900,7 @@
      :r/t-scheduled 35.0,
      :r/k "reis-armamar-00830",
      :r/total-passed 56.0,
-     :r/t-done 35.0}
+     :r/t-done 35}
     {:r/nec 830,
      :r/level-0 "2018",
      :r/d-scheduled 33,
@@ -4914,7 +4914,7 @@
      :r/t-scheduled 34.0,
      :r/k "reis-armamar-00830",
      :r/total-passed 50.0,
-     :r/t-done 34.0}],
+     :r/t-done 34}],
    :imt-profile nil,
    :obs "license 830 is 'Douro Sul' in imt.pt",
    :overwrite/notes nil}]
@@ -4934,7 +4934,7 @@
      :r/t-scheduled 122.0,
      :r/k "vale-do-caima-00843",
      :r/total-passed 162.0,
-     :r/t-done 122.0}
+     :r/t-done 122}
     {:r/nec 843,
      :r/level-0 "2016",
      :r/d-scheduled 88,
@@ -4948,7 +4948,7 @@
      :r/t-scheduled 93.0,
      :r/k "vale-do-caima-00843",
      :r/total-passed 119.0,
-     :r/t-done 92.0}
+     :r/t-done 92}
     {:r/nec 843,
      :r/level-0 "2017",
      :r/d-scheduled 114,
@@ -4962,7 +4962,7 @@
      :r/t-scheduled 126.0,
      :r/k "vale-do-caima-00843",
      :r/total-passed 166.0,
-     :r/t-done 124.0}
+     :r/t-done 124}
     {:r/nec 843,
      :r/level-0 "2018",
      :r/d-scheduled 101,
@@ -4976,7 +4976,7 @@
      :r/t-scheduled 90.0,
      :r/k "vale-do-caima-00843",
      :r/total-passed 133.0,
-     :r/t-done 89.0}
+     :r/t-done 89}
     {:r/nec 843,
      :r/level-0 "2019",
      :r/d-scheduled 110,
@@ -4990,7 +4990,7 @@
      :r/t-scheduled 103.0,
      :r/k "vale-do-caima-00843",
      :r/total-passed 129.0,
-     :r/t-done 102.0}
+     :r/t-done 102}
     {:r/nec 843,
      :r/level-0 "2020",
      :r/d-scheduled 79,
@@ -5004,7 +5004,7 @@
      :r/t-scheduled 97.0,
      :r/k "vale-do-caima-00843",
      :r/total-passed 123.0,
-     :r/t-done 92.0}
+     :r/t-done 92}
     {:r/nec 843,
      :r/level-0 "2021",
      :r/d-scheduled 27,
@@ -5018,7 +5018,7 @@
      :r/t-scheduled 4.0,
      :r/k "vale-do-caima-00843",
      :r/total-passed nil,
-     :r/t-done 3.0}],
+     :r/t-done 3}],
    :imt-profile nil}]
  ["varzim-00847"
   {:nec 847,
@@ -5036,7 +5036,7 @@
      :r/t-scheduled 172.0,
      :r/k "varzim-00847",
      :r/total-passed 208.0,
-     :r/t-done 161.0}
+     :r/t-done 161}
     {:r/nec 847,
      :r/level-0 "2016",
      :r/d-scheduled 167,
@@ -5050,7 +5050,7 @@
      :r/t-scheduled 126.0,
      :r/k "varzim-00847",
      :r/total-passed 211.0,
-     :r/t-done 119.0}
+     :r/t-done 119}
     {:r/nec 847,
      :r/level-0 "2017",
      :r/d-scheduled 89,
@@ -5064,7 +5064,7 @@
      :r/t-scheduled 108.0,
      :r/k "varzim-00847",
      :r/total-passed 140.0,
-     :r/t-done 102.0}
+     :r/t-done 102}
     {:r/nec 847,
      :r/level-0 "2018",
      :r/d-scheduled 1,
@@ -5078,7 +5078,7 @@
      :r/t-scheduled 0.0,
      :r/k "varzim-00847",
      :r/total-passed 1.0,
-     :r/t-done 0.0}],
+     :r/t-done 0}],
    :imt-profile nil}]
  ["sargaco-sargaco-00848"
   {:nec 848,
@@ -5096,7 +5096,7 @@
      :r/t-scheduled 22.0,
      :r/k "sargaco-sargaco-00848",
      :r/total-passed 19.0,
-     :r/t-done 20.0}
+     :r/t-done 20}
     {:r/nec 848,
      :r/level-0 "2016",
      :r/d-scheduled 7,
@@ -5110,7 +5110,7 @@
      :r/t-scheduled 221.0,
      :r/k "sargaco-sargaco-00848",
      :r/total-passed 184.0,
-     :r/t-done 219.0}],
+     :r/t-done 219}],
    :imt-profile nil}]
  ["e-formacao-profissional-da-marinha-grande-00854"
   {:nec 854,
@@ -5129,7 +5129,7 @@
      :r/t-scheduled 67.0,
      :r/k "e-formacao-profissional-da-marinha-grande-00854",
      :r/total-passed 118.0,
-     :r/t-done 67.0}
+     :r/t-done 67}
     {:r/nec 854,
      :r/level-0 "2016",
      :r/d-scheduled 76,
@@ -5144,7 +5144,7 @@
      :r/t-scheduled 71.0,
      :r/k "e-formacao-profissional-da-marinha-grande-00854",
      :r/total-passed 103.0,
-     :r/t-done 66.0}
+     :r/t-done 66}
     {:r/nec 854,
      :r/level-0 "2017",
      :r/d-scheduled 68,
@@ -5159,7 +5159,7 @@
      :r/t-scheduled 84.0,
      :r/k "e-formacao-profissional-da-marinha-grande-00854",
      :r/total-passed 96.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 854,
      :r/level-0 "2018",
      :r/d-scheduled 86,
@@ -5174,7 +5174,7 @@
      :r/t-scheduled 69.0,
      :r/k "e-formacao-profissional-da-marinha-grande-00854",
      :r/total-passed 97.0,
-     :r/t-done 66.0}
+     :r/t-done 66}
     {:r/nec 854,
      :r/level-0 "2019",
      :r/d-scheduled 77,
@@ -5189,7 +5189,7 @@
      :r/t-scheduled 66.0,
      :r/k "e-formacao-profissional-da-marinha-grande-00854",
      :r/total-passed 86.0,
-     :r/t-done 64.0}
+     :r/t-done 64}
     {:r/nec 854,
      :r/level-0 "2020",
      :r/d-scheduled 63,
@@ -5204,7 +5204,7 @@
      :r/t-scheduled 47.0,
      :r/k "e-formacao-profissional-da-marinha-grande-00854",
      :r/total-passed 67.0,
-     :r/t-done 47.0}
+     :r/t-done 47}
     {:r/nec 854,
      :r/level-0 "2021",
      :r/d-scheduled 73,
@@ -5219,7 +5219,7 @@
      :r/t-scheduled 44.0,
      :r/k "e-formacao-profissional-da-marinha-grande-00854",
      :r/total-passed nil,
-     :r/t-done 44.0}],
+     :r/t-done 44}],
    :imt-profile nil,
    :obs "license 854 is 'Monte Real' in imt.pt",
    :overwrite/notes nil}]
@@ -5239,7 +5239,7 @@
      :r/t-scheduled 210.0,
      :r/k "df-00863",
      :r/total-passed nil,
-     :r/t-done 205.0}],
+     :r/t-done 205}],
    :imt-profile nil,
    :obs "license 863 is 'Portugalia' in imt.pt",
    :overwrite/notes nil}]
@@ -5259,7 +5259,7 @@
      :r/t-scheduled 20.0,
      :r/k "algarve-00874",
      :r/total-passed 35.0,
-     :r/t-done 20.0}
+     :r/t-done 20}
     {:r/nec 874,
      :r/level-0 "2016",
      :r/d-scheduled 20,
@@ -5273,7 +5273,7 @@
      :r/t-scheduled 27.0,
      :r/k "algarve-00874",
      :r/total-passed 31.0,
-     :r/t-done 25.0}
+     :r/t-done 25}
     {:r/nec 874,
      :r/level-0 "2017",
      :r/d-scheduled 4,
@@ -5287,7 +5287,7 @@
      :r/t-scheduled 0.0,
      :r/k "algarve-00874",
      :r/total-passed 4.0,
-     :r/t-done 0.0}],
+     :r/t-done 0}],
    :imt-profile nil}]
  ["armando-machado-da-cruz-00900"
   {:nec 900,
@@ -5305,7 +5305,7 @@
      :r/t-scheduled 145.0,
      :r/k "armando-machado-da-cruz-00900",
      :r/total-passed 195.0,
-     :r/t-done 142.0}
+     :r/t-done 142}
     {:r/nec 900,
      :r/level-0 "2016",
      :r/d-scheduled 146,
@@ -5319,7 +5319,7 @@
      :r/t-scheduled 150.0,
      :r/k "armando-machado-da-cruz-00900",
      :r/total-passed 197.0,
-     :r/t-done 145.0}
+     :r/t-done 145}
     {:r/nec 900,
      :r/level-0 "2017",
      :r/d-scheduled 186,
@@ -5333,7 +5333,7 @@
      :r/t-scheduled 141.0,
      :r/k "armando-machado-da-cruz-00900",
      :r/total-passed 200.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 900,
      :r/level-0 "2018",
      :r/d-scheduled 124,
@@ -5347,7 +5347,7 @@
      :r/t-scheduled 110.0,
      :r/k "armando-machado-da-cruz-00900",
      :r/total-passed 157.0,
-     :r/t-done 107.0}],
+     :r/t-done 107}],
    :imt-profile nil,
    :obs "Dup grand-tour-00900. Data stops @ 2019.",
    :overwrite/notes nil}]
@@ -5367,7 +5367,7 @@
      :r/t-scheduled 150.0,
      :r/k "100-00910",
      :r/total-passed 211.0,
-     :r/t-done 145.0}
+     :r/t-done 145}
     {:r/nec 910,
      :r/level-0 "2016",
      :r/d-scheduled 143,
@@ -5381,7 +5381,7 @@
      :r/t-scheduled 202.0,
      :r/k "100-00910",
      :r/total-passed 218.0,
-     :r/t-done 192.0}
+     :r/t-done 192}
     {:r/nec 910,
      :r/level-0 "2017",
      :r/d-scheduled 202,
@@ -5395,7 +5395,7 @@
      :r/t-scheduled 184.0,
      :r/k "100-00910",
      :r/total-passed 247.0,
-     :r/t-done 177.0}
+     :r/t-done 177}
     {:r/nec 910,
      :r/level-0 "2018",
      :r/d-scheduled 155,
@@ -5409,7 +5409,7 @@
      :r/t-scheduled 170.0,
      :r/k "100-00910",
      :r/total-passed 214.0,
-     :r/t-done 161.0}
+     :r/t-done 161}
     {:r/nec 910,
      :r/level-0 "2019",
      :r/d-scheduled 158,
@@ -5423,7 +5423,7 @@
      :r/t-scheduled 141.0,
      :r/k "100-00910",
      :r/total-passed 181.0,
-     :r/t-done 137.0}
+     :r/t-done 137}
     {:r/nec 910,
      :r/level-0 "2020",
      :r/d-scheduled 112,
@@ -5437,7 +5437,7 @@
      :r/t-scheduled 155.0,
      :r/k "100-00910",
      :r/total-passed 172.0,
-     :r/t-done 147.0}
+     :r/t-done 147}
     {:r/nec 910,
      :r/level-0 "2021",
      :r/d-scheduled 135,
@@ -5451,7 +5451,7 @@
      :r/t-scheduled 235.0,
      :r/k "100-00910",
      :r/total-passed nil,
-     :r/t-done 199.0}],
+     :r/t-done 199}],
    :imt-profile nil}]
  ["fonseca-00914"
   {:nec 914,
@@ -5469,7 +5469,7 @@
      :r/t-scheduled 149.0,
      :r/k "fonseca-00914",
      :r/total-passed 189.0,
-     :r/t-done 142.0}
+     :r/t-done 142}
     {:r/nec 914,
      :r/level-0 "2016",
      :r/d-scheduled 139,
@@ -5483,7 +5483,7 @@
      :r/t-scheduled 140.0,
      :r/k "fonseca-00914",
      :r/total-passed 171.0,
-     :r/t-done 137.0}
+     :r/t-done 137}
     {:r/nec 914,
      :r/level-0 "2017",
      :r/d-scheduled 137,
@@ -5497,7 +5497,7 @@
      :r/t-scheduled 106.0,
      :r/k "fonseca-00914",
      :r/total-passed 142.0,
-     :r/t-done 104.0}
+     :r/t-done 104}
     {:r/nec 914,
      :r/level-0 "2018",
      :r/d-scheduled 159,
@@ -5511,7 +5511,7 @@
      :r/t-scheduled 177.0,
      :r/k "fonseca-00914",
      :r/total-passed 201.0,
-     :r/t-done 168.0}
+     :r/t-done 168}
     {:r/nec 914,
      :r/level-0 "2019",
      :r/d-scheduled 142,
@@ -5525,7 +5525,7 @@
      :r/t-scheduled 134.0,
      :r/k "fonseca-00914",
      :r/total-passed 172.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 914,
      :r/level-0 "2020",
      :r/d-scheduled 118,
@@ -5539,7 +5539,7 @@
      :r/t-scheduled 113.0,
      :r/k "fonseca-00914",
      :r/total-passed 145.0,
-     :r/t-done 109.0}],
+     :r/t-done 109}],
    :imt-profile nil,
    :obs "license 914 is 'Aliada' in imt.pt",
    :overwrite/notes nil}]
@@ -5559,7 +5559,7 @@
      :r/t-scheduled 1.0,
      :r/k "flor-do-zezere-00965",
      :r/total-passed 1.0,
-     :r/t-done 1.0}],
+     :r/t-done 1}],
    :imt-profile nil}]
  ["vieira-foz-01000"
   {:nec 1000,
@@ -5577,7 +5577,7 @@
      :r/t-scheduled 196.0,
      :r/k "vieira-foz-01000",
      :r/total-passed 285.0,
-     :r/t-done 185.0}
+     :r/t-done 185}
     {:r/nec 1000,
      :r/level-0 "2016",
      :r/d-scheduled 121,
@@ -5591,7 +5591,7 @@
      :r/t-scheduled 68.0,
      :r/k "vieira-foz-01000",
      :r/total-passed 133.0,
-     :r/t-done 65.0}],
+     :r/t-done 65}],
    :imt-profile nil}]
  ["gilao-01005"
   {:nec 1005,
@@ -5609,7 +5609,7 @@
      :r/t-scheduled 92.0,
      :r/k "gilao-01005",
      :r/total-passed 103.0,
-     :r/t-done 89.0}
+     :r/t-done 89}
     {:r/nec 1005,
      :r/level-0 "2016",
      :r/d-scheduled 75,
@@ -5623,7 +5623,7 @@
      :r/t-scheduled 115.0,
      :r/k "gilao-01005",
      :r/total-passed 107.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 1005,
      :r/level-0 "2017",
      :r/d-scheduled 99,
@@ -5637,7 +5637,7 @@
      :r/t-scheduled 130.0,
      :r/k "gilao-01005",
      :r/total-passed 141.0,
-     :r/t-done 123.0}
+     :r/t-done 123}
     {:r/nec 1005,
      :r/level-0 "2018",
      :r/d-scheduled 137,
@@ -5651,7 +5651,7 @@
      :r/t-scheduled 131.0,
      :r/k "gilao-01005",
      :r/total-passed 178.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 1005,
      :r/level-0 "2019",
      :r/d-scheduled 119,
@@ -5665,7 +5665,7 @@
      :r/t-scheduled 77.0,
      :r/k "gilao-01005",
      :r/total-passed 128.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 1005,
      :r/level-0 "2020",
      :r/d-scheduled 25,
@@ -5679,7 +5679,7 @@
      :r/t-scheduled 1.0,
      :r/k "gilao-01005",
      :r/total-passed 24.0,
-     :r/t-done 1.0}],
+     :r/t-done 1}],
    :imt-profile nil}]
  ["carlos-vaz-01007"
   {:nec 1007,
@@ -5697,7 +5697,7 @@
      :r/t-scheduled 80.0,
      :r/k "carlos-vaz-01007",
      :r/total-passed 117.0,
-     :r/t-done 79.0}
+     :r/t-done 79}
     {:r/nec 1007,
      :r/level-0 "2016",
      :r/d-scheduled 80,
@@ -5711,7 +5711,7 @@
      :r/t-scheduled 66.0,
      :r/k "carlos-vaz-01007",
      :r/total-passed 105.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 1007,
      :r/level-0 "2017",
      :r/d-scheduled 88,
@@ -5725,7 +5725,7 @@
      :r/t-scheduled 83.0,
      :r/k "carlos-vaz-01007",
      :r/total-passed 123.0,
-     :r/t-done 79.0}
+     :r/t-done 79}
     {:r/nec 1007,
      :r/level-0 "2018",
      :r/d-scheduled 80,
@@ -5739,7 +5739,7 @@
      :r/t-scheduled 59.0,
      :r/k "carlos-vaz-01007",
      :r/total-passed 98.0,
-     :r/t-done 58.0}
+     :r/t-done 58}
     {:r/nec 1007,
      :r/level-0 "2019",
      :r/d-scheduled 78,
@@ -5753,7 +5753,7 @@
      :r/t-scheduled 69.0,
      :r/k "carlos-vaz-01007",
      :r/total-passed 103.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 1007,
      :r/level-0 "2020",
      :r/d-scheduled 74,
@@ -5767,7 +5767,7 @@
      :r/t-scheduled 69.0,
      :r/k "carlos-vaz-01007",
      :r/total-passed 95.0,
-     :r/t-done 64.0}
+     :r/t-done 64}
     {:r/nec 1007,
      :r/level-0 "2021",
      :r/d-scheduled 69,
@@ -5781,7 +5781,7 @@
      :r/t-scheduled 54.0,
      :r/k "carlos-vaz-01007",
      :r/total-passed nil,
-     :r/t-done 52.0}],
+     :r/t-done 52}],
    :imt-profile nil,
    :obs "1007 is 'Auto Flor'. Carlos Vaz is archived.",
    :overwrite/notes nil}]
@@ -5801,7 +5801,7 @@
      :r/t-scheduled 95.0,
      :r/k "dom-pedro-01008",
      :r/total-passed 125.0,
-     :r/t-done 93.0}
+     :r/t-done 93}
     {:r/nec 1008,
      :r/level-0 "2016",
      :r/d-scheduled 89,
@@ -5815,7 +5815,7 @@
      :r/t-scheduled 66.0,
      :r/k "dom-pedro-01008",
      :r/total-passed 105.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 1008,
      :r/level-0 "2017",
      :r/d-scheduled 86,
@@ -5829,7 +5829,7 @@
      :r/t-scheduled 96.0,
      :r/k "dom-pedro-01008",
      :r/total-passed 118.0,
-     :r/t-done 94.0}
+     :r/t-done 94}
     {:r/nec 1008,
      :r/level-0 "2018",
      :r/d-scheduled 136,
@@ -5843,7 +5843,7 @@
      :r/t-scheduled 114.0,
      :r/k "dom-pedro-01008",
      :r/total-passed 159.0,
-     :r/t-done 109.0}
+     :r/t-done 109}
     {:r/nec 1008,
      :r/level-0 "2019",
      :r/d-scheduled 123,
@@ -5857,7 +5857,7 @@
      :r/t-scheduled 115.0,
      :r/k "dom-pedro-01008",
      :r/total-passed 146.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 1008,
      :r/level-0 "2020",
      :r/d-scheduled 102,
@@ -5871,7 +5871,7 @@
      :r/t-scheduled 89.0,
      :r/k "dom-pedro-01008",
      :r/total-passed 120.0,
-     :r/t-done 81.0}],
+     :r/t-done 81}],
    :imt-profile nil,
    :obs "license 1008 is 'Prina' in imt.pt",
    :overwrite/notes nil}]
@@ -5891,7 +5891,7 @@
      :r/t-scheduled 91.0,
      :r/k "prisma-01021",
      :r/total-passed 139.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 1021,
      :r/level-0 "2016",
      :r/d-scheduled 97,
@@ -5905,7 +5905,7 @@
      :r/t-scheduled 140.0,
      :r/k "prisma-01021",
      :r/total-passed 134.0,
-     :r/t-done 135.0}
+     :r/t-done 135}
     {:r/nec 1021,
      :r/level-0 "2017",
      :r/d-scheduled 201,
@@ -5919,7 +5919,7 @@
      :r/t-scheduled 193.0,
      :r/k "prisma-01021",
      :r/total-passed 243.0,
-     :r/t-done 189.0}
+     :r/t-done 189}
     {:r/nec 1021,
      :r/level-0 "2018",
      :r/d-scheduled 169,
@@ -5933,7 +5933,7 @@
      :r/t-scheduled 132.0,
      :r/k "prisma-01021",
      :r/total-passed 173.0,
-     :r/t-done 130.0}
+     :r/t-done 130}
     {:r/nec 1021,
      :r/level-0 "2019",
      :r/d-scheduled 101,
@@ -5947,7 +5947,7 @@
      :r/t-scheduled 84.0,
      :r/k "prisma-01021",
      :r/total-passed 112.0,
-     :r/t-done 81.0}
+     :r/t-done 81}
     {:r/nec 1021,
      :r/level-0 "2020",
      :r/d-scheduled 104,
@@ -5961,7 +5961,7 @@
      :r/t-scheduled 78.0,
      :r/k "prisma-01021",
      :r/total-passed 99.0,
-     :r/t-done 71.0}
+     :r/t-done 71}
     {:r/nec 1021,
      :r/level-0 "2021",
      :r/d-scheduled 61,
@@ -5975,7 +5975,7 @@
      :r/t-scheduled 24.0,
      :r/k "prisma-01021",
      :r/total-passed nil,
-     :r/t-done 24.0}],
+     :r/t-done 24}],
    :imt-profile nil}]
  ["go-driving-01024"
   {:nec 1024,
@@ -5993,7 +5993,7 @@
      :r/t-scheduled 44.0,
      :r/k "go-driving-01024",
      :r/total-passed 66.0,
-     :r/t-done 43.0}
+     :r/t-done 43}
     {:r/nec 1024,
      :r/level-0 "2016",
      :r/d-scheduled 81,
@@ -6007,7 +6007,7 @@
      :r/t-scheduled 63.0,
      :r/k "go-driving-01024",
      :r/total-passed 77.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 1024,
      :r/level-0 "2017",
      :r/d-scheduled 88,
@@ -6021,7 +6021,7 @@
      :r/t-scheduled 37.0,
      :r/k "go-driving-01024",
      :r/total-passed 74.0,
-     :r/t-done 35.0}
+     :r/t-done 35}
     {:r/nec 1024,
      :r/level-0 "2018",
      :r/d-scheduled 96,
@@ -6035,7 +6035,7 @@
      :r/t-scheduled 91.0,
      :r/k "go-driving-01024",
      :r/total-passed 128.0,
-     :r/t-done 91.0}
+     :r/t-done 91}
     {:r/nec 1024,
      :r/level-0 "2019",
      :r/d-scheduled 166,
@@ -6049,7 +6049,7 @@
      :r/t-scheduled 145.0,
      :r/k "go-driving-01024",
      :r/total-passed 226.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 1024,
      :r/level-0 "2020",
      :r/d-scheduled 152,
@@ -6063,7 +6063,7 @@
      :r/t-scheduled 151.0,
      :r/k "go-driving-01024",
      :r/total-passed 240.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 1024,
      :r/level-0 "2021",
      :r/d-scheduled 180,
@@ -6077,7 +6077,7 @@
      :r/t-scheduled 162.0,
      :r/k "go-driving-01024",
      :r/total-passed nil,
-     :r/t-done 158.0}],
+     :r/t-done 158}],
    :imt-profile nil,
    :obs "license 1024 is 'Egitaniense' in imt.pt",
    :overwrite/notes nil}]
@@ -6097,7 +6097,7 @@
      :r/t-scheduled 103.0,
      :r/k "a-nova-01039",
      :r/total-passed 170.0,
-     :r/t-done 100.0}
+     :r/t-done 100}
     {:r/nec 1039,
      :r/level-0 "2016",
      :r/d-scheduled 158,
@@ -6111,7 +6111,7 @@
      :r/t-scheduled 130.0,
      :r/k "a-nova-01039",
      :r/total-passed 219.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 1039,
      :r/level-0 "2017",
      :r/d-scheduled 109,
@@ -6125,7 +6125,7 @@
      :r/t-scheduled 88.0,
      :r/k "a-nova-01039",
      :r/total-passed 137.0,
-     :r/t-done 83.0}
+     :r/t-done 83}
     {:r/nec 1039,
      :r/level-0 "2018",
      :r/d-scheduled 122,
@@ -6139,7 +6139,7 @@
      :r/t-scheduled 97.0,
      :r/k "a-nova-01039",
      :r/total-passed 165.0,
-     :r/t-done 95.0}
+     :r/t-done 95}
     {:r/nec 1039,
      :r/level-0 "2019",
      :r/d-scheduled 130,
@@ -6153,7 +6153,7 @@
      :r/t-scheduled 108.0,
      :r/k "a-nova-01039",
      :r/total-passed 160.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 1039,
      :r/level-0 "2020",
      :r/d-scheduled 151,
@@ -6167,7 +6167,7 @@
      :r/t-scheduled 149.0,
      :r/k "a-nova-01039",
      :r/total-passed 192.0,
-     :r/t-done 143.0}
+     :r/t-done 143}
     {:r/nec 1039,
      :r/level-0 "2021",
      :r/d-scheduled 178,
@@ -6181,7 +6181,7 @@
      :r/t-scheduled 156.0,
      :r/k "a-nova-01039",
      :r/total-passed nil,
-     :r/t-done 151.0}],
+     :r/t-done 151}],
    :imt-profile nil}]
  ["almancilense-01041"
   {:nec 1041,
@@ -6199,7 +6199,7 @@
      :r/t-scheduled 83.0,
      :r/k "almancilense-01041",
      :r/total-passed 91.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 1041,
      :r/level-0 "2016",
      :r/d-scheduled 71,
@@ -6213,7 +6213,7 @@
      :r/t-scheduled 72.0,
      :r/k "almancilense-01041",
      :r/total-passed 92.0,
-     :r/t-done 72.0}
+     :r/t-done 72}
     {:r/nec 1041,
      :r/level-0 "2017",
      :r/d-scheduled 74,
@@ -6227,7 +6227,7 @@
      :r/t-scheduled 75.0,
      :r/k "almancilense-01041",
      :r/total-passed 85.0,
-     :r/t-done 68.0}
+     :r/t-done 68}
     {:r/nec 1041,
      :r/level-0 "2018",
      :r/d-scheduled 13,
@@ -6241,7 +6241,7 @@
      :r/t-scheduled 20.0,
      :r/k "almancilense-01041",
      :r/total-passed 24.0,
-     :r/t-done 20.0}],
+     :r/t-done 20}],
    :imt-profile nil}]
  ["s-jorge-01043"
   {:nec 1043,
@@ -6259,7 +6259,7 @@
      :r/t-scheduled 143.0,
      :r/k "s-jorge-01043",
      :r/total-passed 146.0,
-     :r/t-done 137.0}
+     :r/t-done 137}
     {:r/nec 1043,
      :r/level-0 "2016",
      :r/d-scheduled 104,
@@ -6273,7 +6273,7 @@
      :r/t-scheduled 123.0,
      :r/k "s-jorge-01043",
      :r/total-passed 170.0,
-     :r/t-done 119.0}
+     :r/t-done 119}
     {:r/nec 1043,
      :r/level-0 "2017",
      :r/d-scheduled 84,
@@ -6287,7 +6287,7 @@
      :r/t-scheduled 90.0,
      :r/k "s-jorge-01043",
      :r/total-passed 126.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 1043,
      :r/level-0 "2018",
      :r/d-scheduled 78,
@@ -6301,7 +6301,7 @@
      :r/t-scheduled 91.0,
      :r/k "s-jorge-01043",
      :r/total-passed 138.0,
-     :r/t-done 88.0}
+     :r/t-done 88}
     {:r/nec 1043,
      :r/level-0 "2019",
      :r/d-scheduled 68,
@@ -6315,7 +6315,7 @@
      :r/t-scheduled 110.0,
      :r/k "s-jorge-01043",
      :r/total-passed 114.0,
-     :r/t-done 99.0}
+     :r/t-done 99}
     {:r/nec 1043,
      :r/level-0 "2020",
      :r/d-scheduled 75,
@@ -6329,7 +6329,7 @@
      :r/t-scheduled 91.0,
      :r/k "s-jorge-01043",
      :r/total-passed 115.0,
-     :r/t-done 83.0}],
+     :r/t-done 83}],
    :imt-profile nil,
    :obs "license 1043 is 'Dominante' in imt.pt",
    :overwrite/notes nil}]
@@ -6349,7 +6349,7 @@
      :r/t-scheduled 81.0,
      :r/k "s-verissimo-01058",
      :r/total-passed 132.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 1058,
      :r/level-0 "2016",
      :r/d-scheduled 88,
@@ -6363,7 +6363,7 @@
      :r/t-scheduled 62.0,
      :r/k "s-verissimo-01058",
      :r/total-passed 107.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 1058,
      :r/level-0 "2017",
      :r/d-scheduled 95,
@@ -6377,7 +6377,7 @@
      :r/t-scheduled 86.0,
      :r/k "s-verissimo-01058",
      :r/total-passed 126.0,
-     :r/t-done 86.0}
+     :r/t-done 86}
     {:r/nec 1058,
      :r/level-0 "2018",
      :r/d-scheduled 124,
@@ -6391,7 +6391,7 @@
      :r/t-scheduled 76.0,
      :r/k "s-verissimo-01058",
      :r/total-passed 162.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 1058,
      :r/level-0 "2019",
      :r/d-scheduled 86,
@@ -6405,7 +6405,7 @@
      :r/t-scheduled 74.0,
      :r/k "s-verissimo-01058",
      :r/total-passed 118.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 1058,
      :r/level-0 "2020",
      :r/d-scheduled 86,
@@ -6419,7 +6419,7 @@
      :r/t-scheduled 87.0,
      :r/k "s-verissimo-01058",
      :r/total-passed 136.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 1058,
      :r/level-0 "2021",
      :r/d-scheduled 109,
@@ -6433,7 +6433,7 @@
      :r/t-scheduled 85.0,
      :r/k "s-verissimo-01058",
      :r/total-passed nil,
-     :r/t-done 80.0}],
+     :r/t-done 80}],
    :imt-profile nil,
    :obs "license 1058 is 'Volante de Negreiros' in imt.pt",
    :overwrite/notes nil}]
@@ -6453,7 +6453,7 @@
      :r/t-scheduled 189.0,
      :r/k "s-tiago-01067",
      :r/total-passed 293.0,
-     :r/t-done 187.0}
+     :r/t-done 187}
     {:r/nec 1067,
      :r/level-0 "2016",
      :r/d-scheduled 180,
@@ -6467,7 +6467,7 @@
      :r/t-scheduled 172.0,
      :r/k "s-tiago-01067",
      :r/total-passed 260.0,
-     :r/t-done 162.0}
+     :r/t-done 162}
     {:r/nec 1067,
      :r/level-0 "2017",
      :r/d-scheduled 156,
@@ -6481,7 +6481,7 @@
      :r/t-scheduled 189.0,
      :r/k "s-tiago-01067",
      :r/total-passed 242.0,
-     :r/t-done 186.0}
+     :r/t-done 186}
     {:r/nec 1067,
      :r/level-0 "2018",
      :r/d-scheduled 124,
@@ -6495,7 +6495,7 @@
      :r/t-scheduled 147.0,
      :r/k "s-tiago-01067",
      :r/total-passed 201.0,
-     :r/t-done 139.0}
+     :r/t-done 139}
     {:r/nec 1067,
      :r/level-0 "2019",
      :r/d-scheduled 134,
@@ -6509,7 +6509,7 @@
      :r/t-scheduled 109.0,
      :r/k "s-tiago-01067",
      :r/total-passed 164.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 1067,
      :r/level-0 "2020",
      :r/d-scheduled 87,
@@ -6523,7 +6523,7 @@
      :r/t-scheduled 90.0,
      :r/k "s-tiago-01067",
      :r/total-passed 92.0,
-     :r/t-done 78.0}
+     :r/t-done 78}
     {:r/nec 1067,
      :r/level-0 "2021",
      :r/d-scheduled 22,
@@ -6537,7 +6537,7 @@
      :r/t-scheduled 19.0,
      :r/k "s-tiago-01067",
      :r/total-passed nil,
-     :r/t-done 11.0}],
+     :r/t-done 11}],
    :imt-profile nil}]
  ["auto-dao-01075"
   {:nec 1075,
@@ -6555,7 +6555,7 @@
      :r/t-scheduled 80.0,
      :r/k "auto-dao-01075",
      :r/total-passed 82.0,
-     :r/t-done 79.0}
+     :r/t-done 79}
     {:r/nec 1075,
      :r/level-0 "2016",
      :r/d-scheduled 79,
@@ -6569,7 +6569,7 @@
      :r/t-scheduled 84.0,
      :r/k "auto-dao-01075",
      :r/total-passed 100.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 1075,
      :r/level-0 "2017",
      :r/d-scheduled 86,
@@ -6583,7 +6583,7 @@
      :r/t-scheduled 81.0,
      :r/k "auto-dao-01075",
      :r/total-passed 108.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 1075,
      :r/level-0 "2018",
      :r/d-scheduled 70,
@@ -6597,7 +6597,7 @@
      :r/t-scheduled 85.0,
      :r/k "auto-dao-01075",
      :r/total-passed 90.0,
-     :r/t-done 80.0}],
+     :r/t-done 80}],
    :imt-profile nil,
    :obs "license 1075 is 'De Repeses' in imt.pt",
    :overwrite/notes nil}]
@@ -6617,7 +6617,7 @@
      :r/t-scheduled 95.0,
      :r/k "prestige-01079",
      :r/total-passed 137.0,
-     :r/t-done 95.0}
+     :r/t-done 95}
     {:r/nec 1079,
      :r/level-0 "2016",
      :r/d-scheduled 208,
@@ -6631,7 +6631,7 @@
      :r/t-scheduled 160.0,
      :r/k "prestige-01079",
      :r/total-passed 238.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 1079,
      :r/level-0 "2017",
      :r/d-scheduled 234,
@@ -6645,7 +6645,7 @@
      :r/t-scheduled 173.0,
      :r/k "prestige-01079",
      :r/total-passed 294.0,
-     :r/t-done 164.0}
+     :r/t-done 164}
     {:r/nec 1079,
      :r/level-0 "2018",
      :r/d-scheduled 52,
@@ -6659,7 +6659,7 @@
      :r/t-scheduled 33.0,
      :r/k "prestige-01079",
      :r/total-passed 63.0,
-     :r/t-done 30.0}],
+     :r/t-done 30}],
    :imt-profile nil,
    :obs
    "Dup mota-galiza-01079. Data stops @ 2018. Another Prestige w/1314",
@@ -6680,7 +6680,7 @@
      :r/t-scheduled 100.0,
      :r/k "sobradense-01099",
      :r/total-passed 97.0,
-     :r/t-done 93.0}
+     :r/t-done 93}
     {:r/nec 1099,
      :r/level-0 "2016",
      :r/d-scheduled 89,
@@ -6694,7 +6694,7 @@
      :r/t-scheduled 82.0,
      :r/k "sobradense-01099",
      :r/total-passed 108.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 1099,
      :r/level-0 "2017",
      :r/d-scheduled 99,
@@ -6708,7 +6708,7 @@
      :r/t-scheduled 89.0,
      :r/k "sobradense-01099",
      :r/total-passed 105.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 1099,
      :r/level-0 "2018",
      :r/d-scheduled 96,
@@ -6722,7 +6722,7 @@
      :r/t-scheduled 81.0,
      :r/k "sobradense-01099",
      :r/total-passed 90.0,
-     :r/t-done 78.0}
+     :r/t-done 78}
     {:r/nec 1099,
      :r/level-0 "2019",
      :r/d-scheduled 56,
@@ -6736,7 +6736,7 @@
      :r/t-scheduled 52.0,
      :r/k "sobradense-01099",
      :r/total-passed 60.0,
-     :r/t-done 50.0}
+     :r/t-done 50}
     {:r/nec 1099,
      :r/level-0 "2020",
      :r/d-scheduled 3,
@@ -6768,7 +6768,7 @@
      :r/t-scheduled 0.0,
      :r/k "seguranca-maxima-premium-01105",
      :r/total-passed 6.0,
-     :r/t-done 0.0}
+     :r/t-done 0}
     {:r/nec 1105,
      :r/level-0 "2017",
      :r/d-scheduled 9,
@@ -6782,7 +6782,7 @@
      :r/t-scheduled 15.0,
      :r/k "seguranca-maxima-premium-01105",
      :r/total-passed 14.0,
-     :r/t-done 14.0}
+     :r/t-done 14}
     {:r/nec 1105,
      :r/level-0 "2018",
      :r/d-scheduled 45,
@@ -6796,7 +6796,7 @@
      :r/t-scheduled 49.0,
      :r/k "seguranca-maxima-premium-01105",
      :r/total-passed 61.0,
-     :r/t-done 47.0}
+     :r/t-done 47}
     {:r/nec 1105,
      :r/level-0 "2019",
      :r/d-scheduled 80,
@@ -6810,7 +6810,7 @@
      :r/t-scheduled 88.0,
      :r/k "seguranca-maxima-premium-01105",
      :r/total-passed 107.0,
-     :r/t-done 82.0}
+     :r/t-done 82}
     {:r/nec 1105,
      :r/level-0 "2020",
      :r/d-scheduled 97,
@@ -6824,7 +6824,7 @@
      :r/t-scheduled 152.0,
      :r/k "seguranca-maxima-premium-01105",
      :r/total-passed 145.0,
-     :r/t-done 138.0}
+     :r/t-done 138}
     {:r/nec 1105,
      :r/level-0 "2021",
      :r/d-scheduled 109,
@@ -6838,7 +6838,7 @@
      :r/t-scheduled 201.0,
      :r/k "seguranca-maxima-premium-01105",
      :r/total-passed nil,
-     :r/t-done 179.0}],
+     :r/t-done 179}],
    :imt-profile nil,
    :obs "license 1105 is 'Alameda' in imt.pt",
    :overwrite/notes nil}]
@@ -6858,7 +6858,7 @@
      :r/t-scheduled 108.0,
      :r/k "palhaca-01110",
      :r/total-passed 192.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 1110,
      :r/level-0 "2016",
      :r/d-scheduled 138,
@@ -6872,7 +6872,7 @@
      :r/t-scheduled 112.0,
      :r/k "palhaca-01110",
      :r/total-passed 157.0,
-     :r/t-done 106.0}
+     :r/t-done 106}
     {:r/nec 1110,
      :r/level-0 "2017",
      :r/d-scheduled 86,
@@ -6886,7 +6886,7 @@
      :r/t-scheduled 72.0,
      :r/k "palhaca-01110",
      :r/total-passed 93.0,
-     :r/t-done 66.0}
+     :r/t-done 66}
     {:r/nec 1110,
      :r/level-0 "2018",
      :r/d-scheduled 41,
@@ -6900,7 +6900,7 @@
      :r/t-scheduled 31.0,
      :r/k "palhaca-01110",
      :r/total-passed 42.0,
-     :r/t-done 30.0}
+     :r/t-done 30}
     {:r/nec 1110,
      :r/level-0 "2019",
      :r/d-scheduled 44,
@@ -6914,7 +6914,7 @@
      :r/t-scheduled 32.0,
      :r/k "palhaca-01110",
      :r/total-passed 46.0,
-     :r/t-done 32.0}
+     :r/t-done 32}
     {:r/nec 1110,
      :r/level-0 "2020",
      :r/d-scheduled 52,
@@ -6928,7 +6928,7 @@
      :r/t-scheduled 59.0,
      :r/k "palhaca-01110",
      :r/total-passed 41.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 1110,
      :r/level-0 "2021",
      :r/d-scheduled 45,
@@ -6942,7 +6942,7 @@
      :r/t-scheduled 62.0,
      :r/k "palhaca-01110",
      :r/total-passed nil,
-     :r/t-done 56.0}],
+     :r/t-done 56}],
    :imt-profile nil,
    :obs "license 1110 is 'Bairrada' in imt.pt",
    :overwrite/notes nil}]
@@ -6962,7 +6962,7 @@
      :r/t-scheduled 36.0,
      :r/k "manuel-sampaio-01113",
      :r/total-passed 41.0,
-     :r/t-done 33.0}],
+     :r/t-done 33}],
    :imt-profile nil}]
  ["lena-d-arrifana-01123"
   {:nec 1123,
@@ -6980,7 +6980,7 @@
      :r/t-scheduled 84.0,
      :r/k "lena-d-arrifana-01123",
      :r/total-passed nil,
-     :r/t-done 80.0}],
+     :r/t-done 80}],
    :imt-profile nil,
    :obs "license 1123 is 'Arrifanense' in imt.pt",
    :overwrite/notes nil}]
@@ -7000,7 +7000,7 @@
      :r/t-scheduled 103.0,
      :r/k "auto-azemeis-01132",
      :r/total-passed 150.0,
-     :r/t-done 102.0}
+     :r/t-done 102}
     {:r/nec 1132,
      :r/level-0 "2016",
      :r/d-scheduled 90,
@@ -7014,7 +7014,7 @@
      :r/t-scheduled 99.0,
      :r/k "auto-azemeis-01132",
      :r/total-passed 141.0,
-     :r/t-done 98.0}
+     :r/t-done 98}
     {:r/nec 1132,
      :r/level-0 "2017",
      :r/d-scheduled 87,
@@ -7028,7 +7028,7 @@
      :r/t-scheduled 102.0,
      :r/k "auto-azemeis-01132",
      :r/total-passed 123.0,
-     :r/t-done 93.0}
+     :r/t-done 93}
     {:r/nec 1132,
      :r/level-0 "2018",
      :r/d-scheduled 84,
@@ -7042,7 +7042,7 @@
      :r/t-scheduled 77.0,
      :r/k "auto-azemeis-01132",
      :r/total-passed 118.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 1132,
      :r/level-0 "2019",
      :r/d-scheduled 73,
@@ -7056,7 +7056,7 @@
      :r/t-scheduled 102.0,
      :r/k "auto-azemeis-01132",
      :r/total-passed 113.0,
-     :r/t-done 100.0}
+     :r/t-done 100}
     {:r/nec 1132,
      :r/level-0 "2020",
      :r/d-scheduled 78,
@@ -7070,7 +7070,7 @@
      :r/t-scheduled 95.0,
      :r/k "auto-azemeis-01132",
      :r/total-passed 113.0,
-     :r/t-done 92.0}
+     :r/t-done 92}
     {:r/nec 1132,
      :r/level-0 "2021",
      :r/d-scheduled 66,
@@ -7084,7 +7084,7 @@
      :r/t-scheduled 26.0,
      :r/k "auto-azemeis-01132",
      :r/total-passed nil,
-     :r/t-done 26.0}],
+     :r/t-done 26}],
    :imt-profile nil}]
  ["matriz-01186"
   {:nec 1186,
@@ -7102,7 +7102,7 @@
      :r/t-scheduled 16.0,
      :r/k "matriz-01186",
      :r/total-passed nil,
-     :r/t-done 15.0}],
+     :r/t-done 15}],
    :imt-profile nil,
    :obs "license 1186 is 'Rio Ave' in imt.pt",
    :overwrite/notes nil}]
@@ -7122,7 +7122,7 @@
      :r/t-scheduled 232.0,
      :r/k "chelas-01187",
      :r/total-passed 266.0,
-     :r/t-done 230.0}
+     :r/t-done 230}
     {:r/nec 1187,
      :r/level-0 "2016",
      :r/d-scheduled 238,
@@ -7136,7 +7136,7 @@
      :r/t-scheduled 291.0,
      :r/k "chelas-01187",
      :r/total-passed 313.0,
-     :r/t-done 282.0}
+     :r/t-done 282}
     {:r/nec 1187,
      :r/level-0 "2017",
      :r/d-scheduled 253,
@@ -7150,7 +7150,7 @@
      :r/t-scheduled 315.0,
      :r/k "chelas-01187",
      :r/total-passed 371.0,
-     :r/t-done 307.0}
+     :r/t-done 307}
     {:r/nec 1187,
      :r/level-0 "2018",
      :r/d-scheduled 464,
@@ -7164,7 +7164,7 @@
      :r/t-scheduled 578.0,
      :r/k "chelas-01187",
      :r/total-passed 766.0,
-     :r/t-done 560.0}
+     :r/t-done 560}
     {:r/nec 1187,
      :r/level-0 "2019",
      :r/d-scheduled 577,
@@ -7178,7 +7178,7 @@
      :r/t-scheduled 607.0,
      :r/k "chelas-01187",
      :r/total-passed 866.0,
-     :r/t-done 579.0}
+     :r/t-done 579}
     {:r/nec 1187,
      :r/level-0 "2020",
      :r/d-scheduled 597,
@@ -7192,7 +7192,7 @@
      :r/t-scheduled 676.0,
      :r/k "chelas-01187",
      :r/total-passed 872.0,
-     :r/t-done 640.0}
+     :r/t-done 640}
     {:r/nec 1187,
      :r/level-0 "2021",
      :r/d-scheduled 458,
@@ -7206,7 +7206,7 @@
      :r/t-scheduled 514.0,
      :r/k "chelas-01187",
      :r/total-passed nil,
-     :r/t-done 471.0}],
+     :r/t-done 471}],
    :imt-profile nil,
    :obs "license 1187 is 'Babilónia' in imt.pt",
    :overwrite/notes nil}]
@@ -7226,7 +7226,7 @@
      :r/t-scheduled 1.0,
      :r/k "evoluir-01206",
      :r/total-passed 18.0,
-     :r/t-done 1.0}],
+     :r/t-done 1}],
    :imt-profile nil}]
  ["cucujaes-01212"
   {:nec 1212,
@@ -7244,7 +7244,7 @@
      :r/t-scheduled 157.0,
      :r/k "cucujaes-01212",
      :r/total-passed 239.0,
-     :r/t-done 155.0}
+     :r/t-done 155}
     {:r/nec 1212,
      :r/level-0 "2016",
      :r/d-scheduled 195,
@@ -7258,7 +7258,7 @@
      :r/t-scheduled 184.0,
      :r/k "cucujaes-01212",
      :r/total-passed 276.0,
-     :r/t-done 183.0}
+     :r/t-done 183}
     {:r/nec 1212,
      :r/level-0 "2017",
      :r/d-scheduled 205,
@@ -7272,7 +7272,7 @@
      :r/t-scheduled 199.0,
      :r/k "cucujaes-01212",
      :r/total-passed 296.0,
-     :r/t-done 197.0}
+     :r/t-done 197}
     {:r/nec 1212,
      :r/level-0 "2018",
      :r/d-scheduled 253,
@@ -7286,7 +7286,7 @@
      :r/t-scheduled 209.0,
      :r/k "cucujaes-01212",
      :r/total-passed 309.0,
-     :r/t-done 209.0}
+     :r/t-done 209}
     {:r/nec 1212,
      :r/level-0 "2019",
      :r/d-scheduled 195,
@@ -7300,7 +7300,7 @@
      :r/t-scheduled 156.0,
      :r/k "cucujaes-01212",
      :r/total-passed 233.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 1212,
      :r/level-0 "2020",
      :r/d-scheduled 168,
@@ -7314,7 +7314,7 @@
      :r/t-scheduled 166.0,
      :r/k "cucujaes-01212",
      :r/total-passed 197.0,
-     :r/t-done 158.0}
+     :r/t-done 158}
     {:r/nec 1212,
      :r/level-0 "2021",
      :r/d-scheduled 197,
@@ -7328,7 +7328,7 @@
      :r/t-scheduled 215.0,
      :r/k "cucujaes-01212",
      :r/total-passed nil,
-     :r/t-done 193.0}],
+     :r/t-done 193}],
    :imt-profile nil}]
  ["caloira-de-estarreja-01216"
   {:nec 1216,
@@ -7346,7 +7346,7 @@
      :r/t-scheduled 9.0,
      :r/k "caloira-de-estarreja-01216",
      :r/total-passed 25.0,
-     :r/t-done 9.0}],
+     :r/t-done 9}],
    :imt-profile nil}]
  ["estrela-do-caima-01216"
   {:nec 1216,
@@ -7364,7 +7364,7 @@
      :r/t-scheduled 90.0,
      :r/k "estrela-do-caima-01216",
      :r/total-passed 94.0,
-     :r/t-done 88.0}
+     :r/t-done 88}
     {:r/nec 1216,
      :r/level-0 "2016",
      :r/d-scheduled 79,
@@ -7378,7 +7378,7 @@
      :r/t-scheduled 118.0,
      :r/k "estrela-do-caima-01216",
      :r/total-passed 132.0,
-     :r/t-done 108.0}
+     :r/t-done 108}
     {:r/nec 1216,
      :r/level-0 "2017",
      :r/d-scheduled 116,
@@ -7392,7 +7392,7 @@
      :r/t-scheduled 100.0,
      :r/k "estrela-do-caima-01216",
      :r/total-passed 158.0,
-     :r/t-done 95.0}
+     :r/t-done 95}
     {:r/nec 1216,
      :r/level-0 "2018",
      :r/d-scheduled 83,
@@ -7406,7 +7406,7 @@
      :r/t-scheduled 95.0,
      :r/k "estrela-do-caima-01216",
      :r/total-passed 115.0,
-     :r/t-done 92.0}],
+     :r/t-done 92}],
    :imt-profile nil}]
  ["odivelcartas-01221"
   {:nec 1221,
@@ -7424,7 +7424,7 @@
      :r/t-scheduled 81.0,
      :r/k "odivelcartas-01221",
      :r/total-passed 103.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 1221,
      :r/level-0 "2016",
      :r/d-scheduled 20,
@@ -7438,7 +7438,7 @@
      :r/t-scheduled 20.0,
      :r/k "odivelcartas-01221",
      :r/total-passed 25.0,
-     :r/t-done 18.0}],
+     :r/t-done 18}],
    :imt-profile nil}]
  ["penafiel-01227"
   {:nec 1227,
@@ -7456,7 +7456,7 @@
      :r/t-scheduled 126.0,
      :r/k "penafiel-01227",
      :r/total-passed 158.0,
-     :r/t-done 125.0}],
+     :r/t-done 125}],
    :imt-profile nil}]
  ["venezuela-01230"
   {:nec 1230,
@@ -7474,7 +7474,7 @@
      :r/t-scheduled 498.0,
      :r/k "venezuela-01230",
      :r/total-passed 516.0,
-     :r/t-done 475.0}
+     :r/t-done 475}
     {:r/nec 1230,
      :r/level-0 "2016",
      :r/d-scheduled 347,
@@ -7488,7 +7488,7 @@
      :r/t-scheduled 280.0,
      :r/k "venezuela-01230",
      :r/total-passed 321.0,
-     :r/t-done 260.0}
+     :r/t-done 260}
     {:r/nec 1230,
      :r/level-0 "2017",
      :r/d-scheduled 86,
@@ -7502,7 +7502,7 @@
      :r/t-scheduled 81.0,
      :r/k "venezuela-01230",
      :r/total-passed 100.0,
-     :r/t-done 77.0}],
+     :r/t-done 77}],
    :imt-profile nil}]
  ["a-nova-de-mozelos-01232"
   {:nec 1232,
@@ -7520,7 +7520,7 @@
      :r/t-scheduled 137.0,
      :r/k "a-nova-de-mozelos-01232",
      :r/total-passed 229.0,
-     :r/t-done 132.0}
+     :r/t-done 132}
     {:r/nec 1232,
      :r/level-0 "2016",
      :r/d-scheduled 80,
@@ -7534,7 +7534,7 @@
      :r/t-scheduled 107.0,
      :r/k "a-nova-de-mozelos-01232",
      :r/total-passed 140.0,
-     :r/t-done 104.0}
+     :r/t-done 104}
     {:r/nec 1232,
      :r/level-0 "2017",
      :r/d-scheduled 121,
@@ -7548,7 +7548,7 @@
      :r/t-scheduled 148.0,
      :r/k "a-nova-de-mozelos-01232",
      :r/total-passed 203.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 1232,
      :r/level-0 "2018",
      :r/d-scheduled 144,
@@ -7562,7 +7562,7 @@
      :r/t-scheduled 168.0,
      :r/k "a-nova-de-mozelos-01232",
      :r/total-passed 228.0,
-     :r/t-done 166.0}
+     :r/t-done 166}
     {:r/nec 1232,
      :r/level-0 "2019",
      :r/d-scheduled 113,
@@ -7576,7 +7576,7 @@
      :r/t-scheduled 128.0,
      :r/k "a-nova-de-mozelos-01232",
      :r/total-passed 175.0,
-     :r/t-done 124.0}
+     :r/t-done 124}
     {:r/nec 1232,
      :r/level-0 "2020",
      :r/d-scheduled 131,
@@ -7590,7 +7590,7 @@
      :r/t-scheduled 127.0,
      :r/k "a-nova-de-mozelos-01232",
      :r/total-passed 175.0,
-     :r/t-done 122.0}
+     :r/t-done 122}
     {:r/nec 1232,
      :r/level-0 "2021",
      :r/d-scheduled 119,
@@ -7604,7 +7604,7 @@
      :r/t-scheduled 169.0,
      :r/k "a-nova-de-mozelos-01232",
      :r/total-passed nil,
-     :r/t-done 145.0}],
+     :r/t-done 145}],
    :imt-profile nil,
    :obs "license 1232 is 'Irmãos Couto' in imt.pt",
    :overwrite/notes nil}]
@@ -7624,7 +7624,7 @@
      :r/t-scheduled 172.0,
      :r/k "cesarense-01237",
      :r/total-passed 230.0,
-     :r/t-done 162.0}
+     :r/t-done 162}
     {:r/nec 1237,
      :r/level-0 "2016",
      :r/d-scheduled 173,
@@ -7638,7 +7638,7 @@
      :r/t-scheduled 166.0,
      :r/k "cesarense-01237",
      :r/total-passed 213.0,
-     :r/t-done 151.0}
+     :r/t-done 151}
     {:r/nec 1237,
      :r/level-0 "2017",
      :r/d-scheduled 203,
@@ -7652,7 +7652,7 @@
      :r/t-scheduled 193.0,
      :r/k "cesarense-01237",
      :r/total-passed 245.0,
-     :r/t-done 167.0}
+     :r/t-done 167}
     {:r/nec 1237,
      :r/level-0 "2018",
      :r/d-scheduled 159,
@@ -7666,7 +7666,7 @@
      :r/t-scheduled 180.0,
      :r/k "cesarense-01237",
      :r/total-passed 208.0,
-     :r/t-done 157.0}
+     :r/t-done 157}
     {:r/nec 1237,
      :r/level-0 "2019",
      :r/d-scheduled 146,
@@ -7680,7 +7680,7 @@
      :r/t-scheduled 165.0,
      :r/k "cesarense-01237",
      :r/total-passed 191.0,
-     :r/t-done 152.0}
+     :r/t-done 152}
     {:r/nec 1237,
      :r/level-0 "2020",
      :r/d-scheduled 125,
@@ -7694,7 +7694,7 @@
      :r/t-scheduled 159.0,
      :r/k "cesarense-01237",
      :r/total-passed 157.0,
-     :r/t-done 129.0}
+     :r/t-done 129}
     {:r/nec 1237,
      :r/level-0 "2021",
      :r/d-scheduled 152,
@@ -7708,7 +7708,7 @@
      :r/t-scheduled 170.0,
      :r/k "cesarense-01237",
      :r/total-passed nil,
-     :r/t-done 143.0}],
+     :r/t-done 143}],
    :imt-profile nil}]
  ["via-segura-01244"
   {:nec 1244,
@@ -7726,7 +7726,7 @@
      :r/t-scheduled 151.0,
      :r/k "via-segura-01244",
      :r/total-passed 310.0,
-     :r/t-done 149.0}
+     :r/t-done 149}
     {:r/nec 1244,
      :r/level-0 "2016",
      :r/d-scheduled 194,
@@ -7740,7 +7740,7 @@
      :r/t-scheduled 175.0,
      :r/k "via-segura-01244",
      :r/total-passed 299.0,
-     :r/t-done 171.0}
+     :r/t-done 171}
     {:r/nec 1244,
      :r/level-0 "2017",
      :r/d-scheduled 272,
@@ -7754,7 +7754,7 @@
      :r/t-scheduled 167.0,
      :r/k "via-segura-01244",
      :r/total-passed 354.0,
-     :r/t-done 157.0}
+     :r/t-done 157}
     {:r/nec 1244,
      :r/level-0 "2018",
      :r/d-scheduled 91,
@@ -7768,7 +7768,7 @@
      :r/t-scheduled 57.0,
      :r/k "via-segura-01244",
      :r/total-passed 127.0,
-     :r/t-done 57.0}],
+     :r/t-done 57}],
    :imt-profile nil}]
  ["inicios-01257"
   {:nec 1257,
@@ -7786,7 +7786,7 @@
      :r/t-scheduled 40.0,
      :r/k "inicios-01257",
      :r/total-passed 48.0,
-     :r/t-done 40.0}
+     :r/t-done 40}
     {:r/nec 1257,
      :r/level-0 "2016",
      :r/d-scheduled 130,
@@ -7800,7 +7800,7 @@
      :r/t-scheduled 142.0,
      :r/k "inicios-01257",
      :r/total-passed 173.0,
-     :r/t-done 139.0}
+     :r/t-done 139}
     {:r/nec 1257,
      :r/level-0 "2017",
      :r/d-scheduled 171,
@@ -7814,7 +7814,7 @@
      :r/t-scheduled 217.0,
      :r/k "inicios-01257",
      :r/total-passed 251.0,
-     :r/t-done 212.0}
+     :r/t-done 212}
     {:r/nec 1257,
      :r/level-0 "2018",
      :r/d-scheduled 30,
@@ -7828,7 +7828,7 @@
      :r/t-scheduled 96.0,
      :r/k "inicios-01257",
      :r/total-passed 87.0,
-     :r/t-done 96.0}],
+     :r/t-done 96}],
    :imt-profile nil}]
  ["siiimpletejo-01257"
   {:nec 1257,
@@ -7846,7 +7846,7 @@
      :r/t-scheduled 173.0,
      :r/k "siiimpletejo-01257",
      :r/total-passed 212.0,
-     :r/t-done 162.0}
+     :r/t-done 162}
     {:r/nec 1257,
      :r/level-0 "2020",
      :r/d-scheduled 159,
@@ -7860,7 +7860,7 @@
      :r/t-scheduled 200.0,
      :r/k "siiimpletejo-01257",
      :r/total-passed 202.0,
-     :r/t-done 180.0}
+     :r/t-done 180}
     {:r/nec 1257,
      :r/level-0 "2021",
      :r/d-scheduled 9,
@@ -7874,7 +7874,7 @@
      :r/t-scheduled 23.0,
      :r/k "siiimpletejo-01257",
      :r/total-passed nil,
-     :r/t-done 15.0}],
+     :r/t-done 15}],
    :imt-profile nil}]
  ["espiral-01258"
   {:nec 1258,
@@ -7892,7 +7892,7 @@
      :r/t-scheduled 56.0,
      :r/k "espiral-01258",
      :r/total-passed 62.0,
-     :r/t-done 54.0}
+     :r/t-done 54}
     {:r/nec 1258,
      :r/level-0 "2016",
      :r/d-scheduled 43,
@@ -7906,7 +7906,7 @@
      :r/t-scheduled 50.0,
      :r/k "espiral-01258",
      :r/total-passed 60.0,
-     :r/t-done 46.0}
+     :r/t-done 46}
     {:r/nec 1258,
      :r/level-0 "2017",
      :r/d-scheduled 42,
@@ -7920,7 +7920,7 @@
      :r/t-scheduled 34.0,
      :r/k "espiral-01258",
      :r/total-passed 45.0,
-     :r/t-done 34.0}
+     :r/t-done 34}
     {:r/nec 1258,
      :r/level-0 "2018",
      :r/d-scheduled 33,
@@ -7934,7 +7934,7 @@
      :r/t-scheduled 44.0,
      :r/k "espiral-01258",
      :r/total-passed 44.0,
-     :r/t-done 42.0}
+     :r/t-done 42}
     {:r/nec 1258,
      :r/level-0 "2019",
      :r/d-scheduled 31,
@@ -7948,7 +7948,7 @@
      :r/t-scheduled 25.0,
      :r/k "espiral-01258",
      :r/total-passed 37.0,
-     :r/t-done 23.0}],
+     :r/t-done 23}],
    :imt-profile nil,
    :obs "license 1258 is 'Nova Malveira' in imt.pt",
    :overwrite/notes nil}]
@@ -7970,7 +7970,7 @@
      :r/k
      "carristur-inovacao-em-transportes-urbanos-e-regionais-sociedade-unipessoal-lda-01267",
      :r/total-passed 20.0,
-     :r/t-done 10.0}],
+     :r/t-done 10}],
    :imt-profile nil}]
  ["o-pelourinho-01268"
   {:nec 1268,
@@ -7988,7 +7988,7 @@
      :r/t-scheduled 91.0,
      :r/k "o-pelourinho-01268",
      :r/total-passed 97.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 1268,
      :r/level-0 "2016",
      :r/d-scheduled 197,
@@ -8002,7 +8002,7 @@
      :r/t-scheduled 153.0,
      :r/k "o-pelourinho-01268",
      :r/total-passed 223.0,
-     :r/t-done 149.0}
+     :r/t-done 149}
     {:r/nec 1268,
      :r/level-0 "2017",
      :r/d-scheduled 251,
@@ -8016,7 +8016,7 @@
      :r/t-scheduled 240.0,
      :r/k "o-pelourinho-01268",
      :r/total-passed 293.0,
-     :r/t-done 223.0}
+     :r/t-done 223}
     {:r/nec 1268,
      :r/level-0 "2018",
      :r/d-scheduled 231,
@@ -8030,7 +8030,7 @@
      :r/t-scheduled 292.0,
      :r/k "o-pelourinho-01268",
      :r/total-passed 273.0,
-     :r/t-done 255.0}
+     :r/t-done 255}
     {:r/nec 1268,
      :r/level-0 "2019",
      :r/d-scheduled 293,
@@ -8044,7 +8044,7 @@
      :r/t-scheduled 270.0,
      :r/k "o-pelourinho-01268",
      :r/total-passed 311.0,
-     :r/t-done 246.0}
+     :r/t-done 246}
     {:r/nec 1268,
      :r/level-0 "2020",
      :r/d-scheduled 275,
@@ -8058,7 +8058,7 @@
      :r/t-scheduled 247.0,
      :r/k "o-pelourinho-01268",
      :r/total-passed 309.0,
-     :r/t-done 212.0}
+     :r/t-done 212}
     {:r/nec 1268,
      :r/level-0 "2021",
      :r/d-scheduled 257,
@@ -8072,7 +8072,7 @@
      :r/t-scheduled 301.0,
      :r/k "o-pelourinho-01268",
      :r/total-passed nil,
-     :r/t-done 259.0}],
+     :r/t-done 259}],
    :imt-profile nil}]
  ["centro-sul-01269"
   {:nec 1269,
@@ -8090,7 +8090,7 @@
      :r/t-scheduled 121.0,
      :r/k "centro-sul-01269",
      :r/total-passed 156.0,
-     :r/t-done 118.0}
+     :r/t-done 118}
     {:r/nec 1269,
      :r/level-0 "2016",
      :r/d-scheduled 87,
@@ -8104,7 +8104,7 @@
      :r/t-scheduled 88.0,
      :r/k "centro-sul-01269",
      :r/total-passed 121.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 1269,
      :r/level-0 "2017",
      :r/d-scheduled 69,
@@ -8118,7 +8118,7 @@
      :r/t-scheduled 82.0,
      :r/k "centro-sul-01269",
      :r/total-passed 107.0,
-     :r/t-done 79.0}
+     :r/t-done 79}
     {:r/nec 1269,
      :r/level-0 "2018",
      :r/d-scheduled 149,
@@ -8132,7 +8132,7 @@
      :r/t-scheduled 191.0,
      :r/k "centro-sul-01269",
      :r/total-passed 252.0,
-     :r/t-done 184.0}
+     :r/t-done 184}
     {:r/nec 1269,
      :r/level-0 "2019",
      :r/d-scheduled 286,
@@ -8146,7 +8146,7 @@
      :r/t-scheduled 407.0,
      :r/k "centro-sul-01269",
      :r/total-passed 432.0,
-     :r/t-done 397.0}
+     :r/t-done 397}
     {:r/nec 1269,
      :r/level-0 "2020",
      :r/d-scheduled 411,
@@ -8160,7 +8160,7 @@
      :r/t-scheduled 436.0,
      :r/k "centro-sul-01269",
      :r/total-passed 479.0,
-     :r/t-done 402.0}
+     :r/t-done 402}
     {:r/nec 1269,
      :r/level-0 "2021",
      :r/d-scheduled 333,
@@ -8174,7 +8174,7 @@
      :r/t-scheduled 342.0,
      :r/k "centro-sul-01269",
      :r/total-passed nil,
-     :r/t-done 300.0}],
+     :r/t-done 300}],
    :imt-profile nil,
    :obs "license 1269 is 'Cova da Piedade' in imt.pt",
    :overwrite/notes nil}]
@@ -8194,7 +8194,7 @@
      :r/t-scheduled 232.0,
      :r/k "norte-01276",
      :r/total-passed 360.0,
-     :r/t-done 223.0}
+     :r/t-done 223}
     {:r/nec 1276,
      :r/level-0 "2016",
      :r/d-scheduled 198,
@@ -8208,7 +8208,7 @@
      :r/t-scheduled 176.0,
      :r/k "norte-01276",
      :r/total-passed 271.0,
-     :r/t-done 171.0}
+     :r/t-done 171}
     {:r/nec 1276,
      :r/level-0 "2017",
      :r/d-scheduled 138,
@@ -8222,7 +8222,7 @@
      :r/t-scheduled 171.0,
      :r/k "norte-01276",
      :r/total-passed 212.0,
-     :r/t-done 169.0}
+     :r/t-done 169}
     {:r/nec 1276,
      :r/level-0 "2018",
      :r/d-scheduled 187,
@@ -8236,7 +8236,7 @@
      :r/t-scheduled 163.0,
      :r/k "norte-01276",
      :r/total-passed 222.0,
-     :r/t-done 156.0}
+     :r/t-done 156}
     {:r/nec 1276,
      :r/level-0 "2019",
      :r/d-scheduled 138,
@@ -8250,7 +8250,7 @@
      :r/t-scheduled 193.0,
      :r/k "norte-01276",
      :r/total-passed 213.0,
-     :r/t-done 184.0}
+     :r/t-done 184}
     {:r/nec 1276,
      :r/level-0 "2020",
      :r/d-scheduled 134,
@@ -8264,7 +8264,7 @@
      :r/t-scheduled 160.0,
      :r/k "norte-01276",
      :r/total-passed 192.0,
-     :r/t-done 148.0}
+     :r/t-done 148}
     {:r/nec 1276,
      :r/level-0 "2021",
      :r/d-scheduled 116,
@@ -8278,7 +8278,7 @@
      :r/t-scheduled 167.0,
      :r/k "norte-01276",
      :r/total-passed nil,
-     :r/t-done 147.0}],
+     :r/t-done 147}],
    :imt-profile nil}]
  ["belqui-01281"
   {:nec 1281,
@@ -8296,7 +8296,7 @@
      :r/t-scheduled 110.0,
      :r/k "belqui-01281",
      :r/total-passed 181.0,
-     :r/t-done 109.0}
+     :r/t-done 109}
     {:r/nec 1281,
      :r/level-0 "2016",
      :r/d-scheduled 151,
@@ -8310,7 +8310,7 @@
      :r/t-scheduled 127.0,
      :r/k "belqui-01281",
      :r/total-passed 193.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 1281,
      :r/level-0 "2017",
      :r/d-scheduled 136,
@@ -8324,7 +8324,7 @@
      :r/t-scheduled 121.0,
      :r/k "belqui-01281",
      :r/total-passed 193.0,
-     :r/t-done 119.0}
+     :r/t-done 119}
     {:r/nec 1281,
      :r/level-0 "2018",
      :r/d-scheduled 137,
@@ -8338,7 +8338,7 @@
      :r/t-scheduled 106.0,
      :r/k "belqui-01281",
      :r/total-passed 171.0,
-     :r/t-done 106.0}
+     :r/t-done 106}
     {:r/nec 1281,
      :r/level-0 "2019",
      :r/d-scheduled 160,
@@ -8352,7 +8352,7 @@
      :r/t-scheduled 146.0,
      :r/k "belqui-01281",
      :r/total-passed 221.0,
-     :r/t-done 145.0}
+     :r/t-done 145}
     {:r/nec 1281,
      :r/level-0 "2020",
      :r/d-scheduled 146,
@@ -8366,7 +8366,7 @@
      :r/t-scheduled 108.0,
      :r/k "belqui-01281",
      :r/total-passed 185.0,
-     :r/t-done 102.0}
+     :r/t-done 102}
     {:r/nec 1281,
      :r/level-0 "2021",
      :r/d-scheduled 110,
@@ -8380,7 +8380,7 @@
      :r/t-scheduled 148.0,
      :r/k "belqui-01281",
      :r/total-passed nil,
-     :r/t-done 136.0}],
+     :r/t-done 136}],
    :imt-profile nil}]
  ["xperfeito-01288"
   {:nec 1288,
@@ -8398,7 +8398,7 @@
      :r/t-scheduled 249.0,
      :r/k "xperfeito-01288",
      :r/total-passed 362.0,
-     :r/t-done 244.0}
+     :r/t-done 244}
     {:r/nec 1288,
      :r/level-0 "2016",
      :r/d-scheduled 185,
@@ -8412,7 +8412,7 @@
      :r/t-scheduled 220.0,
      :r/k "xperfeito-01288",
      :r/total-passed 286.0,
-     :r/t-done 209.0}
+     :r/t-done 209}
     {:r/nec 1288,
      :r/level-0 "2017",
      :r/d-scheduled 204,
@@ -8426,7 +8426,7 @@
      :r/t-scheduled 214.0,
      :r/k "xperfeito-01288",
      :r/total-passed 281.0,
-     :r/t-done 202.0}
+     :r/t-done 202}
     {:r/nec 1288,
      :r/level-0 "2018",
      :r/d-scheduled 230,
@@ -8440,7 +8440,7 @@
      :r/t-scheduled 261.0,
      :r/k "xperfeito-01288",
      :r/total-passed 337.0,
-     :r/t-done 254.0}
+     :r/t-done 254}
     {:r/nec 1288,
      :r/level-0 "2019",
      :r/d-scheduled 316,
@@ -8454,7 +8454,7 @@
      :r/t-scheduled 318.0,
      :r/k "xperfeito-01288",
      :r/total-passed 438.0,
-     :r/t-done 301.0}
+     :r/t-done 301}
     {:r/nec 1288,
      :r/level-0 "2020",
      :r/d-scheduled 309,
@@ -8468,7 +8468,7 @@
      :r/t-scheduled 325.0,
      :r/k "xperfeito-01288",
      :r/total-passed 389.0,
-     :r/t-done 291.0}
+     :r/t-done 291}
     {:r/nec 1288,
      :r/level-0 "2021",
      :r/d-scheduled 270,
@@ -8482,7 +8482,7 @@
      :r/t-scheduled 351.0,
      :r/k "xperfeito-01288",
      :r/total-passed nil,
-     :r/t-done 327.0}],
+     :r/t-done 327}],
    :imt-profile nil}]
  ["conduza-mais-01290"
   {:nec 1290,
@@ -8500,7 +8500,7 @@
      :r/t-scheduled 97.0,
      :r/k "conduza-mais-01290",
      :r/total-passed 165.0,
-     :r/t-done 96.0}
+     :r/t-done 96}
     {:r/nec 1290,
      :r/level-0 "2016",
      :r/d-scheduled 130,
@@ -8514,7 +8514,7 @@
      :r/t-scheduled 96.0,
      :r/k "conduza-mais-01290",
      :r/total-passed 149.0,
-     :r/t-done 96.0}
+     :r/t-done 96}
     {:r/nec 1290,
      :r/level-0 "2017",
      :r/d-scheduled 132,
@@ -8528,7 +8528,7 @@
      :r/t-scheduled 118.0,
      :r/k "conduza-mais-01290",
      :r/total-passed 160.0,
-     :r/t-done 116.0}
+     :r/t-done 116}
     {:r/nec 1290,
      :r/level-0 "2018",
      :r/d-scheduled 165,
@@ -8542,7 +8542,7 @@
      :r/t-scheduled 113.0,
      :r/k "conduza-mais-01290",
      :r/total-passed 200.0,
-     :r/t-done 112.0}
+     :r/t-done 112}
     {:r/nec 1290,
      :r/level-0 "2019",
      :r/d-scheduled 168,
@@ -8556,7 +8556,7 @@
      :r/t-scheduled 116.0,
      :r/k "conduza-mais-01290",
      :r/total-passed 193.0,
-     :r/t-done 113.0}
+     :r/t-done 113}
     {:r/nec 1290,
      :r/level-0 "2020",
      :r/d-scheduled 153,
@@ -8570,7 +8570,7 @@
      :r/t-scheduled 144.0,
      :r/k "conduza-mais-01290",
      :r/total-passed 207.0,
-     :r/t-done 136.0}
+     :r/t-done 136}
     {:r/nec 1290,
      :r/level-0 "2021",
      :r/d-scheduled 177,
@@ -8584,7 +8584,7 @@
      :r/t-scheduled 127.0,
      :r/k "conduza-mais-01290",
      :r/total-passed nil,
-     :r/t-done 122.0}],
+     :r/t-done 122}],
    :imt-profile nil}]
  ["oitava-01291"
   {:nec 1291,
@@ -8602,7 +8602,7 @@
      :r/t-scheduled 126.0,
      :r/k "oitava-01291",
      :r/total-passed 143.0,
-     :r/t-done 125.0}
+     :r/t-done 125}
     {:r/nec 1291,
      :r/level-0 "2017",
      :r/d-scheduled 138,
@@ -8616,7 +8616,7 @@
      :r/t-scheduled 124.0,
      :r/k "oitava-01291",
      :r/total-passed 173.0,
-     :r/t-done 118.0}
+     :r/t-done 118}
     {:r/nec 1291,
      :r/level-0 "2018",
      :r/d-scheduled 120,
@@ -8630,7 +8630,7 @@
      :r/t-scheduled 156.0,
      :r/k "oitava-01291",
      :r/total-passed 189.0,
-     :r/t-done 154.0}
+     :r/t-done 154}
     {:r/nec 1291,
      :r/level-0 "2019",
      :r/d-scheduled 188,
@@ -8644,7 +8644,7 @@
      :r/t-scheduled 150.0,
      :r/k "oitava-01291",
      :r/total-passed 226.0,
-     :r/t-done 143.0}
+     :r/t-done 143}
     {:r/nec 1291,
      :r/level-0 "2020",
      :r/d-scheduled 147,
@@ -8658,7 +8658,7 @@
      :r/t-scheduled 167.0,
      :r/k "oitava-01291",
      :r/total-passed 207.0,
-     :r/t-done 159.0}
+     :r/t-done 159}
     {:r/nec 1291,
      :r/level-0 "2021",
      :r/d-scheduled 195,
@@ -8672,7 +8672,7 @@
      :r/t-scheduled 233.0,
      :r/k "oitava-01291",
      :r/total-passed nil,
-     :r/t-done 215.0}],
+     :r/t-done 215}],
    :imt-profile nil,
    :obs "license 1291 is 'Nova Caparica' in imt.pt",
    :overwrite/notes nil}]
@@ -8692,7 +8692,7 @@
      :r/t-scheduled 209.0,
      :r/k "brandoa-01300",
      :r/total-passed 246.0,
-     :r/t-done 200.0}
+     :r/t-done 200}
     {:r/nec 1300,
      :r/level-0 "2016",
      :r/d-scheduled 171,
@@ -8706,7 +8706,7 @@
      :r/t-scheduled 161.0,
      :r/k "brandoa-01300",
      :r/total-passed 214.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 1300,
      :r/level-0 "2017",
      :r/d-scheduled 142,
@@ -8720,7 +8720,7 @@
      :r/t-scheduled 163.0,
      :r/k "brandoa-01300",
      :r/total-passed 202.0,
-     :r/t-done 161.0}
+     :r/t-done 161}
     {:r/nec 1300,
      :r/level-0 "2018",
      :r/d-scheduled 152,
@@ -8734,7 +8734,7 @@
      :r/t-scheduled 142.0,
      :r/k "brandoa-01300",
      :r/total-passed 207.0,
-     :r/t-done 140.0}
+     :r/t-done 140}
     {:r/nec 1300,
      :r/level-0 "2019",
      :r/d-scheduled 2,
@@ -8748,7 +8748,7 @@
      :r/t-scheduled nil,
      :r/k "brandoa-01300",
      :r/total-passed 2.0,
-     :r/t-done 0.0}],
+     :r/t-done 0}],
    :imt-profile nil}]
  ["triplo-s-01301"
   {:nec 1301,
@@ -8766,7 +8766,7 @@
      :r/t-scheduled 57.0,
      :r/k "triplo-s-01301",
      :r/total-passed 73.0,
-     :r/t-done 55.0}
+     :r/t-done 55}
     {:r/nec 1301,
      :r/level-0 "2016",
      :r/d-scheduled 157,
@@ -8780,7 +8780,7 @@
      :r/t-scheduled 192.0,
      :r/k "triplo-s-01301",
      :r/total-passed 237.0,
-     :r/t-done 187.0}
+     :r/t-done 187}
     {:r/nec 1301,
      :r/level-0 "2017",
      :r/d-scheduled 267,
@@ -8794,7 +8794,7 @@
      :r/t-scheduled 223.0,
      :r/k "triplo-s-01301",
      :r/total-passed 291.0,
-     :r/t-done 217.0}
+     :r/t-done 217}
     {:r/nec 1301,
      :r/level-0 "2018",
      :r/d-scheduled 287,
@@ -8808,7 +8808,7 @@
      :r/t-scheduled 200.0,
      :r/k "triplo-s-01301",
      :r/total-passed 274.0,
-     :r/t-done 197.0}
+     :r/t-done 197}
     {:r/nec 1301,
      :r/level-0 "2019",
      :r/d-scheduled 202,
@@ -8822,7 +8822,7 @@
      :r/t-scheduled 180.0,
      :r/k "triplo-s-01301",
      :r/total-passed 230.0,
-     :r/t-done 176.0}
+     :r/t-done 176}
     {:r/nec 1301,
      :r/level-0 "2020",
      :r/d-scheduled 167,
@@ -8836,7 +8836,7 @@
      :r/t-scheduled 162.0,
      :r/k "triplo-s-01301",
      :r/total-passed 200.0,
-     :r/t-done 148.0}
+     :r/t-done 148}
     {:r/nec 1301,
      :r/level-0 "2021",
      :r/d-scheduled 200,
@@ -8850,7 +8850,7 @@
      :r/t-scheduled 193.0,
      :r/k "triplo-s-01301",
      :r/total-passed nil,
-     :r/t-done 165.0}],
+     :r/t-done 165}],
    :imt-profile nil,
    :obs "license 1301 is 'Alto Nível' in imt.pt",
    :overwrite/notes nil}]
@@ -8870,7 +8870,7 @@
      :r/t-scheduled 49.0,
      :r/k "barrosas-01316",
      :r/total-passed 73.0,
-     :r/t-done 49.0}
+     :r/t-done 49}
     {:r/nec 1316,
      :r/level-0 "2016",
      :r/d-scheduled 76,
@@ -8884,7 +8884,7 @@
      :r/t-scheduled 61.0,
      :r/k "barrosas-01316",
      :r/total-passed 82.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 1316,
      :r/level-0 "2017",
      :r/d-scheduled 79,
@@ -8898,7 +8898,7 @@
      :r/t-scheduled 39.0,
      :r/k "barrosas-01316",
      :r/total-passed 77.0,
-     :r/t-done 39.0}
+     :r/t-done 39}
     {:r/nec 1316,
      :r/level-0 "2018",
      :r/d-scheduled 22,
@@ -8912,7 +8912,7 @@
      :r/t-scheduled 21.0,
      :r/k "barrosas-01316",
      :r/total-passed 28.0,
-     :r/t-done 21.0}
+     :r/t-done 21}
     {:r/nec 1316,
      :r/level-0 "2019",
      :r/d-scheduled 3,
@@ -8926,7 +8926,7 @@
      :r/t-scheduled 16.0,
      :r/k "barrosas-01316",
      :r/total-passed 12.0,
-     :r/t-done 16.0}
+     :r/t-done 16}
     {:r/nec 1316,
      :r/level-0 "2020",
      :r/d-scheduled 92,
@@ -8940,7 +8940,7 @@
      :r/t-scheduled 66.0,
      :r/k "barrosas-01316",
      :r/total-passed 79.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 1316,
      :r/level-0 "2021",
      :r/d-scheduled 82,
@@ -8954,7 +8954,7 @@
      :r/t-scheduled 38.0,
      :r/k "barrosas-01316",
      :r/total-passed nil,
-     :r/t-done 34.0}],
+     :r/t-done 34}],
    :imt-profile nil,
    :obs "license 1316 is 'José Luís Cunha' in imt.pt",
    :overwrite/notes nil}]
@@ -8974,7 +8974,7 @@
      :r/t-scheduled 64.0,
      :r/k "siiimplelegre-01326",
      :r/total-passed 73.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 1326,
      :r/level-0 "2016",
      :r/d-scheduled 84,
@@ -8988,7 +8988,7 @@
      :r/t-scheduled 101.0,
      :r/k "siiimplelegre-01326",
      :r/total-passed 119.0,
-     :r/t-done 100.0}
+     :r/t-done 100}
     {:r/nec 1326,
      :r/level-0 "2017",
      :r/d-scheduled 113,
@@ -9002,7 +9002,7 @@
      :r/t-scheduled 114.0,
      :r/k "siiimplelegre-01326",
      :r/total-passed 151.0,
-     :r/t-done 110.0}
+     :r/t-done 110}
     {:r/nec 1326,
      :r/level-0 "2018",
      :r/d-scheduled 108,
@@ -9016,7 +9016,7 @@
      :r/t-scheduled 95.0,
      :r/k "siiimplelegre-01326",
      :r/total-passed 124.0,
-     :r/t-done 86.0}
+     :r/t-done 86}
     {:r/nec 1326,
      :r/level-0 "2019",
      :r/d-scheduled 53,
@@ -9030,7 +9030,7 @@
      :r/t-scheduled 44.0,
      :r/k "siiimplelegre-01326",
      :r/total-passed 54.0,
-     :r/t-done 41.0}
+     :r/t-done 41}
     {:r/nec 1326,
      :r/level-0 "2020",
      :r/d-scheduled 15,
@@ -9044,7 +9044,7 @@
      :r/t-scheduled 18.0,
      :r/k "siiimplelegre-01326",
      :r/total-passed 16.0,
-     :r/t-done 16.0}
+     :r/t-done 16}
     {:r/nec 1326,
      :r/level-0 "2021",
      :r/d-scheduled 5,
@@ -9058,7 +9058,7 @@
      :r/t-scheduled 0.0,
      :r/k "siiimplelegre-01326",
      :r/total-passed nil,
-     :r/t-done 0.0}],
+     :r/t-done 0}],
    :imt-profile nil}]
  ["nova-marinha-01345"
   {:nec 1345,
@@ -9076,7 +9076,7 @@
      :r/t-scheduled 26.0,
      :r/k "nova-marinha-01345",
      :r/total-passed 29.0,
-     :r/t-done 26.0}
+     :r/t-done 26}
     {:r/nec 1345,
      :r/level-0 "2017",
      :r/d-scheduled 23,
@@ -9090,7 +9090,7 @@
      :r/t-scheduled 31.0,
      :r/k "nova-marinha-01345",
      :r/total-passed 40.0,
-     :r/t-done 30.0}],
+     :r/t-done 30}],
    :imt-profile nil}]
  ["nova-mira-01349"
   {:nec 1349,
@@ -9108,7 +9108,7 @@
      :r/t-scheduled 20.0,
      :r/k "nova-mira-01349",
      :r/total-passed 15.0,
-     :r/t-done 20.0}
+     :r/t-done 20}
     {:r/nec 1349,
      :r/level-0 "2017",
      :r/d-scheduled 71,
@@ -9122,7 +9122,7 @@
      :r/t-scheduled 63.0,
      :r/k "nova-mira-01349",
      :r/total-passed 83.0,
-     :r/t-done 60.0}
+     :r/t-done 60}
     {:r/nec 1349,
      :r/level-0 "2018",
      :r/d-scheduled 1,
@@ -9136,7 +9136,7 @@
      :r/t-scheduled 141.0,
      :r/k "nova-mira-01349",
      :r/total-passed 86.0,
-     :r/t-done 139.0}],
+     :r/t-done 139}],
    :imt-profile nil,
    :obs "prob. same as nova-de-tomar-01349. data until 2018",
    :overwrite/notes nil}]
@@ -9156,7 +9156,7 @@
      :r/t-scheduled 16.0,
      :r/k "balasar-01354",
      :r/total-passed 19.0,
-     :r/t-done 16.0}
+     :r/t-done 16}
     {:r/nec 1354,
      :r/level-0 "2017",
      :r/d-scheduled 55,
@@ -9170,7 +9170,7 @@
      :r/t-scheduled 51.0,
      :r/k "balasar-01354",
      :r/total-passed 73.0,
-     :r/t-done 50.0}
+     :r/t-done 50}
     {:r/nec 1354,
      :r/level-0 "2018",
      :r/d-scheduled 19,
@@ -9184,7 +9184,7 @@
      :r/t-scheduled 40.0,
      :r/k "balasar-01354",
      :r/total-passed 44.0,
-     :r/t-done 39.0}
+     :r/t-done 39}
     {:r/nec 1354,
      :r/level-0 "2019",
      :r/d-scheduled 76,
@@ -9198,7 +9198,7 @@
      :r/t-scheduled 43.0,
      :r/k "balasar-01354",
      :r/total-passed 95.0,
-     :r/t-done 41.0}
+     :r/t-done 41}
     {:r/nec 1354,
      :r/level-0 "2020",
      :r/d-scheduled 13,
@@ -9212,7 +9212,7 @@
      :r/t-scheduled 7.0,
      :r/k "balasar-01354",
      :r/total-passed 12.0,
-     :r/t-done 7.0}
+     :r/t-done 7}
     {:r/nec 1354,
      :r/level-0 "2021",
      :r/d-scheduled 3,
@@ -9226,7 +9226,7 @@
      :r/t-scheduled 0.0,
      :r/k "balasar-01354",
      :r/total-passed nil,
-     :r/t-done 0.0}],
+     :r/t-done 0}],
    :imt-profile nil}]
  ["5-sentidos-01372"
   {:nec 1372,
@@ -9244,7 +9244,7 @@
      :r/t-scheduled 0.0,
      :r/k "5-sentidos-01372",
      :r/total-passed 0.0,
-     :r/t-done 0.0}
+     :r/t-done 0}
     {:r/nec 1372,
      :r/level-0 "2017",
      :r/d-scheduled 104,
@@ -9258,7 +9258,7 @@
      :r/t-scheduled 129.0,
      :r/k "5-sentidos-01372",
      :r/total-passed 142.0,
-     :r/t-done 128.0}
+     :r/t-done 128}
     {:r/nec 1372,
      :r/level-0 "2018",
      :r/d-scheduled 206,
@@ -9272,7 +9272,7 @@
      :r/t-scheduled 187.0,
      :r/k "5-sentidos-01372",
      :r/total-passed 247.0,
-     :r/t-done 186.0}
+     :r/t-done 186}
     {:r/nec 1372,
      :r/level-0 "2019",
      :r/d-scheduled 216,
@@ -9286,7 +9286,7 @@
      :r/t-scheduled 220.0,
      :r/k "5-sentidos-01372",
      :r/total-passed 262.0,
-     :r/t-done 209.0}
+     :r/t-done 209}
     {:r/nec 1372,
      :r/level-0 "2020",
      :r/d-scheduled 188,
@@ -9300,7 +9300,7 @@
      :r/t-scheduled 171.0,
      :r/k "5-sentidos-01372",
      :r/total-passed 212.0,
-     :r/t-done 158.0}
+     :r/t-done 158}
     {:r/nec 1372,
      :r/level-0 "2021",
      :r/d-scheduled 186,
@@ -9314,7 +9314,7 @@
      :r/t-scheduled 158.0,
      :r/k "5-sentidos-01372",
      :r/total-passed nil,
-     :r/t-done 153.0}],
+     :r/t-done 153}],
    :imt-profile nil}]
  ["boa-onda-01373"
   {:nec 1373,
@@ -9332,7 +9332,7 @@
      :r/t-scheduled 18.0,
      :r/k "boa-onda-01373",
      :r/total-passed 30.0,
-     :r/t-done 18.0}
+     :r/t-done 18}
     {:r/nec 1373,
      :r/level-0 "2018",
      :r/d-scheduled 65,
@@ -9346,7 +9346,7 @@
      :r/t-scheduled 64.0,
      :r/k "boa-onda-01373",
      :r/total-passed 82.0,
-     :r/t-done 64.0}
+     :r/t-done 64}
     {:r/nec 1373,
      :r/level-0 "2019",
      :r/d-scheduled 85,
@@ -9360,7 +9360,7 @@
      :r/t-scheduled 70.0,
      :r/k "boa-onda-01373",
      :r/total-passed 107.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 1373,
      :r/level-0 "2020",
      :r/d-scheduled 82,
@@ -9374,7 +9374,7 @@
      :r/t-scheduled 81.0,
      :r/k "boa-onda-01373",
      :r/total-passed 103.0,
-     :r/t-done 74.0}
+     :r/t-done 74}
     {:r/nec 1373,
      :r/level-0 "2021",
      :r/d-scheduled 101,
@@ -9388,7 +9388,7 @@
      :r/t-scheduled 90.0,
      :r/k "boa-onda-01373",
      :r/total-passed nil,
-     :r/t-done 84.0}],
+     :r/t-done 84}],
    :imt-profile nil}]
  ["arca-dagua-01399"
   {:nec 1399,
@@ -9406,7 +9406,7 @@
      :r/t-scheduled 1.0,
      :r/k "arca-dagua-01399",
      :r/total-passed 1.0,
-     :r/t-done 1.0}
+     :r/t-done 1}
     {:r/nec 1399,
      :r/level-0 "2018",
      :r/d-scheduled 65,
@@ -9420,7 +9420,7 @@
      :r/t-scheduled 78.0,
      :r/k "arca-dagua-01399",
      :r/total-passed 114.0,
-     :r/t-done 77.0}
+     :r/t-done 77}
     {:r/nec 1399,
      :r/level-0 "2019",
      :r/d-scheduled 168,
@@ -9434,7 +9434,7 @@
      :r/t-scheduled 160.0,
      :r/k "arca-dagua-01399",
      :r/total-passed 223.0,
-     :r/t-done 154.0}
+     :r/t-done 154}
     {:r/nec 1399,
      :r/level-0 "2020",
      :r/d-scheduled 189,
@@ -9448,7 +9448,7 @@
      :r/t-scheduled 148.0,
      :r/k "arca-dagua-01399",
      :r/total-passed 195.0,
-     :r/t-done 122.0}],
+     :r/t-done 122}],
    :imt-profile nil,
    :obs "license 1399 is 'Nova do Porto' in imt.pt",
    :overwrite/notes nil}]
@@ -9468,7 +9468,7 @@
      :r/t-scheduled 6.0,
      :r/k "nova-caldense-01418",
      :r/total-passed 10.0,
-     :r/t-done 6.0}
+     :r/t-done 6}
     {:r/nec 1418,
      :r/level-0 "2020",
      :r/d-scheduled 2,
@@ -9482,7 +9482,7 @@
      :r/t-scheduled 4.0,
      :r/k "nova-caldense-01418",
      :r/total-passed 4.0,
-     :r/t-done 3.0}],
+     :r/t-done 3}],
    :imt-profile nil,
    :obs "license 1418 is 'Motoschool' in imt.pt",
    :overwrite/notes nil}]
@@ -9502,7 +9502,7 @@
      :r/t-scheduled 17.0,
      :r/k "road-safety-01421",
      :r/total-passed 24.0,
-     :r/t-done 17.0}
+     :r/t-done 17}
     {:r/nec 1421,
      :r/level-0 "2019",
      :r/d-scheduled 135,
@@ -9516,7 +9516,7 @@
      :r/t-scheduled 152.0,
      :r/k "road-safety-01421",
      :r/total-passed 180.0,
-     :r/t-done 145.0}
+     :r/t-done 145}
     {:r/nec 1421,
      :r/level-0 "2020",
      :r/d-scheduled 140,
@@ -9530,7 +9530,7 @@
      :r/t-scheduled 203.0,
      :r/k "road-safety-01421",
      :r/total-passed 224.0,
-     :r/t-done 175.0}
+     :r/t-done 175}
     {:r/nec 1421,
      :r/level-0 "2021",
      :r/d-scheduled 189,
@@ -9544,7 +9544,7 @@
      :r/t-scheduled 282.0,
      :r/k "road-safety-01421",
      :r/total-passed nil,
-     :r/t-done 225.0}],
+     :r/t-done 225}],
    :imt-profile nil}]
  ["sao-jose-01422"
   {:nec 1422,
@@ -9562,7 +9562,7 @@
      :r/t-scheduled 9.0,
      :r/k "sao-jose-01422",
      :r/total-passed 11.0,
-     :r/t-done 9.0}
+     :r/t-done 9}
     {:r/nec 1422,
      :r/level-0 "2019",
      :r/d-scheduled 53,
@@ -9576,7 +9576,7 @@
      :r/t-scheduled 111.0,
      :r/k "sao-jose-01422",
      :r/total-passed 108.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 1422,
      :r/level-0 "2020",
      :r/d-scheduled 84,
@@ -9590,7 +9590,7 @@
      :r/t-scheduled 149.0,
      :r/k "sao-jose-01422",
      :r/total-passed 143.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 1422,
      :r/level-0 "2021",
      :r/d-scheduled 149,
@@ -9604,7 +9604,7 @@
      :r/t-scheduled 114.0,
      :r/k "sao-jose-01422",
      :r/total-passed nil,
-     :r/t-done 100.0}],
+     :r/t-done 100}],
    :imt-profile nil}]
  ["gondomar-douro-01425"
   {:nec 1425,
@@ -9622,7 +9622,7 @@
      :r/t-scheduled 0.0,
      :r/k "gondomar-douro-01425",
      :r/total-passed 0.0,
-     :r/t-done 0.0}
+     :r/t-done 0}
     {:r/nec 1425,
      :r/level-0 "2019",
      :r/d-scheduled 34,
@@ -9636,7 +9636,7 @@
      :r/t-scheduled 37.0,
      :r/k "gondomar-douro-01425",
      :r/total-passed 56.0,
-     :r/t-done 36.0}
+     :r/t-done 36}
     {:r/nec 1425,
      :r/level-0 "2020",
      :r/d-scheduled 41,
@@ -9650,7 +9650,7 @@
      :r/t-scheduled 52.0,
      :r/k "gondomar-douro-01425",
      :r/total-passed 71.0,
-     :r/t-done 52.0}
+     :r/t-done 52}
     {:r/nec 1425,
      :r/level-0 "2021",
      :r/d-scheduled 93,
@@ -9664,7 +9664,7 @@
      :r/t-scheduled 65.0,
      :r/k "gondomar-douro-01425",
      :r/total-passed nil,
-     :r/t-done 64.0}],
+     :r/t-done 64}],
    :imt-profile nil}]
  ["via-pratica-01427"
   {:nec 1427,
@@ -9682,7 +9682,7 @@
      :r/t-scheduled 79.0,
      :r/k "via-pratica-01427",
      :r/total-passed 104.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 1427,
      :r/level-0 "2020",
      :r/d-scheduled 116,
@@ -9696,7 +9696,7 @@
      :r/t-scheduled 96.0,
      :r/k "via-pratica-01427",
      :r/total-passed 126.0,
-     :r/t-done 84.0}
+     :r/t-done 84}
     {:r/nec 1427,
      :r/level-0 "2021",
      :r/d-scheduled 155,
@@ -9710,7 +9710,7 @@
      :r/t-scheduled 105.0,
      :r/k "via-pratica-01427",
      :r/total-passed nil,
-     :r/t-done 103.0}],
+     :r/t-done 103}],
    :imt-profile nil}]
  ["nisense-01430"
   {:nec 1430,
@@ -9728,7 +9728,7 @@
      :r/t-scheduled 20.0,
      :r/k "nisense-01430",
      :r/total-passed 23.0,
-     :r/t-done 20.0}
+     :r/t-done 20}
     {:r/nec 1430,
      :r/level-0 "2020",
      :r/d-scheduled 17,
@@ -9742,7 +9742,7 @@
      :r/t-scheduled 23.0,
      :r/k "nisense-01430",
      :r/total-passed 35.0,
-     :r/t-done 23.0}
+     :r/t-done 23}
     {:r/nec 1430,
      :r/level-0 "2021",
      :r/d-scheduled 18,
@@ -9756,7 +9756,7 @@
      :r/t-scheduled 36.0,
      :r/k "nisense-01430",
      :r/total-passed nil,
-     :r/t-done 32.0}],
+     :r/t-done 32}],
    :imt-profile nil}]
  ["serra-ativa-01431"
   {:nec 1431,
@@ -9774,7 +9774,7 @@
      :r/t-scheduled 28.0,
      :r/k "serra-ativa-01431",
      :r/total-passed 37.0,
-     :r/t-done 28.0}
+     :r/t-done 28}
     {:r/nec 1431,
      :r/level-0 "2020",
      :r/d-scheduled 43,
@@ -9788,7 +9788,7 @@
      :r/t-scheduled 78.0,
      :r/k "serra-ativa-01431",
      :r/total-passed 84.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 1431,
      :r/level-0 "2021",
      :r/d-scheduled 100,
@@ -9802,7 +9802,7 @@
      :r/t-scheduled 163.0,
      :r/k "serra-ativa-01431",
      :r/total-passed nil,
-     :r/t-done 150.0}],
+     :r/t-done 150}],
    :imt-profile nil}]
  ["bom-condutor-01432"
   {:nec 1432,
@@ -9820,7 +9820,7 @@
      :r/t-scheduled 90.0,
      :r/k "bom-condutor-01432",
      :r/total-passed 92.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 1432,
      :r/level-0 "2020",
      :r/d-scheduled 157,
@@ -9834,7 +9834,7 @@
      :r/t-scheduled 183.0,
      :r/k "bom-condutor-01432",
      :r/total-passed 178.0,
-     :r/t-done 166.0}
+     :r/t-done 166}
     {:r/nec 1432,
      :r/level-0 "2021",
      :r/d-scheduled 242,
@@ -9848,7 +9848,7 @@
      :r/t-scheduled 303.0,
      :r/k "bom-condutor-01432",
      :r/total-passed nil,
-     :r/t-done 250.0}],
+     :r/t-done 250}],
    :imt-profile nil}]
  ["alta-de-oliveira-01437"
   {:nec 1437,
@@ -9866,7 +9866,7 @@
      :r/t-scheduled 4.0,
      :r/k "alta-de-oliveira-01437",
      :r/total-passed 2.0,
-     :r/t-done 4.0}
+     :r/t-done 4}
     {:r/nec 1437,
      :r/level-0 "2020",
      :r/d-scheduled 7,
@@ -9880,7 +9880,7 @@
      :r/t-scheduled 28.0,
      :r/k "alta-de-oliveira-01437",
      :r/total-passed 27.0,
-     :r/t-done 28.0}
+     :r/t-done 28}
     {:r/nec 1437,
      :r/level-0 "2021",
      :r/d-scheduled 18,
@@ -9894,7 +9894,7 @@
      :r/t-scheduled 1.0,
      :r/k "alta-de-oliveira-01437",
      :r/total-passed nil,
-     :r/t-done 1.0}],
+     :r/t-done 1}],
    :imt-profile nil}]
  ["veiculos-01443"
   {:nec 1443,
@@ -9912,7 +9912,7 @@
      :r/t-scheduled 86.0,
      :r/k "veiculos-01443",
      :r/total-passed nil,
-     :r/t-done 73.0}],
+     :r/t-done 73}],
    :imt-profile nil,
    :obs "license 1443 is 'Volante Dourado' in imt.pt",
    :overwrite/notes nil}]
@@ -9932,7 +9932,7 @@
      :r/t-scheduled 28.0,
      :r/k "nossa-senhora-da-conceicao-01445",
      :r/total-passed 18.0,
-     :r/t-done 26.0}
+     :r/t-done 26}
     {:r/nec 1445,
      :r/level-0 "2021",
      :r/d-scheduled 58,
@@ -9946,7 +9946,7 @@
      :r/t-scheduled 115.0,
      :r/k "nossa-senhora-da-conceicao-01445",
      :r/total-passed nil,
-     :r/t-done 107.0}],
+     :r/t-done 107}],
    :imt-profile nil}]
  ["six-01446"
   {:nec 1446,
@@ -9964,7 +9964,7 @@
      :r/t-scheduled 8.0,
      :r/k "six-01446",
      :r/total-passed 7.0,
-     :r/t-done 8.0}
+     :r/t-done 8}
     {:r/nec 1446,
      :r/level-0 "2021",
      :r/d-scheduled 36,
@@ -9978,7 +9978,7 @@
      :r/t-scheduled 17.0,
      :r/k "six-01446",
      :r/total-passed nil,
-     :r/t-done 16.0}],
+     :r/t-done 16}],
    :imt-profile nil}]
  ["alta-top-01447"
   {:nec 1447,
@@ -9996,7 +9996,7 @@
      :r/t-scheduled 18.0,
      :r/k "alta-top-01447",
      :r/total-passed nil,
-     :r/t-done 17.0}],
+     :r/t-done 17}],
    :imt-profile nil}]
  ["drive-in-agueda-01449"
   {:nec 1449,
@@ -10014,7 +10014,7 @@
      :r/t-scheduled 109.0,
      :r/k "drive-in-agueda-01449",
      :r/total-passed nil,
-     :r/t-done 107.0}],
+     :r/t-done 107}],
    :imt-profile nil}]
  ["sinal-verde-01456"
   {:nec 1456,
@@ -10032,7 +10032,7 @@
      :r/t-scheduled 5.0,
      :r/k "sinal-verde-01456",
      :r/total-passed nil,
-     :r/t-done 2.0}],
+     :r/t-done 2}],
    :imt-profile nil}]
  ["autopropostos-apec-03004"
   {:nec 3004,
@@ -10050,7 +10050,7 @@
      :r/t-scheduled 14.0,
      :r/k "autopropostos-apec-03004",
      :r/total-passed 11.0,
-     :r/t-done 12.0}],
+     :r/t-done 12}],
    :imt-profile nil}]
  ["regimento-de-sapadores-bombeiros-de-lisboa-03006"
   {:nec 3006,
@@ -10069,7 +10069,7 @@
      :r/t-scheduled 0.0,
      :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
      :r/total-passed 0.0,
-     :r/t-done 0.0}
+     :r/t-done 0}
     {:r/nec 3006,
      :r/level-0 "2016",
      :r/d-scheduled 4,
@@ -10084,7 +10084,7 @@
      :r/t-scheduled 10.0,
      :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
      :r/total-passed 13.0,
-     :r/t-done 10.0}
+     :r/t-done 10}
     {:r/nec 3006,
      :r/level-0 "2017",
      :r/d-scheduled 5,
@@ -10099,7 +10099,7 @@
      :r/t-scheduled 1.0,
      :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
      :r/total-passed 5.0,
-     :r/t-done 1.0}
+     :r/t-done 1}
     {:r/nec 3006,
      :r/level-0 "2018",
      :r/d-scheduled 21,
@@ -10114,7 +10114,7 @@
      :r/t-scheduled 27.0,
      :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
      :r/total-passed 45.0,
-     :r/t-done 25.0}
+     :r/t-done 25}
     {:r/nec 3006,
      :r/level-0 "2019",
      :r/d-scheduled 15,
@@ -10129,5 +10129,5 @@
      :r/t-scheduled 4.0,
      :r/k "regimento-de-sapadores-bombeiros-de-lisboa-03006",
      :r/total-passed 18.0,
-     :r/t-done 4.0}],
+     :r/t-done 4}],
    :imt-profile nil}])

@@ -14,7 +14,7 @@
      :r/t-scheduled 100.0,
      :r/k "a-vianense-00086",
      :r/total-passed 150.0,
-     :r/t-done 100.0}
+     :r/t-done 100}
     {:r/nec 86,
      :r/level-0 "2016",
      :r/d-scheduled 120,
@@ -28,7 +28,7 @@
      :r/t-scheduled 149.0,
      :r/k "a-vianense-00086",
      :r/total-passed 189.0,
-     :r/t-done 143.0}
+     :r/t-done 143}
     {:r/nec 86,
      :r/level-0 "2017",
      :r/d-scheduled 173,
@@ -42,7 +42,7 @@
      :r/t-scheduled 163.0,
      :r/k "a-vianense-00086",
      :r/total-passed 271.0,
-     :r/t-done 160.0}
+     :r/t-done 160}
     {:r/nec 86,
      :r/level-0 "2018",
      :r/d-scheduled 224,
@@ -56,7 +56,7 @@
      :r/t-scheduled 197.0,
      :r/k "a-vianense-00086",
      :r/total-passed 325.0,
-     :r/t-done 194.0}
+     :r/t-done 194}
     {:r/nec 86,
      :r/level-0 "2019",
      :r/d-scheduled 210,
@@ -70,7 +70,7 @@
      :r/t-scheduled 186.0,
      :r/k "a-vianense-00086",
      :r/total-passed 317.0,
-     :r/t-done 181.0}
+     :r/t-done 181}
     {:r/nec 86,
      :r/level-0 "2020",
      :r/d-scheduled 166,
@@ -84,7 +84,7 @@
      :r/t-scheduled 179.0,
      :r/k "a-vianense-00086",
      :r/total-passed 252.0,
-     :r/t-done 169.0}
+     :r/t-done 169}
     {:r/nec 86,
      :r/level-0 "2021",
      :r/d-scheduled 196,
@@ -98,7 +98,7 @@
      :r/t-scheduled 242.0,
      :r/k "a-vianense-00086",
      :r/total-passed nil,
-     :r/t-done 220.0}],
+     :r/t-done 220}],
    :imt-profile
    {:address
     "Rua Candido dos Reis, Nº 59 4900-532 VIANA DO CASTELO(MONSERRATE)",
@@ -141,7 +141,7 @@
      :r/t-scheduled 129.0,
      :r/k "sonia-00486",
      :r/total-passed 186.0,
-     :r/t-done 128.0}
+     :r/t-done 128}
     {:r/nec 486,
      :r/level-0 "2016",
      :r/d-scheduled 130,
@@ -155,7 +155,7 @@
      :r/t-scheduled 147.0,
      :r/k "sonia-00486",
      :r/total-passed 213.0,
-     :r/t-done 147.0}
+     :r/t-done 147}
     {:r/nec 486,
      :r/level-0 "2017",
      :r/d-scheduled 86,
@@ -169,7 +169,7 @@
      :r/t-scheduled 101.0,
      :r/k "sonia-00486",
      :r/total-passed 136.0,
-     :r/t-done 98.0}
+     :r/t-done 98}
     {:r/nec 486,
      :r/level-0 "2018",
      :r/d-scheduled 79,
@@ -183,7 +183,7 @@
      :r/t-scheduled 111.0,
      :r/k "sonia-00486",
      :r/total-passed 140.0,
-     :r/t-done 109.0}
+     :r/t-done 109}
     {:r/nec 486,
      :r/level-0 "2019",
      :r/d-scheduled 119,
@@ -197,7 +197,7 @@
      :r/t-scheduled 134.0,
      :r/k "sonia-00486",
      :r/total-passed 183.0,
-     :r/t-done 128.0}
+     :r/t-done 128}
     {:r/nec 486,
      :r/level-0 "2020",
      :r/d-scheduled 66,
@@ -211,7 +211,7 @@
      :r/t-scheduled 137.0,
      :r/k "sonia-00486",
      :r/total-passed 136.0,
-     :r/t-done 115.0}
+     :r/t-done 115}
     {:r/nec 486,
      :r/level-0 "2021",
      :r/d-scheduled 95,
@@ -225,7 +225,7 @@
      :r/t-scheduled 205.0,
      :r/k "sonia-00486",
      :r/total-passed nil,
-     :r/t-done 147.0}],
+     :r/t-done 147}],
    :imt-profile
    {:address
     "Largo João Tomás da Costa, 12 - 1º 4900-509 VIANA DO CASTELO (Stª Mª Maior)",
@@ -269,7 +269,7 @@
      :r/t-scheduled 397.0,
      :r/k "santa-luzia-00516",
      :r/total-passed 735.0,
-     :r/t-done 392.0}
+     :r/t-done 392}
     {:r/nec 516,
      :r/level-0 "2016",
      :r/d-scheduled 454,
@@ -283,7 +283,7 @@
      :r/t-scheduled 373.0,
      :r/k "santa-luzia-00516",
      :r/total-passed 644.0,
-     :r/t-done 367.0}
+     :r/t-done 367}
     {:r/nec 516,
      :r/level-0 "2017",
      :r/d-scheduled 403,
@@ -297,7 +297,7 @@
      :r/t-scheduled 369.0,
      :r/k "santa-luzia-00516",
      :r/total-passed 631.0,
-     :r/t-done 358.0}
+     :r/t-done 358}
     {:r/nec 516,
      :r/level-0 "2018",
      :r/d-scheduled 457,
@@ -311,7 +311,7 @@
      :r/t-scheduled 439.0,
      :r/k "santa-luzia-00516",
      :r/total-passed 739.0,
-     :r/t-done 430.0}
+     :r/t-done 430}
     {:r/nec 516,
      :r/level-0 "2019",
      :r/d-scheduled 451,
@@ -325,7 +325,7 @@
      :r/t-scheduled 462.0,
      :r/k "santa-luzia-00516",
      :r/total-passed 751.0,
-     :r/t-done 444.0}
+     :r/t-done 444}
     {:r/nec 516,
      :r/level-0 "2020",
      :r/d-scheduled 368,
@@ -339,7 +339,7 @@
      :r/t-scheduled 407.0,
      :r/k "santa-luzia-00516",
      :r/total-passed 605.0,
-     :r/t-done 379.0}
+     :r/t-done 379}
     {:r/nec 516,
      :r/level-0 "2021",
      :r/d-scheduled 427,
@@ -353,7 +353,7 @@
      :r/t-scheduled 663.0,
      :r/k "santa-luzia-00516",
      :r/total-passed nil,
-     :r/t-done 579.0}],
+     :r/t-done 579}],
    :imt-profile
    {:address
     "Rua de Aveiro, 61 –1º Esqº 4900 -495 VIANA DO CASTELO (Stª Mª Maior)",
@@ -396,7 +396,7 @@
      :r/t-scheduled 130.0,
      :r/k "torre-00671",
      :r/total-passed 176.0,
-     :r/t-done 126.0}
+     :r/t-done 126}
     {:r/nec 671,
      :r/level-0 "2016",
      :r/d-scheduled 143,
@@ -410,7 +410,7 @@
      :r/t-scheduled 127.0,
      :r/k "torre-00671",
      :r/total-passed 197.0,
-     :r/t-done 124.0}
+     :r/t-done 124}
     {:r/nec 671,
      :r/level-0 "2017",
      :r/d-scheduled 98,
@@ -424,7 +424,7 @@
      :r/t-scheduled 118.0,
      :r/k "torre-00671",
      :r/total-passed 161.0,
-     :r/t-done 114.0}
+     :r/t-done 114}
     {:r/nec 671,
      :r/level-0 "2018",
      :r/d-scheduled 79,
@@ -438,7 +438,7 @@
      :r/t-scheduled 115.0,
      :r/k "torre-00671",
      :r/total-passed 127.0,
-     :r/t-done 111.0}
+     :r/t-done 111}
     {:r/nec 671,
      :r/level-0 "2019",
      :r/d-scheduled 63,
@@ -452,7 +452,7 @@
      :r/t-scheduled 68.0,
      :r/k "torre-00671",
      :r/total-passed 96.0,
-     :r/t-done 64.0}
+     :r/t-done 64}
     {:r/nec 671,
      :r/level-0 "2020",
      :r/d-scheduled 39,
@@ -466,7 +466,7 @@
      :r/t-scheduled 28.0,
      :r/k "torre-00671",
      :r/total-passed 51.0,
-     :r/t-done 25.0}
+     :r/t-done 25}
     {:r/nec 671,
      :r/level-0 "2021",
      :r/d-scheduled 26,
@@ -480,7 +480,7 @@
      :r/t-scheduled 40.0,
      :r/k "torre-00671",
      :r/total-passed nil,
-     :r/t-done 37.0}],
+     :r/t-done 37}],
    :imt-profile
    {:address
     "Rua Ramalho Ortigão nº 177 r/c Dtº 4900-422 VIANA DO CASTELO (Stª Mª Maior)",
@@ -523,7 +523,7 @@
      :r/t-scheduled 211.0,
      :r/k "volante-do-neiva-00674",
      :r/total-passed 290.0,
-     :r/t-done 206.0}
+     :r/t-done 206}
     {:r/nec 674,
      :r/level-0 "2016",
      :r/d-scheduled 175,
@@ -537,7 +537,7 @@
      :r/t-scheduled 186.0,
      :r/k "volante-do-neiva-00674",
      :r/total-passed 277.0,
-     :r/t-done 180.0}
+     :r/t-done 180}
     {:r/nec 674,
      :r/level-0 "2017",
      :r/d-scheduled 167,
@@ -551,7 +551,7 @@
      :r/t-scheduled 169.0,
      :r/k "volante-do-neiva-00674",
      :r/total-passed 259.0,
-     :r/t-done 165.0}
+     :r/t-done 165}
     {:r/nec 674,
      :r/level-0 "2018",
      :r/d-scheduled 152,
@@ -565,7 +565,7 @@
      :r/t-scheduled 154.0,
      :r/k "volante-do-neiva-00674",
      :r/total-passed 238.0,
-     :r/t-done 153.0}
+     :r/t-done 153}
     {:r/nec 674,
      :r/level-0 "2019",
      :r/d-scheduled 134,
@@ -579,7 +579,7 @@
      :r/t-scheduled 151.0,
      :r/k "volante-do-neiva-00674",
      :r/total-passed 232.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 674,
      :r/level-0 "2020",
      :r/d-scheduled 101,
@@ -593,7 +593,7 @@
      :r/t-scheduled 143.0,
      :r/k "volante-do-neiva-00674",
      :r/total-passed 178.0,
-     :r/t-done 131.0}
+     :r/t-done 131}
     {:r/nec 674,
      :r/level-0 "2021",
      :r/d-scheduled 123,
@@ -607,7 +607,7 @@
      :r/t-scheduled 215.0,
      :r/k "volante-do-neiva-00674",
      :r/total-passed nil,
-     :r/t-done 173.0}],
+     :r/t-done 173}],
    :imt-profile
    {:address
     "Rua da Columbofilia –Edifício S. Sebastião - Fracção A 4905-353 BARROSELAS",
@@ -647,7 +647,7 @@
      :r/t-scheduled 54.0,
      :r/k "inovacao-00762",
      :r/total-passed 89.0,
-     :r/t-done 53.0}
+     :r/t-done 53}
     {:r/nec 762,
      :r/level-0 "2016",
      :r/d-scheduled 26,
@@ -661,7 +661,7 @@
      :r/t-scheduled 42.0,
      :r/k "inovacao-00762",
      :r/total-passed 41.0,
-     :r/t-done 41.0}
+     :r/t-done 41}
     {:r/nec 762,
      :r/level-0 "2017",
      :r/d-scheduled 35,
@@ -675,7 +675,7 @@
      :r/t-scheduled 44.0,
      :r/k "inovacao-00762",
      :r/total-passed 57.0,
-     :r/t-done 44.0}
+     :r/t-done 44}
     {:r/nec 762,
      :r/level-0 "2018",
      :r/d-scheduled 36,
@@ -689,7 +689,7 @@
      :r/t-scheduled 29.0,
      :r/k "inovacao-00762",
      :r/total-passed 48.0,
-     :r/t-done 28.0}
+     :r/t-done 28}
     {:r/nec 762,
      :r/level-0 "2019",
      :r/d-scheduled 19,
@@ -703,7 +703,7 @@
      :r/t-scheduled 41.0,
      :r/k "inovacao-00762",
      :r/total-passed 38.0,
-     :r/t-done 38.0}
+     :r/t-done 38}
     {:r/nec 762,
      :r/level-0 "2020",
      :r/d-scheduled 16,
@@ -717,7 +717,7 @@
      :r/t-scheduled 7.0,
      :r/k "inovacao-00762",
      :r/total-passed 16.0,
-     :r/t-done 7.0}
+     :r/t-done 7}
     {:r/nec 762,
      :r/level-0 "2021",
      :r/d-scheduled 10,
@@ -731,7 +731,7 @@
      :r/t-scheduled 23.0,
      :r/k "inovacao-00762",
      :r/total-passed nil,
-     :r/t-done 22.0}],
+     :r/t-done 22}],
    :imt-profile
    {:address
     "Rua de Valverde nº 364 4900-299 VIANA DO CASTELO (Stª Mª Maior)",
@@ -774,7 +774,7 @@
      :r/t-scheduled 230.0,
      :r/k "meadela-00777",
      :r/total-passed 368.0,
-     :r/t-done 224.0}
+     :r/t-done 224}
     {:r/nec 777,
      :r/level-0 "2016",
      :r/d-scheduled 228,
@@ -788,7 +788,7 @@
      :r/t-scheduled 243.0,
      :r/k "meadela-00777",
      :r/total-passed 389.0,
-     :r/t-done 238.0}
+     :r/t-done 238}
     {:r/nec 777,
      :r/level-0 "2017",
      :r/d-scheduled 224,
@@ -802,7 +802,7 @@
      :r/t-scheduled 256.0,
      :r/k "meadela-00777",
      :r/total-passed 413.0,
-     :r/t-done 250.0}
+     :r/t-done 250}
     {:r/nec 777,
      :r/level-0 "2018",
      :r/d-scheduled 235,
@@ -816,7 +816,7 @@
      :r/t-scheduled 245.0,
      :r/k "meadela-00777",
      :r/total-passed 416.0,
-     :r/t-done 238.0}
+     :r/t-done 238}
     {:r/nec 777,
      :r/level-0 "2019",
      :r/d-scheduled 212,
@@ -830,7 +830,7 @@
      :r/t-scheduled 263.0,
      :r/k "meadela-00777",
      :r/total-passed 400.0,
-     :r/t-done 255.0}
+     :r/t-done 255}
     {:r/nec 777,
      :r/level-0 "2020",
      :r/d-scheduled 185,
@@ -844,7 +844,7 @@
      :r/t-scheduled 232.0,
      :r/k "meadela-00777",
      :r/total-passed 346.0,
-     :r/t-done 218.0}
+     :r/t-done 218}
     {:r/nec 777,
      :r/level-0 "2021",
      :r/d-scheduled 209,
@@ -858,7 +858,7 @@
      :r/t-scheduled 288.0,
      :r/k "meadela-00777",
      :r/total-passed nil,
-     :r/t-done 265.0}],
+     :r/t-done 265}],
    :imt-profile
    {:address "Rua da Igreja, Nº 49 4900 -204 MEADELA",
     :name "Meadela",
@@ -899,7 +899,7 @@
      :r/t-scheduled 117.0,
      :r/k "santa-luzia-darque-00917",
      :r/total-passed 186.0,
-     :r/t-done 112.0}
+     :r/t-done 112}
     {:r/nec 917,
      :r/level-0 "2016",
      :r/d-scheduled 133,
@@ -913,7 +913,7 @@
      :r/t-scheduled 132.0,
      :r/k "santa-luzia-darque-00917",
      :r/total-passed 202.0,
-     :r/t-done 125.0}
+     :r/t-done 125}
     {:r/nec 917,
      :r/level-0 "2017",
      :r/d-scheduled 112,
@@ -927,7 +927,7 @@
      :r/t-scheduled 117.0,
      :r/k "santa-luzia-darque-00917",
      :r/total-passed 173.0,
-     :r/t-done 117.0}
+     :r/t-done 117}
     {:r/nec 917,
      :r/level-0 "2018",
      :r/d-scheduled 114,
@@ -941,7 +941,7 @@
      :r/t-scheduled 120.0,
      :r/k "santa-luzia-darque-00917",
      :r/total-passed 176.0,
-     :r/t-done 114.0}
+     :r/t-done 114}
     {:r/nec 917,
      :r/level-0 "2019",
      :r/d-scheduled 96,
@@ -955,7 +955,7 @@
      :r/t-scheduled 121.0,
      :r/k "santa-luzia-darque-00917",
      :r/total-passed 172.0,
-     :r/t-done 117.0}
+     :r/t-done 117}
     {:r/nec 917,
      :r/level-0 "2020",
      :r/d-scheduled 51,
@@ -969,7 +969,7 @@
      :r/t-scheduled 76.0,
      :r/k "santa-luzia-darque-00917",
      :r/total-passed 94.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 917,
      :r/level-0 "2021",
      :r/d-scheduled 72,
@@ -983,7 +983,7 @@
      :r/t-scheduled 172.0,
      :r/k "santa-luzia-darque-00917",
      :r/total-passed nil,
-     :r/t-done 152.0}],
+     :r/t-done 152}],
    :imt-profile
    {:address "Lugar da Areia, lote 14-r/c 4900-119 DARQUE",
     :name "Santa Luzia –Darque",
@@ -1015,7 +1015,7 @@
      :r/t-scheduled 61.0,
      :r/k "lanheses-01018",
      :r/total-passed 120.0,
-     :r/t-done 61.0}
+     :r/t-done 61}
     {:r/nec 1018,
      :r/level-0 "2016",
      :r/d-scheduled 92,
@@ -1029,7 +1029,7 @@
      :r/t-scheduled 100.0,
      :r/k "lanheses-01018",
      :r/total-passed 159.0,
-     :r/t-done 100.0}
+     :r/t-done 100}
     {:r/nec 1018,
      :r/level-0 "2017",
      :r/d-scheduled 77,
@@ -1043,7 +1043,7 @@
      :r/t-scheduled 90.0,
      :r/k "lanheses-01018",
      :r/total-passed 134.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 1018,
      :r/level-0 "2018",
      :r/d-scheduled 56,
@@ -1057,7 +1057,7 @@
      :r/t-scheduled 74.0,
      :r/k "lanheses-01018",
      :r/total-passed 106.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 1018,
      :r/level-0 "2019",
      :r/d-scheduled 68,
@@ -1071,7 +1071,7 @@
      :r/t-scheduled 71.0,
      :r/k "lanheses-01018",
      :r/total-passed 102.0,
-     :r/t-done 70.0}
+     :r/t-done 70}
     {:r/nec 1018,
      :r/level-0 "2020",
      :r/d-scheduled 68,
@@ -1085,7 +1085,7 @@
      :r/t-scheduled 81.0,
      :r/k "lanheses-01018",
      :r/total-passed 99.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 1018,
      :r/level-0 "2021",
      :r/d-scheduled 81,
@@ -1099,7 +1099,7 @@
      :r/t-scheduled 120.0,
      :r/k "lanheses-01018",
      :r/total-passed nil,
-     :r/t-done 108.0}],
+     :r/t-done 108}],
    :imt-profile
    {:address "Largo Capitão Gaspar de Castro 4925-411 LANHESES",
     :name "Lanheses",
@@ -1141,7 +1141,7 @@
      :r/t-scheduled 33.0,
      :r/k "vida-nova-01367",
      :r/total-passed 56.0,
-     :r/t-done 33.0}
+     :r/t-done 33}
     {:r/nec 1367,
      :r/level-0 "2018",
      :r/d-scheduled 51,
@@ -1155,7 +1155,7 @@
      :r/t-scheduled 78.0,
      :r/k "vida-nova-01367",
      :r/total-passed 87.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 1367,
      :r/level-0 "2019",
      :r/d-scheduled 60,
@@ -1169,7 +1169,7 @@
      :r/t-scheduled 68.0,
      :r/k "vida-nova-01367",
      :r/total-passed 87.0,
-     :r/t-done 65.0}
+     :r/t-done 65}
     {:r/nec 1367,
      :r/level-0 "2020",
      :r/d-scheduled 60,
@@ -1183,7 +1183,7 @@
      :r/t-scheduled 44.0,
      :r/k "vida-nova-01367",
      :r/total-passed 68.0,
-     :r/t-done 42.0}
+     :r/t-done 42}
     {:r/nec 1367,
      :r/level-0 "2021",
      :r/d-scheduled 73,
@@ -1197,7 +1197,7 @@
      :r/t-scheduled 64.0,
      :r/k "vida-nova-01367",
      :r/total-passed nil,
-     :r/t-done 57.0}],
+     :r/t-done 57}],
    :imt-profile
    {:address
     "Rua de Monserrate, Edifício Portas de Viana, loja n.º 176 E - 4900-355 Viana do Castelo",

@@ -14,7 +14,7 @@
      :r/t-scheduled 9.0,
      :r/k "automobilistica-de-beja-00082",
      :r/total-passed 24.0,
-     :r/t-done 9.0}
+     :r/t-done 9}
     {:r/nec 82,
      :r/level-0 "2016",
      :r/d-scheduled 3,
@@ -28,7 +28,7 @@
      :r/t-scheduled 7.0,
      :r/k "automobilistica-de-beja-00082",
      :r/total-passed 7.0,
-     :r/t-done 6.0}],
+     :r/t-done 6}],
    :imt-profile
    {:address "Rua Capitão João Francisco de Sousa nº 1 7800-451 BEJA",
     :name "Automobilista de Beja",
@@ -69,7 +69,7 @@
      :r/t-scheduled 170.0,
      :r/k "vitoria-00272",
      :r/total-passed 241.0,
-     :r/t-done 159.0}
+     :r/t-done 159}
     {:r/nec 272,
      :r/level-0 "2016",
      :r/d-scheduled 247,
@@ -83,7 +83,7 @@
      :r/t-scheduled 163.0,
      :r/k "vitoria-00272",
      :r/total-passed 260.0,
-     :r/t-done 152.0}
+     :r/t-done 152}
     {:r/nec 272,
      :r/level-0 "2017",
      :r/d-scheduled 263,
@@ -97,7 +97,7 @@
      :r/t-scheduled 160.0,
      :r/k "vitoria-00272",
      :r/total-passed 295.0,
-     :r/t-done 146.0}
+     :r/t-done 146}
     {:r/nec 272,
      :r/level-0 "2018",
      :r/d-scheduled 282,
@@ -111,7 +111,7 @@
      :r/t-scheduled 256.0,
      :r/k "vitoria-00272",
      :r/total-passed 362.0,
-     :r/t-done 224.0}
+     :r/t-done 224}
     {:r/nec 272,
      :r/level-0 "2019",
      :r/d-scheduled 296,
@@ -125,7 +125,7 @@
      :r/t-scheduled 255.0,
      :r/k "vitoria-00272",
      :r/total-passed 387.0,
-     :r/t-done 236.0}
+     :r/t-done 236}
     {:r/nec 272,
      :r/level-0 "2020",
      :r/d-scheduled 238,
@@ -139,7 +139,7 @@
      :r/t-scheduled 252.0,
      :r/k "vitoria-00272",
      :r/total-passed 334.0,
-     :r/t-done 223.0}
+     :r/t-done 223}
     {:r/nec 272,
      :r/level-0 "2021",
      :r/d-scheduled 191,
@@ -153,7 +153,7 @@
      :r/t-scheduled 266.0,
      :r/k "vitoria-00272",
      :r/total-passed nil,
-     :r/t-done 229.0}],
+     :r/t-done 229}],
    :imt-profile
    {:address "Rua Cidade de S. Paulo, 14 A r/c Esqº 7800-453 BEJA",
     :name "Victória",
@@ -194,7 +194,7 @@
      :r/t-scheduled 151.0,
      :r/k "palma-dores-00669",
      :r/total-passed 217.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 669,
      :r/level-0 "2016",
      :r/d-scheduled 186,
@@ -208,7 +208,7 @@
      :r/t-scheduled 148.0,
      :r/k "palma-dores-00669",
      :r/total-passed 235.0,
-     :r/t-done 146.0}
+     :r/t-done 146}
     {:r/nec 669,
      :r/level-0 "2017",
      :r/d-scheduled 140,
@@ -222,7 +222,7 @@
      :r/t-scheduled 167.0,
      :r/k "palma-dores-00669",
      :r/total-passed 227.0,
-     :r/t-done 163.0}
+     :r/t-done 163}
     {:r/nec 669,
      :r/level-0 "2018",
      :r/d-scheduled 158,
@@ -236,7 +236,7 @@
      :r/t-scheduled 147.0,
      :r/k "palma-dores-00669",
      :r/total-passed 226.0,
-     :r/t-done 137.0}
+     :r/t-done 137}
     {:r/nec 669,
      :r/level-0 "2019",
      :r/d-scheduled 157,
@@ -250,7 +250,7 @@
      :r/t-scheduled 149.0,
      :r/k "palma-dores-00669",
      :r/total-passed 225.0,
-     :r/t-done 146.0}
+     :r/t-done 146}
     {:r/nec 669,
      :r/level-0 "2020",
      :r/d-scheduled 99,
@@ -264,7 +264,7 @@
      :r/t-scheduled 155.0,
      :r/k "palma-dores-00669",
      :r/total-passed 187.0,
-     :r/t-done 147.0}
+     :r/t-done 147}
     {:r/nec 669,
      :r/level-0 "2021",
      :r/d-scheduled 125,
@@ -278,7 +278,7 @@
      :r/t-scheduled 136.0,
      :r/k "palma-dores-00669",
      :r/total-passed nil,
-     :r/t-done 132.0}],
+     :r/t-done 132}],
    :imt-profile
    {:address "Rua Manuel da Fonseca nº 12 –Cave 7800-323 BEJA",
     :name "Palma e Dores",
@@ -319,7 +319,7 @@
      :r/t-scheduled 259.0,
      :r/k "bejense-00812",
      :r/total-passed 358.0,
-     :r/t-done 258.0}
+     :r/t-done 258}
     {:r/nec 812,
      :r/level-0 "2016",
      :r/d-scheduled 298,
@@ -333,7 +333,7 @@
      :r/t-scheduled 241.0,
      :r/k "bejense-00812",
      :r/total-passed 392.0,
-     :r/t-done 241.0}
+     :r/t-done 241}
     {:r/nec 812,
      :r/level-0 "2017",
      :r/d-scheduled 304,
@@ -347,7 +347,7 @@
      :r/t-scheduled 298.0,
      :r/k "bejense-00812",
      :r/total-passed 456.0,
-     :r/t-done 294.0}
+     :r/t-done 294}
     {:r/nec 812,
      :r/level-0 "2018",
      :r/d-scheduled 350,
@@ -361,7 +361,7 @@
      :r/t-scheduled 324.0,
      :r/k "bejense-00812",
      :r/total-passed 521.0,
-     :r/t-done 313.0}
+     :r/t-done 313}
     {:r/nec 812,
      :r/level-0 "2019",
      :r/d-scheduled 422,
@@ -375,7 +375,7 @@
      :r/t-scheduled 323.0,
      :r/k "bejense-00812",
      :r/total-passed 584.0,
-     :r/t-done 311.0}
+     :r/t-done 311}
     {:r/nec 812,
      :r/level-0 "2020",
      :r/d-scheduled 317,
@@ -389,7 +389,7 @@
      :r/t-scheduled 305.0,
      :r/k "bejense-00812",
      :r/total-passed 475.0,
-     :r/t-done 301.0}
+     :r/t-done 301}
     {:r/nec 812,
      :r/level-0 "2021",
      :r/d-scheduled 309,
@@ -403,7 +403,7 @@
      :r/t-scheduled 339.0,
      :r/k "bejense-00812",
      :r/total-passed nil,
-     :r/t-done 329.0}],
+     :r/t-done 329}],
    :imt-profile
    {:address "Rua Sousa Porto 49 r/c 7800 BEJA",
     :name "Bejense",

@@ -177,7 +177,7 @@
                (sort #(compare (-> %2 :2020) (-> %1 :2020))))]
     (spit no-imt-profile-file
           (with-out-str
-            (pprint/print-table [:k :2015 :2016 :2017 :2018 :2019 :2020] d)))
+            (pprint/print-table [:k :2015 :2016 :2017 :2018 :2019 :2020 :2021] d)))
     (println (str "Wrote " no-imt-profile-file))))
 
 (defn address->geocode [address-geocoded address]

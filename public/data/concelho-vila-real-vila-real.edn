@@ -14,7 +14,7 @@
      :r/t-scheduled 107.0,
      :r/k "auto-real-00095",
      :r/total-passed 144.0,
-     :r/t-done 105.0}
+     :r/t-done 105}
     {:r/nec 95,
      :r/level-0 "2016",
      :r/d-scheduled 97,
@@ -28,7 +28,7 @@
      :r/t-scheduled 101.0,
      :r/k "auto-real-00095",
      :r/total-passed 142.0,
-     :r/t-done 97.0}
+     :r/t-done 97}
     {:r/nec 95,
      :r/level-0 "2017",
      :r/d-scheduled 93,
@@ -42,7 +42,7 @@
      :r/t-scheduled 76.0,
      :r/k "auto-real-00095",
      :r/total-passed 127.0,
-     :r/t-done 74.0}
+     :r/t-done 74}
     {:r/nec 95,
      :r/level-0 "2018",
      :r/d-scheduled 85,
@@ -56,7 +56,7 @@
      :r/t-scheduled 94.0,
      :r/k "auto-real-00095",
      :r/total-passed 125.0,
-     :r/t-done 89.0}
+     :r/t-done 89}
     {:r/nec 95,
      :r/level-0 "2019",
      :r/d-scheduled 103,
@@ -70,7 +70,7 @@
      :r/t-scheduled 92.0,
      :r/k "auto-real-00095",
      :r/total-passed 140.0,
-     :r/t-done 90.0}
+     :r/t-done 90}
     {:r/nec 95,
      :r/level-0 "2020",
      :r/d-scheduled 72,
@@ -84,7 +84,7 @@
      :r/t-scheduled 79.0,
      :r/k "auto-real-00095",
      :r/total-passed 115.0,
-     :r/t-done 76.0}
+     :r/t-done 76}
     {:r/nec 95,
      :r/level-0 "2021",
      :r/d-scheduled 69,
@@ -98,7 +98,7 @@
      :r/t-scheduled 58.0,
      :r/k "auto-real-00095",
      :r/total-passed nil,
-     :r/t-done 49.0}],
+     :r/t-done 49}],
    :imt-profile
    {:address "Rua da Misericórdia, nº 2 5000-653 VILA REAL",
     :name "Auto Real",
@@ -139,7 +139,7 @@
      :r/t-scheduled 139.0,
      :r/k "auto-marao-00128",
      :r/total-passed 220.0,
-     :r/t-done 137.0}
+     :r/t-done 137}
     {:r/nec 128,
      :r/level-0 "2016",
      :r/d-scheduled 174,
@@ -153,7 +153,7 @@
      :r/t-scheduled 146.0,
      :r/k "auto-marao-00128",
      :r/total-passed 223.0,
-     :r/t-done 144.0}
+     :r/t-done 144}
     {:r/nec 128,
      :r/level-0 "2017",
      :r/d-scheduled 151,
@@ -167,7 +167,7 @@
      :r/t-scheduled 112.0,
      :r/k "auto-marao-00128",
      :r/total-passed 202.0,
-     :r/t-done 107.0}
+     :r/t-done 107}
     {:r/nec 128,
      :r/level-0 "2018",
      :r/d-scheduled 133,
@@ -181,7 +181,7 @@
      :r/t-scheduled 123.0,
      :r/k "auto-marao-00128",
      :r/total-passed 196.0,
-     :r/t-done 121.0}
+     :r/t-done 121}
     {:r/nec 128,
      :r/level-0 "2019",
      :r/d-scheduled 133,
@@ -195,7 +195,7 @@
      :r/t-scheduled 89.0,
      :r/k "auto-marao-00128",
      :r/total-passed 165.0,
-     :r/t-done 86.0}
+     :r/t-done 86}
     {:r/nec 128,
      :r/level-0 "2020",
      :r/d-scheduled 95,
@@ -209,7 +209,7 @@
      :r/t-scheduled 145.0,
      :r/k "auto-marao-00128",
      :r/total-passed 171.0,
-     :r/t-done 140.0}
+     :r/t-done 140}
     {:r/nec 128,
      :r/level-0 "2021",
      :r/d-scheduled 175,
@@ -223,7 +223,7 @@
      :r/t-scheduled 147.0,
      :r/k "auto-marao-00128",
      :r/total-passed nil,
-     :r/t-done 124.0}],
+     :r/t-done 124}],
    :imt-profile
    {:address
     "Largo do Pelourinho, 11 - 3º Esqº 5000-513 VILA REAL (SÃO DINIS)",
@@ -266,7 +266,7 @@
      :r/t-scheduled 110.0,
      :r/k "vilarealense-00656",
      :r/total-passed 189.0,
-     :r/t-done 108.0}
+     :r/t-done 108}
     {:r/nec 656,
      :r/level-0 "2016",
      :r/d-scheduled 116,
@@ -280,7 +280,7 @@
      :r/t-scheduled 104.0,
      :r/k "vilarealense-00656",
      :r/total-passed 175.0,
-     :r/t-done 97.0}
+     :r/t-done 97}
     {:r/nec 656,
      :r/level-0 "2017",
      :r/d-scheduled 137,
@@ -294,7 +294,7 @@
      :r/t-scheduled 119.0,
      :r/k "vilarealense-00656",
      :r/total-passed 196.0,
-     :r/t-done 114.0}
+     :r/t-done 114}
     {:r/nec 656,
      :r/level-0 "2018",
      :r/d-scheduled 153,
@@ -308,7 +308,7 @@
      :r/t-scheduled 112.0,
      :r/k "vilarealense-00656",
      :r/total-passed 211.0,
-     :r/t-done 110.0}
+     :r/t-done 110}
     {:r/nec 656,
      :r/level-0 "2019",
      :r/d-scheduled 162,
@@ -322,7 +322,7 @@
      :r/t-scheduled 116.0,
      :r/k "vilarealense-00656",
      :r/total-passed 227.0,
-     :r/t-done 112.0}
+     :r/t-done 112}
     {:r/nec 656,
      :r/level-0 "2020",
      :r/d-scheduled 125,
@@ -336,7 +336,7 @@
      :r/t-scheduled 105.0,
      :r/k "vilarealense-00656",
      :r/total-passed 179.0,
-     :r/t-done 102.0}
+     :r/t-done 102}
     {:r/nec 656,
      :r/level-0 "2021",
      :r/d-scheduled 151,
@@ -350,7 +350,7 @@
      :r/t-scheduled 110.0,
      :r/k "vilarealense-00656",
      :r/total-passed nil,
-     :r/t-done 95.0}],
+     :r/t-done 95}],
    :imt-profile
    {:address
     "Rua de Santo António – Entrada B (Pioledo) 5000-607 VILA REAL (S. PEDRO)",
@@ -393,7 +393,7 @@
      :r/t-scheduled 63.0,
      :r/k "ip4-00760",
      :r/total-passed 71.0,
-     :r/t-done 58.0}
+     :r/t-done 58}
     {:r/nec 760,
      :r/level-0 "2021",
      :r/d-scheduled 117,
@@ -407,7 +407,7 @@
      :r/t-scheduled 124.0,
      :r/k "ip4-00760",
      :r/total-passed nil,
-     :r/t-done 99.0}],
+     :r/t-done 99}],
    :imt-profile
    {:address
     "Avª Cidade de Orense, lote 3, loja 41 5000-674 VILA REAL (S. DINIS)",
@@ -450,7 +450,7 @@
      :r/t-scheduled 244.0,
      :r/k "auto-cabril-00813",
      :r/total-passed 378.0,
-     :r/t-done 234.0}
+     :r/t-done 234}
     {:r/nec 813,
      :r/level-0 "2016",
      :r/d-scheduled 252,
@@ -464,7 +464,7 @@
      :r/t-scheduled 208.0,
      :r/k "auto-cabril-00813",
      :r/total-passed 360.0,
-     :r/t-done 200.0}
+     :r/t-done 200}
     {:r/nec 813,
      :r/level-0 "2017",
      :r/d-scheduled 256,
@@ -478,7 +478,7 @@
      :r/t-scheduled 259.0,
      :r/k "auto-cabril-00813",
      :r/total-passed 396.0,
-     :r/t-done 239.0}
+     :r/t-done 239}
     {:r/nec 813,
      :r/level-0 "2018",
      :r/d-scheduled 243,
@@ -492,7 +492,7 @@
      :r/t-scheduled 242.0,
      :r/k "auto-cabril-00813",
      :r/total-passed 383.0,
-     :r/t-done 233.0}
+     :r/t-done 233}
     {:r/nec 813,
      :r/level-0 "2019",
      :r/d-scheduled 282,
@@ -506,7 +506,7 @@
      :r/t-scheduled 290.0,
      :r/k "auto-cabril-00813",
      :r/total-passed 466.0,
-     :r/t-done 267.0}
+     :r/t-done 267}
     {:r/nec 813,
      :r/level-0 "2020",
      :r/d-scheduled 249,
@@ -520,7 +520,7 @@
      :r/t-scheduled 309.0,
      :r/k "auto-cabril-00813",
      :r/total-passed 438.0,
-     :r/t-done 282.0}
+     :r/t-done 282}
     {:r/nec 813,
      :r/level-0 "2021",
      :r/d-scheduled 310,
@@ -534,7 +534,7 @@
      :r/t-scheduled 327.0,
      :r/k "auto-cabril-00813",
      :r/total-passed nil,
-     :r/t-done 233.0}],
+     :r/t-done 233}],
    :imt-profile
    {:address
     "Avª da Europa lote E 12 r/c Dtº 5000-557 VILA REAL (N. S. da CONCEIÇÃO)",
@@ -574,7 +574,7 @@
      :r/t-scheduled 65.0,
      :r/k "ponto-de-partida-01077",
      :r/total-passed 88.0,
-     :r/t-done 63.0}
+     :r/t-done 63}
     {:r/nec 1077,
      :r/level-0 "2016",
      :r/d-scheduled 55,
@@ -588,7 +588,7 @@
      :r/t-scheduled 57.0,
      :r/k "ponto-de-partida-01077",
      :r/total-passed 65.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 1077,
      :r/level-0 "2017",
      :r/d-scheduled 51,
@@ -602,7 +602,7 @@
      :r/t-scheduled 39.0,
      :r/k "ponto-de-partida-01077",
      :r/total-passed 61.0,
-     :r/t-done 36.0}
+     :r/t-done 36}
     {:r/nec 1077,
      :r/level-0 "2018",
      :r/d-scheduled 43,
@@ -616,7 +616,7 @@
      :r/t-scheduled 38.0,
      :r/k "ponto-de-partida-01077",
      :r/total-passed 46.0,
-     :r/t-done 37.0}
+     :r/t-done 37}
     {:r/nec 1077,
      :r/level-0 "2019",
      :r/d-scheduled 42,
@@ -630,7 +630,7 @@
      :r/t-scheduled 35.0,
      :r/k "ponto-de-partida-01077",
      :r/total-passed 41.0,
-     :r/t-done 35.0}
+     :r/t-done 35}
     {:r/nec 1077,
      :r/level-0 "2020",
      :r/d-scheduled 49,
@@ -644,7 +644,7 @@
      :r/t-scheduled 47.0,
      :r/k "ponto-de-partida-01077",
      :r/total-passed 49.0,
-     :r/t-done 41.0}
+     :r/t-done 41}
     {:r/nec 1077,
      :r/level-0 "2021",
      :r/d-scheduled 49,
@@ -658,7 +658,7 @@
      :r/t-scheduled 31.0,
      :r/k "ponto-de-partida-01077",
      :r/total-passed nil,
-     :r/t-done 29.0}],
+     :r/t-done 29}],
    :imt-profile
    {:address "Avenida 25 de Abril, n.º 19 5430-420 Valpaços",
     :archived-last-seen-at "2022-05-07T14:52:45Z",
@@ -702,7 +702,7 @@
      :r/t-scheduled 152.0,
      :r/k "stop-real-01130",
      :r/total-passed 190.0,
-     :r/t-done 150.0}
+     :r/t-done 150}
     {:r/nec 1130,
      :r/level-0 "2016",
      :r/d-scheduled 152,
@@ -716,7 +716,7 @@
      :r/t-scheduled 114.0,
      :r/k "stop-real-01130",
      :r/total-passed 178.0,
-     :r/t-done 109.0}
+     :r/t-done 109}
     {:r/nec 1130,
      :r/level-0 "2017",
      :r/d-scheduled 124,
@@ -730,7 +730,7 @@
      :r/t-scheduled 115.0,
      :r/k "stop-real-01130",
      :r/total-passed 165.0,
-     :r/t-done 109.0}
+     :r/t-done 109}
     {:r/nec 1130,
      :r/level-0 "2018",
      :r/d-scheduled 141,
@@ -744,7 +744,7 @@
      :r/t-scheduled 126.0,
      :r/k "stop-real-01130",
      :r/total-passed 185.0,
-     :r/t-done 123.0}
+     :r/t-done 123}
     {:r/nec 1130,
      :r/level-0 "2019",
      :r/d-scheduled 141,
@@ -758,7 +758,7 @@
      :r/t-scheduled 119.0,
      :r/k "stop-real-01130",
      :r/total-passed 191.0,
-     :r/t-done 114.0}
+     :r/t-done 114}
     {:r/nec 1130,
      :r/level-0 "2020",
      :r/d-scheduled 150,
@@ -772,7 +772,7 @@
      :r/t-scheduled 197.0,
      :r/k "stop-real-01130",
      :r/total-passed 256.0,
-     :r/t-done 191.0}
+     :r/t-done 191}
     {:r/nec 1130,
      :r/level-0 "2021",
      :r/d-scheduled 219,
@@ -786,7 +786,7 @@
      :r/t-scheduled 136.0,
      :r/k "stop-real-01130",
      :r/total-passed nil,
-     :r/t-done 114.0}],
+     :r/t-done 114}],
    :imt-profile
    {:address
     "Quinta da Arancária, Lote 1 – Bloco A – loja 1 5000-000 VILA REAL (SÃO PEDRO)",
@@ -819,7 +819,7 @@
      :r/t-scheduled 163.0,
      :r/k "j-l-01253",
      :r/total-passed 257.0,
-     :r/t-done 161.0}
+     :r/t-done 161}
     {:r/nec 1253,
      :r/level-0 "2016",
      :r/d-scheduled 196,
@@ -833,7 +833,7 @@
      :r/t-scheduled 139.0,
      :r/k "j-l-01253",
      :r/total-passed 239.0,
-     :r/t-done 136.0}
+     :r/t-done 136}
     {:r/nec 1253,
      :r/level-0 "2017",
      :r/d-scheduled 182,
@@ -847,7 +847,7 @@
      :r/t-scheduled 177.0,
      :r/k "j-l-01253",
      :r/total-passed 253.0,
-     :r/t-done 169.0}
+     :r/t-done 169}
     {:r/nec 1253,
      :r/level-0 "2018",
      :r/d-scheduled 187,
@@ -861,7 +861,7 @@
      :r/t-scheduled 184.0,
      :r/k "j-l-01253",
      :r/total-passed 266.0,
-     :r/t-done 175.0}
+     :r/t-done 175}
     {:r/nec 1253,
      :r/level-0 "2019",
      :r/d-scheduled 205,
@@ -875,7 +875,7 @@
      :r/t-scheduled 175.0,
      :r/k "j-l-01253",
      :r/total-passed 281.0,
-     :r/t-done 166.0}
+     :r/t-done 166}
     {:r/nec 1253,
      :r/level-0 "2020",
      :r/d-scheduled 149,
@@ -889,7 +889,7 @@
      :r/t-scheduled 158.0,
      :r/k "j-l-01253",
      :r/total-passed 229.0,
-     :r/t-done 152.0}
+     :r/t-done 152}
     {:r/nec 1253,
      :r/level-0 "2021",
      :r/d-scheduled 226,
@@ -903,7 +903,7 @@
      :r/t-scheduled 165.0,
      :r/k "j-l-01253",
      :r/total-passed nil,
-     :r/t-done 136.0}],
+     :r/t-done 136}],
    :imt-profile
    {:address
     "Rua Major António Fernandes Varão, Lote 15-Loja A-3 5000-414 VILA REAL",
@@ -947,7 +947,7 @@
      :r/t-scheduled 87.0,
      :r/k "aleu-01260",
      :r/total-passed 125.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 1260,
      :r/level-0 "2016",
      :r/d-scheduled 99,
@@ -961,7 +961,7 @@
      :r/t-scheduled 74.0,
      :r/k "aleu-01260",
      :r/total-passed 123.0,
-     :r/t-done 73.0}
+     :r/t-done 73}
     {:r/nec 1260,
      :r/level-0 "2017",
      :r/d-scheduled 96,
@@ -975,7 +975,7 @@
      :r/t-scheduled 90.0,
      :r/k "aleu-01260",
      :r/total-passed 121.0,
-     :r/t-done 87.0}
+     :r/t-done 87}
     {:r/nec 1260,
      :r/level-0 "2018",
      :r/d-scheduled 59,
@@ -989,7 +989,7 @@
      :r/t-scheduled 62.0,
      :r/k "aleu-01260",
      :r/total-passed 89.0,
-     :r/t-done 57.0}
+     :r/t-done 57}
     {:r/nec 1260,
      :r/level-0 "2019",
      :r/d-scheduled 64,
@@ -1003,7 +1003,7 @@
      :r/t-scheduled 77.0,
      :r/k "aleu-01260",
      :r/total-passed 94.0,
-     :r/t-done 75.0}
+     :r/t-done 75}
     {:r/nec 1260,
      :r/level-0 "2020",
      :r/d-scheduled 55,
@@ -1017,7 +1017,7 @@
      :r/t-scheduled 74.0,
      :r/k "aleu-01260",
      :r/total-passed 81.0,
-     :r/t-done 69.0}
+     :r/t-done 69}
     {:r/nec 1260,
      :r/level-0 "2021",
      :r/d-scheduled 71,
@@ -1031,7 +1031,7 @@
      :r/t-scheduled 106.0,
      :r/k "aleu-01260",
      :r/total-passed nil,
-     :r/t-done 81.0}],
+     :r/t-done 81}],
    :imt-profile
    {:address
     "Rua Actor Rui de Carvalho, Lote 5, Loja R/C 5000-262 VILA REAL",
@@ -1074,7 +1074,7 @@
      :r/t-scheduled 104.0,
      :r/k "auto-corgo-01278",
      :r/total-passed 123.0,
-     :r/t-done 101.0}
+     :r/t-done 101}
     {:r/nec 1278,
      :r/level-0 "2016",
      :r/d-scheduled 102,
@@ -1088,7 +1088,7 @@
      :r/t-scheduled 100.0,
      :r/k "auto-corgo-01278",
      :r/total-passed 147.0,
-     :r/t-done 97.0}
+     :r/t-done 97}
     {:r/nec 1278,
      :r/level-0 "2017",
      :r/d-scheduled 87,
@@ -1102,7 +1102,7 @@
      :r/t-scheduled 95.0,
      :r/k "auto-corgo-01278",
      :r/total-passed 145.0,
-     :r/t-done 92.0}
+     :r/t-done 92}
     {:r/nec 1278,
      :r/level-0 "2018",
      :r/d-scheduled 73,
@@ -1116,7 +1116,7 @@
      :r/t-scheduled 74.0,
      :r/k "auto-corgo-01278",
      :r/total-passed 103.0,
-     :r/t-done 67.0}
+     :r/t-done 67}
     {:r/nec 1278,
      :r/level-0 "2019",
      :r/d-scheduled 61,
@@ -1130,7 +1130,7 @@
      :r/t-scheduled 83.0,
      :r/k "auto-corgo-01278",
      :r/total-passed 96.0,
-     :r/t-done 74.0}
+     :r/t-done 74}
     {:r/nec 1278,
      :r/level-0 "2020",
      :r/d-scheduled 58,
@@ -1144,7 +1144,7 @@
      :r/t-scheduled 61.0,
      :r/k "auto-corgo-01278",
      :r/total-passed 79.0,
-     :r/t-done 50.0}
+     :r/t-done 50}
     {:r/nec 1278,
      :r/level-0 "2021",
      :r/d-scheduled 30,
@@ -1158,7 +1158,7 @@
      :r/t-scheduled 10.0,
      :r/k "auto-corgo-01278",
      :r/total-passed nil,
-     :r/t-done 7.0}],
+     :r/t-done 7}],
    :imt-profile
    {:address
     "Rua Dr. José Correia Lacerda, Bloco C, n.º 5 5000-440 Vila Real",
@@ -1198,7 +1198,7 @@
      :r/t-scheduled 87.0,
      :r/k "circuito-01439",
      :r/total-passed 97.0,
-     :r/t-done 83.0}
+     :r/t-done 83}
     {:r/nec 1439,
      :r/level-0 "2021",
      :r/d-scheduled 133,
@@ -1212,7 +1212,7 @@
      :r/t-scheduled 140.0,
      :r/k "circuito-01439",
      :r/total-passed nil,
-     :r/t-done 120.0}],
+     :r/t-done 120}],
    :imt-profile
    {:address
     "Lugar do Cano, Avenida de Osnabruck, Lote 17, fração B, 5000-448 Vila Real",
