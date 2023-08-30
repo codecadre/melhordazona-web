@@ -83,7 +83,21 @@
    :r/t-scheduled 84.0,
    :r/k "via-principal-01191",
    :r/total-passed 150.0,
-   :r/t-done 80.0}],
+   :r/t-done 80.0}
+  {:r/nec 1191,
+   :r/level-0 "2021",
+   :r/d-scheduled 81,
+   :r/t-rate 0.5641,
+   :r/total-rate 0.6915,
+   :r/d-done 71,
+   :r/total-scheduled 212,
+   :r/name-raw "ESCOLA DE CONDUÇÃO VIA PRINCIPAL",
+   :r/total-done 188,
+   :r/d-rate 0.9014,
+   :r/t-scheduled 131.0,
+   :r/k "via-principal-01191",
+   :r/total-passed nil,
+   :r/t-done 117.0}],
  :imt-profile
  {:address
   "Av. Padre Dr. Raul Sarreira, nº 95, R/c, 2560-127 Ponte do Rol",

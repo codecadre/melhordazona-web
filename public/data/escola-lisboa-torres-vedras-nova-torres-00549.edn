@@ -83,7 +83,21 @@
    :r/t-scheduled 180.0,
    :r/k "nova-torres-00549",
    :r/total-passed 301.0,
-   :r/t-done 174.0}],
+   :r/t-done 174.0}
+  {:r/nec 549,
+   :r/level-0 "2021",
+   :r/d-scheduled 195,
+   :r/t-rate 0.7073,
+   :r/total-rate 0.7455,
+   :r/d-done 188,
+   :r/total-scheduled 424,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA TORRES",
+   :r/total-done 393,
+   :r/d-rate 0.7872,
+   :r/t-scheduled 229.0,
+   :r/k "nova-torres-00549",
+   :r/total-passed nil,
+   :r/t-done 205.0}],
  :imt-profile
  {:address
   "Rua da Escola Preparatória nº 51 R/c Esqº 2350 TORRES NOVAS",

@@ -83,7 +83,21 @@
    :r/t-scheduled 26.0,
    :r/k "cercal-do-alentejo-01088",
    :r/total-passed 41.0,
-   :r/t-done 26.0}],
+   :r/t-done 26.0}
+  {:r/nec 1088,
+   :r/level-0 "2021",
+   :r/d-scheduled 24,
+   :r/t-rate 0.5,
+   :r/total-rate 0.6102,
+   :r/d-done 21,
+   :r/total-scheduled 63,
+   :r/name-raw "ESCOLA DE CONDUÇÃO CERCAL DO ALENTEJO",
+   :r/total-done 59,
+   :r/d-rate 0.8095,
+   :r/t-scheduled 39.0,
+   :r/k "cercal-do-alentejo-01088",
+   :r/total-passed nil,
+   :r/t-done 38.0}],
  :imt-profile
  {:address
   "Avenida Centenario da Independência, Nº 18, 7555-101 CERCAL DO ALENTEJO",

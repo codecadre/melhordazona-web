@@ -83,7 +83,21 @@
    :r/t-scheduled 26.0,
    :r/k "prova-real-00765",
    :r/total-passed 34.0,
-   :r/t-done 22.0}],
+   :r/t-done 22.0}
+  {:r/nec 765,
+   :r/level-0 "2021",
+   :r/d-scheduled 29,
+   :r/t-rate 0.4211,
+   :r/total-rate 0.4894,
+   :r/d-done 28,
+   :r/total-scheduled 51,
+   :r/name-raw "ESCOLA DE CONDUÇÃO PROVA REAL",
+   :r/total-done 47,
+   :r/d-rate 0.5357,
+   :r/t-scheduled 22.0,
+   :r/k "prova-real-00765",
+   :r/total-passed nil,
+   :r/t-done 19.0}],
  :imt-profile
  {:address
   "Rua Comendador Silva, n.º 45, R/c, 5450-011 Vila Pouca de Aguiar",

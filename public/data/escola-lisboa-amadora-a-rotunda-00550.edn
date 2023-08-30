@@ -83,7 +83,21 @@
    :r/t-scheduled 320.0,
    :r/k "a-rotunda-00550",
    :r/total-passed 385.0,
-   :r/t-done 284.0}],
+   :r/t-done 284.0}
+  {:r/nec 550,
+   :r/level-0 "2021",
+   :r/d-scheduled 266,
+   :r/t-rate 0.6402,
+   :r/total-rate 0.635,
+   :r/d-done 247,
+   :r/total-scheduled 647,
+   :r/name-raw "ESCOLA DE CONDUÇÃO A ROTUNDA",
+   :r/total-done 600,
+   :r/d-rate 0.6275,
+   :r/t-scheduled 381.0,
+   :r/k "a-rotunda-00550",
+   :r/total-passed nil,
+   :r/t-done 353.0}],
  :imt-profile
  {:address
   "Rua 17 de Setembro, n.º 4, Loja - Casal de S. Brás; 2700-232 Amadora",

@@ -83,7 +83,21 @@
    :r/t-scheduled 140.0,
    :r/k "eficiencia-01299",
    :r/total-passed 160.0,
-   :r/t-done 120.0}],
+   :r/t-done 120.0}
+  {:r/nec 1299,
+   :r/level-0 "2021",
+   :r/d-scheduled 268,
+   :r/t-rate 0.7185,
+   :r/total-rate 0.6293,
+   :r/d-done 213,
+   :r/total-scheduled 407,
+   :r/name-raw "ESCOLA DE CONDUÇÃO EFICIÊNCIA",
+   :r/total-done 348,
+   :r/d-rate 0.5728,
+   :r/t-scheduled 139.0,
+   :r/k "eficiencia-01299",
+   :r/total-passed nil,
+   :r/t-done 135.0}],
  :imt-profile
  {:address
   "Av.ª da Indústria Têxtil, n.º 330 ; 4795-548 São Tomé Negrelos",

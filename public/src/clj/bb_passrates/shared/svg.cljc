@@ -112,7 +112,7 @@
   [d]
   (->> d
        (filter (fn [{:keys [r/level-0 r/d-rate r/t-rate r/d-done r/t-done]}]
-                 (#{"2020" "2019" "2018"} level-0)))
+                 (#{"2021" "2020" "2019"} level-0)))
        (map-indexed (fn [idx {:keys [r/level-0 r/d-rate r/t-rate r/d-done r/t-done]}]
                       [idx level-0 d-rate d-done]))))
 

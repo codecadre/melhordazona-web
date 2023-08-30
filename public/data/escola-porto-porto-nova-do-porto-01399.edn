@@ -1,0 +1,39 @@
+{:nec 1399,
+ :rates
+ [{:r/nec 1399,
+   :r/level-0 "2021",
+   :r/d-scheduled 180,
+   :r/t-rate 0.7711,
+   :r/total-rate 0.6677,
+   :r/d-done 147,
+   :r/total-scheduled 402,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DO PORTO",
+   :r/total-done 313,
+   :r/d-rate 0.551,
+   :r/t-scheduled 222.0,
+   :r/k "nova-do-porto-01399",
+   :r/total-passed nil,
+   :r/t-done 166.0}],
+ :imt-profile
+ {:address "Rua 9 de Abril n.º 201, r/c Paranhos, 4200-422 Porto",
+  :name "Nova do Porto",
+  :href-id #uuid "1aa2f32a-7df0-34dd-98fb-0b9582a9a557",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/NovadoPorto.aspx",
+  :concelho "Porto",
+  :nec 1399,
+  :cp7 "4200-422",
+  :id #uuid "c3ab6d6d-9310-3cf2-894f-938f36548629",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/1aa2f32a-nova-do-porto.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:address "Rua 9 de Abril n.º 201, r/c Paranhos, 4200-422 Porto",
+  :address-c "Rua de Nove de Abril 201, 4250-347, Porto",
+  :postal-c "4250-347",
+  :x -8.622690024144,
+  :y 41.167900004037,
+  :score 94.38,
+  :c 4}}

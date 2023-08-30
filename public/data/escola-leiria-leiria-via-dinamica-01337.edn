@@ -83,7 +83,21 @@
    :r/t-scheduled 140.0,
    :r/k "via-dinamica-01337",
    :r/total-passed 191.0,
-   :r/t-done 135.0}],
+   :r/t-done 135.0}
+  {:r/nec 1337,
+   :r/level-0 "2021",
+   :r/d-scheduled 167,
+   :r/t-rate 0.6962,
+   :r/total-rate 0.6827,
+   :r/d-done 154,
+   :r/total-scheduled 349,
+   :r/name-raw "Escola de Condução Via Dinâmica",
+   :r/total-done 312,
+   :r/d-rate 0.6688,
+   :r/t-scheduled 182.0,
+   :r/k "via-dinamica-01337",
+   :r/total-passed nil,
+   :r/t-done 158.0}],
  :imt-profile
  {:address
   "Av. Dr. Francisco Sá Carneiro, Ed. Alta Vista, loja 448, 2415-376 Leiria",

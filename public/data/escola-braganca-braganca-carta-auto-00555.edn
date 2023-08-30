@@ -83,7 +83,21 @@
    :r/t-scheduled 82.0,
    :r/k "carta-auto-00555",
    :r/total-passed 128.0,
-   :r/t-done 75.0}],
+   :r/t-done 75.0}
+  {:r/nec 555,
+   :r/level-0 "2021",
+   :r/d-scheduled 123,
+   :r/t-rate 0.5982,
+   :r/total-rate 0.6379,
+   :r/d-done 120,
+   :r/total-scheduled 243,
+   :r/name-raw "ESCOLA DE CONDUÇÃO CARTA - AUTO",
+   :r/total-done 232,
+   :r/d-rate 0.675,
+   :r/t-scheduled 120.0,
+   :r/k "carta-auto-00555",
+   :r/total-passed nil,
+   :r/t-done 112.0}],
  :imt-profile
  {:address
   "Avª Dr.Francisco Sá Carneiro, Lote 29 r/c Dtº (Prédio S. Lucas) 5300-252 BRAGANÇA (SÉ)",

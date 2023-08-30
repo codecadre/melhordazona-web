@@ -55,7 +55,21 @@
    :r/t-scheduled 72.0,
    :r/k "miravez-01381",
    :r/total-passed 70.0,
-   :r/t-done 57.0}],
+   :r/t-done 57.0}
+  {:r/nec 1381,
+   :r/level-0 "2021",
+   :r/d-scheduled 49,
+   :r/t-rate 0.7125,
+   :r/total-rate 0.7578,
+   :r/d-done 48,
+   :r/total-scheduled 139,
+   :r/name-raw "ESCOLA DE CONDUÇÃO MIRA VEZ",
+   :r/total-done 128,
+   :r/d-rate 0.8333,
+   :r/t-scheduled 90.0,
+   :r/k "miravez-01381",
+   :r/total-passed nil,
+   :r/t-done 80.0}],
  :imt-profile
  {:address
   "Av. dos Combatentes da Primeira Guerra Mundial Loja 28 (Faquelo)",

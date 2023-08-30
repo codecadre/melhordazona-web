@@ -83,7 +83,21 @@
    :r/t-scheduled 217.0,
    :r/k "nova-de-loule-01289",
    :r/total-passed 300.0,
-   :r/t-done 192.0}],
+   :r/t-done 192.0}
+  {:r/nec 1289,
+   :r/level-0 "2021",
+   :r/d-scheduled 311,
+   :r/t-rate 0.6565,
+   :r/total-rate 0.6697,
+   :r/d-done 260,
+   :r/total-scheduled 645,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA DE LOULÉ",
+   :r/total-done 554,
+   :r/d-rate 0.6846,
+   :r/t-scheduled 334.0,
+   :r/k "nova-de-loule-01289",
+   :r/total-passed nil,
+   :r/t-done 294.0}],
  :imt-profile
  {:address
   "Urbanização Hortas de Santo António,Lote 12, Lj B, 8100-712 LOULÉ",

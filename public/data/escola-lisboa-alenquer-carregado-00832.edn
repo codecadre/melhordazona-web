@@ -83,7 +83,21 @@
    :r/t-scheduled 456.0,
    :r/k "carregado-00832",
    :r/total-passed 423.0,
-   :r/t-done 437.0}],
+   :r/t-done 437.0}
+  {:r/nec 832,
+   :r/level-0 "2021",
+   :r/d-scheduled 316,
+   :r/t-rate 0.6029,
+   :r/total-rate 0.596,
+   :r/d-done 306,
+   :r/total-scheduled 706,
+   :r/name-raw "ESCOLA DE CONDUÇÃO CARREGADO",
+   :r/total-done 646,
+   :r/d-rate 0.5882,
+   :r/t-scheduled 390.0,
+   :r/k "carregado-00832",
+   :r/total-passed nil,
+   :r/t-done 340.0}],
  :imt-profile
  {:address
   "Rua Pêro da Covilhã, lote 98 -Urbanização Barrada 2580-497 ALENQUER",

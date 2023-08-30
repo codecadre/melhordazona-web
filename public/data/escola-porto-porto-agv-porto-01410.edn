@@ -1,0 +1,42 @@
+{:nec 1410,
+ :rates
+ [{:r/nec 1410,
+   :r/level-0 "2021",
+   :r/d-scheduled 229,
+   :r/t-rate 0.7458,
+   :r/total-rate 0.6727,
+   :r/d-done 203,
+   :r/total-scheduled 495,
+   :r/name-raw "ESCOLA DE CONDUÇÃO AGV PORTO",
+   :r/total-done 443,
+   :r/d-rate 0.5862,
+   :r/t-scheduled 266.0,
+   :r/k "agv-porto-01410",
+   :r/total-passed nil,
+   :r/t-done 240.0}],
+ :imt-profile
+ {:address
+  "Rua Diogo Botelho, n.º 1916 – Frações C e D, 4150-261 Porto",
+  :name "AGV Porto",
+  :href-id #uuid "e2d192f9-2f19-38bc-b73e-5e53ee759e59",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/AGVPorto.aspx",
+  :concelho "Porto",
+  :nec 1410,
+  :cp7 "4150-261",
+  :id #uuid "1f203483-0dd3-3821-893a-20665bf96d84",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/porto/e2d192f9-agv-porto.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Porto"},
+ :geocode
+ {:id #uuid "83e9ea82-92b0-3430-8160-eb2ed0e980e9",
+  :address
+  "Rua Diogo Botelho, n.º 1916 – Frações C e D, 4150-261 Porto",
+  :address-c "Rua de Diogo Botelho 1916, 4150-261, Porto",
+  :postal-c "4150-261",
+  :x -8.670088053967788,
+  :y 41.152947519610045,
+  :score 94.47,
+  :c 2}}

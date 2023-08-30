@@ -83,7 +83,21 @@
    :r/t-scheduled 125.0,
    :r/k "areias-mar-01261",
    :r/total-passed 132.0,
-   :r/t-done 102.0}],
+   :r/t-done 102.0}
+  {:r/nec 1261,
+   :r/level-0 "2021",
+   :r/d-scheduled 131,
+   :r/t-rate 0.6477,
+   :r/total-rate 0.615,
+   :r/d-done 112,
+   :r/total-scheduled 237,
+   :r/name-raw "ESCOLA DE CONDUÇÃO AREIAS MAR",
+   :r/total-done 200,
+   :r/d-rate 0.5893,
+   :r/t-scheduled 106.0,
+   :r/k "areias-mar-01261",
+   :r/total-passed nil,
+   :r/t-done 88.0}],
  :imt-profile
  {:address
   "Rua Camilo Castelo Branco, Nº 60 Edificio Areias do Mar, cave, Parte B, Loja 9 8200-276 Albufeira",

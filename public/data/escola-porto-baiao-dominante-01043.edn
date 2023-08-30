@@ -1,0 +1,31 @@
+{:nec 1043,
+ :rates
+ [{:r/nec 1043,
+   :r/level-0 "2021",
+   :r/d-scheduled 168,
+   :r/t-rate 0.6878,
+   :r/total-rate 0.7049,
+   :r/d-done 161,
+   :r/total-scheduled 380,
+   :r/name-raw "ESCOLA DE CONDUÇÃO DOMINANTE",
+   :r/total-done 366,
+   :r/d-rate 0.7267,
+   :r/t-scheduled 212.0,
+   :r/k "dominante-01043",
+   :r/total-passed nil,
+   :r/t-done 205.0}],
+ :imt-profile
+ {:address "RUA ABEL RIBEIRO, FRACÇÃO G ",
+  :name "Dominante",
+  :href-id #uuid "baaf8775-b578-3385-a2f2-7c95d0a52a72",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/EscoladeConducaoDominante.aspx",
+  :concelho "Baião",
+  :nec 1043,
+  :cp7 nil,
+  :id #uuid "822982a7-9290-3af9-bae5-eb9ba1b2afae",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/baiao/baaf8775-dominante.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Bai%C3%A3o"}}

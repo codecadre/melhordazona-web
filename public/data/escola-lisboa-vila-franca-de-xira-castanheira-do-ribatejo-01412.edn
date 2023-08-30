@@ -41,7 +41,21 @@
    :r/t-scheduled 90.0,
    :r/k "castanheira-do-ribatejo-01412",
    :r/total-passed 120.0,
-   :r/t-done 87.0}],
+   :r/t-done 87.0}
+  {:r/nec 1412,
+   :r/level-0 "2021",
+   :r/d-scheduled 91,
+   :r/t-rate 0.7067,
+   :r/total-rate 0.6875,
+   :r/d-done 85,
+   :r/total-scheduled 170,
+   :r/name-raw "Escola de Condução Castanheira do Ribatejo",
+   :r/total-done 160,
+   :r/d-rate 0.6706,
+   :r/t-scheduled 79.0,
+   :r/k "castanheira-do-ribatejo-01412",
+   :r/total-passed nil,
+   :r/t-done 75.0}],
  :imt-profile
  {:address
   "Rua Padre António Bianchi, n.º 18 2600-605 Castanheira do Ribatejo",

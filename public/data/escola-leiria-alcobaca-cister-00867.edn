@@ -83,7 +83,21 @@
    :r/t-scheduled 123.0,
    :r/k "cister-00867",
    :r/total-passed 126.0,
-   :r/t-done 118.0}],
+   :r/t-done 118.0}
+  {:r/nec 867,
+   :r/level-0 "2021",
+   :r/d-scheduled 122,
+   :r/t-rate 0.5728,
+   :r/total-rate 0.5256,
+   :r/d-done 112,
+   :r/total-scheduled 230,
+   :r/name-raw "ESCOLA DE CONDUÇÃO CISTER",
+   :r/total-done 215,
+   :r/d-rate 0.4821,
+   :r/t-scheduled 108.0,
+   :r/k "cister-00867",
+   :r/total-passed nil,
+   :r/t-done 103.0}],
  :imt-profile
  {:address
   "Rua do Rei da Memória, S/N - Estrada Nacional 8/6 2475-149 BENEDITA",

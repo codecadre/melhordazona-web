@@ -83,7 +83,21 @@
    :r/t-scheduled 49.0,
    :r/k "bateira-01062",
    :r/total-passed 63.0,
-   :r/t-done 48.0}],
+   :r/t-done 48.0}
+  {:r/nec 1062,
+   :r/level-0 "2021",
+   :r/d-scheduled 56,
+   :r/t-rate 0.5192,
+   :r/total-rate 0.5243,
+   :r/d-done 51,
+   :r/total-scheduled 115,
+   :r/name-raw "ESCOLA DE CONDUÇÃO BATEIRA",
+   :r/total-done 103,
+   :r/d-rate 0.5294,
+   :r/t-scheduled 59.0,
+   :r/k "bateira-01062",
+   :r/total-passed nil,
+   :r/t-done 52.0}],
  :imt-profile
  {:address
   "Lugar de Santa Eulália - Edificio Multirefional r/c - Souselo 4690-666 SOUSELO",

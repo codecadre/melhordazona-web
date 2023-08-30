@@ -1,0 +1,41 @@
+{:nec 705,
+ :rates
+ [{:r/nec 705,
+   :r/level-0 "2021",
+   :r/d-scheduled 36,
+   :r/t-rate 0.3667,
+   :r/total-rate 0.5164,
+   :r/d-done 32,
+   :r/total-scheduled 145,
+   :r/name-raw "ESCOLA DE CONDUÇÃO EASYDRIVE",
+   :r/total-done 122,
+   :r/d-rate 0.9375,
+   :r/t-scheduled 109.0,
+   :r/k "easydrive-00705",
+   :r/total-passed nil,
+   :r/t-done 90.0}],
+ :imt-profile
+ {:address "Rua Tomé Adelino Vidigal, 14 - 7050 - MONTEMOR-O-NOVO",
+  :name "Easydrive",
+  :href-id #uuid "80fdf6fc-a57c-33cc-b13c-8328baaf5293",
+  :distrito "Évora",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/PeroRodrigues787.aspx",
+  :concelho "Montemor-o-Novo",
+  :nec 705,
+  :cp7 "7050",
+  :id #uuid "1974537b-a6c2-3d8d-a8b0-b9da8a918cb2",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/evora/montemor-o-novo/80fdf6fc-easydrive.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Evora&Concelho=Montemor%20o%20Novo"},
+ :geocode
+ {:id #uuid "0f410351-2bb8-3c4d-bbb0-b46261df0759",
+  :address "Rua Tomé Adelino Vidigal, 14 - 7050 - MONTEMOR-O-NOVO",
+  :address-c
+  "Rua Tomé Adelino Vidigal 14, 7050-138, Montemor-o-Novo, Évora",
+  :postal-c "7050-138",
+  :x -8.207999974586073,
+  :y 38.65241999209505,
+  :score 100,
+  :c 1}}

@@ -83,7 +83,21 @@
    :r/t-scheduled 120.0,
    :r/k "sao-bernardo-00925",
    :r/total-passed 160.0,
-   :r/t-done 119.0}],
+   :r/t-done 119.0}
+  {:r/nec 925,
+   :r/level-0 "2021",
+   :r/d-scheduled 118,
+   :r/t-rate 0.625,
+   :r/total-rate 0.6797,
+   :r/d-done 111,
+   :r/total-scheduled 242,
+   :r/name-raw "ESCOLA DE CONDUÇÃO SÃO BERNARDO",
+   :r/total-done 231,
+   :r/d-rate 0.7387,
+   :r/t-scheduled 124.0,
+   :r/k "sao-bernardo-00925",
+   :r/total-passed nil,
+   :r/t-done 120.0}],
  :imt-profile
  {:address
   "Rua Dr. José Marques – Edifício Arrábida 2000 r/c Esqº 2530-565 TORRES NOVAS",

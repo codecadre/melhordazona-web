@@ -156,7 +156,21 @@
      :r/t-scheduled 92.0,
      :r/k "bavi-00148",
      :r/total-passed 101.0,
-     :r/t-done 83.0}],
+     :r/t-done 83.0}
+    {:r/nec 148,
+     :r/level-0 "2021",
+     :r/d-scheduled 121,
+     :r/t-rate 0.5238,
+     :r/total-rate 0.563,
+     :r/d-done 112,
+     :r/total-scheduled 259,
+     :r/name-raw "ESCOLA DE CONDUÇÃO BAVI",
+     :r/total-done 238,
+     :r/d-rate 0.6071,
+     :r/t-scheduled 138.0,
+     :r/k "bavi-00148",
+     :r/total-passed nil,
+     :r/t-done 126.0}],
    :imt-profile
    {:address
     "Rua Dr. José Saudade e Silva, 59 2500-191 CALDAS DA RAINHA",
@@ -270,7 +284,21 @@
      :r/t-scheduled 681.0,
      :r/k "bordalo-pinheiro-00913",
      :r/total-passed 931.0,
-     :r/t-done 627.0}],
+     :r/t-done 627.0}
+    {:r/nec 913,
+     :r/level-0 "2021",
+     :r/d-scheduled 687,
+     :r/t-rate 0.6825,
+     :r/total-rate 0.6811,
+     :r/d-done 628,
+     :r/total-scheduled 1250,
+     :r/name-raw "ESCOLA DE CONDUÇÃO BORDALO PINHEIRO",
+     :r/total-done 1132,
+     :r/d-rate 0.6799,
+     :r/t-scheduled 563.0,
+     :r/k "bordalo-pinheiro-00913",
+     :r/total-passed nil,
+     :r/t-done 504.0}],
    :imt-profile
    {:address
     "Rua Dr. Ângelo Ferrari, 5, R/c Dtº 2500 - 113 CALDAS DA RAINHA",
@@ -384,7 +412,21 @@
      :r/t-scheduled 89.0,
      :r/k "oeste-01064",
      :r/total-passed 96.0,
-     :r/t-done 87.0}],
+     :r/t-done 87.0}
+    {:r/nec 1064,
+     :r/level-0 "2021",
+     :r/d-scheduled 141,
+     :r/t-rate 0.3878,
+     :r/total-rate 0.4416,
+     :r/d-done 133,
+     :r/total-scheduled 253,
+     :r/name-raw "ESCOLA DE CONDUÇÃO OESTE",
+     :r/total-done 231,
+     :r/d-rate 0.4812,
+     :r/t-scheduled 112.0,
+     :r/k "oeste-01064",
+     :r/total-passed nil,
+     :r/t-done 98.0}],
    :imt-profile
    {:address
     "Rua Cidade de Abrantes, 23 - Santo Onofre, 2500-146 Caldas da Rainha",
@@ -497,7 +539,21 @@
      :r/t-scheduled 442.0,
      :r/k "caldas-01297",
      :r/total-passed 499.0,
-     :r/t-done 409.0}],
+     :r/t-done 409.0}
+    {:r/nec 1297,
+     :r/level-0 "2021",
+     :r/d-scheduled 419,
+     :r/t-rate 0.605,
+     :r/total-rate 0.5693,
+     :r/d-done 372,
+     :r/total-scheduled 799,
+     :r/name-raw "ESCOLA DE CONDUÇÃO CALDAS",
+     :r/total-done 729,
+     :r/d-rate 0.5349,
+     :r/t-scheduled 380.0,
+     :r/k "caldas-01297",
+     :r/total-passed nil,
+     :r/t-done 357.0}],
    :imt-profile
    {:address
     "Rua Cardeal Alpedrinha, n.º 72 - A, 2500-843 CALDAS DA RAINHA",
@@ -746,7 +802,21 @@
      :r/t-scheduled 187.0,
      :r/k "nova-rainha-01333",
      :r/total-passed 248.0,
-     :r/t-done 169.0}],
+     :r/t-done 169.0}
+    {:r/nec 1333,
+     :r/level-0 "2021",
+     :r/d-scheduled 173,
+     :r/t-rate 0.6357,
+     :r/total-rate 0.6224,
+     :r/d-done 165,
+     :r/total-scheduled 310,
+     :r/name-raw "Escola de condução Nova Rainha",
+     :r/total-done 294,
+     :r/d-rate 0.6121,
+     :r/t-scheduled 137.0,
+     :r/k "nova-rainha-01333",
+     :r/total-passed nil,
+     :r/t-done 129.0}],
    :imt-profile
    {:address
     "Rua Cardeal Alpedrinha, n.º 72 A, 2500-843 Caldas da Rainha",
@@ -846,7 +916,21 @@
      :r/t-scheduled 119.0,
      :r/k "tecnica-01346",
      :r/total-passed 185.0,
-     :r/t-done 117.0}],
+     :r/t-done 117.0}
+    {:r/nec 1346,
+     :r/level-0 "2021",
+     :r/d-scheduled 194,
+     :r/t-rate 0.76,
+     :r/total-rate 0.7324,
+     :r/d-done 190,
+     :r/total-scheduled 349,
+     :r/name-raw "Escola de Condução Técnica",
+     :r/total-done 340,
+     :r/d-rate 0.7105,
+     :r/t-scheduled 155.0,
+     :r/k "tecnica-01346",
+     :r/total-passed nil,
+     :r/t-done 150.0}],
    :imt-profile
    {:address
     "Rua Marquês de Pombal, n.º 25 A cave Dtª 2500-235 CALDAS DA RAINHA",
@@ -873,4 +957,48 @@
     :x -9.127875542793362,
     :y 39.40986999283072,
     :score 96.47,
-    :c 2}}]]
+    :c 2}}]
+ ["motoschool-01418"
+  {:nec 1418,
+   :rates
+   [{:r/nec 1418,
+     :r/level-0 "2021",
+     :r/d-scheduled 41,
+     :r/t-rate 0.7647,
+     :r/total-rate 0.764,
+     :r/d-done 38,
+     :r/total-scheduled 95,
+     :r/name-raw "ESCOLA DE CONDUÇÃO MOTOSCHOOL",
+     :r/total-done 89,
+     :r/d-rate 0.7632,
+     :r/t-scheduled 54.0,
+     :r/k "motoschool-01418",
+     :r/total-passed nil,
+     :r/t-done 51.0}],
+   :imt-profile
+   {:address
+    "Rua Capitão Filipe de Sousa, 128 a 130 A, 2500-066 Caldas da Rainha",
+    :name "Motoschool",
+    :href-id #uuid "4fe5662c-1111-3bc8-88a6-617e3ab2a083",
+    :distrito "Leiria",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Motoschool.aspx",
+    :concelho "Caldas da Raínha",
+    :nec 1418,
+    :cp7 "2500-066",
+    :id #uuid "344bce00-51cd-35fe-ba8b-c0912cdfe678",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/leiria/caldas-da-rainha/4fe5662c-motoschool.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Leiria&Concelho=Caldas%20da%20Rainha"},
+   :geocode
+   {:id #uuid "344bce00-51cd-35fe-ba8b-c0912cdfe678",
+    :address
+    "Rua Capitão Filipe de Sousa, 128 a 130 A, 2500-066 Caldas da Rainha",
+    :address-c
+    "Rua Capitão Filipe de Sousa 128, 2500-140, Caldas da Rainha, Leiria",
+    :postal-c "2500-140",
+    :x -9.13331003353619,
+    :y 39.407630013026136,
+    :score 97.98,
+    :c 1}}]]

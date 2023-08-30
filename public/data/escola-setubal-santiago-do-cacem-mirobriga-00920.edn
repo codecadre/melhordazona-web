@@ -83,7 +83,21 @@
    :r/t-scheduled 100.0,
    :r/k "mirobriga-00920",
    :r/total-passed 117.0,
-   :r/t-done 91.0}],
+   :r/t-done 91.0}
+  {:r/nec 920,
+   :r/level-0 "2021",
+   :r/d-scheduled 72,
+   :r/t-rate 0.7595,
+   :r/total-rate 0.8742,
+   :r/d-done 72,
+   :r/total-scheduled 151,
+   :r/name-raw "ESCOLA DE CONDUÇÃO MIRÓBRIGA",
+   :r/total-done 151,
+   :r/d-rate 1.0,
+   :r/t-scheduled 79.0,
+   :r/k "mirobriga-00920",
+   :r/total-passed nil,
+   :r/t-done 79.0}],
  :imt-profile
  {:address
   "Bairro Pôr do Sol, Bloco 14 B r/c 7500-190 VILA NOVA DE SANTO ANDRÉ",

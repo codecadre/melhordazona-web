@@ -34,7 +34,7 @@
     (catch Exception e '())))
 
 (def year-selector
-  #{"2015" "2016" "2017" "2018" "2019" "2020"})
+  #{"2015" "2016" "2017" "2018" "2019" "2020" "2021"})
 
 (defn page [url-map {:keys [nec rates geocode imt-profile] :as school}]
   (let [lang (:lang url-map)

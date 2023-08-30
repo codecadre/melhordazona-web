@@ -1,0 +1,40 @@
+{:nec 1454,
+ :rates
+ [{:r/nec 1454,
+   :r/level-0 "2021",
+   :r/d-scheduled 0,
+   :r/t-rate 1.0,
+   :r/total-rate 0.0,
+   :r/d-done 0,
+   :r/total-scheduled 3,
+   :r/name-raw "Escola de Condução BN Valongo",
+   :r/total-done 31,
+   :r/d-rate nil,
+   :r/t-scheduled 3.0,
+   :r/k "bn-valongo-01454",
+   :r/total-passed nil,
+   :r/t-done 3.0}],
+ :imt-profile
+ {:address "Rua Ilhar Mourisco, n.º 220 4440-661 Valongo",
+  :name "BN Valongo",
+  :href-id #uuid "6378f55c-d591-3d1f-bc3e-d89e3ccdf722",
+  :distrito "Porto",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/BNValongo.aspx",
+  :concelho "Valongo",
+  :nec 1454,
+  :cp7 "4440-661",
+  :id #uuid "29892d9b-7170-34be-8333-c44ceb656554",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/porto/valongo/6378f55c-bn-valongo.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Porto&Concelho=Valongo"},
+ :geocode
+ {:id #uuid "29892d9b-7170-34be-8333-c44ceb656554",
+  :address "Rua Ilhar Mourisco, n.º 220 4440-661 Valongo",
+  :address-c "Rua Ilhar Mourisca 220, 4440-661, Valongo, Porto",
+  :postal-c "4440-661",
+  :x -8.492229975989204,
+  :y 41.19105999879122,
+  :score 92.71,
+  :c 1}}

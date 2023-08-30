@@ -83,7 +83,21 @@
    :r/t-scheduled 303.0,
    :r/k "hp-dois-00631",
    :r/total-passed 498.0,
-   :r/t-done 286.0}],
+   :r/t-done 286.0}
+  {:r/nec 631,
+   :r/level-0 "2021",
+   :r/d-scheduled 410,
+   :r/t-rate 0.6891,
+   :r/total-rate 0.7441,
+   :r/d-done 362,
+   :r/total-scheduled 821,
+   :r/name-raw "ESCOLA DE CONDUÇÃO HP DOIS",
+   :r/total-done 719,
+   :r/d-rate 0.7983,
+   :r/t-scheduled 411.0,
+   :r/k "hp-dois-00631",
+   :r/total-passed nil,
+   :r/t-done 357.0}],
  :imt-profile
  {:address
   "Rua Manuel Giraldes da Silva, Lote 13 R/C Dtº 2955-162 Pinhal Novo",

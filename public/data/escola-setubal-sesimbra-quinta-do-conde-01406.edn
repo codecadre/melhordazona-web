@@ -41,7 +41,21 @@
    :r/t-scheduled 238.0,
    :r/k "quinta-do-conde-01406",
    :r/total-passed 305.0,
-   :r/t-done 229.0}],
+   :r/t-done 229.0}
+  {:r/nec 1406,
+   :r/level-0 "2021",
+   :r/d-scheduled 221,
+   :r/t-rate 0.6406,
+   :r/total-rate 0.6538,
+   :r/d-done 210,
+   :r/total-scheduled 526,
+   :r/name-raw "Escola de Condução Quinta do Conde",
+   :r/total-done 491,
+   :r/d-rate 0.6714,
+   :r/t-scheduled 305.0,
+   :r/k "quinta-do-conde-01406",
+   :r/total-passed nil,
+   :r/t-done 281.0}],
  :imt-profile
  {:address
   "Av. Principal, n.º 1152 r/c, Quinta do Conde 1, 2975-246 Quinta do Conde",

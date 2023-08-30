@@ -83,7 +83,21 @@
    :r/t-scheduled 202.0,
    :r/k "lidador-01004",
    :r/total-passed 258.0,
-   :r/t-done 174.0}],
+   :r/t-done 174.0}
+  {:r/nec 1004,
+   :r/level-0 "2021",
+   :r/d-scheduled 259,
+   :r/t-rate 0.602,
+   :r/total-rate 0.5664,
+   :r/d-done 231,
+   :r/total-scheduled 631,
+   :r/name-raw "ESCOLA DE CONDUÇÃO LIDADOR",
+   :r/total-done 535,
+   :r/d-rate 0.5195,
+   :r/t-scheduled 372.0,
+   :r/k "lidador-01004",
+   :r/total-passed nil,
+   :r/t-done 304.0}],
  :imt-profile
  {:address
   "Praça Evaristo da Silva Duarte nº 118-1º Dtº 4475-634 AVIOSO (SANTA MARIA)",

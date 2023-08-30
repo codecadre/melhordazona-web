@@ -89,7 +89,22 @@
    :r/t-scheduled 47.0,
    :r/k "e-formacao-profissional-da-marinha-grande-00854",
    :r/total-passed 67.0,
-   :r/t-done 47.0}],
+   :r/t-done 47.0}
+  {:r/nec 854,
+   :r/level-0 "2021",
+   :r/d-scheduled 73,
+   :r/t-rate 0.7955,
+   :r/total-rate 0.6339,
+   :r/d-done 68,
+   :r/total-scheduled 117,
+   :r/name-raw
+   "ESCOLA DE CONDUÇÃO E FORMAÇÃO PROFISSIONAL DA MARINHA GRANDE",
+   :r/total-done 112,
+   :r/d-rate 0.5294,
+   :r/t-scheduled 44.0,
+   :r/k "e-formacao-profissional-da-marinha-grande-00854",
+   :r/total-passed nil,
+   :r/t-done 44.0}],
  :imt-profile nil,
  :obs "license 854 is 'Monte Real' in imt.pt",
  :overwrite/notes nil}

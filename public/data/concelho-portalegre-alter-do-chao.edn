@@ -84,7 +84,21 @@
      :r/t-scheduled 53.0,
      :r/k "bom-sucesso-00283",
      :r/total-passed 51.0,
-     :r/t-done 49.0}],
+     :r/t-done 49.0}
+    {:r/nec 283,
+     :r/level-0 "2021",
+     :r/d-scheduled 22,
+     :r/t-rate 0.7879,
+     :r/total-rate 0.8679,
+     :r/d-done 20,
+     :r/total-scheduled 55,
+     :r/name-raw "ESCOLA DE CONDUÇÃO BOM SUCESSO",
+     :r/total-done 53,
+     :r/d-rate 1.0,
+     :r/t-scheduled 33.0,
+     :r/k "bom-sucesso-00283",
+     :r/total-passed nil,
+     :r/t-done 33.0}],
    :imt-profile
    {:address
     "Tapada do Lago – Zona Industrial - Apt.36 7440-152 ALTER DO CHÃO",

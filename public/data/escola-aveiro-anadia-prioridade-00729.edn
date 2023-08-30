@@ -83,7 +83,21 @@
    :r/t-scheduled 135.0,
    :r/k "prioridade-00729",
    :r/total-passed 185.0,
-   :r/t-done 132.0}],
+   :r/t-done 132.0}
+  {:r/nec 729,
+   :r/level-0 "2021",
+   :r/d-scheduled 164,
+   :r/t-rate 0.5969,
+   :r/total-rate 0.5858,
+   :r/d-done 147,
+   :r/total-scheduled 376,
+   :r/name-raw "ESCOLA DE CONDUÇÃO PRIORIDADE",
+   :r/total-done 338,
+   :r/d-rate 0.5714,
+   :r/t-scheduled 212.0,
+   :r/k "prioridade-00729",
+   :r/total-passed nil,
+   :r/t-done 191.0}],
  :imt-profile
  {:address
   "Av. Eng. Tavares da Silva, Fr. F, Bl. 2, Lj R/chão 3780-203 ANADIA",

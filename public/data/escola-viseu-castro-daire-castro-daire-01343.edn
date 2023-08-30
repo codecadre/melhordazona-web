@@ -69,7 +69,21 @@
    :r/t-scheduled 111.0,
    :r/k "castro-daire-01343",
    :r/total-passed 117.0,
-   :r/t-done 96.0}],
+   :r/t-done 96.0}
+  {:r/nec 1343,
+   :r/level-0 "2021",
+   :r/d-scheduled 93,
+   :r/t-rate 0.6949,
+   :r/total-rate 0.7488,
+   :r/d-done 89,
+   :r/total-scheduled 225,
+   :r/name-raw "Escola de Condução Castro Daire",
+   :r/total-done 207,
+   :r/d-rate 0.8202,
+   :r/t-scheduled 132.0,
+   :r/k "castro-daire-01343",
+   :r/total-passed nil,
+   :r/t-done 118.0}],
  :imt-profile
  {:address
   "Rua Eng. Adelino Amaro da Costa, 31, Bairro da Regadinho, 3600-127 Castro Daire",

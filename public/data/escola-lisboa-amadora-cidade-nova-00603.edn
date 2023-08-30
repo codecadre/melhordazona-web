@@ -83,7 +83,21 @@
    :r/t-scheduled 126.0,
    :r/k "cidade-nova-00603",
    :r/total-passed 161.0,
-   :r/t-done 123.0}],
+   :r/t-done 123.0}
+  {:r/nec 603,
+   :r/level-0 "2021",
+   :r/d-scheduled 144,
+   :r/t-rate 0.7188,
+   :r/total-rate 0.662,
+   :r/d-done 127,
+   :r/total-scheduled 315,
+   :r/name-raw "ESCOLA DE CONDUÇÃO CIDADE NOVA",
+   :r/total-done 287,
+   :r/d-rate 0.5906,
+   :r/t-scheduled 171.0,
+   :r/k "cidade-nova-00603",
+   :r/total-passed nil,
+   :r/t-done 160.0}],
  :imt-profile
  {:address
   "Rua Sargento Ajudante Manuel António, Nº 11 A 2720-356 AMADORA",

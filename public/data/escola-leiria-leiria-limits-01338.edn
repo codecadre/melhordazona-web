@@ -69,7 +69,21 @@
    :r/t-scheduled 80.0,
    :r/k "limits-01338",
    :r/total-passed 131.0,
-   :r/t-done 78.0}],
+   :r/t-done 78.0}
+  {:r/nec 1338,
+   :r/level-0 "2021",
+   :r/d-scheduled 97,
+   :r/t-rate 0.729,
+   :r/total-rate 0.7487,
+   :r/d-done 92,
+   :r/total-scheduled 217,
+   :r/name-raw "Escola de Condução Limits",
+   :r/total-done 199,
+   :r/d-rate 0.7717,
+   :r/t-scheduled 120.0,
+   :r/k "limits-01338",
+   :r/total-passed nil,
+   :r/t-done 107.0}],
  :imt-profile
  {:address
   "Estrada Nacional 109, n.º 161, Várzeas, 2425-507 Souto da Carpalhosa",

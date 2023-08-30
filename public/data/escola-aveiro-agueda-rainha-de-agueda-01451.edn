@@ -1,0 +1,40 @@
+{:nec 1451,
+ :rates
+ [{:r/nec 1451,
+   :r/level-0 "2021",
+   :r/d-scheduled 0,
+   :r/t-rate 1.0,
+   :r/total-rate 0.0,
+   :r/d-done 0,
+   :r/total-scheduled 2,
+   :r/name-raw "Escola de Condução Rainha de Águeda",
+   :r/total-done 21,
+   :r/d-rate nil,
+   :r/t-scheduled 2.0,
+   :r/k "rainha-de-agueda-01451",
+   :r/total-passed nil,
+   :r/t-done 2.0}],
+ :imt-profile
+ {:address "Rua António Breda n.º 35 r/c 3750-106 Águeda",
+  :name "Rainha de Águeda",
+  :href-id #uuid "74feb596-d17f-3e9a-bcaf-9fcaba68dc22",
+  :distrito "Aveiro",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Rainhade%c3%81gueda.aspx",
+  :concelho "Águeda",
+  :nec 1451,
+  :cp7 "3750-106",
+  :id #uuid "6fca4fd0-d6bc-3c75-a384-abf2a047981f",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/aveiro/agueda/74feb596-rainha-de-agueda.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Aveiro&Concelho=%C3%81gueda"},
+ :geocode
+ {:address "Rua António Breda n.º 35 r/c 3750-106 Águeda",
+  :address-c
+  "Rua Doutor António Breda 35, 3750-032, Borralha, Águeda, Aveiro",
+  :postal-c "3750-032",
+  :x -8.446229798064,
+  :y 40.564770390116,
+  :score 93.85,
+  :c 1}}

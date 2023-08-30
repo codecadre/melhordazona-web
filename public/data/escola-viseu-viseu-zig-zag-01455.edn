@@ -1,0 +1,39 @@
+{:nec 1455,
+ :rates
+ [{:r/nec 1455,
+   :r/level-0 "2021",
+   :r/d-scheduled 6,
+   :r/t-rate 0.5217,
+   :r/total-rate 0.5357,
+   :r/d-done 5,
+   :r/total-scheduled 31,
+   :r/name-raw "Escola de Condução Zig Zag",
+   :r/total-done 28,
+   :r/d-rate 0.6,
+   :r/t-scheduled 25.0,
+   :r/k "zig-zag-01455",
+   :r/total-passed nil,
+   :r/t-done 23.0}],
+ :imt-profile
+ {:address
+  "Av. D. Afonso Henriques, Quinta da Alagoa, Lote 178, r/c Esq., 3500-626 Viseu",
+  :name "Zig Zag",
+  :href-id #uuid "01cf7150-0aae-3185-a5e7-0e8629fac468",
+  :distrito "Viseu",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/ZigZag.aspx",
+  :concelho "Viseu",
+  :nec 1455,
+  :cp7 "3500-626",
+  :id #uuid "3bba91fa-cf96-3e2a-88a4-7d491695b778",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viseu/viseu/01cf7150-zig-zag.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Viseu&Concelho=Viseu"},
+ :geocode
+ {:cp7 "3500-626",
+  :postal-c "3500-626",
+  :x -7.901025008364115,
+  :y 40.64210501995035,
+  :score 100,
+  :c 1}}

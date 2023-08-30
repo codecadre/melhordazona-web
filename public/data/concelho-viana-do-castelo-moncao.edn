@@ -84,7 +84,21 @@
      :r/t-scheduled 113.0,
      :r/k "covas-00266",
      :r/total-passed 170.0,
-     :r/t-done 105.0}],
+     :r/t-done 105.0}
+    {:r/nec 266,
+     :r/level-0 "2021",
+     :r/d-scheduled 135,
+     :r/t-rate 0.6629,
+     :r/total-rate 0.785,
+     :r/d-done 129,
+     :r/total-scheduled 325,
+     :r/name-raw "ESCOLA DE CONDUÇÃO COVAS",
+     :r/total-done 307,
+     :r/d-rate 0.9535,
+     :r/t-scheduled 190.0,
+     :r/k "covas-00266",
+     :r/total-passed nil,
+     :r/t-done 178.0}],
    :imt-profile
    {:address "Rua Eng.º Duarte Pacheco , Loja 8 4950-454 MONÇÃO",
     :name "Covas",
@@ -108,6 +122,45 @@
     :x -8.482643645012,
     :y 42.077320964062,
     :score 96.86,
+    :c 1}}]
+ ["deuladeu-00544"
+  {:nec 544,
+   :rates
+   [{:r/nec 544,
+     :r/level-0 "2021",
+     :r/d-scheduled 3,
+     :r/t-rate 0.75,
+     :r/total-rate 0.7333,
+     :r/d-done 3,
+     :r/total-scheduled 16,
+     :r/name-raw "ESCOLA DE CONDUÇÃO DEU-LA-DEU",
+     :r/total-done 15,
+     :r/d-rate 0.6667,
+     :r/t-scheduled 13.0,
+     :r/k "deuladeu-00544",
+     :r/total-passed nil,
+     :r/t-done 12.0}],
+   :imt-profile
+   {:address "Rua Gonçalves Gomes n.º 61 Fração U; 4950-275 Mazedo",
+    :name "Deu-la-Deu",
+    :href-id #uuid "6385be29-a873-38d9-a065-8433b6323088",
+    :distrito "Viana do Castelo",
+    :imt-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Deu-la-Deu.aspx",
+    :concelho "Monção",
+    :nec 544,
+    :cp7 "4950-275",
+    :id #uuid "48bd0067-88a2-320c-b7e7-2bd2ac5a55a2",
+    :file-name
+    "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/viana-do-castelo/moncao/6385be29-deu-la-deu.edn",
+    :concelho-href
+    "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=VianaCastelo&Concelho=Mon%C3%A7%C3%A3o"},
+   :geocode
+   {:cp7 "4950-275",
+    :postal-c "4950-275",
+    :x -8.486894559341891,
+    :y 42.07286659724679,
+    :score 100,
     :c 1}}]
  ["a-moncanense-01380"
   {:nec 1380,
@@ -167,7 +220,21 @@
      :r/t-scheduled 117.0,
      :r/k "a-moncanense-01380",
      :r/total-passed 156.0,
-     :r/t-done 108.0}],
+     :r/t-done 108.0}
+    {:r/nec 1380,
+     :r/level-0 "2021",
+     :r/d-scheduled 75,
+     :r/t-rate 0.5579,
+     :r/total-rate 0.703,
+     :r/d-done 70,
+     :r/total-scheduled 180,
+     :r/name-raw "Escola de Condução A Monçanense",
+     :r/total-done 165,
+     :r/d-rate 0.9,
+     :r/t-scheduled 105.0,
+     :r/k "a-moncanense-01380",
+     :r/total-passed nil,
+     :r/t-done 95.0}],
    :imt-profile
    {:address
     "Estrada de São Pedro, Urbanização Peixe Frio, Fração K, 4950-457 MONÇÃO",

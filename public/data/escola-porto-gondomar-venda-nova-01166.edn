@@ -83,7 +83,21 @@
    :r/t-scheduled 147.0,
    :r/k "venda-nova-01166",
    :r/total-passed 190.0,
-   :r/t-done 132.0}],
+   :r/t-done 132.0}
+  {:r/nec 1166,
+   :r/level-0 "2021",
+   :r/d-scheduled 195,
+   :r/t-rate 0.5349,
+   :r/total-rate 0.5403,
+   :r/d-done 170,
+   :r/total-scheduled 443,
+   :r/name-raw "ESCOLA DE CONDUÇÃO VENDA NOVA",
+   :r/total-done 385,
+   :r/d-rate 0.5471,
+   :r/t-scheduled 248.0,
+   :r/k "venda-nova-01166",
+   :r/total-passed nil,
+   :r/t-done 215.0}],
  :imt-profile
  {:address
   "Rua Nossa Senhora do Amparo, Nº 155 R/C Dtº 4435-350 RIO TINTO",

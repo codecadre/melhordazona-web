@@ -83,7 +83,21 @@
    :r/t-scheduled 163.0,
    :r/k "rodovia-01165",
    :r/total-passed 248.0,
-   :r/t-done 151.0}],
+   :r/t-done 151.0}
+  {:r/nec 1165,
+   :r/level-0 "2021",
+   :r/d-scheduled 188,
+   :r/t-rate 0.6257,
+   :r/total-rate 0.6752,
+   :r/d-done 172,
+   :r/total-scheduled 374,
+   :r/name-raw "ESCOLA DE CONDUÇÃO RODOVIA",
+   :r/total-done 351,
+   :r/d-rate 0.7267,
+   :r/t-scheduled 186.0,
+   :r/k "rodovia-01165",
+   :r/total-passed nil,
+   :r/t-done 179.0}],
  :imt-profile
  {:address
   "Edificio Tojal - R. N. Senhora dos Milagres, 26 Ala B, Loja F 3680-077 OLIVEIRA de FRADES",

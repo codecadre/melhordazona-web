@@ -165,4 +165,12 @@
                                :overwrite/obs "archived and nec and href was reused."}
  "a-desportiva-palacio-00464" {:address-id #uuid "dd02ded2-636f-3be7-8653-14164f72de37"
                                :overwrite/obs "archived and nec and href was reused."}
+ "df-00863" {:address-id nil
+             :overwrite/obs "license 863 is 'Portugalia' in imt.pt"}
+ "lena-d-arrifana-01123" {:address-id nil
+                          :overwrite/obs "license 1123 is 'Arrifanense' in imt.pt"}
+ "matriz-01186" {:address-id nil
+                 :overwrite/obs "license 1186 is 'Rio Ave' in imt.pt"}
+ "veiculos-01443" {:address-id nil
+                   :overwrite/obs "license 1443 is 'Volante Dourado' in imt.pt"}
 }

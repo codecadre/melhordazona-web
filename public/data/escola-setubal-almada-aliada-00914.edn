@@ -1,0 +1,43 @@
+{:nec 914,
+ :rates
+ [{:r/nec 914,
+   :r/level-0 "2021",
+   :r/d-scheduled 151,
+   :r/t-rate 0.5714,
+   :r/total-rate 0.5894,
+   :r/d-done 141,
+   :r/total-scheduled 338,
+   :r/name-raw "ESCOLA DE CONDUÇÃO ALIADA",
+   :r/total-done 302,
+   :r/d-rate 0.6099,
+   :r/t-scheduled 187.0,
+   :r/k "aliada-00914",
+   :r/total-passed nil,
+   :r/t-done 161.0}],
+ :imt-profile
+ {:address
+  "Estrada da Bela Vista 179 –Quinta Nova 2820-171 CHARNECA DA CAPARICA",
+  :name "Aliada",
+  :href-id #uuid "21f4d1ec-6cf7-3977-87bc-1810de8b3211",
+  :distrito "Setúbal",
+  :imt-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/Aliada.aspx",
+  :concelho "Almada",
+  :nec 914,
+  :cp7 "2820-171",
+  :id #uuid "5536876a-727a-3511-a5b6-c7a4153fcd72",
+  :file-name
+  "aggregate-transform-load/imt-school-addresses-submodule/parsed-data/setubal/almada/21f4d1ec-aliada.edn",
+  :concelho-href
+  "https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/LocalizacaoEscolasConducao/Paginas/LocalizacaoEscolasConducao.aspx?Distrito=Setubal&Concelho=Almada"},
+ :geocode
+ {:id #uuid "5536876a-727a-3511-a5b6-c7a4153fcd72",
+  :address
+  "Estrada da Bela Vista 179 –Quinta Nova 2820-171 CHARNECA DA CAPARICA",
+  :address-c
+  "Estrada da Bela Vista 179, 2820-171, Charneca da Caparica, Almada, Setúbal",
+  :postal-c "2820-171",
+  :x -9.193315661108489,
+  :y 38.63117653354633,
+  :score 98.21,
+  :c 2}}

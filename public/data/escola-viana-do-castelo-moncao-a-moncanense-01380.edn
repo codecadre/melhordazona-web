@@ -55,7 +55,21 @@
    :r/t-scheduled 117.0,
    :r/k "a-moncanense-01380",
    :r/total-passed 156.0,
-   :r/t-done 108.0}],
+   :r/t-done 108.0}
+  {:r/nec 1380,
+   :r/level-0 "2021",
+   :r/d-scheduled 75,
+   :r/t-rate 0.5579,
+   :r/total-rate 0.703,
+   :r/d-done 70,
+   :r/total-scheduled 180,
+   :r/name-raw "Escola de Condução A Monçanense",
+   :r/total-done 165,
+   :r/d-rate 0.9,
+   :r/t-scheduled 105.0,
+   :r/k "a-moncanense-01380",
+   :r/total-passed nil,
+   :r/t-done 95.0}],
  :imt-profile
  {:address
   "Estrada de São Pedro, Urbanização Peixe Frio, Fração K, 4950-457 MONÇÃO",

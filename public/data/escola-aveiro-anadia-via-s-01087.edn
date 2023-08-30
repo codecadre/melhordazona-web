@@ -83,7 +83,21 @@
    :r/t-scheduled 110.0,
    :r/k "via-s-01087",
    :r/total-passed 142.0,
-   :r/t-done 106.0}],
+   :r/t-done 106.0}
+  {:r/nec 1087,
+   :r/level-0 "2021",
+   :r/d-scheduled 165,
+   :r/t-rate 0.791,
+   :r/total-rate 0.6702,
+   :r/d-done 151,
+   :r/total-scheduled 309,
+   :r/name-raw "ESCOLA DE CONDUÇÃO VIA S",
+   :r/total-done 285,
+   :r/d-rate 0.5629,
+   :r/t-scheduled 144.0,
+   :r/k "via-s-01087",
+   :r/total-passed nil,
+   :r/t-done 134.0}],
  :imt-profile
  {:address
   "Avenida das Laranjeiras, Edifício Panorama, Bloco B Anadia",

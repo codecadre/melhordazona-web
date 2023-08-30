@@ -83,7 +83,21 @@
    :r/t-scheduled 159.0,
    :r/k "nova-geracao-01240",
    :r/total-passed 243.0,
-   :r/t-done 151.0}],
+   :r/t-done 151.0}
+  {:r/nec 1240,
+   :r/level-0 "2021",
+   :r/d-scheduled 141,
+   :r/t-rate 0.7872,
+   :r/total-rate 0.7341,
+   :r/d-done 126,
+   :r/total-scheduled 295,
+   :r/name-raw "ESCOLA DE CONDUÇÃO NOVA GERAÇÃO",
+   :r/total-done 267,
+   :r/d-rate 0.6746,
+   :r/t-scheduled 154.0,
+   :r/k "nova-geracao-01240",
+   :r/total-passed nil,
+   :r/t-done 141.0}],
  :imt-profile
  {:address
   "Rua Marcelino Mesquita, Nº 11, Loja 1-A 2795-134 LINDA-A-VELHA",

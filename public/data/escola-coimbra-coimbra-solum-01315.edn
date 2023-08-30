@@ -83,7 +83,21 @@
    :r/t-scheduled 201.0,
    :r/k "solum-01315",
    :r/total-passed 269.0,
-   :r/t-done 180.0}],
+   :r/t-done 180.0}
+  {:r/nec 1315,
+   :r/level-0 "2021",
+   :r/d-scheduled 180,
+   :r/t-rate 0.702,
+   :r/total-rate 0.6769,
+   :r/d-done 161,
+   :r/total-scheduled 406,
+   :r/name-raw "ESCOLA DE CONDUÇÃO SOLUM",
+   :r/total-done 359,
+   :r/d-rate 0.646,
+   :r/t-scheduled 226.0,
+   :r/k "solum-01315",
+   :r/total-passed nil,
+   :r/t-done 198.0}],
  :imt-profile
  {:address
   "Av. João de Deus Ramos, n.º 138-152, Centro comercial Solum, Loja 317, 3.º andar, 3030-328 Coimbra",

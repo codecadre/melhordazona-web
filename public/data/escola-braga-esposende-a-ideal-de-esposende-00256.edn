@@ -83,7 +83,21 @@
    :r/t-scheduled 204.0,
    :r/k "a-ideal-de-esposende-00256",
    :r/total-passed 300.0,
-   :r/t-done 177.0}],
+   :r/t-done 177.0}
+  {:r/nec 256,
+   :r/level-0 "2021",
+   :r/d-scheduled 197,
+   :r/t-rate 0.8639,
+   :r/total-rate 0.8589,
+   :r/d-done 179,
+   :r/total-scheduled 358,
+   :r/name-raw "ESCOLA DE CONDUÇÃO A IDEAL DE ESPOSENDE",
+   :r/total-done 326,
+   :r/d-rate 0.8547,
+   :r/t-scheduled 161.0,
+   :r/k "a-ideal-de-esposende-00256",
+   :r/total-passed nil,
+   :r/t-done 147.0}],
  :imt-profile
  {:address
   "Rua dos Bombeiros Voluntários Fracção B/C 4740-291 ESPOSENDE",
