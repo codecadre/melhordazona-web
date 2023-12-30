@@ -9,7 +9,7 @@ Nesta página explicamos quais as fontes usadas nesta aplicação.
 
 ### 1. Taxas de aprovação
 
-Utilizámos as [taxas de aprovação publicadas a partir de 2015 no site do IMT](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx").
+Utilizámos as [taxas de aprovação publicadas a partir de 2015 no site do IMT](https://www.imt-ip.pt/sites/IMTT/Portugues/EnsinoConducao/taxasdeaprovacao/Paginas/TaxasdeAprovacao.aspx).
 
 Concentrámo-nos nas agregações globais, ou seja, sem distinção entre as várias categorias: automóvel, mota, pesados, etc.
 
