@@ -28,8 +28,6 @@
                    (binding [*command-line-args* (list (str file))]
                      (run 'md-to-html))
                    (run 'beautify)))}
-  sitemap {:doc "builds sitemap.txt"
-           :task (shell "bb src/clj/sitemap.clj")}
   cp7-addresses-geocoding {:doc "geocodes addresses with esri. Pass n or nil to control the number of cp7 done."
                           :task cp7/-main}
   produce-data {:doc "Produces a lot of things... TODO complete description"

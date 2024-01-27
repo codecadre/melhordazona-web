@@ -134,7 +134,7 @@
 
    :no-imt-data/title {:pt "Escolas sem morada | Passa à Primeira"
                        :en "Schools with missing addresses | Passa à Primeira"}
-   :no-imt-data/subtitles {:pt "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."
+   :no-imt-data/subtitles {:pt "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licença no site do IMT."
                            :en "List of schools com pass rates data, but with no address info in the IMT website."}
 
    :directory/meta-title {:pt "Diretório de escolas de condução para todo o país | Passa à Primeira"
