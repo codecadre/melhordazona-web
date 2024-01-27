@@ -11,7 +11,7 @@ An ingestion workflow normally would look like this:
 - 4. `bb cp7-addresses-geocoding` to produce new batch of geocodes.
 - 5. `bb produce-data missing-geocode` and look at the git diff of `/no-geocode.txt`.
 - 6. Get full output `bb produce-data`.
-- 7. Copy the output and add it to `Changelog.edn`.
+- 7. Copy the output, edit it, and add it to `Changelog.edn`.
 - 8. Look at the git diff of `data/db.edn`. There should be no surprises.
 - 9. `rm public/data/*` then `bb web-data`: outputs `public/data/*`, `places.cljc` and `sitemap.txt`
 - 10. finally, build frontend js to include `places.cljc` in the bundle.

@@ -2,16 +2,12 @@
 
 Merges imt-profiles batch from [[DATA FETCH] 25-01-2024](https://github.com/codecadre/imt-school-addresses/pull/4)
 
-1249 School entries from pass rates pdf.
-78 Manual imt-profile overwrites
-1101 Schools WITH imt profile
-Wrote aggregate-transform-load/rates-duplicate-nec.txt
-Wrote aggregate-transform-load/no-imt-profile.txt
-Full Run...
-wrote aggregate-transform-load/simple-db.txt
-47 imt profiles with no geocoding.
-Wrote aggregate-transform-load/no-geocode.txt
-Wrote aggregate-transform-load/data/db.edn
+Data changes summary:
+
+- 1249 School entries from pass rates pdf.
+- 78 Manual imt-profile overwrites
+- 1101 Schools WITH imt profile
+- 47 imt profiles with no geocoding.
 
 
 # 30/08/2023

@@ -40,7 +40,7 @@ Durante o ano de 2021, estes dados foram finalmente publicados, permitindo agora
 Por uma questão de transparência e reproducibilidade, publicamos o código usado para extrair os dados, em formato open source:
 
 - [Taxas de aprovação](https://github.com/codecadre/imt-pass-rates)
-- [Moradas e licensa IMT](https://github.com/codecadre/imt-school-addresses)
+- [Moradas e licença IMT](https://github.com/codecadre/imt-school-addresses)
 
 Para facilitar iniciativas como esta, as taxas de aprovações podem ser importadas num Júpiter Notebook:
 

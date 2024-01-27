@@ -163,7 +163,7 @@
       (merge meta req)
       [:main
        [:div.container
-        [:p "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licensa no site do IMT."]
+        [:p "Lista de escolas com taxas de aprovação, mas sem informação sobre morada ou licença no site do IMT."]
         (no-info-breadcrumbs {} lang)
         [:div
          (->>
