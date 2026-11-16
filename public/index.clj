@@ -117,8 +117,8 @@
            [:get ["contato"]] (contact-handler req)
            ;;[:get ["en" "contact"]] (contact-handler req)
 
-           [:post ["post-contact"]] (post-contact-handler req)
-           [:post ["en" "post-contact"]] (post-contact-handler req)
+           ;;[:post ["post-contact"]] (post-contact-handler req)
+           ;;[:post ["en" "post-contact"]] (post-contact-handler req)
 
            [:get ["distritos-regioes" "sem-info"]] (no-info-redirect req)
            [:get ["distritos-regioes" "sem-info" "escolas"]] (no-imt-profile-handler req)
