@@ -5,9 +5,9 @@
 (defn form [{:keys [lang] :as req} & [success]]
   [:form {:hx-post (path->href "/post-contact" req) :hx-swap "outerHTML" :hx-target "this"}
    [:label {:for "email-input"} (copy-m :contact/email)]
-   [:input {:class "u-full-width" :type "email" :placeholder "ola@mail.com" :id "email-input" :name "email-input"}]
+   [:input {:disabled true :class "u-full-width" :type "email" :placeholder "ola@mail.com" :id "email-input" :name "email-input"}]
    [:label {:for "message"} (copy-m :contact/msg)]
-   [:textarea {:class "u-full-width" :placeholder "Ola Flávio..." :id "message" :name "message"}]
+   [:textarea {:disabled true :class "u-full-width" :placeholder "" :id "message" :name "message"}]
    [:label {:class "send-yourself-copy"}
     [:input {:type "checkbox" :name "send-copy"}]
     [:span {:class "label-body"} (copy-m :contact/send-yourself)]]
