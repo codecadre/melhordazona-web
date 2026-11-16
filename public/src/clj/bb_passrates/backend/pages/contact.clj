@@ -2,7 +2,7 @@
   (:require [bb-passrates.backend.templates.template :as tmp]
             [bb-passrates.shared.copy :refer [copy-m]]
             [clojure.edn :as edn]
-            [bb-passrates.backend.email :as email]
+            ;;[bb-passrates.backend.email :as email]
             [bb-passrates.shared.main :as main :refer [path->href]]
             [bb-passrates.backend.components :refer [form]]))
 

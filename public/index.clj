@@ -13,7 +13,7 @@
             [clojure.core.match :refer [match]]
             [clojure.string :as str]
             [bb-passrates.backend.util :refer [log]]
-            [bb-passrates.backend.email :as email]
+            ;;[bb-passrates.backend.email :as email]
             [bb-passrates.backend.components :as components]
             [clojure.edn :as edn]))
 
@@ -81,7 +81,7 @@
   {:page (contact/page req)
    :header html-header})
 
-(defn post-contact [{:keys [in] :as req}]
+#_(defn post-contact [{:keys [in] :as req}]
   (let [request-data (main/parse-qs-like-string in)
         from (java.net.URLDecoder/decode (:email-input request-data))
         send-copy (= "on" (:send-copy request-data))
@@ -89,7 +89,7 @@
         success? (email/send-me-the-message from body send-copy config)]
     (components/form (assoc req :data request-data) success?)))
 
-(defn post-contact-handler [req]
+#_(defn post-contact-handler [req]
   {:page (post-contact req)
    :header html-header})
 

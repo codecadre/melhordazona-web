@@ -1,6 +1,7 @@
 (ns bb-passrates.backend.email
   (:require [bb-passrates.backend.config :as config]
-            [pod.tzzh.mail :as m]))
+            ;;[pod.tzzh.mail :as m]
+            ))
 
 
 (defn send-me-the-message [from body send-copy config]
