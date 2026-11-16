@@ -149,6 +149,6 @@
    (if local-dev?
      [:script {:src "/shadow-builds/main/js/main.js"}]
      [:script {:src "/js/main.js"}])
-   (when (not local-dev?)
+   #_(when (not local-dev?)
      [:script {:src "https://plausible.io/js/plausible.js"
                :async "defer" :data-domain "passaprimeira.xyz"}])])
